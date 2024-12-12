@@ -344,8 +344,25 @@ This error should be resolvable by modifying the Windows Registry: Open the Wind
 Establish an SSH connection to your server, and type the following command:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+> [!warning]
+>
+> In order to mount shares by hostname (as opposed to IP addresses), the
+> `mount.cifs` utility is required. It is usually part of the `cifs-utils` package.
+> `mount.cifs` is a wrapper which resolves hostnames and adds the `ip=`
+> parameter to the mount parameters passed to the kernel.
+>
+> Without  `mount.cifs`, attempts to mount by hostname will result in the following error:
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> SMB version 2.1 and newer are currently not supported.
+
 
 The code example above contains variables, which you will need to substitute with your own values.
 
