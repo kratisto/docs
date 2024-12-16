@@ -338,7 +338,7 @@ cat /var/www/html/testfile.txt
 
 ### Conclusion
 
-En suivant ce guide, vous avez mis en place un pipeline de déploiement automatique entre votre dépôt GitHub et votre VPS OVHcloud à l’aide de GitHub Actions. Ce workflow simplifie considérablement la gestion des mises à jour de votre site web, en éliminant les déploiements manuels chronophages.
+En suivant ce guide, vous avez mis en place un pipeline de déploiement automatique entre votre dépôt GitHub et votre VPS OVHcloud à l’aide de GitHub Actions. Ce workflow optimise considérablement la gestion des mises à jour de votre site web, en éliminant les déploiements manuels chronophages.
 
 ## Aller plus loin <a name="go-further"></a>
 
