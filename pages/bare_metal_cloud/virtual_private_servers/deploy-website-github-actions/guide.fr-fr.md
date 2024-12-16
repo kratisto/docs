@@ -163,7 +163,7 @@ ssh <user>@<VPS_IP>
 sudo apt update && sudo apt install git -y
 ```
 
-3. Initialisez un dépôt Git dans le répertoire de votre site web :
+3\. Initialisez un dépôt Git dans le répertoire de votre site web :
 
 ```bash
 cd /var/www/html
