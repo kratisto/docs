@@ -302,7 +302,7 @@ mkdir /home/<user>/test-github-actions
 cd /home/<user>/test-github-actions
 ```
 
-2. Clonez le dépôt GitHub dans ce répertoire
+2\. Clonez le dépôt GitHub dans ce répertoire
 
 ```bash
 git clone git@github.com:<github_user>/github-actions.git .
