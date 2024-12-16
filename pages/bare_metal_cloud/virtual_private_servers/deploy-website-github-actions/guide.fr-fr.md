@@ -329,7 +329,7 @@ git push origin main
 
 Rendez-vous dans l'onglet `Actions` de votre dépôt GitHub et vérifiez que le workflow a été déclenché automatiquement après le `git push`. Si le workflow réussit, les modifications seront synchronisées dans le dossier de votre site web (`/var/www/html`).
 
-5. Confirmer la synchronisation dans `/var/www/html`
+5\. Confirmer la synchronisation dans `/var/www/html`
 
 Retournez dans votre répertoire principal de déploiement (`/var/www/html`) et vérifiez que le fichier `testfile.txt` est bien présent :
 
