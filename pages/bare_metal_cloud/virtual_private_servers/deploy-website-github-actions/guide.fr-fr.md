@@ -27,6 +27,8 @@ Automatiser le déploiement de votre site web sur un VPS simplifie considérable
 > [!primary]
 > Afin d'être sûr de remplir les prérequis, consultez les guides « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) » et « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
 
+## Sommaire
+
 - [Configurer l'accès SSH pour GitHub Actions](#configure-ssh)
 - [Ajouter la clé privée à GitHub](#add-private-key-github)
 - [Initialiser le dépôt GitHub (facultatif)](#init-github-repo)
