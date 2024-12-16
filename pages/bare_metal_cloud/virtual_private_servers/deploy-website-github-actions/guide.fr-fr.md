@@ -197,7 +197,7 @@ cd /var/www/html
 mkdir -p .github/workflows
 ```
 
-2. Créez un fichier de workflow
+2\. Créez un fichier de workflow
 
 Créez un fichier `deploy.yml` dans le répertoire `.github/workflows` :
 
