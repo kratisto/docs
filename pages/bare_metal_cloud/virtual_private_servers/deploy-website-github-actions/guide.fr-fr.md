@@ -16,7 +16,7 @@ Automatiser le déploiement de votre site web sur un VPS simplifie considérable
 - Un compte GitHub actif
 - Un dépôt contenant le code de votre site web (facultatif)
 - Un VPS configuré avec les services nécessaires (ex. Apache/Nginx, PHP, SGBD, etc.)
-- Accès administrateur au VPS (via SSH)
+- Disposer d'un accès administrateur au VPS (via SSH)
 
 > [!warning]
 >
