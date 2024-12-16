@@ -124,7 +124,7 @@ Testez la connexion SSH avec GitHub :
 ssh -T git@github.com
 ```
 
-Vous devriez voir un message comme :
+Vous devriez voir un message tel que celui-ci :
 
 ```console
 Hi <user-github>! You've successfully authenticated, but GitHub does not provide shell access.
