@@ -273,7 +273,7 @@ sudo chown -R <user>:www-data /var/www/html
 sudo chmod -R 775 /var/www/html
 ```
 
-2. Testez localement avec rsync
+2\. Testez localement avec rsync
 
 Avant de relancer le workflow GitHub Actions, testez la commande `rsync` manuellement à partir de votre machine locale. Cela vous permettra de confirmer que les permissions sont correctement configurées :
 
