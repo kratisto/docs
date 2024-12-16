@@ -52,7 +52,7 @@ ssh-keygen -t rsa -b 4096 -C "github-actions" -f /home/<user>/.ssh/deploy_key
 
 Remplacez `<user>` par l'utilisateur configuré pour se connecter à votre VPS.
 
-Appuyez sur `Entrée` lorsqu'il vous est demandé une passphrase (laisser la passphrase vide facilite l'automatisation du déploiement avec GitHub Actions. Cependant, cela nécessite de sécuriser la clé privée en la limitant à cet usage et en la stockant de manière sécurisée).
+Appuyez sur `Entrée` lorsqu'une passphrase vous est demandée (laisser la passphrase vide facilite l'automatisation du déploiement avec GitHub Actions. Cependant, cela nécessite de sécuriser la clé privée en la limitant à cet usage et en la stockant de manière sécurisée).
 
 Vous obtenez deux fichiers :
 
