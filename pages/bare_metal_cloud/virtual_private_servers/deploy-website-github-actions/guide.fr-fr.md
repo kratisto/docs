@@ -293,7 +293,7 @@ Lorsqu'un `git push` est effectué sur la branche `main` (ou toute autre branche
 
 ##### **Tester le workflow**
 
-1. Clonez le dépôt GitHub dans un répertoire de test sur le VPS
+1\. Clonez le dépôt GitHub dans un répertoire de test sur le VPS
 
 Créez un répertoire temporaire sur votre VPS pour simuler un autre environnement utilisateur. Par exemple :
 
