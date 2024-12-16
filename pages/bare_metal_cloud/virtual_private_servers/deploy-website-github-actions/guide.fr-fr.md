@@ -40,7 +40,7 @@ Automatiser le déploiement de votre site web sur un VPS simplifie considérable
 
 Si votre site web existe déjà, identifiez le chemin du répertoire où il est hébergé. Par exemple, sur un VPS OVHcloud, il peut s'agir de `/var/www/html`. Conservez ce chemin pour l'utiliser lors de la configuration du pipeline GitHub Actions.
 
-Pour permettre à GitHub Actions de déployer automatiquement votre site web, vous devez configurer un accès SSH sécurisé à votre VPS.
+Pour permettre à GitHub Actions de déployer automatiquement votre site web, configurez un accès SSH sécurisé à votre VPS.
 
 #### Créer une paire de clés SSH
 
