@@ -314,7 +314,7 @@ Si votre dépôt est déjà en HTTPS , mettez-le à jour pour utiliser SSH :
 git remote set-url origin git@github.com:<github_user>/github-actions.git
 ```
 
-3. Effectuez une modification dans le dépôt de test
+3\. Effectuez une modification dans le dépôt de test
 
 Ajoutez un nouveau fichier ou modifiez un fichier existant dans le répertoire de test et faites un git push sur votre dépôt GitHub :
 
