@@ -291,7 +291,7 @@ Lorsqu'un `git push` est effectué sur la branche `main` (ou toute autre branche
 - Configuration de la clé SSH pour établir une connexion avec votre VPS.
 - Synchronisztion des fichiers depuis le dépôt GitHub vers le répertoire `/var/www/html` de votre VPS via `rsync`.
 
-##### Tester le workflow
+##### **Tester le workflow**
 
 1. Clonez le dépôt GitHub dans un répertoire de test sur le VPS
 
