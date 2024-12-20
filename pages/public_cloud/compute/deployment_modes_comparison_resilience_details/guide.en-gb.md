@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Objective
 
-OVHcloud offers several deployment modes for its service, like with les [Compute instances](/links/public-cloud/compute), [S3 Object Storage](/links/public-cloud/object-storage), [Containers & Orchestration](/links/public-cloud/kubernetes), each tailored to specific needs regarding resilience, availability, performance, and latency. This document provides a detailed explanation of the characteristics of the characteristics of each deployment mode (1-AZ, 3-AZ, Local Zones), explaining the benefits and limitations of each.
+OVHcloud offers several deployment models to meet different needs in terms of resilience, availability, performance and latency. This guide provides an overview of the main features of the deployment options available: 1-AZ, 3-AZ and Local Zones. It details their specific features, benefits and limitations to help you make the best strategic choices for your cloud deployments.
 
 By offering a clear and detailed comparison, this guide will enable users to make an informed decision based on their specific priorities, whether it's ensuring high availability for critical applications, minimizing costs while providing fault tolerance, or meeting local compliance and ultra-low latency requirements.
 
@@ -28,39 +28,38 @@ Additionally, we will highlight the real-world challenges users may face, such a
 
 ## Concepts
 
-OVHcloud provides a robust and adaptable infrastructure, designed to meet a wide variety of use cases through deployment modes that balance cost-efficiency, redundancy, and fault tolerance. This flexibility extends across OVHcloud's entire portfolio of services, enabling customers to customize solutions to meet their specific requirements.
+OVHcloud provides a robust and adaptable infrastructure, designed to meet a wide variety of use cases through deployment models that balance cost-effectiveness, redundancy and fault tolerance. These different options allow users to choose the approach best suited to their resilience, availability and performance requirements.
 
-1. **1-AZ Region**: Ideal for general workloads such as storage, backup, or applications where cost optimization is the priority. These regions provide a solid foundation of resilience with single-zone deployment, balancing reliability and performance.
-2. **3-AZ Region**: Designed for business-critical applications requiring high availability and data durability. With replication across three availability zones, this mode minimizes downtime risks and ensures continuity even in the event of major disruptions.
-3. **Local Zones**: Perfect for use cases demanding low latency and geographical compliance. By hosting infrastructure closer to end-users, Local Zones enable seamless performance for edge computing, gaming, and content delivery.
+1. **1-AZ Region**: These single-zone regions are ideal for workloads where cost optimisation is a priority. They are ideally suited to general needs such as storage, backup or applications whose availability requirements do not call for multi-zone redundancy. They offer a good compromise between reliability, performance and cost control.
+2. **3-AZ Region**: This model is designed for mission-critical applications requiring high availability and resilience. By replicating data across three distinct availability zones, 3-AZ regions significantly reduce the risk of downtime, guaranteeing business continuity even in the event of incidents affecting one or more zones. This level of redundancy is particularly well suited to demanding production environments.
+3. **Local Zones**: These infrastructures are specifically designed to meet needs requiring ultra-low latency or strict geographical constraints. By placing resources close to end-users, Local Zones are ideal for use cases such as high-end computing, video games, content delivery or solutions requiring local regulatory compliance.
 
-The principles of resilience and fault tolerance seen in these deployment models extend across OVHcloud's services, including:
-
-- **Compute instances**: Offering failover and scaling options in single or multi-zone configurations to match the redundancy levels required by your workload.
-- **Databases**: Supporting high availability with distributed setups across regions or zones for critical applications.
-- **Network**: Ensuring connectivity through diverse routes and disaster recovery mechanisms for uninterrupted access.
-- **Containers and Orchestrations**: Providing cluster resilience with multi-zone deployments, guaranteeing consistent performance and fault isolation.
+Each of these options is based on the fundamental principles of resilience, performance and fault tolerance.
 
 ## Deployment modes
 
 > [!primary]
 >
-> OVHcloud offers multiple region deployment modes, each tailored to meet diverse business requirements by providing varying levels of redundancy, fault tolerance, and geographical distribution. These deployment modes ensure flexibility, scalability, and resilience across all OVHcloud services, empowering customers to align their infrastructure with their operational priorities:
+> OVHcloud offers a number of regional deployment models, designed to meet the varying needs of businesses by offering different levels of redundancy, fault tolerance and geographical distribution. These options provide flexibility, scalability and resilience, enabling customers to align their infrastructure with their operational and strategic priorities.
 
 ### 1-AZ Region
 
 #### Infrastructure and Redundancy
 
-A 1-AZ Region consists of a **single availability zone that spans multiple data centers within the same region**, utilizing a 2N+1 redundancy design. This setup ensures resilience against server rack and disk failures, but it is vulnerable to a complete data center outage. While services and data are protected against local hardware failures (e.g., server or disk issues), a complete data center failure could impact service availability, even if other data centers within the same availability zone remain operational.
+A 1-AZ region is **a single availability zone made up of several data centres in the same geographical area**. It uses a 2N+1 redundancy architecture, designed to ensure resilience against local hardware failures, such as disk or server failures. However, this configuration remains vulnerable to failures affecting the entire data centre.
+
+Services and data are protected against localised incidents thanks to effective internal redundancy, but a major or total breakdown of a data centre could compromise the availability of services.
 
 #### Characteristics
 
 - **Erasure Coding:** Implements mechanisms such as replication or erasure coding (depending on the service) to ensure continuity in case of hardware failures. Data is distributed across multiple servers and storage units within the availability zone to mitigate the impact of localized issues.
 - **Cost-Effectiveness:** This deployment model is cost-efficient, ideal for general-purpose workloads, development environments, and backups. It prioritizes affordability over enhanced fault tolerance provided by multi-AZ configurations.
+- **Operational simplicity**: A single zone of availability facilitates management while offering minimal tolerance to internal failures.
 
 #### Limitations
 
-- **Outage Risk:** If a data center experiences an outage, data or services may become unavailable, especially if the affected data center hosts critical services. However, redundancy is maintained within the availability zone for hardware failures.
+**Risk of outage:** Dependence on a single availability zone can affect critical services if the data centre suffers a complete outage.
+**No regional redundancy**: Unlike multi-AZ deployments, there is no replication of data or services between different availability zones in the region.
 
 > [!success]
 >
@@ -70,17 +69,18 @@ A 1-AZ Region consists of a **single availability zone that spans multiple data 
 
 | Specification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Redundancy Type**   | 2N+1 across multiple data centers                                         |
-| **Fault Tolerance**   | Protects against server and disk failures; data center outages may impact services.           |
-| **Use Case Examples** | Suitable for general-purpose applications, testing, development, and backups.                                    |
-
+| **Redundancy Type**   | 2N+1 architecture distributed across several interconnected data centres.                                        |
+| **Fault Tolerance**   | Protects against disk and server failures, but not against total data centre failure.           |
+| **Data protection** | Data replicated within the AZ to guarantee local resilience.                                    |
+| **Limits** | No inter-regional or inter-zone protection; dependent on a single AZ.                                    |
 
 #### Scaling
 
 In a 1-AZ Region, scaling options are somewhat limited due to the single availability zone. Here's how scaling works in this setup:
 
-- **Limited to a single zone:** Horizontal scaling (adding instances across other zones) is not possible since there is only one availability zone. Vertical scaling (increasing the capacity of an instance or service) is feasible but does not provide fault tolerance across regions.
-- **Typical use case:** Suitable for development environments, applications with low availability requirements, and scenarios where resilience is not a priority, but internal redundancy is still needed to handle hardware failures.
+- **Vertical scaling:** Increasing the capacity of existing resources (CPU, memory) is a common solution, but it does not guarantee increased fault tolerance.
+- **Horizontal scaling:** Although this is possible within the AZ, it does not provide redundancy between several availability zones.
+- **Geographical constraint:** All resources remain confined to the same availability zone.
 
 #### Architecture example
 
@@ -95,7 +95,7 @@ In a 1-AZ Region, scaling options are somewhat limited due to the single availab
 Architecture:
 - **Single Availability Zone (AZ):** Made up of several interconnected data centres, it guarantees resilience in the face of localised breakdowns, while at the same time providing a model suited to moderate application requirements.
 - **Internal replication:** Data is replicated internally to protect against disk or server failures within the zone.
-- **Backup Integration:** The application uses S3 storage for regular backups, ensuring data can be restored if needed.
+- **Backup integration:** The application uses object storage for regular backups, ensuring that data can be restored if necessary.
 - **Compute Instances:** Basic application tasks are handled by compute instances in the same AZ, with auto-scaling for resource management.
 
 ///
@@ -110,22 +110,22 @@ Architecture:
 
 - **High Availability:** Data remains available for both read and write operations, even in the event of a zone failure. This architecture is ideal for applications requiring fault tolerance, as the data is replicated across all three availability zones. Even in the event of a disruption in one zone, service continuity is maintained.
 - **Fault isolation:** Each availability zone is independent in terms of power, networking, and cooling, which means issues in one zone won’t directly impact the others. This leads to a higher level of redundancy and ensures that service interruptions are minimized.
+- **Optimised latency:** Low latency between zones ensures fast, reliable communications, ideal for demanding workloads.
 
-#### Ideal Use Cases
+#### Limits
 
-3-AZ Regions are perfect for mission-critical and availability-sensitive applications where data governance requires continuous data availability, such as e-commerce, healthcare platforms, financial services, or live-streaming applications.
+- **Higher cost:** This configuration requires a higher initial investment, due to the duplication of services and the implementation of inter-zone replication mechanisms.
+- **Not resilient to a complete regional failure:** Although robust in the face of local failures, a 3-AZ Region does not guarantee tolerance in the event of a failure affecting the entire region.
+- **Management complexity:** Workloads must be designed to take advantage of this architecture, which may require additional expertise and effort.
 
-> [!success]
->
-> While this setup provides strong protection, it may not be completely resilient in the case of an unlikely regional outage. For even greater data availability and resilience, solutions like multi-region asynchronous replication can be implemented.
-
-#### Performance Specifications for 3-AZ
+#### Redundancy Specifications for 3-AZ
 
 | Specification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Connectivity**      | Low latency between availability zones, ensuring fast and reliable communication.                                    |
-| **High Availability** | Services remain accessible even during an availability zone failure, ensuring minimal disruption.                      |
-| **Use Case Examples** | Suitable for mission-critical applications, streaming, e-commerce, healthcare, and other high-availability workloads. |
+| **Type of redundancy**      | 3N avec réplication inter-zones.                                    |
+| **Fault tolerance** | Guarantees resilience against the loss of an entire zone, with automatic failover.                      |
+| **Data protection** | Data replicated synchronously between zones to guarantee continuous availability. |
+| **Limits** | Does not protect against complete regional failure; requires multi-regional architecture for maximum resilience. |
 
 #### Scaling
 
@@ -133,7 +133,7 @@ In a 3-AZ Region, scaling is more flexible, offering the ability to scale horizo
 
 - **Optimized horizontal scaling:** With replication and distribution of services across three independent zones, horizontal scaling becomes more seamless, ensuring high availability, optimal performance, and efficient resource distribution.
 - **Optimized load balancing:** With multiple availability zones, load balancing and traffic distribution are optimized, ensuring better performance and resilience.
-- **Typical use case:** Ideal for critical applications that require high availability, such as e-commerce platforms or financial services, which demand both consistent performance and resilience against zone failures.
+- **Increased resilience:** The ability to scale between zones means you can meet growing demand while maintaining fault tolerance.
 
 #### Architecture example
 
@@ -146,42 +146,51 @@ In a 3-AZ Region, scaling is more flexible, offering the ability to scale horizo
 > An e-commerce platform that demands high availability and performance. This deployment mode ensures service continuity even in the event of a failure in one entire availability zone.
 
 Architecture:
-- **Three availability zones** (AZs) distributed geographically, providing true fault isolation and redundancy.
-- **Real-time data replication** between zones ensures continuous access to application data, even during a failure in one of the zones.
-- **Redundant compute instances** deployed across multiple zones to provide failover capabilities and guarantee consistent performance.
-- **Load balancers** to efficiently distribute traffic between availability zones, maintaining smooth user experience despite potential disruptions.
+- **Three availability zones (AZs):** Each zone is geographically isolated to avoid the impact of a local disaster.
+- **Data replication:** Synchronous replication of data between the three zones to guarantee continuous availability.
+- **Distributed instances:** Application instances are deployed in each zone, ensuring redundancy and high availability.
+- **Load balancers:** Load balancers manage user traffic by distributing requests between zones, even in the event of a failure.
+- **Regional backups:** Backups are outsourced to a regional S3 solution to protect against total data loss.
 
 ///
 
 ### Local Zones
 
-#### Design and Flexibility
+#### Infrastructure and design
 
-Local Zones are designed to bring OVHcloud services closer to end-users, reducing latency and helping meet local compliance requirements. These zones are ideal for applications that demand low-latency performance and real-time processing, such as edge computing and content delivery.
+Local Zones bring OVHcloud services closer to end users by reducing latency and enabling data to be processed locally. They are designed to offer optimal performance for applications requiring low latency and proximity to users, while meeting local compliance requirements.
 
-#### Benefits for Compliance and Cost
+Each Local Zone is an extension of a core region and operates as a single availability zone, making it ideal for scenarios where latency is a priority, but multi-AZ redundancy is not essential.
 
-- **Reduced Network Costs:** Local Zones help minimize data travel distance, lowering network costs and improving performance.
-- **Localized Storage:** Supports compliance with regional data localization requirements, making it ideal for applications subject to specific regulatory frameworks.
+#### Characteristics
 
-#### Limitations
+- **Reduced latency:** Local Zones ensure fast response times, ideal for real-time applications such as online gaming or video conferencing.
+- **Local compliance:** Data can be processed and stored in specific locations, making it easier to comply with location and regulatory requirements.
+- **Regional extension:** Local Zones act as an extension of the main regions to complete critical workloads locally, while benefiting from the services of the parent region.
 
-- **Single Zone Limitation:** Local Zones are limited to a single availability zone and do not provide cross-zone redundancy, which limits data recovery options in the event of a disaster.
+#### Limits
 
-#### Use Case Specifications for Local Zones
+- **No inter-zone redundancy:** Unlike multi-AZ regions, Local Zones do not offer redundancy between several zones, which limits service continuity in the event of a failure.
+- **Single zone limitation:** Local Zones operate within a single availability zone, making them vulnerable to local failures.
+- **Dependency on the main region:** In the event of a failure affecting the main region, Local Zones may also be affected for certain critical services.
+
+#### Redundancy Specifications for Local Zones
 
 | Advantage        | Description                                           |
 |------------------|-------------------------------------------------------|
-| **Performance**      | Ultra-low latency, ensuring optimal performance for real-time applications.             |
-| **Data Compliance**  | Facilitates compliance with regional data localization and regulatory requirements. |
-| **Use Case Examples**| Ideal for online gaming, video conferencing, edge computing, and other latency-sensitive applications. |
+| **Type of redundancy**      | Triple local replication within the zone to guarantee resilience in the event of hardware failure.             |
+| **Fault tolerance**  | Guarantees continuity of operations in the event of a disk or server failure within the zone, but does not protect against a total failure of the availability zone. |
+| **Data protection**| Data replicated in the zone to guarantee local availability. |
+| **Limits**| No protection against global or regional failures, dependent on a single Local Zone. |
 
 #### Scaling
 
 In Local Zones, scaling is designed to meet the demands of low-latency applications while being restricted to a single availability zone. Here’s how scaling is structured:
 
-- **Latency reduction, but with constraints:** Scaling in a Local Zone is primarily aimed at minimizing latency for real-time applications. However, since it is limited to a single availability zone, scaling must be carefully planned to maximize performance while avoiding local failure risks.
-- **Typical use case:** Perfect for ultra-low-latency applications like online gaming, augmented reality, or live video streaming, where every millisecond counts, and low latency is crucial for user experience.
+- **Horizontal and vertical scalability options:** Local Zones support instance scaling, but are limited by local capacity and the lack of additional zones for load balancing.
+- **Ultra-low latency:** Scaling is focused on keeping latency to a minimum, ideal for real-time workloads.
+- **Planning required:** Because it is limited to a single zone, careful planning is essential to avoid saturating available resources and guarantee stable performance.
+- **Regional dependency:** For more complex or redundant scaling requirements, Local Zones may be dependent on the resources of the main region. This can introduce additional latency if external resources are required.
 
 #### Architecture example
 
@@ -195,9 +204,10 @@ In Local Zones, scaling is designed to meet the demands of low-latency applicati
 
 Architecture:
 - **Local Zones:** located near the user base, significantly reducing latency and improving overall performance.
-- **Processing Servers and Storage:** Deployed within the Local Zones for fast data access and responsiveness.
+- **Internal replication:** Critical data is replicated locally within the zone to ensure resilience in the event of hardware failure.
+- **Localized processing:** Application and processing servers are deployed in Local Zones to deliver optimal performance.
 - **Regulated Data:** Stored within the Local Zones for compliance with data localization laws, reducing bandwidth costs.
-- **Load Balancers:** Redirect traffic to another Local Zone or availability zone during a failure, ensuring minimal downtime and continuous service.
+- **Load balancers:** Traffic redirected to other Local Zones (if available) or main regions to ensure minimum service continuity in the event of a local failure.
 
 ///
 
@@ -206,7 +216,7 @@ Architecture:
 | Characteristics        | 1-AZ Region                         | 3-AZ Region                     | Local Zones                              |
 |------------------------|-------------------------------------|---------------------------------|------------------------------------------|
 | **Deployment Structure**   | Single availability zone            | Three independent availability zones | Single availability zone                |
-| **Redundancy**             | 2N+1 internal                       | Cross-zone redundancy            | Local triple replication                |
+| **Redundancy**             | 2N+1 internal (resources in a single AZ)                      | Cross-zone redundancy (resources replicated between zones)          | Local triple replication (replication of resources in a single zone)               |
 | **Data Availability**      | Limited during data center outages, protected against server/disk failures | Maintained across zones, resilient to zone outages | Limited during data center outages, protected against server/disk failures |
 | **Latency**                | Low for close end-users                            | Low for close end-users and ultra low between availability zones   | Low for close end-users |
 | **Ideal Use Cases**        | Development, staging environments, cost-sensitive applications, non-critical services | High-availability applications, critical business services, disaster recovery, and mission-critical workloads | Real-time applications, edge computing, gaming, video streaming, regulatory-compliant services |
