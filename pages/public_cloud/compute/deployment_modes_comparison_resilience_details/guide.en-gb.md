@@ -74,6 +74,10 @@ Services and data are protected against localised incidents thanks to effective 
 | **Data protection** | Data replicated within the AZ to guarantee local resilience.                                    |
 | **Limits** | No inter-regional or inter-zone protection; dependent on a single AZ.                                    |
 
+**2N+1 architecture:**
+
+This architecture doubles the resources required (2N) and adds an extra unit (+1) to guarantee continuity of service in the event of a local failure (server, disk). Resources are distributed between several datacentres in the same AZ, ensuring low latency and local resilience. However, it does not protect against a global failure of the AZ.
+
 #### Scaling
 
 In a 1-AZ Region, scaling options are somewhat limited due to the single availability zone. Here's how scaling works in this setup:
@@ -126,6 +130,10 @@ Architecture:
 | **Fault tolerance** | Guarantees resilience against the loss of an entire zone, with automatic failover.                      |
 | **Data protection** | Data replicated synchronously between zones to guarantee continuous availability. |
 | **Limits** | Does not protect against complete regional failure; requires multi-regional architecture for maximum resilience. |
+
+**3N with inter-zone replication :**
+
+In this architecture, resources are tripled (3N) and distributed between three distinct availability zones (AZ). Data is replicated synchronously between zones, guaranteeing total resilience against the loss of an entire zone thanks to automatic failover. However, this architecture does not protect against a complete regional failure.
 
 #### Scaling
 
@@ -182,6 +190,10 @@ Each Local Zone is an extension of a core region and operates as a single availa
 | **Fault tolerance**  | Guarantees continuity of operations in the event of a disk or server failure within the zone, but does not protect against a total failure of the availability zone. |
 | **Data protection**| Data replicated in the zone to guarantee local availability. |
 | **Limits**| No protection against global or regional failures, dependent on a single Local Zone. |
+
+**Triple local replication:**
+
+Data is replicated three times in the same Local Zone, offering resilience against hardware failure (disk or server). However, this architecture does not protect against a complete zone failure and remains dependent on a single Local Zone.
 
 #### Scaling
 
