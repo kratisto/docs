@@ -1,7 +1,7 @@
 ---
 title: Data - Compliance between AI Tools and S3 compatible Object Storage
 excerpt: Learn how to use S3* compatible Object Storage buckets with AI Tools
-updated: 2024-12-27
+updated: 2024-12-30
 ---
 
 ## Objective
