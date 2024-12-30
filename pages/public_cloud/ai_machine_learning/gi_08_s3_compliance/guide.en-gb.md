@@ -220,6 +220,13 @@ You will need to replace:
 - `<my-access-key>` by the [access key](#retrieve-user-credentials) of the associated user
 - `my-secret-key` by the [secret key](#retrieve-user-credentials) of the associated user
 
+> [!primary]
+>
+> **Note**: This endpoint also allows you to choose between **Standard** and **High Performance** storage classes. The storage class you select will determine the storage class used during file upload to the bucket when using the `ovhai` CLI. If you plan to upload files using the Control Panel (UI), you will have the option to choose between Standard and High Performance storage. However, when using the CLI, the **default endpoint will use Standard storage**. If you require **High Performance** storage, please **ensure that the endpoint ends with `.perf.cloud.ovh.net`**.
+>
+> For more information on storage classes, please consult this [documentation](/pages/storage_and_backup/object_storage/s3_choosing_the_right_storage_class_for_your_needs).
+>
+
 Here is an example to add a datastore named `1azgra` that will handle 1-AZ buckets created in Gravelines (`gra`) region (since they share the same `endpoint_url`):
 
 ```console
