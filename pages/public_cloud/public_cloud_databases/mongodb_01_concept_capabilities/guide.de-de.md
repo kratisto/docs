@@ -25,9 +25,9 @@ The Public Cloud Databases offer is available in the following regions:
 
 The Public Cloud Databases offer supports the following MongoDB versions:
 
-- MongoDB 5.0
 - MongoDB 6.0
 - MongoDB 7.0
+- MongoDB 8.0 (Soon)
 
 Please refer to the [DBMS lifecycle policy guide](/pages/public_cloud/public_cloud_databases/information_02_lifecycle_policy) for recommendations on version upgrades and end of life announcements of major versions. Additionally, MongoDB recommends always installing and using the latest stable version of MongoDB. See [MongoDB Versioning](https://docs.mongodb.com/manual/reference/versioning/){.external} for more information.
 
