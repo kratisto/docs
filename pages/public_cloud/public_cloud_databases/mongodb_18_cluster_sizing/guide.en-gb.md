@@ -6,7 +6,7 @@ updated: 2024-06-27
 
 ## Objective
 
-To get you started with MongoDB on OVHcloud, the following page will show you how to determine the initial sizing for a MongoDB deployment, considering whether to opt for an Advanced or Production subscription on a public or private network. After deploying the cluster, we will provide guidelines on how to connect with Compass and then how to upscale and downscale an OVHcloud cluster. Additionally, we will cover MongoDB basics such as Design Patterns, indexing, and querying to help you  get started effectively with MongoDB.
+To get you started with MongoDB on OVHcloud, the following page will show you how to determine the initial sizing for a MongoDB deployment, considering whether to opt for an Advanced or Production subscription on a public or private network. After deploying the cluster, we will provide guidelines on how to connect with Compass and then how to upscale and downscale an OVHcloud cluster.
 
 ## MongoDB Cluster Sizing
 
@@ -187,157 +187,27 @@ You can add the [compressors](https://www.mongodb.com/docs/manual/reference/conn
 
 ## Create your MongoDB Database Cluster
 
-You can refer to the [Getting Started](https://help.ovhcloud.com/csm/en-public-cloud-databases-getting-started?id=kb_article_view&sysparm_article=KB0048745) documentation to create your MongoDB cluster based on the result of the sizing.
+You can refer to the [Getting Started](/pages/public_cloud/public_cloud_databases/mongodb_13_getting_started) documentation to create your MongoDB cluster based on the result of the sizing.
 
 ## Private vs Public Networks for Managed MongoDB Database
 
-When deploying a managed MongoDB database, one critical decision involves choosing between a [private and public network setup](https://help.ovhcloud.com/csm/en-ie-public-cloud-databases-configure-vrack?id=kb_article_view&sysparm_article=KB0048817). Each option has its own set of advantages and considerations. Understanding these differences can help you make an informed decision that best suits your application's requirements.
+When deploying a managed MongoDB database, one critical decision involves choosing between a [private and public network setup](/pages/public_cloud/public_cloud_databases/databases_08_vrack). Each option has its own set of advantages and considerations. Understanding these differences can help you make an informed decision that best suits your application's requirements.
 
 ## Scale Up MongoDB Cluster
 
-[Upscaling a MongoDB cluster](https://help.ovhcloud.com/csm/en-ie-public-cloud-databases-update-cluster-plan?id=kb_article_view&sysparm_article=KB0061030) by adding more CPU, RAM, and I/O resources ensures optimal performance as workloads increase. Additional CPU power enhances query processing capabilities, while increased RAM allows more data to be cached in memory, speeding up read operations. Enhanced I/O capacity improves data read/write speeds, essential for high-throughput applications. Overall, upscaling maintains database responsiveness and reliability, supporting evolving business needs.
+[Upscaling a MongoDB cluster](/pages/public_cloud/public_cloud_databases/databases_14_upgrade_your_cluster_plan) by adding more CPU, RAM, and I/O resources ensures optimal performance as workloads increase. Additional CPU power enhances query processing capabilities, while increased RAM allows more data to be cached in memory, speeding up read operations. Enhanced I/O capacity improves data read/write speeds, essential for high-throughput applications. Overall, upscaling maintains database responsiveness and reliability, supporting evolving business needs.
 
 ## Scale Down MongoDB Cluster
 
-Not available for now.
+[Downscaling a MongoDB cluster](/pages/public_cloud/public_cloud_databases/databases_14_upgrade_your_cluster_plan) to reduce costs, simplify management, and improve efficiency for workloads with lower resource needs, while minimizing maintenance overhead.
 
 ## Connecting to MongoDB Database with MongoDB Compass
 
-To connect to your MongoDB database hosted on OVHcloud using MongoDB Compass, follow these steps:
+You can refer to the [Connect with MongoDB Compass](/pages/public_cloud/public_cloud_databases/mongodb_07_connect_compass) documentation to connect to your Public Cloud Databases for MongoDB using MongoDB Compass.
 
-1. **Install MongoDB Compass**: If you haven't already, [download and install MongoDB Compass](https://www.mongodb.com/try/download/compass)
-2. [**Add a Database User**](https://help.ovhcloud.com/csm/en-public-cloud-databases-mongodb-managing-service?id=kb_article_view&sysparm_article=KB0049061): In your OVHcloud account, navigate to your MongoDB cluster under section **General Information > Login Information > Manage users** and add a new [database user with the appropriate permissions](https://www.mongodb.com/docs/manual/tutorial/manage-users-and-roles/).
-3. **Whitelist your IP address**: Navigate to your MongoDB cluster, under the **Authorized IPs** tab, make sure to include your IP.
-4. **Open MongoDB Compass**: Launch MongoDB Compass on your computer.
-5. **Obtain Connection String**: In your OVHcloud account, navigate to your MongoDB cluster, and under **General Information** obtain the connection string. This string includes necessary information such as the hostname and authentication details.
-6. **Edit Connection String**: Make sure to replace the `<username>` and `<password>` with user information you created in the previous step.
+## Go further
 
-![alt text](./images/compassConnection.png)
-   
-8. **Connect**: click the "Connect" button to establish a connection to your MongoDB database.
-
-## Insert and Query Data
-you can use the [mongoshell](https://www.mongodb.com/docs/mongodb-shell/), integrated in Compass, to create your first database and collection. Below is a script that creates the database **company** and collection **customer** and inserts 100 random documents.
-
-### Load Data into MongoDB
-
-To load 100 documents into a collection called `customer` with random data, use the following `mongosh` script:
-
-```javascript
-use company;
-
-// Function to generate random data
-function getRandomData() {
-    const firstNames = ["John", "Jane", "Mary", "Michael", "Sarah", "Robert", "Linda", "James", "Patricia", "David"];
-    const lastNames = ["Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor"];
-    const domains = ["example.com", "email.com", "mail.com", "test.com", "demo.com"];
-    
-    function getRandomItem(array) {
-        return array[Math.floor(Math.random() * array.length)];
-    }
-    
-    return {
-        firstName: getRandomItem(firstNames),
-        lastName: getRandomItem(lastNames),
-        email: `${getRandomItem(firstNames).toLowerCase()}.${getRandomItem(lastNames).toLowerCase()}@${getRandomItem(domains)}`,
-        age: Math.floor(Math.random() * 60) + 18,
-        createdAt: new Date()
-    };
-}
-
-// Insert 100 random documents into the customer collection
-const bulk = db.customer.initializeUnorderedBulkOp();
-for (let i = 0; i < 100; i++) {
-    bulk.insert(getRandomData());
-}
-bulk.execute();
-
-print("100 random documents inserted into the 'customer' collection.");
-```
-![alt text](./images/compassShell.png)
-
-### Query Data with the Aggregation Framework
-
-The below MongoDB aggregation pipeline uses the [MongoDB Aggregation Framework](https://www.mongodb.com/docs/manual/aggregation/) to group customers by age and count each occurence. You can use the mongoshell to execute:
-
-```javascript
-db.customer.aggregate([
-    {
-        $group: {
-            _id: "$age",
-            count: { $sum: 1 }
-        }
-    },
-    {
-        $sort: { _id: 1 }
-    }
-]);
-```
-
-You can also use the UI with Compass to execute the aggregation pipeline.
-
-![alt text](./images/compassAggregation.png)
-
-## MongoDB Developer Best Practices
-
-### Data Modeling and Design Patterns
-
-- **Understand Your Application Requirements**: Start by thoroughly understanding the application requirements and how data will be accessed. This helps in designing schemas that meet performance and scalability needs.
-
-- **Use Schema Design Patterns**: Utilize common [schema design patterns](https://www.mongodb.com/blog/post/building-with-patterns-a-summary) like the **Bucket Pattern**, **Outlier Pattern**, **Subset Pattern**, and **Attribute Pattern** to handle large datasets efficiently. Each pattern has specific use cases:
-  - [Bucket Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern): Ideal for time-series data, this pattern groups related data into buckets to reduce the number of documents and improve query performance.
-  - [Outlier Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-outlier-pattern): Manage outliers separately to maintain efficient indexing and querying for the majority of your data.
-  - [Subset Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-subset-pattern): Break down large datasets into manageable subsets to enhance performance and maintainability.
-  - [Attribute Pattern](https://www.mongodb.com/blog/post/building-with-patterns-the-attribute-pattern): used to handle scenarios where documents contain a large number of similar fields, by consolidating them into a key-value pair array, thus optimizing for query flexibility and storage efficiency.
-
-- **Avoid Schema Design Anti-Patterns**: Be aware of and avoid common [schema design anti-patterns](https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-summary/) such as:
-  - **Massive Arrays**: Arrays with large numbers of elements can lead to inefficient querying and increased memory usage.
-  - **Overly Deeply Nested Documents**: Deeply nested documents can complicate queries and degrade performance. Instead, consider flattening your data structure or using references.
-  - **Monolithic Collections**: Avoid storing unrelated data in a single collection, which can lead to inefficient indexing and querying.
-
-- **Leverage Document Validation**: Leverage, whenever necessary, MongoDB’s [schema validation](https://www.mongodb.com/docs/manual/core/schema-validation/#schema-validation) to enforce data integrity and ensure that documents adhere to a defined structure. Be cautious not to overuse this feature, as it consumes additional resources. Remember, MongoDB is designed to be flexible.
-
-### Indexing
-
-When developing your [indexing strategy](https://www.mongodb.com/docs/manual/applications/indexes/#indexing-strategies) you should have a deep understanding of your application's queries. Before you build indexes, map out the types of queries you will run so that you can build indexes that reference those fields. Indexes come with a performance cost, but are more than worth the cost for frequent queries on large data sets. 
-
-- **Create Indexes Based on Query Patterns**: Analyze your query patterns and create indexes that support the most frequent and performance-critical queries. Use [compound indexes](https://www.mongodb.com/docs/manual/core/indexes/index-types/index-compound/#compound-indexes) where multiple fields are queried together.
-
-- **Use Covered Queries**: Design [indexes that cover the fields](https://www.mongodb.com/docs/manual/core/query-optimization/#covered-query) required by your queries. This allows MongoDB to satisfy the query using only the index, without scanning the documents, leading to significant performance improvements.
-
-- **Optimize Index Size**: Regularly monitor and optimize the size of your indexes. Use MongoDB’s built-in tools to calculate the total index size and ensure it fits within the available RAM to avoid excessive disk I/O.
-
-- **Avoid Over-Indexing**: While indexes improve query performance, too many indexes can degrade write performance and increase storage requirements. Only create indexes that are necessary for your application’s queries.
-
-- **Use TTL Indexes for Expiring Data**: For data that needs to expire after a certain period, such as session information or logs, use [TTL (Time-To-Live) indexes](https://www.mongodb.com/docs/manual/core/index-ttl/#ttl-indexes). This helps in automatically removing expired data and maintaining an efficient dataset.
-
-- **Equality Sort Range Rule (ESR)**: The [ESR rule](https://www.mongodb.com/docs/manual/tutorial/equality-sort-range-rule/#the-esr--equality--sort--range--rule) in MongoDB is a guideline for optimizing query performance by structuring compound indexes. The rule suggests placing fields used for equality comparisons first, followed by fields used for sorting, and finally fields used for range queries. This order maximizes the efficiency of index utilization and improves query performance.
-
-### ReadPreference and WriteConcern
-
-[ReadPreference](https://www.mongodb.com/docs/manual/core/read-preference/) controls how MongoDB clients direct read operations to the members of a replica set. It determines which member of the replica set will be used for read operations. Here are the types of ReadPreference:
-
-[WriteConcern](https://www.mongodb.com/docs/manual/reference/write-concern/) describes the level of acknowledgment requested from MongoDB for write operations. It ensures data durability and consistency by specifying how many members of the replica set must acknowledge the write.
-
-For more information refer to the following [documentation](https://github.com/ralphsawaya/ovh/blob/main/MongoDoc/mongodb_08_Read%20performance%20%26%20write%20concerns/guide.en-gb.md#introduction).
-
-### Leverage MongoDB Change Streams
-
-MongoDB [Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) provide a powerful way to listen and react to real-time changes in your MongoDB collections. This feature allows applications to be more responsive by enabling real-time updates and notifications. With Change Streams, you can watch for changes such as insertions, updates, deletions, and more in your collections, and then trigger specific actions based on these changes. This capability is essential for building reactive applications, enabling real-time analytics, synchronizing data across different systems, and more.
-
-### Monitoring
-
-- **Implement Comprehensive Monitoring**: Utilize MongoDB’s monitoring tools, such as [database commands](https://www.mongodb.com/docs/manual/administration/monitoring/#mongodb-reporting-tools), [OVHcloud Metrics tab](https://help.ovhcloud.com/csm/en-ie-public-cloud-databases-mongodb-monitoring?id=kb_article_view&sysparm_article=KB0061661), or third-party monitoring solutions, to continuously monitor database performance, resource utilization, and operational metrics.
-
-- **Set Up Alerts**: Configure alerts for key performance indicators such as high CPU usage, memory consumption, disk I/O, and slow queries. This enables proactive management and quick resolution of potential issues.
-
-- **Analyze Query Performance**: Regularly review and analyze query performance using tools like the [MongoDB Profiler](https://www.mongodb.com/docs/manual/reference/database-profiler/) and [Explain Plans](https://www.mongodb.com/docs/manual/reference/explain-results/). Identify and optimize slow queries to ensure efficient data retrieval.
-
-- **Monitor Index Performance**: Keep track of index usage statistics to identify unused or underutilized indexes. Remove or optimize these indexes to maintain optimal performance.
-
-- **Plan for Backups and Disaster Recovery**: Ensure regular backups are scheduled and tested. Utilize MongoDB’s backup tools to create consistent and reliable backups, and have a well-defined disaster recovery plan in place.
-
-By following these best practices, developers can design efficient and scalable MongoDB databases that meet the performance and operational needs of their applications.
+[MongoDB - Developer Best Practices](/pages/public_cloud/public_cloud_databases/mongodb_27_developer_best_practices)
 
 ## We want your feedback!
 
