@@ -78,17 +78,17 @@ To determine the quantity of RAM a cluster should be provisioned with, it's nece
 
 **The Formula**
 
-```2 * ( number of documents * (average field size * compression factor) )```
+`2 * ( number of documents * (average field size * compression factor) )`
 
 **Example**
 
 A string type field of an average of 12 bytes, if we index a collection with 100k documents on a date field the formula will be, if we decide to not count in the compression factor as the value will be highly dynamic:
 
-```(2*(100000*12))/1024/1024 = 2.40MB```
+`(2*(100000*12))/1024/1024 = 2.40MB`
 
 with a heuristic compression factor:
 
-```(2*(100000*(12*0.95)))/1024/1024 = 2.28MB```
+`(2*(100000*(12*0.95)))/1024/1024 = 2.28MB`
 
 For compound indexes, it's the same formula, just sum up all average field sizes. But, we stop here as other types of indexes are way more difficult to determine dimensions.
 
@@ -103,7 +103,7 @@ The working set is the most frequently used data that MongoDB tends to retain in
 
 **Formula**
 
-```WS = ((FDD / TDSD) * S%) * TDS```
+`WS = ((FDD / TDSD) * S%) * TDS`
 
 **The formula explained**
 
@@ -117,7 +117,7 @@ The working set is the most frequently used data that MongoDB tends to retain in
 
 For 30 days of frequently used data over a year, with 30% of queries on frequently used data, and a dataset of 100GB:
 
-```WS = ((30 / 365) * 30%) * 100000 (MB) = 2500 MB~```
+`WS = ((30 / 365) * 30%) * 100000 (MB) = ~2500 MB`
 
 #### Determine the RAM quantity
 
@@ -127,7 +127,7 @@ If we provision with a 32GB RAM per node, then we can assume WiredTiger will hav
 
 The formula then is reversed by the 250% to the correct total RAM value.
 
-```Total cluster memory (TCM) = (TIS + WS) * 250% + 1000 (MB)```
+`Total cluster memory (TCM) = (TIS + WS) * 250% + 1000 (MB)`
 
 - **Total index size (TIS)** in MB
 - **Working set size (WS)** in MB
@@ -136,7 +136,7 @@ The formula then is reversed by the 250% to the correct total RAM value.
 
 Storage size estimation is quite straightforward. Use your test data set as a baseline and look at your db-stats storage size. A formula that can be used is the following:
 
-```Total storage size (TSS) = (TDSS / TSDC) * TADC / B%```
+`Total storage size (TSS) = (TDSS / TSDC) * TADC / B%`
 
 - **Test data storage size (TDSS)**
 - **Test data document count (TSDC)**
@@ -145,7 +145,7 @@ Storage size estimation is quite straightforward. Use your test data set as a ba
 
 Example: If I have 10 million documents in my test data set and the total storage size of that data set is 10 GB and the target system should store 1 billion documents, then it would require ~1.4 TB disk space.
 
-```TSS = (10 GB / 10,000,000) * 1,000,000,000 / 70% = ~1.4 TB```
+`TSS = (10 GB / 10,000,000) * 1,000,000,000 / 70% = ~1.4 TB`
 
 ### Determine CPU
 
@@ -153,7 +153,7 @@ Unfortunately, CPU is a bit more difficult to estimate because it depends strong
 
 However, following the ratio of 1 CPU for every 4GB of RAM for MongoDB clusters usually provides the best performance for the vast majority of applicable use cases. If the application using the MongoDB database does not use much CPU (no aggregation pipeline framework, indexes perfectly covering the majority of the queries), then it is possible to cut the ratio from 1/4 to 1/8. For instance, a workload that performs more writes than reads can easily perform normally with lower CPU usage. The CPU aspect ratio is strictly connected to the WiredTiger storage engine and the quantity of cache it manages. To process the cache properly, the ratio has to be respected.
 
-```Total Cluster CPU (TCC) = TCM / 4```
+`Total Cluster CPU (TCC) = TCM / 4`
 
 Therefore, in an example where the total count of necessary memory is 10 GB, this will produce a result of 2.5 CPUs to allow MongoDB to work properly. A 16 GB RAM size will produce 4 CPUs.
 
@@ -183,7 +183,7 @@ As a distributed database, MongoDB relies on efficient network transport during 
 
 You can add the [compressors](https://www.mongodb.com/docs/manual/reference/connection-string/#compression-options) parameter to the connection string to enable compression:
 
-```mongodb://localhost/?compressors=snappy```
+`mongodb://localhost/?compressors=snappy`
 
 ## Create your MongoDB Database Cluster
 
