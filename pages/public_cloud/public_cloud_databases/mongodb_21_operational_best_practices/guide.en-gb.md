@@ -124,7 +124,7 @@ This articles discusses essential best practices for managing MongoDB post-deplo
 
 ## 6. Performance Tuning
 
-  - [**Use Appropriate Indexes:**](https://github.com/ralphsawaya/ovh/blob/main/MongoDoc/mongodb_02_Best_practise_to_implement%20_your_first_mongoDB_instance/guide.en-gb.md#indexing) Create indexes to support query patterns and Regularly review and optimize indexes.
+  - [**Use Appropriate Indexes:**](/pages/public_cloud/public_cloud_databases/mongodb_27_developer_best_practices) Create indexes to support query patterns and Regularly review and optimize indexes.
 
 ## We want your feedback!
 
