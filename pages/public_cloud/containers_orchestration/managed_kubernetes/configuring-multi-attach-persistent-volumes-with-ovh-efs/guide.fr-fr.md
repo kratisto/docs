@@ -42,13 +42,15 @@ You also need to have [Helm](https://docs.helm.sh/) installed on your workstatio
 
 ### Step 1 - Creating a partition and granting your Managed Kubernetes Service access to it
 
-Your Enterprise File Storage can expose multiple partitions, and supports a variety of protocols. Each partition is accessible only from a specific range of IPs. We will create one exposing EFS and make it accessible from your Kubernetes worker nodes.
+Your Enterprise File Storage service can expose multiple volumes, and supports a variety of protocols. Each volume is accessible only from a specific range of IPs. We will create a new EFS volume and make it accessible from your Kubernetes worker nodes.
+
+You can find more informations about our Entreprise File Storage product by clicking [here](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_control_panel).
 
 Access the UI for OVHcloud Enterprise File Storage by clicking the `Storage and backups`{.action} then `Enterprise File Storage`{.action} menu in the [Bare Metal Cloud section of the OVHcloud Control Panel](/links/manager)
 
 Click your Enterprise File Storage service, then click the `Volumes`{.action} tab. Click the `Create a volume`{.action} button and create the new Enterprise File Storage volume with the following content:
 
-![Create an EFS partition](images/create-efs-volume.png){.thumbnail}
+![Create an EFS volume](images/create-efs-volume.png){.thumbnail}
 
 Provide the following parameters to create a volume:
 
@@ -66,7 +68,7 @@ Enter your Nodes' Public IPs and/or your Public Cloud Gateway Public IP into the
 
 #### Your cluster is installed with Public Network or a private network without using an OVHcloud Internet Gateway or a custom one as your default route
 
-Once the volume is created, we need to allow our Kubernetes nodes to access our newly created partition.
+Once the volume is created, we need to allow our Kubernetes nodes to access it.
 
 Get our Kubernetes nodes IP:
 
@@ -115,7 +117,7 @@ apt update && apt upgrade -y && apt install -y curl && curl ifconfig.ovh
 
 The Public IP of the Gateway you're using should appear.
 
-Click on the `Manage Access`{.action} menu of our newly created partition:
+Click on the `Manage IP Access (ACL)`{.action} menu of our newly created volume:
 
 ![Manage Access of the EFS Volume](images/manage-efs-volume-access.png){.thumbnail}
 
@@ -189,7 +191,7 @@ metadata:
 provisioner: nfs2.csi.k8s.io
 parameters:
   server: '[EFS_IP]'
-  share: '/share_[EFS_PATH]'
+  share: '[EFS_PATH]'
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
 mountOptions:
@@ -199,7 +201,7 @@ mountOptions:
 
 > [!primary]
 >
-> The `EFS_IP` is the private IP of your Enterprise File Storage which starts by '10.x' and the `EFS_PATH` is the path to access your volume which starts by 'share_xxx'
+> The `EFS_IP` is the private IP of your Enterprise File Storage and the `EFS_PATH` is the path to access your volume.
 >
 > The `tcp` parameter instructs the NFS mount to use the TCP protocol.
 >
