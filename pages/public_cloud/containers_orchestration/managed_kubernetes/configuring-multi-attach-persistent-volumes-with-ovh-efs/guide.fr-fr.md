@@ -287,7 +287,7 @@ Output: mount.nfs: access denied by server while mounting 10.201.xx.xx:/share_xx
 
 ```
 
-It mostly means that something went wrong with the HA-NAS ACLs. Check the authorized IPs which can access to the wanted partition on the ACLs list.
+It mostly means that something went wrong with the Enterprise File Storage ACLs. Check the authorized IPs which can access to the wanted partition on the ACLs list.
 
 > [!warning]
 > If the number of __PersistentVolumes__ to schedule simultaneously is too important, some slowness can be encountered and volume creation can be delayed.
