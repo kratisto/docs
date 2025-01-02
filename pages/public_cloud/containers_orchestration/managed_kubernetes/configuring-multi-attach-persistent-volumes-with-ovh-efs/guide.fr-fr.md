@@ -50,7 +50,7 @@ Click your Enterprise File Storage service, then click the `Volumes`{.action} ta
 
 ![Create an EFS partition](images/create-efs-volume.png){.thumbnail}
 
-Here are the parameters you may use to create your volume : 
+Provide the following parameters to create a volume:
 
 | Name                | Description                | Required      |
 | ------------------- | -------------------------- | ------------- |
@@ -61,8 +61,8 @@ Here are the parameters you may use to create your volume :
 
 The volume size needs to be adapted with your needs. For this guide, we define a volume size to 100GiB.
 
-Once your volume is created, clic its ID, then on `Access Control List`{.action}.
-This will let you add your Nodes' Public IPs and/or your Public Cloud Gateway Public IP into the volume's ACLs.
+Once your volume is created, click on its ID and select `Access Control List`{.action}.
+Enter your Nodes' Public IPs and/or your Public Cloud Gateway Public IP into the volume's ACLs. This will ensure your kubernetes worker nodes can reach the storage service.
 
 #### Your cluster is installed with Public Network or a private network without using an OVHcloud Internet Gateway or a custom one as your default route
 
@@ -110,7 +110,7 @@ This command will create a temporary pod and open a console.
 You may have to wait a bit to let the pod be created. Once the shell appears, you can run this command:
 
 ```bash
-apt update && apt upgrade -y && apt install -y curl && curl ifconfig.me
+apt update && apt upgrade -y && apt install -y curl && curl ifconfig.ovh
 ```
 
 The Public IP of the Gateway you're using should appear.
