@@ -1,7 +1,7 @@
 ---
 title: Data - Compliance between AI Tools and S3 compatible Object Storage
 excerpt: Learn how to use S3* compatible Object Storage buckets with AI Tools
-updated: 2024-12-30
+updated: 2025-01-03
 ---
 
 ## Objective
@@ -10,7 +10,7 @@ This guide is intended to help you use `S3* compatible Object Storage buckets` w
 
 Indeed, you will learn how to:
 
-- [Create a S3 compatible Object Storage bucket](#create-a-s3-compatible-bucket)
+- [Create an S3 compatible Object Storage bucket](#create-an-s3-compatible-bucket)
 - [Edit your S3 compatible user roles](#edit-your-s3-compatible-user-roles)
 - [Retrieve user credentials](#retrieve-user-credentials)
 - [Set up proper access permissions](#set-up-proper-access-permissions)
@@ -23,14 +23,14 @@ Indeed, you will learn how to:
 
 To follow this guide, ensure you meet the following requirements:
 
-- A **Public Cloud project**.
 - Access to the [OVHcloud Control Panel (UI)](/links/manager).
+- A **Public Cloud project**.
 - A user account created on this Public Cloud project, with the **AI** and **Object Storage** roles assigned. For more information on how to create such a user, please consult the [Manage AI users and roles](/pages/public_cloud/ai_machine_learning/gi_01_manage_users) documentation.
 - The `ovhai` CLI installed. Please refer to our guide on [how to install ovhai CLI](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli) for assistance.
 
 ## Instructions
 
-### Create a S3 compatible bucket
+### Create an S3 compatible bucket
 
 To create your first **S3 compatible Object Storage bucket**, first log in to the [OVHcloud Control Panel (UI)](/links/manager) and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website and select the Public Cloud project you want to use.
 
@@ -81,13 +81,13 @@ To perform this step, you have two options. Firstly, you can choose from your ex
 
 No additional steps are required to link a user to the bucket, as all users of your Public Cloud project will automatically have access to all containers in Local Zones.
 
-**5\. Versionning, encryption and bucket name**
+**5\. Versioning, encryption and bucket name**
 
 Finally, enable or disable object versioning and data encryption, and name your bucket. Note that the bucket name must be unique across all buckets in your Public Cloud account and must meet the following conditions:
 
 - Between 3 and 63 characters
-- Consist only of lowercase letters, numbers, dots (.), and hyphens (-)
-- Must start and end with lower-case alphanumeric characters (a to z and 0 to 9)
+- Consist only of lower case letters, numbers, dots (.), and hyphens (-)
+- Must start and end with lower case alphanumeric characters (a to z and 0 to 9)
 
 ![S3 compatible bucket name](images/s3-bucket-name.png)
 
@@ -128,7 +128,7 @@ If you have lost the password associated with this username, you can **regenerat
 
 ![user credentials](images/s3-user-retrieve-credentials.png)
 
-Then, you need to retrieve the **access key** and **secret key** associated to this user. To do that, return to the `Object Storage`{.action} section. You will come to the `My containers`{.action} by default section. Click on the `Object Storage Users`{.action} category. Here you will find the **access key** for each of your existing users. You can also view the **secret key** by clicking the `...`{.action} button, then on `view the secret key`{.action}, as showed on the screnshot below:
+Then, you need to retrieve the **access key** and **secret key** associated to this user. To do that, return to the `Object Storage`{.action} section. By default, you will redirected to the `My containers`{.action} section. Click on the `Object Storage Users`{.action} category. Here you will find the **access key** for each of your existing users. You can also view the **secret key** by clicking the `...`{.action} button, then on `view the secret key`{.action}, as showed on the screnshot below:
 
 ![user keys](images/s3-user-retrieve-keys.png)
 
@@ -216,7 +216,7 @@ ovhai datastore add s3 <ALIAS> <endpoint_url> <region> <my-access-key> <my-secre
 You will need to replace:
 - `<alias>` by the name you want to give for your datastore
 - `<endpoint_url>` by the Endpoint value you have retrieved at the end of [bucket creation step](#create-a-s3-compatible-bucket). This endpoint should start with: *https://s3...*.
-- `<region>` by the region where you have created your bucket. This region is indicated as the `Location` of you bucket, on the last screenshot of the [bucket creation step](#create-a-s3-compatible-bucket). **Make sure you use lower case letters.**
+- `<region>` by the region where you have created your bucket. This region is indicated as the `Location` of your bucket, on the last screenshot of the [bucket creation step](#create-a-s3-compatible-bucket). **Make sure you use lower case letters.**
 - `<my-access-key>` by the [access key](#retrieve-user-credentials) of the associated user
 - `my-secret-key` by the [secret key](#retrieve-user-credentials) of the associated user
 
@@ -261,7 +261,7 @@ DATE                     NAME
 2024-12-25T09:00:00.000Z s3-gra-1az
 ```
 
-You can see that the bucket `s3-gra-1az` you created using the Control Panel (UI) has well been found.
+You can see that the bucket `s3-gra-1az` you created using the Control Panel (UI) has been retrieved.
 
 ### Create new buckets linked to this datastore using CLI (Optional)
 
@@ -275,10 +275,10 @@ ovhai bucket create <alias> <new_bucket-name>
 
 > [!warning]
 >
-> Keep in mind that the bucket name must be between 3 and 63 characters, can consist only of lowercase letters, numbers, dots (.), and hyphens (-) and must start and end with lower-case alphanumeric characters (a to z and 0 to 9). 
+> Keep in mind that the bucket name must be between 3 and 63 characters, can consist only of lower case letters, numbers, dots (.), and hyphens (-) and must start and end with lower case alphanumeric characters (a to z and 0 to 9). 
 >
 
-Then you can check that your S3 compatible bucket has well been created, and linked to your datastore (replace <alias> by your datastore name, *1azgra* in previous example):
+Then you can check that your S3 compatible bucket has been created correctly, and linked to your datastore (replace <alias> by your datastore name, *1azgra* in previous example):
 
 ```console
 ovhai bucket list <alias>
@@ -309,7 +309,7 @@ Before connecting your bucket to the AI solutions, you are going to upload a few
 >>
 >> *In this example, the python file `file.py` is added and prefixed by `/scripts`, resulting in the file path `/scripts/file.py`.*
 >>
->> Once upload is completed, you should see uploaded files in the object list.
+>> Once the upload is completed, you should see uploaded files in the object list.
 >>
 >> ![S3 compatible bucket overview](images/s3-bucket-content.png)
 >>
@@ -363,7 +363,7 @@ Now that your **S3 compatible bucket** has been created and populated with some 
 > [!tabs]
 > **AI Notebooks**
 >>
->> To launch an AI notebook with a S3 compatible bucket mounted as remote data, you can use the following command pattern:
+>> To launch an AI notebook with an S3 compatible bucket mounted as remote data, you can use the following command pattern:
 >>
 >> ```console
 >> ovhai notebook run <framework-id> <editor-id> \
@@ -394,7 +394,7 @@ Now that your **S3 compatible bucket** has been created and populated with some 
 >>
 > **AI Training**
 >>
->> To launch an AI Training job with a S3 compatible bucket mounted as remote data, you can use the following command pattern:
+>> To launch an AI Training job with an S3 compatible bucket mounted as remote data, you can use the following command pattern:
 >>
 >> ```console
 >> ovhai job run <docker-image> \
@@ -424,7 +424,7 @@ Now that your **S3 compatible bucket** has been created and populated with some 
 >>
 > **AI Deploy**
 >>
->> To launch an AI Deploy app with a S3 compatible bucket mounted as remote data, you can use the following command pattern:
+>> To launch an AI Deploy app with an S3 compatible bucket mounted as remote data, you can use the following command pattern:
 >>
 >> ```console
 >> ovhai app run <docker-image> \
