@@ -6,16 +6,16 @@ updated: 2024-12-24
 
 ## Objective
 
-A [Gateway](https://www.ovhcloud.com/en-ca/public-cloud/gateway/) offers a secure outbound connection method from your private network instances or the ability to use Floating IPs with your instance or Load Balancer for service exposition.
+A [Gateway](/links/public-cloud/gateway) offers a secure outbound connection method from your private network instances or the ability to use Floating IPs with your instance or Load Balancer for service exposition.
 
-This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](https://ca.api.ovh.com/).
+This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](/links/api).
 
 **Learn how to create a private network with a gateway.**
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-ca/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud API](https://ca.api.ovh.com/), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- Access to the [OVHcloud API](/links/api), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
 - The [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html){.external} tool installed on your working environment (optional)
 
 ## Instructions
@@ -249,7 +249,7 @@ Before proceeding, it is recommended that you consult these guides:
 
 ## Go further
 
-Learn more about Gateway and its scenarios on our [dedicated page](https://www.ovhcloud.com/en-ca/public-cloud/gateway/).
+Learn more about Gateway and its scenarios on our [dedicated page](/links/public-cloud/gateway).
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 

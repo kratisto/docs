@@ -6,16 +6,16 @@ updated: 2024-12-24
 
 ## Objectif
 
-Une [Gateway](https://www.ovhcloud.com/fr-ca/public-cloud/gateway/) offre une méthode de connexion sortante sécurisée depuis vos instances en réseau privé, ou bien encore la possibilité d’utiliser des adresses Floating IP avec votre instance ou votre Load Balancer pour l’exposition de services.
+Une [Gateway](/links/public-cloud/gateway) offre une méthode de connexion sortante sécurisée depuis vos instances en réseau privé, ou bien encore la possibilité d’utiliser des adresses Floating IP avec votre instance ou votre Load Balancer pour l’exposition de services.
 
-Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/links/manager), l’[API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ou l’[API OVHcloud](https://eu.api.ovh.com/).
+Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/links/manager), l’[API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ou l’[API OVHcloud](/links/api).
 
 **Apprenez à créer un réseau privé avec une Gateway**
 
 ## Prérequis
 
-- Posséder un [projet Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) dans votre compte OVHcloud
-- Avoir accès à l’[API OVHcloud](https://ca.api.ovh.com/), à l’[espace client OVHcloud](/links/manager) ou à l’environnement OpenStack ([Tutoriel](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- Posséder un [projet Public Cloud](/links/public-cloud/public-cloud) dans votre compte OVHcloud
+- Avoir accès à l’[API OVHcloud](/links/api), à l’[espace client OVHcloud](/links/manager) ou à l’environnement OpenStack ([Tutoriel](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
 - Pour OpenStack, il est nécessaire de mettre en place le client OpenStack
 
 ## En pratique
@@ -250,7 +250,7 @@ Avant de poursuivre, il est recommandé de consulter ces guides :
 
 ## Aller plus loin
 
-Pour en savoir plus sur Gateway et ses cas d'usage, consultez notre [page dédiée](https://www.ovhcloud.com/fr-ca/public-cloud/gateway/).
+Pour en savoir plus sur Gateway et ses cas d'usage, consultez notre [page dédiée](//links/public-cloud/gateway).
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 

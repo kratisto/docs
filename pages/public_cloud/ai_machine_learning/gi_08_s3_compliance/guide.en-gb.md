@@ -136,7 +136,7 @@ Then, you need to retrieve the **access key** and **secret key** associated to t
 
 It is also important to ensure that this user has the appropriate permissions to access all the files in the bucket. Otherwise, you may encounter permission issues during the AI Solution deployment process.
 
-To grant access to your bucket for your user, click the `...`.{.action} button located next to your bucket name. Then, click the `Add a user to my container` option and select the same user you used during bucket creation.
+To grant access to your bucket for your user, click the `...`{.action} button located next to your bucket name. Then, click the `Add a user to my container` option and select the same user you used during bucket creation.
 
 ![s3 bucket add user](images/s3-bucket-add-user.png)
 
