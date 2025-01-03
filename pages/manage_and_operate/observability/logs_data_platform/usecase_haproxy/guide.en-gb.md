@@ -32,7 +32,7 @@ For this tutorial, you should have read the following ones to fully understand w
 
 ### HAProxy&#58;
 
-HAProxy is a powerful software with many configuration options available. Fortunately the [configuration documentation](http://www.haproxy.org/download/1.9/doc/configuration.txt){.external} is very complete and covers everything you need to know for this tutorial. This tutorial is not a HAProxy tutorial so it will not cover how to install, configure and deploy HAProxy but you will find material on the matter [on the official website](http://www.haproxy.org/#docs){.external}. Depending on your backend you have the choice between several formats for your logs:
+HAProxy is a powerful software with many configuration options available. Fortunately the [configuration documentation](http://www.haproxy.org/download/1.9/doc/configuration.txt){.external} is very complete and coverss everything you need to know for this tutorial. This tutorial is not a HAProxy tutorial so it will not cover how to install, configure and deploy HAProxy but you will find material on the matter [on the official website](http://www.haproxy.org/#docs){.external}. Depending on your backend you have the choice between several formats for your logs:
 
 - **Default format**: Despite giving some information about the client and the destination, this format is not really verbose and cannot really be used for any deep analysis.
 - **Tcp Log format**: This format gives you much more information for troubleshooting your tcp connections and is the one you should use when you have no idea what type of application is started behind your backend.
@@ -156,7 +156,7 @@ This configuration should be familiar, we set the port, the ssl parameter and th
  }
 ```
 
-The filter is divided in 3+1 parts. The first 3 parts are grok filters that try to parse the different format. If failing (with a **_grokparsefailure** tag), try another log format. HTTP, TCP and the error log format are the one tried. The last part is a date filter. This filter is used to translate the dates to the correct [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601){.external} format we use for date parsing. This filter is only executed when one of the previous filter was successful.
+The filter is divided in 3+1 parts. The first 3 parts are grok filters that try to parse the different format. If failing (with a **_grokparsefailure** tag), it tries another log format. HTTP, TCP and the error log format are the one tried. The last part is a date filter. This filter is used to translate the dates to the correct [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601){.external} format we use for date parsing. This filter is only executed when one of the previous filter was successful.
 
 ```ruby
  ### HA PROXY ###
@@ -186,7 +186,7 @@ Every grok pattern has a dedicated part of the log line to parse.
 - **OVHHAPROXYDATE**: This parses the date to extract the day of month, the month, the year and the milliseconds by leveraging the previous pattern.
 - **OVHSYSLOGHEAD**: This can parse an eventual syslog header. We won't use it but it can be useful with some flavors of syslog.
 - **OVHHAPROXYHEAD**: This parses the rsyslog header and the time of reception of the log.
-- **OVHHAPROXYHTTPBASE**: This is the main grok pattern extracting all the information included in a HTTP log line. It uses the field naming convention.
+- **OVHHAPROXYHTTPBASE**: This is the main grok pattern extracting all the information included in an HTTP log line. It uses the field naming convention.
 - **OVHHAPROXYHTTP**: By using a previous header pattern combined with the OVHHAPROXYHTTPBASE, this pattern is the one used in the grok filter.
 - **OVHHAPROXYTCP**: This pattern is the main pattern used to parse TCP logs. It will also use the field naming convention.
 - **OVHHAPROXYERROR**: This pattern will parse any connection error log.
@@ -237,7 +237,7 @@ The flags used to define your log format are described in the [HAProxy documenta
 log-format client_ip:%ci\tclient_port_int:%cp\tdate_time:%t\tfrontend_name:%ft\tbackend_name:%b\tserver_name:%s\ttime_request_int:%Tq\ttime_queue_int:%Tw\ttime_backend_connect_int:%Tc\ttime_backend_response_int:%Tr\ttime_duration_int:%Tt\thttp_status_code_int:%ST\tbytes_read_int:%B\tcaptured_request_cookie:%CC\tcaptured_response_cookie:%CS\ttermination_state:%tsc\tactconn_int:%ac\tfeconn_int:%fc\tbeconn_int:%bc\tsrvconn_int:%sc\tretries_int:%rc\tsrv_queue_int:%sq\tbackend_queue_int:%bq\tcaptured_request_headers:%hr\tcaptured_response_headers:%hs\thttp_request:%r\tmessage:%ci:%cp\ [%t]\ %ft\ %b/%s\ %Tq/%Tw/%Tc/%Tr/%Tt\ %ST\ %B\ %CC\ \ %CS\ %tsc\ %ac/%fc/%bc/%sc/%rc\ %sq/%bq\ %hr\ %hs\ %{+Q}r
 ```
 
-This format not only defines which values are logged but also the final name of the fields that will be used in Logs Data Platform.
+This format not only definess which values are logged but also the final name of the fields that will be used in Logs Data Platform.
 
 #### Rsyslog template configuration
 
@@ -288,7 +288,7 @@ if $programname startswith 'haproxy' then /var/log/haproxy.log
 > `<TAB>` are placeholders! You should replace every <TAB> by proper tabulation characters.
 >
 
-In this configuration, we added some $Action directives to have a more robust configuration and never lose messages when there is a network issue for example. As we mentioned before, you should replace the $DefaultNetstreamDriverCAFile path to your endpoint certificate path. This setup uses two templates that are used in two different cases. The first one is when the incoming message is a LTSV one. We detect it by looking for tabulations characters in the message. If there is no tabulation, we use the second template: it means it is an unexpected message and to not lose it, we enclose it in a dedicated message: field. These templates add some information like the token. You should put your own stream token in both template and you can also add any custom field.
+In this configuration, we added some $Action directives to have a more robust configuration and never lose messages when there is a network issue for example. As we mentioned before, you should replace the $DefaultNetstreamDriverCAFile path to your endpoint certificate path. This setup uses two templates that are used in two different cases. The first one is when the incoming message is an LTSV one. We detect it by looking for tabulations characters in the message. If there is no tabulation, we use the second template: it means it is an unexpected message and to not lose it, we enclose it in a dedicated message: field. These templates add some information like the token. You should put your own stream token in both template and you can also add any custom field.
 
 ### Filebeat
 

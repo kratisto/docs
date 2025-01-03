@@ -66,7 +66,7 @@ twitter {
 
 Fill the consumer Keys and Secret with the keys you obtained at the Twitter app configuration step. The oauth_token and the oauth_token_secret are the Access Token and Access Token Secret you created just before.
 
-The keywords array is the special array where you can specify which keywords you want to follow. Here I want to follow the three different competitors of the famous #ConsoleWars. If you want to follow tweets that contain multiple terms simultaneously you just separate them by a space in the same string. For Example: "call of duty" will follow only tweets that contain 'call', 'of' and 'Duty'. You can also just follow a specific Twitter account by using the option **follows**. For more information about the Twitter input, go to the complete [Twitter input documentation](https://www.elastic.co/guide/en/logstash/6.7/plugins-inputs-twitter.html){.external}.
+The keywords array is the special array where you can specify which keywords you want to follow. Here I want to follow the three different competitors of the famous #ConsoleWars. If you want to follow tweets that contain multiple terms simultaneously you just separate them by a space in the same string. For example: "call of duty" will follow only tweets that contain 'call', 'of' and 'Duty'. You can also just follow a specific Twitter account by using the option **follows**. For more information about the Twitter input, go to the complete [Twitter input documentation](https://www.elastic.co/guide/en/logstash/6.7/plugins-inputs-twitter.html){.external}.
 
 You must use two additional parameters:
 
