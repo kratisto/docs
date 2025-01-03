@@ -30,7 +30,7 @@ Firewalls implementieren Regeln, die erlaubten und gesperrten Traffic verwalten.
 >
 > Es handelt sich hierbei um eine generelle Vorgehensweise. Möglicherweise müssen aufgrund der Distribution und/oder des Betriebssystems, das Sie verwenden, einige Befehle entsprechend angepasst werden. Vereinzelt wird Ihnen geraten, ein Tool eines Drittanbieters zu verwenden. Bei Fragen zur Nutzung eines solchen Tools lesen Sie bitte die offizielle Dokumentation des jeweiligen Herausgebers.  
 >
-> Die meisten der in diesem Leitfaden beschriebenen Regeln gehen davon aus, dass Ihr iptables standardmäßig so konfiguriert ist, dass es eingehenden Datenverkehr DROP und Sie eingehenden Datenverkehr selektiv zulassen. Wenn Sie vorhaben, eine andere Art von Konfiguration einzurichten, empfehlen wir Ihnen, die zusätzliche Dokumentation zu konsultieren.
+> Die meisten der hier beschriebenen Regeln gehen davon aus, dass Ihr *iptables* so konfiguriert ist, dass es eingehenden Datenverkehr selektiv zulässt und dann *DROP* anwendet. Wenn Sie vorhaben, eine andere Art von Konfiguration einzurichten, empfehlen wir Ihnen, die zugehörige Dokumentation zu konsultieren.
 >
 
 ### Schritt 1: Ihr System aktualisieren

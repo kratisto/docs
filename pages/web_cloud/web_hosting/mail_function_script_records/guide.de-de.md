@@ -97,18 +97,18 @@ Wenn Sie die Nachricht *Erfolgreiche Sendung* an die E-Mail-Adresse erhalten, di
 
 ### Die Zustände "Inaktiv", "Bounce" und "SPAM"
 
-In diesem Teil finden Sie die Details zu jedem Status, der Ihre E-Mail-Funktion gesperrt hat.
+In diesem Teil finden Sie die Details zu jedem Status, der Ihre E-Mail-Funktion sperren kann.
 
 > [!warning]
 >
-> Bevor Sie einen dieser Zustände im Detail beschreiben, sollten Sie die Punkte kennen, die die Reputation Ihrer Domain schädigen oder den Empfang Ihrer E-Mails verhindern können.
+> Bevor Sie den Status ändern, sollten Sie die Faktoren kennen, die die Reputation Ihres Domainnamens schädigen oder den Empfang Ihrer E-Mails verhindern können.
 >
 > Überprüfen Sie die folgenden Punkte:
 >
 > - Konfiguration des [SPF-Eintrags](/pages/web_cloud/domains/dns_zone_spf) in der DNS-Zone der Domain.
 > - Konfiguration des [DMARC-Eintrags](/pages/web_cloud/domains/dns_zone_dmarc) in der DNS-Zone der Domain, **nur wenn der Zielserver dies erfordert**.
-> - Überprüfen Sie die Reputation der IP-Adresse, von der der Versand stammt ([die Ihres Webhostings](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip) in Ihrem Fall), mit einem Tool wie [MXtoolbox](https://mxtoolbox.com/) oder [Spamhaus](https://check.spamhaus.org/).
-> - Die E-Mail enthält keine Elemente, die als SPAM interpretiert werden könnten. Eine nicht erschöpfende Liste dieser Elemente finden Sie im Abschnitt „[Fall Nr. 3: Versand legitimer E-Mails, die als SPAM eingestuft werden](#elements-list-spam)“ dieser Anleitung.
+> - Reputation der IP-Adresse, von der der Versand stammt ([die Ihres Webhostings](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip)), mit einem Tool wie [MXtoolbox](https://mxtoolbox.com/) oder [Spamhaus](https://check.spamhaus.org/) testen.
+> - Die E-Mail enthält keine Elemente, die als SPAM interpretiert werden könnten. Eine nicht erschöpfende Liste dieser Elemente finden Sie im Abschnitt „[Fall 3: Versand legitimer E-Mails, die als SPAM eingestuft werden](#elements-list-spam)“ dieser Anleitung.
 > - Wenn OVHcloud die E-Mail nicht blockiert und diese vom Empfänger nicht empfangen oder abgelehnt wurde, wenden Sie sich an den Empfänger, um zu überprüfen, ob die E-Mail auf dem empfangenden Server blockiert wurde.
 
 #### Der Zustand "Inaktiv"

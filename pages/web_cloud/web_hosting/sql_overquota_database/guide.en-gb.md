@@ -199,7 +199,7 @@ DROP TABLE `table_1`
 
 ### Step 4: Release the database from the "READ ONLY" status
 
-Our robots in charge of quota checks pass very regularly on our infrastructure.
+Our robots in charge of quota checks pass very regularly on our infrastructure.  
 If they find that your database is no longer in **overquota** when they visit your services, they will automatically remove the “READ ONLY” status.
 Once you have carried out the necessary operations on your database, you just need to wait for our robots to pass on to your services.
 
@@ -240,7 +240,7 @@ Click on the tabs below to view each of the **5** steps in succession.
 >>
 >> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
 >>
->> Once launched, the operation may take several minutes. When it ends, the "READ ONLY" status of your database disappears.
+>> Once launched, the operation may take several minutes. When it ends, the "READ ONLY" status of your database disappears.  
 >> Your database is now fully operational again.
 >>
 

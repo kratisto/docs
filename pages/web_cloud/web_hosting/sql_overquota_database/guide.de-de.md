@@ -122,7 +122,7 @@ Führen Sie ein Upgrade Ihres Datenbankdienstes auf ein Angebot durch, das mehr 
 
 > [!primary]
 >
-> Um die Größe Ihrer Datenbank zu erhöhen, müssen Sie eine neue, größere Datenbank erstellen und den Inhalt der alten Datenbank in die neue Datenbank kopieren. Es ist nicht möglich, die Größe einer Datenbank, die mit einem Webhosting verbunden ist, direkt zu vergrößern.
+> Um die Größe Ihrer Datenbank zu erhöhen, müssen Sie eine neue, größere Datenbank erstellen und den Inhalt der alten Datenbank in die neue Datenbank kopieren. Es ist nicht möglich, die Größe einer Datenbank, die mit einem Webhosting verbunden ist, zu erhöhen.
 >
 
 Konsultieren Sie unsere Angebotsseite [Web Cloud Databases](/links/web/databases), um sich über die Optionen zu informieren. 
@@ -152,7 +152,7 @@ Bevor Sie die folgenden Schritte ausführen, überprüfen Sie, ob die Daten in d
 > Der folgende Teil dieses Tutorials zeigt, wie Sie in Ihrer Datenbank gespeicherte Daten löschen. Vergewissern Sie sich, welche Aktionen Sie durchführen müssen und wenden Sie sich im Zweifelsfall an einen [Experten](/links/partner).
 >
 
-Für OVHcloud Datenbanken sind verschiedene SQL-Befehle verfügbar, um Inhalte zu beeinflussen.
+Für OVHcloud Datenbanken sind verschiedene SQL-Befehle verfügbar, um Inhalte zu bearbeiten.
 
 Bei **overquota** oder einer großen Tabelle sind **drei Befehle** verfügbar.
 
@@ -196,22 +196,22 @@ DROP TABLE `table_1`
 
 > In diesem Beispiel löscht der Befehl die Tabelle **table_1** und alle darin enthaltenen Zeilen.
 
-### Schritt 4: Datenbank vom Status „READ ONLY“ entfernen (schreibgeschützt)
+### Schritt 4: Status "READ ONLY" (schreibgeschützt) von der Datenbank entfernen
 
-Unsere Roboter, die für die Quotenüberprüfung zuständig sind, werden regelmäßig auf unseren Infrastrukturen eingesetzt.
-Wenn sie bei der Umstellung auf Ihre Dienste feststellen, dass Ihre Datenbank nicht mehr in **overquota** ist, wird automatisch der Status „READ ONLY“ (schreibgeschützt) entfernt.
-Sobald Sie die notwendigen Operationen in Ihrer Datenbank durchgeführt haben, können Sie einfach warten, bis unsere Roboter auf Ihre Dienste umgestellt haben.
+Unsere Robots zur Quota-Überprüfung werden regelmäßig auf unseren Infrastrukturen aktiv.  
+Wenn festgestellt wird, dass Ihre Datenbank nicht mehr in **overquota** ist, wird automatisch der Status "READ ONLY" (schreibgeschützt) entfernt.
+Sobald Sie die notwendigen Operationen in Ihrer Datenbank durchgeführt haben, können Sie einfach warten, bis unsere Bots Ihre Dienste überprüft haben.
 
-Sie können jedoch deren Umstellung auf Ihre Dienste erzwingen, um den Vorgang zu beschleunigen. Hierzu müssen Sie unsere Roboter bitten, das Quota Ihres Dienstes/Ihrer Datenbank neu zu berechnen.
+Sie können jedoch die Statusänderung erzwingen, um den Vorgang zu beschleunigen. Hierzu können Sie beantragen, dass die Bots doe Quota Ihres Dienstes neu berechnen.
 
 #### Quota für eine bei Ihrem Webhosting Angebot enthaltene Datenbank neu berechnen
 
-Klicken Sie auf die Registerkarten unten, um die einzelnen **5** Schritte anzuzeigen.
+Klicken Sie auf die Tabs, um die **5** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
 >>
->> Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 >>
 >> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
@@ -223,7 +223,7 @@ Klicken Sie auf die Registerkarten unten, um die einzelnen **5** Schritte anzuze
 >>
 > **Schritt 3**
 >>
->> Klicken Sie auf der angezeigten Seite auf den Tab `Datenbanken`{.action}.
+>> Klicken Sie auf den Tab `Datenbanken`{.action}.
 >>
 >> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
 >>
@@ -239,18 +239,18 @@ Klicken Sie auf die Registerkarten unten, um die einzelnen **5** Schritte anzuze
 >>
 >> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
 >>
->> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status „READ ONLY“ Ihrer Datenbank.
+>> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status "READ ONLY" Ihrer Datenbank.  
 >> Ihre Datenbank ist nun wieder voll funktionsfähig.
 >>
 
 #### Quota für eine Datenbank neu berechnen, die auf einer Web Cloud Databases Lösung gehostet wird
 
-Klicken Sie auf die Registerkarten unten, um die einzelnen **3** Schritte anzuzeigen.
+Klicken Sie auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
 >>
->> Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 >>
 >> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
@@ -266,7 +266,7 @@ Klicken Sie auf die Registerkarten unten, um die einzelnen **3** Schritte anzuze
 >>
 >> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
 >>
->> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status „READ ONLY“ Ihrer Datenbank.
+>> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status "READ ONLY" Ihrer Datenbank.  
 >> Ihre Datenbank ist nun wieder voll funktionsfähig.
 >>
 

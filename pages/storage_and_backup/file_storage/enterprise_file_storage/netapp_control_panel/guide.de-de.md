@@ -8,7 +8,7 @@ updated: 2024-12-13
 
 Enterprise File Storage Dienste können über die [OVHcloud API](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_quick_start) oder in Ihrem OVHcloud Kundencenter verwaltet werden.
 
-**In dieser Anleitung erfahren Sie, wie Sie Enterprise File Storage Volumes und Snapshots in Ihrem Kundencenter verwalten.**
+**Diese Anleitung erklärt, wie Sie Enterprise File Storage Volumes und Snapshots in Ihrem Kundencenter verwalten.**
 
 ## Voraussetzungen
 
@@ -35,13 +35,13 @@ Klicken Sie auf den Tab `Volumes`{.action}. Die Tabelle listet alle für den aus
 
 Sie können diverse Aktionen durchführen, indem Sie auf den Button `...`{.action} in der entsprechenden Zeile der Tabelle klicken.
 
-- **Volume bearbeiten**: öffnet den Bereich "[Allgemeine Informationen](#modify_volume)" des Volumes.
-- **Snapshot erstellen**: öffnet den Bereich "[Snapshots](#snapshots)", um eine manuelle Volume-Sicherung durchzuführen.
-- **Letzten Snapshot wiederherstellen**: Öffnet den Abschnitt „[Snapshots](#snapshots)“ und ein Fenster zur Wiederherstellung des Volumes.
-- **Die Snapshots verwalten**: öffnet den Bereich "[Snapshots](#snapshots)" des Volumes.
-- **IP-Zugang verwalten (ACL)**: öffnet den Bereich "[Zugriffskontrolle](#access_control)", um den Zugriff auf das Volume zu verwalten.
+- **Volume bearbeiten**: Öffnet den Bereich "[Allgemeine Informationen](#modify_volume)" des Volumes.
+- **Snapshot erstellen**: Öffnet den Bereich "[Snapshots](#snapshots)", um eine manuelle Volume-Sicherung durchzuführen.
+- **Letzten Snapshot wiederherstellen**: Öffnet den Abschnitt "[Snapshots](#snapshots)" und ein Fenster zur Wiederherstellung des Volumes.
+- **Die Snapshots verwalten**: Öffnet den Bereich "[Snapshots](#snapshots)" des Volumes.
+- **IP-Zugang verwalten (ACL)**: Öffnet den Bereich "[Zugriffskontrolle](#access_control)", um den Zugriff auf das Volume zu verwalten.
 - **Größe ändern**: Öffnet ein Fenster, in dem Sie die Größe des Volumes ändern können.
-- **Volume löschen**: löscht dieses Volume, nachdem die Aktion im Popup-Fenster bestätigt wurde.
+- **Volume löschen**: Löscht dieses Volume, nachdem die Aktion im Popup-Fenster bestätigt wurde.
 
 #### Erstellung eines Volumes <a name="create_volume"></a>
 
@@ -82,7 +82,7 @@ Im gleichen Tab können Sie auch alle für den Dienst erstellten [Snapshot-Polic
 
 ![Volume Snapshot Policy Management](images/manage_enterprise07.png){.thumbnail}
 
-Klicken Sie auf die entsprechende Policy-Zeile, um die Details der Snapshot-Planung anzuzeigen. Wählen Sie eine Regelung über den speziellen Auswahlknopf und klicken Sie dann auf `Regelung anwenden`{.action} unter der Tabelle.
+Klicken Sie auf die entsprechende Policy-Zeile, um die Details der Snapshot-Planung anzuzeigen. Wählen Sie eine Regelung über den betreffenden Button und klicken Sie dann auf `Regel anwenden`{.action} unter der Tabelle.
 
 Um Ihre [Snapshot-Regeln](#snapshot_policy) zu konfigurieren, gehen Sie in den Bereich [Volume-Verwaltung](#instructions) Ihres Dienstes und öffnen Sie den Tab `Snapshot-Regeln`{.action}.
 
@@ -100,7 +100,7 @@ Klicken Sie auf `Snapshot erstellen`{.action}, um die Erstellung zu starten.
 
 #### Snapshot bearbeiten <a name="modify_snapshot"></a>
 
-Sie können den Namen oder die Beschreibung eines Snapshots ändern, indem Sie auf den Button `...`{.action} in der Tabelle klicken und dann auf `Bearbeiten`{.action} klicken. Es wird ein Fenster geöffnet, in dem Sie einen neuen Namen und/oder eine Beschreibung auswählen können.
+Sie können den Namen oder die Beschreibung eines Snapshots ändern, indem Sie auf den Button `...`{.action} in der Tabelle klicken und dann auf `Bearbeiten`{.action}. Es wird ein Fenster geöffnet, in dem Sie einen neuen Namen und eine Beschreibung eingeben können.
 
 ![Snapshot edit](images/manage_enterprise10.png){.thumbnail}
 
@@ -112,8 +112,8 @@ Klicken Sie auf `Bestätigen`{.action}, um Ihre Änderungen zu bestätigen.
 
 > [!warning]
 >
-> Snapshots vom Typ `system` können nicht gelöscht werden.
-> Diese sind für das reibungslose Funktionieren Ihres Enterprise File Storage Angebots unerlässlich.
+> Snapshots vom Typ `system` können nicht gelöscht werden.  
+> Diese sind für das reibungslose Funktionieren Ihres Enterprise File Storage Angebots notwendig.
 >
 
 Sie können einen Snapshot löschen, indem Sie auf den Button `...`{.action} in der Tabelle und dann auf `Löschen`{.action} klicken.
@@ -128,11 +128,11 @@ Klicken Sie auf `Snapshot löschen`{.action}, um die Löschung zu bestätigen.
 
 > [!warning]
 >
-> Bitte beachten Sie, dass alle später erstellten Dateien oder Snapshots verloren gehen, sobald ein Volume mit einem Snapshot wiederhergestellt wurde.
+> Beachten Sie, dass alle später erstellten Dateien oder Snapshots verloren gehen, sobald ein Volume mit einem Snapshot wiederhergestellt wurde.  
 > Wenn ein Volume wiederhergestellt wird, werden alle darin enthaltenen Daten durch die Snapshot-Daten ersetzt. Diese Aktion kann nicht rückgängig gemacht werden.
 >
 
-Sie können ein Volume mit dem neuesten Snapshot `Manuell` wiederherstellen. Klicken Sie auf `Aktionen`{.action} und dann auf `Letzten Snapshot wiederherstellen`{.action}.
+Sie können ein Volume mit dem neuesten `manuellen` Snapshot wiederherstellen. Klicken Sie auf `Aktionen`{.action} und dann auf `Letzten Snapshot wiederherstellen`{.action}.
 
 > [!primary]
 >
@@ -147,7 +147,7 @@ Die von den [Snapshot-Richtlinien](#snapshot_policy) erstellten `automatischen` 
 
 ![Volume hold](images/manage_enterprise15.png){.thumbnail}
 
-Wenn Sie einen Snapshot sichern, der `automatisch` ist, wird er `manuell`, was seine Rotation durch die Snapshot-Richtlinie und somit seine automatische Löschung verhindert.
+Wenn Sie einen `automatisch` erstellten Snapshot sichern, wird er `manuell`, was seine Rotation durch die Snapshot-Richtlinie und somit seine automatische Löschung verhindert.
 
 #### Verwaltung der Volume-Zugriffe (ACL) <a name="access_control"></a>
 
