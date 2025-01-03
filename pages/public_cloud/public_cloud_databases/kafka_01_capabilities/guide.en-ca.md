@@ -1,7 +1,7 @@
 ---
 title: Kafka - Capabilities and Limitations
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Kafka
-updated: 2023-12-04
+updated: 2024-01-03
 ---
 
 ## Objective
@@ -29,8 +29,8 @@ Kafka nodes have to be in the same region. Multi-AZ is currently not supported.
 
 The Public Cloud Databases offer supports the following Kafka versions:
 
-- Kafka 3.3
-- Kafka 3.4 (soon)
+- Kafka 3.7 (soon depreciated)
+- Kafka 3.8
 
 Please refer to the [DBMS lifecycle policy guide](/pages/public_cloud/public_cloud_databases/information_02_lifecycle_policy) for recommendations on version upgrades and end of life announcements of major versions. Additionally, you can follow Kafka Release Cycle on their official page: <https://kafka.apache.org/downloads>
 
