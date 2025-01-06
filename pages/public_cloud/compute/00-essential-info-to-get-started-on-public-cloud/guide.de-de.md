@@ -1,7 +1,7 @@
 ---
 title: Die wichtigsten Informationen zum Start mit Public Cloud
 excerpt: "Entdecken Sie nützliche Grundkenntnisse, um mit der Public Cloud Umgebung zu starten"
-updated: 2025-01-06
+updated: 2024-04-24
 ---
 
 > [!primary]

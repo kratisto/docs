@@ -1,7 +1,7 @@
 ---
 title: "L'essenziale per iniziare con il Public Cloud"
 excerpt: Scopri le nozioni di base per iniziare con il Public Cloud OVH
-updated: 2025-01-06
+updated: 2024-04-24
 ---
 
 > [!primary]

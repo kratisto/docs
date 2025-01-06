@@ -1,7 +1,7 @@
 ---
 title: "Kluczem do rozpoczęcia korzystania z usługi Public Cloud"
 excerpt: "Poznaj podstawowe pojęcia, które mogą być przydatne podczas uruchamiania aplikacji w środowisku Public Cloud"
-updated: 2025-01-06
+updated: 2024-04-24
 ---
 
 > [!primary]

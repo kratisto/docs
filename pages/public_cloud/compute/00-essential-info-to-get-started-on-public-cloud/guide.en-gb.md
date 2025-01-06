@@ -1,7 +1,7 @@
 ---
 title: All you need to know to get started with Public Cloud
 excerpt: Find out some basic tips to get started in the Public Cloud environment
-updated: 2025-01-06
+updated: 2024-04-19
 ---
 
 ## Objective

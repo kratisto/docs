@@ -1,7 +1,7 @@
 ---
 title: "O essencial para começar com o Public Cloud"
 excerpt: "Descubra as noções de base úteis para começar no ambiente Public Cloud"
-updated: 2025-01-06
+updated: 2024-04-24
 ---
 
 > [!primary]
