@@ -1,7 +1,7 @@
 ---
 title: 'Configuração do vRack Public Cloud com a ajuda da OpenStack CLI'
 excerpt: 'Saiba como ativar e gerir um serviço vRack Public Cloud com a ajuda do OpenStack CLI'
-updated: 2024-12-23
+updated: 2025-01-06
 ---
 
 ## Objetivo
