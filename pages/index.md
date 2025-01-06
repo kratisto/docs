@@ -662,6 +662,7 @@
             + [Public Cloud Network Services - FAQ](public_cloud/public_cloud_network_services/getting-started-06-faq)
             + [Configuring vRack for Public Cloud](public_cloud/public_cloud_network_services/getting-started-07-creating-vrack)
             + [Configuring vRack for Public Cloud using OVHcloud APIv6](public_cloud/public_cloud_network_services/getting-started-08-creating-vrack-with-api)
+            + [Configuring vRack for Public Cloud using OpenStack CLI](public_cloud/public_cloud_network_services/getting-started-09-creating-vrack-with-openstack)
             + [Changing the DNS servers of Public Cloud instances](public_cloud/public_cloud_network_services/changing_dns_servers_of_an_instance)
         + [Additional IP](public-cloud-network-additional-ip)
             + [Configuring an Additional IP](public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)
