@@ -440,37 +440,6 @@ First, get the private network IDs (pvnwGRA9Id & pvnwGRA11Id), then create the O
 >> terraform apply
 >> ```
 
-If you followed the Bash choice, you should have a result like this:
-
-```console
-$ export pvnwGRA9Id="$(utils/ovhAPI.sh GET /cloud/project/$OS_TENANT_ID/network/private/${vlanId} | jq '.regions[] | select(.region=="GRA9")' | jq -r .openstackId)" && echo $pvnwGRA9Id
-d9775b7c-c267-44b4-b758-6e827b0a69bb
-
-$ cat tpl/data-kube.json.tpl | sed -e "s|@privateNetworkId@|$pvnwGRA9Id|g" > tpl/data-kube.json
-
-$ cat tpl/data-kube.json
-{
-  "region": "GRA9",
-  "name": "demo",
-  "version": "1.23",
-  "nodepool": {
-    "flavorName": "b2-7",
-    "antiAffinity": false,
-    "monthlyBilled": false,
-    "autoscale": false,
-    "desiredNodes": 3
-  },
-  "privateNetworkId": "d9775b7c-c267-44b4-b758-6e827b0a69bb",
-  "privateNetworkConfiguration" :{
-        "privateNetworkRoutingAsDefault": true,
-        "defaultVrackGateway": "192.168.0.1"
-  }
-}
-
-$ export kubeId="$(utils/ovhAPI.sh POST /cloud/project/$OS_TENANT_ID/kube "$(cat tpl/data-kube.json)" | jq -r .id)" && echo $kubeId
-6bc9c71a-e570-4ed6-848b-de212fbab7da
-```
-
 Now wait until your OVHcloud Managed Kubernetes cluster is READY.
 
 For that, you can check its status in the OVHcloud Control Panel:
