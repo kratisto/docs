@@ -1,7 +1,7 @@
 ---
 title: Configuring multi-attach persistent volumes with Enterprise File Storage
 excerpt: 'Find out how to configure a multi-attach persistent volume using our Enterprise File Storage solution'
-2024-01-06
+updated: 2024-01-06
 ---
 
 <style>
