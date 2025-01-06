@@ -35,7 +35,7 @@ Use the [--dumpDbUsersAndRoles](https://www.mongodb.com/docs/database-tools/mong
 
 [mongorestore](https://www.mongodb.com/docs/database-tools/mongorestore/) complements mongodump by allowing you to restore a binary dump created by mongodump. This tool is essential for restoring data to a MongoDB instance.
 
-Use the [restoreDbUsersAndRole`](https://www.mongodb.com/docs/database-tools/mongorestore/#std-option-mongorestore.--restoreDbUsersAndRoles) option to Restore user and role definitions for the given database. Restoring the admin database by specifying `--db admin` to mongorestore already restores all users and roles.
+Use the [restoreDbUsersAndRole](https://www.mongodb.com/docs/database-tools/mongorestore/#std-option-mongorestore.--restoreDbUsersAndRoles) option to Restore user and role definitions for the given database. Restoring the admin database by specifying `--db admin` to mongorestore already restores all users and roles.
 
 ### Tools With Minimal Downtime
 
