@@ -28,7 +28,7 @@ updated: 2024-12-16
 
 ## Objective
 
-OVHcloud Managed Kubernetes currently offers Block Storage for persistent volumes by default, but that may not be suited for applications that require a shared file system between multiple nodes. This tutorial shows how to configure a shared [Kubernetes Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes) (AccessMode `ReadWriteMany` or `RWX`) using [OVHcloud Enterprise File Storage](/links/storage/enterprise-file-storage) as a storage backend.
+OVHcloud Managed Kubernetes currently offers Block Storage for persistent volumes by default, but that may not be suited for applications that require a shared file system between multiple nodes. This tutorial shows how to configure a shared [Kubernetes Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes) (AccessMode `ReadWriteMany` or `RWX`) using [OVHcloud Enterprise File Storage](/links/storage/enterprise-file-storage) as a storage backend.
 
 ## Requirements
 
@@ -36,7 +36,7 @@ This tutorial assumes that you already have a working [OVHcloud Managed Kubernet
 
 It also assumes you have an OVHcloud Enterprise File Storage already available. If you don't, you can [order one in the OVHcloud Control Panel](/links/manager).
 
-You also need to have [Helm](https://docs.helm.sh/) installed on your workstation, please refer to the [How to install Helm on OVHcloud Managed Kubernetes Service](/pages/public_cloud/containers_orchestration/managed_kubernetes/installing-helm) tutorial.
+You also need to have [Helm](https://docs.helm.sh/) installed on your workstation. Please refer to the [How to install Helm on OVHcloud Managed Kubernetes Service](/pages/public_cloud/containers_orchestration/managed_kubernetes/installing-helm) tutorial.
 
 ## Instructions
 
@@ -44,9 +44,9 @@ You also need to have [Helm](https://docs.helm.sh/) installed on your workstatio
 
 Your Enterprise File Storage service can expose multiple volumes, and supports a variety of protocols. Each volume is accessible only from a specific range of IPs. We will create a new EFS volume and make it accessible from your Kubernetes worker nodes.
 
-You can find more informations about our Entreprise File Storage product by clicking [here](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_control_panel).
+You can find more information about our Enterprise File Storage product by clicking [here](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_control_panel).
 
-Access the UI for OVHcloud Enterprise File Storage by clicking the `Storage and backups`{.action} then `Enterprise File Storage`{.action} menu in the [Bare Metal Cloud section of the OVHcloud Control Panel](/links/manager)
+Access the UI for OVHcloud Enterprise File Storage by clicking the `Storage and backups`{.action} then `Enterprise File Storage`{.action} menu in the [Bare Metal Cloud section of the OVHcloud Control Panel](/links/manager).
 
 Click your Enterprise File Storage service, then click the `Volumes`{.action} tab. Click the `Create a volume`{.action} button and create the new Enterprise File Storage volume with the following content:
 
@@ -61,10 +61,10 @@ Provide the following parameters to create a volume:
 | Protocol            | Protocol used to connect   | True          |
 | Volume size         | Size of the volume         | True          |
 
-The volume size needs to be adapted with your needs. For this guide, we define a volume size to 100GiB.
+The volume size needs to be adapted to your needs. For this guide, we define a volume size of 100 GiB.
 
-Once your volume is created, click on its ID and select `Access Control List`{.action}.
-Enter your Nodes' Public IPs and/or your Public Cloud Gateway Public IP into the volume's ACLs. This will ensure your kubernetes worker nodes can reach the storage service.
+Once your volume is created, click on its ID and select `Access Control List`{.action}.  
+Enter your Nodes' public IPs and/or your Public Cloud Gateway public IP into the volume's ACLs. This will ensure your Kubernetes worker nodes can reach the storage service.
 
 #### Your cluster is installed with Public Network or a private network without using an OVHcloud Internet Gateway or a custom one as your default route
 
@@ -85,13 +85,13 @@ $ kubectl get nodes -o jsonpath='{ $.items[*].status.addresses[?(@.type=="Intern
 
 Because your nodes are configured to be routed by the private network gateway, you need to add the gateway IP address to the ACLs.
 
-By using Public Cloud Gateway through our Managed Kubernetes Service, Public IPs on nodes are only for management purposes: [MKS Known Limits](/pages/public_cloud/containers_orchestration/managed_kubernetes/known-limits)
+By using Public Cloud Gateway through our Managed Kubernetes Service, public IPs on nodes are only for management purposes: [MKS Known Limits](/pages/public_cloud/containers_orchestration/managed_kubernetes/known-limits)
 
-You can get your OVHcloud Internet Gateway's Public IP by navigating through the OVHcloud Control Panel:
+You can get your OVHcloud Internet Gateway's public IP by navigating through the OVHcloud Control Panel:
 
 `Public Cloud`{.action} > Select your tenant > `Network / Gateway`{.action} > `Public IP`{.action}
 
-You can also get your OVHcloud Internet Gateway's Public IP via the following API:
+You can also get your OVHcloud Internet Gateway's public IP via the following API:
 
 > [!api]
 >
@@ -101,7 +101,7 @@ You can also get your OVHcloud Internet Gateway's Public IP via the following AP
 > [!success]
 > If you are not familiar with the OVHcloud API, read our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
 
-If you want to use your Kubernetes cluster to know your Gateway Public's IP, you can run this command:
+If you want to use your Kubernetes cluster to know your Gateway's public IP, you can run this command:
 
 ```bash
 kubectl run get-gateway-ip --image=ubuntu:latest -i --tty --rm 
@@ -115,13 +115,13 @@ You may have to wait a bit to let the pod be created. Once the shell appears, yo
 apt update && apt upgrade -y && apt install -y curl && curl ifconfig.ovh
 ```
 
-The Public IP of the Gateway you're using should appear.
+The public IP of the Gateway you're using should appear.
 
 Click on the `Manage IP Access (ACL)`{.action} menu of our newly created volume:
 
 ![Manage Access of the EFS Volume](images/manage-efs-volume-access.png){.thumbnail}
 
-Add either the nodes' IPs one by one or the Gateway's Public IP depending on your configuration:
+Add either the nodes' IPs one by one or the Gateway's public IP depending on your configuration:
 
 ![Allow nodes IP to access the EFS Volume](images/manage-efs-volume-access-ip.png){.thumbnail}
 
@@ -270,7 +270,7 @@ Events:
 
 By reading the events on this PersistentVolumeClaim, our PVC has been provisioned from our Enterprise File Storage.
 
-If you encounter errors such as: 
+If you encounter errors such as:
 
 ```console
   Warning  ProvisioningFailed    2s (x3 over 6s)  nfs2.csi.k8s.io_nodepool-452e0669-d9dd-4ecf-a7-node-6a9890_04dc0447-d875-4d29-883d-b91bb89ef053  failed to provision volume with StorageClass "nfs-csi": rpc error: code = Internal desc = failed to mount nfs server: rpc error: code = Internal desc = mount failed: exit status 32
@@ -405,17 +405,6 @@ Congratulations, you have successfully set up a multi-attach persistent volume w
 
 To learn more about using your Kubernetes cluster the practical way, we invite you to look at our [OVHcloud Managed Kubernetes doc site](/products/public-cloud-containers-orchestration-managed-kubernetes-k8s).
 
-- If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Join our [community of users](/links/community).
-
-
-
-
-
-
-
-
-
-
-
