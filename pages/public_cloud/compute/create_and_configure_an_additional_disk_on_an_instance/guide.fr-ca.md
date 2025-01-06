@@ -604,6 +604,7 @@ Pour finir, nous allons détacher le volume de l'instance :
 >> openstack_compute_volume_attach_v2.va_1: Destruction complete after 17s
 >>
 >> Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
+>> ```
 
 ## Aller plus loin
 
