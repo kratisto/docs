@@ -1,7 +1,7 @@
 ---
 title: Cassandra - Capabilities and Limitations
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Cassandra
-updated: 2025-01-06
+updated: 2025-01-07
 ---
 
 ## Objective
@@ -97,7 +97,7 @@ You can further customise your Cassandra by using advanced parameters. See the [
 
 #### Backups
 
-Your services are automatically backed up daily. The point-in-time recovery (PITR) feature is currently not available.
+Your services are automatically backed up daily. Backup retention is 4 days for daily backups.
 
 See the [Automated Backups guide](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups) for more information.
 
