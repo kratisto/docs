@@ -1764,6 +1764,7 @@
                 + [Envoyer une campagne de fax depuis l'espace client OVHcloud](web_cloud/phone_and_fax/fax/envoyer_une_campagne_de_fax_via_le_manager)
                 + [Envoyer des Fax via l’imprimante virtuelle EcoFax - Mac OS X](web_cloud/phone_and_fax/fax/envoyer_des_fax_via_limprimante_virtuelle_ecofax_-_mac_os_x)
                 + [Envoyer des Fax via l’imprimante virtuelle EcoFax- Windows](web_cloud/phone_and_fax/fax/envoyer_des_fax_via_limprimante_virtuelle_ecofax-_windows)
+                + [Test article for ServiceNow images loading issue](web_cloud/phone_and_fax/fax/test-article-snow)
     + [Messaging](products/web-cloud-messaging)
         + [SMS](products/web-cloud-messaging-sms)
             + [Getting started](web-cloud-messaging-sms-getting-started)
