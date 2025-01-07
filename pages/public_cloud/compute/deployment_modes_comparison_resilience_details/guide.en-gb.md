@@ -46,9 +46,9 @@ Each of these options is based on the fundamental principles of resilience, perf
 
 #### Infrastructure and Redundancy
 
-A 1-AZ region is **a single availability zone made up of several data centres in the same geographical area**. It uses a 2N+1 redundancy architecture, designed to ensure resilience against local hardware failures, such as disk or server failures. However, this configuration remains vulnerable to failures affecting the entire data centre.
+A 1-AZ region is **a single availability zone made up of one or several data centres in the same geographical area**. It uses a 2N+1 redundancy architecture, designed to ensure resilience against local hardware failures, such as disk or server failures. However, this configuration remains vulnerable to failures affecting the entire data centre.
 
-Services and data are protected against localised incidents thanks to effective internal redundancy, but a major or total breakdown of a data centre could compromise the availability of services.
+Services and data are protected against localised incidents thanks to effective internal redundancy, but a major or total breakdown of a data centre could compromise the availability of services. Note that each OVHcloud data centre has redundant power and network supply to avoid those breakdowns. 
 
 #### Characteristics
 
@@ -166,34 +166,34 @@ Architecture:
 
 #### Infrastructure and design
 
-Local Zones bring OVHcloud services closer to end users by reducing latency and enabling data to be processed locally. They are designed to offer optimal performance for applications requiring low latency and proximity to users, while meeting local compliance requirements.
+Local Zones bring OVHcloud services closer to some end users, reducing latency and enabling data to be processed locally. They are designed to offer optimal performance for applications requiring low latency and proximity to users, while meeting local compliance requirements.
 
-Each Local Zone is an extension of a core region and operates as a single availability zone, making it ideal for scenarios where latency is a priority, but multi-AZ redundancy is not essential.
+Each Local Zone operates as a single availability zone with a limited set of services, making it ideal for scenarios where latency is a priority, but multi-AZ redundancy is not essential.
 
 #### Characteristics
 
-- **Reduced latency:** Local Zones ensure fast response times, ideal for real-time applications such as online gaming or video conferencing.
+- **Reduced latency:** Local Zones ensure fast response times to users close to them, ideal for real-time applications such as online gaming or video conferencing.
 - **Local compliance:** Data can be processed and stored in specific locations, making it easier to comply with location and regulatory requirements.
-- **Regional extension:** Local Zones act as an extension of the main regions to complete critical workloads locally, while benefiting from the services of the parent region.
+- **Regional extension:** Local Zones can be used as an extension of the 1-AZ or 3-AZ regions to complete critical workloads locally, while benefiting from additionnal services available in the regions.
 
 #### Limits
 
 - **No inter-zone redundancy:** Unlike multi-AZ regions, Local Zones do not offer redundancy between several zones, which limits service continuity in the event of a failure.
 - **Single zone limitation:** Local Zones operate within a single availability zone, making them vulnerable to local failures.
-- **Dependency on the main region:** In the event of a failure affecting the main region, Local Zones may also be affected for certain critical services.
+- **Limited set of services:** Local Zones only offer a limited set of Public Cloud services (essentially Compute and Storage).
 
 #### Redundancy Specifications for Local Zones
 
 | Advantage        | Description                                           |
 |------------------|-------------------------------------------------------|
-| **Type of redundancy**      | Triple local replication within the zone to guarantee resilience in the event of hardware failure.             |
+| **Type of redundancy**      | Limited local replication within the zone to guarantee resilience in the event of hardware failure.             |
 | **Fault tolerance**  | Guarantees continuity of operations in the event of a disk or server failure within the zone, but does not protect against a total failure of the availability zone. |
 | **Data protection**| Data replicated in the zone to guarantee local availability. |
 | **Limits**| No protection against global or regional failures, dependent on a single Local Zone. |
 
-**Triple local replication:**
+**Local replication:**
 
-Data is replicated three times in the same Local Zone, offering resilience against hardware failure (disk or server). However, this architecture does not protect against a complete zone failure and remains dependent on a single Local Zone.
+Data is replicated in the same Local Zone, offering resilience against hardware failure (disk or server). However, this architecture does not protect against a complete zone failure and remains dependent on a single Local Zone.
 
 #### Scaling
 
@@ -202,7 +202,6 @@ In Local Zones, scaling is designed to meet the demands of low-latency applicati
 - **Horizontal and vertical scalability options:** Local Zones support instance scaling, but are limited by local capacity and the lack of additional zones for load balancing.
 - **Ultra-low latency:** Scaling is focused on keeping latency to a minimum, ideal for real-time workloads.
 - **Planning required:** Because it is limited to a single zone, careful planning is essential to avoid saturating available resources and guarantee stable performance.
-- **Regional dependency:** For more complex or redundant scaling requirements, Local Zones may be dependent on the resources of the main region. This can introduce additional latency if external resources are required.
 
 #### Architecture example
 
@@ -219,7 +218,7 @@ Architecture:
 - **Internal replication:** Critical data is replicated locally within the zone to ensure resilience in the event of hardware failure.
 - **Localized processing:** Application and processing servers are deployed in Local Zones to deliver optimal performance.
 - **Regulated Data:** Stored within the Local Zones for compliance with data localization laws, reducing bandwidth costs.
-- **Load balancers:** Traffic redirected to other Local Zones (if available) or main regions to ensure minimum service continuity in the event of a local failure.
+- **Load balancers:** Traffic redirected to other Local Zones (if available) or regions to ensure minimum service continuity in the event of a local failure.
 
 ///
 
@@ -228,11 +227,11 @@ Architecture:
 | Characteristics        | 1-AZ Region                         | 3-AZ Region                     | Local Zones                              |
 |------------------------|-------------------------------------|---------------------------------|------------------------------------------|
 | **Deployment Structure**   | Single availability zone            | Three independent availability zones | Single availability zone                |
-| **Redundancy**             | 2N+1 internal (resources in a single AZ)                      | Cross-zone redundancy (resources replicated between zones)          | Local triple replication (replication of resources in a single zone)               |
+| **Redundancy**             | 2N+1 internal (resources in a single AZ)                      | Cross-zone redundancy (resources replicated between zones)          | Limited internal replication (replication of some resources in a single zone)               |
 | **Data Availability**      | Limited during data center outages, protected against server/disk failures | Maintained across zones, resilient to zone outages | Limited during data center outages, protected against server/disk failures |
 | **Latency**                | Low for close end-users                            | Low for close end-users and ultra low between availability zones   | Low for close end-users |
 | **Ideal Use Cases**        | Development, staging environments, cost-sensitive applications, non-critical services | High-availability applications, critical business services, disaster recovery, and mission-critical workloads | Real-time applications, edge computing, gaming, video streaming, regulatory-compliant services |
-| **Cost**                   | Lower                               | Higher due to increased redundancy | Dependent on the specific Local Zones and required latency performance |
+| **Cost**                   | Lower                               | Higher due to increased redundancy | Dependent on the specific Local Zones |
 
 ## Go Further
 
