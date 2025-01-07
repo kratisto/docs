@@ -106,10 +106,10 @@ This command will create a temporary pod and open a console.
 You may have to wait a bit to let the pod be created. Once the shell appears, you can run this command:
 
 ```bash
-apt update && apt upgrade -y && apt install -y curl && curl ifconfig.me
+apt update && apt upgrade -y && apt install -y curl && curl ifconfig.ovh
 ```
 
-The Public IP of the Gateway you're using should appear.
+This command will output the Public IP of the Gateway of your kubernetes cluster.
 
 - Add the list of nodes IP or the Gateway IP to allow access to the Cloud Disk Array cluster:
 
@@ -323,9 +323,9 @@ $ URL=$(echo "http://localhost:8001/api/v1/namespaces/default/pods/http:$FIRST_P
 echo $URL
 ```
 
-You can open the URL which is displayed to access the Nginx Service.
+You can open the displayed URL to access the Nginx Service.
 
-Now let’s try to see if the data is shared with the second pod (if you have more than one node deployed).
+Use the following command to validate that the filesystem is shared with the second pod (given that you have more than one node deployed).
 
 ```bash
 $ SECOND_POD=$(kubectl get pod -l name=nginx --no-headers=true -o custom-columns=:metadata.name | head -2 | tail -1)
@@ -339,7 +339,7 @@ Let’s try to access our new web page:
 kubectl proxy
 ```
 
-And open both URLs given by the commands above to see if the data is shared with all the pods connected to the Ceph volume.
+Open both URLs given by the commands above to see if the data is shared with all the pods connected to the Ceph volume.
 
 As you can see the data is correctly shared between the two Nginx pods running on two different Kubernetes nodes.
 Congratulations, you have successfully set up a multi-attach persistent volume with OVHcloud Cloud Disk Array!
