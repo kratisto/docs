@@ -1,7 +1,7 @@
 ---
 title: OpenSearch – Capacités et limitations (EN)
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for OpenSearch
-updated: 2024-05-27
+updated: 2025-01-07
 ---
 
 ## Objective
