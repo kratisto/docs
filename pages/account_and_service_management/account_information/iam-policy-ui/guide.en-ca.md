@@ -1,7 +1,7 @@
 ---
 title: How to use IAM policies using the OVHcloud Control Panel
 excerpt: "Find out how to give specific access rights to users from an OVHcloud account"
-updated: 2024-10-30
+updated: 2025-01-07
 ---
 
 ## Objective
@@ -58,6 +58,8 @@ Each policy is displayed with its name, the number of identities linked to it, a
 > Customers are not allowed to edit or delete these policies.
 
 ### Managing policies
+
+<a name="create-policy"></a>
 
 #### Creating a policy
 
@@ -137,6 +139,8 @@ Then you can change the scope of the policy.
 To delete an existing policy, click the `...`{.action} button to the right of the policy and click `Delete policy`{.action}.
 
 A popup window will ask you to confirm the deletion.
+
+<a name="create-users"></a>
 
 ### Managing identities
 

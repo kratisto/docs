@@ -1,7 +1,7 @@
 ---
 title: Como utilizar as políticas IAM a partir do seu Espaço Cliente
 excerpt: Descubra como dar direitos de acesso específicos aos utilizadores a partir de uma conta OVHcloud
-updated: 2024-10-30
+updated: 2025-01-07
 ---
 
 ## Objetivo
@@ -58,6 +58,8 @@ Cada política é apresentada com o seu nome, o número de identidades e o núme
 > Os clientes não podem alterar ou eliminar estas políticas.
 
 ### Gestão das políticas
+
+<a name="create-policy"></a>
 
 #### Criar uma política
 
@@ -138,6 +140,8 @@ A seguir, poderá alterar o âmbito da política.
 Para eliminar uma política existente, clique no botão `...`{.action} à direita da política, e por `Eliminar a política`{.action}.
 
 Uma janela contextual irá pedir-lhe que confirme a eliminação.
+
+<a name="create-users"></a>
 
 ### Gestão das identidades
 

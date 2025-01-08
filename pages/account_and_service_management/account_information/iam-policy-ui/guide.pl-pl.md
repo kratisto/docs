@@ -1,7 +1,7 @@
 ---
 title: Jak korzystać z polityki IAM w Panelu klienta
 excerpt: Dowiedz się, jak przypisać użytkownikom uprawnienia dostępu do konta OVHcloud
-updated: 2024-10-30
+updated: 2025-01-07
 ---
 
 ## Wprowadzenie
@@ -58,6 +58,8 @@ Każda polityka jest wyświetlana wraz z jej nazwiskiem, liczbą powiązanych z 
 > Klienci nie mogą modyfikować ani usuwać tych polityk.
 
 ### Zarządzanie polityką
+
+<a name="create-policy"></a>
 
 #### Tworzenie polityki
 
@@ -138,6 +140,8 @@ Następnie można zmienić zakres polityki.
 Aby usunąć istniejącą politykę, kliknij przycisk `...`{.action} po prawej stronie polityki, a następnie kliknij na `Usuń politykę`{.action}.
 
 W oknie podręcznym zostanie wyświetlona prośba o potwierdzenie usunięcia hosta.
+
+<a name="create-users"></a>
 
 ### Zarządzanie tożsamością
 

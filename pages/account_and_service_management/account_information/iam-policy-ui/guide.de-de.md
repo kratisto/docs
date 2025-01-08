@@ -1,7 +1,7 @@
 ---
 title: Verwendung von IAM-Richtlinie über Ihr Kundencenter
 excerpt: Erfahren Sie hier, wie Sie Benutzern im OVHcloud Kunden-Account spezifische Zugriffsrechte gewähren
-updated: 2024-10-30
+updated: 2025-01-07
 ---
 
 ## Ziel
@@ -58,6 +58,8 @@ Jede Richtlinie wird mit Name, Anzahl der verbundenen Identitäten und der Anzah
 > Kunden können diese Richtlinien nicht ändern oder löschen.
 
 ### Verwaltung der Richtlinien
+
+<a name="create-policy"></a>
 
 #### Eine Richtlinie erstellen
 
@@ -138,6 +140,8 @@ Anschließend können Sie den Geltungsbereich der Richtlinie ändern.
 Um eine bestehende Richtlinie zu löschen, klicken Sie auf `...`{.action} rechts neben der Richtlinie und dann auf `Richtlinie löschen`{.action}.
 
 In einem Popup-Fenster werden Sie aufgefordert, den Löschvorgang zu bestätigen.
+
+<a name="create-users"></a>
 
 ### Verwaltung von Identitäten
 
