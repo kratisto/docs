@@ -35,6 +35,11 @@ See our [MongoDB Capabilities and limitations](/pages/public_cloud/public_cloud_
 Caching is fully managed in-memory NoSQL database based on the Redis® open source software. It helps you store and access data quickly and efficiently.<br>
 See our [Caching Capabilities and limitations](/pages/public_cloud/public_cloud_databases/redis_01_capabilities) guide.
 
+### M3db
+
+M3db is a fully managed distributed time series database. It's scalable and offers high-availability, which is ideal for your monitoring environment and time series applications.<br>
+See our [M3db Capabilities and limitations](/pages/public_cloud/public_cloud_databases/m3db_01_capabilities) guide.
+
 ### Cassandra
 
 Apache Cassandra is an open-source fully managed NoSQL database. It's highly fault-tolerant with asynchronous replication.<br>
@@ -42,15 +47,15 @@ See our [Cassandra Capabilities and limitations](/pages/public_cloud/public_clou
 
 ## Feature Availability
 
-| Feature                                                                                                      | MySQL | PostgreSQL | MongoDB          | Caching | Cassandra |
-|--------------------------------------------------------------------------------------------------------------|-------|------------|------------------|-------|-----------|
-| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓     | ✓          | ✓                | ✓     | ✓         |
-| Automatic updates and one click upgrade                                                                      | ✓     | ✓          | ✓                | ✓     | ✓         |
-| Read-only nodes                                                                                              | ✓     | ✓          | ✓                |       |           |
-| Point in Time Recovery                                                                                       | ✓     | ✓          | ✓ <sup>(1)</sup> |       |           |
-| Database forking                                                                                             | ✓     | ✓          | ✓                | ✓     | ✓         |
-| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓     | ✓          | ✓                | ✓     | ✓         |
-| Private network connectivity (vRack)                                                                         | ✓     | ✓          | ✓                | ✓     | ✓         |
+| Feature                                                                                                      | MySQL | PostgreSQL | MongoDB          | Caching | M3db | Cassandra |
+|--------------------------------------------------------------------------------------------------------------|-------|------------|------------------|-------|------------|-----------|
+| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Automatic updates and one click upgrade                                                                      | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Read-only nodes                                                                                              | ✓     | ✓          | ✓                |       |            |           |
+| Point in Time Recovery                                                                                       | ✓     | ✓          | ✓ <sup>(1)</sup> |       |            |           |
+| Database forking                                                                                             | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Private network connectivity (vRack)                                                                         | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
 
 (1) depends on the plan
 

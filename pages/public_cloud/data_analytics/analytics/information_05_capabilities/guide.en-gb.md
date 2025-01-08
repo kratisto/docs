@@ -1,26 +1,20 @@
 ---
-title: Data Analytics - Capabilities and Limitations
-excerpt: Discover the capabilities and limitations of Data Analytics
+title: Analytics - Capabilities and Limitations
+excerpt: Discover the capabilities and limitations of Analytics services
 updated: 2025-01-07
 ---
 
-## Data Analytics
+## Analytics
 
-With our data analytics services, we take care of the database infrastructure and administration, including set-up, backup, scalability, and security.
-Choose from a large portfolio of popular engines.
+With our analytics services, we take care of the infrastructure and administration, including set-up, backup, scalability, and security, choose from a large portfolio of popular engines.
 
 We continuously improve our offers. You can follow and submit ideas to add to our roadmap at <https://github.com/orgs/ovh/projects/16/views/5>.
 
-## Database Engines
+## Analytics services:
 
-We currently offer 2 data analytics engines:
+We currently offer data analytics engines:
 
-### M3db
-
-M3db is a fully managed distributed time series database. It's scalable and offers high-availability, which is ideal for your monitoring environment and time series applications.<br>
-See our [M3db Capabilities and limitations](/pages/public_cloud/public_cloud_databases/m3db_01_capabilities) guide.
-
-### Opensearch
+### OpenSearch
 
 OpenSearch is an open-source fully managed search, analytics, and observability engine. It is ideal for logs management and offers search and analytical aggregations.<br>
 OpenSearch is an open-source fork derived from Elasticsearch.<br>
@@ -28,15 +22,15 @@ See our [OpenSearch Capabilities and limitations](/pages/public_cloud/public_clo
 
 ## Feature Availability
 
-| Feature                                                                                                      | M3db | Opensearch |
-|--------------------------------------------------------------------------------------------------------------|------|------------|
-| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓    | ✓          |
-| Automatic updates and one click upgrade                                                                      | ✓    | ✓          |
-| Read-only nodes                                                                                              |      |            |
-| Point in Time Recovery                                                                                       |      |            |
-| Database forking                                                                                             | ✓    | ✓          |
-| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓    | ✓          |
-| Private network connectivity (vRack)                                                                         | ✓    | ✓          |
+| Feature                                                                                                      | OpenSearch |
+|--------------------------------------------------------------------------------------------------------------|------------|
+| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓          |
+| Automatic updates and one click upgrade                                                                      | ✓          |
+| Read-only nodes                                                                                              |            |
+| Point in Time Recovery                                                                                       |            |
+| Database forking                                                                                             | ✓          |
+| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓          |
+| Private network connectivity (vRack)                                                                         | ✓          |
 
 (1) depends on the plan
 
