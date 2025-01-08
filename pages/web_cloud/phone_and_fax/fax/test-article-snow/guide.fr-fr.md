@@ -1,5 +1,6 @@
 ---
 title: Test article for ServiceNow images loading issue
+flag: hidden
 updated: 2025-01-07
 ---
 
