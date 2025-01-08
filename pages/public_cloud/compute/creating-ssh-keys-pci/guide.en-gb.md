@@ -22,7 +22,7 @@ details[open]>summary::before {
 
 The SSH protocol enables a secure communication channel over public networks in a client-server architecture. Key pairs can be used to authenticate these SSH connections between two trusted hosts, for example a desktop client and a remote server.
 
-A key set consist of a public key that can be shared and a private key that remains secret. Placed on a server, the public key allows any client that has the corresponding private key to connect to it without the need to enter a password.
+A key set consists of a public key that can be shared and a private key that remains secret. Placed on a server, the public key allows any client that has the corresponding private key to connect to it without the need to enter a password.
 
 This method is usually the best compromise between security and convenience and the default for Public Cloud instances.
 

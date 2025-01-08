@@ -31,10 +31,10 @@ Cette méthode de communication est généralement le meilleur compromis entre l
 ## Prérequis
 
 - Disposer d'un [serveur dédié](/links/bare-metal/bare-metal) ou d'un [VPS](/links/bare-metal/vps) sur votre compte OVHcloud
-- Disposer d'une application/client de connexion à distance compatible avec le protocole OpenSSH
+- Une application de connexion à distance compatible avec le protocole OpenSSH
 
 > [!primary]
-> Ce guide ne s'applique pas aux connexions aux systèmes d'exploitation **Windows Server** standard, car ils s'appuient par défaut sur le `Remote Desktop Protocol` (RDP).
+> Ce guide ne s'applique pas aux connexions aux systèmes d'exploitation **Windows Server** standard, car ils s'appuient par défaut sur le `Remote Desktop Protocol` (RDP). Les connexions SSH sont cependant utilisées pour le mode rescue d’OVHcloud.
 >
 > Retrouvez plus d’informations dans la section [Aller plus loin](#gofurther) de ce guide.
 >
@@ -49,7 +49,7 @@ N’oubliez pas de consulter nos guides « Premiers pas » :
 - pour un [serveur dédié de la gamme **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco) ;
 - pour un [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps).
 
-### Créer une ou plusieurs paires de clés pour les connexions OpenSSH
+### Création de paires de clés pour les connexions OpenSSH
 
 Les instructions suivantes expliquent comment créer et gérer des paires de clés pour les connexions à distance avec **OpenSSH** en **ligne de commande**. La plupart des systèmes d'exploitation actuels incluent cette fonctionnalité sans avoir besoin d'installer un logiciel supplémentaire.
 
@@ -243,7 +243,7 @@ Host vps
     IdentityFile ~/.ssh/myVPS_rsa
 ```
 
-Connectez-vous ensuite à ce second host en renseignant :
+Vous pourrez ensuite vous connecter à ce second host en renseignant :
 
 ```bash
 ssh vps

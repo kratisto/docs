@@ -26,7 +26,7 @@ Ein Schlüsselsatz besteht aus einem öffentlichen Schlüssel, der weitergegeben
 
 Diese Methode ist in der Regel der beste Kompromiss zwischen Sicherheit und Komfort und die Standardeinstellung für Public Cloud Instanzen.
 
-**In dieser Anleitung erfahren Sie, wie Sie Schlüsselpaare für die Authentifizierung auf Ihrem lokalen Gerät erstellen und verwalten und diese für die Verbindung mit Public Cloud-Instanzen verwenden.**
+**Diese Anleitung erklärt, wie Sie Schlüsselpaare zur Authentifizierung auf Ihrem lokalen Gerät erstellen und verwalten und diese für die Verbindung mit Public Cloud Instanzen verwenden.**
 
 ## Voraussetzungen
 
@@ -317,7 +317,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Die Schlüsseldatei kann mit einem Texteditor (Notepad, Notepad++ usw.) geöffnet werden. Klicken Sie im Windows Datei-Explorer mit der rechten Maustaste auf die Datei und wählen Sie `Öffnen mit`{.action}.
+Die Schlüsseldatei kann mit einem Texteditor (Notepad, Notepad++, etc.) geöffnet werden. Klicken Sie im Windows Datei-Explorer mit der rechten Maustaste auf die Datei und wählen Sie `Öffnen mit`{.action}.
 
 Sie können auch einen der folgenden Befehle verwenden (im Verzeichnis `\Users\WindowsUsername\.ssh`):
 
@@ -409,7 +409,7 @@ Sie können sich dann mit der Instanz verbinden, indem Sie die IP-Adresse der In
 ssh username@connection_name
 ```
 
-Beispiel
+Beispiel:
 
 ```bash
 ssh ubuntu@instance

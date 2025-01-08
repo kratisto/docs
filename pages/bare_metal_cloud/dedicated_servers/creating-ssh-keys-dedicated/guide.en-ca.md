@@ -22,7 +22,7 @@ details[open]>summary::before {
 
 The SSH protocol enables a secure communication channel over public networks in a client-server architecture. Key pairs can be used to authenticate these SSH connections between two trusted hosts, for example a desktop client and a remote server.
 
-A key set consist of a public key that can be shared and a private key that remains secret. Placed on a server, the public key allows any client that has the corresponding private key to connect to it without the need to enter a password.
+A key set consists of a public key that can be shared and a private key that remains secret. Placed on a server, the public key allows any client that has the corresponding private key to connect to it without the need to enter a password.
 
 This method is usually the best compromise between security and convenience.
 
@@ -34,7 +34,7 @@ This method is usually the best compromise between security and convenience.
 - A remote connection client application compatible with the OpenSSH protocol
 
 > [!primary]
-> This guide is not applicable for connections to standard **Windows Server** operating systems since they rely on the `Remote Desktop Protocol` (RDP) by default.
+> This guide is not applicable for connections to standard **Windows Server** operating systems since they rely on the `Remote Desktop Protocol` (RDP) by default. SSH connections are used for the OVHcloud rescue mode however.
 >
 > You can find more information in the [Go further](#gofurther) section of this guide.
 >
