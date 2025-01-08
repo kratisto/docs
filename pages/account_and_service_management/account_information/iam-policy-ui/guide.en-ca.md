@@ -47,7 +47,7 @@ You can access the IAM menu via the dedicated entry in your Control Panel.
 
 If you are accessing this menu for the first time, the following page appears:
 
-![Accès au menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/identity-and-access-management-iam/tab-first-access.png){.thumbnail}
+![Access to the IAM menu](/pages/assets/screens/control_panel/product-selection/right-column/identity-and-access-management-iam/tab-first-access.png){.thumbnail}
 
 Click [Create a policy](#create-policy) or [Create users](#create-users) directly depending on the action you want to perform.
 

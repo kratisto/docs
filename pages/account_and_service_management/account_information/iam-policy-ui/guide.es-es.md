@@ -45,17 +45,23 @@ Puede acceder al menú IAM desde la entrada dedicada del área de cliente.
 
 ![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
 
-El menú muestra una lista de todas las directivas actuales creadas en su cuenta.
+Si es la primera vez que accede a este menú, aparecerá la siguiente página:
+
+![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/identity-and-access-management-iam/tab-first-access.png){.thumbnail}
+
+Haga clic directamente en [Crear una política](#create-policy) o en [Crear usuarios](#create-users), en función de la acción que desee realizar.
+
+> [!primary]
+>
+> Haga clic en el botón "Modo avanzado" para ver la lista de todas las políticas de OVHcloud. Estas políticas son creadas automáticamente por OVHcloud para convertir la delegación preexistente de las `NIC Tech` (contacto técnico) y `NIC Admin` (contacto administrador) en la nueva funcionalidad IAM. 
+>
+> Los clientes no pueden modificar ni eliminar estas directivas.
+
+Si ya ha creado políticas o usuarios, el menú mostrará la lista de todas las políticas en curso creadas en su cuenta de OVHcloud.
 
 ![Acceso al menú IAM](images/access_to_the_IAM_menu_03.png){.thumbnail}
 
 Cada política se muestra con su nombre, el número de identidades asociadas y el número de acciones que contiene.
-
-> [!primary]
->
-> Haga clic en el botón «Modo avanzado» para ver la lista de todas las políticas de OVHcloud. Estas políticas son creadas automáticamente por OVHcloud para convertir la delegación preexistente de las `NIC Tech` (contacto técnico) y `NIC Admin` (contacto administrador) en la nueva funcionalidad IAM. 
->
-> Los clientes no pueden modificar ni eliminar estas directivas.
 
 ### Gestión de políticas
 
