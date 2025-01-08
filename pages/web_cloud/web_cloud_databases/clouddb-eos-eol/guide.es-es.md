@@ -1,6 +1,6 @@
 ---
 title: 'Anuncios de fin de venta/vida Web Cloud Databases'
-updated: 2025-01-23
+updated: 2025-02-10
 ---
 
 ## Objetivo
@@ -13,10 +13,13 @@ Para más información, consulte la [política de fin de vida de las bases de da
 |MariaDB 10.5|2023-07-26|2024-12-23|2025-06-24|
 |MariaDB 10.6|Por determinar|Por determinar|Por determinar|
 |MariaDB 10.11|Por determinar|Por determinar|Por determinar|
+|MariaDB 11.4|Por determinar|Por determinar|Por determinar|
 |MySQL 8.0|Por determinar|Por determinar|Por determinar|
 |PostgreSQL 13|2023-11-14|2025-05-14|2025-11-13|
 |PostgreSQL 14|Por determinar|Por determinar|Por determinar|
 |PostgreSQL 15|Por determinar|Por determinar|Por determinar|
+|PostgreSQL 16|Por determinar|Por determinar|Por determinar|
+|PostgreSQL 17|Por determinar|Por determinar|Por determinar|
 |Redis 6.0|2024-12-03|2025-03-03|2025-03-03|
 |Redis 7.0|Por determinar|Por determinar|Por determinar|
 
