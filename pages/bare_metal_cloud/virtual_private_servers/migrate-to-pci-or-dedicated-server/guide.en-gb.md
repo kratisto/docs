@@ -6,14 +6,14 @@ updated: 2025-01-09
 
 ## Objective
 
-As your website grows, the resources of a VPS can quickly become insufficient to meet your growing needs in terms of performance, traffic management, or processing complex tasks. By migrating to a dedicated server or Public Cloud instance, you get a more powerful, customizable infrastructure, suitable for more demanding workloads. This guide focuses on the essential steps to carry out this migration efficiently, while ensuring service continuity.
-
-**Find out how to migrate your website from a VPS to a dedicated server or Public Cloud instance.**
+As your website grows, the resources of a VPS can quickly become insufficient to meet your growing needs in terms of performance, traffic management, or processing complex tasks. By migrating to a dedicated server or Public Cloud instance, you benefit from a more powerful and customizable infrastructure, adapted to more demanding workloads. This guide focuses on the essential steps for carrying out this migration efficiently, while ensuring service continuity.
+       
+**Find out how to migrate your website from a VPS to a dedicated server or a Public Cloud instance.**
 
 ## Requirements
 
 - Administrative access to the source [VPS](/links/bare-metal/vps) (via SSH).
-- A [dedicated server](/links/bare-metal/bare-metal) or [Public Cloud](https://www.ovhcloud.com/en-gb/public-cloud/) instance in your OVHcloud account.
+- A [dedicated server](/links/bare-metal/bare-metal) or [Public Cloud](/links/public-cloud/public-cloud) instance in your OVHcloud account.
 - Administrator access to the destination server (via SSH).
 - Knowledge of server management basics (Apache/Nginx, databases, etc.).
 
@@ -21,12 +21,12 @@ As your website grows, the resources of a VPS can quickly become insufficient to
 
 > [!warning]
 >
-> OVHcloud provides services that you are responsible for configuring, managing and managing. It is therefore up to you to ensure that it works properly.
+> OVHcloud provides services that you are responsible for with regard to their configuration and management. It is therefore your responsibility to ensure that they function properly.
 >
 > We have provided you with this guide in order to help you with common tasks. However, we recommend contacting a [specialist provider](/links/partner) if you encounter any difficulties. We will not be able to assist you. You can find more information in the ["Go further"](#go-further) section of this guide.
 >
 
-## Contents
+### Content overview
 
 - [Step 1 - Back up your website files and database](#step1)
 - [Step 2 - Prepare the destination Dedicated Server or Public Cloud Instance](#step2)
@@ -60,7 +60,7 @@ Replace:
 If your website uses a database, save it using the command lines provided by your **D**ata**B**ase **M**anagement **S**ystem (**DBMS**).
 
 > [!tabs]
-> MySQL and MariaDB
+> **MySQL and MariaDB**
 >> ```bash
 >> mysqldump -u <db_user> -p <db_name> > database_backup.sql
 >> ```
@@ -70,13 +70,13 @@ If your website uses a database, save it using the command lines provided by you
 >> - `<db_user>`: by the database user name.
 >> - `<db_name>`: by the database name.
 >>
-> PostgreSQL
+> **PostgreSQL**
 >> To export your database, please refer to the [PostgreSQL official documentation](https://www.postgresql.org/docs/){.external}
 >>
-> MongoDB
+> **MongoDB**
 >> To export your database, please refer to the [official documentation of MongoDB](https://docs.mongodb.com/manual/){.external}
 >>
-> Open-source Redis®
+> **Open-source Redis®**
 >> To export your database, please refer to the [official Redis documentation](https://redis.io/documentation){.external}
 
 If you are using another DBMS, refer to its official documentation to find the commands for backing up the database.
@@ -117,7 +117,7 @@ rsync -avz /var/www/html/site_backup.tar.gz <user>@<destination_ip>:/var/www/htm
 
 Replace:
 
-- `<user>`: by the destination server user.
+- `<user>`: by the destination server's user.
 - `<destination_ip>`: by the IP address of the dedicated server or Public Cloud instance.
 
 For more details on using `rsync`, please refer to our guide "[How to copy data from one server to another using rsync](/pages/bare_metal_cloud/dedicated_servers/how-to-copy-data-from-one-dedicated-server-to-another-using-rsync)".
@@ -138,19 +138,19 @@ tar -xzf site_backup.tar.gz
 
 1\. Create a new database
 
-Connect via SSH to a dedicated server or Public Cloud instance. Create a new database based on your DBMS:
+Connect via SSH to a dedicated server or a Public Cloud instance. Create a new database based on your DBMS:
 
 > [!tabs]
-> MySQL and MariaDB
+> **MySQL and MariaDB**
 >> To create a new database, please refer to [MySQL official documentation](https://dev.mysql.com/doc/refman/8.4/en/creating-database.html){.external}
 >>
-> PostgreSQL
+> **PostgreSQL**
 >> To create a new database, please refer to [PostgreSQL official documentation](https://docs.postgresql.fr/11/sql-createdatabase.html){.external}
 >>
-> MongoDB
+> **MongoDB**
 >> To create a new database, please refer to the [official documentation of MongoDB](https://www.mongodb.com/resources/products/fundamentals/create-database){.external}
 >>
-> Open-source Redis®
+> **Open-source Redis®**
 >> To create a new database, please refer to [Redis official documentation](https://redis.io/docs/latest/operate/rc/databases/create-database/){.external}
 
 2\. Import the database
@@ -179,7 +179,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 1\. Apache
 
 > [!tabs]
-> Step 1
+> **Step 1**
 >>
 >> Create a configuration file for your website (replace `your_website` with a name that is meaningful for your project):
 >>
@@ -187,7 +187,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> sudo nano /etc/apache2/sites-available/your_website.conf
 >> ```
 >>
-> Step 2
+> **Step 2**
 >>
 >> In the configuration file, define your virtual host settings. Replace `your_domain.com` with the domain or subdomain associated with your website, and `/var/www/html` with the path to your website directory:
 >>
@@ -204,7 +204,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> </VirtualHost>
 >> ```
 >>
-> Step 3
+> **Step 3**
 >>
 >> Enable website configuration by adding it to Apache's available websites:
 >>
@@ -212,7 +212,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> sudo a2ensite your_website.conf
 >> ```
 >>
-> Step 4
+> **Step 4**
 >>
 >> Restart Apache to apply the configuration changes:
 >>
@@ -223,7 +223,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 2\. Nginx
 
 > [!tabs]
-> Step 1
+> **Step 1**
 >>
 >> Create a configuration file for your website (replace `your_website` with a name that is meaningful for your project):
 >>
@@ -231,7 +231,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> sudo nano /etc/nginx/sites-available/your_website
 >> ```
 >>
-> Step 2
+> **Step 2**
 >>
 >> In the configuration file, define your virtual host settings. Replace `your_domain.com` with the domain or subdomain associated with your website, and `/var/www/html` with the path to your website directory:
 >>
@@ -251,7 +251,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> }
 >> ```
 >>
-> Step 3
+> **Step 3**
 >>
 >> Enable website configuration by creating a symbolic link in the `sites-enabled` directory:
 >>
@@ -259,7 +259,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> sudo ln -s /etc/nginx/sites-available/your_website /etc/nginx/sites-enabled/
 >> ```
 >>
-> Step 4
+> **Step 4**h
 >>
 >> Restart Nginx to apply the configuration changes:
 >>
@@ -272,7 +272,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 Once you have configured your web server, it is important to update your website’s configuration files to ensure that it will work properly. The main variables to adjust are often the database connection information, as well as folder paths. Here are the specific configurations to update for the main CMSs.
 
 > [!tabs]
-> WordPress
+> **WordPress**
 >>
 >> Modify the following variables in the `wp-config.php` file:
 >>
@@ -285,7 +285,7 @@ Once you have configured your web server, it is important to update your website
 >>
 >> To avoid security issues, refer to the official documentation on [file permissions for WordPress](https://wordpress.org/support/article/changing-file-permissions/)
 >>
-> PrestaShop
+> **PrestaShop**
 >>
 >> Modify the following variables in the `parameters.php` file:
 >>
@@ -298,7 +298,7 @@ Once you have configured your web server, it is important to update your website
 >>
 >> To avoid any security issues, please refer to the [official documentation](https://devdocs.prestashop-project.org/) on file permissions for PrestaShop.
 >>
-> Joomla!
+> **Joomla!**
 >>
 >> Modify the following variables in the `configuration.php` file:
 >>
@@ -311,7 +311,7 @@ Once you have configured your web server, it is important to update your website
 >>
 >> To avoid security issues, refer to the official documentation on [file permissions for Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F)
 >>
-> Drupal
+> **Drupal**
 >>
 >> Modify the following variables in the `settings.php` file:
 >>
@@ -324,7 +324,7 @@ Once you have configured your web server, it is important to update your website
 >>
 >> To avoid security issues, refer to the official documentation on [file permissions for Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)
 >>
-> Without CMS
+> **Without CMS**
 >>
 >> **1. Update database connection information**
 >>
