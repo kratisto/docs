@@ -49,7 +49,7 @@ Wenn Sie dieses Menü zum ersten Mal aufrufen, wird die folgende Seite angezeigt
 
 ![IAM-Menüzugriff]](/pages/assets/screens/control_panel/product-selection/right-column/identity-and-access-management-iam/tab-first-access.png){.thumbnail}
 
-Klicken Sie je nach der gewünschten Aktion direkt auf [Richtlinie erstellen](#create-policy) oder auf [Benutzer erstellen](#create-users).
+Klicken Sie je nach der gewünschten Aktion auf [Richtlinie erstellen](#create-policy) oder auf [Benutzer erstellen](#create-users).
 
 > [!primary]
 >
@@ -57,7 +57,7 @@ Klicken Sie je nach der gewünschten Aktion direkt auf [Richtlinie erstellen](#c
 >
 > Kunden können diese Richtlinien nicht ändern oder löschen.
 
-Wenn Sie bereits Richtlinien oder Benutzer erstellt haben, wird im Menü eine Liste aller derzeit in Ihrem OVHcloud-Konto erstellten Richtlinien angezeigt.
+Wenn Sie bereits Richtlinien oder Benutzer erstellt haben, wird im Menü eine Liste aller derzeit in Ihrem OVHcloud Kunden-Account erstellten Richtlinien angezeigt.
 
 ![IAM-Menüzugriff](images/access_to_the_IAM_menu_03.png){.thumbnail}
 
