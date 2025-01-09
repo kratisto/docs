@@ -7,7 +7,7 @@ updated: 2025-01-09
 ## Objective
 
 As your website grows, the resources of a VPS can quickly become insufficient to meet your growing needs in terms of performance, traffic management, or processing complex tasks. By migrating to a dedicated server or Public Cloud instance, you benefit from a more powerful and customizable infrastructure, adapted to more demanding workloads. This guide focuses on the essential steps for carrying out this migration efficiently, while ensuring service continuity.
-       
+
 **Find out how to migrate your website from a VPS to a dedicated server or a Public Cloud instance.**
 
 ## Requirements
@@ -164,6 +164,7 @@ mysql -u user_name -p db_name < root/to/database_backup.sql
 ```
 
 Replace:
+
 - `user_name`: by your MySQL username.
 - `db_name`: by the database name.
 - `root/to/database_backup.sql`: by the path of the backed-up SQL file.
@@ -259,7 +260,7 @@ To associate your website with its domain or subdomain, configure a virtual host
 >> sudo ln -s /etc/nginx/sites-available/your_website /etc/nginx/sites-enabled/
 >> ```
 >>
-> **Step 4**h
+> **Step 4**
 >>
 >> Restart Nginx to apply the configuration changes:
 >>

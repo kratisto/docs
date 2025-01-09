@@ -155,7 +155,7 @@ Connectez-vous en SSH au serveur dédié ou à l'instance Public Cloud. Créez u
 
 2\. Importez la base de données
 
-Utilisez la ligne de commande ci-dessous pour réaliser l'importation de la base de données que vous avez sauvegardé à l'[étape 1.2](#step1.2).
+Utilisez la ligne de commande ci-dessous pour réaliser l'importation de la base de données que vous avez sauvegardée à l'[étape 1.2](#step1.2).
 
 Dans l'exemple ci-dessous, nous utilisons MySQL. Servez-vous de la documentation officielle du SGBD que vous avez installé lors de l'étape précédente afin d'utiliser la ligne de commande adéquate pour importer la base de données sur votre serveur.
 
@@ -164,6 +164,7 @@ mysql -u user_name -p db_name < root/to/database_backup.sql
 ```
 
 Remplacez :
+
 - `user_name` : par votre nom d'utilisateur MySQL.
 - `db_name` : par le nom de la base de données.
 - `root/to/database_backup.sql` : par le chemin du fichier SQL sauvegardé.
@@ -283,7 +284,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour plus de détails, consultez la [documentation officielle de WordPress](https://fr.wordpress.org/support/article/editing-wp-config-php/).
 >>
->> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour WordPress](https://wordpress.org/support/article/changing-file-permissions/)
+>> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour WordPress](https://wordpress.org/support/article/changing-file-permissions/).
 >>
 > **PrestaShop**
 >>
@@ -309,7 +310,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour plus de détails, consultez la [documentation officielle de Joomla!](https://docs.joomla.org/).
 >>
->> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F)
+>> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F).
 >>
 > **Drupal**
 >>
@@ -322,7 +323,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour plus de détails, consultez la [documentation officielle de Drupal](https://www.drupal.org/documentation).
 >>
->> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)
+>> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership).
 >>
 > Sans CMS
 >>
