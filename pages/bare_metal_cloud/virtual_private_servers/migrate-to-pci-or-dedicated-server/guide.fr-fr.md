@@ -1,4 +1,4 @@
- ---
+---
 title: "Comment migrer un site web d'un VPS vers un serveur dédié ou une instance Public Cloud"
 excerpt: "Découvrez comment migrer votre site web d'un VPS vers un serveur dédié ou une instance Public Cloud"
 updated: 2025-01-09
