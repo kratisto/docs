@@ -7,7 +7,7 @@ updated: 2025-01-09
 ## Objective
 
 The OVHcloud Managed Kubernetes service gives you access to Kubernetes clusters, without the hassle of installing or operating them.
-But for some specific usecases, you may customize nodes parameters.
+But for some specific usecases, you may have to customize nodes parameters.
 
 This guide will cover the modification of the Sysctl parameters which takes in charge the Inotify part and allows you to open more files simultaneously.
 
