@@ -1,4 +1,4 @@
----
+ ---
 title: "Comment migrer un site web d'un VPS vers un serveur dédié ou une instance Public Cloud"
 excerpt: "Découvrez comment migrer votre site web d'un VPS vers un serveur dédié ou une instance Public Cloud"
 updated: 2025-01-09
@@ -13,7 +13,7 @@ Votre site web se développe, et les ressources d'un VPS peuvent rapidement deve
 ## Prérequis
 
 - Disposer d'un accès administrateur au [VPS](/links/bare-metal/vps) source (via SSH).
-- Un [serveur dédié](/links/bare-metal/bare-metal) ou une instance [Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) dans votre compte OVHcloud.
+- Un [serveur dédié](/links/bare-metal/bare-metal) ou une instance [Public Cloud](/links/public-cloud/public-cloud/) dans votre compte OVHcloud.
 - Accès administrateur au serveur de destination (via SSH).
 - Une connaissance des bases de la gestion de serveur (Apache/Nginx, bases de données, etc.).
 
@@ -26,7 +26,7 @@ Votre site web se développe, et les ressources d'un VPS peuvent rapidement deve
 > Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Cependant, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [« Aller plus loin »](#go-further) de ce guide.
 >
 
-## Sommaire
+### Sommaire
 
 - [Étape 1 - Sauvegarder les fichiers et la base de données de votre site web](#step1)
 - [Étape 2 - Préparer le serveur dédié ou l'instance Public Cloud de destination](#step2)
@@ -60,7 +60,7 @@ Remplacez :
 Si votre site web utilise une base de données, sauvegardez-la en utilisant les lignes de commande selon votre **S**ystème de **G**estion de **B**ase de **D**onnées (**SGBD**).
 
 > [!tabs]
-> MySQL et MariaDB
+> **MySQL et MariaDB**
 >> ```bash
 >> mysqldump -u <db_user> -p <db_name> > database_backup.sql
 >> ```
@@ -70,13 +70,13 @@ Si votre site web utilise une base de données, sauvegardez-la en utilisant les 
 >> - `<db_user>` : par le nom d'utilisateur de la base de données.
 >> - `<db_name>` : par le nom de la base de données.
 >>
-> PostgreSQL
+> **PostgreSQL**
 >> Pour exporter votre base de données, référez-vous à la [documentation officielle de PostgreSQL](https://www.postgresql.org/docs/){.external}
 >>
 > MongoDB
 >> Pour exporter votre base de données, référez-vous à la [documentation officielle de MongoDB](https://docs.mongodb.com/manual/){.external}
 >>
-> Redis® open source
+> **Redis® open source**
 >> Pour exporter votre base de données, référez-vous à la [documentation officielle de Redis](https://redis.io/documentation){.external}
 
 Si vous utilisez un autre SGBD, consultez sa documentation officielle pour trouver les commandes de sauvegarde de la base de données.
@@ -141,16 +141,16 @@ tar -xzf site_backup.tar.gz
 Connectez-vous en SSH au serveur dédié ou à l'instance Public Cloud. Créez une nouvelle base de données en fonction de votre SGBD :
 
 > [!tabs]
-> MySQL et MariaDB
+> **MySQL et MariaDB**
 >> Pour créer une nouvelle base de données, référez-vous à la [documentation officielle de MySQL](https://dev.mysql.com/doc/refman/8.4/en/creating-database.html){.external}
 >>
-> PostgreSQL
+> **PostgreSQL**
 >> Pour créer une nouvelle base de données, référez-vous à la [documentation officielle de PostgreSQL](https://docs.postgresql.fr/11/sql-createdatabase.html){.external}
 >>
-> MongoDB
+> **MongoDB**
 >> Pour créer une nouvelle base de données, référez-vous à la [documentation officielle de MongoDB](https://www.mongodb.com/resources/products/fundamentals/create-database){.external}
 >>
-> Redis® open source
+> **Redis® open source**
 >> Pour créer une nouvelle base de données, référez-vous à la [documentation officielle de Redis](https://redis.io/docs/latest/operate/rc/databases/create-database/){.external}
 
 2\. Importez la base de données
@@ -179,7 +179,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 1\. Apache
 
 > [!tabs]
-> Étape 1
+> **Étape 1**
 >>
 >> Créez un fichier de configuration pour votre site web (remplacez `your_website` par un nom significatif pour votre projet) :
 >>
@@ -187,7 +187,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> sudo nano /etc/apache2/sites-available/your_website.conf
 >> ```
 >>
-> Étape 2
+> **Étape 2**
 >>
 >> Dans le fichier de configuration, définissez les paramètres de votre hôte virtuel. Remplacez `your_domain.com` par le domaine ou sous-domaine associé à votre site web, et `/var/www/html` par le chemin vers le répertoire de votre site web :
 >>
@@ -204,7 +204,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> </VirtualHost>
 >> ```
 >>
-> Étape 3
+> **Étape 3**
 >>
 >> Activez la configuration du site web en l'ajoutant aux sites disponibles d'Apache :
 >>
@@ -212,7 +212,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> sudo a2ensite your_website.conf
 >> ```
 >>
-> Étape 4
+> **Étape 4**
 >>
 >> Redémarrez Apache pour appliquer les modifications de configuration :
 >>
@@ -223,7 +223,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 2\. Nginx
 
 > [!tabs]
-> Étape 1
+> **Étape 1**
 >>
 >> Créez un fichier de configuration pour votre site web (remplacez `your_website` par un nom significatif pour votre projet) :
 >>
@@ -231,7 +231,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> sudo nano /etc/nginx/sites-available/your_website
 >> ```
 >>
-> Étape 2
+> **Étape 2**
 >>
 >> Dans le fichier de configuration, définissez les paramètres de votre hôte virtuel. Remplacez `your_domain.com` par le domaine ou sous-domaine associé à votre site web, et `/var/www/html` par le chemin vers le répertoire de votre site web :
 >>
@@ -251,7 +251,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> }
 >> ```
 >>
-> Étape 3
+> **Étape 3**
 >>
 >> Activez la configuration du site web en créant un lien symbolique dans le répertoire `sites-enabled` :
 >>
@@ -259,7 +259,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 >> sudo ln -s /etc/nginx/sites-available/your_website /etc/nginx/sites-enabled/
 >> ```
 >>
-> Étape 4
+> **Étape 4**
 >>
 >> Redémarrez Nginx pour appliquer les modifications de configuration :
 >>
@@ -272,7 +272,7 @@ Pour associer votre site web à son domaine ou sous-domaine, configurez un hôte
 Après avoir configuré le serveur web, il est important de mettre à jour les fichiers de configuration de votre site web pour garantir son bon fonctionnement. Les principales variables à ajuster sont souvent les informations de connexion à la base de données, ainsi que les chemins d'accès aux dossiers. Voici les configurations spécifiques à mettre à jour pour les principaux CMS.
 
 > [!tabs]
-> WordPress
+> **WordPress**
 >>
 >> Modifiez les variables suivantes dans le fichier `wp-config.php` :
 >> 
@@ -285,7 +285,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour WordPress](https://wordpress.org/support/article/changing-file-permissions/)
 >>
-> PrestaShop
+> **PrestaShop**
 >>
 >> Modifiez les variables suivantes dans le fichier `parameters.php` :
 >> 
@@ -298,7 +298,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour éviter tout problème de sécurité, consultez la [documentation officielle](https://devdocs.prestashop-project.org/) sur les permissions de fichiers pour PrestaShop.
 >>
-> Joomla!
+> **Joomla!**
 >>
 >> Modifiez les variables suivantes dans le fichier `configuration.php` :
 >> 
@@ -311,7 +311,7 @@ Après avoir configuré le serveur web, il est important de mettre à jour les f
 >>
 >> Pour éviter tout problème de sécurité, consultez la documentation officielle sur les [permissions de fichiers pour Joomla!](https://docs.joomla.org/What_are_the_recommended_file_and_directory_permissions%3F)
 >>
-> Drupal
+> **Drupal**
 >>
 >> Modifiez les variables suivantes dans le fichier `settings.php` :
 >> 
