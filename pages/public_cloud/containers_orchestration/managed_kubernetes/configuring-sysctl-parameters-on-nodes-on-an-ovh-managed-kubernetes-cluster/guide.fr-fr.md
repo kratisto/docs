@@ -59,6 +59,16 @@ And define the value of the sysctl key ```fs.inotify.max_user_watches``` based o
 
 The DaemonSet will set the sysctl parameter "fs.inotify.max_user_watches" with the value you provided in the DaemonSet configuration on all nodes deployed into your Kubernetes Cluster.
 
+> [!primary]
+>
+> Multiple sysctl parameters can be modified and adapted for your use cases. You can list them by running this command : 
+> 
+> ```bash
+> $ kubectl run busybox --image=busybox:latest --rm=true -it --privileged=true -- sysctl -a
+> ```
+> 
+> This command will create a privileged busybox pod, will print all "sysctl" variables then delete the pod.
+
 ## Step 2: Test if the changes were applied correctly
 
 In order to check if the Inotify value has been changed properly, you can escalate a shell into a pod : 
