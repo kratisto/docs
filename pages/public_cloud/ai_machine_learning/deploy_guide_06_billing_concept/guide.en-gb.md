@@ -1,7 +1,7 @@
 ---
 title: AI Deploy - Billing and lifecycle
 excerpt: Learn how we bill AI Deploy
-updated: 2023-04-04
+updated: 2024-01-10
 ---
 
 > [!primary]
@@ -24,12 +24,12 @@ AI Deploy is linked to a Public Cloud project. The whole project is billed at th
 OVHcloud AI deploy allows deployment of Docker images, and each deployment is called an `app`. 
 During its lifetime, the app will go through the following status:
 
-- `QUEUED`: the app deployment request is about to be processed. First arrived, first deployed.
-- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized. To learn more about data synchronization, please check out the [Data - How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
-- `RUNNING`: the app is running, you can connect to it and use it. Compute resources (GPUs/CPUs) are allocated to your specific app and an HTTP endpoint is available.
-- `SCALING`: the app deployment is scaling up or down, depending of the scaling configuration. While scaling, the app is still available if it was running before.
-- `STOPPING`: the app is stopping, your compute resources are freed. Ephemeral data is deleted.
-- `STOPPED`: the app ended normally. You can restart it whenever you want or delete it.
+- `QUEUED`: the app deployment request is about to be processed.
+- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
+- `SCALING`: First, the system allocates the necessary compute resources (CPU/GPU) for the app. Then, the specified Docker image is pulled for use in the app. This status is also entered when the number of app replicas is being increased or decreased.
+- `RUNNING`: At least one replica of the app is available and accessible via its endpoint. As the app scales up to create new replicas, the status transitions back to `SCALING`. However, there is no interruption in service, and the original replica(s) remain accessible during this time.
+- `STOPPING`: the app is stopping, your compute resources are freed. Ephemeral data is deleted. If any, remote data is synchronized back to the Object Storage.
+- `STOPPED`: the app ended normally. You can restart it whenever you want or delete it. It will keep the same endpoint.
 - `FAILED`: the app ended in error, e.g. the Docker image is invalid (unreachable, built with linux/arm, ...).
 - `ERROR`: the app ended due to a backend error (issue on OVHcloud side). You may reach our support.
 - `DELETING`: the app is being removed. When it is deleted, you will no longer see it, it will no longer exist.
@@ -59,11 +59,7 @@ We **do not provide** a pay-per-call pricing so far.
 - For this optional Object Storage, Egress traffic when communicated outside OVHcloud
 - Private Docker registry if any.
 
-Visual explanations about paid items:
-
-![image](images/ai.deploy.items.png){.thumbnail}
-
-A more detailed view:
+Here is a detailed graph that illustrates every step that is billed or not during the AI Deploy workflow:
 
 ![image](images/ai.deploy.billing.png){.thumbnail}
 
