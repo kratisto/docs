@@ -33,14 +33,14 @@ Our Public Cloud Load Balancer  is based on [OpenStack Octavia](https://wiki.ope
 >>
 >> The configuration page will open.
 >>
->> **Step 1 : Size choice**
+> **Step 1 : Size choice**
 >>
 >> ![Size choice](images/size.png){.thumbnail}
 >>
 >> The interface contains a link to the website on which the characteristics / benchmark of all size are provided. Once you have chosen your size, click `Next`{.action}.
 >>
-> 
->> **Step 2 : Region choice**
+>>
+> **Step 2 : Region choice**
 >>
 >> ![Region choice](images/region.png){.thumbnail}
 >>
