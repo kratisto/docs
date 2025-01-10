@@ -1,7 +1,7 @@
 ---
 title: 'Crea e configura un disco aggiuntivo sulla tua istanza'
 excerpt: 'Come associare un nuovo volume alla tua istanza Public Cloud'
-updated: 2025-01-07
+updated: 2024-12-24
 ---
 
 <style>

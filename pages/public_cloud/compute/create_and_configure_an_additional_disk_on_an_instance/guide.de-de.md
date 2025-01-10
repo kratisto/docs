@@ -1,7 +1,7 @@
 ---
 title: Zusätzliches Volume auf einer Instanz erstellen und konfigurieren
 excerpt: Erfahren Sie hier, wie Sie eine neue Disk erstellen und zu Ihrer Public Cloud Instanz hinzufügen
-updated: 2025-01-07
+updated: 2024-12-24
 ---
 
 <style>

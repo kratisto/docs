@@ -1,7 +1,7 @@
 ---
 title: 'Criar e configurar um disco suplementar numa instância'
 excerpt: 'Saiba como associar um novo volume à sua instância Public Cloud'
-updated: 2025-01-07
+updated: 2024-12-24
 ---
 
 <style>
