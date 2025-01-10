@@ -21,3 +21,19 @@ This article's purpose is to show the main images loading issue currently experi
 ## Image 4
 
 ![account type](images/nic-handle.png){.thumbnail}
+
+## Image 6
+
+![2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+
+## Image 7
+
+![2FA](images/2024-003-otp-choice.png){.thumbnail}
+
+## Image 8
+
+![2FA](images/2024-003-otp-code.png){.thumbnail}
+
+## Image 9
+
+![2FA](images/2024-004-u2f-choice.png){.thumbnail}
