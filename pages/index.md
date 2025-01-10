@@ -1615,6 +1615,7 @@
             + [FAQ Zimbra OVHcloud](web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
             + [Configure Zimbra account on email client](web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
             + [How to configure a Zimbra email account on the Zimbra mobile application](web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios)
+            + [Synchronize a CalDAV Zimbra calendar in an application](web_cloud/email_and_collaborative_solutions/zimbra/zimbra_calendar_sync)
     + [Internet](products/web-cloud-internet)
         + [Internet access](products/web-cloud-internet-internet-access)
             + [Getting started](web-cloud-internet-internet-access-getting-started)
