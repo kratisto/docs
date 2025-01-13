@@ -12,8 +12,8 @@ Analytics services allow you to focus on building and deploying cloud applicatio
 
 ## Requirements
 
-- access to the [OVHcloud API](https://api.ovh.com/){.external} (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
-- a [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud API](/links/api) (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 ## Instructions
 
@@ -21,7 +21,7 @@ Analytics services allow you to focus on building and deploying cloud applicatio
 
 In order to create an analytics service, you will need to specify at minimum:
 
-- an _engine_, and its _version_ (e.g. "opensearch "2.0")
+- an _engine_, and its _version_ (e.g. "opensearch 2.0")
 - the _plan_ (e.g. "business")
 - the _nodes_ of the cluster (e.g. "3 nodes with 4 cores, 15 GiB memory, 100 GiB disk")
 
@@ -36,7 +36,7 @@ The call returns an object listing allowed values for:
 
 - the various engines, with the various versions for each engine
 - the plans
-- and the flavors
+- the flavors
 
 #### Get the availability
 
@@ -47,20 +47,20 @@ The _availability_ endpoint lists what combination of parameters the service all
 
 The call returns an array listing the available set of parameters. Each entry in this array lists (among other data): an _engine_, a _version_, a _plan_, a _flavor_, a _region_, if it supports _public_ or _private networking_, a _minimum number of nodes_ and a _maximum number of nodes_.
 
-### Step 2: Create an OpeaSearch analytics service
+### Step 2: Create an OpenSearch analytics service
 
 > [!warning]
-> By creating a cluster, you will be billed accordingly.
+> Upon creating a cluster, you will be billed accordingly.
 
 Use this endpoint to create a new analytics service cluster:
 
 > [!api]
 > @api {v1} /cloud POST /cloud/project/{serviceName}/database/opensearch
 
-- **description**: A human-readable description for the service you wish to create
-- **plan**: the desired plan for the service
-- **version**: the OpenSearch version you want to use
-- **nodesPattern**: specify the _flavor_ and _region_, and the number of nodes you want to use
+- **description**: A human-readable description for the service you wish to create.
+- **plan**: The desired plan for the service.
+- **version**: The OpenSearch version you want to use.
+- **nodesPattern**: Specify the _flavor_ and _region_, and the number of nodes you want to use.
 - **nodeslist**: Leave this parameter undefined. It is another way to specify the list of nodes your cluster uses. As of today, multi-region and flavor-heterogeneous clusters are not supported. Hence it is easier to use **nodesPattern** to specify a number of same-region, same-flavor nodes.
 - **ipRestrictions**: The IP addresses blocks allowed to connect to your cluster.
 
@@ -102,7 +102,7 @@ Note the new password of the user to later be able to connect to the cluster.
 
 ### Step 5: Start using the cluster
 
-You’ll find the cluster connection information in your Control Panel; you can now start using the cluster!
+You’ll find the cluster connection information in your Control Panel. You can now start using the cluster!
 
 ## Go further
 
@@ -112,8 +112,8 @@ You’ll find the cluster connection information in your Control Panel; you can 
 
 [Configuring vRack for Public Cloud](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack)
 
-Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
+Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our Analytics services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
