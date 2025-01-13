@@ -13,8 +13,8 @@ This guide will cover the modification of the Sysctl parameters which takes in c
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/fr/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr)
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
 - An OVHcloud Managed Kubernetes cluster
 - Access to your OVHcloud Managed Kubernetes cluster through the Kubeconfig file
 - You must have the [`kubectl`](https://kubernetes.io/docs/reference/kubectl/overview/){.external} command-line tool installed
@@ -85,8 +85,6 @@ Congratulations ! You've successfully modified the maximum Inotify "max_user_wat
 
 To deploy your first application on your Kubernetes cluster, we suggest you refer to our guide to [Deploying an application](/pages/public_cloud/containers_orchestration/managed_kubernetes/deploying-an-application).
 
-- If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/fr/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-- Join our [community of users](https://community.ovh.com/en/).
-
-
+Join our [community of users](/links/community).
