@@ -4,7 +4,6 @@ excerpt: Guide sur les options de tarification, configurations et personnalisati
 updated: 2025-01-13
 ---
 # Informations concernant le mode de tarification et les configurations des NSX Edges
-# Informations concernant le mode de tarification et les configurations des NSX Edges
 
 ## Objectif
 Cette documentation a pour but d'expliquer les options de configuration des NSX Edges et les étapes pour les gérer dans un environnement VMware sur OVHcloud. Elle décrit également les limitations techniques et fournit des indications sur la manière d'adapter ces configurations aux besoins spécifiques.
