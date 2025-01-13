@@ -12,17 +12,17 @@ OVHcloud Analytics allows you to focus on building and deploying cloud applicati
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
-- A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 ## Instructions
 
-Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and switch to the `Public Cloud`{.action} section. After selecting your Public Cloud project, go in the left-hand navigation bar under **Databases & Analytics**:
+Log in to your [OVHcloud Control Panel](/links/manager) and switch to the `Public Cloud`{.action} section. After selecting your Public Cloud project, go in the left-hand navigation bar under **Databases & Analytics**:
 
 - Clicking on `Data Streaming`{.action} will give you access to `Kafka`, `Kafka Connect` and `KafkaMirrorMaker` services.
 - Clicking on `Data Analysis` will give you access to `Dashboards` and `OpenSearch` services.
 
-Click on the button `Create a database instance`{.action}. (`Create a service`{.action} if your project already contains analytics services.)
+Click the `Create a database instance`{.action} button (or the `Create a service`{.action} button if your project already contains analytics services).
 
 ### Step 1: Select your analytics type
 
@@ -32,7 +32,7 @@ Click on the type of analytics you want to use and then select the version to in
 
 ### Step 2: Select a Plan
 
-Choose an appropriate service plan. You will be able to upgrade the plan after creation.
+Choose an appropriate service plan. You will be able to upgrade the plan after its creation.
 
 Please visit the [capabilities page](/products/public-cloud-data-analytics) of your selected analytics type for detailed information on each plan's properties.
 
@@ -92,6 +92,6 @@ Note that the configuration options might be different, depending on the analyti
 
 Visit our dedicated Discord channel: <https://discord.gg/PwPqWUpN8G>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
