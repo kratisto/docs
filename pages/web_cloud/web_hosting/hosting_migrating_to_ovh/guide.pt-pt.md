@@ -205,7 +205,7 @@ Repita a operação para o conjunto das suas contas de e-mail.
 > Se os seus endereços de e-mail foram configurados em POP sem conservar cópias dos e-mails no seu antigo servidor de e-mail, ou se dispõe dos e-mails registados "localmente" nos seus dispositivos, só poderá realizar a **opção 2**.
 >
 
-**Opção 2**: faça um backup do conteúdo dos seus endereços de e-mail com a ajuda de um software de mensagens (Outlook, Mail para Mac,...), reconfigure o seu software de e-mail e depois importe o backup para o seu novo endereço de e-mail OVHcloud. Para mais informações, consulte o nosso guia "[Migrar manualmente o seu endereço de e-mail](/pages/web_cloud/email_and_colaborative_solutions/migrating/manual_email_migration)".
+**Opção 2**: faça um backup do conteúdo dos seus endereços de e-mail com a ajuda de um software de mensagens (Outlook, Mail para Mac,...), reconfigure o seu software de e-mail e depois importe o backup para o seu novo endereço de e-mail OVHcloud. Para mais informações, consulte o nosso guia "[Migrar manualmente o seu endereço de e-mail](/pages/web_cloud/email_and_collaborative_solutions/migrating/manual_email_migration)".
 
 ### Etapa 8 : reconfigurar os seus softwares de e-mail <a name="step8"></a>
 
