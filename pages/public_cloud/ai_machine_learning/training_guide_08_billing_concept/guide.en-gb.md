@@ -55,7 +55,7 @@ Here is a detailed graph that illustrates every step that is billed or not durin
 ### Compute resources details
 
 During the AI Training job creation, you can select **compute resources**, known as CPUs or GPUs.
-Their official pricing is available in the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) or on the [OVHcloud Public Cloud website](https://www.ovhcloud.com/en-gb/public-cloud/prices/).
+Their official pricing is available in the [OVHcloud Control Panel](/links/manager) or on the [OVHcloud Public Cloud website](/links/public-cloud/prices).
 
 Rates for compute are mentioned per hour to facilitate reading of the prices, but the billing granularity remains **per minute**.
 
@@ -65,7 +65,7 @@ Rates for compute are mentioned per hour to facilitate reading of the prices, bu
 
 Each compute resource (CPU or GPU) comes with local storage, that we can consider ephemeral since this storage space is not saved when you delete an AI Training job.
 
-The sizing depends on the selected amount of compute resources, check the details on the [OVHcloud Public Cloud website](https://www.ovhcloud.com/en-gb/public-cloud/prices/).
+The sizing depends on the selected amount of compute resources, check the details on the [OVHcloud Public Cloud website](/links/public-cloud/prices).
 
 #### Remote Object storage
 
@@ -100,4 +100,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
