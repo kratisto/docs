@@ -1,14 +1,14 @@
 ---
-title: Public Cloud Databases - Getting started with Terraform
-excerpt: Find out how to order and manage your Public Cloud managed database service using Terraform
-updated: 2022-10-19
+title: Analytics - Getting started with Terraform
+excerpt: Find out how to order and manage your Analytics service using Terraform
+updated: 2025-01-13
 ---
 
 ## Objective
 
-Public Cloud managed databases allow you to focus on building and deploying cloud applications while OVHcloud takes care of the database infrastructure and maintenance.
+Public Cloud managed analytics services allow you to focus on building and deploying cloud applications while OVHcloud takes care of the analytics infrastructure and maintenance.
 
-**This guide explains how to order a MongoDB instance of a Public Cloud managed database service using Terraform.**
+**This guide explains how to order an OpenSearch instance of a Analytics service using Terraform.**
 
 ## Requirements
 
@@ -52,10 +52,10 @@ You will also use this information in Terraform resources definition files.
 
 ### Step 2: Gather the set of required parameters
 
-In order to create a new MongoDB cluster, you will need to specify at least:
+In order to create a new OpenSearch cluster, you will need to specify at least:
 
-- the _version_ (e.g. "5.0")
-- the _region_ (e.g. "DE")
+- the _version_ (e.g. "2.0")
+- the _region_ (e.g. "GRA")
 - the _plan_ (e.g. "business")
 - the _flavor_ of the cluster (e.g. "db1-7")
 
@@ -85,7 +85,7 @@ provider "ovh" {
 resource "ovh_cloud_project_database" "service" {
   service_name = var.product.project_id
   description  = var.product.name
-  engine       = "mongodb"
+  engine       = "opensearch"
   version      = var.product.version
   plan         = var.product.plan
   nodes {
@@ -94,7 +94,7 @@ resource "ovh_cloud_project_database" "service" {
   flavor = var.product.flavor
 }
 
-resource "ovh_cloud_project_database_mongodb_user" "dbuser" {
+resource "ovh_cloud_project_database_opensearch_user" "analyticsuser" {
   service_name = ovh_cloud_project_database.service.service_name
   cluster_id   = ovh_cloud_project_database.service.id
   name         = var.access.name
@@ -124,12 +124,12 @@ variable "ovh" {
 variable "product" {
   type = map(string)
   default = {
-    name       = "mongodb-terraform"
+    name       = "opensearch-terraform"
     project_id = ""
-    region     = "DE"
+    region     = "GRA"
     plan       = "business"
     flavor     = "db1-7"
-    version    = "5.0"
+    version    = "2.0"
   }
 }
 
@@ -159,11 +159,11 @@ ovh = {
 
 product = {
   project_id = "<service_name>"
-  name       = "mongodb-terraform"
-  region     = "DE"
+  name       = "opensearch-terraform"
+  region     = "GRA"
   plan       = "business"
   flavor     = "db1-7"
-  version    = "5.0"
+  version    = "2.0"
 }
 
 access = {
@@ -184,11 +184,11 @@ output "cluster_uri" {
 }
 
 output "user_name" {
-  value = ovh_cloud_project_database_mongodb_user.dbuser.name
+  value = ovh_cloud_project_database_opensearch_user.analyticsuser.name
 }
 
 output "user_password" {
-  value     = ovh_cloud_project_database_mongodb_user.dbuser.password
+  value     = ovh_cloud_project_database_opensearch_user.analyticsuser.password
   sensitive = true
 }
 ```
@@ -233,25 +233,21 @@ export USER=$(terraform output -raw user_name)
 export URI=$(terraform output -raw cluster_uri)
 ```
 
-And, voilà, the MongoDB cluster is created.
+And that's it, the OpenSearch cluster is created.
 
 ## How to deploy with other engines
 
-In this guide, we explained how to deploy a MongoDB service but you can find example for other database engine here and tweak them according to your needs :
+In this guide, we explained how to deploy a OpenSearch service but you can find example for other analytics engine here and tweak them according to your needs :
 
 > [!tabs]
-> MySQL
->> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/mysql/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/mysql/terraform/hello-world)
-> PostgreSQL
->> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/postgresql/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/postgresql/terraform/hello-world)
-> Cassandra
->> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/cassandra/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/cassandra/terraform/hello-world)
+> Kafka
+>> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/kafka/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/kafka/terraform/hello-world)
 
 ## Go further
 
-[MongoDB capabilities](/pages/public_cloud/public_cloud_databases/mongodb_01_concept_capabilities)
+[OpenSearch capabilities](/pages/public_cloud/public_cloud_databases/opensearch_01_capabilities)
 
-[Managing a MongoDB service from the OVHcloud Control Panel](/pages/public_cloud/public_cloud_databases/mongodb_02_manage_control_panel)
+[Starting with OpenSearch analytics service](/pages/public_cloud/public_cloud_databases/opensearch_02_getting_Started)
 
 [Configuring vRack for Public Cloud](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack)
 
