@@ -20,9 +20,9 @@ Analytics engines are managed services, which means that they are not fully conf
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account   
-- An analytics service running on your OVHcloud Analytics ([this guide](/pages/public_cloud/data_analytics/analytics/analytics_getting_started) can help you to meet this requirement)   
-- Access to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) or to the [OVHcloud API](https://api.ovh.com/)   
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- An analytics service running on your OVHcloud Analytics ([this guide](/pages/public_cloud/data_analytics/analytics/analytics_getting_started) can help you to meet this requirement)
+- Access to your [OVHcloud Control Panel](/links/manager) or to the [OVHcloud API](/links/api)
 
 ## Instructions
 
@@ -40,12 +40,12 @@ Analytics engines are managed services, which means that they are not fully conf
 >
 > Once the advanced configuration has been submitted, it is not possible to reset it to initial values. It is only possible to update the values, so we recommend that you take note of the initial values before changing them.
 >
-> See the [Checking](#checking) section below
+> See the [Checking](#checking) section below.
 >
 
 ### Using the OVHcloud Control Panel
 
-To change the advanced configuration, you first need to log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and open your `Public Cloud`{.action} project. Click on `Data Streaming`{.action} or `Data Analysis`{.action} in the left-hand navigation bar, select your engine instance then the `Advanced configuration`{.action} tab.
+To change the advanced configuration, you first need to log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Data Streaming`{.action} or `Data Analysis`{.action} in the left-hand navigation bar, select your engine instance then the `Advanced configuration`{.action} tab.
 
 Select the key of the advanced setting you want to define, then set its value.
 
@@ -202,6 +202,8 @@ When ready, click on `Execute`{.action} to update the advanced configuration.
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our analytics service!
+Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our Analytics service!
+
+Join our [community of users](/links/community).
