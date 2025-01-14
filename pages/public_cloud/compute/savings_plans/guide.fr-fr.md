@@ -175,6 +175,11 @@ Grâce à ce tableau de bord, vous pouvez suivre en temps réel l'utilisation et
 
 ## Comprendre la facturation
 
+> [!info]
+>
+> Veuillez noter qu'il n'est pas encore possible de modifier un Savings Plan. Veuillez contacter l'équipe Sales.
+>
+
 Pour mieux comprendre votre facturation une fois que vous souscrivez à un Savings Plan, voici une explication des différentes lignes que vous pouvez y retrouver.
 
 /// details | Facturation de Savings Plan pour les instances

@@ -175,6 +175,11 @@ Thanks to this dashboard, you can monitor the use and efficiency of your Savings
 
 ## Understanding billing
 
+> [!info]
+>
+> Please note that it is not yet possible to modify a Savings Plan. Please contact the Sales team.
+>
+
 To better understand your billing once you subscribe to a Savings Plan, here is an explanation of the different lines you can find.
 
 /// details | Billing for Savings Plan instances
