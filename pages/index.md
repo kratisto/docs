@@ -1057,6 +1057,8 @@
             + [Analytics - Lifecycle policy](public_cloud/data_analytics/analytics/information_02_lifecycle_policy)
             + [Analytics - Capabilities and Limitations](public_cloud/data_analytics/analytics/information_05_capabilities)
             + [Analytics - Maintenance operations](public_cloud/data_analytics/analytics/information_06_maintenances)
+        + [General guides](products/public-cloud-data-analytics-general-guides)
+            + [Analytics - Getting started](public_cloud/data_analytics/analytics/analytics_getting_started)
         + [Data Processing](products/public-cloud-data-analytics-data-processing)
             + [Concepts](public-cloud-data-analytics-data-processing-concepts)
                 + [Data Processing Overview](public_cloud/data_analytics/data_processing/00_CONCEPTS_Overview)
