@@ -22,26 +22,19 @@ details[open]>summary::before {
 
 This guide aims to provide you with a clear and practical understanding of Savings Plans, to help you optimise your infrastructure costs. We'll explain what Savings Plans are, how they work, and how to choose the model best suited to your specific needs. Through concrete examples, you will discover how these plans can reduce your expenditure while offering flexibility in the management of your resources.
 
-The guide will also detail the use of the Savings Plans dashboard, which will allow you to track your costs, the number of virtual machines used and covered, and the savings generated. Finally, we'll help you understand the billing aspects so you can analyse and maximise the benefits of your Savings Plan choices.
+The guide will also detail the use of the Savings Plans dashboard, which will allow you to track your costs, the number of resources used and covered by yours plans, and the savings generated. Finally, we'll help you understand the billing aspects so you can analyse and maximise the benefits of your Savings Plan choices.
 
 ## How Savings Plans work ?
 
-> [!warning]
->
-> Please note that Savings Plans are not currently available. If you have a specific request or requirement, please contact our sales team.
->
-> Please note that only Gen3 **instances** are eligible for Savings Plans. Make sure that your instance belongs to this generation to benefit from this offer.
->
-
 ### What is a Savings Plan ?
 
-A Savings Plan is an offer whereby a customer, in exchange for coverage for a certain number of simultaneous instances, commits to paying a fixed amount for a specified period. This commitment model enables customers to benefit from reduced rates for covered instances, compared with hourly billing.
+A Savings Plan is an offer whereby a customer, in exchange for coverage for a certain number of simultaneous resources, commits to pay a fixed amount for a specified period. This commitment model enables customers to benefit from reduced rates for covered instances, compared with hourly billing.
 
 ### How a Savings Plan works in general ?
 
 > [!primary]
 >
-> When a customer subscribes to an Savings Plan, he agrees to pay a **fixed amount** for a **given period**. In return, this plan covers a specific number of simultaneous instances for which he will pay no other charges, enabling them to benefit from advantageous billing.
+> When a customer subscribes to an Savings Plan, he agrees to pay a **fixed amount** for a **given period**. In return, this plan covers a specific number of simultaneous resources for which he will pay no other charges, enabling them to benefit from advantageous billing.
 >
 
 Here are a few scenarios to help you understand how this works:
@@ -52,14 +45,47 @@ Here are a few scenarios to help you understand how this works:
 
 > [!warning]
 > 
-> Update on the term **simultaneous instances**.
+> Update on the term **simultaneous resources**.
 >
-> A Savings Plan covers a number of simultaneously active instances. For example, for a Savings Plan of 1 instance, if a customer starts an instance at 10.05am and deletes it at 10.10am, then creates another instance at 10.17am and deletes it at 10.30am, even though he has started and deleted two instances, only the instances that were switched on at the same time are counted. In this case, only one instance is active at the same time, so the Savings Plan covers both instances without additional billing. This also applies if the instances are used at different times during the month (for example, from the 1st to the 10th and then from the 15th to the 30th), as long as they are not active at the same time. To find out whether a suspended or paused instance is considered active, please refer to the following guide: [Shelve or pause an instance](/pages/public_cloud/compute/suspend_or_pause_an_instance#suspendre-shelve-une-instance)
+> A Savings Plan covers a number of simultaneously active resources. For example, for a Savings Plan of 1 resource, if a customer starts an resource at 10.05am and deletes it at 10.10am, then creates another resource at 10.17am and deletes it at 10.30am, even though he has started and deleted two resources, only the resources that were switched on at the same time are counted. In this case, only one resource is active at the same time, so the Savings Plan covers both resources without additional billing. This also applies if the resources are used at different times during the month (for example, from the 1st to the 10th and then from the 15th to the 30th), as long as they are not active at the same time. 
+>
+
+### Eligible / compatible services
+
+This table summarises the eligibility of OVHcloud services:
+
+| Service                  | Eligible    |
+| ------------------------ | ----------- |
+| Compute instances        | Yes         |
+| Managed Rancher          | Yes         |
+| Storage                  | No          |
+| Public Cloud Databases   | No          |
+
+### How Savins Plans work for instances ?
+
+Savings Plans for instances are based on the commitment of a quantity of instances for a given duration, offering advantageous invoicing for these.
+
+The essential point to remember is that only simultaneously active instances are taken into account in the coverage of the savings plan. Instances that are not active at the same time have no impact on the plan, as long as the number of active instances at any given time remains within the limit of your plan's coverage.
+
+> [!warning]
+>
+> With regard to simultaneously active instances, find out whether a suspended or paused resource is considered active, please refer to the following guide: [Shelve or pause an instance](/pages/public_cloud/compute/suspend_or_pause_an_instance#suspendre-shelve-une-instance)
+>
+> Please note that only Gen3 **instances** are eligible for Savings Plans. Make sure that your instance belongs to this generation to benefit from this offer.
 >
 
 ### How Savings Plans work for Rancher ?
 
-...
+Savings Plans for Rancher are based on the commitment of a quantity of vCPUs over a defined period, enabling you to make savings on the Managed Rancher service. This model offers increased flexibility, as committed vCPUs can be shared across all your Rancher environments, optimising billing for resources used in a flexible and scalable way.
+
+By subscribing to a Rancher Savings Plan, you commit to using a certain amount of vCPUs, which are then shared between your Rancher clusters, ensuring cost-effectiveness even if your usage fluctuates over time.
+
+> [!info]
+>
+> The Savings Plans for Rancher only apply to vCPUs. Other resources, such as storage, instances, and other services, are not covered by this Savings Plan and will still be billed separately. Be sure to account for these additional costs when planning your Rancher resources.
+>
+> In order for the vCPUs included in your Savings Plan to be consumed, you must assign an instance to your Kubernetes nodes. Without a configured instance, the resources covered by the Savings Plan will remain unused, and you will continue to pay for these unused resources. Make sure you size your instances to match your vCPU and RAM requirements.
+>
 
 ### Automated infrastructure management with Savings Plans
 
@@ -151,6 +177,8 @@ Thanks to this dashboard, you can monitor the use and efficiency of your Savings
 
 To better understand your billing once you subscribe to a Savings Plan, here is an explanation of the different lines you can find.
 
+/// details | Billing for Savings Plan instances
+
 <!-- Image facture avec deux lignes  -->
 
 - **a. Billing for your Savings Plans**
@@ -160,6 +188,30 @@ On your invoice, you will only see the total amount corresponding to the Savings
 - **b. Billing for your additional instances**
 Additional instances, i.e. those not covered by your Savings Plan, are billed on an hourly basis, as with standard billing.
 For example, if you use 10 Gen3 instances for 10 hours during the month, you will be billed on a per-hour basis. This gives an invoice for 100 hours (10 instances x 10 hours), billed at the standard hourly rate, in addition to the Savings Plan line.
+
+///
+
+/// details | Billing for Savings Plan Rancher
+
+<!-- Image facture avec deux lignes  -->
+
+- **a. Billing for your Savings Plans**
+When you subscribe to an Savings Plan, you agree to pay a fixed amount for a certain number of vCPUs over a specified period. However, the vCPUs covered by this plan are not itemised individually on your bill.
+On your invoice, you will only see the total amount corresponding to the Savings Plan. You won't have details of the different Rancher with the number of vCPUs that cover them belonging to the savings plan.
+
+- **b. Billing for your additional vCPUs**
+Additional vCPUs, i.e. those not covered by your Savings Plan, are billed on an hourly basis, as with standard billing.
+For example, if you use 10 vCPUs for 10 hours during the month, you will be billed on a per-hour basis. This gives an invoice for 100 hours (10 vCPUs x 10 hours), billed at the standard hourly rate, in addition to the Savings Plan line.
+
+> [!info]
+>
+> Rancher is billed according to the total number of vCPUs on each of the work nodes in your downstream clusters.
+The vCPUs of control-plane nodes are not billed.
+>
+> The minimum consumption for the Managed Rancher Service is 20 vCPUs per Rancher, although you can create one or more Saving Plans starting from 1 vCPU. Subscribed vCPUs will be deducted from the total number of vCPUs consumed.
+>
+
+///
 
 ## Go further
 
