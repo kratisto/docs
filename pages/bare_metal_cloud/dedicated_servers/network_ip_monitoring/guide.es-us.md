@@ -1,12 +1,8 @@
 ---
 title: ¿Cuáles son las direcciones IP monitorización de OVHcloud?
 excerpt: Encuentre aquí las direcciones IP que debe completar al configurar un firewall para que el sistema de monitorización de OVHcloud continúe funcionando en su servidor.
-updated: 2024-12-20
+updated: 2025-01-14
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
@@ -35,6 +31,7 @@ Para implementar un firewall restrictivo, especialmente en ICMP, y continuar ben
 |netmon-mum-probe|148.113.25.1/32|icmp|
 |netmon-syd-probe|139.99.187.247/32|icmp|
 |netmon-tor-probe|72.251.7.222/32|icmp|
+|netmon-eri-probe|51.195.135.163/32|icmp|
 |ping.ovh.net|213.186.33.13|icmp|
 ||xxx.xxx.xxx.250 (xxx.xxx.xxx.aaa es la ip del servidor)|icmp|
 ||xxx.xxx.xxx.251 (xxx.xxx.xxx.aaa es la ip del servidor)|icmp + Puerto monitoreado por el servicio de monitorización|
@@ -68,4 +65,4 @@ Haga clic en `Confirmar`{.action} para actualizar su configuración de monitoriz
 
 [Configurar el firewall de red](/pages/bare_metal_cloud/dedicated_servers/firewall_network)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).
