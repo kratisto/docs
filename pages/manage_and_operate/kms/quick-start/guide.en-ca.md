@@ -268,7 +268,7 @@ Copy the value of the **privateKeyPEM** field to a **domain.key** file
 
 > [!warning]
 >
-> The **privateKeyPEM** field need to be edited so that all instances of `\n` are replaced by carriage returns.
+> The **privateKeyPEM** field needs to be edited so that all instances of `\n` are replaced by carriage returns.
 >
 
 Then copy the certificate ID and access its details via the API:
@@ -301,7 +301,7 @@ Copy the value of the **certificatePEM** field to a **client.cert** file.
 
 > [!warning]
 >
-> The **certificatePEM** field need to be edited so that all instances of `\n` are replaced by carriage returns.
+> The **certificatePEM** field needs to be edited so that all instances of `\n` are replaced by carriage returns.
 >
 
 ##### With a CSR
@@ -325,7 +325,7 @@ The following information is required:
 
 > [!warning]
 >
-> The CSR needs to be in JSON format. The CSR file will need to be edited so that there are no carriage returns; rater `\n` will have to be inserted where the line breaks were previously, see exemple below. You can also use third-party tools available online to adjust content into the correct JSON format.
+> The CSR needs to be in JSON format. The CSR file will need to be edited so that there are no carriage returns; rather, `\n` will have to be inserted where the line breaks were previously (see the example below). You can also use third-party tools available online to adjust content into the correct JSON format.
 >
 
 **Example of certificate creation:**

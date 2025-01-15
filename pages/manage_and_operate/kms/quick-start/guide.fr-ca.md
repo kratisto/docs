@@ -102,7 +102,7 @@ Il est ensuite nécessaire de télécharger la clé privée du certificat.
 
 > [!warning]
 >
-> Le champ **privateKeyPEM** doit être modifié afin de remplacer les occurences de `\n`par des retours chariots
+> Le champ **privateKeyPEM** doit être modifié afin de remplacer les occurrences de `\n` par des retours chariots.
 >
 
 ![Créer un certificat](images/create_certificat_05.png){.thumbnail}
@@ -274,7 +274,7 @@ Copiez la valeur du champ **privateKeyPEM** dans un fichier **domain.key**
 
 > [!warning]
 >
-> Le champ **privateKeyPEM** doit être modifié afin de remplacer les occurences de `\n`par des retours chariots
+> Le champ **privateKeyPEM** doit être modifié afin de remplacer les occurrences de `\n` par des retours chariots.
 >
 
 Copiez ensuite l'ID du certificat et accédez au détail de ce dernier via l'API :
@@ -307,7 +307,7 @@ Copiez la valeur du champ **certificatePEM** dans un fichier **client.cert**.
 
 > [!warning]
 >
-> Le champ **certificatePEM** doit être modifié afin de remplacer les occurences de `\n`par des retours chariots
+> Le champ **certificatePEM** doit être modifié afin de remplacer les occurrences de `\n` par des retours chariots.
 >
 
 ##### Avec une CSR
@@ -331,7 +331,7 @@ Il est nécessaire d'indiquer les informations suivantes :
 
 > [!warning]
 >
-> La CSR doit être au format JSON. Le fichier doit être modifié afin de remplacer les retours chariots par des `\n`, voir l'exemple ci-dessous. Vous pouvez aussi utiliser des outils tiers en ligne pour adapter le contenu dans un format JSON adapté.
+> La CSR doit être au format JSON. Le fichier doit être modifié afin de remplacer les retours chariots par des `\n` (voir l'exemple ci-dessous). Vous pouvez aussi utiliser des outils tiers en ligne pour adapter le contenu dans un format JSON adapté.
 >
 
 **Exemple de création de certificat :**
