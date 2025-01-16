@@ -1,6 +1,6 @@
 ---
 title: 'Augmenter et diminuer la bande passante via l'API OVHcloud'
-excerpt: 'FDécouvrez comment augmenter ou diminuer la bande passante d'un serveur dédié via l'API OVHcloud'
+excerpt: 'Découvrez comment augmenter ou diminuer la bande passante d'un serveur dédié via l'API OVHcloud'
 updated: 2025-01-15
 ---
 
@@ -10,14 +10,14 @@ Chacun de nos serveurs dédiés dispose d’une bande passante publique minimale
 
 ## Prérequis
 
-- Un [serveur dédié](/links/bare-metal)
+- Disposer d’un [serveur dédié](/links/bare-metal/bare-metal) dans votre compte OVHcloud
 - Accès à l’[API OVHcloud](/pages/manage_and_operation/api/first-steps)
 
 ## Instructions
 
 ### Trouver les services disponibles
 
-Utilisez l'appel API suivant pour lister tous les services disponibles pour augmenter (ou dimunuer) la bande passante et vérifiez que le service que vous souhaitez utilisez est listé :
+Utilisez l'appel API suivant pour répertorier tous les services disponibles pour augmenter (ou diminuer) la bande passante, et vérifiez que le service que vous souhaitez utiliser est répertorié :
 
 > [!api]
 >
@@ -40,6 +40,10 @@ Renseignez les variables :
 - serviceName : nom de votre serveur dédié, par exemple `ns1234567.ip-203.0.113.eu`
 
 ![bandwidth](images/bandwidth_02.png){.thumbnail}
+
+Le champ `RESPONSE` doit afficher des informations similaires à celles qui suivent :
+
+![bandwidth](images/bandwidth_02_1.png){.thumbnail}
 
 ### Vérifier votre commande
 
