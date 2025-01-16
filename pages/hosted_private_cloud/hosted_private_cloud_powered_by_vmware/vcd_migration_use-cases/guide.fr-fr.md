@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Migration depuis VMware vSphere on OVHcloud"
 excerpt: "Découvrez comment vous préparer à migrer depuis VMware vSphere on OVHcloud vers une offre basée sur un environnement VMware Cloud Director (VCD) on OVHcloud"
-updated: 2024-12-05
+updated: 2025-01-16
 ---
 
 > [!primary]
@@ -124,6 +124,10 @@ Ces paramètres pourront être personnalisés en fonction des niveaux de service
 Tous ces dépôts (*repositories*) ont un quota de stockage de **100 To**. Vous pouvez contacter les équipes de [support](https://help.ovhcloud.com/csm?id=csm_get_help) pour augmenter ce quota.
 
 Pour plus d'informations, consultez le guide : [VMware Cloud Director - Sauvegarde avec Veeam Data Platform](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-backup)
+
+### Réinitialiser le mot de passe "Admin" sur Managed VMware Cloud Director
+
+Il est désormais possible de réinitialiser le mot de passe **Admin** d'une Organisation Managed VMware Cloud Director via l'APIv2 : [Accéder à l'APIv2](https://eu.api.ovh.com/console/?section=%2FvmwareCloudDirector&branch=v2#post-/vmwareCloudDirector/organization/-organizationId-/password).
 
 ## Aller plus loin
 
