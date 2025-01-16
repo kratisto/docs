@@ -29,13 +29,13 @@ You can increase or decrease the storage of your service at any time using eithe
 
 #### Instructions
 
-To adjust the storage space of your cluster, log in to the OVHcloud Control Panel and open your Public Cloud project. Click `Data Analysis`{.action} or `Data Streaming`{.action} in the left navigation bar, select your engine instance.
+To adjust the storage space of your cluster, log in to the [OVHcloud Control Panel](/links/manager) and open your Public Cloud project. Click `Data Analysis`{.action} or `Data Streaming`{.action} in the left navigation bar, then select your engine instance.
 
-![Cluster overview](images/cluster-overview.png)
+![Cluster overview](images/cluster-overview.png){.thumbnail}
 
-Click `Edit additional storage`{.action}  and adjust the storage space of your cluster. Use the slider to either increase or decrease the storage space.
+Click `Edit additional storage`{.action} and adjust the storage space of your cluster. Use the slider to either increase or decrease the storage space.
 
-![Edit additional storage](images/edit-additional-storage.png)
+![Edit additional storage](images/edit-additional-storage.png){.thumbnail}
 
 ### How to adjust the storage space using the API
 
@@ -64,4 +64,6 @@ We would love to help answer questions and appreciate any feedback you may have.
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Are you on Discord? Connect to our channel at <https://discord.gg/PwPqWUpN8G> and interact directly with the team that builds our analytics service!
+Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our Analytics service!
+
+Join our [community of users](/links/community).
