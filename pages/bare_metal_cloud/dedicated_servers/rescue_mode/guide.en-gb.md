@@ -58,7 +58,7 @@ The available options for rescue mode depend on the server type and the **operat
 - Customer rescue system (always available)
 - Rescue system for Windows (available for Windows servers)
 - [iPXE](https://ipxe.org) / ipxe-shell (external open-source tool, always available)
-- [Legacy Windows rescue system](#windows_legacy) (deprecated WinPE system, only available if your server does not meet the requirements for the current rescue system for Windows)
+- [Legacy Windows rescue system](#windows_legacy) (deprecated WinPE system, only relevant if your server does not meet the requirements for the current rescue system for Windows)
 
 > [!primary]
 > 
@@ -188,7 +188,7 @@ Click on the relevant tab for your selected connection method:
 >>
 >> If prompted, enter your password to decrypt the private key file.
 >>
->> To find out more about this topic, consult our guides:
+>> To learn more about this topic, consult our guides:
 >>
 >> - [How to create and use keys for SSH authentication](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
 >> - [How to create and use keys for SSH authentication with PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
@@ -247,7 +247,7 @@ Then mount the pertinent partition accordingly:
 mount /dev/PARTITION_NAME /MOUNT_POINT/
 ```
 
-The partition to mount should be easily identifiable by the **SIZE** indicated in the table (`sda2` in the first example, `nvme1n1p3` in the second). However, in a softRAID configuration (a default `raid1` in the examples), you will need to use the identifier of the RAID volume (`mdX`).  
+The partition to mount should be easily identifiable by the **SIZE** indicated in the table (`sda2` in the first example, `nvme1n1p3` in the second). However, in a [softRAID configuration](/pages/bare_metal_cloud/dedicated_servers/raid_soft) (a default `raid1` in the examples), you will need to use the identifier of the RAID volume (`mdX`).  
 Using the folder name `mnt` as mount point, for the first example the `mount` command would therefore be as follows:
 
 ```bash
@@ -261,7 +261,7 @@ mount /dev/md3 /mnt/
 ```
 
 > [!warning]
-> The examples above are merely illustrating the necessary steps based on a typical server configuration. The information in the output table depends on your server's hardware and its partition scheme. For more information, consult the documentation of your operating system.
+> The examples above are merely illustrating the necessary steps based on a typical server configuration. The information in the output table depends on your server's hardware and its partition scheme. When in doubt, consult the documentation of your operating system.
 > 
 > If you require professional assistance with server administration, consider the details in the [Go further](#gofurther) section of this guide.
 
@@ -434,7 +434,7 @@ The following tools are already installed in this mode:
 
 [How to replace your authentication keys for SSH access if a key is lost](/pages/bare_metal_cloud/dedicated_servers/replacing-lost-ssh-key)
 
-[How to configure and rebuild software RAID](/pages/bare_metal_cloud/dedicated_servers/hotswap_raid_soft)
+[How to configure and rebuild software RAID](/pages/bare_metal_cloud/dedicated_servers/raid_soft)
 
 [How to diagnose server hardware issues](/pages/bare_metal_cloud/dedicated_servers/hardware-diagnose)
 
