@@ -109,11 +109,8 @@ You can consult these guides to setup your configurations:
 [Access and security settings in Horizon](/pages/public_cloud/compute/access_and_security_in_horizon).
 [Network guides](/products/public-cloud-network).
 
-#### 8.3 Data encryption at rest
 
-To encrypt your data at rest (volume level encyption), you can follow [this guide](https://docs.openstack.org/cinder/pike/configuration/block-storage/volume-encryption.html#create-an-encrypted-volume){.external} when you create a volume storage.
-
-#### 8.4 HDS option
+#### 8.3 HDS option
 
 The HDS option can be activated on the service.<br>
 The subscription to the [Business support level](https://www.ovhcloud.com/en/support-levels/business/)is mandatory, at least to maintain necessary requirements.
