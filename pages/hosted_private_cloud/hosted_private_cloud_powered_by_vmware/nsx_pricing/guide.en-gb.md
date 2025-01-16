@@ -21,8 +21,8 @@ This documentation aims to explain the configuration options for NSX Edges and t
 When creating a VMware environment, OVHcloud automatically provides:
 
 - **2 Medium NSX Edges**:
-   - 4 vCPU.
-   - 8 GB RAM.
+    - 4 vCPU.
+    - 8 GB RAM.
 
 This default configuration meets most standard requirements for connectivity and network security.
 
@@ -31,9 +31,9 @@ This default configuration meets most standard requirements for connectivity and
 You can adapt your infrastructure to meet your specific needs:
 
 1. **NSX Edge Sizes**:
-    * Medium: 4 vCPU, 8 GB RAM.
-    * Large: 8 vCPU, 32 GB RAM.
-    * XL: 16 vCPU, 64 GB RAM.
+    - Medium: 4 vCPU, 8 GB RAM.
+    - Large: 8 vCPU, 32 GB RAM.
+    - XL: 16 vCPU, 64 GB RAM.
 2. **Number of NSX Edges**:
     - Minimum: 2 (default configuration).
     - Maximum: Up to **10 NSX Edges per cluster**.

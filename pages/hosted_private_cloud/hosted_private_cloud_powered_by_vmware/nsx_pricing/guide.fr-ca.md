@@ -1,72 +1,72 @@
 ---
-title: Pricing and Management of OVHcloud NSX Edges
-excerpt: Learn about pricing options, configuration, and customization of NSX Edges for VMware on OVHcloud
+title: Tarification et gestion des NSX Edges OVHcloud
+excerpt: "Découvrez les options de tarification, configuration et personnalisation des NSX Edges pour VMware on OVHcloud"
 updated: 2025-01-16
 ---
 
-## Objective
+## Objectif
 
-This documentation aims to explain the configuration options for NSX Edges and the steps to manage them within a VMware on OVHcloud environment. It also outlines technical limitations and provides guidance on how to adapt these configurations to specific needs.
+Cette documentation a pour but d'expliquer les options de configuration des NSX Edges et les étapes pour les gérer dans un environnement VMware on OVHcloud. Elle décrit également les limitations techniques et fournit des indications sur la manière d'adapter ces configurations aux besoins spécifiques.
 
-## Requirements
+## Prérequis
 
-- Access to the [OVHcloud Control Panel](/links/manager) to manage your NSX Edges.
-- Use of **VMware NSX 4.1.1** to access customization options.
-- A basic understanding of VMware concepts and NSX Edge features.
+- Être connecté à [l'espace client OVHcloud](/links/manager) pour gérer vos NSX Edges.
+- **Utiliser VMware NSX 4.1.1** pour accéder aux options de personnalisation.
+- Connaissances de base des concepts VMware et des fonctionnalités des NSX Edges.
 
-## General Overview
+## Principe général
 
-### Default Configuration
+### Configuration par défaut
 
-When creating a VMware environment, OVHcloud automatically provides:
+Lors de la création d’un environnement VMware, OVHcloud fournit automatiquement :
 
-- **2 Medium NSX Edges**:
+- **2 NSX Edges Medium** :
     - 4 vCPU.
-    - 8 GB RAM.
+    - 8 Go RAM.
 
-This default configuration meets most standard requirements for connectivity and network security.
+Cette configuration par défaut répond à la majorité des besoins standards en connectivité et en sécurité réseau.
 
-### Customization
+### Personnalisation
 
-You can adapt your infrastructure to meet your specific needs:
+Vous pouvez adapter votre infrastructure en fonction de vos besoins spécifiques :
 
-1. **NSX Edge Sizes**:
-    - Medium: 4 vCPU, 8 GB RAM.
-    - Large: 8 vCPU, 32 GB RAM.
-    - XL: 16 vCPU, 64 GB RAM.
-2. **Number of NSX Edges**:
-    - Minimum: 2 (default configuration).
-    - Maximum: Up to **10 NSX Edges per cluster**.
+1. **Taille des NSX Edges** :
+    - Medium : 4 vCPU, 8 Go RAM.
+    - Large : 8 vCPU, 32 Go RAM.
+    - XL : 16 vCPU, 64 Go RAM.
+2. **Nombre de NSX Edges** :
+    - Minimum : 2 (configuration par défaut).
+    - Maximum : Jusqu’à **10 NSX Edges par cluster**.
 
 ### Limitations
 
-- **1 NSX Edge cluster per vDC**.
-- **10 NSX Edges maximum per cluster** (Broadcom/VMware limitation).
-- NSX version 4.0.1 does not support:
-    - Ordering new vDCs under NSX 4.1.1.
-    - Modifying or adding NSX Edges.
+- **1 cluster NSX Edge par vDC**.
+- **10 NSX Edges maximum par cluster** (limitation Broadcom/VMware).
+- Les versions NSX 4.0.1 ne supportent pas :
+    - La commande de nouveaux vDC sous NSX 4.1.1.
+    - La modification ou l’ajout de NSX Edges.
 
-## Instructions
+## En pratique
 
-### Steps to Customize NSX Edges
+### Étapes pour personnaliser les NSX Edges
 
-1. **Order new NSX Edges**:
-    - Log in to the [OVHcloud Control Panel](/links/manager).
-    - Navigate to the `Network`{.action} section of the Datacenter dashboard, then access `NSX Edges`{.action}.
-    - Click on `Add an Edge`{.action} and select the desired size. All Edges must be the same size: when adding a new Edge, it will automatically match the size of existing Edges.
-2. **Modify the size of existing NSX Edges**:
-    - Access the list of NSX Edges in the OVHcloud Control Panel.
-    - Select the Edge you want to modify.
-    - Choose a new size (Medium, Large, or XL) and apply the changes.
-3. **Remove unused NSX Edges**:
-    - Identify the Edge to be removed in the OVHcloud Control Panel.
-    - Click on `Delete`{.action} and confirm the action. **Note**: The Edge must be in resilience mode before deletion to ensure no ongoing traffic is affected.
+1. **Commandez de nouveaux NSX Edges** :
+    - Connectez-vous à [l'espace client OVHcloud](/links/manager)
+    - Naviguez vers la section `Network`{.action} du dashboard Datacenter, puis accédez à `NSX Edges`{.action}.
+    - Cliquez sur `Ajouter un Edge`{.action} et sélectionnez la taille souhaitée. Toutes les Edges doivent être de la même taille : lorsqu’un Edge est ajouté, il sera automatiquement aligné sur la taille des autres Edges présents.
+2. **Modifiez la taille des NSX Edges existants** :
+    - Accédez à la liste des NSX Edges dans [l'espace client](/links/manager).
+    - Sélectionnez l’Edge à modifier.
+    - Choisissez une nouvelle taille (Medium, Large ou XL) et appliquez les modifications.
+3. **Supprimer des NSX Edges inutilisés** :
+    - Identifiez l’Edge à supprimer dans [l'espace client](/links/manager).
+    - Cliquez sur `Supprimer`{.action} et confirmez l’action. **Note** : L’Edge doit être en mode résilience avant suppression pour garantir l’absence de trafic en cours.
 
-## Go further
+## Aller plus loin
 
-- For detailed information on NSX Edge features, consult the [VMware NSX technical documentation](https://www.vmware.com/products/nsx.html).
-- Pricing details for NSX Edges are not included in this documentation. To access up-to-date pricing or request a quote, visit the [OVHcloud website](/links/hosted-private-cloud/vmware-prices) or contact support via the [Help Center](https://help.ovhcloud.com/csm?id=csm_get_help).
+- Pour des informations détaillées sur les fonctionnalités des NSX Edges, consultez la [documentation technique VMware NSX](https://www.vmware.com/products/nsx.html).
+- Les tarifs associés aux NSX Edges ne sont pas inclus dans cette documentation. Pour connaître les détails tarifaires ou obtenir une estimation, rendez-vous sur le [site OVHcloud](/links/hosted-private-cloud/vmware-prices) ou contactez le support via le [Help Centre](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Join our [community of users](/links/community).
+Échangez avec notre [communauté d'utilisateurs](/links/community).
