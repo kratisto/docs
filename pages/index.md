@@ -441,6 +441,7 @@
             + [NSX-T: configure BGP for interconnexion of PCC](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_configure_bgp_between_pcc_inside_vRack)
             + [NSX - Configuring NSX StandAlone Edge with L2VPN](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_l2vpn_standalone_edge)
             + [NSX - FAQ](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx-11-faq)
+            + [Pricing and Management of OVHcloud NSX Edges](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_pricing)
         + [VMware NSX-v](hosted-private-cloud-hosted-private-cloud-powered-by-vmware-nsx-v)
             + [VMware NSX-v - End of Support](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_nsx-v-eos)
             + [Accessing the NSX-v interface](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_access-interface)
