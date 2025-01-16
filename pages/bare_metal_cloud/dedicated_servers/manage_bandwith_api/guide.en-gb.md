@@ -73,7 +73,7 @@ To officially submit the order, use the following API call:
 
 > [!api]
 >
-> @api {v1} /order POST /order GET /order/upgrade/baremetalPublicBandwidth/{serviceName}/{planCode}
+> @api {v1} /order POST /order/upgrade/baremetalPublicBandwidth/{serviceName}/{planCode}
 >
 
 ![bandwidth](images/bandwidth_04.png){.thumbnail}
