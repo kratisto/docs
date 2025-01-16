@@ -98,7 +98,7 @@ rx-gro: off
 rx-gro-hw: off [not requested]
 ```
 
-### Étape 4 - Maintenir la modification après les redémarrages
+### Étape 4 - Conserver la modification après redémarrage
 
 Afin de conserver ce changement après le prochain redémarrage, la commande `ethtool` peut être ajoutée aux interfaces appropriées dans `/etc/network/interfaces` en tant que commande `up`.
 
