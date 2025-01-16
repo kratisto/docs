@@ -6,11 +6,13 @@ updated: 2025-01-16
 
 ## Objective
 
+Some Dedicated Servers equipped with Broadcom BCM57502 NICs encounter really slow (255 kb/s) download speeds inside VMs or containers running on Proxmox VE (Virtual Environment).
+
 **Find out how to fix slow downloads problems inside containers and VMs running on Proxmox VE with a Broadcom BCM57502 network interface controller by disabling the `generic-receive-offload` parameter.**
 
 ## Requirements
 
-The issue is known to occur on bare metal servers of the ADVANCE ranges running Proxmox VE (Virtual Environment).
+The issue is known to occur on bare metal servers of the ADVANCE ranges running Proxmox VE.
 Only servers equipped with a Broadcom BCM57502 network interface controller are affected.
 
 ## Instructions

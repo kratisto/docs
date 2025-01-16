@@ -6,6 +6,8 @@ updated: 2025-01-16
 
 ## Objectif
 
+Certains serveurs dédiés équipés de cartes réseau Broadcom BCM57502 rencontrent des vitesses de téléchargement très lentes (de l'ordre de 255 kb/s) depuis des machines virtuelles ou des conteneurs s’exécutant sur Proxmox VE (Virtual Environment).
+
 **Découvrez comment résoudre les problèmes de téléchargements lents dans les conteneurs et les machines virtuelles s'exécutant sur Proxmox VE avec un contrôleur d'interface réseau Broadcom BCM57502 en désactivant le paramètre `generic-receive-offload`.**
 
 ## Prérequis
