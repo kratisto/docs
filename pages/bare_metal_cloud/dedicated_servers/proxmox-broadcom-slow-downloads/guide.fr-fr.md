@@ -126,7 +126,7 @@ iface vmbr0 inet6 static
 ```
 
 > [!primary]
-> L'espace réservé `$IFACE` sera remplacé par le nom de l'interface à l'exécution. Il n'est pas nécessaire de le modifier avec le nom réel de l'interface.
+> Le terme `$IFACE` sera remplacé par le nom de l'interface à l'exécution. Il n'est pas nécessaire de le remplacer par le nom de l'interface en question.
 >
 > L'application du paramètre `generic-receive-offload` sur le bridge `vmbr0` n'a aucun effet, la modification doit être appliquée aux interfaces physiques.
 
