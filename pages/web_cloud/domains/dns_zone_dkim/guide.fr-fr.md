@@ -201,7 +201,7 @@ Pour activer le DKIM, il vous suffit maintenant de cliquer sur la pastille `DKIM
 >
 > ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/emails/general-information/dkim-auto02.png){.thumbnail .w-400 .h-600}
 >
-> Celle-ci vous invite à saisir deux valeurs `CNAME` dans la zone DNS du nom de domaine permettant de lier ce nom de domaine aux sélecteurs DKIM de votre service e-mail. Il est nécessaire de saisir ces valeurs et de vous assurer qu'elle soit propagée avant de cliquer sur `Activer`{.action}.
+> Celle-ci vous invite à saisir deux valeurs CNAME dans la zone DNS du nom de domaine, ce qui permet de lier ce nom de domaine aux sélecteurs DKIM de votre service e-mail. Il est nécessaire de saisir ces valeurs et de vous assurer qu'elle soit propagée avant de cliquer sur `Activer`{.action}.
 >
 
 L'activation automatique du DKIM dure entre 30 minutes et 24 heures maximum. Pour vérifier que votre DKIM est fonctionnel, il vous suffit de retourner dans l'onglet `Informations générales`{.action} ou `Domaines associés`{.action} de votre plateforme e-mail et de vous assurer que la pastille `DKIM` est devenue verte.
