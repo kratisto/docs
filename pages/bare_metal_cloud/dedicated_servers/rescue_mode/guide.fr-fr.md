@@ -360,7 +360,7 @@ Vous pouvez également utiliser la fonction `Restart`{.action} dans votre espace
 
 <a name="rescuessh"></a>
 
-### How to add a default authentication key for rescue mode
+### Comment ajouter une clé d'authentification par défaut pour le mode rescue
 
 /// details | Déplier cette section
 
