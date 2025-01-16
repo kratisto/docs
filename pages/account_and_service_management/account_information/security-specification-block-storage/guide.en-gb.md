@@ -54,7 +54,7 @@ You  must implement additional back-up device based on customer tools or options
 
 | **Name** | **Capacity** | **Documentation** |
 | --- | --- | --- |
-| Control Panel and service | Manage customer accounts and services on which each account has access rights. | [Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)<br>[Getting started with the OpenStack API](/pages/public_cloud/compute/starting_with_nova)<br>[API Rate Limits](/pages/public_cloud/compute/api_rate_limits) |
+| Control Panel and service | Manage customer accounts and services on which each account has access rights. | [Managing volumes in the OpenStack API](/pages/public_cloud/compute/starting_with_managing_volumes_openstack_api)|
 
 ### 7. Accounts - User
 
@@ -65,9 +65,6 @@ OVHcloud uses another account with an internal NIC to refer a customer having su
 
 To enforce security access to your account on the Control Panel, we recommend activating a [two-factor authentication mechanism](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) or [SSO (Single Sign-On) authentication](/pages/account_and_service_management/account_information/ovhcloud-account-connect-saml-adfs).
 
-You can create your OpenStack users and define several roles following [this guide](/pages/public_cloud/compute/create_and_delete_a_user) according to your access management policy.
-
-You have to activate and manage your tokens in order to access the Keystone API by following this [guide](/pages/public_cloud/compute/managing_tokens).
 
 #### 7.2 Data plane
 
@@ -75,35 +72,8 @@ Once you get your credentials, you are autonomous to create user accounts on you
 
 ### 8. Features and options available at service delivery
 
-#### 8.1 OS hardening and maintenance
 
-Public Cloud Instance is based on OpenStack technology which is managed and maintained by the OVHcloud team.
-
-OVHcloud provides a large catalog of Operating Systems for Windows and Linux distributions. We are committed to updating our catalogue with the latest releases from editors.
-
-The level of hardening applied refers to the basic version supplied by the editor. For an advanced level of hardening, we recommend that you refer to the guidelines published by each editor.
-
-You also have the possibility to import your own image when you deploy your Instance with a supported format. Consult [this guide](/pages/public_cloud/compute/upload_own_image) for more information.
-
-Finally, you remain responsible for monitoring your OS and applying necessary updates, [upgrades](/pages/public_cloud/compute/upgrading_operating_system) and security measures on applications you've installed.
-
-#### 8.2 Network security
-
-To activate a private connection, you can use the [vRack option](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack). This option could be activated at the first step when you create your Public Cloud Instance (which is recommended) or after service subcription.
-
-You should filter and allow necessary connections by using IPtables according to your defined project architecture. 
-
-You can consult these guides to setup your configurations:
-
-[Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
-[Access and security settings in Horizon](/pages/public_cloud/compute/access_and_security_in_horizon).
-[Network guides](/products/public-cloud-network).
-
-#### 8.3 Data encryption at rest
-
-To encrypt your data at rest (volume level encyption), you can follow [this guide](https://docs.openstack.org/cinder/pike/configuration/block-storage/volume-encryption.html#create-an-encrypted-volume){.external} when you create a volume storage.
-
-#### 8.4 HDS option
+#### 8.1 HDS option
 
 The HDS option can be activated on the service.<br>
 The subscription to the [Business support level](https://www.ovhcloud.com/en/support-levels/business/)is mandatory, at least to maintain necessary requirements.
