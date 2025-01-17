@@ -12,7 +12,7 @@ The information contained in this guide concerns the PHP versions used as part o
 
 ## Requirements
 
-- A [OVHcloud web hosting plan](/links/web/hosting).
+- An [OVHcloud Web Hosting plan](/links/web/hosting).
 
 ## Instructions
 
