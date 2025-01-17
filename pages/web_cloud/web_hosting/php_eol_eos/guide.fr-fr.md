@@ -16,7 +16,7 @@ Les informations contenues dans ce guide concernent les versions de PHP utilisé
 
 ## En pratique
 
-| **Version** | **Principales dates de la communauté PHP**                         | **Version disponible chez OVHcloud** | **Date de fin de vie OVH**                  |
+| **Version** | **Principales dates de la communauté PHP**                         | **Version disponible chez OVHcloud** | **Date de fin de vie chez OVHcloud**                  |
 |-------------|----------------------------------------------------------------------|----------------------------------|---------------------------------------------|
 | PHP 8.4     | Fin support actif : 31/12/2026<br>Fin support de sécurité : 31/12/2028<br>Fin de vie : 30/06/2029             | Disponible                        | 30/06/2029                              |
 | PHP 8.3     | Fin support actif : 31/12/2025<br>Fin support de sécurité : 31/12/2027<br>Fin de vie : 31/12/2027             | Disponible                        | Date de fin de vie à déterminer         |
