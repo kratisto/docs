@@ -1,5 +1,5 @@
 ---
-title: "End of sales announcements/PHP Support"
+title: "PHP - End-of-Sale & End-Of-Life announcements"
 excerpt: "Find out when your PHP support/sales will end"
 updated: 2025-01-17
 ---
