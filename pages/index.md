@@ -37,6 +37,7 @@
             + [Dedicated Servers service Security Specifications](account_and_service_management/account_information/security-specifications-dedicated-servers)
             + [Public Cloud Instance security specification](account_and_service_management/account_information/security-specification-pci)
             + [VMware on OVHcloud - Security Specifications](account_and_service_management/account_information/security-specification-privatecloud-VMware)
+            + [Security specifications for Block Storage](account_and_service_management/account_information/security-specification-block-storage)
             + [SecNumCloud-qualified VMware on OVHcloud - Security Specifications](account_and_service_management/account_information/security-specification-privatecloud-SNC)
             + [OVHcloud products ISO27k certifications](account_and_service_management/account_information/security_certifications)
             + [OVHcloud products HDS certification](account_and_service_management/account_information/hds_certification)
