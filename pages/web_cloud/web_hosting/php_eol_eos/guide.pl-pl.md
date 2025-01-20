@@ -1,7 +1,7 @@
 ---
 title: Powiadomienia o zakończeniu cyklu życia/sprzedaży/wsparcie dla wersji PHP
 excerpt: Poznaj główne daty zakończenia cyklu życia, zakończenia wsparcia i zakończenia sprzedaży wersji PHP w ofercie hostingu WWW OVHcloud
-updated: 2025-01-17
+updated: 2025-01-20
 ---
 
 ## Wprowadzenie
@@ -31,6 +31,8 @@ Informacje zawarte w niniejszym przewodniku dotyczą wersji PHP używanych w ram
 | PHP 5.6     | Zakończenie pomocy: <span style="color:red;">2017-01-19</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2018-12-31</span><br>Zakończenie cyklu życia: <span style="color:red;">2018-12-31</span> | Dostępne                           | <span style="color:red;">Zalecana migracja</span> |
 | PHP 5.5     | Zakończenie pomocy: <span style="color:red;">2015-07-10</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2016-07-21</span><br>Zakończenie cyklu życia: <span style="color:red;">2016-07-21</span> | Dostępne                           | <span style="color:red;">Zalecana migracja</span> |
 | PHP 5.4     | Zakończenie pomocy: <span style="color:red;">2014-09-14</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2015-09-03</span><br>Zakończenie cyklu życia: <span style="color:red;">2015-09-03</span> | Dostępne                           | <span style="color:red;">Zalecana migracja</span> |
+| PHP 5.3     | Zakończenie pomocy: <span style="color:red;">2011-06-30</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2014-08-14</span><br>Zakończenie cyklu życia: <span style="color:red;">2014-08-14</span> | Dostępne                           | <span style="color:red;">Zalecana migracja</span> |
+| PHP 5.2     | Zakończenie pomocy: <span style="color:red;">2008-11-02</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2011-01-06</span><br>Zakończenie cyklu życia: <span style="color:red;">2011-01-06</span> | Dostępne                           | <span style="color:red;">Zalecana migracja</span> |
 | PHP 4.4     | Zakończenie pomocy: <span style="color:red;">2008-08-07</span><br>Zakończenie wsparcia bezpieczeństwa: <span style="color:red;">2008-08-07</span><br>Zakończenie cyklu życia: <span style="color:red;">2008-08-07</span> | Niedostępne                      | <span style="color:red;">Zalecana migracja</span> |
 
 ## Sprawdź również
