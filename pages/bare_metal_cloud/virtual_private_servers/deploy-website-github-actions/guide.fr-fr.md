@@ -1,7 +1,7 @@
 ---
 title: "Automatiser le déploiement de votre site web sur votre VPS OVHcloud via GitHub Actions"
 excerpt: 'Découvrez comment déployer et automatiser le code de votre site web via GitHub Actions sur un VPS OVHcloud'
-updated: 2024-12-16
+updated: 2025-01-21
 ---
 
 ## Objectif
@@ -56,8 +56,8 @@ Appuyez sur `Entrée` lorsqu'une passphrase vous est demandée (laisser la passp
 
 Vous obtenez deux fichiers :
 
-- /home/<user>/.ssh/deploy_key : clé privée
-- /home/<user>/.ssh/deploy_key.pub : clé publique
+- `/home/<user>/.ssh/deploy_key` : clé privée
+- `/home/<user>/.ssh/deploy_key.pub` : clé publique
 
 #### Configurer la clé publique sur le VPS
 
@@ -338,7 +338,7 @@ ls /var/www/html
 cat /var/www/html/testfile.txt
 ```
 
-### Conclusion
+### Conclusion <a name="conclusion"></a>
 
 En suivant ce guide, vous avez mis en place un pipeline de déploiement automatique entre votre dépôt GitHub et votre VPS OVHcloud à l’aide de GitHub Actions. Ce workflow optimise considérablement la gestion des mises à jour de votre site web, en éliminant les déploiements manuels chronophages.
 
