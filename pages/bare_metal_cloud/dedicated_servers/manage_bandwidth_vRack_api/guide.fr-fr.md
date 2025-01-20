@@ -1,7 +1,7 @@
 ---
 title: Augmenter et diminuer la bande passante privée (vRack) via l'API OVHcloud
 excerpt: Découvrez comment augmenter ou diminuer la bande passante privée d'un serveur dédié via l'API OVHcloud
-updated: 2025-01-17
+updated: 2025-01-20
 ---
 
 ## Objectif
@@ -10,12 +10,15 @@ Avec le réseau privé, les serveurs dédiés compatibles bénéficient d'une ba
 
 **Dans ce guide, nous vous expliquons comment augmenter ou diminuer facilement la bande passante privée d’un serveur dédié.**
 
-
 ## Prérequis
 
 - Un service [vRack](/links/network/vrack) activé dans votre compte
 - Un [serveur dédié](/links/bare-metal/bare-metal) compatible avec le vRack
 - Accès à l’[API OVHcloud](/pages/manage_and_operation/api/first-steps)
+
+> [!warning]
+> Veuillez noter que cette option n'est pas disponible sur les serveurs dédiés situés dans la région APAC qui sont livrés avec une bande passante privée de 25Gbit/s non mesurée.
+> 
 
 ## Instructions
 
@@ -81,7 +84,7 @@ Pour envoyer officiellement la commande, utilisez l'appel API suivant :
 
 ![bandwidth](images/private_bandwidth_05.png){.thumbnail}
 
-La commande sera traitée une fois que vous aurez cliqué sur `Execute`{.action}. Veuillez noter que si votre bande passante est augmentée après le 1er du mois, un prorata vous sera facturé.
+La commande sera traitée une fois que vous aurez cliqué sur `Execute`{.action}. Le montant affiché correspond au premier mois de facturation de votre option, calculé au prorata temporis du mois en cours.
 
 ## Aller plus loin
 
