@@ -28,6 +28,10 @@ Additionally, we will highlight the real-world challenges users may face, such a
 
 ## Concepts
 
+What is an **AZ** ? 
+
+An Availability Zone (AZ) is a unit of infrastructure made up of one or more isolated or separate data centres located in a specific geographical region where public cloud services are hosted and operated.
+
 OVHcloud provides a robust and adaptable infrastructure, designed to meet a wide variety of use cases through deployment models that balance cost-effectiveness, redundancy and fault tolerance. These different options allow users to choose the approach best suited to their resilience, availability and performance requirements.
 
 1. **1-AZ Region**: These single-zone regions are ideal for workloads where cost optimisation is a priority. They are ideally suited to general needs such as storage, backup or applications whose availability requirements do not call for multi-zone redundancy. They offer a good compromise between reliability, performance and cost control.
@@ -123,7 +127,7 @@ This configuration ensures high availability of services, even in the event of t
 
 #### Characteristics
 
-- **High Availability:** Data remains available for both read and write operations, even in the event of a zone failure. This architecture is ideal for applications requiring fault tolerance, as the data is replicated across all three availability zones. Even in the event of a disruption in one zone, service continuity is maintained.
+- **High Availability:** Data remains available for both read and write operations, even in the event of a zone failure. This architecture is ideal for applications requiring fault tolerance, as the data is replicated across all three availability zones. Even in the event of a disruption in one zone, regional service continuity is maintained. Zonal services can be leveraged for high availability.
 - **Fault isolation:** Each availability zone is independent in terms of power, networking, and cooling, which means issues in one zone won’t directly impact the others. This leads to a higher level of redundancy and ensures that service interruptions are minimized.
 - **Optimised latency:** Low latency between zones ensures fast, reliable communications, ideal for demanding workloads.
 

@@ -28,6 +28,10 @@ En outre, nous mettrons en évidence les défis concrets auxquels les utilisateu
 
 ## Concepts
 
+Qu'est ce qu'une **AZ** ? 
+
+Une Availability Zone (AZ) est une unité d'infrastructure composée d'un ou plusieurs centres de données isolés ou séparés, situés dans une région géographique spécifique où les services cloud publics sont hébergés et opérés
+
 OVHcloud fournit une infrastructure robuste et adaptable, conçue pour répondre à une grande variété de cas d'utilisation grâce à des modèles de déploiement qui équilibrent rentabilité, redondance et tolérance aux pannes. Ces différentes options permettent aux utilisateurs de choisir l’approche la plus adaptée à leurs exigences en matière de résilience, de disponibilité et de performance.
 
 1. **Région 1-AZ** : Ces régions à zone unique sont optimales pour les charges de travail où l’optimisation des coûts est prioritaire. Elles conviennent parfaitement aux besoins généraux tels que le stockage, la sauvegarde ou les applications dont les exigences en matière de disponibilité ne nécessitent pas une redondance multi-zones. Elles offrent un bon compromis entre fiabilité, performance et maîtrise des coûts.
@@ -123,7 +127,7 @@ Cette configuration assure une haute disponibilité des services, même en cas d
 
 #### Caractéristiques
 
-- **Haute disponibilité :** Les données restent disponibles pour les opérations de lecture et d'écriture, même en cas de défaillance d'une zone. Cette architecture est idéale pour les applications nécessitant une tolérance aux pannes, car les données sont répliquées dans les trois zones de disponibilité. Même en cas d'interruption dans une zone, la continuité du service est maintenue.
+- **Haute disponibilité :** Les données restent disponibles pour les opérations de lecture et d'écriture, même en cas de défaillance d'une zone. Cette architecture est idéale pour les applications nécessitant une tolérance aux pannes, car les données sont répliquées dans les trois zones de disponibilité. Même en cas d'interruption dans une zone, la continuité des services régionaux est maintenue. Les services zonaux peuvent être exploités pour une haute disponibilité.
 - **Isolation des pannes :** Chaque zone de disponibilité est indépendante en termes d'alimentation, de réseau et de refroidissement, ce qui signifie que les problèmes d'une zone n'auront pas d'impact direct sur les autres. Cela permet d'atteindre un niveau de redondance plus élevé et de minimiser les interruptions de service.
 - **Latence optimisée :** La faible latence entre les zones garantit des communications rapides et fiables, optimales pour des charges de travail exigeantes.
 
