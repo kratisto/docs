@@ -1,6 +1,6 @@
 ---
-title: How to create savings plan
-excerpt: Documentation on how to create a savings plan using different tools
+title: How to manage savings plan
+excerpt: Documentation on how to manage a savings plan using different tools
 updated: 2025-01-22
 ---
 
