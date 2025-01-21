@@ -362,7 +362,7 @@ exit
 
 W Twoim [Panelu klienta OVHcloud](/links/manager) [zmień tryb uruchamiania](#netboot) ponownie na `Uruchom z dysku twardego`{.action} i zatwierdź.
 
-![Netboot Disk](zdjęcia/rescue-mode-007.png){.thumbnail}
+![Netboot Disk](images/rescue-mode-007.png){.thumbnail}
 
 Możesz teraz zrestartować serwer z powłoki trybu Rescue:
 
