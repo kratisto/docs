@@ -168,7 +168,7 @@ Wenn Sie zum Senden von E-Mails die **SMTP**-Einstellungen in den Kontoeinstellu
 - **Passwort**: Geben Sie das Passwort Ihres E-Mail-Accounts ein.
 - **EUROPA Server (eingehend)**: pop.mail.ovh.net **oder** ssl0.ovh.net
 - **SERVER AMERIKA/ASIEN-PAZIFIK (eingehend)**: pop.mail.ovh.ca
-- **Port**: 995
+- **Port**: 465
 - **Sicherheitstyp**: SSL/TLS
 
 > [!primary]

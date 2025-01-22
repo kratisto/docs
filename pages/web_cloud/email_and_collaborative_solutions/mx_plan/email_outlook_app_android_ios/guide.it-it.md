@@ -168,7 +168,7 @@ Per l’invio delle email, se hai necessità di inserire manualmente le impostaz
 - **Password**: Inserisci la password dell’indirizzo email
 - **Server EUROPA (in entrata)**: pop.mail.ovh.net **o** ssl0.ovh.net
 - **Server AMERICA/ASIA PACIFICA (in entrata)**: pop.mail.ovh.ca
-- **Porta**: 995
+- **Porta**: 465
 - **Tipo di sicurezza**: SSL/TLS
 
 > [!primary]

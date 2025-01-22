@@ -168,7 +168,7 @@ Se necessita de inserir manualmente as definições **SMTP** nas preferências d
 - **Palavra-passe**: Insira a palavra-passe do endereço de e-mail
 - **Servidor Europe (de entrada)**: pop.mail.ovh.net **ou** ssl0.ovh.net
 - **Servidor AMÉRICA/ÁSIA-PACÍFICO (de entrada)**: pop.mail.ovh.ca
-- **Port** : 995
+- **Port** : 465
 - **Tipo de segurança**: SSL/TLS
 
 > [!primary]
