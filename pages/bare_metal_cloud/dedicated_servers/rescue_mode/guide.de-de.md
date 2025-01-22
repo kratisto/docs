@@ -402,7 +402,7 @@ Das Ergebnis sollte wie im folgenden Beispiel aussehen:
 
 ![Rescue-Key-Beispiel](images/rescue-mode-008.png){.thumbnail}
 
-Wenn Sie die Werte korrekt eingegeben haben, klicken Sie auf den Button `TRY`{.action}.
+Wenn Sie die Werte korrekt eingegeben haben, klicken Sie auf den Button `EXECUTE`{.action}.
 
 Das Feld `Ihr öffentlicher SSH-Schlüssel:` wird jetzt beim [Umschalten des `Netboot`](#netboot) automatisch mit dieser Schlüsselzeichenfolge ausgefüllt.
 

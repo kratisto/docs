@@ -403,7 +403,7 @@ Il risultato deve essere simile all'esempio seguente:
 
 ![rescue key esempio](images/rescue-mode-008.png){.thumbnail}
 
-Una volta inseriti i valori corretti, clicca sul pulsante `TRY`{.action}.
+Una volta inseriti i valori corretti, clicca sul pulsante `EXECUTE`{.action}.
 
 Il campo `La tua chiave SSH pubblica:` verrà riempito automaticamente con questa stringa di chiave durante la [modifica della modalità `Netboot`](#netboot).
 

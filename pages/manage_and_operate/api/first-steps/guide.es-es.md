@@ -118,7 +118,7 @@ Por ejemplo, para añadir un registro TXT a su zona DNS, podrá elegir los sigui
 
 ![API](images/parameters.png){.thumbnail} 
 
-Una vez configurados los parámetros, puede ejecutar la API haciendo clic en `TRY`{.action}. 
+Una vez configurados los parámetros, puede ejecutar la API haciendo clic en `EXECUTE`{.action}. 
 
 La pestaña `Response` mostrará el informe de ejecución de la API.
 

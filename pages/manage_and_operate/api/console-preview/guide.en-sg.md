@@ -154,7 +154,7 @@ When clicking this button, a popup windows is opened allowing to search through 
 
 ### Executing requests
 
-From the console, it is possible to interact directly with the API using the `TRY`{.action} button.
+From the console, it is possible to interact directly with the API using the `EXECUTE`{.action} button.
 
 ![API](images/operation-try-call.png){.thumbnail}
 

@@ -403,7 +403,7 @@ El resultado debe ser similar al siguiente ejemplo:
 
 ![rescue key ejemplo](images/rescue-mode-008.png){.thumbnail}
 
-Una vez que haya introducido los valores correctamente, haga clic en el botón `TRY`{.action}.
+Una vez que haya introducido los valores correctamente, haga clic en el botón `EXECUTE`{.action}.
 
 El campo `Su llave SSH pública` se rellenará automáticamente con esta cadena de llave el [cambio del modo `Netboot`](#netboot).
 

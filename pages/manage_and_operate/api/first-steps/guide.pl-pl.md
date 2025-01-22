@@ -118,7 +118,7 @@ Na przykład, aby dodać rekord TXT do strefy DNS, zoptymalizujesz następujące
 
 ![API](images/parameters.png){.thumbnail} 
  
-Po zdefiniowaniu ustawień możesz uruchomić API klikając `TRY`{.action}. 
+Po zdefiniowaniu ustawień możesz uruchomić API klikając `EXECUTE`{.action}. 
 
 W zakładce `Response` wyświetli się raport z realizacji API.
 
