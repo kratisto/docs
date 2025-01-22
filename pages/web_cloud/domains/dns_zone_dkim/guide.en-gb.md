@@ -46,11 +46,11 @@ The DKIM (**D**omain**K**eys **I**dentified **M**ail) record allows you to sign 
 
 - You can manage the domain name concerned in the [OVHcloud Control Panel](/links/manager), or via your DNS service provider if it is registered outside of OVHcloud.
 - You have access to the [OVHcloud Control Panel](/links/manager).
-- You need to have signed up to one of these email offers:
-    - OVHcloud MX Plan Email. This is available via a [Web Hosting plan](/links/web/hosting), a [100M free hosting plan](https://www.ovhcloud.com/en-gb/domains/free-web-hosting/), or an MX Plan solution ordered separately.
-    - [Exchange](/links/web/emails-hosted-exchange) or [Private Exchange](/links/web/emails-hosted-exchange).
-    - [Email Pro](/links/web/email-pro).
-    - An email solution outside of OVHcloud with DKIM.
+- You have signed up to one of these email offers:
+    - OVHcloud MX Plan Email, available with a [web hosting plan](/links/web/hosting), a [100M free hosting plan](https://www.ovhcloud.com/en-gb/domains/free-web-hosting/), or a separate MX Plan solution
+    - [Exchange](/links/web/emails-hosted-exchange) or [Private Exchange](/links/web/emails-hosted-exchange)
+    - [Email Pro](/links/web/email-pro)
+    - An email solution outside of OVHcloud with DKIM support
 
 > [!warning]
 >
@@ -161,31 +161,31 @@ By default, the DKIM is not activated when you add a domain name to your platfor
 Click on the tab below corresponding to your solution.
 
 > [!tabs]
-> **E-mails (MX Plan)**
+> **Emails (MX Plan)**
 >>
->> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Emails`{.action} , then click on the domain name concerned. Finally, go to the `General information`{.action} tab.
+>> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Emails`{.action}, then click on the domain name concerned. Finally, go to the `General information`{.action} tab.
 >>
->> In the **General informations** box, you can see that the `DKIM` box is red with the **Diagnostic**.
+>> In the **General informations** box, `DKIM` is displayed in red in the column **Diagnostic**.
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/emails/general-information/dkim-auto01.png){.thumbnail .w-400 .h-600}
 >>
 > **Exchange**
 >>
->> From your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Click on the name of the Exchange service concerned. Finally, go to the `Associated domains`{.action} tab.
+>> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Click on the name of the Exchange service concerned. Finally, go to the `Associated domains`{.action} tab.
 >>
->> To the right of the domain name concerned, you can see that the `DKIM` box is red.
+>> To the right of the domain name concerned, `DKIM` is displayed in red.
 >>
 >>![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto01.png){.thumbnail .w-400 .h-600}
 >>
 > **Email Pro**
 >>
->> From your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Email Pro`{.action}, then on the name of the Email Pro service concerned. Finally, go to the `Associated domains`{.action} tab.
+>> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Email Pro`{.action}, then on the name of the Email Pro service concerned. Finally, go to the `Associated domains`{.action} tab.
 >>
->> To the right of the domain name concerned, you can see that the `DKIM` box is red.
+>> To the right of the domain name concerned, `DKIM` is displayed in red.
 >>
 >>![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto01.png){.thumbnail .w-400 .h-600}
 
-To activate the DKIM, simply click on the red `DKIM` box, then `Confirm`{.action} in the activation window that pops up.
+To activate DKIM, simply click on the red `DKIM` box, then `Confirm`{.action} in the activation window that pops up.
 
 ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto02.png){.thumbnail .w-400 .h-600}
 
