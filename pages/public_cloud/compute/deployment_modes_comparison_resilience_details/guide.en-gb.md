@@ -50,7 +50,7 @@ Each of these options is based on the fundamental principles of resilience, perf
 
 #### Infrastructure and Redundancy
 
-A 1-AZ region is **a single availability zone made up of one or several data centres in the same geographical area**. It uses a 2N+1 redundancy architecture, designed to ensure resilience against local hardware failures, such as disk or server failures. However, this configuration remains vulnerable to failures affecting the entire data centre.
+A 1-AZ region is **a single availability zone made up of one or several data centres in the same geographical area**. It uses redundancy on the infrastructure side (power, network, and cooling). However, this configuration remains vulnerable to failures affecting the entire data centre.
 
 Services and data are protected against localised incidents thanks to effective internal redundancy, but a major or total breakdown of a data centre could compromise the availability of services. Note that each OVHcloud data centre has redundant power and network supply to avoid those breakdowns. 
 
@@ -141,14 +141,14 @@ This configuration ensures high availability of services, even in the event of t
 
 | Specification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Type of redundancy**      | Infrastructure redundancy (power, network and cooling) and inter-zone replication* on 3 separate sites using the 3AZ model, guaranteeing increased availability and fault tolerance. </br> Inter-zone data replication for resilience                 |
+| **Type of redundancy**      | Infrastructure redundancy (power, network and cooling) on 3 separate sites using the 3AZ model, increasing availability and fault tolerance. </br> Enable inter-zone data replication for resilience                 |
 | **Fault tolerance** | Guarantees resilience against the loss of an entire zone, with automatic failover.                      |
 | **Data protection** | Data replicated synchronously between zones to guarantee continuous availability. |
 | **Limits** | Does not protect against complete regional failure; requires multi-regional architecture for maximum resilience. |
 
 ***inter-zone replication :**
 
-In this architecture, resources are tripled (3N) and distributed between three distinct availability zones (AZ). Data is replicated synchronously between zones, guaranteeing total resilience against the loss of an entire zone thanks to automatic failover. However, this architecture does not protect against a complete regional failure.
+In this architecture, resources are tripled (3N) and distributed between three distinct availability zones (AZ). Data can be replicated synchronously between zones, guaranteeing total resilience against the loss of an entire zone thanks to automatic failover. However, this architecture does not protect against a complete regional failure.
 
 #### Scaling
 
@@ -171,7 +171,7 @@ In a 3-AZ Region, scaling is more flexible, offering the ability to scale horizo
 Architecture:
 
 - **Three availability zones (AZs):** Each zone is geographically isolated to avoid the impact of a local disaster.
-- **Data replication:** Synchronous replication of data between the three zones to guarantee continuous availability.
+- **Data replication:** Synchronous replication of data between the three zones can be implemented to guarantee continuous availability.
 - **Distributed instances:** Application instances are deployed in each zone, ensuring redundancy and high availability.
 - **Load balancers:** Load balancers manage user traffic by distributing requests between zones, even in the event of a failure.
 - **Regional backups:** Backups are outsourced to a regional S3 solution to protect against total data loss.

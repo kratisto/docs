@@ -50,7 +50,7 @@ Chacune de ces options repose sur les principes fondamentaux de résilience, de 
 
 #### Infrastructure et redondance
 
-Une région 1-AZ consiste en **une zone de disponibilité unique composée de un ou plusieurs centres de données dans une même région géographique**. Elle utilise une architecture de redondance 2N+1, conçue pour garantir la résilience contre les défaillances matérielles locales, telles que les pannes de disques ou de serveurs. Cependant, cette configuration reste vulnérable aux pannes affectant l'ensemble du centre de données.
+Une région 1-AZ consiste en **une zone de disponibilité unique composée de un ou plusieurs centres de données dans une même région géographique**. Elle utilise la redondance au niveau de l'infrastructure (alimentation, réseau et refroidissement). Toutefois, cette configuration reste vulnérable aux défaillances affectant l'ensemble du centre de données.
 
 Les services et les données sont protégés contre les incidents localisés grâce à une redondance interne efficace, mais une panne majeure ou totale d'un centre de données pourrait compromettre la disponibilité des services. Notez que chaque centre de données OVHcloud dispose d'une alimentation électrique et d'un réseau redondants pour éviter ces pannes.
 
@@ -141,7 +141,7 @@ Cette configuration assure une haute disponibilité des services, même en cas d
 
 | Spécification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Type de redondance**      | Redondance au niveau de l'infrastructure (alimentation, réseau et refroidissement) et réplication inter-zones* sur 3 sites distincts selon le modèle 3AZ, garantissant une disponibilité accrue et une tolérance aux pannes. </br> Réplication des données inter-zone pour la résilience.                                 |
+| **Type de redondance**      | Infrastructure redundancy (power, network and cooling) on 3 separate sites using the 3AZ model, increasing availability and fault tolerance. </br> Enable inter-zone data replication for resilience.                                 |
 | **Tolérance aux pannes** | Garantit la résilience contre la perte d'une zone entière, avec basculement automatique.                      |
 | **Protection des données** | Données répliquées de manière synchrone entre les zones pour garantir leur disponibilité continue. |
 | **Limites** | Ne protège pas contre une panne complète de la région ; nécessite une architecture multirégionale pour une résilience maximale. |
@@ -150,7 +150,7 @@ Cette configuration assure une haute disponibilité des services, même en cas d
 
 ***réplication inter-zones** :
 
-Dans cette architecture, les ressources sont triplées (3N) et réparties entre trois zones de disponibilité (AZ) distinctes. Les données sont répliquées de manière synchrone entre les zones, garantissant une résilience totale contre la perte d'une zone entière grâce au basculement automatique. Cependant, cette architecture ne protège pas contre une panne régionale complète.
+Dans cette architecture, les ressources sont triplées (3N) et réparties entre trois zones de disponibilité (AZ) distinctes. Les données peuvent être répliquées de manière synchrone entre les zones, ce qui garantit une résilience totale contre la perte d'une zone entière grâce au basculement automatique. Toutefois, cette architecture ne protège pas contre une défaillance régionale complète.
 
 #### Mise à l'échelle
 
@@ -173,7 +173,7 @@ Dans une Région 3-AZ, la mise à l'échelle est plus flexible, offrant la possi
 Architecture:
 
 - **Trois zones de disponibilité (AZs) :** Chaque zone est géographiquement isolée pour éviter tout impact d'un sinistre local.
-- **Réplication des données :** Réplication synchrone des données entre les trois zones pour garantir leur disponibilité continue.
+- **Réplication des données :** Une réplication synchrone des données entre les trois zones peut être mise en œuvre pour garantir une disponibilité continue.
 - **Instances réparties :** Les instances applicatives sont déployées dans chaque zone, assurant la redondance et la haute disponibilité.
 - **Load balancers :** Les Load balancers gèrent le trafic utilisateur en répartissant les requêtes entre les zones, même en cas de panne.
 - **Sauvegardes régionales :** Les sauvegardes sont externalisées dans une solution S3 régionale pour protéger contre une perte totale des données.
