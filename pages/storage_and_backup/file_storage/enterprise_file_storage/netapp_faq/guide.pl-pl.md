@@ -60,7 +60,7 @@ Nasze rozwiązanie Enterprise File Storage jest zgodne z kilkoma najnowocześnie
 
 ### Czy można uzyskać dostęp do Enterprise File Storage z prywatnej sieci vRack?
 
-Nie w tej chwili, ale ta funkcja będzie wkrótce dostępna (vRack endpoint).
+Tak.
 
 ## Dostęp *On-premises*
 
