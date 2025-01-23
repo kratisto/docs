@@ -1,18 +1,18 @@
 ---
-title: Public Cloud Databases - How to setup your Kubernetes database operator
+title: Analytics - How to set up your Kubernetes database operator
 excerpt: Find out how to install and use the Kubernetes database operator
-updated: 2023-06-29
+updated: 2025-01-20
 ---
 
 ## Objective
 
-The kubernetes database operator allows you to automaticaly authorize your Kubernetes cluster IP on your OVHcloud Public Cloud Databases service.
+The kubernetes database operator allows you to automaticaly authorize your Kubernetes cluster IP on your OVHcloud Analytics service.
 
 **This guide explains how to install and use the database operator in order to authorize the Kubernetes IP on your service**
 
 ## Requirements
 
-- Access to the [OVHcloud API](https://api.ovh.com/). Create your credentials using our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
+- Access to the [OVHcloud API](/links/api). Create your credentials using our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
 - A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
 
 ### Getting your OVHcloud API tokens information
@@ -32,7 +32,7 @@ The Kubernetes database operator is stored as an Helm chart in [Docker Hub](http
 
 ### Helm Values
 
-The first step is to create a `values.yaml`. 
+The first step is to create a `values.yaml`.
 
 Please replace the `XXXX` with the credentials you previously retrieved.
 
@@ -56,7 +56,7 @@ Use the kubernetes package manager [helm](https://helm.sh) and the values file y
 helm install -f values.yaml public-cloud-databases-operator oci://registry-1.docker.io/ovhcom/public-cloud-databases-operator --version 0.1.1
 ```
 
-This command will create the operator, CRDs and secrets objects.
+This command will create the operator, CRDs and secret objects.
 
 You can find the latest version of the helm chart on [DockerHub](https://hub.docker.com/r/ovhcom/public-cloud-databases-operator/tags).
 
@@ -68,7 +68,11 @@ NAME                              READY   UP-TO-DATE   AVAILABLE   AGE
 public-cloud-databases-operator   1/1     1            1           60m
 ```
 
-And that the secret with you OVHcloud credentials is properly created:
+<<<<<<< HEAD
+And that the secret within you OVHcloud credentials is properly created:
+=======
+And that the secret with your OVHcloud credentials is properly created:
+>>>>>>> 4d59f9e73932ab3413edf6cb916adbbad171269d
 
 ```bash
 kubectl get secret ovh-credentials -n ovhcloud
@@ -84,24 +88,24 @@ Create a custom resource object:
 apiVersion: cloud.ovh.net/v1alpha1
 kind: Database
 metadata:
-  name: mydatabase
+  name: myanalyticsservice
   namespace: ovhcloud
 spec:
   projectId: XXXX # ID of your Public Cloud project ID
-  serviceId: XXX # ID of your Public Cloud Databases service
+  serviceId: XXX # ID of your Analytics service
 ```
 
-Or with a label selector to cherry pick you nodes based on label:
+Or with a label selector to cherry pick your nodes based on label:
 
 ```yaml
 apiVersion: cloud.ovh.net/v1alpha1
 kind: Database
 metadata:
-  name: mydatabase
+  name: myanalyticsservice
   namespace: ovhcloud
 spec:
   projectId: XXXX # ID of your Public Cloud project ID
-  serviceId: XXX # ID of your Public Cloud Databases service
+  serviceId: XXX #ID of your Analytics service
   labelSelector:
     matchLabels:
       LABELNAME: LABELVALUE
@@ -116,6 +120,7 @@ kubectl apply -f cr.yaml
 ```
 
 You can check it has been properly created using this command:
+
 ```bash
 kubectl kubectl -n ovhcloud get database
 NAME                              AGE
@@ -141,7 +146,8 @@ kubectl label nodes NODENAME1 NODENAME2 ... LABELNAME=LABELVALUE
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!
+Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our analytics service!
 
+Join our [community of users](/links/community).
