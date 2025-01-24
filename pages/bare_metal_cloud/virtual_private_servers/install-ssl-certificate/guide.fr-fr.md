@@ -36,7 +36,6 @@ La sécurisation de votre site web est essentielle pour protéger les données s
 ### Étape 1 - Connectez-vous à votre VPS OVHcloud <a name="step1"></a>
 
 1. Téléchargez un client SSH comme [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) ou utilisez le terminal intégré de votre système d'exploitation.
-
 2. Connectez-vous à votre VPS OVHcloud avec les informations de connexion fournies :
 
 ```bash
@@ -141,7 +140,7 @@ Une fois le certificat généré, les fichiers sont disponibles dans `/etc/letse
 ### Étape 4 - Configurez votre serveur web <a name="step4"></a>
 
 > [!primary]
-> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)) et que votre site web est accessible en `HTTPS`, passez à l'[étape 5](step5).
+> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)) et que votre site web est accessible en `HTTPS`, passez directement à l'[étape 5](step5).
 
 #### Exemple pour Nginx
 

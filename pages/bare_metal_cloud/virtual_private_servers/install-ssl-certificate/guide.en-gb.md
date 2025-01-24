@@ -36,12 +36,12 @@ Securing your website is essential to protect your users' sensitive data and imp
 ### Step 1 - Log in to your OVHcloud VPS <a name="step1"></a>
 
 1. Download an SSH client like [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) or use your operating system's built-in terminal.
-
 2. Log in to your OVHcloud VPS with the login information provided:
 
 ```bash
 ssh root@<vps_ip>
 ```
+
 Replace `<vps_ip>` with the IP address of your OVHcloud VPS.
 
 ### Step 2 - Install Certbot <a name="step2"></a>
@@ -141,7 +141,7 @@ Once the certificate has been generated, the files are available in `/etc/letsen
 ### Step 4 - Configure your web server <a name="step4"></a>
 
 > [!primary]
-> If you have used the automatic solution (with Certbot plugins) before ([Step 3](#step3)) and your website is accessible in `HTTPS`, go to [step 5](step 5).
+> If you have used the automatic solution (with Certbot plugins) before ([Step 3](#step3)) and your website is accessible in `HTTPS`, go directly to the [Step 5](#step5) of this guide.
 
 #### Example for Nginx
 
