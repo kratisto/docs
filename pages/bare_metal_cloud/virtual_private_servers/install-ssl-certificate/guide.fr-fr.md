@@ -6,7 +6,7 @@ updated: 2025-01-24
 
 ## Objectif
 
-La sécurisation de votre site web est essentielle pour protéger les données sensibles de vos utilisateurs et améliorer leur confiance. Grâce à un certificat SSL (**S**ecure **S**ockets **L**ayer), vous pouvez chiffrer les échanges entre vos visiteurs et votre site web, tout en renforçant sa crédibilité. OVHcloud propose plusieurs solutions pour installer un certificat SSL sur votre VPS, notamment l'utilisation de **Let's Encrypt**, un service gratuit et automatisé, ainsi que l'option **SSL Gateway**, une solution simple et performante.
+La sécurisation de votre site web est essentielle pour protéger les données sensibles de vos utilisateurs et améliorer leur confiance. Grâce à un certificat SSL (**S**ecure **S**ockets **L**ayer), vous pouvez chiffrer les échanges entre vos visiteurs et votre site web, tout en renforçant sa crédibilité. Ce guide documente l'utilisation de **Let's Encrypt**, un service gratuit et automatisé.
 
 **Découvrez comment installer un certificat SSL sur un VPS OVHcloud.**
 
