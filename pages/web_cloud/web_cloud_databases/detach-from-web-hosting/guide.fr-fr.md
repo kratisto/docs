@@ -18,7 +18,7 @@ Les solutions [Web Cloud Databases](/links/web/databases) peuvent être activée
 
 ## En pratique
 
-Pour délier votre solution Web Cloud Databases de l'hébergement web auquel elle est associée, cliquez sur les onglets ci-dessous pour afficher successivement chacune des **4** étapes.
+Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **4** étapes.
 
 > [!tabs]
 > **Etape 1**
