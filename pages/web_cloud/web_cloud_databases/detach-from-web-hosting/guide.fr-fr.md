@@ -41,7 +41,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **4*
 >>
 > **Etape 4**
 >>
->> Sur la nouvelle page qui s'affiche, choisissez la nouvelle tarification désirée pour votre solution Web Cloud Databases, puis poursuivez les étapes indiquées jusqu'au paiement.
+>> Sur la nouvelle page qui s'affiche, choisissez la nouvelle tarification désirée pour votre solution Web Cloud Databases, puis suivez les étapes indiquées jusqu'au paiement.
 >>
 >> ![Detach Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/detach-my-web-cloud-databases.png){.thumbnail}
 >>
