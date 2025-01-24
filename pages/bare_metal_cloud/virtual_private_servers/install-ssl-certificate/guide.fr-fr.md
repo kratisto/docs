@@ -1,5 +1,5 @@
 ---
-title: 'Comment installer un certificat SSL sur un VPS OVHcloud'
+title: 'Comment installer un certificat SSL sur un VPS'
 excerpt: 'Découvrez comment installer un certificat SSL sur un VPS OVHcloud'
 updated: 2025-01-24
 ---
@@ -14,12 +14,12 @@ La sécurisation de votre site web est essentielle pour protéger les données s
 >
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 >
-> Nous mettons à votre disposition ce tutoriel afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr/directory/) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [Aller plus loin](#gofurther) de ce tutoriel.
+> Nous mettons à votre disposition ce tutoriel afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](/links/partner) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [Aller plus loin](#gofurther) de ce tutoriel.
 >
 
 ## Prérequis
 
-- Disposer d'une offre [VPS](https://www.ovhcloud.com/fr/vps/)
+- Disposer d'une offre [VPS](/links/bare-metal/vps)
 - Disposer d'un accès administrateur (sudo) via SSH à votre VPS
 - Disposer d'un site web fonctionnel accessible en http
 
@@ -36,7 +36,7 @@ La sécurisation de votre site web est essentielle pour protéger les données s
 
 ### Étape 1 - Connectez-vous à votre VPS OVHcloud <a name="step1"></a>
 
-1. Téléchargez un client SSH comme [PuTTY](https://www.putty.org/) ou utilisez le terminal intégré de votre système d'exploitation.
+1. Téléchargez un client SSH comme [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows) ou utilisez le terminal intégré de votre système d'exploitation.
 
 2. Connectez-vous à votre VPS OVHcloud avec les informations de connexion fournies :
 
@@ -51,27 +51,31 @@ Certbot est un outil permettant de gérer automatiquement les certificats Let's 
 
 > [!tabs]
 > **Ubuntu/Debian**
+>>
 >> ```bash
 >> sudo apt update
 >> sudo apt install certbot
 >> ```
 >>
 > **CentOS**
+>>
 >> ```bash
 >> sudo yum install epel-release
 >> sudo yum install certbot
 >> ```
 >>
 > **Fedora**
+>>
 >> ```bash
 >> sudo dnf install certbot
 >> ```
 
-Assurez-vous que Certbot est correctement installé en exécutant la commande :
+Assurez-vous que Certbot est correctement installé en exécutant la commande suivante :
 
 ```bash
 certbot --version
 ```
+
 Cela doit afficher la version de Certbot installée.
 
 ### Étape 3 - Obtenez un certificat SSL avec Let's Encrypt <a name="step3"></a>
@@ -86,23 +90,29 @@ Selon votre serveur web, utilisez les lignes de commandes correspondantes :
 
 > [!tabs]
 > **Nginx**
+>>
 >> Installez le plugin Certbot Nginx :
+>>
 >> ```bash
 >> sudo apt install python3-certbot-nginx -y
 >> ```
 >>
 >> Générez le certificat SSL :
+>>
 >> ```bash
 >> sudo certbot --nginx -d your_domain
 >> ```
 >>
 > **Apache**
+>>
 >> Installez le plugin Certbot Apache :
+>>
 >> ```bash
 >> sudo apt install python3-certbot-apache -y
 >> ```
 >>
 >> Générez le certificat SSL :
+>>
 >> ```bash
 >> sudo certbot --apache -d your_domain
 >> ```
@@ -132,13 +142,13 @@ Une fois le certificat généré, les fichiers sont disponibles dans `/etc/letse
 ### Étape 4 - Configurez votre serveur web <a name="step4"></a>
 
 > [!primary]
-> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)), et que votre site web est accessible en `https`, passez à l'[étape 5](step5).
+> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)) et que votre site web est accessible en `https`, passez à l'[étape 5](step5).
 
 #### Exemple pour Nginx
 
-1. Ouvrez le fichier de configuration de votre site web (par exemple, `/etc/nginx/sites-available/your_domain.conf`).
+1\. Ouvrez le fichier de configuration de votre site web (par exemple, `/etc/nginx/sites-available/your_domain.conf`).
 
-2. Ajoutez les lignes suivantes pour activer le SSL :
+2\. Ajoutez les lignes suivantes pour activer le SSL :
 
 ```nginx
 server {
@@ -159,7 +169,7 @@ server {
 }
 ```
 
-3. Ajoutez une redirection automatique HTTP vers HTTPS :
+3\. Ajoutez une redirection automatique HTTP vers HTTPS :
 
 ```nginx
 server {
@@ -169,7 +179,7 @@ server {
 }
 ```
 
-4. Testez et redémarrez Nginx :
+4\. Testez et redémarrez Nginx :
 
 ```bash
 sudo nginx -t
@@ -180,14 +190,14 @@ Vérifiez que votre site web est accessible en `https`.
 
 #### Exemple pour Apache
 
-1. Activez les modules SSL et headers :
+1\. Activez les modules SSL et les headers :
 
 ```bash
 sudo a2enmod ssl
 sudo a2enmod headers
 ```
 
-2. Modifiez la configuration de votre site web (par exemple `/etc/apache2/sites-available/your_domain.conf`) pour inclure :
+2\. Modifiez la configuration de votre site web (par exemple `/etc/apache2/sites-available/your_domain.conf`) pour inclure :
 
 ```apache
 <VirtualHost *:80>
@@ -229,7 +239,7 @@ sudo a2enmod headers
 </VirtualHost>
 ```
 
-4. Testez et redémarrez Apache :
+4\. Testez et redémarrez Apache :
 
 ```bash
 sudo apachectl configtest
@@ -256,6 +266,6 @@ sudo systemctl list-timers | grep certbot
 
 ## Aller plus loin <a name="go-further"></a>
 
-Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](https://partner.ovhcloud.com/fr/directory/).
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
