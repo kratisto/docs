@@ -21,7 +21,7 @@ La sécurisation de votre site web est essentielle pour protéger les données s
 
 - Disposer d'une offre [VPS](/links/bare-metal/vps)
 - Disposer d'un accès administrateur (sudo) via SSH à votre VPS
-- Disposer d'un site web fonctionnel accessible en http
+- Disposer d'un site web fonctionnel accessible en `HTTP`
 
 ## En pratique
 
@@ -81,7 +81,7 @@ Cela doit afficher la version de Certbot installée.
 
 > [!primary]
 >
-> Si vous avez installé votre serveur web (Nginx ou Apache), nous vous recommandons d'utiliser les plugins Certbot pour automatiser la configuration SSL et activer les redirections HTTPS. Ces plugins simplifient l'installation en gérant directement les fichiers de configuration du serveur web.
+> Si vous avez installé votre serveur web (Nginx ou Apache), nous vous recommandons d'utiliser les plugins Certbot pour automatiser la configuration SSL et activer les redirections `HTTPS`. Ces plugins simplifient l'installation en gérant directement les fichiers de configuration du serveur web.
 
 #### Utilisation automatique avec les plugins Certbot Nginx ou Apache (recommandée)
 
@@ -116,7 +116,7 @@ Selon votre serveur web, utilisez les lignes de commandes correspondantes :
 >> sudo certbot --apache -d your_domain
 >> ```
 
-Certbot configurera automatiquement le certificat SSL et la redirection HTTPS. Vérifiez que votre site web est accessible en `https`.
+Certbot configurera automatiquement le certificat SSL et la redirection `HTTPS`. Vérifiez que votre site web est accessible en `HTTPS`.
 
 #### Utilisation en mode autonome
 
@@ -141,7 +141,7 @@ Une fois le certificat généré, les fichiers sont disponibles dans `/etc/letse
 ### Étape 4 - Configurez votre serveur web <a name="step4"></a>
 
 > [!primary]
-> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)) et que votre site web est accessible en `https`, passez à l'[étape 5](step5).
+> Si vous avez utilisé la solution automatique (avec les plugins Certbot) précédemment ([Étape 3](#step3)) et que votre site web est accessible en `HTTPS`, passez à l'[étape 5](step5).
 
 #### Exemple pour Nginx
 
@@ -168,7 +168,7 @@ server {
 }
 ```
 
-3\. Ajoutez une redirection automatique HTTP vers HTTPS :
+3\. Ajoutez une redirection automatique `HTTP` vers `HTTPS` :
 
 ```nginx
 server {
@@ -185,7 +185,7 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-Vérifiez que votre site web est accessible en `https`.
+Vérifiez que votre site web est accessible en `HTTPS`.
 
 #### Exemple pour Apache
 
@@ -245,7 +245,7 @@ sudo apachectl configtest
 sudo systemctl restart apache2
 ```
 
-Vérifiez que votre site web est accessible en `https`.
+Vérifiez que votre site web est accessible en `HTTPS`.
 
 ### Étape 5 - Activez le renouvellement automatique <a name="step5"></a>
 

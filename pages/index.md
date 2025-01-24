@@ -226,6 +226,7 @@
             + [FAQ](bare_metal_cloud/virtual_private_servers/vps-faq)
             + [How to configure user accounts and root access on a server](bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
             + [How to secure a VPS](bare_metal_cloud/virtual_private_servers/secure_your_vps)
+            + [How to install an SSL certificate on a VPS](bare_metal_cloud/virtual_private_servers/install-ssl-certificate)
             + [How to get started with SSH](bare_metal_cloud/dedicated_servers/ssh_introduction)
             + [How to create and use SSH keys](bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
             + [How to store public authentication keys in the OVHcloud Control Panel](bare_metal_cloud/dedicated_servers/import-keys-control-panel)
