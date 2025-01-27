@@ -100,10 +100,10 @@ Le tableau des noms de domaine vous donne deux informations :
 
 Pour ajouter un nom de domaine à votre service Zimbra, cliquez sur l'onglet `Domaine`{.action} puis cliquez sur `Ajouter un domaine`{.action}.
 
-Sélectionnez une organisation dans le menu déroulant puis sélectionnez l'une des deux options suivantes:
+Sélectionnez une organisation dans le menu déroulant puis sélectionnez l'une des deux options suivantes :
 
-- **Sélectionner un domaine dans la liste** (domaine interne) : vous trouverez dans cette liste, les noms de domaine OVHcloud pour lesquels vous avez la gestion depuis votre espace client OVHcloud.
-- **Saisir un nom de domaine non géré par votre compte OVHcloud** (domaine externe) : vous devez saisir le nom de domaine qui n'est pas géré dans votre espace client OVHcloud ou enregistré dans un autre bureau d'enregistrement et pour lequel vous avez la gestion.
+- **Sélectionner un domaine dans la liste** (domaine interne) : dans cette liste, vous trouverez les noms de domaine dont vous avez la gestion depuis votre espace client OVHcloud.
+- **Saisir un nom de domaine non géré par votre compte OVHcloud** (domaine externe) : renseignez un nom de domaine qui n'est pas géré dans votre espace client OVHcloud ou qui est enregistré dans un autre bureau d'enregistrement et dont vous avez la gestion.
 
 Sélectionnez l'onglet correspondant à votre choix :
 
@@ -117,9 +117,9 @@ Sélectionnez l'onglet correspondant à votre choix :
 >> Pour configurer votre zone DNS, sélectionnez l'une des deux options suivantes:
 >>
 >> - **Configuration recommandée** : votre zone DNS sera configurée automatiquement. Cette option convient si vous n'avez pas configuré d'offre e-mail sur votre nom de domaine.
->> - **Configuration personnalisée** : Si vous avez déjà configuré une offre e-mail sur votre nom de domaine, vous pouvez choisir les éléments qui vous intéressent.
->>    - *Configurer l'enregistrement MX automatiquement* : il permet de saisir automatiquement les serveurs de réception OVHcloud (s'applique à toutes les offres e-mails OVHcloud).
->>    - *Configurer l'enregistrement SPF automatiquement* : il permet de saisir automatiquement l'enregistrement autorisant les serveurs e-mail d'envoi OVHCloud à transmettre vos e-mails. Cet enregistrement est valable pour l'ensemble des offres e-mail OVHcloud.
+>> - **Configuration personnalisée** : si vous avez déjà configuré une offre e-mail sur votre nom de domaine, vous pouvez choisir les éléments qui vous intéressent.
+>>    - *Configurer l'enregistrement MX automatiquement* : il permet de saisir automatiquement les serveurs de réception OVHcloud (s'applique à toutes les offres e-mail OVHcloud).
+>>    - *Configurer l'enregistrement SPF automatiquement* : il permet de saisir automatiquement l'enregistrement autorisant les serveurs e-mail d'envoi OVHcloud à transmettre vos e-mails. Cet enregistrement est valable pour l'ensemble des offres e-mail OVHcloud.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -139,7 +139,7 @@ Sélectionnez l'onglet correspondant à votre choix :
 >>
 >> > [!warning]
 >> >
->> > Passé 48 heures, si le CNAME n'est pas visible dans la zone DNS, l'opération est annulée, il sera nécessaire de recommencer l'opération.
+>> > Après 48 heures, si le CNAME n'est pas visible dans la zone DNS, l'opération est annulée. Il sera alors nécessaire de recommencer l'opération.
 
 ### Comptes e-mail <a name="emails"></a>
 
