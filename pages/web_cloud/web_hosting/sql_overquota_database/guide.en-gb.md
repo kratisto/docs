@@ -214,13 +214,13 @@ Click on the tabs below to view each of the **5** steps in succession.
 >>
 >> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
 > **Step 2**
 >>
 >> Click the `Hosting plans`{.action} dropdown menu, then select the Web Hosting plan concerned.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
 > **Step 3**
 >>
@@ -253,13 +253,13 @@ Click on the tabs below to view each of the **3** steps in turn.
 >>
 >> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 >>
->> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
 > **Step 2**
 >>
 >> Click the `Web Cloud Databases`{.action} dropdown menu, then choose the Web Cloud Databases solution concerned.
 >>
->> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
 >>
 > **Step 3**
 >>

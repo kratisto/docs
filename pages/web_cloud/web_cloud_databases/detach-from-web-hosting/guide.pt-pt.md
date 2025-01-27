@@ -1,6 +1,6 @@
 ---
 title: "Desassociar a minha solução Web Cloud Databases de um alojamento web"
-excerpt: "Descubra como desassociar a sua solução Web Cloud Databases de um alojamento web"
+excerpt: "Saiba como desassociar a sua solução Web Cloud Databases de um alojamento web"
 updated: 2025-01-24
 ---
 
@@ -8,7 +8,7 @@ updated: 2025-01-24
 
 As soluções [Web Cloud Databases](/links/web/databases) podem ser ativadas gratuitamente a partir dos nossos [planos de alojamento web Performance](/links/web/hosting). Neste caso, elas serão associadas ao alojamento web a partir do qual foram ativadas. Durante a utilização dos serviços, pode ser necessário desassociar a solução Web Cloud Databases do alojamento web Performance ao qual está associada.
 
-**Descubra como desassociar a sua solução Web Cloud Databases de um alojamento web.**
+**Saiba como desassociar a sua solução Web Cloud Databases de um alojamento web.**
 
 ## Requisitos
 
@@ -16,7 +16,7 @@ As soluções [Web Cloud Databases](/links/web/databases) podem ser ativadas gra
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 - Ser, no mínimo, o contacto "[Administrador](/pages/account_and_service_management/account_information/managing_contacts)" dos serviços sobre os quais deseja agir.
 
-## Na Prática
+## Instruções
 
 Clique nas guias abaixo para exibir sucessivamente cada uma das **4** etapas.
 
