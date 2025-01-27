@@ -68,11 +68,7 @@ NAME                              READY   UP-TO-DATE   AVAILABLE   AGE
 public-cloud-databases-operator   1/1     1            1           60m
 ```
 
-<<<<<<< HEAD
-And that the secret within you OVHcloud credentials is properly created:
-=======
 And that the secret with your OVHcloud credentials is properly created:
->>>>>>> 4d59f9e73932ab3413edf6cb916adbbad171269d
 
 ```bash
 kubectl get secret ovh-credentials -n ovhcloud
