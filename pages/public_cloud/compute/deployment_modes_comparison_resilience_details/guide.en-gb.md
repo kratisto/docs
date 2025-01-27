@@ -1,7 +1,7 @@
 ---
 title: "Comparison and resilience of Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones"
 excerpt: "Explore OVHcloud's deployment modes"
-updated: 2025-01-10
+updated: 2025-01-27
 ---
 
 <style>
@@ -28,7 +28,7 @@ Additionally, we will highlight the real-world challenges users may face, such a
 
 ## Concepts
 
-What is an **AZ** ? 
+What is an **AZ** ?
 
 An Availability Zone (AZ) is a unit of infrastructure made up of one or more isolated or separate data centres located in a specific geographical region where public cloud services are hosted and operated.
 
@@ -56,7 +56,7 @@ Services and data are protected against localised incidents thanks to effective 
 
 ![1az_region_schema](images/1az_region_schema.png){.thumbnail}
 
-> [!info]
+> [!primary]
 >
 > In a 1AZ region, your instances or other resources can be distributed across several data centres within the same availability zone. This architecture allows you to benefit from local redundancy, while remaining in the same availability zone.
 
@@ -79,7 +79,7 @@ Services and data are protected against localised incidents thanks to effective 
 
 | Specification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Redundancy Type**   | Redundancy on the infrastructure side (power, network, and cooling). </br> Local data replication within the zone for resilience.                                        |
+| **Redundancy Type**   | Redundancy on the infrastructure side (power, network, and cooling).</br> Local data replication within the zone for resilience.                                        |
 | **Fault Tolerance**   | Protects against disk and server failures, but not against total data centre failure.           |
 | **Data protection** | Data replicated within the AZ to guarantee local resilience.                                    |
 | **Limits** | No inter-regional or inter-zone protection; dependent on a single AZ.                                    |
@@ -117,9 +117,9 @@ Architecture:
 
 > [!warning]
 >
-> Deploying instances in a 3AZ configuration requires manual intervention to configure each instance. Ensure that each instance is correctly configured in the respective availability zones to guarantee optimal distribution and redundancy.
+> Deploying instances in a 3AZ configuration requires a manual intervention to configure each instance. Ensure that each instance is correctly configured in the respective availability zones to guarantee optimal distribution and redundancy.
 
-Region 3-AZ consists of **three independent** and distinct availability zones, designed according to strict separation standards. Each zone has isolated power, cooling and network systems, guaranteeing true fault isolation. These zones are geographically distributed at an optimised distance (30 km) to prevent any impact of a regional disaster on several zones simultaneously.
+A 3-AZ region consists of **three independent** and distinct availability zones, designed according to strict separation standards. Each zone has isolated power, cooling and network systems, guaranteeing true fault isolation. These zones are geographically distributed at an optimised distance (30 km) to prevent any impact of a regional disaster on several zones simultaneously.
 
 This configuration ensures high availability of services, even in the event of the complete failure of an availability zone. Thanks to this separation, the architecture enables efficient replication of data and services between zones, while maintaining low latency to guarantee optimum application performance. So if one zone fails, the others continue to process traffic and maintain performance.
 
@@ -146,7 +146,7 @@ This configuration ensures high availability of services, even in the event of t
 | **Data protection** | Data replicated synchronously between zones to guarantee continuous availability. |
 | **Limits** | Does not protect against complete regional failure; requires multi-regional architecture for maximum resilience. |
 
-***inter-zone replication :**
+**Inter-zone replication:**
 
 In this architecture, resources are tripled (3N) and distributed between three distinct availability zones (AZ). Data can be replicated synchronously between zones, guaranteeing total resilience against the loss of an entire zone thanks to automatic failover. However, this architecture does not protect against a complete regional failure.
 
@@ -208,8 +208,6 @@ Each Local Zone operates as a single availability zone with a limited set of ser
 | **Fault tolerance**  | Guarantees continuity of operations in the event of a disk or server failure within the zone, but does not protect against a total failure of the availability zone. |
 | **Data protection**| Data replicated in the zone to guarantee local availability. |
 | **Limits**| No protection against global or regional failures, dependent on a single Local Zone. |
-
-<!-- schema -->
 
 #### Scaling
 
