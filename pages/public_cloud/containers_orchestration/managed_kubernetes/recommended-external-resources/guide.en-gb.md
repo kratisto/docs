@@ -1,9 +1,7 @@
 ---
 title: Recommended external resources for Kubernetes
-excerpt: ''
 updated: 2025-01-27
 ---
-# Recommended external resources for Kubernetes
 
 We list here some external resources that can help you to go further with Kubernetes.
 
