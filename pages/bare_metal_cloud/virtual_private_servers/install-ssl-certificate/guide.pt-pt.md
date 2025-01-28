@@ -140,7 +140,7 @@ Uma vez o certificado gerado, os ficheiros estão disponíveis em `/etc/letsencr
 ### Etapa 4 - Configure o seu servidor web <a name="step4"></a>
 
 > [!primary]
-> Se utilizou a solução automática (com os plugins Certbot) anteriormente ([Etapa 3](#step3)) e o seu website está acessível em `HTTPS`, passe diretamente para a[etapa 5](step5).
+> Se utilizou a solução automática (com os plugins Certbot) anteriormente ([Etapa 3](#step3)) e o seu website está acessível em `HTTPS`, passe diretamente para a [etapa 5](step5).
 
 #### Exemplo para Nginx
 
