@@ -51,7 +51,7 @@ Avant de poursuivre la lecture de ce guide, vous devez remplir les conditions su
 >> Pour les services ayant une fréquence de renouvellement automatique supérieure à 1 mois (3 mois, 6 mois, 12 mois), un rappel vous est également envoyé par e-mail le mois précédent la date de renouvellement automatique, récapitulant les services allant être renouvelés prochainement.
 >>Si vous ne souhaitez pas prolonger l'un de ces services, il vous suffit alors [de le résilier dans votre espace client](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services).
 >>
->> **Attention**, l'absence d'un moyen de paiement dans votre compte ne déclenche pas une résiliation automatique de vos services. Pour résilier des services, consultez notre guide « [Comment résilier vos services OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services) ».
+>> **Attention**, l'absence d'un moyen de paiement dans votre compte ne déclenche pas une résiliation automatique de vos services. Pour résilier des services, consultez notre guide « [Comment résilier vos services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services) ».
 >>
 > **Le renouvellement manuel**
 >>
@@ -144,7 +144,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 >> En choisissant cette action, le renouvellement et le prélèvement automatiques sont désactivés pour le service que vous avez sélectionné.
 >>
->> Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
+>> Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
 >>
 > **Renouveler le service**
 >>

@@ -1,7 +1,7 @@
 ---
 title: Come rinnovare i servizi OVHcloud
 excerpt: Scopri come gestire i tuoi servizi e i loro rinnovi nella tua area clienti OVHcloud.
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Obiettivo
@@ -124,6 +124,15 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >> È possibile rinnovare i servizi in qualsiasi momento prima della loro scadenza e scegliere la durata del rinnovo.
 >> In questo caso, il periodo di validità sottoscritto sarà aggiunto a quello in corso. Il periodo di validità rimanente non andrà perso.
 >>
+>> > [!success]
+>> >
+>> > Dall’interfaccia di pagamento online, se il servizio che vuoi rinnovare dispone di opzioni associate e vuoi anche rinnovarle, **non spuntare** il(i) pulsante(i) bianco(i) seguito(i) dalla dicitura `Non rinnovarlo` associato(i) a ciascuna delle opzioni visualizzate.
+>> > Se selezioni questo o questi pulsanti bianchi, richiedi il rinnovo del tuo servizio principale **SENZA** le eventuali opzioni associate.
+>> >
+>> > Una volta effettuate le scelte, prosegui cliccando su `Conferma`{.action}.
+>> >
+>> > Per informazione, il prezzo di alcune opzioni viene visualizzato solo quando viene generato il buono d'ordine di rinnovo.
+>>
 > **Disattivare il servizio**
 >>
 >> ![disattiva](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -132,7 +141,7 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 >> Selezionando questa azione, il rinnovo e l'addebito preautorizzato vengono disattivati per il servizio selezionato.
 >>
->> Per maggiori informazioni sulla disattivazione dei servizi OVHcloud, segui le istruzioni contenute nella guida **"[Come disattivare i servizi OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)"**.
+>> Per maggiori informazioni sulla disattivazione dei servizi OVHcloud, segui le istruzioni contenute nella guida **"[Come disattivare i servizi OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)"**.
 >>
 > **Rinnova il servizio**
 >>
@@ -142,6 +151,15 @@ A destra di un servizio, clicca sul pulsante `...`{.action} nella colonna `Azion
 >>
 >> Sarai reindirizzato verso un’interfaccia di pagamento online.
 >> È possibile rinnovare i servizi in qualsiasi momento prima della loro scadenza e scegliere la durata del rinnovo.
+>>
+>> > [!success]
+>> >
+>> > Dall’interfaccia di pagamento online, se il servizio che vuoi rinnovare dispone di opzioni associate e vuoi anche rinnovarle, **non spuntare** il(i) pulsante(i) bianco(i) seguito(i) dalla dicitura `Non rinnovarlo` associato(i) a ciascuna delle opzioni visualizzate.
+>> > Se selezioni questo o questi pulsanti bianchi, richiedi il rinnovo del tuo servizio principale **SENZA** le eventuali opzioni associate.
+>> >
+>> > Una volta effettuate le scelte, prosegui cliccando su `Conferma`{.action}.
+>> >
+>> > Per informazione, il prezzo di alcune opzioni viene visualizzato solo quando viene generato il buono d'ordine di rinnovo.
 >>
 > **Paga la tua fattura**
 >>

@@ -1,7 +1,7 @@
 ---
 title: Wie verlängere ich meine OVHcloud Dienste?
 excerpt: Erfahren Sie hier, wie Sie Ihre Dienstleistungen und deren Verlängerung in Ihrem Kundencenter verwalten
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Ziel
@@ -124,6 +124,15 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >> Sie können diese Dienste jederzeit vor ihrem Ablaufdatum verlängern und die Dauer ihrer Verlängerung auswählen.
 >> In diesem Fall wird die abonnierte Laufzeit der Gültigkeitsdauer hinzugefügt. Sie verlieren die verbleibende Laufzeit nicht.
 >>
+>> > [!success]
+>> >
+>> > Wenn der Dienst, den Sie verlängern möchten, über zugehörige Optionen verfügt und Sie diese auch verlängern möchten, setzen Sie im Interface für die Online-Zahlung **kein Häkchen bei** der weißen Schaltfläche(n), gefolgt von der Erklärung `Nicht verlängern` für jede der angezeigten Optionen.
+>> > Wenn Sie dieses/diese weiße(n) Kästchen ankreuzen, beantragen Sie die Verlängerung Ihres Hauptdienstes **OHNE** die damit verbundenen Optionen.
+>> >
+>> > Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf `Bestätigen`{.action}.
+>> >
+>> > Zur Information: Die Preise für einige Optionen werden erst angezeigt, wenn der Verlängerungsauftrag erstellt wurde.
+>>
 > **Meinen Dienst kündigen**
 >>
 >>![Kündigen](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -142,6 +151,15 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 >> Sie werden auf ein Zahlungsformular weitergeleitet.
 >> Sie können diese Dienste jederzeit vor ihrem Ablaufdatum verlängern und die Dauer ihrer Verlängerung auswählen.
+>>
+>> > [!success]
+>> >
+>> > Wenn der Dienst, den Sie verlängern möchten, über zugehörige Optionen verfügt und Sie diese auch verlängern möchten, setzen Sie im Interface für die Online-Zahlung **kein Häkchen bei** der weißen Schaltfläche(n), gefolgt von der Erklärung `Nicht verlängern` für jede der angezeigten Optionen.
+>> > Wenn Sie dieses/diese weiße(n) Kästchen ankreuzen, beantragen Sie die Verlängerung Ihres Hauptdienstes **OHNE** die damit verbundenen Optionen.
+>> >
+>> > Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf `Bestätigen`{.action}.
+>> >
+>> > Zur Information: Die Preise für einige Optionen werden erst angezeigt, wenn der Verlängerungsauftrag erstellt wurde.
 >>
 > **Meine Rechnung bezahlen**
 >>

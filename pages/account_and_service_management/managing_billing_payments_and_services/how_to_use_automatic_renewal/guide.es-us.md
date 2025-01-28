@@ -1,7 +1,7 @@
 ---
 title: Gestionar la renovación de los servicios
 excerpt: Descubra cómo gestionar la renovación de los servicios de OVHcloud desde el área de cliente
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Objetivo
@@ -49,7 +49,7 @@ Antes de continuar leyendo esta guía, debe cumplir los siguientes requisitos:
 >> Para los servicios con una frecuencia de renovación automática superior a 1 mes (3 meses, 6 meses, 12 meses), el mes anterior a la fecha de renovación automática le enviaremos un recordatorio por correo electrónico, en el que se indicarán los servicios que van a renovarse próximamente.
 >>Si no desea prolongar alguno de estos servicios, solo tiene que [darlo de baja en su área de cliente](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services).
 >>
->> **Atención**: la ausencia de una forma de pago en su cuenta no activa la baja automática de sus servicios. Para dar de baja servicios, consulte nuestra guía "[Cómo dar de baja los servicios de OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)".
+>> **Atención**: la ausencia de una forma de pago en su cuenta no activa la baja automática de sus servicios. Para dar de baja servicios, consulte nuestra guía "[Cómo dar de baja los servicios de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)".
 >>
 > **Renovación manual**
 >>
@@ -124,6 +124,15 @@ A la derecha de un servicio, haga clic en el botón `...`{.action} en la columna
 >> Puede renovar estos servicios en cualquier momento antes de su expiración, así como elegir la duración de su renovación.
 >> En este caso, el período de validez contratado se sumará al tiempo de validez en curso. No perderá el tiempo de validez restante.
 >>
+>> > [!success]
+>> >
+>> > Una vez en la interfaz de pago online, si el servicio que desea renovar dispone de opciones asociadas y desea renovarlas, **no marque** el botón o los botones blancos seguidos de la indicación `No renovarlo` asociada a cada una de las opciones mostradas.
+>> > Si marca este botón(s) blanco(s), deberá renovar su servicio principal **SIN** con las opciones asociadas.
+>> >
+>> > Una vez que haya elegido el tipo de pedido, haga clic en `Aceptar`{.action}.
+>> >
+>> > Para su información, el precio de algunas opciones no aparece hasta que se genera la orden de pedido de renovación.
+>>
 > **Dar de baja mi servicio**
 >>
 >> ![dar de baja](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -132,7 +141,7 @@ A la derecha de un servicio, haga clic en el botón `...`{.action} en la columna
 >>
 >> Al elegir esta acción, se desactivan la renovación y el cargo automáticos para el servicio seleccionado.
 >>
->> Para más información sobre la baja de los servicios de OVHcloud, siga las instrucciones de la guía "**[Cómo dar de baja los servicios de OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**".
+>> Para más información sobre la baja de los servicios de OVHcloud, siga las instrucciones de la guía "**[Cómo dar de baja los servicios de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**".
 >>
 > **Renovar el servicio**
 >>
@@ -142,6 +151,15 @@ A la derecha de un servicio, haga clic en el botón `...`{.action} en la columna
 >>
 >> Será redirigido a una interfaz de pago online.
 >> Puede renovar estos servicios en cualquier momento antes de su expiración, así como elegir la duración de su renovación.
+>>
+>> > [!success]
+>> >
+>> > Una vez en la interfaz de pago online, si el servicio que desea renovar dispone de opciones asociadas y desea renovarlas, **no marque** el botón o los botones blancos seguidos de la indicación `No renovarlo` asociada a cada una de las opciones mostradas.
+>> > Si marca este botón(s) blanco(s), deberá renovar su servicio principal **SIN** con las opciones asociadas.
+>> >
+>> > Una vez que haya elegido el tipo de pedido, haga clic en `Aceptar`{.action}.
+>> >
+>> > Para su información, el precio de algunas opciones no aparece hasta que se genera la orden de pedido de renovación.
 >>
 > **Abonar mi factura**
 >>
