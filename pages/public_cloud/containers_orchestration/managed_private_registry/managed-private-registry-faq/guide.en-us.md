@@ -1,6 +1,6 @@
 ---
 title: 'FAQ Managed Private Registry (Harbor)'
-updated: 2024-04-17
+updated: 2025-01-28
 ---
 
 ## Objective

@@ -948,7 +948,6 @@
                 + [Connecting to the UI](public_cloud/containers_orchestration/managed_private_registry/connecting-to-the-ui)
                 + [Managing users and projects](public_cloud/containers_orchestration/managed_private_registry/managing-users-and-projects)
                 + [FAQ](public_cloud/containers_orchestration/managed_private_registry/managed-private-registry-faq)
-                + [End Of Life (EOL) Harbor 1.x - How to replicate and migrate your data to Harbor 2.x](public_cloud/containers_orchestration/managed_private_registry/eol-harbor-1.x)
                 + [Managed Private Registry - Responsibility model](public_cloud/containers_orchestration/managed_private_registry/responsibility-model)
             + [Tutorials](public-cloud-containers-orchestration-managed-private-registry-tutorials)
                 + [Creating and using a Docker image stored in an OVHcloud Managed Private Registry](public_cloud/containers_orchestration/managed_private_registry/creating-and-using-a-private-image)
