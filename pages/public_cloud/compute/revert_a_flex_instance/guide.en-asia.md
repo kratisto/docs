@@ -56,7 +56,7 @@ Use this section to manage the **Disk Partition** and **Server Group**.
 
 To proceed, click on the `Resize`{.action} button.
 
-Once the process is completed, your instance will be reverted to a classic model with a larger storage space.
+Once the process is complete, your instance will be reverted to the selected model. In our case, our instance was reverted to a classic model with more storage space.
 
 ![New flavor applied](images/newflavor.png){.thumbnail}
 
