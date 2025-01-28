@@ -1,7 +1,7 @@
 ---
 title: "Automatiser le déploiement de votre site web sur votre VPS via GitLab CI/CD"
 excerpt: "Découvrez comment déployer et automatiser le code de votre site web via GitLab CI/CD sur un VPS OVHcloud"
-updated: 2025-01-29
+updated: 2025-01-28
 ---
 
 ## Objectif
@@ -19,13 +19,13 @@ Automatiser le déploiement de votre site web sur un VPS simplifie considérable
 - Disposer d'un accès administrateur au VPS (via SSH)
 - Le paquet `rsync` installé sur le VPS (nécessaire pour la synchronisation des fichiers)
 
+> [!primary]
+> Afin d'être sûr de remplir les prérequis, consultez les guides « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) » et « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».   
+
 > [!warning]
 > Si besoin, consultez notre guide « [Débuter avec un VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps) » avant de poursuivre la lecture de ce guide.
 
 ## En pratique
-
-> [!primary]
-> Afin d'être sûr de remplir les prérequis, consultez les guides « [Installer un environnement de développement web sur un VPS ou un serveur dédié](/pages/bare_metal_cloud/virtual_private_servers/install_env_web_dev_on_vps) » et « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
 
 **Sommaire :**
 
