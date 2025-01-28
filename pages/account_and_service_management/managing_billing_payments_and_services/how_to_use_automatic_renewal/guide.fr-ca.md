@@ -1,7 +1,7 @@
 ---
 title: Gérer le renouvellement de mes services
 excerpt: Apprenez à gérer le renouvellement de vos services OVHcloud dans votre espace client
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Objectif
@@ -127,6 +127,15 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >> Vous pouvez renouveler ces services à tout moment avant leur expiration, ainsi que choisir la durée de leur renouvellement.
 >> Dans ce cas, la durée de validité souscrite sera rajoutée au temps de validité en cours. Vous ne perdrez pas le temps de validité restant.
 >>
+>> > [!success]
+>> >
+>> > Une fois sur l'interface de paiement en ligne, si le service que vous souhaitez renouveler dispose d'options associées et que vous souhaitez également les renouveler, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
+>> > Si vous cochez ce(s) bouton(s) blanc(s), vous sollicitez alors le renouvellement de votre service principal **SANS** ses éventuelles options associées.
+>> >
+>> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur `Valider`{.action}.
+>> >
+>> > Pour information, la tarification de certaines options ne s'affiche que lorsque le bon de commande de renouvellement est généré.
+>>
 > **Résilier mon service**
 >>
 >> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-fr.png){.thumbnail}
@@ -145,6 +154,15 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 >> Vous serez alors redirigé vers une interface de paiement en ligne.
 >> Vous pouvez renouveler ces services à tout moment avant leur expiration, ainsi que choisir la durée de leur renouvellement.
+>>
+>> > [!success]
+>> >
+>> > Une fois sur l'interface de paiement en ligne, si le service que vous souhaitez renouveler dispose d'options associées et que vous souhaitez également les renouveler, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
+>> > Si vous cochez ce(s) bouton(s) blanc(s), vous sollicitez alors le renouvellement de votre service principal **SANS** ses éventuelles options associées.
+>> >
+>> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur `Valider`{.action}.
+>> >
+>> > Pour information, la tarification de certaines options ne s'affiche que lorsque le bon de commande de renouvellement est généré.
 >>
 > **Régler ma facture**
 >>

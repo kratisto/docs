@@ -157,10 +157,10 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 >> > [!success]
 >> >
->> > Sur l'interface de paiement en ligne et si le service que vous souhaitez renouveler dispose d'options associées à renouveler en même temps, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
->> > Effectivement, si vous cochez ce(s) bouton(s) blanc(s), vous indiquez ne pas vouloir renouveler le (les) option(s) proposée(s) en même temps que le service que vous souhaitez renouveler.
+>> > Une fois sur l'interface de paiement en ligne, si le service que vous souhaitez renouveler dispose d'options associées et que vous souhaitez également les renouveler, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
+>> > Si vous cochez ce(s) bouton(s) blanc(s), vous sollicitez alors le renouvellement de votre service principal **SANS** ses éventuelles options associées.
 >> >
->> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur "Valider".
+>> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur `Valider`{.action}.
 >> >
 >> > Pour information, la tarification de certaines options ne s'affiche que lorsque le bon de commande de renouvellement est généré.
 >>
