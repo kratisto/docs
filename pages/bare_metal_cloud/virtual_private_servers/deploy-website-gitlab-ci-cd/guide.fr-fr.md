@@ -78,7 +78,6 @@ chmod 600 /home/<user>/.ssh/authorized_keys
 
 3\. Testez la connexion SSH avec la clé privée pour confirmer que l'accès est fonctionnel :
 
-Testez la connexion SSH avec la clé privée pour confirmer que l'accès est fonctionnel :
 
 ```bash
 ssh -i /home/<user>/.ssh/deploy_key <user>@<VPS_IP>
