@@ -127,7 +127,7 @@ A la derecha de un servicio, haga clic en el botón `...`{.action} en la columna
 >> > [!success]
 >> >
 >> > Una vez en la interfaz de pago online, si el servicio que desea renovar dispone de opciones asociadas y desea renovarlas, **no marque** el botón o los botones blancos seguidos de la indicación `No renovarlo` asociada a cada una de las opciones mostradas.
->> > Si marca este botón(s) blanco(s), deberá renovar su servicio principal **SIN** con las opciones asociadas.
+>> > Si marca estos botones blancos, solicitará la renovación del servicio principal **SIN** las opciones asociadas.
 >> >
 >> > Una vez que haya elegido el tipo de pedido, haga clic en `Aceptar`{.action}.
 >> >
