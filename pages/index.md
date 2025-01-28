@@ -271,6 +271,7 @@
             + [How to install WordPress with WP-CLI on a VPS or a dedicated server](bare_metal_cloud/virtual_private_servers/install_wordpress_site_on_vps)
             + [How to migrate a website from a VPS to a Dedicated Server or a Public Cloud instance](bare_metal_cloud/virtual_private_servers/migrate-to-pci-or-dedicated-server)
             + [Automating the deployment of your website on your VPS via GitHub Actions](bare_metal_cloud/virtual_private_servers/deploy-website-github-actions)
+            + [Automating the deployment of your website on your VPS via GitLab CI/CD](bare_metal_cloud/virtual_private_servers/deploy-website-gitlab-ci-cd)
     + [Managed Bare Metal](products/bare-metal-cloud-managed-bare-metal)
         + [OVHcloud services and options](bare-metal-cloud-managed-bare-metal-ovhcloud-services-and-options)
             + [Setting up a VPN for OVHcloud Zerto DRP](bare_metal_cloud/managed_bare_metal/zerto-virtual-replication-customer-to-ovhcloud)
