@@ -52,17 +52,17 @@ Click on the tabs below to view each of the **3** steps in succession.
 >>
 > **Step 2**
 >>
->> Click the `Hosting plans`{.action} dropdown menu, then select the Web Hosting plan concerned.
+>> Click the `Hosting plans`{.action} dropdown menu, then select the web hosting plan concerned.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
 > **Step 3**
 >>
->> In the **General information** box, you will see the comment **IPv6**.
+>> In the **General information** box, you will see the address under **IPv6**.
 >>
 >> ![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv6.png){.thumbnail}
 >>
->> Copy the IP address, then continue reading the guide.
+>> Copy the IPv6 address, then continue reading the guide.
 
 ### 3 - Configure your domain name’s active DNS zone
 
