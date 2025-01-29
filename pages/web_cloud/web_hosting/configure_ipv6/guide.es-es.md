@@ -61,7 +61,7 @@ Haga clic en las fichas siguientes para ver cada uno de los **3** etapas.
 >>> En el cuadro **Información general**, encontrará la mención **IPv6**.
 >>>
 >> ![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv6.png){.thumbnail}
->>>
+>>
 >> Copie la dirección IP y siga leyendo esta guía.
 
 ### 3 - configurar la zona DNS activa de su dominio
