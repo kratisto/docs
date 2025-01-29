@@ -61,7 +61,7 @@ Dans l’interface de gestion de l’instance, sélectionnez l'option souhaitée
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface : cette option permet d'ajouter une ou plusieurs interfaces privées à votre instance via le VLAN. Pour plus d'informations, consultez [cette partie](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#ajout-dune-interface-privee) du guide correspondant.
-- Detach Interface : cette option permet de supprimer une interface liée à une instance. Pour plus d'informations, consultez [cette partie](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#suppression-dune-interface-privee) du guide correspondant.
+- Detach Interface : cette option permet de détacher une interface liée à une instance. Pour plus d'informations, consultez [cette partie](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#suppression-dune-interface-privee) du guide correspondant.
 - Edit Instance : cette option permet de changer le nom de l'instance et les [groupes de sécurité](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
@@ -83,50 +83,7 @@ Grâce au Public Cloud, vous pouvez augmenter les ressources dont votre instance
 > Les instances de type *flex* permettent le redimensionnement vers les modèles supérieurs ou inférieurs grâce à une taille de disque unique.
 > 
 
-Sélectionnez `Resize Instance`{.action} dans le menu déroulant à droite de l'instance concernée.
-
-![Resize instance](images/resizeinstance2022.png){.thumbnail}
-
-* Choix du gabarit (*Flavor Choice*) : cette section indique le gabarit actuel (*old flavor*) et vous permet de sélectionner un nouveau gabarit (*new flavor*) pour la ressource de l'instance.
-
-![public-cloud](images/flavorchoice.png){.thumbnail}
-
-* Détails de gabarit (*Flavor Details*). Dans cette section s'affichent les ressources associées au gabarit choisi. 
-* Limites de Projet (*Project Limits*). Visionnez ici les ressources occupées par rapport aux ressources totales allouées au projet.
-
-> [!warning]
-> Veuillez noter que vous pouvez uniquement redimensionner une instance d'un modèle Linux à un autre modèle Linux et d'un modèle Windows à un autre modèle Windows.
->
-
-* Options avancées (*Advanced Options*). Cette section permet de gérer le partitionnement du disque (*Disk Partition*) et le groupe de serveurs (*Server Group*).
-
-![public-cloud](images/resize_advanced.png){.thumbnail}
-
-Une fois la configuration terminée, cliquez sur `Resize`{.action}.
-
-**Redimensionnement du disque sous Windows**
-
-Attention, lors d'un redimensionnement pour une Instance Windows, la taille de la partition n'est pas automatiquement mise à jour, il faudra donc étendre celle ci en utilisant le **gestionnaire de disque**  :
-
-Faites un clic-droit sur le menu `Démarrer`{.action} et lancez le gestionnaire de disque en cliquant sur `Gestion du disque`{.action}.
-
-![public-cloud](images/2980.png){.thumbnail}
-
-Faites un clic-droit sur la partition principale, puis cliquez sur `Étendre le volume`{.action}.
-
-![public-cloud](images/2981a.png){.thumbnail}
-
-Cliquez sur `Suivant`{.action} pour accéder à « l'Assitant Extension du volume ». Choisissez les ressources du disque à étendre et cliquez sur `Suivant`{.action}. 
-
-![public-cloud](images/2978a.png){.thumbnail}
-
-Cliquez ensuite sur `Terminer`{.action} pour valider votre choix.
-
-![public-cloud](images/wizard2021.png){.thumbnail}
-
-La nouvelle taille du disque sera alors affichée dans le gestionnaire de disque.
-
-![public-cloud](images/2979.png){.thumbnail}
+Pour des instructions détaillées, consultez le guide suivant : [Redimensionner une instance via Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Reconstruire une instance
 
@@ -197,6 +154,7 @@ Si vous n’avez plus besoin de l’une de vos instances, vous pouvez à tout mo
 > Les données présentes sur l'instance seront supprimées.
 > Vous pouvez également créer une sauvegarde de cette instance si vous souhaitez conserver les données et relancer une instance identique ultérieurement.
 > 
+> La suppression d'une instance ne supprime pas automatiquement toutes les options qui lui sont associées (storage, snapshot, backup, etc...), assurez-vous que toutes les autres options associées à l'instance sont également supprimées pour arrêter d'être facturé.
 
 Dans la liste déroulante correspondant à l'instance, sélectionnez `Delete Instance`{.action}. 
 
