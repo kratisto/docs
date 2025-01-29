@@ -29,8 +29,7 @@ Unsere Webhostings sind seit 2011 mit IPv6 kompatibel, doch die Aktivierung dies
 > [!warning]
 > OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für deren Konfiguration und Verwaltung Sie die alleinige Verantwortung tragen. Es liegt somit bei Ihnen, sicherzustellen, dass diese ordnungsgemäß funktionieren.
 > 
-> Diese Anleitung soll Sie bei allgemeinen Aufgaben bestmöglich unterstützen. Wenn Sie Schwierigkeiten haben, empfehlen wir Ihnen, einen [spezialisierten Dienstleister](/links/partner) und/oder den Herausgeber der Dienstleistung zu kontaktieren. Leider können wir Ihnen für administrative Aufgaben keine weitergehende technische Unterstützung anbieten. Weitere Informationen finden Sie am [Ende dieser Anleitung](#go-further).
->
+> Diese Anleitung soll Sie bei allgemeinen Aufgaben bestmöglich unterstützen. Wir empfehlen Ihnen jedoch, bei Schwierigkeiten einen [spezialisierten Dienstleister](/links/partner) oder den Herausgeber des Dienstes zu kontaktieren. Für externe Dienstleistungen bieten wir leider keine Unterstützung. Weitere Informationen finden Sie am [Ende dieser Anleitung](#go-further).
 
 Wenn Ihre Website nicht bereits mit IPv6 funktioniert, können Sie die [IPv6-Adresse Ihres OVHcloud Webhostings](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) der aktiven DNS-Zone Ihres Domainnamens hinzufügen. Ziel ist es, dass Webbrowser eine IPv6-Adresse finden, die mit Ihrer Website über Ihren Domainnamen verknüpft ist.
 
@@ -57,11 +56,11 @@ Klicken Sie auf die Tabs, um die **3** Schritte anzuzeigen.
 >>
 > **Schritt 3**
 >>
->> Im Feld **Allgemeine Informationen** finden Sie den Vermerk **IPv6**.
+>> Im Feld **Allgemeine Informationen** finden Sie die Adresse unter **IPv6**.
 >>
 >> ![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv6.png){.thumbnail}
 >>
->> Kopieren Sie die IP-Adresse und lesen Sie die Anleitung weiter.
+>> Kopieren Sie die IPv6-Adresse und folgen Sie der Anleitung weiter.
 
 ### 3 - DNS-Zone Ihres Domainnamens konfigurieren
 
