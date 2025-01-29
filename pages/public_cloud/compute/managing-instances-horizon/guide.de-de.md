@@ -65,7 +65,7 @@ Wählen Sie im Verwaltungsinterface der Instanz die gewünschte Option aus der D
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: Mit dieser Option können Sie über das VLAN eine oder mehrere private Interfaces zu Ihrer Instanz hinzufügen. Weitere Informationen finden Sie in [diesem Abschnitt](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#ein-privates-interface-hinzufugen) der vRack-Anleitung.
-- Detach Interface: Mit dieser Option ermöglicht das Lösen einer Schnittstelle, die mit einer Instanz verbunden ist. Weitere Informationen finden Sie in [diesem Abschnitt](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#loschung-eines-interfaces) der vRack-Anleitung.
+- Detach Interface: Diese Option ermöglicht das Abtrennen einer Schnittstelle, die mit einer Instanz verbunden ist. Weitere Informationen finden Sie in [diesem Abschnitt](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#loschung-eines-interfaces) der vRack-Anleitung.
 - Edit Instance: Mit dieser Option können Sie den Namen der Instanz und die [Sicherheitsgruppen ändern](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
@@ -87,7 +87,7 @@ Mit der Public Cloud können Sie die Ressourcen Ihrer Instanz mit nur wenigen Kl
 > *Flex*-Instanzen erlauben die Anpassung auf höhere oder niedrigere Modelle aufgrund einer festen Größe einer einzelnen Disk.
 > 
 
-Ausführliche Anleitungen finden Sie in der folgenden Anleitung: [Änderung der Größe einer Instanz mit Horizon](/pages/public_cloud/compute/resize_of_an_instance).
+Ausführliche Informationen finden Sie in der folgenden Anleitung: [Änderung der Größe einer Instanz mit Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Instanz rekonstruieren
 

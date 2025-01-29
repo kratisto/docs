@@ -67,7 +67,7 @@ Nell'interfaccia di gestione dell'istanza, seleziona l'opzione che preferisci ne
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: questa opzione permette di aggiungere una o più interfacce private alla tua istanza tramite la VLAN. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#aggiunta-di-uninterfaccia-privata) della guida.
-- Detach Interface: questa opzione si usa per staccare un'interfaccia collegata a un'istanza. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#elimina-uninterfaccia-privata) della guida.
+- Detach Interface: questa opzione si usa per staccare un'interfaccia associata a un'istanza. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#elimina-uninterfaccia-privata) della guida.
 - Edit Instance: questa opzione permette di modificare il nome dell'istanza e i [gruppi di sicurezza](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]

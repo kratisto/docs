@@ -81,7 +81,7 @@ With the Public Cloud, you can increase the resources your instance has with jus
 > Flex instances allow resizing to higher or lower models due to a locked single disk size.
 > 
 
-For detailed instructions, consult the following guide: (Resize an instance via Horizon)[/pages/public_cloud/compute/resize_of_an_instance].
+For detailed instructions, consult the following guide: [Resize an instance via Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Rebuild an instance
 

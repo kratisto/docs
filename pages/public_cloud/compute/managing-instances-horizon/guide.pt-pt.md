@@ -65,7 +65,7 @@ Na interface de gestão da instância, selecione a opção desejada na lista pen
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: esta opção permite adicionar uma ou várias interfaces privadas à sua instância através da VLAN. Para mais informações, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#adicao-de-uma-interface-privada) do guia correspondente.
-- Detach Interface: esta opção é utilizada para separar uma interface ligada a uma instância. Para mais informações, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#eliminacao-de-uma-interface-privada) do guia correspondente.
+- Detach Interface: esta opção é utilizada para separar uma interface associada a uma instância. Para mais informações, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#eliminacao-de-uma-interface-privada) do guia correspondente.
 - Edit Instance: esta opção permite alterar o nome da instância e os [grupos de segurança](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
