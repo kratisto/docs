@@ -120,10 +120,10 @@ Select the tab that corresponds to your choice:
 >>
 >> To configure your DNS zone, select one of the following two options:
 >>
->> - **Recommended configuration** : your DNS zone will be configured automatically. This option is suitable if you have not configured an email solution on your domain name.
->> - **Custom configuration** : if you have already configured an email solution on your domain name, you can choose the elements that interest you.
->>    - *Configure the MX record automatically* : this allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
->>    - *Configure the SPF record automatically* : this allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
+>> - **Recommended configuration**: Your DNS zone will be configured automatically. This option is suitable if you have not configured an email solution on your domain name.
+>> - **Custom configuration**: If you have already configured an email solution on your domain name, you can choose the elements that interest you.
+>>    - *Configure the MX record automatically*: This allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
+>>    - *Configure the SPF record automatically*: This allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
