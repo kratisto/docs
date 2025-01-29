@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec l'offre Zimbra"
 excerpt: "Découvrez comment débuter avec votre offre Zimbra depuis votre espace client OVHcloud"
-updated: 2025-01-28
+updated: 2025-01-29
 ---
 
 <style>
@@ -127,7 +127,7 @@ Sélectionnez l'onglet correspondant à votre choix :
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
->> >> Cliquez sur `Confirmer`{.action} pour finaliser l'ajout de votre domaine et lancer le processus de configuration.
+>> Cliquez sur `Confirmer`{.action} pour finaliser l'ajout de votre domaine et lancer le processus de configuration.
 >>
 > **Domaine externe**
 >>

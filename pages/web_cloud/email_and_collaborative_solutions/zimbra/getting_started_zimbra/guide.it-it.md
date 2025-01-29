@@ -1,7 +1,7 @@
 ---
 title: "Per iniziare con l'offerta Zimbra"
 excerpt: "Scopri come iniziare a utilizzare la soluzione Zimbra dallo Spazio Cliente OVHcloud"
-updated: 2024-10-10
+updated: 2025-01-29
 ---
 
 <style>
@@ -12,10 +12,6 @@ updated: 2024-10-10
   max-height:400px !important;
 }
 </style>
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 > [!warning]
 >
@@ -77,8 +73,10 @@ Per creare un’organizzazione, clicca su `Aggiungi un’organizzazione`{.action
 
 #### Filtra per organizzazione
 
-Accedendo alle schede `Organizzazione`{.action}, `Dominio`{.action} e `Account email`{.action}, clicca sull’etichetta di un’organizzazione per creare un filtro che mostri solo gli elementi associati all’organizzazione.<br>
-Il filtro viene applicato quando l'etichetta viene visualizzata accanto al nome del servizio Zimbra.<br>
+Accedendo alle schede `Organizzazione`{.action}, `Dominio`{.action} e `Account email`{.action}, clicca sull’etichetta di un’organizzazione per creare un filtro che mostri solo gli elementi associati all’organizzazione.
+
+Il filtro viene applicato quando l'etichetta viene visualizzata accanto al nome del servizio Zimbra.
+
 Per rimuovere il filtro, fare semplicemente clic sulla croce del filtro.
 
 ![zimbra](images/zimbra_organization_filter.png){.thumbnail .w-400}
@@ -100,11 +98,52 @@ Nella tabella dei domini trovi due informazioni :
 
 #### Aggiungi un dominio
 
+> [!warning]
+>
+> È necessario [creare un'organizzazione](#organisations) per poter aggiungere un dominio al servizio Zimbra.
+
 Per aggiungere un dominio al servizio Zimbra, clicca sulla scheda `Dominio`{.action} e poi su `Aggiungi un dominio`{.action}.
 
-Seleziona un'organizzazione dal menu a tendina e seleziona un dominio dall'elenco (è necessario che i domini siano gestiti nello Spazio Cliente OVHcloud). Clicca su `Conferma`{.action} per aggiungere il dominio.
+Selezionare un'organizzazione dal menu a discesa, quindi selezionare una delle due opzioni seguenti:
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Seleziona un dominio dalla lista** (dominio interno): in questa lista, trovi i domini che gestisci dal tuo Spazio Cliente OVHcloud.
+- **Inserisci un dominio non gestito dal tuo account OVHcloud** (dominio esterno): inserisci un dominio non gestito dallo Spazio Cliente OVHcloud o registrato presso un altro Registrar di cui hai la gestione.
+
+Seleziona la scheda che preferisci:
+
+> [!tabs]
+> **Dominio interno**
+>>
+>> Seleziona dalla lista un dominio gestito dallo Spazio Cliente OVHcloud.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> Per configurare la zona DNS, seleziona una delle due opzioni seguenti:
+>>
+>> - **Configurazione consigliata**: la zona DNS verrà configurata automaticamente. Questa opzione è perfetta se non hai configurato un’offerta email sul tuo dominio.
+>> - **Configurazione personalizzata** : se hai già configurato un'offerta email sul tuo dominio, puoi scegliere gli elementi che ti interessano.
+>>    - *Configurare la registrazione MX automaticamente*: permette di inserire automaticamente i server di posta in arrivo di OVHcloud (si applica a tutte le soluzioni di posta elettronica OVHcloud).
+>>    - *Configurare il record SPF automaticamente* : questa opzione permette di inserire automaticamente il record che autorizza i server di posta elettronica di invio OVHcloud a trasmettere le email. Questo record è valido per tutte le soluzioni di posta elettronica OVHcloud.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Clicca su `Conferma`{.action} per completare l’aggiunta del dominio e avviare il processo di configurazione.
+>>
+> **Dominio esterno**
+>>
+>> Inserisci un dominio non gestito nel tuo Spazio Cliente. Assicurati di avere gli accessi necessari per modificare la zona DNS del dominio in questione.
+>>
+>> Clicca su `Conferma`{.action}
+>>
+>> ![zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> Visualizzi la finestra qui sotto. Inserisci questo record CNAME nella zona DNS del dominio perché venga convalidato sulla piattaforma Zimbra.
+>>
+>> ![zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>> >
+>> > Dopo 48 ore, se il CNAME non è visibile nella zona DNS, l'operazione è annullata. In questo caso, sarà necessario ripetere l’operazione.
 
 ### Account email <a name="emails"></a>
 
@@ -133,7 +172,7 @@ Inserisci le informazioni richieste.
 > - Minimo 2 caratteri
 > - Massimo 32 caratteri
 > - Nessun carattere accentato
-> - Nessun carattere speciale eccetto i seguenti : `.`, `,`, `-` e `_`
+> - Nessun carattere speciale eccetto i seguenti : `.`, `+`, `-` e `_`
 
 - **Nome** : inserisci un nome.
 - **Cognome** : inserisci un nome.
