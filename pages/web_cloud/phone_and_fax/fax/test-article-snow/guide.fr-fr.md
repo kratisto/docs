@@ -1,7 +1,7 @@
 ---
 title: Test article for ServiceNow images loading issue
 flag: hidden
-updated: 2025-01-23
+updated: 2025-01-29
 ---
 
 This article's purpose is to show the main images loading issue currently experienced on the OVHcloud Help Centre.
@@ -37,3 +37,35 @@ This article's purpose is to show the main images loading issue currently experi
 ## Image 8
 
 ![filtrage fax](images/regles_filtrage.png){.thumbnail}
+
+## Image 9
+
+![gestion répondeur](images/gestion-repondeur.png){.thumbnail}
+
+## Image 10
+
+![activer répondeur](images/activer-desactiver-repondeur.jpg){.thumbnail}
+
+## Image 11
+
+![mot de passe](images/mot-de-passe-repondeur.jpg){.thumbnail}
+
+## Image 12
+
+![notifications](images/configuration-repondeur.png){.thumbnail}
+
+## Image 13
+
+![ecoute messages](images/messages.jpg){.thumbnail}
+
+## Image 14
+
+![fax-par-mail](images/mail2fax.png){.thumbnail}
+
+## Image 15
+
+![campagne fax](images/01campagne-fax2022.png){.thumbnail}
+
+## Image 16
+
+![campagne fax](images/02campagne-fax.png){.thumbnail}
