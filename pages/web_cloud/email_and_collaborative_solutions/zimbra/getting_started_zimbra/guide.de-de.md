@@ -100,16 +100,16 @@ Die Tabelle der Domainnamen enthält zwei Informationen:
 
 > [!warning]
 >
-> Um eine Domain zu Ihrer Zimbra Dienstleistung hinzuzufügen, müssen Sie [Organisation erstellen](#organisations) registrieren.
+> Um eine Domain zu Ihrer Zimbra Dienstleistung hinzuzufügen, müssen Sie eine [Organisation erstellen](#organisations).
 
 Um eine Domain zu Ihrer Zimbra Dienstleistung hinzuzufügen, klicken Sie auf `Domain`{.action} und dann auf `Domain hinzufügen`{.action}.
 
 Wählen Sie im Dropdown-Menü eine Organisation aus, und wählen Sie dann eine der folgenden Optionen aus:
 
-- **Domain in der Liste auswählen** (Interne Domain): In dieser Liste finden Sie die Domainnamen, die Sie über Ihr OVHcloud Kundencenter verwalten.
-- **Einen Domain angeben, die nicht in Ihrem OVHcloud Account verwaltet wird** (externe Domain) : Geben Sie einen Domainnamen ein, der nicht in Ihrem OVHcloud Kundencenter verwaltet wird oder der bei einem anderen Registrar registriert ist und von Ihnen verwaltet wird.
+- **Domain in der Liste auswählen** (interne Domain): In dieser Liste finden Sie die Domainnamen, die Sie über Ihr OVHcloud Kundencenter verwalten.
+- **Eine Domain angeben, die nicht in Ihrem OVHcloud Account verwaltet wird** (externe Domain): Geben Sie einen Domainnamen ein, der nicht in Ihrem OVHcloud Kundencenter verwaltet wird oder der bei einem anderen Registrar registriert ist und von Ihnen verwaltet wird.
 
-Wählen Sie die gewünschte Registerkarte aus:
+Wählen Sie den betreffenden Tab aus:
 
 > [!tabs]
 > **Interne Domain**
@@ -121,9 +121,9 @@ Wählen Sie die gewünschte Registerkarte aus:
 >> Wählen Sie eine der folgenden Optionen aus, um Ihre DNS-Zone zu konfigurieren:
 >>
 >> - **Empfohlene Konfiguration**: Ihre DNS-Zone wird automatisch konfiguriert. Diese Option eignet sich, wenn Sie für Ihre Domain kein E-Mail-Angebot eingerichtet haben.
->> - **Benutzerdefinierte Konfiguration**: Wenn Sie bereits ein E-Mail-Angebot für Ihre Domain eingerichtet haben, können Sie die Elemente auswählen, die Sie interessieren.
+>> - **Benutzerdefinierte Konfiguration**: Wenn Sie bereits ein E-Mail-Angebot für Ihre Domain eingerichtet haben, können Sie die für Sie interessanten Elemente auswählen.
 >>    - *MX-Eintrag automatisch konfigurieren*: Ermöglicht die automatische Eingabe der Empfangsserver von OVHcloud (gilt für alle E-Mail-Angebote von OVHcloud).
->>    - *SPF-Eintrag automatisch konfigurieren*: Dieser ermöglicht die automatische Eingabe des Eintrags, der den OVHcloud E-Mail-Servern für den Versand Ihrer E-Mails erlaubt. Diese Registrierung gilt für alle OVHcloud E-Mail-Angebote.
+>>    - *SPF-Eintrag automatisch konfigurieren*: Ermöglicht die automatische Eingabe des Eintrags, der den OVHcloud E-Mail-Servern den Versand Ihrer E-Mails erlaubt. Diese Registrierung gilt für alle OVHcloud E-Mail-Angebote.
 >>
 >> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
