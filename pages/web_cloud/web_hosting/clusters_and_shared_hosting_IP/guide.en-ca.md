@@ -6,11 +6,11 @@ updated: 2025-01-29
 
 ## Objective
 
-In this guide, you can find all of the IP addresses for OVHcloud web hosting plans. For example, you can use it to find the IP address you need to enter in your DNS zones, depending on:
+In this guide you can find all of the IP addresses for OVHcloud web hosting plans. For example, you can use it to find the IP address you need to enter in your DNS zones, depending on:
 
-- your cluster/hosting
-- your options (CDN, paid SSL, free SSL...)
-- the country you want...
+- Your cluster/hosting
+- Your options (CDN, paid SSL, free SSL, etc.)
+- The targeted country
 
 **This guide lists all available IP addresses of OVHcloud Web Hosting plans, sorted by clusters.**
 
@@ -21,12 +21,12 @@ In this guide, you can find all of the IP addresses for OVHcloud web hosting pla
 
 ## Requirements
 
-- an [OVHcloud Web Hosting plan](/links/web/hosting)
-- access to the [OVHcloud Control Panel](/links/manager)
+- An [OVHcloud Web Hosting plan](/links/web/hosting)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
-To find out on which Web Hosting cluster your service is located, click on the tabs below to view each of the **4** steps in succession.
+To find out on which web hosting cluster your service is located, click on the tabs below to view each of the **4** steps in succession.
 
 > [!tabs]
 > **Step 1**
@@ -37,7 +37,7 @@ To find out on which Web Hosting cluster your service is located, click on the t
 >>
 > **Step 2**
 >>
->> Click the `Hosting plans`{.action} dropdown menu, then select the Web Hosting plan concerned.
+>> Click the `Hosting plans`{.action} dropdown menu, then select the web hosting plan concerned.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
@@ -49,7 +49,7 @@ To find out on which Web Hosting cluster your service is located, click on the t
 >>
 > **Step 4**
 >>
->> On the new page, retrieve the cluster number of the web hosting plan on this page under the mention **FTP and SFTP server** (3 digits between `0` and `9`).
+>> On the new page, retrieve the cluster number of the web hosting plan under **FTP and SFTP server** (3 digits between `0` and `9`).
 >>
 >> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
 >>
