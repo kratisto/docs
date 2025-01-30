@@ -172,7 +172,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 
 #### **maintenanceUpgradeZvm**
 
-| Objectif | Raison | Instructions préventives | Impact | Durée estimée | Fréquence |
+| Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------|-----------|
 | Mettre à jour ou migrer les machines virtuelles Zerto (Zerto Virtual Manager, VRA) vers la dernière version proposée par OVHcloud. | Gestion du cycle de vie de Zerto par OVHcloud. | Un **rapport de contrôle d’intégrité** peut être envoyé si des problèmes sont détectés avant la maintenance. Ces problèmes devront être résolus avant de procéder. | - **Mises à jour (Upgrades)** : Impact minimal, indisponibilité temporaire de la réplication et du basculement.<br>- **Migrations** : Arrêt complet du service, nécessitant une réinstallation sur une nouvelle plateforme. | **Upgrades** : ~1h par instance.<br>**Migrations** : Jusqu’à 12h par instance. | Basé sur le cycle de vie de l’éditeur |
 
