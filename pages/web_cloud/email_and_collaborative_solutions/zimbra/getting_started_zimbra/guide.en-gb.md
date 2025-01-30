@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Zimbra solution"
 excerpt: "Find out how to get started with your Zimbra solution via the OVHcloud Control Panel"
-updated: 2024-10-10
+updated: 2025-01-30
 ---
 
 <style>
@@ -40,6 +40,8 @@ With the Zimbra solution, OVHcloud offers an open-source collaborative messaging
 ### Access your service management
 
 To access your Zimbra service, log in to your [OVHcloud Control Panel](/links/manager) and click on the `Web Cloud`{.action} tab. In the `Emails`{.action} section, click `Zimbra`{.action}.
+
+![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}
 
 ### Configure your Zimbra service
 
@@ -96,11 +98,52 @@ The domain name table gives you two pieces of information:
 
 #### Add a domain name
 
+> [!warning]
+>
+> You need to [create an organization](#organisations) in order to add a domain name to your Zimbra service.
+
 To add a domain name to your Zimbra service, click on the `Domain`{.action} tab, then click `Add a domain`{.action}.
 
-Select an organization from the drop-down menu, and then select a domain name from the list (it is necessary that domain names are managed in your OVHcloud Control Panel). Then click `Confirm`{.action} to finish adding the domain name.
+Select an organization from the drop-down menu, and then select one of the following two options:
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Select a domain from the list** (internal domain): In this list, you will find the domain names that you manage from the OVHcloud Control Panel.
+- **Enter a domain name that is not managed by your OVHcloud account** (external domain): Enter a domain name that is not managed in your OVHcloud Control Panel, or that is registered with a different registrar and managed by you.
+
+Select the tab that corresponds to your choice:
+
+> [!tabs]
+> **Internal domain**
+>>
+>> Select a managed domain name from the list in your OVHcloud Control Panel.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> To configure your DNS zone, select one of the following two options:
+>>
+>> - **Recommended configuration**: Your DNS zone will be configured automatically. This option is suitable if you have not configured an email solution on your domain name.
+>> - **Custom configuration**: If you have already configured an email solution on your domain name, you can choose the elements that interest you.
+>>    - *Configure the MX record automatically*: This allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
+>>    - *Configure the SPF record automatically*: This allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Click `Confirm`{.action} to finish adding your domain and start the configuration process.
+>>
+> **External domain**
+>>
+>> Enter a domain name that is not managed in your Control Panel. Make sure that you have the permissions to modify the DNS zone for the domain name concerned.
+>>
+>> Then click `Confirm`{.action}
+>>
+>> ![zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> The window below will open. You will need to enter this CNAME record in the domain name’s DNS zone, so that it can be validated on your Zimbra platform.
+>>
+>> ![zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>>>
+>> > After 48 hours, if the CNAME record is not visible in the DNS zone, the operation is canceled. You will then need to retry the operation.
 
 ### Email accounts <a name="emails"></a>
 
@@ -129,7 +172,7 @@ Fill in the information displayed.
 > - Minimum 2 characters
 > - Maximum 32 characters
 > - No accents
-> - No special characters, except for the following characters: `.`, `,`, `-` and `_`
+> - No special characters, except for the following characters: `.`, `+`, `-` and `_`
 
 - **First name**: Enter a first name.
 - **Name**: Enter a name.

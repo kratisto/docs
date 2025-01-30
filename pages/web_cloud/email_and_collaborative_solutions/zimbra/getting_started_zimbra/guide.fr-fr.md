@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec l'offre Zimbra"
 excerpt: "Découvrez comment débuter avec votre offre Zimbra depuis votre espace client OVHcloud"
-updated: 2024-10-10
+updated: 2025-01-30
 ---
 
 <style>
@@ -98,11 +98,52 @@ Le tableau des noms de domaine vous donne deux informations :
 
 #### Ajouter un nom de domaine
 
+> [!warning]
+>
+> Il est nécessaire de [créer une organisation](#organisations) pour pouvoir ajouter un nom de domaine à votre service Zimbra.
+
 Pour ajouter un nom de domaine à votre service Zimbra, cliquez sur l'onglet `Domaine`{.action} puis cliquez sur `Ajouter un domaine`{.action}.
 
-Sélectionnez une organisation dans le menu déroulant, puis sélectionnez un nom de domaine dans la liste (il est nécessaire que les noms de domaines soient gérés dans votre espace client OVHcloud). Cliquez ensuite sur `Confirmer`{.action} pour finaliser l'ajout du nom de domaine.
+Sélectionnez une organisation dans le menu déroulant puis sélectionnez l'une des deux options suivantes :
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Sélectionner un domaine dans la liste** (domaine interne) : dans cette liste, vous trouverez les noms de domaine dont vous avez la gestion depuis votre espace client OVHcloud.
+- **Saisir un nom de domaine non géré par votre compte OVHcloud** (domaine externe) : renseignez un nom de domaine qui n'est pas géré dans votre espace client OVHcloud ou qui est enregistré dans un autre bureau d'enregistrement et dont vous avez la gestion.
+
+Sélectionnez l'onglet correspondant à votre choix :
+
+> [!tabs]
+> **Domaine interne**
+>>
+>> Sélectionnez dans la liste un nom de domaine géré depuis votre espace client OVHcloud.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> Pour configurer votre zone DNS, sélectionnez l'une des deux options suivantes:
+>>
+>> - **Configuration recommandée** : votre zone DNS sera configurée automatiquement. Cette option convient si vous n'avez pas configuré d'offre e-mail sur votre nom de domaine.
+>> - **Configuration personnalisée** : si vous avez déjà configuré une offre e-mail sur votre nom de domaine, vous pouvez choisir les éléments qui vous intéressent.
+>>    - *Configurer l'enregistrement MX automatiquement* : il permet de saisir automatiquement les serveurs de réception OVHcloud (s'applique à toutes les offres e-mail OVHcloud).
+>>    - *Configurer l'enregistrement SPF automatiquement* : il permet de saisir automatiquement l'enregistrement autorisant les serveurs e-mail d'envoi OVHcloud à transmettre vos e-mails. Cet enregistrement est valable pour l'ensemble des offres e-mail OVHcloud.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Cliquez sur `Confirmer`{.action} pour finaliser l'ajout de votre domaine et lancer le processus de configuration.
+>>
+> **Domaine externe**
+>>
+>> Saisissez un nom de domaine qui n'est pas géré dans votre espace client. Assurez-vous que vous avez les accès pour modifier la zone DNS du nom de domaine concerné.
+>>
+>> Cliquez ensuite sur `Confirmer`{.action}
+>>
+>> ![zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> La fenêtre ci-dessous s'affiche, il est nécessaire de renseigner cet enregistrement CNAME dans la zone DNS du nom de domaine pour qu'il soit validé sur votre plateforme Zimbra.
+>>
+>> ![zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>> >
+>> > Après 48 heures, si le CNAME n'est pas visible dans la zone DNS, l'opération est annulée. Il sera alors nécessaire de recommencer l'opération.
 
 ### Comptes e-mail <a name="emails"></a>
 
@@ -131,7 +172,7 @@ Complétez les informations qui s'affichent.
 > - Minimum 2 caractères
 > - Maximum 32 caractères
 > - Aucun caractère accentué
-> - Pas de caractères spéciaux, à l'exception des caractères suivants : `.`, `,`, `-` et `_`
+> - Pas de caractères spéciaux, à l'exception des caractères suivants : `.`, `+`, `-` et `_`
 
 - **Prénom** : renseignez un prénom.
 - **Nom** : renseignez un nom.
