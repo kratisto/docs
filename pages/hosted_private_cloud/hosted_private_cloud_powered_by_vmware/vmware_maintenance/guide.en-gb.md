@@ -178,7 +178,7 @@ To get the details of each robot, run the following API call:
 
 > [!primary] 
 > **Difference between upgrades and migrations:**
-> - **Upgrades** involve updating existing Zerto components (e.g., Zerto 10u6 to 10u7) with minimal service disruption (~1 hour).
+> - **Upgrades** involve updating existing Zerto components (e.g., Zerto 9.5 to 9.7) with minimal service disruption (~1 hour).
 > - **Migrations** involve transitioning to a new platform (e.g., from Windows-based Zerto to appliance-based Zerto 10u6), resulting in up to 12 hours of complete downtime.
 
 ### Glossary
