@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit Zimbra"
 excerpt: "Erfahren Sie hier, wie Sie Ihr Zimbra Angebot über Ihr OVHcloud Kundencenter verwalten"
-updated: 2025-01-29
+updated: 2025-01-30
 ---
 
 <style>

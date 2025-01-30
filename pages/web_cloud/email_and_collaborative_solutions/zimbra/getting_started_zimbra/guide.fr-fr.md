@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec l'offre Zimbra"
 excerpt: "Découvrez comment débuter avec votre offre Zimbra depuis votre espace client OVHcloud"
-updated: 2025-01-29
+updated: 2025-01-30
 ---
 
 <style>

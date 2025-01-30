@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Zimbra solution"
 excerpt: "Find out how to get started with your Zimbra solution via the OVHcloud Control Panel"
-updated: 2025-01-29
+updated: 2025-01-30
 ---
 
 <style>
