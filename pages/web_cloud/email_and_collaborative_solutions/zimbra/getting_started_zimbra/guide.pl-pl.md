@@ -116,7 +116,7 @@ Wybierz kartę:
 >>
 >> Wybierz z listy zarządzaną domenę w Panelu klienta OVHcloud.
 >>
->> ![Zimbra](images/Zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>> ![Zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
 >>
 >> Aby skonfigurować strefę DNS, wybierz jedną z dwóch poniższych opcji:
 >>
@@ -125,7 +125,7 @@ Wybierz kartę:
 >>    - *Skonfiguruj automatycznie rekord MX* : umożliwia automatyczne wpisanie serwerów poczty przychodzącej OVHcloud (dotyczy wszystkich ofert e-mail OVHcloud).
 >>    - *Skonfiguruj automatycznie rekord SPF* : umożliwia automatyczne wpisanie rekordu zezwalającego serwerom poczty elektronicznej OVHcloud na przesyłanie e-maili. Wpis ten dotyczy wszystkich ofert e-mail OVHcloud.
 >>
->> ![Zimbra](images/Zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
 >> Kliknij przycisk `Potwierdź`{.action}, aby dokończyć dodawanie domeny i rozpocząć proces konfiguracji.
 >>
@@ -135,11 +135,11 @@ Wybierz kartę:
 >>
 >> Kliknij na `Potwierdź`{.action}
 >>
->> ![Zimbra](images/Zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>> ![Zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
 >>
 >> Pojawi się poniższe okno. Należy wpisać ten rekord CNAME w strefie DNS domeny, aby zatwierdzić ją na Twojej platformie Zimbra.
 >>
->> ![Zimbra](images/Zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>> ![Zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
 >>
 >> > [!warning]
 >> >
