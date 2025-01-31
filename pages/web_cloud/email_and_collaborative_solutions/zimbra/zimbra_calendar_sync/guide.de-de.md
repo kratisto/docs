@@ -1,6 +1,6 @@
 ---
-title: "Zimbra CalDAV-Kalender in einer App synchronisieren"
-excerpt: "Erfahren Sie, wie Sie einen Zimbra-Kalender über das CalDAV-Protokoll zu einer Anwendung hinzufügen"
+title: "CalDAV-Kalender für Zimbra in einer App synchronisieren"
+excerpt: "Erfahren Sie hier, wie Sie einen Zimbra-Kalender über das CalDAV-Protokoll zu einer Anwendung hinzufügen"
 updated: 2025-01-13
 ---
 
@@ -25,15 +25,15 @@ updated: 2025-01-13
 
 ## Ziel
 
-Zimbra E-Mail-Accounts können auf verschiedenen kompatiblen E-Mail-Clients eingerichtet werden. So können Sie Ihre E-Mail-Adresse von dem Gerät Ihrer Wahl aus verwenden. Zimbra enthält die Funktion für geteilte Kalender, die über eine Software synchronisiert werden kann, die mit dem CalDAV-Protokoll kompatibel ist.
+Zimbra E-Mail-Accounts können auf verschiedenen kompatiblen E-Mail-Clients eingerichtet werden. So können Sie Ihre E-Mail-Adresse von dem Gerät Ihrer Wahl aus verwenden. Zimbra enthält eine Funktion für geteilte Kalender, die über eine Software synchronisiert werden kann, die mit dem CalDAV-Protokoll kompatibel ist.
 
-**Erfahren Sie, wie Sie über das CalDAV-Protokoll einen Zimbra-Kalender zu einer Anwendung hinzufügen.**
+**Diese Anleitung erklärt, wie Sie über das CalDAV-Protokoll einen Zimbra-Kalender zu einer Anwendung hinzufügen.**
 
 ## Voraussetzungen
 
-- Sie besitzen eine Zimbra OVHcloud E-Mail-Adresse.
-- Sie haben eine Anwendung installiert, die das CalDAV-Kalenderprotokoll unterstützt
-- Sie haben die Login-Daten der E-Mail-Adresse, die mit dem Kalender verknüpft ist, den Sie einrichten möchten.
+- Sie haben einen E-Mail-Account auf der OVHcloud Zimbra E-Mail-Lösung abonniert.
+- Sie haben eine Anwendung installiert, die das CalDAV-Kalenderprotokoll unterstützt.
+- Sie haben die Login-Daten des E-Mail-Accounts, dessen Kalender Sie einrichten möchten.
 
 ## In der praktischen Anwendung
 
@@ -47,25 +47,25 @@ Die Konfiguration des CalDAV-Kalenders entspricht der einer E-Mail-Adresse und e
 
 Wir haben stabile Anwendungen ausgewählt, die mit dem CalDAV-Protokoll kompatibel sind.
 
-- **Für Windows**: Folgen Sie dem Kapitel [Kalender auf Thunderbird hinzufügen](#thunderbird)
-- **Für macOS**: Folgen Sie den Kapiteln [Kalender auf macOS hinzufügen](#apple-macos) oder [Kalender auf Thunderbird hinzufügen](#thunderbird)
-- **Für Linux**: Folgen Sie dem Kapitel [Kalender auf Thunderbird hinzufügen](#thunderbird)
-- **Für iPhone und iPad**: Folgen Sie dem Kapitel [Kalender auf iOS und iPad hinzufügen](#apple-ios)
-- **Für Android**: Folgen Sie der Anleitung [Zimbra - Konfiguration Ihres E-Mail-Accounts auf der Zimbra Mobil-App](/pages/web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios).
+- **Für Windows**: Folgen Sie dem Abschnitt [Kalender auf Thunderbird hinzufügen](#thunderbird).
+- **Für macOS**: Folgen Sie dem Abschnitt [Kalender auf macOS hinzufügen](#apple-macos) oder [Kalender auf Thunderbird hinzufügen](#thunderbird).
+- **Für Linux**: Folgen Sie dem Abschnitt [Kalender auf Thunderbird hinzufügen](#thunderbird).
+- **Für iPhone und iPad**: Folgen Sie dem Abschnitt [Kalender auf iOS und iPad hinzufügen](#apple-ios).
+- **Für Android**: Folgen Sie der Anleitung [Konfiguration Ihres E-Mail-Accounts auf der Zimbra Mobil-App](/pages/web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios).
 
 > [!warning]
 >
-> Android-Geräte bieten derzeit keine native CalDAV-Unterstützung. Wir haben auch keine stabile Drittanwendung gefunden, die Zimbra-Kalender mit unseren Angeboten synchronisieren kann.
+> Android-Geräte bieten derzeit keine native Unterstützung für das CalDAV-Protokoll, und es gibt derzeit auch keine stabile Drittanbieter-App, die Zimbra-Kalender für unsere Angebote synchronisieren kann.
 >
 > Nur die Zimbra-App, basierend auf ihrem Webmail, kann geteilte Kalender auf einem Android-Gerät anzeigen.
 
 #### Allgemeine Einstellungen für einen Zimbra CalDAV-Kalender <a name=„general-settings“></a>
 
-Wenn Sie eine Anwendung verwenden, die mit dem CalDAV-Protokoll kompatibel ist, sollten Sie die allgemeinen Einstellungen für einen Zimbra CalDAV-Kalender beachten:
+Wenn Sie eine Anwendung verwenden, die mit dem CalDAV-Protokoll kompatibel ist, beachten Sie die allgemeinen Einstellungen für einen Zimbra CalDAV-Kalender:
 
-- **Server / Adresse / URL**: Geben Sie den Wert `zimbra1.mail.ovh.net` ein. Für manche Programme muss das Protokoll „https“ zur Adresse hinzugefügt werden, geben Sie den Wert `https://zimbra1.mail.ovh.net` ein.
+- **Server / Adresse / URL**: Geben Sie den Wert `zimbra1.mail.ovh.net` ein. Für manche Programme muss das Protokoll "https" zur Adresse hinzugefügt werden. Geben Sie den Wert `https://zimbra1.mail.ovh.net` ein.
 - **Benutzername**: Geben Sie die vollständige E-Mail-Adresse für den Kalender ein.
-- **Passwort**: Geben Sie das Passwort der E-Mail-Adresse ein, die mit dem Kalender verknüpft ist.
+- **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein, die mit dem Kalender verknüpft ist.
 
 ### Einen Kalender auf Thunderbird hinzufügen <a name=„thunderbird“></a>
 
@@ -73,9 +73,9 @@ Wenn Sie eine Anwendung verwenden, die mit dem CalDAV-Protokoll kompatibel ist, 
 >
 > [Mozilla Thunderbird](https://www.thunderbird.net/) ist für Windows, macOS und Linux verfügbar. Die folgenden Installationsschritte wurden unter macOS ausgeführt, gelten jedoch für Windows und Linux gleichermaßen.
 
-Öffnen Sie Thunderbird und klicken Sie auf das Symbol „Kalender“ in der Spalte links.
+Öffnen Sie Thunderbird und klicken Sie auf das Symbol "Kalender" in der Spalte links.
 
-Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten klicken:
+Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 
 > [!tabs]
 > **Schritt 1**
@@ -91,16 +91,16 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 >>
 >> - **Benutzername**: Geben Sie die vollständige E-Mail-Adresse für den Kalender ein.
 >> - **Adresse**: Geben Sie den Wert `zimbra1.mail.ovh.net` ein.
->> - **Diese Adresse fordert keine Login-Daten an**: Lassen Sie dieses Feld deaktiviert, und Sie werden aufgefordert, das Passwort für die oben angegebene E-Mail-Adresse einzugeben.
+>> - **Diese Adresse fordert keine Login-Daten an**: Lassen Sie dieses Feld deaktiviert, werden Sie aufgefordert, das Passwort des oben angegebenen E-Mail-Accounts einzugeben.
 >> - **Offlineunterstützung**: Sie können diese Option aktiviert lassen.
 >>
->> Klicken Sie auf `Kalender suchen`{.action}, um die Kalendersynchronisierung zu starten. Geben Sie im angezeigten Fenster das Passwort der E-Mail-Adresse ein, die mit dem Benutzernamen verbunden ist, und bestätigen Sie Ihre Eingabe.
+>> Klicken Sie auf `Kalender suchen`{.action}, um die Kalendersynchronisierung zu starten. Geben Sie im angezeigten Fenster das Passwort des E-Mail-Accounts ein, die mit dem Benutzernamen verbunden ist, und bestätigen Sie Ihre Eingabe.
 >>
 >> ![Zimbra_App](images/zimbra-calendar-thunderbird02.png){.thumbnail .w-600 .h-600}
 >>
 > **Schritt 3**
 >>
->> Das folgende Fenster wird mit den CalDAV Elementen angezeigt, die in einem Zimbra E-Mail-Account vorhanden sind. Markieren Sie die Elemente, die im Thunderbird-Kalender angezeigt werden sollen, und klicken Sie auf `Verbinden`{.action}, um die Konfiguration abzuschließen.
+>> Das folgende Fenster wird mit den CalDAV-Elementen angezeigt, die in einem Zimbra E-Mail-Account vorhanden sind. Markieren Sie die Elemente, die im Thunderbird-Kalender angezeigt werden sollen, und klicken Sie auf `Verbinden`{.action}, um die Konfiguration abzuschließen.
 >>
 >> ![Zimbra_App](images/zimbra-calendar-thunderbird03.png){.thumbnail .w-600 .h-600}
 >>
@@ -109,7 +109,7 @@ Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten kl
 
 > [!warning]
 >
-> Die unten stehende Konfiguration wurde von einem iPhone durchgeführt. Die Handhabung auf dem iPad ist die gleiche.
+> Die unten stehende Konfiguration wurde von einem iPhone durchgeführt, aber gilt auch für iPad.
 
 Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem iPhone oder iPad hinzuzufügen, folgen Sie den Installationsschritten und klicken Sie auf die Registerkarten unten:
 
@@ -128,7 +128,7 @@ Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem iPhone oder iPad hin
 >>
 > **Schritt 3**
 >>
->> Wählen Sie `Andere`{.action} und dann `CalDAV-Konto hinzufügen`{.action} im Bereich „KALENDER“.
+>> Wählen Sie `Andere`{.action} und dann `CalDAV-Konto hinzufügen`{.action} im Bereich "KALENDER".
 >>
 >> ![Zimbra_App](images/zimbra-calendar-ios03.png){.thumbnail .w-600 .h-600}
 >>
@@ -138,7 +138,7 @@ Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem iPhone oder iPad hin
 >>
 >> - **Server**: Geben Sie den Wert `zimbra1.mail.ovh.net` ein.
 >> - **Benutzername**: Geben Sie die vollständige E-Mail-Adresse für den Kalender ein.
->> - **Passwort**: Geben Sie das Passwort der E-Mail-Adresse ein.
+>> - **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein.
 >> - **Description**: Fügen Sie dem Kalender eine Beschreibung hinzu.
 >>
 >> Bestätigen Sie mit der Schaltfläche `Weiter`{.action}.
@@ -150,7 +150,7 @@ Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem iPhone oder iPad hin
 
 ### Einen Kalender auf macOS hinzufügen <a name=„apple-macos“></a>
 
-Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem Mac hinzuzufügen, starten Sie die App und folgen Sie den Installationsschritten, indem Sie auf die Registerkarten unten klicken:
+Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem Mac hinzuzufügen, starten Sie die App und folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 
 > [!tabs]
 > **Schritt 1**
@@ -165,7 +165,7 @@ Um einen CalDAV Kalender zur Apple `Kalender` App auf Ihrem Mac hinzuzufügen, s
 >>
 >> - **Account-Typ**: Wählen Sie `Manuell` aus dem Drop-down-Menü.
 >> - **Benutzername**: Geben Sie die vollständige E-Mail-Adresse für den Kalender ein.
->> - **Passwort**: Geben Sie das Passwort der E-Mail-Adresse ein.
+>> - **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein.
 >> - **Serveradresse**: Geben Sie den Wert `zimbra1.mail.ovh.net` ein.
 >>
 >> Klicken Sie abschließend auf `Anmelden`{.action}.
