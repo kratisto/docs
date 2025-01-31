@@ -68,7 +68,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **7*
 >>
 > **Etape 3**
 >>
->> Sur la page qui s'affiche, vous trouverez dans le cadre **Abonnement** la mention **Contacts**. Cliquez sur le bouton `...`{.action} à droite puis sur `Gérer les contacts`{.action}.
+>> Sur la page qui s'affiche, vous trouverez, dans le cadre **Abonnement**, la mention **Contacts**. Cliquez sur le bouton `...`{.action} à droite puis sur `Gérer les contacts`{.action}.
 >>
 >> ![Change owner](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/change-owner.png){.thumbnail}
 >>
