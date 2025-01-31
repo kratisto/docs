@@ -80,7 +80,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **7*
 >>
 > **Etape 5**
 >>
->> Sur la nouvelle page, rendez-vous dans le cadre **Titulaire**, puis cliquez sur le bouton `Modifier`{.action}
+>> Sur la nouvelle page, rendez-vous dans le cadre **Titulaire**, puis cliquez sur le bouton `Modifier`{.action}.
 >>
 >> ![Owner informations](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/owner.png){.thumbnail}
 >>
