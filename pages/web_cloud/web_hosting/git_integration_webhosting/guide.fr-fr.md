@@ -112,7 +112,7 @@ Copiez et enregistrez la clé SSH sur votre compte GitHub. Cela permet d'établi
 Le formulaire d'ajout d'une nouvelle clé SSH s'affiche :
 
 - **Title** : ajoutez une description pour votre clé SSH. Par exemple, vous pouvez nommer cette clé « OVHcloud ». 
-- **Type of key** : laissez la valeur par défaut `authentication key`{.action}
+- **Type of key** : laissez la valeur par défaut `authentication key`
 - **Key** : collez votre clé SSH.
 
 Pour valider les informations, cliquez sur `Add SSH key`{.action}. Si vous y êtes invité, confirmez l'accès à votre compte dans GitHub.
