@@ -1,7 +1,7 @@
 ---
 title: Configurer HYCU Backup
 excerpt: "Installation de la sauvegarde HYCU Backup sur un cluster Nutanix"
-updated: 2024-12-10
+updated: 2025-01-31
 ---
 
 <style>
@@ -808,6 +808,8 @@ La base de données est restaurée dans une nouvelle base de données.
 [Nutanix on OVHcloud - Documentation générale](/pages/hosted_private_cloud/nutanix_on_ovhcloud/01-global-high-level-doc)
 
 [Hyper-convergence Nutanix](/pages/hosted_private_cloud/nutanix_on_ovhcloud/03-nutanix-hci)
+
+[Object Storage - Gestion de l'immuabilité des objets avec Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 
 [Page d'accueil HYCU](https://www.hycu.com/)
 
