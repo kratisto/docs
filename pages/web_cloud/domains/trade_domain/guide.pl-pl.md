@@ -55,7 +55,7 @@ Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`{.
 
 W karcie `Informacje ogólne`{.action} przejdź do sekcji **Abonament** w prawym dolnym rogu. Kliknij `...`{.action} przed **kontaktami**, po czym kliknij `Zmiana właściciela`{.action}.
 
-![zmiana właściciela](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/change-owner.png){.thumbnail}
+![zmiana właściciela](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/manage-contacts.png){.thumbnail}
 
 > [!warning]
 >

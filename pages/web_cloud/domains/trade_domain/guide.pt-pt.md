@@ -55,7 +55,7 @@ Aceda à [Área de Cliente OVHcloud](/links/manager), na secção `Web Cloud`{.a
 
 No separador `Informações gerais`{.action}, aceda à secção **Subscrição** no canto inferior direito. Clique em `...`{.action} à frente de **Contactos** e, a seguir, em `Mudar de titular`{.action}.
 
-![alteração do proprietário](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/change-owner.png){.thumbnail}
+![alteração do proprietário](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/manage-contacts.png){.thumbnail}
 
 > [!warning]
 >

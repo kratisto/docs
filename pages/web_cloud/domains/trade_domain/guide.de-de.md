@@ -54,7 +54,7 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen S
 
 Klicken Sie im Tab `Allgemeine Informationen`{.action} im Rahmen **Abo** auf die Schaltfläche `...`{.action} neben den **Kontakten** und danach auf `Inhaber ändern`{.action}.
 
-![Änderung des Inhabers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/change-owner.png){.thumbnail}
+![Änderung des Inhabers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/manage-contacts.png){.thumbnail}
 
 > [!warning]
 >
