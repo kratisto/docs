@@ -1,0 +1,190 @@
+---
+title: "Synchronize a CalDAV Zimbra calendar in an application"
+excerpt: "Find out how to add a Zimbra calendar to an application via the CalDAV protocol"
+updated: 2025-01-13
+---
+
+<style>
+.w-400 {
+  max-width:400px !important;
+}
+.h-400 {
+  max-height:400px !important;
+}
+</style>
+
+> [!warning]
+>
+> **Important**
+>
+> The Zimbra solution is a beta-phase product.
+>
+> It is only available to those who have completed the [beta registration form](https://labs.ovhcloud.com/en/zimbra-beta/).
+>
+> Some of the features or limitations described in this guide may change as the product is released.
+
+## Objective
+
+Zimbra email accounts can be configured on different email clients that are compatible. This allows you to use your email address from the device of your choice. Zimbra includes the shared calendar feature, so it can be synchronized using CalDAV-compatible software.
+
+**Find out how to add a Zimbra calendar to an application via the CalDAV protocol.**
+
+## Requirements
+
+- an OVHcloud Zimbra email address.
+- an application that supports the CalDAV calendar protocol has been installed
+- You must have the login details for the email address linked to the calendar you would like to set up.
+
+## Instructions
+
+### What is the CalDAV protocol?
+
+CalDAV is a protocol for sharing calendars and online tasks. Zimbra email addresses have calendars that use the CalDAV protocol.
+
+CalDAV calendar configuration is similar to email address configuration and requires an application that supports this protocol.
+
+### Configure the CalDAV Calendar on compatible software
+
+We have selected stable applications that are compatible with the CalDAV protocol.
+
+- **For Windows**: Follow the [Add a calendar on Thunderbird](#thunderbird) chapter
+- **For macOS**: Follow [Add a calendar on macOS](#apple-macos) or [Add a calendar on Thunderbird](#thunderbird)
+- **For Linux**: Follow the [Add a calendar on Thunderbird](#thunderbird) chapter
+- **For iPhone and iPad**: Follow the [Add a calendar on iOS and ipadOS](#apple-ios) chapter
+- **For Android**: Please follow the guide [Zimbra - Configuring your email account on the Zimbra mobile application](/pages/web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios).
+
+> [!warning]
+>
+> Android devices do not currently offer native support for the CalDAV protocol. We also couldn't find a stable third-party app that could sync Zimbra calendars for our offerings.
+>
+> Only the Zimbra app, based on its Webmail, is able to view shared calendars on an Android device.
+
+#### General settings for a CalDAV Zimbra calendar <a name="general-settings"></a>
+
+If you are using a CalDAV-compatible application, here are the general settings you need to know to set up a CalDAV Zimbra calendar:
+
+- **Server/Address/URL**: enter the value `zimbra1.mail.ovh.net`. For some software applications, you will need to add the “https” protocol in the address. Enter the value “https://zimbra1.mail.ovh.net”.
+- **Username**: Enter the full email address associated with the calendar.
+- **Password**: Enter the password for the email address associated with the calendar.
+
+#### Add a calendar on Thunderbird <a name="thunderbird"></a>
+
+> [!primary]
+>
+> [Mozilla Thunderbird](https://www.thunderbird.net/) is available on Windows, macOS and Linux. The following installation steps have been carried out from macOS, but they apply the same way to Windows and Linux.
+
+Open Thunderbird and click on the "Agenda" icon in the left-hand column.
+
+Follow the installation steps by clicking on the tabs below:
+
+> [!tabs]
+> **Step 1**
+>>
+>> - Click `New Calendar`{.action} at the bottom of the calendar column or right-click an existing calendar and select `New Calendar`{.action} from the drop-down menu that appears.
+>> - Select `On the network`, then click `Next`{.action}.
+>>
+>> ![zimbra_app](images/zimbra-calendar-thunderbird01.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 2**
+>>
+>> Enter calendar login information:
+>>
+>> - **Username**: Enter the full email address associated with the calendar.
+>> - **Address**: Enter the value `zimbra1.mail.ovh.net`.
+>> - **This address does not request a login ID**: leave this box unticked, you will be asked to enter the password associated with the email address entered above.
+>> - **Offline support**: You can leave this option checked.
+>>
+>> Click `Find Calendars`{.action} to begin calendar synchronization. Enter the password for the email address associated with the username in the window that appears, and confirm your entry.
+>>
+>> ![zimbra_app](images/zimbra-calendar-thunderbird02.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 3**
+>>
+>> The window below will appear with the CalDAV elements present in a Zimbra email account. Tick the items you want to appear in the Thunderbird calendar and click `Log in`{.action} to complete the configuration.
+>>
+>> ![zimbra_app](images/zimbra-calendar-thunderbird03.png){.thumbnail .w-600 .h-600}
+>>
+
+#### Add a calendar on iOS and ipadOS <a name="apple-ios"></a>
+
+> [!warning]
+>
+> The configuration below was made from an iPhone. However, the procedure remains the same from an iPad.
+
+To add a CalDAV calendar on the Apple `Calendar` app on your iPhone or iPad, follow the installation steps by clicking on the tabs below:
+
+> [!tabs]
+> **Step 1**
+>>
+>> Go to the `Settings`{.action} of your iPhone or iPad. Find the `Calendar`{.action} section by scrolling through the menu, or by entering ‘calendar’ in the settings search bar.
+>>
+>> ![zimbra_app](images/zimbra-calendar-ios01.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 2**
+>>
+>> Go to `Calendar Accounts`{.action} then select `Add Account`{.action}.
+>>
+>> ![zimbra_app](images/zimbra-calendar-ios02.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 3**
+>>
+>> Choose `Other`{.action}, then select `Add a CalDAV account`{.action} in the “CALENDAR” section.
+>>
+>> ![zimbra_app](images/zimbra-calendar-ios03.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 4**
+>>
+>> Enter calendar login information:
+>>
+>> - **Server**: enter the value `zimbra1.mail.ovh.net`.
+>> - **Username**: Enter the full email address associated with the calendar.
+>> - **Password**: Enter the password for the email address.
+>> - **Description**: Add a description to the calendar.
+>>
+>> Confirm by clicking the `Next`{.action} button.
+>>
+>> Choose the `Calendar` and `Reminder` applications that will use the Zimbra calendar information.
+>>
+>> ![zimbra_app](images/zimbra-calendar-ios04.png){.thumbnail .w-600 .h-600}
+>>
+
+#### Add a calendar on macOS <a name="apple-macos"></a>
+
+To add a CalDAV calendar on the Apple `Calendar' app on your Mac, launch the app and follow the installation steps by clicking on the tabs below:
+
+> [!tabs]
+> **Step 1**
+>>
+>> Click `Calendar`{.action} in the top menu bar, then `Add Account`{.action}. Select `Add a CalDAV account`, then click `Continue`{.action}.
+>>
+>> ![zimbra_app](images/zimbra-calendar-macos01.png){.thumbnail .w-600 .h-600}
+>>
+> **Step 2**
+>>
+>> In the configuration window, enter the following information:
+>>
+>> - **Account type**: choose `Manual` from the dropdown menu.
+>> - **Username**: Enter the full email address associated with the calendar.
+>> - **Password**: Enter the password for the email address.
+>> - **Server address**: enter the value `zimbra1.mail.ovh.net`.
+>>
+>> To finish, click `Log in`{.action}.
+>>
+>> ![zimbra_app](images/zimbra-calendar-macos02.png){.thumbnail .w-600 .h-600}
+>>
+
+## Go further <a name="go-further"></a>
+
+[Getting started with Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/getting_started_zimbra)
+
+[Configuring your Zimbra email address on an email client](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
+
+[Use Zimbra webmail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
+
+[OVHcloud Zimbra FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
+
+For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
+
+Join our [community of users](/links/community).

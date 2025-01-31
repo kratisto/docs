@@ -31,7 +31,7 @@ Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de
 
 ## Prérequis
 
-- Disposer d’une adresse e-mail Zimbra.
+- Disposer d’une adresse e-mail Zimbra OVHcloud.
 - Avoir installé une application prenant en charge le protocole de calendrier CalDAV
 - Posséder les identifiants relatifs à l'adresse e-mail attachée au calendrier que vous souhaitez paramétrer.
 
