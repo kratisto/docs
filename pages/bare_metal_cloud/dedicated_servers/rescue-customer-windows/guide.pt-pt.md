@@ -1,125 +1,248 @@
 ---
-title: "Ativar e utilizar o modo rescue Windows"
-excerpt: "Descubra como utilizar o modo rescue-customer-windows OVHcloud para solucionar problemas com o seu servidor dedicado"
-updated: 2024-05-21
+title: "Como ativar e utilizar o modo rescue Windows"
+excerpt: "Descubra como utilizar o sistema rescue OVHcloud para Windows para solucionar problemas com o seu servidor dedicado"
+updated: 2025-01-28
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objetivo
 
-O modo *rescue-customer-windows* é uma ferramenta fornecida pela OVHcloud que lhe permite iniciar num sistema operativo temporário com o objetivo de diagnosticar e resolver problemas no seu servidor.
+O modo rescue é uma ferramenta fornecida pela OVHcloud que permite iniciar num sistema operativo temporário. Tem como objetivo diagnosticar e resolver os problemas no seu servidor.
 
-O modo rescue é geralmente adaptado às seguintes tarefas:
+O funcionamento geral do modo rescue é descrito no nosso guia [Como ativar e utilizar o modo rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode).
 
-- [Reinicialização da palavra-passe do administrador](/pages/bare_metal_cloud/dedicated_servers/rcw-changing-admin-password-on-windows)
-- Reparação de um sistema operativo avariado
-- Corrigido uma configuração incorreta de um firewall de software
+A opção **Windows customer rescue system** só está disponível para os servidores dedicados nos quais está instalado um sistema operativo **Windows Server**. São aplicáveis as seguintes condições:
+
+- O sistema rescue para Windows (`rescue-customer-windows`) funciona numa máquina virtual (VM) lançada a partir do sistema rescue client (`rescue-customer`, baseado em Debian GNU/Linux).
+- Os discos do servidor estão ligados à VM com *passthrough*. Assim, é possível aceder aos mesmos.
+- Os outros componentes do servidor ficarão inacessíveis (CPU, RAM, NIC, RAID).
+- A rede é montada com *passthrough* mas sem acesso direto ao adaptador de rede. A VM porta o endereço IP e o endereço MAC do servidor *bare metal*.
 
 > [!warning]
 >
-> Certifique-se de que efetua um backup dos seus dados se ainda não dispõe de backups recentes.
+> Certifique-se de que efetua um backup dos seus dados se ainda não dispõe de um backup recente.
 >
 > Se tiver serviços em produção no seu servidor, o modo rescue interrompe-os-á enquanto a máquina não for reiniciada em modo normal.
 >
 
-**Este manual explica como reiniciar um servidor em modo *rescue-cliente-windows*.**
+**Saiba como iniciar um servidor no SO Windows Client.**
 
 ## Requisitos
 
-- Ter um [servidor dedicado](/links/bare-metal/bare-metal) instalado com uma versão do Microsoft Windows.
-- O servidor deve ter mais de 16GB de RAM.
-- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
-
-## Informações funcionais
-
-O *rescue-customer-windows* é executado numa máquina virtual (VM) lançada a partir do sistema *rescue* (baseado em Debian GNU/Linux).<br>
-Os discos do servidor estão ligados à VM em *passthrough*. Assim, é possível ter acesso aos mesmos.<br>
-Os outros componentes do servidor não estarão acessíveis (CPU, RAM, NIC, RAID).<br>
-A rede é montada em *passthrough* mas sem acesso direto à placa de rede, isto implica que a VM porta o endereço IP e o endereço MAC do servidor Bare Metal.
-
-> [!warning]
->
-> Reiniciar/desligar a VM do *rescue-customer-windows* não fará com que o servidor seja reiniciado no seu SO de origem.
-> Para reiniciar no SO de origem, queira consultar a documentação abaixo.
+- Microsoft Windows instalado no seu [servidor dedicado](/links/bare-metal/bare-metal)
+- Pelo menos 16 GB de RAM instaladas no servidor
+- Acesso à [Área de Cliente OVHcloud](/links/manager)
 
 ## Instruções
 
-O modo rescue só pode ser ativado a partir da [Área de Cliente OVHcloud](/links/manager). Selecione o seu servidor acedendo à secção `Bare Metal Cloud`{.action} e, em seguida, `Servidores dedicados`{.action}.
+### Ativação do modo rescue para Windows
 
-Procure "Boot" na zona **Informações gerais**, clique no botão `...`{.action} e depois em `Alterar`{.action}.
+Aceda à [Área de Cliente OVHcloud](/links/manager), abra a secção `Bare Metal Cloud`{.action} e depois `Servidores dedicados`{.action}.
+
+Clique no nome do seu servidor para abrir o separador `Informações gerais`{.action}.
+
+<a name="netboot"></a>
+
+Na casa **Informações gerais**, clique no botão `...`{.action} ao lado de `Boot`. Clique em `Alterar`{.action} no menu contextual.
 
 ![Alterar o modo de arranque](images/rescue-mode-001.png){.thumbnail}
 
-Na página seguinte, selecione **Fazer boot em modo rescue**.
+Na página **Alterar o netboot**, selecione `Fazer boot em modo rescue`{.action}.
 
-Escolha `rescue-customer-windows`{.action}. Especifique outro endereço de e-mail se não pretender **não** que os identificadores de ligação sejam enviados para o endereço principal da sua conta OVHcloud.
+Selecione `Windows customer rescue system`{.action} no menu pendente.
 
-Clique em `Seguinte`{.action} e `Validar`{.action}.
+![Alterar o modo de arranque](images/manager-rescue-windows-menu.png){.thumbnail width="800"}
 
-![Modo rescue-customer](images/manager-rescue-windows-menu.png){.thumbnail}
+O e-mail de notificação do modo rescue, bem como os seus dados de acesso, serão enviados para o endereço de e-mail de contacto da sua conta OVHcloud. Para utilizar outro endereço de e-mail, introduza-o no campo `Receber os dados de acesso ao modo para o e-mail:`.
 
-Quando a alteração estiver concluída, clique no botão `...`{.action} à direita "Estado" na zona intitulada **Estado dos serviços**.
+Clique em `Seguinte`{.action}.
 
-Clique em `Reiniciar`{.action} e o servidor será reiniciado em modo rescue. Esta operação pode levar alguns minutos.
+Na etapa **Resumo**, clique em `Validar`{.action}.
 
-Pode verificar o progresso no separador `Tarefas`{.action}. Quando o sistema de rescue estiver disponível, ser-lhe-á enviado um e-mail com os dados de acesso (incluindo a palavra-passe de início de sessão) do utilizador "Administrator" do modo rescue.
+![Summary](images/winresc_summ.png){.thumbnail}
 
-![Reiniciar o servidor](images/rescue-mode-02.png){.thumbnail}
+Já deverá ter uma notificação relativa ao parâmetro `Netboot` no separador `Informações gerais`{.action}.
 
-Quando terminar as suas tarefas em modo rescue, não se esqueça de redefinir o modo de boot (netboot) para `Fazer boot no disco rígido`{.action} e reinicie o seu servidor.
+![Netboot](images/rescue-mode-006.png){.thumbnail}
 
-### Ligação ao *rescue-customer-windows*
+O último passo consiste em reiniciar o servidor. Clique no botão `...`{.action} ao lado de "Estado" na zona **Estado dos serviços** e, a seguir, clique em `Reiniciar`{.action}. Clique em `Validar`{.action} na janela pop-up.
 
-Quando a palavra-passe for recuperada, terá três possibilidades de aceder ao servidor:
+![Reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
+
+Este *hard reboot* demorará alguns minutos a terminar. Pode verificar o estado atual no separador `Tarefas`{.action}.
+
+> [!primary]
+>
+> Depois de concluir as suas ações em modo rescue, não se esqueça de redefinir o parâmetro `Netboot` em `Fazer boot no disco rígido`{.action} antes de reiniciar o servidor.
+
+### Aceder ao seu servidor em modo rescue
+
+Depois de receber um e-mail a informar que o modo rescue está ativado, poderá aceder ao sistema através do modo rescue do Windows e aceder ao servidor.  
+Este e-mail também estará disponível no seu [Área de Cliente OVHcloud](/links/manager) assim que for enviado. Clique no seu ID de cliente no canto superior direito e, em seguida, selecione `E-mails de serviço`{.action}.
+
+Para efetuar uma sessão remota no sistema em modo rescue do Windows, precisará das seguintes informações de identificação:
+
+- Endereço IP do servidor
+- Nome de utilizador da conta de administrador temporário (`Administrator`)
+- Palavra-passe da conta de administrador temporário
+
+Pode utilizar os seguintes métodos de ligação para aceder ao servidor através do sistema em modo Rescue do Windows:
 
 - Remote Desktop Protocol (RDP)
-- SSH (componente oficial Windows OpenSSH Server)
-- KVM IP (se o seu servidor o permitir)
+- KVM over IP (se o seu servidor o permitir)
+- OpenSSH (componente oficial do Windows Server)
 
-> [!warning]
->
-> Em todo o caso, ser-lhe-á pedida a palavra-passe.
->
-> O utilizador de início de sessão é `Administrator`.
->
-> A palavra-passe é transmitida através de um link `secret-as-a-service`.
+#### RDP
 
-#### Utilização do KVM IP
+/// details | Expanda esta secção
 
-No ecrã de login do KVM pode selecionar um idioma diferente para o teclado.
+Para se conectar, utilize o cliente `Remote Desktop Connection` do Windows ou qualquer aplicação compatível.
 
-![KVM Login Screen](images/rescue-kvm-login-screen.png){.thumbnail}
+![rdp connection](/pages/assets/screens/other/windows/windows_rdp.png){.thumbnail}
 
-![KVM Language Screen](images/rescue-kvm-login-language.png){.thumbnail}
+///
+
+#### KVM
+
+/// details | Expanda esta secção
+
+No ecrã de ligação KVM, pode selecionar outro idioma do teclado.
+
+![KVM Login Screen](images/rescue-kvm-login-screen.png){.thumbnail width="800"}
+
+![KVM Language Screen](images/rescue-kvm-login-language.png){.thumbnail width="800"}
 
 Pode alterar as opções de acessibilidade e ativar o teclado virtual:
 
-![KVM accessibility Screen](images/rescue-kvm-login-accessibility.png){.thumbnail}
+![KVM acessibilidade Screen](images/rescue-kvm-login-accessibility.png){.thumbnail width="800"}
 
-![KVM keyboard Screen](images/rescue-kvm-login-keyboard.png){.thumbnail}
+![KVM keyboard screen](images/rescue-kvm-login-keyboard.png){.thumbnail width="800"}
 
-### Montar os discos
+Para mais informações, consulte o nosso manual: [Como utilizar a consola IPMI com um servidor dedicado](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers)
 
-É possível que os discos ligados sejam considerados como "Volumes Dinâmicos". Para as utilizar, queira consultar a [documentação oficial da Microsoft](https://learn.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/troubleshoot-disk-management#a-dynamic-disks-status-is-foreign).
+///
+
+#### SSH
+
+/// details | Expanda esta secção
+
+Abra a aplicação de linha de comandos no seu dispositivo local e introduza este comando:
+
+```bash
+ssh Administrator@SERVER_IP
+```
+
+Exemplo:
+
+```bash
+ssh Administrator@203.0.113.100
+```
+
+Introduza a palavra-passe do Modo Rescue Temporário quando tal lhe for solicitado. Exemplo:
+
+```console
+Administrator@ns9356771.ip-203-0-113.eu's password:
+administrator@WINRESCUEOVH C:\Users\Administrator>
+```
+
+Encontre mais informações sobre as ligações SSH no nosso [guia de introdução ao SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).  
+Também pode utilizar qualquer ferramenta de ligação SSH, como [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
+
+///
+
+### Importação de discos para aceder aos seus ficheiros
+
+Uma vez ligado ao cliente de backup do Windows, tem de importar (*mount*) os discos do servidor Windows antes de aceder ao sistema de ficheiros.
+
+/// details | Expanda esta secção
+
+> [!warning]
+> Os exemplos de instruções e capturas de ecrã que se seguem ilustram o processo de montagem baseado num servidor com dois discos espelhados (RAID1). Os detalhes apresentados pela Ferramenta de Gestão de Discos dependem da configuração de disco do servidor.  
+> Para mais informações, consulte a [documentação oficial da Microsoft](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/overview-of-disk-management).
+>
+> Se necessitar de assistência profissional para a administração do seu servidor, consulte a secção [Quer saber mais](#gofurther) deste guia.
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt1.png){.thumbnail} |
+|---|
+| Clique com o botão direito do rato no botão `Start Menu`{.action} e abra o `Disk Management`{.action}. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt2.png){.thumbnail width="700"} |
+|---|
+| `Disk 0` contém o sistema rescue (volume `C:`). Os discos do seu servidor Windows serão apresentados como `Offline`. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt3.png){.thumbnail} |
+|---|
+| Clique com o botão direito do rato em cada disco e selecione `Online`{.action} no menu contextual. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt4.png){.thumbnail} |
+|---|
+Os discos do servidor são agora [reconhecidos pelo sistema rescue como `Foreign`](https://learn.microsoft.com/en-us/troubleshoot/windows-server/backup-and-storage/troubleshoot-disk-management#a-dynamic-disks-status-is-foreign), um estado que indica que os discos ligados pertencem a um sistema operativo diferente. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt5.png){.thumbnail} |
+|---|
+| Clique com o botão direito do rato num disco e selecione `Import Foreign Disks...`{.action} no menu contextual. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt6.png){.thumbnail} |
+|---|
+| Se aplicável, selecione os discos que pretende importar. Clique em `OK`{.action}. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt7.png){.thumbnail} |
+|---|
+| Clique em `OK`{.action}. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt8.png){.thumbnail} |
+|---|
+Neste exemplo, os dois discos do servidor são espelhados, pelo que o estado `Resynching` será apresentado. Esse é o processo normal e a ressincronização continuará quando o servidor for reiniciado no sistema operativo instalado. |
+
+| ![Gestão dos discos Windows](images/rescue-disk-mgmt9.png){.thumbnail} |
+|---|
+| Para aceder aos seus ficheiros, clique com o botão direito do rato na partição Windows do seu `Disk 1` e selecione `Open`{.action} no menu contextual. |
+
+///
 
 ### Utilitários recomendados
 
-> [!warning]
+> [!primary]
 >
-> Apresentamos a seguir uma lista dos softwares recomendados para determinadas utilizações.
-> Este software não é instalado por predefinição na imagem do *rescue* e está facilmente disponível na Internet.
+> Não é pré-instalado qualquer software adicional no sistema em modo Rescue. Abaixo, encontrará uma lista das ferramentas recomendadas, disponíveis no website dos respetivos programadores.
 
 | Software | Descrição |
 | --- | --- |
 | CrystalDiskInfo | Ferramenta de diagnóstico do disco |
-| 7Zip | Ferramenta de gestão de arquivos |
-| FileZilla | Cliente FTP open source |
+| 7-Zip | Ferramenta de gestão de arquivos |
+| FileZilla | Cliente FTP |
+
+### Saída do modo rescue
+
+Em [Área de Cliente OVHcloud](/links/manager), [altere o modo de arranque](#netboot) novamente em `Fazer boot no disco rígido`{.action} e valide.
+
+![Netboot Disk](images/rescue-mode-007.png){.thumbnail width="800"}
+
+A seguir, utilize a função `Reiniciar`{.action} na sua Área de Cliente OVHcloud.
+
+<a name="gofurther"></a>
 
 ## Quer saber mais?
 
-- [Ativar e utilizar o modo rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+[Como ativar e utilizar o modo rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Fale com nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+[Como alterar a palavra-passe de administrador num servidor dedicado Windows](/pages/bare_metal_cloud/dedicated_servers/rcw-changing-admin-password-on-windows)
+
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
+
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
+
+Fale com nossa [comunidade de utilizadores](/links/community).

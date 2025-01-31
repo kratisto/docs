@@ -138,7 +138,7 @@ Ostatni etap polega na zrestartowaniu serwera. Kliknij przycisk `...`{.action} o
 
 ![Reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
-Reboot sprzętowy* zajmie kilka minut. Możesz sprawdzić aktualny status w zakładce `Zadania`{.action}.
+Reboot sprzętowy zajmie kilka minut. Możesz sprawdzić aktualny status w zakładce `Zadania`{.action}.
 
 > [!primary]
 >
