@@ -102,7 +102,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **7*
 >>
 > **Etape 7**
 >>
->> Dans le formulaire des détails du titulaire, veillez à entrer des informations valides dans tous les champs obligatoires. Soyez vigilant sur les erreurs de saisie et utilisez des [caractères imprimables ASCII](http://facweb.cs.depaul.edu/sjost/it212/documents/ascii-pr.htm) dans la mesure du possible. Veuillez noter que toute information inexacte ou fausse peut entraîner une erreur technique et donc un retard de l'ensemble du processus d'échange.
+>> Dans le formulaire des détails du titulaire, veillez à entrer des informations valides dans tous les champs obligatoires. Soyez vigilant sur les erreurs de saisie et utilisez des [caractères imprimables ASCII](http://facweb.cs.depaul.edu/sjost/it212/documents/ascii-pr.htm) dans la mesure du possible. Veuillez noter que toute information inexacte ou fausse peut entraîner une erreur technique et donc un retard de l'ensemble du processus.
 >>
 >> Une fois que vous avez confirmé votre demande d'échange, deux e-mails vous seront envoyés pour confirmer ou annuler cette demande :
 >>
