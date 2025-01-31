@@ -1,7 +1,7 @@
 ---
-title: "Lista dos endereços IP dos clusters e alojamentos web"
+title: "Alojamento web - Lista dos endereços IP por cluster"
 excerpt: "Saiba todos os endereços IP disponíveis nos nossos alojamentos web"
-updated: 2024-02-28
+updated: 2025-01-29
 ---
 
 ## Objetivo
@@ -27,8 +27,34 @@ Neste guia encontrará todos os endereços IP dos alojamentos web OVHcloud. Assi
 
 ## Instruções
 
-Para conhecer o cluster de alojamento web no qual se encontra o seu serviço, aceda à [Área de Cliente OVHcloud](/links/manager) e selecione a `Web Cloud`{.action}. Clique em `Alojamentos`{.action} e escolha o alojamento web em causa. A seguir, aceda ao separador `FTP - SSH`{.action}.
-Pode verificar o número de cluster do alojamento Web nesta página em **Servidor FTP**.
+Para conhecer o cluster de alojamento web no qual se encontra o seu serviço, clique nas janelas abaixo para visualizar cada uma das etapas **4**.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Clique no menu pendente `Alojamentos`{.action} e escolha o alojamento web em causa.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> Na página que se abrir, clique no separador `FTP - SSH`{.action}. 
+>>
+>> ![FTP-SSH](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ftp-ssh.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> Na nova página, obtenha o número do cluster do alojamento web nesta página com a menção **Servidor FTP e SFTP** (3 algarismos entre `0` e `9`).
+>>
+>> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
+>>
+
 
 ### Cluster 002
 
