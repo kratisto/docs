@@ -86,7 +86,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **7*
 >>
 >> > [!warning]
 >> >
->> > Toute modification apportée au prénom, au nom, à l’organisation, au statut légal et à l’adresse e-mail du titulaire est considérée comme un **changement de titulaire**.
+>> > Toute modification apportée au prénom, au nom, à l’organisation, au statut légal ou à l’adresse e-mail du titulaire est considérée comme un **changement de titulaire**.
 >> > 
 >> > Si vous modifiez **uniquement** des coordonnées du titulaire autres que celles mentionnées ci-dessus, faites vos modifications directement, puis cliquez sur `Valider`{.action}. Dans ce cas précis, il ne sera pas nécessaire de lancer une demande de changement de titulaire. Pour cette opération, vous n'avez pas besoin de confirmer les modifications par e-mail.
 >> >
