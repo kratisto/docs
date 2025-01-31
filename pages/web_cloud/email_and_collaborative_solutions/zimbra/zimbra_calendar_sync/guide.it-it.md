@@ -1,6 +1,6 @@
 ---
 title: "Sincronizzare un calendario CalDAV Zimbra in un'applicazione"
-excerpt: "Scopri come aggiungere un calendario Zimbra a un'applicazione tramite il protocollo CalDAV"
+excerpt: "Questa guida ti mostra come aggiungere un calendario Zimbra a un'applicazione tramite il protocollo CalDAV"
 updated: 2025-01-13
 ---
 
@@ -27,7 +27,7 @@ updated: 2025-01-13
 
 Gli account email Zimbra possono essere configurati su client di posta compatibili. per permetterti di utilizzare il tuo indirizzo email dal dispositivo che preferisci. Zimbra include la funzionalità di calendario condiviso, che può quindi essere sincronizzata da un software compatibile con CalDAV.
 
-**Come aggiungere un calendario Zimbra a un'applicazione tramite il protocollo CalDAV.**
+**Questa guida ti mostra aggiungere un calendario Zimbra a un'applicazione tramite il protocollo CalDAV.**
 
 ## Prerequisiti
 
