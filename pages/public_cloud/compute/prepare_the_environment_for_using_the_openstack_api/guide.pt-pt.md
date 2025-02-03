@@ -1,6 +1,6 @@
 ---
 title: 'Preparar o ambiente para utilizar a API OpenStack'
-excerpt: 'Instale o ambiente OpenStack para controlar as suas instâncias através da API'
+excerpt: 'Instale o ambiente OpenStack para controlar os seus serviços através da API'
 updated: 2024-12-05
 ---
 

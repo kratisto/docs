@@ -1,6 +1,6 @@
 ---
 title: 'Preparing an environment for using the OpenStack API'
-excerpt: 'Install the OpenStack environment to manage your instances via the API'
+excerpt: 'Install the OpenStack environment to manage your services via the API'
 updated: 2024-12-05
 ---
 

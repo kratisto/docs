@@ -1,6 +1,6 @@
 ---
 title: 'Przygotowanie środowiska do korzystania z API OpenStack'
-excerpt: 'Zainstaluj środowisko OpenStack, aby monitorować Twoje instancje za pośrednictwem API'
+excerpt: 'Zainstaluj środowisko OpenStack, aby monitorować Twoje usługi przez API'
 updated: 2024-12-05
 ---
 
