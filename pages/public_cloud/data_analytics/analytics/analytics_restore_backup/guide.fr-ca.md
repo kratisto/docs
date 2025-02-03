@@ -69,7 +69,7 @@ The most common option is to restore from a backup.
 
 ##### **Specific date and latest**
 
-If your service supports point in time recovery (see the [Automated Backup guide](/pages/public_cloud/data_analytics/analytics/information_07_automated_backups) for more details), you will also be offered the option to restore from a specific date and time.
+If your service supports point in time recovery (see the [Automated Backup guide](/pages/public_cloud/data_analytics/analytics/information_05_automated_backups) for more details), you will also be offered the option to restore from a specific date and time.
 
 ![Restore point from a specific date](images/restore-point-selection-date.png){.thumbnail}
 
