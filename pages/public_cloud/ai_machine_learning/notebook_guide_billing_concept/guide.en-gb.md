@@ -47,7 +47,7 @@ During the notebook creation, you can select **compute resources**, known as CPU
 
 Rates for compute are mentioned per hour to facilitate reading of the prices, but the billing granularity remains **per minute**. 
 
-As stated above and shown in the image above, you pay for these resources as long as you consume them. This happens when the image of your notebook is pulled, during the `STARTING` phase, but also during `RUNNING`, and `STOPPING` phases, until you reach the `STOPPED`.
+As stated above and shown in the image above, you pay for these resources as long as you consume them. This happens when the image of your notebook is pulled, during the `STARTING` phase, but also during `RUNNING` and `STOPPING` phases, until you reach the `STOPPED` phase.
 
 ### Storage details
 
@@ -63,7 +63,7 @@ The pricing of these different storages is different.
 
 Remote data is the one that comes from the OVHcloud Object Storage solution. During notebook creation, you are able to mount some Object Storage containers into your notebook.
 
-When working with notebooks that contain remote data like that, you pay separately for the storage of this data. The pricing of Object Storage is apart from the notebook pricing.
+In situations where you are utilizing notebooks with attached remote data, you will be charged separately for the storage of this data. The cost of Object Storage is independent of the pricing for notebooks.
 
 #### Workspace storage
 

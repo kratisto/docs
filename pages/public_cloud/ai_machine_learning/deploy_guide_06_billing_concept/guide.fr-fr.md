@@ -25,7 +25,7 @@ OVHcloud AI deploy allows deployment of Docker images, and each deployment is ca
 During its lifetime, the app will go through the following status:
 
 - `QUEUED`: the app deployment request is about to be processed.
-- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
+- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - Concept and best practices](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
 - `SCALING`: First, the system allocates the necessary compute resources (CPU/GPU) for the app. Then, the specified Docker image is pulled for use in the app. This status is also entered when the number of app replicas is being increased or decreased.
 - `RUNNING`: At least one replica of the app is available and accessible via its endpoint. As the app scales up to create new replicas, the status transitions back to `SCALING`. However, there is no interruption in service, and the original replica(s) remain accessible during this time.
 - `STOPPING`: the app is stopping, your compute resources are freed. Ephemeral data is deleted. If any, remote data is synchronized back to the Object Storage.
