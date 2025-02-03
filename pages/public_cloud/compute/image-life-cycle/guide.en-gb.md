@@ -6,9 +6,11 @@ updated: 2024-09-04
 
 ## Objective
 
-This documentation will share the end of life (EOL) roadmap for OVHcloud images. OVHcloud follows the official life cycle of each distribution. This means that when a distribution reaches its end of life, it will also be the EOL of the corresponding OVHcloud image for VPS and Public Cloud services on the same date.
+This documentation will share the end of life (EOL)roadmap, updates and upcoming releases for OVHcloud images/OS. OVHcloud follows the official life cycle of each distribution. This means that when a distribution reaches its end of life, it will also be the EOL of the corresponding OVHcloud image for VPS and Public Cloud services on the same date.
 
-This guide will provide you with information on the end of life (EO) roadmap for OVHcloud images, as well as end-of-life and support announcements for distributions and software available with OVHcloud [VPS](https://www.ovhcloud.com/en-gb/vps/os/) and [Public Cloud instances](https://www.ovhcloud.com/en-gb/public-cloud/public-image-catalog/). Stay up to date on critical changes that could affect the security and performance of your services.
+This guide will provide you with information on the end of life (EOL) roadmap for OVHcloud images, as well as end-of-life and support announcements for distributions and software available with OVHcloud VPS and Public Cloud instances. Stay up to date on critical changes that could affect the security and performance of your services.
+
+OVHcloud follows the official life cycle of each distribution. All source of informations are listed below.
 
 **Discover the lifecycle and end-of-life/end-of-support announcements for distributions and softwares for your VPS or Public Cloud instance.**
 
@@ -18,143 +20,57 @@ This guide will provide you with information on the end of life (EO) roadmap for
 | ----------------------------- | ----------------------------------------------------------------------------------------- |
 | Debian                        | [Life Cycle](https://wiki.debian.org/DebianReleases)                                      |
 | Ubuntu                        | [Life Cycle](https://wiki.ubuntu.com/Releases)                                            |
-| Centos                        | [Life Cycle](https://wiki.centos.org/About/Product)                                       |
+| Centos                        | [Life Cycle](https://endoflife.date/centos)                                       |
 | Fedora                        | [Life Cycle](https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle)                    |
 | Almalinux                     | [Life Cycle](https://wiki.almalinux.org/release-notes/)                                   |
 | Rocky Linux                   | [Life Cycle](https://wiki.rockylinux.org/rocky/version/)                                  |
 | CloudLinux                    | [Life Cycle](https://docs.cloudlinux.com/introduction/#cloudlinux-os-life-cycle)          |
-| Windows Server 2016           | [Life Cycle](https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2016)     |
-| Windows Server 2019           | [Life Cycle](https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2019)     |
-| Windows Server 2022           | [Life Cycle](https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2022)     |
+| Windows Server 2016           | [Life Cycle](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support)     |
+| Windows Server 2019           | [Life Cycle](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support)     |
+| Windows Server 2022           | [Life Cycle](https://learn.microsoft.com/en-us/microsoft-365-apps/end-of-support/windows-server-support)     |
 
 ## End of Support/End of Life Announcements
 
-### AlmaLinuxOS
+> [!info]
+>
+> This section aims to rapidly give you the high-level view of Operating systems versions and support by OVHcloud.
+>
+> Please note before that :
+> 
+> - OVHcloud Linux releases can have a couple of weeks of delay compared to distribution releases.
+> - OVHcloud Windows releases can have a couple of months of delay compared to Microsoft releases.
+> - OVHcloud VPS preinstalled OS follow exactly the same OS lifecycle as mainstream OS.
+> - For more information, you can connect to roadmap [GitHub](https://github.com/orgs/ovh/projects/16/views/1).
+>
 
-Find more information on <https://endoflife.date/almalinux>.
+#### Debian
 
-#### AlmaLinux 8
+| Version | Code name | Distribution Release date | End of Standard Support | End of life date ( End of security patches ) |
+| 14 | [Forky](https://wiki.debian.org/DebianForky) | | | | 
+| 13 | [Trixie](https://wiki.debian.org/DebianTrixie) | | | |  
+| 12 | [Bookworm](https://wiki.debian.org/DebianBookworm) | [2023-06-10](https://www.debian.org/News/2023/20230610) | | 2026-06-10 |
+| 11 | [Bullseye](https://wiki.debian.org/DebianBullseye) | [2021-08-14](https://www.debian.org/News/2021/20210814) | | [2024-08-14](https://www.debian.org/News/2024/20240814) |
+| 10 | [Buster](https://wiki.debian.org/DebianBuster) | [2019-07-06](https://www.debian.org/News/2019/20190706) | | [2022-09-10](https://www.debian.org/News/2022/20220910) |
 
-- End of active support: 2024-05-31
-- End of security support: 2029-05-31
+#### Debian
 
-#### AlmaLinux 9
+| Version | Code name | Distribution Release date | End of Standard Support | End of life date |
+| Ubuntu 25.04 | [Plucky Puffin](https://wiki.ubuntu.com/PluckyPuffin) | [Release Notes](https://discourse.ubuntu.com/t/plucky-puffin-release-schedule/36461) | 2025-04-17 | January 2026 | 
+| Ubuntu 24.10 | [Oracular Oriole](https://wiki.ubuntu.com/OracularOriole) | [2024-10-10](https://lists.ubuntu.com/archives/ubuntu-announce/2024-October/000307.html) | July 2025 | July 2025 |  
+| Ubuntu 24.04.1 LTS | [Noble Numbat](https://wiki.ubuntu.com/NobleNumbat) | [2023-06-10](https://www.debian.org/News/2023/20230610) | | 2026-06-10 |
+| Ubuntu 22.04.5 LTS | [Jammy Jellyfish](https://wiki.ubuntu.com/JammyJellyfish) | [2021-08-14](https://www.debian.org/News/2021/20210814) | | [2024-08-14](https://www.debian.org/News/2024/20240814) |
+| Ubuntu 20.04.6 LTS | [Focal Fossa](https://wiki.ubuntu.com/FocalFossa) | [2019-07-06](https://www.debian.org/News/2019/20190706) | | [2022-09-10](https://www.debian.org/News/2022/20220910) |
+| Ubuntu 18.04.6 LTS | [Bionic Beaver](https://wiki.ubuntu.com/BionicBeaver) | [2019-07-06](https://www.debian.org/News/2019/20190706) | | [2022-09-10](https://www.debian.org/News/2022/20220910) |
 
-- End of active support: 2027-05-31
-- End of security support: 2032-05-31
+<!-- #### Debian
 
-### CentOS
-
-Find more information on <https://endoflife.date/centos>.
-
-#### CentOS 7
-
-- End of Life: 2024-06-30
-
-### Debian
-
-Find more information on <https://endoflife.date/debian>.
-
-#### Debian 10
-
-- End of Support: 2024-06-30
-
-#### Debian 11
-
-- End of Support: 2026-06-30
-
-#### Debian 12
-
-- End of Support: 2028-06-30
-
-### Fedora Linux
-
-Find more information on <https://endoflife.date/fedora>.
-
-#### Fedora 37
-
-- End of Life: 2023-05-12
-
-#### Fedora 38
-
-- End of Life: 2024-05-21
-
-### Rocky Linux
-
-More information is available at <https://endoflife.date/rocky-linux>.
-
-#### Rocky Linux 8
-
-- End of active support: 2024-05-31
-- End of security support: 2029-05-31
-
-#### Rocky Linux 9
-
-- End of active support: 2027-05-31
-- End of security support: 2032-05-31
-
-### Ubuntu
-
-Find more information on <https://endoflife.date/ubuntu>.
-
-#### Ubuntu 20.04
-
-- End of security and maintenance support: 2025-04-02
-- End of extended security support: 2030-04-02
-
-#### Ubuntu 21.04
-
-- End of Life: 2022-01-20
-
-#### Ubuntu 22.04
-
-- End of security and maintenance support: 2027-04-01
-- End of extended security support: 2032-04-09
-
-#### Ubuntu 23.04
-
-- End of Life: 2024-01-25
-
-### Microsoft Windows Server
-
-Find more information on <https://endoflife.date/windows-server>.
-
-#### Windows Server 2016 Standard (Desktop)
-
-- End of active support: 2022-01-11
-- End of security support: 2027-01-12
-
-#### Windows Server 2019 Standard (Desktop)
-
-- End of active support: 2024-01-09
-- End of security support: 2029-01-09
-
-#### Windows Server 2022 Standard (Desktop)
-
-- End of active support: 2026-10-13
-- End of security support: 2031-10-14
-
-### AlmaLinux OS
-
-Find more information on <https://endoflife.date/almalinux>.
-
-#### AlmaLinux 8 - cPanel
-
-- End of Life (cPanel): 2029-03-01
-
-### Debian
-
-Find more information on <https://endoflife.date/debian>.
-
-#### Debian 10 - Plesk
-
-- End of Standard Support (Debian 10): 2024-06-30
-- End of Extended Support (Debian 10): 2025-07-01
-
-#### Debian 10 - Docker
-
-- End of security support: 2022-09-10
-- End of long-term support: 2024-06-30
+| Version | Code name | Distribution Release date | End of Standard Support | End of life date |
+| Ubuntu 25.04 | test | | | | 
+| Ubuntu 24.10 | test | | | |  
+| Ubuntu 24.04.1 LTS | test | [2023-06-10](https://www.debian.org/News/2023/20230610) | | 2026-06-10 |
+| Ubuntu 22.04.5 LTS | test | [2021-08-14](https://www.debian.org/News/2021/20210814) | | [2024-08-14](https://www.debian.org/News/2024/20240814) |
+| Ubuntu 20.04.6 LTS | test | [2019-07-06](https://www.debian.org/News/2019/20190706) | | [2022-09-10](https://www.debian.org/News/2022/20220910) |
+| Ubuntu 18.04.6 LTS | test | [2019-07-06](https://www.debian.org/News/2019/20190706) | | [2022-09-10](https://www.debian.org/News/2022/20220910) | -->
 
 ## Go further
 
