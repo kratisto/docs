@@ -23,7 +23,7 @@ To adjust the flavor of your cluster, log in to the [OVHcloud Control Panel](/li
 
 ![Cluster overview](images/cluster_overview.png){.thumbnail}
 
-Click `Change node template`{.action} and djust the flavor of your cluster.
+Click `Change node template`{.action} and adjust the flavor of your cluster.
 
 ![Change node template](images/flavor_change_view.png){.thumbnail}
 
