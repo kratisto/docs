@@ -1,7 +1,7 @@
 ---
 title: Adapt your Inotify parameters for your Managed Kubernetes Service deployments
 excerpt: 'Adapt your Inotify parameters for your deployments which need specific Inotify parameters'
-updated: 2025-01-24
+updated: 2025-02-03
 ---
 
 ## Objective
@@ -31,31 +31,44 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: sysctl-tuner
+  namespace: kube-system
 spec:
   selector:
     matchLabels:
-      name: sysctl-tuner
+      app: sysctl-tuner
+  updateStrategy:
+    type: RollingUpdate
   template:
     metadata:
       labels:
-        name: sysctl-tuner
-      spec:
-        containers:
-          - name: sysctl
-            image: busybox
-            securityContext:
-              privileged: true
-            command:
-              - sh
-              - -c
-              - "sysctl -w fs.inotify.max_user_watches=<value>" # Define the value you need
-        hostNetwork: true
-        hostPID: true
-        tolerations:
-          - operator: "Exists" # Allow running on all nodes, including tainted ones
+        app: sysctl-tuner
+    spec:
+      hostPID: true
+      priorityClassName: system-node-critical
+      hostNetwork: true
+      tolerations:
+      - operator: Exists
+      initContainers:
+        - image: busybox
+          name: sysctl-tuner
+          command: 
+          - sh
+          - -c
+          - "sysctl -w fs.inotify.max_user_watches=<value> && sysctl -w fs.inotify.max_user_instances=<value>"
+          securityContext:
+            privileged: true
+            runAsUser: 0
+          volumeMounts:
+            - name: root-mount
+              mountPath: /host
+            - name: entrypoint
+              mountPath: /scripts
+      containers:
+      - image: registry.k8s.io/pause:3.10 
+        name: pause
 ```
 
-Define the value of the sysctl key `fs.inotify.max_user_watches` based on your applications' needs.
+Define the value of the sysctl key `fs.inotify.max_user_watches` and `fs.inotify.max_user_instances` based on your applications' needs.
 
 The DaemonSet will set the sysctl parameter `fs.inotify.max_user_watches` with the value you provided in the DaemonSet configuration on all nodes deployed into your Kubernetes Cluster.
 
