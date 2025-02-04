@@ -208,7 +208,7 @@ The IP is being released, the operation may take several minutes.
 
 ### In case of false positives
 
-In some cases, the spam alert may be a false positive. If you have checked and found that the **Message-ID** comes from a legitimate e-mail, then you must ensure that your e-mails comply with the [RFC](#rfc) and the [Best Practices](#bestpractices) indicated below.
+In some cases, the anti-spam alert may be a false positive. If you have checked and found that the **Message-ID** comes from a legitimate e-mail, then you must ensure that your e-mails comply with the [RFC](#rfc) and the [Best Practices](#bestpractices) indicated below.
 
 #### RFC <a name="rfc"></a>
 
