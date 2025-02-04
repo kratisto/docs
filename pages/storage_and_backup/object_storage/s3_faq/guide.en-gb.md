@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "Frequently Asked Questions on the Object Storage solution"
-updated: 2024-12-11
+updated: 2024-02-05
 ---
 
 ## General questions
@@ -56,7 +56,7 @@ Yes, Object Storage is largely compatible with S3 APIs and can be integrated wit
 
 ### How is the service billed?
 
-Object Storage is billed according to the storage space used, with a granularity of 1GB. To ensure readability, the price is displayed per GB/month, but the billing granularity is per GB/hour. View pricing on [this page](/links/public-cloud/prices).
+Object Storage is billed according to the storage space used, with a granularity of 1GiB. To ensure readability, the price is displayed per GiB/month, but the billing granularity is per GiB/hour. View pricing on [this page](/links/public-cloud/prices).
 
 ### Billing example for Object Storage – 1-AZ
 
