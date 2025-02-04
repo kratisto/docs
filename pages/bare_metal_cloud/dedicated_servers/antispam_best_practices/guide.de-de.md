@@ -44,7 +44,7 @@ Sobald das Sytem eine IP-Adresse wegen SPAM sperrt, wird eine E-Mail mit entspre
 
 **Was ist bei einer E-Mail-Benachrichtigung zu tun?**
 
-Die Vorgehensweise besteht darin, das Problem zu identifizieren, es zu lösen und dann Ihre IP zu entsperren.
+Die Vorgehensweise besteht darin, die Problemursache zu identifizieren, sie zu beheben und dann Ihre IP zu entsperren.
 
 ### Das Problem identifizieren und lösen
 
