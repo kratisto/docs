@@ -1,7 +1,7 @@
 ---
 title: 'Public Cloud & VPS - Image and OS life cycle and end of life/support announcements'
 excerpt: Discover the lifecycle and end-of-life/end-of-support announcements for distributions and softwares for your VPS or Public Cloud instance
-updated: 2025-02-04
+updated: 2025-02-06
 ---
 
 ## Objective
@@ -44,7 +44,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### AlmaLinuxOS
 
-| Version | Code name | Distribution Release date | End of Standard Support | End of life date |
+| Version | Code name | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- | ------- |
 | [9](https://wiki.almalinux.org/release-notes/9.5.html) | Teal Serval | November 2024 | May 2027 | |
 | [8](https://wiki.almalinux.org/release-notes/8.10.html) | Cerulean Leopard | May 2024 | May 2024 | |
@@ -58,7 +58,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### CloudLinux
 
-| Version | Distribution Release date | End of Standard Support | End of life date |
+| Version | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- |
 | CloudLinux OS 9 | January 2023 | May 2027 | May 2032 |
 | CloudLinux OS 8 | March 2020 | May 2024 | May 2029 |
@@ -67,7 +67,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### Debian
 
-| Version | Code name | Distribution Release date | End of Standard Support | End of life ( End of security patches ) |
+| Version | Code name | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- | ------- |
 | 14 | [Forky](https://wiki.debian.org/DebianForky) | | | |
 | 13 | [Trixie](https://wiki.debian.org/DebianTrixie) | | | |
@@ -77,7 +77,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### Fedora Linux
 
-| Version | Distribution Release date | End of Standard Support | End of life date |
+| Version | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- |
 | Fedora Linux 43 | October 2025 | Until EoL | December 2026 |
 | Fedora Linux 42 | April 2025 | Until EoL | June 2026 |
@@ -88,7 +88,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### Microsoft Windows Server
 
-| Version | "Provider" Release date | End of Standard Support | End of life date |
+| Version | "Provider" Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- |
 | Windows Server 2025 | November 2024 | October 2029 | October 2034 |
 | Windows Server 2022 | August 2021 | October 2026 | October 2031 |
@@ -108,7 +108,7 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 #### Rocky Linux
 
-| Version | Code name | Distribution Release date | End of Standard Support | End of life date |
+| Version | Code name | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- | ------- |
 | Rocky Linux 9 | Blue Onyx | July 2022 | May 2027 | May 2032 |
 | Rocky Linux 8 | Green Obsidian | May 2021 | May 2024 | May 2029 |

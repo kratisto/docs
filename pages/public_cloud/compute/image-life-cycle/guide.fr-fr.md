@@ -1,7 +1,7 @@
 ---
 title: "Public Cloud & VPS - Cycle de vie et annonces de fin de vie/support des images et distributions"
 excerpt: "Découvrez le cycle de vie et les annonces de fin de vie et de support des distributions et logiciels pour votre VPS ou votre instance Public Cloud"
-updated: 2025-02-04
+updated: 2025-02-06
 ---
 
 ## Objectif
@@ -67,7 +67,7 @@ OVHcloud suit le cycle de vie officiel de chaque distribution. Toutes les source
 
 #### Debian
 
-| Version | Nom de code | Date de sortie de la distribution | Fin de support standard | Fin de vie ( Fin des patch de sécurité ) |
+| Version | Nom de code | Date de sortie de la distribution | Fin de support standard | Fin de vie |
 | ------- | ------- | ------- | ------- | ------- |
 | 14 | [Forky](https://wiki.debian.org/DebianForky) | | | |
 | 13 | [Trixie](https://wiki.debian.org/DebianTrixie) | | | |
@@ -88,7 +88,7 @@ OVHcloud suit le cycle de vie officiel de chaque distribution. Toutes les source
 
 #### Microsoft Windows Server
 
-| Version | "Provider" Release date | Fin de support standard | Fin de vie |
+| Version | Date de sortie "Provider" | Fin de support standard | Fin de vie |
 | ------- | ------- | ------- | ------- |
 | Windows Server 2025 | Novembre 2024 | Octobre 2029 | Octobre 2034 |
 | Windows Server 2022 | Août 2021 | Octobre 2026 | Octobre 2031 |
