@@ -46,8 +46,8 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 
 | Version | Code name | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- | ------- |
-| [9](https://wiki.almalinux.org/release-notes/9.5.html) | Teal Serval | November 2024 | May 2027 | |
-| [8](https://wiki.almalinux.org/release-notes/8.10.html) | Cerulean Leopard | May 2024 | May 2024 | |
+| [9](https://wiki.almalinux.org/release-notes/9.5.html) | Teal Serval | November 2024 | May 2027 | May 2032 |
+| [8](https://wiki.almalinux.org/release-notes/8.10.html) | Cerulean Leopard | May 2024 | May 2024 | March 2029 |
 
 #### CentOS
 
@@ -71,9 +71,9 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 | ------- | ------- | ------- | ------- | ------- |
 | 14 | [Forky](https://wiki.debian.org/DebianForky) | | | |
 | 13 | [Trixie](https://wiki.debian.org/DebianTrixie) | | | |
-| 12 | [Bookworm](https://wiki.debian.org/DebianBookworm) | [2023-06-10](https://www.debian.org/News/2023/20230610) | June 2026 | October 2028 |
-| 11 | [Bullseye](https://wiki.debian.org/DebianBullseye) | [2021-08-14](https://www.debian.org/News/2021/20210814) | | August 2026 |
-| 10 | [Buster](https://wiki.debian.org/DebianBuster) | [2019-07-06](https://www.debian.org/News/2019/20190706) | | June 2024 |
+| 12 | [Bookworm](https://wiki.debian.org/DebianBookworm) | June 2023 | June 2026 | June 2028 |
+| 11 | [Bullseye](https://wiki.debian.org/DebianBullseye) | August 2021 | | August 2026 |
+| 10 | [Buster](https://wiki.debian.org/DebianBuster) | July 2019 | | June 2024 |
 
 #### Fedora Linux
 
@@ -100,11 +100,11 @@ OVHcloud follows the official life cycle of each distribution. All source of inf
 | Version | Code name | Distribution Release date | End of Standard Support | End of life |
 | ------- | ------- | ------- | ------- | ------- |
 | Ubuntu 25.04 | [Plucky Puffin](https://wiki.ubuntu.com/PluckyPuffin) | [Release Notes](https://discourse.ubuntu.com/t/plucky-puffin-release-schedule/36461) | January 2026 | January 2026 |
-| Ubuntu 24.10 | [Oracular Oriole](https://wiki.ubuntu.com/OracularOriole) | [2024-10-10](https://lists.ubuntu.com/archives/ubuntu-announce/2024-October/000307.html) | July 2025 | July 2025 |
-| Ubuntu 24.04.1 LTS | [Noble Numbat](https://wiki.ubuntu.com/NobleNumbat) | [2024-08-29](https://lists.ubuntu.com/archives/ubuntu-announce/2024-August/000304.html) | April 2029 | April 2029 |
-| Ubuntu 22.04.5 LTS | [Jammy Jellyfish](https://wiki.ubuntu.com/JammyJellyfish) | [2024-09-12](https://lists.ubuntu.com/archives/ubuntu-announce/2024-September/000305.html) | April 2027 | April 2027 |
-| Ubuntu 20.04.6 LTS | [Focal Fossa](https://wiki.ubuntu.com/FocalFossa) | [2023-03-23](https://lists.ubuntu.com/archives/ubuntu-announce/2023-March/000287.html) | April 2025 | April 2025 |
-| Ubuntu 18.04.6 LTS | [Bionic Beaver](https://wiki.ubuntu.com/BionicBeaver) | [2021-09-17](https://lists.ubuntu.com/archives/ubuntu-announce/2021-September/000272.html) | April 2023 | April 2023 |
+| Ubuntu 24.10 | [Oracular Oriole](https://wiki.ubuntu.com/OracularOriole) | October 2024 | July 2025 | July 2025 |
+| Ubuntu 24.04.1 LTS | [Noble Numbat](https://wiki.ubuntu.com/NobleNumbat) | August 2024 | April 2029 | April 2029 |
+| Ubuntu 22.04.5 LTS | [Jammy Jellyfish](https://wiki.ubuntu.com/JammyJellyfish) | September 2024 | April 2027 | April 2027 |
+| Ubuntu 20.04.6 LTS | [Focal Fossa](https://wiki.ubuntu.com/FocalFossa) | March 2023 | April 2025 | April 2025 |
+| Ubuntu 18.04.6 LTS | [Bionic Beaver](https://wiki.ubuntu.com/BionicBeaver) | September 2021 | April 2023 | April 2023 |
 
 #### Rocky Linux
 
