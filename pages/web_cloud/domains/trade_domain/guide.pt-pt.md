@@ -1,7 +1,7 @@
 ---
 title: "Nome de domínio - Como alterar o titular?"
 excerpt: "Saiba como alterar o titular de um domínio ou atualizar as informações associadas ao mesmo"
-updated: 2025-01-31
+updated: 2025-02-05
 ---
 
 ## Objetivo
@@ -13,7 +13,7 @@ Para além da [gestão dos contactos](/pages/account_and_service_management/acco
 >
 > Para isso, deve [modificar os contactos](/pages/account_and_service_management/account_information/managing_contacts) do nome de domínio.
 >
-> Se tiver de efetuar uma alteração de titular ou uma alteração de contacto para o mesmo domínio, não há nenhuma ordem particular a respeitar. No entanto, essas operações podem ser iniciadas por um contacto administrador. Assim, estas duas alterações ocorrem na Área de Cliente do contacto administrador do domínio.
+> Se tiver de efetuar uma alteração de titular ou uma alteração de contacto para o mesmo domínio, recomenda-se vivamente que efetue **antes de mais** a alteração de titular para garantir uma transição ideal. No entanto, essas operações podem ser iniciadas por um contacto administrador. Assim, estas duas alterações ocorrem na Área de Cliente do contacto administrador do domínio.
 >
 > De facto, as informações relativas ao titular de um nome de domínio têm apenas um valor administrativo e são totalmente independentes das informações que podem ser associadas a um identificador de cliente OVHcloud. Por conseguinte, um particular ou uma organização (sociedade, associação, etc.) apenas declarado titular de um domínio não tem acesso à Área de Cliente OVHcloud.
 >

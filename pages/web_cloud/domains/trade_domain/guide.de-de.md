@@ -1,7 +1,7 @@
 ---
 title: "Domainnamen - Inhaber eines Domainnamens ändern"
 excerpt: "Erfahren Sie hier, wie Sie den Inhaber eines Domainnamens ändern oder die zugehörigen Informationen aktualisieren"
-updated: 2025-01-31
+updated: 2025-02-05
 ---
 
 ## Ziel
@@ -13,7 +13,7 @@ Neben der Angabe von [Kontakten](/pages/account_and_service_management/account_i
 >
 > Hierzu müssen Sie die [Kontaktverwaltung](/pages/account_and_service_management/account_information/managing_contacts) des Domainnamens anpassen.
 >
-> Wenn Sie einen Inhaber- und Kontaktwechsel für denselben Domainnamen vornehmen müssen, gibt es dabei keine bevorzugte Reihenfolge. Es ist jedoch allein der Administrator-Kontakt, der diese Vorgänge einleiten kann. Diese beiden Änderungen werden daher im Kundencenter des Administrator-Kontakts für den Domainnamen vorgenommen.
+> Wenn Sie einen Inhaber- und Kontaktwechsel für denselben Domainnamen vornehmen müssen, empfehlen wir Ihnen dringend, **zuerst** den Inhaberwechsel vorzunehmen, um einen optimalen Übergang zu gewährleisten. Es ist jedoch allein der Administrator-Kontakt, der diese Vorgänge einleiten kann. Diese beiden Änderungen werden daher im Kundencenter des Administrator-Kontakts für den Domainnamen vorgenommen.
 >
 > Die Angaben zum Inhaber eines Domainnamens haben lediglich administrative Bedeutung und sind unabhängig von den Kontaktinformationen, die einer OVHcloud Kundenkennung entsprechen. Eine Einzelperson oder eine Organisation (Unternehmen, Verein, etc.), die nur als Inhaber eines Domainnamens deklariert ist, hat daher keinen Zugriff auf den Domainnamen im OVHcloud Kundencenter.
 >
