@@ -1,14 +1,14 @@
 ---
-title: Anuncios de fin de vida/venta/soporte de las versiones de PHP
-excerpt: Descubra las principales fechas de fin de vida, fin de soporte y fin de venta de las versiones de PHP para los planes de hosting de OVHcloud
-updated: 2025-01-17
+title: Anuncios de fin de vida/soporte de las versiones de PHP
+excerpt: Descubra las principales fechas de fin de vida y fin de soporte de las versiones de PHP para los planes de hosting de OVHcloud
+updated: 2025-02-05
 ---
 
 ## Objetivo
 
-La información contenida en esta guía se refiere a las versiones de PHP utilizadas en el marco de los servicios de Web Hosting, accesibles a través de la red de Web Hosting. En este documento se detallan las fechas de fin de venta (*End of Sale* o EoS), fin de vida útil (*End of Life* o EoL) y fin de soporte para estas versiones, lo que le ayuda a planificar eficazmente las transiciones y actualizaciones.
+La información contenida en esta guía se refiere a las versiones de PHP utilizadas en el marco de los servicios de Web Hosting, accesibles a través de la red de Web Hosting. En este documento se detallan las fechas de fin de vida útil (*End of Life* o EoL) y fin de soporte para estas versiones, lo que le ayuda a planificar eficazmente las transiciones y actualizaciones.
 
-**Descubra las principales fechas de fin de vida, fin de soporte y fin de venta de las versiones PHP.**
+**Descubra las principales fechas de fin de vida y fin de soporte de las versiones PHP.**
 
 ## Requisitos
 
@@ -34,6 +34,8 @@ La información contenida en esta guía se refiere a las versiones de PHP utiliz
 | PHP 5.3     | Fin del soporte activo: <span style="color:red;">30/06/2011</span><br>Fin del soporte de seguridad: <span style="color:red;">14/08/2014</span><br>Fin de vida: <span style="color:red;">03/09/2015</span> | Disponible                        | <span style="color:red;">Migración recomendada</span>                  |
 | PHP 5.2     | Fin del soporte activo: <span style="color:red;">02/11/2008</span><br>Fin del soporte de seguridad: <span style="color:red;">06/01/2011</span><br>Fin de vida: <span style="color:red;">06/01/2011</span> | Disponible                        | <span style="color:red;">Migración recomendada</span>                  |
 | PHP 4.4     | Fin del soporte activo: <span style="color:red;">07/08/2008</span><br>Fin del soporte de seguridad: <span style="color:red;">07/08/2008</span><br>Fin de vida: <span style="color:red;">07/08/2008</span> | No disponible                     | <span style="color:red;">Migración recomendada</span>                  |
+
+Para actualizar la versión PHP de su aplicación web, consulte la sección "La versión de PHP" de nuestra guía [Web hosting - Entorno, versión PHP, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting).
 
 ## Más información <a name="go-further"></a>
 

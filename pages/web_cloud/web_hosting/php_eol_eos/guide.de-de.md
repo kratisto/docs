@@ -1,14 +1,14 @@
 ---
-title: Ankündigungen zu Lebensdauer (EOL), Verfügbarkeit (EOS) und Support für PHP-Versionen
-excerpt: Erfahren Sie hier die wichtigsten End-of-Life-, End-of-Support- und End-of-Sales-Daten der PHP Versionen für OVHcloud Webhostings
-updated: 2025-01-20
+title: Ankündigungen zu Lebensdauer (EOL) und Support für PHP-Versionen
+excerpt: Erfahren Sie hier die wichtigsten End-of-Life- und End-of-Support-Daten der PHP Versionen für OVHcloud Webhostings
+updated: 2025-02-05
 ---
 
 ## Ziel
 
-Die in dieser Anleitung enthaltenen Informationen beziehen sich auf die im Rahmen der Webhosting-Dienste verwendeten PHP-Versionen, auf die über das Webhosting-Netzwerk zugegriffen werden kann. Dieses Dokument enthält Details zum End-of-Sale-Datum (EOS), End-of-Life-Datum (EOL) sowie zum End-of-Support-Datum für diese Versionen und hilft Ihnen bei der effektiven Planung von Übergängen und Upgrades.
+Die in dieser Anleitung enthaltenen Informationen beziehen sich auf die im Rahmen der Webhosting-Dienste verwendeten PHP-Versionen, auf die über das Webhosting-Netzwerk zugegriffen werden kann. Dieses Dokument enthält Details zum End-of-Life-Datum (EOL) sowie zum End-of-Support-Datum für diese Versionen und hilft Ihnen bei der effektiven Planung von Übergängen und Upgrades.
 
-**Hier finden Sie die wichtigsten End-of-Life-, End-of-Support- und End-of-Sales-Termine für PHP-Versionen.**
+**Hier finden Sie die wichtigsten End-of-Life- und End-of-Support-Termine für PHP-Versionen.**
 
 ## Voraussetzungen
 
@@ -35,6 +35,7 @@ Die in dieser Anleitung enthaltenen Informationen beziehen sich auf die im Rahme
 | PHP 5.2     | End of active support: <span style="color:red;">2008-11-02</span><br>End of security support: <span style="color:red;">2011-01-06</span><br>End of life: <span style="color:red;">2011-01-06</span> | Available                           | <span style="color:red;">Recommended migration</span> |
 | PHP 4.4     | End of active support: <span style="color:red;">2008-08-07</span><br>End of security support: <span style="color:red;">2008-08-07</span><br>End of life: <span style="color:red;">2008-08-07</span> | Not available                      | <span style="color:red;">Recommended migration</span> |
 
+Um die PHP-Version Ihrer Web-Anwendung zu aktualisieren, lesen Sie den Abschnitt "PHP-Version" unserer Anleitung [Webhosting - Laufzeitumgebung, PHP-Version, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting).
 
 ## Weiterführende Informationen <a name="go-further"></a>
 
