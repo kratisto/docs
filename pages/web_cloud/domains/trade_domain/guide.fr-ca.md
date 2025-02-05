@@ -1,7 +1,7 @@
 ---
 title: "Nom de domaine - Comment changer le titulaire ?"
 excerpt: "Découvrez comment changer le titulaire d'un nom de domaine ou mettre à jour les informations qui lui sont associées"
-updated: 2025-01-31
+updated: 2025-02-05
 ---
 
 ## Objectif
@@ -13,7 +13,8 @@ En dehors de la [gestion des contacts](/pages/account_and_service_management/acc
 >
 > Pour obtenir ce résultat, vous devez [modifier les contacts](/pages/account_and_service_management/account_information/managing_contacts) du nom de domaine.
 >
-> Si vous devez réaliser un changement de titulaire ainsi qu'un changement de contact pour le même nom de domaine, il n'y a pas d'ordre particulier à respecter. Cependant, c'est le contact administrateur qui est en mesure de lancer ces opérations. Ces deux changements se font, par conséquent, dans l'espace client du contact administrateur du nom de domaine.
+> Si vous devez réaliser un changement de titulaire ainsi qu'un changement de contact pour le même nom de domaine, il n'y a pas d'ordre particulier à respecter. Cependant et dans ce cas, nous vous conseillons d'effectuer le changement de titulaire **avant** un changement de contact.
+> Par ailleurs, c'est le contact administrateur qui est en mesure de lancer ces opérations. Ces deux changements se font, par conséquent, dans l'espace client du contact administrateur du nom de domaine.
 >
 > En effet, les informations relatives au titulaire d'un nom de domaine n'ont qu'une valeur administrative et sont totalement indépendantes des informations pouvant être associées à un identifiant client OVHcloud. Par conséquent, un particulier ou une organisation (société, association, etc.) uniquement déclaré en tant que titulaire d'un nom de domaine n'a donc pas d'accès à l'espace client OVHcloud.
 >
