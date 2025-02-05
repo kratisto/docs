@@ -1,14 +1,14 @@
 ---
-title: "PHP - End-of-Sale & End-Of-Life announcements"
-excerpt: "Find out the main end-of-life, end-of-support and end-of-sales dates for PHP versions for OVHcloud Web Hosting plans"
-updated: 2025-01-20
+title: "PHP - End-of-Support & End-Of-Life announcements"
+excerpt: "Find out the main end-of-life and end-of-support dates for PHP versions for OVHcloud Web Hosting plans"
+updated: 2025-02-05
 ---
 
 ## Objective
 
-The information contained in this guide concerns the PHP versions used as part of the Web Hosting services, accessible via the Web Hosting network. This document details the end of sale, end of life, and end of support dates for these releases, helping you to effectively plan your transitions and upgrades.
+The information contained in this guide concerns the PHP versions used as part of the Web Hosting services, accessible via the Web Hosting network. This document details the end of life and end of support dates for these releases, helping you to effectively plan your transitions and upgrades.
 
-**Find out about the main PHP versions' end of life, end of support and end of sale dates.**
+**Find out about the main PHP versions' end of life and end of support dates.**
 
 ## Requirements
 
@@ -34,6 +34,8 @@ The information contained in this guide concerns the PHP versions used as part o
 | PHP 5.3     | End of active support: <span style="color:red;">2011-06-30</span><br>End of security support: <span style="color:red;">2014-08-14</span><br>End of life: <span style="color:red;">2014-08-14</span> | Available                           | <span style="color:red;">Recommended migration</span> |
 | PHP 5.2     | End of active support: <span style="color:red;">2008-11-02</span><br>End of security support: <span style="color:red;">2011-01-06</span><br>End of life: <span style="color:red;">2011-01-06</span> | Available                           | <span style="color:red;">Recommended migration</span> |
 | PHP 4.4     | End of active support: <span style="color:red;">2008-08-07</span><br>End of security support: <span style="color:red;">2008-08-07</span><br>End of life: <span style="color:red;">2008-08-07</span> | Not available                      | <span style="color:red;">Recommended migration</span> |
+
+To update the PHP version of your web application, please read the “PHP versions” section of our guide [Web Hosting - Environment, PHP version, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting).
 
 ## Go further
 
