@@ -1,7 +1,7 @@
 ---
 title: "Dominio - ¿Cómo cambiar el titular?"
 excerpt: "Descubra cómo cambiar el titular de un dominio o actualizar la información asociada al mismo"
-updated: 2025-01-31
+updated: 2025-02-05
 ---
 
 ## Objetivo
@@ -13,7 +13,7 @@ Además de [gestionar los contactos](/pages/account_and_service_management/accou
 >
 > Para ello, debe [modificar los contactos](/pages/account_and_service_management/account_information/managing_contacts) del nombre de dominio.
 >
-> Si necesita realizar un cambio de titular y de contacto para el mismo dominio, no hay ningún orden particular que respetar. Sin embargo, es el contacto administrador quien puede iniciar estas operaciones. Ambos cambios se realizan, por tanto, en el área de cliente del contacto administrador del dominio.
+> Si necesita realizar un cambio de titular y de contacto para el mismo dominio, le recomendamos encarecidamente que efectúe **en primer lugar** el cambio de propietario para garantizar una transición óptima. Sin embargo, es el contacto administrador quien puede iniciar estas operaciones. Ambos cambios se realizan, por tanto, en el área de cliente del contacto administrador del dominio.
 >
 > Los datos relativos al titular de un dominio solo tienen un valor administrativo y son totalmente independientes de los datos que puedan asociarse a un ID de cliente de OVHcloud. Por lo tanto, un particular o una organización (empresa, asociación, etc.) que solo esté registrado como titular de un dominio no tendrá acceso al área de cliente de OVHcloud.
 >

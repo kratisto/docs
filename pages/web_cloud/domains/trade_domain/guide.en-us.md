@@ -1,7 +1,7 @@
 ---
 title: "Domain name - How do I change the owner?"
 excerpt: "Find out how to change a domain name owner, or update the information associated with it"
-updated: 2025-01-31
+updated: 2025-02-05
 ---
 
 ## Objective
@@ -13,7 +13,7 @@ In addition to providing [contacts](/pages/account_and_service_management/accoun
 >
 >To do this you need to change the domain name's [contacts](/pages/account_and_service_management/account_information/managing_contacts).
 >
-> If you need to make a change of owner and a change of contact for the same domain name, there is no preferential order. However, it is the administrator contact who is able to initiate these operations. These two changes are therefore made in the Control Panel of ​​the domain name’s administrative contact.
+> If you need to make a change of owner and a change of contact for the same domain name, it is strongly recommended that you change the owner **first** to ensure an optimal transition. However, it is the administrator contact who is able to initiate these operations. These two changes are therefore made in the Control Panel of ​​the domain name’s administrative contact.
 >
 > The information related to the domain name owner has only of administrative value, and is independent of the information that can be associated with an OVHcloud NIC handle. As a result, an individual or organization (company, association, etc.) solely declared as a domain name owner does not have access to the OVHcloud Control Panel.
 >
