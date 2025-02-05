@@ -20,9 +20,40 @@ details[open]>summary::before {
 
 ## Objective
 
-The internet is made up of servers and devices that interact with each other via a global network. When these *servers* and their devices are connected to the internet, they are assigned a **public IP address** (equivalent to a postal address). With this IP address, you can connect to a server or device remotely. As a result, a user can access a website by entering this IP address using the web browser installed on their computer.
+As you use your domain name, you will need to create and configure **subdomains**. Subdomains are the third level (*Third Level Domain*) of a domain name. The most well-known subdomain of internet users is, to date, the subdomain **W**orld **W**ide **W**eb (**www**). Indeed, many websites still use this subdomain to be consulted on the Internet.
 
-**Domain names** were introduced to make it easier for users of the internet to access a website. Indeed, it is easier to remember a name composed of a string of chosen characters (example: ovhcloud.com), rather than a series of numbers that make up an IP address (example: 54.39.46.56).
+For example, *www.ovhcloud.com* is a subdomain of the domain name *ovhcloud.com*.
+
+You can create an infinite number of sub-domains from a single domain name.
+  
+**Find out more about subdomains and how to create one with OVHcloud.**
+
+## Requirements
+
+- You have at least one [domain name](/links/web/domains).
+- You have an active DNS zone for your domain name. If you need further guidance, please refer to our guide on "[Creating an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_create)".
+- You have access to the [OVHcloud Control Panel](/links/manager).
+- You have sufficient rights to all of the services concerned. You can find more information in our guide [Managing contacts for your services](/pages/account_and_service_management/account_information/managing_contacts).
+  
+## Instructions
+
+**Overview**
+
+- [Introduction](#introduction)
+- [How do I create a subdomain?](#subdomain-creation)
+    - [1 - Identify where your domain name’s active DNS zone is located](#identification)
+    - [2 - Create the DNS records for your subdomains](#dns-records-creation)
+- [Associate, authorize and configure your subdomain with an OVHcloud service](#link-subdomain)
+    - [Case 1: Display a website on my OVHcloud web hosting plan with a subdomain](#link-subdomain-case-1)
+    - [Case 2 - Create Exchange email addresses with a subdomain](#link-subdomain-case-2)
+
+### Introduction <a name="introduction"></a>
+
+![URL content](/pages/assets/schemas/domains/url-composition.png){.thumbnail}
+
+**Click on the two questions below to see the explanations.**
+
+/// details | What is the composition of a domain name?
 
 A **domain name** is made up of levels. These levels are usually separated by a `.` (with the exception of some **extensions** of the *first level* such as the *.co.uk*, *.gouv.fr* or *.notaires.fr*):
 
@@ -37,20 +68,10 @@ A **domain name** is made up of levels. These levels are usually separated by a 
 
 - Third Level Domain (**subdomain**): Labels from this third level on are called **subdomain**. In this guide, we will describe its definition, and explain how you can implement it with your various services.
 
-![URL content](/pages/assets/schemas/domains/url-composition.png){.thumbnail}
-  
-**Find out more about subdomains and how to create one with OVHcloud.**
+///
 
-## Requirements
 
-- You have at least one [domain name](/links/web/domains).
-- You have an active DNS zone for your domain name. If you need further guidance, please refer to our guide on "[Creating an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_create)".
-- You have access to the [OVHcloud Control Panel](/links/manager).
-- You have sufficient rights to all of the services concerned. You can find more information in our guide [Managing contacts for your services](/pages/account_and_service_management/account_information/managing_contacts).
-  
-## Instructions
-
-### Definition of a subdomain
+/// details | What is a subdomain?
 
 A [domain name](/links/web/domains) can be associated with several types of services (email, website, etc.).
 
@@ -82,7 +103,9 @@ For example, if you have the domain name *example.com*, you can create the follo
 
 Beyond the third level of domain, these are also considered **subdomains**. To use one of the examples above, you can create the subdomain *preprod.app.example.com* to test the new version of your web application. This will not interrupt access to the current version of your application on *app.example.com*.
 
-### Create a subdomain
+///
+
+### How do I create a subdomain? <a name="subdomain-creation"></a>
 
 [Domain names](/links/web/domains) all need a **DNS zone** to work which is a domain name’s configuration file. It consists of DNS **records** that map the domain name to various services and functions.
 
@@ -90,7 +113,7 @@ For more details on DNS zones, please read our guides “[Creating an OVHcloud D
 
 **All subdomains are configured in the domain name’s active DNS zone. You can do this by adding DNS records.**
 
-#### 1 - Identify where your domain name’s active DNS zone is located
+#### 1 - Identify where your domain name’s active DNS zone is located <a name="identification"></a>
 
 There are two possible scenarios:
 
@@ -108,6 +131,7 @@ There are two possible scenarios:
 
 If the DNS servers declared for your domain name have one of the following two forms:
 
+- `dnsXX.ovh.net` and `nsXX.ovh.net` (where each of the "X" represents a number)
 - `dnsXX.ovh.ca` and `nsXX.ovh.ca` (where each of the "X" represents a number)
 - `dns200.anycast.me` and `ns200.anycast.me`
 
@@ -115,7 +139,7 @@ This means that your domain name’s active DNS zone is active with OVHcloud.
 
 Otherwise contact your DNS provider to create subdomains with your domain name.
 
-#### 2 - Create the DNS records for your subdomains
+#### 2 - Create the DNS records for your subdomains <a name="dns-records-creation"></a>
 
 To add your subdomains to your domain name’s active DNS zone, please read our guide on "[Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)".
 
@@ -141,13 +165,13 @@ In the next part, find out how to authorize a subdomain to access the various se
 > If you would like to configure a subdomain for a service hosted elsewhere than with OVHcloud, we will not be able to provide you with assistance on this subject. Please contact your external service provider to continue configuring your service. 
 >
 
-### Associate, authorize and configure your subdomain with an OVHcloud service
+### Associate, authorize and configure your subdomain with an OVHcloud service <a name="link-subdomain"></a>
 
 Several services from the Web Cloud universe can be used with a subdomain. The association procedures are similar to those you would need to perform with a domain name. We will only cover the most common cases.
 
 For services that are not mentioned, please refer to the documentation for the service concerned. This is to identify if the domain can be used with a subdomain.
 
-#### Case 1: Display a website on my OVHcloud web hosting plan with a subdomain
+#### Case 1: Display a website on my OVHcloud web hosting plan with a subdomain <a name="link-subdomain-case-1"></a>
 
 As with a domain name, and to authorize a subdomain to display the contents of a *target* folder on a web hosting plan, log in to your [OVHcloud Control Panel](/links/manager){.external} and select `Web Cloud`{.action}. Click on `Hosting plans`{.action} in the left-hand column, select the plan concerned where your website is located, then select the `Multisite`{.action} tab.
 
@@ -160,7 +184,7 @@ For more details on setting up a domain or subdomain on a web hosting plan, plea
 > Adding a domain or subdomain to a multisite may require a validation token to be set up. For a subdomain, the same token is not taken into account and must be added not for the subdomain but for the domain name. In this case, you can add the token as a TXT record for the domain name in your domain name’s active DNS zone.
 >
 
-#### Case 2 - Create Exchange email addresses with a subdomain
+#### Case 2 - Create Exchange email addresses with a subdomain <a name="link-subdomain-case-2"></a>
 
 To enable the creation of custom Exchange email addresses with a subdomain, log in to your [OVHcloud Control Panel](/links/manager){.external} and select `Web Cloud`{.action}. Click `Microsoft`{.action} in the left-hand column, then `Exchange`{.action}. Then select the Exchange platform you want to use with your subdomain. On the page that pops up, go to the `Associated domains`{.action} tab, then click the `Add a domain`{.action} button on the right.
 
@@ -169,18 +193,6 @@ You can then declare your subdomain on your Exchange platform.
 For more details on configuring an Exchange platform, please refer to the following guides:
 
 - [Getting started with the Hosted Exchange service](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_hosted)
-- [Adding a domain name on an email platform](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
-- [Adding a CNAME record to validate your domain on your email solution](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname)
-
-#### Case 3 - Create Email Pro addresses with a subdomain
-
-To enable the creation of custom Email Pro addresses with a subdomain, log in to your [OVHcloud Control Panel](/links/manager){.external} and select `Web Cloud`{.action}. Click `Professional emails`{.action}, then select the Email Pro platform you want to use with your subdomain. On the page that pops up, go to the `Associated domains`{.action} tab, then click the `Add a domain`{.action} button on the right.
-
-You can then declare your subdomain on your Email Pro platform.
-
-For more details on configuring an Email Pro platform, please refer to the following guides:
-
-- [Getting started with the Email Pro solution](/pages/web_cloud/email_and_collaborative_solutions/email_pro/first_config)
 - [Adding a domain name on an email platform](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
 - [Adding a CNAME record to validate your domain on your email solution](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname)
 
@@ -195,8 +207,6 @@ For more details on configuring an Email Pro platform, please refer to the follo
 [Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)
 
 [Getting started with the Hosted Exchange service](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_starting_hosted)
-
-[Getting started with the Email Pro solution](/pages/web_cloud/email_and_collaborative_solutions/email_pro/first_config)
 
 [Adding a domain name on an email platform](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
 
