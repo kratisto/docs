@@ -78,7 +78,7 @@ You can now decide whether or not you wish to **encrypt your data** using [SSE-O
 Finally, name your bucket:
 > [!primary]
 >
-> Buckets' names are global. It's not possible to give the same name to two different buckets within the OVHcloud regions.
+> Buckets' names are global. It's not possible to give the same name to two different buckets across all the OVHcloud regions.
 >
 
 ![Container name](images/object_storage-bucke_creation_step7.png)
