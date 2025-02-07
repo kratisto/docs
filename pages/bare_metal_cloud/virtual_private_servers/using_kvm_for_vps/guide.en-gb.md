@@ -20,8 +20,11 @@ details[open]>summary::before {
 
 ## Objective
 
-The KVM console for VPS available in your OVHcloud Control Panel allows you to open a connection to your VPS in your web browser, independently of additional connection software. KVM in this context stands for "keyboard, video, and mouse", referring to the emulated input/output method of the remote connection.  
-Note that the KVM console is not a workaround solution if you have lost access to the operating system of your VPS. You will need to [use the VPS rescue mode to recover server access](/pages/bare_metal_cloud/dedicated_servers/replacing-user-password) in that case.
+The KVM console for VPS available in your OVHcloud Control Panel allows you to open a connection to your VPS in your web browser, independently of additional connection software. KVM in this context stands for "keyboard, video, and mouse", referring to the emulated input/output method of the remote connection.
+
+> [!primary]
+>
+> Note that the KVM console is not a workaround solution if you have lost access to the operating system of your VPS. You will need to [use the VPS rescue mode to recover server access](/pages/bare_metal_cloud/dedicated_servers/replacing-user-password) in that case.
 
 **This guide explains how to use the KVM console to access your VPS.**
 
@@ -44,7 +47,7 @@ In the tab `General information`{.action}, click the button `...`{.action} next 
 
 /// details | Unfold this section
 
-If you are unfamiliar with the API, consult our guide on the [basics of using the OVHcloud API](/pages/manage_and_operate/api/first-steps). 
+If you are not familiar with the API, consult our guide on the [basics of using the OVHcloud API](/pages/manage_and_operate/api/first-steps). 
 
 To retrieve the KVM access URL, open this endpoint:
 
@@ -67,9 +70,7 @@ If you access the KVM from the OVHcloud Control Panel, it will open in a popup w
 
 ![Connecting to KVM](images/kvm_screen.png){.thumbnail}
 
-Unless you are connecting to a Windows VPS, you will then need to log in with the credentials of an active user account of the server. 
-
-While using the console, be aware that actions performed in the OVHcloud Control Panel that have an impact on your VPS might interrupt the KVM session. 
+The KVM screen displayed depends on the operating system and the individual state of the VPS. If prompted, log in with the credentials of an active user account.
 
 You can alternatively use a third-party software client to connect.
 
@@ -90,7 +91,7 @@ A graphical menu will open in which you can select a keyboard model.
 
 ![KVM](images/kvm_vps01.png){.thumbnail}
 
-Use the arrow keys to navigate to the option that comes closest to your hardware, then press "Enter".
+Use the arrow keys to navigate to the option that comes closest to your hardware, then press press `Enter`{.action}.
 
 In the next menu, choose your country.
 
