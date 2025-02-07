@@ -44,7 +44,7 @@ Les comptes MX Plan peuvent être configurés sur différents logiciels de messa
     2. Appuyez sur l'engrenage «  &#9881; » dans la partie inférieure gauche de votre écran.
     3. Appuyez ensuite sur `Comptes`{.action} dans le menu **Réglages**.
     4. Appuyez sur `Ajouter un compte`{.action}.
-    5. Appuez sur `Compte de courrier`{.action}.
+    5. Appuyez sur `Compte de courrier`{.action}.
 
 ![outlook ios](images/outlook-app-ios-add02.png){.thumbnail .w-400 .h-600}
 
@@ -89,7 +89,11 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
 Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vous pouvez dès à présent envoyer et recevoir des messages.
 
-OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via ce lien : [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, aidez-vous de nos guides [Consulter son compte depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa), [Utiliser son adresse e-mail depuis le webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube) ou [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra).
+OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via ce lien : [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation et en fonction du webmail associé à votre offre, aidez-vous de nos guides : 
+
+- [Consulter son compte depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
+- [Utiliser son adresse e-mail depuis le webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube)
+- [Utiliser le webmail Zimbra](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra).
 
 ### Modifier les paramètres existants <a name="modify-settings"></a>
 
