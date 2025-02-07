@@ -1,7 +1,7 @@
 ---
 title: Utiliser la fonctionnalité Bring Your Own IP
 excerpt: Découvrez comment importer facilement votre propre adresse IP comme Additional IP dans votre compte OVHcloud
-updated: 2024-04-03
+updated: 2025-02-07
 ---
 
 ## Objectif
@@ -29,6 +29,7 @@ Vous devez posséder (voir ci-dessous) un bloc IPv4 public auprès de l'un des R
 
 - [ARIN](https://www.arin.net/)
 - [RIPE](https://www.ripe.net/)
+- [APNIC](https://www.apnic.net/) (Veuillez noter que les NIRs ne sont pas pris en charge pour le moment : https://confluence.ovhcloud.tools/display/2IIP/APNIC+support#APNICsupport-AboutNIR)
 
 Il est désormais possible d'utiliser des blocs IP ARIN ou RIPE sur n'importe quel campus OVHcloud. Cette flexibilité améliorée permet une gestion plus efficace et une allocation optimisée des adresses IP pour répondre aux besoins spécifiques de votre entreprise.
 
@@ -36,10 +37,10 @@ Contrairement à la politique précédente, où un bloc ARIN ne pouvait être ut
 
 Pour que le bloc soit considéré comme valide, les blocs importés doivent être de type suivants :
 
-| ARIN (object « Network type ») | RIPE (object « status ») |
-| :--- | :--- |
-| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |
-| **Pour plus d’informations :** <br>&bull; [« Using WhoIs - Network »](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [« Reporting Reassignments »](https://www.arin.net/resources/registry/reassignments/) | **Pour plus d'informations :** <br>[« Description of the INETNUM Object »](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |
+| ARIN (object « Network type ») | RIPE (object « status ») | APNIC (object « status »)
+| :--- | :--- | :--- |
+| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |  &bull; Allocated-Portable <br>&bull; Allocated-Non-Portable <br>&bull; Assigned-Portable <br>&bull; Assigned-Non-Portable  |
+| **Pour plus d’informations :** <br>&bull; [« Using WhoIs - Network »](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [« Reporting Reassignments »](https://www.arin.net/resources/registry/reassignments/) | **Pour plus d'informations :** <br>[« Description of the INETNUM Object »](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |  **Pour plus d'informations :** <br>&bull; [« INETNUM Quick Guide »](https://www.apnic.net/manage-ip/using-whois/guide/inetnum/) <br>&bull; [« Recording network assignments »](https://www.apnic.net/manage-ip/using-whois/updating-whois/network-assignments/) |
 
 ### Avoir une plage d'IP d'une taille prise en charge <a name="haveaniprangeofasupportedsize"></a>
 
@@ -96,6 +97,7 @@ Cela se fera via le portail web du RIR gérant vos adresses IP. Ce token sera fo
 
 - Pour RIPE, éditez le champ « **descr** » de l'objet « **inetnum** » de l'IP.
 - Pour ARIN, éditez le champ « **Public Comments** » de l'objet « **Network** ».
+- Pour APNIC, éditez le champ « **remarks** » de l'objet « **inetnum** ».
 
 Il est nécessaire que le token apparaisse dans le champ de description (voir ci-dessus) de l'objet WHOIS, sur une ligne dédiée. D'autres lignes peuvent être présentes, à condition que le token soit présent dans sa propre ligne dédiée dans la description. Le token doit être ajouté avant la commande et ne doit pas être supprimé avant la fin de la livraison.
 
@@ -106,6 +108,7 @@ Cela se fera via le portail web du RIR gérant votre numéro AS. Ce token sera f
 
 - Pour RIPE, éditez le champ « **descr** » de l'objet « **aut-num** » du numéro AS.
 - Pour ARIN, éditez le champ « **Public Comments** » de l'objet « **ASN** ».
+- Pour APNIC, éditez le champ « **remarks** » de l'objet « **aut-num** ».
 
 Il est nécessaire que le token apparaisse dans le champ de description (voir ci-dessus) de l'objet WHOIS, sur une ligne dédiée. D'autres lignes peuvent être présentes, à condition que le token soit présent dans sa propre ligne dédiée dans la description. Le token doit être ajouté avant la commande et ne doit pas être supprimé avant la fin de la livraison.
 
@@ -117,6 +120,7 @@ Pour plus d'informations sur les objets de routage (*route objects*), veuillez c
 
 - RIPE - [Managing Route Objects](https://www.ripe.net/manage-ips-and-asns/db/support/managing-route-objects-in-the-irr)
 - ARIN - [Submitting Routing Information](https://www.arin.net/resources/manage/irr/#submitting-routing-information)
+- APNIC - [Creating Route Objects](https://www.apnic.net/manage-ip/using-whois/guide/creating-route-objects/)
 
 > [!warning]
 > Si votre bloc IP importé est déjà annoncé sur Internet à partir d’autre sites qu’OVHcloud lors de l’utilisation du service BYOIP (multihoming), vous risquez d’éventuelles pertes de paquets ou d'autres difficultés de routage. Nous ne serons par conséquent pas en mesure de vous garantir la connectivité aux services OVHcloud avec votre bloc IP importé.
@@ -234,7 +238,7 @@ Oui, avec la mise à jour de notre politique, il est désormais possible d'utili
 
 Oui.
 
-### Puis-je importer une plage d’adresses IP ou un numéro AS géré par IP APNIC/AFRINIC/LACNIC ?
+### Puis-je importer une plage d’adresses IP ou un numéro AS géré par IP AFRINIC/LACNIC ?
 
 Pas pour le moment.
 

@@ -1,7 +1,7 @@
 ---
 title: How to use the Bring Your Own IP feature
 excerpt: Find out how to easily import your own IP as Additional IP to your OVHcloud account
-updated: 2024-04-03
+updated: 2025-02-07
 ---
 
 ## Objective
@@ -29,6 +29,7 @@ You need to own (see below) a public IPv4 block with one of the following RIRs:
 
 - [ARIN](https://www.arin.net/)
 - [RIPE](https://www.ripe.net/)
+- [APNIC](https://www.apnic.net/) (Please note that NIRs are not supported at the moment : https://confluence.ovhcloud.tools/display/2IIP/APNIC+support#APNICsupport-AboutNIR)
 
 It is now possible to use ARIN or RIPE IP blocks on any OVHcloud campus. This enhanced flexibility enables more efficient management and optimized allocation of IP addresses to meet your company's specific needs.
 
@@ -36,10 +37,10 @@ Unlike the previous policy, where an ARIN block could only be used with OVHcloud
 
 To be considered as a valid owned block, imported blocks must be one of the following types :
 
-| ARIN (object *Network type*) | RIPE (object *status*) |
-| :--- | :--- |
-| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |
-| **For more information :** <br>&bull; [Using WhoIs - Network](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [Reporting Reassignments](https://www.arin.net/resources/registry/reassignments/) | **For more information :** <br>[Description of the INETNUM Object](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |
+| ARIN (object *Network type*) | RIPE (object *status*) | APNIC (object *status*) |
+| :--- | :--- | :--- |
+| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |  &bull; Allocated-Portable <br>&bull; Allocated-Non-Portable <br>&bull; Assigned-Portable <br>&bull; Assigned-Non-Portable  |
+| **For more information :** <br>&bull; [Using WhoIs - Network](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [Reporting Reassignments](https://www.arin.net/resources/registry/reassignments/) | **For more information :** <br>[Description of the INETNUM Object](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |  **For more information :** <br>&bull; [INETNUM Quick Guide](https://www.apnic.net/manage-ip/using-whois/guide/inetnum/) <br>&bull; [Recording network assignments](https://www.apnic.net/manage-ip/using-whois/updating-whois/network-assignments/) |
 
 
 ### Your IP range must have a supported size <a name="supportedsize"></a>
@@ -96,6 +97,7 @@ To prove that you are the owner of the range, you will be requested to enter a s
 
 - For RIPE, edit the « **descr** » field of the « **inetnum** » object of the IP.
 - For ARIN, edit the « **Public Comments** » field of the « **Network** » object.
+- For APNIC, edit the « **remarks** » field of « **inetnum** » object.
 
 The token needs to appears in the description field (see above) of the whois object, in a dedicated line. Other lines may be present, as long as the token is present in its own dedicated line in the description. The token must be added before placing the order, and must not be removed until the end of the delivery process.
 
@@ -105,6 +107,7 @@ To prove that you are the owner of the AS number, you will be required to reuse 
 
 - For RIPE, edit the « **descr** » field of the « **aut-num** » object of the AS number.
 - For ARIN, edit the « **Public Comments** » field of the « **ASN** » object.
+- For APNIC, edit the « **remarks** » field of « **aut-num** » object.
 
 The token needs to appears in the description field (see above) of the whois object, in a dedicated line. Other lines may be present, as long as the token is present in its own dedicated line in the description. The token must be added before placing the order, and must not be removed until the end of the delivery process.
 
@@ -116,6 +119,7 @@ For more information on route objects, please refer to your RIR’s documentatio
 
 - RIPE - [Managing Route Objects](https://www.ripe.net/manage-ips-and-asns/db/support/managing-route-objects-in-the-irr)
 - ARIN - [Submitting Routing Information](https://www.arin.net/resources/manage/irr/#submitting-routing-information)
+- APNIC - [Creating Route Objects](https://www.apnic.net/manage-ip/using-whois/guide/creating-route-objects/)
 
 > [!warning]
 > If your imported IP block is already advertized on the Internet from sites other than OVHcloud (multihoming case), you risk packet loss or other routing issues. We will therefore not be able to guarantee connectivity to OVHcloud services with your imported IP block.
@@ -233,7 +237,7 @@ Yes, with our updated policy, it is now possible to use ARIN or RIPE IP blocks o
 
 Yes.
 
-### Can I import an IP range or AS number managed by APNIC/AFRINIC/LACNIC?
+### Can I import an IP range or AS number managed by AFRINIC/LACNIC?
 
 Not for the moment.
 
