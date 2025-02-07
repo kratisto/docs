@@ -24,7 +24,7 @@ As you use your domain name, you will need to create and configure **subdomains*
 
 For example, *www.ovhcloud.com* is a subdomain of the domain name *ovhcloud.com*.
 
-You can create an infinite number of sub-domains from a single domain name.
+You can create an infinite number of subdomains from a single domain name.
   
 **Find out more about subdomains and how to create one with OVHcloud.**
 
@@ -37,7 +37,7 @@ You can create an infinite number of sub-domains from a single domain name.
   
 ## Instructions
 
-**Overview**
+**Content overview**
 
 - [Introduction](#introduction)
 - [How do I create a subdomain?](#subdomain-creation)
@@ -84,7 +84,7 @@ Subdomains (sometimes called **prefixes**) meet the need to segment a domain nam
 
 In other words, subdomains make it easy to structure all of the web services (DNS servers, website, intranet, email, etc.) associated with the same domain name.
 
-As mentioned above, sub-domains are the third level (*Third Level Domain*) of a domain name. The most well-known subdomain of the internet is **W**orld **W**ide **W**eb (**www**). Indeed, many websites still use this subdomain on the Internet.
+As mentioned above, subdomains are the third level (*Third Level Domain*) of a domain name. The most well-known subdomain of the internet is **W**orld **W**ide **W**eb (**www**). Indeed, many websites still use this subdomain on the Internet.
 
 For example, *www.ovhcloud.com* is a subdomain of the *ovhcloud.com* domain.
 
