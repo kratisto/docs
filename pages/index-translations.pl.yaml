@@ -185,6 +185,7 @@ public-cloud-cross-functional-services-management: Zarządzanie usługami
 public-cloud-cross-functional-horizon: Zarządzanie w interfejsie Horizon
 public-cloud-cross-functional-openstack: Zarządzanie w OpenStack API
 public-cloud-cross-functional-infrastructure: Infrastruktura
+public-cloud-cross-functional-billing-information: informacje rozliczeniowe
 public-cloud-integrations: Integrations
 public-cloud-integrations-prefect: Prefect
 public-cloud-network: Public Cloud Network Services
