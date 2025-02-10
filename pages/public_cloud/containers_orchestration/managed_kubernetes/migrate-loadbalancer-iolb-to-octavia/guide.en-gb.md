@@ -1,12 +1,16 @@
 ---
 title: How to migrate from LoadBalancer for MKS (IOLB) to Public Cloud LoadBalancer (Octavia)
-excerpt: "How do I migrate from a LoadBalancer for MKS (IOLB) to a LoadBalancer for the Public Cloud (Octavia) and how do I change my DNS"
+excerpt: "How do I migrate from a LoadBalancer for MKS (IOLB) to a LoadBalancer for the Public Cloud (Octavia)"
 updated: 2025-01-17
 ---
 
 ## Objective
 
-The purpose of this guide is to help OVHcloud Managed Kubernetes Service (MKS) users migrate from their Ingress LoadBalancer (IOLB), which will be deprecated from version MKS 1.32, to the Public Cloud LoadBalancer (Octavia).
+The purpose of this guide is to help OVHcloud Managed Kubernetes Service (MKS) to migrate from an existing [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud Load Balancer](/links/public-cloud/load-balancer).
+
+[Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) is the default Load Balancer for MKS clusters using Kubernetes versions >1.30.
+
+[Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) is deprecated for MKS clusters using Kubernetes versions >1.31.
 
 It explains the steps required to make this transition safely, minimising service interruptions. Finally, it provides recommendations on DNS management, in particular reducing the TTL, to optimise the propagation of changes and ensure a smooth migration.
 
@@ -18,11 +22,14 @@ It explains the steps required to make this transition safely, minimising servic
 
 > [!warning]
 >  
-> Starting with MKS version **1.32**, any upgrade attempt will be blocked if an **IOLB** LoadBalancer service is still present in the cluster.  
+> Starting from MKS cluster using Kubernetes version **1.32**, any cluster upgrade attempt will be blocked if an service [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) (IOLB) is still present in the cluster.
 >  
 > Action required**: Before upgrading, you must **migrate your services to the Public Cloud LoadBalancer (Octavia)** by following the steps described in this guide.  
 >  
 > If you attempt to upgrade without first migrating, an error will be returned, preventing the upgrade.
+>
+> The old LoadBalancer and IP will be deleted, making services unreachable. Perform the DNS switch immediately with the new IP.
+> You can reserve a public IP (floating IP) in advance and specify it during service/load balancer creation.
 
 In order to migrate from an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer) you will have to modify an existing Service and change its LoadBalancer class.
 
@@ -59,10 +66,10 @@ Before changing the TTL, it is important to know its current value. To do this, 
 ```bash
 dig yourdomain.com +noall +answer
 
-yourdomain.com.             224     IN      A       17*.***.**.*4
+yourdomain.com.             600     IN      A       17*.***.**.*4
 ```
 
-Here, 224 corresponds to the TTL in seconds (i.e. approximately 4 minutes). This means that the DNS servers keep this IP in cache for this length of time before checking for an update.
+Here, 600 corresponds to the TTL in seconds (i.e. approximately 10 minutes). This means that the DNS servers keep this IP in cache for this length of time before checking for an update.
 
 ### Lower the TTL before migration
 
@@ -81,7 +88,7 @@ To lower the TTL, follow these steps:
 
 Once the TTL reduction has been propagated :
 
-- Replace the old IP with that of the new Load Balancer in your DNS record.
+- Replace the old IP with the one of the new Load Balancer in your DNS record.
 - Thanks to the low TTL, users will quickly see the update.
 - Check that the change is effective using the same **dig** command you used recently. You should see the new IP displayed.
 
