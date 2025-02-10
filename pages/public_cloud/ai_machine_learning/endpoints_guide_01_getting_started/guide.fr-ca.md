@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Premiers pas (EN)
 excerpt: Découvrez AI Endpoints, la plateforme d'OVHcloud dédiée aux développeurs pour accéder à des modèles d'IA de pointe via des API. Pas d'expertise IA requise.
-updated: 2024-11-26
+updated: 2025-02-10
 ---
 
 > [!primary]
@@ -83,18 +83,20 @@ Once your token has been generated, you can navigate to the [Catalog page](https
 
 AI Endpoints offers a variety of world-renowned AI models to choose from, including:
 
-- **Assistant**: Use models like CodeLlama, Mistral, Mathstral, and Codestral for tasks like code generation, language translation, and more.
-- **Audio analysis**: Automatic Speech Recognition and Text to Speech using NVIDIA's models.
+- **Large Language Models (LLM)**: Use models like LLaMa 3, Mistral and more, for conversations and RAG use cases.
+- **Reasoning LLM**: Use reasoning models like DeepSeek-R1 distillations for maths, coding or complex tasks.
+- **Code LLM**: Code generation and code completion from an IDE with models like Codestral or CodeLLaMa.
+- **Visual LLM**: Multimodal models such as LLaVa-Next, that are able to process images and text inputs, for image understanding or OCR use cases.
 - **Embeddings**: Generate embeddings for use in machine learning applications (BGE base, Multilingual E5).
-- **Natural language Processing**: Use models like RoBERTa, Bert, and T5 for NLP tasks like sentiment analysis, entity recognition, and text summarization.
-- **Translation**: Translate text using NVIDIA Neural Machine Translation or T5 large.
+- **Natural Language Processing**: Use models like RoBERTa, Bert, and T5 for NLP tasks like sentiment analysis, entity recognition, and text summarization.
 - **Image Generation**: Generate images using Stable Diffusion XL.
-
-*Additional models will be added in the coming months, including multimodal models and object segmentation models.*
+- **Audio Analysis**: Automatic Speech Recognition and Text to Speech using NVIDIA models.
+- **Translation**: Translate text using NVIDIA Neural Machine Translation or T5 large.
+- **Computer Vision**: Object detection and segmentation with YOLO models.
 
 Once you have selected the category of model you want to use, you will be presented with a list of models to choose from.
 
-For example, if you select the `Assistant` category, you will see a list of available assistant models.
+For example, if you select the `Code LLM` category, you will see a list of available code assistant models.
 
 To access one of them, simply click the name of the model you want to use. Let's take the `CodeLlama-13b-Instruct-hf` code assistant as our example.
 
@@ -103,7 +105,7 @@ This will take you to a dedicated page with several options for interacting with
 > [!tabs]
 > **Playground**
 >>
->> This option allows you to quickly try out the model by playing with it to see if it meets your needs. This is a great way to get a feel for the model without having to use some codes.
+>> This option allows you to quickly try out the model by playing with it to see if it meets your needs. This is a great way to get a feel for the model without having to code.
 >>
 >> ![AI Endpoints token terms](images/playground_demo.png){.thumbnail}
 >>
@@ -127,7 +129,7 @@ This will take you to a dedicated page with several options for interacting with
 >>
 >> ![AI Endpoints API](images/api_demo.png){.thumbnail}
 >>
->> For Assistants (LLMs), two POST routes are available: `Chat Completions` and `Completions`. Here's an example of how to use the `Chat Completions` API:
+>> For LLMs, two POST routes are available: `Chat Completions` and `Completions`. Here's an example of how to use the `Chat Completions` API:
 >>
 >> Click the `Chat Completions`{.action} endpoint in the API section. Once there, select one of the available input schemas.
 >>
