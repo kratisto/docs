@@ -18,6 +18,21 @@ It explains the steps required to make this transition safely, minimising servic
 >
 > As Loadbalancer for Kubernetes and Public Cloud LoadBalancer do not use the same solution for Public IP allocation, it is not possible to keep the existing public IP of your Loadbalancer for Kubernetes. Changing the LoadBalancer class of your Service will lead to the creation of a new Loadbalancer and the allocation of a new Public IP (Floating IP).
 
+## Comparison
+
+When selecting a load balancing solution, it's important to compare the features and limitations of each option. Below is a comparison between Load Balancer for Kubernetes and Public Cloud Load Balancer, highlighting their key differences and capabilities.
+
+|                                     | Load Balancer for Kubernetes | Public Cloud Load Balancer |
+| ----------------------------------- | ---------------------------- | -------------------------- |
+| Maximum number of connections       | 10 000                       | up to 20 000               |
+| Maximum number of HTTP  requests    | 2000                         | Up to 80 000               |
+| Bandwith                            | 200 Mbit/s                   | up to 4 Gbit/s (up/down)   |
+| Supported protocol                  | TCP                          | TCP/UCP                    |
+| Supported load balancing layers     | L4                           | L4/L7                      |
+| Capacity to export metrics and logs | No                           | Yes                        |
+| Private to private scenario         | No                           | Yes                        |
+| Floating IP                         | No                           | Yes                        |
+
 ## Migration of your LoadBalancer
 
 > [!warning]
