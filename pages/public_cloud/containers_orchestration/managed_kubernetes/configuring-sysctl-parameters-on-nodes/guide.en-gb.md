@@ -54,21 +54,13 @@ spec:
           command:
             - sh
             - -c
-            - "cd /host && sysctl -w fs.inotify.max_user_watches=<value> && sysctl -w fs.inotify.max_user_instances=<value>"
+            - "sysctl -w fs.inotify.max_user_watches=<value> && sysctl -w fs.inotify.max_user_instances=<value>"
           securityContext:
             privileged: true
             runAsUser: 0
-          volumeMounts:
-            - name: root-mount
-              mountPath: /host
       containers:
         - image: registry.k8s.io/pause:3.10
           name: pause
-      volumes:
-        - name: root-mount
-          hostPath:
-            path: /
-            type: Directory
 ```
 
 Define the value of the sysctl key `fs.inotify.max_user_watches` and `fs.inotify.max_user_instances` based on your applications' needs.
