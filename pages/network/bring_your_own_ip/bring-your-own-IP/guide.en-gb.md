@@ -31,7 +31,7 @@ You need to own (see below) a public IPv4 block with one of the following RIRs:
 - [RIPE](https://www.ripe.net/)
 - [APNIC](https://www.apnic.net/) (Please note that NIRs are not supported at the moment)
 
-It is now possible to use ARIN or RIPE IP blocks on any OVHcloud campus. This enhanced flexibility enables more efficient management and optimized allocation of IP addresses to meet your company's specific needs.
+It is now possible to use ARIN, RIPE or APNIC IP blocks on any OVHcloud campus. This enhanced flexibility enables more efficient management and optimized allocation of IP addresses to meet your company's specific needs.
 
 Unlike the previous policy, where an ARIN block could only be used with OVHcloud services located in Canada or the USA, and a RIPE block could only be used with OVHcloud services located in Europe, this restriction has been lifted.
 
