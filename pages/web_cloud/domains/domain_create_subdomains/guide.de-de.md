@@ -56,8 +56,6 @@ Sie können für einen Domainnamen eine unbegrenzte Anzahl an Subdomains erstell
 
 /// details | Wie entsteht die Zusammensetzung eines Domainnamens?
 
-![URL content](/pages/assets/schemas/domains/url-composition.png){.thumbnail}
-
 Ein **Domainname** besteht aus Leveln. Diese Level sind in der Regel durch ein `.` (mit Ausnahme einiger **Endungen** der *ersten Ebene* wie *.co.uk*, *.gouv.fr* oder *.notaires.fr*):
 
 - **T**op **L**evel **D**omain (**TLD**): Stellt die Domains des *Top Level* dar. Sie werden üblicherweise als **Endungen** bezeichnet. Derzeit gibt es 4 Arten von Top-Level-Domains: 
