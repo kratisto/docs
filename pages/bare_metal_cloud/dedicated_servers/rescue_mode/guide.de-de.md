@@ -1,12 +1,22 @@
 ---
-title: "Rescue-Modus aktivieren und verwenden"
-excerpt: "Erfahren Sie hier, wie Sie den OVHcloud Rescue-Modus zur Fehlerbehebung bei einem Dedicated Server einsetzen"
-updated: 2024-08-23
+title: "OVHcloud Rescue-Modus aktivieren und verwenden"
+excerpt: "Erfahren Sie hier, wie Sie das <i>Customer Rescue System</i> zur Fehlerbehebung bei einem Dedicated Server einsetzen"
+updated: 2025-01-20
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
 
 ## Ziel
 
@@ -28,7 +38,7 @@ Der Rescue-Modus ist generell für folgende Aufgaben einzusetzen:
 > Wenn Sie Dienste auf Ihrem Dedicated Server im laufenden Betrieb haben, wird der Rescue-Modus diese Dienste unterbrechen, da er in das Hilfsbetriebssystem neu gestartet wird.
 > 
 
-**Diese Anleitung erklärt, wie Sie Ihren OVHcloud Dedicated Server im Rescue-Modus neu starten und Partitionen mounten.**
+**Diese Anleitung erklärt, wie Sie Ihren OVHcloud Dedicated Server in den Rescue-Modus versetzen und Partitionen mounten.**
 
 ## Voraussetzungen
 
@@ -37,149 +47,266 @@ Der Rescue-Modus ist generell für folgende Aufgaben einzusetzen:
 
 ## In der praktischen Anwendung
 
-Der Rescue-Modus kann nur über Ihr [OVHcloud Kundencenter](/links/manager){.external} aktiviert werden. Wählen Sie Ihren Server aus, indem Sie in den Bereich `Bare Metal Cloud`{.action} wechseln und ihn dann unter `Dedicated Server`{.action} anklicken.
+Um den Rescue-Modus zu verwenden, müssen die Einstellung des `Netboot` für den Server geändert werden. Der Server muss anschließend neu gestartet werden.
 
-Suchen Sie "Boot" im Bereich **Allgemeine Informationen** und klicken Sie auf `...`{.action} und dann auf `Bearbeiten`{.action}.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und öffnen Sie den Bereich `Bare Metal Cloud`{.action} und dann `Dedicated Server`{.action}.
+
+Klicken Sie auf den Namen Ihres Servers, um den Tab `Allgemeine Informationen`{.action} zu öffnen.
+
+### Aktivierung des Rescue-Modus
+
+Klicken Sie im Feld **Allgemeine Informationen** auf den Button `...`{.action} neben `Boot`. Klicken Sie im Kontextmenü auf `Bearbeiten`{.action}.
 
 ![Startmodus ändern](images/rescue-mode-001.png){.thumbnail}
 
-Auf der nächsten Seite wählen Sie **Im Rescue-Modus booten**.
+<a name="netboot"></a>
 
-### Linux Rescue
+#### 1: Optionen für den Rescue-Modus
 
-Wenn Ihr Server über ein Linux-Betriebssystem verfügt, wählen Sie im Dropdown-Menü `rescue-customer`{.action} aus.
+Wählen Sie auf der Seite **Netboot-Modus ändern** `Im Rescue-Modus booten`{.action} aus.
 
-In diesem Fall stehen Ihnen zwei Authentifizierungsoptionen zur Verfügung:
+![Startmodus ändern](images/rescue-mode-002.png){.thumbnail}
 
-- Authentifizierung per Passwort
-- Authentifizierung per SSH-Schlüssel
+Die verfügbaren Optionen für den Rescue-Modus hängen vom Servertyp und dem installierten **Betriebssystem** ab.
 
-#### Authentifizierung mit SSH-Schlüssel
-
-> [!primary]
->
-> Wenn Sie sich für die Authentifizierung mit SSH-Schlüssel entscheiden, stellen Sie sicher, dass Ihr öffentlicher SSH-Schlüssel einem der folgenden Formate entspricht: `RSA`, `ECDSA` oder `ED25519`.
->
-
-Wählen Sie die Option "Authentifizierung per SSH-Schlüssel" und geben Sie Ihren **Public** SSH-Schlüssel in das dafür vorgesehene Textfeld ein.
-
-![Authentifizierung per SSH-Schlüssel](images/rescue-mode-08.png){.thumbnail}
+- *Customer Rescue System* (immer verfügbar)
+- *Windows Customer Rescue System* (verfügbar für Windows Server)
+- [iPXE](https://ipxe.org) / *ipxe-shell* (externes Open-Source-Tool, immer verfügbar)
+- [Legacy Windows Rescue System](#windows_legacy) (veraltetes WinPE-System; nur relevant, wenn Ihr Server nicht die Anforderungen für das *Windows Customer Rescue System* erfüllt)
 
 > [!primary]
 > 
-> Sie können über die OVHcloud API einen Standard-SSH-Schlüssel für den Rescue-Modus eines Servers hinzufügen. Weitere Informationen finden Sie im Abschnitt [am Ende in dieser Anleitung](#rescuessh).
+> Die nachfolgenden Anweisungen betreffen nur das **Customer Rescue System**, die meistverwendete Option.
 >
+> Alle Informationen zur Verwendung des **Windows Customer Rescue System** finden Sie in unserer [Anleitung zum Rescue-Modus für Windows](/pages/bare_metal_cloud/dedicated_servers/rescue-customer-windows).
 
-#### Authentifizierung mit Passwort
+Wählen Sie `Customer rescue system`{.action} aus dem Dropdown-Menü.
 
-Wählen Sie die Option "Authentifizierung per Kennwort".<br>
-Die Zugangsdaten werden an die primäre E-Mail-Adresse Ihres OVHcloud Kunden-Accounts gesendet. Sie können eine andere Adresse in das Feld `Zugangsdaten an folgende E-Mail-Adresse versenden` eingeben.
+#### 2: Authentifizierungsoptionen
 
-![Linux-Passwortauthentifizierung](images/rescue-mode-09.png){.thumbnail}
+In dieser Auswahl wird die Authentifizierungsmethode für die SSH-Verbindung mit dem Rescue-Modus festgelegt. Dies ist hauptsächlich eine Frage der Zweckmäßigkeit, da jede Nutzung des Rescue-Systems eine transitorische Login-Sitzung, und verfällt, sobald der Server von seiner Disk neu gestartet wird.
 
-### Windows Rescue
+- **Passwortauthentifizierung**: Die Zugangsdaten werden Ihnen per E-Mail mitgeteilt.
+- **Schlüsselauthentifizierung**: Sie können einen öffentlichen Authentifizierungsschlüssel Ihrer Wahl verwenden (kompatible Formate: `RSA`, `ECDSA`, `ED25519`).
 
-Für Server, die über ein Windows Betriebssystem verfügen, lesen Sie [unsere ASNleitung](/pages/bare_metal_cloud/dedicated_servers/rescue-customer-windows).
+Klicken Sie auf den Tab für Ihre Verbindungsmethode:
 
-Die Option `WinRescue`{.action} kann hier abhängig vom Server angeboten werden. Weitere Informationen zu diesem Modus finden Sie im [Abschnitt weiter unten](#windowsrescue). Beachten Sie, dass bei diesem Rescue-Modus nur die Authentifizierung per Passwort möglich ist.
+> [!tabs]
+> Authentifizierung mit Passwort
+>>
+>> Klicken Sie auf `Authentifizierung per Kennwort`{.action}.
+>>
+>>![Auth method](images/rescue-mode-003.png){.thumbnail width="700"}
+>>
+>> Die Benachrichtigung zur Aktivierung des Rescue-Modus und die zugehörigen Login-Daten werden an die Kontakt-E-Mail-Adresse Ihres OVHcloud Kunden-Accounts gesendet. Um eine abweichende E-Mail-Adresse zu verwenden, geben Sie diese in das Feld `Zugangsdaten an folgende E-Mail-Adresse versenden` ein.
+>>
+>> Klicken Sie auf `Weiter`{.action}.
+>>
+> Authentifizierung mit Schlüssel
+>>
+>> Klicken Sie auf `Authentifizierung per SSH-Schlüssel`{.action}.
+>>
+>>![Auth method](images/rescue-mode-004.png){.thumbnail width="700"}
+>>
+>> Sie haben zwei Optionen:
+>>
+>> - Wählen Sie im Dropdown-Menü einen Schlüssel aus. Dazu muss bereits mindestens ein [öffentlicher Schlüssel in Ihrem OVHcloud Kundencenter hinterlegt sein](/pages/bare_metal_cloud/dedicated_servers/import-keys-control-panel).
+>> - Kopieren Sie die Zeichenfolge des öffentlichen Schlüssels manuell und fügen Sie sie in das Feld `Ihr öffentlicher SSH-Schlüssel` ein.
+>>
+>> Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen:
+>>
+>> - [Erstellen und Verwenden von Schlüsseln zur SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+>> - [Erstellen und Verwenden von Schlüsseln zur SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+>>
+>> > [!success]
+>> > Sie können über die OVHcloud API einen öffentlichen Schlüssel als Standard für den Rescue-Modus eines Servers hinzufügen. Weitere Informationen finden Sie im [Abschnitt unten](#rescuessh).
+>>
+>> Klicken Sie auf `Weiter`{.action}.
+>>
 
-Geben Sie eine andere E-Mail-Adresse an, wenn Sie **nicht** möchten, dass die Login-Daten an die Hauptadresse Ihres OVHcloud Accounts gesendet werden.
+#### 3: Abschließende Schritte zur Aktivierung des Rescue-Modus
 
-![Windows-Kennwortauthentifizierung](images/rescue-mode-10.png){.thumbnail}
+Klicken Sie im Schritt **Zusammenfassung** auf `Bestätigen`{.action}.
 
-### Abschließende Schritte
+![Summary](images/rescue-mode-005.png){.thumbnail}
 
-Klicken Sie auf `Weiter`{.action} und `Bestätigen`{.action}.
+Sie sollten nun eine Meldung bezüglich des geänderten `Netboot` im Tab `Allgemeine Informationen`{.action} erhalten.
 
-Wenn die Änderung abgeschlossen ist, klicken Sie auf `...`{.action}. rechts neben "Status" im Bereich **Dienstleistungsstatus**.
-<br>Klicken Sie auf `Neu starten`{.action} und der Server wird im Rescue-Modus neu gestartet. Die Durchführung dieser Operation kann einige Minuten dauern.
-<br>Sie können den Fortschritt im Tab `Tasks`{.action} überprüfen. Es wird automatisch eine E-Mail mit einigen zusätzlichen Informationen und den Zugangsdaten des Root-Benutzers für den Rescue-Modus verschickt.
+![Netboot](images/rescue-mode-006.png){.thumbnail}
 
-![Server neu starten](images/rescue-mode-02.png){.thumbnail}
+Im letzten Schritt muss der Server neu gestartet werden. Klicken Sie auf den Button `...`{.action} neben "Status" im Feld **Status der Dienste** und dann auf `Neu starten`{.action}. Klicken Sie im Popup-Fenster auf `Bestätigen`{.action}.
 
-Wenn Sie Ihre Tasks im Rescue-Modus beendet haben, denken Sie daran, den Netboot-Modus wieder auf `Von Festplatte booten`{.action} umzustellen **bevor** Sie Ihren Server neu starten.
+![Reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/rebooting-your-server.png){.thumbnail}
 
-### Linux
-
-#### Verwendung des Rescue-Modus (SSH)
+Der *hard reboot* benötigt einige Minuten zur Durchführung. Sie können den aktuellen Status im Tab `Tasks`{.action} überprüfen.
 
 > [!primary]
 >
-> Wenn Sie einen SSH-Schlüssel verwenden (der auch in Ihrem OVHcloud-Kundencenter aktiviert ist), wird Ihnen kein Passwort gesendet. Sobald der Server im Rescue-Modus ist, können Sie sich direkt über Ihren SSH-Schlüssel verbinden.
+> Achten Sie darauf, nach Abschluss Ihrer Aktionen im Rescue-Modus den `Netboot` auf `Von Festplatte booten`{.action} zurückzusetzen, bevor Sie den Server neu starten.
+
+### Zugriff auf Ihren Server im Rescue-Modus via SSH
+
+Sobald Sie die E-Mail zur Aktivierung des Rescue-Modus erhalten haben, können Sie sich über das Rescue-System einloggen und auf Ihren Server zugreifen.  
+Diese E-Mail ist auch in Ihrem [OVHcloud Kundencenter](/links/manager) verfügbar, sobald sie verschickt wurde. Klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie `E-Mails von OVHcloud`{.action} aus.
+
+> [!primary]
+>
+> Ihr SSH-Client wird die Verbindung üblicherweise zunächst blockieren, weil der ECDSA-Fingerprint nicht mehr übereinstimmt. Das ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet. Um dies zu beheben, bearbeiten Sie die Datei `known_hosts` in Ihrem lokalen Ordner `.ssh`.  
+> Sie haben zwei Möglichkeiten:
+>
+> - **Den Fingerprint aus der Datei löschen.** Ihr SSH-Client fügt dann einen neuen Fingerprint-Eintrag für den Server hinzu, sobald Sie den Rescue-Modus nicht mehr verwenden. Eine ausführliche Erläuterung finden Sie im Abschnitt "Login und Fingerprint" in unserer [Einführung zu SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Den Fingerprint vorübergehend deaktivieren.** Öffnen Sie die Datei `known_hosts` mit einem Texteditor und identifizieren Sie die Fingerprint-Zeichenfolge Ihres Servers anhand dessen IP-Adresse. Fügen Sie am Anfang der Zeile das Zeichen `#` ein. Dadurch wird die Zeile zu einem "Kommentar" und von Anwendungen, die die Datei auslesen, ignoriert. Machen Sie diese Änderung rückgängig, bevor Sie den `Netboot`-Modus wieder auf den "normalen" Modus umstellen.
 >
 
-Nach dem Neustart Ihres Servers erhalten Sie eine E-Mail mit Ihren Login-Daten für den Rescue-Modus. Diese E-Mail ist auch in Ihrem [OVHcloud Kundencenter](/links/manager) verfügbar. Klicken Sie in der oberen rechten Ecke Ihres Kundencenters auf den Namen Ihrer Kundenkennung und anschließend auf `E-Mails vom Support`{.action}.
+Klicken Sie auf den Tab für Ihre Verbindungsmethode:
 
-Sie müssen dann über die Befehlszeile oder über ein [SSH-Tool](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction) auf Ihren Server zugreifen, indem Sie das für den Rescue-Modus generierte Root-Passwort verwenden.
+> [!tabs]
+> Authentifizierung mit Passwort
+>>
+>> Öffnen Sie die Befehlszeilenanwendung Ihres lokalen Geräts, und geben Sie den folgenden Befehl ein:
+>>
+>> ```bash
+>> ssh root@SERVER_IP
+>> ```
+>>
+>> Beispiel:
+>>
+>> ```bash
+>> ssh root@203.0.113.100
+>> ```
+>>
+>> Geben Sie das temporäre Passwort für den Rescue-Modus ein, wenn Sie dazu aufgefordert werden.
+>>
+>> ```console
+>> root@ns9356771.ip-203-0-113.eu's password:
+>> root@rescue-customer-eu (ns9356771.ip-203-0-113.eu) ~ #
+>> ```
+>>
+>> Weitere Informationen zu SSH-Verbindungen finden Sie in unserer [Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).  
+>> Sie können auch eine Anwendung für SSH-Verbindungen Ihrer Wahl verwenden, wie z.B. [PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
+>>
+> Authentifizierung mit Schlüssel
+>>
+>> Öffnen Sie die Befehlszeilenanwendung auf dem lokalen Gerät, und geben Sie den folgenden Befehl ein:
+>>
+>> ```bash
+>> ssh -i USER_FOLDER/.ssh/KEY_FILE_NAME root@SERVER_IP
+>> ```
+>>
+>> Beispiel:
+>>
+>> ```bash
+>> ssh -i ~/.ssh/MyAuthKey root@203.0.113.100
+>> ```
+>>
+>> Geben Sie ggf. nach Aufforderung Ihr Passwort ein, um die Datei mit dem privaten Schlüssel zu öffnen.
+>>
+>> Weitere Informationen zu diesem Thema finden Sie in unseren Anleitungen:
+>>
+>> - [Erstellen und Verwenden von Schlüsseln zur SSH-Authentifizierung](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+>> - [Erstellen und Verwenden von Schlüsseln zur SSH-Authentifizierung mit PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows)
+>>
 
-Beispiel:
+### Mounten von Partitionen zum Dateizugriff
+
+Sofern Sie nicht beabsichtigen, die Datenträger des Servers auf eine Art zu konfigurieren, die einen getrennten Zustand erfordert (*unmounted*), müssen Sie zuerst **die Systempartition mounten**, um über den Rescue-Modus auf Ihre Daten zugreifen zu können.
+
+Listen Sie zuerst alle Partitionen auf, um den Namen der Partition zu finden, die Sie mounten müssen:
 
 ```bash
-ssh root@ns3956771.ip-169-254-10.eu
-root@ns3956771.ip-169-254-10.eu's password:
+lsblk
+```
+
+Beispiele für Ausgaben:
+
+```console
+NAME      MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda         8:0    0  1.8T  0 disk
+├─sda1      8:1    0  511M  0 part
+├─sda2      8:2    0  1.8T  0 part
+│ └─md127   9:127  0  1.8T  0 raid1
+├─sda3      8:3    0  512M  0 part
+└─sda4      8:4    0    2M  0 part
+sdb         8:16   0  1.8T  0 disk
+├─sdb1      8:17   0  511M  0 part
+├─sdb2      8:18   0  1.8T  0 part
+│ └─md127   9:127  0  1.8T  0 raid1
+└─sdb3      8:19   0  512M  0 part
+```
+
+```console
+NAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+nvme1n1     259:0    0 894.3G  0 disk
+├─nvme1n1p1 259:2    0   511M  0 part
+├─nvme1n1p2 259:3    0     1G  0 part
+│ └─md2       9:2    0  1022M  0 raid1
+├─nvme1n1p3 259:4    0 892.3G  0 part
+│ └─md3       9:3    0 892.1G  0 raid1
+└─nvme1n1p4 259:5    0   512M  0 part
+nvme0n1     259:1    0 894.3G  0 disk
+├─nvme0n1p1 259:6    0   511M  0 part
+├─nvme0n1p2 259:7    0     1G  0 part
+│ └─md2       9:2    0  1022M  0 raid1
+├─nvme0n1p3 259:8    0 892.3G  0 part
+│ └─md3       9:3    0 892.1G  0 raid1
+├─nvme0n1p4 259:9    0   512M  0 part
+└─nvme0n1p5 259:10   0     2M  0 part
+```
+
+Mounten Sie dann die entsprechende Partition entsprechend:
+
+```bash
+mount /dev/PARTITION_NAME /MOUNT_POINT/
+```
+
+Die zu mountende Partition sollte einfach anhand der Größe in der Tabellenspalte **SIZE** zu identifizieren sein (`sda2` im ersten Beispiel, `nvme1n1p3` im zweiten Beispiel). In einer [Software-RAID-Konfiguration](/pages/bare_metal_cloud/dedicated_servers/raid_soft) (ein Standard-RAID1 in den Beispielen oben) müssen Sie jedoch die ID des RAID-Volumes verwenden (`mdX`).  
+Mit dem Ordnernamen `mnt` als Einhängepunkt wäre der Befehl `mount` für das erste Beispiel folgendermaßen anzuwenden:
+
+```bash
+mount /dev/md127 /mnt/
+```
+
+Befehl für das zweite Beispiel:
+
+```bash
+mount /dev/md3 /mnt/
 ```
 
 > [!warning]
+> Die obigen Beispiele dienen lediglich der Veranschaulichung der erforderlichen Schritte auf der Grundlage einer typischen Serverkonfiguration. Die Daten in der Ausgabetabelle hängen von der Hardware des Servers und dessen Partitionsschema ab. Konsultieren Sie im Zweifelsfall die Dokumentation zu Ihrem Betriebssystem.
 >
-> Ihr SSH-Client wird die Verbindung wahrscheinlich zunächst blockieren, weil der ECDSA *Fingerprint* nicht mehr übereinstimmt. Dies ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet.
->
-> Eine Möglichkeit, dieses Problem zu umgehen, besteht im "Auskommentieren" des Server-*Fingerprints*, indem Sie in der Datei `known_hosts` der entsprechenden Zeile ein `#` voranstellen. Vergessen Sie nicht, diese Änderung rückgängig zu machen, bevor Sie den Netboot wieder in den "normalen" Modus versetzen.<br>Sie können alternativ einfach die Zeile aus der Datei löschen. Ihr SSH-Client fügt dann einen neuen *Fingerprint*-Eintrag für den Server hinzu, sobald die Verbindung erneut hergestellt wird. Wenn Sie detaillierte Instruktionen benötigen, konsultieren Sie unsere Anleitung "[Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
->
+> Wenn Sie professionelle Unterstützung bei der Verwaltung Ihres Servers benötigen, beachten Sie die Informationen im Abschnitt [Weiterführende Informationen](#gofurther) dieser Anleitung.
 
-#### Mounten von Partitionen
-
-Sofern Sie die Disks des Serves nicht in einer Weise konfigurieren, dass diese abgetrennt sein müssen (nicht gemountet), müssen zuerst die Systempartition gemountet werden.
-
-Partitionen werden über SSH per `mount` Befehl gemountet. Zunächst müssen jedoch Ihre Partitionen aufgelistet werden, um den Namen derjenigen Partition zu ermitteln, die Sie mounten möchten. Im Folgenden finden Sie Codebeispiele, an denen Sie sich orientieren können.
+Verwenden Sie den folgenden Befehl, um weitere technische Details zu den Datenträgern und Partitionen des Servers zu erhalten:
 
 ```bash
 fdisk -l
 ```
 
-```console
-Disk /dev/hda 40.0 GB, 40020664320 bytes
-255 heads, 63 sectors/track, 4865 cylinders, total 41943040 sectors
-Units = cylinders of 16065 * 512 = 8225280 bytes
-
-Device Boot Start End Blocks Id System
-/dev/hda1 * 1 1305 10482381 83 Linux
-/dev/hda2 1306 4800 28073587+ 83 Linux
-/dev/hda3 4801 4865 522112+ 82 Linux swap / Solaris
-
-Disk /dev/sda 8254 MB, 8254390272 bytes
-16 heads, 32 sectors/track, 31488 cylinders, total 41943040 sectors
-Units = cylinders of 512 * 512 = 262144 bytes
-
-Device Boot Start End Blocks Id System
-/dev/sda1 1 31488 8060912 c W95 FAT32 (LBA)
-```
-
-Wenn Sie den Namen der gewünschten Partition ermittelt haben, verwenden Sie den folgenden Befehl:
+Für einige Aufgaben müssen möglicherweise Datenträger oder Partitionen wieder abgetrennt werden. Verwenden Sie hierzu den Befehl zum *Unmounten*:
 
 ```bash
-mount /dev/hda1 /mnt/
+umount /mnt
 ```
-
-> [!primary]
->
-> Ihre Partition wird nun gemountet. Sie können dann Operationen im Dateisystem durchführen.
->
-> Wenn Ihr Server über eine Software-RAID-Konfiguration verfügt, muss Ihr RAID-Volume gemountet werden (im Allgemeinen `/dev/mdX`).
->
-
-Um den Rescue-Modus zu verlassen, ändern Sie im [OVHcloud Kundencenter](/links/manager) den Bootmodus wieder auf `Von Festplatte Booten`{.action} und starten Sie den Server über die Kommandozeile neu.
 
 #### VMware - Mounten eines Datastores
 
-Sie können einen VMware Datastore auf ähnliche Weise mounten wie im vorherigen Segment beschrieben.
+/// details | Diesen Abschnitt erweitern
+
+Sie können einen VMware Datastore auf ähnliche Weise mounten wie im vorherigen Segment beschrieben
 
 Listen Sie Ihre Partitionen auf, um den Namen der Partition des Datastores abzurufen:
 
 ```bash
+lsblk
+```
+
+```bash
 fdisk -l
 ```
 
-Mounten Sie die Partition mit folgendem Befehl, und ersetzen Sie dabei `sdbX` mit dem im vorherigen Schritt identifizierten Wert:
+Mounten Sie die Partition mit folgendem Befehl, und ersetzen Sie dabei `sdbX` mit dem im vorherigen Schritt identifizierten W
 
 ```bash
 vmfs-fuse /dev/sdbX /mnt
@@ -195,6 +322,10 @@ mkdir /mnt/datastore
 Listen Sie Ihre Partitionen auf, um den Namen der Partition des Datastores abzurufen:
 
 ```bash
+lsblk
+```
+
+```bash
 fdisk -l
 ```
 
@@ -204,19 +335,91 @@ Mounten Sie die Partition mit folgendem Befehl, und ersetzen Sie dabei `sdbX` mi
 vmfs6-fuse /dev/sdbX /mnt/datastore/
 ```
 
-Um den Rescue-Modus zu verlassen, ändern Sie im [OVHcloud Kundencenter](/links/manager) den Bootmodus wieder auf `Von Festplatte booten`{.action} und starten Sie den Server über die Kommandozeile neu.
+///
 
-### Windows <a name="windowsrescue"></a>
+Nach Abschluss des Mount-Vorgangs können Sie auf Ihre Dateien zugreifen und Problembehebungsaufgaben innerhalb des Ordners ausführen, den Sie als Mountpoint festgelegt haben. Beispiel:
 
-Für Server, die über ein Windows Betriebssystem verfügen, lesen Sie die [Dedicated Guide](/pages/bare_metal_cloud/dedicated_servers/rescue-customer-windows).
+```bash
+cd /mnt
+```
 
-#### Verwendung der WinRescue-Tools (abgewertet)
+Für bestimmte Dateisystem´-Operationen (z.B. das Bearbeiten von Benutzer-Accounts) ist ein zusätzlicher Schritt erforderlich. Erstellen Sie mit diesem Befehl eine temporäre `chroot` Umgebung am Mount-Punkt:
 
-Nach dem Neustart Ihres Servers erhalten Sie eine E-Mail mit den Login-Daten des Rescue-Modus. Diese E-Mail ist auch in Ihrem [OVHcloud Kundencenter](/links/manager) verfügbar. Klicken Sie in der oberen rechten Ecke Ihres Kundencenters auf den Namen Ihrer Kundenkennung und anschließend auf `E-Mails vom Support`{.action}.
+```bash
+chroot /mnt/
+```
 
-Um die GUI für den Windows-Rescue-Modus zu verwenden, müssen Sie eine VNC-Konsole herunterladen und installieren oder das `IPMI`-Modul in Ihrem [OVHcloud-Kundencenter](/links/manager){.external} verwenden.
+Jetzt sollten Sie in der Lage sein, alle erforderlichen Änderungen am System vorzunehmen, z.B. um den [Zugriff auf den Server wiederherzustellen](#gofurther).
 
-![WinRescue Windows](images/rescue-mode-07.png){.thumbnail}
+### Rescue-Modus verlassen
+
+Falls notwendig, kehren Sie zur Login-Shell des Rescue-Modus zurück, indem Sie Folgendes eingeben:
+
+```bash
+exit
+```
+
+Öffnen Sie dann in Ihrem [OVHcloud Kundencenter](/links/manager) die `Netboot`-Einstellungen und [ändern Sie den Modus](#netboot) wieder zu `Auf Festplatte booten`{.action}.
+
+![Netboot Disk](images/rescue-mode-007.png){.thumbnail}
+
+Sie können den Server jetzt in der Shell des Rescue-Modus neu starten:
+
+```bash
+reboot
+```
+
+Sie können alternativ die Funktion `Neu starten`{.action} in Ihrem Kundencenter verwenden.
+
+<a name="rescuessh"></a>
+
+### Hinzufügen eines Standard-Authentifizierungsschlüssels für den Rescue-Modus
+
+/// details | Diesen Abschnitt erweitern
+
+Um den Vorgang zu beschleunigen, können Sie über die [OVHcloud API](/pages/manage_and_operate/api/first-steps) einen öffentlichen Standard-Schlüssel für den SSH-Zugang im Rescue-Modus zu Ihrem Server hinzufügen.
+
+Öffnen Sie hierzu in der Web API-Konsole den folgenden API-Endpunkt:
+
+> [!api]
+>
+> @api {v1} /dedicated/server PUT /dedicated/server/{serviceName}
+>
+
+Geben Sie den internen Namen Ihres Servers (`ns111111.ip-203-0-113.eu`) in das entsprechende Feld ein.
+
+Ändern Sie anschließend das folgende Textfeld wie folgt:
+
+```bash
+{
+  "rescueSshKey": "string"
+}
+```
+
+Ersetzen Sie dabei `string` mit der vollständigen Zeichenfolge des öffentlichen Schlüssels.
+
+Das Ergebnis sollte wie im folgenden Beispiel aussehen:
+
+![Rescue-Key-Beispiel](images/rescue-mode-008.png){.thumbnail}
+
+Wenn Sie die Werte korrekt eingegeben haben, klicken Sie auf den Button `EXECUTE`{.action}.
+
+Das Feld `Ihr öffentlicher SSH-Schlüssel:` wird jetzt beim [Umschalten des `Netboot`](#netboot) automatisch mit dieser Schlüsselzeichenfolge ausgefüllt.
+
+///
+
+<a name="windows_legacy"></a>
+
+### Legacy Windows Rescue System (WinPE Rescue-Modus)
+
+/// details | Diesen Abschnitt erweitern
+
+Sobald Sie die E-Mail zur Aktivierung des Rescue-Modus erhalten haben, können Sie sich über das Rescue-Modus-System einloggen und auf Ihren Server zugreifen.  
+Diese E-Mail ist auch in Ihrem [OVHcloud Kundencenter](/links/manager) verfügbar, sobald sie verschickt wurde. Klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie `E-Mails von OVHcloud`{.action} aus.
+
+Um die Windows PE GUI des Rescue-Modus zu verwenden, müssen Sie eine VNC-Konsole herunterladen und installieren oder das [IPMI-Modul](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers) verwenden (nicht bei allen Servermodellen verfügbar).
+
+![Windows Rescue](images/rescue-mode-009.png){.thumbnail}
 
 Folgende Anwendungen sind bereits in diesem Modus installiert:
 
@@ -233,41 +436,26 @@ Folgende Anwendungen sind bereits in diesem Modus installiert:
 |FileZilla|Ein Open-Source-FTP-Client. Er unterstützt SSH- und SSL-Protokolle und verfügt über ein intuitives Drag-and-Drop-Interface. Es kann verwendet werden, um Ihre Daten auf einen FTP-Server zu übertragen, zum Beispiel das FTP-Backup, das mit den meisten OVHcloud-Servermodellen bereitgestellt wird.|
 |7-ZIP|Ein Datenkomprimierungs- und Datenarchivierungstool, das die folgenden Formate liest: ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, RAR, RPM, SquashFS, UDF, VHD, WIM, XAR und Z. Außerdem können Sie mit diesem Tool Ihre eigenen Archive in den folgenden Formaten anlegen: BZIP2, GZIP, TAR, WIM, XZ, Z und ZIP.|
 
-<a name="rescuessh"></a>
+///
 
-### Hinzufügen eines Standard-SSH-Schlüssels für den Rescue-Modus
-
-Um den Vorgang zu beschleunigen, können Sie über die [OVHcloud API](/pages/manage_and_operate/api/first-steps) einen Standard-SSH-Schlüssel für den Rescue-Modus Ihres Servers hinzufügen.
-
-Öffnen Sie hierzu in der Web API-Konsole den folgenden API-Endpunkt:
-
-> [!api]
->
-> @api {v1} /dedicated/server PUT /dedicated/server/{serviceName}
->
-
-Geben Sie den internen Namen Ihres Servers in das entsprechende Feld ein.
-
-Ändern Sie anschließend das folgende Textfeld wie folgt:
-
-```bash
-{
-  "rescueSshKey": "string"
-}
-```
-
-Ersetzen Sie `string` durch Ihren öffentlichen SSH-Schlüssel.
-
-Das Ergebnis sollte wie im folgenden Beispiel aussehen:
-
-![rescue key example](images/rescuekey.png){.thumbnail}
-
-Wenn Sie die Werte korrekt eingegeben haben, klicken Sie auf `TRY`{.action}.
-
-Das Feld für den SSH-Schlüssel wird jetzt beim Bearbeiten des Netboot-Modus automatisch mit dieser Schlüsselzeichenfolge aufgefüllt.
+<a name="gofurther"></a>
 
 ## Weiterführende Informationen
 
-[Administratorpasswort auf einem Windows Dedicated Server ändern](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows)
+[Rescue-Modus für Windows verwenden](/pages/bare_metal_cloud/dedicated_servers/rescue-customer-windows)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+[Server-Zugriff wiederherstellen, wenn Ihr Benutzerpasswort verloren geht](/pages/bare_metal_cloud/dedicated_servers/replacing-user-password)
+
+[Ersetzen Ihrer Authentifizierungsschlüssel für den SSH-Zugriff bei Schlüsselverlust](/pages/bare_metal_cloud/dedicated_servers/replacing-lost-ssh-key)
+
+[Konfiguration und Neuerstellung des Software-RAID](/pages/bare_metal_cloud/dedicated_servers/raid_soft)
+
+[Diagnostizieren von Hardware-Problemen](/pages/bare_metal_cloud/dedicated_servers/hardware-diagnose)
+
+[Verwenden der IPMI-Konsole mit einem Dedicated Server](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers)
+
+Kontaktieren Sie für spezialisierte Dienstleistungen (SEO, Web-Entwicklung etc.) die [OVHcloud Partner](/links/partner).
+
+Wenn Sie Hilfe bei der Nutzung und Konfiguration Ihrer OVHcloud Lösungen benötigen, beachten Sie unsere [Support-Angebote](/links/support).
+
+Treten Sie unserer [User Community](/links/community) bei.

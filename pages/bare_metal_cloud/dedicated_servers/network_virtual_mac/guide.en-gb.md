@@ -1,6 +1,6 @@
 ---
 title: Assigning a Virtual MAC to an Additional IP
-excerpt: This guide will show you how to create a virtual MAC address and assign it to an Additional IP address.
+excerpt: Find out how to create a virtual MAC address and assign it to an Additional IP address
 updated: 2024-12-13
 ---
 

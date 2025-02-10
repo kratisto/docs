@@ -99,7 +99,7 @@ Sie haben 2 Optionen, um Ihre SSH-Schlüssel zu erstellen und zu verwalten:
 
 Die meisten zeitgemäßen Desktop-Betriebssysteme enthalten nativ einen **OpenSSH** Client, auf den über die Befehlszeilenanwendung des Systems zugegriffen werden kann (`cmd`, `Powershell`, `Terminal`, etc.). Wenn Sie nicht mit der Verwendung von SSH-Schlüsseln als Authentifizierungsmethode vertraut sind, können Sie die Anweisungen in [dieser Anleitung](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) verwenden, um Ihr Schlüsselpaar zu erstellen.
 
-Wenn Sie eine andere Software verwenden, folgen Sie der zugehörigen Benutzerdokumentation. Anweisungen für die Open-Source-Lösung `PuTTY` finden Sie in [dieser Anleitung](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+Wenn Sie eine andere Software verwenden, folgen Sie der zugehörigen Benutzerdokumentation. Anweisungen für die Open-Source-Lösung `PuTTY` finden Sie in [dieser Anleitung](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 <a name="import-ssh"></a>
 
@@ -447,7 +447,7 @@ ssh ubuntu@203.0.113.101
 
 [Abhängig von Ihrer Konfiguration](#create-ssh) müssen Sie eine Passphrase eingeben, die Ihren privaten Schlüssel schützt, oder den Pfad zu Ihrer Schlüsseldatei angeben. Weitere Informationen finden Sie in unserer [Anleitung zu SSH-Schlüsseln](/pages/public_cloud/compute/creating-ssh-keys-pci#multiplekeys).
 
-Wenn Sie eine andere SSH-Client-Software verwenden, folgen Sie deren Benutzerdokumentation. Ein Beispiel für die Verwendung der Open-Source-Lösung `PuTTY` finden Sie in [dieser Anleitung](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+Wenn Sie eine andere SSH-Client-Software verwenden, folgen Sie deren Benutzerdokumentation. Ein Beispiel für die Verwendung der Open-Source-Lösung `PuTTY` finden Sie in [dieser Anleitung](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 Fahren Sie mit [Schritt 6](#manage-access) dieser Anleitung fort.
 

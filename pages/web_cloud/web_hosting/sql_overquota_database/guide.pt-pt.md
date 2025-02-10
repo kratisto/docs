@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web - A minha base de dados está saturada, o que fazer?"
 excerpt: "Saiba como agir quando a base de dados está sobrecarregada"
-updated: 2024-12-09
+updated: 2024-12-17
 ---
 
 ## Objetivo
@@ -196,6 +196,80 @@ DROP TABLE `table_1`
 ```
 
 > Neste exemplo, o comando suprime a tabela **table_1** e o conjunto das linhas que contém.
+
+### Etapa 4: Retirar a base de dados do estado "READ ONLY" (só de leitura)
+
+Os nossos robôs encarregados das verificações de quotas passam muito regularmente pelas nossas infraestruturas.
+Se, no momento da passagem pelos seus serviços, verificarem que a sua base de dados já não está em **overquota**, retirarão automaticamente o estado "READ ONLY" (leitura apenas).
+Depois de efetuar as operações necessárias na sua base de dados, só precisa de aguardar até que os nossos robôs cheguem aos seus serviços.
+
+No entanto, pode forçar a sua passagem pelos seus serviços para acelerar o processo. Para isso, deve pedir aos nossos robôs que recalculem o limite do seu serviço/base de dados.
+
+#### Recalcular o limite para uma base de dados incluída na sua oferta de alojamento web
+
+Clique nas janelas abaixo para visualizar cada uma das etapas **5**.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Clique no menu pendente `Alojamentos`{.action} e escolha o alojamento web em causa.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> Na página que se abrir, clique no separador `Bases de dados`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> Na nova página, é apresentada uma tabela com as bases de dados criadas. À direita da base de dados em causa, clique no botão `...`{.action} e, a seguir, em `Recalcular o limite`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>>
+> **Etapa 5**
+>>
+>> Na janela que se abrir, clique diretamente no botão `Validar`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>>
+>> Depois de iniciada, a operação pode demorar alguns minutos. Quando esta operação terminar, o estado "READ ONLY" da base de dados desaparece.
+>> A sua base de dados estará novamente plenamente operacional.
+>>
+
+#### Recalcular o limite para uma base de dados alojada numa solução Web Cloud Databases
+
+Clique nos separadores abaixo para visualizar cada um dos **3** passos.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Clique no menu suspenso `Web Cloud Databases`{.action} e escolha a solução Web Cloud Databases correspondente.
+>>
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> No menu **Informações gerais**, encontrará **Espaço utilizado**. Clique no botão `...`{.action} à direita e, a seguir, em `Atualizar o limite da sua base de dados`{.action}.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>>
+>> Depois de iniciada, a operação pode demorar alguns minutos. Quando esta operação terminar, o estado "READ ONLY" da base de dados desaparece.
+>> A sua base de dados estará novamente plenamente operacional.
+>>
 
 ## Quer saber mais? <a name="go-further"></a>
 

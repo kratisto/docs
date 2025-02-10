@@ -114,7 +114,7 @@ For example, when adding a TXT record to your DNS zone, you will optimise the fo
  	
 ![API](images/parameters.png){.thumbnail} 
  
-Once you have set the parameters, you can launch the API by clicking `TRY`{.action}.
+Once you have set the parameters, you can launch the API by clicking `EXECUTE`{.action}.
 
 The `Response` tab displayed will give you the API execution report.
 

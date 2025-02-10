@@ -172,7 +172,7 @@ Cliquez alors sur `Purger les e-mails`{.action}, cela effacera tous les e-mails 
 
 Une purge est obligatoire dans ce cas pour effacer les SPAM en attente d'envoi.
 
-- **Cas n°3 : Envoi d'e-mails légitimes considérés comme du SPAM** :
+- **Cas n°3 : Envoi d'e-mails légitimes considérés comme du SPAM** : <a name="elements-list-spam"></a>
 
 Si vous êtes à l'origine des e-mails ayant engendré le blocage, vous trouverez ci-dessous quelques exemples d’**usages à éviter** lors de l'envoi d'un e-mail (pour qu'il ne soit pas considéré trop « facilement » comme un SPAM) :
 

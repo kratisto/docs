@@ -40,7 +40,7 @@ Une fois qu'une adresse IP est bloquée pour SPAM, un e-mail sera envoyé à vot
 
 **Que faire à la réception de l'e-mail d'alerte ?**
 
-La démarche consiste à identifier le problème, le résoudre, puis débloquer votre IP.
+La démarche consiste à identifier le problème, à le résoudre, puis à débloquer votre IP.
 
 ### Identifier et résoudre le problème
 

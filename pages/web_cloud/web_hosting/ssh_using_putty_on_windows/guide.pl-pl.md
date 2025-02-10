@@ -352,7 +352,7 @@ Aby sprawdzić, czy klucz jest prawidłowo skonfigurowany, zaloguj się do serwe
 Aby połączyć się ze zdalnym hostem (instancja Public Cloud, serwer dedykowany lub VPS), musisz mieć [utworzyć parę kluczy](#puttygen) i [dodać ciąg klucza publicznego do Twojego serwera](#transferkeys).
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
-|:---| 
+|---| 
 | 1\. Otwórz PuTTY.<br> 2\. Rozwiń węzeł `SSH` pod `Connection` w drzewie `Category`.<br> 3\. Rozwiń węzeł `Auth`.<br> 4\. Kliknij `Credentials`, aby wyświetlić pasujące ustawienia.<br> 5\. Kliknij przycisk `Browse`{.action}.<br> 6\. Wybierz plik klucza prywatnego (`keyfile.ppk`) w folderze, w którym został zapisany. |
 
 Wróć do `Session` w menu po lewej stronie. Wpisz dane logowania w odpowiednich polach.
@@ -420,15 +420,17 @@ Wybierz odpowiednią metodę połączenia:
 Aby zapisać [sesja logowania opartego na haśle](#sshconnect1), wykonaj następujące czynności:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
-|:---| 
+|---| 
 | 1\. Otwórz PuTTY.<br> 2\. Wprowadź dane logowania w polu `Host Name (or IP address)`: **username@IPv4_server** (przykład: **ubuntu@203.0.113.101**)<br> 3\. W razie potrzeby zmień numer portu SSH w polu `Port`.<br> 4\. Wprowadź nazwę tego połączenia w polu `Saved Sessions`.<br> 5\. Kliknij przycisk `Save`{.action}. |
 
 Aby otworzyć poprzednio zapisane połączenie, wykonaj następujące czynności:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
-|:---| 
+|---| 
 | 1\. Otwórz PuTTY.<br> 2\. Kliknij dwukrotnie wybraną sesję na liście poniżej `Saved Sessions` lub wybierz ją i kliknij przycisk `Open`{.action}. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
+|---|
 | W oknie terminala PuTTY wpisz hasło użytkownika hosta zdalnego. |
 
 ///
@@ -440,11 +442,15 @@ Aby otworzyć poprzednio zapisane połączenie, wykonaj następujące czynności
 Aby zapisać [sesja połączenia opartego na kluczach](#puttykeys), wykonaj następujące czynności:
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|:---| 
+|---| 
 | 1\. Otwórz PuTTY.<br> 2\. Wprowadź dane logowania w polu `Host Name (or IP address)`: **username@IPv4_server** (przykład: **ubuntu@203.0.113.101**)<br> 3\. Jeśli tak, edytuj numer portu SSH w polu `Port`. |
+
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+|---|
 | 4\. Rozwiń węzeł `SSH` pod `Connection` w drzewie `Category`.<br> 5\. Rozwiń węzeł `Auth` w drzewie `Category`.<br> 6\. Kliknij `Credentials`, aby wyświetlić pasujące ustawienia.<br> 7\. Kliknij przycisk `Browse`{.action}.<br> 8\. Przejdź do folderu, w którym są przechowywane pliki kluczy prywatnych.<br> 9\. Otwórz odpowiedni plik klucza. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
+|---|
 | 10\. Wróć do kategorii konfiguracji `Session` w menu po lewej stronie.<br> 11\. Wprowadź nazwę tego połączenia w polu `Saved Sessions`.<br> 12\. Kliknij przycisk `Save`{.action}. |
 
 <a name="qconnect"></a>

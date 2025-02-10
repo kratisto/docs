@@ -12,7 +12,7 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs 
 
 - Un [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) dans votre compte OVHcloud
 - Être connecté à votre [espace client OVHcloud](/links/manager)
-- Avoir créé un [utilisateur S3](/pages/storage_and_backup/object_storage/s3_identity_and_access_management)
+- Avoir créé un [utilisateur Object Storage](/pages/storage_and_backup/object_storage/s3_identity_and_access_management)
 
 ## En pratique
 
@@ -33,7 +33,7 @@ user@host:~$ pip3 install awscli
 
 #### Collecter les informations d'identification
 
-- Vous aurez besoin de l'*Access key* et de la *Secret key* de votre utilisateur. Ces informations sont accessibles depuis l'onglet `Utilisateurs S3` dans votre espace client.
+- Vous aurez besoin de l'*Access key* et de la *Secret key* de votre utilisateur. Ces informations sont accessibles depuis l'onglet `Utilisateurs Object Storage` dans votre espace client.
 - Vous aurez également besoin de votre *url_endpoint*. Si vous avez déjà créé votre bucket, cette information est accessible depuis l'onglet `Mes conteneurs` puis dans les détails du votre bucket. En cas de besoin, suivez ce [guide](/pages/storage_and_backup/object_storage/s3_location).
 
 #### Configuration

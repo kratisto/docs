@@ -8,14 +8,14 @@ updated: 2024-12-13
 
 Bei OVHcloud können Sie eine virtuelle MAC-Adresse mit einer IP-Adresse verbinden, um virtuelle Maschinen mit Bridge-Konfiguration auf Ihrem Server einzurichten.
 
-**In dieser Anleitung erfahren Sie, wie Sie eine virtuelle MAC-Adresse erstellen und mit einer Additional IP verbinden.**
+**Diese Anleitung erklärt, wie Sie eine virtuelle MAC-Adresse erstellen und mit einer Additional IP verbinden.**
 
 ## Voraussetzungen
 
 - Sie haben einen [Dedicated Server](/links/bare-metal/bare-metal) in Ihrem Kunden-Account, der [virtuelle MACs unterstützt](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac).
 - Sie verfügen über eine [Additional IP](/links/network/additional-ip).
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager) oder [OVHcloud API](https://api.ovh.com/) eingeloggt.
-- Ihr Server muss virtuelle MAC-Adressen unterstützen. Ziehen Sie [unsere Anleitung](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac) zu Rate, um dies zu bestimmen.
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager) oder die [OVHcloud API](https://api.ovh.com/).
+- Ihr Server muss virtuelle MAC-Adressen unterstützen. Überprüfen Sie dies mithilfe [unserer Anleitung](/pages/bare_metal_cloud/dedicated_servers/network_support_virtual_mac).
 
 > [!warning]
 > - Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird. Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
@@ -38,7 +38,7 @@ Bei OVHcloud können Sie eine virtuelle MAC-Adresse mit einer IP-Adresse verbind
 
 #### Über das OVHcloud Kundencenter
 
-Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager) Klicken Sie auf das Menü `Bare Metal Cloud`{.action} und öffnen Sie den Bereich `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+In Ihrem [OVHcloud Kundencenter](/links/manager) öffnen Sie das Menü `Bare Metal Cloud`{.action} und dann den Bereich `Network`{.action}. Klicken Sie auf `IP`{.action}.
 
 Klicken Sie auf den Tab `Additional IP`{.action}.
 
@@ -52,7 +52,7 @@ Wenn das Dialogfeld “Virtuelle MAC-Adresse hinzufügen” erscheint, wählen S
 
 > [!primary]
 >
-> **Typ**: Hierbei handelt es sich um den Typ der virtuellen MAC-Adresse (“VMware” ist eine MAC-Adresse für das System VMware ESXi und “OVH” ist die passende Adresse für andere Arten von Virtualisierungssystemen).
+> **Typ**: Hierbei handelt es sich um den Typ der virtuellen MAC-Adresse (“VMware” für eine MAC-Adresse für das System VMware ESXi und “OVH” für Adressen für andere Virtualisierungssysteme).
 >
 > **Name der virtuellen Maschine**: Das ist der gewünschte Name für die virtuelle MAC-Adresse, damit das IP/MAC-Paar später einfacher gefunden werden kann.
 >

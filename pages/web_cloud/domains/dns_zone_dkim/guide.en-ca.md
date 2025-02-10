@@ -1,8 +1,17 @@
 ---
 title: How to improve email security with a DKIM record
 excerpt: Find out how to configure a DKIM record on your OVHcloud domain name and email platform
-updated: 2024-07-05
+updated: 2025-01-22
 ---
+
+<style>
+.w-400 {
+  max-width:400px !important;
+}
+.h-600 {
+  max-height:600px !important;
+}
+</style>
 
 <style>
  pre {
@@ -88,7 +97,7 @@ The principle of a **hash function** is to generate a **signature** (also called
 
 On the following diagram, you can see that the output will always be 32 characters using a MD5 (**M**essage **D**igest **5**) hash algorithm, while the input text may vary in size. The slightest character variation in input data completely changes the output hash, making the output signature unpredictable and tamper-proof. In the example below, the input value is passed into the MD5 hash algorithm and the output is its hash value.
 
-![hash](/pages/assets/schemas/emails/dns-dkim-hash01.png){.thumbnail}
+![hash](/pages/assets/schemas/emails/dns-dkim-hash01.png){.thumbnail .w-400 .h-600}
 
 The hash function is useful when you want to check the integrity of a message. Different but similar looking input data will produce a completely different hash value with an equal length of characters in output, regardless of the input length.
 
@@ -102,11 +111,11 @@ There are two uses for asymmetric encryption:
 
 - **The input data is encrypted with the public key and decrypted by the owner of the private key**. For example, you want a third party to send you data securely. You transmit your public key without worrying about someone getting it. This third party will encrypt their data with your public key. Encrypted data can only be decrypted by the private key owner.
 
-![hash](/pages/assets/schemas/emails/dns-dkim-crypto01.png){.thumbnail}
+![hash](/pages/assets/schemas/emails/dns-dkim-crypto01.png){.thumbnail .w-400 .h-600}
 
 - **The input data is encrypted by the private key owner and decrypted by the public key**. This use applies to authenticate a data exchange. For example, your recipients want to ensure that you are the author of the message you send them. In this case, you will encrypt your message with your private key. This message can only be decrypted by the public key that you have transmitted to everyone, which guarantees your recipients the authenticity of your message. A message decrypted by the public key can only come from the owner of the private key.
 
-![hash](/pages/assets/schemas/emails/dns-dkim-crypto02.png){.thumbnail}
+![hash](/pages/assets/schemas/emails/dns-dkim-crypto02.png){.thumbnail .w-400 .h-600}
 
 #### How are hashing and asymmetric encryption used for DKIM? <a name="encrypt-and-hash"></a>
 
@@ -135,33 +144,56 @@ The value of this selector is `s=ovhex123456-selector1`.
 
 When you send an email from **contact@mydomain.ovh**, a signature encrypted with a private key is added to the email header.
 
-![email](/pages/assets/schemas/emails/dns-dkim-send.gif){.thumbnail}
+![email](/pages/assets/schemas/emails/dns-dkim-send.gif){.thumbnail .w-400 .h-600}
 
 The recipient **recipient@otherdomain.ovh** can decrypt this signature with the public key visible in the DNS zone of **mydomain.ovh**. The signature is created from the content of the email sent. This means that if the email is modified during transit, the signature will not match with the content and this will cause the DKIM check on the destination server to fail.
 
-![email](/pages/assets/schemas/emails/dns-dkim-receive.gif){.thumbnail}
+![email](/pages/assets/schemas/emails/dns-dkim-receive.gif){.thumbnail .w-400 .h-600}
 
 ### Configuring DKIM automatically for an OVHcloud Exchange solution <a name="auto-dkim"></a>
 
-The automatic configuration of DKIM is accessible for the email [Exchange](/links/web/emails) solutions.
+The automatic configuration of DKIM is accessible for an email solution MX Plan (included with a [Web Cloud hosting plan](/links/web/hosting)) and the email solutions [Exchange](/links/web/emails).
 
 By default, the DKIM is not activated when you add a domain name to your platform. You will need to launch the automatic configuration process via the OVHcloud Control Panel.
 
 Click on the tab below corresponding to your solution.
 
-From your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Click on the name of the Exchange service concerned. Finally, go to the `Associated domains`{.action} tab.
+> [!tabs]
+> **E-mails (MX Plan)**
+>>
+>> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Emails`{.action} , then click on the domain name concerned. Finally, go to the `General information`{.action} tab.
+>>
+>> In the **General informations** box, you can see that the `DKIM` box is red with the **Diagnostic**.
+>>
+>> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/emails/general-information/dkim-auto01.png){.thumbnail .w-400 .h-600}
+>>
+> **Exchange**
+>>
+>> From your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Click on the name of the Exchange service concerned. Finally, go to the `Associated domains`{.action} tab.
+>>
+>> To the right of the domain name concerned, you can see that the `DKIM` box is red.
+>>
+>>![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto01.png){.thumbnail .w-400 .h-600}
+>>
 
-To the right of the domain name concerned, you can see that the `DKIM` box is gray.
+To activate the DKIM, simply click on the red `DKIM` box, then `Confirm`{.action} in the activation window that pops up.
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto01.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto02.png){.thumbnail .w-400 .h-600}
 
-To activate the DKIM, simply click on the gray `DKIM` box, then `Confirm`{.action} in the activation window that pops up.
+> [!primary]
+>
+> **Emails (MX Plan)**
+>
+> If your domain name is not managed in the same OVHcloud Control Panel as your email platform, or registered outside of OVHcloud, you will see the window below:
+>
+> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/emails/general-information/dkim-auto02.png){.thumbnail .w-400 .h-600}
+>
+> This prompts you to enter two CNAME values in the domain name’s DNS zone, which enables you to link this domain name to the DKIM selectors of your email service. You will need to enter these values and ensure that they are propagated before clicking `Enable`{.action}.
+>
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto02.png){.thumbnail}
+The automatic activation of the DKIM takes between 30 minutes and 24 hours. To check that your DKIM is functional, simply go back to the `General information`{.action} or the `Associated domains`{.action} tab of your email platform and make sure that the `DKIM` box has turned green.
 
-The automatic activation of the DKIM takes between 30 minutes and 24 hours. To check that your DKIM is functional, simply go back to the `Associated domains`{.action} tab of your email platform and make sure that the `DKIM` box has turned green.
-
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto03.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-auto03.png){.thumbnail .w-400 .h-600}
 
 After 24 hours, if your `DKIM` box is red, please refer to the section [“Why does DKIM not work and appear in red in the OVHcloud Control Panel?”](#reddkim) of this guide.
 
@@ -173,11 +205,11 @@ Click on the tab below for your solution.
 
 In the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Next, click on the name of the Exchange service concerned. By default, your platform name will match its reference number, or it will be visible under the name you have given it (see image below).
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 
 Also, make sure that the domain name you want to use for your emails is active in the `Associated domains`{.action} section.
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dns-dkim-domain.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dns-dkim-domain.png){.thumbnail .w-400 .h-600}
 
 #### Full DKIM configuration <a name="firststep"></a>
 
@@ -192,11 +224,11 @@ Click on the tab corresponding to your solution:
 > [!tabs]
 > **Emails (MX Plan)**
 >>
->> ![email](/pages/assets/screens/api/get-email-domain-domain-dkim.png){.thumbnail}
+>> ![email](/pages/assets/screens/api/get-email-domain-domain-dkim.png){.thumbnail .w-400 .h-600}
 >>
 > **Exchange**
 >>
->> ![email](/pages/assets/screens/api/get-email-exchange-organizationname-service-exchangeservice-domain-domainname-dkim.png){.thumbnail}
+>> ![email](/pages/assets/screens/api/get-email-exchange-organizationname-service-exchangeservice-domain-domainname-dkim.png){.thumbnail .w-400 .h-600}
 >>
 
 ##### **For Emails (MX Plan)** <a name="confemail"></a>
@@ -213,7 +245,7 @@ Follow the **5 steps** by clicking on each of the 5 tabs below:
 >>
 >> - `domain`: Enter the domain name attached to the email service on which you want to enable DKIM.
 >>
->> Click `TRY`{.action} to activate.<br>
+>> Click `EXECUTE`{.action} to activate.<br>
 >>
 >> *Sample result:*
 >>
@@ -241,7 +273,7 @@ Follow the **5 steps** by clicking on each of the 5 tabs below:
 >>
 >> - `domain`: Enter the domain name attached to the email service.<br>
 >> <br>
->> Click `TRY`{.action} to view the result.<br>
+>> Click `EXECUTE`{.action} to view the result.<br>
 >>
 >> *Example result:*
 >>
@@ -285,7 +317,7 @@ Follow the **5 steps** by clicking on each of the 5 tabs below:
 >>
 >> - `domain`: Enter the domain name attached to your email service.
 >>
->> Click `TRY`{.action} to view the result.
+>> Click `EXECUTE`{.action} to view the result.
 >>
 >> *Example result:*
 >>
@@ -320,7 +352,7 @@ Follow the **5 steps** by clicking on each of the 5 tabs below:
 >> - `ovhmo3456789-selector1._domainkey.mydomain.ovh` is the subdomain of the CNAME record. We only keep `ovhmo3456789-selector1._domainkey` because `.mydomain.ovh` is already present. <br>
 >> - `ovhmo3456789-selector1._domainkey.123403.aj.dkim.mail.ovh.net."` is the record target. Keep the period at the end to punctuate the value.<br>
 >>
->>![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-api022.png){.thumbnail}
+>>![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-api022.png){.thumbnail .w-400 .h-600}
 >>
 >> Once you have entered the values, click `Next`{.action} then `Confirm`{.action}.
 >>
@@ -348,7 +380,7 @@ Follow the **5 steps** by clicking on each of the 5 tabs below:
 >>
 >> - `domain`: Enter the domain name attached to your email service on which you want to enable DKIM.
 >>
->> Click `TRY`{.action} to activate.<br>
+>> Click `EXECUTE`{.action} to activate.<br>
 >>
 >> *Example result:*
 >>
@@ -482,7 +514,7 @@ Follow the **5 steps** below by clicking on each tab.
 >> - `customerRecord: "ovhex123456-selector1._domainkey.mydomain.ovh"` is the subdomain of the CNAME record. We only keep `ovhex123456-selector1._domainkey` because `.mydomain.ovh` is already prefilled. <br>
 >> - `targetRecord: "ovhex123456-selector1._domainkey.1500.ab.dkim.mail.ovh.net"` is the target of the record. Add a full stop at the end to punctuate the value: `ovhex123456-selector1._domainkey.1500.ab.dkim.mail.ovh.net.`<br>
 >>
->> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-api02.png){.thumbnail} <br>
+>> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-api02.png){.thumbnail .w-400 .h-600} <br>
 >> 
 >> Once you have entered the values, click `Next`{.action}, then `Confirm`{.action}.
 >>
@@ -683,7 +715,7 @@ Click on the `DNS Zone`{.action} tab, then `Add an entry`{.action}. There are 3 
 
 This record is named DKIM on the interface but it is actually a TXT record in the zone. The purpose of the DKIM record is to make it easier to read the various parameters of the DKIM by presenting them as independent fields.
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-add.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-dkim-add.png){.thumbnail .w-400 .h-600}
 
 - **Sub-domain**: Enter the DKIM selector name and add `._domainkey` as a suffix. Your domain name will be added automatically at the end.
 
@@ -804,7 +836,7 @@ Click on the tab below corresponding to your solution to check the status of the
 
 From your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/en/&ovhSubsidiary=en), in the `Web Cloud`{.action} tab, click `Microsoft`{.action} then on `Exchange`{.action}. Finally, click on the name of the Exchange service concerned.<br><br> In the `Associated domains`{.action} section, check the colour of the `DKIM` icon to the right of the domain name concerned (see the image below).
 
-![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail}
+![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 
 Here are the 4 states that result in a red DKIM icon in your Control Panel. Click on the tab corresponding to your error code:
 
@@ -829,7 +861,7 @@ Here are the 4 states that result in a red DKIM icon in your Control Panel. Clic
 >> The CNAME record value required to configure the DKIM was not entered correctly. You must configure the DNS zone of the attached domain name correctly.
 >> To configure your DNS zone, retrieve the values of the CNAME record that appears:
 >>
->> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-503.png){.thumbnail}
+>> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-503.png){.thumbnail .w-400 .h-600}
 >>
 >> If we take the example of the capture above, the domain name is "**mydomain.ovh**" and we are asked to configure the "**2**" selector. Here, add a CNAME record with the subdomain value `ovhex1234567-selector2.domainkey.mydomain.ovh` and as a target `ovhex1234567-selector2.domainkey.7890.dkim.mail.ovh.net`.<br><br>
 >> Once you have configured your DNS zone, wait for the DNS propagation (24 hours maximum).
@@ -840,7 +872,7 @@ Here are the 4 states that result in a red DKIM icon in your Control Panel. Clic
 >> The CNAME record value required to configure the DKIM is missing. You will need to configure the DNS zone for the domain name you are attaching.
 >> To configure your DNS zone, retrieve the values of the CNAME record that appears:
 >>
->> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-503.png){.thumbnail}
+>> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/dkim-503.png){.thumbnail .w-400 .h-600}
 >>
 >> If we take the example of the capture above, the domain name is "**mydomain.ovh**" and we are asked to configure the "**2**" selector. Here, add a CNAME record with the subdomain value `ovhex1234567-selector2.domainkey.mydomain.ovh` and as a target `ovhex1234567-selector2.domainkey.890123.dkim.mail.ovh.net`.<br><br>
 >> Once you have configured your DNS zone, wait for the DNS propagation (24 hours maximum).

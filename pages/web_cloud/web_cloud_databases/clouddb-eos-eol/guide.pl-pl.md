@@ -1,6 +1,6 @@
 ---
 title: 'Ogłoszenia dotyczące końca umowy sprzedaży/usługi Web Cloud Databases'
-updated: 2024-12-03
+updated: 2025-01-23
 ---
 
 ## Wprowadzenie
@@ -14,7 +14,6 @@ Więcej informacji na ten temat znajdziesz w [polityce wycofania zarządzanych](
 |MariaDB 10.6|Do określenia|Do określenia|Do określenia|
 |MariaDB 10.11|Do określenia|Do określenia|Do określenia|
 |MySQL 8.0|Do określenia|Do określenia|Do określenia|
-|PostgreSQL 12|2023-03-08|2024-05-15|2024-11-14|
 |PostgreSQL 13|2023-11-14|2025-05-14|2025-11-13|
 |PostgreSQL 14|Do określenia|Do określenia|Do określenia|
 |PostgreSQL 15|Do określenia|Do określenia|Do określenia|

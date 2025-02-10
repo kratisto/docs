@@ -1,7 +1,7 @@
 ---
 title: OpenSearch – Capacités et limitations (EN)
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for OpenSearch
-updated: 2024-05-27
+updated: 2025-01-07
 ---
 
 ## Objective
@@ -125,7 +125,7 @@ You can further customise your OpenSearch by using advanced parameters. See the 
 
 #### Backups
 
-*Essential* plan clusters are automatically backed up hourly and daily. Backup retention is 24 hours for hourly backups and 2 days for daily backups.
+*Essential* plan clusters are automatically backed up hourly and daily. Backup retention is 24 hours for hourly backups and 3 days for daily backups.
 
 *Business* plan clusters are automatically backed up hourly and daily. Backup retention is 24 hours for hourly backups and 14 days for daily backups.
 

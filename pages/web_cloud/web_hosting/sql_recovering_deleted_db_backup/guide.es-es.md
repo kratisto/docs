@@ -82,9 +82,9 @@ Para ello, complete los diferentes formularios como se detalla a continuación:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Una vez que haya completado todos los formularios, haga clic en el botón azul `Try`{.action} situado en la parte inferior derecha de las dos secciones que haya completado.
+Una vez que haya completado todos los formularios, haga clic en el botón azul `EXECUTE`{.action} situado en la parte inferior derecha de las dos secciones que haya completado.
 
-Si todo se ha rellenado correctamente y hay copias de seguridad disponibles para la base de datos eliminada, aparecerá una lista de números de identificador de copia de seguridad en la ventana `RESPONSE`{.action} al acceder a la página situada debajo del botón `Try`{.action}.
+Si todo se ha rellenado correctamente y hay copias de seguridad disponibles para la base de datos eliminada, aparecerá una lista de números de identificador de copia de seguridad en la ventana `RESPONSE`{.action} al acceder a la página situada debajo del botón `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Rellene los distintos formularios de la sección "PATH PARAMETERS" del siguiente
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Una vez que haya completado todos los formularios, haga clic en el botón azul `Try`{.action} situado en la parte inferior derecha de la sección que haya completado.
+Una vez que haya completado todos los formularios, haga clic en el botón azul `EXECUTE`{.action} situado en la parte inferior derecha de la sección que haya completado.
 
-Si todo se ha introducido correctamente, el siguiente resultado aparecerá en la ventana `RESPONSE`{.action} cuando se desplace a la página debajo del botón `Try`{.action}:
+Si todo se ha introducido correctamente, el siguiente resultado aparecerá en la ventana `RESPONSE`{.action} cuando se desplace a la página debajo del botón `EXECUTE`{.action}:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

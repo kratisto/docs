@@ -43,14 +43,14 @@ Una vez que una dirección IP haya sido bloqueada por spam, recibirá por correo
 
 **¿Qué hacer cuando se reciba el email de alerta?**
 
-Identifique el problema, solucione y desbloquee la IP.
+El proceso consiste en identificar el problema, resolverlo y, a continuación, desbloquear su IP.
 
 ### Identificar y resolver el problema
 
 **Antes de desbloquear una dirección IP, asegúrese de haber tomado las siguientes medidas:**
 
-- Deje de enviar mensajes de correo electrónico (p. ej.: detener todos los programas de correo (como qmail, Postfix, Sendmail, etc.).
-- Compruebe la cola de espera de los emails (por ejemplo, qmHandle para qmail, postrabo -p para Postfix) y vacídela.
+- Deje de enviar mensajes de correo electrónico (p. ej.: detener todos los programas de correo como qmail, Postfix, Sendmail, etc.).
+- Compruebe la cola de espera de los emails (por ejemplo, qmHandle para qmail, postqueue -p para Postfix) y vacídela.
 - Analice sus logs gracias al **Message-ID** presente en la alerta de bloqueo.
 - Si envía spam o mensajes de correo ilegítimos, le recomendamos encarecidamente que resuelva el problema **antes** de desbloquear la dirección IP. Consulte esta guía para conocer las [mejores prácticas (EN)](/pages/bare_metal_cloud/dedicated_servers/antispam_best_practices#bestpractices) al enviar correos electrónicos. 
 

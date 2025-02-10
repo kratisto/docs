@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Linux (BYOLinux)
 excerpt: Découvrez comment déployer facilement vos propres images Linux sur des serveurs dédiés
-updated: 2024-10-30
+updated: 2025-01-28
 ---
 
 ## Objectif
@@ -170,7 +170,16 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 
 ¹ Il peut s'agir d'un `#cloud-config` ou d'un script. Il doit être sur une ligne et avoir `\n` pour la ligne-retour.<br />
 ² À utiliser uniquement si vous avez besoin d'en-têtes HTTP, tels que `Basic Auth`<br />
-³ Exemples de chemin EFI : Debian : \\efi\\debian\\grubx64.efi, Ubuntu :\\efi\\ubuntu\\grubx64.efi, Microsoft : \\efi\\microsoft\\boot\\bootmgfw.efi
+³ Exemples de chemin EFI :
+
+| Système d'exploitation | efiBootloaderPath | 
+|-|-|
+| Debian | `\\efi\\debian\\grubx64.efi` |
+| Ubuntu | `\\efi\\ubuntu\\grubx64.efi` |
+| Windows | `\\efi\microsoft\\boot\\bootmgfw.efi` |
+| FreeBSD | `\\efi\\FreeBSD\\loader.efi` |
+| Alma | `\\efi\\almalinux\\shimx64.efi` |
+| Gentoo | `\efi\\boot\\bootx64.efi` |
 
 > [!primary]
 >

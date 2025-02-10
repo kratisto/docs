@@ -82,9 +82,9 @@ Para isso, preencha os diferentes formulários tal como se especifica a seguir:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Depois de preencher os diferentes formulários, clique no botão azul `Try`{.action} situado no canto inferior direito das duas secções previamente preenchidas.
+Depois de preencher os diferentes formulários, clique no botão azul `EXECUTE`{.action} situado no canto inferior direito das duas secções previamente preenchidas.
 
-Se tiver introduzido tudo corretamente e houver backups disponíveis para a base de dados eliminada, aparecerá uma lista de números de ID de backup na janela `RESPONSE`{.action} ao descer para a página abaixo do botão `Try`{.action}.
+Se tiver introduzido tudo corretamente e houver backups disponíveis para a base de dados eliminada, aparecerá uma lista de números de ID de backup na janela `RESPONSE`{.action} ao descer para a página abaixo do botão `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Preencha os diferentes formulários da parte `PATH PARAMETERS` assim:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Depois de preencher os diferentes formulários, clique no botão azul `Try`{.action} situado no canto inferior direito da secção previamente preenchida.
+Depois de preencher os diferentes formulários, clique no botão azul `EXECUTE`{.action} situado no canto inferior direito da secção previamente preenchida.
 
-Se tudo tiver sido indicado corretamente, o seguinte resultado aparecerá na janela `RESPONSE`{.action} quando descer para a página abaixo do botão `Try`{.action} :
+Se tudo tiver sido indicado corretamente, o seguinte resultado aparecerá na janela `RESPONSE`{.action} quando descer para a página abaixo do botão `EXECUTE`{.action} :
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

@@ -44,7 +44,7 @@ Po zablokowaniu adresu IP ze względu na SPAM, otrzymasz e-mail z informacjami, 
 
 **Co zrobić, gdy otrzymasz e-mail z alertem?**
 
-Operacja polega na identyfikacji problemu i jego rozwiązaniu, a następnie odblokowaniu IP.
+Proces ten obejmuje identyfikację problemu, jego rozwiązanie, a następnie odblokowanie adresu IP.
 
 ### Zidentyfikuj i rozwiąż problem
 

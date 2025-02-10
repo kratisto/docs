@@ -1,12 +1,12 @@
 ---
 title: "Comment renouveler mes services OVHcloud"
 excerpt: "Découvrez comment gérer vos services et leur renouvellement dans votre espace client"
-updated: 2024-11-12
+updated: 2025-01-28
 ---
 
 ## Objectif
 
-Le menu **Mes services** de votre espace client OVHcloud vous permet de vérifier le statut de vos services, de les renouveler, de modifier leur type de renouvellement, de régulariser des factures ou d'anticiper leur paiement.
+Le menu **Mes offres & services** de votre espace client OVHcloud vous permet de vérifier le statut de vos services, de les renouveler, de modifier leur type de renouvellement, de régulariser des factures ou d'anticiper leur paiement.
 
 Ce guide vous permettra de :
 
@@ -19,7 +19,7 @@ Ce guide vous permettra de :
 
 > [!primary]
 >
-> Selon votre lieu de résidence, la législation locale, ainsi que les solutions concernées, certains détails de ce guide peuvent varier ou ne pas s'appliquer à votre situation. Pour toute information, consultez vos contrats OVHcloud depuis votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) : cliquez sur votre nom en haut à droite de votre écran, sur `Produits et services`{.action} puis sur l'onglet `Contrats`{.action}.
+> Selon votre lieu de résidence, la législation locale, ainsi que les solutions concernées, certains détails de ce guide peuvent varier ou ne pas s'appliquer à votre situation. Pour toute information, consultez vos contrats OVHcloud depuis votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) : cliquez sur votre nom en haut à droite de votre écran, sur `Mes offres & services`{.action} puis sur l'onglet `Contrats`{.action}.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dfpPCa0mUyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,7 +51,7 @@ Avant de poursuivre la lecture de ce guide, vous devez remplir les conditions su
 >> Pour les services ayant une fréquence de renouvellement automatique supérieure à 1 mois (3 mois, 6 mois, 12 mois), un rappel vous est également envoyé par e-mail le mois précédent la date de renouvellement automatique, récapitulant les services allant être renouvelés prochainement.
 >>Si vous ne souhaitez pas prolonger l'un de ces services, il vous suffit alors [de le résilier dans votre espace client](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services).
 >>
->> **Attention**, l'absence d'un moyen de paiement dans votre compte ne déclenche pas une résiliation automatique de vos services. Pour résilier des services, consultez notre guide « [Comment résilier vos services OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services) ».
+>> **Attention**, l'absence d'un moyen de paiement dans votre compte ne déclenche pas une résiliation automatique de vos services. Pour résilier des services, consultez notre guide « [Comment résilier vos services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services) ».
 >>
 > **Le renouvellement manuel**
 >>
@@ -72,23 +72,23 @@ Avant de poursuivre la lecture de ce guide, vous devez remplir les conditions su
 ## En pratique
 
 Connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr).<br>
-Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Produits et services`{.action}.
+Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Mes offres & services`{.action}.
 
 ![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
 
 ### Afficher le type de renouvellement <a name="renewal-type"></a>
 
-La page **Mes services** contient un tableau de gestion de vos services OVHcloud. Vous pouvez y retrouver leurs noms, le type de service, la disponibilité du service (`Actif` par défaut), son statut (type de renouvellement, action à réaliser, etc.), la prochaine date d'effet du renouvellement ou de la résiliation ainsi qu'un bouton `...`{.action} dédié aux actions possibles pour chaque service.
+La page **Gestion de mes offres et services** contient un tableau de gestion de vos services OVHcloud. Vous pouvez y retrouver leurs noms, le type de service, la disponibilité du service (`Actif` par défaut), son statut (type de renouvellement, action à réaliser, etc.), la prochaine date d'effet du renouvellement ou de la résiliation ainsi qu'un bouton `...`{.action} dédié aux actions possibles pour chaque service.
 
-![mes services](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-fr.png){.thumbnail}
+![mes services](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/my-services-fr.png){.thumbnail}
 
 > [!success]
 > Des outils de tri, de filtrage et de recherche sont disponibles au-dessus du tableau.
 > Vous pouvez ainsi trier les colonnes par ordre croissant ou décroissant, rechercher le nom d'un de vos services ou encore appliquer un filtre pour n'afficher que certains de vos services selon les critères de votre choix.
 >
-> Vos critères de filtrage seront alors affichés au dessus du tableau. Voici un exemple de filtre permettant d'afficher les noms de domaines dont le renouvellement est manuel et dont la date de fin d'abonnement expire avant un mois.
+> Vos critères de filtrage seront alors affichés au dessus du tableau. Voici un exemple de filtre permettant d'afficher les noms de domaines en renouvellement manuel.
 >
-> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-fr.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/filters-fr.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -101,14 +101,14 @@ La page **Mes services** contient un tableau de gestion de vos services OVHcloud
 
 À droite d'un service, cliquez sur le bouton `...`{.action} dans la colonne `Actions` puis sur l'action de votre choix.
 
-![menu actions](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-fr.png){.thumbnail}
+![menu actions](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/actions-fr.png){.thumbnail}
 
 **Chaque action est détaillée dans un des onglets ci-dessous.**
 
 > [!tabs]
 > **Configurer le renouvellement**
 >>
->> ![configurer le renouvellement](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-fr.png){.thumbnail}
+>> ![configurer le renouvellement](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/configure-renewal-fr.png){.thumbnail}
 >>
 >> Cliquez sur l'action `Configurer le renouvellement`{.action}. Selon le service choisi, vous pouvez le paramétrer en renouvellement manuel ou choisir la fréquence de renouvellement automatique. Le cas échéant, vous pourrez donc choisir le type de renouvellement, ainsi que la fréquence de celui-ci.
 >>
@@ -118,7 +118,7 @@ La page **Mes services** contient un tableau de gestion de vos services OVHcloud
 >>
 > **Anticiper le paiement**
 >>
->> ![anticiper le paiement](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-fr.png){.thumbnail}
+>> ![anticiper le paiement](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/forward-payment-fr.png){.thumbnail}
 >>
 >> Cette action est proposée pour les services en **renouvellement automatique**. 
 >>
@@ -127,28 +127,46 @@ La page **Mes services** contient un tableau de gestion de vos services OVHcloud
 >> Vous pouvez renouveler ces services à tout moment avant leur expiration, ainsi que choisir la durée de leur renouvellement.
 >> Dans ce cas, la durée de validité souscrite sera rajoutée au temps de validité en cours. Vous ne perdrez pas le temps de validité restant.
 >>
-> **Résilier**
+>> > [!success]
+>> >
+>> > Une fois sur l'interface de paiement en ligne, si le service que vous souhaitez renouveler dispose d'options associées et que vous souhaitez également les renouveler, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
+>> > Si vous cochez ce(s) bouton(s) blanc(s), vous sollicitez alors le renouvellement de votre service principal **SANS** ses éventuelles options associées.
+>> >
+>> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur `Valider`{.action}.
+>> >
+>> > Pour information, la tarification de certaines options ne s'affiche que lorsque le bon de commande de renouvellement est généré.
 >>
->> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
+> **Résilier mon service**
+>>
+>> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-fr.png){.thumbnail}
 >>
 >> Cette action est proposée pour les services paramétrés en **renouvellement automatique**.
 >>
 >> En choisissant cette action, le renouvellement et le prélèvement automatiques sont désactivés pour le service que vous avez sélectionné.
 >>
->> Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
+>> Pour plus d'informations sur la résiliation des services OVHcloud, suivez les instructions du guide « **[Comment résilier vos services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)** ».
 >>
 > **Renouveler le service**
 >>
->> ![Renouveler le service](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-fr.png){.thumbnail}
+>> ![Renouveler le service](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/renew-service-fr.png){.thumbnail}
 >>
 >> Cette action est uniquement proposée pour les services en **renouvellement manuel**.
 >>
 >> Vous serez alors redirigé vers une interface de paiement en ligne.
 >> Vous pouvez renouveler ces services à tout moment avant leur expiration, ainsi que choisir la durée de leur renouvellement.
 >>
+>> > [!success]
+>> >
+>> > Une fois sur l'interface de paiement en ligne, si le service que vous souhaitez renouveler dispose d'options associées et que vous souhaitez également les renouveler, **ne cochez pas** le(s) bouton(s) blanc(s) suivi(s) de la mention `Ne pas le renouveler` associé(s) à chacune des options affichées.
+>> > Si vous cochez ce(s) bouton(s) blanc(s), vous sollicitez alors le renouvellement de votre service principal **SANS** ses éventuelles options associées.
+>> >
+>> > Une fois vos choix effectués, poursuivez votre commande en cliquant sur `Valider`{.action}.
+>> >
+>> > Pour information, la tarification de certaines options ne s'affiche que lorsque le bon de commande de renouvellement est généré.
+>>
 > **Régler ma facture**
 >>
->> ![Payer une facture](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-fr.png){.thumbnail}
+>> ![Payer une facture](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/pay-bill-fr.png){.thumbnail}
 >>
 >> Une mention `Facture à payer` s'affiche lorsqu'une facture est en attente de règlement et lorsque :
 >>
@@ -164,7 +182,7 @@ La page **Mes services** contient un tableau de gestion de vos services OVHcloud
 
 Vous avez la possibilité d'effectuer des actions groupées, en sélectionnant plusieurs services dans le tableau puis en cliquant sur le bouton `Actions`{.action}.
 
-![actions groupées](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-fr.png){.thumbnail}
+![actions groupées](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/batch-actions-fr.png){.thumbnail}
 
 Le tableau ci-dessous détaille les actions groupées possibles.
 
@@ -202,7 +220,7 @@ Le tableau ci-dessous détaille les actions groupées possibles.
 >> Si votre nom de domaine était également suspendu et a été renouvelé, le délai peut alors être plus long et aller jusqu'à 48 heures, correspondant au délai de propagation DNS.
 >> Afin de vous prémunir d'une indisponibilité d'accès pour tous vos services critiques, nous vous préconisons de privilégier le renouvellement automatique et de [vérifier régulièrement que vos moyens de paiement sont à jour](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods).
 > L'abonnement de mon service expire en juillet 2024. Nous sommes en janvier 2024 et je veux le renouveler pour un an. Est-ce que l'abonnement expirera alors en juillet 2025 ou en janvier 2025 ?
->> Lorsque vous prolongez le renouvellement d'un service (pour 1 an ou une période plus courte), cette période s'ajoute à la prochaine date d'effet visible dans le tableau « Mes services » . Dans votre cas, votre service sera renouvelé jusqu'en juillet 2025.
+>> Lorsque vous prolongez le renouvellement d'un service (pour 1 an ou une période plus courte), cette période s'ajoute à la prochaine date d'effet visible dans le tableau « Gestion de mes offres et services » . Dans votre cas, votre service sera renouvelé jusqu'en juillet 2025.
 > L'abonnement de mon service a expiré le 1er janvier 2024 et j'ai oublié de le renouveler. Je viens de le renouveler le 16 janvier 2024 pour 6 mois mais je constate qu'il expirera le 1er juillet 2024 et non le 16 juillet 2024. Est-ce que c'est normal ?
 >> Oui, c'est en effet normal, le renouvellement commence à la date d'expiration de l'abonnement.
 

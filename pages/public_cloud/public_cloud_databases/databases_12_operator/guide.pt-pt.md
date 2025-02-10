@@ -12,7 +12,7 @@ The kubernetes database operator allows you to automaticaly authorize your Kuber
 
 ## Requirements
 
-- Access to the [OVHcloud API](https://api.ovh.com/). Create your credentials using our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
+- Access to the [OVHcloud API](/links/api). Create your credentials using our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
 - A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
 
 ### Getting your OVHcloud API tokens information
@@ -87,8 +87,8 @@ metadata:
   name: mydatabase
   namespace: ovhcloud
 spec:
-  projectId: XXXX
-  serviceId: XXX
+  projectId: XXXX # ID of your Public Cloud project ID
+  serviceId: XXX # ID of your Public Cloud Databases service
 ```
 
 Or with a label selector to cherry pick you nodes based on label:
@@ -100,8 +100,8 @@ metadata:
   name: mydatabase
   namespace: ovhcloud
 spec:
-  projectId: XXXX
-  serviceId: XXX
+  projectId: XXXX # ID of your Public Cloud project ID
+  serviceId: XXX # ID of your Public Cloud Databases service
   labelSelector:
     matchLabels:
       LABELNAME: LABELVALUE
@@ -141,6 +141,6 @@ kubectl label nodes NODENAME1 NODENAME2 ... LABELNAME=LABELVALUE
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pt/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!

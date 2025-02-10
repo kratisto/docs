@@ -69,10 +69,10 @@ La fonction Legal hold offre la même protection qu'une période de rétention, 
 
 ## Prérequis
 
-- Connaître vos informations d'identification S3 (access_key et secret_access_key)
+- Connaître vos informations d'identification Object Storage (access_key et secret_access_key)
 - Avoir installé et configuré aws cli
 
-Consultez notre guide « [Débuter avec S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
+Consultez notre guide « [Débuter avec Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
 
 ## En pratique
 

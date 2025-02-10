@@ -82,9 +82,9 @@ Pour cela, remplissez les différents formulaires comme détaillé ci-dessous :
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Une fois les différents formulaires remplis, cliquez sur le bouton bleu `Try`{.action} situé en bas à droite des deux sections préalablement remplies.
+Une fois les différents formulaires remplis, cliquez sur le bouton bleu `EXECUTE`{.action} situé en bas à droite des deux sections préalablement remplies.
 
-Si tout a été renseigné correctement et que des sauvegardes sont disponibles pour la base de données supprimée, une liste de numéros d'identifiants de sauvegarde apparaît dans la fenêtre `RESPONSE`{.action} lorsque vous descendez sur la page en dessous du bouton `Try`{.action}.
+Si tout a été renseigné correctement et que des sauvegardes sont disponibles pour la base de données supprimée, une liste de numéros d'identifiants de sauvegarde apparaît dans la fenêtre `RESPONSE`{.action} lorsque vous descendez sur la page en dessous du bouton `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Remplissez les différents formulaires de la partie `PATH PARAMETERS` ainsi :
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Une fois les différents formulaires remplis, cliquez sur le bouton bleu `Try`{.action} situé en bas à droite de la section préalablement remplie.
+Une fois les différents formulaires remplis, cliquez sur le bouton bleu `EXECUTE`{.action} situé en bas à droite de la section préalablement remplie.
 
-Si tout a été renseigné correctement, le résultat suivant apparaît dans la fenêtre `RESPONSE`{.action} lorsque vous descendez sur la page en dessous du bouton `Try`{.action} :
+Si tout a été renseigné correctement, le résultat suivant apparaît dans la fenêtre `RESPONSE`{.action} lorsque vous descendez sur la page en dessous du bouton `EXECUTE`{.action} :
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

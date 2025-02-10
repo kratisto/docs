@@ -191,7 +191,7 @@ If the disk is marked as offline here, it needs to be initialised first. You can
 
 ##### **Initialising the disk in Disk Management** <a name="initDiskManagement"></a>
 
- Right-click on the disk and select `Online`{.action}. 
+Right-click on the disk and select `Online`{.action}. 
 
 ![winmountdiskvps](images/disk_vps_win03.png){.thumbnail}
 

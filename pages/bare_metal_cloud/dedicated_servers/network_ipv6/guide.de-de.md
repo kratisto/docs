@@ -34,7 +34,7 @@ Internet Protocol Version 6 (IPv6) ist die neueste Version des Internet Protocol
 
 Die folgenden Abschnitte enthalten die Konfigurationen der derzeit von uns angebotenen Distributionen sowie die am häufigsten verwendeten Distributionen/Betriebssysteme. Der erste Schritt besteht immer darin, sich via SSH oder GUI (RDP für einen Windows Server) mit Ihrem Server zu verbinden.
 
-Auf Dedicated Servern ist die erste IPv6 als 2607:5300:xxxx:xxxx::/64 deklariert. Wenn wir Ihrem Server beispielsweise den IPv6-Bereich `2607:5300:abcd:efgh::/64` zugewiesen haben, lautet die erste IPv6-Adresse Ihres Servers `2607:5300:abcd:efgh::/64`.
+Auf Dedicated Servern ist die erste IPv6 als 2607:5300:xxxx:xxxx::/64 deklariert. Wenn wir Ihrem Server beispielsweise den IPv6-Bereich `2607:5300:abcd:efgh::/64` zugewiesen haben, lautet die erste IPv6-Adresse Ihres Servers `2607:5300:abcd:efgh::`.
 
 Standardmäßig ist die erste IPv6 auf den meisten neueren Linux-Distributionen konfiguriert, die wir für die Installation anbieten. Das Gateway ist also bereits in der Konfigurationsdatei enthalten. In den meisten Fällen müssen Sie es nicht manuell hinzufügen.
 
@@ -108,7 +108,7 @@ ssh user@serverIP
 
 #### Schritt 2: Backup erstellen
 
-Die Netzwerkkonfigurationsdatei Ihres Servers befindet sich in `/etc/network/interfaces.d`. Erstellen Sie eine Sicherungskopie der Datei mit einem der folgenden Befehle, bevor Sie den Vorgang fortsetzen:
+Die Netzwerkkonfigurationsdatei Ihres Servers befindet sich in `/etc/network/interfaces.d`. Erstellen Sie eine Sicherungskopie der Datei mit dem folgenden Befehl:
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bak

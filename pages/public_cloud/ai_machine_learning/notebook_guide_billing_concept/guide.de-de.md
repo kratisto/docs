@@ -1,26 +1,26 @@
 ---
 title: AI Notebooks - Billing and lifecycle
 excerpt: Learn how we bill AI Notebooks
-updated: 2022-04-27
+updated: 2025-02-03
 ---
 
 ## Objective
 
-The OVHcloud AI Notebooks service provides you with Jupyter or VSCode notebooks, linked to CPU or GPU resources, without the hassle of installing or operating them. This guide will cover the lifecycle of a notebook, and associated billing.
+**OVHcloud AI Notebooks** are managed Jupyter and VSCode notebooks with assigned CPU or GPU resources, eliminating the need for installation and maintenance. This documentation will detail the notebook **lifecycle and billing**.
 
 ## Introduction
 
-AI Notebooks are linked to a Public Cloud project. The whole project is billed at the end of the month, with pay-as-you-go. It means you will only pay for what you consume, based on the compute resources you use (CPUs and GPUs) and their running time.
+AI Notebooks are linked to a Public Cloud project. The whole project is billed at the end of the month, with **pay-as-you-go**. It means you will only pay for what you consume, based on the compute resources you use (CPUs and GPUs), their running time and data.
 
 ## AI Notebooks lifecycle
 
 During its lifetime, the notebook will go through the following statuses:
 
-- `STARTING`: the notebook is being started and, if any, the remote data is synchronized. To learn more about data synchronization, please check out the [Data - How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
-- `RUNNING`: the notebook is running, you can connect to it and use it. Compute resources (GPUs/CPUs) are allocated to your specific notebook and data are available.
-- `STOPPING`: the notebook is stopping, your compute resources are freed, your status is saved and, if any, the data is synchronized back.
-- `STOPPED`: the notebook ended normally. You can restart it whenever you want or delete it.
-- `FAILED`: the notebook ended in error, e.g. the process in the notebook finished with a non 0 exit code. For more information, refer to [this section](/pages/public_cloud/ai_machine_learning/notebook_guide_troubleshooting#cli-my-notebook-is-in-failed-status) of our [Troubleshooting documentation](/pages/public_cloud/ai_machine_learning/notebook_guide_troubleshooting).
+- `STARTING`: the notebook is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - Concept and best practices](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation. Then, the system allocates the necessary compute resources (CPUs/GPUs) for your Notebook. Finally, the base framework you have chosen is pulled for use in the notebook.
+- `RUNNING`: the notebook is running, you can connect to it using its endpoint and benefit from your compute resources and your attached data.
+- `STOPPING`: the notebook is stopping, your compute resources are freed, your work and status is saved and, if any, the data is synchronized back to the Object Storage.
+- `STOPPED`: the notebook ended normally. You can restart it whenever you want or delete it. It will keep the same endpoint.
+- `FAILED`: the notebook ended in error, e.g. the process in the notebook finished with a non 0 exit code. For more information, refer to [this section of our Troubleshooting documentation](/pages/public_cloud/ai_machine_learning/notebook_guide_troubleshooting#cli-my-notebook-is-in-failed-status).
 - `ERROR`: the notebook ended due to a backend error. You may reach our support.
 - `DELETING`: the notebook is being removed. When it is deleted, you will no longer see it, it will no longer exist.
 
@@ -28,60 +28,60 @@ During its lifetime, the notebook will go through the following statuses:
 
 ## Billing principles
 
-AI Notebooks are a pay-per-use solution. You only pay for the resources consumption, during the `RUNNING` phase of your notebooks.
-
-Billing principle is quite simple, you select the amount of compute resource (CPUs or GPUs) you would like to work with and pay only for this.
+AI Notebooks is a **pay-per-use solution**. You only pay for the **resources** consumption.
 
 **Included** in AI Notebooks resources:
 
-- AI Notebooks managed service
-- Dedicated CPU/GPU compute resources (based on the selected amount)
-- Ephemeral local storage (size depends on the selected compute resources)
-- Workspace storage when notebook is running
-- Ingress/Egress network traffic
+- Dedicated CPU/GPU compute resources (based on the selected amount during notebook creation)
+- Ephemeral local notebook storage (size depends on the selected compute resources). First 10GB are free.
+- Workspace remote storage (Optional)
+- Ingress/Egress network traffic (Optional)
 
-**Optional** with AI Notebooks:
-
-- Remote storage space, based on OVHcloud Object Storage pricing
-- Egress traffic for remote Object storage
-- Saved workspace storage. First 10GB are free.
-
-Visual explanations about paid items:
-
-![image](images/ai.notebooks.items.png){.thumbnail}
-
-A more detailed view:
+Here is a detailed graph that illustrates every step that is billed or not during the AI Notebook workflow:
 
 ![image](images/ai.notebooks.billing.png){.thumbnail}
 
 ### Compute resources details
 
-During the notebook creation, you can select **compute resources**, known as CPUs or GPUs.
-Their official pricing is available in the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) or on the [OVHcloud Public Cloud website](https://www.ovhcloud.com/de/public-cloud/prices/).
+During the notebook creation, you can select **compute resources**, known as CPUs or GPUs. Their official pricing is available in the [OVHcloud Control Panel](/links/manager) or on the [OVHcloud Public Cloud website](/links/public-cloud/prices).
 
-Rates for compute are mentioned per hour to facilitate reading of the prices, but the billing granularity remains **per minute**.
+Rates for compute are mentioned per hour to facilitate reading of the prices, but the billing granularity remains **per minute**. 
+
+As stated above and shown in the image above, you pay for these resources as long as you consume them. This happens when the image of your notebook is pulled, during the `STARTING` phase, but also during `RUNNING` and `STOPPING` phases, until you reach the `STOPPED` phase.
 
 ### Storage details
 
-#### Ephemeral local storage
+There are three types of storage within AI Notebooks:
 
-Each compute resource (CPU or GPU) comes with local storage, that we can consider ephemeral since this storage space is not saved when you delete an AI Notebooks.
+- Remote Object storage
+- Workspace storage
+- Ephemeral local storage
 
-The sizing depends on the selected amount of compute resources, check the details on the [OVHcloud Public Cloud website](https://www.ovhcloud.com/de/public-cloud/prices/).
+The pricing of these different storages is different.
 
 #### Remote Object storage
 
-When working with remote data, you pay separately for the storage of this data.
-The pricing of object storage is apart from the notebook pricing.
+Remote data is the one that comes from the OVHcloud Object Storage solution. During notebook creation, you are able to mount some Object Storage containers into your notebook.
+
+In situations where you are utilizing notebooks with attached remote data, you will be charged separately for the storage of this data. The cost of Object Storage is independent of the pricing for notebooks.
 
 #### Workspace storage
 
-When you attach remote data to an AI Notebook, you can select the mounting point. If you opt for /workspace/*, we will save your data when you stop your notebook.
+By default, your notebook will be mounted a remote Object Storage container on the `/workspace` location. This will be your default folder when you access your notebook.
 
-This workspace is saved as long as your notebook is in `STOPPED` state.
+You can store your data there.
 
-- Included: worskpace is included when your notebook is in "running" state.
-- Paid: the first 10GB are free during 30 consecutive days, then you pay at the price of OVHcloud Object Storage.
+The first 10GB are free for 30 consecutive days once your notebook is stopped, then you pay at the price of OVHcloud Object Storage.
+
+#### Ephemeral local storage
+
+Each compute resource (CPU or GPU) comes with local storage, that we can consider ephemeral since this storage space is not saved when you stop or delete your notebook.
+
+The sizing depends on the selected amount of compute resources, check the details on the [OVHcloud Public Cloud website](/links/public-cloud/prices).
+
+This concerns locations outside your `/workspace`, as well as outside any other remote Object Storage containers you may have mounted on your notebook.
+
+This storage is not billed as it is directly linked to the compute resource(s) you have chosen.
 
 ### Pricing examples
 
@@ -89,35 +89,35 @@ This workspace is saved as long as your notebook is in `STOPPED` state.
 
 We start one AI Notebook, with two GPUs and we keep it running for 10 hours then we **delete it**.
 
-- compute resources: 2 x GPU NVIDIA V100s (1,75€ / hour)
+- compute resources: 2 x GPU NVIDIA V100s (1,93€ / hour)
 - remote storage:  nothing
 - duration: 10 hours then deleted
 
-Price calculation for compute: 10 (hours) x 2 (GPU) x 1,75€ (price / GPU) = **35 euros**, billed at the end of the month
+Price calculation for compute: 10 (hours) x 2 (GPU) x 1,93€ (price / GPU) = **38,6 euros**, billed at the end of the month
 
 #### Example 2: one GPU notebook for 10 hours but stopped, not deleted
 
 We start one AI Notebook, with two GPUs and we keep it running for 10 hours then we stop it and finally we **delete it after 10 days**.
 
-- compute resources: 2 x GPU NVIDIA V100s (1,75€ / hour)
+- compute resources: 2 x GPU NVIDIA V100s (1,93 / hour)
 - remote storage: nothing
 - workspace storage: 100GB used. First 10GB are free
 - duration: 10 hours then stopped for 10 days
 
-Price calculation for compute : 10 (hours) x 2 (GPU) x 1,75€ (price / GPU) = **35 euros**, billed at the end of the month
+Price calculation for compute : 10 (hours) x 2 (GPU) x 1,93 (price / GPU) = **38,6 euros**, billed at the end of the month
 Price calculation for workspace : 90 (GB) x 0,01€ (price for object storage / GB) = **0,9 euros**, billed at the end of the month
 
 #### Example 3: one GPU notebook for 10 hours with 1TB remote storage
 
 We start one AI Notebook, with two GPUs and 1TB remote storage. We keep it running for 10 hours then we delete it.
 
-- compute resources: 2 x GPU NVIDIA V100s (1,75€ / hour)
+- compute resources: 2 x GPU NVIDIA V100s (1,93 / hour)
 - remote storage: 1TB in OVHcloud Object Storage
-- workspace storage: 1TB used. First 10GB are free
+- workspace storage: 100GB used. First 10GB are free
 - duration: 10 hours then we delete it.
 
-Price calculation for compute: 10 (hours) x 2 (GPU) x 1,75€ (price / GPU) = **35 euros**, billed at the end of the month
-Price calculation for workspace: 1000 (GB) x 0,01€ (price for object storage / GB) = **0,9 euros**, billed at the end of the month
+Price calculation for compute: 10 (hours) x 2 (GPU) x 1,93 (price / GPU) = **38,6 euros**, billed at the end of the month
+Price calculation for workspace: 90 (GB) x 0,01€ (price for object storage / GB) = **0,9 euros**, billed at the end of the month
 
 Also, price calculation for remote Object Storage : 1000 (GB) x 0,01€ (price for object storage / GB) = **10 euros**, billed at the end of the month
 
@@ -137,4 +137,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/de/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.

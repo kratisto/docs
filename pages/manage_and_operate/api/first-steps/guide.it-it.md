@@ -118,7 +118,7 @@ Ad esempio, per aggiungere un record TXT nella tua zona DNS, ottieni questi para
 
 ![API](images/parameters.png){.thumbnail} 
 
-Una volta definiti i parametri, puoi avviare l'API cliccando su `TRY`{.action}. 
+Una volta definiti i parametri, puoi avviare l'API cliccando su `EXECUTE`{.action}. 
 
 La scheda `Response` mostrata fornirà il report di esecuzione dell'API.
 

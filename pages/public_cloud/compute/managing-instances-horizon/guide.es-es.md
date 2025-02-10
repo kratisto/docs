@@ -65,7 +65,7 @@ Seleccione la opción que desee en el panel de control de la instancia.
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: esta opción permite añadir una o más interfaces privadas a su instancia a través de la VLAN. Para más información, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#anadir-una-interfaz-privada) de la guía correspondiente.
-- Detach Interface: esta opción permite eliminar una interfaz vinculada a una instancia. Para más información, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#eliminacion-de-una-interfaz-privada) de la guía correspondiente.
+- Detach Interface: esta opción se utiliza para desvincular una interfaz vinculada a una instancia. Para más información, consulte [esta parte](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#eliminacion-de-una-interfaz-privada) de la guía correspondiente.
 - Edit Instance : esta opción permite cambiar el nombre de la instancia y los [grupos de seguridad](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
@@ -87,50 +87,7 @@ Gracias al Public Cloud, podrá aumentar los recursos de su instancia fácilment
 > Las instancias de tipo *flex* permiten redimensionar hacia modelos superiores o inferiores gracias a un único tamaño de disco.
 > 
 
-Seleccione `Resize Instance`{.action} en el menú desplegable situado a la derecha de la instancia correspondiente.
-
-![Resize instance](images/resizeinstance2022.png){.thumbnail}
-
-* Elección de la plantilla (*Flavor Choice*): esta sección indica la plantilla actual (*old flavor*) y le permite seleccionar una nueva plantilla (*new flavor*) para el recurso de la instancia.
-
-![public-cloud](images/flavorchoice.png){.thumbnail}
-
-* Detalles de la plantilla (*Flavor Details*). En esta sección se muestran los recursos asociados a la plantilla seleccionada. 
-* Límites de Proyecto (*Project Limits*). Consulte aquí los recursos ocupados en relación con los recursos totales asignados al proyecto.
-
-> [!warning]
-> Tenga en cuenta que solo puede redimensionar una instancia de un modelo Linux a otro modelo Linux y de un modelo Windows a otro modelo Windows.
->
-
-* Opciones avanzadas (*Advanced Options*). Esta sección permite gestionar la partición del disco (*Disk Partition*) y el grupo de servidores (*Server Group*).
-
-![public-cloud](images/resize_advanced.png){.thumbnail}
-
-Una vez completada la configuración, haga clic en `Resize`{.action}.
-
-**Redimensionar el disco en Windows**
-
-Atención: Al redimensionar una instancia Windows, el tamaño de la partición no se actualiza automáticamente, por lo que deberá ampliarse utilizando el **disk manager**:
-
-Haga clic derecho en el menú `Inicio`{.action} e inicie el gestor del disco haciendo clic en `Administración de discos`{.action}:
-
-![public-cloud](images/2980.png){.thumbnail}
-
-Haga clic derecho en la partición principal y seleccione `Extender volumen`{.action}.
-
-![public-cloud](images/2981a.png){.thumbnail}
-
-Haga clic en `Siguiente`{.action} para acceder al `Asistente para extender volúmenes`. Seleccione los recursos del disco que quiera ampliar y haga clic en `Siguiente`{.action}. 
-
-![public-cloud](images/2978a.png){.thumbnail}
-
-Haga clic en `Finalizar`{.action} para aceptar la opción que prefiera.
-
-![public-cloud](images/wizard2021.png){.thumbnail}
-
-El nuevo tamaño del disco se mostrará en el gestor de disco.
-
-![public-cloud](images/2979.png){.thumbnail}
+Para obtener instrucciones detalladas, consulte la siguiente guía: [Redimensionar una instancia a través de Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Reconstruir una instancia
 
@@ -201,6 +158,7 @@ Si ya no necesita una de sus instancias, puede eliminarla en cualquier momento.
 > Se van a eliminar los datos presentes en la instancia.
 > También puede crear una copia de seguridad de esta instancia si quiere conservar los datos y volver a iniciar una instancia idéntica más adelante.
 > 
+> La eliminación de una instancia no elimina automáticamente todas las opciones asociadas a ella (almacenamiento, snapshot, backup, etc.). Asegúrese de que todas las demás opciones asociadas a la instancia también se eliminan para dejar de facturarse. 
 
 En el desplegable correspondiente a la instancia, seleccione `Delete Instance`{.action}. 
 

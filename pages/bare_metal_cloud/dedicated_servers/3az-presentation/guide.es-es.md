@@ -1,12 +1,8 @@
 ---
-title: "OVHcloud 3-AZ Region - Presentación del producto"
-excerpt: 'Descubra el servicio OVHcloud 3-AZ, que ofrece una alta disponibilidad y redundancia sin igual entre tres datacenters'
+title: "Bare Metal 3-AZ Region - Presentación del producto"
+excerpt: 'Descubra el servicio Bare Metal 3-AZ, que ofrece una alta disponibilidad y redundancia sin igual entre tres datacenters'
 updated: 2024-05-30
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
 
 ## Objetivo
 

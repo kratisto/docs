@@ -67,7 +67,7 @@ Nell'interfaccia di gestione dell'istanza, seleziona l'opzione che preferisci ne
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: questa opzione permette di aggiungere una o più interfacce private alla tua istanza tramite la VLAN. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#aggiunta-di-uninterfaccia-privata) della guida.
-- Detach Interface: questa opzione permette di eliminare un'interfaccia associata a un'istanza. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#elimina-uninterfaccia-privata) della guida.
+- Detach Interface: questa opzione si usa per staccare un'interfaccia associata a un'istanza. Per maggiori informazioni, consulta [questa sezione](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#elimina-uninterfaccia-privata) della guida.
 - Edit Instance: questa opzione permette di modificare il nome dell'istanza e i [gruppi di sicurezza](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
@@ -89,50 +89,7 @@ Con il Public Cloud, puoi aumentare le risorse della tua istanza in modo semplic
 > Le istanze di tipo *flex* permettono il ridimensionamento verso i modelli superiori o inferiori grazie a una dimensione di disco unica.
 > 
 
-Seleziona `Resize Instance`{.action} nel menu a tendina dell'istanza pertinente.
-
-![Resize instance](images/resizeinstance2022.png){.thumbnail}
-
-* Scelta del template (*Flavor Choice*): questa sezione indica il template attuale (*old flavor*) e ti permette di selezionare un nuovo template (*new flavor*) per la risorsa dell'istanza.
-
-![public-cloud](images/flavorchoice.png){.thumbnail}
-
-* Dettagli del template (*Flavor Details*). In questa sezione vengono mostrate le risorse associate al template scelto. 
-* Limiti del Progetto (*Project Limits*). Visualizza qui le risorse occupate rispetto alle risorse totali assegnate al progetto.
-
-> [!warning]
-> Ti ricordiamo che è possibile ridimensionare un'istanza solo da un modello Linux a un altro modello Linux e da un modello Windows a un altro modello Windows.
->
-
-* Opzioni avanzate (*Advanced Options*). Questa sezione permette di gestire il partizionamento del disco (*Disk Partition*) e del gruppo di server (*Server Group*).
-
-![public-cloud](images/resize_advanced.png){.thumbnail}
-
-Una volta terminata la configurazione, clicca su `Resize`{.action}.
-
-**Ridimensionamento del disco con Windows**
-
-Attenzione: durante un ridimensionamento di un’istanza Windows, la dimensione della partizione non è automaticamente aggiornata, sarà quindi necessario estenderla utilizzando il disk manager:
-
-Fai click con il tasto destro sul menu `Start`{.action} e avvia la gestione del disco cliccando su `Gestione disco`{.action}.
-
-![public-cloud](images/2980.png){.thumbnail}
-
-Clicca con il tasto destro sulla partizione principale e poi su `Estendi volume`{.action}.
-
-![public-cloud](images/2981a.png){.thumbnail}
-
-Clicca su `Avanti`{.action} per accedere al `Estensione guidata volume`. Scegli le risorse del disco da estendere e clicca su `Avanti`{.action}. 
-
-![public-cloud](images/2978a.png){.thumbnail}
-
-Clicca su `Fine`{.action} per confermare la tua scelta.
-
-![public-cloud](images/wizard2021.png){.thumbnail}
-
-La nuova dimensione del disco verrà visualizzata dal gestore del disco.
-
-![public-cloud](images/2979.png){.thumbnail}
+Per istruzioni dettagliate, consultare la seguente guida: [Ridimensionare un’istanza via Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Reinstalla un’istanza
 
@@ -203,6 +160,7 @@ Se non hai più bisogno di una delle tue istanze, puoi eliminarla in qualsiasi m
 > I dati presenti sull'istanza verranno eliminati.
 > Se vuoi conservare i dati e riavviare un'istanza identica in seguito, crea un backup di questa istanza.
 > 
+> L'eliminazione di un'istanza non comporta l'eliminazione automatica di tutte le opzioni associate (storage, snapshot, backup, ecc...). Assicurati che tutte le altre opzioni associate all'istanza siano eliminate per interrompere la fatturazione.
 
 Nel menu a tendina corrispondente all'istanza, seleziona `Delete Instance`{.action}. 
 

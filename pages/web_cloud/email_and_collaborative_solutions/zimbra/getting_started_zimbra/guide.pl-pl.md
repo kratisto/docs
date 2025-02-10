@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z ofertą Zimbra"
 excerpt: "Dowiedz się, jak rozpocząć korzystanie z oferty Zimbra z poziomu Panelu klienta OVHcloud"
-updated: 2024-10-10
+updated: 2025-01-30
 ---
 
 <style>
@@ -12,10 +12,6 @@ updated: 2024-10-10
   max-height:400px !important;
 }
 </style>
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
 
 > [!warning]
 >
@@ -77,8 +73,10 @@ Aby utworzyć organizację, kliknij przycisk `Dodaj organizację`{.action}. Usta
 
 #### Filtruj według organizacji
 
-Z zakładek `Organizacja`{.action}, `Domena`{.action} i `Konta e-mail`{.action}, klikając na etykietę organizacji, utworzysz filtr, który wyświetli tylko elementy powiązane z tą organizacją.<br>
-Możesz zauważyć, że filtr jest stosowany, gdy etykieta jest wyświetlana obok nazwy Twojej usługi Zimbra.<br>
+Z zakładek `Organizacja`{.action}, `Domena`{.action} i `Konta e-mail`{.action}, klikając na etykietę organizacji, utworzysz filtr, który wyświetli tylko elementy powiązane z tą organizacją.
+
+Możesz zauważyć, że filtr jest stosowany, gdy etykieta jest wyświetlana obok nazwy Twojej usługi Zimbra.
+
 Aby usunąć filtr, wystarczy kliknąć na krzyżyk filtra.
 
 ![Zimbra](images/zimbra_organization_filter.png){.thumbnail .w-400}
@@ -100,11 +98,52 @@ Tabela domen podaje dwie informacje:
 
 #### Dodaj domenę
 
+> [!warning]
+>
+> Należy [utworzyć organizację](#organisations), aby móc dodać domenę do usługi Zimbra.
+
 Aby dodać domenę do Twojej usługi Zimbra, kliknij w zakładkę `Domena`{.action}, następnie kliknij `Dodaj domenę`{.action}.
 
-Wybierz organizację z wyskakującego menu, a następnie wybierz nazwę domeny z listy (konieczne jest, aby nazwy domen były zarządzane w Panelu klienta OVHcloud). Następnie kliknij przycisk `Potwierdź`{.action}, aby dokończyć dodawanie domeny.
+Wybierz organizację z wyskakującego menu, a następnie wybierz jedną z dwóch poniższych opcji:
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Wybierz domenę z listy** (domenę wewnętrzną): na tej liście znajdziesz domeny, którymi zarządzasz w Panelu klienta OVHcloud.
+- **Wpisz domenę, która nie jest zarządzana na Twoim koncie OVHcloud** (domena zewnętrzna): wprowadź nazwę domeny, która nie jest zarządzana w Twoim Panelu klienta OVHcloud lub jest zarejestrowana u innego operatora i którą zarządzasz.
+
+Wybierz kartę:
+
+> [!tabs]
+> **Domena wewnętrzna**
+>>
+>> Wybierz z listy zarządzaną domenę w Panelu klienta OVHcloud.
+>>
+>> ![Zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> Aby skonfigurować strefę DNS, wybierz jedną z dwóch poniższych opcji:
+>>
+>> - **Rekomendowana konfiguracja** : Twoja strefa DNS zostanie skonfigurowana automatycznie. Ta opcja jest odpowiednia, jeśli nie skonfigurowałeś kont e-mail dla swojej nazwy domeny.
+>> - **Konfiguracja niestandardowa** : jeśli skonfigurowałeś już usługę e-mail dla swojej domeny, możesz wybrać tematy, które Cię interesują.
+>>    - *Skonfiguruj automatycznie rekord MX* : umożliwia automatyczne wpisanie serwerów poczty przychodzącej OVHcloud (dotyczy wszystkich ofert e-mail OVHcloud).
+>>    - *Skonfiguruj automatycznie rekord SPF* : umożliwia automatyczne wpisanie rekordu zezwalającego serwerom poczty elektronicznej OVHcloud na przesyłanie e-maili. Wpis ten dotyczy wszystkich ofert e-mail OVHcloud.
+>>
+>> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Kliknij przycisk `Potwierdź`{.action}, aby dokończyć dodawanie domeny i rozpocząć proces konfiguracji.
+>>
+> **Domena zewnętrzna**
+>>
+>> Wpisz nazwę domeny, która nie jest obsługiwana w Twoim Panelu klienta. Upewnij się, że masz dostęp do zmiany strefy DNS wybranej domeny.
+>>
+>> Kliknij na `Potwierdź`{.action}
+>>
+>> ![Zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> Pojawi się poniższe okno. Należy wpisać ten rekord CNAME w strefie DNS domeny, aby zatwierdzić ją na Twojej platformie Zimbra.
+>>
+>> ![Zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>> >
+>> > Po 48 godzinach, jeśli pole CNAME nie jest widoczne w strefie DNS, operacja jest anulowana. W takim przypadku konieczne będzie ponowne wykonanie operacji.
 
 ### Konta email <a name="emails"></a>
 
@@ -133,7 +172,7 @@ Uzupełnij kolejne informacje, o które zostaniesz poproszony.
 > - Minimum 2 znaki
 > - Maksymalnie 32 znaki
 > - Brak znaków akcentowanych
-> - Brak znaków specjalnych, z wyjątkiem następujących znaków:`.`,`,`,`-` i `_`
+> - Brak znaków specjalnych, z wyjątkiem następujących znaków: `.`, `+`, `-` i `_`
 
 - **Imię** : wpisz imię.
 - **Nazwa** : wprowadź nazwę.

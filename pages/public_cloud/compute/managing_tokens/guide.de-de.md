@@ -178,8 +178,8 @@ curl -i -X DELETE \
   "http://localhost:5000/v3/auth/tokens"
 ```
 
-Wenn es keinen Fehler gibt, erhalten wir eine leere Antwort.
+Sie erhalten nur eine Ausgabe, wenn es einen Fehler gibt.
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

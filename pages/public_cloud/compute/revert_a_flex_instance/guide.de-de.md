@@ -61,7 +61,7 @@ In diesem Bereich können Sie die Partitionierung der Disk (*Disk Partition*) un
 
 Wenn die Konfiguration abgeschlossen ist, klicken Sie auf `Resize`{.action}.
 
-Mit dem Abschluss der Prozedur ist die Instanz in ein klassisches Modell mit einem größeren Speicherplatz umgewandelt.
+Mit dem Abschluss der Prozedur wird Ihre Instanz auf das ausgewählte Modell umgeschaltet. In diesem Fall wurde die Instanz auf ein klassisches Modell mit mehr Speicherplatz umgestellt.
 
 ![Neuer Geschmack](images/newflavor.png){.thumbnail}
 

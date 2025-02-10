@@ -40,12 +40,6 @@ See our [Caching Capabilities and limitations](/pages/public_cloud/public_cloud_
 M3db is a fully managed distributed time series database. It's scalable and offers high-availability, which is ideal for your monitoring environment and time series applications.<br>
 See our [M3db Capabilities and limitations](/pages/public_cloud/public_cloud_databases/m3db_01_capabilities) guide.
 
-### Opensearch
-
-OpenSearch is an open-source fully managed search, analytics, and observability engine. It is ideal for logs management and offers search and analytical aggregations.<br>
-OpenSearch is an open-source fork derived from Elasticsearch.<br>
-See our [OpenSearch Capabilities and limitations](/pages/public_cloud/public_cloud_databases/opensearch_01_capabilities) guide.
-
 ### Cassandra
 
 Apache Cassandra is an open-source fully managed NoSQL database. It's highly fault-tolerant with asynchronous replication.<br>
@@ -53,15 +47,15 @@ See our [Cassandra Capabilities and limitations](/pages/public_cloud/public_clou
 
 ## Feature Availability
 
-| Feature                                                                                                      | MySQL | PostgreSQL | MongoDB          | Caching | M3db | Opensearch | Cassandra |
-|--------------------------------------------------------------------------------------------------------------|-------|------------|------------------|-------|------|------------|-----------|
-| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓     | ✓          | ✓                | ✓     | ✓    | ✓          | ✓         |
-| Automatic updates and one click upgrade                                                                      | ✓     | ✓          | ✓                | ✓     | ✓    | ✓          | ✓         |
-| Read-only nodes                                                                                              | ✓     | ✓          | ✓                |       |      |            |           |
-| Point in Time Recovery                                                                                       | ✓     | ✓          | ✓ <sup>(1)</sup> |       |      |            |           |
-| Database forking                                                                                             | ✓     | ✓          | ✓                | ✓     | ✓    | ✓          | ✓         |
-| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓     | ✓          | ✓                | ✓     | ✓    | ✓          | ✓         |
-| Private network connectivity (vRack)                                                                         | ✓     | ✓          | ✓                | ✓     | ✓    | ✓          | ✓         |
+| Feature                                                                                                      | MySQL | PostgreSQL | MongoDB          | Caching | M3db | Cassandra |
+|--------------------------------------------------------------------------------------------------------------|-------|------------|------------------|-------|------------|-----------|
+| End-to-end security ([more information](/pages/public_cloud/public_cloud_databases/information_01_security_overview))         | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Automatic updates and one click upgrade                                                                      | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Read-only nodes                                                                                              | ✓     | ✓          | ✓                |       |            |           |
+| Point in Time Recovery                                                                                       | ✓     | ✓          | ✓ <sup>(1)</sup> |       |            |           |
+| Database forking                                                                                             | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Terraform Provider support ([more information](https://registry.terraform.io/providers/ovh/ovh/latest/docs)) | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
+| Private network connectivity (vRack)                                                                         | ✓     | ✓          | ✓                | ✓     | ✓          | ✓         |
 
 (1) depends on the plan
 
@@ -101,6 +95,8 @@ For the latest updates, please refer to our [Github changelog](https://github.co
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. Join our community of users on <https://community.ovh.com/en/>.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+
+Join our [community of users](/links/community).
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!

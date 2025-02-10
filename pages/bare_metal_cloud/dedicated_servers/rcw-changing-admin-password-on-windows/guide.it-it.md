@@ -85,7 +85,7 @@ Il disco locale è ormai accessibile e il disco Windows corrisponde al volume "(
 
 > [!primary]
 >
-> In questo esempio, lo stato del volume è "Resynching" perché il server è stato bruscamente riavviato in modalità Rescue. È uno stato normale che non è causato dal rescue stesso.
+> In questo esempio, lo stato del volume è "Resynching" perché il server è stato bruscamente riavviato in modalità Rescue. È uno stato normale che non è causato dal rescue stesso.  
 > Questa operazione non avrà alcun impatto sui dati del volume e la risincronizzazione continuerà anche dopo il riavvio del server sul sistema installato.
 
 > [!warning]

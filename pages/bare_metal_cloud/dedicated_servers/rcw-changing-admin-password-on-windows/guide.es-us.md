@@ -85,7 +85,7 @@ El disco local ya está accesible y el disco Windows corresponde al volumen `(E:
 
 > [!primary]
 >
-> En este ejemplo, el estado del volumen es "Resynching" porque el servidor se reinició de forma inesperada en modo de rescate. Es un estado normal que no es causado por el rescate en sí.
+> En este ejemplo, el estado del volumen es "Resynching" porque el servidor se reinició de forma inesperada en modo de rescate. Es un estado normal que no es causado por el rescate en sí.  
 > Esto no afectará a los datos del volumen y la resincronización continuará después de reiniciar el servidor en su sistema instalado.
 
 > [!warning]

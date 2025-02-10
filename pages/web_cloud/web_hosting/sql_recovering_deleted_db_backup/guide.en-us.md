@@ -82,9 +82,9 @@ To do this, fill in the forms as detailed below:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Once you have filled in the forms, click on the blue `TRY`{.action} button in the bottom right-hand corner of the two sections that have been filled in.
+Once you have filled in the forms, click on the blue `EXECUTE`{.action} button in the bottom right-hand corner of the two sections that have been filled in.
 
-If everything has been entered correctly and backups are available for the deleted database, a list of backup ID numbers will appear in the `RESPONSE`{.action} window below the `TRY`{.action} button.
+If everything has been entered correctly and backups are available for the deleted database, a list of backup ID numbers will appear in the `RESPONSE`{.action} window below the `EXECUTE`{.action} button.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Fill in the various forms in the `PATH PARAMETERS` section as follows:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Once you have filled in the forms, click on the blue `TRY`{.action} button in the bottom right-hand corner of the section that has been filled in.
+Once you have filled in the forms, click on the blue `EXECUTE`{.action} button in the bottom right-hand corner of the section that has been filled in.
 
-If everything has been entered correctly, the following result will appear in the `RESPONSE`{.action} window below the `TRY`{.action} button:
+If everything has been entered correctly, the following result will appear in the `RESPONSE`{.action} window below the `EXECUTE`{.action} button:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

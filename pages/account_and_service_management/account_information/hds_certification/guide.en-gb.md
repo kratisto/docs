@@ -45,7 +45,6 @@ Clients using HDS products must subscribe to a Business or Enterprise support. T
 | Logs Data Platform | yes | 
 | Grafana | yes excluding Essential and Discovery plans | 
 | Web Hosting | no | 
-| Platform.sh | no | 
 | Emails on mutualized infrastructures | no |
 | Emails on private infrastructures | yes | 
 | Web Cloud Private Database | no | 

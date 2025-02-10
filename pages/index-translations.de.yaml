@@ -122,7 +122,9 @@ public-cloud-containers-orchestration-managed-rancher-service-resources: Resourc
 public-cloud-containers-orchestration-managed-rancher-service-creating-importing-kubernetes: Creating or importing a Kubernetes cluster
 public-cloud-containers-orchestration-managed-rancher-service-operations-kubernetes: Operations on a Kubernetes cluster
 public-cloud-containers-orchestration-managed-rancher-service-deploy-applications: Deploying applications with Rancher
-public-cloud-data-analytics: Data Analytics
+public-cloud-data-analytics: Analytics
+public-cloud-data-analytics-general-information: General information
+public-cloud-data-analytics-general-guides: General guides
 public-cloud-data-analytics-data-processing: Data Processing
 public-cloud-data-analytics-data-processing-concepts: Konzepte
 public-cloud-data-analytics-data-processing-getting-started: Erste Schritte
@@ -133,7 +135,9 @@ public-cloud-databases: Public Cloud Databases
 public-cloud-databases-general-information: General information
 public-cloud-databases-general-guides: General guides
 public-cloud-databases-mongodb: MongoDB
-public-cloud-databases-mongodb-guides: MongoDB - Guides
+public-cloud-databases-mongodb-getting-started: MongoDB - Getting started
+public-cloud-databases-mongodb-guides: MongoDB - User guides
+public-cloud-databases-mongodb-advanced-guides: MongoDB - Advanced guides
 public-cloud-databases-mongodb-tutorials: MongoDB - Tutorials
 public-cloud-databases-mysql: MySQL
 public-cloud-databases-mysql-guides: MySQL - Guides
@@ -144,23 +148,23 @@ public-cloud-databases-postgresql-tutorials: PostgreSQL - Tutorials
 public-cloud-databases-redis: Caching
 public-cloud-databases-redis-guides: Caching - Guides
 public-cloud-databases-redis-tutorials: Caching - Tutorials
-public-cloud-databases-grafana: Dashboards
-public-cloud-databases-grafana-guides: Dashboards - Guides
-public-cloud-databases-grafana-tutorials: Dashboards - Tutorials
-public-cloud-databases-kafka: Kafka
-public-cloud-databases-kafka-guides: Kafka - Guides
-public-cloud-databases-kafka-connect: Kafka Connect
-public-cloud-databases-kafka-connect-guides: Kafka Connect - Guides
-public-cloud-databases-kafka-mirrormaker: Kafka MirrorMaker
-public-cloud-databases-kafka-mirrormaker-guides: Kafka MirrorMaker - Guides
+public-cloud-data-analytics-grafana: Dashboards
+public-cloud-data-analytics-grafana-guides: Dashboards - Guides
+public-cloud-data-analytics-grafana-tutorials: Dashboards - Tutorials
+public-cloud-data-analytics-kafka: Kafka
+public-cloud-data-analytics-kafka-guides: Kafka - Guides
+public-cloud-data-analytics-kafka-connect: Kafka Connect
+public-cloud-data-analytics-kafka-connect-guides: Kafka Connect - Guides
+public-cloud-data-analytics-kafka-mirrormaker: Kafka MirrorMaker
+public-cloud-data-analytics-kafka-mirrormaker-guides: Kafka MirrorMaker - Guides
 public-cloud-databases-cassandra: Cassandra
 public-cloud-databases-cassandra-guides: Cassandra - Guides
 public-cloud-databases-m3db: M3db
 public-cloud-databases-m3db-guides: M3db - Guides
 public-cloud-databases-m3-aggregator: M3 Aggregator
 public-cloud-databases-m3-aggregator-guides: M3 Aggregator - Guides
-public-cloud-databases-opensearch: OpenSearch
-public-cloud-databases-opensearch-guides: OpenSearch - Guides
+public-cloud-data-analytics-opensearch: OpenSearch
+public-cloud-data-analytics-opensearch-guides: OpenSearch - Guides
 public-cloud-compute: Compute
 public-cloud-compute-getting-started: Erste Schritte
 public-cloud-compute-general-information: Allgemeine Informationen
@@ -172,6 +176,15 @@ public-cloud-compute-instance-management-horizon: Verwaltung über Horizon
 public-cloud-compute-instance-management-openstack: Verwaltung über OpenStack
 public-cloud-compute-block-storage: Block Storage
 public-cloud-compute-tutorials: Tutorials
+public-cloud-cross-functional: Public Cloud - Allgemeine Informationen
+public-cloud-cross-functional-getting-started: Erste Schritte
+public-cloud-cross-functional-general-information: Allgemeine Informationen
+public-cloud-cross-functional-project-management: Public Cloud Projektverwaltung
+public-cloud-cross-functional-tutorials: Tutorials
+public-cloud-cross-functional-services-management: Verwaltung von Dienstleistungen
+public-cloud-cross-functional-horizon: Verwaltung über Horizon
+public-cloud-cross-functional-openstack: Verwaltung über OpenStack
+public-cloud-cross-functional-infrastructure: Infrastruktur
 public-cloud-integrations: Integrations
 public-cloud-integrations-prefect: Prefect
 public-cloud-network: Public Cloud Network Services
@@ -281,44 +294,6 @@ web-cloud-hosting-website-optimisation: Optimierung Ihrer Seite
 web-cloud-hosting-api: API
 web-cloud-ssl-gateway: SSL Gateway
 web-cloud-ssl-gateway-getting-started: Erste Schritte
-web-cloud-web-paas-powered-by-platformsh: Web PaaS powered by Platform.sh
-web-cloud-web-paas-powered-by-platformsh-administration: Verwalten
-web-cloud-web-paas-powered-by-platformsh-administration-management-console: Verwaltungskonsole
-web-cloud-web-paas-powered-by-platformsh-best-practices: Best Practices
-web-cloud-web-paas-powered-by-platformsh-development: Entwicklung
-web-cloud-web-paas-powered-by-platformsh-development-command-line-interface-cli: Befehlszeilenschnittstelle (CLI)
-web-cloud-web-paas-powered-by-platformsh-development-setting-up-a-local-development-environment: Einrichtung einer lokalen Entwicklungsumgebung
-web-cloud-web-paas-powered-by-platformsh-domains: Domains
-web-cloud-web-paas-powered-by-platformsh-domains-custom-domains: Personalisierte Domains
-web-cloud-web-paas-powered-by-platformsh-frameworks: Frameworks
-web-cloud-web-paas-powered-by-platformsh-frameworks-drupal-7: Drupal 7
-web-cloud-web-paas-powered-by-platformsh-frameworks-hibernate: Hibernate
-web-cloud-web-paas-powered-by-platformsh-frameworks-jakarta-eeeclipse-microprofile: Jakarta EE/Eclipse MicroProfile
-web-cloud-web-paas-powered-by-platformsh-frameworks-spring: Spring
-web-cloud-web-paas-powered-by-platformsh-getting-started: Erste Schritte
-web-cloud-web-paas-powered-by-platformsh-integrations: Integrationen
-web-cloud-web-paas-powered-by-platformsh-integrations-activity-scripts: Aktivitätsskripte
-web-cloud-web-paas-powered-by-platformsh-integrations-external-integrations: Externe Integrationen
-web-cloud-web-paas-powered-by-platformsh-integrations-notifications: Benachrichtigungen
-web-cloud-web-paas-powered-by-platformsh-integrations-profiling: Profiling
-web-cloud-web-paas-powered-by-platformsh-integrations-source-integrations: Quellintegration
-web-cloud-web-paas-powered-by-platformsh-languages: Programmiersprachen
-web-cloud-web-paas-powered-by-platformsh-languages-cnet-core: C#/.NET Core
-web-cloud-web-paas-powered-by-platformsh-languages-elixir: Elixir
-web-cloud-web-paas-powered-by-platformsh-languages-go: Go
-web-cloud-web-paas-powered-by-platformsh-languages-java: Java
-web-cloud-web-paas-powered-by-platformsh-languages-lisp: Lisp
-web-cloud-web-paas-powered-by-platformsh-languages-nodejs: Node.js
-web-cloud-web-paas-powered-by-platformsh-languages-php: PHP
-web-cloud-web-paas-powered-by-platformsh-languages-python: Python
-web-cloud-web-paas-powered-by-platformsh-languages-ruby: Ruby
-web-cloud-web-paas-powered-by-platformsh-overview: Überblick
-web-cloud-web-paas-powered-by-platformsh-security: Sicherheit
-web-cloud-web-paas-powered-by-platformsh-setting-up: Aktivierung
-web-cloud-web-paas-powered-by-platformsh-setting-up-configuring-routes: Routen konfigurieren
-web-cloud-web-paas-powered-by-platformsh-setting-up-configuring-services: Dienste konfigurieren
-web-cloud-web-paas-powered-by-platformsh-setting-up-configuring-your-application: Anwendung konfigurieren
-web-cloud-web-paas-powered-by-platformsh-tutorials: Tutorials
 storage-object-storage: Object Storage
 storage-object-storage-general-information: General information
 storage-object-storage-general-guides-to-start: General guides to start

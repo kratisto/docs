@@ -82,9 +82,9 @@ W tym celu wypełnij poszczególne formularze, jak pokazano poniżej:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Po wypełnieniu poszczególnych formularzy kliknij niebieski przycisk `Try`{.action} na dole po prawej stronie dwóch wcześniej wypełnionych sekcji.
+Po wypełnieniu poszczególnych formularzy kliknij niebieski przycisk `EXECUTE`{.action} na dole po prawej stronie dwóch wcześniej wypełnionych sekcji.
 
-Jeśli wszystko zostało poprawnie wypełnione i kopie zapasowe są dostępne dla usuniętej bazy danych, lista numerów zapasowych ID pojawia się w oknie `RESPONSE`{.action}, gdy przechodzisz na stronę znajdującą się pod przyciskiem `Try`{.action}.
+Jeśli wszystko zostało poprawnie wypełnione i kopie zapasowe są dostępne dla usuniętej bazy danych, lista numerów zapasowych ID pojawia się w oknie `RESPONSE`{.action}, gdy przechodzisz na stronę znajdującą się pod przyciskiem `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Wypełnij poszczególne formularze w części `PATH PARAMETERS` w następujący 
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Po wypełnieniu poszczególnych formularzy kliknij niebieski przycisk `Try`{.action} na dole po prawej stronie poprzednio wypełnionej sekcji.
+Po wypełnieniu poszczególnych formularzy kliknij niebieski przycisk `EXECUTE`{.action} na dole po prawej stronie poprzednio wypełnionej sekcji.
 
-Jeśli wszystko zostało poprawnie wpisane, następujący wynik pojawia się w oknie `RESPONSE`{.action}, gdy opuszczasz stronę pod przyciskiem `Try`{.action}:
+Jeśli wszystko zostało poprawnie wpisane, następujący wynik pojawia się w oknie `RESPONSE`{.action}, gdy opuszczasz stronę pod przyciskiem `EXECUTE`{.action}:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

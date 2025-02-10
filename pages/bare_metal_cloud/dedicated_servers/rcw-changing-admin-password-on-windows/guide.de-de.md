@@ -88,7 +88,7 @@ Sie sehen, dass jetzt auf den lokalen Datenträger zugegriffen werden kann und d
 >
 > Die Daten auf dem Volume sind hiervon nicht betroffen, und die Neusynchronisierung wird fortgesetzt, sobald der Server auf dem installierten Betriebssystem neu gestartet wird.
 
-> [!Warnung]
+> [!warning]
 >
 > Sie müssen dann den Pfad Ihres lokalen Windows-Verzeichnisses (hier ist es `E:\Windows`) verwenden, wenn Sie nach der unten stehenden SAM-Konfigurationsdatei suchen.
 

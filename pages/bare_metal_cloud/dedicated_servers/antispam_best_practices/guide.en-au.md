@@ -40,7 +40,7 @@ Once an IP is "blocked for SPAM", an email will be sent to your account containi
 
 **What to do after receiving the email alert?**
 
-The process is to identify the issue, resolve it, then unblock your IP.
+The procedure involves identifying the problem, resolving it and then unblocking your IP.
 
 ### Identify and resolve the issue 
 
@@ -208,7 +208,7 @@ The IP is being released, the operation may take several minutes.
 
 ### In case of false positives
 
-In some cases, the antispam alert could be false positive. If you have checked and found that **Message-ID** are from your legitimate email, you should then ensure that your email messages comply with the [RFC](#rfc) and the [Best Practices](#bestpractices) indicated below.
+In some cases, the anti-spam alert may be a false positive. If you have checked and found that the **Message-ID** comes from a legitimate e-mail, then you must ensure that your e-mails comply with the [RFC](#rfc) and the [Best Practices](#bestpractices) indicated below.
 
 #### RFC <a name="rfc"></a>
 
@@ -269,7 +269,7 @@ Google also has a [dedicated article](https://support.google.com/mail/answer/811
 
 ### Reporting a false positive
 
-If your emails do comply, you can inform us by sending a sample of your email (including header). Our technical support team will then assist you with the next steps. Simply create a support ticket from your OVHcloud Control Panel and include the following information:
+If your emails do comply, you can inform us by sending a sample of your email (including the header). Our technical support team will then assist you with the next steps. Simply create a support ticket from your OVHcloud Control Panel and include the following information:
 
 - The IP of the service blocked for SPAM.
 - An original copy of the email(s) flagged as SPAM (you should be able to identify that with the **message ID** included in the ANTISPAM email). If no **message ID** is provided, simply send us a copy of the emails sent before receiving the alert. Please only provide the copy of the email flagged as SPAM.

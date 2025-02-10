@@ -14,9 +14,9 @@ Server Access Logging fournit des enregistrements détaillés des requêtes fait
 
 - Avoir créé un bucket.
 - Avoir créé un utilisateur et avoir défini les droits d'accès requis sur le bucket.
-- Connaître vos informations d'identification S3 (access_key et secret_access_key).
+- Connaître vos informations d'identification Object Storage (access_key et secret_access_key).
 
-Consultez notre guide « [Débuter avec S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
+Consultez notre guide « [Débuter avec Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
 
 ## En pratique
 

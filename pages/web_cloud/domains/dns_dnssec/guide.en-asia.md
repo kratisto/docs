@@ -114,7 +114,7 @@ To do this, you will need to use the [OVHcloud APIs](/pages/manage_and_operate/a
 
 ![API](/pages/assets/screens/api/post-domain-zone-zonename-dnssec.png){.thumbnail}
 
-Once you have filled in the form, click on the blue `Try`{.action} button in the bottom right-hand corner of the previously filled-in section.
+Once you have filled in the form, click on the blue `EXECUTE`{.action} button in the bottom right-hand corner of the previously filled-in section.
 
 After a few minutes, you will receive an email from OVHcloud to the contact email address of your OVHcloud DNS zone.  
 This email will contain the 4 parameters ("Key Tag" / "Flag" / "Algorithm" / "Public key (encoded in base64)") required to activate DNSSEC with your domain name registrar.

@@ -97,7 +97,7 @@ You have 2 options to create and manage your SSH keys:
 
 Most contemporary desktop operating systems natively include the **OpenSSH** client which can be accessed through the system's command line application (`cmd`, `Powershell`, `Terminal`, etc.). If you are not familiar with using SSH keys as an authentication method, you can use the instructions in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) to get started and create your key pair.
 
-If you use an alternative software, refer to its user documentation. Instructions for the open-source solution `PuTTY` are available in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+If you use an alternative software, refer to its user documentation. A usage example for the open-source solution `PuTTY` is available in our guide: [How to use PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 
 <a name="import-ssh"></a>
@@ -447,7 +447,7 @@ ssh ubuntu@203.0.113.101
 
 [Depending on your setup](#create-ssh), you will have to enter a passphrase that protects your private key or specify the path to your key file. Consult our [SSH keys guide](/pages/public_cloud/compute/creating-ssh-keys-pci#multiplekeys) for detailed information on this topic.
 
-If you use an alternative SSH client software, refer to its user documentation. A usage example for the open-source solution `PuTTY` is available in [this guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+If you use an alternative SSH client software, refer to its user documentation. A usage example for the open-source solution `PuTTY` is available in our guide: [How to use PuTTY](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 Continue with [Step 6 below](#manage-access).
 

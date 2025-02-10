@@ -13,7 +13,7 @@ Aggregacja oparta jest na technologii IEEE 802.3ad lub Link Aggregation Control 
 
 ## Wymagania początkowe
 
-- Posiadanie [serwera dedykowanego OVHcloud](/links/bare-metal/bare-metal)
+- Posiadanie [serwera dedykowanego OVHcloud](/links/bare-metal/bare-metal) z gamy Advance, Scale lub High Grade
 - Zalogowanie do [Panelu klienta OVHcloud](/links/manager)
 - System operacyjny / Hypervisor obsługujący protokół 802.3ad (LACP)
 

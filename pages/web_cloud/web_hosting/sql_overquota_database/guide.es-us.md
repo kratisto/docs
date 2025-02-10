@@ -1,7 +1,7 @@
 ---
 title: "Web hosting - Mi base de datos está saturada, ¿qué hago?"
 excerpt: "Descubra cómo actuar cuando la base de datos está saturada"
-updated: 2024-12-09
+updated: 2024-12-17
 ---
 
 ## Objetivo
@@ -196,6 +196,80 @@ DROP TABLE `table_1`
 ```
 
 > En este ejemplo, la orden elimina la tabla **table_1** y todas las filas que contiene.
+
+### Etapa 4: Sacar la base de datos del estado "READ ONLY" (solo lectura)
+
+Nuestros robots encargados de las verificaciones de las cuotas pasan con mucha regularidad por nuestras infraestructuras.
+Si, al pasar por el servicio, detectan que la base de datos ya no está en **overquota**, eliminan automáticamente el estado "READ ONLY" (solo lectura).
+Una vez que haya realizado las operaciones necesarias en su base de datos, solo tiene que esperar hasta que nuestros robots pasen por sus servicios.
+
+No obstante, puede forzar su migración a sus servicios para acelerar el proceso. Para ello, deberá solicitar a nuestros robots que recalculen el límite de su servicio o base de datos.
+
+#### Recalcular el límite para una base de datos incluida con su plan de hosting
+
+Haga clic en las fichas siguientes para ver cada uno de los **5** etapas.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Haga clic en el menú desplegable `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> En la nueva página, haga clic en la pestaña `Bases de datos`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> En la nueva página, aparecerá una tabla con las bases de datos creadas. A la derecha de la base de datos correspondiente, haga clic en el botón `...`{.action} y, seguidamente, en `Recalcular el espacio utilizado `{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>>
+> **Etapa 5**
+>>
+>> En la nueva ventana, haga clic directamente en el botón `Aceptar`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>>
+>> Una vez iniciada, la operación puede tardar varios minutos. Al finalizar, el estado "READ ONLY" de la base de datos desaparece.
+>> La base de datos vuelve a estar totalmente operativa.
+>>
+
+#### Recalcular el límite de una base de datos alojada en una solución Web Cloud Databases
+
+Haga clic en las fichas siguientes para ver cada uno de los **3** etapas.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Haga clic en el menú desplegable `Web Cloud Databases`{.action} y seleccione la solución Web Cloud Databases correspondiente.
+>>
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> En la sección **Información general**, acceda al apartado **Espacio utilizado**. Haga clic en el botón `...`{.action} a la derecha y, seguidamente, en `Actualizar el límite de su base de datos`{.action}.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>>
+>> Una vez iniciada, la operación puede tardar varios minutos. Al finalizar, el estado "READ ONLY" de la base de datos desaparece.
+>> La base de datos vuelve a estar totalmente operativa.
+>>
 
 ## Más información <a name="go-further"></a>
 

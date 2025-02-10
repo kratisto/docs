@@ -84,7 +84,7 @@ Le disque local est désormais accessible et le disque Windows correpsond au vol
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
 > [!primary]
-> Dans cet exemple, l'état du volume est "Resynching" car le serveur a été brutalement redémarré en mode rescue. C'est un état normal qui n'est pas causé par le rescue en lui-même.
+> Dans cet exemple, l'état du volume est "Resynching" car le serveur a été brutalement redémarré en mode rescue. C'est un état normal qui n'est pas causé par le rescue en lui-même.  
 > Cela n'affectera pas les données du volume et la resynchronisation continuera une fois le serveur redémarré sur son système installé.
 
 > [!warning]

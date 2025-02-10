@@ -1,7 +1,7 @@
 ---
-title: "Lista adresów IP klastrów i hostingów WWW"
+title: "Hosting WWW - Lista adresów IP według klastra"
 excerpt: "Poznaj wszystkie dostępne adresy IP dostępne na naszych hostingach"
-updated: 2024-02-28
+updated: 2025-01-29
 ---
 
 ## Wprowadzenie 
@@ -27,8 +27,33 @@ W tym przewodniku znajdziesz wszystkie adresy IP hostingów WWW OVHcloud. Dzięk
 
 ## W praktyce
 
-Aby poznać klaster hostingu, w którym hostowana jest Twoja usługa, zaloguj się do [Panelu klienta OVHcloud](/links/manager) wybierz `Web Cloud`{.action}. Kliknij `Hosting`{.action} po czym wybierz odpowiedni hosting. Następnie przejdź do zakładki `FTP - SSH`{.action}.
-Na tej stronie możesz sprawdzić numer klastra hostingu WWW, używając **Serwer FTP**.
+Aby poznać klaster hostingu WWW, w którym znajduje się Twoja usługa, kliknij poniższe zakładki, aby wyświetlić kolejno wszystkie **4** etapy.
+
+> [!tabs]
+> **Etap 1**
+>>
+>> Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etap 2**
+>>
+>> Kliknij menu rozwijane `Hosting`{.action}, następnie wybierz odpowiedni hosting.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etap 3**
+>>
+>> Na stronie, która się wyświetli kliknij zakładkę `FTP - SSH`{.action}. 
+>>
+>> ![FTP-SSH](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ftp-ssh.png){.thumbnail}
+>>
+> **Etap 4**
+>>
+>> Na nowej stronie znajdziesz numer klastra hostingu WWW dostępny na tej stronie pod nazwą **Serwer FTP i SFTP** (3 cyfry: od `0` do `9`).
+>>
+>> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
+>>
 
 ### Klaster 002
 

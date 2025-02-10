@@ -43,7 +43,7 @@ Le service vous permet de vous concentrer sur la création et le déploiement d'
 
 ## Concepts
 
-Le service est entièrement géré par OVHcloud et accessible via l'API S3.
+Le service est entièrement géré par OVHcloud et accessible via l'API compatible S3 **\***.
 
 ![Archive](images/restoring.PNG){.thumbnail}
 
@@ -91,7 +91,7 @@ Vous pouvez suivre les différentes étapes de vos données par le statut de vot
 
 ## Performances réseau, téléchargement et récupération
 
-Cold Archive est un service basé sur Object Storage - API S3. Les performances et les limitations (nombre de buckets, compte, bande passante maximale par connexion, nombre de requêtes par seconde sur le bucket, taille maximale par objet / mpu / part, etc.) sont disponibles [ici](/pages/storage_and_backup/object_storage/s3_limitations).
+Cold Archive est un service basé sur Object Storage. Les performances et les limitations (nombre de buckets, compte, bande passante maximale par connexion, nombre de requêtes par seconde sur le bucket, taille maximale par objet / mpu / part, etc.) sont disponibles [ici](/pages/storage_and_backup/object_storage/s3_limitations).
 
 Pour télécharger vos données, la bande passante maximale est de **1 Gbps par connexion logique** et le nombre de connexions utilisables en parallèle est **illimité**.
 
@@ -125,7 +125,7 @@ Les bandes magnétiques sont conçues pour durer des décennies (par opposition 
 
 L'utilisation du chiffrement côté serveur avec des clés de chiffrement fournies par le client (SSE-C) vous permet de définir vos propres clés de chiffrement.
 
-Lorsque vous chargez un objet, Object Storage - API S3 utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de chiffrement dans le cadre de votre demande. Object Storage - API S3 vérifie d'abord que la clé de chiffrement que vous avez fournie correspond puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
+Lorsque vous chargez un objet, Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de chiffrement dans le cadre de votre demande. Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
 
 ### Immuabilité par WORM
 
@@ -166,3 +166,5 @@ Rendez-vous sur notre chaîne Discord dédiée : <https://discord.gg/ovhcloud>. 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en œuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

@@ -1,7 +1,7 @@
 ---
 title: Configurer HYCU Backup
 excerpt: "Installation de la sauvegarde HYCU Backup sur un cluster Nutanix"
-updated: 2024-12-10
+updated: 2025-01-31
 ---
 
 <style>
@@ -38,7 +38,8 @@ HYCU for Nutanix est un logiciel de sauvegarde disponible pour Nutanix.
 - Être connecté sur le cluster via Prism Central.
 - Avoir un projet Public Cloud avec un bucket de stockage de type High Performance Object Storage ainsi qu'un utilisateur ayant les droits en lecture et écriture sur ce bucket. Vous trouverez plus d'informations sur la création d'un projet Public Cloud et sur l’utilisation du service High Performance Object Storage sur les pages suivantes :
     - [Création d'un projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project).
-    - [Débuter avec S3 High Performance](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+    - [Débuter avec Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+    - [Object Storage - Gestion de l'immuabilité des objets avec Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 - 60 Go de stockage, 8 Go de mémoire et 8 cœurs sur votre Cluster Nutanix pour l'Instance/Appliance HYCU.
 
 ## En pratique
@@ -490,7 +491,7 @@ Sélectionnez `Targets`{.action} dans le menu à gauche et cliquez sur `+ Add`{.
 
 ![Configure HYCU 09](images/03-configurehycu09.png){.thumbnail}
 
-Saisissez les paramètres de configuration et les clés d’authentification de votre utilisateur S3 ayant les droits d’accès en lecture/écriture au bucket S3 utilisé comme expliqué ci-dessous :
+Saisissez les paramètres de configuration et les clés d’authentification de votre utilisateur Object Storage ayant les droits d’accès en lecture/écriture au bucket Object Storage utilisé comme expliqué ci-dessous :
 
 - **Name** : Nom
 - **Size** : Taille du stockage
@@ -507,10 +508,10 @@ Activez `ENABLE COMPRESSION`{.action} et faites défilez la fenêtre avec la `ba
 
 Finalisez la saisie des informations :
 
-- SERVICE ENDPOINT: `URL Stockage S3`
+- SERVICE ENDPOINT: `URL Object Storage`
 - BUCKET NAME: `Nom du bucket`
-- ACCESS KEY ID: `Clé d'accès de l'utilisateur S3`
-- SECRET ACCESS KEY `Clé secrète de l'utilisateur S3`
+- ACCESS KEY ID: `Clé d'accès de l'utilisateur Object Storage`
+- SECRET ACCESS KEY `Clé secrète de l'utilisateur Object Storage`
 
 Activez `TARGET ENCRYPTION`{.action} et cliquez sur `Save`{.action}.
 
@@ -683,7 +684,7 @@ Dans le menu `policies`, cliquez en haut à droite sur l'icône avec le signe `+
 
 ![Create Policy ](images/09-createpolicy01.png){.thumbnail}
 
-Définissez le nom de la stratégie `BACKUP to S3 OVHcloud and local SNAPSHOTS`{.action} dans le champ **NAME**.
+Définissez le nom de la stratégie `BACKUP to Object Storage and local SNAPSHOTS`{.action} dans le champ **NAME**.
 
 Cochez l'option `FAST RESTORE`{.action}, laissez l'option `BACKUP`{.action} cochée.
 
@@ -695,7 +696,7 @@ Modifiez l'option **Fast restore** avec vos paramètres et cliquez sur `Save`{.a
 
 ![Create Policy for General Usage 02 ](images/10-createpolicyforgeneralusage02.png){.thumbnail}
 
-Cette stratégie fait une sauvegarde sur le stockage S3 d'OVHcloud et aussi des **snapshots** à l'intérieur du cluster Nutanix, ce qui permet une plus grande rapidité de restauration.
+Cette stratégie fait une sauvegarde sur le stockage Object Storage d'OVHcloud et aussi des **snapshots** à l'intérieur du cluster Nutanix, ce qui permet une plus grande rapidité de restauration.
 
 #### Affecter des stratégies de sauvegardes <a name="backup-strategies-assignment"></a>
 
@@ -719,7 +720,7 @@ Sélectionnez quatre machines virtuelles puis cliquez sur l'icône `Policies`{.a
 
 ![Affect policy to HYCU VM 01](images/11-addsomevmtopolicy01.png){.thumbnail}
 
-Choisissez la stratégie `BACKUP to S3 OVHcloud and local SNAPSHOTS`{.action} et cliquez sur `Assign`{.action}.
+Choisissez la stratégie `BACKUP to Object Storage and local SNAPSHOTS`{.action} et cliquez sur `Assign`{.action}.
 
 ![Affect policy to HYCU VM 02](images/11-addsomevmtopolicy02.png){.thumbnail}
 
@@ -808,6 +809,8 @@ La base de données est restaurée dans une nouvelle base de données.
 [Nutanix on OVHcloud - Documentation générale](/pages/hosted_private_cloud/nutanix_on_ovhcloud/01-global-high-level-doc)
 
 [Hyper-convergence Nutanix](/pages/hosted_private_cloud/nutanix_on_ovhcloud/03-nutanix-hci)
+
+[Object Storage - Gestion de l'immuabilité des objets avec Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 
 [Page d'accueil HYCU](https://www.hycu.com/)
 

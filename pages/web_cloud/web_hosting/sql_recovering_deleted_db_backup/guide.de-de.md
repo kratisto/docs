@@ -81,9 +81,9 @@ Füllen Sie hierzu die verschiedenen Felder wie folgt aus:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Wenn Sie die Felder ausgefüllt haben, klicken Sie unten rechts auf die blaue Schaltfläche `TRY`{.action}.
+Wenn Sie die Felder ausgefüllt haben, klicken Sie unten rechts auf die blaue Schaltfläche `EXECUTE`{.action}.
 
-Wenn alles korrekt angegeben wurde und Backups für die gelöschte Datenbank verfügbar sind, erscheint eine Liste der Backup-IDs im Fenster `RESPONSE`{.action} unter der Schaltfläche `TRY`{.action}.
+Wenn alles korrekt angegeben wurde und Backups für die gelöschte Datenbank verfügbar sind, erscheint eine Liste der Backup-IDs im Fenster `RESPONSE`{.action} unter der Schaltfläche `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -116,9 +116,9 @@ Füllen Sie die Felder im Teil `PATH PARAMETERS` wie folgt aus:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Wenn Sie die Felder ausgefüllt haben, klicken Sie unten rechts auf die blaue Schaltfläche `TRY`{.action}.
+Wenn Sie die Felder ausgefüllt haben, klicken Sie unten rechts auf die blaue Schaltfläche `EXECUTE`{.action}.
 
-Wenn alles korrekt angegeben wurde, erscheint das folgende Ergebnis im Fenster `RESPONSE`{.action} unterhalb der Schaltfläche `TRY`{.action}:
+Wenn alles korrekt angegeben wurde, erscheint das folgende Ergebnis im Fenster `RESPONSE`{.action} unterhalb der Schaltfläche `EXECUTE`{.action}:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

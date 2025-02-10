@@ -1,7 +1,7 @@
 ---
 title: Configuring HYCU Backup
 excerpt: Installing HYCU Backup on a Nutanix cluster
-updated: 2024-12-10
+updated: 2025-01-31
 ---
 
 <style>
@@ -38,7 +38,8 @@ HYCU for Nutanix is a backup software available for Nutanix.
 - Access to the cluster via Prism Central.
 - A Public Cloud project with a High Performance Object Storage type storage bucket, with a user with read and write permissions for this bucket. You can find more information on how to create a Public Cloud project and how to use the High Performance Object Storage service on the following pages:
     - [Creating your first OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project).
-    - [Getting started with S3 High Performance](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+    - [Getting started with Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+    - [Object Storage - Managing object immutability with Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 - 60 GB of storage, 8 GB of memory, and 8 cores on your Nutanix Cluster for the HYCU Instance/Appliance.
 
 ## Instructions
@@ -492,7 +493,7 @@ Select `Targets`{.action} in the menu on the left and click `+ Add`{.action} in 
 
 ![Configure HYCU 09](images/03-configurehycu09.png){.thumbnail}
 
-Enter the configuration settings and authentication keys for your S3 user with read/write access to the S3 bucket used as explained below:
+Enter the configuration settings and authentication keys for your Object Storage user with read/write access to the  Object Storage bucket used as explained below:
 
 - **name** Name
 - **Size**: Storage size
@@ -509,10 +510,10 @@ Enable `ENABLE COMPRESSION`{.action} and scroll down through the window.
 
 Complete the information:
 
-- SERVICE ENDPOINT: `S3 Storage URL`
+- SERVICE ENDPOINT: `Object Storage URL`
 - BUCKET NAME: `Bucket name`
-- ACCESS KEY ID: `S3 User Access Key`
-- SECRET ACCESS KEY: `S3 User Secret Key`
+- ACCESS KEY ID: `Object Storage User Access Key`
+- SECRET ACCESS KEY: `Object Storage User Secret Key`
 
 Enable `TARGET ENCRYPTION`{.action} and click `Save`{.action}.
 
@@ -685,7 +686,7 @@ In the `policies` menu, click the `+`{.action} button in the top right corner.
 
 ![Create Policy ](images/09-createpolicy01.png){.thumbnail}
 
-Set the policy name `BACKUP to S3 OVHcloud and local SNAPSHOTS`{.action} in the **NAME** field.
+Set the policy name `BACKUP to Object Storage OVHcloud and local SNAPSHOTS`{.action} in the **NAME** field.
 
 Check the `FAST RESTORE`{.action} option, leave the `BACKUP`{.action} option checked.
 
@@ -697,7 +698,7 @@ Edit the **Fast restore** option with your settings and click `Save`{.action}.
 
 ![Create Policy for General Usage 02 ](images/10-createpolicyforgeneralusage02.png){.thumbnail}
 
-This strategy makes a backup on OVHcloud S3 storage and also takes **snapshots** inside the Nutanix cluster, allowing for faster recovery.
+This strategy makes a backup on OVHcloud Object Storage and also takes **snapshots** inside the Nutanix cluster, allowing for faster recovery.
 
 #### Assigning backup policies <a name="backup-strategies-assignment"></a>
 
@@ -721,7 +722,7 @@ Select four virtual machines and click the `Policies`{.action} button to assign 
 
 ![Affect policy to HYCU VM 01](images/11-addsomevmtopolicy01.png){.thumbnail}
 
-Choose the `BACKUP to S3 OVHcloud and local SNAPSHOTS`{.action} policy and click `Assign`{.action}.
+Choose the `BACKUP to Object Storage and local SNAPSHOTS`{.action} policy and click `Assign`{.action}.
 
 ![Affect policy to HYCU VM 02](images/11-addsomevmtopolicy02.png){.thumbnail}
 
@@ -810,6 +811,8 @@ The database is restored into a new database.
 [Nutanix on OVHcloud - High-level documentation](/pages/hosted_private_cloud/nutanix_on_ovhcloud/01-global-high-level-doc)
 
 [Nutanix Hyper-Convergence](/pages/hosted_private_cloud/nutanix_on_ovhcloud/03-nutanix-hci)
+
+[Object Storage - Managing object immutability with Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 
 [HYCU Home Page](https://www.hycu.com/)
 

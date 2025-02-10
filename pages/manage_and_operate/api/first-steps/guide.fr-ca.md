@@ -114,7 +114,7 @@ Par exemple, pour l'ajout d'un enregistrement TXT dans votre zone DNS, vous obti
  	
 ![API](images/parameters.png){.thumbnail} 
  
-Une fois les paramètres définis, vous pouvez lancer l'API en cliquant sur `TRY`{.action}.
+Une fois les paramètres définis, vous pouvez lancer l'API en cliquant sur `EXECUTE`{.action}.
 
 L'onglet `Response` alors affiché vous donnera le rapport d'éxécution de l'API.
 

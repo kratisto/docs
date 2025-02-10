@@ -1,7 +1,7 @@
 ---
 title: Cassandra - Capacités et limitations (EN)
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Cassandra
-updated: 2024-05-27
+updated: 2025-01-07
 ---
 
 ## Objective
@@ -27,7 +27,10 @@ Entire database instances have to be in the same region. Multi-AZ is currently n
 
 ### Cassandra versions
 
-The Public Cloud Databases offer supports Cassandra version 4.
+The Public Cloud Databases offer supports the following Cassandra versions:
+
+- Cassandra 4.0 (soon depreciated)
+- Cassandra 4.1
 
 Cassandra recommends always installing and using the latest stable version.
 
@@ -94,7 +97,7 @@ You can further customise your Cassandra by using advanced parameters. See the [
 
 #### Backups
 
-Your services are automatically backed up daily. The point-in-time recovery (PITR) feature is currently not available.
+Your services are automatically backed up daily. Backup retention is 4 days for daily backups.
 
 See the [Automated Backups guide](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups) for more information.
 

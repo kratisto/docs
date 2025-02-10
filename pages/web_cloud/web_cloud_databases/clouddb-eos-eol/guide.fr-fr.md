@@ -1,6 +1,6 @@
 ---
 title: 'Annonces de fin de vente/vie Web Cloud Databases'
-updated: 2024-12-03
+updated: 2025-01-23
 ---
 
 ## Objectif
@@ -13,7 +13,6 @@ Les produits couverts par ces annonces de fin de vente et de fin de vie sont les
 |MariaDB 10.6|À définir|À définir|À définir|
 |MariaDB 10.11|À définir|À définir|À définir|
 |MySQL 8.0|À définir|À définir|À définir|
-|PostgreSQL 12|2023-03-08|2024-05-15|2024-11-14|
 |PostgreSQL 13|2023-11-14|2025-05-14|2025-11-13|
 |PostgreSQL 14|À définir|À définir|À définir|
 |PostgreSQL 15|À définir|À définir|À définir|

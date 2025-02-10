@@ -1,12 +1,12 @@
 ---
 title: Object Storage - Gestion des identités et des accès
-excerpt: Ce guide a pour objectif de vous montrer la gestion de vos identités et accès à vos ressources S3 Object Storage
+excerpt: Ce guide a pour objectif de vous montrer la gestion de vos identités et accès à vos ressources Object Storage
 updated: 2022-09-27
 ---
 
 ## Objectif
 
-Ce guide a pour objectif de vous montrer la gestion de vos identités et accès à vos ressources S3 Object Storage.
+Ce guide a pour objectif de vous montrer la gestion de vos identités et accès à vos ressources Object Storage.
 
 ## Prérequis
 
@@ -23,11 +23,11 @@ Cliquez sur `Créer un utilisateur`{.action}.
 
 Si vous avez déjà des utilisateurs OpenStack, vous pouvez selectionner l'un d'entre eux :
 
-![Add S3 user](images/highperf-identity-and-access-management-20220928085304931.png)
+![Add Object Storage user](images/highperf-identity-and-access-management-20220928085304931.png)
 
 Puis :
 
-![Add S3 user](images/highperf-identity-and-access-management-2022092808554688.png)
+![Add Object Storage user](images/highperf-identity-and-access-management-2022092808554688.png)
 
 > [!primary]
 >
@@ -36,7 +36,7 @@ Puis :
 
 Sinon, créez un nouvel utilisateur :
 
-![Add S3 user](images/highperf-identity-and-access-management-20220928085501719.png)
+![Add Object Storage user](images/highperf-identity-and-access-management-20220928085501719.png)
 
 Une fois votre utilisateur créé, vous verrez les informations d'identification :
 
@@ -81,9 +81,9 @@ Sélectionnez le profil d'accès pour cet utilisateur et cliquez sur `Confirmer`
 
 ### Gestion avancée des accès aux ressources
 
-Vous pouvez cependant affiner les droits via l'import d'un fichier de configuration JSON. Pour cela, rendez-vous dans l'onglet `Utilisateurs de stratégies S3`{.action}.
+Vous pouvez cependant affiner les droits via l'import d'un fichier de configuration JSON. Pour cela, rendez-vous dans l'onglet `Utilisateurs de stratégies Object Storage `{.action}.
 
-![S3 users](images/highperf-identity-and-access-management-20220928084435242.png)
+![Object Storage users](images/highperf-identity-and-access-management-20220928084435242.png)
 
 Cliquez sur le bouton  `...`{.action} à droite de votre utilisateur puis sur `Importer un fichier JSON`{.action}.
 

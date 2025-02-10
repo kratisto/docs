@@ -31,7 +31,7 @@ Follow the steps in this guide: [Object Storage - Create a Bucket](/pages/storag
 
 2\. **Set up a new backup repository.**
 
-Refer to our guide: [Object Storage - Use S3 Object Storage with Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
+Refer to our guide: [Object Storage - Use Object Storage with Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
 
 3\. **Export backup data from Veeam Cloud Connect.**
 
@@ -63,7 +63,7 @@ Make sure the version is compatible with your current Veeam Cloud Connect setup.
 
 3\. **Set up a new backup repository on the server.**
 
-Refer to our guide: [Object Storage - Use S3 Object Storage with Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
+Refer to our guide: [Object Storage - Use Object Storage with Veeam](/pages/storage_and_backup/object_storage/s3_veeam).
 
 4\. **Export backup data from Veeam Cloud Connect.**
 

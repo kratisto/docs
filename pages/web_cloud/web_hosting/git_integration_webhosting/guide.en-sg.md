@@ -1,7 +1,7 @@
 ---
 title: "Configuring and using Git with an OVHcloud web hosting plan"
 excerpt: "Find out how to configure and use Git with your web hosting plan in the OVHcloud Control Panel"
-updated: 2024-09-12
+updated: 2025-01-31
 ---
 
 ## Objective
@@ -46,36 +46,14 @@ Log in to your [OVHcloud Control Panel](/links/manager) and perform the followin
 
 The Git association form is displayed. There are several elements that need to be configured:
 
-- SSH key
 - GitHub repository
 - GitHub repository branch
+- SSH key (for a private GitHub repository)
 - Webhook (optional)
-
-#### Attach an SSH key to GitHub <a name="linkSSHKey"></a>
-
-> [!primary]
->
-> Generating an SSH key is a crucial step, as it establishes a secure and encrypted connection between your website’s directory and the GitHub repository. This key ensures that data transfers and code changes are done in a secure and authenticated manner, preventing unauthorised access and ensuring code integrity.
->
-
-Copy and save the SSH key to your GitHub account. This way, you can establish a secure connection without having to enter a password each time you perform a Git operation.
-
-- Log in to your GitHub account.
-- Click on your profile picture in the top right-hand corner, then on `Settings`{.action}.
-- On the new page, click `SSH and GPG keys`{.action} in the left-hand column.
-- Select `New SSH key`{.action} or `Add SSH key`{.action}.
-
-The form for adding a new SSH key will open:
-
-- **Title** : Add a description for your SSH key. For example, you can name this key “OVHcloud”.
-- **Type of key**: Leave the default value `authentication key`{.action}
-- **Key**: Paste your SSH key.
-
-To confirm the information, click `Add SSH key`{.action}. If prompted, confirm access to your account in GitHub.
 
 #### Set GitHub repository
 
-Return to the Git association form in the OVHcloud Control Panel. You must enter the address of your GitHub repository. If you don't have a GitHub repository for your project yet, create one.
+Enter the address of your GitHub repository. If you don't have a GitHub repository for your project yet, create one.
 
 To create a new repository:
 
@@ -92,7 +70,12 @@ Define a name for your deposit and fill in the requested information.
 
 Finally, click `Create Repository`{.action}.
 
-Copy the address of your GitHub repository. It must be of the form `https://github.com/<username>/<repository_name.git>`. Return to the Git association form and paste the address of your GitHub repository into the `Deposit`{.action} field. If the address format is not correct, the following error message appears:
+Copy the address of your GitHub repository. It must be of the form:
+
+- `https://github.com/<username>/<repository_name.git>` for a public repository.
+- `git@github.com:<username>/<repository_name.git>` for a private repository.
+
+Return to the Git association form and paste the address of your GitHub repository into the `Deposit`{.action} field. If the address format is not correct, the following error message appears:
 
 ![Multisite](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/error-wrong-git-repository-name.png){.thumbnail}
 
@@ -106,6 +89,33 @@ Now define the branch of your GitHub repository. The default branch is `main`, b
 - Enter the name of the new branch and confirm by clicking `Create new branch`{.action}.
 
 Go back to the Git association form in the OVHcloud Control Panel, and enter the name of the new branch you have just created.
+
+#### Attach an SSH key to GitHub (only for private GitHub repositories) <a name="linkSSHKey"></a>
+
+> [!primary]
+>
+> Generating an SSH key is a crucial step, as it establishes a secure and encrypted connection between your website’s directory and the GitHub repository. This key ensures that data transfers and code changes are done in a secure and authenticated manner, preventing unauthorized access and ensuring code integrity.
+
+> [!primary]
+>
+> **Why is the SSH key required only for a private deposit?**
+>
+> When your GitHub repository is public, files can be retrieved without authentication, which means Git can clone and update code without the need for an SSH key. However, if your repository is private, GitHub requires authentication to access it. The SSH key can then be used to establish this secure connection and guarantee that only authorized users can interact with the repository.
+
+Copy and save the SSH key to your GitHub account. This way, you can establish a secure connection without having to enter a password each time you perform a Git operation.
+
+- Log in to your GitHub account.
+- Click on your profile picture in the top right-hand corner, then on `Settings`{.action}.
+- On the new page, click `SSH and GPG keys`{.action} in the left-hand column.
+- Select `New SSH key`{.action} or `Add SSH key`{.action}.
+
+The form for adding a new SSH key will open:
+
+- **Title** : add a description for your SSH key. For example, you can name this key "OVHcloud".
+- **Type of key**: leave the default value `authentication key`
+- **Key**: Paste your SSH key.
+
+To confirm the information, click `Add SSH key`{.action}. If prompted, confirm access to your account in GitHub.
 
 #### Configure automatic deployment
 

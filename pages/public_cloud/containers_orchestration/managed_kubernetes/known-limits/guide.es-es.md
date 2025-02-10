@@ -1,7 +1,7 @@
 ---
 title: Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2024-10-02
+updated: 2025-01-30
 ---
 
 <style>
@@ -137,7 +137,7 @@ The `vRack` feature is currently available and compliant with our Managed Kubern
 To prevent any conflict, we advise you to keep `DHCP` service running in your private network.
 
 > [!warning]
-> If you create your subnet via the [OVHcloud APIv6](https://api.ovh.com/console/#/cloud/project/{serviceName}/network/private/{networkId}/subnet#POST), please ensure that this option `noGateway` is checked if you do not have a gateway on this subnet. Not doing so will result in faulty services of type LoadBalancer.
+> At the moment, MKS worker nodes cannot use provided Subnet's DNS nameservers.
 >
 
 > [!warning]

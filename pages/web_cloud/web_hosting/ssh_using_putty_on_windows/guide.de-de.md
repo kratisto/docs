@@ -83,7 +83,7 @@ In diesem Abschnitt wird erläutert, wie Sie eine erste SSH-Verbindung mit den f
 
 ### Webhosting
 
-Sie benötigen den Cluster-Namen Ihres Webhostings, den Sie in Ihrem [OVHcloud Kundencenter](/links/manager) finden, sowie den FTP-Benutzernamen und das Passwort.  Weitere Informationen zu dieser Zugriffsmethode finden Sie in [der zugehörigen Anleitung](/pages/web_cloud/web_hosting/ftp_connection).
+Sie benötigen den Cluster-Namen Ihres Webhostings, den Sie in Ihrem [OVHcloud Kundencenter](/links/manager) finden, sowie den FTP-Benutzernamen und das Passwort.  Weitere Informationen zu dieser Zugriffsmethode finden Sie in der [zugehörigen Anleitung](/pages/web_cloud/web_hosting/ftp_connection).
 
 /// details | Verbindung mit einem Webhosting
 
@@ -381,7 +381,7 @@ Erfahren Sie in den nächsten Abschnitten, wie Sie mithilfe von Pageant der Verb
 
 Wenn Sie die obigen Anweisungen befolgt haben, können Sie mithilfe der Schlüsselauthentifizierung auf Ihren Remote-Host zugreifen. Während für die Verbindung selbst kein Passwort erforderlich ist, wird PuTTY jedoch jedes Mal nach dem Passwort für die entsprechende private Schlüsseldatei fragen.
 
-![page](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/pterminal.png){.thumbnail}
 
 Die Verwendung von Pageant ermöglicht schnellere Verbindungen auf zwei Wegen:
 
@@ -390,7 +390,7 @@ Die Verwendung von Pageant ermöglicht schnellere Verbindungen auf zwei Wegen:
 
 Öffnen Sie die Pageant-Anwendung [auf Ihrem Gerät](#installation). Da sich das Pageant-Schlüsselfenster nicht automatisch öffnet, müssen Sie noch auf das entsprechende Symbol in der Taskleiste (*System Tray* in Windows) (doppel-)klicken.
 
-![page](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
+![pageant](/pages/assets/screens/other/web-tools/putty/systray.png){.thumbnail}
 
 Dadurch wird die **Pageant Key List** geöffnet. Klicken Sie auf `Add Key`{.action} und wählen Sie die Datei mit dem privaten Schlüssel (`keyfile.ppk`) in dem Ordner aus, in dem Sie sie gespeichert haben.
 
@@ -417,15 +417,17 @@ Wählen Sie die zutreffende Verbindungsmethode aus:
 Um eine [passwortbasierte Login-*Session*](#sshconnect1) zu speichern, führen Sie die folgenden Schritte aus:
 
 | ![Sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
-|:--|
+|---|
 | 1\. Öffnen Sie PuTTY.<br> 2\. Geben Sie die Verbindungsinformationen in das Feld `Host Name (or IP address)` ein: **username@IPv4_server** (Beispiel: **ubuntu@203.0.113.101**)<br> 3\. Ändern Sie gegebenenfalls die Nummer des SSH-Ports im Feld unter `Port`.<br> 4\. Geben Sie einen Namen für diese Verbindung in das Feld unter `Saved Sessions` ein.<br> 5\. Klicken Sie auf den Button `Save`{.action}. |
 
 Um eine zuvor gespeicherte Verbindung zu öffnen, führen Sie die folgenden Schritte aus:
 
 | ![Sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
-|:--|
+|---|
 | 1\. Öffnen Sie PuTTY.<br> 2\. Doppelklicken Sie auf die gewünschte *Session* in der Liste unter `Saved Sessions` (oder wählen Sie sie aus und klicken Sie auf den Button `Open`{.action}). |
+
 | ![Sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
+|---|
 | Geben Sie im PuTTY-Terminal das Benutzerpasswort für den Remote-Host ein. |
 
 ///
@@ -437,11 +439,15 @@ Um eine zuvor gespeicherte Verbindung zu öffnen, führen Sie die folgenden Schr
 Um eine [schlüsselbasierte Login-*Session*](#puttykeys) zu speichern, führen Sie die folgenden Schritte aus:
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|:--|
+|---|
 | 1\. Öffnen Sie PuTTY.<br> 2\. Geben Sie die Verbindungsinformationen in das Feld `Host Name (or IP address)` ein: **username@IPv4_server** (Beispiel: **ubuntu@203.0.113.101**)<br> 3\. Bearbeiten Sie gegebenenfalls die Nummer des SSH-Ports im Feld unter `Port`. |
+
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+|---|
 | 4\. Erweitern Sie den Knoten `SSH` unter `Connection` in der Struktur `Category`.<br> 5\. Erweitern Sie den Knoten `Auth` in der Struktur `Category`.<br> 6\. Klicken Sie auf `Credentials`, um die entsprechenden Einstellungen anzuzeigen.<br> 7\. Klicken Sie auf `Browse`{.action}.<br> 8\. Navigieren Sie zu dem Ordner, in dem die Dateien mit dem privaten Schlüssel gespeichert sind.<br> 9\. Öffnen Sie die betreffende Schlüsseldatei. |
+
 | ![Sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
+|---|
 | 10\. Gehen Sie im Menü links zur Konfigurationskategorie `Session` zurück.<br> 11\. Geben Sie einen Namen für diese Verbindung in das Feld unter `Saved Sessions` ein.<br> 12\. Klicken Sie auf den Button `Save`{.action}. |
 
 <a name="qconnect"></a>

@@ -71,7 +71,7 @@ Confirm deletion operation by typing `DELETE` inside the confirmation field and 
 
 > [!primary]
 >
-> Volume snapshots use storage capacity from your your Enterprise File Storage offer. By default, 5% of a volume storage capacity is reserved for snapshots.
+> Volume snapshots use storage capacity from your Enterprise File Storage offer. By default, 5% of a volume storage capacity is reserved for snapshots.
 >
 
 The `Snapshots`{.action} tab lists all the snapshots that have been created for the selected volume.
@@ -97,7 +97,7 @@ To create a new `manual` snapshot of the volume's current state, click the `Acti
 
 ![Snapshot create](images/manage_enterprise08.png){.thumbnail}
 
-Inside the the popup window that will open, you can enter a name and a description for the snapshot. Click the `Create a snapshot`{.action} button to start snapshot creation.
+Inside the popup window that will open, you can enter a name and a description for the snapshot. Click the `Create a snapshot`{.action} button to start snapshot creation.
 
 ![Snapshot create window](images/manage_enterprise09.png){.thumbnail}
 

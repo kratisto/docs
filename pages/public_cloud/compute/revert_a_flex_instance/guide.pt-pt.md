@@ -59,7 +59,7 @@ Esta secção permite gerir o particionamento do disco (*Disk Partition*) e o gr
 
 Para continuar, clique no botão `Resize`{.action}.
 
-Uma vez terminado o processo, a sua instância será transferida para um modelo clássico, com mais espaço de armazenamento.
+Quando o processo estiver concluído, a sua instância será mudada para o modelo selecionado. No nosso caso, a nossa instância foi mudada para um modelo clássico com mais espaço de armazenamento.
 
 ![Novo flavor aplicado](images/newflavor.png){.thumbnail}
 

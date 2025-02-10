@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Il mio database è saturo, cosa fare?"
 excerpt: "Questa guida ti mostra come agire in caso di saturazione del database"
-updated: 2024-12-09
+updated: 2024-12-17
 ---
 
 ## Obiettivo
@@ -198,7 +198,81 @@ DROP TABLE `table_1`
 
 > In questo esempio, il comando elimina la tavola **table_1** e tutte le righe che contiene.
 
-## Spingiti oltre <a name="go-further"></a>
+### Step 4: rimuovi il database dallo stato "READ ONLY" (sola lettura)
+
+I nostri robot, responsabili delle verifiche delle quote, passano regolarmente sulle nostre infrastrutture.
+Se durante l’accesso ai servizi il tuo database non è più in **overquota**, rimuovono automaticamente lo stato "READ ONLY" (sola lettura).
+Una volta completate le operazioni necessarie sul database, è sufficiente attendere fino a quando i nostri robot non verranno spostati sui servizi.
+
+Tuttavia, è possibile forzare il passaggio ai servizi per accelerare il processo. Per farlo, chiedi ai nostri robot di ricalcolare la quota del tuo servizio/database.
+
+#### Ricalcola la quota per un database incluso nel piano di hosting Web
+
+Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** passi.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu a tendina `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `Database`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Sulla nuova pagina appare una tabella con i database creati. A destra del database, clicca sul pulsante `...`{.action} e poi su `Ricalcola la quota`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>>
+> **Step 5**
+>>
+>> Nella nuova finestra, clicca direttamente sul pulsante `Conferma`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>>
+>> Una volta avviata, l'operazione potrebbe richiedere alcuni minuti. Al termine, lo stato "READ ONLY" del database scompare.
+>> Il database sarà di nuovo pienamente operativo.
+>>
+
+#### Ricalcola la quota di un database ospitato su una soluzione Web Cloud Databases
+
+Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passaggi.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu a tendina `Web Cloud Databases`{.action} e seleziona la soluzione Web Cloud Databases interessata.
+>>
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nel riquadro **Informazioni generali** visualizzi la voce **Spazio utilizzato**. Clicca sui tre puntini `...`{.action} a destra e poi su `Aggiorna la quota del tuo database`{.action}.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>>
+>> Una volta avviata, l'operazione potrebbe richiedere alcuni minuti. Al termine, lo stato "READ ONLY" del database scompare.
+>> Il database sarà di nuovo pienamente operativo.
+>>
+
+## Per saperne di più <a name="go-further"></a>
 
 [Duplicare il contenuto di un database in un altro](/pages/web_cloud/web_hosting/copy_database)
 

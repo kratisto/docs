@@ -82,9 +82,9 @@ Per farlo, compila i diversi moduli come dettagliato di seguito:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump.png){.thumbnail}
 
-Una volta completati i moduli, clicca sul pulsante blu `Try`{.action} in basso a destra delle due sezioni precedentemente compilate.
+Una volta completati i moduli, clicca sul pulsante blu `EXECUTE`{.action} in basso a destra delle due sezioni precedentemente compilate.
 
-Se tutto è stato inserito correttamente e alcuni backup sono disponibili per il database eliminato, nella finestra `RESPONSE`{.action} viene visualizzato un elenco di numeri di identificativi di backup quando si scende alla pagina sotto il pulsante `Try`{.action}.
+Se tutto è stato inserito correttamente e alcuni backup sono disponibili per il database eliminato, nella finestra `RESPONSE`{.action} viene visualizzato un elenco di numeri di identificativi di backup quando si scende alla pagina sotto il pulsante `EXECUTE`{.action}.
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-response.png){.thumbnail}
 
@@ -117,9 +117,9 @@ Compila i moduli disponibili nella sezione `PATH PARAMETERS` nel modo seguente:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id.png){.thumbnail}
 
-Una volta completati i moduli, clicca sul pulsante blu `Try`{.action} in basso a destra nella sezione precedentemente compilata.
+Una volta completati i moduli, clicca sul pulsante blu `EXECUTE`{.action} in basso a destra nella sezione precedentemente compilata.
 
-Se tutto è stato inserito correttamente, il seguente risultato appare nella finestra `RESPONSE`{.action} quando si scende alla pagina sotto il pulsante `Try`{.action}:
+Se tutto è stato inserito correttamente, il seguente risultato appare nella finestra `RESPONSE`{.action} quando si scende alla pagina sotto il pulsante `EXECUTE`{.action}:
 
 ![API](/pages/assets/screens/api/get-hosting-web-servicename-dump-id-response.png){.thumbnail}
 

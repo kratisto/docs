@@ -117,7 +117,7 @@ Um zum Beispiel einen TXT Eintrag in Ihrer DNS Zone hinzuzufügen, editieren Sie
  	
 ![API](images/parameters.png){.thumbnail} 
  
-Wenn Sie die Parameter festgelegt haben, können Sie die Ausführung des Aufrufs starten, indem Sie auf `TRY`{.action} klicken. 
+Wenn Sie die Parameter festgelegt haben, können Sie die Ausführung des Aufrufs starten, indem Sie auf `EXECUTE`{.action} klicken. 
 
 Der Tab `Response` zeigt den Bericht zur Durchführung des API-Aufrufs.
 

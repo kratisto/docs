@@ -44,14 +44,14 @@ Quando um endereço IP for bloqueado para SPAM, um e-mail será enviado à sua c
 
 **O que fazer quando receber o e-mail de alerta?**
 
-O procedimento consiste em identificar o problema, resolvê-lo e desbloquear o seu IP.
+O processo envolve a identificação do problema, a sua resolução e o desbloqueio do seu IP.
 
 ### Identificar e resolver o problema
 
 **Antes de desbloquear um endereço IP, certifique-se de que tomou as seguintes medidas:**
 
 - Elimine o envio de e-mail (por exemplo: parar todos os softwares de e-mail como o qmail, Postfix, Sendmail, etc.).
-- Verifique a fila de espera dos e-mails (por exemplo qmHandle para qmail, postfila -p para Postfix) e esvazie-a.
+- Verifique a fila de espera dos e-mails (por exemplo qmHandle para qmail, postqueue -p para Postfix) e esvazie-a.
 - Analise os logs graças à **Message-ID** presente no alerta de bloqueio.
 - Se enviar SPAM ou e-mails ilegítimos, recomendamos vivamente que resolva o problema **antes** de desbloquear o endereço IP. Consulte este guia para [melhores práticas (EN)](/pages/bare_metal_cloud/dedicated_servers/antispam_best_practices#bestpractices) no matéria de envio de e-mails. 
 

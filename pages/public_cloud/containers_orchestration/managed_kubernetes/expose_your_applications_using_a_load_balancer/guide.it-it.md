@@ -1,7 +1,7 @@
 ---
 title: Expose your applications using OVHcloud Public Cloud Load Balancer
 excerpt: "How to expose your applications hosted on Managed Kubernetes Service using the OVHcloud Public Cloud Load Balancer"
-updated: 2024-09-23
+updated: 2025-01-30
 ---
 
 > [!warning]
@@ -339,6 +339,16 @@ Authorized values: 'octavia' = Public Cloud Load Balancer, 'iolb' = Loadbalancer
   This annotation is automatically added and it contains the Floating IP address of the load balancer service.
   When using `loadbalancer.openstack.org/hostname` annotation it is the only place to see the real address of the load balancer.
 
+- `loadbalancer.openstack.org/lb-method`
+
+  This annotation configures the load balancing algorithm to use to distribute new connections.
+  Default algorithm: `ROUND_ROBIN`
+  Others algorithms available: `LEAST_CONNECTIONS`, `SOURCE_IP`
+
+> [!warning]
+> This annotation is only available for the following MKS versions: `1.31.1-3+`, `1.30.5-1+`, `1.29.9-1+`, `1.28.14-1+`, `1.27.16-1+`, `1.26.15-10+`
+>
+
 ### Annotations not supported
 
 - `loadbalancer.openstack.org/availability-zone`
@@ -401,11 +411,6 @@ test-lb-todel        LoadBalancer   10.3.107.18   141.94.215.240   80:30172/TCP 
 
 When exposing services like nginx-ingress-controller, it's a common requirement that the client connection information could pass through proxy servers and load balancers, therefore visible to the backend services. Knowing the originating IP address of a client may be useful for setting a particular language for a website, keeping a denylist of IP addresses, or simply for logging and statistics purposes. You can follow the official Cloud Controller Manager documentation on how to [Use PROXY protocol to preserve client IP](https://github.com/kubernetes/cloud-provider-openstack/blob/master/docs/openstack-cloud-controller-manager/expose-applications-using-loadbalancer-type-service.md#use-proxy-protocol-to-preserve-client-ip).
 
-> [!warning]
->
-> Only ProxyProtocol version 1 is supported at the moment by the MKS's integration.
->
-
 #### Migrate from Loadbalancer for Kubernetes to Public Cloud Load Balancer
 
 In order to migrate from an existing [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud Load Balancer](/links/public-cloud/load-balancer) you will have to modify an existing Service and change its LoadBalancer class.
@@ -421,7 +426,7 @@ annotations:
 
 ```yaml
 annotations:
-  loadbalancer.ovhcloud.com/class: "octavia" //not required for clusters running kubernetes versions >= 1.31, you can just remove the annotation.
+  loadbalancer.ovhcloud.com/class: "octavia" // not required for clusters running kubernetes versions >= 1.31, you can just remove the annotation.
 ```
 
 ##### Step 2 - Apply the change
@@ -450,7 +455,7 @@ metadata:
   name: octavia-keepip-with-existing-ip
   annotations:
     loadbalancer.ovhcloud.com/class: "octavia" //not required for clusters running kubernetes versions >= 1.31
-    #loadbalancer.openstack.org/keep-floatingip: "true" # Useless, since the FIP was provided, the FIP will not be managed by the MKS cluster
+    # loadbalancer.openstack.org/keep-floatingip: "true" # Useless, since the FIP was provided, the FIP will not be managed by the MKS cluster
 spec:
   loadBalancerIP: 1.2.3.4
   type: LoadBalancer
@@ -478,6 +483,7 @@ metadata:
   name: octavia-with-fixed-vip
   annotations:
     loadbalancer.ovhcloud.com/class: "octavia"    //not required for clusters running kubernetes versions >= 1.31
+    service.beta.kubernetes.io/openstack-internal-load-balancer: "true" // most of the time, your LB is private in this case (but it's not mandatory)
     loadbalancer.openstack.org/port-id: "<openstack-port-uuid>"
 spec:
   type: LoadBalancer

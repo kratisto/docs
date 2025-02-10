@@ -95,7 +95,7 @@ Vous disposez de 2 options pour créer et gérer vos clés SSH :
 
 La plupart des systèmes d'exploitation de bureau contemporains incluent nativement le client **OpenSSH** accessible via l'application de ligne de commande du système (`cmd`, `Powershell`, `Terminal`, etc.). Si vous n'êtes pas familier avec l'utilisation des clés SSH comme méthode d'authentification, vous pouvez utiliser les instructions de [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#create-ssh-key) pour créer votre paire de clés.
 
-Si vous utilisez un autre logiciel, reportez-vous à sa documentation utilisateur. Les instructions pour la solution open source `PuTTY` sont disponibles dans [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+Si vous utilisez un autre logiciel, reportez-vous à sa documentation utilisateur. Les instructions pour la solution open source `PuTTY` sont disponibles dans [ce guide](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 <a name="import-ssh"></a>
 
@@ -443,7 +443,7 @@ ssh ubuntu@203.0.113.101
 
 [En fonction de votre configuration](#create-ssh), vous devrez entrer une phrase secrète qui protège votre clé privée ou spécifier le chemin d'accès à votre fichier de clé. Consultez notre [guide des clés SSH](/pages/public_cloud/compute/creating-ssh-keys-pci#multiplekeys) pour des informations détaillées sur ce sujet.
 
-Si vous utilisez un autre logiciel client SSH, reportez-vous à sa documentation utilisateur. Un exemple d'utilisation de la solution open source `PuTTY` est disponible dans [ce guide](/pages/public_cloud/compute/creating-ssh-keys-pci#useputty).
+Si vous utilisez un autre logiciel client SSH, reportez-vous à sa documentation utilisateur. Un exemple d'utilisation de la solution open source `PuTTY` est disponible dans [ce guide](/pages/web_cloud/web_hosting/ssh_using_putty_on_windows).
 
 Poursuivez à l'[étape 6 ci-dessous](#manage-access).
 

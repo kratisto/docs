@@ -351,7 +351,7 @@ Pour vérifier que votre clé est correctement configurée, connectez-vous à vo
 Pour vous connecter à un host distant (instance Public Cloud, serveur dédié ou VPS), vous devez avoir [créé la paire de clés](#puttygen) et [ajouté la chaîne de clé publique à votre serveur](#transferkeys).
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Ouvrez PuTTY.<br> 2\. Développez le nœud `SSH` sous `Connection` dans l'arborescence `Category`.<br> 3\. Développez le nœud `Auth`.<br> 4\. Cliquez sur `Credentials` pour afficher les paramètres correspondants.<br> 5\. Cliquez sur le bouton `Browse`{.action}.<br> 6\. Sélectionnez le fichier de clé privée (`keyfile.ppk`) dans le dossier dans lequel vous l'avez enregistré. |
 
 Retournez à `Session` dans le menu de gauche. Renseignez les identifiants de connexion dans les champs appropriés.
@@ -419,15 +419,17 @@ Sélectionnez la méthode de connexion appropriée :
 Pour stocker une [session de connexion basée sur un mot de passe](#sshconnect1), effectuez les actions suivantes :
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Ouvrez PuTTY.<br> 2\. Renseignez les informations de connexion dans le champ `Host Name (or IP address)` : **username@IPv4_server** (exemple : **ubuntu@203.0.113.101**)<br> 3\. Le cas échéant, modifiez le numéro de port SSH dans le champ sous `Port`.<br> 4\. Entrez un nom pour cette connexion dans le champ sous `Saved Sessions`.<br> 5\. Cliquez sur le bouton `Save`{.action}. |
 
 Pour ouvrir une connexion enregistrée précédemment, effectuez les actions suivantes :
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Ouvrez PuTTY.<br> 2\. Double-cliquez sur la session souhaitée dans la liste sous `Saved Sessions` ou sélectionnez-la et cliquez sur le bouton `Open`{.action}. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
+|---|
 | Dans la fenêtre du terminal PuTTY, renseignez le mot de passe utilisateur de l'hôte distant. |
 
 ///
@@ -439,11 +441,15 @@ Pour ouvrir une connexion enregistrée précédemment, effectuez les actions sui
 Pour stocker une [session de connexion basée sur des clés](#puttykeys), effectuez les actions suivantes :
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Ouvrez PuTTY.<br> 2\. Renseignez les informations de connexion dans le champ `Host Name (or IP address)` : **username@IPv4_server** (exemple : **ubuntu@203.0.113.101**)<br> 3\. Le cas échéant, éditez le numéro de port SSH dans le champ sous `Port`. |
+
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+|---|
 | 4\. Développez le nœud `SSH` sous `Connection` dans l'arborescence `Category`.<br> 5\. Développez le nœud `Auth` dans l'arborescence `Category`.<br> 6\. Cliquez sur `Credentials` pour afficher les paramètres correspondants.<br> 7\. Cliquez sur le bouton `Browse`{.action}.<br> 8\. Accédez au dossier qui stocke vos fichiers de clés privées.<br> 9\. Ouvrez le fichier de clé concerné. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
+|---|
 | 10\. Retournez à la catégorie de configuration `Session` dans le menu de gauche.<br> 11\. Entrez un nom pour cette connexion dans le champ sous `Saved Sessions`.<br> 12\. Cliquez sur le bouton `Save`{.action}. |
 
 <a name="qconnect"></a>
