@@ -84,13 +84,13 @@ Once your token has been generated, you can navigate to the [Catalog page](https
 AI Endpoints offers a variety of world-renowned AI models to choose from, including:
 
 - **Large Language Models (LLM)**: Use models like LLaMa 3, Mistral and more, for conversations and RAG use cases.
-- **Reasoning LLM**: Use reasoning models like DeepSeek-R1 distillations for math, coding or complex tasks.
+- **Reasoning LLM**: Use reasoning models like DeepSeek-R1 distillations for maths, coding or complex tasks.
 - **Code LLM**: Code generation and code completion from an IDE with models like Codestral or CodeLLaMa.
-- **Visual LLM**: Multimodal models such as LLaVa-Next, that are able to process images and text inputs, for image understanding or OCR uses cases.
+- **Visual LLM**: Multimodal models such as LLaVa-Next, that are able to process images and text inputs, for image understanding or OCR use cases.
 - **Embeddings**: Generate embeddings for use in machine learning applications (BGE base, Multilingual E5).
 - **Natural Language Processing**: Use models like RoBERTa, Bert, and T5 for NLP tasks like sentiment analysis, entity recognition, and text summarization.
 - **Image Generation**: Generate images using Stable Diffusion XL.
-- **Audio Analysis**: Automatic Speech Recognition and Text to Speech using NVIDIA's models.
+- **Audio Analysis**: Automatic Speech Recognition and Text to Speech using NVIDIA models.
 - **Translation**: Translate text using NVIDIA Neural Machine Translation or T5 large.
 - **Computer Vision**: Object detection and segmentation with YOLO models.
 
