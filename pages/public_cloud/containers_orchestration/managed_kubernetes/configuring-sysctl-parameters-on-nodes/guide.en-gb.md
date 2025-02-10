@@ -47,25 +47,29 @@ spec:
       priorityClassName: system-node-critical
       hostNetwork: true
       tolerations:
-      - operator: Exists
+        - operator: Exists
       initContainers:
         - image: busybox
           name: sysctl-tuner
-          command: 
-          - sh
-          - -c
-          - "sysctl -w fs.inotify.max_user_watches=<value> && sysctl -w fs.inotify.max_user_instances=<value>"
+          command:
+            - sh
+            - -c
+            - "cd /host && sysctl -w fs.inotify.max_user_watches=<value> && sysctl -w fs.inotify.max_user_instances=<value>"
           securityContext:
             privileged: true
             runAsUser: 0
           volumeMounts:
             - name: root-mount
               mountPath: /host
-            - name: entrypoint
-              mountPath: /scripts
       containers:
-      - image: registry.k8s.io/pause:3.10 
-        name: pause
+        - image: registry.k8s.io/pause:3.10
+          name: pause
+      volumes:
+        - name: root-mount
+          hostPath:
+            path: /
+            type: Directory
+
 ```
 
 Define the value of the sysctl key `fs.inotify.max_user_watches` and `fs.inotify.max_user_instances` based on your applications' needs.
