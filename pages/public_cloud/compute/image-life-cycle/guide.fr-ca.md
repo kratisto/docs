@@ -1,7 +1,7 @@
 ---
 title: "Public Cloud & VPS - Cycle de vie et annonces de fin de vie/support des images et distributions"
 excerpt: "Découvrez le cycle de vie et les annonces de fin de vie et de support des distributions et logiciels pour votre VPS ou votre instance Public Cloud"
-updated: 2025-02-10
+updated: 2025-02-11
 ---
 
 ## Objectif
@@ -37,7 +37,7 @@ OVHcloud suit le cycle de vie officiel de chaque distribution. Toutes les source
 > 
 > - Les versions Linux d'OVHcloud peuvent avoir quelques semaines de retard par rapport aux versions de distribution.
 > - Les versions Windows d'OVHcloud peuvent avoir quelques mois de retard par rapport aux versions de Microsoft.
-> - Les images préinstallées des VPS OVHcloud contenant un OS OVHcloud et une pile de logiciels préinstallés (par exemple : WordPress) suivent le même cycle de vie que le système d'exploitation sur lequel elles sont basées.
+> - Les images préinstallées des VPS OVHcloud contenant une pile de logiciels préinstallés (par exemple : WordPress) suivent le même cycle de vie que le système d'exploitation sur lequel elles sont basées.
 > - Après leurs sorties initiales, les images fournies par OVHcloud pour une version donnée restent disponibles jusqu'à la fin de vie définie par l'éditeur/la communauté ou la fin du support si aucune fin de vie spécifique n'est définie. Après cela, elles ne peuvent plus être installées/réinstallées. Nous conseillons vivement aux clients de mettre à jour les machines existantes avec une version du système d'exploitation supportée par l'éditeur/la communauté, et de se référer aux termes et conditions spécifiques de leur système d'exploitation concernant les mises à jour lorsqu'elles s'appliquent.
 > - Pour plus d'informations, vous pouvez consulter la feuille de route sur [GitHub](https://github.com/orgs/ovh/projects/16/views/1).
 >
