@@ -1,7 +1,7 @@
 ---
 title: 'Utiliser Backup Storage sur un serveur dédié'
 excerpt: 'Découvrez comment activer et accéder à votre espace de stockage supplémentaire'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
 
 ## Objectif
@@ -11,7 +11,7 @@ Les serveurs dédiés OVHcloud comprennent un espace de sauvegarde supplémentai
 **Ce guide vous explique comment activer et utiliser votre espace de sauvegarde**.
 
 > [!primary]
-> Pour plus de détails, nous vous recommandons de consulter la [page commerciale](https://www.ovhcloud.com/fr-ca/bare-metal/backup-storage/) de l'option Backup Storage.
+> Pour plus de détails, nous vous recommandons de consulter la [page commerciale](/links/bare-metal/backup-storage) de l'option Backup Storage.
 >
 > Ce guide ne s'applique pas aux services OVHcloud US.
 >
@@ -22,9 +22,9 @@ Les serveurs dédiés OVHcloud comprennent un espace de sauvegarde supplémentai
 * Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
 
 > [!warning]
-> Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](https://eco.ovhcloud.com/fr-ca/about/).
+> Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](/links/bare-metal/eco-about).
 >
-> Consultez notre [comparatif](https://eco.ovhcloud.com/fr-ca/compare/) pour plus d’informations.
+> Consultez notre [comparatif](/links/bare-metal/eco-compare) pour plus d’informations.
 >
 
 ## En pratique
@@ -85,7 +85,7 @@ Cela vous permettra alors de récupérer vos backups depuis un service d'une aut
 > Seules les adresses IP OVHcloud peuvent être autorisées.
 >
 
-Connectez-vous sur [api.ovh.com](https://ca.api.ovh.com/) et utilisez l'appel suivant :
+Connectez-vous sur [api.ovh.com](/links/api) et utilisez l'appel suivant :
 
 > [!api]
 >
@@ -348,8 +348,25 @@ Ce problème peut être résolu en modifiant le Registre Windows : ouvrez l'util
 Ouvrez une connexion SSH à votre serveur et tapez la commande suivante :
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> Afin de monter des partages par nom d'hôte (par opposition aux adresses IP), l'utilitaire `mount.cifs` est requis. Il fait généralement partie du paquet `cifs-utils`.
+>
+> `mount.cifs` est un wrapper qui résout les noms d'hôte et ajoute le paramètre `ip=` aux paramètres de montage transmis au noyau.
+>
+> Sans `mount.cifs`, les tentatives de montage par hostname entraîneront l'erreur suivante :
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> Les versions 2.1 et ultérieures de SMB ne sont actuellement pas prises en charge.
 
 L'exemple de code ci-dessus contient des variables que vous devrez remplacer par vos propres valeurs.
 
