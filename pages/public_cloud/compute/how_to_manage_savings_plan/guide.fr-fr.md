@@ -1,8 +1,22 @@
 ---
 title: Comment gérer un savings plan
 excerpt: Découvrez comment créer un savings plan avec différents outils
-updated: 2025-01-22
+updated: 2025-02-13
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objectifs
 
@@ -59,7 +73,7 @@ Vous pouvez créer votre avings plan pour le type de ressource voulue en suivant
 >>
 >> ```python
 >> # creation of a Savings Plan
->> resource "ovh_savings_plan" "savings_plan_b3_8" {
+>> resource "ovh_savings_plan" "Savings_plan_simple_b3_8" {
 >>   service_name = "<public cloud project ID>"
 >>   flavor = "b3-8" # type de l'instance ou rancher/rancher_standard ou rancher_ovhcloud_edition
 >>   period = "P1M" # P obligatoire, chiffre pour la durée et M pour "mois", Y pour "year" ..
@@ -134,6 +148,8 @@ Vous pouvez créer votre avings plan pour le type de ressource voulue en suivant
 >>
 >> Cherchez ensuite le Savings Plan concerné dans la liste et copier le champs **id**.
 >>
+>> /// details | Modifier le nom d'un Savings Plan
+>>
 >> Pour modifier le nom d'un Savings plan, utilisez la route suivante :
 >>
 >> > [!api]
@@ -142,11 +158,19 @@ Vous pouvez créer votre avings plan pour le type de ressource voulue en suivant
 >> >
 >> > Avec **savingsPlanId** correspondant à l'id de votre Savings Plan copié précedemment.
 >>
+>> ///
+>>
+>> /// details | Activer/désactiver le renouvellement automatique d'un Savings Plan
+>>
 >> Pour **activer/désactiver** le renouvellement automatique du Savings Plan, utilisez la route suivante :
 >>
 >> > [!api]
 >> >
 >> >  @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>>
+>> ///
+>>
+>> /// | Augmenter le nombre de ressources d'un Savings Plan
 >>
 >> Pour augmenter le nombre de ressources souscrites par votre Savings Plan, utilisez cette route :
 >>
@@ -158,12 +182,14 @@ Vous pouvez créer votre avings plan pour le type de ressource voulue en suivant
 >> >
 >> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changeSize
 >>
+>> ///
+>>
 > Via Terraform
 >> Modifier votre ressource dans le fichier Terraform *savings_plan.tf* précedemment crée.
 >>
 >> > [!info]
 >> >
->> > A noter que seul les champs **service_name**, **size** et **auto_renewal** sont modifiables.
+>> > A noter que seul les champs **service_name**, **size** et **auto_renewal** sont modifiables avec **size** qui peut seulement être augmenté.
 
 ## Go further
 
