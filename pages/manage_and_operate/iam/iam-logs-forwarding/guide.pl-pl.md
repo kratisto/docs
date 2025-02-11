@@ -46,7 +46,7 @@ To enable forwarding, you can use the following APIs:
 > [!tabs]
 > Audit logs
 >>
->> **Description:** Forward account audit logs
+>> **Description:** Forward account audit logs to a dedicated data stream
 >>
 >> > [!api]
 >> >
@@ -54,7 +54,7 @@ To enable forwarding, you can use the following APIs:
 >> >
 > Activity logs
 >>
->> **Description:** Forward API and Control Panel account logs
+>> **Description:** Forward API and Control Panel account logs to a dedicated data stream
 >>
 >> > [!api]
 >> >
@@ -62,7 +62,7 @@ To enable forwarding, you can use the following APIs:
 >> >
 > Access policy logs
 >>
->> **Description:** Forward account IAM logs to a dedicated logs stream
+>> **Description:** Forward account IAM logs to a dedicated data stream
 >>
 >> > [!api]
 >> >
@@ -106,30 +106,33 @@ Alternatively, you can retrieve your streams using the Logs Data Platform API:
 > @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}
 
 
-> [!primary]
-> You can find the available `kind` using the following APIs:
->
-> **Audit logs:**
->
-> > [!api]
-> >
-> > @api {v1} /me GET /me/logs/audit/log/kind
-> >
->
-> **Activity logs:**
->
-> > [!api]
-> >
-> > @api {v1} /me GET /me/api/log/kind
-> >
->
-> **Access policy logs:**
->
-> > [!api]
-> >
-> > @api {v2} /iam GET /iam/log/kind
-> >
->
+You can find the available `kind` using the following APIs:
+
+> [!tabs]
+> Audit logs kinds
+>>
+>> **Description:** Get audit logs kinds
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me GET /me/logs/audit/log/kind
+>> >
+> Activity logs kinds
+>>
+>> **Description:** Get API and Control Panel logs kinds
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me GET /me/api/log/kind
+>> >
+> Access policy logs kinds
+>>
+>> **Description:** Get account IAM logs kinds
+>>
+>> > [!api]
+>> >
+>> > @api {v2} /iam GET /iam/log/kind
+>> >
 
 
 ### Access to OVHcloud account logs

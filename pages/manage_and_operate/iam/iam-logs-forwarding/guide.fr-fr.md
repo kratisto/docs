@@ -44,25 +44,25 @@ Notez que l'activation du transfert est gratuite, mais vous serez facturé pour 
 Pour activer la redirection, utilisez les API suivantes :
 
 > [!tabs]
-> Journaux d'audit
+> Logs d'audit
 >>
->> **Description:** Transfère les journaux d'audit des comptes
+>> **Description:** Transfert des logs d'audit des comptes vers un flux de données dédié
 >>
 >> > [!api]
 >> >
 >> > @api {v1} /me POST /me/logs/audit/log/subscription
 >> >
-> Journaux d'activité
+> Logs d'activité
 >>
->> **Description:** Journaux de l'API de transfert et des comptes du Panneau de configuration
+>> **Description:** Transfert des logs de l'API OVHcloud et de l'espace client vers un flux de données dédié
 >>
 >> > [!api]
 >> >
 >> > @api {v1} /me POST /me/api/log/subscription
 >> >
-> Accéder aux journaux de stratégie
+> Logs de politique d'accès
 >>
->> **Description:** Transfère les journaux IAM du compte vers un flux de journaux dédié
+>> **Description:** Transfert des logs de politique d'accès IAM du compte vers un flux de données dédié
 >>
 >> > [!api]
 >> >
@@ -105,30 +105,33 @@ Vous pouvez également récupérer vos flux à l'aide de l'API Logs Data Platfor
 > @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream
 > @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}
 
-> [!primary]
-> Vous pouvez retrouvez les différents `kind` possible en utilisant les APIs suivantes:
->
-> **Audit logs:**
->
-> > [!api]
-> >
-> > @api {v1} /me GET /me/logs/audit/log/kind
-> >
->
-> **Activity logs:**
->
-> > [!api]
-> >
-> > @api {v1} /me GET /me/api/log/kind
-> >
->
-> **Access policy logs:**
->
-> > [!api]
-> >
-> > @api {v2} /iam GET /iam/log/kind
-> >
->
+Vous pouvez retrouver les différents `kind` possibles en utilisant les appels API suivants :
+
+> [!tabs]
+> Catégories de logs d'audit
+>>
+>> **Description:** Lister les catégories de logs d'audit
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me GET /me/logs/audit/log/kind
+>> >
+> Catégories de logs d'activité
+>>
+>> **Description:** Lister les catégories de logs de l'API et de l'espace client
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me GET /me/api/log/kind
+>> >
+> Catégories des logs de politiques d'accès
+>>
+>> **Description:** Lister les catégories des logs de politiques d'accès IAM
+>>
+>> > [!api]
+>> >
+>> > @api {v2} /iam GET /iam/log/kind
+>> >
 
 ### Accès aux logs des comptes OVHcloud
 
