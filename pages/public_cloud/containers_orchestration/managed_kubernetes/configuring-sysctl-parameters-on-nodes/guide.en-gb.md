@@ -1,7 +1,7 @@
 ---
 title: Adapt your Inotify parameters for your Managed Kubernetes Service deployments
 excerpt: 'Adapt your Inotify parameters for your deployments which need specific Inotify parameters'
-updated: 2025-02-03
+updated: 2025-02-12
 ---
 
 ## Objective
