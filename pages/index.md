@@ -593,6 +593,7 @@
             + [Comparison and resilience of Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones](public_cloud/compute/deployment_modes_comparison_resilience_details)
         + [Billing information](public-cloud-cross-functional-billing-information)
             + [How do Savings Plans work?](public_cloud/compute/savings_plans)
+            + [How to manage a Savings Plan](public_cloud/compute/how_to_manage_savings_plan)
     + [Compute](products/public-cloud-compute)
         + [Getting started](public-cloud-compute-getting-started)
             + [How to create a Public Cloud instance and connect to it](public_cloud/compute/public-cloud-first-steps)
