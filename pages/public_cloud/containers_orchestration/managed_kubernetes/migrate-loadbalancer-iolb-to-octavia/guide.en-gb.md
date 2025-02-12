@@ -51,14 +51,14 @@ Below is a comparison between Load Balancer for Kubernetes and Public Cloud Load
 
 > [!warning]
 >  
-> Starting from MKS cluster using Kubernetes version **1.32**, any cluster upgrade attempt will be blocked if a service of type Loadbalancer relying on [Loadbalancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes) (IOLB) is still present in the cluster.
+> Starting from MKS cluster using Kubernetes version **1.31**, any cluster upgrade attempt will be blocked if a service of type Loadbalancer relying on [Loadbalancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes) (IOLB) is still present in the cluster.
 >  
-> Action required**: Before upgrading, you must **migrate your services to the Public Cloud LoadBalancer (Octavia)** by following the steps described in this guide.  
+> Action required**: Before upgrading, you must **change your services into a Public Cloud LoadBalancer (Octavia)** by following the steps described in this guide.
 >  
 > If you attempt to upgrade without first migrating, an error will be returned, preventing the upgrade.
 >
 
-There is two way to move from the [Load Balancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer), you can either **Migrate** or **Replace**.
+There is two ways to move from a [Load Balancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer), you can either **Migrate** or **Replace**.
 
 Your existing LoadBalancer Service using [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) should have the following annotation:
 
