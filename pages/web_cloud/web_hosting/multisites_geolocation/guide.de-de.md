@@ -63,8 +63,7 @@ Um die IP-Geolokalisierungsoption zu aktivieren, klicken Sie auf die folgenden R
 >>
 >> Wählen Sie aus den 12 angebotenen Ländern die IP-Adresse des Landes aus, für das Sie Ihre Website geolokalisieren möchten: *Tschechische Republik, Finnland, Frankreich, Deutschland, Irland, Italien, Litauen, Niederlande, Polen, Portugal, Spanien, Vereinigtes Königreich*.
 >>
->>Klicken Sie auf `Weiter`{.action} und im nächsten Fenster auf `Bestätigen`{.action}.
->>
+>> Klicken Sie auf `Weiter`{.action} und im nächsten Fenster auf `Bestätigen`{.action}.
 
 > [!primary]
 >
