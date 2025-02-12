@@ -1,12 +1,8 @@
 ---
 title: 'Korzystanie z Backup Storage na serwerze dedykowanym'
 excerpt: 'Dowiedz się, jak aktywować i uzyskać dostęp do dodatkowej przestrzeni dyskowej'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 
@@ -15,20 +11,20 @@ Serwery dedykowane OVHcloud dysponują dodatkową przestrzenią do przechowywani
 **Niniejszy przewodnik wyjaśnia, jak aktywować i korzystać z przestrzeni dyskowej**.
 
 > [!primary]
-> Aby uzyskać więcej informacji, zalecamy zapoznanie się ze [stroną handlową](https://www.ovhcloud.com/pl/bare-metal/backup-storage/) opcji Backup Storage.
+> Aby uzyskać więcej informacji, zalecamy zapoznanie się ze [stroną handlową](/links/bare-metal/backup-storage) opcji Backup Storage.
 >
 > Niniejszy przewodnik nie ma zastosowania do usług OVHcloud US.
 >
 
 ## Wymagania początkowe
 
-* Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal){.external} na koncie OVHcloud
+* Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal) na koncie OVHcloud
 * Dostęp do [Panelu klienta OVHcloud](/links/manager){.external}.
 
 > [!warning]
-> Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](https://eco.ovhcloud.com/pl/about/).
+> Funkcja ta może być niedostępna lub ograniczona na [serwerach dedykowanych **Eco**](/links/bare-metal/eco-about).
 >
-> Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](https://eco.ovhcloud.com/pl/compare/).
+> Aby uzyskać więcej informacji, zapoznaj się z naszym [porównaniem](/links/bare-metal/eco-compare).
 >
 
 ## W praktyce
@@ -458,8 +454,25 @@ Ten problem można rozwiązać, modyfikując rejestr systemu Windows: otwórz na
 Połącz się z serwerem za pomocą SSH i wpisz następujące polecenie:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> Aby zamontować konta zasobów współdzielonych według nazwy hosta (w przeciwieństwie do adresów IP), wymagane jest narzędzie `mount.cifs`. Zazwyczaj jest on częścią pakietu `cifs-utils`.
+>
+> `mount.cifs` to otoka, która rozpoznaje nazwy hostów i dodaje parametr `ip=` do parametrów montowania przekazanych do jądra.
+>
+> Bez `mount.cifs` próby zamontowania według nazwy hosta spowodują następujący błąd:
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> Wersje SMB 2.1 i nowsze nie są obecnie obsługiwane.
 
 Poniższy przykład kodu zawiera zmienne, które należy zastąpić odpowiednimi danymi.
 
@@ -469,4 +482,4 @@ Poniższy przykład kodu zawiera zmienne, które należy zastąpić odpowiednimi
 
 ## Sprawdź również
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

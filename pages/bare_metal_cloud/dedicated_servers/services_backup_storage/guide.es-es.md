@@ -1,12 +1,8 @@
 ---
 title: 'Utilizar Backup Storage en un servidor dedicado'
 excerpt: 'Cómo activar y acceder al espacio de almacenamiento adicional'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -15,7 +11,7 @@ Los servidores dedicados de OVHcloud incluyen un espacio de backup adicional par
 **Esta guía explica cómo activar y utilizar el espacio de backup**.
 
 > [!primary]
-> Para más información, le recomendamos consultar la [página comercial](https://www.ovhcloud.com/es-es/bare-metal/backup-storage/) de la opción Backup Storage.
+> Para más información, le recomendamos consultar la [página comercial](/links/bare-metal/backup-storage) de la opción Backup Storage.
 >
 > Esta guía no es aplicable a los servicios de OVHcloud en Estados Unidos.
 >
@@ -26,9 +22,9 @@ Los servidores dedicados de OVHcloud incluyen un espacio de backup adicional par
 - Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager){.external}.
 
 > [!warning]
-> Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](https://eco.ovhcloud.com/es-es/about/).
+> Esta funcionalidad puede no estar disponible o estar limitada en los [servidores dedicados **Eco**](/links/bare-metal/eco-about).
 >
-> Para más información, consulte nuestra [comparativa](https://eco.ovhcloud.com/es-es/compare/).
+> Para más información, consulte nuestra [comparativa](/links/bare-metal/eco-compare).
 
 ## Procedimiento
 
@@ -353,8 +349,25 @@ Este problema se puede solucionar editando el Registro de Windows: abra la utili
 Conéctese al servidor por SSH e introduzca el siguiente comando:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password=RootPassword //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> Para montar recursos compartidos por nombre de host (en lugar de direcciones IP), es necesaria la utilidad `mount.cifs`. Normalmente forma parte del paquete `cifs-utils`.
+>
+> `mount.cifs` es un contenedor que resuelve los nombres de host y agrega el parámetro `ip=` a los parámetros de montaje transmitidos al núcleo.
+>
+> Sin `mount.cifs`, los intentos de montaje por nombre de host producirán el siguiente error:
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> Actualmente no se admiten las versiones 2.1 y posteriores de SMB.
 
 En el comando anterior, sustituya las siguientes variables por el valor correspondiente:
 
@@ -365,4 +378,4 @@ En el comando anterior, sustituya las siguientes variables por el valor correspo
 
 ## Más información
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

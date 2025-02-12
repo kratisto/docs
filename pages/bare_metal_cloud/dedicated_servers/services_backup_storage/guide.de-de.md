@@ -1,12 +1,8 @@
 ---
 title: 'Backup Storage auf einem Dedicated Server verwenden'
 excerpt: 'Erfahren Sie hier, wie Sie zusätzlichen Speicherplatz aktivieren und auf diesen zugreifen'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -15,7 +11,7 @@ Die dedizierten Server von OVHcloud inkludieren einen zusätzlichen Backup-Speic
 **Diese Anleitung erklärt, wie Sie Ihren Backup-Speicherplatz aktivieren und verwenden.**
 
 > [!primary]
-> Für weitere Informationen empfehlen wir Ihnen, die [Produktseite](https://www.ovhcloud.com/de/bare-metal/backup-storage/) der Backup Storage Option einzusehen.
+> Für weitere Informationen empfehlen wir Ihnen, die [Produktseite](/links/bare-metal/backup-storage) der Backup Storage Option einzusehen.
 >
 > Beachten Sie, dass diese Anleitung nicht für OVHcloud US Dienstleistungen gilt.
 >
@@ -26,9 +22,9 @@ Die dedizierten Server von OVHcloud inkludieren einen zusätzlichen Backup-Speic
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 > [!warning]
-> Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](https://eco.ovhcloud.com/de/about/) eingesetzt wird.
+> Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird.
 >
-> Weitere Informationen finden Sie auf der [Vergleichsseite](https://eco.ovhcloud.com/de/compare/).
+> Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
 
 ## In der praktischen Anwendung
 
@@ -355,8 +351,25 @@ Dieser Fehler sollte durch Bearbeiten der Windows-Registrierung lösbar sein: Ö
 Stellen Sie eine SSH-Verbindung zu Ihrem Server her und geben Sie den folgenden Befehl ein:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> Um Freigaben nach Hostnamen (im Gegensatz zu IP-Adressen) zu mounten, ist das Dienstprogramm `mount.cifs` erforderlich. Es ist normalerweise Teil des Pakets `cifs-utils`.
+>
+> `mount.cifs` ist ein Wrapper, der Hostnamen auflöst und den Parameter `ip=` an die an den Kernel übergebenen Mount-Parameter hinzufügt.
+>
+> Ohne `mount.cifs` führen Mount-Versuche mit Hostname zu folgendem Fehler:
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> SMB 2.1 und höher werden derzeit nicht unterstützt.
 
 Ersetzen Sie die Variablen im obenstehenden Beispielbefehl mit Ihren eigenen Werten.
 
@@ -366,4 +379,4 @@ Ersetzen Sie die Variablen im obenstehenden Beispielbefehl mit Ihren eigenen Wer
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

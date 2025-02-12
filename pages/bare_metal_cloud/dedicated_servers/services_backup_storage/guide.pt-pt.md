@@ -1,12 +1,8 @@
 ---
 title: 'Utilizar o Backup Storage num servidor dedicado'
 excerpt: 'Saiba como ativar e aceder ao espaço de armazenamento adicional'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -15,7 +11,7 @@ Os servidores dedicados OVHcloud incluem um espaço de backup suplementar para a
 **Este manual explica-lhe como ativar e utilizar o seu espaço de backup**.
 
 > [!primary]
-> Para mais pormenores, recomendamos que consulte a [página comercial](https://www.ovhcloud.com/pt/bare-metal/backup-storage/) da opção Backup Storage.
+> Para mais pormenores, recomendamos que consulte a [página comercial](/links/bare-metal/backup-storage) da opção Backup Storage.
 >
 > Este guia não se aplica aos serviços da OVHcloud US.
 >
@@ -26,9 +22,9 @@ Os servidores dedicados OVHcloud incluem um espaço de backup suplementar para a
 * Ter acesso à [Área de Cliente OVHcloud](/links/manager){.external}.
 
 > [!warning]
-> Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](https://eco.ovhcloud.com/pt/about/).
+> Esta funcionalidade pode estar indisponível ou limitada nos [servidores dedicados **Eco**](/links/bare-metal/eco-about).
 >
-> Para mais informações, consulte o nosso [comparativo](https://eco.ovhcloud.com/pt/compare/).
+> Para mais informações, consulte o nosso [comparativo](/links/bare-metal/eco-compare).
 >
 
 ## Instruções
@@ -352,8 +348,25 @@ You can't access this shared folder because your organization's security policie
 Abra uma ligação SSH ao seu servidor e introduza o comando seguinte:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> Para montar partilhas por nome de host (por oposição aos endereços IP), é necessário o utilitário `mount.cifs`. Ele é geralmente parte do pacote `cifs-utils`.
+>
+> `mount.cifs` é um wrapper que resolve os nomes do host e adiciona o parâmetro `ip=` aos parâmetros de montagem transmitidos ao kernel.
+>
+> Sem `mount.cifs`, as tentativas de montagem por nome de host provocarão o seguinte erro:
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> As versões 2.1 e posteriores de SMB não são atualmente suportadas.
 
 O exemplo de código acima contém variáveis que deverá substituir pelos seus próprios valores.
 
@@ -363,4 +376,4 @@ O exemplo de código acima contém variáveis que deverá substituir pelos seus 
 
 ## Quer saber mais?
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).
