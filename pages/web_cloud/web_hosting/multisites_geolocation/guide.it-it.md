@@ -1,6 +1,6 @@
 ---
-title: "Geolocalizzare il vostro sito web in un paese specifico"
-excerpt: "Questa guida ti mostra come geolocalizzare il tuo sito Web utilizzando i nostri indirizzi IP geolocalizzati"
+title: "Come geolocalizzare un sito Web in un Paese specifico?"
+excerpt: "Questa guida ti mostra come individuare un sito Web grazie agli indirizzi IP geolocalizzati disponibili sulle offerte di hosting condiviso OVHcloud"
 updated: 2025-02-11
 ---
 

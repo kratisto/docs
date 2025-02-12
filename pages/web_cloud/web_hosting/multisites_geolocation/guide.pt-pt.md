@@ -1,6 +1,6 @@
 ---
-title: "Geolocalizar o seu website num país específico"
-excerpt: "Descubra como geolocalizar o seu website com os nossos endereços IP geolocalizados"
+title: "Como geolocalizar um website num país específico?"
+excerpt: "Saiba como localizar o seu website graças aos endereços IP geolocalizados disponíveis nas ofertas de alojamento partilhado OVHcloud"
 updated: 2025-02-11
 ---
 

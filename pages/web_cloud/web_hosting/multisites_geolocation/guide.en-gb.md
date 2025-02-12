@@ -4,7 +4,6 @@ excerpt: "Find out how to locate your website using the geolocated IP addresses 
 updated: 2025-02-11
 ---
 
-  
 ## Objective
 
 Search engines (Google, Bing, Yahoo, etc.) use robots in order to index and rank websites. They prioritise geolocated sites in the country you are searching from.
