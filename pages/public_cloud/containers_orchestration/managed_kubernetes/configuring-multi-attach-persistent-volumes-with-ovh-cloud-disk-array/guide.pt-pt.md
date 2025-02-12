@@ -1,7 +1,7 @@
 ---
 title: Configuring multi-attach persistent volumes with OVHcloud Cloud Disk Array
 excerpt: "Find out how to configure a multi-attach persistent volume using OVHcloud Cloud Disk Array"
-updated: 2024-06-20
+updated: 2025-02-12
 ---
 
 ## Objective
