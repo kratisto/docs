@@ -6,9 +6,9 @@ updated: 2024-04-03
 
 ## Objective
 
-The [Bring Your Own IP (BYOIP)](https://www.ovhcloud.com/en-sg/network/byoip/) feature allows you to use IP addresses ranges that you already own, as Additional IPs directly on the OVHcloud network and products.
+The [Bring Your Own IP (BYOIP)](/links/network/byoip) feature allows you to use IP addresses ranges that you already own, as Additional IPs directly on the OVHcloud network and products.
 
-These IP addresses will be imported in the form of a /24 IP block size and will behave like a regular OVHcloud [Additional IP](https://www.ovhcloud.com/en-sg/bare-metal/ip/) block product.
+These IP addresses will be imported in the form of a /24 IP block size and will behave like a regular OVHcloud [Additional IP](/links/bare-metal/ip) block product.
 
 ## Requirements
 
@@ -225,7 +225,11 @@ Not at product launch, but feel free to contact us to discuss this.
 
 Yes, please see the [Range slicing](#range-slicing) section for more details.
 
-### Can I import an IP and an AS number that are not in the same RIR?
+### Can I import an ARIN range in campuses accepting only RIPE ranges, and vice-versa?
+
+Yes, with our updated policy, it is now possible to use ARIN or RIPE IP blocks on OVHcloud campus where the BYOIP product is available. We've removed previous restrictions to offer greater flexibility and efficiency in IP address management and allocation. You can import and use your IP blocks according to your specific needs, regardless of the geographical location of the campus.
+
+### Can I import an ARIN AS number with a RIPE IP range, and vice-versa?
 
 Yes.
 
@@ -255,4 +259,4 @@ Yes, but once the BYOIP service has been delivered, you must immediately cancel 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

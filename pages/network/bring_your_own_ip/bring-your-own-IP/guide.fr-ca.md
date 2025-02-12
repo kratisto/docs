@@ -6,9 +6,9 @@ updated: 2024-04-03
 
 ## Objectif
 
-La fonctionnalité [Bring Your Own IP (BYOIP)](https://www.ovhcloud.com/fr-ca/network/byoip/) vous permet d'utiliser les plages d'adresses IP que vous possédez déjà en tant qu'adresses Additional IP, directement sur le réseau et les produits OVHcloud.
+La fonctionnalité [Bring Your Own IP (BYOIP)](/links/network/byoip) vous permet d'utiliser les plages d'adresses IP que vous possédez déjà en tant qu'adresses Additional IP, directement sur le réseau et les produits OVHcloud.
 
-Ces adresses IP seront importées sous la forme d'un bloc d'adresses IP de taille /24 et se comporteront comme une adresse [Additional IP](https://www.ovhcloud.com/fr-ca/bare-metal/ip/) OVHcloud.
+Ces adresses IP seront importées sous la forme d'un bloc d'adresses IP de taille /24 et se comporteront comme une adresse [Additional IP](/links/bare-metal/ip) OVHcloud.
 
 ## Prérequis
 
@@ -226,7 +226,11 @@ Pas au lancement de l'offre BYOIP. Cependant, si tel est votre souhait, nous vou
 
 Oui. Pour plus d'informations, veuillez vous reporter à la section [Découpage de plages d'addresses](#range-slicing) ci-dessus.
 
-### Puis-je importer un numéro AS et une plage d'adresses IP provenant de RIR différents ?
+### Puis-je importer une plage d'adresses IP ARIN dans des campus acceptant uniquement des plages d'adresses IP RIPE et inversement ?
+
+Oui, avec la mise à jour de notre politique, il est désormais possible d'utiliser des blocs IP ARIN ou RIPE sur n'importe quel campus OVHcloud où le produit BYOIP est disponible. Nous avons éliminé les restrictions précédentes pour offrir une plus grande flexibilité et efficacité dans la gestion et l'allocation des adresses IP. Vous pouvez importer et utiliser vos blocs IP en fonction de vos besoins spécifiques, indépendamment de la localisation géographique du campus.
+
+### Puis-je importer un numéro AS ARIN avec une plage d'adresses IP RIPE et inversement ?
 
 Oui.
 
