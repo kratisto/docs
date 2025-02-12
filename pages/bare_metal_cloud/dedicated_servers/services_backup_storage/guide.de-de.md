@@ -358,9 +358,9 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 >
 > Um Freigaben nach Hostnamen (im Gegensatz zu IP-Adressen) zu mounten, ist das Dienstprogramm `mount.cifs` erforderlich. Es ist normalerweise Teil des Pakets `cifs-utils`.
 >
-> `mount.cifs` ist ein Wrapper, der Hostnamen auflöst und den an den Kernel übergebenen Mount-Parametern `ip=` hinzufügt.
+> `mount.cifs` ist ein Wrapper, der Hostnamen auflöst und den Parameter `ip=` an die an den Kernel übergebenen Mount-Parameter hinzufügt.
 >
-> Ohne `mount.cifs` führen Mount-Versuche nach Hostname zu folgendem Fehler:
+> Ohne `mount.cifs` führen Mount-Versuche mit Hostname zu folgendem Fehler:
 >
 > ```text
 > mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
