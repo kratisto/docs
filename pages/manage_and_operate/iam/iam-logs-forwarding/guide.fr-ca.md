@@ -1,7 +1,7 @@
 ---
 title: "Génération des logs des comptes OVHcloud avec Logs Data Platform"
 excerpt: "Découvrez comment transférer les logs des comptes clients OVHcloud vers Logs Data Platform"
-updated: 2024-09-26
+updated: 2025-02-11
 ---
 
 ## Objectif
@@ -17,7 +17,7 @@ Pour découvrir Logs Data Platform avant de poursuivre ce guide, référez-vous 
 
 ## Glossaire
 
-**Logs Data Platform** : Plateforme de gestion de logs entièrement gérée et sécurisée proposée par OVHcloud. Retrouvez plus d'informations sur la [Logs Data Platform service page](https://www.ovhcloud.com/fr-ca/logs-data-platform/).
+**Logs Data Platform** : Plateforme de gestion de logs entièrement gérée et sécurisée proposée par OVHcloud. Retrouvez plus d'informations sur la [Logs Data Platform service page](/links/manage-operate/ldp).
 
 **Flux de données** : partition logique de logs que vous créez dans un compte LDP et que vous utiliserez lors de l'ingestion, la visualisation ou l'interrogation de vos logs. Plusieurs sources peuvent être stockées dans le même flux de données, et il s’agit de l’unité de définition d’un pipeline de logs (politique de rétention, archivage, streaming live, etc.), de droits d’accès et de politiques d’alertes.
 
@@ -39,44 +39,95 @@ Le compte OVHcloud propose 3 niveaux de logs :
 
 Vous pouvez activer la redirection des logs des comptes OVHcloud via API. Vous devrez cibler un flux de l’un de vos comptes LDP. Les logs seront transférés vers ce flux. L'activation du transfert créera un abonnement pour cet ID de flux.
 
-Notez que l'activation du transfert est gratuite, mais vous serez facturé pour l'utilisation de votre service Logs Data Platform selon le tarif standard. Pour la tarification du LDP, consultez la [Logs Data Platform product page](https://www.ovhcloud.com/fr-ca/logs-data-platform/).
+Notez que l'activation du transfert est gratuite, mais vous serez facturé pour l'utilisation de votre service Logs Data Platform selon le tarif standard. Pour la tarification du LDP, consultez la [Logs Data Platform product page](/links/manage-operate/ldp).
 
 Pour activer la redirection, utilisez les API suivantes :
 
-|**Méthode**|**Type de journal**|**Chemin**|**Description**|
-| :-: | :-: | :-: | :-: |
-POST|Journaux d'audit|/me/logs/audit/forward|Transfère les journaux d'audit des comptes|
-POST|Journaux d'activité|/me/api/log/subscription|Journaux de l'API de transfert et des comptes du Panneau de configuration|
-POST|Accéder aux journaux de stratégie|/iam/logs/forward|Transfère les journaux IAM du compte vers un flux de journaux dédié|
+> [!tabs]
+> Journaux d'audit
+>>
+>> **Description:** Transfère les journaux d'audit des comptes
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me POST /me/logs/audit/log/subscription
+>> >
+> Journaux d'activité
+>>
+>> **Description:** Journaux de l'API de transfert et des comptes du Panneau de configuration
+>>
+>> > [!api]
+>> >
+>> > @api {v1} /me POST /me/api/log/subscription
+>> >
+> Accéder aux journaux de stratégie
+>>
+>> **Description:** Transfère les journaux IAM du compte vers un flux de journaux dédié
+>>
+>> > [!api]
+>> >
+>> > @api {v2} /iam POST /iam/log/subscription
+>> >
 
 Par exemple, pour les journaux d'audit :
 
 ```json
-POST /me/logs/audit/forward
+POST /me/logs/audit/log/subscription
 {
-    "streamId": "ab51887e-0b98-4752-a514-f2513523a5cd"
+    "streamId": "ab51887e-0b98-4752-a514-f2513523a5cd",
+    "kind": "default"
 }
 ```
 
-L'API nécessite un `streamId`, qui correspond au flux de données cible de votre compte LDP vers lequel vos journaux de compte OVHcloud seront transférés. Vous obtiendrez en réponse un `operationId` afin de pouvoir l'utiliser pour récupérer le `subscriptionId`. Ceci à des fins de gestion ultérieure à l'aide du point de terminaison de l'[opération de lecture de Logs Data Platform](https://ca.api.ovh.com/console-preview/?section=%2Fdbaas%2Flogs&branch=v1#get-/dbaas/logs/-serviceName-/operation).
+L'API nécessite:
+
+- un `streamId`, qui correspond au flux de données cible de votre compte LDP vers lequel vos journaux de compte OVHcloud seront transférés ;
+- un `kind`, qui correspond à la catégorie de journaux que vous souhaitez transferez dans ce flux de données.
+
+Vous obtiendrez en réponse un `operationId` afin de pouvoir l'utiliser pour récupérer le `subscriptionId`. Ceci à des fins de gestion ultérieure à l'aide du point de terminaison de l'opération de lecture de Logs Data Platform suivant :
+
+> [!api]
+>
+> @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/operation
+>
 
 > [!primary]
 > Vous pouvez retrouver votre `streamId` dans la partie `Logs Data Platform`{.action} de l'espace client OVHcloud :
 >
-> - Rendez-vous sur la page `Flux de données`{.action} de votre compte Logs Data Platform. Dans le tableau qui s'affiche, cliquez sur le bouton `...`{.action} à droite du flux de donnés cible puis cliquez sur `Modifier`{.action}.
->   
-> ![Find stream ID](images/retrieve_streamId_1.png){.thumbnail}
-> 
-> - Copiez la page `streamId` de votre compte Logs Data Platform.
->   
-> ![Find stream ID](images/retrieve_streamId_2.png){.thumbnail}
+> - Rendez-vous sur la page `Flux de données`{.action} de votre compte Logs Data Platform. Dans le tableau qui s'affiche, cliquez sur le bouton `...`{.action} à droite du flux de donnés cible puis cliquez sur `Copier l'identifiant du flux`{.action}.
+>
+> ![Find stream ID](images/copy_stream_id.png){.thumbnail}
 
 Vous pouvez également récupérer vos flux à l'aide de l'API Logs Data Platform :
 
 > [!api]
 >
-> @api {GET} /dbaas/logs/{serviceName}/output/graylog/stream
-> @api {GET} /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}
+> @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream
+> @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}
+
+> [!primary]
+> Vous pouvez retrouvez les différents `kind` possible en utilisant les APIs suivantes:
+>
+> **Audit logs:**
+>
+> > [!api]
+> >
+> > @api {v1} /me GET /me/logs/audit/log/kind
+> >
+>
+> **Activity logs:**
+>
+> > [!api]
+> >
+> > @api {v1} /me GET /me/api/log/kind
+> >
+>
+> **Access policy logs:**
+>
+> > [!api]
+> >
+> > @api {v2} /iam GET /iam/log/kind
+> >
 >
 
 ### Accès aux logs des comptes OVHcloud
@@ -198,21 +249,21 @@ Les trois routes API Logs Data Platform suivantes vous permettent respectivement
 
 > [!api]
 >
-> @api {GET} /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription
+> @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription
 >
 
 - Récupérer les informations (telles que *type de ressource*, ici **api-compte**, **iam-compte** et **audit-compte**, et *nom de ressource* - nom du compte OVHcloud) du service associé à l'abonnement basé sur son `subscriptionId`.
 
 > [!api]
 >
-> @api {GET} /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription/{subscriptionId}
+> @api {v1} /dbaas/logs GET /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription/{subscriptionId}
 >
 
 - Supprimer un abonnement basé sur son `subscriptionId`.
 
 > [!api]
 >
-> @api {DELETE} /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription/{subscriptionId}
+> @api {v1} /dbaas/logs DELETE /dbaas/logs/{serviceName}/output/graylog/stream/{streamId}/subscription/{subscriptionId}
 >
 
 ## Aller plus loin

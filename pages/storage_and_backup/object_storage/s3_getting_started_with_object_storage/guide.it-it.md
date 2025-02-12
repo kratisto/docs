@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Come iniziare con Object Storage (EN)
 excerpt: This guide is designed to familiarise you with the management of your containers/objects
-updated: 2024-06-21
+updated: 2025-02-11
 ---
 
 ## Objective
@@ -20,11 +20,27 @@ This guide is designed to familiarise you with the management of your containers
 
 #### Installation
 
-Enter the following command:
+Enter the following command depending on the method chosen:
 
-```bash
-user@host:~$ pip3 install awscli
-```
+> [!tabs]
+> **Python package**
+>>
+>> ```bash
+>> user@host:~$ pip install awscli
+>> ```
+>>
+> **Debian-based OS**
+>>
+>> ```bash
+>> user@host:~$ sudo apt install awscli
+>> ```
+>>
+> **RHEL-based OS**
+>>
+>> ```bash 
+>> user@host:~$ sudo yum install awscli
+>> ```
+>>
 
 > [!primary]
 >
@@ -57,7 +73,7 @@ aws_secret_access_key = <secret_key>
 
 user@host:~$ cat ~/.aws/config
 
-[profile default]
+[default]
 region = <region_in_lowercase>
 endpoint_url = <url_endpoint>
 s3 =
@@ -146,8 +162,9 @@ aws s3 cp s3://<bucket_name> s3://<bucket_name_2> --recursive
 **Synchronising buckets**
 
 ```bash
-aws s3 sync. s3://<bucket_name>
-aws s3 sync s3://<bucket_name> s3://<bucket_name_2>
+aws s3 sync . s3://<bucket_name> # Synchronising local directory to the S3 bucket
+aws s3 sync s3://<bucket_name> . # Synchronising S3 bucket to the local directory
+aws s3 sync s3://<bucket_name> s3://<bucket_name_2> # Synchronising an S3 bucket to another one
 ```
 
 **Deleting objects and buckets**
