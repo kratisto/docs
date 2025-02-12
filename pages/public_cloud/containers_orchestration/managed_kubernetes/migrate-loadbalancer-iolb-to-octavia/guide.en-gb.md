@@ -191,7 +191,7 @@ Apply the service update using:
 kubectl apply -f your-service-manifest.yaml
 ```
 
-### Step 3 - Perform a DNS switch
+### Step 2 - Perform a DNS switch
 
 To perform a DNS switch, refer to [this part of the documentation.](#perform-a-dns-switch)
 
