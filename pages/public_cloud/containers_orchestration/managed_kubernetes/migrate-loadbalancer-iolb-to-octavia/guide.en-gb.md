@@ -24,9 +24,9 @@ The purpose of this guide is to help OVHcloud Managed Kubernetes Service (MKS) u
 
 [Public Cloud Load Balancer](/links/public-cloud/load-balancer) is the default Load Balancer for MKS clusters using Kubernetes versions >1.30.
 
-[Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) is deprecated for MKS clusters using Kubernetes versions >1.31.
+[Loadbalancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes) is deprecated for MKS clusters using Kubernetes versions >1.31.
 
-It explains the steps required to make this transition safely, minimising service interruptions. Finally, it provides recommendations on DNS management, in particular reducing the TTL, to optimise the propagation of changes and ensure a smooth migration.
+It explains the steps required to make this transition safely, minimizing service interruptions. Finally, it provides recommendations on DNS management, in particular reducing the TTL, to optimize the propagation of changes and ensure a smooth migration.
 
 > [!warning]
 >
@@ -34,18 +34,39 @@ It explains the steps required to make this transition safely, minimising servic
 
 ## Comparison
 
-Below is a comparison between Load Balancer for Kubernetes and Public Cloud Load Balancer, highlighting their key differences and capabilities. Public Cloud Load Balancer introduce several size/flavor, you can find the detailed specifications on the [Public Cloud Loadbalancer webpage.](https://www.ovhcloud.com/en/public-cloud/load-balancer/)
+Below is a comparison between Load Balancer for Kubernetes and Public Cloud Load Balancer, highlighting their key differences and capabilities. Public Cloud Load Balancer introduces several sizes/flavors, you can find the detailed specifications on the [Public Cloud Loadbalancer webpage.](https://www.ovhcloud.com/en/public-cloud/load-balancer/)
 
 |                                     | Load Balancer for Managed Kubernetes | Public Cloud Load Balancer |
 | ----------------------------------- | ------------------------------------ | -------------------------- |
 | Maximum number of connections       | 10 000                               | up to 20 000               |
-| Maximum number of HTTP  requests    | 2000                                 | Up to 80 000               |
-| Bandwith                            | 200 Mbit/s                           | up to 4 Gbit/s (up/down)   |
+| Maximum number of HTTP requests    | 2000                                 | Up to 80 000               |
+| Bandwidth                            | 200 Mbit/s                           | up to 4 Gbit/s (up/down)   |
 | Supported protocol                  | TCP                                  | TCP/UCP                    |
 | Supported load balancing layers     | L4                                   | L4/L7                      |
 | Capacity to export metrics and logs | No                                   | Yes                        |
 | Private to private scenario         | No                                   | Yes                        |
 | Floating IP                         | No                                   | Yes                        |
+
+## Annotations
+
+Below is a matching of existing annotations supported on [Load Balancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes) and their equivalent on [Public Cloud Load Balancer](/links/public-cloud/load-balancer).
+
+> [!warning]
+>
+> If you are using legacy annotations from [Load Balancer for Managed Kubernetes](/links/public-cloud/load-balancer-kubernetes), you must update them to the new format supported by [Public Cloud Load Balancer](/links/public-cloud/load-balancer) during migration.  
+>  
+> Some annotations have been **deprecated** and need to be replaced to ensure full compatibility.  
+
+You can find full details on the official documentations pages :
+
+- [Loadbalancer for Managed Kubernetes annotations](https://help.ovhcloud.com/csm/en-public-cloud-kubernetes-using-lb?id=kb_article_view&sysparm_article=KB0050019#supported-annotations)
+- [Public Cloud Loadbalancer annotations](https://help.ovhcloud.com/csm/en-ie-public-cloud-kubernetes-expose-applications-using-load-balancer?id=kb_article_view&sysparm_article=KB0062874#supported-annotations-features)
+
+| Load Balancer for Managed Kubernetes                                          | Public Cloud Load Balancer |
+| --------------------------------------------------------------------- | -------------------------- |
+| `service.beta.kubernetes.io/ovh-loadbalancer-proxy-protocol` <br> Supported values: <br>- v1 <br>- v2 <br>- v2-ssl <br>- v2-ssl-cn   | `loadbalancer.openstack.org/proxy-protocol` <br>Supported values: <br>- v1, true: enable the ProxyProtocol version 1 <br>- v2: enable the ProxyProtocol version 2  <br><br><br>       |
+| `service.beta.kubernetes.io/ovh-loadbalancer-allowed-sources` <br> --> DEPRECATED**                                      | No annotation.  <br>IP restriction is defined using `.spec.loadBalancerSourceRanges`  |
+| `service.beta.kubernetes.io/ovh-loadbalancer-balance` <br> Supported values: <br>- first <br>- leastconn <br>- roundrobin <br>- source | `loadbalancer.openstack.org/lb-method` <br> Supported values: <br>- ROUND_ROBIN <br>- LEAST_CONNECTIONS <br>- SOURCE_IP    <br>                                                |
 
 ## Migration of your LoadBalancer
 
@@ -69,11 +90,11 @@ annotations:
 
 /// details | **Migrate**
 
-Migrate from an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer) involves creating a new Load Balancer service using Public Cloud Load Balancer with the same labelSelector to expose your application. For a short period of time, your application will be accessible using both Load Balancers.
+Migrate from an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer) involves creating a new Load Balancer service using Public Cloud Load Balancer with the same label selector to expose your application. For a short period of time, your application will be accessible using both Load Balancers.
 
 At this time you can perform a DNS switch and then delete the old Loadbalancer.
 
-To migrate grom an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer), follow this steps:
+To migrate from an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer), follow this steps:
 
 ### Step 1 - Create a new Load Balancer service
 
@@ -95,6 +116,7 @@ spec:
 ```yaml
 annotations:
   loadbalancer.ovhcloud.com/class: "octavia" // if your cluster <1.31
+  loadbalancer.ovhcloud.com/flavor: "small" // Available values: small (default) | medium | large | xl
 ```
 
 Apply the new service with:
@@ -103,7 +125,7 @@ Apply the new service with:
 kubectl apply -f your-service-manifest.yaml
 ```
 
-This will create a new Public Cloud LoadBalancer with a new public IP
+This will create a new Public Cloud LoadBalancer with a new public IP.
 
 ### Step 2 - Test Application access
 
@@ -126,9 +148,9 @@ Both should return a successful response from your application.
 
 ### Step 3 - Perform a DNS switch
 
-To perform a DNS switch, refer to [this part.](#perform-a-dns-switch)
+To perform a DNS switch, refer to [this part of the documentation.](#perform-a-dns-switch)
 
-### Step 4 - Remove the old Load Balancer service
+### Step 4 - Remove the Load Balancer service for Kubernetes (a.k.a. IOLB)
 
 Once you confirm that traffic is flowing through the new LoadBalancer and the old one is no longer needed, remove the old LoadBalancer service by deleting it:
 
@@ -140,30 +162,30 @@ kubectl delete svc old-loadbalancer-service
 
 /// details | **Replace**
 
-Replace an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer) involves to modify the existing service and change the loadbalancer class from 'iolb' to 'octavia'. This will lead to Kubernetes reconciling the loadbalancer class by deleting the old one and create a new loadbalancer.
+Replace an existing [LoadBalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud LoadBalancer](/links/public-cloud/load-balancer) involves to modify the existing service and change the loadbalancer class from `iolb` to `octavia`. This will lead to Kubernetes reconciling the loadbalancer class by deleting the old one and create a new loadbalancer.
 
-At this time you can perform a DNS switch using the new public IP.
+Once the new Load Balancer delivered, you can perform a DNS switch using the new public IP.
 
 > [!warning]
 >
 > Please note that during the deletion and creation process, your service will not be accessible.
 >
 > You can reduce this impact by lowering your DNS TTL duration, please refer to [this dedicated section](#perform-a-dns-switch).
-
+>
 
 ### Step 1 - Edit your Service to change the LoadBalancer class to 'octavia'
+
+> [!warning]
+>
+> The old LoadBalancer and its IP address will be deleted **permanently**, making services unreachable. Perform the DNS switch immediately with the new provided IP.
+>
 
 ```yaml
 annotations:
   loadbalancer.ovhcloud.com/class: "octavia" // not required for clusters running kubernetes versions >= 1.31, you can just remove the annotation.
 ```
 
-### Step 2 - Apply the change
-
-> [!warning]
->
-> The old LoadBalancer and IP will be deleted **permanently**, making services unreachable. Perform the DNS switch immediately with the new IP.
->
+Apply the service update using:
 
 ```yaml
 kubectl apply -f your-service-manifest.yaml
@@ -171,7 +193,7 @@ kubectl apply -f your-service-manifest.yaml
 
 ### Step 3 - Perform a DNS switch
 
-To perform a DNS switch, refer to [this part.](#perform-a-dns-switch)
+To perform a DNS switch, refer to [this part of the documentation.](#perform-a-dns-switch)
 
 ///
 
@@ -208,15 +230,15 @@ To lower the TTL, follow these steps:
 
 ### Update the Load Balancer IP
 
-Once the TTL reduction has been propagated :
+Once the TTL reduction has been propagated:
 
 - Replace the old IP with the one of the new Load Balancer in your DNS record.
-- Thanks to the low TTL, users will quickly see the update.
-- Check that the change is effective using the same **dig** command you used recently. You should see the new IP displayed.
+- Thanks to the short TTL value, users will quickly see the update.
+- Check that the change is effective using the same `dig` command used previously. You should see the new IP address  displayed in the command output.
 
 ### Restore TTL after migration
 
-Once the transition has been validated and the old Load Balancer disconnected, reset the TTL to a higher value.
+Once the transition has been validated and the old Load Balancer disconnected, reconfigure the TTL with a higher value.
 
 ## Other resources
 
