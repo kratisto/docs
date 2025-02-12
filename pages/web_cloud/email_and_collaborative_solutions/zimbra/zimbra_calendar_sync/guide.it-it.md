@@ -1,7 +1,7 @@
 ---
 title: "Sincronizzare un calendario CalDAV Zimbra in un'applicazione"
 excerpt: "Questa guida ti mostra come aggiungere un calendario Zimbra a un'applicazione tramite il protocollo CalDAV"
-updated: 2025-01-13
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2025-01-13
   max-height:400px !important;
 }
 </style>
-
-> [!warning]
->
-> **Importante**
->
-> L'offerta Zimbra è un prodotto in fase beta.
->
-> È disponibile solo per coloro che hanno compilato il [modulo di iscrizione alla beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Alcune delle funzionalità e dei limiti illustrati in questa guida potrebbero cambiare quando il prodotto viene immesso sul mercato.
 
 ## Obiettivo
 

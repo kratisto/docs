@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Zimbra solution"
 excerpt: "Find out how to get started with your Zimbra solution via the OVHcloud Control Panel"
-updated: 2025-01-30
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2025-01-30
   max-height:400px !important;
 }
 </style>
-
-> [!warning]
->
-> **Important**
->
-> The Zimbra solution is a beta-phase product.
->
-> It is only available to those who have completed the [beta registration form](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Some of the features or limitations described in this guide may change as the product is released.
 
 ## Objective
 

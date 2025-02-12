@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit Zimbra"
 excerpt: "Erfahren Sie hier, wie Sie Ihr Zimbra Angebot über Ihr OVHcloud Kundencenter verwalten"
-updated: 2025-01-30
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2025-01-30
   max-height:400px !important;
 }
 </style>
-
-> [!warning]
->
-> **Wichtig**
->
-> Das Zimbra Angebot befindet sich in der Beta-Phase.
->
-> Es ist derzeit für Anwender verfügbar, die das [Beta-Anmeldeformular ausgefüllt haben](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Einige der in dieser Anleitung aufgeführten Funktionen oder Einschränkungen können sich nach der Markteinführung des Produkts ändern.
 
 ## Ziel
 

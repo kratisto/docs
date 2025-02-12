@@ -1,7 +1,7 @@
 ---
 title: "Configurar um endereço de e-mail Zimbra num software de mensagens"
 excerpt: "Descubra como configurar o seu software de e-mail para consultar os e-mails da sua conta Zimbra"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Importante*
->
-> A oferta Zimbra é um produto em fase beta.
->
-> Só está disponível para as pessoas que tenham completado o [formulário de inscrição na fase beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Objetivo
 

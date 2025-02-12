@@ -1,7 +1,7 @@
 ---
 title: "CalDAV-Kalender für Zimbra in einer App synchronisieren"
 excerpt: "Erfahren Sie hier, wie Sie einen Zimbra-Kalender über das CalDAV-Protokoll zu einer Anwendung hinzufügen"
-updated: 2025-01-13
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2025-01-13
   max-height:400px !important;
 }
 </style>
-
-> [!warning]
->
-> **Wichtig**
->
-> Das Zimbra Angebot befindet sich in der Beta-Phase.
->
-> Es ist derzeit für Anwender verfügbar, die das [Beta-Anmeldeformular ausgefüllt haben](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Einige der in dieser Anleitung aufgeführten Funktionen oder Einschränkungen können sich nach der Markteinführung des Produkts ändern.
 
 ## Ziel
 

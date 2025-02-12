@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec l'offre Zimbra"
 excerpt: "Découvrez comment débuter avec votre offre Zimbra depuis votre espace client OVHcloud"
-updated: 2025-01-30
+updated: 2025-02-12
 ---
 
 <style>
@@ -13,21 +13,13 @@ updated: 2025-01-30
 }
 </style>
 
-> [!warning]
->
-> **Important**
->
-> L'offre Zimbra est un produit en phase bêta.
->
-> Il est uniquement disponible aux personnes ayant complété le [formulaire d'inscription à la bêta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
-
 ## Objectif
 
 Avec l'offre Zimbra, OVHcloud vous propose une plateforme de messagerie collaborative open source offrant toutes les fonctionnalités nécessaires à une utilisation professionnelle. Vous trouverez dans ce guide les éléments permettant de débuter dans la configuration de vos comptes e-mail Zimbra.
 
 **Découvrez comment débuter avec l'offre e-mail Zimbra**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/G5cumO64sjw?si=kZr5AHHaoYBONkGl" title="Zimbra OVHcloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prérequis
 

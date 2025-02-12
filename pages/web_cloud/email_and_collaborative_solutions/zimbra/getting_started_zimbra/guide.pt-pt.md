@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com a oferta Zimbra"
 excerpt: "Descubra como começar com a sua oferta Zimbra a partir da Área de Cliente OVHcloud"
-updated: 2025-01-30
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2025-01-30
   max-height:400px !important;
 }
 </style>
-
-> [!warning]
->
-> **Importante**
->
-> A oferta Zimbra é um produto em fase beta.
->
-> Só está disponível para as pessoas que tenham completado o [formulário de inscrição na fase beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Algumas das funcionalidades e limitações deste guia podem mudar à medida que o produto é colocado no mercado.
 
 ## Objetivo
 

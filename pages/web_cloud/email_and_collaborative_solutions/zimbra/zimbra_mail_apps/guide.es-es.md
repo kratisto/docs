@@ -1,7 +1,7 @@
 ---
 title: "Configurar una dirección de correo electrónico de Zimbra en un cliente de correo"
 excerpt: "Cómo configurar su cliente de correo para consultar el correo de su cuenta de Zimbra"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Importante**
->
-> El producto Zimbra es un producto en fase beta.
->
-> Solo está disponible para las personas que hayan completado el [formulario de inscripción en la beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Objetivo
 

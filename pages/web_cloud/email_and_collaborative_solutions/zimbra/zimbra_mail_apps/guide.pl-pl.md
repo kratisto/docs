@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja konta e-mail Zimbra w programie pocztowym"
 excerpt: "Dowiedz się, jak skonfigurować program pocztowy, aby sprawdzać e-maile dotyczące Twojego konta Zimbra"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Ważne**
->
-> Oferta Zimbra jest w fazie beta.
->
-> Jest on dostępny tylko dla tych osób, które wypełniły [formularz rejestracji w fazie beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Wprowadzenie
 
