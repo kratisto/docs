@@ -1,7 +1,7 @@
 ---
 title: "How to use Zimbra webmail"
 excerpt: "Discover the Zimbra webmail interface for your OVHcloud MX Plan email accounts"
-updated: 2024-08-26
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,16 +9,6 @@ updated: 2024-08-26
   max-width:400px !important;
 }
 </style>
-
-> [!primary]
->
-> **Important**
->
-> Zimbra webmail for MX Plan is a service still in development.
->
-> Currently, it is only available for migrated services linked to the development of our MX Plan solution. This migration is automatic, and you will be sent an email by our teams when you are affected by the migration.
->
-> For more information, see our [OVHcloud Zimbra FAQ](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra).
 
 ## Objective
 
