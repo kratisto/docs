@@ -1,7 +1,7 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Encontre aqui as questões mais comuns sobre os alojamentos web da OVHcloud"
-updated: 2024-06-27
+updated: 2025-02-13
 ---
 
 <style>
