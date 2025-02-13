@@ -19,6 +19,8 @@ Con l'offerta Zimbra, OVHcloud ti propone una piattaforma di messaggeria collabo
 
 **Questa guida ti mostra come iniziare a utilizzare il servizio di posta elettronica Zimbra**
 
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Prerequisiti
 
 - Aver sottoscritto un account email sulla soluzione email Zimbra OVHcloud.
