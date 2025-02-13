@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com a oferta Zimbra"
 excerpt: "Descubra como começar com a sua oferta Zimbra a partir da Área de Cliente OVHcloud"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -114,6 +114,7 @@ Selecione o separador correspondente à sua escolha:
 >> - **Definições personalizadas** : se já configurou um serviço de e-mail no seu domínio, pode optar por elementos que lhe interessem.
 >>    - *Configurar o registo MX automaticamente* : permite introduzir automaticamente os servidores de receção OVHcloud (aplica-se a todos os serviços de e-mail OVHcloud).
 >>    - *Configurar o registo SPF automaticamente* : permite introduzir automaticamente o registo que autoriza os servidores de e-mail de envio da OVHcloud a reencaminhar os seus e-mails. Este registo é válido para o conjunto das ofertas de e-mail OVHcloud.
+>>    - *Configurar o registo DKIM automaticamente* : permite introduzir automaticamente os registos necessários para autenticar os seus envios de e-mails.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +135,22 @@ Selecione o separador correspondente à sua escolha:
 >> > [!warning]
 >> >
 >> > Após 48 horas, se o CNAME não estiver visível na zona DNS, a operação é anulada. Será necessário reiniciar a operação.
+
+#### Modificar um nome de domínio
+
+Pode alterar o seu nome de domínio para alterar a sua organização ou verificar os seus registos DNS associados.
+
+No separador "Domínio" {.action} do seu serviço Zimbra, clique no ícone « &#8285; » à direita do domínio em causa para ver as opções.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Clique em `Configurar`{.action} para modificar a organização associada ao seu domínio.
+- Clique em `Diagnósticos`{.action} para apresentar a interface de diagnóstico dos registos DNS do domínio. É necessário garantir que nenhum alerta é apresentado para cada um dos registos DNS mencionados nos separadores. Siga as instruções detalhadas em cada separador que menciona um alerta para configurar os registos DNS:
+    - **MX** : indispensável para a receção dos seus e-mails.
+    - **SPF** : segurança exigida pela maioria dos servidores de e-mail de destino para legitimar os servidores de envio de e-mail da OVHcloud com o seu nome de domínio.
+    - **DKIM** : permite implementar um sistema de assinatura para cada e-mail enviado pelo seu serviço Zimbra. A assinatura é verificada pelo destinatário graças à chave pública visível na sua zona DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Contas de e-mail <a name="emails"></a>
 

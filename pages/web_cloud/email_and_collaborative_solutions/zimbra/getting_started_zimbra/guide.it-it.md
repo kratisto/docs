@@ -1,7 +1,7 @@
 ---
 title: "Per iniziare con l'offerta Zimbra"
 excerpt: "Scopri come iniziare a utilizzare la soluzione Zimbra dallo Spazio Cliente OVHcloud"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -114,6 +114,7 @@ Seleziona la scheda che preferisci:
 >> - **Configurazione personalizzata** : se hai già configurato un'offerta email sul tuo dominio, puoi scegliere gli elementi che ti interessano.
 >>    - *Configurare la registrazione MX automaticamente*: permette di inserire automaticamente i server di posta in arrivo di OVHcloud (si applica a tutte le soluzioni di posta elettronica OVHcloud).
 >>    - *Configurare il record SPF automaticamente* : questa opzione permette di inserire automaticamente il record che autorizza i server di posta elettronica di invio OVHcloud a trasmettere le email. Questo record è valido per tutte le soluzioni di posta elettronica OVHcloud.
+>>    - *Configura il record DKIM automaticamente*: permette di inserire automaticamente i record necessari ad autenticare l’invio delle email.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +135,22 @@ Seleziona la scheda che preferisci:
 >> > [!warning]
 >> >
 >> > Dopo 48 ore, se il CNAME non è visibile nella zona DNS, l'operazione è annullata. In questo caso, sarà necessario ripetere l’operazione.
+
+#### Modificare un dominio
+
+È possibile modificare il dominio per cambiarne l'organizzazione o verificarne i record DNS associati.
+
+Dalla scheda `Dominio`{.action} del servizio Zimbra, clicca sull’icona "&#8285;" in corrispondenza del dominio interessato per visualizzare le opzioni.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Clicca su `Configura`{.action} per modificare l’organizzazione associata al dominio.
+- Clicca su `Diagnostica`{.action} per visualizzare l’interfaccia di diagnostica dei record DNS del dominio. È necessario assicurarsi che non vengano visualizzati avvisi per ogni record DNS indicato nelle schede. Seguire le istruzioni dettagliate in ogni scheda che contiene un avviso per configurare i record DNS:
+    - **MX**: indispensabile per la ricezione delle tue email.
+    - **SPF**: la sicurezza richiesta dalla maggior parte dei server di posta elettronica di destinazione per legittimare i server di posta elettronica di OVHcloud con il tuo dominio.
+    - **DKIM**: permette di impostare un sistema di firma per ogni email inviata dal tuo servizio Zimbra. La firma viene verificata dal destinatario tramite la chiave pubblica visibile nella zona DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Account email <a name="emails"></a>
 

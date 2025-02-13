@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z ofertą Zimbra"
 excerpt: "Dowiedz się, jak rozpocząć korzystanie z oferty Zimbra z poziomu Panelu klienta OVHcloud"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -114,6 +114,7 @@ Wybierz kartę:
 >> - **Konfiguracja niestandardowa** : jeśli skonfigurowałeś już usługę e-mail dla swojej domeny, możesz wybrać tematy, które Cię interesują.
 >>    - *Skonfiguruj automatycznie rekord MX* : umożliwia automatyczne wpisanie serwerów poczty przychodzącej OVHcloud (dotyczy wszystkich ofert e-mail OVHcloud).
 >>    - *Skonfiguruj automatycznie rekord SPF* : umożliwia automatyczne wpisanie rekordu zezwalającego serwerom poczty elektronicznej OVHcloud na przesyłanie e-maili. Wpis ten dotyczy wszystkich ofert e-mail OVHcloud.
+>>    - *Automatyczna konfiguracja DKIM* : umożliwia automatyczne wprowadzenie rekordów niezbędnych do uwierzytelnienia wysyłanych wiadomości e-mail.
 >>
 >> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +135,22 @@ Wybierz kartę:
 >> > [!warning]
 >> >
 >> > Po 48 godzinach, jeśli pole CNAME nie jest widoczne w strefie DNS, operacja jest anulowana. W takim przypadku konieczne będzie ponowne wykonanie operacji.
+
+### Zmiana nazwy domeny
+
+Możesz zmienić nazwę domeny, aby zmienić jej organizację, lub sprawdzić powiązane z nią rekordy DNS.
+
+W zakładce `Domena`{.action} Twojej usługi Zimbra kliknij na ikonę "&#8285;" z prawej strony odpowiedniej domeny, aby wyświetlić opcje.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Kliknij przycisk `Konfiguruj`{.action}, aby zmienić organizację przypisaną do Twojej domeny.
+- Kliknij `Diagnostics`{.action}, aby wyświetlić interfejs diagnostyczny dla rekordów DNS domeny. Należy upewnić się, że żaden alert nie jest wyświetlany dla każdego z rekordów DNS wymienionych w zakładkach. Postępuj zgodnie z instrukcjami wyświetlanymi w każdej zakładce z alertem, aby skonfigurować rekordy DNS:
+    - **MX**: niezbędne do odbierania e-maili.
+    - **SPF**: bezpieczeństwo wymagane przez większość serwerów e-mail odbiorców, aby potwierdzić autoryzację serwerów poczty elektronicznej OVHcloud dla Twojej domeny.
+    - **DKIM** : umożliwia uruchomienie systemu podpisywania wszystkich e-maili wysyłanych przez Twoją usługę Zimbra. Podpis jest weryfikowany przez odbiorcę za pomocą klucza publicznego widocznego w strefie DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Konta email <a name="emails"></a>
 

@@ -114,6 +114,7 @@ Select the tab that corresponds to your choice:
 >> - **Custom configuration**: If you have already configured an email solution on your domain name, you can choose the elements that interest you.
 >>    - *Configure the MX record automatically*: This allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
 >>    - *Configure the SPF record automatically*: This allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
+>>    - *Configure the DKIM record automatically* : it allows you to automatically enter the records required to authenticate your email sending.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +135,22 @@ Select the tab that corresponds to your choice:
 >> > [!warning]
 >>>
 >> > After 48 hours, if the CNAME record is not visible in the DNS zone, the operation is canceled. You will then need to retry the operation.
+
+#### Modify a domain name
+
+You can change your domain name to change its organization, or check its associated DNS records.
+
+In the `Domain`{.action} tab of your Zimbra service, click on the "&#8285;" icon to the right of the domain name concerned to display the options.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Click `Configure`{.action} to modify the organization associated with your domain name.
+- Click `Diagnostics`{.action} to display the diagnostic interface for the domain name DNS records. You will need to ensure that no alerts are displayed for each of the DNS records listed in the tabs. Follow the instructions detailed in each tab with an alert to configure the DNS records:
+    - **MX** : essential for receiving your emails.
+    - **SPF**: security required by the majority of recipient email servers to legitimize OVHcloud email sending servers with your domain name.
+    - **DKIM** : sets up a signature system for each email sent by your Zimbra service. The signature is verified by the recipient using the public key visible in your DNS zone.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Email accounts <a name="emails"></a>
 
