@@ -171,7 +171,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >>
 >> > [!api]
 >> >
->> >  @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
 >> >
 >>
 >> ///

@@ -59,7 +59,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >>
 >> Choose the duration of your Savings Plan from the available durations and give it a name.
 >>
->>[Savings Plan duration name](images/savings_plan_duration_name.png){.thumbnail}
+>> ![Savings Plan duration name](images/savings_plan_duration_name.png){.thumbnail}
 >>
 >> Read the Terms and Conditions carefully, then tick the box to confirm you accept them. Once all the parameters have been configured, click the `Create a Savings Plan`{.action} button to finalise the creation.
 >>
@@ -170,7 +170,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >>
 >> > [!api]
 >> >
->> >  @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
 >> >
 >>
 >> ///
