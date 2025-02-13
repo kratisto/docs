@@ -16,6 +16,12 @@ details>summary::before {
 details[open]>summary::before {
     content:'\25BC';
 }
+.w-400 {
+  max-width:400px !important;
+}
+.h-600 {
+  max-height:600px !important;
+}
 </style>
 
 ## Objective
@@ -49,7 +55,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >>
 >> Select the type of resource for which the Savings Plan will apply, define the specific resource model and specify the number of resources affected by this plan.
 >>
->> ![Savings Plan service](images/savings_plan_service.png){.thumbnail}
+>> ![Savings Plan service](images/savings_plan_service.png){.thumbnail .h-600}
 >>
 >> Choose the duration of your Savings Plan from the available durations and give it a name.
 >>
@@ -127,11 +133,9 @@ You can create your Savings Plan for the type of resource you want by following 
 >> >
 >> The **serviceId** corresponds to the id retrieved with the previous endpoint.
 >>
->> You will obtain a list containing the id of your services as follows:
+>> You'll get a list containing the details of your service as follows. Check that it's the right project, using the `vars.value` field:
 >>
->> ![Savings Plan services list](images/savings_plan_list_service.png){.thumbnail}
->>
->> Then look for the service concerned in the list and copy its **id**.
+>> ![Savings Plan services list](images/savings_plan_list_service_details.png){.thumbnail .h-600}
 >>
 >> You can find the id of your Savings Plan in the list of your Savings Plans obtained via this endpoint:
 >>
@@ -143,7 +147,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >>
 >> You get a list of Savings Plan as follows:
 >>
->> ![Savings Plan list](images/savings_plan_list_svp.png){.thumbnail}
+>> ![Savings Plan list](images/savings_plan_list_svp.png){.thumbnail .h-600}
 >>
 >> Then look for the Savings Plan concerned in the list and copy its **id**.
 >>
@@ -155,6 +159,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >> >
 >> > @api {v1} /services PUT /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}
 >> >
+>>
 >> The **savingsPlanId** corresponds to the id of your previously copied Savings Plan.
 >>
 >> ///
@@ -166,6 +171,7 @@ You can create your Savings Plan for the type of resource you want by following 
 >> > [!api]
 >> >
 >> >  @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>> >
 >>
 >> ///
 >>
@@ -176,10 +182,12 @@ You can create your Savings Plan for the type of resource you want by following 
 >> > [!primary]
 >> >
 >> > The number of resources can only be increased.
+>> >
 >>
 >> > [!api] 
 >> >
 >> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changeSize
+>> >
 >>
 >> ///
 >>
