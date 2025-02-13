@@ -1,7 +1,7 @@
 ---
 title: How to manage a Savings Plan
 excerpt: Learn how to manage a Savings Plan using different tools
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Objective
 
-This guide aims at providing a clear and detailed method for creating and updating Savings Plans for your resources. You will discover how to manage your Savings Plans using the OVHcloud Control Panel, the OVHcloud API and Terraform. By following this guide, you will be able to :
+This guide aims at providing a clear and detailed method for creating and updating Savings Plans for your resources. You will discover how to manage your Savings Plans using the OVHcloud Control Panel, the OVHcloud API and Terraform. By following this guide, you will be able to:
 
 - Create a Savings Plan for your resources.
 - Modify a Savings Plan.

@@ -1,7 +1,7 @@
 ---
 title: Comment gérer un Savings Plan
 excerpt: Découvrez comment créer un Savings Plan avec différents outils
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -113,6 +113,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >> >
 >> > @api {v1} /services GET /services
 >> >
+>>
 >> Vous devez inscrire en paramètre, dans le champ **resourceName**, l'id de votre projet Public Cloud.
 >>
 >> Vous obtenez une liste contenant l'id de vos services comme suit :
