@@ -145,7 +145,7 @@ W zakładce `Domena`{.action} Twojej usługi Zimbra kliknij na ikonę "&#8285;" 
 ![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
 
 - Kliknij przycisk `Konfiguruj`{.action}, aby zmienić organizację przypisaną do Twojej domeny.
-- Kliknij `Diagnostics`{.action}, aby wyświetlić interfejs diagnostyczny dla rekordów DNS domeny. Należy upewnić się, że żaden alert nie jest wyświetlany dla każdego z rekordów DNS wymienionych w zakładkach. Postępuj zgodnie z instrukcjami wyświetlanymi w każdej zakładce z alertem, aby skonfigurować rekordy DNS:
+- Kliknij `Raporty diagnostyczne`{.action}, aby wyświetlić interfejs diagnostyczny dla rekordów DNS domeny. Należy upewnić się, że żaden alert nie jest wyświetlany dla każdego z rekordów DNS wymienionych w zakładkach. Postępuj zgodnie z instrukcjami wyświetlanymi w każdej zakładce z alertem, aby skonfigurować rekordy DNS:
     - **MX**: niezbędne do odbierania e-maili.
     - **SPF**: bezpieczeństwo wymagane przez większość serwerów e-mail odbiorców, aby potwierdzić autoryzację serwerów poczty elektronicznej OVHcloud dla Twojej domeny.
     - **DKIM**: umożliwia uruchomienie systemu podpisywania wszystkich e-maili wysyłanych przez Twoją usługę Zimbra. Podpis jest weryfikowany przez odbiorcę za pomocą klucza publicznego widocznego w strefie DNS.

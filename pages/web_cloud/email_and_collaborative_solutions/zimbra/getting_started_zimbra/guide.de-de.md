@@ -145,7 +145,7 @@ Klicken Sie im Tab `Domain`{.action} Ihres Zimbra Dienstes auf das Symbol &#8285
 ![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
 
 - Klicken Sie auf `Konfigurieren`{.action}, um die Ihrem Domainnamen zugeordnete Organisation zu ändern.
-- Klicken Sie auf `Diagnostics`{.action}, um die Ansicht für die Diagnose der DNS-Einträge anzuzeigen. Es sollten keine Warnungen für die DNS-Einträge in den Tabs angezeigt werden. Falls Warnungen angezeigt werden, folgen Sie jeweils den Anweisungen in den Tabs, um die DNS-Einträge zu konfigurieren:
+- Klicken Sie auf `Diagnose`{.action}, um die Ansicht für die Diagnose der DNS-Einträge anzuzeigen. Es sollten keine Warnungen für die DNS-Einträge in den Tabs angezeigt werden. Falls Warnungen angezeigt werden, folgen Sie jeweils den Anweisungen in den Tabs, um die DNS-Einträge zu konfigurieren:
     - **MX**: Notwendig zum Empfang Ihrer E-Mails.
     - **SPF**: Sicherheitseintrag, der von den meisten E-Mail-Empfänger-Servern verlangt wird, um die OVHcloud Server für den E-Mail-Versand mit Ihrem Domainnamen zu legitimieren.
     - **DKIM**: Ermöglicht die Einrichtung eines Signatursystems für jede E-Mail, die von Ihrem Zimbra-Dienst gesendet wird. Die Signatur wird vom Empfänger anhand des öffentlichen Schlüssels überprüft, der in Ihrer DNS-Zone hinterlegt ist.

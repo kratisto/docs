@@ -145,7 +145,7 @@ En la pestaña `Dominio`{.action} del servicio Zimbra, haga clic en el icono "&#
 ![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
 
 - Haga clic en `Configurar`{.action} para modificar la organización asociada a su dominio.
-- Haga clic en `Diagnostics`{.action} para ver la interfaz de diagnóstico de los registros DNS del dominio. Es necesario asegurarse de que no se muestran alertas para cada uno de los registros DNS mencionados en las fichas. Siga las instrucciones detalladas en cada ficha de alertas para configurar los registros DNS:
+- Haga clic en `Diagnósticos`{.action} para ver la interfaz de diagnóstico de los registros DNS del dominio. Es necesario asegurarse de que no se muestran alertas para cada uno de los registros DNS mencionados en las fichas. Siga las instrucciones detalladas en cada ficha de alertas para configurar los registros DNS:
     - **MX**: indispensable para recibir mensajes de correo.
     - **SPF**: Seguridad requerida por la mayoría de los servidores de correo de destino para legitimar los servidores de envío de correo de OVHcloud con su dominio.
     - **DKIM** : Permite implementar un sistema de firma para cada mensaje de correo electrónico enviado por su servicio Zimbra. El destinatario comprueba la firma con la clave pública visible en la zona DNS.
