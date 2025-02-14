@@ -1,7 +1,7 @@
 ---
 title: 'KMS configuration with Nutanix on OVHcloud'
 excerpt: 'Learn how to configure OVHcloud Key Management System (KMS) with Nutanix to secure your data at rest'
-updated: 2025-02-13
+updated: 2025-02-14
 ---
 
 ## Objective
