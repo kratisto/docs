@@ -509,6 +509,7 @@
             + [Configure Nutanix Flow](hosted_private_cloud/nutanix_on_ovhcloud/28-flow)
             + [Replacing OVHgateway with a dedicated server](hosted_private_cloud/nutanix_on_ovhcloud/29-hardware-gateway-replacement)
             + [Replacing OVHgateway](hosted_private_cloud/nutanix_on_ovhcloud/30-software-gateway-replacement)
+            + [KMS configuration with Nutanix on OVHcloud](hosted_private_cloud/nutanix_on_ovhcloud/13-kms-configuration)
         + [Backups](hosted-private-cloud-nutanix-on-ovhcloud-backup)
             + [Configuring HYCU Backup](hosted_private_cloud/nutanix_on_ovhcloud/40-hycu-backup)
             + [Configure Veeam Backup for Nutanix](hosted_private_cloud/nutanix_on_ovhcloud/41-nutanix-veeam-backup)
