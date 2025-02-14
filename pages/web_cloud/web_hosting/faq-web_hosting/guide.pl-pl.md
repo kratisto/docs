@@ -1,7 +1,7 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Znajdź najczęściej zadawane pytania dotyczące hostingu stron internetowych przez OVHcloud"
-updated: 2025-02-13
+updated: 2025-02-14
 ---
 
 <style>
@@ -18,15 +18,20 @@ details[open]>summary::before {
 }
 </style>
 
+**Kliknij na poniższe pytania, aby zobaczyć wyjaśnienia.**
+
 ## Zarządzanie usługą
- 
-### W jaki sposób skonfigurować moją usługę hostingu?
+
+/// details | W jaki sposób skonfigurować moją usługę hostingu?
 
 W celu skonfigurowania Twojej usługi hostingu, udaj się najpierw do Twojego [panelu klienta OVHcloud](/links/manager). W sekcji `Hosting` możesz zarządzać certyfikatami SSL, wersjami PHP, opcją CDN, stronami podpiętymi w opcji MultiSite, bazami danych, itp.
 
 **Wskazówki i porady**: Aby pomóc Ci w skonfigurowaniu Twojego hostingu, zapoznaj się z sekcją "*Pierwsze kroki*", którą zobaczysz [tutaj](/products/web-cloud-hosting).
 
-### Jak zarządzać swoimi hasłami?
+///
+
+
+/// details | Jak zarządzać swoimi hasłami?
 
 Aby zarządzać swoimi hasłami, musisz najpierw zalogować się do Twojego [panelu klienta OVHcloud](/links/manager). Jeżeli nie pamiętasz swojego loginu lub hasła, kliknij opcję `Nie pamiętasz identyfikatora klienta lub hasła?`{.action} znajdującą się pod okienkiem logowania. Zostanie do Ciebie wysłana wiadomość e-mail z procedurą przywracania danych.
 
@@ -38,7 +43,10 @@ Po zalogowaniu się do Panelu klienta:
 - Aby zmienić hasło do bazy danych, zapoznaj się z instrukcjami zawartymi w [tym przewodniku](/pages/web_cloud/web_hosting/sql_change_password).
 - Aby zmienić hasło do Twojego konta e-mail MX Plan, postępuj zgodnie z instrukcjami zawartymi w [tym przewodniku](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password).
 
-### Jak umieścić moją stronę w internecie? 
+///
+
+
+/// details | Jak umieścić moją stronę w internecie? 
 
 Aby uruchomić Twoją stronę WWW w Internecie, musisz posiadać [Domeny](/links/web/domains) odpowiadającą adresowi WWW, z którego będzie ona dostępna (na przykład: *mojadomena.com*). Będziesz również potrzebował [hostingu](/links/web/hosting), na którym będziesz mógł zainstalować Twoją stronę.
 
@@ -46,34 +54,52 @@ Aby dowiedzieć się, jak budować Twoją stronę, zapoznaj się z tym [przewodn
 
 **Wskazówki i porady**: OVHcloud, aby pomóc Ci w zbudowaniu strony WWW, modułu PrestaShop, Joomla! i Drupal, pozwala na zainstalowanie na Twoim hostingu oprogramowania do wspomagania tworzenia stron WordPress, PrestaShop, Joomla! i Drupal. Jest to możliwe dzięki funkcji [Moduły za 1 kliknięciem](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
 
-### Jak mogę przenieść na serwery OVHcloud moją stronę WWW, bazę danych, domenę i e-maile bez przerwy w działaniu usługi?
+///
+
+
+/// details | Jak mogę przenieść na serwery OVHcloud moją stronę WWW, bazę danych, domenę i e-maile bez przerwy w działaniu usługi?
 
 Wszystkie kolejne etapy znajdują się w przewodniku "[Przeniesienie strony WWW i powiązanych z nią usług do OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)".
 
-### Jak zainstalować kilka stron WWW na tym samym hostingu?
+///
+
+
+/// details | Jak zainstalować kilka stron WWW na tym samym hostingu?
 
 Zapoznaj się z przewodnikiem [Instalacja kilku stron WWW na jednym hostingu](/pages/web_cloud/web_hosting/multisites_configure_multisite) na jednym hostingu.
 
-### Jak zmienić formułę hostingu?
+///
+
+
+/// details | Jak zmienić formułę hostingu?
 
 Aby zamówić ofertę hostingu WWW dostosowaną do Twoich potrzeb, zapoznaj się z naszymi ofertami na stronie [tej stronie](/links/web/hosting).
 
 Po dokonaniu wyboru postępuj zgodnie z instrukcjami zawartymi w przewodniku OVH ["Zmiana oferty hostingu"](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer).
 
-### Jak zachować konto e-mail powiązane z hostingiem podczas rezygnacji z usługi?
+///
+
+
+/// details | Jak zachować konto e-mail powiązane z hostingiem podczas rezygnacji z usługi?
 
 Jeśli zrezygnujesz z hostingu lub usuniesz go z hostingu, powiązana z nim oferta e-mail zostanie również usunięta. Aby zachować konta e-mail, należy odłączyć usługę e-mail przed rezygnacją z hostingu.<br>
 
 W tym celu przejdź do zakładki `Informacje ogólne`{.action} na Twoim hostingu. W sekcji **Konfiguracja** kliknij przycisk `...`{.action} po prawej stronie `Adresy e-mail`. Kliknij polecenie `Odłącz opcję e-mail`{.action} i postępuj zgodnie z instrukcjami, aby zamówić niezależną ofertę e-mail, która pozwoli Ci zachować utworzone konta e-mail.
 
-### W przypadku rezygnacji z hostingu Performance, jak zachować powiązaną ofertę Web Cloud Databases?
+///
+
+
+/// details | W przypadku rezygnacji z hostingu Performance, jak zachować powiązaną ofertę Web Cloud Databases?
 
 Serwery wirtualne **Performance** obejmują usługę Web Cloud Databases włączoną za darmo.
 Gdy rezygnujesz lub usuwasz hosting **Performance**, przypisana do hostingu usługa Web Cloud Databases jest również wyłączona. Aby zachować usługę Web Cloud Databases, należy ją odłączyć przed rezygnacją z hostingu.<br>
 
 W tym celu kliknij zakładkę `Informacje ogólne`{.action} Twojego hostingu. W sekcji **Konfiguracja** kliknij przycisk `...`{.action} po prawej stronie "**Web Cloud Databases**". Kliknij polecenie `Odłącz`{.action} i postępuj zgodnie z instrukcjami, aby zamówić niezależną ofertę Web Cloud Databases, co pozwoli Ci zachować utworzoną wcześniej usługę Web Cloud Databases.
 
-### Jak zwiększyć pamięć RAM usługi Web Cloud Databases powiązanej z hostingiem współdzielonym "Performance"?
+///
+
+
+/// details | Jak zwiększyć pamięć RAM usługi Web Cloud Databases powiązanej z hostingiem współdzielonym "Performance"?
 
 Aby zwiększyć pamięć RAM w ofercie WWW Cloud Databases powiązanej z hostingiem współdzielonym **Performance**, należy najpierw odłączyć ofertę Web Cloud Databases od hostingu **Performance**, aby przejść na wyższą ofertę.
 
@@ -85,6 +111,9 @@ Więcej informacji znajdziesz w naszym przewodniku dotyczącym ["Konfiguracji us
 
 **Operacja ta jest nieodwracalna i usługa Web Cloud Databases będzie odpłatna niezależnie od hostingu Performance.**
 
+///
+
+
 ## Diagnostyka
 
 > [!warning]
@@ -92,13 +121,16 @@ Więcej informacji znajdziesz w naszym przewodniku dotyczącym ["Konfiguracji us
 > Jeśli zauważysz anomalię niewymienioną w tym FAQ, zapoznaj się z sekcjami "*Diagnostyka*" w [naszej dokumentacji](/products/web-cloud-hosting).
 >
 
-### Co zrobić w przypadku awarii mojej strony www? 
+/// details | Co zrobić w przypadku awarii mojej strony www? 
 
 Istnieje kilka powodów, dla których Twoja strona WWW nie działa. Aby zidentyfikować przyczynę takiej sytuacji, sprawdź, czy żaden z subskrypcji nie musi zostać **odnowiony** po zalogowaniu się do [Panelu klienta OVHcloud](/links/manager).
 
 Następnie sprawdź bieżące [wydarzenia na naszej infrastrukturze](https://www.status-ovhcloud.com/). Jeśli wszystkie Twoje usługi są aktywne i nie mają wpływu na jakiekolwiek incydenty lub prace konserwacyjne, wykonaj dokładniejszą diagnostykę.
 
-### Co zrobić, jeśli po uruchomieniu strony WWW OVHcloud strona w budowie pozostanie wyświetlona?
+///
+
+
+/// details | Co zrobić, jeśli po uruchomieniu strony WWW OVHcloud strona w budowie pozostanie wyświetlona?
 
 ![strona_budowlana](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
@@ -108,7 +140,10 @@ Ten plik jest automatycznie wyłączany podczas tworzenia [modułu za pomocą 1 
 
 Jeśli wybrałeś ręczną [instalację Twojej strony WWW](/pages/web_cloud/web_hosting/cms_manual_installation), [zaloguj się do przestrzeni FTP](/pages/web_cloud/web_hosting/ftp_connection) i zmień nazwę strony **index.html.old**.
 
-### Co zrobić, jeśli moja strona wyświetla się na stronie "xxxxx.cluster0xx.hosting.ovh.net"?
+///
+
+
+/// details | Co zrobić, jeśli moja strona wyświetla się na stronie "xxxxx.cluster0xx.hosting.ovh.net"?
 
 ![url-klaster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
@@ -146,7 +181,10 @@ Aby przywrócić kod źródłowy Twojej strony, zapoznaj się z naszym przewodni
 
 Jeśli Twoja strona WWW zawiera bazę danych, zapoznaj się z naszym przewodnikiem [Import kopii zapasowej do bazy danych hostingu](/pages/web_cloud/web_hosting/sql_importing_mysql_database#przywracanie-kopii-zapasowej-w-panelu-klienta).
 
-### Co zrobić, jeśli moja strona przekieruje się na webmail-login-interface OVHcloud?
+///
+
+
+/// details | Co zrobić, jeśli moja strona przekieruje się na webmail-login-interface OVHcloud?
 
 ![Webmail](/pages/assets/screens/website/webmail/webmail-login-interface.png){.thumbnail}
 
@@ -166,7 +204,10 @@ Porównaj `Adres docelowy` wpisów typu `NS` w zakładce `Strefa DNS`{.action} z
 
 - Jeśli elementy nie są identyczne i `serwery DNS` wskazane w zakładce o tej samej nazwie nie figurują na [tej liście](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), skontaktuj się z Webmasterem lub poszukaj [wyspecjalizowanego usługodawcy](/links/partner) na stronie [partnerów OVHcloud](/links/partner).
 
-### Co zrobić, jeśli moja strona wyświetla błąd "Strona nie przekierowuje się poprawnie"?
+///
+
+
+/// details | Co zrobić, jeśli moja strona wyświetla błąd "Strona nie przekierowuje się poprawnie"?
 
 ![the-page-isnt-redirecting-properly](/pages/assets/screens/other/browsers/errors/the-page-isnt-redirecting-properly.png){.thumbnail}
 
@@ -185,7 +226,10 @@ Przywróć zawartość Twojej strony WWW do poprzedniego stanu:
 
 W przypadku braku możliwości przywrócenia dostępu do strony WWW, skontaktuj się z Webmasterem lub poszukaj wyspecjalizowanego webmastera na stronie [partnerów OVHcloud](/links/partner).
 
-### Co zrobić, jeśli moja strona wyświetla błąd "503 error Backend fetch failed (Varnish cache)"?
+///
+
+
+/// details | Co zrobić, jeśli moja strona wyświetla błąd "503 error Backend fetch failed (Varnish cache)"?
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
@@ -193,7 +237,10 @@ Jeśli włączyłeś [opcję CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cd
 
 Jeśli nie włączyłeś tej opcji lub nie korzystałeś z trybu *konserwacji*, skontaktuj się z Webmasterem lub poszukaj specjalistycznego dostawcy na stronie [partnerów OVHcloud](/links/partner).
 
-### Co zrobić, jeśli moja strona wyświetla błąd "Your request has been blocked"?
+///
+
+
+/// details | Co zrobić, jeśli moja strona wyświetla błąd "Your request has been blocked"?
 
 ![your-request-has-been-blocked](/pages/assets/screens/other/browsers/errors/your-request-has-been-blocked.png){.thumbnail}
 
@@ -201,7 +248,10 @@ Wiadomość ta wskazuje, że rodzaj zapytania HTTP, które chcesz wykonać na Tw
 
 W celu usunięcia nieprawidłowości skontaktuj się z Biurem Webmasterem lub jednym z naszych [partnerów](/links/partner).
 
-### Co zrobić, jeśli moja strona wyświetla błąd "Your IP has been banned"?
+///
+
+
+/// details | Co zrobić, jeśli moja strona wyświetla błąd "Your IP has been banned"?
 
 ![your-ip-has-been-banned](/pages/assets/screens/other/browsers/errors/your-ip-has-been-banned.png){.thumbnail}
 
@@ -211,7 +261,10 @@ W tej sytuacji [sprawdź logi](/pages/web_cloud/web_hosting/logs_and_statistics)
 Sprawdź również, czy komputer nie jest zainfekowany wirusem.<br>
 Możesz również skontaktować się z [naszymi partnerami](/links/partner), aby sprawdzić kod informatyczny Twojej strony.
 
-### Zamówiłem domenę z akcentami i wyświetla się ona w moim panelu klienta w bardzo dziwny sposób. Co mam zrobić?
+///
+
+
+/// details | Zamówiłem domenę z akcentami i wyświetla się ona w moim panelu klienta w bardzo dziwny sposób. Co mam zrobić?
 
 ![rating_idn](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
@@ -221,6 +274,9 @@ Nie musisz podejmować żadnych działań w tej sytuacji. Nawet jeśli Twoja dom
 >
 > Korzystanie z konta e-mail z domeną IDN w programie pocztowym (Outlook, Mail macOS, etc.) nie jest zalecane i może powodować niezgodności.
 >
+
+///
+
 
 ## Sprawdź również <a name="go-further"></a>
 

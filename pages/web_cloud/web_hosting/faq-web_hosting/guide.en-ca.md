@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting FAQ"
 excerpt: "Find the answers to the most frequently asked questions about OVHcloud Web Hosting plans"
-updated: 2025-02-13
+updated: 2025-02-14
 ---
 
 <style>
@@ -18,9 +18,9 @@ details[open]>summary::before {
 }
 </style>
 
-## Manage your solution
-
 **Click on the questions below to see the explanations.**
+
+## Manage your solution
 
 /// details | How do I configure my hosting space?
 
@@ -110,8 +110,6 @@ You can find more information in our guide on [Configuring a Web Cloud Databases
 >
 > If you experience any issues that are not listed in this FAQ, please refer to the [Troubleshooting](/products/web-cloud-hosting) section of our guides.
 >
-
-**Click on the questions below to see the explanations.**
 
 /// details | What do I do if my website isn't working properly? 
 

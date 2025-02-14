@@ -1,7 +1,7 @@
 ---
 title: "FAQ Webhosting"
 excerpt: "Hier finden Sie die Antworten zu den am häufigsten gestellten Fragen rund um OVHcloud Webhostings"
-updated: 2025-02-13
+updated: 2025-02-14
 ---
 
 <style>
@@ -18,9 +18,9 @@ details[open]>summary::before {
 }
 </style>
 
-## Verwaltung Ihres Angebots 
-
 **Klicken Sie auf die unten stehenden Fragen, um die Erläuterungen anzuzeigen.**
+
+## Verwaltung Ihres Angebots
 
 /// details | Wie konfiguriere ich mein Webhosting?
 
@@ -120,8 +120,6 @@ Weitere Informationen finden Sie in unserer Anleitung zur ["Konfiguration eines 
 >
 > Falls Sie eine nicht in dieser FAQ aufgeführte Unregelmäßigkeit feststellen, beachten Sie die Hilfen der Kategorie **Diagnose** in unserer [Dokumentation](/products/web-cloud-hosting).
 >
-
-**Klicken Sie auf die unten stehenden Fragen, um die Erläuterungen anzuzeigen.**
 
 /// details | Was tun, wenn mein Webhosting nicht korrekt funktioniert? 
 

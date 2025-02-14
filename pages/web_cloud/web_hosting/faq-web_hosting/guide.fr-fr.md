@@ -1,7 +1,7 @@
 ---
-title: "FAQ Web Hosting"
+title: "Hébergement Web - FAQ"
 excerpt: "Retrouvez les questions les plus fréquemment posées sur les hébergements web OVHcloud"
-updated: 2025-02-13
+updated: 2025-02-14
 ---
 
 <style>
@@ -18,9 +18,9 @@ details[open]>summary::before {
 }
 </style>
 
-## Gestion de votre offre
-
 **Cliquez sur les questions ci-dessous pour afficher les explications.**
+
+## Gestion de votre offre
 
 /// details | Comment configurer mon hébergement ?
 
@@ -120,8 +120,6 @@ Retrouvez plus d'informations dans notre guide sur la ["Configuration d'une offr
 >
 > Si vous rencontrez une anomalie non-répertoriée dans cette FAQ, consultez les pages « Diagnostic » de [notre documentation](/products/web-cloud-hosting).
 >
-
-**Cliquez sur les questions ci-dessous pour afficher les explications.**
 
 /// details | Que faire si mon site web dysfonctionne ? 
 
