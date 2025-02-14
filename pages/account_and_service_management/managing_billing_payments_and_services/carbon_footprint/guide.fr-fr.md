@@ -1,14 +1,14 @@
 ---
 title: "Comment obtenir l'empreinte carbone de vos services OVHcloud"
-excerpt: "Découvrez comment récupérer, à une date antérieure et via nos API, l'empreinte carbone des services Bare Metal associés à votre identifiant client OVHcloud"
-updated: 2025-02-11
+excerpt: "Découvrez comment récupérer mensuellement l'empreinte carbone des services Bare Metal associés à votre identifiant client OVHcloud"
+updated: 2025-02-14
 ---
 
 ## Objectif
 
 Dans le cadre de vos activités profesionnelles ou par intérêt sur le sujet, vous pouvez être amené à devoir calculer l'empreinte carbone de vos services.
 
-**Découvrez comment récupérer, à une date antérieure et via nos API, l'empreinte carbone des services Bare Metal associés à votre identifiant client OVHcloud.**
+**Découvrez comment récupérer mensuellement l'empreinte carbone des services Bare Metal associés à votre identifiant client OVHcloud.**
 
 > [!warning]
 >
@@ -24,9 +24,32 @@ Dans le cadre de vos activités profesionnelles ou par intérêt sur le sujet, v
 
 ## En pratique
 
+### 1 - Récupérer le bilan mensuel du mois précédent via l'espace client OVHcloud
+
+Pour cela, effectuez les actions suivantes :
+
+1\. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1\. Dans l'espace client, cliquez sur le nom de votre compte en haut à droite, puis de nouveau sur votre nom dans la barre latérale qui apparaît à droite.
+1\. Sur la nouvelle page qui s'affiche et dans la colonne de gauche, cliquez sur l'onglet `Mon empreinte Carbone`{.action}.
+1\. Sur la page qui apparaît, cliquez sur `Télécharger mon empreinte de [Mois] [Année]`{.action}.
+
+![Carbon footprint](/pages/assets/screens/control_panel/product-selection/right-column/carbon-footprint/my-carbon-footprint.png){.thumbnail}
+
+> [!warning]
+>
+> Vous ne pouvez pas générer de bilan pour le mois en cours. Le seul bilan disponible via l'espace client OVHcloud est celui du mois précédent.
+
+Vous pourrez récupérer chaque mois l'empreinte carbone du mois précédent pour vos services élligibles.
+
+Si vous avez besoin de l'empreinte carbone pour un mois antérieur au mois précédant le mois en cours, vous devrez obligatoirement passer par nos API pour le récupérer.
+
+### 2 - Récupérer un bilan mensuel antérieur au mois précédent via nos API
+
 Par défaut, les API OVHcloud sont mises à disposition pour permettre aux développeurs ou aux intégrateurs d'associer, par exemple, des fonctionnalités présentes ou non dans l'espace client OVHcloud directement dans leurs applications ou solutions.
 
-### Étape 1 - Se connecter aux API OVHcloud et leur permettre l'accès à vos services
+Attention, aucun bilan ne peut être généré au delà des 24 derniers mois. Par ailleurs, aucun bilan ne peut être généré avant le mois de mai 2023 (date où la fonctionnalité a été mise en place).
+
+#### 2.1 - Se connecter aux API OVHcloud et leur permettre l'accès à vos services
 
 Pour cela, effectuez les actions suivantes : 
 
@@ -46,7 +69,7 @@ Pour cela, effectuez les actions suivantes :
 - Connectez-vous avec votre identifiant client, puis cliquez sur `Authorize`{.action} pour utiliser les API OVHcloud avec les services présents dans votre espace client.
 - Vous êtes ensuite automatiquement redirigé vers la page précédente de l'API **POST /me/carbonCalculator/task** tout en étant connecté à votre espace client OVHcloud.
 
-### Étape 2 - Demander la génération du bilan et récupérer l'ID de la tâche demandée
+#### 2.2 - Demander la génération du bilan et récupérer l'ID de la tâche demandée
 
 Pour cela, remplacez la date du jour qui apparaît dans l'encadré de l'API par la date à laquelle vous souhaitez arrêter le calcul du bilan. Veuillez respecter le format de date suivant :
 
@@ -63,7 +86,7 @@ Pour cela, remplacez la date du jour qui apparaît dans l'encadré de l'API par 
 > Plusieurs points sont à prendre en compte : 
 > - Vous ne pouvez pas générer de bilan pour le mois en cours.
 > - Que vous saisissiez une date en début, milieu ou fin de mois pour le mois choisi, le bilan prendra en compte le mois complet.
-> - Aucun bilan ne peut être généré au delà des 24 derniers mois. Par ailleurs, aucun bilan ne peut être généré avant le mois de mai 2023 (date où la fonctionnalité a été mise en place).
+> - Pour rappel, aucun bilan ne peut être généré au delà des 24 derniers mois. Par ailleurs, aucun bilan ne peut être généré avant le mois de mai 2023 (date où la fonctionnalité a été mise en place).
 
 Une fois la date choisie et correctement saisie, cliquez sur le bouton bleu `EXECUTE`{.action} situé en bas à droite de la section préalablement remplie.
 
@@ -81,7 +104,7 @@ Par exemple, si votre identifiant client OVHcloud est le `aa00000-ovh` et que la
 
 Copiez uniquement la valeur que vous obtenez de votre côté et équivalente à la valeur de notre exemple `aa00000-ovh_202501` (sans copiez les deux `"` situés aux extrémités).
 
-### Étape 3 - Récupérer le fichier contenant le bilan carbone de vos services au format PDF
+#### 2.3 - Récupérer le fichier contenant le bilan carbone de vos services au format PDF
 
 Grâce à la valeur du `taskID` précédemment récupérée, vous pourrez récupérer le bilan carbone de vos services au format PDF.
 
