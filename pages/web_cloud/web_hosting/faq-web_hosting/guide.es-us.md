@@ -1,18 +1,37 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Encuentre las respuestas a las preguntas más frecuentes sobre alojamiento web"
-updated: 2024-06-27
+updated: 2025-02-14
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
+**Haga clic en las preguntas siguientes para ver las explicaciones.**
 
 ## Gestión de su producto
 
-### ¿Cómo configurar mi alojamiento?
+/// details | ¿Cómo configurar mi alojamiento?
 
 Conéctese al [área de cliente de OVHcloud](/links/manager) para configurar el alojamiento. Desde la sección `Alojamientos` podrá gestionar sus certificados SSL, la versión PHP, la opción CDN, el multisitio, las bases de datos, etc.
 
 **Trucos y Trucos**: Para ayudarle a configurar su alojamiento, consulte la sección *Primeros pasos* que encontrará [aquí](/products/web-cloud-hosting).
 
-### ¿Cómo administrar mis contraseñas?
+///
+
+
+/// details | ¿Cómo administrar mis contraseñas?
 
 Para gestionar sus contraseñas, debe conectarse en primer lugar al [área de cliente de OVHcloud](/links/manager). En caso de olvidar su identificador o su contraseña, haga clic en el `¿No recuerda su ID de cliente o contraseña?`{.action} en la ventana de conexión. Recibirá la información necesaria por correo electrónico.
 
@@ -24,7 +43,10 @@ Una vez que se haya conectado al área de cliente,
 - Para cambiar la contraseña de la base de datos, siga las instrucciones de [esta guía](/pages/web_cloud/web_hosting/sql_change_password).
 - Para cambiar la contraseña de una cuenta MX Plan, siga las indicaciones de [esta guía](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password).
 
-### ¿Cómo publicar mi sitio web? 
+///
+
+
+/// details | ¿Cómo publicar mi sitio web? 
 
 Para publicar su sitio web, debe disponer de un [nombre de dominio](/links/web/domains) que corresponda a la dirección web desde la que estará accesible su sitio web (por ejemplo: *mi dominio.com*). También necesitará un [alojamiento](/links/web/hosting) en el que instalar su sitio web.
 
@@ -32,27 +54,42 @@ Para más información, consulte esta [página](/links/web/hosting-website) y si
 
 **Trucos y Trucos**: Para ayudarle a crear su sitio web, OVHcloud le permite instalar en su alojamiento un programa de soporte para la creación de sitios web (WordPress, PrestaShop, Joomla! y Drupal), gracias a la funcionalidad [Módulos en 1 clic](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
 
-### ¿Cómo cambiar de plan de alojamiento?
+///
+
+
+/// details | ¿Cómo cambiar de plan de alojamiento?
 
 Para contratar el plan de hosting más adecuado para usted, puede consultar nuestros planes en [esta página](/links/web/hosting).
 
 A continuación, siga las indicaciones de nuestra guía ["Mejorar el plan de hosting"](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer).
 
-### ¿Cómo transferir sin interrupción del servicio mi sitio web, mi base de datos, mi dominio y mi correo a los servidores de OVHcloud?
+///
+
+
+/// details | ¿Cómo transferir sin interrupción del servicio mi sitio web, mi base de datos, mi dominio y mi correo a los servidores de OVHcloud?
 
 Para más información, consulte la guía "[Migrar un sitio web y los servicios asociados a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)".
 
-### ¿Cómo alojar varios sitios web en un mismo plan de hosting?
+///
+
+
+/// details | ¿Cómo alojar varios sitios web en un mismo plan de hosting?
 
 Consulte la guía "[Alojar varios sitios web en un mismo hosting](/pages/web_cloud/web_hosting/multisites_configure_multisite)".
 
-### ¿Cómo conservar la solución de correo asociada a mi alojamiento compartido cuando se da de baja el servicio?
+///
+
+
+/// details | ¿Cómo conservar la solución de correo asociada a mi alojamiento compartido cuando se da de baja el servicio?
 
 Al dar de baja o eliminar el alojamiento compartido, el servicio de correo asociado también se dará de baja. Para conservar sus direcciones de correo, deberá desvincular el servicio de correo antes de dar de baja el alojamiento.<br>
 
 Para ello, acceda a la pestaña `Información general`{.action} del alojamiento. En la sección **Configuración**, haga clic en el botón `...`{.action} situado a la derecha de "**Direcciones de correo**". Haga clic en `Desvincular mi opción de correo`{.action} y siga las instrucciones para contratar una solución de correo independiente que le permitirá conservar sus direcciones de correo ya creadas.
 
-### ¿Cómo aumentar la RAM de un plan de hosting Cloud Databases asociado a un alojamiento compartido "Performance"?
+///
+
+
+/// details | ¿Cómo aumentar la RAM de un plan de hosting Cloud Databases asociado a un alojamiento compartido "Performance"?
 
 Para aumentar la RAM de un plan de hosting Cloud Databases asociado a un alojamiento compartido **Performance**, deberá eliminar obligatoria y previamente el plan de hosting Cloud Databases del alojamiento **Performance** para migrar a un plan superior.
 
@@ -64,6 +101,9 @@ Para más información, consulte nuestra guía ["Configuración de un plan de ho
 
 **Esta acción es irreversible y la solución Web Cloud Databases se facturará a continuación, independientemente de su plan de hosting Performance.**
 
+///
+
+
 ## Diagnóstico
 
 > [!warning]
@@ -71,13 +111,17 @@ Para más información, consulte nuestra guía ["Configuración de un plan de ho
 > Si encuentra una anomalía no indicada en esta FAQ, consulte la página "*Diagnóstico*" de [nuestra documentación](/products/web-cloud-hosting).
 >
 
-### ¿Qué hacer si mi sitio web no funciona bien? 
+
+/// details | ¿Qué hacer si mi sitio web no funciona bien? 
 
 Existen diversos motivos por los que podría haber fallado el funcionamiento del sitio web. Para identificar la causa, compruebe que ninguna de sus suscripciones necesita ser **renovada** conectándose al [área de cliente de OVHcloud](/links/manager).
 
 Consulte a continuación los [eventos en curso en nuestra infraestructura](https://www.status-ovhcloud.com/). Si todos sus servicios están activos y no se ven afectados por ninguna incidencia o mantenimiento, le invitamos a realizar un diagnóstico más detallado.
 
-### ¿Qué hacer si, después de publicar mi sitio web, la página "Sitio en construcción" de OVHcloud sigue apareciendo?
+///
+
+
+/// details | ¿Qué hacer si, después de publicar mi sitio web, la página "Sitio en construcción" de OVHcloud sigue apareciendo?
 
 ![site-en-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
@@ -87,7 +131,10 @@ Este archivo se desactiva automáticamente al crear su [módulo en 1 clic](/page
 
 Si ha elegido [Web hosting: Instalar un CMS manualmente](/pages/web_cloud/web_hosting/cms_manual_installation), [conéctese al espacio FTP](/pages/web_cloud/web_hosting/ftp_connection) para renombrarlo como **index.html.old**.
 
-### ¿Qué hacer si mi sitio web aparece en una dirección web de tipo "xxxx.cluster0xx.hosting.ovh.net"?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web aparece en una dirección web de tipo "xxxx.cluster0xx.hosting.ovh.net"?
 
 ![url-cluster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
@@ -125,7 +172,10 @@ Para restaurar el código fuente del sitio web, consulte nuestra guía [Restaura
 
 Si su sitio web incluye una base de datos, consulte nuestra guía [Restaurar una copia de seguridad de la base de datos](/pages/web_cloud/web_hosting/sql_importing_mysql_database#restaurar-una-copia-de-seguridad-desde-el-area-de-cliente).
 
-### ¿Qué hacer si mi sitio web redirige al webmail-login-interface de OVHcloud?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web redirige al webmail-login-interface de OVHcloud?
 
 ![webmail-login-interface](/pages/assets/screens/website/webmail/webmail-login-interface.png){.thumbnail}
 
@@ -145,7 +195,10 @@ Compare los `Objetivos` de las entradas de tipo `NS` indicadas en la pestaña `Z
 
 - Si los elementos no son idénticos y los `servidores DNS` indicados en la pestaña del mismo nombre no aparecen en [esta lista](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), contacte con su Webmaster o busque un [proveedor especializado](/links/partner) a través de la página de [partners de OVHcloud](/links/partner).
 
-### ¿Qué hacer si mi sitio web muestra un error "La página no se redirige correctamente"?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web muestra un error "La página no se redirige correctamente"?
 
 ![the-page-isnt-redirecting-properly](/pages/assets/screens/other/browsers/errors/the-page-isnt-redirecting-properly.png){.thumbnail}
 
@@ -164,7 +217,10 @@ Restaure su sitio web a su estado anterior:
 
 Si las restauraciones no le permiten restablecer el acceso a su sitio web, contacte con su Webmaster o busque un [proveedor especializado](/links/partner) en la web de los [partners de OVHcloud](/links/partner).
 
-### ¿Qué hacer si mi sitio web muestra un error "503 error Backend fetch failed"?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web muestra un error "503 error Backend fetch failed"?
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
@@ -172,7 +228,10 @@ Si ha activado la [opción CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)
 
 Si no ha activado esta opción ni ha utilizado el modo de *mantenimiento*, póngase en contacto con su Webmaster o busque un [proveedor especializado](/links/partner) en el sitio web de los [partners de OVHcloud](/links/partner).
 
-### ¿Qué hacer si mi sitio web muestra un error "Your request has been blocked"?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web muestra un error "Your request has been blocked"?
 
 ![your-request-has-been-blocked](/pages/assets/screens/other/browsers/errors/your-request-has-been-blocked.png){.thumbnail}
 
@@ -180,7 +239,10 @@ Este mensaje indica que el tipo de petición HTTP que intenta realizar en su sit
 
 Para ayudarle a corregir estas anomalías, contacte con su Webmaster o con uno de nuestros [partners](/links/partner).
 
-### ¿Qué hacer si mi sitio web muestra un error "Your IP has been banned"?
+///
+
+
+/// details | ¿Qué hacer si mi sitio web muestra un error "Your IP has been banned"?
 
 ![your-ip-has-been-banned](/pages/assets/screens/other/browsers/errors/your-ip-has-been-banned.png){.thumbnail}
 
@@ -190,7 +252,10 @@ En ese caso, [compruebe los logs](/pages/web_cloud/web_hosting/logs_and_statisti
 Compruebe también que su equipo informático no esté infectado por un virus.<br>
 Por último, puede contactar con uno de nuestros partners (/links/partner) para que verifique el código informático de su sitio web.
 
-### He contratado un dominio con acentos que aparece escrito de forma extraña en mi área de cliente. ¿Qué debo hacer?
+///
+
+
+/// details | He contratado un dominio con acentos que aparece escrito de forma extraña en mi área de cliente. ¿Qué debo hacer?
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
@@ -200,6 +265,9 @@ No tiene que hacer nada al respecto. Aunque su dominio se muestre en [notación 
 >
 > No es recomendable utilizar una dirección de correo electrónico con un dominio IDN en un cliente de correo (Outlook, Mail de macOS, etc.), ya que puede causar incompatibilidad.
 >
+
+///
+
 
 ## Más información <a name="go-further"></a>
 
