@@ -6,7 +6,7 @@ updated: 2025-02-13
 
 ## Objective
 
-This guide explains the necessary steps to configure your environment after migrating from PCC to VMware Cloud Director (VCD). 
+This guide explains the necessary steps to configure your environment after migrating from Managed vSphere to VMware Cloud Director (VCD). 
 
 These modifications are essential to ensure the proper functioning of your virtual machines and networks.
 
@@ -19,18 +19,24 @@ These modifications are essential to ensure the proper functioning of your virtu
 
 ### Step 1: Update virtual machine network settings  
 
-After migration, you need to adjust the network configurations of your virtual machines (VMs):
+After migration, you need to update the network configurations of your virtual machines (VMs) by selecting one of the following options:
 
-1. **Set the network configuration to DHCP**  
-   - Go to the network settings of each VM.  
+- Option 1: **Set the network configuration to DHCP**  
+   - Go to the network settings of each VM. 
+
    - Change the IP assignment mode to **DHCP**.  
+
+![DHCP setting](images/01-VCD-post-migration.png){.thumbnail}
+
    - Make sure the **"Guest customization settings"** are set to **Disabled** before modifying the NIC settings.  
 
-2. **Update Gateway CIDR for each network**  
+![Disabled setting](images/02-VCD-post-migration.png){.thumbnail}
+
+- Option 2: **Update Gateway CIDR for each network**  
    - Update the Gateway CIDR to match the actual subnet used in each network.  
    - This step is required to maintain connectivity and avoid configuration conflicts.  
 
----
+![Gateway CIDR](images/03-VCD-post-migration.png){.thumbnail}
 
 ### Step 2: Handling the IP addressing bug in VCD  
 
@@ -49,6 +55,8 @@ This can lead to IP assignment issues if not addressed post-migration.
    - Setting all IP modes to DHCP works seamlessly, even if the OS is configured with a static IP.  
    - This approach is valid for both **isolated networks** and **VM Networks**.  
 
+   ![DHCP mode](images/04-VCD-post-migration.png){.thumbnail}
+
 2. **Manually update the subnet in static mode**  
    - Identify and configure the correct subnet manually for each network.  
    - There is no automatic method to retrieve these details.  
@@ -56,11 +64,6 @@ This can lead to IP assignment issues if not addressed post-migration.
 3. **Create a new segment**  
    - Customers can create a new network segment with the correct subnet.  
    - This solution works only if the customer has **a single** public IP range.  
-
-4. **Create multiple VM Networks**  
-   - For customers with multiple public IP ranges, separate VM Networks may need to be created.  
-
----
 
 ## Go further  
 
