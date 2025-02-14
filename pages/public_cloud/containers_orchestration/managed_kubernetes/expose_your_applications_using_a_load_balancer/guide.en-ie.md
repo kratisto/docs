@@ -64,7 +64,7 @@ If you have an existing/already deployed cluster and if:
 ## Limitations
 
 - Layer 7 Policy & Rules and TLS Termination (`TERMINATED_HTTPS` listener) are not available yet. For such use cases you can rely on [Octavia Ingress Controller](https://github.com/kubernetes/cloud-provider-openstack/blob/master/docs/octavia-ingress-controller/using-octavia-ingress-controller.md)
-- UDP proxy protocol is not supported
+- Proxy Protocol is only supported for TCP services.
 
 ## Billing
 
