@@ -71,7 +71,7 @@ However, if you do not wish to keep this service, you do not need to request its
 
 ### Changing the renewal mode of domain names
 
-In your [Control Panel](/links/manager), click on your name in the top right-hand corner of your screen, then on `Products and services`{.action}. In the table, identify the domain names for which you would like to change the renewal mode.
+In your [Control Panel](/links/manager), click on your name in the top right-hand corner of your screen, then on `My solutions & services`{.action}. In the table, identify the domain names for which you would like to change the renewal mode.
 
 #### For a single domain name
 
@@ -109,7 +109,7 @@ In this case, the duration of validity subscribed to will be added to the curren
 
 - In the table, identify the domain name you want to cancel.
 - Click on the `...`{.action} button on the right in the row of the domain name.
-- Click the `Cancel subscription`{.action} option.
+- Click the `Cancel my subscription`{.action} option.
 
 This action is available for services set to **automatic renewal**. By choosing this action, automatic payment and renewal will be disabled for the service you have selected.
 

@@ -73,7 +73,7 @@ No entanto, se não pretender manter este serviço, não será necessário pedir
 
 ### Alterar o modo de renovação dos meus nomes de domínio
 
-No seu endereço [Área de Cliente](/links/manager), clique no seu nome no canto superior direito do ecrã e, a seguir, em `Produtos e serviços`{.action}. Na tabela que se abrir, identifique o(s) domínio(s) para o(s) qual(is) pretende alterar o modo de renovação.
+No seu endereço [Área de Cliente](/links/manager), clique no seu nome no canto superior direito do ecrã e, a seguir, em `As minhas ofertas e serviços`{.action}. Na tabela que se abrir, identifique o(s) domínio(s) para o(s) qual(is) pretende alterar o modo de renovação.
 
 #### Para um único domínio
 
@@ -111,7 +111,7 @@ Neste caso, o período de validade subscrito será adicionado ao período de val
 
 - Na tabela, identifique o domínio que pretende renovar.
 - Clique à direita da linha no botão `...`{.action}.
-- Clique na ação `Rescindir o meu compromisso`{.action}.
+- Clique na ação `Rescindir o meu serviço`{.action}.
 
 Esta ação está disponível para os serviços parametrizados para **renovação automática**. Ao escolher esta ação, a renovação e o débito automáticos são desativados para o serviço que selecionou.
 
@@ -129,7 +129,7 @@ Para mais informações sobre a rescisão dos serviços OVHcloud, siga as instru
 > A fatura só está disponível no dia da renovação do nome de domínio (30 dias após o débito em caso de renovação automática).
 >
 
-É apresentada uma mensagem `Fatura a pagar` quando uma fatura está a aguardar pagamento e quando:
+É apresentada uma mensagem `Fatura por pagar` quando uma fatura está a aguardar pagamento e quando:
 
  - possui serviços em renovação automática;
  - não registou nenhum método de pagamento que lhe permita efetuar um débito para o pagamento das suas faturas.

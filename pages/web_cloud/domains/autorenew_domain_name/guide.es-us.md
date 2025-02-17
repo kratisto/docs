@@ -73,7 +73,7 @@ Sin embargo, si no desea conservar este servicio, no es necesario solicitar la b
 
 ### Cambiar el modo de renovación de mis dominios
 
-En su [área de cliente](/links/manager), haga clic en su nombre en la parte superior derecha de su pantalla y luego en `Productos y servicios`{.action}. En la tabla que se abre, identifique el dominio o dominios cuyo modo de renovación desea cambiar.
+En su [área de cliente](/links/manager), haga clic en su nombre en la parte superior derecha de su pantalla y luego en `Mis soluciones y servicios`{.action}. En la tabla que se abre, identifique el dominio o dominios cuyo modo de renovación desea cambiar.
 
 #### Para un solo dominio
 
@@ -111,7 +111,7 @@ En este caso, el período de validez contratado se sumará al período de valide
 
 - En la tabla, identifique el dominio que quiere renovar.
 - Haga clic a la derecha de la línea en el botón `...`{.action}.
-- Haga clic en la acción `Cancelar mi compromiso`{.action}.
+- Haga clic en la acción `Dar de baja mi servicio`{.action}.
 
 Esta acción se propone para los servicios configurados en **renovación automática**. Al elegir esta acción, se desactivan la renovación y el cargo automáticos para el servicio seleccionado.
 
@@ -129,7 +129,7 @@ Para más información sobre la baja de los servicios de OVHcloud, siga las inst
 > La factura solo está disponible el día de la renovación del dominio (30 días después del cargo en caso de renovación automática).
 >
 
-Una mención `Factura a pagar` aparece cuando una factura está pendiente de pago y cuando:
+Una mención `Factura pendiente` aparece cuando una factura está pendiente de pago y cuando:
 
  - tiene servicios con renovación automática ;
  - No ha registrado ninguna forma de pago que permita realizar un cargo para el pago de sus facturas.

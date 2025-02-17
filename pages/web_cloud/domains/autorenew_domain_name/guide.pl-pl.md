@@ -73,7 +73,7 @@ Natomiast jeśli nie chcesz przedłużać tej usługi, nie musisz zlecać rezygn
 
 ### Zmiana sposobu odnawiania domen
 
-W [panelu klienta](/links/manager) kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie wybierz `Produkty i usługi`{.action}. W tabeli, która się wyświetli określ domenę lub domeny, dla których chcesz zmienić tryb odnowienia.
+W [panelu klienta](/links/manager) kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie wybierz `Moje rozwiązania i usługi`{.action}. W tabeli, która się wyświetli określ domenę lub domeny, dla których chcesz zmienić tryb odnowienia.
 
 #### Dla jednej domeny
 
@@ -111,7 +111,7 @@ W tym przypadku zamówiony czas ważności zostanie dodany do bieżącego czasu 
 
 - W tabeli podaj nazwę domeny, którą chcesz odnowić.
 - Kliknij przycisk `...`{.action} po prawej stronie linii.
-- Kliknij na akcję `Rezygnacja z umowy terminowej`{.action}.
+- Kliknij na akcję `Rezygnuję z usługi`{.action}.
 
 To działanie jest dostępne w przypadku usług z opcją **automatycznego odnowienia**. Jeśli wybierzesz to działanie, dla wybranych usług zostanie wyłączone automatyczne odnawianie i pobieranie środków.
 
@@ -129,7 +129,7 @@ Aby uzyskać więcej informacji na temat rezygnacji z usług OVHcloud, postępuj
 > Faktura jest dostępna wyłącznie w dniu odnowienia domeny (30 dni po pobraniu płatności w przypadku automatycznego odnowienia).
 >
 
-Pojawi się informacja `Faktura do zapłaty`, gdy faktura oczekuje na płatność i gdy:
+Pojawi się informacja `Płatność do uregulowania`, gdy faktura oczekuje na płatność i gdy:
 
  - posiadasz usługi z opcją automatycznego odnawiania;
  - nie masz ustawionego sposobu płatności umożliwiającego pobranie środków w celu uregulowania faktur.
