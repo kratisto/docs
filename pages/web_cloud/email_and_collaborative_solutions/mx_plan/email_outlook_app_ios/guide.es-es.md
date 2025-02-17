@@ -105,7 +105,7 @@ OVHcloud ofrece una aplicación web con la que podrá acceder a su dirección de
 
 ![outlook ios](images/outlook-app-ios-modify-account-01.png){.thumbnail .w-400 .h-600}
 
-Consulte los parámetros en **el paso 3** del capítulo [Añadir la cuenta](#add-account).
+Consulte los parámetros en **la etapa 3** del capítulo [Añadir la cuenta](#add-account).
 
 ### Eliminar una cuenta de correo <a name="delete"></a>
 
