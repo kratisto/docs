@@ -1,7 +1,7 @@
 ---
 title: "MX Plan - Konfiguracja konta e-mail w programie Outlook na urządzeniu z systemem iOS"
 excerpt: "Dowiedz się, jak skonfigurować Twoje konto e-mail MX Plan w aplikacji mobilnej Outlook na urządzeniu z systemem iOS"
-Updated: 2025-02-10
+updated: 2025-02-10
 ---
 
 <style>
