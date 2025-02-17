@@ -134,7 +134,7 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 >>
 >> - **Nazwa użytkownika** : Wpisz pełny adres e-mail **Complete**
 >> - **Hasło** : Wprowadź hasło przypisane do konta e-mail
->> - **Serwer EUROPE (ruch przychodzący)** : imap.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serwer EUROPE (ruch przychodzący)** : imap.mail.ovh.net **lub** ssl0.ovh.net
 >> - **Serwer amerykański/Azja-PACYFIK (ruch przychodzący)** : imap.mail.ovh.ca
 >> - **Port** : 993
 >> - **Typ bezpieczeństwa** : SSL/TLS
