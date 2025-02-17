@@ -1,19 +1,19 @@
 ---
-title: "Guide post-migration vers Managed VCD"
-excerpt: "Découvrez comment mettre à jour votre configuration réseau après la migration de votre environnement PCC vers Managed VCD."
+title: "Guide post-migration : VMware vSphere vers VCD."
+excerpt: "Apprenez à configurer votre réseau après la migration de VMware vSphere vers VMware Cloud Director."
 updated: 2025-02-17
 ---
 
 ## Objectif  
 
-Ce guide explique les étapes nécessaires pour configurer votre environnement après la migration de `Managed vSphere` vers `VMware Cloud Director (VCD)`.  
+Ce guide explique les étapes nécessaires pour configurer votre environnement après la migration de vos services `VMware vSphere on OVHcloud` vers une offre `VMware Cloud Director on OVHcloud`.  
 
 Ces ajustements sont essentiels pour assurer le bon fonctionnement de vos `machines virtuelles (VMs)` et de vos réseaux.  
 
 ## Prérequis  
 
-- Accès à `VMware Cloud Director`.  
-- Vous devez avoir accès au [Control Panel OVHcloud](/links/manager) et être administrateur technique du `Managed VMware vSphere` sur l’infrastructure OVHcloud.  
+- Accès à `VMware Cloud Director on OVHcloud`.  
+- Vous devez avoir accès au [Control Panel OVHcloud](/links/manager) et être administrateur technique du [VMware vSphere on OVHcloud](/links/hosted-private-cloud/vmware).
 
 ## En pratique  
 
