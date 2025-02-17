@@ -25,7 +25,7 @@ Konta MX Plan mogą być skonfigurowane w jednym z kompatybilnych programów poc
 >
 > Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Niemniej jednak, w przypadku trudności zalecamy skontaktowanie się z [partnerem wyspecjalizowanym](https://marketplace.ovhcloud.com/c/support-collaboration) i/lub skontaktowanie się z wydawcą usługi. Niestety firma OVH nie jest w stanie udzielić Ci wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji "[Sprawdź również](#go-further)".
 
-## Wymagania
+## Wymagania początkowe
 
 - Posiadanie konta e-mail MX Plan (zawartego w usłudze MX Plan lub w usłudze [hostingu OVHcloud](/links/web/hosting)).
 - Instalacja aplikacji Outlook na urządzeniu przenośnym [iOS](https://apps.apple.com/app/microsoft-outlook/id951937596).
