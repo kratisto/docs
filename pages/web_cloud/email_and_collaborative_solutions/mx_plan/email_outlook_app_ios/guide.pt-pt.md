@@ -83,7 +83,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!warning]
 >
-> Se, seguindo os passos de configuração acima, encontrar um problema de envio ou receção, vá para "[Editar definições existentes](#modify-settings)».
+> Se, seguindo os passos de configuração acima, encontrar um problema de envio ou receção, vá para "[Editar definições existentes](#modify-settings)".
 
 ### Utilizar o endereço de e-mail
 
