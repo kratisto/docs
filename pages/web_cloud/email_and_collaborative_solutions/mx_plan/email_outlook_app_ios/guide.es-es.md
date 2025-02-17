@@ -61,7 +61,7 @@ Siga los pasos de instalación haciendo clic en las fichas siguientes:
 >>
 >> Tiene dos posibilidades:
 >>
->> - Si aparece «**IMAP**» en la parte superior de la página, vaya al paso 3.
+>> - Si aparece "**IMAP**" en la parte superior de la página, vaya al etapa 3.
 >> - Si la ventana de configuración de la cuenta muestra «**Exchange**» en la parte superior, pulse el botón `?` en la esquina superior derecha de la pantalla **(1)** y elija `Cambiar proveedor de cuenta`{.action} **(2)**. A continuación, seleccione `IMAP` **(3)** y continúe con el paso 3.
 >>
 >> ![outlook ios](images/outlook-app-ios-add-step02.png){.thumbnail .w-400 .h-600}
