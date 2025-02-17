@@ -156,7 +156,7 @@ Jeśli chcesz wysyłać wiadomości e-mail, wprowadź ręcznie ustawienia **SMTP
 
 - **Nazwa użytkownika** : Wpisz pełny adres e-mail **complete**
 - **Hasło** : Wprowadź hasło przypisane do konta e-mail
-- **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **ou** ssl0.ovh.net
+- **Serwer EUROPE (ruch przychodzący)** : pop.mail.ovh.net **lub** ssl0.ovh.net
 - **Serwer amerykański/AZJA-PACYFIK (ruch przychodzący)** : pop.mail.ovh.ca
 - **Port** : 465
 - **Typ bezpieczeństwa** : SSL/TLS
