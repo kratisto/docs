@@ -1,5 +1,5 @@
 ---
-Título: "MX Plan - Configurar una cuenta de correo en Outlook para iOS"
+title: "MX Plan - Configurar una cuenta de correo en Outlook para iOS"
 excerpt: "Descubra cómo configurar una cuenta MX Plan en la aplicación móvil Outlook para iOS"
 updated: 2025-02-10
 ---
