@@ -54,13 +54,13 @@ Click on the tabs below to view each of the **7** steps in succession.
 >>
 >> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 >>
->>![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
 > **Step 2**
 >>
 >> Click the `Domain names`{.action} menu, then choose the domain name concerned.
 >>
->>![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>
 > **Step 3**
 >>
