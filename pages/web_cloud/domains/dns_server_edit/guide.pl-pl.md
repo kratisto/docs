@@ -43,7 +43,7 @@ Należy jednak wziąć pod uwagę następujące kwestie:
 - Jeśli nie chcesz modyfikować serwerów DNS, ale jeden lub więcej rekordów aktualnej konfiguracji / strefy DNS, zapoznaj się z naszym przewodnikiem: "[Modyfikacja strefy DNS](/pages/web_cloud/domains/dns_zone_edit)".
 - Niektóre organizacje lub operatorzy zarządzający rozszerzeniami domen mają określone wymagania dotyczące serwerów DNS (liczba serwerów nazw, wartość rekordów, etc.). W razie wątpliwości sprawdź wymagania u operatora domeny.
 
-### Etap 1 - Dostęp do zarządzania serwerami DNS OVHcloud <a name="access-dns-servers"></a>
+### 1 - Dostęp do zarządzania serwerami DNS OVHcloud <a name="access-dns-servers"></a>
 
 W tym celu kliknij poniższe zakładki, aby wyświetlić kolejne **4** etapy.
 
@@ -74,7 +74,7 @@ W tym celu kliknij poniższe zakładki, aby wyświetlić kolejne **4** etapy.
 >>
 >> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-### Etap 2 - Modyfikacja serwerów DNS <a name="modify-dns-servers"></a>
+### 2 - Modyfikacja serwerów DNS <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -210,7 +210,7 @@ Jeśli odpowiadają one kryteriom, które chcesz zastosować, kliknij przycisk `
 
 Poprzednie zadeklarowane serwery DNS i konfiguracja DNS, którą stosują, zostaną wyłączone dla Twojej domeny. Strefy DNS przypisane do Twojej domeny staną się strefami włączonymi dla Twoich własnych serwerów DNS oraz dla serwerów DNS OVHcloud.
 
-### Etap 3 - Wprowadzenie zmian dla serwerów DNS
+### 3 - Wprowadzenie zmian dla serwerów DNS
 
 Po wprowadzeniu modyfikacji, należy pamiętać o dwóch następujących po sobie okresach:
 

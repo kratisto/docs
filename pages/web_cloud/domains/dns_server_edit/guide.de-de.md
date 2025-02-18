@@ -43,7 +43,7 @@ Dabei ist jedoch Folgendes zu berücksichtigen:
 - Wenn Sie die DNS-Server nicht ändern möchten, sondern nur einzelne Elemente Ihrer aktuellen DNS-Konfiguration ändern möchten, lesen Sie unsere Anleitung: „[Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit)“.
 - Vereinzelt haben die Organisationen, die Domainendungen verwalten (Registrys), besondere Anforderungen an die DNS-Server (Anzahl der Server, Vorgaben für Einträge, etc.). Überprüfen Sie im Zweifelsfall die Regeln der zuständigen Registry der Domainnamen-Endung.
 
-### Schritt 1 - Auf die Verwaltung der OVHcloud DNS-Server zugreifen <a name="access-dns-servers"></a>
+### 1 - Auf die Verwaltung der OVHcloud DNS-Server zugreifen <a name="access-dns-servers"></a>
 
 Auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
@@ -74,7 +74,7 @@ Auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf di
 >>
 >> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-### Schritt 2 - DNS-Server ändern <a name="modify-dns-servers"></a>
+### 2 - DNS-Server ändern <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -208,7 +208,7 @@ Wenn sie korrekt sind, klicken Sie auf `Anwenden`{.action}.
 
 Die bisher deklarierten DNS-Server und deren DNS-Konfiguration werden für Ihren Domainnamen deaktiviert. Die DNS-Zonen auf Ihren DNS-Servern und den DNS-Servern von OVHcloud werden zu den aktiven Zonen für Ihre Domain.
 
-### Schritt 3 - Änderung der DNS-Server wird durchgeführt
+### 3 - Änderung der DNS-Server wird durchgeführt
 
 Nachdem Sie Ihre Änderungen vorgenommen haben, müssen zwei aufeinanderfolgende Zeiträume berücksichtigt werden:
 

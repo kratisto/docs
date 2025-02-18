@@ -43,7 +43,7 @@ No entanto, é essencial ter em conta os seguintes pontos:
 - Se não pretender alterar os servidores DNS, mas um ou vários registos da sua configuração / zona DNS atual, consulte o nosso guia: "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 - Certas organizações, os registos que gerem as extensões de domínios, têm exigências particulares relativamente aos servidores DNS (quantidade de servidores de nomes, valor dos registos, etc.). Em caso de dúvida, contacte o agente de registo responsável pelo domínio.
 
-### Etapa 1 - Aceder à gestão dos servidores DNS da OVHcloud <a name="access-dns-servers"></a>
+### 1 - Aceder à gestão dos servidores DNS da OVHcloud <a name="access-dns-servers"></a>
 
 Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **3** etapas.
 
@@ -74,7 +74,7 @@ Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **3** 
 >>
 >> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-### Etapa 2 - Alterar os servidores DNS <a name="modify-dns-servers"></a>
+### 2 - Alterar os servidores DNS <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -210,7 +210,7 @@ Se estes corresponderem aos que deseja aplicar, clique em `Aplicar`{.action}.
 
 Os antigos servidores DNS declarados e a configuração DNS que aplicavam serão desativados para o seu domínio. As zonas DNS presentes nos seus próprios servidores DNS e nos servidores DNS da OVHcloud tornar-se-ão as que estão ativas para o seu domínio.
 
-### Etapa 3 - Ter em conta a modificação dos servidores DNS
+### 3 - Ter em conta a modificação dos servidores DNS
 
 Depois de efetuar as alterações, devem ser tidos em conta dois períodos sucessivos:
 

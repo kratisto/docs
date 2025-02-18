@@ -43,7 +43,7 @@ However, it is essential to consider the following points:
 - If you do not want to modify the DNS servers but one or more records from your current DNS zone, please refer to our guide: “[Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)”.
 - Some of the organizations that manage domain name extensions (registries) have specific requirements regarding DNS servers (quantity of name servers, value of records, etc.). If in doubt, check with the registry responsible for the domain name extension.
 
-### Step 1 - Access OVHcloud DNS server management <a name="access-dns-servers"></a>
+### 1 - Access OVHcloud DNS server management <a name="access-dns-servers"></a>
 
 To do this, click on the tabs below to view each of the **4** steps in succession.
 
@@ -74,7 +74,7 @@ To do this, click on the tabs below to view each of the **4** steps in successio
 >>
 >> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-### Step 2 - Modify DNS servers <a name="modify-dns-servers"></a>
+### 2 - Modify DNS servers <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -210,7 +210,7 @@ If they correspond to the ones you want to apply, click `Apply`{.action}.
 
 The old DNS servers that have been declared, and the DNS configuration that they applied, will be disabled for your domain name. The DNS zones on your own DNS servers and on the OVHcloud DNS servers will become the ones active for your domain name.
 
-### Step 3 - Taking into account the modification of the DNS servers
+### 3 - Taking into account the modification of the DNS servers
 
 Once you have made your changes, two successive periods must be taken into account:
 
