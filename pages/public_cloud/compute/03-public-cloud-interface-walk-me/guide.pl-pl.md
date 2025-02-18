@@ -4,10 +4,6 @@ excerpt: "Przewodnik po interfejsie Public Cloud do znajdowania poszczególnych 
 updated: 2025-02-06
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
-
 ## Wprowadzenie
 
 Właśnie utworzyłeś Twój projekt Public Cloud i chcesz dowiedzieć się więcej o interfejsie użytkownika w Panelu klienta OVHcloud.
@@ -95,7 +91,7 @@ W projekcie Public Cloud dostępnych jest kilka narzędzi do zarządzania. Są o
 > Poniższa macierz porównuje kluczowe cechy każdego narzędzia, aby pomóc Ci wybrać rozwiązanie najlepiej dopasowane do Twoich potrzeb. Niezależnie od tego, czy jesteś początkującym użytkownikiem, zaawansowanym użytkownikiem czy ekspertem w automatyzacji, porównanie to pozwoli Ci lepiej zrozumieć korzyści, łatwość obsługi, wymagany poziom kompetencji i skalowalność każdego narzędzia.
 >
 
-| Criteri/Caratteristiche                   | Spazio Cliente OVHcloud | Horizon | Openstack API |
+| Criteri/Caratteristiche                   | Spazio Cliente OVHcloud | Horizon | OpenStack API |
 | ------------------------------------------- | ---------------------- | ------- | ------------- |
 | Główne zalety                        | Intuicyjny interfejs idealny do szybkiego uruchomienia. | Oferuje zaawansowaną kontrolę dla zaawansowanych użytkowników z zaawansowanym widokiem ustawień. | Pełna automatyzacja z płynną integracją z innymi narzędziami. |
 | Wymagany poziom kompetencji                 | Dostępne dla wszystkich, idealne dla początkujących lub prostych potrzeb | Pośredni, wymaga pewnego doświadczenia (Administratorzy systemów, Inżynierowie Cloud...) | Zaawansowany, wymaga kompetencji w zakresie skryptów/API (Architekci Cloud, Inżynierowie DevOps, Eksperci w dziedzinie automatyzacji) |
@@ -112,4 +108,4 @@ W projekcie Public Cloud dostępnych jest kilka narzędzi do zarządzania. Są o
 
 Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

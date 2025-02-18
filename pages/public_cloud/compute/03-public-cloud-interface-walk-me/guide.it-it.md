@@ -4,10 +4,6 @@ excerpt: "Visita guidata dell'interfaccia Public Cloud per scoprire le diverse s
 updated: 2025-02-06
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Hai appena creato il tuo progetto Public Cloud e vuoi saperne di più sull'interfaccia utente all'interno dello Spazio Cliente OVHcloud.
@@ -95,7 +91,7 @@ Nel tuo progetto Public Cloud sono disponibili diversi tool di gestione, in fond
 > La matrice seguente confronta le caratteristiche principali di ogni strumento per aiutarvi a scegliere la soluzione più adatta alle vostre esigenze. Che tu sia un principiante, un utente intermedio o un esperto di automazione, questo confronto ti permetterà di capire meglio i vantaggi, la facilità d'uso, i livelli di competenza richiesti e la scalabilità di ogni strumento.
 >
 
-| Criteri/Caratteristiche                   | Spazio Cliente OVHcloud | Horizon | Openstack API |
+| Criteri/Caratteristiche                   | Spazio Cliente OVHcloud | Horizon | OpenStack API |
 | ------------------------------------------- | ---------------------- | ------- | ------------- |
 | Vantaggi principali                        | Interfaccia intuitiva, ideale per una gestione rapida. | Offre maggiore controllo per gli utenti esperti, con una visualizzazione avanzata delle impostazioni. | Automazione completa con integrazione perfetta con altri strumenti. |
 | Livello di competenza richiesto                 | Accessibile a tutti, ideale per i principianti o le esigenze semplici | Intermediario, richiede una certa esperienza (Amministratori di sistema, Ingegneri Cloud...) | Avanzato, richiede competenze di scripting/API (Architetti Cloud, Ingegneri DevOps, Esperti in automazione) |
@@ -112,4 +108,4 @@ Nel tuo progetto Public Cloud sono disponibili diversi tool di gestione, in fond
 
 Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

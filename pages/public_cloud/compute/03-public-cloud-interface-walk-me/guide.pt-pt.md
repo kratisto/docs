@@ -1,12 +1,8 @@
 ---
 title: "Familiarizar-se com a interface Public Cloud"
 excerpt: "Visita guiada da interface Public Cloud para descobrir as diferentes secções"
-updated: 2021-12-06
+updated: 2025-02-06
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -83,7 +79,7 @@ Encontram-se disponíveis várias ferramentas de gestão no seu projeto Public C
 |**SSH Keys**|Uma ferramenta que lhe permite [gerir as suas chaves SSH](/pages/public_cloud/compute/creating-ssh-keys-pci) de forma centralizada.|
 |**Billing Control**|Uma vez que o Public Cloud baseia-se na faturação *pay as you go*, ou seja, as faturas são editadas no final do mês. [Neste menu](/pages/public_cloud/compute/analyze_billing), poderá seguir o seu consumo atual, ver uma previsão da próxima fatura e, claro, encontrar as suas faturas anteriores.|
 |**Credit and Vouchers**|Este menu permite-lhe consultar o consumo de um cupão, adicionar um ou [adicionar crédito](/pages/account_and_service_management/managing_billing_payments_and_services/add_cloud_credit_to_project) diretamente no seu projeto Public Cloud.|
-|**Contacts and Rights**|APara além da possibilidade de alterar o contacto técnico ou o contacto de faturação do seu projeto, terá a possibilidade de [adicionar outros contactos](/pages/public_cloud/compute/change_project_contact) (conta OVHcloud) para administrar tecnicamente o seu projeto. Também pode adicionar utilizadores apenas em consulta *read-only*.|
+|**Contacts and Rights**|Além da possibilidade de alterar o contacto técnico ou o contacto de faturação do seu projeto, terá a possibilidade de [adicionar outros contactos](/pages/public_cloud/compute/change_project_contacts) (conta OVHcloud) para administrar tecnicamente o seu projeto. Também pode adicionar utilizadores apenas em consulta *read-only*.|
 |**Project settings**|Esta última ferramenta permite-lhe configurar os parâmetros gerais do projeto como o seu nome, a sua configuração enquanto "projeto predefinido da conta", a compatibilidade HDS, ou ainda [eliminar o seu projeto Public Cloud](/pages/public_cloud/compute/delete_a_project).|
 
 ### Gestão dos serviços
@@ -95,7 +91,7 @@ Encontram-se disponíveis várias ferramentas de gestão no seu projeto Public C
 > A matriz abaixo compara as principais características de cada ferramenta para o ajudar a escolher a solução que melhor se adapta às suas necessidades. Quer seja um utilizador principiante, intermediário ou especialista em automatização, esta comparação permitir-lhe-á compreender melhor as vantagens, a facilidade de utilização, os níveis de competência necessários e a escalabilidade de cada ferramenta.
 >
 
-| Criteri/Caratteristiche                   | Spazio Cliente OVHcloud | Horizon | Openstack API |
+| Critérios/Caraterísticas                    | Spazio Cliente OVHcloud | Horizon | OpenStack API |
 | ------------------------------------------- | ---------------------- | ------- | ------------- |
 | Principais benefícios                        | Interface intuitiva, ideal para uma utilização rápida. | Proporciona um maior controlo para os utilizadores experientes com uma visualização de definições avançada. | Automatização completa, com integração fluida com outras ferramentas.|
 | Nível de competência necessário                 | Acessível a todos, ideal para iniciantes ou necessidades simples | Intermediário, requer uma certa perícia (administradores de sistemas, engenheiros de Cloud...) | Avançado, requer competências em scripting/API (Arquitetos Cloud, Engenheiros DevOps, Peritos em Automatização) |
@@ -112,4 +108,4 @@ Encontram-se disponíveis várias ferramentas de gestão no seu projeto Public C
 
 Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 
-Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

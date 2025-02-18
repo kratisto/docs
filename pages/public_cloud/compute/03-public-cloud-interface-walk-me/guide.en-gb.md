@@ -91,7 +91,7 @@ There are several management tools available in your Public Cloud project, they 
 > The matrix below compares the key features of each tool to help you choose the solution best suited to your needs. Whether you're a beginner, intermediate user or automation expert, this comparison will help you better understand the benefits, ease of use, skill levels required, and scalability of each tool.
 >
 
-| Criteria/Characteristics                   | OVHcloud Control Panel | Horizon | Openstack API |
+| Criteria/Characteristics                   | OVHcloud Control Panel | Horizon | OpenStack API |
 | ------------------------------------------ | ---------------------- | ------- | ------------- |
 | Key benefits | Intuitive interface, ideal for quick start-up. | Increased control for experienced users, with an advanced view of parameters. | Complete automation, with seamless integration with other tools.
 | Skill level required                       | Accessible to all, ideal for beginners or simple needs | Intermediate, requires some expertise (System Administrators, Cloud Engineers, etc.) | Advanced, requires scripting/API skills (Cloud Architects, DevOps Engineers, Automation Experts) |
