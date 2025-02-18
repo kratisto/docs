@@ -1,7 +1,7 @@
 ---
 title: AI Deploy - Billing and lifecycle
 excerpt: Learn how we bill AI Deploy
-updated: 2024-01-13
+updated: 2025-02-18
 ---
 
 > [!primary]
@@ -39,9 +39,7 @@ During its lifetime, the app will go through the following status:
 
 ## Billing principles
 
-AI Deploy apps are a pay-per-use solution. You only pay for the resources consumption, also known as available replicas, during a period of time (during the `RUNNING` and `SCALING` phases of your apps).
-
-The billing principle is quite simple, you select the amount of compute resource (CPUs or GPUs) you would like to work with and pay only for this.
+AI Deploy apps are a pay-per-use solution, with billing based on the consumption of compute resources (CPUs or GPUs). You can select the type and amount of resources you would like to work with and will be charged only for the resources consumed during the `SCALING` and `RUNNING` phases of your app replicas.
 
 We **do not provide** a pay-per-call pricing so far.
 
