@@ -56,7 +56,7 @@ La première étape consiste à identifier la ou les tables volumineuses présen
 
 Récupérez les informations d'accès à votre base de données directement dans le fichier de configuration de votre site web. Réalisez cette action à l'aide de l'**étape 1** de notre guide sur [le changement du mot de passe d'une base de données](/pages/web_cloud/web_hosting/sql_change_password).
 
-Pour vous connectez à la base de données via phpMtyAdmin, cliquez sur les onglets ci-dessous pour afficher successivement chacune des **5** étapes.
+Pour vous connectez à la base de données via phpMyAdmin, cliquez sur les onglets ci-dessous pour afficher successivement chacune des **5** étapes.
 
 > [!tabs]
 > **Etape 1**
@@ -79,11 +79,11 @@ Pour vous connectez à la base de données via phpMtyAdmin, cliquez sur les ongl
 >> 
 > **Etape 4**
 >>
->> Sur la nouvelle page, un tableau contenant vos bases de données créées apparaît
+>> Sur la nouvelle page, un tableau contenant vos bases de données créées apparaît.
 >>
 >> ![Go to phpMyAdmin](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
 >>
->> Notez, **pour votre base de données saturée**, son `Nom d'utilisateur` et son `Adresse du serveur` présents dans le tableau listant vos bases de données. 
+>> Prenez note du `Nom d'utilisateur` et de l'`Adresse du serveur` **de votre base de données saturée**. Ces informations sont visibles dans le tableau listant vos bases de données. 
 >>
 >> A droite de la base de données concernée, cliquez sur le bouton `...`{.action}, puis sur `Accéder à phpMyAdmin`{.action}.
 >>

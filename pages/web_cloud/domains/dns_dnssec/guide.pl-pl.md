@@ -88,13 +88,13 @@ Aby włączyć (lub wyłączyć) rozwiązanie **DNSSEC** dla Twojej domeny, klik
 >>
 >> W polu `Bezpieczeństwo` sprawdź stan obok wzmianki `Zabezpieczenie DNS - DNSSEC`.
 >>
->> ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec.png){.thumbnail}
+>> ![Secured Delegation DNSSEC](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec.png){.thumbnail}
 >>
 > **Etap 4**
 >>
 >> Dzięki przyciskowi aktywacji znajdującemu się nad adnotacją `Zabezpieczenie DNS - DNSSEC`{.action}, możesz włączyć lub wyłączyć **DNSSEC** dla Twojej domeny. Po wykonaniu tej czynności wyświetli się nowe okno, w którym możesz zatwierdzić zmianę.
 >>
->> ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec-confirmation.png){.thumbnail}
+>> ![Enable DNSSEC](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec-confirmation.png){.thumbnail}
 
 ### Przypadek nr 2 - Twoja domena jest zarejestrowana w OVHcloud i nie używa serwerów DNS OVHcloud
 

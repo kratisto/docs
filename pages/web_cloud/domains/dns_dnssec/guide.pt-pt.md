@@ -88,13 +88,13 @@ Para ativar (ou desativar) a solução **DNSSEC** para o seu domínio, clique na
 >>
 >> No quadro `Segurança`, verifique o estado ao lado da menção `Delegação Segura - DNSSEC`.
 >>
->> ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec.png){.thumbnail}
+>> ![Secured Delegation DNSSEC](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec.png){.thumbnail}
 >>
 > **Etapa 4**
 >>
 >> Graças ao botão de ativação situado por cima da menção `Delegação Segura - DNSSEC`{.action}, poderá ativar ou desativar o **DNSSEC** no seu domínio. Ao efetuar esta ação, aparecerá uma nova janela a partir da qual poderá validar a modificação.
 >>
->> ![dnssec](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec-confirmation.png){.thumbnail}
+>> ![Enable DNSSEC](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/activate-dnssec-confirmation.png){.thumbnail}
 
 ### Casos n°2 - O seu domínio está registado na OVHcloud e não utiliza os servidores DNS da OVHcloud
 

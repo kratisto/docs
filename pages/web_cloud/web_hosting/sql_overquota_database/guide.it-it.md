@@ -56,19 +56,42 @@ Il primo step consiste nell'identificare le tavole voluminose presenti nel tuo d
 
 Recupera le informazioni di accesso al database direttamente nel file di configurazione del tuo sito Web. Per effettuare questa operazione, utilizza lo step 1** della nostra guida su [modificare la password di un database](/pages/web_cloud/web_hosting/sql_change_password).
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona `Web Cloud`{.action} nella barra di navigazione in alto a sinistra. Clicca su `Hosting`{.action} e seleziona l'hosting Web associato al database condiviso OVHcloud. e clicca sulla scheda `Database`{.action}.
+Per accedere al database tramite phpMyAdmin, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** passi.
 
-Visualizzi una tabella con tutti i database disponibili nella parte inferiore dello schermo.
-
-![phpMyAdmin Access](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
-
-Ti ricordiamo che **per un database saturo**, il suo `Nome utente` e il suo `Indirizzo del server` sono presenti nella tabella che elenca i tuoi database. 
-
-Sempre nella scheda `Database`{.action}, clicca sul pulsante `...`{.action} a destra del database che è pieno e poi su `Accedi a phpMyAdmin`{.action}.
-
-![phpMyAdmin Go Login](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
-
-Inserisci le informazioni di accesso al database e clicca su `Connetti`{.action}.
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `Database`{.action}.
+>>
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Nella nuova pagina, visualizzi una tabella con i database creati.
+>>
+>> ![Go to phpMyAdmin](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
+>>
+>> Prendi nota del `Nome utente` e dell `Indirizzo del server` **del tuo database saturo**. Queste informazioni sono visibili nella tabella che elenca i tuoi database.
+>>
+>> Clicca sul pulsante `...`{.action} a destra del database e seleziona `Accedi a phpMyAdmin`{.action}.
+>>
+> **Step 5**
+>>
+>> ![phpMyAdmin Login interface](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
+>>
+>> Inserisci le informazioni di accesso al database e clicca su `Connetti`{.action}.
 
 #### 1.2 - Ricerca le tavole più voluminose <a name="step1.2"></a>
 
