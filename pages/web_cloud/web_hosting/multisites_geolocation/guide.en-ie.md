@@ -1,7 +1,7 @@
 ---
 title: "How do I geolocate a website in a specific country?"
 excerpt: "Find out how to locate your website using the geolocated IP addresses available on OVHcloud shared hosting plans"
-updated: 2025-02-17
+updated: 2025-02-11
 ---
 
 ## Objective

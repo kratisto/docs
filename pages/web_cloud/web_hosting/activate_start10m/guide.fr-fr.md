@@ -1,7 +1,7 @@
 ---
 title: "Hébergement web - Activer l’hébergement gratuit 100M"
 excerpt: "Découvrez comment activer votre hébergement gratuit 100M"
-updated: 2025-02-17
+updated: 2024-12-06
 ---
 
 ## Objectif

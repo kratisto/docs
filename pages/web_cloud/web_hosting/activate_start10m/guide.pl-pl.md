@@ -1,7 +1,7 @@
 ---
 title: "Hosting WWW - Włączanie darmowy hosting 100M"
 excerpt: "Dowiedz się, jak włączyć darmowy hosting 100M"
-updated: 2025-02-17
+updated: 2024-12-06
 ---
 
 ## Wprowadzenie 

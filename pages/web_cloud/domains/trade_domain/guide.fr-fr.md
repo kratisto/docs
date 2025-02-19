@@ -1,7 +1,7 @@
 ---
 title: "Nom de domaine - Comment changer le titulaire ?"
 excerpt: "Découvrez comment changer le titulaire d'un nom de domaine ou mettre à jour les informations qui lui sont associées"
-updated: 2025-02-17
+updated: 2025-02-05
 ---
 
 ## Objectif

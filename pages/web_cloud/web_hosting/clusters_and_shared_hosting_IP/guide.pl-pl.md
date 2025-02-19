@@ -1,7 +1,7 @@
 ---
 title: "Hosting WWW - Lista adresów IP według klastra"
 excerpt: "Poznaj wszystkie dostępne adresy IP dostępne na naszych hostingach"
-updated: 2025-02-17
+updated: 2025-01-29
 ---
 
 ## Wprowadzenie 

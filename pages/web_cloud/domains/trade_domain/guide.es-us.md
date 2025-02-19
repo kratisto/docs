@@ -1,7 +1,7 @@
 ---
 title: "Dominio - ¿Cómo cambiar el titular?"
 excerpt: "Descubra cómo cambiar el titular de un dominio o actualizar la información asociada al mismo"
-updated: 2025-02-17
+updated: 2025-02-05
 ---
 
 ## Objetivo

@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Kostenloses Hosting 100M aktivieren"
 excerpt: "Diese Anleitung erklärt, wie Sie Ihr kostenloses Hosting 100M aktivieren"
-updated: 2025-02-17
+updated: 2024-12-06
 ---
 
 ## Ziel 

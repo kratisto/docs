@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web - Lista dos endereços IP por cluster"
 excerpt: "Saiba todos os endereços IP disponíveis nos nossos alojamentos web"
-updated: 2025-02-17
+updated: 2025-01-29
 ---
 
 ## Objetivo
