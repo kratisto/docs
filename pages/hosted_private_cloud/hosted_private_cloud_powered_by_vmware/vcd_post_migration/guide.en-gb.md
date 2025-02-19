@@ -1,5 +1,5 @@
 ---
-title: "Setting up your network after vSphere to VCD migratio"
+title: "Setting up your network after vSphere to VCD migration"
 excerpt: "Learn how to configure your network after migrating from VMware vSphere to VMware Cloud Director."
 updated: 2025-02-19
 ---
