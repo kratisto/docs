@@ -67,12 +67,12 @@ Die Aktivierung von **DNSSEC** ist in drei unten aufgeführten Fällen möglich.
 
 ### Fall 1 - Ihre Domain ist bei OVHcloud registriert und verwendet die DNS-Server von OVHcloud
 
-So aktivieren (oder deaktivieren) Sie die **DNSSEC** Lösung für Ihre Domain, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um **DNSSEC** für Ihren Domainnnamen zu aktivieren oder deaktivieren, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
 >>
->> Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 >>
 >> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
@@ -98,9 +98,9 @@ So aktivieren (oder deaktivieren) Sie die **DNSSEC** Lösung für Ihre Domain, k
 
 ### Fall 2 - Ihre Domain ist bei OVHcloud registriert und verwendet nicht die DNS-Server von OVHcloud
 
-Wenden Sie sich in dieser Situation an den Anbieter, der die DNS-Konfiguration Ihrer Domain verwaltet, und fragen Sie ihn nach den DNSSEC Aktivierungsparametern ("Key Tag" / "Flag" / "Algorithm" / "Public key (encoded in base64)").
+Wenden Sie sich an den Anbieter, der die DNS-Konfiguration Ihrer Domain verwaltet, und erfragen Sie dort die DNSSEC-Aktivierungsparameter ("Key Tag" / "Flag" / "Algorithm" / "Public key (encoded in base64)").
 
-Führen Sie nach dem Abrufen dieser 4 Einstellungen, klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
+Wenn Sie diese 4 Werte bereit haben, klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -117,7 +117,7 @@ Führen Sie nach dem Abrufen dieser 4 Einstellungen, klicken Sie jeweils auf die
 >>
 > **Schritt 3**
 >>
->> Klicken Sie auf der angezeigten Seite auf die Registerkarte `DS-Einträge`{.action}. **Dieser Tab erscheint nur, wenn Ihre Domain externe DNS-Server verwendet**.
+>> Klicken Sie auf der angezeigten Seite auf den Tab `DS-Einträge`{.action}. **Dieser Tab erscheint nur, wenn Ihre Domain externe DNS-Server verwendet**.
 >>
 > **Schritt 4**
 >>
@@ -129,13 +129,13 @@ Führen Sie nach dem Abrufen dieser 4 Einstellungen, klicken Sie jeweils auf die
 >>
 >> ![DS records](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/ds-records/edit-plus-dashboard.png){.thumbnail}
 >>
->> Wenn Sie alle vier Formulare ausgefüllt haben, klicken Sie rechts in der Tabelle auf die blaue Schaltfläche `Bestätigen`{.action}.
+>> Wenn Sie alle vier Felder ausgefüllt haben, klicken Sie rechts in der Tabelle auf die blaue Schaltfläche `Bestätigen`{.action}.
 
 ### Fall 3 - Ihre Domain ist nicht bei OVHcloud registriert und verwendet die DNS-Server von OVHcloud
 
 > [!warning]
 >
-> Vergewissern Sie sich bei Ihrem aktuellen Registrar, dass noch keine DNSSEC Option für Ihre Domain aktiviert ist.
+> Vergewissern Sie sich bei Ihrem aktuellen Registrar, dass noch keine DNSSEC-Option für Ihre Domain aktiviert ist.
 
 Im Gegensatz zum **Fall 2** müssen Sie hier bei OVHcloud die Einstellungen zur Aktivierung des DNSSEC abrufen ("Key Tag" / "Flag" / "Algorithm" / "Public key (encoded in base64)").
 
