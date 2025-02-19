@@ -52,7 +52,7 @@ Haga clic en las fichas siguientes para ver cada uno de los **3** etapas.
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú desplegable `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
+>> Haga clic en el menú `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

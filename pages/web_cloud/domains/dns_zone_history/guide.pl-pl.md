@@ -1,7 +1,7 @@
 ---
 title: "Zarządzanie historią strefy DNS"
 excerpt: "Dowiedz się, jak sprawdzać, porównywać, pobierać i przywracać kopie zapasowe strefy DNS"
-updated: 2024-06-26
+updated: 2025-02-19
 ---
 
 ## Wprowadzenie
@@ -28,22 +28,41 @@ Dzięki historii stref DNS zarządzanie serwerami DNS stało się łatwiejsze.
 
 ## W praktyce
 
-Aby uzyskać dostęp do tej funkcji, zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action} w górnej części interfejsu. W kolumnie po lewej stronie przejdź do zakładki `Domeny`{.action}, następnie wybierz domenę powiązaną ze strefą DNS, którą chcesz zarządzać.
+Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **5** etapy.
 
-Na stronie, która się wyświetli i jeśli jeszcze nie zostałeś przekierowany do tej zakładki, kliknij zakładkę `Strefa DNS`{.action}.
-
-Pojawi się tabela, która przedstawia strefę DNS Twojej domeny. Znajduje się na niej lista rekordów DNS. Po prawej stronie tabeli znajduje się kilka przycisków umożliwiających wykonywanie operacji w strefie DNS. 
-
-![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
-
-Kliknij przycisk 'Wyświetl historię strefy DNS`{.action}. 
-
-Na nowej stronie, która się wyświetli, pojawi się tabela z historią kopii zapasowych strefy DNS, posortowana od najnowszej do najstarszej daty. Na górze tej tabeli znajduje się aktualna wersja Twojej strefy DNS. Na tej stronie możesz wykonać następujące czynności:
-
-- [Wyświetl strefę DNS](#view)
-- [Pobierz strefę DNS](#download)
-- [Przywróć strefę DNS](#restore)
-- [Porównaj dwie strefy DNS](#compare)
+> [!tabs]
+> **Etap 1**
+>>
+>> Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etap 2**
+>>
+>> Kliknij menu `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etap 3**
+>>
+>> Wybierz zakładkę `Strefa DNS`{.action} po wybraniu domeny.
+>>
+> **Etap 4**
+>>
+>> Pojawi się tabela, która przedstawia strefę DNS Twojej domeny. Znajduje się na niej lista rekordów DNS. Po prawej stronie tabeli znajduje się kilka przycisków umożliwiających wykonywanie operacji w strefie DNS. 
+>>
+>> ![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
+>>
+>> Kliknij przycisk `Wyświetl historię strefy DNS`{.action}. 
+>>
+> **Etap 5**
+>>
+>> Na nowej stronie, która się wyświetli, pojawi się tabela z historią kopii zapasowych strefy DNS, posortowana od najnowszej do najstarszej daty. Na górze tej tabeli znajduje się aktualna wersja Twojej strefy DNS. Na tej stronie możesz wykonać następujące czynności:
+>>
+>> - [Wyświetl strefę DNS](#view)
+>> - [Pobierz strefę DNS](#download)
+>> - [Przywróć strefę DNS](#restore)
+>> - [Porównaj dwie strefy DNS](#compare)
 
 > [!primary]
 >

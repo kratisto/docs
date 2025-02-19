@@ -1,7 +1,7 @@
 ---
 title: "Alterar os servidores DNS de um nome de domínio OVHcloud"
 excerpt: "Saiba como alterar os servidores DNS do seu domínio registado na OVHcloud"
-updated: 2024-09-16
+updated: 2025-02-19
 ---
 
 ## Objetivo
@@ -43,25 +43,38 @@ No entanto, é essencial ter em conta os seguintes pontos:
 - Se não pretender alterar os servidores DNS, mas um ou vários registos da sua configuração / zona DNS atual, consulte o nosso guia: "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 - Certas organizações, os registos que gerem as extensões de domínios, têm exigências particulares relativamente aos servidores DNS (quantidade de servidores de nomes, valor dos registos, etc.). Em caso de dúvida, contacte o agente de registo responsável pelo domínio.
 
-### Etapa 1 - Aceder à gestão dos servidores DNS da OVHcloud <a name="access-dns-servers"></a>
+### 1 - Aceder à gestão dos servidores DNS da OVHcloud <a name="access-dns-servers"></a>
 
-Para isso, efetue as seguintes ações:
+Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **3** etapas.
 
-1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Nomes de domínio`{.action}.
-4. Selecione o domínio em causa.
-5. Na página que se abrir, clique no separador `Servidores DNS`{.action}.
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>>
+>> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etapa 3**
+>> 
+>> Selecione o separador `Servidores DNS`{.action} quando posicionado no domínio em questão.
+>>
+> **Etapa 4**
+>>
+>> Aparecerá uma tabela com os servidores DNS atualmente definidos pela OVHcloud para o seu domínio. Vários servidores DNS podem estar listados, sendo que cada um deles possui a sua própria linha na tabela.
+>>
+>> > [!primary]
+>> >
+>> > Quando utiliza os servidores DNS da OVHcloud, os números presentes nos nomes dos servidores não têm qualquer ligação com o(s) serviço(s) que utiliza. Apenas a opção [DNS anycast](/links/web/domains-options) utiliza servidores DNS específicos (`ns200.anycast.me` e `dns200.anycast.me`). Uma vez subscritos, os direitos de autor são automaticamente atribuídos a si.
+>>
+>> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-Aparecerá uma tabela com os servidores DNS atualmente definidos pela OVHcloud para o seu domínio. Vários servidores DNS podem estar listados, sendo que cada um deles possui a sua própria linha na tabela.
-
-> [!primary]
->
-> Quando utiliza os servidores DNS da OVHcloud, os números presentes nos nomes dos servidores não têm qualquer ligação com o(s) serviço(s) que utiliza. Apenas a opção [DNS anycast](/links/web/domains-options) utiliza servidores DNS específicos (`ns200.anycast.me` e `dns200.anycast.me`). Uma vez subscritos, os direitos de autor são automaticamente atribuídos a si.
-
-![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
-
-### Etapa 2 - Alterar os servidores DNS <a name="modify-dns-servers"></a>
+### 2 - Alterar os servidores DNS <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -197,7 +210,7 @@ Se estes corresponderem aos que deseja aplicar, clique em `Aplicar`{.action}.
 
 Os antigos servidores DNS declarados e a configuração DNS que aplicavam serão desativados para o seu domínio. As zonas DNS presentes nos seus próprios servidores DNS e nos servidores DNS da OVHcloud tornar-se-ão as que estão ativas para o seu domínio.
 
-### Etapa 3 - Ter em conta a modificação dos servidores DNS
+### 3 - Ter em conta a modificação dos servidores DNS
 
 Depois de efetuar as alterações, devem ser tidos em conta dois períodos sucessivos:
 

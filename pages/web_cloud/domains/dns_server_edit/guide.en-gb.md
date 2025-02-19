@@ -1,7 +1,7 @@
 ---
 title: "How to modify the DNS servers of an OVHcloud domain name"
 excerpt: "Find out how to modify the DNS servers for your domain name registered at OVHcloud"
-updated: 2024-09-16
+updated: 2025-02-19
 ---
 
 ## Objective
@@ -43,25 +43,38 @@ However, it is essential to consider the following points:
 - If you do not want to modify the DNS servers but one or more records from your current DNS zone, please refer to our guide: “[Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)”.
 - Some of the organizations that manage domain name extensions (registries) have specific requirements regarding DNS servers (quantity of name servers, value of records, etc.). If in doubt, check with the registry responsible for the domain name extension.
 
-### Step 1 - Access OVHcloud DNS server management <a name="access-dns-servers"></a>
+### 1 - Access OVHcloud DNS server management <a name="access-dns-servers"></a>
 
-To do this, perform the following steps:
+To do this, click on the tabs below to view each of the **4** steps.
 
-1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. On the line at the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Domain names`{.action} dropdown menu.
-4. Select the domain name concerned.
-5. On the page that appears, click on the `DNS servers`{.action} tab.
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Domain names`{.action} menu, then choose the domain name concerned.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Step 3** 
+>>
+>> Select the `DNS servers`{.action} tab once you have clicked on the domain concerned.
+>>
+> **Step 4** 
+>>
+>> The table that opens will contain the DNS servers currently set by OVHcloud for your domain name. Several DNS servers can be listed, each with its own row in the table.
+>>
+>> > [!primary]
+>> >
+>> > When you use the OVHcloud DNS servers, the numbers in the server names have no link to the service(s) you are using. Only the [Anycast DNS](/links/web/domains-options) option uses specific DNS servers (`ns200.anycast.me` and `dns200.anycast.me`) automatically assigned to you when subsribing to the option.
+>>
+>> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-The table that opens will contain the DNS servers currently set by OVHcloud for your domain name. Several DNS servers can be listed, each with its own row in the table.
-
-> [!primary]
->
-> When you use the OVHcloud DNS servers, the numbers in the server names have no link to the service(s) you are using. Only the [Anycast DNS](/links/web/domains-options) option uses specific DNS servers (`ns200.anycast.me` and `dns200.anycast.me`) automatically assigned to you when subsribing to the option.
-
-![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
-
-### Step 2 - Modify DNS servers <a name="modify-dns-servers"></a>
+### 2 - Modify DNS servers <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -197,7 +210,7 @@ If they correspond to the ones you want to apply, click `Apply`{.action}.
 
 The old DNS servers that have been declared, and the DNS configuration that they applied, will be disabled for your domain name. The DNS zones on your own DNS servers and on the OVHcloud DNS servers will become the ones active for your domain name.
 
-### Step 3 - Taking into account the modification of the DNS servers
+### 3 - Taking into account the modification of the DNS servers
 
 Once you have made your changes, two successive periods must be taken into account:
 

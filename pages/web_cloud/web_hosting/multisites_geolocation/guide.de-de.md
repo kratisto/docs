@@ -37,7 +37,7 @@ Um die IP-Geolokalisierungsoption zu aktivieren, klicken Sie auf die folgenden R
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Drop-down-Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

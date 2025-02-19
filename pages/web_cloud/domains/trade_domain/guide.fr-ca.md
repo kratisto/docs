@@ -60,7 +60,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **7*
 >>
 > **Etape 2**
 >>
->> Cliquez sur le menu déroulant `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
+>> Cliquez sur le menu `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
 >>
 >> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

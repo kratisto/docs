@@ -37,7 +37,7 @@ Aby skorzystać z opcji geolokalizacji IP, kliknij poniższe zakładki, aby wyś
 >>
 > **Etap 2**
 >>
->> Kliknij menu rozwijane `Hosting`{.action}, następnie wybierz odpowiedni hosting.
+>> Kliknij menu `Hosting`{.action}, następnie wybierz odpowiedni hosting.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

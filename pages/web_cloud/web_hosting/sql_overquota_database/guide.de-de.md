@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Was tun, wenn meine Datenbank voll ist?"
 excerpt: "Erfahren Sie hier, wie Sie vorgehen, wenn Ihre Datenbank voll ist"
-updated: 2024-12-17
+updated: 2025-02-19
 ---
 
 ## Ziel
@@ -54,19 +54,42 @@ Im ersten Schritt werden die großen Tabellen in der Datenbank identifiziert.
 
 Das Passwort für den Zugriff auf Ihre Datenbank erhalten Sie direkt aus der Konfigurationsdatei Ihrer Seite. Führen Sie diese Aktion mithilfe von **Schritt 1** in unserer Anleitung zur [Änderung des Datenbankpassworts](/pages/web_cloud/web_hosting/sql_change_password) durch.
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie in der Navigationsleiste oben `Web Cloud`{.action} aus. Klicken Sie auf `Hosting-Pakete`{.action} und wählen Sie den relevanten Dienst mit der Datenbank aus. Gehen Sie anschließend zum Tab `Datenbanken`{.action}.
+Um sich über phpMyAdmin mit der Datenbank zu verbinden, klicken Sie auf die Tabs, um die **5** Schritte anzuzeigen.
 
-Unten auf dem Bildschirm wird eine Tabelle mit den Datenbanken angezeigt.
-
-![phpMyAdmin Access](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
-
-Beachten Sie für Ihre **überlastete Datenbank** den `Benutzernamen` und die `Server-Adresse` in der Tabelle Ihrer Datenbanken. 
-
-Klicken Sie auf den Button `...`{.action} rechts neben der relevanten Datenbank und dann auf `Zugang zu phpMyAdmin`{.action}.
-
-![phpMyAdmin Go Login](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
-
-Geben Sie die Zugangsdaten für Ihre Datenbank ein und klicken Sie auf `Anmeldung`{.action}.
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Klicken Sie auf den Tab `Datenbanken`{.action}.
+>>
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Schritt 4**
+>>
+>> Auf der neuen Seite wird eine Tabelle mit den erstellten Datenbanken angezeigt.
+>>
+>> ![Go to phpMyAdmin](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
+>>
+>> Notieren Sie sich den `Benutzernamen` und die `Server-Adresse` Ihrer **ausgelasteten Datenbank**. Diese Informationen werden in der Tabelle angezeigt, in der die Datenbanken aufgelistet sind.
+>>
+>> Rechts neben der betreffenden Datenbank klicken Sie auf den Button `...`{.action} und dann auf `Zugang zu phpMyAdmin`{.action}.
+>>
+> **Schritt 5**
+>>
+>> ![phpMyAdmin Login interface](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
+>>
+>> Geben Sie die Zugangsdaten für Ihre Datenbank ein und klicken Sie auf `Anmeldung`{.action}.
 
 #### 1.2 - Finden der größten Tabellen <a name="step1.2"></a>
 
@@ -74,7 +97,7 @@ Geben Sie die Zugangsdaten für Ihre Datenbank ein und klicken Sie auf `Anmeldun
 >
 > Von hier an wirken sich Ihre Aktionen auf den Inhalt Ihrer Datenbank aus. Die Änderungen, die Sie an **phpMyAdmin** vornehmen, können irreversible Folgen haben, wenn sie nicht korrekt durchgeführt werden.
 >
-> Achten Sie auf jeden Befehl, den Sie in der Datenbank ausführen. Sollten Sie Probleme haben, empfehlen wir Ihnen, einen [spezialisierten Dienstleister](/links/partner) zu kontaktieren. OVHcloud kann Ihnen bezüglich Datenbankinhalten nicht weiterhelfen.
+> Achten Sie auf jeden Befehl, den Sie in der Datenbank ausführen. Im Zweifelsfall empfehlen wir Ihnen, einen [spezialisierten Dienstleister](/links/partner) zu kontaktieren. OVHcloud kann Ihnen bezüglich Datenbankinhalten nicht weiterhelfen.
 >
 
 Sobald die Verbindung hergestellt wurde, wird die folgende Seite angezeigt:
@@ -217,7 +240,7 @@ Klicken Sie auf die Tabs, um die **5** Schritte anzuzeigen.
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Dropdown-Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
@@ -225,19 +248,19 @@ Klicken Sie auf die Tabs, um die **5** Schritte anzuzeigen.
 >>
 >> Klicken Sie auf den Tab `Datenbanken`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
 >>
 > **Schritt 4**
 >>
 >> Auf der neuen Seite wird eine Tabelle mit den erstellten Datenbanken angezeigt. Rechts neben der betreffenden Datenbank klicken Sie auf den Button `...`{.action} und dann auf `Quota neu berechnen`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>> ![Recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
 >>
 > **Schritt 5**
 >>
 >> Klicken Sie im angezeigten Fenster direkt auf den Button `Bestätigen`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>> ![Recalculate quota of a database](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
 >>
 >> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status "READ ONLY" Ihrer Datenbank.  
 >> Ihre Datenbank ist nun wieder voll funktionsfähig.
@@ -256,7 +279,7 @@ Klicken Sie auf die Tabs, um die **3** Schritte anzuzeigen.
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Dropdown-Menü `Web Cloud Databases`{.action} und wählen Sie die betreffende Web Cloud Databases Lösung aus.
+>> Klicken Sie auf das Menü `Web Cloud Databases`{.action} und wählen Sie die betreffende Web Cloud Databases Lösung aus.
 >>
 >> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
 >>
@@ -264,7 +287,7 @@ Klicken Sie auf die Tabs, um die **3** Schritte anzuzeigen.
 >>
 >> Im Bereich **Allgemeine Informationen** finden Sie den Abschnitt **Speichernutzung**. Klicken Sie rechts auf den Button `...`{.action} und anschließend auf `Quota Ihrer Datenbank aktualisieren`{.action}.
 >>
->> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>> ![Refresh your database quota](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
 >>
 >> Der Vorgang kann einige Minuten dauern, nachdem er gestartet wurde. Wenn die Installation abgeschlossen ist, verschwindet der Status "READ ONLY" Ihrer Datenbank.  
 >> Ihre Datenbank ist nun wieder voll funktionsfähig.

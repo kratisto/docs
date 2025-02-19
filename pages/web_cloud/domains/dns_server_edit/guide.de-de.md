@@ -1,7 +1,7 @@
 ---
 title: "DNS-Server eines OVHcloud Domainnamens ändern"
 excerpt: "Erfahren Sie hier, wie Sie die DNS-Server Ihres bei OVHcloud registrierten Domainnamens ändern können"
-updated: 2024-09-16
+updated: 2025-02-19
 ---
 
 ## Ziel
@@ -43,25 +43,38 @@ Dabei ist jedoch Folgendes zu berücksichtigen:
 - Wenn Sie die DNS-Server nicht ändern möchten, sondern nur einzelne Elemente Ihrer aktuellen DNS-Konfiguration ändern möchten, lesen Sie unsere Anleitung: „[Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit)“.
 - Vereinzelt haben die Organisationen, die Domainendungen verwalten (Registrys), besondere Anforderungen an die DNS-Server (Anzahl der Server, Vorgaben für Einträge, etc.). Überprüfen Sie im Zweifelsfall die Regeln der zuständigen Registry der Domainnamen-Endung.
 
-### Schritt 1 - Auf die Verwaltung der OVHcloud DNS-Server zugreifen <a name="access-dns-servers"></a>
+### 1 - Auf die Verwaltung der OVHcloud DNS-Server zugreifen <a name="access-dns-servers"></a>
 
-Gehen Sie hierzu wie folgt vor:
+Um auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
-1. Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager).
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Domainnamen`{.action}.
-4. Wählen Sie die betreffende Domain aus.
-5. Klicken Sie auf der angezeigten Seite auf den Tab `DNS-Server`{.action}.
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Wählen Sie den Tab `DNS-Server`{.action} aus.
+>>
+> **Schritt 4**
+>>
+>> Die angezeigte Tabelle enthält die derzeit von OVHcloud für Ihre Domain definierten DNS-Server. Es können mehrere DNS-Server mit jeweils eigener Zeile in der Tabelle aufgeführt werden.
+>>
+>> > [!primary]
+>> >
+>> > Wenn Sie die OVHcloud DNS-Server verwenden, haben die in den Servernamen enthaltenen Nummern keinen Bezug zu den von Ihnen verwendeten Diensten. Nur die Option [DNS Anycast](/links/web/domains-options) verwendet spezielle DNS-Server (`ns200.anycast.me` und `dns200.anycast.me`), die beim Abonnnieren des Dienstes automatisch zugewiesen werden.
+>>
+>> ![DNS servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
 
-Die angezeigte Tabelle enthält die derzeit von OVHcloud für Ihre Domain definierten DNS-Server. Es können mehrere DNS-Server mit jeweils eigener Zeile in der Tabelle aufgeführt werden.
-
-> [!primary]
->
-> Wenn Sie die OVHcloud DNS-Server verwenden, haben die in den Servernamen enthaltenen Nummern keinen Bezug zu den von Ihnen verwendeten Diensten. Nur die Option [DNS Anycast](/links/web/domains-options) verwendet spezielle DNS-Server (`ns200.anycast.me` und `dns200.anycast.me`), die beim Abonnnieren des Dienstes automatisch zugewiesen werden.
-
-![DNS-Servers](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-servers/tab.png){.thumbnail}
-
-### Schritt 2 - DNS-Server ändern <a name="modify-dns-servers"></a>
+### 2 - DNS-Server ändern <a name="modify-dns-servers"></a>
 
 > [!primary]
 >
@@ -195,7 +208,7 @@ Wenn sie korrekt sind, klicken Sie auf `Anwenden`{.action}.
 
 Die bisher deklarierten DNS-Server und deren DNS-Konfiguration werden für Ihren Domainnamen deaktiviert. Die DNS-Zonen auf Ihren DNS-Servern und den DNS-Servern von OVHcloud werden zu den aktiven Zonen für Ihre Domain.
 
-### Schritt 3 - Änderung der DNS-Server wird durchgeführt
+### 3 - Änderung der DNS-Server wird durchgeführt
 
 Nachdem Sie Ihre Änderungen vorgenommen haben, müssen zwei aufeinanderfolgende Zeiträume berücksichtigt werden:
 

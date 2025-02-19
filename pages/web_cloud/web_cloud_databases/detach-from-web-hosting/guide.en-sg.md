@@ -18,18 +18,18 @@ updated: 2025-01-24
 
 ## Instructions
 
-Click on the tabs below to view each of the **4** steps in succession.
+Click on the tabs below to view each of the **4** steps.
 
 > [!tabs]
 > **Step 1**
 >>
->> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 >>
 >> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
 > **Step 2**
 >>
->> Click the `Hosting plans`{.action} dropdown menu, then select the web hosting plan concerned.
+>> Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

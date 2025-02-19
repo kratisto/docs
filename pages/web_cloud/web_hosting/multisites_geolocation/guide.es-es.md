@@ -37,7 +37,7 @@ Para utilizar la opción de geolocalización por IP, haga clic en las fichas sig
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú desplegable `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
+>> Haga clic en el menú `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
