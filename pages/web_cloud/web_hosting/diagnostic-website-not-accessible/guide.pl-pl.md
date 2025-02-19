@@ -42,7 +42,7 @@ W przypadku niedostępności Twojej strony WWW może pojawić się kilka zwrotó
 > W związku z tym zalecamy [włączenie automatycznego](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#w-praktyce) odnowienia wszystkich Twoich subskrypcji OVHcloud.
 >
 
-Aby sprawdzić poprawność subskrypcji Twojej domeny, w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) kliknij Twoją nazwę, aby wyświetlić menu PPM, następnie `Produkty i usługi`{.action}.
+Aby sprawdzić poprawność subskrypcji Twojej domeny, w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) kliknij Twoją nazwę, aby wyświetlić menu PPM, następnie `Moje rozwiązania i usługi`{.action}.
 
 ![control-panel](/pages/assets/screens/control_panel/product-selection/right-column/right-menu-my-solutions-and-services.png){.thumbnail}|
 
