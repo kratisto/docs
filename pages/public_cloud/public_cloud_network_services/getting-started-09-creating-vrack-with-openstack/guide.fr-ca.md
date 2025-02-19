@@ -34,7 +34,7 @@ Avant de commencer, assurez-vous de lire ces guides pour configurer correctement
 - [Étape 3 : Intégrer une instance dans le vRack](#instance-vrack)
     - [Cas d'une nouvelle instance](#new-instance)
     - [Cas d'une instance déjà existante](#existing-instance)
-- [Suppression d'une interface](#detach-interface)
+- [Détacher une interface réseau](#detach-interface)
 
 
 <a name="activating-vrack"></a>
@@ -334,7 +334,7 @@ nova net-list
 ><br> - Celui du ou des VLAN nécessaires à votre configuration
 >
 
-**Ajout d'une interface privée**
+**Ajout d'une interface réseau privée**
 
 Afin d'attacher une nouvelle interface, vous pouvez effectuer la commande suivante :
 
@@ -375,16 +375,16 @@ openstack server show <ID-instance>
 
 <a name="detach-interface"></a>
 
-### Suppression d'une interface
+### Détacher une interface réseau
 
 > [!warning]
-> La suppression d'une interface est définitive.
+> Détacher une interface réseau entraîne sa suppression immédiate.
 >
-> Dans le cas où vous supprimeriez l'interface « Ext-Net » (IP publique), cette adresse serait relâchée et remise en circulation. Vous ne pourriez donc pas vous la réattribuer.
-><br>Cette action n'est à effectuer que si vous souhaitez isoler votre serveur dans le vRack (interface « Ext-Net ») ou la sortir d'un VLAN.
+> Cependant, il est important de noter que si vous detacher l'interface « Ext-Net » (IP publique), cette adresse serait relâchée et remise en circulation. Vous ne pourriez donc pas vous la réattribuer.
+><br>Cette action n'est à effectuer que si vous souhaitez isoler votre serveur dans le vRack (réseau privée) ou dans le cas contraire la sortir d'un ou plusieurs VLAN.
 >
 
-Afin de détacher une interface, vous aurez besoin, dans un premier temps, d'identifier le port Neutron qui aura été créé.
+Pour détacher une interface réseau, vous aurez besoin, dans un premier temps, d'identifier le port Neutron qui aura été créé.
 
 Pour cela, vous pourrez utiliser les commandes suivantes :
 

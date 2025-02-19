@@ -34,7 +34,7 @@ Antes de empezar, asegúrese de leer estas guías para configurar correctamente 
 - [Etapa 3: Integrar una instancia en el vRack](#instance-vrack)
     - [Caso de una nueva instancia](#new-instance)
     - [Caso de una instancia ya existente](#existing-instance)
-- [Eliminación de una interfaz privada](#detach-interface)
+- [Desvincular interfaz de red](#detach-interface)
 
 
 <a name="activating-vrack"></a>

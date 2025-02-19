@@ -482,10 +482,10 @@ Once the call is complete, if all information is correctly filled in, a new inte
 ##### **Removing an interface from your instance**
 
 > [!warning]
-> Deleting an interface is permanent.
+> Detaching a network interface is permanent.
 >
-> If you remove the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
-><br>This action is only necessary if you want to isolate your server in the vRack (Ext-Net interface) or remove it from a VLAN.
+> However, it is important to note that if you detach the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
+><br>This action is only required if you wish to isolate your server in the vRack (private network), or if you wish to remove it from one or more VLANs.
 >
 
 Once all the necessary information is retrieved, you can use the following call to remove an interface:
