@@ -1,7 +1,7 @@
 ---
 title: M3db - Capabilities and Limitations
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for M3db
-updated: 2024-05-27
+updated: 2025-02-19
 ---
 
 ## Objective

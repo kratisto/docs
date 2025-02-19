@@ -1,7 +1,7 @@
 ---
 title: Cassandra - Capabilities and Limitations
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Cassandra
-updated: 2025-01-07
+updated: 2025-02-19
 ---
 
 ## Objective

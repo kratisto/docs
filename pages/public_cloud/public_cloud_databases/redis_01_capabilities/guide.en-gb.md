@@ -1,7 +1,7 @@
 ---
 title: Caching - Capabilities and Limitations
 excerpt: Discover the capabilities and limitations of Public Cloud Databases for Caching
-updated: 2024-06-12
+updated: 2025-02-19
 ---
 
 ## Objective
