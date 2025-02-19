@@ -1,65 +1,65 @@
 ---
 title: "Configuration réseau après migration de vSphere vers VCD"
 excerpt: "Apprenez à configurer votre réseau après la migration de VMware vSphere vers VMware Cloud Director."
-updated: 2025-02-18
+updated: 2025-02-19
 ---
 
-## Objectif  
+## Objectif
 
-Ce guide explique les étapes nécessaires pour configurer votre environnement après la migration de vos services `VMware vSphere on OVHcloud` vers une offre `VMware Cloud Director on OVHcloud`.  
+Ce guide explique les étapes nécessaires pour configurer votre environnement après la migration de vos services `VMware vSphere on OVHcloud` vers une offre `VMware Cloud Director on OVHcloud`.
 
-Ces ajustements sont essentiels pour assurer le bon fonctionnement de vos `machines virtuelles (VMs)` et de vos réseaux.  
+Ces ajustements sont essentiels pour assurer le bon fonctionnement de vos `machines virtuelles (VMs)` et de vos réseaux.
 
-## Prérequis  
+## Prérequis
 
-- Accès à `VMware Cloud Director on OVHcloud`.  
+- Accès à `VMware Cloud Director on OVHcloud`.
 - Vous devez avoir accès au [Control Panel OVHcloud](/links/manager) et être administrateur technique du [VMware vSphere on OVHcloud](/links/hosted-private-cloud/vmware).
 
-## En pratique  
+## En pratique
 
-### Étape 1 : Mettre à jour la configuration réseau des machines virtuelles  
+### Étape 1 : Mettre à jour la configuration réseau des machines virtuelles
 
 Après la migration, vous devez ajuster la configuration réseau de vos `machines virtuelles (VMs)`.
 
-Pour passer la configuration réseau en `DHCP` *(Recommandé)* :
+Pour passer la configuration réseau en `DHCP` *(Recommandé)*:
 
 1. Accédez aux paramètres réseau de chaque `VM`.
 
 2. Modifiez le mode d’attribution des IP et sélectionnez `DHCP`{.action}.
 
-   ![Paramètre DHCP](images/01-VCD-post-migration.png){.thumbnail}
+    ![Paramètre DHCP](images/01-VCD-post-migration.png){.thumbnail}
 
 3. Assurez-vous que `"Guest customization settings"`{.action} est défini sur `Disabled` avant de modifier les paramètres de l’interface réseau (NIC).
 
-   ![Paramètre Désactivé](images/02-VCD-post-migration.png){.thumbnail}
+    ![Paramètre Désactivé](images/02-VCD-post-migration.png){.thumbnail}
 
-### Étape 2 : Gérer le problème d’adressage IP dans `VCD`  
+### Étape 2 : Gérer le problème d’adressage IP dans `VCD`
 
-Lors de la migration, les `VLANs` sont pré-créés avec des **`Gateway CIDRs` temporaires**, car les sous-réseaux exacts des VMs ne sont pas connus à l’avance.  
+Lors de la migration, les `VLANs` sont pré-créés avec des **`Gateway CIDRs` temporaires**, car les sous-réseaux exacts des VMs ne sont pas connus à l’avance.
 
-Cela peut entraîner des erreurs d’attribution d’IP si les paramètres ne sont pas ajustés après la migration.  
+Cela peut entraîner des erreurs d’attribution d’IP si les paramètres ne sont pas ajustés après la migration.
 
-#### **Problème détecté**  
-- Si une adresse IP statique est attribuée manuellement à une `VM` et qu’elle ne correspond pas au `Gateway CIDR` préconfiguré, l’attribution échoue.  
-- Il est impossible de créer ou de modifier une `VM` avec une adresse IP manuelle hors du `Gateway CIDR` défini initialement.  
+#### **Problème détecté**
+- Si une adresse IP statique est attribuée manuellement à une `VM` et qu’elle ne correspond pas au `Gateway CIDR` préconfiguré, l’attribution échoue.
+- Il est impossible de créer ou de modifier une `VM` avec une adresse IP manuelle hors du `Gateway CIDR` défini initialement.
 
-#### **Solutions possibles**  
+#### **Solutions possibles**
 
-1. **Utiliser le mode `DHCP`** *(Recommandé)*  
-   - L’activation du mode `DHCP` permet d’attribuer une adresse automatiquement, même si l’OS de la `VM` est configuré en statique.  
-   - Cette solution fonctionne aussi bien pour les **`réseaux isolés`** que pour les **`VM Networks`**.  
+1. **Utiliser le mode `DHCP`** *(Recommandé)*
+    - L’activation du mode `DHCP` permet d’attribuer une adresse automatiquement, même si l’OS de la `VM` est configuré en statique.
+    - Cette solution fonctionne aussi bien pour les **`réseaux isolés`** que pour les **`VM Networks`**.
 
-   ![Mode DHCP](images/04-VCD-post-migration.png){.thumbnail}
+   ![DHCP mode](images/03-VCD-post-migration.png){.thumbnail}
 
-2. **Mettre à jour manuellement le sous-réseau en `mode statique`**  
-   - Identifier et configurer manuellement le bon sous-réseau pour chaque réseau.  
-   - Il n’existe pas de méthode automatique pour récupérer ces informations.  
+2. **Mettre à jour manuellement le sous-réseau en `mode statique`**
+    - Identifier et configurer manuellement le bon sous-réseau pour chaque réseau.
+    - Il n’existe pas de méthode automatique pour récupérer ces informations.
 
-3. **Créer un nouveau `segment`**  
-   - Les clients peuvent créer un nouveau `network segment` avec le sous-réseau correct.  
-   - Cette solution est applicable uniquement si le client possède **un seul** bloc d’adresses IP publiques. 
+3. **Créer un nouveau `segment`**
+    - Les clients peuvent créer un nouveau `network segment` avec le sous-réseau correct.
+    - Cette solution est applicable uniquement si le client possède **un seul** bloc d’adresses IP publiques.
 
-## Aller plus loin  
+## Aller plus loin
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en œuvre de nos solutions, contactez votre Technical Account Manager ou demandez une analyse personnalisée de votre projet à nos experts de l’équipe [Professional Services](/links/professional-services).
 
