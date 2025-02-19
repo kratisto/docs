@@ -45,12 +45,12 @@ Dabei ist jedoch Folgendes zu berücksichtigen:
 
 ### 1 - Auf die Verwaltung der OVHcloud DNS-Server zugreifen <a name="access-dns-servers"></a>
 
-Auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
 >>
->> Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 >>
 >> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
@@ -62,7 +62,7 @@ Auf die Verwaltung der OVHcloud DNS-Server zugreifen, klicken Sie jeweils auf di
 >>
 > **Schritt 3**
 >>
->> Wählen Sie den Tab `DNS-Server`{.action} aus, nachdem Sie sich in der betreffenden Domain befinden.
+>> Wählen Sie den Tab `DNS-Server`{.action} aus.
 >>
 > **Schritt 4**
 >>
