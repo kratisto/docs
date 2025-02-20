@@ -103,7 +103,7 @@ Para isso, clique no separador `Informações gerais`{.action} do seu alojamento
 
 Para aumentar a RAM de uma oferta Web Cloud Databases associada a um alojamento partilhado **Performance**, deverá obrigatoriamente e previamente desassociar a oferta Web Cloud Databases do seu alojamento **Performance** para migrar para uma oferta superior.
 
-Para isso, aceda à Área de Cliente OVHcloud (/links/manager). Aceda à secção `Web Cloud`{.action}, no separador `os Alojamentos`{.action}, à esquerda. 
+Para isso, aceda à [Área de Cliente OVHcloud](/links/manager). Aceda à secção `Web Cloud`{.action}. Clique na secção `Alojamentos`{.action} na coluna da esquerda. Escolha o nome do alojamento web em causa. 
 
 Na página `Informações gerais`{.action}, encontra-se no centro da página uma caixa intitulada `Configuração`{.action}. À direita da menção `Web Cloud Databases`{.action}, clique no botão `...`{.action} depois `Desassociar`{.action}. Escolha a duração da renovação mais curta e prossiga até à validação da encomenda.
 

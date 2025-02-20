@@ -103,7 +103,7 @@ Clicca sulla scheda `Informazioni generali`{.action} del tuo hosting. Nella sezi
 
 Per aumentare la RAM di un'offerta Web Cloud Database associata a un hosting condiviso **Performance**, è necessario svincolare obbligatoriamente e in precedenza l'offerta Web Cloud Database del tuo hosting **Performance** per passare a un'offerta superiore.
 
-accedendo allo [Spazio Cliente OVHcloud](/links/manager). Accedi alla sezione `Web Cloud`{.action} e clicca su `Hosting`{.action} nella colonna a sinistra. 
+accedendo allo [Spazio Cliente OVHcloud](/links/manager). Accedi alla sezione `Web Cloud`{.action}. Clicca su `Hosting`{.action} nella colonna di sinistra. Seleziona il nome dell'hosting Web interessato. 
 
 Nella pagina `Informazioni generali`{.action}, in alto a sinistra, è possibile trovare un riquadro `Configurazione`{.action}. A destra della menzione `Web Cloud Databases`{.action}, clicca sul pulsante `...`{.action}, quindi su `Scollega`{.action}. Scegli la durata minima del rinnovo e prosegui fino alla conferma dell'ordine.
 

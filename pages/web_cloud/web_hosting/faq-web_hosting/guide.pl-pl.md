@@ -103,7 +103,7 @@ W tym celu kliknij zakładkę `Informacje ogólne`{.action} Twojego hostingu. W 
 
 Aby zwiększyć pamięć RAM w ofercie WWW Cloud Databases powiązanej z hostingiem współdzielonym **Performance**, należy najpierw odłączyć ofertę Web Cloud Databases od hostingu **Performance**, aby przejść na wyższą ofertę.
 
-W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager). Przejdź do sekcji `Web Cloud`{.action}, a następnie na odpowiedni hosting po lewej stronie w zakładce `Hosting`{.action}. 
+W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager). Przejdź do sekcji `Web Cloud`{.action}. W kolumnie po lewej stronie kliknij pozycję `Hosting`{.action}. Wybierz odpowiedni hosting. 
 
 Na stronie `Informacje ogólne`{.action}, która się wyświetla znajdziesz ramkę zatytułowaną `Konfiguracja`{.action} w centrum strony. Po prawej stronie pozycji `Web Cloud Databases`{.action} kliknij przycisk `...`{.action} a następnie na `Odłącz`{.action}. Wybierz najkrótszy okres odnowienia i postępuj zgodnie z instrukcjami aż do zatwierdzenia zamówienia.
 
