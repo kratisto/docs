@@ -1,22 +1,8 @@
 ---
-title: 'Starting an instance on a bootable volume'
+title: 'How to start a Public Cloud instance on a bootable volume'
 excerpt: 'Find out how to start an instance on a bootable volume'
 updated: 2025-02-20
 ---
-
-<style>
-details>summary {
-    color:rgb(33, 153, 232) !important;
-    cursor: pointer;
-}
-details>summary::before {
-    content:'\25B6';
-    padding-right:1ch;
-}
-details[open]>summary::before {
-    content:'\25BC';
-}
-</style>
 
 ## Objective
 
@@ -30,20 +16,22 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 > [!success]
 >
-> OpenStack natively allows you to boot from a volume. 
+> OpenStack natively allows you to boot from a volume.
 > It involves making the volume bootable and starting the instance from this volume.
 > The changes will cause the original disk to disappear as the new volume is taking over.
 > The functionality described in this guide eliminates the need to access the original disk and therefore takes advantage of the volume.
 
 > [!warning]
 >
-> Regarding OpenStack version used at the moment, with a bootable volume, you cannot rescue a volume-backed instance.
+> Regarding the current OpenStack version, with a bootable volume, you cannot rescue a volume-backed instance.
 >
 
 ## Requirements
 
 - [Configuring user access to Horizon](/pages/public_cloud/compute/loading_introducing_horizon)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+
+## Instructions
 
 ### Creating a bootable volume from an image.
 
@@ -53,31 +41,31 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >>
 >> Select the`appropriate region from the drop down menu at the top left.
 >>
->> On the Project tab, open the `Volumes tab`{.action} and click `Volumes category`{.action}
+>> On the Project tab, open the `Volumes`{.action} tab and click the `Volumes`{.action} category.
 >>
->> Click `Create Volume`{.action}
+>> Click `Create Volume`{.action}.
 >>
 >> ![public-cloud](images/create-a-volume-2.png){.thumbnail}
 >> 
->> In the dialog box that opens, enter or select the following values.
+>> In the dialog box that opens, enter or select the following values:
 >>
 >> | Information | Description |
 >> | --- | --- |
 >> | Volume Name | Specify a name for the volume.|
 >> | Description | Optionally, provide a brief description for the volume|
->> | Volume Source | choose the option Image.<br><br>![public-cloud](images/create-a-volume-3.png){.thumbnail}|
->> | Use image as a source | You can select the image from the list.<br><br>![public-cloud](images/create-a-volume-4.png){.thumbnail}|
->> | Type| Depend on the volume type you want to use |
+>> | Volume Source | Choose the option `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail}|
+>> | Use image as a source | You can select the image from the list.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail}|
+>> | Type| Depends on the volume type you want to use |
 >> | Size (GB) | The size of the volume in gibibytes (GiB). |
->> | Availability Zone | nova <br><br>![public-cloud](images/create-a-volume-5.png){.thumbnail}|
+>> | Availability Zone | nova <br><br> ![public-cloud](images/create-a-volume-5.png){.thumbnail}|
 >>
->> Click `Create Volume.`{.action}.
+>> Click `Create Volume`{.action}.
 >>
->> The volume will be in a creating state then a downloading state before being available
+>> The volume will be in a `creating` state then a `downloading` state before being available.
 >>
 >> ![public-cloud](images/create-a-volume-8.png){.thumbnail}
 >>
->> As you can see with the screenshot or with `clicking on the volume name.`{.action}, it is set as bootable.
+>> As you can see on the image below or if you click the volume name, it is set as bootable.
 >>
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail}
 >>
@@ -92,7 +80,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> >
 >> > Note the ID or the name of the image that you wish to use.
 >>
->> Create a bootable 10GB high-speed volume named **volume_ubuntu** from an image ubuntu 24.04:
+>> Create a bootable 10GB high-speed volume named **volume_ubuntu** from an Ubuntu 24.04 image:
 >>
 >> You can install an image on a volume using the `--image` argument:
 >>
@@ -123,7 +111,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> +---------------------+--------------------------------------+
 >> ```
 >>
->> In this command, **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** is the ubuntu 24.04 image ID.
+>> In this command, **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** is the Ubuntu 24.04 image ID.
 >> 
 >> > [!primary]
 >> >
@@ -135,27 +123,27 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 > **Horizon**
 >> Log in to [the Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
 >>
->> Select the `appropriate region`{.action} from the drop down menu at the top left.
+>> Select the appropriate region from the drop down menu at the top left.
 >>
->> On the Project tab, open the `Compute tab`{.action} and click `Instances category`{.action}
+>> On the Project tab, open the `Compute`{.action} tab and click `Instances`{.action} category.
 >>
->> Click `Launch Instance`{.action}
+>> Click `Launch Instance`{.action}.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail}
 >>
->> In the Launch Instance dialog box, for the Source tab, in the `Select Boot Source` choose volume.
+>> In the Launch Instance dialog box, in the Source tab, choose "Volume" in the `Select Boot Source` field.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
 >>
->> With choosing this option, a new field for Volume displays. You can select the volume created bofore from the list.
+>> A new field for volume selection appears. You can select the previously created volume from the list.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-4.png){.thumbnail}
 >>
 >> Click `Launch Instance`{.action}.
 >>
->> The instance will be in a build then Block Device Mapping state before being available.
+>> The instance will be in a `build` state then `Block Device Mapping` state before being available.
 >>
->> The instance will have the volume attached.
+>> The instance will eventually have the volume attached.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-9.png){.thumbnail}
 >>
@@ -166,7 +154,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> openstack server create --volume volume_ubuntu --flavor d2-2 --key-name publickey --nic net-id=Ext-Net InstanceTest
 >> ```
 >>
->> List volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment.
+>> List volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment:
 >>
 >> ```console
 >> $ openstack volume list
@@ -177,7 +165,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> +--------------------------------------+---------------+--------+------+--------------------------------------+
 >> ```
 >>
->> List volumes attached to Instance InstanceTest
+>> List volumes attached to Instance InstanceTest:
 >> 
 >> ```console
 >> $ openstack server volume list InstanceTest
@@ -227,7 +215,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> +-----------------------------+---------------------------------------------+
 >> ```
 >>
->> In this command, `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` is the Debian 12 image ID.
+>> In the command above, `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` is the Debian 12 image ID.
 >> 
 >> - List the volumes:
 >> 
