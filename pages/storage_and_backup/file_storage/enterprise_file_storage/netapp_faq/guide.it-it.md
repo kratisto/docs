@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - FAQ
 excerpt: FAQ sulla soluzione Entreprise File Storage
-updated: 2024-09-24
+updated: 2024-02-21
 ---
 
 > [!primary]
