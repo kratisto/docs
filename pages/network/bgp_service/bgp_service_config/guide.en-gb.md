@@ -6,13 +6,14 @@ updated: 2025-02-21
 
 ## Introduction
 
-Border Gateway Protocol (BGP) allows you to build highly available infrastructures by running standard BGP routing protocol straight from your OVHcloud hosts. It can be used with OVHcloud Additional IP or with your own IP addresses, by using BYOIP.
+The Border Gateway Protocol (BGP) allows you to build highly available infrastructures by running standard BGP routing protocol straight from your OVHcloud hosts. It can be used with OVHcloud Additional IP or with your own IP addresses, by using BYOIP.
 
 ## Requirements
 
-- At least one Bare Metal [dedicated server](/links/bare-metal/bare-metal) from the following range : High Grade, Scale, Advance Gen3
+- At least one Bare Metal [dedicated server](/links/bare-metal/bare-metal) from the following range : High Grade, Scale, Advance Gen3. All servers that will participate in the BGP peering must be in the same 1-AZ Region.
 - Access to the [OVHcloud Control Panel](/links/manager)
 - If you use [Bring Your Own IP (BYOIP)](/links/network/byoip) : IP prefixes that you own and can announce
+- A [vRack private network](/links/network/vrack)
 - Knowledge in IP networks and BGP routing protocol
 - Knowledge in Linux networking
 
@@ -121,31 +122,37 @@ TBD show protocols all
 ### Step 5: Verify Ingress and Egress Connectivity
 
 To ensure your BGP session is functioning correctly, test both inbound and outbound traffic:
-Check Ingress Traffic (Incoming)
 
+**Check Ingress Traffic (Incoming)**
 Use a remote server to ping or traceroute to your advertised IP prefix:
 
+```bash
 ping YOUR_ADVERTISED_IP
 traceroute YOUR_ADVERTISED_IP
+```
 
 Verify that traffic reaches your network via the expected BGP paths.
-Check Egress Traffic (Outgoing)
+
+**Check Egress Traffic (Outgoing)**
 
 From your server, check the routing table and ensure your BGP routes are in use:
 
+```bash
 ip route show
 vtysh -c 'show ip route bgp'
+```
 
 Confirm that outbound traffic is following the correct BGP paths.
 
 ### Step 6: Verify connectivity with OVHcloud team
-When your setup is done and after conducting basic tests, you should notify us via email.
+
+When your setup is done and after conducting basic tests, you should notify us via email at this address: <bgp_alpha@ovh.net>.
 
 We'll make sure the BGP connectivity and IP announcements are OK from our side.
 
 ## Limitations
 
-The number of peers on OVHcloud side is limited to 4. If you need more than 4 peers, you will need to install a route reflector on your infrastructure to redistribute route to your hosts.
+The number of peers on OVHcloud side is limited to 4. If you need more than 4 peers, you will need to install a route reflector on your infrastructure in order to redistribute routes to your hosts.
 
 &bull; BGP sessions : 4 BGP sessions per client (4IPv4 + 4IPv6) <br>&bull; prefixes : up to 32 IPv4 prefixes and 32 IPv6 prefixes per client <br>&bull; hosts : 10 hosts per client
 
@@ -172,6 +179,8 @@ The product is available in the following regions:
 
 If you encounter issues with your BGP session:
 
-&bull; Verify that your ASN and IP prefixes are correctly configured. <br>&bull; Check for any conflicting announcements. <br>&bull; Ensure your firewall and network policies allow BGP traffic. <br>&bull; Contact our team for further assistance via email : bgp_alpha@ovh.net
+&bull; Verify that your ASN and IP prefixes are correctly configured. <br>&bull; Check for any conflicting announcements. <br>&bull; Ensure your firewall and network policies allow BGP traffic. <br>&bull; Contact our team for further assistance via email : <bgp_alpha@ovh.net>
 
 ## Go further
+
+Join our [community of users](/links/community)
