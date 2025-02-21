@@ -1,0 +1,57 @@
+---
+title: "Desassociar a minha solução Web Cloud Databases de um alojamento web"
+excerpt: "Saiba como desassociar a sua solução Web Cloud Databases de um alojamento web"
+updated: 2025-01-24
+---
+
+## Objetivo
+
+As soluções [Web Cloud Databases](/links/web/databases) podem ser ativadas gratuitamente a partir dos nossos [planos de alojamento web Performance](/links/web/hosting). Neste caso, elas serão associadas ao alojamento web a partir do qual foram ativadas. Durante a utilização dos serviços, pode ser necessário desassociar a solução Web Cloud Databases do alojamento web Performance ao qual está associada.
+
+**Saiba como desassociar a sua solução Web Cloud Databases de um alojamento web.**
+
+## Requisitos
+
+- Ter um [instância Web Cloud Databases](/links/web/databases) associado a uma oferta de [alojamento web Performance](/links/web/hosting).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
+- Ser, no mínimo, o contacto "[Administrador](/pages/account_and_service_management/account_information/managing_contacts)" dos serviços sobre os quais deseja agir.
+
+## Instruções
+
+Clique nas guias abaixo para exibir sucessivamente cada uma das **4** etapas.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Clique no menu `Alojamentos`{.action} e escolha o alojamento web em causa.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> No **Configuração** encontrará uma **Web Cloud Databases**. Clique no botão `...`{.action} à direita e, a seguir, em `Desassociar`{.action}.
+>>
+>> ![Detach Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/wcdb-detach.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> Na nova página que vai aparecer, escolha o novo preço desejado para a sua solução Web Cloud Databases e siga as etapas indicadas até ao pagamento.
+>>
+>> ![Detach Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/detach-my-web-cloud-databases.png){.thumbnail}
+>>
+
+Depois de realizar as 4 etapas, a sua solução Web Cloud Databases será desligada dentro de algumas horas, no máximo.
+
+## Quer saber mais?
+
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
+
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
+
+Fale com nossa [comunidade de utilizadores](/links/community). 

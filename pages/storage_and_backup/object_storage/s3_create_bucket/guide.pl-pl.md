@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Tworzenie wiadra (EN)
 excerpt: Learn how to create an Object Storage bucket from the OVHcloud Control Panel
-updated: 2024-10-16
+updated: 2025-02-06
 ---
 
 ## Objective
@@ -76,6 +76,11 @@ You can now decide whether or not you wish to **encrypt your data** using [SSE-O
 ![Encryption](images/object_storage-bucke_creation_step6.png)
 
 Finally, name your bucket:
+
+> [!primary]
+>
+> Buckets' names are global. It's not possible to give the same name to two different buckets across all the OVHcloud regions.
+>
 
 ![Container name](images/object_storage-bucke_creation_step7.png)
 

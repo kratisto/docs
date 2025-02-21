@@ -1,7 +1,7 @@
 ---
 title: "OVHcloud Domainnamen verlängern"
 excerpt: "Erfahren Sie hier, wie Sie Ihre OVHcloud Domainnamen verlängern können"
-updated: 2024-11-12
+updated: 2025-02-17
 ---
 
 ## Ziel
@@ -70,7 +70,7 @@ Wenn Sie diese Dienstleistung jedoch nicht weiter nutzen möchten, besteht keine
 
 ### Verlängerungsmodus von Domainnamen ändern
 
-Klicken Sie in Ihrem [Kundencenter](/links/manager) rechts oben auf Ihren Namen und dann auf `Produkte und Dienstleistungen`{.action}. Identifizieren Sie den Domainnamen, dessen Verlängerungsmodus Sie ändern möchten.
+Klicken Sie in Ihrem [Kundencenter](/links/manager) rechts oben auf Ihren Namen und dann auf `Meine Angebote und Dienste`{.action}. Identifizieren Sie den Domainnamen, dessen Verlängerungsmodus Sie ändern möchten.
 
 #### Für einen einzigen Domainnamen
 
@@ -108,7 +108,7 @@ In diesem Fall wird die abonnierte Gültigkeitsdauer der laufenden Gültigkeitsd
 
 - Identifizieren Sie in der Tabelle den Domainnamen, den Sie kündigen möchten.
 - Klicken Sie rechts in der Zeile auf `...`{.action}.
-- Klicken Sie auf die Aktion `Meine Vertragsbindung kündigen`{.action}.
+- Klicken Sie auf die Aktion `Meinen Dienst kündigen`{.action}.
 
 Diese Aktion wird für Dienste vorgeschlagen, die mit **Automatische Verlängerung** eingestellt sind. Durch Auswahl dieser Aktion werden die automatische Verlängerung und die Zahlung für den ausgewählten Dienst deaktiviert.
 
@@ -126,7 +126,7 @@ Weitere Informationen zur Kündigung von OVHcloud Diensten finden Sie in [unsere
 > Die Rechnung ist erst am Tag der Verlängerung des zugehörigen Domainnamens verfügbar (30 Tage nach der Abbuchung bei automatischer Verlängerung).
 >
 
-Eine Meldung der Art `Rechnung zu bezahlen` erscheint, wenn eine Rechnung noch nicht beglichen wurde und außerdem folgendes zutrifft:
+Eine Meldung der Art `Ausstehende Rechnung` erscheint, wenn eine Rechnung noch nicht beglichen wurde und außerdem folgendes zutrifft:
 
  - Sie verfügen über Dienstleistungen mit automatischer Verlängerung.
  - Sie haben noch kein Zahlungsmittel für automatische Zahlungen hinterlegt.

@@ -61,7 +61,7 @@ Sekcja ta pozwala na zarządzanie partycjonowaniem dysku (*Disk Partition*) i gr
 
 Aby kontynuować, kliknij przycisk `Resize`{.action}.
 
-Po zakończeniu procesu Twoja instancja zostanie przeniesiona na model klasyczny z większą przestrzenią dyskową.
+Po zakończeniu procesu instancja zostanie przełączona na wybrany model. W naszym przypadku nasza instancja została przełączona na klasyczny model z większą przestrzenią dyskową.
 
 ![Nowa aplikacja](images/newflavor.png){.thumbnail}
 

@@ -51,7 +51,7 @@ Introduzca la información en la siguiente tabla:
 |Contraseña|Contraseña asociada al usuario.|
 |Puerto|Se suele completar automáticamente con el programa. En caso contrario, introduzca:<br><br>- el puerto "21" para una conexión FTP;<br>- el puerto "22" para una conexión SFTP (en caso de que esté activada). Más información sobre el SFTP en [la sección dedicada de este tutorial](#sftp).|
 
-Si no dispone de esta información, conéctese al [área de cliente de OVHcloud](/links/manager){.external} en la sección Web Cloud y haga clic en `Alojamientos`{.action}. Seleccione el alojamiento correspondiente y abra la pestaña `FTP - SSH`{.action}. Se mostrará la información relativa a su espacio de almacenamiento:
+Si no dispone de esta información, conéctese al [área de cliente de OVHcloud](/links/manager){.external} en la sección `Web Cloud`{.action} y haga clic en `Alojamientos`{.action}. Seleccione el alojamiento correspondiente y abra la pestaña `FTP - SSH`{.action}. Se mostrará la información relativa a su espacio de almacenamiento:
 
 ![hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/tab-pro.png){.thumbnail}
 
@@ -79,7 +79,7 @@ El **SFTP** (para **S**ecure **F**ile **T**ransfer **P**rotocol) es un protocolo
 
 En primer lugar, compruebe que el SFTP esté activado en su **Usuario FTP**.
 
-Acceda al [área de cliente de OVHcloud](/links/manager){.external}, en la sección Web Cloud y haga clic en `Alojamientos`{.action}. Seleccione el alojamiento correspondiente y abra la pestaña `FTP - SSH`{.action}.
+Acceda al [área de cliente de OVHcloud](/links/manager){.external}, en la sección `Web Cloud`{.action} y haga clic en `Alojamientos`{.action}. Seleccione el alojamiento correspondiente y abra la pestaña `FTP - SSH`{.action}.
 
 Compruebe si el **SFTP** está activo en la tabla de la parte inferior de la página.
 

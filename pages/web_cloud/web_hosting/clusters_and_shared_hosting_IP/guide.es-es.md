@@ -1,7 +1,7 @@
 ---
-title: "Direcciones IP de los clusters y alojamientos web"
+title: "Web hosting - Lista de direcciones IP por cluster"
 excerpt: "Descubra todas las direcciones IP disponibles con nuestros alojamientos web"
-updated: 2024-02-28
+updated: 2025-01-29
 ---
 
 ## Objetivo
@@ -16,7 +16,7 @@ Esta guía recoge todas las direcciones IP de los alojamientos web de OVHcloud. 
 
 > [!primary]
 >
-> Las direcciones IP de la opción CDN son «Anycast».
+> Las direcciones IP de la opción CDN son "Anycast".
 > Esto quiere decir que no necesitan geolocalización ([Más información aquí](/links/web/hosting-options-cdn)).
 > 
 
@@ -27,8 +27,33 @@ Esta guía recoge todas las direcciones IP de los alojamientos web de OVHcloud. 
 
 ## Procedimiento
 
-Para conocer el cluster de alojamiento web en el que se encuentra su servicio, conéctese al [área de cliente de OVHcloud](/links/manager) y seleccione `Web Cloud`{.action}. Haga clic en `Alojamientos`{.action} y seleccione el alojamiento correspondiente. A continuación, abra la pestaña `FTP - SSH`{.action}.
-Puede comprobar el número de cluster del alojamiento web en esta página bajo **Servidor FTP**.
+Para conocer el cluster de alojamiento web en el que se encuentra su servicio, aga clic en las fichas siguientes para ver cada uno de los **4** etapas.
+
+> [!tabs]
+> **Etapa 1**
+>>
+>> Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Haga clic en el menú `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> En la nueva página, haga clic en la pestaña `FTP - SSH`{.action}. 
+>>
+>> ![FTP-SSH](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ftp-ssh.png){.thumbnail}
+>>
+> **Etapa 4**
+>>
+>> En la nueva página, consulte el número de cluster del alojamiento web en la columna izquierda, bajo el epígrafe **Servidor FTP y SFTP** (3 cifras entre `0` y `9`).
+>>
+>> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
+>>
 
 ### Cluster 002
 

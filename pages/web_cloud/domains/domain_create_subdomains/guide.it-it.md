@@ -1,14 +1,60 @@
 ---
 title: "Come creare un sottodominio?"
 excerpt: "Questa guida ti mostra la definizione di un sottodominio e come crearlo in OVHcloud"
-updated: 2024-03-05
+updated: 2025-02-05
 ---
 
-## Obiettivo <a name="goal"></a>
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
-Internet è composto da server e da dispositivi che interagiscono tra loro attraverso una rete globale. Quando questi server e i relativi dispositivi sono connessi alla rete Internet, viene loro assegnato un **indirizzo IP pubblico** (equivalente a un indirizzo postale). Questo *indirizzo IP* permette di raggiungere in remoto un server o un dispositivo. In questo modo, un utente è in grado di consultare un sito Web digitando questo indirizzo IP grazie al browser Internet installato sul suo computer.
+## Obiettivo
 
-I **domini** sono stati introdotti per facilitare l'accesso a un sito Web per gli utenti della rete Internet. In effetti, è più facile ricordare un nome composto da una stringa di caratteri scelti (esempio: ovhcloud.com), piuttosto che da una serie di cifre che compone un indirizzo IP (esempio: 54.39.46.56).
+Durante l'utilizzo del dominio, è necessario creare e configurare **sottodomini**. I sottodomini corrispondono al terzo livello (*Third Level Domain*) di un dominio. Il sottodominio più conosciuto dagli utenti è, ad oggi, il sottodominio **W**orld **W**ide **W**eb (**www**). In effetti, molti siti Web utilizzano ancora questo sottodominio per essere consultati su Internet.
+
+Ad esempio, *www.ovhcloud.com* è un sottodominio del dominio *ovhcloud.com*.
+
+È possibile creare un'infinità di sottodomini a partire da un solo dominio.
+  
+**Questa guida ti mostra i sottodomini e come crearli in OVHcloud.**
+
+## Prerequisiti
+
+- Disporre di almeno un [dominio](/links/web/domains);
+- Disporre di una zona DNS attiva per il dominio. Se necessario, consulta la nostra guida "[Creare una zona DNS in OVHcloud](/pages/web_cloud/domains/dns_zone_create)";
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager);
+- Disporre dei diritti necessari per tutti i servizi in questione. Per maggiori informazioni consulta la nostra guida [Gestire i contatti dei servizi](/pages/account_and_service_management/account_information/managing_contacts).
+  
+## Procedura
+
+**Riepilogo**
+
+- [Introduzione](#introduction)
+- [Come creare un sottodominio?](#subdomain-creation)
+    - [1 - Identificare la posizione della zona DNS attiva del dominio](#identification)
+    - [2 - Crea i record DNS per i tuoi sottodomini](#dns-records-creation)
+- [Associare, autorizzare e configurare il sottodominio con un servizio OVHcloud](#link-subdomain)
+    - [Caso 1: visualizza un sito Web presente sul tuo hosting Web OVHcloud con un sottodominio](#link-subdomain-case-1)
+    - [Caso 2 - Crea indirizzi email Exchange con un sottodominio](#link-subdomain-case-2)
+    - [Caso 3 - Crea indirizzi Email Pro con un sottodominio](#link-subdomain-case-3)
+
+### Introduzione <a name="introduction"></a>
+
+![URL content](/pages/assets/schemas/domains/url-composition.png){.thumbnail}
+
+**Fare clic sulle due domande riportate di seguito per visualizzare la spiegazione.**
+
+/// details | Qual è la composizione di un dominio?
 
 Un **dominio** è composto da diversi livelli. Questi livelli sono generalmente separati da un `.` (ad eccezione di alcune **estensioni** del *primo livello* come *.co.uk*, *.gouv.fr* e *.notaires.fr*):
 
@@ -24,20 +70,10 @@ Un **dominio** è composto da diversi livelli. Questi livelli sono generalmente 
 
 - Third Level Domain (**subdomain**): è a partire da questo terzo livello che si parla di **sottodominio**. Descriveremo in dettaglio la definizione di servizio e ti spiegheremo come utilizzarlo con i tuoi diversi servizi.
 
-![URL content](/pages/assets/schemas/domains/url-composition.png){.thumbnail}
-  
-**Questa guida ti mostra i sottodomini e come crearli in OVHcloud.**
+///
 
-## Prerequisiti
 
-- Disporre di almeno un [dominio](/links/web/domains);
-- Disporre di una zona DNS attiva per il dominio. Se necessario, consulta la nostra guida "[Creare una zona DNS in OVHcloud](/pages/web_cloud/domains/dns_zone_create)";
-- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager);
-- Disporre dei diritti necessari per tutti i servizi in questione. Per maggiori informazioni consulta la nostra guida [Gestire i contatti dei servizi](/pages/account_and_service_management/account_information/managing_contacts).
-  
-## Procedura
-
-### Definizione di un sottodominio
+/// details | Cos'è un sottodominio?
 
 Un [dominio](/links/web/domains) può essere associato a diversi tipi di servizi (email, sito Web, ecc...).
 
@@ -49,11 +85,9 @@ I sottodomini (talvolta chiamati **prefissi**) rispondono alla necessità di seg
 
 I sottodomini permettono di strutturare facilmente l'insieme dei servizi Web (server DNS, sito Web, intranet, email, ecc...) associati a uno stesso dominio.
 
-Come indicato in precedenza nella sezione "[obiettivo](#goal)", i sottodomini corrispondono al terzo livello (*Third Level Domain*) di un dominio. Il sottodominio più conosciuto dagli utenti è, ad oggi, il sottodominio **W**orld **W**ide **W**eb (**www**). In effetti, molti siti Web utilizzano ancora questo sottodominio per essere consultati su Internet.
+Come indicato in precedenza, i sottodomini corrispondono al terzo livello (*Third Level Domain*) di un dominio. Il sottodominio più conosciuto dagli utenti è, ad oggi, il sottodominio **W**orld **W**ide **W**eb (**www**). In effetti, molti siti Web utilizzano ancora questo sottodominio per essere consultati su Internet.
 
 Ad esempio, *www.ovhcloud.com* è un sottodominio del dominio *ovhcloud.com*.
-
-È possibile creare un'infinità di sottodomini a partire da un solo dominio.
 
 Se, ad esempio, disponi del dominio *example.com*, puoi creare i seguenti sottodomini:
 
@@ -69,7 +103,9 @@ Se, ad esempio, disponi del dominio *example.com*, puoi creare i seguenti sottod
 
 Al di là del terzo livello di dominio, si tratta ugualmente di **sotto-domini**. Per riprendere uno degli esempi precedenti, è possibile creare il sottodominio *preprod.app.example.com* per testare la nuova versione dell’applicazione Web. senza interrompere l’accesso alla versione attuale della tua applicazione su *app.example.com*.
 
-### Crea un sottodominio
+///
+
+### Come creare un sottodominio? <a name="subdomain-creation"></a>
 
 Per funzionare correttamente, tutti i [domini](/links/web/domains) hanno bisogno di una **zona DNS**. La zona DNS è composta da informazioni tecniche chiamate *record DNS*. È come un centro di scambio.
 
@@ -77,7 +113,7 @@ Per maggiori informazioni sulle zone DNS, consulta la nostra guida "[Creare una 
 
 **Tutti i sottodomini si configurano nella zona DNS attiva del dominio. Aggiungendo record DNS**
 
-#### 1 - Identificare la posizione della zona DNS attiva del dominio
+#### 1 - Identificare la posizione della zona DNS attiva del dominio <a name="identification"></a>
 
 Sono possibili due scenari:
 
@@ -96,13 +132,14 @@ Sono possibili due scenari:
 Se i server DNS dichiarati per il tuo dominio hanno una di queste due forme:
 
 - `dnsXX.ovh.net` e `nsXX.ovh.net` (dove ognuna delle "X" rappresenta una cifra);
+- `dnsXX.ovh.ca` e `nsXX.ovh.ca` (dove ognuna delle "X" rappresenta una cifra);
 - `dns200.anycast.me` e `ns200.anycast.me`.
 
 Questo significa che la zona DNS attiva del dominio è attiva in OVHcloud.
 
 In caso contrario, contatta il provider DNS per creare sottodomini con il tuo dominio.
 
-#### 2 - Crea i record DNS per i tuoi sottodomini
+#### 2 - Crea i record DNS per i tuoi sottodomini <a name="dns-records-creation"></a>
 
 Per aggiungere sottodomini alla zona DNS attiva del dominio, consulta la nostra guida "[Modificare una zona DNS di OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
 
@@ -128,13 +165,13 @@ Nella parte successiva dell’esercitazione, questa guida ti mostra come autoriz
 > Se desideri configurare un sottodominio per un servizio ospitato in un luogo diverso da OVHcloud, OVHcloud non sarà in grado di fornirti assistenza. Per proseguire con la configurazione, contatta il fornitore del servizio esterno. 
 >
 
-### Associare, autorizzare e configurare il sottodominio con un servizio OVHcloud
+### Associare, autorizzare e configurare il sottodominio con un servizio OVHcloud <a name="link-subdomain"></a>
 
 Con un sottodominio è possibile utilizzare diversi servizi dell'universo "Web Cloud". Le procedure di associazione sono simili a quelle che si dovrebbero eseguire con un dominio. Ti mostreremo solo i casi più frequenti.
 
 Per i servizi non menzionati, consulta la documentazione relativa al servizio in questione. per identificare se il dominio può essere utilizzato con un sottodominio.
 
-#### Caso 1: visualizza un sito Web presente sul tuo hosting Web OVHcloud con un sottodominio
+#### Caso 1: visualizza un sito Web presente sul tuo hosting Web OVHcloud con un sottodominio <a name="link-subdomain-case-1"></a>
 
 Come per i domini e per autorizzare un sottodominio a visualizzare il contenuto di una cartella *di destinazione* presente su un hosting Web, accedi allo [Spazio Cliente OVHcloud](/links/manager){.external} e seleziona `Web Cloud`{.action}. Clicca su `Hosting`{.action} nella colonna di sinistra, seleziona la tua offerta in cui si trova il sito Web e poi clicca sulla scheda `Multisito`{.action}.
 
@@ -147,7 +184,7 @@ Per maggiori informazioni sulla configurazione di un dominio o sottodominio su u
 > L’aggiunta di un dominio o sottodominio su più siti può richiedere l’utilizzo di un token di conferma. Per un sottodominio, lo stesso token non viene preso in considerazione e deve essere aggiunto non per il sottodominio ma per il nome di dominio. In questo caso, aggiungi il token come record DNS di tipo TXT per il dominio nella zona DNS attiva del tuo dominio.
 >
 
-#### Caso 2 - Crea indirizzi email Exchange con un sottodominio
+#### Caso 2 - Crea indirizzi email Exchange con un sottodominio <a name="link-subdomain-case-2"></a>
 
 Per sbloccare la creazione di indirizzi email Exchange personalizzati con un sottodominio, accedi al tuo [Spazio Cliente OVHcloud](/links/manager){.external} e seleziona `Web Cloud`{.action}. Clicca su `Microsoft`{.action} nella colonna di sinistra e poi su `Exchange`{.action}. Seleziona la piattaforma Exchange da utilizzare con il sottodominio. Accedi alla scheda `Domini associati`{.action} e clicca sul pulsante `Aggiungi un dominio`{.action} a destra.
 
@@ -159,7 +196,7 @@ Per maggiori informazioni sulla configurazione di una piattaforma Exchange, cons
 - [Aggiungere un dominio su una piattaforma e-mail](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_adding_domain)
 - [Aggiungere un record CNAME per convalidare il dominio sul servizio di posta](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname)
 
-#### Caso 3 - Crea indirizzi Email Pro con un sottodominio
+#### Caso 3 - Crea indirizzi Email Pro con un sottodominio <a name="link-subdomain-case-3"></a>
 
 Per sbloccare la creazione di indirizzi Email Pro personalizzati con un sottodominio, accedi allo [Spazio Cliente OVHcloud](/links/manager){.external} e seleziona `Web Cloud`{.action}. Clicca su `Email Pro`{.action} e seleziona la piattaforma Email Pro da utilizzare con il sottodominio. Accedi alla scheda `Domini associati`{.action} e clicca sul pulsante `Aggiungi un dominio`{.action} a destra.
 

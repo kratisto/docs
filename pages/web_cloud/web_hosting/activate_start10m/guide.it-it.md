@@ -40,7 +40,7 @@ Per attivare l’hosting gratuito 100M, clicca sulle schede qui sotto per visual
 >>
 > **Step 2**
 >>
->> Clicca sul menu a tendina `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

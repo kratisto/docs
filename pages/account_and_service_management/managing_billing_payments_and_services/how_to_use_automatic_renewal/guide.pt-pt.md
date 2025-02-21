@@ -1,7 +1,7 @@
 ---
 title: Como renovar os meus serviços OVHcloud
 excerpt: Saiba como gerir os seus serviços e a sua renovação na sua Área de Cliente
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Objetivo
@@ -126,6 +126,15 @@ A página **Gestão das minhas ofertas e serviços** contém uma tabela de gest�
 >> Pode renovar estes serviços a qualquer momento antes de eles expirarem, bem como escolher o período de renovação dos mesmos.
 >> Neste caso, o período de validade subscrito será adicionado ao período de validade a decorrer. Não perderá o tempo de validade restante.
 >>
+>> > [!success]
+>> >
+>> > Uma vez na interface de pagamento online, se o serviço que deseja renovar dispõe de opções associadas e se também as deseja renovar, **não marque** o(s) botão(s) branco(s) seguido(s) da menção `Não renovar` associado(s) a cada uma das opções apresentadas.
+>> > Se selecionar estes botões brancos, irá solicitar a renovação do seu serviço principal **SEM** as suas eventuais opções associadas.
+>> >
+>> > Depois de fazer as suas escolhas, prossiga a encomenda clicando em `Validar`{.action}.
+>> >
+>> > Para informação, o preço de certas opções só é apresentado quando é gerada a nota de encomenda de renovação.
+>>
 > **Rescindir o meu serviço**
 >>
 >> ![Cancelar](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -144,6 +153,15 @@ A página **Gestão das minhas ofertas e serviços** contém uma tabela de gest�
 >>
 >> Será reencaminhado para uma interface de pagamento online.
 >> Pode renovar estes serviços a qualquer momento antes de eles expirarem, bem como escolher o período de renovação dos mesmos.
+>>
+>> > [!success]
+>> >
+>> > Uma vez na interface de pagamento online, se o serviço que deseja renovar dispõe de opções associadas e se também as deseja renovar, **não marque** o(s) botão(s) branco(s) seguido(s) da menção `Não renovar` associado(s) a cada uma das opções apresentadas.
+>> > Se selecionar estes botões brancos, irá solicitar a renovação do seu serviço principal **SEM** as suas eventuais opções associadas.
+>> >
+>> > Depois de fazer as suas escolhas, prossiga a encomenda clicando em `Validar`{.action}.
+>> >
+>> > Para informação, o preço de certas opções só é apresentado quando é gerada a nota de encomenda de renovação.
 >>
 > **Pagar a minha fatura**
 >>

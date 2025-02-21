@@ -1,7 +1,7 @@
 ---
 title: 'VMware on OVHcloud maintenance operations' 
 excerpt: 'Find out more about the operations carried out to ensure the reliability and performance of your Hosted Private Cloud VMware on OVHcloud equipment' 
-updated: 2024-09-10
+updated: 2025-01-30
 ---
 
 > [!success]
@@ -14,9 +14,8 @@ updated: 2024-09-10
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](/links/manager).
-- You are the administrative or technical contact for the [VMware on OVHcloud solution](https://www.ovhcloud.com/en-sg/enterprise/products/hosted-private-cloud/) infrastructure.
-- You have access to the [OVHcloud Control Panel](/links/manager) or the [API console for your services](https://ca.api.ovh.com/).
+- You are the administrative or technical contact for the [VMware on OVHcloud solution](/links/hosted-private-cloud/vmware) infrastructure.
+- You have access to the [OVHcloud Control Panel](/links/manager) or the [API console for your services](/links/api).
 
 ## Instructions
 
@@ -174,9 +173,13 @@ To get the details of each robot, run the following API call:
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| Update of Zerto virtual machines (Zerto Virtual Manager, VRA) to the latest version offered by OVHcloud. | Zerto lifecycle of OVHcloud. | None | The Zerto console is unavailable\* during the maintenance. During that period of time, all the related zerto operations can't be performed (failover, VPG management, etc.).<br><br> - VRA is redeployed so that replication is interrupted and the RPO increases momentarily. | 01H30 | Based on the publisher lifecycle |
+| Update or migrate Zerto virtual machines (Zerto Virtual Manager, VRA) to the latest version offered by OVHcloud. | Zerto lifecycle management by OVHcloud. | A **health check report** may be sent if issues are detected before the maintenance, requiring resolution before it can proceed. | - **Upgrades**: Minimal impact, temporary unavailability of replication and failover.<br>- **Migrations**: Full service downtime, requiring reinstallation on a new platform. | **Upgrades**: ~1h per instance.<br>**Migrations**: Up to 12h per instance. | Based on the publisher lifecycle |
 
-\*: see explanations below.
+> [!primary] 
+> **Difference between upgrades and migrations:**
+>
+> - **Upgrades** involve updating existing Zerto components (e.g., Zerto 9.5 to 9.7) with minimal service disruption (~1 hour).
+> - **Migrations** involve transitioning to a new platform (e.g., from Windows-based Zerto to appliance-based Zerto 10u6), resulting in up to 12 hours of complete downtime.
 
 ### Glossary
 

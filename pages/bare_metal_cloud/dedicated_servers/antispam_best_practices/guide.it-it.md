@@ -44,14 +44,14 @@ Una volta bloccato un indirizzo IP per SPAM, verrà inviata un'email al tuo acco
 
 **Cosa fare al ricevimento dell'email di alert?**
 
-L'operazione consiste nell'identificare il problema, risolverlo e sbloccare il tuo IP.
+Il processo prevede l'identificazione del problema, la sua risoluzione e lo sblocco dell'IP.
 
 ### Individuare e risolvere il problema
 
 **Prima di sbloccare un indirizzo IP, assicurati di aver adottato queste misure:**
 
 - Fermate l'invio di email (ad esempio: arrestare tutti i client di posta come qmail, Postfix, Sendmail, ecc.)
-- Verifica la coda di attesa delle email (ad esempio qmHandle per qmail, postcoda -p per Postfix) e svuotala.
+- Verifica la coda di attesa delle email (ad esempio qmHandle per qmail, postqueue -p per Postfix) e svuotala.
 - Analizza i tuoi log grazie al **Message-ID** presente nell'alert di blocco.
 - Se invia correttamente SPAM o email illegittime, ti consigliamo vivamente di risolvere il problema **prima** di sbloccare l'indirizzo IP. Consultare questa guida per le [migliori pratiche (EN)](/pages/bare_metal_cloud/dedicated_servers/antispam_best_practices#bestpractices) di invio delle e-mail.
 

@@ -1,13 +1,13 @@
 ---
 title: Configuring multi-attach persistent volumes with OVHcloud Cloud Disk Array
 excerpt: "Find out how to configure a multi-attach persistent volume using OVHcloud Cloud Disk Array"
-updated: 2024-06-20
+updated: 2025-02-12
 ---
 
 ## Objective
 
 OVHcloud Managed Kubernetes natively integrates Block Storage as persistent volumes. This technology may however not be suited to some legacy or non cloud-native applications, often requiring to share this persistent data accross different pods on multiple worker nodes (ReadWriteMany or RWX). If you would need to do this for some of your workloads, one solution is to use CephFS volumes.<br>
-[OVHcloud Cloud Disk Array](https://www.ovh.com/fr/cloud-disk-array/) is a managed solution that lets you easily configure a Ceph cluster and multiple CephFS volumes. In this tutorial we are going to see how to configure your OVHcloud Managed Kubernetes cluster to use [OVHcloud Cloud Disk Array](https://www.ovh.com/fr/cloud-disk-array/) as a CephFS provider for [Kubernetes Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/).
+[OVHcloud Cloud Disk Array](/links/storage/cloud-disk-array) is a managed solution that lets you easily configure a Ceph cluster and multiple CephFS volumes. In this tutorial we are going to see how to configure your OVHcloud Managed Kubernetes cluster to use [OVHcloud Cloud Disk Array](/links/storage/cloud-disk-array) as a CephFS provider for [Kubernetes Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/).
 
 ## Requirements
 
@@ -19,7 +19,7 @@ You also need to have [Helm](https://docs.helm.sh/) installed on your workstatio
 
 ## Instructions
 
-To configure OVHcloud Cloud Disk Array, you need to use the [OVHcloud API](https://eu.api.ovh.com/console/). If you have never used it, you can find the basics here: [First steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps).
+To configure OVHcloud Cloud Disk Array, you need to use the [OVHcloud API](/links/api). If you have never used it, you can find the basics here: [First steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps).
 
 ### Step 1 - Creating a partition and granting your Managed Kubernetes Service access to it
 
@@ -50,7 +50,7 @@ To configure OVHcloud Cloud Disk Array, you need to use the [OVHcloud API](https
 
 ![Create user on Cloud Disk Array](images/create-ceph-csi-user.png){.thumbnail}
 
-- Add permissions on default-fs for the Ceph CSI user:
+- Add permissions on fs-default for the Ceph CSI user:
 
 > [!api]
 >
@@ -59,18 +59,57 @@ To configure OVHcloud Cloud Disk Array, you need to use the [OVHcloud API](https
 
 ![Add user permission on Cloud Disk Array](images/add-user-permissions.png){.thumbnail}
 
-- Get your Kubernetes nodes IP:
+### Step 2 - Allow Kubernetes Nodes' IPs and/or Public Cloud Gateway IP to the Cloud Disk Array service
+
+#### Your cluster is installed with Public Network or a private network without using an OVHcloud Internet Gateway or a custom one as your default route
+
+Once the partition is created, we need to allow our Kubernetes nodes to access our newly created partition.
+
+Get our Kubernetes nodes IP:
 
 ```bash
 kubectl get nodes -o jsonpath='{ $.items[*].status.addresses[?(@.type=="InternalIP")].address }'
 ```
 
 ```console
-kubectl get nodes -o jsonpath='{ $.items[*].status.addresses[?(@.type=="InternalIP")].address }'
-57.128.37.26 135.125.66.144 141.95.167.5
+$ kubectl get nodes -o jsonpath='{ $.items[*].status.addresses[?(@.type=="InternalIP")].address }'
+51.77.204.175 51.77.205.79
 ```
 
-- Add the list of nodes IP to allow access to the Cloud Disk Array cluster:
+#### Your cluster is installed with Private Network and a default route via your Private Network (OVHcloud Internet Gateway/OpenStack Router or a custom one)
+
+Because your nodes are configured to be routed by the private network gateway, you need to add the gateway IP address to the ACLs.
+
+By using Public Cloud Gateway through our Managed Kubernetes Service, Public IPs on nodes are only for management purposes: [MKS Known Limits](/pages/public_cloud/containers_orchestration/managed_kubernetes/known-limits)
+
+You can get your OVHcloud Internet Gateway's Public IP by navigating through the [OVHcloud Control Panel](/links/manager):
+
+`Public Cloud`{.action} > Select your tenant > `Network / Gateway`{.action} > `Public IP`{.action}
+
+You can also use the following API endpoint to retrieve your OVHcloud Internet Gateway's Public IP:
+
+> [!api]
+>
+> @api {v1} /cloud GET  /cloud/project/{serviceName}/region/{regionName}/gateway/{id}
+>
+
+If you want to use your Kubernetes cluster to retrieve your Gateway Public's IP, run this command:
+
+```bash
+kubectl run get-gateway-ip --image=ubuntu:latest -i --tty --rm 
+```
+
+This will create a temporary pod and open a console.
+
+You may have to wait a little for the pod to be created. Once the shell appears, you can run this command:
+
+```bash
+apt update && apt upgrade -y && apt install -y curl && curl ifconfig.ovh
+```
+
+This command will output the Public IP of the Gateway of your kubernetes cluster.
+
+- Add the list of nodes IP or the Gateway IP to allow access to the Cloud Disk Array cluster:
 
 > [!api]
 >
@@ -121,7 +160,7 @@ keyring = /root/ceph.client.ceph-csi.keyring
 ```
 
 ```bash
-vim ceph.client.ceph-csi.keyring
+vim /root/ceph.client.ceph-csi.keyring
 
 [client.ceph-csi]
 key = <your_ceph_csi_user_key>
@@ -173,8 +212,8 @@ csiConfig:
   - clusterID: "abcd123456789" # You can change this, but it needs to have at least one letter character
     monitors:
       - "<your_ceph_monitor_ip_1>:6789"
-      - "<your_ceph_monitor_ip_2>::6789"
-      - "<your_ceph_monitor_ip_3>::6789"
+      - "<your_ceph_monitor_ip_2>:6789"
+      - "<your_ceph_monitor_ip_3>:6789"
 storageClass:
   create: true
   name: "cephfs"
@@ -218,52 +257,36 @@ And apply this to create the persistent volume claim:
 kubectl apply -f cephfs-persistent-volume-claim.yaml
 ```
 
-Let’s now create two Nginx pods using the persistent volume claim as their webroot folder on two different kubernetes nodes. In this example the kubernetes nodes are called `kubernetes-node-1` and `kubernetes-node-2`, please modify this accordingly. Let’s create a `cephfs-nginx-pods.yaml` file:
+Let's now create a DaemonSet, which will create pods on all available nodes in order to use our CephFS volume simultaneously on multiple nodes. Let’s create a `cephfs-nginx-daemonset.yaml` file:
 
 ```yaml
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: DaemonSet
 metadata:
-  name: cephfs-nginx-1
-  namespace: default
+    name: cephfs-nginx
+    namespace: default
 spec:
-  nodeName: kubernetes-node-1
-  volumes:
-    - name: cephfs-volume
-      persistentVolumeClaim:
-        claimName: cephfs-pvc
-  containers:
-    - name: nginx
-      image: nginx
-      ports:
-        - containerPort: 80
-          name: "http-server"
-      volumeMounts:
-        - mountPath: "/usr/share/nginx/html"
-          name: cephfs-volume
-
----
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: cephfs-nginx-2
-  namespace: default
-spec:
-  nodeName: kubernetes-node-2
-  volumes:
-    - name: cephfs-volume
-      persistentVolumeClaim:
-        claimName: cephfs-pvc
-  containers:
-    - name: nginx
-      image: nginx
-      ports:
-        - containerPort: 80
-          name: "http-server"
-      volumeMounts:
-        - mountPath: "/usr/share/nginx/html"
-          name: cephfs-volume
+    selector:
+      matchLabels:
+        name: nginx
+    template:
+        metadata:
+          labels:
+            name: nginx
+        spec:
+          volumes:
+          - name: cephfs-volume
+            persistentVolumeClaim:
+              claimName: cephfs-pvc
+          containers:
+          - name: nginx
+            image: nginx
+            ports:
+            - containerPort: 80
+              name: "http-server"
+            volumeMounts:
+            - mountPath: "/usr/share/nginx/html"
+              name: cephfs-volume
 ```
 
 And apply this to create the Nginx pods:
@@ -275,7 +298,8 @@ kubectl apply -f cephfs-nginx-pods.yaml
 Let’s enter inside the first Nginx container to create a file on the NFS persistent volume:
 
 ```bash
-kubectl exec -it cephfs-nginx-1 -n default -- bash
+FIRST_POD=$(kubectl get pod -l name=nginx --no-headers=true -o custom-columns=:metadata.name | head -1)
+kubectl exec -it $FIRST_POD -n default -- bash
 ```
 
 Create a new `index.html` file:
@@ -290,15 +314,30 @@ And exit the Nginx container:
 exit
 ```
 
+Generate the URL to open in your browser:
+
+```bash
+$ URL=$(echo "http://localhost:8001/api/v1/namespaces/default/pods/http:$FIRST_POD:/proxy/")
+echo $URL
+```
+
+You can open the displayed URL to access the Nginx Service.
+
+Use the following command to validate that the filesystem is shared with the second pod (given that you have more than one node deployed).
+
+```bash
+$ SECOND_POD=$(kubectl get pod -l name=nginx --no-headers=true -o custom-columns=:metadata.name | head -2 | tail -1)
+URL2=$(echo "http://localhost:8001/api/v1/namespaces/default/pods/http:$SECOND_POD:/proxy/")
+echo $URL2
+```
+
 Let’s try to access our new web page:
 
 ```bash
 kubectl proxy
 ```
 
-And open the URL <http://localhost:8001/api/v1/namespaces/default/pods/http:cephfs-nginx-1:/proxy/>
-
-Now let’s try to see if the data is shared with the second pod. Open the URL <http://localhost:8001/api/v1/namespaces/default/pods/http:cephfs-nginx-2:/proxy/>
+Open both URLs generated by the commands above to see if the data is shared with all the pods connected to the Ceph volume.
 
 As you can see the data is correctly shared between the two Nginx pods running on two different Kubernetes nodes.
 Congratulations, you have successfully set up a multi-attach persistent volume with OVHcloud Cloud Disk Array!

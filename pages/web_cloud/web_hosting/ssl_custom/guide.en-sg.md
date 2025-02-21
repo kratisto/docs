@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting - How to install a custom SSL certificate"
 excerpt: "Find out how to import and install a custom SSL certificate on your OVHcloud Web Hosting plan"
-updated: 2024-10-17
+updated: 2025-02-20
 ---
 
 ## Objective
@@ -163,8 +163,8 @@ Once you have met all of these requirements, you can start finalizing the instal
 To do this, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} drop-down menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, stay in the `General Information`{.action} tab.
 6. Go to the box labelled `Configuration`.
@@ -204,8 +204,8 @@ The installation will take several minutes.
 To verify that the installation is complete, perform the following actions:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} drop-down menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, stay in the `General Information`{.action} tab.
 6. Go to the box labelled `Configuration`.

@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web - Gerir um certificado SSL"
 excerpt: "Saiba como gerir um certificado SSL no alojamento web da OVHcloud"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -73,8 +73,8 @@ Como esta verificação é inerente aos parâmetros do(s) seu(s) website(s), rec
 Para eliminar o certificado SSL instalado no alojamento web, efetue as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, permaneça no separador `Informações gerais`{.action}.
 6. Aceda à caixa chamada `Configuração`.

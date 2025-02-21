@@ -26,7 +26,9 @@ Cette configuration permet notamment la réception d'appels sur votre numéro pr
  
 ## En pratique
 
-Pour débuter la manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager-telecom){.external} et assurez-vous de vous situer dans la partie « Télécom ». Cliquez sur `Téléphonie`{.action} puis sélectionnez, parmi les numéros alias qui s'affichent, celui sur lequel vous souhaitez configurer la redirection de vos appels entrants.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias sur lequel vous souhaitez configurer la redirection de vos appels entrants.
 
 Cliquez sur l'onglet `Configuration`{.action}.<br>
 Parmi les configurations proposées, choisissez `Redirection d'appels`{.action} puis cliquez sur le bouton `Paramétrer`{.action}.

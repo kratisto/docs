@@ -43,9 +43,10 @@ Assurez-vous ainsi d'indiquer et de maintenir à jour les coordonnées de l'ense
 
 ### Étape 2 : modifier ses coordonnées et demander leur parution
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager), partie `Télécom`. Cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne ou le numéro OVHcloud concerné.
-
-Positionnez-vous ensuite sur l'onglet `Coordonnées`{.action}. L'image ci-dessous montre l'accès pour modifier les coordonnées d'un numéro OVHcloud. Vous pourriez avoir davantage d'onglets si vous réalisez la manipulation pour une ligne OVHcloud.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP ou votre numéro alias.
+1. Cliquez sur la ligne SIP ou le numéro alias concerné.
+1. Positionnez-vous ensuite sur l'onglet `Coordonnées`{.action}. L'image ci-dessous montre l'accès pour modifier les coordonnées d'un numéro OVHcloud. Vous pourriez avoir davantage d'onglets si vous réalisez la manipulation pour une ligne OVHcloud.
 
 ![telephonedirectory](images/manage-telephone-directory-step1.png){.thumbnail}
 

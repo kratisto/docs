@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Ändern von mit einem Webhosting verbundenen Domainnamen"
 excerpt: "Erfahren Sie hier, wie Sie die Zuordnungseinstellungen von Domainnamen oder Subdomains ändern, die bereits auf Ihrem Webhosting deklariert sind"
-updated: 2024-09-04
+updated: 2025-02-20
 ---
 
 ## Ziel
@@ -32,8 +32,8 @@ Bei der Verwendung Ihres Webhostings oder zur Aktualisierung Ihrer Website könn
 So ändern Sie die Zuordnungseinstellungen für Domainnamen oder Subdomain, die bereits auf Ihrem Webhosting-Angebot deklariert ist:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Hosting-Pakete`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Hosting-Pakete`{.action}.
 4. Wählen Sie das betreffende Webhosting aus.
 5. Klicken Sie auf den Tab `Multisite`{.action}.
 6. Klicken Sie in der Tabelle rechts neben der betreffenden Domain bzw. Subdomain auf den Button `...`{.action} und dann auf `Domain bearbeiten`{.action}.

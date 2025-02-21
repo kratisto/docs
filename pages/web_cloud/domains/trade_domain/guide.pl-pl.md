@@ -1,7 +1,7 @@
 ---
-title: "Zmiana właściciela domeny"
-excerpt: "W tym przewodniku znajdziesz różne informacje na temat zmiany właściciela domeny."
-updated: 2024-09-04
+title: "Domena - Jak zmienić właściciela?"
+excerpt: "Dowiedz się, jak zmienić właściciela domeny lub zaktualizować informacje na jej temat"
+updated: 2025-02-05
 ---
 
 ## Wprowadzenie
@@ -9,16 +9,16 @@ updated: 2024-09-04
 Oprócz [zarządzania kontaktami](/pages/account_and_service_management/account_information/managing_contacts), zarejestrowanie domeny wymaga podania informacji dotyczących jej właściciela. Właściciel **domeny** w tym kontekście dotyczy osoby lub firmy posiadającej prawa do tej domeny. **Zmiana właściciela** odnosi się do przeniesienia praw własności z jednej osoby lub firmy na inną, informacje **właściciela** mają moc prawną. Na przykład proces ten jest obowiązkowy, jeśli firma zmienia nazwę.
 
 > [!primary]
->Operacja ta nie przenosi Twojej domeny na inne konto klienta OVHcloud.
+> Operacja ta nie przenosi Twojej domeny na inne konto klienta OVHcloud.
 >
->W tym celu należy [zmienić kontakty](/pages/account_and_service_management/account_information/managing_contacts) domeny.
+> W tym celu należy [zmienić kontakty](/pages/account_and_service_management/account_information/managing_contacts) domeny.
 >
-> Jeśli potrzebujesz dokonać zmiany właściciela i kontaktu dla tej samej nazwy domeny, nie ma preferencyjnej kolejności. Jednak to kontakt administratora jest w stanie zainicjować te operacje. Te dwie zmiany są zatem wprowadzane w obszarze klienta kontaktu administratora nazwy domeny.
+> Jeśli chcesz zmienić właściciela oraz kontakt dla tej samej domeny, stanowczo zalecamy **pierwsza** zmiana właściciela, aby zapewnić optymalne przejście. Jednak to kontakt administratora jest w stanie zainicjować te operacje. Te dwie zmiany są zatem wprowadzane w obszarze klienta kontaktu administratora nazwy domeny.
 >
 > Dane właściciela domeny mają wartość wyłącznie administracyjną i są całkowicie niezależne od informacji, które mogą być powiązane z identyfikatorem klienta OVHcloud. W związku z tym osoba fizyczna lub organizacja (firma, stowarzyszenie, etc.) zadeklarowana wyłącznie jako właściciel domeny, nie ma dostępu do Panelu klienta OVHcloud.
 >
 
-**Dowiedz się, jak zmienić właściciela domeny**
+**Dowiedz się, jak zmienić właściciela domeny lub zaktualizować informacje na jej temat**
 
 ## Wymagania początkowe
 
@@ -47,56 +47,78 @@ Oprócz [zarządzania kontaktami](/pages/account_and_service_management/account_
 > - aktualizacje statusu domeny. Aby to sprawdzić, zaloguj się do [Panelu klienta OVHcloud](/links/manager), a następnie przejdź do sekcji `Web Cloud`{.action}. W kolumnie po lewej stronie kliknij `Domeny`{.action}, a następnie `Operacje w toku`{.action}.
 >
 
-### Etap 1: wybierz domenę
+### Rozpocznij procedurę zmiany właściciela lub zmień powiązane z nim informacje
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`{.action}. Kliknij `Domeny`{.action}, wybierz domenę globalną (gTLD), dla której chcesz zmienić właściciela.
+Kliknij poniższe zakładki, aby wyświetlić kolejne kroki **7**.
 
-### Etap 2: uruchomienie procedury zmiany właściciela
-
-W karcie `Informacje ogólne`{.action} przejdź do sekcji **Abonament** w prawym dolnym rogu. Kliknij `...`{.action} przed **kontaktami**, po czym kliknij `Zmiana właściciela`{.action}.
-
-![zmiana właściciela](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/change-owner.png){.thumbnail}
+> [!tabs]
+> **Etap 1**
+>>
+>> Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etap 2**
+>>
+>> Kliknij menu `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etap 3**
+>>
+>> Na stronie, która się wyświetli, w polu **Abonament** znajduje się pozycja **Kontakt**. Kliknij przycisk `...`{.action} po prawej stronie, a następnie `Zarządzanie kontaktami`{.action}.
+>>
+>> ![Change owner](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/manage-contacts.png){.thumbnail}
+>>
+> **Etap 4**
+>>
+>> Na nowej stronie przejdź do pola **Właściciel**, następnie kliknij przycisk `Zmodyfikuj`{.action}.
+>>
+>> ![Manage contacts and owners](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/manage-contacts-and-owners.png){.thumbnail}
+>>
+> **Etap 5**
+>>
+>> > [!warning]
+>> >
+>> > Każda zmiana imienia, nazwiska, organizacji, statusu prawnego lub adresu e-mail właściciela jest traktowana jako zmiana **właściciela**.
+>> >
+>> > Jeśli zmieniasz **tylko** dane właściciela inne niż wymienione powyżej, wprowadź zmiany bezpośrednio i kliknij `Zatwierdź`{.action}. W tym przypadku nie jest konieczne zlecenie zmiany właściciela. W tym celu nie musisz potwierdzać zmian w e-mailu.
+>> >
+>> > Jeśli jest to konieczne i aby rozpocząć zmianę właściciela, kliknij na link znajdujący się na dole strony i zatytułowany `Kliknij tutaj, aby kontynuować`{.action}.
+>>
+>> ![Owner informations](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/owner.png){.thumbnail}
+>>
+> **Etap 6**
+>>
+>> Otworzy się nowa zakładka w przeglądarce dla wszystkich domen uprawnionych do zmiany właściciela. Wybierz z listy nazwę domeny, zaznaczając pole po lewej stronie. Etap ten można również wykorzystać do rozpoczęcia operacji zbiorczej. Możliwe jest zatem zainicjowanie zmiany właściciela dla kilku domen jednocześnie, na przykład w celu zmiany właściciela wszystkich domen *.ovh*, jeśli ich obecni właściciele są identyczni.
+>>
+>> ![Change owner domains list](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/available-domains.png){.thumbnail}
+>>
+>> Po dokonaniu wyboru, kliknij przycisk `Dalej`{.action}.
+>>
+> **Etap 7**
+>>
+>> W formularzu danych posiadacza karty upewnij się, że wpisałeś poprawne informacje we wszystkich wymaganych polach. Uważaj na błędy przy wprowadzaniu danych i w miarę możliwości używaj [znaki ASCII](http://facweb.cs.depaul.edu/sjost/it212/documents/ascii-pr.htm). Pamiętaj, że wszelkie niedokładne lub fałszywe informacje mogą spowodować błąd techniczny, a tym samym opóźnienie całego procesu.
+>>
+>> Po potwierdzeniu wniosku otrzymasz dwie wiadomości e-mail mające na celu jego potwierdzenie lub anulowanie:
+>>
+>> - e-mail do aktualnego właściciela;
+>> - e-mail do przyszłego właściciela.
+>>
+>> Jeśli adres e-mail nie zostanie zmieniony w związku ze zmianą właściciela, na adres e-mail do kontaktu otrzymają one obie wiadomości, ale każda z tych wiadomości musi zostać potwierdzona.
+>>
+>> Gdy obaj adresaci potwierdzą wniosek e-mailem, zmiana właściciela domeny stanie się skuteczna.
+>>
 
 > [!warning]
 >
-> Każda zmiana nazwiska, nazwiska, organizacji, statusu prawnego i adresu e-mail właściciela jest uważana za zmianę właściciela.
+> - Procedura musi zostać zatwierdzona przez obie strony w ciągu 14 dni od złożenia wniosku. **Po upływie tego terminu procedura zostaje anulowana**.
 >
-> Jeśli zmienisz tylko dane właściciela inne niż wymienione powyżej, przejdź do sekcji [Aktualizacja danych właściciela](#updateownerinformation) poniżej.
+> - Jeśli jedna ze stron odrzuci zmianę, żądanie zostanie anulowane.
 >
-
-Otworzy się nowa zakładka przeglądarki z wszystkimi domenami uprawnionymi do zmiany właściciela. Wybierz z listy nazwę domeny, zaznaczając kratkę po lewej stronie. Etap ten może być również wykorzystany do rozpoczęcia operacji zbiorczej: można zainicjować zmianę właściciela dla kilku domen jednocześnie, na przykład w celu zmiany właściciela dla wszystkich domen *.ovh*. Po dokonaniu wyboru kliknij `Dalej`{.action}.
-
-![zmiana właściciela](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/available-domains.png){.thumbnail}
-
-W formularzu szczegółów właściciela wprowadź poprawne informacje we wszystkich obowiązkowych polach. Uważaj na błędy podczas wprowadzania danych i unikaj używania [znaków ASCII](http://facweb.cs.depaul.edu/sjost/it212/documents/ascii-pr.htm), jeśli to możliwe. Należy pamiętać, że wszelkie niedokładne lub błędne informacje mogą powodować błąd techniczny, a tym samym opóźnienie w całym procesie wymiany informacji.
-
-Po potwierdzeniu zlecenia wymiany otrzymasz dwa e-maile, które pozwolą na potwierdzenie lub anulowanie zlecenia:
-
-- e-mail wysłany do aktualnego właściciela;
-- e-mail wysłany do przyszłego właściciela.
-
-Jeśli adres e-mail nie został zmieniony w związku ze zmianą właściciela, referencyjny adres e-mail otrzyma oba e-maile, ale każdy z nich musi zostać potwierdzony.
-<br>Zmiana właściciela domeny wejdzie w życie po potwierdzeniu wniosku przez e-mail.
-
-> [!warning]
+> - Jeśli adres e-mail aktualnego właściciela jest nieaktualny lub niedostępny, możesz **w tym przypadku** skontaktować się bezpośrednio z działem pomocy, wysyłając zgłoszenie w [centrum pomocy OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help).
 >
-> - Procedura musi zostać zatwierdzona przez obie strony w ciągu 14 dni od złożenia wniosku. **Po tym terminie zabieg zostaje anulowany**.
-> 
-> - Jeżeli jedna ze stron odrzuci zmianę, wniosek zostaje anulowany.
->
-> - Jeśli adres e-mail aktualnego właściciela jest przestarzały lub niedostępny, możesz **w tym przypadku** skontaktować się bezpośrednio z działem pomocy, wysyłając zgłoszenie w [Centrum pomocy OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help).
->
-> - Jeśli właściciel domeny został zmieniony, domena nie będzie mogła zostać [przeniesiona do innego operatora](/pages/web_cloud/domains/transfer_outgoing_domain) przez 60 dni.
-
-### Aktualizacja danych właściciela <a name="updateownerinformation"></a>
-
-Jeśli musisz zaktualizować niektóre informacje uboczne, takie jak numer telefonu, adres itp., nie musisz wszczynać postępowania handlowego. Informacje te mogą zostać zmienione bezpośrednio w [Panelu klienta OVHcloud](/links/manager).
-
-W sekcji **Abonament** w zakładce `Informacje ogólne`{.action} kliknij `...`{.action} przed **kontaktami**, a następnie kliknij `Aktualizuj dane właściciela`{.action}.
-
-![zmiana właściciela](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/refresh-holder-information.png){.thumbnail}
-
-W przypadku tej operacji nie musisz potwierdzać modyfikacji za pomocą e-maila.
+> - Jeśli właściciel domeny został zmodyfikowany, domena nie będzie mogła zostać [przeniesiona do innego operatora](/pages/web_cloud/domains/transfer_outgoing_domain) przez okres 60 dni.
 
 ## Sprawdź również
 

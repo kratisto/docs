@@ -28,13 +28,18 @@ Vous pouvez créer des numéros abrégés pour une seule ligne ou partager ces n
 
 - **Pour accéder à la gestion des numéros abrégés d'une seule ligne** :
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}. Cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne concernée. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Numéros abrégés`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Numéros abrégés`{.action}.
  
 ![configuration numeros abrégés](images/configurer-numeros-abreges-step1-2022.png){.thumbnail}
 
 - **Pour accéder à la gestion des numéros abrégés d'un groupe de lignes** :
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}. Cliquez sur `Téléphonie`{.action} puis sélectionnez le groupe de lignes concerné. Cliquez enfin sur le bouton `Numéros abrégés`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur le bouton `Numéros abrégés`{.action}.
  
 ![configuration numeros abrégés](images/configurer-numeros-abreges-step2-2022.png){.thumbnail}
 

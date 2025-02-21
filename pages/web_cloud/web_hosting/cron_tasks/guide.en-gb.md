@@ -1,7 +1,7 @@
 ---
 title: "Using automated tasks on a Web Hosting plan"
 excerpt: "Find out how to configure scheduled jobs on your Web Hosting"
-updated: 2024-05-16
+updated: 2025-02-20
 ---
 
 <style>
@@ -106,15 +106,30 @@ The task will be ready within a few minutes. You can then modify all of its sett
 
 ### Modify or delete a scheduled task
 
-To do this, perform the following steps:
+Click on the tabs below to view each of the **4** steps.
 
-1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} dropdown menu.
-4. Select the web hosting plan concerned.
-5. On the page that pops up, click on the `More`{.action} tab, then `Cron`{.action}.
-6. In the table that appears, click the `...`{.action} button to the right of the scheduled task concerned.
-7. Click on the `Edit`{.action} or `Delete`{.action} button, depending on the action you want to perform on the scheduled task.
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Hosting plans`{.action} menu, then select the Web Hosting plan concerned.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> On the page that pops up, click on the `More`{.action} tab, then `Cron`{.action}.
+>>
+> **Step 4**
+>>
+>> In the table that appears, click the `...`{.action} button to the right of the scheduled task concerned.
+>>
+>> Click on the `Edit`{.action} or `Delete`{.action} button, depending on the action you want to perform on the scheduled task.
 
 ### Limitations of Web Hosting tasks
 

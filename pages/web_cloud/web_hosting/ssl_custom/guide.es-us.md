@@ -1,7 +1,7 @@
 ---
 title: "Web hosting - Instalar un certificado SSL personalizado"
 excerpt: "Descubra cómo importar e instalar un certificado SSL personalizado en un alojamiento web de OVHcloud"
-updated: 2024-10-17
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -163,8 +163,8 @@ Una vez que haya cumplido todos estos requisitos, ya puede finalizar la instalac
 Para ello, lleve a cabo las siguientes acciones:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Alojamientos`{.action}.
 4. Seleccione el alojamiento web correspondiente.
 5. A continuación, siga en la pestaña `Información general`{.action}.
 6. Acceda al recuadro `Configuración`.
@@ -204,8 +204,8 @@ La instalación puede tardar varios minutos.
 Para comprobar que la instalación se ha completado, lleve a cabo los siguientes pasos:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Alojamientos`{.action}.
 4. Seleccione el alojamiento web correspondiente.
 5. A continuación, siga en la pestaña `Información general`{.action}.
 6. Acceda al recuadro `Configuración`.

@@ -21,7 +21,7 @@ La fonctionnalité Click2Call (ou « appel en un clic ») permet de mettre en re
 
 ### Configurer la fonctionnalité Click2Call
 
-Vous avez la possibilité de configurer la fonctionnalité Click2Call depuis votre [espace client OVHcloud](/links/manager){.external} (manipulation simple) ou depuis les [API OVHcloud](/links/manager){.external} (manipulation experte).
+Vous avez la possibilité de configurer la fonctionnalité Click2Call depuis votre [espace client OVHcloud](/links/manager){.external} (manipulation simple) ou depuis les [API OVHcloud](/links/api){.external} (manipulation experte).
 
 > [!primary]
 >
@@ -32,9 +32,10 @@ Vous avez la possibilité de configurer la fonctionnalité Click2Call depuis vot
 
 #### Configurer le Click2Call depuis l'espace client
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external} et rendez-vous dans la section `Télécom`. Cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne concernée.
-
-Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Appel en 1 clic (Click2Call)`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Appel en 1 clic (Click2Call)`{.action}.
 
 ![modeintercom](images/click2call-step1.png){.thumbnail}
 
@@ -56,7 +57,7 @@ Si cela est nécessaire, l'interface de gestion de la fonctionnalité Click2Call
 
 > [!primary]
 >
-> Pour plus d'informations sur le fonctionnement des API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps)»
+> Pour plus d'informations sur le fonctionnement des API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) »
 
 Rendez-vous sur le lien <https://api.ovh.com/console/> puis connectez-vous avec votre identifiant client OVHcloud. Dès lors, utilisez les appels API ci-dessous afin de configurer la fonctionnalité Click2Call. 
 

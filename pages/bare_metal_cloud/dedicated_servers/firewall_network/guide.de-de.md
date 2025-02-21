@@ -1,7 +1,7 @@
 ---
 title: Aktivieren und Konfigurieren der Edge Network Firewall
 excerpt: Erfahren Sie hier, wie Sie die Edge Network Firewall konfigurieren
-updated: 2024-12-16
+updated: 2025-01-24
 ---
 
 ## Ziel
@@ -28,6 +28,9 @@ Zum Schutz von Diensten, die über öffentliche IP-Adressen zugänglich sind, bi
 > Diese Funktion kann nur eingeschränkt oder nicht verfügbar sein, falls ein Dedicated Server der [**Eco** Produktlinie](/links/bare-metal/eco-about) eingesetzt wird.
 >
 > Weitere Informationen finden Sie auf der [Vergleichsseite](/links/bare-metal/eco-compare).
+
+> [!warning]
+> Die Edge Network Firewall unterstützt das QUIC-Protokoll nicht.
 
 ## In der praktischen Anwendung
 

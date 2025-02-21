@@ -1,12 +1,16 @@
 ---
-title: "IP address list for Web Hosting clusters"
+title: "Web Hosting - List of IP addresses by cluster"
 excerpt: "Find out the appropriate IP addresses to use with your OVHcloud Web Hosting plan"
-updated: 2024-02-28
+updated: 2025-01-29
 ---
 
 ## Objective
 
-It might become necessary to manually adjust the access settings of a service. Then, you will need the respective IP address corresponding to your Web Hosting's specific configuration. This might be the case when dealing with DNS zones, ACLs or OVHcloud service options, e.g. CDN, country IPs, paid or free SSL certificates.
+In this guide you can find all of the IP addresses for OVHcloud web hosting plans. For example, you can use it to find the IP address you need to enter in your DNS zones, depending on:
+
+- Your cluster/hosting
+- Your options (CDN, paid SSL, free SSL, etc.)
+- The targeted country
 
 **This guide lists all available IP addresses of OVHcloud Web Hosting plans, sorted by clusters.**
 
@@ -17,13 +21,38 @@ It might become necessary to manually adjust the access settings of a service. T
 
 ## Requirements
 
-- an [OVHcloud Web Hosting plan](/links/web/hosting)
-- access to the [OVHcloud Control Panel](/links/manager)
+- An [OVHcloud Web Hosting plan](/links/web/hosting)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
-To find out on which Web Hosting cluster your service is located, log in to your [OVHcloud Control Panel](/links/manager) and select `Web Cloud`{.action}. Click `Hosting plans`{.action}, then choose the Web Hosting plan concerned. Next, navigate to the `FTP - SSH`{.action} tab.
-You can verify the cluster number of the Web Hosting on this page under **FTP server**.
+To find out on which web hosting cluster your service is located, click on the tabs below to view each of the **4** steps.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> On the page that pops up, click on the `FTP - SSH`{.action} tab.
+>>
+>> ![FTP-SSH](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ftp-ssh.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> On the new page, retrieve the cluster number of the web hosting plan under **FTP and SFTP server** (3 digits between `0` and `9`).
+>>
+>> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
+>>
 
 ### Cluster 002
 

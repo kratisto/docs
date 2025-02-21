@@ -34,7 +34,7 @@ O IPv6 é a versão mais recente do Internet Protocol (IP). Foi concebido para s
 
 As secções seguintes contêm as configurações das distribuições que disponibilizamos atualmente e as distribuições/sistemas operativos mais utilizados. O primeiro passo consiste sempre em estabelecer a ligação ao servidor em SSH ou através de uma sessão de ligação GUI (RDP para um servidor Windows).
 
-Nos servidores dedicados, o primeiro IPv6 é declarado como 2607:5300:xxxx:xxxx::/64. Por exemplo, se atribuímos ao seu servidor o intervalo IPv6: `2607:5300:abcd:efgh::/64`, o primeiro IPv6 do seu servidor é: `2607:5300:abcd:efgh::/64`.
+Nos servidores dedicados, o primeiro IPv6 é declarado como 2607:5300:xxxx:xxxx::/64. Por exemplo, se atribuímos ao seu servidor o intervalo IPv6: `2607:5300:abcd:efgh::/64`, o primeiro IPv6 do seu servidor é: `2607:5300:abcd:efgh::`.
 
 Por predefinição, o primeiro IPv6 está configurado na maioria das distribuições Linux recentes que propomos aquando da instalação, pelo que a gateway já está incluída no ficheiro de configuração. Na maioria dos casos, não será necessário adicioná-la manualmente.
 
@@ -107,7 +107,7 @@ ssh user@serverIP
 
 #### Passo 2: Criar um backup
 
-O ficheiro de configuração de rede do seu servidor está situado em `/etc/network/interfaces.d`. Antes de continuar, crie uma cópia de segurança do seu ficheiro através de um dos seguintes comandos:
+O ficheiro de configuração de rede do seu servidor está situado em `/etc/network/interfaces.d`. Antes de continuar, crie uma cópia de segurança do seu ficheiro utilizando o seguinte comando:
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bakà
@@ -120,25 +120,25 @@ Não edite as linhas existentes no arquivo de configuração. Adicione as linhas
 ```console
 auto eth0
 iface eth0 inet dhcp
-accept_ra 0
+    accept_ra 0
 
 iface eth0 inet6 static
-address YOUR_IPv6
-netmask IPv6_PREFIX
+    address YOUR_IPv6
+    netmask IPv6_PREFIX
 
 # control-alias eth0
 iface eth0 inet6 static
-address 2607:5300:xxxx:xxxx::/xx
-dns-nameservers 2001:41d0:3:163::1
-gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff:ff
+    address 2607:5300:xxxx:xxxx::/xx
+    dns-nameservers 2001:41d0:3:163::1
+    gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff
 ```
 
 **Debian 10**
 
 ```console
-iface eth0 inet6 static
-address YOUR_IPv6
-netmask 64
+iface eth0 inet6 static 
+    address YOUR_IPv6 
+    netmask 64
 
 post-up /sbin/ip -f inet6 route add IPv6_GATEWAY dev eth0
 post-up /sbin/ip -f inet6 route add default via IPv6_GATEWAY
@@ -158,17 +158,17 @@ Para garantir que o IPv6 está ativado ou desativado quando a interface eth0 est
 ```console
 auto eth0
 iface eth0 inet dhcp
-accept_ra 0
+    accept_ra 0
 
 iface eth0 inet6 static
-address 2607:5300:adce:f2cd::1
-netmask 64
+    address 2607:5300:adce:f2cd::1
+    netmask 64
 
 # control-alias eth0
 iface eth0 inet6 static
-address 2607:5300:xxxx:xxxx::/xx
-dns-nameservers 2001:41d0:3:163::1
-gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff:ff
+    address 2607:5300:xxxx:xxxx::/xx
+    dns-nameservers 2001:41d0:3:163::1
+    gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff
 ```
 
 Adicionar endereços IPv6 adicionais:
@@ -176,21 +176,21 @@ Adicionar endereços IPv6 adicionais:
 ```console
 auto eth0
 iface eth0 inet dhcp
-accept_ra 0
+    accept_ra 0
 
 iface eth0 inet6 static
-address 2607:5300:adce:f2cd::1
-netmask 64
-up ip -6 addr add 2607:5300:adce:f2cd::2/64 dev eth0
-up ip -6 addr add 2607:5300:adce:f2cd::3/64 dev eth0
-down ip -6 addr del 2607:5300:adce:f2cd::2/64 dev eth0
-down ip -6 addr del 2607:5300:adce:f2cd::3/64 dev eth0
+    address 2607:5300:adce:f2cd::1
+    netmask 64
+    up ip -6 addr add 2607:5300:adce:f2cd::2/64 dev eth0
+    up ip -6 addr add 2607:5300:adce:f2cd::3/64 dev eth0
+    down ip -6 addr del 2607:5300:adce:f2cd::2/64 dev eth0
+    down ip -6 addr del 2607:5300:adce:f2cd::3/64 dev eth0
 
 # control-alias eth0
 iface eth0 inet6 static
-address 2607:5300:xxxx:xxxx::/xx
-dns-nameservers 2001:41d0:3:163::1
-gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff:ff
+    address 2607:5300:xxxx:xxxx::/xx
+    dns-nameservers 2001:41d0:3:163::1
+    gateway 2607:5300:xxxx:xxff:ff:ff:ff:ff
 ```
 
 #### Passo 4: alve o arquivo e aplique as alterações

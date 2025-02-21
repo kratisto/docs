@@ -1,152 +1,123 @@
 ---
-title: Utilizzare KVM sui VPS 
-excerpt: Scopri come accedere al tuo VPS con la funzionalità KVM
-updated: 2022-08-30
+title: Utilizzare la console KVM per accedere a un VPS
+excerpt: Scopri come connettersi a un VPS tramite un browser Web grazie alla funzionalità KVM
+updated: 2025-02-07
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
+<style>
+details>summary {
+color:rgb(33, 153, 232) !important;
+cursor: pointer;
+}
+details>summary::before {
+content:'\25B6';
+padding-right:1ch;
+}
+details[open]>summary::before {
+content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
-La console KVM consente di stabilire una connessione diretta al tuo VPS senza utilizzare client esterni come Terminal o Putty. Questa console è disponibile nello Spazio Cliente OVHcloud o tramite le API OVHcloud.  
+La console KVM per VPS, disponibile nello Spazio Cliente OVHcloud, permette di aprire una connessione al VPS nel browser Web, indipendentemente da un software di connessione aggiuntivo. In questo contesto, KVM sta per *keyboard, video, and mouse*, con riferimento al metodo emulato di input/output della connessione remota.
 
-**Questa guida ti mostra i due metodi di accesso al KVM.**
+> [!primary]
+>
+> Ti ricordiamo che la console KVM non è una soluzione alternativa se hai perso l'accesso al sistema operativo del tuo VPS. Sarà necessario [utilizzare il Rescue mode del VPS per recuperare l'accesso al server](/pages/bare_metal_cloud/dedicated_servers/replacing-user-password).
+
+**Questa guida ti mostra come utilizzare la console KVM per accedere al tuo VPS.**
 
 ## Prerequisiti
 
-- Un [VPS](https://www.ovhcloud.com/it/vps/) nel tuo account OVHcloud
+- Un [VPS](/links/bare-metal/vps) nel tuo account OVHcloud
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
-### Accedi al KVM dallo Spazio Cliente OVHcloud
+### Come aprire la console KVM dallo Spazio Cliente OVHcloud
 
-#### Gamma VPS attuale
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Bare Metal Cloud`{.action} e seleziona il server in `Server privati virtuali`{.action}.
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Bare Metal Cloud`{.action} e seleziona il tuo server nella sezione `Server Privati Virtuali`{.action}. In questa sezione, clicca sui tre puntini `...`{.action} in corrispondenza del nome del tuo VPS nella sezione "Il tuo VPS".
+Nella scheda `Informazioni generali`{.action}, clicca sul pulsante `...`{.action} accanto al nome del tuo VPS nella sezione **Il tuo VPS**.
 
-![Apri KVM](images/kvm-new1.png){.thumbnail}
+![Open KVM](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/open-kvm.png){.thumbnail}
 
-#### VPS precedente
+### Come aprire la console KVM via API OVHcloud
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Bare Metal Cloud`{.action} e seleziona il tuo server nella sezione `Server Privati Virtuali`{.action}. In questa sezione, clicca sul link di accesso intitolato `KVM`{.action}.
+/// details | Espandi questa sezione
 
-![Clicca sul pulsante KVM](images/kvm-new2.png){.thumbnail}
+Per chi non ha familiarità con l’API OVHcloud, consulta la nostra guida "[Iniziare a utilizzare le API OVHcloud](/pages/manage_and_operate/api/first-steps)".
+
+Per recuperare l’URL di accesso KVM, apri questo endpoint:
+
+> [!api]
+>
+> @api {v1} /vps POST /vps/{serviceName}/getConsoleUrl
+>
+
+Inserisci il nome interno del tuo VPS (`vps-x11x11xyy.vps.ovh.net`) nel campo `serviceName`.
+
+Clicca sul pulsante `EXECUTE`{.action}.
+
+L’URL di accesso verrà visualizzato nella sezione `RESPONSE`.
+
+///
 
 ### Utilizzo della console KVM
 
-Si apre lo schermo KVM. È una finestra minuscola che indica la connessione al tuo server. Dato che la finestra è abbastanza piccola, può essere molto difficile navigare nell'interfaccia del tuo server con l'aiuto delle barre di sfregamento. Di conseguenza, ti consigliamo di aprire il KVM in una nuova finestra a schermo intero con il pulsante "Apri in una nuova finestra" situato nell'angolo inferiore destro della finestra contestuale.
-
-> [!primary]
->
-> Se si verificano problemi di doppia immissione, questo può essere dovuto a una registrazione automatica dello schermo. Cliccando su "Apri in una nuova finestra", ti consigliamo di aprire il KVM in una nuova finestra.
->
-> Se riscontri problemi con lo schermo, ti consigliamo di eliminare dall'URL la parte "Automatica". Se l'URL è https://compute.sbg1.cloud.ovh.net:6080/vnc_auto.html?token=xxxxxxxxxxxx, deve diventare https://compute.sbg1.cloud.ovh.net:6080/vnc.html?token=xxxxxxxxxxxx (il link per voi può essere diverso, l'esempio dato illustra solo la parte dell'URL da eliminare)
->
+Se accedi al KVM dal tuo Spazio Cliente OVH, viene visualizzata una finestra pop-up. Per utilizzarlo a schermo intero, clicca sul link `Apri in una nuova finestra`{.action} nell’angolo in basso a destra. In genere verrà aperta una nuova scheda del browser.
 
 ![Connessione al KVM](images/kvm_screen.png){.thumbnail}
 
+Lo schermo KVM visualizzato dipende dal sistema operativo e dallo stato individuale del VPS. Se richiesto, accedere con le credenziali di un account utente attivo.
+
+È inoltre possibile utilizzare software client di terze parti per eseguire l'accesso.
+
+#### Come cambiare il layout di tastiera
+
 > [!primary]
 >
-> La tastiera può avere una disposizione diversa dalla sua. Assicurati di verificarlo, ad esempio, perché la tastiera può essere AZERTY invece di QWERTY.
+> La tastiera della console KVM potrebbe avere un layout diverso dal proprio. Prima di immettere una password, digitare alcuni caratteri per verificare il layout, ad esempio [questa pagina](https://en.wikipedia.org/wiki/Keyboard_layout#Conventional_Latin-script_keyboard_layouts).
 >
 
-#### Modifica della disposizione della tastiera
-
-Puoi attivare la configurazione di tastiera che preferisci per rendere più pratico l'utilizzo della console. Digita questo comando:
+È possibile attivare il layout di tastiera per semplificare l'utilizzo della console. Immettere il comando seguente:
 
 ```bash
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
-Si apre un menu grafico che ti permette di selezionare un modello di tastiera.
+Viene visualizzato un menu grafico in cui è possibile selezionare un modello di tastiera.
 
 ![KVM](images/kvm_vps01.png){.thumbnail}
 
-Utilizza i tasti frecciati per accedere all'opzione più vicina al tuo hardware e clicca su "Enter". 
+Utilizza i tasti freccia per accedere all’opzione più vicina al tuo hardware e clicca su `Enter`{.action}.
 
-Nel menu successivo seleziona il tuo paese.
+Nel menu seguente, seleziona il tuo paese.
 
 ![KVM](images/kvm_vps02.png){.thumbnail}
 
-Il terzo menu ti permette di specificare la disposizione effettiva della tastiera.
+Nel terzo menu è possibile specificare il layout effettivo della tastiera.
 
 ![KVM](images/kvm_vps03.png){.thumbnail}
 
-In base alla tua scelta, dopo il terzo menu potrebbero apparire altre opzioni.
+In base alle selezioni effettuate, dopo il terzo menu possono essere visualizzate altre opzioni.
 
-Torna alla linea di comando, inserisci questo comando per applicare le modifiche:
+Per applicare le modifiche, esegui questo comando:
 
 ```bash
 sudo systemctl restart keyboard-setup
 ```
 
-### Connettiti al KVM via API
-
-Potrebbe verificarsi un problema di connessione al KVM tramite il tuo pannello di configurazione OVHcloud, in particolare con le versioni precedenti. In questo caso, è possibile utilizzare la soluzione API. Per farlo, accedi via API [OVHcloud](https://api.ovh.com/).
-
-#### Sui VPS 2014
-
-Se hai un VPS 2014, puoi riscontrare un *errore 1006*. Controllare l'API tramite la chiamata qui sotto potrebbe risolvere questo problema.
-
-> [!faq]
->
-> API:
->
->> > [!api]
->> >
->> > @api {v1} /vps POST /vps/{serviceName}/openConsoleAccess
->> >
->>
->
-> Impostazioni di chiamata API:
->
->> > **serviceName**
->> >
->> >> ID del VPS che assomiglia a vpsxxxxx.ovh.net
->> >
->> > **protocol** 
->> >
->> >> VNC
->
-
-L’operazione di connessione potrebbe richiedere uno o due minuti, il tempo necessario affinché la porta sia effettivamente aperta.
-
-Ti consigliamo di utilizzare uno dei seguenti clienti:
-
-- [UltraVnc](https://www.uvnc.com/downloads/ultravnc.html){.external}
-- [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/){.external}
-
-Utilizza i dettagli forniti dalla chiamata API per connetterti da remoto al VPS con l'aiuto di uno dei client software di cui sopra.
-
-#### Sui VPS 2016
-
-Con i VPS 2016, l'API consigliata per accedere al KVM è la seguente:
-
-> [!faq]
->
-> API:
->
->> > [!api]
->> >
->> > @api {v1} /vps POST /vps/{serviceName}/getConsoleUrl
->> >
->>
->
-> Impostazioni di chiamata API:
->
->> > **serviceName**
->> >
->> >> ID del VPS che assomiglia a vpsxxxxx.ovh.net
->
-
 > [!primary]
 >
-> Se hai sempre problemi con lo schermo, ti consigliamo di eliminare dall'URL la parte "Automatica". Se l'URL è (il link per voi può essere diverso, questo esempio illustra solo la parte dell'URL da eliminare) https://compute.sbg1.cloud.ovh.net:6080/vnc_auto.html?token=xxxxxxxxxxxx allora deve diventare https://compute.sbg1.cloud.ovh.net:6080/vnc.html?token=xxxxxxxxxxxx
+> Questa modifica non persisterà se il server viene riavviato.
 >
 
 ## Per saperne di più
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+
+Contatta la nostra [Community di utenti](/links/community).

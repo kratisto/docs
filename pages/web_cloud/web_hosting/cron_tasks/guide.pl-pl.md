@@ -1,7 +1,7 @@
 ---
 title: "Tworzenie automatycznych zadań (CRON) na Twoim hostingu"
 excerpt: "Dowiedz się, jak utworzyć zadania CRON do automatyzacji zaplanowanych zadań na hostingu"
-updated: 2024-05-16
+updated: 2025-02-20
 ---
 
 <style>
@@ -108,15 +108,30 @@ Zadanie będzie gotowe za kilka minut. Możesz zmienić wszystkie parametry lub 
 
 ### Zmień lub usuń zaplanowane zadanie
 
-W tym celu wykonaj następujące czynności:
+Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **4** etapy.
 
-1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
-4. Wybierz odpowiedni hosting.
-5. Na stronie, która się wyświetli kliknij zakładkę `Więcej`{.action}, a następnie `Cron`{.action}.
-6. W tabeli, która się wyświetli kliknij przycisk `...`{.action} po prawej stronie planowanego zadania.
-7. Wybierz przycisk `Zmień`{.action} lub `Usuń`{.action} w zależności od czynności, którą chcesz wykonać w odniesieniu do zaplanowanego zadania.
+> [!tabs]
+> **Etap 1**
+>>
+>> Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etap 2**
+>>
+>> Kliknij menu `Hosting`{.action}, następnie wybierz odpowiedni hosting.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etap 3**
+>>
+>> Na stronie, która się wyświetli kliknij zakładkę `Więcej`{.action}, a następnie `Cron`{.action}.
+>>
+> **Etap 4**
+>>
+>> W tabeli, która się wyświetli kliknij przycisk `...`{.action} po prawej stronie planowanego zadania.
+>>
+>> Wybierz przycisk `Zmień`{.action} lub `Usuń`{.action} w zależności od czynności, którą chcesz wykonać w odniesieniu do zaplanowanego zadania.
 
 ### Ograniczenia zaplanowanych zadań na Twoim hostingu
 

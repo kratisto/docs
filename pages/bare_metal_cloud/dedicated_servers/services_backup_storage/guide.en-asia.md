@@ -1,7 +1,7 @@
 ---
 title: How to use the backup storage on a dedicated server
 excerpt: 'Find out how to enable and access your additional storage space'
-updated: 2024-07-09
+updated: 2025-02-12
 ---
 
 ## Objective
@@ -11,7 +11,7 @@ OVHcloud dedicated servers include additional backup space to store important da
 **This guide explains how to enable and use your storage space.**
 
 > [!primary]
-> We recommend to consult the [product page](https://www.ovhcloud.com/asia/bare-metal/backup-storage/) as well for further details about the service.
+> We recommend to consult the [product page](/links/bare-metal/backup-storage) as well for further details about the service.
 >
 > Note that this guide is not applicable for OVHcloud US services.
 >
@@ -22,9 +22,9 @@ OVHcloud dedicated servers include additional backup space to store important da
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!warning]
-> This feature might be unavailable or limited on servers of the [**Eco** product line](https://eco.ovhcloud.com/asia/about/).
+> This feature might be unavailable or limited on servers of the [**Eco** product line](/links/bare-metal/eco-about).
 >
-> Please visit our [comparison page](https://eco.ovhcloud.com/asia/compare/) for more information.
+> Please visit our [comparison page](/links/bare-metal/eco-compare) for more information.
 
 ## Instructions
 
@@ -81,7 +81,7 @@ In order to add other IP addresses from which to access, you can use the [OVHclo
 > Only OVHcloud IP addresses can be authorised.
 >
 
-Log in to [api.ovh.com](https://ca.api.ovh.com/) and use the following call:
+Log in to [api.ovh.com](/links/api) and use the following call:
 
 > [!api]
 >
@@ -344,8 +344,25 @@ This error should be resolvable by modifying the Windows Registry: Open the Wind
 Establish an SSH connection to your server, and type the following command:
 
 ```sh
-mount -t cifs -o sec=ntlm,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
+mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password= //HostName/ServiceName /mnt/FolderMount
 ```
+
+> [!warning]
+>
+> In order to mount shares by hostname (as opposed to IP addresses), the `mount.cifs` utility is required. It is usually part of the `cifs-utils` package.
+>
+> `mount.cifs` is a wrapper which resolves hostnames and adds the `ip=` parameter to the mount parameters passed to the kernel.
+>
+> Without  `mount.cifs`, attempts to mount by hostname will result in the following error:
+>
+> ```text
+> mount: /mnt/FolderMount: mount(2) system call failed: No route to host.
+>        dmesg(1) may have more information after failed mount system call.
+> ```
+
+> [!primary]
+>
+> SMB version 2.1 and newer are currently not supported.
 
 The code example above contains variables, which you will need to substitute with your own values.
 

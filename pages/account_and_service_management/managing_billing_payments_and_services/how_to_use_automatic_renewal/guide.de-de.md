@@ -1,7 +1,7 @@
 ---
 title: Wie verlängere ich meine OVHcloud Dienste?
 excerpt: Erfahren Sie hier, wie Sie Ihre Dienstleistungen und deren Verlängerung in Ihrem Kundencenter verwalten
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Ziel
@@ -121,8 +121,17 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 >> Sie werden auf ein Online-Zahlungsinterface weitergeleitet.
 >>
->> Sie können diese Dienste jederzeit vor ihrem Ablaufdatum verlängern und die Dauer ihrer Verlängerung auswählen.
+>> Sie können diese Dienste jederzeit vor ihrem Ablaufdatum verlängern und die Dauer ihrer Verlängerung auswählen.  
 >> In diesem Fall wird die abonnierte Laufzeit der Gültigkeitsdauer hinzugefügt. Sie verlieren die verbleibende Laufzeit nicht.
+>>
+>> > [!success]
+>> >
+>> > Wenn der Dienst, den Sie verlängern möchten, über optionale Zusatzdienste verfügt und Sie diese auch verlängern möchten, aktivieren Sie im Interface für die Online-Zahlung **nicht die Option** der Schaltflächen bei `Nicht verlängern` für die angezeigten Dienste.  
+>> > Wenn Sie diese Optionen anhaken, beantragen Sie die Verlängerung Ihres Hauptdienstes **OHNE** die damit verbundenen Service-Dienste.
+>> >
+>> > Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf `Bestätigen`{.action}.
+>> >
+>> > Zur Information: Die Preise für einige Dienste werden erst angezeigt, wenn der Verlängerungsauftrag erstellt wurde.
 >>
 > **Meinen Dienst kündigen**
 >>
@@ -140,8 +149,17 @@ Rechts neben einem Dienst klicken Sie auf den Button `...`{.action} in der Spalt
 >>
 >> Diese Aktion ist nur für Dienstleistungen mit **manueller Verlängerung** verfügbar.
 >>
->> Sie werden auf ein Zahlungsformular weitergeleitet.
+>> Sie werden auf ein Zahlungsformular weitergeleitet.  
 >> Sie können diese Dienste jederzeit vor ihrem Ablaufdatum verlängern und die Dauer ihrer Verlängerung auswählen.
+>>
+>> > [!success]
+>> >
+>> > Wenn der Dienst, den Sie verlängern möchten, über optionale Zusatzdienste verfügt und Sie diese auch verlängern möchten, aktivieren Sie im Interface für die Online-Zahlung **nicht die Option** der Schaltflächen bei `Nicht verlängern` für die angezeigten Dienste.  
+>> > Wenn Sie diese Optionen anhaken, beantragen Sie die Verlängerung Ihres Hauptdienstes **OHNE** die damit verbundenen Service-Dienste.
+>> >
+>> > Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf `Bestätigen`{.action}.
+>> >
+>> > Zur Information: Die Preise für einige Dienste werden erst angezeigt, wenn der Verlängerungsauftrag erstellt wurde.
 >>
 > **Meine Rechnung bezahlen**
 >>

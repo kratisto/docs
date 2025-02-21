@@ -59,7 +59,7 @@ In the management interface for the Instance, select the option you want from th
 ![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface: This option allows you to add one or more private interfaces to your instance via the VLAN. For more information, refer to [this section](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#adding-a-private-interface) of the corresponding guide.
-- Detach Interface: This option allows you to delete an interface linked to an instance. For more information, refer to [this section](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#removing-a-private-interface) of the corresponding guide.
+- Detach Interface: This option allows you to detach an interface linked to an instance. For more information, refer to [this section](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack#removing-a-private-interface) of the corresponding guide.
 - Edit Instance: This option allows you to change the instance name and [security groups](/pages/public_cloud/compute/setup_security_group).
 
 > [!warning]
@@ -81,52 +81,7 @@ With the Public Cloud, you can increase the resources your instance has with jus
 > Flex instances allow resizing to higher or lower models due to a locked single disk size.
 > 
 
-Log into the [Horizon interface](https://horizon.cloud.ovh.net/auth/login/), and make sure you are in the correct region. You can verify this on the top left corner.</br>
-Next, click on the `Compute`{.action} menu on the left side and select `Instances`{.action}. Select `Resize Instance`{.action} in the drop list for the corresponding instance.
-
-![Resize instance](images/resizeinstance2022.png){.thumbnail}
-
-* Template Selection Tab (Flavor Choice): this section shows the current template (old flavor) and allows you to select a new template (new flavor) for the instance resource.
-
-![public-cloud](images/flavorchoice.png){.thumbnail}
-
-* Flavor Details. In this section, you will see the resources associated with the new template you have chosen. 
-
-* Project Limits. View here the occupied resources compared to the total resources allocated to the project.
-
-> [!warning]
-> Please note that you cannot switch models when resizing an instance. A resizing can only be done from a Linux model to another Linux model or from a Windows model to another Windows model.
->
-
-* Advanced Options. This section allows you to manage the **Disk Partition** and **Server Group**.
-
-![public-cloud](images/resize_advanced.png){.thumbnail}
-
-Once the configuration is complete, click on `Resize`{.action}.
-
-**Resizing a disk in Windows**
-
-When performing a resize for a Windows Instance, please note that the partition size is not automatically updated, so you will have to extend it using the **disk manager**:
-
-Right-click on the `Start`{.action} menu and launch the disk manager by clicking on `Disk Management`{.action}:
-
-![public-cloud](images/2980.png){.thumbnail}
-
-Right-click on the main partition, then click on `Extend Volume`{.action}.
-
-![public-cloud](images/2981a.png){.thumbnail}
-
-In the `Extend Volume Wizard` menu, click on `Next`{.action} to proceed. In the next tab, choose the disk resources to extend and click on `Next`{.action}. 
-
-![public-cloud](images/2978a.png){.thumbnail}
-
-Once done, click on `Finish`{.action} to confirm your choice.
-
-![public-cloud](images/wizard2021.png){.thumbnail}
-
-The new disk size will then be displayed in the disk manager.
-
-![public-cloud](images/2979.png){.thumbnail}
+For detailed instructions, consult the following guide: [Resize an instance via Horizon](/pages/public_cloud/compute/resize_of_an_instance).
 
 ### Rebuild an instance
 
@@ -197,6 +152,7 @@ If you no longer need one of your instances, you can delete it at any time.
 > The data stored on the instance will be permanently deleted.
 > You can always create a backup of this instance if you want to keep the data and restart an identical instance later.
 > 
+> Deleting an instance does not automatically delete all the options associated with it (storage, snapshot, backup, etc...), so make sure that all other options associated with the instance are also deleted to stop being billed.
 
 From the drop-down list for the instance, select `Delete Instance`{.action}. 
 

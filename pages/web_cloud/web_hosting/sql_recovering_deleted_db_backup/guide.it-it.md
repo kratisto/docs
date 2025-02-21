@@ -1,7 +1,7 @@
 ---
 title: "Recuperare il backup di un database eliminato"
 excerpt: "Scopri come recuperare il backup di un database eliminato dal tuo Spazio Cliente OVHcloud"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -38,8 +38,8 @@ Le API OVHcloud sono messe a disposizione per permettere agli sviluppatori o agl
 Per recuperare il nome dell’hosting Web, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. In alto a sinistra della pagina, trovi il nome del tuo hosting Web a destra della voce `Hosting /`{.action}.
 

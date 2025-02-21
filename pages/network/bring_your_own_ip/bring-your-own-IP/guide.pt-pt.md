@@ -6,9 +6,9 @@ updated: 2024-04-03
 
 ## Objective
 
-The [Bring Your Own IP (BYOIP)](https://www.ovhcloud.com/pt/network/byoip/) feature allows you to use IP addresses ranges that you already own, as Additional IPs directly on the OVHcloud network and products.
+The [Bring Your Own IP (BYOIP)](/links/network/byoip) feature allows you to use IP addresses ranges that you already own, as Additional IPs directly on the OVHcloud network and products.
 
-These IP addresses will be imported in the form of a /24 IP block size and will behave like a regular OVHcloud [Additional IP](https://www.ovhcloud.com/pt/bare-metal/ip/) block product.
+These IP addresses will be imported in the form of a /24 IP block size and will behave like a regular OVHcloud [Additional IP](/links/bare-metal/ip) block product.
 
 ## Requirements
 
@@ -259,4 +259,4 @@ Yes, but once the BYOIP service has been delivered, you must immediately cancel 
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: "Configurare un indirizzo email Zimbra su un client di posta"
 excerpt: "Scopri come configurare il tuo client di posta per consultare le email del tuo account Zimbra"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Importante**
->
-> L'offerta Zimbra è un prodotto in fase beta.
->
-> È disponibile solo per coloro che hanno compilato il [modulo di iscrizione alla beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Obiettivo
 

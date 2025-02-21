@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Premiers pas avec Object Storage
 excerpt: Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs / objets
-updated: 2024-06-21
+updated: 2025-02-11
 ---
 
 ## Objectif
@@ -20,11 +20,27 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs 
 
 #### Installation
 
-Entrez la commande suivante :
+Entrez la commande suivante selon la méthode choisie :
 
-```bash
-user@host:~$ pip3 install awscli
-```
+> [!tabs]
+> **Paquet Python**
+>>
+>> ```bash
+>> user@host:~$ pip install awscli
+>> ```
+>>
+> **OS basé sur Debian**
+>>
+>> ```bash
+>> user@host:~$ sudo apt install awscli
+>> ```
+>>
+> **OS basé sur RHEL**
+>>
+>> ```bash 
+>> user@host:~$ sudo yum install awscli
+>> ```
+>>
 
 > [!primary]
 >
@@ -57,14 +73,14 @@ aws_secret_access_key = <secret_key>
 
 user@host:~$ cat ~/.aws/config
 
-[profile default]
+[default]
 region = <region_in_lowercase>
 endpoint_url = <url_endpoint>
 s3 =
   signature_version = s3v4
 ```
 
-Voici les valeurs de configuration que vous pouvez définir spécifiquement  :
+Voici les valeurs de configuration que vous pouvez définir spécifiquement :
 
 | Variable  | Type | Valeur | Définition  |
 |:--|:--|:--|:--|
@@ -81,7 +97,7 @@ Pour connaître la liste des endpoints par région et par classe de stockage, vo
 
 > [!primary]
 >
-> Si vous avez défini plusieurs profils, ajoutez `--profile <profile>` à la ligne de commande
+> Si vous avez défini plusieurs profils, ajoutez `--profile <profile>` à la ligne de commande.
 >
 
 **Créer un bucket**
@@ -118,7 +134,7 @@ aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/tes
 aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/test1 --storage-class STANDARD
 ```
 
-**Par défaut, les objets prennent le nom des fichiers mais ils peuvent être renommés**
+**Par défaut, les objets prennent le nom des fichiers, mais ils peuvent être renommés**
 
 ```bash
 aws s3 cp /data/test1 s3://<bucket_name>/other-filename
@@ -140,8 +156,9 @@ aws s3 cp s3://<bucket_name> s3://<bucket_name_2> --recursive
 **Synchronisation des buckets**
 
 ```bash
-aws s3 sync . s3://<bucket_name>
-aws s3 sync s3://<bucket_name> s3://<bucket_name_2>
+aws s3 sync . s3://<bucket_name> # Synchroniser le dossier local vers un bucket S3 
+aws s3 sync s3://<bucket_name> . # Synchroniser un bucket S3 vers le dossier local  
+aws s3 sync s3://<bucket_name> s3://<bucket_name_2> # Synchroniser un bucket S3 vers un autre
 ```
 
 **Supprimer des objets et des buckets**

@@ -1,6 +1,6 @@
 ---
 title: 'Préparer l’environnement pour utiliser l’API OpenStack'
-excerpt: "Installez l'environnement OpenStack pour piloter vos instances via API"
+excerpt: "Installez l'environnement OpenStack pour piloter vos services via API"
 updated: 2024-12-05
 ---
 

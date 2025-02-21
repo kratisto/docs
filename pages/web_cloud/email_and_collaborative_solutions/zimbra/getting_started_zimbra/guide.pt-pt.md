@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com a oferta Zimbra"
 excerpt: "Descubra como começar com a sua oferta Zimbra a partir da Área de Cliente OVHcloud"
-updated: 2024-10-10
+updated: 2025-02-13
 ---
 
 <style>
@@ -13,25 +13,13 @@ updated: 2024-10-10
 }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
-> [!warning]
->
-> **Importante*
->
-> A oferta Zimbra é um produto em fase beta.
->
-> Só está disponível para as pessoas que tenham completado o [formulário de inscrição na fase beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Algumas das funcionalidades e limitações deste guia podem mudar à medida que o produto é colocado no mercado.
-
 ## Objetivo
 
 Com a oferta Zimbra, a OVHcloud propõe-lhe uma plataforma de mensagens colaborativa open source que oferece todas as funcionalidades necessárias a uma utilização profissional. Neste guia, encontrará os elementos que permitem começar na configuração das suas contas de e-mail Zimbra.
 
 **Saiba como começar com a oferta de e-mail Zimbra**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 
@@ -102,11 +90,69 @@ A tabela dos nomes de domínio dá-lhe duas informações:
 
 #### Adicionar um nome de domínio
 
+> [!warning]
+>
+> É necessário [criar uma organização](#organisations) para poder adicionar um domínio ao serviço Zimbra.
+
 Para adicionar um domínio ao serviço Zimbra, clique no separador `Domínio`{.action} e, em seguida, clique em `Adicionar domínio`{.action}.
 
-Selecione uma organização a partir do menu pendente e, em seguida, selecione um domínio a partir da lista (é necessário que os nomes de domínio sejam geridos na Área de Cliente OVHcloud). De seguida, clique em `Confirmar`{.action} para finalizar a adição do domínio.
+Selecione uma organização no menu suspenso e, em seguida, selecione uma das duas opções seguintes:
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Selecionar um domínio na lista** (domínio interno) : nesta lista, encontrará os domínios que pode gerir a partir da Área de Cliente OVHcloud.
+- **Introduzir um domínio não gerido pela sua conta OVHcloud** (domínio externo) : indique um domínio que não é gerido na Área de Cliente OVHcloud ou que se encontra registado noutro agente registador e cuja gestão é da sua responsabilidade.
+
+Selecione o separador correspondente à sua escolha:
+
+> [!tabs]
+> **Domínio interno**
+>>
+>> Selecione um domínio na lista gerido a partir da Área de Cliente OVHcloud.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> Para configurar a zona DNS, selecione uma das duas opções seguintes:
+>>
+>> - **Configuração recomendada**: a sua zona DNS será configurada automaticamente. Esta opção é adequada se não configurou uma oferta de e-mail no seu domínio.
+>> - **Definições personalizadas**: se já configurou um serviço de e-mail no seu domínio, pode optar por elementos que lhe interessem.
+>>    - *Configurar o registo MX automaticamente*: permite introduzir automaticamente os servidores de receção OVHcloud (aplica-se a todos os serviços de e-mail OVHcloud).
+>>    - *Configurar o registo SPF automaticamente*: permite introduzir automaticamente o registo que autoriza os servidores de e-mail de envio da OVHcloud a reencaminhar os seus e-mails. Este registo é válido para o conjunto das ofertas de e-mail OVHcloud.
+>>    - *Configurar o registo DKIM automaticamente*: permite introduzir automaticamente os registos necessários para autenticar os seus envios de e-mails.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Clique em `Confirmar`{.action} para finalizar a adição do seu domínio e lançar o processo de configuração.
+>>
+> **Domínio externo**
+>>
+>> Introduza um domínio que não seja gerido na Área de Cliente. Certifique-se de que tem acesso para modificar a zona DNS do domínio em questão.
+>>
+>> Clique em `Confirmar`{.action}
+>>
+>> ![zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> Quando se abrir a janela abaixo, é necessário introduzir este registo CNAME na zona DNS do domínio para que o mesmo seja validado na plataforma Zimbra.
+>>
+>> ![zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>> >
+>> > Após 48 horas, se o CNAME não estiver visível na zona DNS, a operação é anulada. Será necessário reiniciar a operação.
+
+#### Modificar um nome de domínio
+
+Pode alterar o seu nome de domínio para alterar a sua organização ou verificar os seus registos DNS associados.
+
+No separador `Domínio`{.action} do seu serviço Zimbra, clique no ícone "&#8285;" à direita do domínio em causa para ver as opções.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Clique em `Configurar`{.action} para modificar a organização associada ao seu domínio.
+- Clique em `Diagnósticos`{.action} para apresentar a interface de diagnóstico dos registos DNS do domínio. É necessário garantir que nenhum alerta é apresentado para cada um dos registos DNS mencionados nos separadores. Siga as instruções detalhadas em cada separador que menciona um alerta para configurar os registos DNS:
+    - **MX**: indispensável para a receção dos seus e-mails.
+    - **SPF**: segurança exigida pela maioria dos servidores de e-mail de destino para legitimar os servidores de envio de e-mail da OVHcloud com o seu nome de domínio.
+    - **DKIM**: permite implementar um sistema de assinatura para cada e-mail enviado pelo seu serviço Zimbra. A assinatura é verificada pelo destinatário graças à chave pública visível na sua zona DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Contas de e-mail <a name="emails"></a>
 
@@ -135,7 +181,7 @@ Preencha as informações apresentadas.
 > - Mínimo de 2 caracteres
 > - Máximo de 32 caracteres
 > - Nenhum caráter acentuado
-> - Sem caracteres especiais, com exceção dos seguintes caracteres: `.`, `,`, `-` e `_`
+> - Sem caracteres especiais, com exceção dos seguintes caracteres: `.`, `+`, `-` e `_`
 
 - **Nome Próprio** : introduza um nome.
 - **Nome** : introduza um nome.

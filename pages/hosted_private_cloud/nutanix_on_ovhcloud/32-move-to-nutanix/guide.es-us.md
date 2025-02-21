@@ -4,7 +4,7 @@ excerpt: "Install, configure and use the Move migration tool"
 kb: Hosted Private Cloud
 category_l1: Nutanix on OVHcloud
 category_l2: Advanced usage
-updated: 2022-04-05
+updated: 2025-02-10
 ---
 
 ## Objective
@@ -16,14 +16,16 @@ Nutanix provides a tool called **Nutanix Move** that allows migrations from othe
 > [!warning]
 > OVHcloud provides services for which you are responsible, with regard to their configuration and management. It is therefore your responsibility to ensure that they work properly.
 >
-> This guide is designed to assist you as much as possible with common tasks. Nevertheless, we recommend contacting a specialist provider if you experience any difficulties or doubts when it comes to managing, using or setting up a service on a server.
+> This guide is designed to assist you as much as possible with common tasks. However, we recommend reaching out to the [OVHcloud Professional Services](/links/professional-services) team or a [specialized provider](/links/partner) if you encounter difficulties or have any doubts about managing, using, or setting up a service on a server.
 >
 > Some options, such as the use of compression or deduplication, require specific licences provided by Nutanix through OVHcloud. Please contact OVHcloud Sales for more information.
+>
+> Finally, if the procedure involves a VMware on OVHcloud service, the intervention of [OVHcloud Professional Services](/links/professional-services) is mandatory.
 
 ## Requirements
 
 - A Nutanix cluster in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws)
+- Access to the [OVHcloud Control Panel](/links/manager)
 - You must be connected to the cluster via Prism Central
 - A connection to an environment other than Nutanix 
 
@@ -421,6 +423,6 @@ The disk controller has been modified and the virtual machine boots properly.
 
 [Installation and configuration of Move](https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Move-v4_3:Nutanix-Move-v4_3)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

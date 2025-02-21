@@ -13,7 +13,7 @@ L'aggrégation se base sur la technologie IEEE 802.3ad, ou Link Aggregation Cont
 
 ## Prérequis
 
-- Disposer d'un [serveur dédié OVHcloud](/links/bare-metal/bare-metal)
+- Disposer d'un [serveur dédié OVHcloud](/links/bare-metal/bare-metal) de gamme Advance, Scale ou High Grade
 - Être connecté à votre [espace client OVHcloud](/links/manager)
 - Un système d'exploitation / hyperviseur supportant le protocole d'aggrégation 802.3ad (LACP)
 
@@ -40,11 +40,13 @@ Vérifiez que vos deux interfaces, ou groupes d'interfaces, sont bien sélection
 
 L'opération peut prendre quelques minutes. Une fois celle-ci terminée, l'étape suivante consiste à configurer les interfaces dans votre système d'exploitation via une liaison NIC ou une équipe NIC. Pour connaître la méthode à appliquer, consultez les guides suivants qui la détaillent pour les systèmes d'exploitation les plus populaires :
 
-[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
+[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9 via ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 [Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
+
+[Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans Debian 12 ou Ubuntu 24.04 via Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
 
 ### Restaurer OLA aux valeurs par défaut
 
@@ -56,10 +58,12 @@ L'opération peut prendre quelques minutes.
 
 ## Aller plus loin
 
-[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
+[Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Debian 9 via ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9).
 
 [Comment configurer votre NIC pour l'agrégation de liens OVHcloud sous Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 [Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
+
+[Comment configurer votre NIC pour l’agrégation de liens OVHcloud dans Debian 12 ou Ubuntu 24.04 via Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

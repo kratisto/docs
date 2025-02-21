@@ -40,7 +40,7 @@ Aby włączyć darmowy hosting 100M, kliknij na poniższe zakładki, aby wyświe
 >>
 > **Etap 2**
 >>
->> Kliknij menu rozwijane `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>> Kliknij menu `Domeny`{.action}, następnie wybierz odpowiednią domenę.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

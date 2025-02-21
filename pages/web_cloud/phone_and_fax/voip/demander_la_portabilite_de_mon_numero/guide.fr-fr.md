@@ -42,9 +42,9 @@ Selon le type du ou des numéros que vous souhaitez porter chez OVHcloud, le pro
 
 ### Étape 2 : demander la portabilité
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie `Télécom`. Cliquez sur `Téléphonie`{.action} puis sélectionnez le groupe de facturation concerné dans lequel le ou les numéros portés seront intégrés.
-
-Assurez-vous d'être positionné sur l'onglet `Tableau de bord`{.action} et cliquez sur `Demander une portabilité`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation dans lequel le ou les numéros portés seront intégrés.
+1. Assurez-vous d'être positionné sur l'onglet `Tableau de bord`{.action} et cliquez sur `Demander une portabilité`{.action}.
 
 ![numberport](images/porta-request.png){.thumbnail}
 
@@ -147,9 +147,9 @@ Une fois le numéro spécial à porter renseigné (au format international) dans
 
 ### Étape 3 : suivre une demande de portabilité
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie `Télécom`. Cliquez sur `Téléphonie`{.action} puis sélectionnez le groupe de facturation sur lequel a été demandée la portabilité.
-
-Assurez-vous d'être positionné sur l'onglet `Tableau de bord`{.action} et cliquez sur `Consulter mes portabilités en cours`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation dans lequel a été demandée la portabilité.
+1. Positionnez-vous sur l'onglet `Tableau de bord`{.action} et cliquez sur `Consulter mes portabilités en cours`{.action}.
 
 ![numberport](images/porting-number-step8-2021.png){.thumbnail}
 

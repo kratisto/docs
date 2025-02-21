@@ -1,7 +1,7 @@
 ---
 title: "Odzyskiwanie kopii usuniętej bazy danych"
 excerpt: "Dowiedz się, jak odzyskać kopię zapasową bazy danych po jej usunięciu z Panelu klienta OVHcloud"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie
@@ -38,8 +38,8 @@ Udostępniamy API OVHcloud, dzięki któremu programiści lub integratorzy mogą
 Aby uzyskać nazwę hostingu, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na górze po lewej stronie, która się wyświetli, znajdź nazwę Twojego hostingu po prawej stronie pozycji `Hosting /`{.action}.
 

@@ -1,7 +1,6 @@
 ---
 title: "Basculer d'une instance flex à une instance classique"
 excerpt: Apprenez à modifier une instance flex depuis l'interface OpenStack Horizon
-order : 10
 updated: 2024-07-17
 ---
 
@@ -56,7 +55,7 @@ Cette section permet de gérer le partitionnement du disque (*Disk Partition*) e
 
 Pour continuer, cliquez sur le bouton `Resize`{.action}.
 
-Une fois le processus terminé, votre instance sera basculée vers un modèle classique, avec plus d'espace de stockage.
+Une fois le processus terminé, votre instance sera basculée vers le modèle sélectionné. Dans notre cas, notre instance a été basculée vers un modèle classique avec plus d'espace de stockage.
 
 ![Nouvelle flavor appliquée](images/newflavor.png){.thumbnail}
 

@@ -1,7 +1,7 @@
 ---
 title: "Hosting WWW - Zmiana nazwy domeny powiązanej z hostingiem"
 excerpt: "Dowiedz się, jak zmienić parametry powiązania domeny/subdomeny zadeklarowanej wcześniej w Twojej usłudze hostingu"
-updated: 2024-09-04
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie
@@ -32,8 +32,8 @@ W przypadku korzystania z hostingu lub aktualizacji strony WWW może być koniec
 Aby zmienić parametry powiązania domeny lub subdomeny, która została już zadeklarowana w Twoim hostingu, należy wykonać następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli kliknij zakładkę `MultiSite`{.action}.
 6. W tabeli, która wyświetla się pod zakładką i po prawej stronie nazwy odpowiedniej domeny/subdomeny, kliknij przycisk `...`{.action}, a następnie `Zmień domenę`{.action}.

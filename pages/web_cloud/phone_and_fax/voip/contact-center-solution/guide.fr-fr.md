@@ -37,10 +37,11 @@ Vous pouvez par exemple proposer à vos appelants, via la seule composition de v
 
 ### Étape 1 : Appliquer la configuration Contact Center Solution <a name="appliquer-CCS"></a>
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom){.external}, partie `Télécom`{.action}.<br>
-Cliquez sur `Téléphonie`{.action}, sélectionnez le groupe de téléphonie puis le numéro à configurer.<br>
-Dans l'onglet `Configuration`{.action}, cliquez sur `Passer en mode expert`{.action} pour sélectionner **Contact Center Solution**.<br>
-Validez en cliquant sur `Paramétrer`{.action}. L'application de la configuration prend quelques secondes.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
+1. Dans l'onglet `Configuration`{.action}, cliquez sur `Passer en mode expert`{.action} pour sélectionner **Contact Center Solution**.
+1. Validez en cliquant sur `Paramétrer`{.action}. L'application de la configuration prend quelques secondes.
 
 ![contact-center-solution](images/ccs-config-2022.png){.thumbnail}
 

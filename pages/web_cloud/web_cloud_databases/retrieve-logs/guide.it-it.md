@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - Come gestire i log?'
 excerpt: 'Questa guida ti mostra come gestire i log dei database ospitati sul tuo server Web Cloud Databases'
-updated: 2024-11-25
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -51,8 +51,8 @@ In alcune situazioni, potrebbe essere necessario consultare / recuperare i log:
 Per verificare in tempo reale i log della soluzione Web Cloud Databases, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Web Cloud Databases`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Web Cloud Databases`{.action}.
 4. Seleziona l’istanza Web Cloud Databases interessata.
 5. Clicca sulla scheda `Log`{.action}.
 
@@ -81,8 +81,8 @@ Per recuperare lo storico dei log della soluzione Web Cloud Databases, è necess
 Per recuperare le informazioni di connessione in SFTP alla soluzione Web Cloud Databases, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Web Cloud Databases`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Web Cloud Databases`{.action}.
 4. Seleziona la soluzione Web Cloud Databases.
 5. Nella nuova pagina, rimani sulla scheda `Informazioni generali`{.action} e clicca sul riquadro intitolato `Informazioni di login`{.action}.
 6. Sotto la voce `SFTP`{.action} sono disponibili tutte le informazioni necessarie per accedere in SFTP.
@@ -134,8 +134,8 @@ Le soluzioni [Web Cloud Databases](/links/web/databases) possono essere utilizza
 Per iscrivere la tua soluzione Web Cloud Databases a un flusso di dati su Logs Data Platform, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Web Cloud Databases`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Web Cloud Databases`{.action}.
 4. Seleziona l'istanza Web Cloud Databases interessata.
 5. Clicca sulla scheda `Log`{.action}.
 6. A destra del riquadro in cui vengono visualizzati i log in tempo reale, clicca sul pulsante `Abbonati`{.action}.

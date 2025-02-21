@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Zimbra solution"
 excerpt: "Find out how to get started with your Zimbra solution via the OVHcloud Control Panel"
-updated: 2024-10-10
+updated: 2025-02-13
 ---
 
 <style>
@@ -13,21 +13,13 @@ updated: 2024-10-10
 }
 </style>
 
-> [!warning]
->
-> **Important**
->
-> The Zimbra solution is a beta-phase product.
->
-> It is only available to those who have completed the [beta registration form](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Some of the features or limitations described in this guide may change as the product is released.
-
 ## Objective
 
 With the Zimbra solution, OVHcloud offers an open-source collaborative messaging platform, with all the features you need for professional use. In this guide, you will find the information you need to get started configuring your Zimbra email accounts.
 
 **Find out how to get started with the Zimbra email solution.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -40,6 +32,8 @@ With the Zimbra solution, OVHcloud offers an open-source collaborative messaging
 ### Access your service management
 
 To access your Zimbra service, log in to your [OVHcloud Control Panel](/links/manager) and click on the `Web Cloud`{.action} tab. In the `Emails`{.action} section, click `Zimbra`{.action}.
+
+![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}
 
 ### Configure your Zimbra service
 
@@ -96,11 +90,69 @@ The domain name table gives you two pieces of information:
 
 #### Add a domain name
 
+> [!warning]
+>
+> You need to [create an organization](#organisations) in order to add a domain name to your Zimbra service.
+
 To add a domain name to your Zimbra service, click on the `Domain`{.action} tab, then click `Add a domain`{.action}.
 
-Select an organization from the drop-down menu, and then select a domain name from the list (it is necessary that domain names are managed in your OVHcloud Control Panel). Then click `Confirm`{.action} to finish adding the domain name.
+Select an organization from the drop-down menu, and then select one of the following two options:
 
-![zimbra](images/zimbra_domain_add.png){.thumbnail .w-400 .h400}
+- **Select a domain from the list** (internal domain): In this list, you will find the domain names that you manage from the OVHcloud Control Panel.
+- **Enter a domain name that is not managed by your OVHcloud account** (external domain): Enter a domain name that is not managed in your OVHcloud Control Panel, or that is registered with a different registrar and managed by you.
+
+Select the tab that corresponds to your choice:
+
+> [!tabs]
+> **Internal domain**
+>>
+>> Select a managed domain name from the list in your OVHcloud Control Panel.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal01.png){.thumbnail .w-400 .h400}
+>>
+>> To configure your DNS zone, select one of the following two options:
+>>
+>> - **Recommended configuration**: Your DNS zone will be configured automatically. This option is suitable if you have not configured an email solution on your domain name.
+>> - **Custom configuration**: If you have already configured an email solution on your domain name, you can choose the elements that interest you.
+>>    - *Configure the MX record automatically*: This allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
+>>    - *Configure the SPF record automatically*: This allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
+>>    - *Configure the DKIM record automatically*: it allows you to automatically enter the records required to authenticate your email sending.
+>>
+>> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
+>>
+>> Click `Confirm`{.action} to finish adding your domain and start the configuration process.
+>>
+> **External domain**
+>>
+>> Enter a domain name that is not managed in your Control Panel. Make sure that you have the permissions to modify the DNS zone for the domain name concerned.
+>>
+>> Then click `Confirm`{.action}
+>>
+>> ![zimbra](images/zimbra_domain_add_external01.png){.thumbnail .w-400 .h400}
+>>
+>> The window below will open. You will need to enter this CNAME record in the domain name’s DNS zone, so that it can be validated on your Zimbra platform.
+>>
+>> ![zimbra](images/zimbra_domain_add_external02.png){.thumbnail .w-400 .h400}
+>>
+>> > [!warning]
+>>>
+>> > If the CNAME record is not visible in the DNS zone after 48 hours, the operation is cancelled. You will then need to retry the operation.
+
+#### Modify a domain name
+
+You can modify your domain name to change its organization or to check its associated DNS records.
+
+In the `Domain`{.action} tab of your Zimbra service, click on the "&#8285;" icon to the right of the domain name concerned to display the options.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Click `Configure`{.action} to modify the organization associated with your domain name.
+- Click `Diagnostics`{.action} to display the diagnostic interface for the domain name DNS records. You will need to ensure that no alerts are displayed for each of the DNS records listed in the tabs. Follow the instructions detailed in each tab with an alert to configure the DNS records:
+    - **MX**: Essential for receiving your emails.
+    - **SPF**: Security record that is required by the majority of recipient email servers to legitimize OVHcloud email sending servers with your domain name.
+    - **DKIM**: Provides a signature system for each email sent by your Zimbra service. The signature is verified by the recipient using the public key visible in your DNS zone.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Email accounts <a name="emails"></a>
 
@@ -129,7 +181,7 @@ Fill in the information displayed.
 > - Minimum 2 characters
 > - Maximum 32 characters
 > - No accents
-> - No special characters, except for the following characters: `.`, `,`, `-` and `_`
+> - No special characters, except for the following characters: `.`, `+`, `-` and `_`
 
 - **First name**: Enter a first name.
 - **Name**: Enter a name.

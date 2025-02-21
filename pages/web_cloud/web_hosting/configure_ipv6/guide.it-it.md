@@ -1,7 +1,7 @@
 ---
 title: "Configura un indirizzo IPv6 per il tuo sito Web"
 excerpt: "Questa guida ti mostra come rendere il tuo sito Web compatibile con un indirizzo IPv6"
-updated: 2024-03-12
+updated: 2025-01-28
 ---
 
 ## Obiettivo
@@ -30,24 +30,41 @@ I nostri hosting Web sono compatibili con IPv6 dal 2011. L'attivazione di questo
 >
 > OVHcloud mette a tua disposizione servizi di cui tu sei responsabile per la configurazione e la gestione. Assicurarne il corretto funzionamento è quindi responsabilità dell'utente.
 > 
-> Questa guida ti aiuta a eseguire le operazioni necessarie. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di rivolgerti a uno [specialista del settore](/links/partner) o di contattare l'amministratore del servizio. OVHcloud non potrà fornirti alcuna assistenza. Per maggiori informazioni consulta la sezione ["Per saperne di più"](#go-further) di questo tutorial.
+> Questa guida ti aiuta a eseguire le operazioni necessarie. In caso di difficoltà, ti consigliamo di contattare un [provider specializzato](/links/partner) e/o il fornitore del servizio. OVHcloud non potrà fornirti alcuna assistenza. Per maggiori informazioni consulta la sezione ["Per saperne di più"](#go-further) di questo tutorial.
 > 
 
 Se il tuo sito non è configurato per funzionare con un indirizzo IPv6, puoi aggiungere [l'indirizzo IPv6 del tuo hosting condiviso OVHcloud](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) nella zona DNS attiva del tuo dominio. L'obiettivo è permettere ai browser di trovare un indirizzo IPv6 associato al tuo sito Web tramite il tuo dominio.
 
-### Verifica la compatibilità IPv6 del tuo sito Web
+### 1 - Verifica la compatibilità IPv6 del tuo sito Web
 
 Per verificare se il tuo sito Web utilizza già un indirizzo IPv6, utilizza il sito [ipv6-test.com](https://ipv6-test.com/validate.php){.external}. Ti dirà se il tuo sito Web risponde a questo nuovo protocollo IP. In caso contrario, prosegui nella lettura della guida.
 
-### Step 1: recuperare l'indirizzo IPv6 del tuo hosting Web
+### 2 - recuperare l'indirizzo IPv6 del tuo hosting Web
 
-Accedi al tuo [Spazio Cliente OVHcloud](/links/manager){.external}. Nella sezione `Web Cloud`{.action}, clicca su `Hosting`{.action}, seleziona il nome dell'hosting e clicca sulla scheda `Informazioni generali`{.action}.
+Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
-Nel riquadro **IPv6**, copia l'record e passa allo step successivo.
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nel riquadro **Informazioni generali**, trovi la dicitura **IPv6**.
+>>
+>> ![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv6.png){.thumbnail}
+>>
+>> Copia l'indirizzo IP, poi prosegui nella lettura della guida.
 
-![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-ipv6.png){.thumbnail}
-
-### Step 2: configurare la zona DNS attiva del dominio
+### 3 - configurare la zona DNS attiva del dominio
 
 > [!warning]
 >
@@ -56,17 +73,15 @@ Nel riquadro **IPv6**, copia l'record e passa allo step successivo.
 > Inoltre, l'aggiunta, la modifica o l'eliminazione di un record DNS nella zona DNS attiva di un dominio comporta un tempo di propagazione da **4 a 24 ore** per essere pienamente efficace.
 >
 
-Per consentire al browser di trovare l'indirizzo IPv6 con il tuo dominio, modifica la zona DNS attiva del tuo dominio. Per creare un record DNS di tipo **AAAA**, consulta la guida "[Modificare una zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit)".
+Per consentire al browser di trovare l’indirizzo IPv6 con il dominio, è necessario modificare la zona DNS attiva del dominio.
 
-Nella sezione `Web Cloud`{.action}, clicca su `Domini`{.action}. Seleziona il tuo dominio e clicca sulla scheda `Zona DNS`{.action}. Clicca su `Aggiungi un record`{.action} a destra della tabella. 
+Se la zona DNS attiva del dominio è presente in OVHcloud, utilizza le nostre guide "[Modificare una zona DNS di OVHcloud](/pages/web_cloud/domains/dns_zone_edit)" e "[Scopri tutto sui record DNS](/pages/web_cloud/domains/dns_zone_records)" per creare un record DNS di tipo **AAAA**.
 
-Inserisci l'indirizzo IPv6 precedentemente copiato utilizzando il tipo di record **AAAA**.
-
-![IPv6](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/add-dns-zone-entry-aaaa.png){.thumbnail}
+In caso contrario, contatta il provider DNS specificando l’indirizzo IPv6 recuperato precedentemente.
 
 ## Per saperne di più <a name="go-further"></a>
 
-[Modifica una zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit)
+[Modificare una zona DNS di OVHcloud](/pages/web_cloud/domains/dns_zone_edit)
 
 Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
 

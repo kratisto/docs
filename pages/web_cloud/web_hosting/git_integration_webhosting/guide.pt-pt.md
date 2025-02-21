@@ -1,7 +1,7 @@
 ---
 title: "Configurar e utilizar o Git com o seu alojamento web OVHcloud"
 excerpt: "Saiba como configurar e utilizar o Git com o seu alojamento web na sua Área de Cliente OVHcloud"
-updated: 2024-09-12
+updated: 2025-01-31
 ---
 
 ## Objetivo
@@ -49,33 +49,12 @@ O formulário de associação do Git é exibido. É necessário configurar vári
 - Chave SSH
 - Depósito GitHub
 - Ramo do repositório GitHub
+- Chave SSH (para um repositório GitHub privado)
 - Webhook (opcional)
-
-#### Associar uma chave SSH ao GitHub <a name="linkSSHKey"></a>
-
-> [!primary]
->
-> A geração de uma chave SSH é uma etapa crucial, pois estabelece uma ligação segura e encriptada entre o diretório do seu website e o repositório GitHub. Esta chave garante que as transferências de dados e as alterações do código são efetuadas de forma segura e autenticada, evitando o acesso não autorizado e garantindo a integridade do código.
->
-
-Copie e registe a chave SSH na sua conta GitHub. Isto permite estabelecer uma ligação segura sem necessidade de introduzir uma palavra-passe em cada operação Git que será levada a cabo.
-
-- Ligue-se à sua conta GitHub.
-- Clique na sua imagem de perfil no canto superior direito e, a seguir, em `Settings`{.action}.
-- Na nova página, clique em `SSH and GPG keys`{.action} na coluna da esquerda.
-- Selecione `New SSH key`{.action} ou `Add SSH key`{.action}.
-
-Aparece o formulário que permite adicionar uma nova chave SSH:
-
-- **Title** : adicione uma descrição para a sua chave SSH. Por exemplo, pode dar um nome a esta chave "OVHcloud".
-- **Type of key** : deixe o valor predefinido `authentication key`{.action}
-- **Key** : cole a sua chave SSH.
-
-Para validar as informações, clique em `Add SSH key`{.action}. Se solicitado, confirme o acesso à sua conta no GitHub.
 
 #### Definir o repositório GitHub
 
-Volte para o formulário de associação do Git na sua Área de Cliente OVHcloud. Deve introduzir o endereço do seu repositório GitHub. Se você ainda não tem um repositório GitHub para o seu projeto, crie um.
+Insira o endereço do seu repositório GitHub. Se você ainda não tem um repositório GitHub para o seu projeto, crie um.
 
 Para criar um novo repositório:
 
@@ -92,7 +71,12 @@ Defina um nome para o seu depósito e preencha as informações necessárias.
 
 Por fim, clique em `Create Repository`{.action}.
 
-Copie o endereço do seu repositório GitHub. Esta deve ser da forma `https://github.com/<username>/<repository_name.git>`. Volte para o formulário de associação do Git e cole o endereço do repositório GitHub no campo `Repositório`{.action}. Se o formato do endereço não estiver correto, aparecerá a seguinte mensagem de erro:
+Copie o endereço do seu repositório GitHub. Esta deve ser da forma:
+
+- `https://github.com/<username>/<repository_name.git>` para um repositório público.
+- `git@github.com:<username>/<repository_name.git>` para um repositório privado.
+
+Volte para o formulário de associação do Git e cole o endereço do repositório GitHub no campo `Repositório`{.action}. Se o formato do endereço não estiver correto, aparecerá a seguinte mensagem de erro:
 
 ![Multisite](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/error-wrong-git-branch-name.png){.thumbnail}
 
@@ -106,6 +90,34 @@ Agora defina o ramo do seu repositório GitHub. O branch padrão é "main`", mas
 - Indique o nome do novo ramo e confirme clicando em `Create new branch`{.action}.
 
 Volte para o formulário de associação de Git na sua Área de Cliente OVHcloud e indique o nome do novo ramo que acabou de criar.
+
+#### Associar uma chave SSH ao GitHub (apenas para os repositórios GitHub privados) <a name="linkSSHKey"></a>
+
+> [!primary]
+>
+> A geração de uma chave SSH é uma etapa crucial, pois estabelece uma ligação segura e encriptada entre o diretório do seu website e o repositório GitHub. Esta chave garante que as transferências de dados e as alterações do código são efetuadas de forma segura e autenticada, evitando o acesso não autorizado e garantindo a integridade do código.
+>
+
+> [!primary]
+>
+> **Porque é que a chave SSH é necessária apenas para um depósito privado?**
+>
+> Quando o repositório do GitHub é público, os arquivos podem ser recuperados sem autenticação, o que significa que o Git pode clonar e atualizar o código sem a necessidade de uma chave SSH. Por outro lado, se o seu repositório é privado, o GitHub exige uma autenticação para aceder. A chave SSH permite estabelecer essa ligação segura e garantir que apenas os utilizadores autorizados podem interagir com o repositório.
+
+Copie e registe a chave SSH na sua conta GitHub. Isto permite estabelecer uma ligação segura sem necessidade de introduzir uma palavra-passe em cada operação Git que será levada a cabo.
+
+- Ligue-se à sua conta GitHub.
+- Clique na sua imagem de perfil no canto superior direito e, a seguir, em `Settings`{.action}.
+- Na nova página, clique em `SSH and GPG keys`{.action} na coluna da esquerda.
+- Selecione `New SSH key`{.action} ou `Add SSH key`{.action}.
+
+Aparece o formulário que permite adicionar uma nova chave SSH:
+
+- **Title** : adicione uma descrição para a sua chave SSH. Por exemplo, pode dar um nome a esta chave "OVHcloud".
+- **Type of key** : deixe o valor predefinido `authentication key`{.action}
+- **Key** : cole a sua chave SSH.
+
+Para validar as informações, clique em `Add SSH key`{.action}. Se solicitado, confirme o acesso à sua conta no GitHub.
 
 #### Configurar a implementação automática
 

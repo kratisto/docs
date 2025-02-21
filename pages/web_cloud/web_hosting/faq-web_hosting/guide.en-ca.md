@@ -1,18 +1,37 @@
 ---
 title: "Web Hosting FAQ"
 excerpt: "Find the answers to the most frequently asked questions about OVHcloud Web Hosting plans"
-updated: 2024-06-27
+updated: 2025-02-14
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
+**Click on the questions below to see the explanations.**
 
 ## Manage your solution
 
-### How do I configure my hosting space?
+/// details | How do I configure my hosting space?
 
 To configure your hosting, first log in to the [OVHcloud Control Panel](/links/manager). In the `Hosting plans` section, you can manage your SSL certificates, the PHP version, the CDN option, the multisite, databases, etc.
 
 **Tips and tricks**: To help you configure your hosting, please check the `Getting started` section [here](/pages/web_cloud/web_hosting/hosting_first_steps_with_web_hosting).
 
-### How do I manage my passwords?
+///
+
+
+/// details | How do I manage my passwords?
 
 To manage your passwords, first log in to the [OVHcloud Control Panel](/links/manager). If you have forgotten your username or password, click on `Forgotten your username or password`{.action} in the login window. You will be sent an email with the reset procedure.
 
@@ -24,7 +43,10 @@ Once you have logged in to your Control Panel:
 - To change your database password, follow the instructions in this [guide](/pages/web_cloud/web_hosting/sql_change_password).
 - To change the password for your MX Plan email address, follow the instructions in this [guide](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password).
 
-### How do I put my website online? 
+///
+
+
+/// details | How do I put my website online? 
 
 To put your website online, you need to have a [domain name](/links/web/domains) corresponding to the web address from which your website will be accessible (e.g.: *mydomain.com*). You will also need a [Web Hosting](/links/web/hosting) plan to set up your website on.
 
@@ -32,27 +54,42 @@ To follow the steps required to build your website, go to this [page](/links/web
 
 **Tips and tricks**: To help you create your website, OVHcloud allows you to install website creation support software (WordPress, PrestaShop, Joomla! and Drupal) on your hosting plan, with the [1-click modules](/pages/web_cloud/web_hosting/cms_install_1_click_modules) feature.
 
-### How do I change my hosting plan?
+///
+
+
+/// details | How do I change my hosting plan?
 
 To order the web hosting plan that best suits your needs, you can view our web hosting plans at [this page](/links/web/hosting).
 
 Once you have made your choice, follow the instructions in our guide [Changing your web hosting plan offer](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer).
 
-### How do I transfer my website, database, domain name and emails to OVHcloud servers without any service interruptions?
+///
+
+
+/// details | How do I transfer my website, database, domain name and emails to OVHcloud servers without any service interruptions?
 
 Refer to our guide on [Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh), for the full set of steps to follow.
 
-### How do I host multiple websites on my Web Hosting plan? 
+///
+
+
+/// details | How do I host multiple websites on my Web Hosting plan? 
 
 See our guide [Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite).
 
-### How do I keep the email offer linked to my hosting plan when cancelling?
+///
+
+
+/// details | How do I keep the email offer linked to my hosting plan when cancelling?
 
 When you cancel or delete your hosting plan, the email solution attached to it will also be cancelled. To keep your email addresses, you will need to detach the email solution before cancelling the hosting plan.<br>
 
 To do this, go to your Web Hosting plan’s `General information`{.action} tab. In the **Configuration** section, click on the `...`{.action} button to the right of **Email addresses**. Click `Detach my email option`{.action} and follow the instructions to order an independent email solution that lets you keep your email addresses you have already created.
 
-### How do I increase the RAM of Web Cloud Databases linked to a Performance web hosting plan?
+///
+
+
+/// details | How do I increase the RAM of Web Cloud Databases linked to a Performance web hosting plan?
 
 To increase the RAM for a Web Cloud Databases service linked to a **Performance** hosting plan, you will need detach it from your **Performance** web hosting plan beforehand in order to switch to a higher plan.
 
@@ -64,6 +101,9 @@ You can find more information in our guide on [Configuring a Web Cloud Databases
 
 **This action cannot be undone, and the Cloud Databases Web hosting plan will then be billed separately from your Performance Web Hosting plan.**
 
+///
+
+
 ## Diagnostics 
 
 > [!warning]
@@ -71,13 +111,16 @@ You can find more information in our guide on [Configuring a Web Cloud Databases
 > If you experience any issues that are not listed in this FAQ, please refer to the [Troubleshooting](/products/web-cloud-hosting) section of our guides.
 >
 
-### What do I do if my website isn't working properly? 
+/// details | What do I do if my website isn't working properly? 
 
 There are several reasons why your website might not be working properly. To identify the cause, start by verifying that none of your subscriptions need to be **renewed** by logging into your [OVHcloud Control Panel](/links/manager).
 
 Then check out the [current events on our infrastructure](https://www.status-ovhcloud.com/). If all of your services are active and are not affected by any incidents or maintenance, please carry out a more in-depth diagnostic.
 
-### What do I do if, after my website has been put online, the OVHcloud "Website under construction" page remains displayed?
+///
+
+
+/// details | What do I do if, after my website has been put online, the OVHcloud "Website under construction" page remains displayed?
 
 ![site-en-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
@@ -87,13 +130,16 @@ This file is automatically disabled when you create your [1-click module](/pages
 
 If you have chosen [to install your website manually](/pages/web_cloud/web_hosting/cms_manual_installation), [log in to your FTP space](/pages/web_cloud/web_hosting/ftp_connection) and rename it to `index.html.old`.
 
-### What do I do if my website appears on a xxxxx.cluster0xx.hosting.ovh.net-type website?
+///
+
+
+/// details | What do I do if my website appears on a xxxxx.cluster0xx.hosting.ovh.net-type website?
 
 ![url-cluster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
 There are two scenarios. Either your website was created with this web address or it appeared following a modification.
 
-#### Scenario 1: Your website has been created with a xxxxx.cluster0xx.hosting.ovh.net URL
+- **Scenario 1:** Your website has been created with a xxxxx.cluster0xx.hosting.ovh.net URL
 
 > [!warning]
 >
@@ -110,7 +156,7 @@ Then delete its database from the database tab on the right-hand side of your sc
  
 Finally, retry the installation on the domain name you want, using the [1-click module](/pages/web_cloud/web_hosting/cms_manage_1_click_module) feature.
 
-#### Scenario 2: Your website is displayed with a xxxxx.cluster0xx.hosting.ovh.net web address because it was modified
+- **Scenario 2:** Your website is displayed with a xxxxx.cluster0xx.hosting.ovh.net web address because it was modified
 
 If your website appears with this URL following a change, restore it to its previous state.
 
@@ -125,7 +171,10 @@ To restore your website’s source code, please refer to our guide on [Restoring
 
 If your website has a database, please refer to our guide on [Restoring a backup of your database](/pages/web_cloud/web_hosting/sql_importing_mysql_database#restore-a-backup-from-the-control-panel).
 
-### What do I do if my website redirects to the OVHcloud webmail-login-interface?
+///
+
+
+/// details | What do I do if my website redirects to the OVHcloud webmail-login-interface?
 
 ![webmail-login-interface](/pages/assets/screens/website/webmail/webmail-login-interface.png){.thumbnail}
 
@@ -145,7 +194,10 @@ Compare the `Target` of the `NS` type records listed in the `DNS zone`{.action} 
 
 - If the elements are not identical and the servers listed in the `DNS server`{.action} tab do not appear in [this list](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), contact your webmaster or search for a [specialist service provider](/links/partner) via the [OVHcloud partners](/links/partner) page.
 
-### What do I do if my website displays a page does not redirect correctly error?
+///
+
+
+/// details | What do I do if my website displays a page does not redirect correctly error?
 
 ![the-page-isnt-redirecting-properly](/pages/assets/screens/other/browsers/errors/the-page-isnt-redirecting-properly.png){.thumbnail}
 
@@ -164,7 +216,10 @@ Restore your website to its previous state:
 
 If the restores do not allow you to restore access to your site, contact your webmaster or search for a [specialist service provider](/links/partner) on the [OVHcloud partners](/links/partner) website.
 
-### What do I do if my website displays a "503 error Backend fetch failed (Varnish cache)" error?
+///
+
+
+/// details | What do I do if my website displays a "503 error Backend fetch failed (Varnish cache)" error?
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
@@ -172,7 +227,10 @@ If you have enabled the [CDN option](/pages/web_cloud/web_hosting/cdn_how_to_use
 
 If you have not enabled this option or used *Maintenance* mode, please contact your webmaster or search for a [specialist service provider](/links/partner) via the [OVHcloud partners](/links/partner) website.
 
-### What do I do if my website displays a "Your request has been blocked" error?
+///
+
+
+/// details | What do I do if my website displays a "Your request has been blocked" error?
 
 ![your-request-has-been-blocked](/pages/assets/screens/other/browsers/errors/your-request-has-been-blocked.png){.thumbnail}
 
@@ -180,7 +238,10 @@ This message indicates that the type of HTTP request you are trying to make on y
 
 To help you correct these anomalies, contact your webmaster or one of our [partners](/links/partner).
 
-### What should I do if my website has a "Your IP has been banned" error?
+///
+
+
+/// details | What should I do if my website has a "Your IP has been banned" error?
 
 ![your-ip-has-been-banned](/pages/assets/screens/other/browsers/errors/your-ip-has-been-banned.png){.thumbnail}
 
@@ -190,7 +251,10 @@ In this situation, [review the logs](/pages/web_cloud/web_hosting/logs_and_stati
 Also, make sure your computer is not infected with a virus.<br>
 You can also contact one of our [partners](/links/partner) to check your website’s source code.
 
-### I have ordered a domain name with special characters, and it appears written in a strange way in my Control Panel. What should I do?
+///
+
+
+/// details | I have ordered a domain name with special characters, and it appears written in a strange way in my Control Panel. What should I do?
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
@@ -200,6 +264,9 @@ You have no action to take in this situation. Even if your domain appears in [in
 >
 > Using an email address with an IDN domain in an email client (Outlook, macOS Mail, etc.) is not recommended and may cause incompatibilities.
 >
+
+///
+
 
 ## Go further <a name="go-further"></a>
 

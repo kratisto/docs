@@ -1,7 +1,7 @@
 ---
-title: "Comparaison et résilience des modes de déploiement - Comprendre les zones 3-AZ / 1-AZ / Local Zones"
+title: "Comparaison et résilience des modes de déploiement - Comprendre les régions 3-AZ / 1-AZ / Local Zones"
 excerpt: "Découvrez les modes de déploiement d'OVHcloud"
-updated: 2025-01-10
+updated: 2025-01-27
 ---
 
 <style>
@@ -28,6 +28,10 @@ En outre, nous mettrons en évidence les défis concrets auxquels les utilisateu
 
 ## Concepts
 
+Qu'est ce qu'une **AZ** ? 
+
+Une Availability Zone (AZ) est une unité d'infrastructure composée d'un ou plusieurs centres de données isolés ou séparés, situés dans une région géographique spécifique où les services Public Cloud sont hébergés et opérés.
+
 OVHcloud fournit une infrastructure robuste et adaptable, conçue pour répondre à une grande variété de cas d'utilisation grâce à des modèles de déploiement qui équilibrent rentabilité, redondance et tolérance aux pannes. Ces différentes options permettent aux utilisateurs de choisir l’approche la plus adaptée à leurs exigences en matière de résilience, de disponibilité et de performance.
 
 1. **Région 1-AZ** : Ces régions à zone unique sont optimales pour les charges de travail où l’optimisation des coûts est prioritaire. Elles conviennent parfaitement aux besoins généraux tels que le stockage, la sauvegarde ou les applications dont les exigences en matière de disponibilité ne nécessitent pas une redondance multi-zones. Elles offrent un bon compromis entre fiabilité, performance et maîtrise des coûts.
@@ -46,9 +50,15 @@ Chacune de ces options repose sur les principes fondamentaux de résilience, de 
 
 #### Infrastructure et redondance
 
-Une région 1-AZ consiste en **une zone de disponibilité unique composée de un ou plusieurs centres de données dans une même région géographique**. Elle utilise une architecture de redondance 2N+1, conçue pour garantir la résilience contre les défaillances matérielles locales, telles que les pannes de disques ou de serveurs. Cependant, cette configuration reste vulnérable aux pannes affectant l'ensemble du centre de données.
+Une région 1-AZ consiste en **une zone de disponibilité unique composée de un ou plusieurs centres de données dans une même région géographique**. Elle utilise la redondance au niveau de l'infrastructure (alimentation, réseau et refroidissement). Toutefois, cette configuration reste vulnérable aux défaillances affectant l'ensemble du centre de données.
 
 Les services et les données sont protégés contre les incidents localisés grâce à une redondance interne efficace, mais une panne majeure ou totale d'un centre de données pourrait compromettre la disponibilité des services. Notez que chaque centre de données OVHcloud dispose d'une alimentation électrique et d'un réseau redondants pour éviter ces pannes.
+
+![1az_region_schema](images/1az_region_schema.png){.thumbnail}
+
+> [!primary]
+>
+> Dans une région 1AZ, vos instances ou autres ressources peuvent être réparties sur plusieurs centres de données au sein de la même zone de disponibilité. Cette architecture permet de bénéficier d’une redondance locale, tout en restant dans une seule et même zone de disponibilité.
 
 #### Caractéristiques
 
@@ -69,14 +79,10 @@ Les services et les données sont protégés contre les incidents localisés gr�
 
 | Spécification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Type de redondance**   | Architecture 2N+1* répartie sur plusieurs centres de données interconnectés.                                       |
+| **Type de redondance**   | Redondance au niveau de l'infrastructure (alimentation, réseau et refroidissement).</br> Réplication locale des données à l'intérieur de la zone pour assurer la résilience.                                       |
 | **Tolérance aux pannes**   | Protège contre les pannes de disques et de serveurs, mais pas contre une panne totale d'un centre de données.           |
 | **Protection des données** | Données répliquées à l'intérieur de l'AZ pour garantir la résilience locale.                                    |
 | **Limites** | Pas de protection inter-régions ou inter-Zones ; dépend d'une seule AZ.                                    |
-
-**Architecture 2N+1 :**
-
-Cette architecture double les ressources nécessaires (2N) et ajoute une unité supplémentaire (+1) pour garantir la continuité du service en cas de panne locale (serveur, disque). Les ressources sont réparties entre plusieurs datacenters dans la même AZ, assurant une faible latence et une résilience locale. Toutefois, elle ne protège pas contre une panne globale de l'AZ.
 
 #### Mise à l'échelle
 
@@ -109,11 +115,19 @@ Architecture:
 
 #### Infrastructure et redondance
 
-La Région 3-AZ consiste en **trois zones de disponibilité indépendantes**, chacune avec des systèmes d'alimentation, de refroidissement et de réseau isolés, ce qui permet une véritable isolation des pannes. Cette configuration garantit la disponibilité des services même en cas de défaillance de l'ensemble de la zone de disponibilité. L'architecture permet la réplication des données et des services entre les zones, ce qui garantit que si une zone tombe en panne, les autres peuvent continuer à desservir le trafic et à maintenir la performance de l'application.
+> [!warning]
+>
+> Le déploiement d'instances dans une configuration 3AZ nécessite une intervention manuelle pour la configuration de chaque instance. Assurez-vous de configurer correctement chaque instance dans les zones de disponibilité respectives pour garantir une répartition et une redondance optimales.
+
+La Région 3-AZ consiste en **trois zones de disponibilité indépendantes** et distinctes, conçues selon des normes strictes de séparation. Chaque zone dispose de systèmes d'alimentation, de refroidissement et de réseau isolés, garantissant une véritable isolation des pannes. Ces zones sont géographiquement réparties à une distance optimisée (30 km) pour prévenir tout impact d’un sinistre régional sur plusieurs zones simultanément.
+
+Cette configuration assure une haute disponibilité des services, même en cas de défaillance complète d’une zone de disponibilité. Grâce à cette séparation, l’architecture permet une réplication efficace des données et des services entre les zones, tout en maintenant une faible latence pour garantir une performance optimale des applications. Ainsi, si une zone tombe en panne, les autres continuent à traiter le trafic et à maintenir les performances.
+
+![3az_region_schema](images/3az_region_schema.png){.thumbnail}
 
 #### Caractéristiques
 
-- **Haute disponibilité :** Les données restent disponibles pour les opérations de lecture et d'écriture, même en cas de défaillance d'une zone. Cette architecture est idéale pour les applications nécessitant une tolérance aux pannes, car les données sont répliquées dans les trois zones de disponibilité. Même en cas d'interruption dans une zone, la continuité du service est maintenue.
+- **Haute disponibilité :** Les données restent disponibles pour les opérations de lecture et d'écriture, même en cas de défaillance d'une zone. Cette architecture est idéale pour les applications nécessitant une tolérance aux pannes, car les données sont répliquées dans les trois zones de disponibilité. Même en cas d'interruption dans une zone, la continuité des services régionaux est maintenue. Les services zonaux peuvent être exploités pour une haute disponibilité.
 - **Isolation des pannes :** Chaque zone de disponibilité est indépendante en termes d'alimentation, de réseau et de refroidissement, ce qui signifie que les problèmes d'une zone n'auront pas d'impact direct sur les autres. Cela permet d'atteindre un niveau de redondance plus élevé et de minimiser les interruptions de service.
 - **Latence optimisée :** La faible latence entre les zones garantit des communications rapides et fiables, optimales pour des charges de travail exigeantes.
 
@@ -127,14 +141,14 @@ La Région 3-AZ consiste en **trois zones de disponibilité indépendantes**, ch
 
 | Spécification         | Description                                                               |
 |-------------------|---------------------------------------------------------------------------|
-| **Type de redondance**      | 3N avec réplication inter-zones*.                                    |
+| **Type de redondance**      | Redondance de l’infrastructure (alimentation, réseau et refroidissement) sur 3 sites distincts utilisant le modèle 3AZ, ce qui augmente la disponibilité et la tolérance aux pannes. </br> Activez la réplication des données entre zones pour plus de résilience.                                 |
 | **Tolérance aux pannes** | Garantit la résilience contre la perte d'une zone entière, avec basculement automatique.                      |
 | **Protection des données** | Données répliquées de manière synchrone entre les zones pour garantir leur disponibilité continue. |
 | **Limites** | Ne protège pas contre une panne complète de la région ; nécessite une architecture multirégionale pour une résilience maximale. |
 
-**3N avec réplication inter-zones** :
+**Réplication inter-zones** :
 
-Dans cette architecture, les ressources sont triplées (3N) et réparties entre trois zones de disponibilité (AZ) distinctes. Les données sont répliquées de manière synchrone entre les zones, garantissant une résilience totale contre la perte d'une zone entière grâce au basculement automatique. Cependant, cette architecture ne protège pas contre une panne régionale complète.
+Dans cette architecture, les ressources sont triplées (3N) et réparties entre trois zones de disponibilité (AZ) distinctes. Les données peuvent être répliquées de manière synchrone entre les zones, ce qui garantit une résilience totale contre la perte d'une zone entière grâce au failover automatique. Toutefois, cette architecture ne protège pas contre une défaillance régionale complète.
 
 #### Mise à l'échelle
 
@@ -157,7 +171,7 @@ Dans une Région 3-AZ, la mise à l'échelle est plus flexible, offrant la possi
 Architecture:
 
 - **Trois zones de disponibilité (AZs) :** Chaque zone est géographiquement isolée pour éviter tout impact d'un sinistre local.
-- **Réplication des données :** Réplication synchrone des données entre les trois zones pour garantir leur disponibilité continue.
+- **Réplication des données :** Une réplication synchrone des données entre les trois zones peut être mise en œuvre pour garantir une disponibilité continue.
 - **Instances réparties :** Les instances applicatives sont déployées dans chaque zone, assurant la redondance et la haute disponibilité.
 - **Load balancers :** Les Load balancers gèrent le trafic utilisateur en répartissant les requêtes entre les zones, même en cas de panne.
 - **Sauvegardes régionales :** Les sauvegardes sont externalisées dans une solution S3 régionale pour protéger contre une perte totale des données.
@@ -171,6 +185,8 @@ Architecture:
 Les Local Zones rapprochent les services OVHcloud de certains utilisateurs finaux en réduisant la latence et en permettant le traitement des données localement. Elles sont conçues pour offrir des performances optimales pour les applications nécessitant une faible latence et une proximité avec les utilisateurs, tout en répondant aux exigences de conformité locale.
 
 Chaque Local Zone fonctionne comme une zone de disponibilité unique avec un ensemble limité de services., ce qui la rend idéale pour les scénarios où la latence est une priorité, mais où une redondance multi-AZ n'est pas essentielle.
+
+![localzone_schema](images/localzone_schema.png){.thumbnail}
 
 #### Caractéristiques
 
@@ -188,14 +204,10 @@ Chaque Local Zone fonctionne comme une zone de disponibilité unique avec un ens
 
 | Avantage        | Description                                           |
 |------------------|-------------------------------------------------------|
-| **Type de redondance**      | Triple réplication locale* au sein de la zone pour garantir la résilience face aux défaillances matérielles.             |
+| **Type de redondance**      | Redondance au niveau de l'infrastructure (alimentation, réseau et refroidissement).</br> Réplication locale des données à l'intérieur de la zone pour assurer la résilience.            |
 | **Tolérance aux pannes**  |  Garantit la continuité des opérations en cas de panne de disque ou de serveur au sein de la zone, mais ne protège pas contre une panne totale de la zone de disponibilité. |
 | **Protection des données**| Données répliquées dans la zone pour garantir leur disponibilité locale. |
 | **Limites**| Pas de protection contre les pannes globales ou régionales, dépend d’une seule Local Zone. |
-
-**Triple réplication locale :**
-
-Les données sont répliquées trois fois dans la même Local Zone, offrant une résilience contre les pannes matérielles (disque ou serveur). Cependant, cette architecture ne protège pas contre une panne complète de la zone et reste dépendante d'une seule Local Zone.
 
 #### Mise à l'échelle
 
@@ -231,7 +243,7 @@ Architecture:
 |------------------------|-------------------------------------|---------------------------------|------------------------------------------|
 | **Structure de déploiement**   | Zone de disponibilité unique            | Trois zones indépendantes | Zone de disponibilité unique               |
 | **service disponible** | Tous ou la plupart des services Public Cloud | Tous ou la plupart des services Public Cloud | La plupart des services Compute et Storage
-| **Redondance**             | 2N+1 interne (ressources dans une seule AZ)                    | Redondance inter-zones (ressources répliquées entre les zones)            | Triple réplication locale (réplication des ressources dans une seule zone)              |
+| **Redondance**             | Redondance sur l'infrastructure et réplication locale des données | Redondance inter-zones (ressources répliquées entre zones) et réplication inter-zones des données | Redondance sur l'infrastructure et réplication locale des données |
 | **Disponibilité des données**      | Limitée pendant les pannes du centre de données, protégée contre les pannes de serveur/disque | Maintenue dans toutes les zones, résiliente aux pannes de zone | Limitée pendant les pannes du centre de données, protégée contre les pannes de serveur/disque |
 | **Latence**                | Faible pour les utilisateurs finaux proches                            | Faible pour les utilisateurs finaux proches et très faible entre les zones de disponibilité   | Faible pour les utilisateurs finaux proches |
 | **Cas d'utilisation**        | Développement, environnements de transition, applications sensibles aux coûts, services non critiques | Applications à haute disponibilité, services commerciaux essentiels, reprise après sinistre et charges de travail critiques | Applications en temps réel, informatique de pointe, jeux, flux vidéo, services conformes à la réglementation |

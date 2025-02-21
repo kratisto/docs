@@ -26,7 +26,9 @@ Lorsque vous disposez d'un numéro alias chez OVHcloud, qu'il soit nouvellement 
 
 ### Étape 1 : accéder à la gestion de votre numéro
 
-Pour débuter la manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager-telecom){.external} et assurez-vous de vous situer dans la partie `Télécom`{.action}. Cliquez sur `Téléphonie`{.action}, sélectionnez votre groupe de téléphonie puis le numéro à configurer.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 
 Dès lors, deux possibilités existent selon le numéro concerné :
 

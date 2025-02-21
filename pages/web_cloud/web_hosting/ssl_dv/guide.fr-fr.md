@@ -1,7 +1,7 @@
 ---
 title: "Hébergement web - Activer un certificat SSL Sectigo DV"
 excerpt: "Découvrez comment activer un certificat SSL Sectigo DV sur votre hébergement Web OVHcloud"
-updated: 2024-10-21
+updated: 2025-02-20
 ---
 
 ## Objectif
@@ -79,8 +79,8 @@ Si besoin et pour vous en assurer, consultez nos guides :
 Pour commander le certificat SSL Sectigo DV, réalisez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+2. Cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 4. Sélectionnez l'hébergement web concerné.
 5. Sur la page qui s'affiche, restez dans l'onglet `Informations générales`{.action}.
 6. Positionnez-vous dans l'encadré intitulé `Configuration`.
@@ -109,8 +109,8 @@ L'installation du certificat SSL Sectigo DV peut prendre jusqu'à **24** heures.
 Pour vérifier que l'installation est terminée, effectuez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+2. Cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 4. Sélectionnez l'hébergement web concerné.
 5. Sur la page qui s'affiche, restez dans l'onglet `Informations générales`{.action}.
 6. Positionnez-vous dans l'encadré intitulé `Configuration`.

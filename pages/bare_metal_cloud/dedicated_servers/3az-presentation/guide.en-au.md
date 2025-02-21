@@ -1,6 +1,6 @@
 ---
-title: 'OVHcloud 3-AZ Region - Service presentation'
-excerpt: 'Discover OVHcloud 3-AZ service, offering unparalleled high availability and redundancy across three data centers'
+title: 'Bare Metal 3-AZ Region - Service presentation'
+excerpt: 'Discover Bare Metal 3-AZ service, offering unparalleled high availability and redundancy across three data centers'
 updated: 2024-05-30
 ---
 

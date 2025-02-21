@@ -30,7 +30,7 @@ Internet Protocol version 6 (IPv6) est le successeur d'Internet Protocol version
 
 Les sections suivantes contiennent les configurations des distributions que nous proposons actuellement et les distributions/systèmes d’exploitation les plus couramment utilisés. La première étape consiste toujours à vous connecter à votre serveur en SSH ou via une session de connexion GUI (RDP pour un serveur Windows).
 
-Sur les serveurs dédiés, la première IPv6 est déclarée comme 2607:5300:xxxx:xxxx::/64. Par exemple, si nous avons attribué à votre serveur la plage IPv6 : `2607:5300:abcd:efgh::/64`, la première IPv6 de votre serveur est : `2607:5300:abcd:efgh::/64`.
+Sur les serveurs dédiés, la première IPv6 est déclarée comme 2607:5300:xxxx:xxxx::/64. Par exemple, si nous avons attribué à votre serveur la plage IPv6 : `2607:5300:abcd:efgh::/64`, la première IPv6 de votre serveur est : `2607:5300:abcd:efgh::`.
 
 Par défaut, la première IPv6 est configurée sur la plupart des distributions Linux récentes que nous proposons à l'installation, donc la passerelle est déjà incluse dans le fichier de configuration. Dans la plupart des cas, vous n'aurez pas besoin de l'ajouter manuellement.
 
@@ -105,7 +105,7 @@ ssh user@serverIP
 
 #### Étape 2 : Créer une sauvegarde
 
-Le fichier de configuration réseau de votre serveur est situé dans `/etc/network/interfaces.d`. Avant de continuer, créez une sauvegarde de votre fichier en utilisant l'une des commandes suivantes :
+Le fichier de configuration réseau de votre serveur est situé dans `/etc/network/interfaces.d`. Avant de continuer, créez une sauvegarde de votre fichier en utilisant la commande suivante :
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bak

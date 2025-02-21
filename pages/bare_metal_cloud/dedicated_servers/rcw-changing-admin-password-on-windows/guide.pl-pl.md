@@ -86,7 +86,7 @@ Dysk lokalny jest teraz dostępny, a dysk systemu Windows odpowiada woluminowi "
 
 > [!primary]
 >
-> W tym przykładzie stan woluminu to "Resynching", ponieważ serwer został zrestartowany w trybie rescue. Jest to normalny stan, który nie jest spowodowany przez sam rescue.
+> W tym przykładzie stan woluminu to "Resynching", ponieważ serwer został zrestartowany w trybie rescue. Jest to normalny stan, który nie jest spowodowany przez sam rescue.  
 > Nie wpłynie to na dane woluminu, a ponowna synchronizacja będzie kontynuowana po ponownym uruchomieniu serwera w zainstalowanym systemie.
 
 > [!warning]

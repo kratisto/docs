@@ -84,8 +84,8 @@ You can see that the local disk is now accessible and that the Windows disk is d
 ![disk_import_sync](images/disk_import_sync.png){.thumbnail}
 
 > [!primary]
-> In this example, the volume status is "Resynching" because the server was hard-rebooted into rescue mode. This is an expected status and it is not caused by the rescue mode itself.
-> This will not affect data on the volume and resynchronisation will continue once the server is rebooted on its installed OS.
+> In this example, the volume status is "Resynching" because the server was hard-rebooted into rescue mode. This is an expected status and it is not caused by the rescue mode itself.  
+> This will not affect data on the volume and resynchronisation will continue once the server is rebooted into its installed OS.
 
 > [!warning]
 >

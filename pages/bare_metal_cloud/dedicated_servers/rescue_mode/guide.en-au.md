@@ -38,7 +38,7 @@ Usual tasks the rescue mode is appropriate for include:
 > If you have any services still online, rescue mode will interrupt them as the machine is being rebooted into the auxiliary rescue environment.
 >
 
-**This guide explains how to reboot a server into rescue mode and how to use it.**
+**This guide explains how to boot a server into rescue mode and how to use it.**
 
 ## Requirements
 

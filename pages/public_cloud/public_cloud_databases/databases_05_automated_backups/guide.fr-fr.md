@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Databases - Sauvegardes automatiques (EN)
 excerpt: Discover the automated backup methods for each engine
-updated: 2023-05-23
+updated: 2025-02-19
 ---
 
 ## Objective
@@ -29,10 +29,8 @@ MongoDB Enterprise | PITR on object storage | Off-site | Continuous | Few minute
 PostgreSQL | PITR on object storage | On-Site, Off-Site | Continuous | Few minutes | Yes
 MySQL | PITR on object storage | On-Site, Off-Site | Continuous | Few minutes | Yes
 Caching | Backup on object storage | On-Site, Off-Site | 2 times a day | 12h | Yes
-OpenSearch | Incremental | On-Site, Off-Site | Hourly | 1h | Yes
 M3 | Backup on object storage | On-Site, Off-Site | Daily | 24h | Yes
 Cassandra | Backup on object storage | On-Site, Off-Site | Daily | 24h | Yes
-Kafka | N/A | N/A | N/A | N/A | N/A
 
 ## Off-site backup
 
@@ -52,6 +50,7 @@ Public Cloud Databases provide a default configuration for remote backups based 
 | BHS (Beauharnois, Canada)   | SBG (Strasbourg, France)         |
 | DE (Frankfurt, Germany)     | GRA (Gravelines, France)         |
 | SBG (Strasbourg, France)    | GRA (Gravelines, France)         |
+| SGP (Singapore, Singapore)  | BHS (Beauharnois, Canada)        |
 | UK (London, United Kingdom) | GRA (Gravelines, France)         |
 | WAW (Warsaw, Poland)        | GRA (Gravelines, France)         |
 
@@ -95,6 +94,6 @@ On-Site: within the same region
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/fr/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!

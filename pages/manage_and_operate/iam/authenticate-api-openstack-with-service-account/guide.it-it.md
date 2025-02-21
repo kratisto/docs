@@ -10,7 +10,7 @@ updated: 2023-11-27
 
 To automate calls to protected APIs, you need to provide credentials to the code that handles them. With OVHcloud service accounts, it is possible to have a single ID per script for the use of the different APIs offered by OVHcloud products ([OVHcloud API](/pages/manage_and_operate/api/console-preview), [OpenStack API](/pages/public_cloud/compute/starting_with_nova), etc.).
 
-This guide details how to use service accounts to connect to OpenStack APIs.
+**This guide details how to use service accounts to connect to OpenStack APIs.**
 
 This allows you to: 
 

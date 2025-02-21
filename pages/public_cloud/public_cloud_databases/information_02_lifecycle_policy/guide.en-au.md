@@ -27,7 +27,7 @@ This lifecycle policy is applicable to :
 
 - All Public Cloud Databases services;
 - Including all the service plans (Essential, Business, Enterprise, Production, Advanced);
-- And all proposed DBMS, such as MySQL, PostgreSQL, MongoDB, Caching, Kafka, ...
+- And all proposed DBMS, such as MySQL, PostgreSQL, MongoDB, Caching, ...
 - Whatever state; if they are **up and running** or in a **sleeping state** (powered off, waiting for payment).
 
 ### Providing new major versions
@@ -65,17 +65,6 @@ To perform a fork, navigate to the "Overview" page of your service, and scroll d
 
 ## EOL Announcements for major versions
 
-### Kafka
-
-Public Cloud Databases for Kafka *major.minor* version will reach EOL approximately one year after it's made available on Public Cloud Databases.
-
-| **Kafka Version** | **OVHcloud EOL** | **Availability on Public Cloud Databases** |
-|-------------------|------------------|-------------------------------------------|
-| 3.4.x             | 2024-05-13       | 2023-05-09                                |
-| 3.5.x             | 2024-07-31       | 2023-07-31                                |
-| 3.6.x             | 2024-10-18       | 2023-10-18                                |
-| 3.7.x             | 2025-04-17       | 2024-04-17                                |
-
 ### MongoDB
 
 MongoDB EOL will coincide with the official MongoDB Lifecycle schedule : <https://www.mongodb.com/support-policy/lifecycles>.
@@ -96,6 +85,6 @@ Caching EOL will coincide with the official Redis® Community Releases policy : 
 
 Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-au/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -21,8 +21,12 @@ L'espace client OVHcloud vous permet de consulter et modifier votre palier tarif
 
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external} et assurez-vous de vous situer dans la partie « Télécom ». Cliquez sur `Téléphonie`{.action}, puis sélectionnez votre groupe de téléphonie.<br>
-Pour plus d'informations sur les groupes de téléphonie, consultez notre guide « [Gérer vos groupes de téléphonie](/pages/web_cloud/phone_and_fax/voip/regrouper_services_telephonie)».
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
+
+> [!success]
+> Pour plus d'informations sur les groupes de téléphonie, consultez notre guide « [Gérer vos groupes de téléphonie](/pages/web_cloud/phone_and_fax/voip/regrouper_services_telephonie) ».
 
 ### Consulter et/ou modifier le palier tarifaire de votre numéro spécial
 

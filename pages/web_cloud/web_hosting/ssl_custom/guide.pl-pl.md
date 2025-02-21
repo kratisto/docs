@@ -1,7 +1,7 @@
 ---
 title: "Hosting - Instalacja spersonalizowanego certyfikatu SSL"
 excerpt: "Dowiedz się, jak importować i instalować spersonalizowany certyfikat SSL na Twoim hostingu OVHcloud"
-updated: 2024-10-17
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie
@@ -163,8 +163,8 @@ Po spełnieniu wszystkich tych wymagań możesz rozpocząć instalację spersona
 W tym celu wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli pozostań w zakładce `Informacje ogólne`{.action}.
 6. Przejdź do ramki zatytułowanej `Konfiguracja`.
@@ -204,8 +204,8 @@ Instalacja potrwa kilka minut.
 Aby sprawdzić, czy instalacja została zakończona, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli pozostań w zakładce `Informacje ogólne`{.action}.
 6. Przejdź do ramki zatytułowanej `Konfiguracja`.

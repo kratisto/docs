@@ -1,7 +1,7 @@
 ---
 title: "Recuperar la copia de seguridad de una base de datos eliminada"
 excerpt: "Descubra cómo encontrar la copia de seguridad de una base de datos eliminada desde el área de cliente de OVHcloud"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -38,8 +38,8 @@ Las API de OVHcloud permiten a los desarrolladores o integradores asociar, por e
 Para obtener el nombre del alojamiento web, lleve a cabo los siguientes pasos:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Alojamientos`{.action}.
 4. Seleccione el alojamiento web correspondiente.
 5. En la parte superior izquierda de la página que aparece, consulte el nombre de su alojamiento web, a la derecha de la mención `Alojamientos /`{.action}.
 

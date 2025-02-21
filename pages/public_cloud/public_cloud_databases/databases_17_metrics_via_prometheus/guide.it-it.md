@@ -88,12 +88,8 @@ Public Cloud Databases offer service metrics via Prometheus for the following en
 
 - Caching
 - Cassandra
-- Kafka
-- Kafka Connect
-- Kafka MirrorMaker
 - MongoDB
 - MySQL
-- OpenSearch
 - PostgreSQL
 
 Prometheus endpoints are subject to the same networking limitations the associated service is. Thus, IP restrictions apply, and for services using private networking, the Prometheus exporter endpoint is only reachable from the private network your service is attached to.

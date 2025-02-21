@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja konta e-mail Zimbra w programie pocztowym"
 excerpt: "Dowiedz się, jak skonfigurować program pocztowy, aby sprawdzać e-maile dotyczące Twojego konta Zimbra"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Ważne**
->
-> Oferta Zimbra jest w fazie beta.
->
-> Jest on dostępny tylko dla tych osób, które wypełniły [formularz rejestracji w fazie beta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Wprowadzenie
 
@@ -74,7 +65,7 @@ Jeśli chcesz otrzymywać e-maile, wybierz rodzaj konta. Zalecamy użycie **IMAP
 |---|---|
 |Nazwa użytkownika|Wpisz pełny adres e-mail **complete**|
 |Hasło|Wpisz hasło wybrane dla tego konta e-mail|
-|Serwer **EUROPE** (ruch przychodzący)|pop.mail.ovh.net **ou** ssl0.ovh.net|
+|Serwer **EUROPE** (ruch przychodzący)|pop.mail.ovh.net **lub** ssl0.ovh.net|
 |Serwer **AMERYKA / AZJA-PACYFIK** (ruch przychodzący)|pop.mail.ovh.ca|
 |Port|995|
 |Typ zabezpieczeń|SSL/TLS|
@@ -85,7 +76,7 @@ Jeśli chcesz otrzymywać e-maile, wybierz rodzaj konta. Zalecamy użycie **IMAP
 |---|---|
 |Nazwa użytkownika|Wpisz pełny adres e-mail **complete**|
 |Hasło|Wpisz hasło wybrane dla tego konta e-mail|
-|Serwer **EUROPE** (ruch przychodzący)|imap.mail.ovh.net **ou** ssl0.ovh.net|
+|Serwer **EUROPE** (ruch przychodzący)|imap.mail.ovh.net **lub** ssl0.ovh.net|
 |Serwer **AMERYKA / AZJA-PACYFIK** (ruch przychodzący)|imap.mail.ovh.ca|
 |Port|993|
 |Typ zabezpieczeń|SSL/TLS|
@@ -98,7 +89,7 @@ Do wysyłki e-maili, jeśli wprowadzasz ręcznie ustawienia **SMTP** w ustawieni
 |---|---|
 |Nazwa użytkownika|Wpisz pełny adres e-mail **complete**|
 |Hasło|Wpisz hasło wybrane dla tego konta e-mail|
-|Serwer **EUROPE** (ruch przychodzący)|smtp.mail.ovh.net **ou** ssl0.ovh.net|
+|Serwer **EUROPE** (ruch przychodzący)|smtp.mail.ovh.net **lub** ssl0.ovh.net|
 |Serwer **AMERYKA / AZJA-PACYFIK** (przychodzący)|smtp.mail.ovh.ca|
 |Port|465|
 |Typ zabezpieczeń|SSL/TLS|

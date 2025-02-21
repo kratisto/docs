@@ -1,7 +1,7 @@
 ---
 title: Configura HYCU Backup (EN)
 excerpt: Installing HYCU Backup on a Nutanix cluster
-updated: 2024-12-10
+updated: 2025-01-31
 ---
 
 <style>
@@ -39,6 +39,7 @@ HYCU for Nutanix is a backup software available for Nutanix.
 - A Public Cloud project with a High Performance Object Storage type storage bucket, with a user with read and write permissions for this bucket. You can find more information on how to create a Public Cloud project and how to use the High Performance Object Storage service on the following pages:
     - [Creating your first OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project).
     - [Getting started with Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+    - [Object Storage - Managing object immutability with Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 - 60 GB of storage, 8 GB of memory, and 8 cores on your Nutanix Cluster for the HYCU Instance/Appliance.
 
 ## Instructions
@@ -810,6 +811,8 @@ The database is restored into a new database.
 [Nutanix on OVHcloud - High-level documentation](/pages/hosted_private_cloud/nutanix_on_ovhcloud/01-global-high-level-doc)
 
 [Nutanix Hyper-Convergence](/pages/hosted_private_cloud/nutanix_on_ovhcloud/03-nutanix-hci)
+
+[Object Storage - Managing object immutability with Object Lock (WORM)](/pages/storage_and_backup/object_storage/s3_managing_object_lock)
 
 [HYCU Home Page](https://www.hycu.com/)
 

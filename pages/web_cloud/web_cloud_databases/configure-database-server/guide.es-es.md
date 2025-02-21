@@ -1,7 +1,7 @@
 ---
 title: 'Configurar el servidor de bases de datos'
 excerpt: 'Cómo configurar y optimizar el servidor de bases de datos'
-updated: 2024-03-20
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -66,9 +66,7 @@ Para un alojamiento web de OVHcloud, solo tiene que marcar `Autorizar a los aloj
 > 
 > Si su plan de hosting Cloud Databases está asociado a un plan de hosting **Performance**, deberá eliminar obligatoria y previamente el plan de hosting Cloud Databases de su alojamiento **Performance** para migrar a un plan superior.
 >
-> Para desvincular una oferta de Web Cloud Databases asociada a un alojamiento web **Performance**, acceda a su [área de cliente de OVHcloud](/links/manager). Haga clic en la pestaña `Web Cloud`{.action} y seleccione el alojamiento correspondiente en la pestaña `Alojamientos`{.action}, que aparece en la columna izquierda. 
->
-> En la nueva página `Información general`{.action}, encontrará un recuadro titulado `Configuración`{.action} en el centro de la página. Haga clic en el botón `...` a la derecha de la mención `Web Cloud Databases`{.action} y luego en `Desvincular`{.action}. Seleccione la duración de renovación más corta y continúe hasta la validación del pedido.
+> Para asociar una solución Web Cloud Databases a un alojamiento web **Performance**, consulte nuestra guía "[Desvincular mi solución Web Cloud Databases de un alojamiento web](/pages/web_cloud/web_cloud_databases/detach-from-web-hosting)".
 >
 > **Esta acción es irreversible y la solución Web Cloud Databases se facturará a continuación, independientemente de su plan de hosting Performance.**
 >

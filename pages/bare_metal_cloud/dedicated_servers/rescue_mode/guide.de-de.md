@@ -146,7 +146,7 @@ Der *hard reboot* benötigt einige Minuten zur Durchführung. Sie können den ak
 
 ### Zugriff auf Ihren Server im Rescue-Modus via SSH
 
-Sobald Sie die E-Mail zur Aktivierung des Rescue-Modus erhalten haben, können Sie sich über das Rescue-Modus-System einloggen und auf Ihren Server zugreifen.  
+Sobald Sie die E-Mail zur Aktivierung des Rescue-Modus erhalten haben, können Sie sich über das Rescue-System einloggen und auf Ihren Server zugreifen.  
 Diese E-Mail ist auch in Ihrem [OVHcloud Kundencenter](/links/manager) verfügbar, sobald sie verschickt wurde. Klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie `E-Mails von OVHcloud`{.action} aus.
 
 > [!primary]
@@ -454,9 +454,8 @@ Folgende Anwendungen sind bereits in diesem Modus installiert:
 
 [Verwenden der IPMI-Konsole mit einem Dedicated Server](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers)
 
-Für spezielle Dienstleistungen (Referenzierung, Entwicklung etc.) wenden Sie sich bitte an die [OVHcloud Partner](/links/partner).
+Kontaktieren Sie für spezialisierte Dienstleistungen (SEO, Web-Entwicklung etc.) die [OVHcloud Partner](/links/partner).
 
-Wenn Sie Hilfe bei der Verwendung und Konfiguration Ihrer OVHcloud Lösungen benötigen, empfehlen wir Ihnen unsere verschiedenen [Support-Angebote](/links/support).
+Wenn Sie Hilfe bei der Nutzung und Konfiguration Ihrer OVHcloud Lösungen benötigen, beachten Sie unsere [Support-Angebote](/links/support).
 
-Für den Austausch mit unserer [User Community](/links/community).
-
+Treten Sie unserer [User Community](/links/community) bei.

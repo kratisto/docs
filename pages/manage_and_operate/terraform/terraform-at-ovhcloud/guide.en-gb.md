@@ -139,7 +139,6 @@ OVHcloud console GUI (also called "Control Panel" or "Manager") hides some backg
 | --- | --- | --- |
 | Hosting plan |  not available ||
 | Database | ovh | [ovh_hosting_privatedatabase](https://registry.terraform.io/providers/ovh/ovh/latest/docs/resources/hosting_privatedatabase)|
-| Web PaaS | not available ||
 | Emails | not available ||
 | Microsoft | not available ||
 

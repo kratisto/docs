@@ -46,11 +46,9 @@ OVHcloud vous permet de différencier la gestion administrative, technique et de
 > En cas de changement de tous les contacts pour un service, le contact administrateur est à modifier **en dernier**. En effet, si vous le modifiez en premier, vous ne disposerez plus des droits nécessaires pour modifier les contacts technique ou facturation.
 >
 
-Connectez-vous à l'[espace client OVHcloud](/links/manager){.external}, cliquez sur `Télécom`{.action} puis sur `Téléphonie`{.action}.
-
-![espace client Telecom VoIP](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-02-fr-voip.png){.thumbnail}
-
-Sélectionnez votre groupe de téléphonie puis cliquez sur l'onglet `Gestion des contacts`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur l'onglet `Gestion des contacts`{.action}.
 
 ![gestion des contacts](images/gestion-contacts01.png){.thumbnail}
 

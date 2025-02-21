@@ -17,11 +17,11 @@ AI Training jobs are linked to a Public Cloud project. The whole project is bill
 During its lifetime, the [AI Training job](/pages/public_cloud/ai_machine_learning/training_guide_03_concepts_jobs) will go through the following statuses:
 
 - `QUEUED`: The job run request is about to be processed.
-- `INITIALIZING`: The job instance is created and the data is synchronized from the Object Storage. To know more about the data synchronisation check out the [Data How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) section.
+- `INITIALIZING`: The job instance is created and the data is synchronized from the Object Storage. To know more about the data synchronisation check out the [Data - Concept and best practices](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) section.
 - `PENDING`: First, the system allocates the necessary compute resources (CPU/GPU) for the job. Then, the specified Docker image is pulled for use in the job.
 - `RUNNING`: The job is running, you can connect to it. Compute resources (GPUs/CPUs) are allocated to your specific job and data are available.
 - `INTERRUPTING`: The job is still running but an interruption order was received and is about to be processed.
-- `FINALIZING`: The job instance is deleted and the data is synchronized back to the Object Storage. To know more about the data synchronisation check out the [Data How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) section.
+- `FINALIZING`: The job instance is deleted and the data is synchronized back to the Object Storage.
 - `DONE`: The job ended normally.
 - `TIMEOUT`: The job is still running but is about to be interrupted because the timeout was reached.
 - `INTERRUPTED`: The job is ended and was interrupted.

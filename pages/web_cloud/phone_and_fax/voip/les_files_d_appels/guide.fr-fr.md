@@ -25,8 +25,9 @@ Vous pouvez ainsi décider, lorsqu'un appel entrant arrive sur votre numéro pri
 
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, dans la section `Télécom`{.action}.<br>
-Cliquez ensuite sur `Téléphonie`{.action} et choisissez le numéro alias sur lequel vous souhaitez configurer la file d'appels.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 
 ![espace client Telecom VoIP](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-02-fr-voip.png){.thumbnail}
 

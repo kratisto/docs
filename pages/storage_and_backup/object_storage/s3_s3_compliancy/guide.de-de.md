@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Kompatibilität (EN)
 excerpt: "Discover our S3* compatible Object Storage features list"
-updated: 2024-11-12
+updated: 2025-01-23
 ---
 
 <style>
@@ -306,7 +306,7 @@ This guide lists the features supported by Object Storage.
     </tr>
     <tr>
         <td>copy object</td>
-        <td>no</td>
+        <td>yes</td>
         <td>no</td>
     </tr>
     <tr>

@@ -83,7 +83,7 @@ Questa azione permette di ordinare una soluzione Web Cloud Databases indipendent
 Se non vuoi conservare questi dati, puoi anche eliminare la tua soluzione Web Cloud Databases prima di passare all'offerta *Pro*: 
 
 1. Esegui il backup dei dati seguendo le istruzioni riportate in questa [guida](/pages/web_cloud/web_cloud_databases/save-export-on-database-server).<br>
-2. Elimina il server Web Cloud Databases dallo [Spazio Cliente OVHcloud](/links/manager). Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca in alto a destra sul tuo nome e poi sull’icona `Prodotti e servizi`{.action}. Clicca sul pulsante `...`{.action} a destra della linea della soluzione Web Cloud Databases/SQL Privato in questione e poi su `Elimina il tuo hosting SQL Privato`{.action}.
+2. Elimina il server Web Cloud Databases dallo [Spazio Cliente OVHcloud](/links/manager). Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca in alto a destra sul tuo nome e poi sull `Le mie offerte e servizi`{.action}. Clicca sul pulsante `...`{.action} a destra della linea della soluzione Web Cloud Databases/SQL Privato in questione e poi su `Elimina il tuo hosting SQL Privato`{.action}.
 
 #### 3 - Spazio di archiviazione FTP
 

@@ -1,7 +1,7 @@
 ---
 title: Managing renewal for OVHcloud services
 excerpt: Find out how to manage automatic renewal for your services via the OVHcloud Control Panel
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Objective
@@ -124,6 +124,15 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >> You can renew these services at any time before their expiry, as well as choose the renewal duration.
 >> In this case, the duration of validity subscribed to will be added to the current validity period. You will not lose any remaining validity time.
 >>
+>> > [!success]
+>> >
+>> > Once you are in the online payment interface, if the service you want to renew has associated options and you also want to renew them, **don't tick** the white button(s) followed by the words `Do not renew` associated with each of the options displayed.
+>> > If you tick this/these white button(s), you will request renewal for your main service **WITHOUT** any associated options.
+>> >
+>> > Once you have made your choices, proceed with your order by clicking `Confirm`{.action}.
+>> >
+>> > Please note that some options are only priced when the renewal purchase order is generated.
+>>
 > **Cancel my subscription**
 >>
 >>![cancel](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -132,7 +141,7 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 >> When choosing this action, automatic payment and renewal will be disabled for the service you have selected.
 >>
->> For more information on cancelling OVHcloud services, follow the instructions in our guide **[How to cancel your OVHcloud services ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**.
+>> For more information on cancelling OVHcloud services, follow the instructions in our guide **[How to cancel your OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**.
 >>
 > **Renew service**
 >>
@@ -142,6 +151,15 @@ To the right of a service, click the `...`{.action}' button in the `Actions` col
 >>
 >> You will then be redirected to an online payment interface.
 >> You can renew these services at any time before their expiry, as well as choose the renewal duration.
+>>
+>> > [!success]
+>> >
+>> > Once you are in the online payment interface, if the service you want to renew has associated options and you also want to renew them, **don't tick** the white button(s) followed by the words `Do not renew` associated with each of the options displayed.
+>> > If you tick this/these white button(s), you will request renewal for your main service **WITHOUT** any associated options.
+>> >
+>> > Once you have made your choices, proceed with your order by clicking `Confirm`{.action}.
+>> >
+>> > Please note that some options are only priced when the renewal purchase order is generated.
 >>
 > **Pay my bill**
 >>

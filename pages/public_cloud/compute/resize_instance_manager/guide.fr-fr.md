@@ -65,7 +65,7 @@ Attention, lors d'un redimensionnement pour une instance Windows, la taille de l
 
 ![public-cloud](images/2981a.png){.thumbnail}
 
-- Cliquez sur `Suivant`{.action} pour accéder à « l'Assitant Extension du volume ». Choisissez les ressources du disque à étendre et cliquez sur `Suivant`{.action}. 
+- Cliquez sur `Suivant`{.action} pour accéder à « l'Assistant Extension du volume ». Choisissez les ressources du disque à étendre et cliquez sur `Suivant`{.action}. 
 
 ![public-cloud](images/2978a.png){.thumbnail}
 

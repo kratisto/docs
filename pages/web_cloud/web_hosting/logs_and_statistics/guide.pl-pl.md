@@ -1,7 +1,7 @@
 ---
 title: "Hosting - sprawdzanie statystyk i logów strony www"
 excerpt: "Dowiedz się, jak sprawdzić statystyki i logi Twojej strony WWW dzięki rozwiązaniu hostingowemu"
-updated: 2024-02-27
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie 
@@ -20,8 +20,8 @@ Dostęp do logów i statystyk Twojej strony WWW jest zawarty w wybranej przez Ci
 Aby uzyskać dostęp do różnych danych statystycznych i logów Twojego hostingu, wykonaj następujące czynności: 
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli kliknij zakładkę `Statystyki i logi`{.action}.
 
@@ -108,8 +108,8 @@ https://logs.cluster000.hosting.ovh.net/domain.tld/
 Link dostępowy do statystyk / logów możesz również sprawdzić bezpośrednio w Panelu klienta:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli kliknij zakładkę `Statystyki i logi`{.action}.
 6. Przejdź do sekcji `Statystyki odwiedzin na stronie`{.action}.

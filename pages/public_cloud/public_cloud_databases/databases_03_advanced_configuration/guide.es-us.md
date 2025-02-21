@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Databases - How to configure your advanced parameters
 excerpt: Advanced configuration for Public Cloud Databases engines
-updated: 2024-02-29
+updated: 2025-02-03
 ---
 
 ## Objective
@@ -13,20 +13,16 @@ Public cloud database engines are managed services, which means that they are no
 > Advanced configuration is available for the following Public Cloud Databases engines :
 >
 > - Cassandra
-> - Dashboards
-> - Kafka
-> - Kafka Connect
 > - MySQL
-> - Opensearch
 > - PostgreSQL
 > - Caching
 
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/es/public-cloud/) in your OVHcloud account   
-- A database running on your OVHcloud Public Cloud Databases ([this guide](/pages/public_cloud/public_cloud_databases/databases_01_order_control_panel) can help you to meet this requirement)   
-- Access to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws) or to the [OVHcloud API](https://api.ovh.com/)   
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- A database running on your OVHcloud Public Cloud Databases ([this guide](/pages/public_cloud/public_cloud_databases/databases_01_order_control_panel) can help you to meet this requirement)
+- Access to your [OVHcloud Control Panel](/links/manager) or to the [OVHcloud API](/links/api)
 
 ## Instructions
 
@@ -49,7 +45,7 @@ Public cloud database engines are managed services, which means that they are no
 
 ### Using the OVHcloud Control Panel
 
-To change the advanced configuration, you first need to log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws) and open your `Public Cloud`{.action} project. Click on `Databases`{.action} in the left-hand navigation bar, select your engine instance then the `Advanced configuration`{.action} tab.
+To change the advanced configuration, you first need to log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Databases`{.action} in the left-hand navigation bar, select your engine instance then the `Advanced configuration`{.action} tab.
 
 Select the key of the advanced setting you want to define, then set its value.
 
@@ -94,25 +90,10 @@ Open the following API call, paste your service ID into the `serviceName` input 
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/cassandra
 >> >
-> Kafka
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafka
->> >
-> Kafka Connect
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafkaConnect
->> >
 > MySQL
 >> > [!api]
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/mysql
->> >
-> Opensearch
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/opensearch
 >> >
 > PostgreSQL
 >> > [!api]
@@ -139,25 +120,10 @@ Open the following API call and paste the corresponding inputs (serviceName, clu
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/cassandra/{clusterId}/advancedConfiguration
 >> >
-> Kafka
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafka/{clusterId}/advancedConfiguration
->> >
-> Kafka Connect
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/advancedConfiguration
->> >
 > MySQL
 >> > [!api]
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/mysql/{clusterId}/advancedConfiguration
->> >
-> Opensearch
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/opensearch/{clusterId}/advancedConfiguration
 >> >
 > PostgreSQL
 >> > [!api]
@@ -182,25 +148,10 @@ Open the following API call and paste the corresponding inputs (serviceName, clu
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/cassandra/{clusterId}/capabilities/advancedConfiguration
 >> >
-> Kafka
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafka/{clusterId}/capabilities/advancedConfiguration
->> >
-> Kafka Connect
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/advancedConfiguration
->> >
 > MySQL
 >> > [!api]
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/mysql/{clusterId}/capabilities/advancedConfiguration
->> >
-> Opensearch
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/opensearch/{clusterId}/capabilities/advancedConfiguration
 >> >
 > PostgreSQL
 >> > [!api]
@@ -225,25 +176,10 @@ Open the following API call and paste the corresponding inputs (serviceName, clu
 >> >
 >> > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/cassandra/{clusterId}/advancedConfiguration
 >> >
-> Kafka
->> > [!api]
->> >
->> > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/kafka/{clusterId}/advancedConfiguration
->> >
-> Kafka Connect
->> > [!api]
->> >
->> > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/advancedConfiguration
->> >
 > MySQL
 >> > [!api]
 >> >
 >> > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/mysql/{clusterId}/advancedConfiguration
->> >
-> Opensearch
->> > [!api]
->> >
->> > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/opensearch/{clusterId}/advancedConfiguration
 >> >
 > PostgreSQL
 >> > [!api]
@@ -280,6 +216,6 @@ You can check the changes in different ways such as:
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!

@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Configurer son adresse e-mail sur l'interface en ligne de Gmail"
 excerpt: "Apprenez à configurer un compte E-mail Pro sur l'interface en ligne de Gmail"
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Objectif
@@ -41,11 +41,15 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 Pour débuter la manipulation, rendez-vous sur l'interface en ligne de Gmail depuis votre navigateur internet. Une fois sur cette dernière, renseignez les informations de votre compte Gmail, puis connectez-vous.
 
-Une fois connecté à l'interface, cliquez sur l'icône en forme de roue dentée, puis sur `Voir tous les paramètres`{.action}. Sur la page qui s'affiche, cliquez sur l'onglet `Comptes et importation`{.action}.
+Une fois connecté à l'interface, cliquez sur l'icône en forme de roue dentée, puis sur `Voir tous les paramètres`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step1.png){.thumbnail}
 
-À côté de `Consulter d'autres comptes de messagerie`, cliquez sur `Ajouter un compte de messagerie`{.action}. Dans la fenêtre qui s'affiche, renseignez votre adresse E-mail Pro OVHcloud, puis cliquez sur `Suivant`{.action}. Choisissez `Importer les e-mails de mon autre compte (POP3)`{.action}, puis cliquez de nouveau sur `Suivant`{.action}.
+Sur la page qui s'affiche, cliquez sur l'onglet `Comptes et importation`{.action}. À côté de `Consulter d'autres comptes de messagerie`, cliquez sur `Ajouter un compte de messagerie`{.action}.
+
+![emailpro](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+Dans la fenêtre qui s'affiche, renseignez votre adresse E-mail Pro OVHcloud, puis cliquez sur `Suivant`{.action}. Choisissez `Importer les e-mails de mon autre compte (POP3)`{.action}, puis cliquez de nouveau sur `Suivant`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step2.png){.thumbnail}
 

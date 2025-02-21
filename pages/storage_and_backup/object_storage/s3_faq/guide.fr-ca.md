@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ
 excerpt: "FAQ sur la solution Object Storage"
-updated: 2024-12-11
+updated: 2025-02-05
 ---
 
 ## Questions générales
@@ -56,7 +56,7 @@ Oui, Object Storage est largement compatible avec  S3 et peut être intégré av
 
 ### Comment est facturé le service ?
 
-L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché au Go/mois, mais la granularité de la facturation est au Go/heure. Consultez la tarification sur [cette page](/links/public-cloud/prices).
+L'Object Storage est facturé en fonction de l'espace de stockage utilisé, avec une granularité de 1 Gio. Pour assurer sa lisibilité, le prix est affiché au Gio/mois, mais la granularité de la facturation est au Gio/heure. Consultez la tarification sur [cette page](/links/public-cloud/prices).
 
 ### Exemple de tarification pour Object Storage – 1-AZ
 
@@ -222,6 +222,58 @@ Adaptée aux cas d'usage d'IA ou d'analytique, la classe High Performance est co
 ### Quelle est la bande passante disponible pour l'upload et le download ?
 
 La bande passante maximale est de 1 Gbps par connexion.
+
+## Réplication des données
+
+### Qu'est-ce que l'option Offsite Replication disponible dans le mode de déploiement 3-AZ ?
+
+Lorsque vous utilisez Object Storage dans une région 3-AZ, nous vous proposons une nouvelle option appelée **Offsite Replication** (réplication hors site), qui réplique automatiquement vos données sur un site distant pour une plus grande résilience, et ce, en un seul clic depuis l'espace client OVHcloud. 
+Cette fonctionnalité n'est disponible que pour les régions 3-AZ et repose sur une configuration de réplication automatique et gérée par OVHcloud :
+
+- Les données sont répliquées sur une région distante 1-AZ. Le système détermine automatiquement l'emplacement le plus approprié parmi **Strasbourg, Gravelines et Roubaix**, assurant une protection des données hors site efficace et fiable.
+- Les objets stockés dans le bucket de destination (aussi appelé *replica bucket*) sont facturés différemment. Consultez la tarification sur [cette page](/links/public-cloud/prices).
+- Le bucket de destination est exclusivement dédié à cette action et les utilisateurs ne peuvent que lister et/ou supprimer les objets si nécessaire.
+
+#### Quelles sont les différences entre la fonctionnalité de réplication asynchrone et l'option Offsite Replication ?
+
+L'option Offsite Replication proposée dans les régions 3-AZ repose sur la fonction de réplication asynchrone. Avec cette option Offsite Replication, OVHcloud se charge de générer automatiquement une configuration de règle de réplication avec des paramètres pré-remplis, là où la fonctionnalité de réplication asynchrone compatible S3 permet à l'utilisateur d'avoir la main sur l'ensemble de la fonction (configuration et déploiement).
+
+#### Que se passe-t-il si le bucket de destination est supprimé ?
+
+Les objets du bucket source à répliquer auront un statut de réplication FAILED lorsque l'outil tentera de les répliquer, mais vous ne recevrez aucune erreur.
+
+#### Dans ce cas, qu'en est-il de la règle de réplication initiale ?
+
+Dans le cas où le bucket de destination est supprimé, la règle de réplication initiale reste inchangée.
+
+#### Que se passe-t-il si un bucket source avec l'option activée est supprimé ? Et qu'en est-il de la règle de réplication initiale ?
+
+Votre bucket de destination existe toujours, mais aucun objet n'est répliqué à partir de votre bucket source d'origine. La règle de réplication est définie sur le bucket source et sera donc également supprimée.
+
+#### Où sont stockées les données répliquées, étant donné que la configuration de la règle de réplication est gérée par OVHcloud ?
+
+Vos données répliquées sont stockées comme toute autre donnée et seront stockées dans un bucket de destination automatiquement généré par OVHcloud dans une région de notre choix. Le système déterminera automatiquement l'emplacement le plus approprié parmi Strasbourg, Gravelines et Roubaix, assurant une protection des données hors site efficace et fiable.
+
+#### Puis-je modifier la configuration de la règle de réplication ?
+
+Nous vous recommandons fortement de ne pas modifier la configuration de la règle de réplication générée automatiquement pour garantir un bon fonctionnement. Toutefois, étant donné qu'il s'agit d'une configuration de réplication asynchrone standard, vous pouvez décider de l'enrichir ou la mettre à niveau pour une protection accrue. Veuillez vous référer au [guide de réplication asynchrone](/pages/storage_and_backup/object_storage/s3_asynchronous_replication) pour plus de détails sur la configuration.
+
+#### Quel est le nom du bucket de destination ?
+
+Le nom du bucket de destination suit le modèle suivant : `backup-{region-src}-{region-dst}-{timestamp_en_ms}-{src-bucket}`
+
+#### Comment accéder à mes données sauvegardées et quelles actions sont possibles avec le bucket de réplication ?
+
+Il est possible d'effectuer les requêtes *list/head/delete* sur les objects contenus dans le bucket de destination. Cependant les requêtes *put/post* ne sont pas possibles. Enfin, la requête *get* est possible mais limitée en fréquence.
+En cas d'indisponibilité/perte de la région principale de votre bucket source, le bucket de destination bascule automatiquement dans un mode lecture/écriture et devient disponible pour des actions supplémentaires de récupération d'objets.
+
+#### Quels utilisateurs/informations d'identification peuvent accéder au bucket de destination ?
+
+Lorsque vous activez l'Offsite Replication pendant la création du bucket source, l'utilisateur que vous avez associé à votre bucket source sera associé au bucket de destination.
+
+#### Comment seront facturées mes données répliquées ?
+
+Vous pouvez consulter les détails de tarification de l'option Offsite Replication sur la [page de tarification globale](/links/public-cloud/prices) du service Object Storage. L'option est facturée en fonction de l'espace de stockage utilisé, avec une granularité de 1 Gio. Pour assurer sa lisibilité, le prix est affiché au Gio/mois, mais la granularité de la facturation est au Gio/heure.
 
 ## Aller plus loin
 

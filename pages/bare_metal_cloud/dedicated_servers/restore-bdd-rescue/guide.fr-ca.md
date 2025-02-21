@@ -80,7 +80,7 @@ Device     Boot Start     End Sectors  Size Id Type
 > Les sections de code suivantes sont fournies à titre d'illustration, en relation avec l'exemple de sortie ci-dessus. Vous devrez ajuster les instructions avec votre configuration réelle et remplacer les valeurs dans les commandes par vos identifiants de disque et de volume.
 >
 
-Dans cet exemple, le disque principal (10 Go) est nommé "sdb". Nos données in `/` se trouvent donc sur la partition `/dev/sdb1`. (Alors que "sda" est en mode rescue et "sda1" la partition principale en mode rescue montée sur `/`.)
+Dans cet exemple, le disque principal (10 Go) est nommé "sdb". Nos données dans `/` se trouvent donc sur la partition `/dev/sdb1`. (Alors que "sda" est le disque en mode rescue et "sda1" est la partition principale en mode rescue montée sur `/`.)
 
 Nous montons la partition système dans le dossier `/mnt` puis nous vérifions son contenu :
 
@@ -208,6 +208,7 @@ Une fois toutes les partitions nécessaires montées, nous devons pouvoir exécu
 root@rescue:~# chroot /mnt/
 root@rescue:/#
 ```
+
 Maintenant, toutes les commandes que vous allez entrer seront appliquées à votre système à la place de l'environnement temporaire du mode rescue.
 
 Nous pouvons maintenant démarrer le service `mysql` :

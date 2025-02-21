@@ -1,7 +1,7 @@
 ---
 title: "Crear tareas automatizadas (CRON) en un alojamiento web"
 excerpt: "Descubra cómo crear tareas CRON para automatizar las tareas programadas en un alojamiento web"
-updated: 2024-05-16
+updated: 2025-02-20
 ---
 
 <style>
@@ -108,15 +108,30 @@ La tarea estará lista en unos minutos. Podrá modificar todos los parámetros o
 
 ### Modificar o eliminar una tarea programada
 
-Para ello, lleve a cabo las siguientes acciones:
+Haga clic en las fichas siguientes para ver cada una de las **4** etapas.
 
-1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
-4. Seleccione el alojamiento web correspondiente.
-5. En la nueva página, haga clic en la pestaña `Más`{.action} y seleccione `Cron`{.action}.
-6. En la tabla que aparece, haga clic en el botón `...`{.action} situado a la derecha de la tarea planificada correspondiente.
-7. Elija entre los botones `Editar`{.action} o `Eliminar`{.action} en función de la acción que desee realizar en la tarea programada.
+> [!tabs]
+> **Etapa 1**
+>>
+>> Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>
+>> Haga clic en el menú `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etapa 3**
+>>
+>> En la nueva página, haga clic en la pestaña `Más`{.action} y seleccione `Cron`{.action}.
+>>
+> **Etapa 4**
+>>
+>> En la tabla que aparece, haga clic en el botón `...`{.action} situado a la derecha de la tarea planificada correspondiente.
+>>
+>> Elija entre los botones `Editar`{.action} o `Eliminar`{.action} en función de la acción que desee realizar en la tarea programada.
 
 ### Limitaciones de las tareas planificadas en su alojamiento web
 

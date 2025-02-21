@@ -1,6 +1,6 @@
 ---
 title: 'Preparare l’ambiente per utilizzare l’API OpenStack'
-excerpt: 'Come installare l’ambiente OpenStack per gestire le istanze via API'
+excerpt: 'Come installare l’ambiente OpenStack per gestire i tuoi servizi via API'
 updated: 2024-12-05
 ---
 

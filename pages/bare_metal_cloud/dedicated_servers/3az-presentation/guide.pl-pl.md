@@ -1,12 +1,8 @@
 ---
-title: "OVHcloud 3-AZ Region - Prezentacja oferty"
-excerpt: 'Odkryj usługę OVHcloud 3-AZ, która oferuje niezrównaną wysoką dostępność i redundancję między trzema centrami danych'
+title: "Bare Metal 3-AZ Region - Prezentacja oferty"
+excerpt: 'Odkryj usługę Bare Metal 3-AZ, która oferuje niezrównaną wysoką dostępność i redundancję między trzema centrami danych'
 updated: 2024-05-30
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
 
 ## Wprowadzenie
 

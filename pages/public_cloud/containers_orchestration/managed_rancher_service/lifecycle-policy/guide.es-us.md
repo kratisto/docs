@@ -40,9 +40,10 @@ This schedule is subject to change and is provided for informational purposes on
 
 | Rancher version | Upstream release date | MRS release date | MRS End of support | MRS End of life |
 |-----------------|-----------------------|------------------|--------------------|----------------|
-| 2.9             | 2024-07-30            | Q4-2024          | 2025-08            | 2025-11        |
-| 2.8             | 2023-12-13            | 2024-03-25       | 2024-12            | 2025-04        |
-| 2.7             | 2022-11-16            | 2023-12-06       | 2024-10            | 2025-01        |
+| 2.10            | 2024-11-19            | 2025-02          | 2025-11            | 2026-Q1        |
+| 2.9             | 2024-07-30            | 2025-01-15       | 2025-08            | 2025-11        |
+| 2.8             | 2023-12-13            | 2024-03-25       | 2025-04-01         | 2025-07        |
+| 2.7             | 2022-11-16            | 2023-12-06       | 2025-02-28         | 2025-05        |
 
 **MRS release date:** Estimated date when this Rancher version is available for OVHcloud Managed Rancher Service. 
 

@@ -1,7 +1,7 @@
 ---
 title: AI Deploy - Billing and lifecycle
 excerpt: Learn how we bill AI Deploy
-updated: 2025-01-13
+updated: 2025-02-18
 ---
 
 > [!primary]
@@ -25,7 +25,7 @@ OVHcloud AI deploy allows deployment of Docker images, and each deployment is ca
 During its lifetime, the app will go through the following status:
 
 - `QUEUED`: the app deployment request is about to be processed.
-- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - How it works](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
+- `INITIALIZING`: the app is being started and, if any, the remote data is synchronized from the Object Storage. To learn more about data synchronization, please check out the [Data - Concept and best practices](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data#how-it-works) documentation.
 - `SCALING`: First, the system allocates the necessary compute resources (CPU/GPU) for the app. Then, the specified Docker image is pulled for use in the app. This status is also entered when the number of app replicas is being increased or decreased.
 - `RUNNING`: At least one replica of the app is available and accessible via its endpoint. As the app scales up to create new replicas, the status transitions back to `SCALING`. However, there is no interruption in service, and the original replica(s) remain accessible during this time.
 - `STOPPING`: the app is stopping, your compute resources are freed. Ephemeral data is deleted. If any, remote data is synchronized back to the Object Storage.
@@ -39,9 +39,7 @@ During its lifetime, the app will go through the following status:
 
 ## Billing principles
 
-AI Deploy apps are a pay-per-use solution. You only pay for the resources consumption, also known as available replicas, during a period of time (during the `RUNNING` and `SCALING` phases of your apps).
-
-The billing principle is quite simple, you select the amount of compute resource (CPUs or GPUs) you would like to work with and pay only for this.
+AI Deploy apps are a pay-per-use solution, with billing based on the consumption of compute resources (CPUs or GPUs). You can select the type and amount of resources you would like to work with and will be charged only for the resources consumed during the `SCALING` and `RUNNING` phases of your app replicas.
 
 We **do not provide** a pay-per-call pricing so far.
 

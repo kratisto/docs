@@ -1,7 +1,7 @@
 ---
 title: Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2024-10-02
+updated: 2025-02-17
 ---
 
 <style>
@@ -51,27 +51,16 @@ We advise you to save your data in Persistent Volumes (PV), not to save data dir
 
 ## LoadBalancer
 
-Creating a Kubernetes service of type LoadBalancer in a Managed Kubernetes cluster triggers the creation of a Public Cloud Load Balancer.
-The lifespan of the external Load Balancer (and thus the associated IP address) is linked to the lifespan of this Kubernetes resource.
+Creating a Kubernetes service of type LoadBalancer in a Managed Kubernetes cluster triggers the creation of a Public Cloud Load Balancer based on OpenStack Octavia.
+If the LoadBalancer has been created through a K8s service, the lifespan of the external Load Balancer (and thus the associated IP address if not explicity specified to keep it) is linked to the lifespan of this Kubernetes resource.
 
-There is a default quota of 200 external Load Balancers per Openstack project (also named Openstack tenant).
-This limit can be exceptionally raised upon request through our support team.
+To get more information about the deployment of a LoadBalancer deployment in a MKS cluster, consult our documentation to [expose services through a LoadBalancer](/pages/public_cloud/containers_orchestration/managed_kubernetes/expose_your_applications_using_a_load_balancer).
 
-There is also a limit of __10 open ports__ on every Load Balancer, and these ports must be in a range between __6 and 65535__.
-(Additionally, node-ports are using default range of 30000 - 32767 , allowing you to expose 2767 services/ports).
+## OpenStack & Quota
 
-A Public Cloud Load Balancer has the following non-configurable timeouts:
+Our Managed Kubernetes service is based on OpenStack, and your nodes, persistent volumes and load balancers are built on it, using OVHcloud Public Cloud. As such, you can see them in the `Compute` > `Instances` section of your [OVHcloud Public Cloud Control Panel](/links/manager). Though it doesn't mean that you can deal directly with these nodes and persistent volumes the same way you can do it for other Public Cloud instances.
 
-- 20 seconds for the backend connection to be established
-- 180 seconds for the client & server connections
-
-> [!primary]
->
-> The use of the UDP protocol is not supported.
-
-## OpenStack
-
-Our Managed Kubernetes service is based on OpenStack, and your nodes and persistent volumes are built on it, using OVHcloud Public Cloud. As such, you can see them in the `Compute` > `Instances` section of your [OVHcloud Public Cloud Control Panel](/links/manager). Though it doesn't mean that you can deal directly with these nodes and persistent volumes the same way you can do it for other Public Cloud instances.
+Also, MKS Cluster's quota relies on your project's quota. Consult [this documentation](/pages/public_cloud/compute/increasing_public_cloud_quota) to increase your quota.
 
 The *managed* part of OVHcloud Managed Kubernetes Service means that we have configured those nodes and volumes to be part of our Managed Kubernetes.  
 Please refrain from manipulating them from the *OVHcloud Public Cloud Control Panel* (modifying ports left opened, renaming, resizing volumes...), as you could break them.
@@ -137,7 +126,7 @@ The `vRack` feature is currently available and compliant with our Managed Kubern
 To prevent any conflict, we advise you to keep `DHCP` service running in your private network.
 
 > [!warning]
-> If you create your subnet via the [OVHcloud APIv6](https://ca.api.ovh.com/console/#/cloud/project/{serviceName}/network/private/{networkId}/subnet#POST), please ensure that this option `noGateway` is checked if you do not have a gateway on this subnet. Not doing so will result in faulty services of type LoadBalancer.
+> At the moment, MKS worker nodes cannot use provided Subnet's DNS nameservers.
 >
 
 > [!warning]

@@ -34,7 +34,7 @@ IPv6 (Internet Protocol version 6) jest najnowszą wersją protokołu internetow
 
 Poniższe sekcje zawierają konfiguracje aktualnie oferowanych przez nas dystrybucji oraz najczęściej używane dystrybucje/systemy operacyjne. Pierwszy etap polega zawsze na połączeniu się z Twoim serwerem przez SSH lub za pomocą sesji połączenia GUI (RDP w przypadku serwera Windows).
 
-W przypadku serwerów dedykowanych pierwszy adres IPv6 deklarowany jest jako 2607:5300:xxxx:xxxx:::/64. Na przykład, jeśli przypisaliśmy do Twojego serwera zakres adresów IPv6: `2607:5300:abcd:efgh::/64`, pierwszym adresem IPv6 jest: `2607:5300:abcd:efgh::/64`.
+W przypadku serwerów dedykowanych pierwszy adres IPv6 deklarowany jest jako 2607:5300:xxxx:xxxx:::/64. Na przykład, jeśli przypisaliśmy do Twojego serwera zakres adresów IPv6: `2607:5300:abcd:efgh::/64`, pierwszym adresem IPv6 jest: `2607:5300:abcd:efgh::`.
 
 Pierwszy adres IPv6 jest domyślnie skonfigurowany w większości najnowszych dystrybucji Linux, które proponujemy do instalacji, więc brama jest już zawarta w pliku konfiguracyjnym. W większości przypadków nie trzeba dodawać go ręcznie.
 
@@ -108,7 +108,7 @@ ssh user@serverIP
 
 #### Krok 2: Tworzenie kopii zapasowej
 
-Plik konfiguracyjny sieci serwera znajduje się w `/etc/network/interfaces.d`. Przed kontynuowaniem utwórz kopię zapasową pliku za pomocą jednego z poniższych poleceń:
+Plik konfiguracyjny sieci serwera znajduje się w `/etc/network/interfaces.d`. Przed kontynuowaniem utwórz kopię zapasową pliku za pomocą następującego polecenia:
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bak
@@ -136,7 +136,7 @@ iface eth0 inet6 static
 
 **Debian 10**
 
-```consile
+```console
 iface eth0 inet6 static 
     address YOUR_IPv6 
     netmask 64
@@ -173,7 +173,6 @@ iface eth0 inet6 static
 ```
 
 Dodawanie dodatkowych adresów IPv6:
-
 
 ```console
 auto eth0

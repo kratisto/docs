@@ -1,7 +1,7 @@
 ---
 title: "Zimbra - Konfiguration Ihres E-Mail Accounts auf der Zimbra Mobil-App"
 excerpt: "Erfahren Sie hier, wie Sie Ihre Zimbra-E-Mail-Accounts auf der Zimbra Mobile-App für Android und iOS einrichten"
-updated: 2024-11-15
+updated: 2025-02-12
 ---
 
 <style>
@@ -12,16 +12,6 @@ updated: 2024-11-15
   max-height:600px !important;
 }
 </style>
-
-> [!warning]
->
-> **Wichtig**
->
-> Das Zimbra Angebot befindet sich in der Beta-Phase.
->
-> Es ist derzeit für Anwender verfügbar, die das [Beta-Anmeldeformular ausgefüllt haben](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Einige der in dieser Anleitung aufgeführten Funktionen oder Einschränkungen können sich nach der Markteinführung des Produkts ändern.
 
 ## Ziel
 

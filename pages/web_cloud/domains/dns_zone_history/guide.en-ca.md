@@ -1,7 +1,7 @@
 ---
 title: "Managing the history of a DNS zone"
 excerpt: "Find out how to view, compare, download and restore your DNS zone backups"
-updated: 2024-06-26
+updated: 2025-02-19
 ---
 
 ## Objective
@@ -28,20 +28,41 @@ DNS management is now easier thanks to the history of your DNS zones.
 
 ## Instructions
 
-To access this feature, log in to your [OVHcloud Control Panel](/links/manager) then go to the `Web Cloud`{.action} section on the top of the interface. In the left-hand column, go to the `Domain names`{.action} section, click on the domain name linked to the DNS zone you want to manipulate, then go to the `DNS Zone`{.action} tab.
+To access this feature, click on the tabs below to view each of the **5** steps.
 
-The table that appears will show your domain name’s DNS zone. There, you will find the list of DNS records that it contains. On the right of the table, there are several buttons you can use to perform actions on your DNS zone. 
-
-![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
-
-Click `View your DNS zone history`{.action}. 
-
-On the new page, a table displays the backup history for your DNS zone, ordered from the most recent date to the oldest. At the top of this table is the current version of your DNS zone. On this page, you can:
-
-- [View a DNS zone](#view).
-- [Download a DNS zone](#download).
-- [Restore a DNS zone](#restore).
-- [Compare two DNS zones](#compare).
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Domain names`{.action} menu, then choose the domain name concerned.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Step 3** 
+>>
+>> Select the `DNS Zone`{.action} tab once you have clicked on the domain concerned.
+>>
+> **Step 4** 
+>>
+>> The table that appears will show your domain name’s DNS zone. There, you will find the list of DNS records that it contains. On the right of the table, there are several buttons you can use to perform actions on your DNS zone. 
+>>
+>> ![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
+>>
+>> Click `View your DNS zone history`{.action}. 
+>>
+> **Step 5** 
+>>
+>> On the new page, a table displays the backup history for your DNS zone, ordered from the most recent date to the oldest. At the top of this table is the current version of your DNS zone. On this page, you can:
+>>
+>> - [View a DNS zone](#view).
+>> - [Download a DNS zone](#download).
+>> - [Restore a DNS zone](#restore).
+>> - [Compare two DNS zones](#compare).
 
 > [!primary]
 >

@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Skonfiguruj swoje konto e-mail w interfejsie online programu pocztowego Gmail'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro w interfejsie online programu pocztowego Gmail'
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Wprowadzenie
@@ -41,11 +41,15 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 Przed rozpoczęciem operacji przejdź do interfejsu online programu Gmail, korzystając z Twojej przeglądarki internetowej. Wprowadź Twoje dane identyfikacyjne przypisane do konta Gmail, a następnie zaloguj się.
 
-Po zalogowaniu do interfejsu kliknij ikonę koła zębatego, a następnie `Zobacz wszystkie ustawienia`{.action}. Na stronie, która się wyświetli kliknij zakładkę `Konta i import`{.action}.
+Po zalogowaniu do interfejsu kliknij ikonę koła zębatego, a następnie `Zobacz wszystkie ustawienia`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step1.png){.thumbnail}
 
-Obok pozycji `Sprawdź inne konta programu pocztowego`, kliknij `Dodaj konto programu pocztowego`{.action}. W oknie, które się wyświetla wprowadź konto E-mail Pro OVHcloud, następnie kliknij `Dalej`{.action}. Wybierz `Importuj e-maile z innego konta (POP3)`{.action}, następnie ponownie kliknij `Dalej`{.action}.
+Na stronie, która się wyświetli kliknij zakładkę `Konta i import`{.action}. Obok pozycji `Sprawdź inne konta programu pocztowego`, kliknij `Dodaj konto programu pocztowego`{.action}.
+
+![emailpro](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+W oknie, które się wyświetla wprowadź konto E-mail Pro OVHcloud, następnie kliknij `Dalej`{.action}. Wybierz `Importuj e-maile z innego konta (POP3)`{.action}, następnie ponownie kliknij `Dalej`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step2.png){.thumbnail}
 

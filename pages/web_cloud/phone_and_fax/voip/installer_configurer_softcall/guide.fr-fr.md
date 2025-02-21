@@ -28,7 +28,10 @@ Le Softphone est une solution qui transforme votre ordinateur, smartphone ou tab
 
 ### Installer Softcall
 
-Connectez-vous à votre espace client et rendez-vous dans la partie `Télécom`{.action}. Dans le menu de gauche, cliquez sur `Téléphonie`{.action} puis sur votre ligne SIP. Après avoir sélectionné l'onglet `Softphone`{.action}, cliquez sur l'interrupteur pour générer l'envoi d'un e-mail dans lequel se trouve le logiciel Softcall, disponible pour Windows, macOS, Android et iOS.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Après avoir sélectionné l'onglet `Softphone`{.action}, cliquez sur l'interrupteur pour générer l'envoi d'un e-mail dans lequel se trouve le logiciel Softcall, disponible pour Windows, macOS, Android et iOS.
 
 ![Install Softcall](images/send_mail_manager.png){.thumbnail}
 

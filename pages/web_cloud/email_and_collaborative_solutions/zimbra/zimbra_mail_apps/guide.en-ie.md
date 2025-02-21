@@ -1,7 +1,7 @@
 ---
 title: "How to configure a Zimbra email address on an email client"
 excerpt: "Find out how to configure your email software to view emails from your Zimbra account"
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -9,15 +9,6 @@ updated: 2024-10-10
 max-width:400px!important;
 }
 </style>
-
-> [!warning]
->
-> **Important**
->
-> The Zimbra solution is a beta-phase product.
->
-> It is only available to those who have completed the [beta registration form](https://labs.ovhcloud.com/en/zimbra-beta/).
->
 
 ## Objective
 

@@ -1,7 +1,7 @@
 ---
 title: "Créer des tâches automatisées (CRON) sur votre hébergement Web"
 excerpt: "Découvrez comment créer des tâches CRON pour automatiser vos tâches planifiées sur un hébergement web"
-updated: 2024-05-16
+updated: 2025-02-20
 ---
 
 <style>
@@ -108,15 +108,30 @@ La tâche sera prête dans quelques minutes. Vous pouvez alors modifier tous ses
 
 ### Modifier ou supprimer une tâche planifiée
 
-Pour cela, effectuez les actions suivantes : 
+Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **4** étapes.
 
-1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
-4. Sélectionnez l'hébergement web concerné.
-5. Sur la page qui s'affiche, cliquez sur l'onglet `Plus`{.action} puis sur `Cron`{.action}.
-6. Dans le tableau qui apparaît, cliquez sur le bouton `...`{.action} situé à droite de la tâche planifiée concernée.
-7. Choisissez parmi les boutons `Modifier`{.action} ou `Supprimer`{.action} en fonction de l'action que vous souhaitez réaliser sur la tâche planifiée.
+> [!tabs]
+> **Etape 1**
+>>
+>> Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etape 2**
+>>
+>> Cliquez sur le menu `Hébergements`{.action}, puis choisissez l'hébergement web concerné.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Etape 3**
+>>
+>> Sur la page qui s'affiche, cliquez sur l'onglet `Plus`{.action} puis sur `Cron`{.action}.
+>>
+> **Etape 4**
+>>
+>> Dans le tableau qui apparaît, cliquez sur le bouton `...`{.action} situé à droite de la tâche planifiée concernée.
+>>
+>> Choisissez parmi les boutons `Modifier`{.action} ou `Supprimer`{.action} en fonction de l'action que vous souhaitez réaliser sur la tâche planifiée.
 
 ### Limitations des tâches planifiées sur votre hébergement Web
 

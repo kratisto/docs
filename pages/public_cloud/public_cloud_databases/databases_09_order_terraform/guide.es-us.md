@@ -13,8 +13,8 @@ Public Cloud managed databases allow you to focus on building and deploying clou
 ## Requirements
 
 - [Terraform >= 0.17.1](https://www.terraform.io/) installed
-- Access to the [OVHcloud API](https://ca.api.ovh.com/) (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
-- A [Public Cloud project](https://www.ovhcloud.com/es/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud API](/links/api) (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 ## Instructions
 
@@ -244,8 +244,6 @@ In this guide, we explained how to deploy a MongoDB service but you can find exa
 >> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/mysql/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/mysql/terraform/hello-world)
 > PostgreSQL
 >> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/postgresql/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/postgresql/terraform/hello-world)
-> Kafka
->> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/kafka/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/kafka/terraform/hello-world)
 > Cassandra
 >> [https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/cassandra/terraform/hello-world](https://github.com/ovh/public-cloud-databases-examples/tree/main/databases/cassandra/terraform/hello-world)
 
@@ -259,6 +257,6 @@ In this guide, we explained how to deploy a MongoDB service but you can find exa
 
 Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

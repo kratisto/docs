@@ -1,7 +1,7 @@
 ---
 title: "Recuperar o backup de uma base de dados eliminada"
 excerpt: "Saiba como recuperar o backup de uma base de dados quando esta foi eliminada a partir da Área de Cliente OVHcloud"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -38,8 +38,8 @@ As API da OVHcloud são disponibilizadas para permitir que os programadores ou o
 Para recuperar o nome do seu alojamento web, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. No canto superior esquerdo da página que é apresentada, encontre o nome do seu alojamento web à direita da menção `Alojamentos /`{.action}.
 

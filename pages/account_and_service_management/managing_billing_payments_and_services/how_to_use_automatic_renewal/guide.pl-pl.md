@@ -1,7 +1,7 @@
 ---
 title: Jak odnawiać usługi OVHcloud
 excerpt: Dowiedz się, jak zarządzać usługami i odnawianiem usług w Panelu klienta
-updated: 2024-12-23
+updated: 2025-01-28
 ---
 
 ## Wprowadzenie
@@ -124,6 +124,15 @@ Po prawej stronie usługi kliknij przycisk `...`{.action} w kolumnie `Filtruj`, 
 >> Możesz odnowić te usługi w dowolnym momencie przed ich wygaśnięciem, a także wybrać czas ich odnowienia.
 >> W tym przypadku zamówiony czas ważności zostanie dodany do bieżącego czasu ważności. Nie tracisz pozostałego czasu ważności usługi.
 >>
+>> > [!success]
+>> >
+>> > Po uruchomieniu internetowego interfejsu płatności, jeśli usługa, którą chcesz odnowić ma powiązane opcje i chcesz ją odnowić, **nie zaznaczaj białego(-ych) przycisku(-ów)**, po którym następuje(-ych) wzmianka `Nie odnawiaj`(ów) przypisanego do każdej z wyświetlonych opcji.
+>> > Jeśli zaznaczysz ten(e) biały(e) przycisk(y), poprosisz o odnowienie głównej usługi **BEZ** jej ewentualnych opcji.
+>> >
+>> > Po dokonaniu wyboru, kontynuuj realizację zamówienia, klikając `Zatwierdź`{.action}.
+>> >
+>> > W celach informacyjnych ceny niektórych opcji są wyświetlane dopiero po wygenerowaniu zamówienia na odnowienie usługi.
+>>
 > **Rezygnuję z usługi**
 >>
 >> ![Zrezygnuj](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
@@ -132,7 +141,7 @@ Po prawej stronie usługi kliknij przycisk `...`{.action} w kolumnie `Filtruj`, 
 >>
 >> Po wybraniu tej operacji automatyczne odnawianie i pobieranie środków zostanie wyłączone dla wybranej usługi.
 >>
->> Aby uzyskać więcej informacji na temat rezygnacji z usług OVHcloud, postępuj zgodnie z instrukcjami zawartymi w przewodniku "**[Jak zrezygnować z usług OVHcloud ](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**".
+>> Aby uzyskać więcej informacji na temat rezygnacji z usług OVHcloud, postępuj zgodnie z instrukcjami zawartymi w przewodniku "**[Jak zrezygnować z usług OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)**".
 >>
 > **Odnów usługę**
 >>
@@ -142,6 +151,15 @@ Po prawej stronie usługi kliknij przycisk `...`{.action} w kolumnie `Filtruj`, 
 >>
 >> Zostaniesz wówczas przekierowany do interfejsu płatności online.
 >> Możesz odnowić te usługi w dowolnym momencie przed ich wygaśnięciem, a także wybrać czas ich odnowienia.
+>>
+>> > [!success]
+>> >
+>> > Po uruchomieniu internetowego interfejsu płatności, jeśli usługa, którą chcesz odnowić ma powiązane opcje i chcesz ją odnowić, **nie zaznaczaj białego(-ych) przycisku(-ów)**, po którym następuje(-ych) wzmianka `Nie odnawiaj`(ów) przypisanego do każdej z wyświetlonych opcji.
+>> > Jeśli zaznaczysz ten(e) biały(e) przycisk(y), poprosisz o odnowienie głównej usługi **BEZ** jej ewentualnych opcji.
+>> >
+>> > Po dokonaniu wyboru, kontynuuj realizację zamówienia, klikając `Zatwierdź`{.action}.
+>> >
+>> > W celach informacyjnych ceny niektórych opcji są wyświetlane dopiero po wygenerowaniu zamówienia na odnowienie usługi.
 >>
 > **Ureguluj należności**
 >>

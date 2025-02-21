@@ -29,18 +29,18 @@ This guide will show you how to activate a 100M free hosting on your [domain nam
 
 ## Instructions
 
-To activate your free 100M hosting plan, click on the tabs below to view each of the **4** steps in succession.
+To activate your free 100M hosting plan, click on the tabs below to view each of the **4** steps.
 
 > [!tabs]
 > **Step 1**
 >>
->> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>> Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
 >>
 > **Step 2**
 >>
->> Click the `Domain names`{.action} dropdown menu, then choose the domain name concerned.
+>> Click the `Domain names`{.action} menu, then choose the domain name concerned.
 >>
 >> ![enable 100m](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

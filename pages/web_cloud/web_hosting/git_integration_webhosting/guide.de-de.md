@@ -1,7 +1,7 @@
 ---
 title: "Konfiguration und Nutzung von Git mit OVHcloud Webhosting"
 excerpt: "Erfahren Sie hier, wie Sie Git mit Ihrem Webhosting In Ihrem OVHcloud Kundencenter konfigurieren und verwenden"
-updated: 2024-09-12
+updated: 2025-01-31
 ---
 
 ## Ziel
@@ -49,33 +49,13 @@ Das Git-Zuordnungsformular wird angezeigt. Mehrere Elemente müssen konfiguriert
 - SSH-Schlüssel
 - GitHub-Repository
 - Zweig des GitHub-Repositorys
+- SSH-Schlüssel (für ein privates GitHub-Repository)
 - Webhook (optional)
 
-#### Einen SSH-Schlüssel mit GitHub verbinden <a name="linkSSHKey"></a>
-
-> [!primary]
->
-> Die Erstellung eines SSH-Schlüssels ist ein wichtiger Schritt, da er eine sichere verschlüsselte Verbindung zwischen dem Verzeichnis Ihrer Website und dem GitHub-Repository herstellt. Dieser Schlüssel stellt sicher, dass Datenübertragungen und Codeänderungen sicher und authentifiziert erfolgen, um unbefugten Zugriff zu verhindern und die Codeintegrität zu gewährleisten.
->
-
-Kopieren Sie den SSH-Schlüssel und speichern Sie ihn in Ihrem GitHub-Konto. So können Sie eine sichere Verbindung herstellen, ohne dass für jede Git-Operation ein Kennwort eingegeben werden muss.
-
-- Melden Sie sich bei Ihrem GitHub-Konto an.
-- Klicken Sie oben rechts auf Ihr Profilbild und dann auf `Settings`{.action}.
-- Klicken Sie auf der neuen Seite in der linken Spalte auf `SSH and GPG keys`{.action}.
-- Wählen Sie `New SSH key`{.action} oder `Add SSH key`{.action}.
-
-Das Formular zum Hinzufügen eines neuen SSH-Schlüssels wird angezeigt:
-
-- **Title**: Geben Sie eine Beschreibung für Ihren SSH-Schlüssel ein. Sie können diesen Schlüssel zum Beispiel „OVHcloud“ nennen.
-- **Type of key**: Übernehmen Sie den Standardwert `authentication key`{.action}
-- **Key**: Fügen Sie Ihren SSH-Schlüssel ein.
-
-Um die Informationen zu bestätigen, klicken Sie auf `Add SSH key`{.action}. Wenn Sie dazu aufgefordert werden, bestätigen Sie den Zugriff auf Ihr Konto in GitHub.
 
 #### GitHub-Repository definieren
 
-Kehren Sie zum Git-Zuordnungsformular in Ihrem OVHcloud Kundencenter zurück. Sie müssen die Adresse Ihres GitHub-Repositorys angeben. Wenn Sie noch kein GitHub-Repository für Ihr Projekt haben, erstellen Sie eines.
+Geben Sie die Adresse Ihres GitHub-Repositorys ein. Wenn Sie noch kein GitHub-Repository für Ihr Projekt haben, erstellen Sie eines.
 
 So erstellen Sie ein neues Repository:
 
@@ -92,7 +72,12 @@ Legen Sie einen Namen für Ihr Repository fest und geben Sie die angeforderten I
 
 Klicken Sie abschließend auf `Create Repository`{.action}.
 
-Kopieren Sie die Adresse Ihres GitHub-Repositorys. Diese muss im Format `https://github.com/<username>/<repository_name.git>` vorliegen. Kehren Sie zum Git-Zuordnungsformular zurück und fügen Sie die Adresse Ihres GitHub-Repositorys in das Feld `Repository`{.action} ein. Wenn das Adressformat nicht korrekt ist, wird die folgende Fehlermeldung angezeigt:
+Kopieren Sie die Adresse Ihres GitHub-Repositorys. Diese muss folgende Form haben:
+
+- `https://github.com/<username>/<repository_name.git>` für ein öffentliches Repository.
+- `git@github.com:<username>/<repository_name.git>` für ein privates Repository.
+
+Kehren Sie zum Git-Zuordnungsformular zurück und fügen Sie die Adresse Ihres GitHub-Repositorys in das Feld `Repository`{.action} ein. Wenn das Adressformat nicht korrekt ist, wird die folgende Fehlermeldung angezeigt:
 
 ![Multisite](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/error-wrong-git-repository-name.png){.thumbnail}
 
@@ -106,6 +91,34 @@ Legen Sie nun den Zweig Ihres GitHub-Repositorys fest. Die Standardverzweigung i
 - Geben Sie den Namen der neuen Verzweigung an und bestätigen Sie dies durch Klicken auf `Create new branch`{.action}.
 
 Kehren Sie zum Git-Zuordnungsformular in Ihrem OVHcloud Kundencenter zurück und geben Sie den Namen des gerade erstellten neuen Zweigs ein.
+
+### Einen SSH-Schlüssel mit GitHub verbinden (nur für private GitHub-Repositorys) <a name="linkSSHKey"></a>
+
+> [!primary]
+>
+> Die Erstellung eines SSH-Schlüssels ist ein wichtiger Schritt, da er eine sichere verschlüsselte Verbindung zwischen dem Verzeichnis Ihrer Website und dem GitHub-Repository herstellt. Dieser Schlüssel stellt sicher, dass Datenübertragungen und Codeänderungen sicher und authentifiziert erfolgen, um unbefugten Zugriff zu verhindern und die Codeintegrität zu gewährleisten.
+>
+
+> [!primary]
+>
+> **Warum wird der SSH-Schlüssel nur für ein privates Repository benötigt?**
+>
+> Wenn Ihr GitHub-Repository öffentlich ist, können die Dateien ohne Authentifizierung abgerufen werden, was bedeutet, dass Git den Code klonen und aktualisieren kann, ohne einen SSH-Schlüssel zu benötigen. Wenn Ihr Repository jedoch privat ist, verlangt GitHub eine Authentifizierung, um darauf zuzugreifen. Der SSH-Schlüssel stellt dann diese sichere Verbindung her und gewährleistet, dass nur autorisierte Benutzer mit dem Repository interagieren können.
+
+Kopieren Sie den SSH-Schlüssel und speichern Sie ihn in Ihrem GitHub-Konto. So können Sie eine sichere Verbindung herstellen, ohne dass für jede Git-Operation ein Kennwort eingegeben werden muss.
+
+- Melden Sie sich bei Ihrem GitHub-Konto an.
+- Klicken Sie oben rechts auf Ihr Profilbild und dann auf `Settings`{.action}.
+- Klicken Sie auf der neuen Seite in der linken Spalte auf `SSH and GPG keys`{.action}.
+- Wählen Sie `New SSH key`{.action} oder `Add SSH key`{.action}.
+
+Das Formular zum Hinzufügen eines neuen SSH-Schlüssels wird angezeigt:
+
+- **Title**: Geben Sie eine Beschreibung für Ihren SSH-Schlüssel ein. Sie können diesen Schlüssel zum Beispiel "OVHcloud" nennen.
+- **Type of key**: Übernehmen Sie den Standardwert `authentication key`{.action}
+- **Key**: Fügen Sie Ihren SSH-Schlüssel ein.
+
+Um die Informationen zu bestätigen, klicken Sie auf `Add SSH key`{.action}. Wenn Sie dazu aufgefordert werden, bestätigen Sie den Zugriff auf Ihr Konto in GitHub.
 
 #### Automatische Bereitstellung konfigurieren
 

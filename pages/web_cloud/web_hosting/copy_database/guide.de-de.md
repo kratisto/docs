@@ -1,7 +1,7 @@
 ---
 title: "Inhalt einer Datenbank in eine andere duplizieren"
 excerpt: "Erfahren Sie hier, wie Sie den Inhalt einer OVHcloud Datenbank in eine andere OVHcloud Datenbank kopieren"
-updated: 2023-11-22
+updated: 2025-02-20
 ---
 
 ## Ziel
@@ -38,9 +38,29 @@ Je nach Ihrer Ausgangslage ist der Zugriffspfad zur Quelldatenbank unterschiedli
 
 #### Start SQL
 
-Wählen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) `Web Cloud`{.action} aus dem Menü oben aus. Öffnen Sie in der linken Spalte `Hosting-Pakete`{.action} und klicken Sie auf das Webhosting mit der Quelldatenbank.
+Klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
-![Liste der Hostings](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Klicken Sie auf den Tab `Datenbanken`{.action}.
+>>
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Schritt 4**
+>>
 
 Wenn Sie auf den Tab `Datenbanken`{.action} klicken, wird eine Liste Ihrer Start SQL-Datenbanken angezeigt.
 
@@ -48,13 +68,26 @@ Wenn Sie auf den Tab `Datenbanken`{.action} klicken, wird eine Liste Ihrer Start
 
 #### Web Cloud Databases
 
-Wählen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) `Web Cloud`{.action} aus dem Menü oben aus. Öffnen Sie in der linken Spalte `Web Cloud Databases`{.action} und wählen Sie den Web Cloud Databases Server mit der Quelldatenbank aus.
+Klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
-![Liste der WCD-Server](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
-
-Wenn Sie auf den Tab `Datenbanken`{.action} klicken, wird eine Liste der Datenbanken auf Ihrem Web Cloud Databases Server angezeigt.
-
-![WCD DB-Liste](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/databases/wcdb-dashboard-db-list.png){.thumbnail}
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Web Cloud Databases`{.action} und wählen Sie die betreffende Web Cloud Databases Lösung aus.
+>>
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Wenn Sie auf den Tab `Datenbanken`{.action} klicken, wird eine Liste der Datenbanken auf Ihrem Web Cloud Databases Server angezeigt.
+>>
+>> ![WCD DB-Liste](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/databases/wcdb-dashboard-db-list.png){.thumbnail}
 
 ### Inhalt einer Datenbank kopieren
 

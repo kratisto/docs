@@ -107,7 +107,7 @@ In this section, you will find details on each status that has blocked your emai
 >
 > - The configuration of [the SPF record](/pages/web_cloud/domains/dns_zone_spf) in the domain name’s DNS zone.
 > - The configuration of [the DMARC record](/pages/web_cloud/domains/dns_zone_dmarc) in the DNS zone of the domain name, **only if the destination server requires it**.
-> - Check the reputation of the IP address that sent the email ([your Web Hosting plan’s reputation] (/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip) in your case), using a tool such as [MXtoolbox](https://mxtoolbox.com/) or [Spamhaus](https://check.spamhaus.org/).
+> - Check the reputation of the IP address that sent the email ([here the IP of your web hosting plan](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip), using tools such as [MXtoolbox](https://mxtoolbox.com/) or [Spamhaus](https://check.spamhaus.org/).
 > - The email does not contain any elements that could be interpreted as SPAM. You can find a non-exhaustive list of these elements in the “[Case 3: Sending legitimate emails classified as SPAM](#elements-list-spam)” section of this guide.
 > - If there is no blockage on the OVHcloud side, and if the email has not been received or rejected by the recipient, contact the recipient to have them check if the email has been blocked on the receiving server.
 

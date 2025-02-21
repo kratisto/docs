@@ -20,7 +20,10 @@ Les touches programmables (aussi appelées touches de fonction) permettent de li
 
 ### Configurer des touches programmables via votre espace client
 
-Une fois connecté dans l'[espace client OVHcloud](/links/manager){.external} partie `Télécom`{.action}, cliquez sur `Téléphonie` et sélectionnez la ligne concernée. Cliquez ensuite sur l'onglet `Téléphone`{.action} puis sur `Touches programmables`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Cliquez ensuite sur l'onglet `Téléphone`{.action} puis sur `Touches programmables`{.action}.
 
 ![Touches programmables](images/touches_programmables.png){.thumbnail}
 

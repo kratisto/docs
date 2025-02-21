@@ -35,7 +35,7 @@ Los servidores de las gamas High Grade, Scale y Advance (desde julio de 2024) se
 
 Las siguientes secciones contienen las configuraciones de distribuciones que ofrecemos actualmente y los sistemas operativos y distribuciones más utilizados. En primer lugar, conéctese al servidor por SSH o mediante una sesión de conexión GUI (RDP para un servidor Windows).
 
-En los servidores dedicados, la primera IPv6 se declara como 2607:5300:xxxx:xxxx::/64. Por ejemplo, si hemos asignado a su servidor el rango IPv6: `2607:5300:abcd:efgh::/64`, la primera IPv6 de su servidor será: `2607:5300:abcd:efgh::/64`.
+En los servidores dedicados, la primera IPv6 se declara como 2607:5300:xxxx:xxxx::/64. Por ejemplo, si hemos asignado a su servidor el rango IPv6: `2607:5300:abcd:efgh::/64`, la primera IPv6 de su servidor será: `2607:5300:abcd:efgh::`.
 
 Por defecto, la primera IPv6 se configura en la mayoría de las distribuciones Linux recientes que ofrecemos en la instalación, por lo que la pasarela ya está incluida en el archivo de configuración. En la mayoría de los casos, no será necesario añadirla manualmente.
 
@@ -107,7 +107,7 @@ ssh user@serverIP
 
 #### 2. Crear una copia de seguridad
 
-El archivo de configuración de red del servidor se encuentra en `/etc/network/interfaces.d`. Antes de continuar, cree una copia de seguridad del archivo utilizando uno de los siguientes comandos:
+El archivo de configuración de red del servidor se encuentra en `/etc/network/interfaces.d`. Antes de continuar, cree una copia de seguridad de su archivo utilizando el siguiente comando:
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bak

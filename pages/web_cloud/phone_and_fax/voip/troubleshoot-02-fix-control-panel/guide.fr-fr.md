@@ -120,11 +120,10 @@ Les manipulations pour réinitialiser nos téléphones sont décrites ci-dessous
 > Rendez-vous sur <http://monip.ovh> et prenez note de l'adresse IP publique qui vous est indiquée.
 >
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external} puis cliquez sur l'onglet `Telecom`{.action}.
-
-Cliquez sur `Téléphonie`{.action} et choisissez la ligne concernée. 
-
-Rendez-vous dans l'onglet `Assistance`{.action} et cliquez sur le bouton `Dépannage Plug & Phone`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Rendez-vous dans l'onglet `Assistance`{.action} et cliquez sur le bouton `Dépannage Plug & Phone`{.action}.
 
 ![dépannage-plug-and-phone](images/control-panel01.png){.thumbnail}
 

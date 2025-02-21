@@ -1,7 +1,7 @@
 ---
 title: "Web hosting - Modificar un dominio ya asociado a un alojamiento"
 excerpt: "Descubra cómo modificar la configuración de asociación de un dominio o subdominio ya declarado en su plan de hosting"
-updated: 2024-09-04
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -32,8 +32,8 @@ Al utilizar el alojamiento web o actualizar el sitio web, es posible que deba mo
 Para cambiar la configuración de asociación de un dominio o subdominio que ya esté declarado en su plan de hosting, lleve a cabo los siguientes pasos:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Alojamientos`{.action}.
 4. Seleccione el alojamiento web correspondiente.
 5. En la nueva página, haga clic en la pestaña `Multisitio`{.action}.
 6. En la tabla que aparece debajo de la pestaña y a la derecha del dominio o subdominio correspondiente, haga clic en el botón `...`{.action} y, seguidamente, en `Modificar el dominio`{.action}.

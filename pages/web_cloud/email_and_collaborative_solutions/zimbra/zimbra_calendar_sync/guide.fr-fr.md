@@ -1,7 +1,7 @@
 ---
 title: "Synchroniser un calendrier CalDAV Zimbra dans une application"
 excerpt: "Découvrez comment ajouter un calendrier Zimbra sur une application via le protocole CalDAV"
-updated: 2025-01-13
+updated: 2025-02-12
 ---
 
 <style>
@@ -13,16 +13,6 @@ updated: 2025-01-13
 }
 </style>
 
-> [!warning]
->
-> **Important**
->
-> L'offre Zimbra est un produit en phase bêta.
->
-> Il est uniquement disponible aux personnes ayant complété le [formulaire d'inscription à la bêta](https://labs.ovhcloud.com/en/zimbra-beta/).
->
-> Certaines fonctionnalités ou limitations présentées dans ce guide sont susceptibles d'évoluer lorsque le produit sera commercialisé.
-
 ## Objectif
 
 Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. Zimbra inclut la fonctionnalité de calendrier partagé qui peut donc être synchronisé depuis un logiciel compatible avec le protocole CalDAV.
@@ -31,7 +21,7 @@ Les comptes e-mail Zimbra peuvent être configurés sur différents logiciels de
 
 ## Prérequis
 
-- Disposer d’une adresse e-mail Zimbra.
+- Disposer d’une adresse e-mail Zimbra OVHcloud.
 - Avoir installé une application prenant en charge le protocole de calendrier CalDAV
 - Posséder les identifiants relatifs à l'adresse e-mail attachée au calendrier que vous souhaitez paramétrer.
 

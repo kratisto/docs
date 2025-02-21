@@ -352,7 +352,7 @@ To verify that your key is set up properly, connect to your server by following 
 In order to connect to a remote host (Public Cloud instance, dedicated server or VPS), you need to have [created the key pair](#puttygen) and [added the public key string to your server](#transferkeys).
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Open PuTTY.<br> 2\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 3\. Expand the node `Auth`.<br> 4\. Click `Credentials` to see the corresponding settings.<br> 5\. Click the button `Browse`{.action}.<br> 6\. Select the private key file (`keyfile.ppk`) from the folder in which you have saved it. |
 
 Navigate back to `Session` in the left-hand menu. Enter the login credentials into the appropriate fields.
@@ -420,15 +420,17 @@ Select the relevant connection method:
 To store a [password-based connection session](#sshconnect1), carry out the following actions:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions1.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Open PuTTY.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`.<br> 4\. Enter a name for this connection into the field under `Saved Sessions`.<br> 5\. Click the button `Save`{.action}. |
 
 To open a connection saved previously, carry out the following actions:
 
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions2.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Open PuTTY.<br> 2\. Double-click the desired session in the list under `Saved Sessions` or select it and click the button `Open`{.action}. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions3.png){.thumbnail} |
+|---|
 | In the PuTTY terminal window, enter the user password of the remote host. |
 
 ///
@@ -440,11 +442,15 @@ To open a connection saved previously, carry out the following actions:
 To store a [key-based connection session](#puttykeys), carry out the following actions:
 
 | ![putty](/pages/assets/screens/other/web-tools/putty/sessions4.png){.thumbnail} |
-|:---|
+|---|
 | 1\. Open PuTTY.<br> 2\. Enter the connection details into the field under `Host Name (or IP address)`: **username@IPv4_server** (example: **ubuntu@203.0.113.101**)<br> 3\. If relevant, edit the SSH port number in the field under `Port`. |
+
 | ![putty](/pages/assets/screens/other/web-tools/putty/putty3.png){.thumbnail} |
+|---|
 | 4\. Expand the node `SSH` under `Connection` in the `Category` tree.<br> 5\. Expand the node `Auth` in the `Category` tree.<br> 6\. Click `Credentials` to see the corresponding settings.<br> 7\. Click the button `Browse`{.action}.<br> 8\. Navigate to the folder that stores your private key files.<br> 9\. Open the key file concerned. |
+
 | ![sessions](/pages/assets/screens/other/web-tools/putty/sessions5.png){.thumbnail} |
+|---|
 | 10\. Go back to the configuration category `Session` in the menu on the left.<br> 11\. Enter a name for this connection into the field under `Saved Sessions`.<br> 12\. Click the button `Save`{.action}. |
 
 <a name="qconnect"></a>

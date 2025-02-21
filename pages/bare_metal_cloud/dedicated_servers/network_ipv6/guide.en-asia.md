@@ -30,9 +30,9 @@ Internet Protocol version 6 (IPv6) is the latest version of the Internet Protoco
 
 The following sections contain configurations for the distributions we currently offer and the most commonly used distributions/operating systems. The first step is always to log in to your server via SSH or a GUI login session (RDP for a Windows server).
 
-On dedicated servers, the first IPv6 is declared as 2607:5300:xxxx:xxxx::. For example, if we've assigned your server the IPv6 range: `2607:5300:abcd:efgh::/64`, your server's first IPv6 is: `2607:5300:abcd:efgh::/64`.
+On dedicated servers, the first IPv6 is declared as 2607:5300:xxxx:xxxx::. For example, if we've assigned your server the IPv6 range: `2607:5300:abcd:efgh::/64`, your server's first IPv6 is: `2607:5300:abcd:efgh::`.
 
-By default, the first IPv6 is configured on most of the recent Linux distributions we offer for installation, so the gateway is already included in the configuration file. In most cases, you won't need to add it manually.
+By default, the first IPv6 is configured on most of the recent Linux distributions we offer for installation, so the gateway is already included in the configuration file. In most cases, you won't need to add it again manually.
 
 Please take note of the following terminology that will be used in code examples and instructions of the guide sections below:
 
@@ -102,7 +102,7 @@ ssh user@serverIP
 
 #### Step 2: Create a backup
 
-Your server's network configuration file is located in `/etc/network/interfaces.d`. In our example, it is called `50-cloud-init`. Before proceeding, create a backup of your file using one of the following commands:
+Your server's network configuration file is located in `/etc/network/interfaces.d`. In our example, it is called `50-cloud-init`. Before proceeding, create a backup of your file using the following command:
 
 ```sh
 sudo cp /etc/network/interfaces.d/50-cloud-init /etc/network/interfaces.d/50-cloud-init.bak

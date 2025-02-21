@@ -1,7 +1,7 @@
 ---
 title: 'Activer et configurer le Edge Network Firewall'
 excerpt: 'Découvrez comment configurer le Edge Network Firewall pour vos services'
-updated: 2024-12-16
+updated: 2025-01-24
 ---
 
 ## Objectif
@@ -28,6 +28,9 @@ Pour protéger les services des clients exposés sur les adresses IP publiques, 
 > Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](https://eco.ovhcloud.com/fr/about/).
 >
 > Consultez notre [comparatif](https://eco.ovhcloud.com/fr/compare/) pour plus d’informations.
+
+> [!warning]
+> Le Edge Firewall Network ne prend pas en charge le protocole QUIC.
 
 ## En pratique
 

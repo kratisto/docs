@@ -1,7 +1,7 @@
 ---
-title: "Lista degli indirizzi IP di cluster e hosting Web"
+title: "Hosting Web - Lista degli indirizzi IP per cluster"
 excerpt: "Questa guida ti mostra comme tutti gli indirizzi IP disponibili con i nostri hosting Web"
-updated: 2024-02-28
+updated: 2025-01-29
 ---
 
 ## Obiettivo
@@ -27,8 +27,33 @@ In questa guida sono elencati tutti gli indirizzi IP degli hosting Web OVHcloud.
 
 ## Procedura
 
-Per conoscere il cluster di hosting Web su cui si trova il tuo servizio, accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona `Web Cloud`{.action}. Seleziona il tuo servizio nella sezione `Hosting`{.action}. In seguito accedi alla scheda `FTP - SSH`{.action}.
-Per verificare il numero di cluster dell'hosting Web, accedi alla pagina con il **Server FTP**.
+Per conoscere il cluster di hosting Web su cui si trova il tuo servizio, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `FTP - SSH`{.action}. 
+>>
+>> ![FTP-SSH](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/ftp-ssh.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Nella nuova pagina, recupera il numero di cluster dell’hosting Web su questa pagina come **Server FTP e SFTP** (3 cifre comprese tra `0` e `9`).
+>>
+>> ![FTP-SSH find cluster](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/find-cluster-ftp-ssh.png){.thumbnail}
+>>
 
 ### Cluster 002
 

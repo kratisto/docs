@@ -1,7 +1,7 @@
 ---
 title: Zimbra-E-Mail-Adresse auf einem E-Mail-Client konfigurieren
 excerpt: Erfahren Sie hier, wie Sie Ihren E-Mail-Client konfigurieren, um die E-Mails Ihres Zimbra-Kontos zu verwalten
-updated: 2024-10-10
+updated: 2025-02-12
 ---
 
 <style>
@@ -13,15 +13,6 @@ max-width:400px!important;
 > [!primary]
 > Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
 >
-
-> [!warning]
->
-> **Wichtig**
->
-> Das Zimbra Angebot befindet sich in der Beta-Phase.
->
-> Es ist derzeit für Anwender verfügbar, die das [Beta-Anmeldeformular ausgefüllt haben](https://labs.ovhcloud.com/en/zimbra-beta/).
-
 
 ## Ziel
 

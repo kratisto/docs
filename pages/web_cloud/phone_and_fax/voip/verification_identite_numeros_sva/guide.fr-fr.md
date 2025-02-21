@@ -26,7 +26,8 @@ OVHcloud, en partenariat avec Lemonway&#174;, vous accompagne dans la mise en oe
 > Afin d'exploiter un numéro spécial SVA, il est obligatoire de fournir l'ensemble des justificatifs requis. Faute de validation de ces documents, vous ne pourrez pas exploiter votre numéro.
 >
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie `Télécom`. Cliquez sur `Téléphonie`{.action} puis sélectionnez votre groupe de téléphonie.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
 
 Que vous commandiez un nouveau numéro ou souhaitiez valider votre identité pour un numéro déjà en exploitation, cliquez  sur l'onglet `Commande de numéros`{.action} ou sur `Commander un numéro`{.action} dans le menu « Je veux... ».
 

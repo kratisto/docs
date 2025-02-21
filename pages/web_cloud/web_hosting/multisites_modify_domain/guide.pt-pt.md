@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web - Alterar um nome de domínio já associado a um alojamento"
 excerpt: "Saiba como alterar as configurações de associação de um domínio/subdomínio já declarado na sua oferta de alojamento web"
-updated: 2024-09-04
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -32,8 +32,8 @@ Ao utilizar o seu alojamento web ou ao atualizar o seu website, poderá ter de a
 Para alterar as configurações de associação de um domínio ou subdomínio já declarado na sua oferta de alojamento web, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que se abrir, clique no separador `Multisite`{.action}.
 6. Na tabela que se abrir abaixo do separador e à direita do domínio/subdomínio em questão, clique no botão `...`{.action} e, a seguir em `Modificar o domínio`{.action}.
