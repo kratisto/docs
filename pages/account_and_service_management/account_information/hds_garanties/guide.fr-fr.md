@@ -26,8 +26,8 @@ La présentation des garanties HDS est disponible sur [cette page, section 11](/
 | Digital Realty (SIREN : 519 287 833 | Sous-traitant | Oui | Non |  1° La mise à disposition et le maintien en condition opérationnelle des sites physiques permettant d'héberger l'infrastructure matérielle du système d'information utilisé pour le traitement des données de santé.<br> 2° La mise à disposition et le maintien en condition opérationnelle de l'infrastructure matérielle du système d'information utilisé pour le traitement de données de santé; | Non, aucun accès aux données depuis un pays tiers à l’Espace Économique Européen(2) | Oui. Pays : Etats-Unis d'Amérique (4) <sup>1</sup> |
 | Data4 Service SAS (SIREN : 493 254 643) | Sous-traitant | Oui | Non |  1° La mise à disposition et le maintien en condition opérationnelle des sites physiques permettant d'héberger l'infrastructure matérielle du système d'information utilisé pour le traitement des données de santé.<br> 2° La mise à disposition et le maintien en condition opérationnelle de l'infrastructure matérielle du système d'information utilisé pour le traitement de données de santé; | Non, aucun accès aux données depuis un pays tiers à l’Espace Économique Européen(2) | Non <sup>1</sup> |
 
-<sup>1</sup> : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.
-<sup>2</sup> : Le sous-traitant fournis des infrastructures physiques passives utilisées pour la fourniture du service. En conséquence il n'y a pas d'accès à distance possible sur ces infrastructures.
+<sup>1</sup> : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.<br>
+<sup>2</sup> : Le sous-traitant fournis des infrastructures physiques passives utilisées pour la fourniture du service. En conséquence il n'y a pas d'accès à distance possible sur ces infrastructures.<br>
 <sup>3</sup> : Global Switch SAS :
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
