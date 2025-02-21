@@ -89,7 +89,7 @@ Once the remote connection is established, a tree-view of the server's files wil
 
 ![remote site sftp](images/sftp_sd_01.png){.thumbnail}
 
-The middle section of the FileZilla interface acts as a file explorer. You can select multiple files or folders, delete them, drag and drop them from one side to the other, etc. Since the usage details might be different, depending on the FileZilla version and your local operating system, refer to the [FileZilla](https://filezilla-project.org/) user guide for details.
+The middle section of the FileZilla interface acts as a file explorer. You can select multiple files or folders, delete them, drag and drop them from one side to the other, etc. Since the usage details might be different, depending on the software version and your local operating system, refer to the [FileZilla](https://filezilla-project.org/) user guide for details.
 
 For example, to retrieve files located in the folder "/home/data" of the server, open this folder in the right-hand pane (`Remote Site`). Select the files or folders to download and drag them to the left-hand pane (`Local Site`) into a folder of your local device.
 
