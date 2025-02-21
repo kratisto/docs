@@ -16,11 +16,26 @@ En plus de l’adressage IP privé, le [vRack](/links/network/vrack) vous permet
 - Une [instance Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
 - Un service [vRack](/links/network/vrack) activé dans votre compte
 - Être connecté à [l'espace client OVHcloud](/links/manager)
-- Être connecté à [l'interface Horizon](/pages/public_cloud/compute/presentation_horizon)
+- Être connecté à [l'interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+
+### Sommaire
+
+- [Ajouter le projet Public Cloud au vRack](#addproject)
+- [Ajouter le bloc IP au vRack](#addipblock)
+- [Créer un réseau privé](#createnetwork)
+- [Créer un sous-réseau](#subnet)
+    - [Depuis l’interface Horizon](#subnethorizon)
+- [Attacher une interface réseau à l’instance](#attachinterface)
+- [Configurer une adresse IP utilisable](#ipconfig)
+    - [Créer une nouvelle table de routage IP](#routing)
+    - [Application non persistante](#nonpersistent)
+    - [Application persistante par distribution](#persistent)
 
 ## En pratique
 
 Avant de commencer, veuillez noter que plusieurs étapes sont à suivre pour cette configuration. Une partie de la configuration se fera via l'espace client OVHcloud et une autre via l'interface Horizon.
+
+<a name="addproject"></a>
 
 ### Ajouter le projet Public Cloud au vRack
 
@@ -34,6 +49,8 @@ Pour les projets plus anciens, allez dans le menu `Bare Metal Cloud`{.action} et
 Dans la liste des services éligibles, sélectionnez le projet que vous souhaitez ajouter au vRack et cliquez sur le bouton `Ajouter`{.action} .
 
 ![ajouter le projet à vRack](images/addprojectvrack.png){.thumbnail}
+
+<a name="addipblock"></a>
 
 ### Ajouter le bloc IP au vRack
 
@@ -49,6 +66,8 @@ Dans votre [espace client OVHcloud](/links/manager), rendez-vous dans la section
 Sélectionnez votre vRack dans la liste pour afficher la liste des services éligibles. Cliquez sur le bloc IP que vous souhaitez ajouter au vRack et cliquez sur `Ajouter`{.action}.
 
 ![vrack](images/addIPblock.png){.thumbnail}
+
+<a name="createnetwork"></a>
 
 ### Créer un réseau privé
 
@@ -72,31 +91,26 @@ Celui-ci peut être configuré à l'étape 2.
 
 ![configure network](images/network_configuration.png){.thumbnail}
 
-Cette étape offre plusieurs options de configuration. Pour les besoins de ce guide, nous allons nous concentrer sur les éléments nécessaires. Cliquez sur les onglets ci-dessous pour afficher les détails :
+Cette étape offre plusieurs options de configuration. Pour les besoins de ce guide, nous allons nous concentrer sur les éléments nécessaires :
 
-> [!tabs]
-> **Nom du réseau privé**
->>
->> Entrez un nom pour votre réseau privé.
->>
-> **Option réseau du layer 2**
->>
->> Cochez la case **Définir un ID de VLAN** et sélectionnez VLAN ID **0**.
->>
-> **Options de distribution des adresses DHCP**
->>
->> Vous pouvez conserver la plage IP privée par défaut ou en utiliser une autre. Laissez toutefois la case **DHCP** désactivée.
->>
+- **Nom du réseau privé** : Entrez un nom pour votre réseau privé.
+- **Option réseau du layer 2** : Cochez la case **Définir un ID de VLAN** et sélectionnez VLAN ID **0**.
+- **Options de distribution des adresses DHCP** : Vous pouvez conserver la plage IP privée par défaut ou en utiliser une autre. Laissez toutefois la case **DHCP** désactivée.
+
 
 Cliquez ensuite sur `Configurez votre réseau privé`{.action}.
 
-### Créer un sous-réseau
+<a name="subnet"></a>
+
+### Créer un sous-réseau (*subnet*)
 
 Pour la configuration, vous devez créer un sous-réseau dans le réseau privé précédemment créé et y ajouter le CIDR du bloc d'adresses IP public.
 
 > [!warning]
 > Cette action ne peut être effectuée qu'à partir de l'interface Horizon ou de l'API OpenStack.
 >
+
+<a name="subnethorizon"></a>
 
 #### Depuis l’interface Horizon
 
@@ -118,17 +132,25 @@ Dans la fenêtre qui s'affiche, complétez les champs :
 
 - **Nom du sous-réseau** (**Subnet Name**) : entrez le nom de votre choix.<br>
 - **Adresse réseau** (**Network address**) : entrez le CIDR complet de votre bloc IP public (dans cet exemple : 203.0.113.0/29).<br>
-- **IP de la passerelle** (**Gateway IP**) : avant-dernière IP du bloc d'adresses IP (dans cet exemple 203.0.113.6).
+- **IP de la passerelle** (**Gateway IP**) : avant-dernière IP du bloc d'adresses IP (dans cet exemple 203.0.113.6). Lorsque vous achetez votre bloc IP, ces informations vous sont communiquées par courrier électronique.
 
-Cliquez sur `Next`{.action} et décochez la case `Enable DHCP`{.action}. Cliquez sur `Create`{.action}
+Cliquez sur `Next`{.action} et décochez la case `Enable DHCP`{.action}. 
+
+- **DNS Name Servers**: Facultatif. Nous vous recommandons d'ajouter un serveur DNS principalement pour la résolution de domaines.
+
+Cliquez sur `Create`{.action}.
+
+![décochez DHCP](images/uncheck_dhcp.png){.thumbnail}
 
 Une fois le sous-réseau créé, votre réseau privé apparaîtra comme suit :
 
 ![Nouvel affichage du réseau privé](images/display_subnet.png){.thumbnail}
 
+<a name="attachinterface"></a>
+
 ### Attacher une interface réseau à l’instance
 
-Cette action ne doit être effectuée que via Horizon ou la CLI OpenStack.
+Cette action ne doit être effectuée que via l'interface Horizon.
 
 Si vous n'avez pas encore créé d'instance, vous devez d'abord la créer, puis attacher le réseau ultérieurement. Ne sélectionnez pas le réseau privé lors de la création de l'instance.
 
@@ -136,9 +158,7 @@ Nous vous recommandons de consulter les guides suivants si vous créez une insta
 
 Si vous disposez déjà d'une instance, vous pouvez passer à l'étape suivante.
 
-#### Depuis l’interface Horizon
-
-Une fois connecté, assurez-vous de choisir le projet et la région appropriés.
+Connectez-vous à l'[interface Horizon](https://horizon.cloud.ovh.net/auth/login/) et assurez-vous de vous situer dans la bonne région. Vous pouvez le vérifier en haut à gauche.
 
 ![region](images/region2021.png){.thumbnail}
 
@@ -163,6 +183,8 @@ Dans le menu déroulant, sélectionnez les options appropriées :
 > Pour chaque IP publique que vous souhaitez utiliser, vous devez suivre la même procédure et saisir à chaque fois une IP publique utilisable différente.
 >
 
+<a name="ipconfig"></a>
+
 ### Configurer une adresse IP utilisable
 
 Dans le cas du vRack, la première, l'avant-dernière et la dernière adresses d'un bloc d'IP donné sont toujours réservées respectivement à l'adresse réseau, la passerelle réseau et au *broadcast* du réseau. Cela signifie que la première adresse utilisable est la deuxième adresse du bloc, comme indiqué ci-dessous :
@@ -183,6 +205,8 @@ Pour configurer la première adresse IP utilisable, vous devez éditer le fichie
 > [!primary]
 > Le masque de sous-réseau utilisé dans cet exemple est approprié pour notre bloc IP. Votre masque de sous-réseau peut différer en fonction de la taille de votre bloc. Lorsque vous achetez votre bloc d'adresses IP, vous recevez un e-mail vous indiquant le masque de sous-réseau à utiliser.
 >
+
+<a name="routing"></a>
 
 ### Créer une nouvelle table de routage IP
 
@@ -213,6 +237,8 @@ sudo nano /etc/iproute2/rt_tables
 1 vrack
 ```
 
+<a name="nonpersistent"></a>
+
 #### Application non persistante
 
 > [!warning]
@@ -227,6 +253,8 @@ ip addr add IP_ADDRESS/PREFIX dev NETWORK_INTERFACE
 ip route add IP_ADDRESS/PREFIX dev NETWORK_INTERFACE
 ip route add default via GATEWAY_IP dev NETWORK_INTERFACE
 ```
+
+<a name="persistent"></a>
 
 #### Application persistante par distribution
 
@@ -346,7 +374,7 @@ Cliquez sur l'onglet correspondant à votre distribution
 >> ```
 >>
 >> À l'aide de l'éditeur de texte de votre choix, créez un fichier de configuration réseau dans le dossier `/etc/sysconfig/network-scripts` afin de l'éditer.
->> Dans notre exemple, notre interface vRack s'appelle `eth1`, nous créons le fichier de configuration suivant (remplacez **eth1** par vos propres valeurs**) :
+>> Dans notre exemple, notre interface vRack s'appelle `eth1`, nous créons le fichier de configuration suivant (remplacez **eth1** par vos propres valeurs) :
 >>
 >> ```bash
 >> sudo touch /etc/sysconfig/network-scripts/ifcfg-eth1
