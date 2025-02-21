@@ -23,12 +23,12 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 > [!warning]
 >
-> Regarding the current OpenStack version, with a bootable volume, you cannot rescue a volume-backed instance.
+> Regarding the current OpenStack version, with a bootable volume, the rescue-pro mode is not available on a volume-backed instance.
 >
 
 ## Requirements
 
-- [Configuring user access to Horizon](/pages/public_cloud/compute/loading_introducing_horizon)
+- [Access to the Horizon interface](/pages/public_cloud/compute/loading_introducing_horizon)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instructions
@@ -37,13 +37,13 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 > [!tabs]
 > **Horizon**
->> Log in to [the Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
+>> Log in to the [Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
 >>
->> Select the`appropriate region from the drop down menu at the top left.
+>> Select the appropriate region from the drop down menu at the top left.
 >>
 >> On the Project tab, open the `Volumes`{.action} tab and click the `Volumes`{.action} category.
 >>
->> Click `Create Volume`{.action}.
+>> Click on `Create Volume`{.action}.
 >>
 >> ![public-cloud](images/create-a-volume-2.png){.thumbnail width="800"}
 >> 
@@ -51,15 +51,15 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >>
 >> | Information | Description |
 >> | --- | --- |
->> | Volume Name | Specify a name for the volume.|
->> | Description | Optionally, provide a brief description for the volume|
->> | Volume Source | Choose the option `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail}|
->> | Use image as a source | You can select the image from the list.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail}|
->> | Type| Depends on the volume type you want to use |
->> | Size (GB) | The size of the volume in gibibytes (GiB). |
->> | Availability Zone | nova <br><br> ![public-cloud](images/create-a-volume-5.png){.thumbnail}|
+>> | Volume Name | Specify a name for the volume |
+>> | Description | Optional, provide a brief description for the volume |
+>> | Volume Source | Choose the option `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail} |
+>> | Use image as a source | You can select the image from the list.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail} |
+>> | Type | Depends on the volume type you want to use |
+>> | Size (GB) | The size of the volume in gibibytes (GiB) |
+>> | Availability Zone | nova <br><br> ![public-cloud](images/create-a-volume-5.png){.thumbnail} |
 >>
->> Click `Create Volume`{.action}.
+>> Click on `Create Volume`{.action}.
 >>
 >> The volume will be in a `creating` state then a `downloading` state before being available.
 >>
@@ -116,18 +116,19 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> > [!primary]
 >> >
 >> > Cinder makes a volume bootable when the `--image` parameter is passed.
+>>
 
 ### Starting an instance using a bootable volume
 
 > [!tabs]
 > **Horizon**
->> Log in to [the Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
+>> Log in to the [Horizon interface](https://horizon.cloud.ovh.net/auth/login/).
 >>
 >> Select the appropriate region from the drop down menu at the top left.
 >>
 >> On the Project tab, open the `Compute`{.action} tab and click `Instances`{.action} category.
 >>
->> Click `Launch Instance`{.action}.
+>> Click on `Launch Instance`{.action}.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
 >>
@@ -139,7 +140,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-4.png){.thumbnail}
 >>
->> Click `Launch Instance`{.action}.
+>> Click on `Launch Instance`{.action}.
 >>
 >> The instance will be in a `build` state then `Block Device Mapping` state before being available.
 >>
@@ -154,7 +155,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> openstack server create --volume volume_ubuntu --flavor d2-2 --key-name publickey --nic net-id=Ext-Net InstanceTest
 >> ```
 >>
->> List volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment:
+>> List the volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment:
 >>
 >> ```console
 >> $ openstack volume list
@@ -165,7 +166,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> +--------------------------------------+---------------+--------+------+--------------------------------------+
 >> ```
 >>
->> List volumes attached to Instance InstanceTest:
+>> List the volumes attached to the **InstanceTest** Instance:
 >> 
 >> ```console
 >> $ openstack server volume list InstanceTest
@@ -219,7 +220,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> 
 >> - List the volumes:
 >> 
->> List volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment.
+>> List the volumes to ensure the status has changed to in-use and the volume is correctly reporting the attachment.
 >> 
 >> ```console
 >> $ openstack volume list
@@ -231,7 +232,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> +--------------------------------------+---------------+--------+------+----------------------------------------+
 >> ```
 >>
->> List volumes on the server to ensure it is correctly attached.
+>> List the volume on the server to make sure it's properly attached.
 >>
 >> ```console
 >> $ openstack server volume list InstanceTest
