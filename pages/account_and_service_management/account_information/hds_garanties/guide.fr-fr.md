@@ -74,7 +74,7 @@ La présentation des garanties HDS est disponible sur [cette page, section 11](/
 <sup>1</sup>  : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.
 
 
-## 7 - Object Storage
+## 7 - Object Storage 3AZ
 
 | **Raison sociale de l'acteur** | **Rôle dans le cadre de la prestation d'hébergement** | **Certfié HDS** | **Qualifié SecNumCloud 3.2** | **Activités d'hébergement sur lesquelles l'acteur intervient** | **Exigence n°29 du référentiel HDS** | **Exigence n°30 du référentiel HDS** |
 | --- | --- | --- | --- | --- | --- |--- |
