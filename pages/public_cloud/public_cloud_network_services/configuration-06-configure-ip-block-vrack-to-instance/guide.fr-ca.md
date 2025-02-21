@@ -132,7 +132,7 @@ Dans la fenêtre qui s'affiche, complétez les champs :
 
 - **Nom du sous-réseau** (**Subnet Name**) : entrez le nom de votre choix.<br>
 - **Adresse réseau** (**Network address**) : entrez le CIDR complet de votre bloc IP public (dans cet exemple : 203.0.113.0/29).<br>
-- **IP de la passerelle** (**Gateway IP**) : avant-dernière IP du bloc d'adresses IP (dans cet exemple 203.0.113.6). Lorsque vous achetez votre bloc IP, ces informations vous sont communiquées par courrier électronique.
+- **IP de la passerelle** (**Gateway IP**) : avant-dernière IP du bloc d'adresses IP (dans cet exemple 203.0.113.6). Lorsque vous achetez votre bloc IP, ces informations vous sont communiquées par e-mail.
 
 Cliquez sur `Next`{.action} et décochez la case `Enable DHCP`{.action}. 
 
