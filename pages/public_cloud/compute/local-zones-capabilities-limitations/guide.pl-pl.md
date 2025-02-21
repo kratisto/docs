@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Funkcje, możliwości i ograniczenia
 excerpt: Poznaj aktualne funkcje, możliwości i ograniczenia instancji Local Zones
-updated: 2024-11-12
+updated: 2025-02-24
 ---
 
 ## Wprowadzenie
@@ -27,8 +27,8 @@ Więcej informacji znajdziesz na naszej [stronie poświęconej instancjom Local 
 | Stop | Tak |
 | Block Storage | Tak |
 | Kopie Zapasowe Instancji | Tak |
-| Automatyczne Kopie Zapasowe | Nie |
-| Snapshoty wolumenów | Nie |
+| Automatyczne Kopie Zapasowe | Tak |
+| Snapshoty wolumenów | Tak |
 | Kopie zapasowe woluminów | Nie |
 | Object Storage | Tak |
 | Obrazy Windows | Nie |
