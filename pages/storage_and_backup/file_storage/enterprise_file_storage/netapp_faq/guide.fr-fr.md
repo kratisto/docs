@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - FAQ
 excerpt: 'FAQ sur la solution Entreprise File Storage'
-updated: 2024-09-24
+updated: 2025-02-21
 ---
 
 ## Objectif
@@ -24,7 +24,7 @@ Cette solution permet également de répondre à des cas pratiques plus complexe
 
 ### Peut-on gérer Enterprise File Storage depuis l’espace client ?
 
-Oui, ce service est directement accessible depuis votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), dans la rubrique `Bare Metal Cloud`{.action} puis `Storage et Backup`{.action}.
+Oui, ce service est directement accessible depuis votre [espace client OVHcloud](/links/manager), dans la rubrique `Bare Metal Cloud`{.action} puis `Storage et Backup`{.action}.
 
 ## Disponibilité
 
@@ -56,7 +56,7 @@ Notre solution Enterprise File Storage est conforme à plusieurs normes de point
 
 ### Peut-on accéder à Enterprise File Storage depuis un réseau privé de type vRack ?
 
-Pas pour le moment, mais cette fonctionnalité sera bientôt disponible (vRack endpoint).
+Oui (vRack endpoint).
 
 ## Accès *On-premises*
 
@@ -96,7 +96,7 @@ Les snapshots sont disponibles dans un répertoire prévu à cet effet (.snapsho
 
 Les utilisateurs sont responsables de la gestion de leurs sauvegardes (outil et règles). Cependant, pour des raisons de sécurité et de résilience de l'infrastructure, OVHcloud opère une sauvegarde quotidienne du service dans un serveur distant. En cas de panne ou d'attaque, OVHcloud peut restaurer les données du jour précédent. Cette action s'effectue sur demande et est un service optionnel facturé.
 
-### Les snapshots sont-ils compris dans la capacité d'un service ?
+### Les snapshots sont-ils compris dans la capacité d’un service ?
 
 Un minimum de 5% de l’espace de stockage est attribué aux snapshots. Par exemple, sur un service de 5TB, 250GB sont réservés pour les snapshots.
 
@@ -132,6 +132,6 @@ Enterprise File Storage est un service facturé mensuellement au volume (de 1 à
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
