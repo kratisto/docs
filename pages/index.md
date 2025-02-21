@@ -695,6 +695,7 @@
         + [Configuration](public-cloud-network-configuration)
             + [L3 services SNAT configuration](public_cloud/public_cloud_network_services/configuration-01-snat-configuration)
             + [Configuring IPv6 on a Public Cloud instance](public_cloud/public_cloud_network_services/configuration-02-how-to-configure-ipv6)
+            + [Configuring a public IP block in a vRack on a Public Cloud instance](public_cloud/public_cloud_network_services/configuration-06-configure-ip-block-vrack-to-instance)
             + [Changing the MTU size for an existing network using OpenStack CLI/API](public_cloud/public_cloud_network_services/configuration-03-change-mtu-size)
             + [Update a subnet properties](public_cloud/public_cloud_network_services/configuration-04-update_subnet)
             + [How to share a private network between 2 Public Cloud projects](public_cloud/public_cloud_network_services/configuration-05-create-share-private-network-between-projects)
