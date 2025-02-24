@@ -1,78 +1,77 @@
----
-title: 'Cómo iniciar una instancia de cloud público en un volumen de arranque'
-excerpt: 'Cómo iniciar una instancia en un volumen de arranque'
+--- 
+title: 'Como iniciar uma instância Public Cloud num volume de arranque'
+excerpt: 'Saiba como iniciar uma instância num volume de arranque'
 updated: 2025-02-20
----
+--- 
 
 ## Objetivo
 
-Las instancias de Public Cloud se entregan con un disco original copiado de una imagen de sistema (Debian 12, Windows Server, etc.). También es posible utilizar volúmenes adicionales, que son discos persistentes que permitirán almacenar datos.
+As instâncias Public Cloud são entregues com um disco de origem copiado a partir de uma imagem de sistema (Debian 12, Windows Server, etc.). Também é possível utilizar volumes suplementares, pois trata-se de discos persistentes que permitirão armazenar dados.
 
-También puede implementar un sistema operativo desde y hacia un volumen. La instancia de Public Cloud se iniciará en ese volumen en lugar del disco original.
+Também pode implementar um sistema operativo de e para um volume. A instância Public Cloud será iniciada nesse volume em vez do disco de origem.
 
-**Esta guía explica cómo iniciar una instancia en un volumen asociado.**
+**Este guia explica como iniciar uma instância num volume associado.**
 
-![public-cloud](images/img_3704.jpg){.thumbnail}
+![public-cloud](images/3704.png){.thumbnail}
 
 > [!success]
 >
-> OpenStack permite arrancar de forma nativa desde un volumen.
-> Consiste en hacer que el volumen sea iniciable y arrancar la instancia desde ese volumen.
-> Los cambios harán que desaparezca el disco original a medida que el nuevo volumen tome el relevo.
-> Las funcionalidades descritas en esta guía eliminan la necesidad de acceder al disco original y, por lo tanto, aprovechan el volumen.
+> OpenStack permite-lhe iniciar nativamente a partir de um volume.
+> Trata-se de tornar o volume inicializável e de iniciar a instância a partir desse volume.
+> As modificações implicarão o desaparecimento do disco original à medida que o novo volume for substituindo o mesmo.
+> As funcionalidades descritas neste guia eliminam a necessidade de aceder ao disco de origem e tiram partido do volume.
 
 > [!warning]
 >
-> En cuanto a la versión actual de OpenStack, con un volumen de arranque, el modo rescue-pro no está disponible en una instancia con copia de seguridad en volumen.
+> Relativamente à versão atual do OpenStack, com um volume inicializável, o modo rescue-pro não está disponível numa instância com backup em volume.
 >
-
 
 ## Requisitos
 
-- [Acceso a Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
-- [Cargar variables de entorno OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Acesso à interface Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
+- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 
-## Instrucciones
+## Instruções
 
-### Creación de un volumen de arranque a partir de una imagen.
+### Criação de um volume de arranque a partir de uma imagem.
 
 > [!tabs]
 > **Horizon**
->> Conéctese al [interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
+>> Ligue-se à [interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
 >>
->> Seleccione la región adecuada en el menú desplegable de la parte superior izquierda.
+>> Selecione a região apropriada no menu suspenso no canto superior esquerdo.
 >>
->> En la pestaña Proyecto, abra la pestaña `Volumes`{.action} y haga clic en la categoría `Volumes`{.action}.
+>> No separador Projeto, abra o separador `Volumes`{.action} e clique na categoria `Volumes`{.action}.
 >>
->> Haga clic en `Crear volumen`{.action}.
+>> Clique em `Create Volume`{.action}.
 >>
 >> ![public-cloud](images/create-a-volume-2.png){.thumbnail width="800"}
 >>
->> En el cuadro de diálogo que aparece, introduzca o seleccione los siguientes valores:
+>> Na caixa de diálogo que aparece, insira ou selecione os seguintes valores:
 >>
->> | Información | Descripción |
->> | --- | --- |
->> | Volume Name | Especifique un nombre para el volumen |
->> | Description | Opcional, proporcionar una breve descripción del volumen |
->> | Volumen De Origen | Elija la opción `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail} |
->> | Use image as a source | Puede seleccionar la imagen de la lista.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail} |
->> | Type | Depende del tipo de volumen que desee utilizar |
->> | Size (GB) | Tamaño del volumen en gigabytes (GiB) |
+>> | Informação | Descrição |
+>> | ---  | ---  |
+>> | Volume Name | Especifique um nome para o volume |
+>> | Description | Facultativo, fornecer uma breve descrição do volume |
+>> | Volume Source | Escolha a opção `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail} |
+>> Use image as a source | Pode selecionar a imagem na lista.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail} |
+>> | Type | Depende do tipo de volume que pretende utilizar |
+>> | Size (GB) | Tamanho do volume em gigabytes (GiB) |
 >> | Availability Zone | nova <br><br> ![public-cloud](images/create-a-volume-5.png){.thumbnail} |
 >>
->> Haga clic en `Create Volume`{.action}.
+>> Clique em `Create Volume`{.action}.
 >>
->> El volumen tendrá el estado *`creating`* y el estado *`downloading`* antes de estar disponible.
+>> O volume será no estado *`creating`* e depois no estado *`downloading`* antes de estar disponível.
 >>
 >> ![public-cloud](images/create-a-volume-8.png){.thumbnail width="800"}
 >>
->> Como puede ver en la siguiente imagen o si hace clic en el nombre del volumen, se define como volumen de arranque (*bootable*).
+>> Como pode ver na imagem abaixo ou se clicar no nome do volume, este é definido como inicializável (*bootable*).
 >>
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
-> **Cliente OpenStack**
->> Puede crear un volumen de arranque a partir de una imagen, volumen o instantánea existentes. Este procedimiento muestra cómo crear un volumen a partir de una imagen y cómo utilizar el volumen para iniciar una instancia.
+> **Client OpenStack**
+>> É possível criar um volume de inicialização a partir de uma imagem, volume ou instantâneo existente. Este procedimento explica-lhe como criar um volume a partir de uma imagem e utilizar o volume para iniciar uma instância.
 >>
 >> ```console
 >> $ openstack image list
@@ -80,11 +79,11 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >>
 >> > [!primary]
 >> >
->> > Anote el ID o el nombre de la imagen que desea utilizar.
+>> Anote a ID ou o nome da imagem que deseja utilizar.
 >>
->> Cree un volumen de arranque de 10 GB a alta velocidad denominado **volume_ubuntu** a partir de una imagen Ubuntu 24.04:
+>> Crie um volume inicializável de 10GB de alta velocidade chamado **volume_ubuntu** a partir de uma imagem Ubuntu 24.04:
 >>
->> Puede instalar una imagen en un volumen utilizando el argumento `--image`:
+>> Pode instalar uma imagem num volume utilizando o argumento `—image` :
 >>
 >> ```console
 >> $ openstack volume create --type high-speed --image 2c2e28dc-9124-49c3-b92d-7f00bd83ac86 --size 10 volume_ubuntu
@@ -113,52 +112,51 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> +---------------------+--------------------------------------+
 >> ```
 >>
->> 
->> En este comando, **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** es el ID de imagen Ubuntu 24.04.
->> 
+>> Neste comando, **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** é o ID de imagem Ubuntu 24.04.
+>>
 >> > [!primary]
->> >
->> > Cinder convierte un volumen de arranque cuando se pasa el parámetro `--image`.
->> 
+>> > 
+>> > Cinder faz um volume inicializável quando o parâmetro `--image` é passado.
+>>
 
-### Iniciar una instancia utilizando un volumen de arranque
+### Iniciar uma instância utilizando um volume de arranque
 
 > [!tabs]
 > **Horizon**
->> Conéctese al [interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
->> 
->> Seleccione la región adecuada en el menú desplegable de la parte superior izquierda.
->> 
->> En la pestaña Proyecto, abra la pestaña `Compute`{.action} y haga clic en `Instances`{.action} categoría.
->> 
->> Pulse `Launch Instance`{.action}.
->> 
+>> Ligue-se à [interface Horizon](https://horizon.cloud.ovh.net/auth/login/).
+>>
+>> Selecione a região apropriada no menu suspenso no canto superior esquerdo.
+>>
+>> No separador Projeto, abra o separador `Compute`{.action} e clique em `Instances`{.action} categoria.
+>>
+>> Clique em `Launch Instance`{.action}.
+>>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
->> 
->> En el cuadro de diálogo `Launch Instance`, en la pestaña Origen, seleccione "Volume" en el campo `Select Boot Source`.
->> 
+>>
+>> Na caixa de diálogo `Launch Instance`, no separador Source, escolha « Volume » no campo `Select Boot Source`.
+>>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
->> 
->> Aparecerá un nuevo campo de selección de volumen. Puede seleccionar el volumen creado anteriormente de la lista.
->> 
+>>
+>> Aparece um novo campo de seleção de volume. Pode selecionar na lista o volume previamente criado.
+>>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-4.png){.thumbnail}
->> 
->> Haga clic en `Launch Instance`{.action}.
->> 
->> La instancia tendrá el estado `build` y el estado `Block Device Mapping` antes de estar disponible.
->> 
->> La instancia terminará teniendo el volumen asociado.
->> 
+>>
+>> Clique em `Launch Instance`{.action}.
+>>
+>> A instância estará no estado `build` e depois no estado `Block Device Mapping` antes de estar disponível.
+>>
+>> A instância acabará por ter o volume associado.
+>>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-9.png){.thumbnail width="800"}
->> 
-> Cree una instancia, especificando el volumen de arranque **volume_ubuntu** como dispositivo de arranque.
->> 
+>>
+> Crie uma instância, especificando o volume de arranque **volume_ubuntu** como o dispositivo de arranque.
+>>
 >> ```console
 >> openstack server create --volume volume_ubuntu --flavor d2-2 --key-name publickey --nic net-id=Ext-Net InstanceTest
 >> ```
->> 
->> Mostrar los volúmenes para asegurarse de que el estado ha cambiado en uso y que el volumen informa correctamente de la asociación:
->> 
+>>
+>> Listar os volumes para garantir que o estado foi alterado para in-use e que o volume relata corretamente o apego:
+>>
 >> ```console
 >> $ openstack volume list
 >> +--------------------------------------+---------------+--------+------+--------------------------------------+
@@ -167,9 +165,9 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> | d7611318-fd7b-4b6a-8a7a-8d368049f747 | volume_ubuntu | in-use | 10 | Attached to InstanceTest on /dev/sda |
 >> +--------------------------------------+---------------+--------+------+--------------------------------------+
 >> ```
->> 
->> Enumerar los volúmenes asociados a la instancia **InstanceTest** :
->> 
+>>
+>> Listar os volumes associados à instância **InstanceTest** :
+>>
 >> ```console
 >> $ openstack server volume list InstanceTest
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
@@ -178,11 +176,11 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> | d7611318-fd7b-4b6a-8a7a-8d368049f747 | /dev/sda | 5d97c190-f2e3-4af4-a010-6fa7bffbf88b | d7611318-fd7b-4b6a-8a7a-8d368049f747 | None |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> ```
->> 
+>>
 >> > [!primary]
 >> > 
->> > También puede crear una instancia utilizando la imagen seleccionada y solicitando el comportamiento "boot from volume".
->> 
+>> > Também pode criar uma instância, utilizando a imagem escolhida e solicitando o comportamento « boot from volume ».
+>>
 >> ```console
 >> $ openstack server create --flavor d2-2 --key-name publickey --nic net-id=Ext-Net --image b680f0aa-8eb8-4ac8-b008-2a90bb71af4f --boot-from-volume 10 InstanceTest2
 >> +-----------------------------+---------------------------------------------+
@@ -217,13 +215,13 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> | volumes_attached | |
 >> +-----------------------------+---------------------------------------------+
 >> ```
->> 
->> En el comando anterior, `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` es el ID de imagen Debian 12.
->> 
->> - Mostrar los volúmenes:
->> 
->> Mostrar los volúmenes para asegurarse de que el estado se ha cambiado a *in-use* y de que el volumen indica correctamente la asociación.
->> 
+>>
+>> No comando acima, `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` é o ID de imagem Debian 12.
+>>
+>> - Listar os volumes:
+>>
+>> Listar volumes para garantir que o estado é alterado para *in-use* e que o volume corretamente assinala a conexão.
+>>
 >> ```console
 >> $ openstack volume list
 >> +--------------------------------------+---------------+--------+------+----------------------------------------+
@@ -234,8 +232,8 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> +--------------------------------------+---------------+--------+------+----------------------------------------+
 >> ```
 >>
->> Enumere el volumen en el servidor para asegurarse de que esté correctamente conectado.
->> 
+>> Listar o volume no servidor para garantir que ele está corretamente anexado.
+>>
 >> ```console
 >> $ openstack server volume list InstanceTest
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
@@ -245,6 +243,6 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> ```
 
-## Más información
+## Quer saber mais?
 
-Interactúe con nuestra [comunidad de usuarios](/links/community).
+Fale com nossa [comunidade de utilizadores](/links/community).
