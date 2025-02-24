@@ -31,12 +31,14 @@ updated: 2025-02-24
 
 <sup>1</sup> : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.<br>
 <sup>2</sup> : Le sous-traitant fournit des infrastructures physiques passives utilisées pour la fourniture du service. En conséquence, il n'y a pas d'accès à distance possible sur ces infrastructures.<br>
-<sup>3</sup> : Global Switch SAS :
+<sup>3</sup> : Global Switch SAS (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe Global Switch) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante. |
 
-<sup>4</sup> : Digital Realty :
+<sup>4</sup> : Digital Realty (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe Global Switch) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante. |
@@ -275,11 +277,13 @@ Cette offre ne comprend pas l'intégration à l'espace de confiance de la Messag
 
 <sup>1</sup> : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.<br>
 <sup>2</sup> : Le sous-traitant fournit des infrastructures physiques passives utilisées pour la fourniture du service. En conséquence il n'y a pas d'accès à distance possible sur ces infrastructures.<br>
-<sup>3</sup> : Global Switch SAS :
+<sup>3</sup> : Global Switch SAS (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe Global Switch) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante.  |
-<sup>4</sup> : Digital Realty :
+<sup>4</sup> : Digital Realty (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe Global Switch) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante.  |
@@ -297,17 +301,20 @@ Cette offre ne comprend pas l'intégration à l'espace de confiance de la Messag
 <sup>1</sup> : OVHcloud respecte l'ensemble des exigences du chapitre 19.6 du référentiel SecNumCloud relatif à la protection vis-à-vis du droit extra-européen.<br>
 <sup>2</sup> : Exemption des sociétés IBM, DXC Technology France, EXA Infrastructure France SAS, Terralpha au titre du contrôle exercé par OVHcloud sur la prestation de ses sous-traitants, vérifié lors des audits de certification.<br>
 <sup>3</sup> :  Le sous-traitant fournit des infrastructures physiques passives utilisées pour la fourniture du service. En conséquence il n'y a pas d'accès à distance possible sur ces infrastructures. <br>
-<sup>4</sup> : IBM :
+<sup>4</sup> : IBM (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe IBM) | - Prestation limitée à la télémaintenance du matériel acheté à la société sous-traitance en vue du fonctionnement optimal du service. <br> - Les données manipulées par le matériel soumis à la télémaintenance sont chiffrées à l'état de l'art préalablement à leur traitement sur le matériel télémaintenu. <br> - Les clés de chiffrement utilisées sont stockées sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante. |
 
-<sup>5</sup> : DXC Technology France :
+<sup>5</sup> : DXC Technology France (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe DXC) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées hors site sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante.  |
 
-<sup>6</sup> : EXA Infrastructure France SAS :
+<sup>6</sup> : EXA Infrastructure France SAS (voir le tableau ci-dessous) :
+
 | **Critère de l'exigence 19.6 de SecNumcloud non respectées** | **Mesures de réduction du risque déployées** |
 | --- | --- |
 | 19.6.b relatif au capital social et aux droits de vote <br> 19.6.c relatif au recours à des sociétés tierces (sociétés appartenant au groupe EXA) | - Prestation limitée à la fourniture d'un site d'hébergement physique avec les utilités nécessaires à l'installation d'un datacenter (énergie, refroidissement, câblages divers y compris réseau) <br> - Les données manipulées dans les murs du sous-traitant sont chiffrées à l'état de l'art préalablement à leur envoi sur le site fourni par le sous-traitant.<br> - Les clés de chiffrement utilisées sont stockées hors site sur des infrastructures appartenant à OVHcloud sans aucun droit d'accès à la société sous-traitante. |
