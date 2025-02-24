@@ -314,8 +314,6 @@ Cette offre ne comprend pas l'intégration à l'espace de confiance de la Messag
 
 ## 26 - Object Storage 3AZ
 
---->>NB : encore incomplet le tab, les activités puis les autres tab en bas des sous-traitants!!!
-
 | **Raison sociale de l'acteur** | **Rôle dans le cadre de la prestation d'hébergement** | **Certfié HDS** | **Qualifié SecNumCloud 3.2** | **Activités d'hébergement sur lesquelles l'acteur intervient** | **Exigence n°29 du référentiel HDS** | **Exigence n°30 du référentiel HDS** |
 | --- | --- | --- | --- | --- | --- |--- |
 | OVHcloud | Hébergeur | Oui | Non | 2° La mise à disposition et le maintien en condition opérationnelle de l'infrastructure matérielle du système d'information utilisé pour le traitement de données de santé ;<br>3° La mise à disposition et le maintien en condition opérationnelle de l'infrastructure virtuelle du système d'information utilisé pour le traitement des données de santé.<br>4° La mise à disposition et le maintien en condition opérationnelle de la plateforme d'hébergement d'applications du système d'information.<br>5°5° L'administration et l'exploitation du système d'information contenant les données de santé ;    <br>6° La sauvegarde des données de santé. | Non, aucun accès aux données depuis un pays tiers à l’Espace Économique Européen | Non<sup>1</sup> |
