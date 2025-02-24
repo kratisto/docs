@@ -184,6 +184,10 @@ Cliquez sur `Next`{.action}
 
 Si nécessaire, vous pouvez ajouter des options de monitoring pour vos tâches de sauvegarde. Cliquez enfin sur `Finish`{.action}.
 
+> [!warning]
+> Si vous ajoutez plusieurs adresses e-mail pour le monitoring, utilisez un point-virgule (`;`) comme séparateur entre chaque adresse.
+> **Exemple** : `email1@example.com; email2@example.com`
+
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_7.png){.thumbnail}
 
 La tâche de sauvegarde apparait dans la liste.

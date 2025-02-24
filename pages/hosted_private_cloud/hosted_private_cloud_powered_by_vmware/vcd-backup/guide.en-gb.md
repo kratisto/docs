@@ -183,6 +183,10 @@ Click `Next`{.action}
 
 If necessary, you can add monitoring options for your backup tasks. Finally, click `Finish`{.action}.
 
+> [!warning]
+> If you add multiple email addresses for monitoring, use a semicolon (`;`) as a separator between each address.
+> **Example**: `email1@example.com; email2@example.com`
+
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_7.png){.thumbnail}
 
 The backup job is listed.
