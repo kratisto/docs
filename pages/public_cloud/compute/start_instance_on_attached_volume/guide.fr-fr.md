@@ -221,6 +221,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 >> - Lister les volumes :
 >> 
 >> Lister les volumes pour s'assurer que l'état est passé à *in-use* et que le volume signale correctement le rattachement.
+>>
 >> ```console
 >> $ openstack volume list
 >> +--------------------------------------+---------------+--------+------+----------------------------------------+
@@ -232,6 +233,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 >> ```
 >>
 >> Listez le volume sur le serveur pour vous assurer qu'il est correctement rattaché.
+>>
 >> ```console
 >> $ openstack server volume list InstanceTest
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
@@ -243,4 +245,4 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 
 ## Aller plus loin
 
-Échangez avec notre [communauté d'utilisateurs](/links/community).8
+Échangez avec notre [communauté d'utilisateurs](/links/community).
