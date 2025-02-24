@@ -22,7 +22,7 @@ Fully automating OS installation or reinstallation on a [dedicated server](/link
 
 ### OS Compatibility <a name="os-compatibility"></a>
 
-Log in to the [API console](https://api.ovh.com/) and go to the `/dedicated/server`{.action} section.
+Log in to the [API console](/links/api) and go to the `/dedicated/server`{.action} section.
 
 You can list all your [dedicated servers](/links/bare-metal/bare-metal) with the following API call:
 
@@ -309,14 +309,14 @@ You can also monitor the progress of the reinstallation process with the followi
 
 A default efi bootloader path is set when installing from OVHcloud templates but you have the possibility to manage it.
 
-You can retrieve it with the following API call :
+You can retrieve it with the following API call:
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET  /dedicated/server/{serviceName}
 >
 
-You also can set it in the payload of the following API call :
+You also can set it in the payload of the following API call:
 
 > [!api]
 >

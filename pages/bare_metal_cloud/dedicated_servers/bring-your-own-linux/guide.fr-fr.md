@@ -139,7 +139,7 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 | customizations/sshKey | La clé publique SSH | ❌ |
 | customizations/imageURL | L'URL de votre image Linux | ✅ |
 | customizations/imageCheckSum | Checksum de votre image | ❌ |
-| customizations/imageCheckSumType | Type de checksum de votre image. (md5, sha1, sha256, sha512) | ❌ (sauf si checksum fourni) |
+| customizations/imageCheckSumType | Type de checksum de votre image (md5, sha1, sha256, sha512) | ❌ (sauf si checksum fourni) |
 | customizations/configDriveUserData | Contenu de votre fichier configDrive¹ | ❌ |
 | customizations/configDriveMetadata | Métadonnées Cloud-Init personnalisées | ❌ |
 | customizations/httpHeaders?Key | Clé des en-têtes HTTP | ❌² |

@@ -22,7 +22,7 @@ Pour de nombreux cas d'usage, il peut s'avérer intéressant d'automatiser l'ins
 
 ### Compatibilité OS <a name="os-compatibility"></a>
 
-Connectez-vous sur [https://api.ovh.com/](https://api.ovh.com/){.external} puis rendez-vous dans la section `/dedicated/server`{.action}.
+Connectez-vous sur [https://api.ovh.com/](/links/api) puis rendez-vous dans la section `/dedicated/server`{.action}.
 
 Pour lister tous vos [serveurs dédiés](/links/bare-metal/bare-metal) :
 
@@ -286,14 +286,14 @@ Lors de l'exécution du script de post-installation Windows, les fichiers suivan
 }
 ```
 
-`123456789` correspond à l'identifiant de la tâche de la réinstallation de l'OS. Vous pouvez suivre l'état d'avancement global de la tâche à l'aide de l'appel suivant :
+`123456789` correspond à l'identifiant de la tâche de réinstallation de l'OS. Vous pouvez suivre l'état d'avancement global de la tâche à l'aide de l'appel suivant :
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET  /dedicated/server/{serviceName}/task/{taskId}
 >
 
-Sinon vous pouvez aussi avoir un état détaillé de chaque étape de la réinstallation avec l'appel suivant :
+Vous pouvez aussi avoir un état détaillé de chaque étape de la réinstallation grâce à l'appel suivant :
 
 > [!api]
 >

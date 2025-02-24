@@ -11,7 +11,7 @@ updated: 2025-02-25
 > Cet article est destiné aux utilisateurs expérimentés qui ont au minimum des connaissances de base sur Linux, mais surtout des connaissances plus approfondies sur le stockage et en particulier sur les RAID logiciels, RAID matériels ainsi que sur la gestion logique des volumes (LVM).
 >
 
-Les [serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud vous permettent de configurer les disques, le [RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard), le [RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft), LVM, ZFS, etc. pendant [la réinstallation](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server) de votre système d'exploitation depuis l’[API OVHcloud](https://api.ovh.com/) ou depuis votre [espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/configuration). Dans cet article, nous allons nous concentrer sur l'[API OVHcloud](https://api.ovh.com/).<br>
+Les [serveurs dédiés](/links/bare-metal/bare-metal) OVHcloud vous permettent de configurer les disques, le [RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard), le [RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft), LVM, ZFS, etc. pendant [la réinstallation](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server) de votre système d'exploitation depuis l’[API OVHcloud](/links/api) ou depuis votre [espace client OVHcloud](/links/manager). Dans cet article, nous allons nous concentrer sur l'[API OVHcloud](/links/api).<br>
 Cela vous donnera plus de détails sur le moteur qui s'exécute en arrière-plan, afin de créer le personnalisation du stockage sur le serveur dédié à partir des données d'entrée transmises à l'API OVHcloud.
 
 Fournir des détails avancés sur la configuration du stockage peut vous aider à comprendre pourquoi :
@@ -22,7 +22,7 @@ Fournir des détails avancés sur la configuration du stockage peut vous aider �
 ## Prérequis
 
 * Un [serveur dédié](/links/bare-metal/bare-metal) **prêt à être installé/réinstallé** sur votre compte OVHcloud.
-* Avoir accès à l'[API OVHcloud](https://api.ovh.com/).
+* Avoir accès à l'[API OVHcloud](/links/api).
 
 > [!warning]
 >
@@ -35,7 +35,7 @@ Lors de l'installation du système d'exploitation par défaut, l'installateur du
 
 Outre la simplicité de l'API, le principal avantage est la possibilité de personnaliser totalement les disques et partitions sur lesquels sera installé l’OS.
 
-Dans cette page, nous nous focaliserons seulement sur la sous-hash `storage` du call API utilisé pour réinstaller un OS sur un serveur dédié. Pour les personnalisations de réinstallation OS non liées au stockage, veuillez vous référer à la page [API OVHcloud et installation d'un OS](/pages/bare_metal_cloud/dedicated_servers/api-os-installation) pour plus de détails.
+Dans cette page, nous nous focaliserons seulement sur la sous-hash `storage` de l'appel API utilisé pour réinstaller un OS sur un serveur dédié. Pour les personnalisations de réinstallation OS non liées au stockage, veuillez vous référer à la page [API OVHcloud et installation d'un OS](/pages/bare_metal_cloud/dedicated_servers/api-os-installation) pour plus de détails.
 
 > [!api]
 >
@@ -170,7 +170,7 @@ Example avec une installation OS de Debian 12 (Bookworm) sur le diskGroupId 2:
 
 > [!warning]
 >
-> Pour l'instant, l'API ne supporte que l'installation OS et la personnalisation du stockage sur 1 seule grappe de disque. Vous pouvez impliquer de 1 à tous les disques de la grappe choisie dans la personnalisation du stockage. Cependant, tous les autres disques seront effacés mais seront visibles par l'OS installé, et peuvent être utilisés/configurés ultérieurement pour stocker des données.
+> Pour l'instant, l'API ne supporte que l'installation OS et la personnalisation du stockage sur 1 seule grappe de disques. Vous pouvez impliquer de 1 à tous les disques de la grappe choisie dans la personnalisation du stockage. Cependant, tous les autres disques seront effacés mais seront visibles par l'OS installé, et peuvent être utilisés/configurés ultérieurement pour stocker des données.
 >
 
 ### RAID Hardware <a name="hard-raid"></a>
@@ -179,7 +179,7 @@ Cette section est seulement applicable pour les serveurs qui ont au moins un con
 
 #### Serveur & Compatibilité du RAID matériel
 
-Vous pouvez utiliser le call API suivant afin de savoir si votre serveur dédié est compatible :
+Vous pouvez utiliser l'appel API suivant afin de savoir si votre serveur dédié est compatible :
 
 > [!api]
 >
@@ -227,7 +227,7 @@ Exemple de réponse pour un serveur qui possède un RAID matériel :
 
 > [!primary]
 >
-> Vous pouvez aussi obtenir cette information à la valeur de l'attribut `raidController` du call API décrit dans la section [Grappes de disques](#disk-group).
+> Vous pouvez aussi obtenir cette information à la valeur de l'attribut `raidController` de l'appel API décrit dans la section [Grappes de disques](#disk-group).
 >
 
 #### API & RAID Matériel
@@ -350,14 +350,14 @@ Par exemple :
 |noPartitioning|Si vrai, ce système d'exploitation ne supporte pas la personnalisation du partitionnement|
 |softRaidOnlyMirroring|Si vrai, ce système d'exploitation ne supporte que partiellement la personnalisation du partitionnement (seulement les raids logiciels de niveaux 0 et 1 peuvent être configurés et assignés aux 2 premiers disques de la grappe de disques)|
 
-Le call API suivant peut être utilisé pour lister les différents schémas de partitionnement d'un système d'exploitation en particulier. La plupart des systèmes d'exploitation supportent la personnalisation du partitionnement et ont par conséquent un seul schéma appelé « default ». Seuls certains d'entre-eux ne supportent pas la personnalisation du partitionnement (`noPartitioning` vaut `true`) et **peuvent** par conséquent avoir plusieurs schémas de partitionnement.
+L'appel API suivant peut être utilisé pour lister les différents schémas de partitionnement d'un système d'exploitation en particulier. La plupart des systèmes d'exploitation supportent la personnalisation du partitionnement et ont par conséquent un seul schéma appelé « default ». Seuls certains d'entre-eux ne supportent pas la personnalisation du partitionnement (`noPartitioning` vaut `true`) et **peuvent** par conséquent avoir plusieurs schémas de partitionnement.
 
 > [!api]
 >
 > @api {v1} /dedicated/installationTemplate GET  /dedicated/installationTemplate/{templateName}/partitionScheme
 >
 
-Les calls API suivants peuvent être utilisés pour savoir quel partitionnement sera appliqué par défaut si aucune personnalisation du partitionnement n'est spécifiée ou si elle n'est pas supportée par l'OS.
+Les appels API suivants peuvent être utilisés pour savoir quel partitionnement sera appliqué par défaut si aucune personnalisation du partitionnement n'est spécifiée ou si elle n'est pas supportée par l'OS.
 
 > [!api]
 >
@@ -383,9 +383,9 @@ Le tableau suivant donne une vue d'ensemble de la compatibilité des systèmes d
 |UFS, VMFS5, VMFS6, VMFS-L⁴|❌|❌|❌|❌|❌|❌|❌|
 
 ¹ Pour plus d'informations, reportez-vous au tableau [vdevs ZFS vs standard RAID](#raidz2RAID).<br />
-² Le niveau de RAID pour swap ne peut être que égal à 1 au sein de l’[API OVHcloud](https://api.ovh.com/). En réalité, les partitions swap n'utiliseront pas de RAID. Lorsqu'une partition swap de taille `s` est définie sur un serveur avec un nombre `n` de disques, cela créera `n` partitions de taille `s` sur chaque disque sans aucun périphérique RAID logiciel en dessous.<br />
+² Le niveau de RAID pour swap ne peut être que égal à 1 au sein de l’[API OVHcloud](/links/api). En réalité, les partitions swap n'utiliseront pas de RAID. Lorsqu'une partition swap de taille `s` est définie sur un serveur avec un nombre `n` de disques, cela créera `n` partitions de taille `s` sur chaque disque sans aucun périphérique RAID logiciel en dessous.<br />
 ³ Le RAID natif Windows (celui configuré par l'installateur OVHcloud) prend en charge le RAID 1 mais uniquement entre deux disques, alors que les autres implémentations en autorisent plus de deux.<br />
-⁴ L'installateur ESXi ne prend pas en charge les schémas de partitionnement personnalisés. Le partitionnement est défini par l'éditeur du logiciel. Néanmoins, l’[API OVHcloud](https://api.ovh.com/) peut vous donner une idée de ce à quoi ressemble le partitionnement : pour plus d'informations, consultez [OS & Compatibilité du partitionnement](#os-partitioning-compatibility).<br />
+⁴ L'installateur ESXi ne prend pas en charge les schémas de partitionnement personnalisés. Le partitionnement est défini par l'éditeur du logiciel. Néanmoins, l’[API OVHcloud](/links/api) peut vous donner une idée de ce à quoi ressemble le partitionnement : pour plus d'informations, consultez [OS & Compatibilité du partitionnement](#os-partitioning-compatibility).<br />
 
 > [!warning]
 >
@@ -519,7 +519,7 @@ Les erreurs basiques de données d'entrée client sont directement traitées par
 Les données d'entrée client liées au partitionnement peuvent être trop spécifiques pour être vérifiées par l'API OVHcloud et nécessiter par conséquent un temps de traitement. L'inconvénient est que les clients sont avertis plus tard pendant le processus de réinstallation du système d'exploitation.
 
 Celui-ci est visible via la barre de progression depuis [l'espace client OVHcloud](https://www.ovh.com/manager/#/dedicated/configuration).
-Depuis l'[API OVHcloud](https://api.ovh.com/), cet état peut être obtenu avec l'appel API suivant :
+Depuis l'[API OVHcloud](/links/api), cet état peut être obtenu avec l'appel API suivant :
 
 > [!api]
 >
@@ -540,11 +540,11 @@ Le tableau suivant donne un aperçu des erreurs clients les plus connues et de l
 |Message d'erreur|Détails|Solution(s)|
 |---|---|---|
 |Some Linux distributions such as RHEL family OSes don't support those mountpoints / mountpoint reserved/managed by OVHcloud (`list forbidden mountpoints`). Please remove those mountpoints and restart an installation|- Vous avez choisi `/boot/efi` comme point de montage. OVHcloud créera cette partition automatiquement pour vous si votre serveur en a besoin.<br />- Vous avez choisi un point de montage qui est un *lien symbolique* sur certains OS. Voir [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/fhs.shtml) (en anglais) pour plus de détails.|- Choisissez un autre point de montage pour la partition ou supprimez cette partition de votre schéma de partitionnement.|
-|Partition of type `t` with mountpoint `m` cannot fill the disk.|- Vous avez choisi la partition `swap` pour remplir le disque (ou partition de taille zéro si définie via l'[API OVHcloud](https://api.ovh.com/)), nous interdisons cela pour éviter de créer des partitions `swap` inutilement trop grandes.|- Définissez une taille fixe pour la partition de `swap`.|
+|Partition of type `t` with mountpoint `m` cannot fill the disk.|- Vous avez choisi la partition `swap` pour remplir le disque (ou partition de taille zéro si définie via l'[API OVHcloud](/links/api)), nous interdisons cela pour éviter de créer des partitions `swap` inutilement trop grandes.|- Définissez une taille fixe pour la partition de `swap`.|
 |Missing `/` partition. Please add a `/` partition in your partition scheme!|- Tout système d'exploitation Linux nécessite au moins une partition `/`.|- Ajoutez une partition `/` dans votre schéma de partitionnement.|
-|`message`. Please adjust partitions so that the `p` partition fits on `n` disk(s)|- Vous avez choisi une partition avec un RAID nécessitant un nombre de disques que votre serveur peut fournir, mais certains disques sont déjà pleins à cause d'autres partitions et/ou de cette partition actuelle.|- Si ce n'est pas déjà fait sur une autre partition, définissez la taille de la partition comme remplissant le disque (ou partition de taille zéro si définie via l'[API OVHcloud](https://api.ovh.com/).<br />- Réduisez la taille de cette partition pour qu'elle s'adapte aux disques.<br />- Réduisez la taille des autres partitions pour que cette partition s'adapte aux disques.|
+|`message`. Please adjust partitions so that the `p` partition fits on `n` disk(s)|- Vous avez choisi une partition avec un RAID nécessitant un nombre de disques que votre serveur peut fournir, mais certains disques sont déjà pleins à cause d'autres partitions et/ou de cette partition actuelle.|- Si ce n'est pas déjà fait sur une autre partition, définissez la taille de la partition comme remplissant le disque (ou partition de taille zéro si définie via l'[API OVHcloud](/links/api).<br />- Réduisez la taille de cette partition pour qu'elle s'adapte aux disques.<br />- Réduisez la taille des autres partitions pour que cette partition s'adapte aux disques.|
 |Error with MBR partition table: Partition `p` is larger than 2TiB and this server does not support GPT|- Vous avez défini une partition dont la taille excède 2TiB et vous appliquez ce partitionnement sur un serveur qui ne supporte pas le GPT|- Réduisez la taille de cette partition à 2TiB.<br />- Appliquez ce partitionnement à un autre serveur similaire qui supporte GPT|
-|Error with MBR partition table: partition `p` cannot end after 2 TiB (`interval stop`) and this server does not support GPT! OVHcloud also needs to add a `cloud-init size` cloud-init partition at the very end of the disk. Therefore all customer partitions must end before (2TiB - `cloud-init size`).|- Nous ajoutons systématiquement une partition config-drive à la fin d'un disque sur votre serveur dédié. La dernière partition de votre partitionnement va se terminer après la position 2TiB sur le disque. Donc si nous ajoutons une partition config-drive après la dernière partition, celle-ci devra commencer après la position 2TiB sur le disque d'un serveur qui ne supporte pas GPT|- Réduisez la taille de cette partition de telle sorte que la somme totale de toutes les partitions du disque soit inférieure à 2TiB<br />- Ne définissez jamais de partition comme remplissant un disque (ou partition de taille zéro si définie via l'[API OVHcloud](https://api.ovh.com/)) sur un [template personnalisé](#customertemplates) que vous souhaitez utiliser pour des serveurs ayant des disques plus grands que 2TiB et qui ne supportent pas le GPT|
+|Error with MBR partition table: partition `p` cannot end after 2 TiB (`interval stop`) and this server does not support GPT! OVHcloud also needs to add a `cloud-init size` cloud-init partition at the very end of the disk. Therefore all customer partitions must end before (2TiB - `cloud-init size`).|- Nous ajoutons systématiquement une partition config-drive à la fin d'un disque sur votre serveur dédié. La dernière partition de votre partitionnement va se terminer après la position 2TiB sur le disque. Donc si nous ajoutons une partition config-drive après la dernière partition, celle-ci devra commencer après la position 2TiB sur le disque d'un serveur qui ne supporte pas GPT|- Réduisez la taille de cette partition de telle sorte que la somme totale de toutes les partitions du disque soit inférieure à 2TiB<br />- Ne définissez jamais de partition comme remplissant un disque (ou partition de taille zéro si définie via l'[API OVHcloud](/links/api)) sur un [template personnalisé](#customertemplates) que vous souhaitez utiliser pour des serveurs ayant des disques plus grands que 2TiB et qui ne supportent pas le GPT|
 |`/boot` (or `/` if no `/boot` defined) partition cannot be larger than 2097151 MiB on this hardware|- La partition qui contient GRUB ne doit pas dépasser 2TiB sur ce type de contrôleur RAID|- Créez une partition `/boot` séparée avec une taille inférieure à 2TiB (1GiB devrait suffire)|
 |`/boot` (or `/` if no `/boot` defined) partition type cannot be `XFS`|- La partition qui contient GRUB ne supporte pas le système de fichiers `XFS` sur ce système d'exploitation. C'est généralement le cas pour les systèmes d'exploitation de la famille debian (debian, proxmox, ubuntu)|- Créez une partition `/boot` séparée avec un système de fichiers autre que `XFS`<br />- Ne créez pas de partition `/boot` séparée, mais choisissez un système de fichier autre que `XFS` pour la partition `/`|
 |`ZFS` partition already exists with zpool name `n`. Either choose another name for the `m` partition or set the same RAID level for all partitions within zpool `n`|Il est possible de définir plusieurs partitions `ZFS` avec un même nom de zpool afin que chaque dataset fasse partie du même zpool. Cela est possible uniquement dans le cas où tous les datasets (et donc les partitions définies dans l'API) ont le même niveau de RAID|- Choisissez le même niveau de RAID que les partitions `ZFS` existantes du zpool concerné<br />- Choisissez un autre nom de zpool: cette partition ne fera pas partie du même zpool<br />- Ne définissez pas de nom de zpool: un nom sera défini automatiquement et cette partition ne fera pas partie du même zpool|
@@ -552,7 +552,7 @@ Le tableau suivant donne un aperçu des erreurs clients les plus connues et de l
 
 #### Auto-correction des données d'entrée client
 
-Afin d'améliorer l'expérience client, de réduire la charge de travail du support OVHcloud et d'éviter les changements brutaux qui pourraient avoir un impact pour le client, certaines saisies effectuées par le client sont automatiquement corrigées ou modifiées par le backend. Le tableau suivant donne une vue d'ensemble de ce qui est actuellement auto-corrigé / changé :
+Afin d'améliorer l'expérience client, réduire la charge de travail du support OVHcloud et éviter les changements brutaux qui pourraient avoir un impact pour le client, certaines saisies effectuées par le client sont automatiquement corrigées ou modifiées par le backend. Le tableau suivant donne une vue d'ensemble de ce qui est actuellement auto-corrigé / changé :
 
 |Sujet|Description|
 |---|---|
