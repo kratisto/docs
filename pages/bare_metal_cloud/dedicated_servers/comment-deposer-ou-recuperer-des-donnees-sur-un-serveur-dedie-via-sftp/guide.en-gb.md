@@ -101,7 +101,7 @@ The progress of the data transfer will then be displayed in the transfer queue s
 
 [SSH introduction](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
 
-[How to configure user accounts and root access on a server](bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
+[How to configure user accounts and root access on a server](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
 
 For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
 

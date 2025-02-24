@@ -1,73 +1,109 @@
 ---
-title: "Comment télécharger et récupérer des données sur un serveur dédié via SFTP"
-excerpt: "Découvrez comment transférer facilement des données depuis et vers votre serveur dédié"
-updated: 2024-02-23
+title: Comment utiliser le SFTP pour transférer des fichiers
+excerpt: Découvrez comment vous connecter à votre serveur avec FileZilla pour uploader et télécharger des fichiers
+updated: 2025-02-21
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objectif
 
-Dans le cadre d'une migration, vous pouvez être amené à devoir récupérer les données d'un serveur dédié pour les déposer ensuite sur un autre serveur. S'il existe différentes manières de procéder, le protocole SFTP (Secure File Transfert Protocol) permet de transférer simplement et rapidement des fichiers via une connexion SSH sécurisée.
+Différentes options existent pour transférer des fichiers entre un périphérique local et un hôte distant. Pour garantir la sécurité du transfert, il est recommandé d’utiliser un logiciel client compatible avec le protocole SFTP (Secure File Transfer Protocol) dans la plupart des cas d’utilisation.
 
-**Découvrez comment déposer ou récupérer des données sur un serveur dédié via SFTP.**
+**Ce tutoriel explique comment utiliser FileZilla pour transférer des fichiers via SFTP.**
 
 > [!warning]
->Ce tutoriel vous explique comment utiliser une ou plusieurs solutions OVHcloud avec des outils externes et décrit les actions à effectuer dans un contexte spécifique. Vous devrez peut-être adapter les instructions en fonction de votre situation.
+> OVHcloud fournit des services dont la configuration et la gestion relèvent de votre responsabilité. Ce tutoriel va illustrer comment utiliser les solutions OVHcloud avec des outils externes. Vous devrez peut-être adapter certaines instructions spécifiques au système d'exploitation de votre périphérique local ou de votre serveur.
 >
->Si vous éprouvez des difficultés à appliquer ces instructions, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/). Pour plus d'informations, consultez la section [Aller plus loin](#gofurther) de ce guide.
+> Nous vous recommandons de contacter un [prestataire de services spécialisé](/links/partner) ou de contacter [notre communauté](/links/community) si vous rencontrez des difficultés.
 >
+
 ## Prérequis
 
-- Un [serveur dédié](/links/bare-metal/bare-metal){.external} sur lequel une distribution GNU/Linux est installée.
-- Un client FTP qui prend en charge les connexions SFTP (ce guide documente l'utilisation de [FileZilla](https://filezilla-project.org/){.external}).
-- Un accès administratif via SSH à votre serveur.
+- Un [serveur dédié](/links/bare-metal/bare-metal) ou un [VPS](/links/bare-metal/vps) dans votre compte OVHcloud, avec une distribution GNU/Linux installée
+- Un client FTP qui supporte les connexions SFTP (par exemple [FileZilla](https://filezilla-project.org/)) installé sur votre poste de travail local
+- Un accès administrateur en SSH à votre serveur
 
 ## En pratique
 
-### Utiliser FileZilla pour récupérer et déposer vos données
+Vous aurez besoin de l'adresse IP de votre serveur que vous pouvez retrouver dans votre [espace client OVHcloud](/links/manager) ainsi que du nom du compte d'utilisateur à utiliser pour la connexion SSH. N’hésitez pas à consulter nos guides « Premiers pas » si vous souhaitez obtenir plus de détails sur ce sujet :
 
-Le protocole SFTP peut être utilisé pour transférer des fichiers via une connexion sécurisée (SSH). Il existe deux possibilités pour ce scénario : soit vous disposez d'un accès normal à votre serveur, soit vous vous y connectez en [mode rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode).
+- [Serveur dédié](/pages/bare_metal_cloud/serveurs_dedies/getting-started-with-dedicated-server)
+- [Serveur dédié de la gamme **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
+- [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 
-Par défaut, un serveur utilisant un système d'exploitation GNU/Linux aura un accès SSH via le port 22. Cependant, vous avez peut-être déjà modifié ce port (par exemple en suivant [notre guide pour sécuriser un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server)).
+Les exemples suivants sont basés sur [FileZilla](https://filezilla-project.org/). Reportez-vous au guide d'utilisation de votre application si vous utilisez un client FTP différent.
 
-#### **Si vous avez accès à votre serveur**
+Le processus peut nécessiter des étapes supplémentaires si votre serveur est démarré en **mode rescue**. Ouvrez la section correspondante ci-dessous en fonction de l'état de votre serveur.
 
-Dans l'interface graphique de FileZilla, entrez l'adresse IP de votre serveur dans le champ `Hôte`, ainsi que votre nom d'utilisateur et votre mot de passe dans les champs respectifs. En ce qui concerne le champ `Port`, entrez « 22 » ou le port que votre service SSH écoute si vous l'avez modifié.
+### Comment se connecter à un serveur via un client SFTP
+
+/// details | Dépliez cette section
+
+Dans l'interface du client FileZilla, renseignez l'adresse IP de votre serveur dans le champ `Host` et vos nom d'utilisateur et mot de passe dans leurs champs respectifs. Entrez « 22 » dans le champ `Port`, sauf si vous avez modifié le port de connexion sur lequel le service SSH de votre serveur est à l'écoute.
+
+Cliquez sur le bouton `Quickconnect`{.action}.
 
 > [!warning]
-> Notez que l'accès au dossier de l'utilisateur `root` via SFTP n'est possible qu'en utilisant les identifiants de ce compte utilisateur. Si vous êtes certain de vouloir accéder à ce dossier à distance, retrouvez plus d'informations sur la façon d'activer cette connexion dans notre [guide du compte utilisateur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
+> Afin d'accéder aux dossiers appartenant au compte utilisateur `root` de votre OS, vous devez utiliser les identifiants de l'utilisateur `root` pour établir la connexion SFTP. Ce compte n'a pas de mot de passe par défaut.
+> Si vous êtes certain de devoir accéder aux fichiers de l'utilisateur `root` via SFTP, découvrez comment activer cette connexion dans notre [guide du compte utilisateur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds).
 >
 
-Dès que la connexion est établie, une arborescence de vos fichiers s'affiche dans la partie `Site distant`.
+///
+
+### Comment se connecter à un serveur en mode rescue via un client SFTP
+
+/// details | Dépliez cette section
+
+Si vous n'avez pas déjà effectué les actions nécessaires pour accéder à vos fichiers en mode rescue, aidez-vous du guide correspondant pour vous connecter à votre serveur et monter vos partitions :
+
+- [Mode rescue pour serveur dédié](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+- [Mode rescue pour VPS](/pages/bare_metal_cloud/virtual_private_servers/rescue)
+
+Dans l'interface du client FileZilla, renseignez l'adresse IP de votre serveur dans le champ `Host` et « 22 » dans le champ `Port`. Entrez « root » dans le champ `Username` et le mot de passe qui vous a été envoyé par e-mail pour l'accès en mode rescue dans le champ `Password`.
+
+Cliquez sur le bouton `Quickconnect`{.action}.
+
+Le système de fichiers du serveur sera situé dans le répertoire que vous avez défini comme point de montage en mode rescue (« /mnt » dans cet exemple).
+
+![mode rescue sftp du site distant](images/sftp_sd_03.png){.thumbnail}
+
+///
+
+### Utilisation de l'interface FileZilla pour télécharger vos fichiers
+
+Une fois la connexion à distance établie, une arborescence des fichiers du serveur sera affichée dans la section `Remote Site`.
 
 ![site distant sftp](images/sftp_sd_01.png){.thumbnail}
 
-Dans notre exemple, les données à récupérer se trouvent dans le dossier « /home/data ». Vous pouvez faire un glisser-déposer des fichiers à télécharger depuis le volet de droite (`Site distant`) vers le volet de gauche (`Site local`) pour les enregistrer sur votre périphérique local.
+La partie centrale de l'interface FileZilla agit comme un explorateur de fichiers. Vous pouvez sélectionner plusieurs fichiers ou dossiers, les supprimer, les glisser-déposer d'un côté à l'autre, etc. Les détails d'utilisation pouvant être différents en fonction de la version du logiciel et de votre système d'exploitation local, reportez-vous au guide de l'utilisateur [FileZilla](https://filezilla-project.org/) pour plus de détails.
 
-Pour déposer des fichiers sur le serveur, faites un glisser-déposer de vos fichiers depuis votre dossier local vers le dossier de destination distant siuté dans le volet de droite.
+Par exemple, pour récupérer des fichiers situés dans le dossier « /home/data » du serveur, ouvrez ce dossier dans le volet droit (`Remote Site`). Sélectionnez les fichiers ou dossiers à télécharger et faites-les glisser vers le volet de gauche (`Local Site`) dans un dossier de votre périphérique local.
 
-La progression du transfert de données s'affiche alors en bas de l'interface de FileZilla.
+La progression du transfert de données sera alors affichée dans la file d'attente en bas.
 
 ![progression du transfert sftp](images/sftp_sd_02.png){.thumbnail}
 
-#### **Si votre serveur est en mode rescue**
-
-En mode rescue, vous devez d'abord monter votre partition. Pour ce faire, vous pouvez suivre les instructions indiquées dans [ce guide](/pages/bare_metal_cloud/dedicated_servers/rescue_mode).
-
-Une fois la partition montée, utilisez le client FileZilla de la même manière que décrite ci-dessus, en utilisant le port 22 pour la connexion à votre serveur.
-
-> [!primary]
->
-> Les informations d'identification que vous devez utiliser vous sont envoyées par e-mail lorsque vous activez le mode rescue sur votre serveur.
->
-
-Si vous avez correctement créé le point de montage, les données se trouvent dans le répertoire « /mnt » (« /mnt/home/data » dans cet exemple).
-
-![mode rescue - sftp du site distant](images/sftp_sd_03.png){.thumbnail}
-
 ## Aller plus loin
 
-[Activer et utiliser le mode rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+[Introduction au SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
 
-[Sécuriser un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server)
+[Configuration des comptes utilisateurs et de l'accès root sur un serveur](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
+
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, consultez nos différentes [offres de support](/links/support).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
