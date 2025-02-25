@@ -30,8 +30,8 @@ Plusieurs points sont à prendre en compte :
 - Aucun bilan ne peut être généré au delà des 24 derniers mois.
 - Aucun bilan ne peut être généré pour la période précédant la date de mise en place de la fonctionnalité pour chaque service OVHcloud (voir le tableau ci-dessous).
 
-| Service                | Date mise en service de la calculatrice d'empreinte carbone |
-|------------------------|-------------------------------------------------------------|
+| Service                | Date de mise en service de la calculatrice d'empreinte carbone |
+|------------------------|----------------------------------------------------------------|
 | Serveur Dédié          | 2023/05/01 |
 | Serveur Dédié Eco      | 2023/05/01 |
 | VMware on OVHcloud     | 2023/08/01 |

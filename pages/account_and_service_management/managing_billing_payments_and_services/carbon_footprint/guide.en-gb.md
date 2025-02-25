@@ -29,8 +29,8 @@ Please note the following information:
 - No carbon footprint report can be generated for more than the last 24 months.
 - No carbon footprint can be generated before the date of implementation of the feature for each OVHcloud service (see table below).
 
-| Service                | Date the carbon footprint calculator was commissioned |
-|------------------------|-------------------------------------------------------|
+| Service                | Date of commissioning of the carbon footprint calculator |
+|------------------------|----------------------------------------------------------|
 | Dedicated Server       | 2023/05/01 |
 | Eco Dedicated Server   | 2023/05/01 |
 | VMware on OVHcloud     | 2023/08/01 |
