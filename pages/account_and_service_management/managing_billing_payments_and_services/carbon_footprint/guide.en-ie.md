@@ -1,7 +1,7 @@
 ---
 title: "How to obtain the carbon footprint of your OVHcloud services"
 excerpt: "Find out how to recover the monthly carbon footprint of your Bare Metal services using our carbon calculator"
-updated: 2025-02-18
+updated: 2025-02-26
 ---
 
 ## Objective
@@ -11,15 +11,32 @@ As part of your professional activities or out of interest on the subject, you m
 **Find out how to retrieve the monthly carbon footprint of your Bare Metal services.**
 
 ## Requirements
-
-- At least one [Dedicated Server](/links/bare-metal/bare-metal) (Advance, Game, Scale, High Grade, Storage) or one [Eco Dedicated Server](/links/bare-metal/eco) (Rise, Kimsufi, So you Start) eligible for the carbon footprint calculation.
 - Being the billing contact for the service(s) you would like to create a carbon footprint for. For more information, see [our guide to managing contacts](/pages/account_and_service_management/account_information/managing_contacts).
+
+**The carbon footprint calculation is available for the following services:**
+
+- [Dedicated Server](/links/bare-metal/bare-metal) (Advance, Game, Scale, High Grade, Storage)
+- [Eco Dedicated Server](/links/bare-metal/eco) (Rise, Kimsufi, So You Start)
+- [VMware on OVHcloud](/links/hosted-private-cloud/vmware)
+- [Public Cloud Instances (Compute)](/links/public-cloud/compute)
 
 ## Instructions
 
-### Retrieving the monthly carbon footprint report for the previous month via the OVHcloud Control Panel
+Please note the following information:
 
-To do this, perform the following steps:
+- You cannot generate a carbon footprint report for the current month.
+- When using the OVHcloud API, whether you enter a date at the beginning, middle or end of the month for the month chosen, the carbon footprint report will be generated for the full month.
+- No carbon footprint report can be generated for more than the last 24 months. 
+- No carbon footprint can be generated before the date of implementation of the feature for each OVHcloud service (see table below).
+
+| Service                | Date the carbon footprint calculator was commissioned |
+|------------------------|-------------------------------------------------------|
+| Dedicated Server       | 2023/05/01 |
+| Eco Dedicated Server   | 2023/05/01 |
+| VMware on OVHcloud     | 2023/08/01 |
+| Public Cloud Instances | 2025/01/01 |
+
+### Retrieving the monthly carbon footprint report for the previous month via the OVHcloud Control Panel
 
 1. Log in to the [OVHcloud Control Panel](/links/manager).
 1. Click on your account name in the top right-hand corner, then click on your name again in the sidebar that appears on the right-hand side.
@@ -37,8 +54,6 @@ If you need the carbon footprint for a month prior to the month preceding the cu
 By default, OVHcloud APIs are made available to developers or integrators to associate features, such as those not present in the OVHcloud Control Panel, directly with their applications or solutions.
 
 ### Step 1 - Log in to the OVHcloud APIs
-
-To do this, perform the following steps:
 
 - Go to our [OVHcloud API](/links/api) website (check that you are on `https://eu.api.ovh.com` if your services are hosted in Europe, and on `https://ca.api.ovh.com` if they are hosted outside Europe).
 - On the page that pops up, click `Explore the OVHcloud API`{.action}.
@@ -58,7 +73,7 @@ To do this, perform the following steps:
 
 #### Step 2 - Request the carbon footprint generation and retrieve the requested Task ID
 
-To do this, replace the current date that appears in the API sidebar with the date on which you want to stop calculating the carbon footprint. Please respect the following date format:
+Replace the current date that appears in the API sidebar with the date on which you want to stop calculating the carbon footprint. Please respect the following date format:
 
 ```bash
 {
@@ -67,15 +82,6 @@ To do this, replace the current date that appears in the API sidebar with the da
 ```
 
 ![API](/pages/assets/screens/api/post-me-carboncalculator-task.png){.thumbnail}
-
-> [!warning]
->
-> Please note the following information:
->
-> - You cannot generate a carbon footprint report for the current month.
-> - Whether you enter a date at the beginning, middle or end of the month for the month chosen, the carbon footprint report will be generated for the full month.
-> - No carbon footprint report can be generated for more than the last 24 months. 
-> - No carbon footprint can be generated before May 2023 (date on which the feature was set up).
 
 Once you have chosen the correct date, click the blue `EXECUTE`{.action} button.
 
@@ -143,6 +149,9 @@ Once you have opened the file, you will find the following items:
 - A summary table of C02 emissions by category between the beginning of the calendar year and the requested month.
 - A table detailing the values by type of product subscribed.
 - A graph showing C02 emissions by category.
+
+> [!warning]
+> The link generated is only valid for 24 hours. Make sure to download the carbon footprint from your browser once the link is open.
 
 ## Go further <a name="go-further"></a>
 
