@@ -1,6 +1,6 @@
 ---
 title: 'FAQ Managed Private Registry (Harbor)'
-updated: 2025-01-28
+updated: 2025-02-25
 ---
 
 ## Objective
@@ -27,7 +27,7 @@ Find below the exact locations of the dependencies:
 
 ### What version of Harbor is offered?
 
-All new Private Registry services expose Harbor **2.8.6**. We regularly backport security and performance patches from the latest versions and will regularly propose new feature upgrades.
+All new Private Registry services expose Harbor **2.10.3**. We regularly backport security and performance patches from the latest versions and will regularly propose new feature upgrades.
 
 #### Tips and Tricks
 
