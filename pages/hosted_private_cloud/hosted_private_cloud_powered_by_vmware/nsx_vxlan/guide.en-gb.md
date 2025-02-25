@@ -1,8 +1,12 @@
 ---
 title: How to create a VxLAN
 excerpt: Find out how to create VxLANs on the NSX Edge Gateway
-updated: 2021-12-13
+updated: 2025-02-24
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 
