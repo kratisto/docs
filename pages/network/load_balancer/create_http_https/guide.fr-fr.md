@@ -14,7 +14,7 @@ Pour rappel, le service OVHcloud Load Balancer est composé de 4 parties éléme
 
 - les `frontends` ;
 - les `fermes` de serveurs et leurs `serveurs` ;
-- les `routes` avancées entre les Frontends et les Fermes de serveurs (bientôt disponible dans le manager) ;
+- les `routes` avancées entre les Frontends et les Fermes de serveurs ;
 - les certificats `SSL/TLS` permettant de chiffrer les connexions TCP et/ou HTTP.
 
 ## Prérequis
