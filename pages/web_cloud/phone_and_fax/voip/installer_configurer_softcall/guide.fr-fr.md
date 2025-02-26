@@ -1,7 +1,7 @@
 ---
 title: 'Installer et configurer Softcall (Bêta)'
 excerpt: 'Découvrez comment installer et configurer Softcall afin de profiter de la solution Softphone'
-updated: 2024-08-14
+updated: 2025-02-25
 ---
 
 > [!primary]
@@ -75,7 +75,7 @@ Votre compte Softcall est désormais configuré. Dans le menu principal de Softc
 >> ![Install Softcall](images/assistant_windows_macos.png){.thumbnail}
 >>
 
-Récupérez le code de configuration vous permettant de télécharger votre configuration Softcall. Retrouvez le code de configuration dans l'e-mail que vous avez reçu après avoir souscrit à l'offre Softcall.
+Récupérez le code de configuration (ou token de provisioning) vous permettant de télécharger votre configuration Softcall. Retrouvez le code dans l'e-mail que vous avez reçu après avoir souscrit à l'offre Softcall.
 
 Dans l'écran `Assistant`{.action} de l'application Softcall, entrez le code de configuration puis cliquez sur `Télécharger`{.action}. Un message de confirmation s'affiche.
 
@@ -107,7 +107,7 @@ Entrez le numéro de votre contact et cliquez sur l'icône représentant un tél
 
 ##### Application de bureau (Windows et macOS)
 
-Pour passer un appel téléphonique, entrez le numéro dans le champ en haut de l'interface, ou cliquez sur l'icône représentant un clavier numérique pour tapper le numéro. Cliquez sur l'icône représentant un téléphone pour passer l'appel.
+Pour passer un appel téléphonique, entrez le numéro dans le champ en haut de l'interface, ou cliquez sur l'icône représentant un clavier numérique pour taper le numéro. Cliquez sur l'icône représentant un téléphone pour passer l'appel.
 
 ![Install Softcall](images/call_number.png){.thumbnail}
 
@@ -135,6 +135,180 @@ Effectuez les actions suivantes pour supprimer votre compte Softcall de votre ap
 - Cliquez sur `Supprimer le compte`{.action}.
 - Un message de confirmation s'affiche : cliquez sur `Supprimer`{.action} pour confirmer la suppression locale de votre compte Softcall.
 
+### Fonctionnalités avancées
+
+#### Application de bureau (Windows et macOS)
+
+##### Effectuer un transfert d'appel à l'aveugle
+
+Lorsque vous transférez un appel téléphonique à l'aveugle, cela signifie que : 
+
+- Le transfert est effectué de manière directe, sans préalablement contacter le nouveau destinataire.
+- Votre correspondant en cours n'est pas mis en attente lors du transfert. 
+
+Pour effectuer un transfert d'appel à l'aveugle, suivez ces étapes :
+
+- En haut à gauche de l'interface, cliquez sur l'icône représentant un téléphone.
+
+![Install Softcall](images/call_in_progress_main_interface.png){.thumbnail}
+
+- Juste à droite du numéro de votre correspondant en cours, cliquez sur les trois points (`⋮`{.action}). Dans le menu qui s'affiche, choisissez `Transférer l'appel`{.action}.
+
+![Install Softcall](images/call_in_progress_menu_blind_transfer.png){.thumbnail}
+
+- Sur l'écran qui s'affiche, tapez le numéro du destinataire vers qui vous souhaitez transférer l'appel. Cliquez sur le bouton à droite du numéro (représentant une flèche) pour transférer l'appel.
+
+![Install Softcall](images/blind_call_transfer_form.png){.thumbnail}
+
+- Lorsque le destinataire du transfert décroche, l'appel avec votre correspondant en cours se termine.
+
+![Install Softcall](images/end_of_call.png){.thumbnail}
+
+
+##### Effectuer un transfert d'appel accompagné
+
+Lorsque vous transférez un appel téléphonique accompagné, cela signifie que : 
+
+- Vous appelez le nouveau destinataire pour lui demander son accord avant la validation du transfert.
+- Votre correspondant en cours est mis en attente avant d'effectuer le transfert. 
+
+Pour transférer un appel téléphonique accompagné, suivez ces étapes :
+
+- En haut à gauche de l'interface, cliquez sur l'icône représentant un téléphone.
+
+![Install Softcall](images/call_in_progress_main_interface.png){.thumbnail}
+
+- Juste à droite du numéro de votre correspondant en cours, cliquez sur les trois points (`⋮`{.action}). Dans le menu qui s'affiche, choisissez `Consultation avant transfert`{.action}.
+
+![Install Softcall](images/call_in_progress_menu_attended_transfer.png){.thumbnail}
+
+- Sur l'écran qui s'affiche, tapez le numéro du destinataire vers qui vous souhaitez transférer l'appel. Cliquez sur le bouton à droite du numéro (représentant une flèche) pour l'appeler.
+
+![Install Softcall](images/blind_call_transfer_form.png){.thumbnail}
+
+- Votre correspondant en cours est mis en attente. Lorsque le destinataire du transfert décroche, cliquez sur l'icône représentant un téléphone, en haut à gauche de l'interface. Dans le menu latéral de gauche, les numéros de vos correspondants en attente et en cours s'affichent. Cliquez sur les trois points (`⋮`{.action}) à droite du numéro de votre correspondant en cours, puis choisissez `Valider le transfert`{.action}.
+
+![Install Softcall](images/validate_transfer.png){.thumbnail}
+
+- Une fois le transfert validé, les appels avec vos deux correspondants sont terminés.
+
+![Install Softcall](images/end_of_call.png){.thumbnail}
+
+##### Appeler sa messagerie vocale
+
+Pour appeler votre messagerie vocale, cliquez sur l'icône suivante, en haut à droite de l'interface de Softcall.
+
+![Install Softcall](images/voicemail_button.png){.thumbnail}
+
+##### Utiliser le mode bis
+
+Dans le menu latéral de l'interface de Softcall, cliquez sur l'icône représentant un téléphone.
+
+![Install Softcall](images/call_history_button.png){.thumbnail}
+
+En haut à droite de l'écran, cliquez sur le bouton représentant un téléphone pour appeler le dernier numéro avec lequel vous avez été en contact.
+
+![Install Softcall](images/bis_number.png){.thumbnail}
+
+##### Rapporter un incident à Softcall
+
+Si vous rencontrez un problème dans l'application Softcall (bugs, erreurs, etc.), envoyez un rapport à Softcall en suivant les étapes suivantes :
+
+- En bas à gauche de l'interface de Softcall, cliquez sur l'icône des paramètres (représentée par une roue crantée), puis sur `Préférences`{.action}.
+- Sur l'écran qui s'affiche, rendez-vous dans l'onglet `Avancés`{.action}.
+- Cliquez sur le bouton `Envoyer les traces`{.action}.
+- Un client de messagerie s'ouvre automatiquement avec le destinataire et le lien du rapport de bug pré-remplis.
+- Envoyez le mail pour transmettre les traces au support technique de Softcall.
+
+#### Application mobile (Android et IOS)
+
+##### Effectuer un transfert d'appel à l'aveugle
+
+Lorsque vous transférez un appel téléphonique à l'aveugle, cela veut dire que : 
+
+- Le transfert est effectué de manière directe, sans préalablement contacter le nouveau destinataire.
+- Votre correspondant en cours n'est pas mis en attente lors du transfert. 
+
+Pour effectuer un transfert d'appel à l'aveugle, suivez ces étapes :
+
+- Lorsque vous êtes en ligne avec votre correspondant, cliquez en bas à droite de l'interface sur les trois points (`...`{.action}).
+
+![Install Softcall](images/mobile_call_in_progress_interface.jpg){.thumbnail}
+
+- Dans le menu qui s'ouvre, cliquez sur `Transférer l'appel`{.action}.
+
+![Install Softcall](images/mobile_transfer_call.jpg){.thumbnail}
+
+- Sur l'écran qui s'affiche, tapez le numéro du destinataire vers qui vous souhaitez transférer l'appel. Cliquez sur le bouton en bas à droite de l'écran (représentant un téléphone) pour transférer l'appel.
+
+![Install Softcall](images/mobile_keyboard_transfer.jpg){.thumbnail}
+
+- Lorsque le destinataire du transfert décroche, l'appel avec votre correspondant en cours se termine.
+
+##### Effectuer un transfert d'appel accompagné
+
+Lorsque vous transférez un appel téléphonique accompagné, cela signifie que : 
+
+- Vous appelez le nouveau destinataire pour lui demander son accord avant la validation du transfert.
+- Votre correspondant en cours est mis en attente avant d'effectuer le transfert. 
+
+Pour transférer un appel téléphonique accompagné, suivez ces étapes :
+
+- Lorsque vous êtes en ligne avec votre correspondant, cliquez en bas à droite de l'interface sur les trois points (`...`{.action}).
+
+![Install Softcall](images/mobile_call_in_progress_interface.jpg){.thumbnail}
+
+- Dans le menu qui s'ouvre, cliquez sur `Nouvel appel`{.action}.
+
+![Install Softcall](images/mobile_call_in_progress_menu_new_call.jpg){.thumbnail}
+
+- Sur l'écran qui s'affiche, tapez le numéro du destinataire vers qui vous souhaitez transférer l'appel. Cliquez sur le bouton en bas à droite de l'interface (représentant un téléphone) pour l'appeler.
+
+![Install Softcall](images/mobile_keyboard_transfer.jpg){.thumbnail}
+
+- Votre correspondant en cours est mis en attente. Lorsque le destinataire du transfert décroche, cliquez sur les trois points (`...`{.action}) en bas à droite de l'interface. Dans le menu qui s'affiche, cliquez sur `Transfert supervisé`{.action} pour effectuer le transfert.
+
+![Install Softcalls](images/mobile_call_in_progress_attended_transfer.jpg){.thumbnail}
+
+- Une fois le transfert validé, les appels avec vos deux correspondants sont terminés.
+
+##### Appeler sa messagerie vocale
+
+Pour appeler votre messagerie vocale, cliquez sur l'icône suivante, en haut à droite de l'interface de Softcall.
+
+![Install Softcall](images/mobile_voicemail.jpg){.thumbnail}
+
+##### Utiliser le mode bis
+
+Pour appeler le dernier numéro avec lequel vous avez été en contact, suivez les étapes suivantes :
+
+- Cliquez sur l'icône suivante (en bas à droite de l'interface) pour afficher le clavier numérique :
+
+![Install Softcall](images/bottom_menu_android.jpg){.thumbnail}
+
+- Cliquez sur le bouton représentant un téléphone :
+
+![Install Softcall](images/mobile_button_call.jpg){.thumbnail}
+
+- Le dernier numéro appelé s'affiche. Appuyez à nouveau sur le même bouton pour l'appeler.
+
+##### Rapporter un incident à Softcall
+
+Si vous rencontrez un problème dans l'application Softcall (bugs, erreurs, etc.), envoyez un rapport à Softcall en suivant les étapes suivantes :
+
+- Composez le numéro `#1234#`.
+- Dans le menu qui s'affiche, cliquez sur `Activer les traces`{.action}.
+
+![Install Softcall](images/mobile_enable_debugging.jpg){.thumbnail}
+
+- Reproduisez les actions qui provoquent l'anomalie.
+- Composez à nouveau le numéro `#1234#`.
+- Dans le menu qui s'affiche, cliquez sur `Envoyer les traces`{.action}.
+
+![Install Softcall](images/mobile_submit_logs.jpg){.thumbnail}
+
+- Sur l'écran qui s'affiche, choisissez votre client de messagerie. Le destinataire et le lien du rapport de bug sont pré-remplis dans le mail.
+- Envoyez le mail pour transmettre les traces au support technique de Softcall.
 
 ## Aller plus loin
 
