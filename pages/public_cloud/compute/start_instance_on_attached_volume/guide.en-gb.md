@@ -23,7 +23,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 > [!warning]
 >
-> Regarding the current OpenStack version, with a bootable volume, the rescue-pro mode is not available on a volume-backed instance.
+> With the current version of OpenStack, rescue-pro mode is not available on an instance booted via a bootable volume.
 >
 
 ## Requirements
@@ -70,7 +70,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **OpenStack client**
->> You can create a bootable volume from an existing image, volume, or snapshot. This procedure shows you how to create a volume from an image and use the volume to boot an instance.
+>> You can create a bootable volume from an existing image, volume, or volume snapshot. This procedure shows you how to create a volume from an image and use the volume to boot an instance.
 >>
 >> ```console
 >> $ openstack image list
@@ -235,7 +235,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> List the volume on the server to make sure it's properly attached.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+

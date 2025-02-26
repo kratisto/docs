@@ -23,7 +23,7 @@ Também pode implementar um sistema operativo de e para um volume. A instância 
 
 > [!warning]
 >
-> Relativamente à versão atual do OpenStack, com um volume inicializável, o modo rescue-pro não está disponível numa instância com backup em volume.
+> Com a versão atual do OpenStack, o modo rescue-pro não está disponível numa instância iniciada através de um volume inicializável.
 >
 
 ## Requisitos
@@ -70,7 +70,7 @@ Também pode implementar um sistema operativo de e para um volume. A instância 
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **Cliente OpenStack**
->> É possível criar um volume de inicialização a partir de uma imagem, volume ou instantâneo existente. Este procedimento explica-lhe como criar um volume a partir de uma imagem e utilizar o volume para iniciar uma instância.
+>> É possível criar um volume de inicialização a partir de uma imagem, volume ou snapshot de volume existente. Este procedimento explica-lhe como criar um volume a partir de uma imagem e utilizar o volume para iniciar uma instância.
 >>
 >> ```console
 >> $ openstack image list
@@ -235,7 +235,7 @@ Também pode implementar um sistema operativo de e para um volume. A instância 
 >> Listar o volume no servidor para garantir que ele está corretamente anexado.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+

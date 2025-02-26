@@ -23,7 +23,7 @@ Le istanze Public Cloud vengono consegnate con un disco di origine copiato a par
 
 > [!warning]
 >
-> Per quanto riguarda la versione attuale di OpenStack, con un volume avviabile, la modalità rescue-pro non è disponibile su un’istanza salvata come volume.
+> Con la versione attuale di OpenStack, la modalità rescue-pro non è disponibile su un’istanza avviata tramite un volume avviabile.
 >
 
 ## Prerequisiti
@@ -70,7 +70,7 @@ Le istanze Public Cloud vengono consegnate con un disco di origine copiato a par
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **Client OpenStack**
->> È possibile creare un volume di avvio da un'immagine, un volume o un'istantanea esistente. In questa procedura viene illustrato come creare un volume da un'immagine e come utilizzarlo per avviare un'istanza.
+>> È possibile creare un volume di avvio a partire da un'immagine, da un volume o da uno Snapshot di volumi esistenti. In questa procedura viene illustrato come creare un volume da un'immagine e come utilizzarlo per avviare un'istanza.
 >>
 >> ```console
 >> $ openstack image list
@@ -235,7 +235,7 @@ Le istanze Public Cloud vengono consegnate con un disco di origine copiato a par
 >> Elencare il volume sul server per assicurarsi che sia collegato correttamente.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+

@@ -1,6 +1,6 @@
 ---
-title: 'Comment démarrer une instance de Cloud public sur un volume amorçable'
-excerpt: 'Découvrez comment démarrer une instance sur un volume amorçable'
+title: 'Comment démarrer une instance Public Cloud sur un volume amorçable'
+excerpt: 'Découvrez comment démarrer une instance sur un volume attaché'
 updated: 2025-02-26
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 
 > [!warning]
 >
-> Concernant la version actuelle d'OpenStack, avec un volume amorçable, le mode rescue-pro n'est pas disponible sur une instance sauvegardée en volume.
+> Avec la version actuelle d'OpenStack, le mode rescue-pro n'est pas disponible sur une instance démarrée via un volume amorçable.
 >
 
 ## Prérequis
@@ -71,7 +71,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **Client OpenStack**
->> Vous pouvez créer un volume de démarrage à partir d'une image, d'un volume ou d'un instantané existant. Cette procédure vous montre comment créer un volume à partir d'une image et utiliser le volume pour démarrer une instance.
+>> Vous pouvez créer un volume de démarrage à partir d'une image, d'un volume ou d'un snapshot de volume existant. Cette procédure vous montre comment créer un volume à partir d'une image et utiliser le volume pour démarrer une instance.
 >>
 >> ```console
 >> $ openstack image list
@@ -236,7 +236,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 >> Listez le volume sur le serveur pour vous assurer qu'il est correctement rattaché.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
