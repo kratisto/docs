@@ -28,7 +28,7 @@ Vous pouvez également déployer un système d'exploitation depuis et vers un vo
 
 ## Prérequis
 
-- [Accès à l’interface Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
+- [Accès à l’interface Horizon](/pages/public_cloud/compute/introducing_horizon)
 - [Charger les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 

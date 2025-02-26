@@ -1,8 +1,8 @@
---- 
+---
 title: 'Jak uruchomić instancję w chmurze publicznej na wolumenie startowym'
 excerpt: 'Dowiedz się, jak uruchomić instancję na woluminie startowym'
 updated: 2025-02-26
---- 
+---
 
 ## Wprowadzenie
 
@@ -28,7 +28,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 
 ## Wymagania
 
-- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
+- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/introducing_horizon)
 - [Pobieranie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 

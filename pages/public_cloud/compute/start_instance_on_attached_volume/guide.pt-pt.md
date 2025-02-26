@@ -1,8 +1,8 @@
---- 
+---
 title: 'Como iniciar uma instância Public Cloud num volume de arranque'
 excerpt: 'Saiba como iniciar uma instância num volume de arranque'
 updated: 2025-02-26
---- 
+---
 
 ## Objetivo
 
@@ -28,7 +28,7 @@ Também pode implementar um sistema operativo de e para um volume. A instância 
 
 ## Requisitos
 
-- [Acesso à interface Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
+- [Acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon)
 - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instruções

@@ -28,7 +28,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 ## Requirements
 
-- [Access to the Horizon interface](/pages/public_cloud/compute/loading_introducing_horizon)
+- [Access to the Horizon interface](/pages/public_cloud/compute/introducing_horizon)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instructions

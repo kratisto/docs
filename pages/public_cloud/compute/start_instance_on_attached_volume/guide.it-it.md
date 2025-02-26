@@ -28,7 +28,7 @@ Le istanze Public Cloud vengono consegnate con un disco di origine copiato a par
 
 ## Prerequisiti
 
-- [Accesso all’interfaccia Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
+- [Accesso all’interfaccia Horizon](/pages/public_cloud/compute/introducing_horizon)
 - [Carica variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Procedura
