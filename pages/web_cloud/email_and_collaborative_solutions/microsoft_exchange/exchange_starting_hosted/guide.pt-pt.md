@@ -31,7 +31,7 @@ Assim que seu serviço Hosted Exchange for criado e disponível:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
 1. Clique no separador `Web Cloud`{.action}.
-1. Clique na rubrica `MICROSOFT`{.action}.
+1. Clique na rubrica `Microsoft`{.action}.
 1. Clique em `Exchange`{.action}.
 1. Selecione a plataforma em causa.
 
