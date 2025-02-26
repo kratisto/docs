@@ -1,7 +1,7 @@
 ---
 title: Managing payment methods
 excerpt: Find out how to add and manage payment methods within the OVHcloud Control Panel
-updated: 2023-09-28
+updated: 2025-03-04
 ---
 
 ## Objective
@@ -15,7 +15,7 @@ In the OVHcloud Control Panel, you can save and manage different payment methods
 
 ## Instructions <a name="payment_methods"></a>
 
-In the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then select `Payment method`{.action}.
+In the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then select `My payment methods`{.action}.
 
 ![hubpayment](images/hubpayment.png){.thumbnail}
 
@@ -126,7 +126,7 @@ By crediting your account regularly, you will ensure that your services will nev
 
 To do this, simply go to the `Payment methods` section in your Control Panel:
 
-- Click on your name in the top right-hand corner, then on `Payment method`{.action} in the menu on the right-hand side.
+- Click on your name in the top right-hand corner, then on `My payment methods`{.action} in the menu on the right-hand side.
 - Select the `My Prepaid Account`{.action} tab.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

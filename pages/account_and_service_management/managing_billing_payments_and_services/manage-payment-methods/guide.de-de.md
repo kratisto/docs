@@ -1,7 +1,7 @@
 ---
 title: Meine Zahlungsarten verwalten
 excerpt: Erfahren Sie hier, wie Sie Ihre Zahlungsarten in Ihrem OVHcloud Kundencenter hinzufügen und verwalten können
-updated: 2023-05-09
+updated: 2025-03-04
 ---
 
 ## Ziel
@@ -15,7 +15,7 @@ Ihr OVHcloud Kunden-Account ermöglicht Ihnen, verschiedene Zahlungsarten zu hin
 
 ## In der praktischen Anwendung <a name="payment_methods"></a>
 
-Klicken Sie in Ihrem [OVHcloud Kundencenter](/links/manager) oben rechts auf Ihren Namen und wählen Sie `Zahlungsmittel`{.action} aus.
+Klicken Sie in Ihrem [OVHcloud Kundencenter](/links/manager) oben rechts auf Ihren Namen und wählen Sie `Meine Zahlungsarten`{.action} aus.
 
 ![Hubpayment](images/hubpayment.png){.thumbnail}
 
@@ -134,7 +134,7 @@ Wenn Sie Ihren Account regelmäßig aufladen, stellen Sie damit sicher, dass die
 
 Gehen Sie dazu in den Bereich `Zahlungsarten` Ihres Kundencenters:
 
-- Klicken Sie oben rechts auf Ihren Namen und dann im rechten Menü auf `Zahlungsmittel`{.action}.
+- Klicken Sie oben rechts auf Ihren Namen und dann im rechten Menü auf `Meine Zahlungsarten`{.action}.
 - Wählen Sie den Tab `Mein Prepaid-Account`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

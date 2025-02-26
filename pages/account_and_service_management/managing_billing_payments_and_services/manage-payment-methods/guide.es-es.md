@@ -1,7 +1,7 @@
 ---
 title: Gestionar las formas de pago
 excerpt: Cómo añadir y gestionar las formas de pago en el área de cliente de OVHcloud
-updated: 2023-05-09
+updated: 2025-03-04
 ---
 
 ## Objetivo
@@ -15,7 +15,7 @@ En el área de cliente de OVHcloud, puede registrar y gestionar diferentes forma
 
 ## Procedimiento <a name="payment_methods"></a>
 
-En el [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la esquina superior derecha y seleccione `Forma de pago`{.action}.
+En el [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la esquina superior derecha y seleccione `Mis forma de pago`{.action}.
 
 ![hubpayment](images/hubpayment.png){.thumbnail}
 
@@ -133,7 +133,7 @@ Recargando su cuenta con regularidad, se asegurará de que la [renovación autom
 
 Para ello, acceda a la sección `Formas de pago` del área de cliente:
 
-- haga clic en su nombre en la esquina superior derecha y seleccione `Forma de pago`{.action} en el menú de la derecha.
+- haga clic en su nombre en la esquina superior derecha y seleccione `Mis forma de pago`{.action} en el menú de la derecha.
 - seleccione la pestaña `Mi cuenta de prepago`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

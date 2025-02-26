@@ -1,7 +1,7 @@
 ---
 title: Gestire i metodi di pagamento
 excerpt: Come gestire i tuoi metodi di pagamento nello Spazio Cliente OVHcloud
-updated: 2023-05-09
+updated: 2025-03-04
 ---
 
 ## Obiettivo
@@ -15,7 +15,7 @@ Nello Spazio Cliente OVHcloud puoi salvare e gestire diversi metodi di pagamento
 
 ## Procedura <a name="payment_methods"></a>
 
-Nello [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e seleziona `Metodo di pagamento`{.action}.
+Nello [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e seleziona `I miei metodi di pagamento`{.action}.
 
 ![hubpayment](images/hubpayment.png){.thumbnail}
 
@@ -133,7 +133,7 @@ Ricaricando regolarmente il tuo account, assicurati che il [rinnovo automatico](
 
 Per effettuare questa operazione, accedi alla sezione `Modalità di pagamento` dello Spazio Cliente:
 
-- clicca sul tuo nome in alto a destra e poi sul `Metodo di pagamento`{.action} nel menu a destra.
+- clicca sul tuo nome in alto a destra e poi sul `I miei metodi di pagamento`{.action} nel menu a destra.
 - seleziona la scheda `Il tuo conto prepagato`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

@@ -1,7 +1,7 @@
 ---
 title: Gérer mes moyens de paiement
 excerpt: Apprenez à ajouter et gérer vos moyens de paiement au sein de l’espace client OVHcloud
-updated: 2023-05-09
+updated: 2025-03-04
 ---
 
 ## Objectif
@@ -135,7 +135,7 @@ En créditant régulièrement votre compte, vous vous assurerez ainsi que le [re
 
 Pour cela, il vous suffit de vous rendre dans la section `Moyens de paiement` de votre espace client :
 
-- cliquez en haut à droite sur votre nom puis sur `Moyen de paiement`{.action} dans le menu de droite;
+- cliquez en haut à droite sur votre nom puis sur `Mes moyens de paiement`{.action} dans le menu de droite;
 - sélectionnez l'onglet `Mon compte prépayé`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}
