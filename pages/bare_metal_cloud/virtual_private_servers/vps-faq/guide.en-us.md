@@ -56,7 +56,7 @@ This will help you make the right choice from our VPS solutions:
 
 Using a VPS requires basic knowledge of server administration. It is essential for managing the operating system (Linux or Windows) installed on the machine, and configuring the applications. Think you might need a VPS, but don’t have the technical knowledge required? We recommend getting in touch with one of our partners. 
 
-If you would like to get guaranteed resources but don't know how to manage servers, we would recommend Performance web [hosting plans](https://www.ovhcloud.com/en-gb/web-hosting/performance-offer/).
+If you would like to get guaranteed resources but don't know how to manage servers, we would recommend Performance web [hosting plans](https://www.ovhcloud.com/en/web-hosting/performance-offer/).
 
 ### How do I connect to my VPS?
 
@@ -98,7 +98,7 @@ This will allow you to retrieve your backup data from a different service.
 > Only OVHcloud IP addresses can be authorised.
 >
 
-Log in to [https://api.ovh.com/](https://api.ovh.com/) and use the following call:
+Log in to [https://ca.api.ovh.com/](https://ca.api.ovh.com/) and use the following call:
 
 > [!api]
 >
