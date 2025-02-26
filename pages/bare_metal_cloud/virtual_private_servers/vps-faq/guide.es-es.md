@@ -1,6 +1,6 @@
 ---
 title: FAQ VPS OVHcloud
-updated: 2023-07-06
+updated: 2025-02-26
 ---
 
 > [!primary]
@@ -48,7 +48,7 @@ el sistema operativo (Linux o Windows),
 
 Esto le permitirá elegir entre nuestras soluciones de VPS:
 
-- **VPS Starter**: máquina de entrada para probar nuestra solución (solo con una distribución Linux, sin panel de control web).
+- **VPS Starter**: máquina de entrada para probar nuestra solución (solo con una distribución Linux).
 - **VPS Value, Essential y Comfort**: ideales para el alojamiento de sitios web, servicios de e-commerce o sistemas de monitorización;
 - **VPS Elite**: adecuado para portales de e-commerce y aplicaciones que requieren más recursos de CPU y memoria.
 - **VPS Limited Edition** (cantidad limitada): estos VPS ofrecen un rendimiento mejorado, una gran ventaja para alojar sitios web complejos, aplicaciones que consumen muchos recursos o incluso servidores de juego. Esta oferta es válida hasta agotar stock.

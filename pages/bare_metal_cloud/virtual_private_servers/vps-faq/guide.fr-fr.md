@@ -1,6 +1,6 @@
 ---
 title: FAQ VPS OVHcloud
-updated: 2023-07-06
+updated: 2025-02-26
 ---
 
 ## FAQ VPS
@@ -44,7 +44,7 @@ Pour choisir un VPS adapté à vos besoins, nous vous invitons à vérifier les 
 
 Cela vous permettra de faire le bon choix parmi nos solutions VPS :
 
-- **VPS Starter** : machine d'entrée de gamme pour tester notre offre (avec une distribution Linux uniquement, pas de panneau de gestion web) ;
+- **VPS Starter** : machine d'entrée de gamme pour tester notre offre (avec une distribution Linux uniquement) ;
 - **VPS Value, Essential et Comfort** : idéal pour l’hébergement de sites web, de services e-commerce ou de systèmes de monitoring ;
 - **VPS Elite** : adapté aux sites e-commerce et applications plus exigeants en ressources CPU et mémoire ;
 - **VPS Limited Edition** (Quantités limitées) : ces VPS offrent des performances accrues, un atout majeur pour l’hébergement de sites complexes, d’applications gourmandes en ressources ou même de serveurs de jeu. Cette offre est valide jusqu’à épuisement des stocks.
@@ -98,7 +98,7 @@ Cela vous permettra alors de récupérer vos backups depuis un service d'une aut
 > Seules les adresses IP OVHcloud peuvent être autorisées.
 >
 
-Connectez-vous sur [https://api.ovh.com/](https://api.ovh.com/) et utilisez l'appel suivant :
+Connectez-vous sur [https://ca.api.ovh.com/](https://ca.api.ovh.com/) et utilisez l'appel suivant :
 
 > [!api]
 >

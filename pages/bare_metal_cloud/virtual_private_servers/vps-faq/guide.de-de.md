@@ -1,6 +1,6 @@
 ---
 title: FAQ VPS OVHcloud
-updated: 2023-07-06
+updated: 2025-02-26
 ---
 
 > [!primary]
@@ -48,7 +48,7 @@ Um einen VPS zu wählen, der Ihren Anforderungen entspricht, überprüfen Sie bi
 
 So können Sie die richtige Wahl zwischen unseren VPS Lösungen treffen:
 
-- **VPS Starter**: Einsteigermaschine für den Test unseres Angebots (mit nur einer Linux-Distribution, ohne Web-Verwaltungspanel).
+- **VPS Starter**: Einsteigermaschine für den Test unseres Angebots (mit nur einer Linux-Distribution).
 - **VPS Value, Essential und Comfort**: ideale Lösungen für das Hosting von Webseiten, E-Commerce-Dienstleistungen oder Monitoringsystemen.
 - **VPS Elite**: für E-Commerce-Seiten und Anwendungen mit hohem CPU- und RAM-Ressourcenbedarf geeignet.
 - **VPS Limited Edition** (in begrenzter Stückzahl): Diese VPS bieten eine höhere Performance. Sie bieten einen deutlichen Vorteil beim Hosting komplexer Websites, ressourcenintensiver Anwendungen oder sogar von Gameservern. Dieses Angebot ist limitiert und gilt nur, bis der Vorrat aufgebraucht ist.

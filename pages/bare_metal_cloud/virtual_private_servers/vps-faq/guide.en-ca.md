@@ -1,6 +1,6 @@
 ---
 title: FAQ VPS OVHcloud
-updated: 2023-07-06
+updated: 2025-02-26
 ---
 
 ## FAQ VPS
@@ -44,7 +44,7 @@ To choose a VPS adapted to your needs, please check the following:
 
 This will help you make the right choice from our VPS solutions:
 
-- **VPS Starter**: entry-level server to test our solution (with a Linux distribution only, no web hosting control panel).
+- **VPS Starter**: entry-level server to test our solution (with a Linux distribution only).
 - **VPS Value, Essential and Comfort**: ideal for hosting websites, e-commerce services or monitoring systems.
 - **VPS Elite**: adapted for e-commerce websites and applications that require more CPU and memory resources.
 - **VPS Limited Edition** (Limited quantities): this VPS solution offers increased performance, which is a major advantage when it comes to hosting complex websites, resource-intensive applications, and even game servers. This offer is limited and only valid until stocks run out.
@@ -56,7 +56,7 @@ This will help you make the right choice from our VPS solutions:
 
 Using a VPS requires basic knowledge of server administration. It is essential for managing the operating system (Linux or Windows) installed on the machine, and configuring the applications. Think you might need a VPS, but don’t have the technical knowledge required? We recommend getting in touch with one of our partners. 
 
-If you would like to get guaranteed resources but don't know how to manage servers, we would recommend Performance web [hosting plans](https://www.ovhcloud.com/en-ca/web-hosting/performance-offer/).
+If you would like to get guaranteed resources but don't know how to manage servers, we would recommend Performance web [hosting plans](https://www.ovhcloud.com/en-gb/web-hosting/performance-offer/).
 
 ### How do I connect to my VPS?
 
@@ -98,7 +98,7 @@ This will allow you to retrieve your backup data from a different service.
 > Only OVHcloud IP addresses can be authorised.
 >
 
-Log in to [https://ca.api.ovh.com/](https://ca.api.ovh.com/) and use the following call:
+Log in to [https://api.ovh.com/](https://api.ovh.com/) and use the following call:
 
 > [!api]
 >
