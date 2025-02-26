@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Il mio database è saturo, cosa fare?"
 excerpt: "Questa guida ti mostra come agire in caso di saturazione del database"
-updated: 2024-12-17
+updated: 2025-02-19
 ---
 
 ## Obiettivo
@@ -56,19 +56,42 @@ Il primo step consiste nell'identificare le tavole voluminose presenti nel tuo d
 
 Recupera le informazioni di accesso al database direttamente nel file di configurazione del tuo sito Web. Per effettuare questa operazione, utilizza lo step 1** della nostra guida su [modificare la password di un database](/pages/web_cloud/web_hosting/sql_change_password).
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona `Web Cloud`{.action} nella barra di navigazione in alto a sinistra. Clicca su `Hosting`{.action} e seleziona l'hosting Web associato al database condiviso OVHcloud. e clicca sulla scheda `Database`{.action}.
+Per accedere al database tramite phpMyAdmin, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** passi.
 
-Visualizzi una tabella con tutti i database disponibili nella parte inferiore dello schermo.
-
-![phpMyAdmin Access](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
-
-Ti ricordiamo che **per un database saturo**, il suo `Nome utente` e il suo `Indirizzo del server` sono presenti nella tabella che elenca i tuoi database. 
-
-Sempre nella scheda `Database`{.action}, clicca sul pulsante `...`{.action} a destra del database che è pieno e poi su `Accedi a phpMyAdmin`{.action}.
-
-![phpMyAdmin Go Login](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
-
-Inserisci le informazioni di accesso al database e clicca su `Connetti`{.action}.
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `Database`{.action}.
+>>
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Nella nuova pagina, visualizzi una tabella con i database creati.
+>>
+>> ![Go to phpMyAdmin](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/go-to-phpmyadmin.png){.thumbnail}
+>>
+>> Prendi nota del `Nome utente` e dell `Indirizzo del server` **del tuo database saturo**. Queste informazioni sono visibili nella tabella che elenca i tuoi database.
+>>
+>> Clicca sul pulsante `...`{.action} a destra del database e seleziona `Accedi a phpMyAdmin`{.action}.
+>>
+> **Step 5**
+>>
+>> ![phpMyAdmin Login interface](/pages/assets/screens/other/web-tools/phpmyadmin/pma-interface-login.png){.thumbnail}
+>>
+>> Inserisci le informazioni di accesso al database e clicca su `Connetti`{.action}.
 
 #### 1.2 - Ricerca le tavole più voluminose <a name="step1.2"></a>
 
@@ -219,7 +242,7 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** pa
 >>
 > **Step 2**
 >>
->> Clicca sul menu a tendina `Hosting`{.action} e seleziona l’hosting Web interessato.
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>
@@ -227,19 +250,19 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** pa
 >>
 >> Nella nuova pagina clicca sulla scheda `Database`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
 >>
 > **Step 4**
 >>
 >> Sulla nuova pagina appare una tabella con i database creati. A destra del database, clicca sul pulsante `...`{.action} e poi su `Ricalcola la quota`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>> ![Recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
 >>
 > **Step 5**
 >>
 >> Nella nuova finestra, clicca direttamente sul pulsante `Conferma`{.action}.
 >>
->> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>> ![Recalculate quota of a database](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
 >>
 >> Una volta avviata, l'operazione potrebbe richiedere alcuni minuti. Al termine, lo stato "READ ONLY" del database scompare.
 >> Il database sarà di nuovo pienamente operativo.
@@ -258,7 +281,7 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** pa
 >>
 > **Step 2**
 >>
->> Clicca sul menu a tendina `Web Cloud Databases`{.action} e seleziona la soluzione Web Cloud Databases interessata.
+>> Clicca sul menu `Web Cloud Databases`{.action} e seleziona la soluzione Web Cloud Databases interessata.
 >>
 >> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
 >>
@@ -266,7 +289,7 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** pa
 >>
 >> Nel riquadro **Informazioni generali** visualizzi la voce **Spazio utilizzato**. Clicca sui tre puntini `...`{.action} a destra e poi su `Aggiorna la quota del tuo database`{.action}.
 >>
->> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>> ![Refresh your database quota](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
 >>
 >> Una volta avviata, l'operazione potrebbe richiedere alcuni minuti. Al termine, lo stato "READ ONLY" del database scompare.
 >> Il database sarà di nuovo pienamente operativo.

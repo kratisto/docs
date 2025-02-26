@@ -165,35 +165,6 @@ This can be useful in cases where:
 >> Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 >> ```
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then open `Block Storage`{.action} in the left-hand menu.
-
-In this section, click on the button `Create a volume`{.action}.
-
-![select project](images/avolume01.png){.thumbnail}
-
-Follow the configuration steps in order to select options for location, disk type and disk capacity. Then enter a name for the volume and confirm by clicking on `Create the volume`{.action}.
-
-![create disk](images/avolume02.png){.thumbnail}
-
-The new disk will now be displayed in the Control Panel.
-
-![configure disk](images/avolume03.png){.thumbnail}
-
-To the right of the volume, click on the `...`{.action} button, then select `Attach to instance`{.action}.
-
-![attach disk 01](images/avolume04.png){.thumbnail}
-
-In the popup window, choose an instance from the list and click on `Confirm`{.action} to attach the disk.
-
-![attach disk 02](images/avolume05.png){.thumbnail}
-
-The process of attaching the disk to your instance will now begin. This may take a few minutes to complete.
-
-> [!warning]
->
-> Make sure to not leave the current page in your OVHcloud Control Panel while the disk is being attached. This might interrupt the process.
->
-
 ### Configuring the new disk
 
 The examples below presume you are logged in as a user with elevated permissions.

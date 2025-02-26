@@ -60,7 +60,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejne kroki **7**.
 >>
 > **Etap 2**
 >>
->> Kliknij menu rozwijane `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>> Kliknij menu `Domeny`{.action}, następnie wybierz odpowiednią domenę.
 >>
 >> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

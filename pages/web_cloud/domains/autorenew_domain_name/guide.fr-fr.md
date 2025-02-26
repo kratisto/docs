@@ -1,7 +1,7 @@
 ---
 title: "Comment renouveler mon nom de domaine OVHcloud"
 excerpt: "Découvrez pourquoi et comment renouveler vos noms de domaine OVHcloud"
-updated: 2024-11-12
+updated: 2025-02-17
 ---
 
 ## Objectif 
@@ -73,7 +73,7 @@ En revanche, si vous ne souhaitez pas conserver ce service, il n'est pas nécess
 
 ### Changer le mode de renouvellement de mes noms de domaine
 
-Dans votre [espace client](/links/manager), cliquez sur votre nom en haut à droite de votre écran puis sur `Produits et services`{.action}. Dans le tableau qui s'affiche, identifiez le ou les noms de domaine dont vous souhaitez changer le mode de renouvellement.
+Dans votre [espace client](/links/manager), cliquez sur votre nom en haut à droite de votre écran puis sur `Mes offres & services`{.action}. Dans le tableau qui s'affiche, identifiez le ou les noms de domaine dont vous souhaitez changer le mode de renouvellement.
 
 #### Pour un seul nom de domaine
 
@@ -111,7 +111,7 @@ Dans ce cas, la durée de validité souscrite sera rajoutée au temps de validit
 
 - Dans le tableau, identifiez le nom de domaine que vous souhaitez renouveler.
 - Cliquez à droite de la ligne sur le bouton `...`{.action}.
-- Cliquez sur l'action `Résilier`{.action}.
+- Cliquez sur l'action `Résilier mon service`{.action}.
 
 Cette action est proposée pour les services paramétrés en **renouvellement automatique**. En choisissant cette action, le renouvellement et le prélèvement automatiques sont désactivés pour le service que vous avez sélectionné.
 
@@ -129,7 +129,7 @@ Pour plus d'informations sur la résiliation des services OVHcloud, suivez les i
 > La facture n’est disponible que le jour du renouvellement du nom de domaine (30 jours après le prélèvement en cas de renouvellement automatique).
 >
 
-Une mention `Facture à payer` s'affiche lorsqu'une facture est en attente de règlement et lorsque :
+Une mention `Facture à régler` s'affiche lorsqu'une facture est en attente de règlement et lorsque :
 
 - Vous possédez des services en renouvellement automatique.
 - Vous n'avez pas enregistré de moyen de paiement permettant d'effectuer un prélèvement pour le règlement de vos factures.

@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - Jak zarządzać logami?'
 excerpt: 'Dowiedz się, jak zarządzać logami baz danych hostowanych na serwerze Web Cloud Databases'
-updated: 2024-11-25
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie
@@ -51,8 +51,8 @@ W niektórych sytuacjach możesz sprawdzić/pobrać logi:
 Aby w czasie rzeczywistym sprawdzać logi rozwiązania Web Cloud Databases, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Web Cloud Databases`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Web Cloud Databases`{.action}.
 4. Wybierz odpowiednią instancję Web Cloud Databases.
 5. Na stronie, która się wyświetli kliknij zakładkę `Logi`{.action}.
 
@@ -81,8 +81,8 @@ Aby pobrać historię logów rozwiązania Web Cloud Databases, należy połączy
 Aby uzyskać informacje na temat logowania przez SFTP do rozwiązania Web Cloud Databases, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Web Cloud Databases`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Web Cloud Databases`{.action}.
 4. Wybierz odpowiednie rozwiązanie Web Cloud Databases.
 5. Na stronie, która się wyświetli pozostań w zakładce `Informacje ogólne`{.action} i przejdź do rubryki zatytułowanej `Informacje na temat połączenia`{.action}.
 6. Pod napisem `SFTP`{.action} znajdziesz wszystkie informacje niezbędne do logowania się przez SFTP.
@@ -134,8 +134,8 @@ Ponieważ rozwiązania [Web Cloud Databases](/links/web/databases) mogą być wy
 Aby subskrybować rozwiązanie Web Cloud Databases ze strumieniem danych Logs Data Platform, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Web Cloud Databases`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Web Cloud Databases`{.action}.
 4. Wybierz odpowiednią instancję Web Cloud Databases.
 5. Na stronie, która się wyświetli kliknij zakładkę `Logi`{.action}.
 6. Po prawej stronie ramki, w której wyświetlają się logi w czasie rzeczywistym, kliknij przycisk `Subskrybuj`{.action}.

@@ -1,7 +1,7 @@
 ---
 title: "Getting started with the Zimbra solution"
 excerpt: "Find out how to get started with your Zimbra solution via the OVHcloud Control Panel"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -18,6 +18,8 @@ updated: 2025-02-12
 With the Zimbra solution, OVHcloud offers an open-source collaborative messaging platform, with all the features you need for professional use. In this guide, you will find the information you need to get started configuring your Zimbra email accounts.
 
 **Find out how to get started with the Zimbra email solution.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 
@@ -114,6 +116,7 @@ Select the tab that corresponds to your choice:
 >> - **Custom configuration**: If you have already configured an email solution on your domain name, you can choose the elements that interest you.
 >>    - *Configure the MX record automatically*: This allows you to enter the OVHcloud incoming servers automatically (applies to all OVHcloud email solutions).
 >>    - *Configure the SPF record automatically*: This allows you to enter the record automatically, authorizing the OVHcloud sending email servers to send your emails. This registration is valid for all OVHcloud email solutions.
+>>    - *Configure the DKIM record automatically*: it allows you to automatically enter the records required to authenticate your email sending.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -133,7 +136,23 @@ Select the tab that corresponds to your choice:
 >>
 >> > [!warning]
 >>>
->> > After 48 hours, if the CNAME record is not visible in the DNS zone, the operation is canceled. You will then need to retry the operation.
+>> > If the CNAME record is not visible in the DNS zone after 48 hours, the operation is cancelled. You will then need to retry the operation.
+
+#### Modify a domain name
+
+You can modify your domain name to change its organization or to check its associated DNS records.
+
+In the `Domain`{.action} tab of your Zimbra service, click on the "&#8285;" icon to the right of the domain name concerned to display the options.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Click `Configure`{.action} to modify the organization associated with your domain name.
+- Click `Diagnostics`{.action} to display the diagnostic interface for the domain name DNS records. You will need to ensure that no alerts are displayed for each of the DNS records listed in the tabs. Follow the instructions detailed in each tab with an alert to configure the DNS records:
+    - **MX**: Essential for receiving your emails.
+    - **SPF**: Security record that is required by the majority of recipient email servers to legitimize OVHcloud email sending servers with your domain name.
+    - **DKIM**: Provides a signature system for each email sent by your Zimbra service. The signature is verified by the recipient using the public key visible in your DNS zone.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Email accounts <a name="emails"></a>
 

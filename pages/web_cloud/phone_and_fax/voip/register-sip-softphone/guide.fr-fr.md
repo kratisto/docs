@@ -46,9 +46,12 @@ Vous devez **impérativement** disposer des trois informations suivantes afin de
 
 #### Login et Domain
 
-Afin de retrouver votre **Login** et votre **Domain**, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie `Télécom`{.action}. Cliquez sur `Téléphonie`{.action} puis sur votre groupe de téléphonie et enfin sur votre ligne SIP.
+Afin de retrouver votre **Login** et votre **Domain**, suivez les étapes ci-dessous :
 
-Dans l'onglet `Gestion`{.action}, cliquez sur `Informations générales`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur la ligne SIP concernée.
+1. Dans l'onglet `Gestion`{.action}, cliquez sur `Informations générales`{.action}.
 
 ![informations générales](images/general-information.png){.thumbnail}
 

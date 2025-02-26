@@ -1,7 +1,7 @@
 ---
 title: 'How do Savings Plans work?'
 excerpt: 'Savings Plans - Everything you need to know to optimise your costs'
-updated: 2025-02-10
+updated: 2025-02-13
 ---
 
 <style>
@@ -26,7 +26,7 @@ This guide will also detail the use of the Savings Plans dashboard, which will a
 
 ## How do Savings Plans work?
 
-### What is a Savings Plan ?
+### What is a Savings Plan?
 
 [Savings Plans](/links/public-cloud/savings-plan) are a flexible pricing model that offers lower rates than pay-as-you-go pricing, in exchange for a commitment to use the service for a given period (1, 6, 12, 24 or 36 months).
 
@@ -61,9 +61,9 @@ Savings Plans for instances are based on the commitment of a quantity of instanc
 > Please note that only 3rd-generation **instances** (B3, C3, R3) are eligible for Savings Plans. Make sure that your instance belongs to this generation to benefit from this offer.
 >
 
-### How do Savings Plans work for Rancher?
+### How do Savings Plans work for Managed Rancher Service?
 
-Savings Plans for Rancher are based on the commitment of a quantity of vCPUs over a defined period, enabling you to make savings on the Managed Rancher service. This model offers increased flexibility, as committed vCPUs can be shared across all your Rancher environments, optimising billing for resources used in a flexible and scalable way.
+Savings Plans for Rancher Managed Service are based on the commitment of a quantity of vCPUs over a defined period, enabling you to make savings on the Managed Rancher service. This model offers increased flexibility, as committed vCPUs can be shared across all your Rancher environments, optimising billing for resources used in a flexible and scalable way.
 
 By subscribing to a Rancher Savings Plan, you commit to using a certain amount of vCPUs, which are then shared between your Rancher clusters, ensuring cost-effectiveness even if your usage fluctuates over time.
 

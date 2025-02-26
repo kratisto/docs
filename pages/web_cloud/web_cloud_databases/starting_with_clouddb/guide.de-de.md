@@ -4,7 +4,7 @@ links:
     - docs/cloud/clouddb/utilisation-mysql-mariadb/
     - docs/cloud/clouddb/utilisation-pgsql/
 excerpt: 'Erfahren Sie hier, wie Sie, wie Sie die Web Cloud Databases Lösung verwenden'
-updated: 2024-03-18
+updated: 2025-02-20
 ---
 
 ## Ziel
@@ -23,13 +23,30 @@ Ihre Web Cloud Databases Lösung ist standardmäßig an das Webhosting-Netzwerk 
 
 ### Aktivierung des in Ihrem Webhosting-Angebot enthaltenen Web Cloud Databases Servers
 
-Wenn Ihr Hosting-Angebot die Option "Web Cloud Databases" beinhaltet, können Sie diese in Ihrem [OVHcloud Kundencenter](/links/manager){.external} aktivieren. Klicken Sie im Bereich `WebCloud`{.action} links auf `Hosting-Pakete`{.action}.
+Wenn Ihr Hosting-Angebot die Option "Web Cloud Databases" beinhaltet, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
-Klicken Sie im Tab `Allgemeine Informationen` im Rahmen `Konfiguration` auf `...`{.action} rechts von **Web Cloud Databases**. Klicken Sie dann auf `Aktivieren`{.action}, um den Aktivierungsvorgang zu starten.
-
-![Allgemeine Informationen](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/web-cloud-databases-enable.png){.thumbnail}
-
-Folgen Sie den Anweisungen, um Typ und Version Ihres Web Cloud Databases Servers zu bestimmen. Nach Abschluss des Vorgangs kann der Web Cloud Databases Dienst über die linke Menüspalte unter `Web Cloud Databases`{.action} eingesehen werden.
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Klicken Sie im Tab `Allgemeine Informationen` im Rahmen `Konfiguration` auf `...`{.action} rechts von **Web Cloud Databases**. Klicken Sie dann auf `Aktivieren`{.action}, um den Aktivierungsvorgang zu starten.
+>>
+>> ![Allgemeine Informationen](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/web-cloud-databases-enable.png){.thumbnail}
+>>
+> **Schritt 4**
+>>
+>> Folgen Sie den Anweisungen, um Typ und Version Ihres Web Cloud Databases Servers zu bestimmen. Nach Abschluss des Vorgangs kann der Web Cloud Databases Dienst über die linke Menüspalte unter `Web Cloud Databases`{.action} eingesehen werden.
 
 ### Allgemeine Informationen der Instanz einsehen
 

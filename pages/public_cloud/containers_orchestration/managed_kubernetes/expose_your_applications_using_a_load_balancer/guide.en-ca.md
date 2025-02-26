@@ -1,13 +1,13 @@
 ---
 title: Expose your applications using OVHcloud Public Cloud Load Balancer
 excerpt: "How to expose your applications hosted on Managed Kubernetes Service using the OVHcloud Public Cloud Load Balancer"
-updated: 2025-01-30
+updated: 2025-02-17
 ---
 
 > [!warning]
 >
 > Usage of the [Public Cloud Load Balancer](/links/public-cloud/load-balancer) with Managed Kubernetes Service (MKS) is now in General Availability.
-> However this LoadBalancer (based on Octavia project) is not the default one yet for clusters running Kubernetes versions <1.31. For those clusters, you must use the annotation `loadbalancer.ovhcloud.com/class: octavia` to deploy an Octavia LoadBalancer from your MKS cluster.
+> However this LoadBalancer (based on Octavia project) is not the default one yet for clusters running Kubernetes versions <1.31. For those clusters, you must use the annotation `loadbalancer.ovhcloud.com/class: octavia` to deploy an Octavia LoadBalancer from your MKS cluster. See also [How to migrate from Load Balancer for MKS (IOLB) to Public Cloud Load Balancer (Octavia)](/pages/public_cloud/containers_orchestration/managed_kubernetes/migrate-loadbalancer-iolb-to-octavia).
 >
 
 ## Objective
@@ -64,7 +64,7 @@ If you have an existing/already deployed cluster and if:
 ## Limitations
 
 - Layer 7 Policy & Rules and TLS Termination (`TERMINATED_HTTPS` listener) are not available yet. For such use cases you can rely on [Octavia Ingress Controller](https://github.com/kubernetes/cloud-provider-openstack/blob/master/docs/octavia-ingress-controller/using-octavia-ingress-controller.md)
-- UDP proxy protocol is not supported
+- Proxy Protocol is only supported for TCP services.
 
 ## Billing
 
@@ -410,36 +410,6 @@ test-lb-todel        LoadBalancer   10.3.107.18   141.94.215.240   80:30172/TCP 
 #### Use PROXY protocol to preserve client IP
 
 When exposing services like nginx-ingress-controller, it's a common requirement that the client connection information could pass through proxy servers and load balancers, therefore visible to the backend services. Knowing the originating IP address of a client may be useful for setting a particular language for a website, keeping a denylist of IP addresses, or simply for logging and statistics purposes. You can follow the official Cloud Controller Manager documentation on how to [Use PROXY protocol to preserve client IP](https://github.com/kubernetes/cloud-provider-openstack/blob/master/docs/openstack-cloud-controller-manager/expose-applications-using-loadbalancer-type-service.md#use-proxy-protocol-to-preserve-client-ip).
-
-#### Migrate from Loadbalancer for Kubernetes to Public Cloud Load Balancer
-
-In order to migrate from an existing [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud Load Balancer](/links/public-cloud/load-balancer) you will have to modify an existing Service and change its LoadBalancer class.
-
-Your existing LoadBalancer Service using [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) should have the following annotation:
-
-```yaml
-annotations:
-  loadbalancer.ovhcloud.com/class: "iolb"
-```
-
-##### Step 1 - Edit your Service to change the LoadBalancer class to 'octavia'
-
-```yaml
-annotations:
-  loadbalancer.ovhcloud.com/class: "octavia" // not required for clusters running kubernetes versions >= 1.31, you can just remove the annotation.
-```
-
-##### Step 2 - Apply the change
-
-```yaml
-kubectl apply -f your-service-manifest.yaml
-```
-
-> [!warning]
->
-> As [Loadbalancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) and [Public Cloud Load Balancer](/links/public-cloud/load-balancer) do not use the same solution for Public IP allocation, **it is not possible to keep the existing public IP** of your Loadbalancer for Kubernetes.
-> Changing the LoadBalancer class of your Service will lead to the creation of a new Loadbalancer and the allocation of a new Public IP (Floating IP).
->
 
 ### Use an existing Floating IP in the tenant
 

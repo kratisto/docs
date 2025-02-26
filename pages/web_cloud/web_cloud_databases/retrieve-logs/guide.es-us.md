@@ -1,7 +1,7 @@
 ---
 title: 'Web Cloud Databases - ¿Cómo gestionar los logs?'
 excerpt: 'Descubra cómo gestionar los logs de las bases de datos alojadas en un servidor Web Cloud Databases'
-updated: 2024-11-25
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -51,8 +51,8 @@ En determinadas situaciones, es posible que necesite consultar o recuperar los l
 Para verificar los logs de su solución Web Cloud Databases en tiempo real, lleve a cabo las siguientes acciones:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Web Cloud Databases`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Web Cloud Databases`{.action}.
 4. Seleccione la instancia Web Cloud Databases correspondiente.
 5. A continuación, haga clic en la pestaña `Logs`{.action}.
 
@@ -81,8 +81,8 @@ Para consultar el historial de los logs de su solución Web Cloud Databases, deb
 Para consultar la información de conexión SFTP a su solución Web Cloud Databases, lleve a cabo las siguientes acciones:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Web Cloud Databases`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Web Cloud Databases`{.action}.
 4. Seleccione la solución Web Cloud Databases correspondiente.
 5. En la nueva página, abra la pestaña `Información general`{.action} y sitúese en el recuadro titulado `Datos de conexión`{.action}.
 6. A continuación de la mención `SFTP`{.action}, encontrará toda la información necesaria para conectarse por SFTP.
@@ -134,8 +134,8 @@ Dado que las soluciones [Web Cloud Databases](/links/web/databases) pueden utili
 Para suscribir su solución Web Cloud Databases a un flujo de datos en Logs Data Platform, lleve a cabo las siguientes acciones:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Web Cloud Databases`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Web Cloud Databases`{.action}.
 4. Seleccione la instancia Web Cloud Databases correspondiente.
 5. A continuación, haga clic en la pestaña `Logs`{.action}.
 6. A la derecha del recuadro en el que aparecen sus logs en tiempo real, haga clic en el botón `Suscribirse`{.action}.

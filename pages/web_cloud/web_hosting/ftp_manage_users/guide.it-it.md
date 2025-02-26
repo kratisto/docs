@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Come gestire gli utenti FTP"
 excerpt: "Scopri come creare, modificare o eliminare utenti FTP sul tuo hosting Web OVHcloud"
-updated: 2024-10-07
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -26,8 +26,8 @@ Le offerte di hosting Web OVHcloud danno accesso a uno spazio di storage FTP. Qu
 Per creare un nuovo utente FTP sull’hosting Web dallo Spazio Cliente OVHcloud, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `FTP-SSH`{.action}.
 6. Per creare un nuovo utente FTP, clicca sul pulsante `Crea un utente`{.action} a destra. In base alla risoluzione dello schermo, il pulsante può trovarsi nella parte inferiore della pagina.
@@ -72,8 +72,8 @@ In caso di necessità, prova il nuovo utente FTP consultando la nostra guida "[A
 Per modificare un utente FTP, effettuare le seguenti operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `FTP-SSH`{.action}.
 6. Nella tabella in fondo alla pagina e nella parte destra della riga corrispondente all’utente FTP interessato, clicca sul pulsante `...`{.action} e poi su `Modifica`{.action}.
@@ -101,8 +101,8 @@ Una volta effettuate le modifiche, clicca su `Continua`{.action} per accedere al
 Per eliminare un utente FTP, effettuare le seguenti operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `FTP-SSH`{.action}.
 6. Nella tabella in fondo alla pagina e nella parte destra della riga corrispondente all’utente FTP interessato, clicca sul pulsante `...`{.action} e poi su `Elimina`{.action}.

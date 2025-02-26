@@ -1,7 +1,7 @@
 ---
 title: "Hosting - Zarządzanie certyfikatem SSL"
 excerpt: "Dowiedz się, jak zarządzać certyfikatem SSL na Twoim hostingu OVHcloud"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie 
@@ -73,8 +73,8 @@ Ponieważ weryfikacja ta jest ściśle związana z ustawieniami Twojej strony WW
 Aby usunąć certyfikat SSL zainstalowany na Twoim hostingu, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli pozostań w zakładce `Informacje ogólne`{.action}.
 6. Przejdź do ramki zatytułowanej `Konfiguracja`.

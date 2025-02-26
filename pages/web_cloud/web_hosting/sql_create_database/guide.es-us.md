@@ -20,7 +20,7 @@ Una base de datos (BD) se utiliza para almacenar elementos dinámicos (datos de 
 
 ### Etapa 1 - Acceder a la pestaña de gestión de las bases de datos de un alojamiento web
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección "Web Cloud" de la página {.action}. Haga clic en `Alojamientos`{.action} en la columna izquierda, seleccione el alojamiento en el que desea crear una base de datos y abra la pestaña `Bases de datos`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en `Alojamientos`{.action} en la columna izquierda, seleccione el alojamiento en el que desea crear una base de datos y abra la pestaña `Bases de datos`{.action}.
 
 La tabla de esta sección contiene todas las bases de datos creadas con su alojamiento web.
 
@@ -159,7 +159,7 @@ Si lo necesita, consulte el [Etapa 3](#step3) de esta guía para obtener la info
 
 Para cada base de datos de alojamiento web, se crean snapshots automáticamente cada día (hasta un máximo de 32). Puede restaurar rápidamente una versión anterior de una base de datos desde el área de cliente de OVHcloud.
 
-Para comprobar los snapshots disponibles, así como la fecha y hora de su creación, conéctese al [área de cliente de OVHcloud](/links/manager) y acceda a la sección "Web Cloud" de la página {.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento en el que quiera consultar los snapshots disponibles para su base de datos. A continuación, abra la pestaña `Bases de datos`{.action}. En la tabla que aparece, haga clic en el símbolo situado junto al círculo verde. También puede descargar cada copia de seguridad de una base de datos desde ese mismo lugar. Para más información, consulte nuestra guía "[Recuperar la copia de seguridad de la base de datos de un alojamiento web](/pages/web_cloud/web_hosting/sql_database_export)".
+Para comprobar los snapshots disponibles, así como la fecha y hora de su creación, conéctese al [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `Alojamientos`{.action} y seleccione el alojamiento en el que quiera consultar los snapshots disponibles para su base de datos. A continuación, abra la pestaña `Bases de datos`{.action}. En la tabla que aparece, haga clic en el símbolo situado junto al círculo verde. También puede descargar cada copia de seguridad de una base de datos desde ese mismo lugar. Para más información, consulte nuestra guía "[Recuperar la copia de seguridad de la base de datos de un alojamiento web](/pages/web_cloud/web_hosting/sql_database_export)".
 
 #### Entender los problemas comunes
 

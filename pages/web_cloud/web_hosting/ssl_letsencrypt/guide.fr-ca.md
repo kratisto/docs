@@ -1,7 +1,7 @@
 ---
 title: "Hébergement web - Activer un certificat SSL gratuit Let's Encrypt"
 excerpt: "Découvrez comment activer ou regénérer un certificat SSL gratuit Let's Encrypt sur votre hébergement Web"
-updated: 2024-10-22
+updated: 2025-02-20
 ---
 
 ## Objectif
@@ -41,8 +41,8 @@ Par conséquent et avant d'installer le certificat SSL Let's Encrypt, vous devre
 Pour cela, effectuez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+2. Cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 4. Sélectionnez l'hébergement web concerné.
 5. Sur la page qui s'affiche, cliquez sur l'onglet `Multisite`{.action}.
 
@@ -95,8 +95,8 @@ Avant de procéder à cette configuration, assurez-vous que l'[étape précéden
 Pour activer votre certificat SSL Let's Encrypt, effectuez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+2. Cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 4. Sélectionnez l'hébergement web concerné.
 5. Sur la page qui s'affiche, restez dans l'onglet `Informations générales`{.action}.
 6. Positionnez-vous dans l'encadré intitulé `Configuration`.
@@ -115,8 +115,8 @@ La mise en place du certificat SSL Let's Encrypt peut prendre plusieurs heures.
 Pour vérifier que l'installation est terminée, effectuez les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-2. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-3. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+2. Cliquez sur l'onglet `Web Cloud`{.action}.
+3. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 4. Sélectionnez l'hébergement web concerné.
 5. Sur la page qui s'affiche, restez dans l'onglet `Informations générales`{.action}.
 6. Positionnez-vous dans l'encadré intitulé `Configuration`.
@@ -137,8 +137,8 @@ Pour cela, effectuez **dans l'ordre** les actions suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 2. Pré-attribuez le certificat SSL Let's Encrypt à vos nouveaux noms de domaine/sous-domaines comme précisé dans la [première partie](#ssl-multisite) de ce guide.
-3. Sur la ligne située en haut de l'espace client, cliquez sur l'onglet `Web Cloud`{.action}.
-4. Dans la colonne de gauche, cliquez sur le menu déroulant `Hébergements`{.action}.
+3. Cliquez sur l'onglet `Web Cloud`{.action}.
+4. Dans la colonne de gauche, cliquez sur le menu `Hébergements`{.action}.
 5. Sélectionnez l'hébergement web concerné.
 6. Sur la page qui s'affiche, restez dans l'onglet `Informations générales`{.action}.
 7. Positionnez-vous dans l'encadré intitulé `Configuration`.

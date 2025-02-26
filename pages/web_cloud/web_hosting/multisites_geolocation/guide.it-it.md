@@ -1,7 +1,7 @@
 ---
-title: "Geolocalizzare il vostro sito web in un paese specifico"
-excerpt: "Questa guida ti mostra come geolocalizzare il tuo sito Web utilizzando i nostri indirizzi IP geolocalizzati"
-updated: 2022-12-22
+title: "Come geolocalizzare un sito Web in un paese specifico?"
+excerpt: "Questa guida ti mostra come individuare un sito Web grazie agli indirizzi IP geolocalizzati disponibili sulle offerte di hosting condiviso OVHcloud"
+updated: 2025-02-11
 ---
 
 ## Obiettivo
@@ -26,28 +26,52 @@ L'opzione di geolocalizzazione sul tuo hosting può essere utile per l'SEO se il
 
 Per i siti Web consultati principalmente all'estero e ospitati sulla nostra infrastruttura di hosting condivisi OVHcloud, proponiamo un'opzione di geolocalizzazione per indirizzo IP. Permette di indicizzare meglio i siti Web nel Paese in cui si trova l'indirizzo IP scelto con l'opzione.
 
-Per utilizzare l'opzione di geolocalizzazione via IP, accedi al tuo [Spazio Cliente OVHcloud](/links/manager){.external}.
+Per utilizzare l'opzione di geolocalizzazione via IP, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** passi.
 
-Accedi alla sezione `Web Cloud`{.action}, clicca su `Hosting`{.action} e seleziona l'hosting interessato nella lista.<br>
-Clicca sulla scheda `Multisito`{.action} e poi sul pulsante `...`{.action} situato a destra del tuo dominio nella tabella. Infine clicca su `Modifica il dominio`{.action}.
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `Multisito`{.action}.
+>>
+>> ![Multisite](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/multisite.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Nella nuova pagina, visualizzi una tabella con i domini associati.
+>>
+>> ![hosting multisites](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/modify-a-domain.png){.thumbnail}
+>>
+>> Clicca sul pulsante `...`{.action} a destra del dominio nella tabella. Infine clicca su `Modifica il dominio`{.action}.
+>>
+> **Step 5**
+>>
+>> Nella nuova finestra, seleziona `IP del Paese`{.action} e inserisci il menu a tendina.
+>>
+>> ![geolocation option](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/country-ip-selection.png){.thumbnail}
+>>
+>> Scegli l'indirizzo IP del Paese per il quale vuoi geolocalizzare il tuo sito, tra i 12 Paesi proposti: *Repubblica Ceca, Finlandia, Francia, Germania, Irlanda, Italia, Lituania, Paesi Bassi, Polonia, Portogallo, Spagna, Regno Unito*.
+>>
+>> Clicca su `Continua`{.action} e poi su `Conferma`{.action} dalla finestra riepilogativa.
 
-![hosting multisito](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/modify-a-domain.png){.thumbnail}
-
-Nella nuova finestra, seleziona `IP del Paese`{.action} e inserisci il menu a tendina.
-
-![geolocation option](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/multisite/country-ip-selection.png){.thumbnail}
-
-Scegli l'indirizzo IP del Paese per il quale vuoi geolocalizzare il tuo sito, tra i 12 Paesi proposti: * Repubblica Ceca, Finlandia, Francia, Germania, Irlanda, Italia, Lituania, Paesi Bassi, Polonia, Portogallo, Spagna, Regno Unito*.
-
-Clicca su `Continua`{.action} e poi su `Conferma`{.action} dalla finestra riepilogativa.
-
->[!primary]
+> [!primary]
 >
-> Se la zona DNS attiva del dominio è gestita totalmente dallo [Spazio Cliente OVHcloud](/links/manager), l'accesso di tipo A nella zona DNS del dominio si modifica automaticamente. Per verificare che l'indirizzo IP sia stato aggiornato correttamente, consulta la guida su [modifica della zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
+> Una volta completati gli step precedenti e se la zona DNS attiva del dominio è completamente gestita nello [Spazio Cliente OVHcloud](/links/manager), il record di tipo A nella zona DNS del dominio verrà modificato automaticamente. Per verificare che l'indirizzo IP sia stato aggiornato correttamente, consulta la guida su [modifica della zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit).
 >
 > In caso contrario, sarà necessario effettuare la modifica manualmente presso il provider che gestisce la zona DNS attiva del dominio. Consulta [qui](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) la documentazione che contiene tutti gli indirizzi IP della nostra infrastruttura di hosting condivisi OVHcloud.
 >
-> In tutti i casi, un periodo di propagazione da **4 a 24 ore** dopo la modifica sarà necessario per renderla pienamente efficace e visibile su Internet.
+> In entrambi i casi, un periodo di propagazione da **4 a 24 ore** dopo la modifica sarà necessario per renderla pienamente efficace e visibile su Internet.
 >
 
 ## Per saperne di più

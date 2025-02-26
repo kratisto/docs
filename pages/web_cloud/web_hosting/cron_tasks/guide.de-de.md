@@ -1,7 +1,7 @@
 ---
 title: "Automatische Tasks mit einem Webhosting verwenden"
 excerpt: "Erfahren Sie hier, wie Sie automatisierte Tasks auf Ihrem Webhosting konfigurieren"
-updated: 2024-05-16
+updated: 2025-02-20
 ---
 
 <style>
@@ -107,15 +107,30 @@ Der Task wird in einigen Minuten bereit sein. Sie können dann alle Einstellunge
 
 ### Task bearbeiten oder löschen
 
-Gehen Sie hierzu wie folgt vor:
+Klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
-1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben auf `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Menü `Hosting-Pakete`{.action}.
-4. Wählen Sie das betreffende Webhosting aus.
-5. Klicken Sie auf auf den Tab `Mehr`{.action} und dann auf `Cron`{.action}.
-6. Klicken Sie in der hier angezeigten Tabelle auf den Button `...`{.action} rechts neben dem Task.
-7. Klicken Sie auf den Button `Bearbeiten`{.action} oder `Löschen`{.action}, je nachdem, welche Aktion Sie für den Task ausführen möchten.
+> [!tabs]
+> **Schritt 1**
+>>
+>> Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Schritt 2**
+>>
+>> Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Schritt 3**
+>>
+>> Klicken Sie auf auf den Tab `Mehr`{.action} und dann auf `Cron`{.action}.
+>>
+> **Schritt 4**
+>>
+>> Klicken Sie in der hier angezeigten Tabelle auf den Button `...`{.action} rechts neben dem Task.
+>>
+>> Klicken Sie auf den Button `Bearbeiten`{.action} oder `Löschen`{.action}, je nachdem, welche Aktion Sie für den Task ausführen möchten.
 
 ### Einschränkungen bei geplanten Tasks auf Ihrem Webhosting
 

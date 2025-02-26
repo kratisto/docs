@@ -398,7 +398,7 @@ Ao tentar acessar seu webmail Roundcube, você encontrará a seguinte mensagem:
 
 ```console
 FALHA NA VERIFICAÇÃO DO PEDIDO
-Para sua proteção, o acesso a este recurso está protegido contra ataques CSFR.
+Para sua proteção, o acesso a este recurso está protegido contra ataques CSRF.
 Se você ver isso, provavelmente você não se desconectou antes de sair do aplicativo da Web.
 A interação humana é agora necessária para continuar.
 Contacte o administrador do seu servidor.

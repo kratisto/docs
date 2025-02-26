@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Backups with Veeam Data Platform"
 excerpt: "Find out how to perform backups and restoration with Veeam (Plug-in) Data Platform / Protection for managed VCD on OVHcloud"
-updated: 2024-10-15
+updated: 2025-02-24
 ---
 
 <style>
@@ -182,6 +182,10 @@ Click `Next`{.action}
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_6.png){.thumbnail}
 
 If necessary, you can add monitoring options for your backup tasks. Finally, click `Finish`{.action}.
+
+> [!warning]
+> If you add multiple email addresses for monitoring, use a semicolon (`;`) as a separator between each address.
+> **Example**: `email1@example.com; email2@example.com`
 
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_7.png){.thumbnail}
 

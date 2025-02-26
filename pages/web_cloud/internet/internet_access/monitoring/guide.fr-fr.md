@@ -16,14 +16,16 @@ Les notifications sont envoyées par e-mail ou par SMS (il est alors nécessaire
 - Disposer d'un accès ADSL / SDSL / FTTH qui répond aux requêtes ICMP (c'est le cas par défaut sur les modems distribués par OVHcloud).
 - Une adresse e-mail pour recevoir les notifications.
 - Un [compte SMS crédité](https://www.ovhtelecom.fr/sms/) si vous souhaitez recevoir les SMS de notifications sur votre mobile.
-- Etre connecté à votre [espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovhtelecom.fr%2Fmanager&ovhSubsidiary=fr).
+- Etre connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
-Pour pouvoir gérer vos alertes, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovhtelecom.fr%2Fmanager&ovhSubsidiary=fr) dans la partie `Telecom`{.action}. 
-<br>Cliquez sur `Accès Internet`{.action}, sélectionnez votre offre puis votre accès à Internet.
+Pour pouvoir gérer vos alertes, suivez ces étapes :
 
-Dans l'onglet `Mon accès`{.action}, cliquez sur `Afficher les alertes`{.action} dans le cadre `Informations générales`.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Dans l'onglet `Mon accès`{.action}, cliquez sur `Afficher les alertes`{.action} dans le cadre `Informations générales`.
 
 ![espace client](images/espace-client-2022.png){.thumbnail}
 

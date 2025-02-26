@@ -396,7 +396,7 @@ Cuando intente acceder a su webmail Roundcube, recibirá el siguiente mensaje:
 
 ```console
 ERROR DE COMPROBACIÓN DE SOLICITUD
-Para su protección, el acceso a este recurso está protegido contra los ataques CSFR.
+Para su protección, el acceso a este recurso está protegido contra los ataques CSRF.
 Si ve esto, probablemente no cerró la sesión antes de abandonar la aplicación Web.
 Ahora se requiere la interacción humana para poder continuar.
 Póngase en contacto con el administrador del servidor.

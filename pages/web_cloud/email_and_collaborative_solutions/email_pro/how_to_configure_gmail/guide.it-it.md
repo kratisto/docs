@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configura il tuo account di posta elettronica su Gmail'
 excerpt: 'Come configurare un account Email Pro dall’interfaccia Web di Gmail'
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Obiettivo
@@ -41,11 +41,15 @@ Gli account Email Pro possono essere configurati su client o applicazioni di pos
 
 Accedi tramite browser all’interfaccia Web di Gmail, inserisci le credenziali del tuo account ed effettua il login.
 
-Clicca sull’icona a forma di ingranaggio in alto a destra e poi su `Visualizza tutti le impostazioni`{.action}. Seleziona la scheda `Account e importazione`{.action}.
+Clicca sull’icona a forma di ingranaggio in alto a destra e poi su `Visualizza tutti le impostazioni`{.action}.
 
 ![Email Pro](images/configuration-gmail-web-step1.png){.thumbnail}
 
-Nella sezione `Controlla la posta da altri account`, clicca su `Aggiungi un account email`{.action}. Nella nuova finestra, inserisci il tuo indirizzo Email Pro OVHcloud e clicca su `Avanti`{.action}. Seleziona `Importa le email dal mio altro account (POP3)`{.action} e clicca di nuovo su `Avanti`{.action}.
+Seleziona la scheda `Account e importazione`{.action}. Nella sezione `Controlla la posta da altri account`, clicca su `Aggiungi un account email`{.action}.
+
+![Email Pro](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+Nella nuova finestra, inserisci il tuo indirizzo Email Pro OVHcloud e clicca su `Avanti`{.action}. Seleziona `Importa le email dal mio altro account (POP3)`{.action} e clicca di nuovo su `Avanti`{.action}.
 
 ![Email Pro](images/configuration-gmail-web-step2.png){.thumbnail}
 

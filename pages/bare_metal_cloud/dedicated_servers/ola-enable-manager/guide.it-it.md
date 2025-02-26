@@ -40,11 +40,13 @@ Verifica che le tue due interfacce, o gruppi di interfacce, siano selezionate co
 
 Questa operazione potrebbe richiedere qualche minuto. Lo step successivo consisterà nella configurazione delle interfacce del sistema operativo come NIC bond o NIC team. Per conoscere la procedura da seguire, consulta la nostra documentazione disponibile relativa ai sistemi operativi più diffusi:
 
-[Configurare un NIC per il servizio OVHcloud Link Aggregation in Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Configurare un NIC per il servizio OVHcloud Link Aggregation in Debian 9 tramite ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
 
 ### Ripristina OLA ai valori predefiniti
 
@@ -56,10 +58,12 @@ L'operazione potrebbe richiedere alcuni minuti.
 
 ## Per saperne di più
 
-[Configurare un NIC per il servizio OVHcloud Link Aggregation in Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Configurare un NIC per il servizio OVHcloud Link Aggregation in Debian 9 tramite ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Configurare un NIC per il servizio OVHcloud Link Aggregation in SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
 
 Contatta la nostra [Community di utenti](/links/community).

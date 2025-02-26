@@ -1,18 +1,37 @@
 ---
-title: "FAQ Web Hosting"
+title: "Hébergement Web - FAQ"
 excerpt: "Retrouvez les questions les plus fréquemment posées sur les hébergements web OVHcloud"
-updated: 2024-06-27
+updated: 2025-02-14
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
+**Cliquez sur les questions ci-dessous pour afficher les explications.**
 
 ## Gestion de votre offre
 
-### Comment configurer mon hébergement ?
+/// details | Comment configurer mon hébergement ?
 
 Pour configurer votre hébergement, connectez-vous tout d'abord à votre [espace client OVHcloud](/links/manager). Depuis la rubrique `Hébergements`, vous pourrez notamment gérer vos certificats SSL, la version PHP, l'option CDN, le multisite, les bases de données, etc.
 
 **Trucs et Astuces** : Pour vous aider à configurer votre hébergement, nous vous invitons à prendre connaissance de la rubrique « *Premiers pas* » que vous retrouverez [ici](/products/web-cloud-hosting).
 
-### Comment gérer mes mots de passe ?
+///
+
+
+/// details | Comment gérer mes mots de passe ?
 
 Pour gérer vos mots de passe, vous devez tout d'abord vous connecter à votre [espace client OVHcloud](/links/manager). En cas d'oubli de votre identifiant ou de votre mot de passe, cliquez sur `Identifiant ou mot de passe oublié`{.action} sous la fenêtre de connexion. Un e-mail vous sera envoyé avec une procédure de réinitialisation.
 
@@ -24,7 +43,10 @@ Une fois connecté à votre espace client :
 - Pour modifier le mot de passe de votre base de données, suivez les instructions de [ce guide](/pages/web_cloud/web_hosting/sql_change_password).
 - Pour modifier le mot de passe de votre adresse e-mail MX Plan, suivez les instructions de [ce guide](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password).
 
-### Comment mettre en ligne mon site ? 
+///
+
+
+/// details | Comment mettre en ligne mon site ? 
 
 Pour mettre en ligne votre site, vous devez disposer d'un [nom de domaine](/links/web/domains) qui correspondra à l'adresse Web depuis laquelle votre site sera accessible (exemple : *mondomaine.com*). Vous aurez également besoin d'un [hébergement](/links/web/hosting) sur lequel installer votre site.
 
@@ -32,44 +54,65 @@ Pour suivre les étapes nécessaires à la construction de votre site, consultez
 
 **Trucs et Astuces** : Pour vous aider à créer votre site, OVHcloud vous permet d'installer sur votre hébergement un logiciel d'assistance à la création de sites (WordPress, PrestaShop, Joomla! et Drupal), grâce la fonctionnalité [Modules en 1 clic](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
 
-### Comment transférer sans interruption de service mon site web, ma base de données, mon nom de domaine et mes e-mails sur les serveurs OVHcloud ? 
+///
+
+
+/// details | Comment transférer sans interruption de service mon site web, ma base de données, mon nom de domaine et mes e-mails sur les serveurs OVHcloud ? 
 
 Consultez le guide « [Migrer son site web et ses services associés vers OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh) » pour obtenir l'ensemble des étapes à suivre.
 
-### Comment héberger plusieurs sites web sur un même hébergement mutualisé ?
+///
+
+
+/// details | Comment héberger plusieurs sites web sur un même hébergement mutualisé ?
 
 Consultez le guide « [Partager son hébergement entre plusieurs sites](/pages/web_cloud/web_hosting/multisites_configure_multisite) ».
 
-### Comment changer de formule d'hébergement ?
+///
+
+
+/// details | Comment changer de formule d'hébergement ?
 
 Afin de commander la formule d'hébergement Web la plus adaptée à vos besoins, vous pouvez consultez nos offres sur [cette page](/links/web/hosting).
 
 Une fois votre choix fait, suivez les instructions de notre documentation [« Faire évoluer son offre d’hébergement web »](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer).
 
-### Comment conserver l'offre e-mail liée à mon hébergement mutualisé lors d'une résiliation ?
+///
+
+
+/// details | Comment conserver l'offre e-mail liée à mon hébergement mutualisé lors d'une résiliation ?
 
 Lorsque vous résiliez ou supprimez votre hébergement mutualisé, l'offre e-mail qui est attachée est également résiliée. Pour conserver vos adresses e-mails, il vous faudra détacher l'offre e-mail avant la résiliation de l'hébergement.<br>
 
 Pour cela, dirigez-vous sur l'onglet `Informations générales`{.action} de votre hébergement. Dans la section **Configuration**, cliquez sur le bouton `...`{.action} à droite de « **Adresses e-mails** ». Cliquez sur `Délier mon option e-mail`{.action} et suivez les instructions pour commander une offre e-mail indépendante qui vous permettra de conserver vos adresses e-mails déjà créées.
 
-### Lors d'une résiliation d'un hébergement mutualisé Performance, comment conserver l'offre Web Cloud Databases liée ?
+///
+
+
+/// details | Lors d'une résiliation d'un hébergement mutualisé Performance, comment conserver l'offre Web Cloud Databases liée ?
 
 Les hébergements mutualisés **Performance** comprennent une offre Web Cloud Databases activable gratuitement.
 Lorsque vous résiliez ou supprimez votre hébergement mutualisé **Performance**, l'offre Web Cloud Databases qui est attachée est également résiliée. Pour conserver votre Web Cloud Databases, il vous faudra le détacher avant la résiliation de l'hébergement.<br>
 
 Pour cela, cliquez sur l'onglet `Informations générales`{.action} de votre hébergement. Dans la section **Configuration**, cliquez sur le bouton `...`{.action} à droite de « **Web Cloud Databases** ». Cliquez sur `Délier`{.action} et suivez les instructions afin de commander une offre Web Cloud Databases indépendante, ce qui vous permettra de conserver votre Web Cloud Databases déjà créé.
 
-### Comment augmenter la RAM d'une offre Web Cloud Databases liée à un hébergement mutualisé « Performance » ?
+///
+
+
+/// details | Comment augmenter la RAM d'une offre Web Cloud Databases liée à un hébergement mutualisé « Performance » ?
 
 Pour augmenter la RAM d'une offre Web Cloud Databases liée à un hébergement mutualisé **Performance**, vous devrez obligatoirement et préalablement délier l'offre Web Cloud Databases de votre hébergement **Performance** pour basculer sur une offre supérieure.
 
-Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager). Rendez-vous dans la partie `Web Cloud`{.action} puis sur l'hébergement concerné à gauche dans l'onglet `Hébergements`{.action}. 
+Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager). Rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur la section `Hébergements`{.action} dans la colonne de gauche. Choisissez le nom de l'hébergement web concerné. 
 
 Sur la page `Informations générales`{.action} qui s'affiche, vous retrouvez un encadré intitulé `Configuration`{.action} au centre de la page. A droite de la mention `Web Cloud Databases`{.action}, cliquez sur le bouton `...`{.action} puis sur `Délier`{.action}. Choisissez la durée du renouvellement la plus courte puis poursuivez jusqu'à la validation de la commande.
 
 Retrouvez plus d'informations dans notre guide sur la ["Configuration d'une offre Web Cloud Databases"](/pages/web_cloud/web_cloud_databases/configure-database-server#modify-ram-web-cloud-db)
 
 **Cette action est irréversible et l'offre Web Cloud Databases sera ensuite facturée indépendamment de votre hébergement web Performance.**
+
+///
+
 
 ## Diagnostic
 
@@ -78,13 +121,16 @@ Retrouvez plus d'informations dans notre guide sur la ["Configuration d'une offr
 > Si vous rencontrez une anomalie non-répertoriée dans cette FAQ, consultez les pages « Diagnostic » de [notre documentation](/products/web-cloud-hosting).
 >
 
-### Que faire si mon site web dysfonctionne ? 
+/// details | Que faire si mon site web dysfonctionne ? 
 
 Plusieurs raisons peuvent expliquer le dysfonctionnement de votre site. Pour en identifier la cause, commencez par vérifier qu'aucun de vos abonnements n'a besoin d'être **renouvelé** en vous connectant à votre [espace client OVHcloud](/links/manager).
 
 Consultez ensuite les [évènements en cours sur notre infrastructure](https://www.status-ovhcloud.com/). Si tous vos services sont actifs et ne sont affectés par aucun incident ou maintenance, nous vous invitons à réaliser un diagnostic plus approfondi.
 
-### Que faire si, après la mise en ligne de mon site, la page « Site en construction » d'OVHcloud reste affichée ?
+///
+
+
+/// details | Que faire si, après la mise en ligne de mon site, la page « Site en construction » d'OVHcloud reste affichée ?
 
 ![site-en-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
@@ -94,13 +140,16 @@ Ce fichier est automatiquement désactivé lors de la création de votre [module
 
 Si vous avez choisi [d'installer votre site manuellement](/pages/web_cloud/web_hosting/cms_manual_installation), [connectez-vous à votre espace FTP](/pages/web_cloud/web_hosting/ftp_connection) afin de le renommer en **index.html.old**.
 
-### Que faire si mon site s'affiche sur une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net » ?
+///
+
+
+/// details | Que faire si mon site s'affiche sur une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net » ?
 
 ![url-cluster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
 Deux scénarii sont possibles. Soit votre site a été créé avec cette adresse web, soit celle-ci est apparue suite à une modification.
 
-#### Scénario 1 : votre site a été créé avec une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net »
+- **Scénario 1 :** votre site a été créé avec une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net »
 
 > [!warning]
 >
@@ -117,7 +166,7 @@ Puis supprimez sa base de données depuis l'onglet du même nom situé à droite
  
 Enfin, relancez son installation sur le nom de domaine souhaité, en utilisant la fonctionnalité [Module en 1 clic](/pages/web_cloud/web_hosting/cms_manage_1_click_module).
 
-#### Scénario 2 : votre site s'affiche avec une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net » suite à une modification
+- **Scénario 2 :** votre site s'affiche avec une adresse web de type « xxxxx.cluster0xx.hosting.ovh.net » suite à une modification
 
 Si votre site s'affiche avec cette URL suite à une manipulation, restaurez-le à son état antérieur.
 
@@ -132,7 +181,10 @@ Pour restaurer le code source de votre site, consultez notre guide « [Restaurer
 
 Si votre site comporte une base de données, consultez notre guide « [Restaurer une sauvegarde de votre base de données](/pages/web_cloud/web_hosting/sql_importing_mysql_database#restaurer-une-sauvegarde-depuis-lespace-client) ».
 
-### Que faire si mon site redirige vers le webmail-login-interface OVHcloud ?
+///
+
+
+/// details | Que faire si mon site redirige vers le webmail-login-interface OVHcloud ?
 
 ![webmail-login-interface](/pages/assets/screens/website/webmail/webmail-login-interface.png){.thumbnail}
 
@@ -152,7 +204,10 @@ Comparez les `Cibles` des entrées de type `NS` indiquées dans l'onglet `Zone D
 
 - Si les éléments ne sont pas identiques et que les `Serveurs DNS` indiqués dans l'onglet du même nom n'apparaissent pas dans [cette liste](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), contactez votre Webmaster ou recherchez un [prestataire spécialisé](/links/partner) via la page des [partenaires OVHcloud](/links/partner).
 
-### Que faire si mon site affiche une erreur « La page ne se redirige pas correctement » ?
+///
+
+
+/// details | Que faire si mon site affiche une erreur « La page ne se redirige pas correctement » ?
 
 ![the-page-isnt-redirecting-properly](/pages/assets/screens/other/browsers/errors/the-page-isnt-redirecting-properly.png){.thumbnail}
 
@@ -171,7 +226,10 @@ Restaurez votre site à son état précédent :
 
 Si les restaurations ne vous permettent pas de rétablir l'accès à votre site, contactez votre Webmaster ou recherchez un [prestataire spécialisé](/links/partner) sur le site des [partenaires OVHcloud](/links/partner).
 
-### Que faire si mon site affiche une erreur « 503 error Backend fetch failed (Varnish cache) » ?
+///
+
+
+/// details | Que faire si mon site affiche une erreur « 503 error Backend fetch failed (Varnish cache) » ?
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
@@ -179,7 +237,10 @@ Si vous avez activé [l'option CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_
 
 Si vous n'avez pas activé cette option ni utilisé le mode *Maintenance*, contactez votre Webmaster ou recherchez un [prestataire spécialisé](/links/partner) sur le site des [partenaires OVHcloud](/links/partner).
 
-### Que faire si mon site affiche une erreur « Your request has been blocked » ?
+///
+
+
+/// details | Que faire si mon site affiche une erreur « Your request has been blocked » ?
 
 ![your-request-has-been-blocked](/pages/assets/screens/other/browsers/errors/your-request-has-been-blocked.png){.thumbnail}
 
@@ -187,7 +248,10 @@ Ce message indique que le type de requête HTTP que vous tentez de faire sur vot
 
 Pour vous aider à corriger ces anomalies, contactez votre Webmaster ou l'un de nos [partenaires](/links/partner).
 
-### Que faire si mon site affiche une erreur « Your IP has been banned » ?
+///
+
+
+/// details | Que faire si mon site affiche une erreur « Your IP has been banned » ?
 
 ![your-ip-has-been-banned](/pages/assets/screens/other/browsers/errors/your-ip-has-been-banned.png){.thumbnail}
 
@@ -197,7 +261,10 @@ Dans cette situation, [examinez les logs](/pages/web_cloud/web_hosting/logs_and_
 Vérifiez également que votre poste informatique n'est pas infecté par un virus.<br>
 Vous pouvez enfin contacter l'un de [nos partenaires](/links/partner), afin qu'il vérifie le code informatique de votre site.
 
-### J'ai commandé un domaine comportant des accents et il s'affiche écrit de façon étrange dans mon espace client. Que dois-je faire ?
+///
+
+
+/// details | J'ai commandé un domaine comportant des accents et il s'affiche écrit de façon étrange dans mon espace client. Que dois-je faire ?
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
@@ -207,6 +274,9 @@ Vous n'avez aucune action à mener dans cette situation. Même si votre domaine 
 >
 > L'utilisation d'une adresse e-mail avec un domaine IDN dans un logiciel de messagerie (Outlook, Mail de macOS, etc.) n'est pas recommandée et peut provoquer des incompatibilités.
 >
+
+///
+
 
 ## Aller plus loin <a name="go-further"></a>
 

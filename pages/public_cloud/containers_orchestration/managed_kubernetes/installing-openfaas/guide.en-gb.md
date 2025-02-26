@@ -37,7 +37,7 @@ helm repo update
 
 OpenFaaS guidelines advise to create two [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/), one for OpenFaaS core services and one for the functions:
 
-```
+```sh
 kubectl apply -f https://raw.githubusercontent.com/openfaas/faas-netes/master/namespaces.yml
 ```
 
@@ -45,7 +45,7 @@ kubectl apply -f https://raw.githubusercontent.com/openfaas/faas-netes/master/na
 
 To secure the access to OpenFaaS UI Portal and REST API, you can generate a password using the following commands:
 
-```
+```sh
 # generate a random password
 PASSWORD=$(head -c 12 /dev/urandom | shasum| cut -d' ' -f1)
 
@@ -57,7 +57,7 @@ kubectl -n openfaas create secret generic basic-auth \
 >[!primary]
 > You will need this password later on the tutorial, for example to access the UI portal. You can see it at any moment in the terminal session by doing `echo $PASSWORD`.
 
-### Deploying the Helm chart
+### 4. Deploying the Helm chart
 
 The Helm chart can be deployed in three modes: `LoadBalancer`, `NodePort` and `Ingress`. For us the simplest way is simply using our external Load Balancer, so we will deploy it in `LoadBalancer` by setting the `--set serviceType=LoadBalancer` option.
 
@@ -93,7 +93,7 @@ prometheus     1         1         1            1           33s
 queue-worker   1         1         1            1           33s
 ```
 
-### 4. Connect to the Gateway
+### 5. Connect to the Gateway
 
 Get the public IP of your gateway service using:
 
@@ -104,12 +104,11 @@ kubectl get svc -n openfaas gateway-external -o wide
 > [!warning]
 > At this moment, your `EXTERNAL-IP` could be still `PENDING`.
 >
->```console
->$ kubectl get svc -n openfaas gateway-external -o wide
+> ```console
+> $ kubectl get svc -n openfaas gateway-external -o wide
 > NAME               TYPE           CLUSTER-IP    EXTERNAL-IP                        PORT(S)          AGE
 > gateway-external   LoadBalancer   x.x.x.x       PENDING                           8080:30012/TCP   10s
->
->```
+> ```
 >
 > The provisioning of the load balancer can take several minutes.
 > Check again until the `EXTERNAL-IP` is filled with a public IP address.
@@ -118,11 +117,11 @@ Once the public IP address is available, you may access the OpenFaaS UI at `http
 
 ![UI Portal](images/ui-portal-01.jpg){.thumbnail}
 
-### 5. Connect using the CLI
+### 6. Connect using the CLI
 
 Another way to interact with your new OpenFaaS platform is installing `faas-cli`, the command line client for OpenFaaS (on a Linux or Mac, or in a WSL linux terminal in Windows). Download the latest version of the CLI client from the [official release page](https://github.com/openfaas/faas-cli/releases).
 
-You can now use the CLI to log into the gateway. The CLI needs the public IP address of the OpenFaaS `LoadBalancer`, you can get it using the commands from the [previous section](#4-connect-to-the-gateway):
+You can now use the CLI to log into the gateway. The CLI needs the public IP address of the OpenFaaS `LoadBalancer`, you can get it using the commands from the [previous section](#5-connect-to-the-gateway):
 
 ```console
 PASSWORD=$(kubectl -n openfaas get secret basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode)
@@ -141,7 +140,7 @@ Now you're connected to the gateway, and you can send commands to the OpenFaaS p
 
 By default, there is no function installed on your OpenFaaS platform, as you can verify with the `faas-cli list` command.
 
-```
+```sh
 ./faas-cli list -g http://EXTERNAL_IP:8080
 ```
 
@@ -189,7 +188,7 @@ In order to publish and deploy a function to your MKS cluster, you will need:
 
 All available templates are available in the [official template repository](https://github.com/openfaas/templates), or can be listed using:
 
-```
+```sh
 ./faas-cli template store list
 ```
 
@@ -208,7 +207,8 @@ In `hello-js.yml`, set the following parameters according to your configuration:
 - `provider.gateway`: the URL to your OpenFaaS gateway.
 - `functions.image`: the URL to your docker registry. In this example, a dockerhub repository will be used.
 
-`hello-js.yml`
+`hello-js.yml`:
+
 ```yaml
 version: 1.0
 provider:

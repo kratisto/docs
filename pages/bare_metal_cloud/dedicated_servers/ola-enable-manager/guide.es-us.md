@@ -46,6 +46,8 @@ La operación puede tardar unos minutos. Cuando haya terminado, el paso siguient
 
 [Configurar un NIC para el servicio OVHcloud Link Aggregation en SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
 
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
+
 ### Restaurar OLA a los valores predeterminados
 
 Para restablecer OLA a los valores predeterminados, haga clic en el botón `...`{.action} a la derecha de "Modo" en el recuadro **OLA: OVHcloud Link Aggregation**. Haga clic en `Desconfigurar la agregación privada`{.action}. Haga clic en `Confirmar`{.action} en el menú contextual.
@@ -61,5 +63,7 @@ La operación puede tardar unos minutos.
 [Configurar un NIC para el servicio OVHcloud Link Aggregation en Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19).
 
 [Configurar un NIC para el servicio OVHcloud Link Aggregation en SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15).
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan).
 
 Interactúe con nuestra [comunidad de usuarios](/links/community).

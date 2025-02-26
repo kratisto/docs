@@ -1,7 +1,7 @@
 ---
 title: "Rinnovare i miei domini OVHcloud"
 excerpt: "Questa guida ti mostra perché e come rinnovare un dominio OVHcloud"
-updated: 2024-11-12
+updated: 2025-02-17
 ---
 
 ## Obiettivo
@@ -73,7 +73,7 @@ Se non vuoi più usufruire di questo servizio, non è necessario richiederne la 
 
 ### Modifica la modalità di rinnovo dei domini
 
-Nel tuo [Spazio Cliente](/links/manager), clicca sul tuo nome in alto a destra e poi su `Prodotti e servizi`{.action}. Nella nuova finestra, identifica il dominio o i domini di cui vuoi cambiare la modalità di rinnovo.
+Nel tuo [Spazio Cliente](/links/manager), clicca sul tuo nome in alto a destra e poi su `Le mie offerte e servizi`{.action}. Nella nuova finestra, identifica il dominio o i domini di cui vuoi cambiare la modalità di rinnovo.
 
 #### Per un solo dominio
 
@@ -111,7 +111,7 @@ In questo caso, il periodo di validità sottoscritto sarà aggiunto a quello in 
 
 - Nella tabella, identifica il dominio che vuoi rinnovare.
 - Clicca a destra della linea sul pulsante `...`{.action}.
-- Clicca sull’azione `Rescindi l’impegno contrattuale`{.action}.
+- Clicca sull’azione `Disattivare il servizio`{.action}.
 
 Questa azione è consentita per i servizi attivati con il **rinnovo automatico**. Selezionando questa azione, il rinnovo e l’addebito automatico vengono disattivati per il servizio selezionato.
 
@@ -129,7 +129,7 @@ Per maggiori informazioni sulla disattivazione dei servizi OVHcloud, segui le is
 > La fattura è disponibile solo il giorno del rinnovo del dominio (30 giorni dopo il prelievo in caso di rinnovo automatico).
 >
 
-Visualizzi la dicitura `Fattura da pagare` se una fattura è in attesa di pagamento e quando:
+Visualizzi la dicitura `Fatture da pagare` se una fattura è in attesa di pagamento e quando:
 
 - Disponi di servizi con rinnovo automatico.
 - Non hai salvato nessun metodo di pagamento che consenta di effettuare un prelievo per il pagamento delle tue fatture.

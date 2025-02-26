@@ -40,11 +40,13 @@ Upewnij się, czy Twoje dwa interfejsy, czyli grupy interfejsów, są właściwi
 
 Zakończenie operacji może potrwać kilka minut. Kolejny krok to powiązanie interfejsów w systemie operacyjnym. Szczegółowe informacje na temat konfiguracji znajdziesz w przewodnikach:
 
-[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9 przez ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan)
 
 ### Przywróć OLA do wartości domyślnych
 
@@ -56,10 +58,12 @@ Operacja może zająć kilka minut.
 
 ## Sprawdź również
 
-[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Debianie 9 przez ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Konfiguracja karty sieciowej (NIC) dla OVHcloud Link Aggregation w SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan)
 
 Dołącz do [grona naszych użytkowników](/links/community).

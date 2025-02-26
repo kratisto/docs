@@ -1,7 +1,7 @@
 ---
 title: "Web hosting - How to manage FTP users"
 excerpt: "Find out how to create, modify and delete FTP users on your OVHcloud web hosting plan"
-updated: 2024-10-07
+updated: 2025-02-20
 ---
 
 ## Objective
@@ -26,8 +26,8 @@ OVHcloud web hosting plans provide access to an FTP storage space. You can use t
 To create a new FTP user on your web hosting plan via the OVHcloud Control Panel, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} dropdown menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, click on the `FTP-SSH`{.action} tab.
 6. To create a new FTP user, click the `Create User`{.action} button on the right. Depending on the resolution of your screen, the button may be on the bottom of the page.
@@ -72,8 +72,8 @@ If necessary, test the new FTP user using our guide “[Logging in to your web h
 To edit an FTP user, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} dropdown menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, click on the `FTP-SSH`{.action} tab.
 6. In the table at the bottom of the page, on the right-hand side of the line corresponding to the FTP user concerned, click the `...`{.action} button, then click `Edit`{.action}.
@@ -101,8 +101,8 @@ Once you have made the modifications, click `Next`{.action} to go to step 2. The
 To delete an FTP user, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} dropdown menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, click on the `FTP-SSH`{.action} tab.
 6. In the table at the bottom of the page, on the right-hand side of the line corresponding to the FTP user concerned, click the `...`{.action} button, then click `Delete`{.action}.

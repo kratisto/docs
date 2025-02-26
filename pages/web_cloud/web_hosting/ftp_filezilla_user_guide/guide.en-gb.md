@@ -51,7 +51,7 @@ In the quick connection bar, enter the information using the table below:
 |Password|The password associated with the user.|
 |Port|It is usually filled in automatically by the software. Otherwise, enter:<br><br>\- Port `21` for an FTP connection.<br>\- Port `22` for an SFTP connection (if it is enabled). You can find more information on SFTP in [the dedicated section of this tutorial](#sftp).|
 
-In case you do not have this information, log in to the [OVHcloud Control Panel](/links/manager){.external}, go to the Web Cloud section, then click on `Hosting plans`{.action}. Select the name of the web hosting plan, and click on the `FTP - SSH`{.action} tab. The information associated with your storage space will then appear:
+In case you do not have this information, log in to the [OVHcloud Control Panel](/links/manager){.external}, go to the `Web Cloud`{.action} section, then click on `Hosting plans`{.action}. Select the name of the web hosting plan, and click on the `FTP - SSH`{.action} tab. The information associated with your storage space will then appear:
 
 ![hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/tab-pro.png){.thumbnail}
 
@@ -79,7 +79,7 @@ The **SFTP** (**S**ecure **F**ile **T**ransfer **P**rotocol) is a protocol simil
 
 First, check that SFTP is enabled for your **FTP** login.
 
-Go to the Web Cloud section of your Web Cloud section of your [OVHcloud Control Panel](/links/manager), then click on `Hosting plans`{.action}. Select the name of the web hosting plan and click on the `FTP - SSH`{.action} tab.
+Go to the `Web Cloud`{.action} section of your `Web Cloud`{.action} section of your [OVHcloud Control Panel](/links/manager), then click on `Hosting plans`{.action}. Select the name of the web hosting plan and click on the `FTP - SSH`{.action} tab.
 
 Then check if **SFTP** is active in the table at the bottom of the page.
 

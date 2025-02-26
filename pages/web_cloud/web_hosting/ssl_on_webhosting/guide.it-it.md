@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Gestire un certificato SSL"
 excerpt: "Questa quiga ti mostra come attivare e utilizzare un certificato SSL sugli hosting Web OVHcloud"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -73,8 +73,8 @@ Queste operazioni sono relative ai parametri dei tuoi siti Web, per cui OVH non 
 Per rimuovere il certificato SSL installato sull’hosting Web, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Nella nuova pagina, rimani nella scheda `Informazioni generali`{.action}.
 6. Posizionati nel riquadro intitolato `Configurazione`.

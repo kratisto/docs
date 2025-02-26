@@ -38,8 +38,8 @@ Vous aurez alors une autorisation de hors-forfait à 150€ HT par groupe.
 Le groupe G contient une ligne A et une ligne B et a une autorisation de hors-forfait à 150€ HT par mois. 
 Au cours du mois:
 
--   A fait un hors forfait de 50€ HT
--   B fait un hors forfait de 90€ HT
+- A fait un hors forfait de 50€ HT
+- B fait un hors forfait de 90€ HT
 
 ![hors-forfait voip](images/HFvoip1.png){.thumbnail}
 
@@ -71,8 +71,9 @@ Pour l'exemple cité plus haut :
 
 ### Augmenter la limite de base
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, sélectionnez l'onglet `Telecom`{.action} puis la rubrique `Téléphonie`{.action} et enfin votre groupe de téléphonie.
-Dans l'onglet `Facturation`{.action}, cliquez sur `Modifier votre limite de dépôt de garantie`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Dans l'onglet `Facturation`{.action}, cliquez sur `Modifier votre limite de dépôt de garantie`{.action}.
 
 ![augmenter limite hors forfait](images/hflimit1.png){.thumbnail}
 
@@ -84,8 +85,9 @@ Vous pouvez revenir à 150€ HT à tout moment via la même méthode.
 
 ### Augmenter le dépôt de garantie
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, sélectionnez l'onglet `Telecom`{.action} puis la rubrique `Téléphonie`{.action} et enfin votre groupe de téléphonie.
-Dans l'onglet `Facturation`{.action}, cliquez sur `Augmenter le plafond de dépôt de garantie`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Dans l'onglet `Facturation`{.action}, cliquez sur `Augmenter le plafond de dépôt de garantie`{.action}.
 
 ![augmenter depot de garantie](images/securitydeposit1.png){.thumbnail}
 
@@ -123,8 +125,9 @@ Pour supprimer un groupe de téléphonie, sélectionnez-le dans le menu de gauch
 
 Si vous possédez plusieurs groupes de téléphonie, vous pouvez ajuster leur hors-forfait autorisé en transférant, partiellement ou totalement, un dépôt de garantie d'un groupe à l'autre.
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, sélectionnez l'onglet `Telecom`{.action} puis la rubrique `Téléphonie`{.action} et enfin votre groupe de téléphonie.
-Dans l'onglet `Facturation`{.action}, cliquez sur `Transfert de vos dépôts de garantie entre groupes`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Dans l'onglet `Facturation`{.action}, cliquez sur `Transfert de vos dépôts de garantie entre groupes`{.action}.
 
 ![transfert depot de garantie](images/transferdeposit1.png){.thumbnail}
 
@@ -150,9 +153,9 @@ Au cours du mois, vous recevrez des e-mails de notification sur votre adresse e-
 
 Si votre groupe est suspendu pour dépassement du hors-forfait autorisé, la première chose à faire est de s'assurer qu'il n'y a pas eu un piratage de votre ligne. Pour cela, consultez les appels émis par les lignes et numéros du groupe.
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, sélectionnez l'onglet `Telecom`{.action} puis la rubrique `Téléphonie`{.action} et enfin votre groupe de téléphonie.
-
-Dans l'onglet `Facturation`{.action}, cliquez sur `Consommation générale`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Dans l'onglet `Facturation`{.action}, cliquez sur `Consommation générale`{.action}.
 
 ![consommation générale](images/voipconso.png){.thumbnail}
 

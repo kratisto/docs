@@ -397,7 +397,7 @@ Przy próbie dostępu do interfejsu Webmail Roundcube pojawi się następujący 
 
 ```console
 NIEPOWODZENIE WERYFIKACJI ŻĄDANIA
-Aby zapewnić ochronę, dostęp do tego zasobu jest chroniony przed atakami CSFR.
+Aby zapewnić ochronę, dostęp do tego zasobu jest chroniony przed atakami CSRF.
 Jeśli to widzisz, prawdopodobnie nie wylogowałeś się przed zamknięciem aplikacji sieci Web.
 Aby kontynuować, konieczna jest interakcja z człowiekiem.
 Skontaktuj się z administratorem serwera.

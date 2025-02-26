@@ -28,7 +28,10 @@ Afin de protéger votre réseau et vos adresses e-mail, nous désactivons l'envo
 > Exemples de logiciels de messagerie : Outlook, Thunderbird, Mail sur macOS, etc... Si vous utilisez votre adresse e-mail via un webmail ou que vous n'utilisez pas le serveur `smtp.dsl.ovh.net` comme serveur d'envoi, nous vous recommandons de laisser ce paramètre sur `désactivé` ou de le désactiver dans le cas où il serait `Activé`.
 >
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager), partie « Télécom ». Cliquez sur `Accès Internet`{.action}, puis sélectionnez le pack et l’accès à Internet concerné. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
 
 Dans le cadre « Informations générales », reportez-vous à l'élément de la partie `Envoi d'email`. Vous retrouverez dans cette dernière le statut actuel du service d'envoi d'e-mails.
 

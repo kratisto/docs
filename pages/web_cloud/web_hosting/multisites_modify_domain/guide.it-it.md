@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Modificare un dominio già associato a un hosting"
 excerpt: "Questa guida ti mostra come modificare le impostazioni di associazione di un dominio/sottodominio già dichiarato sul tuo piano di hosting Web"
-updated: 2024-09-04
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -32,8 +32,8 @@ Durante l’utilizzo dell’hosting Web o l’aggiornamento del sito Web, potreb
 Per modificare le impostazioni di associazione di un dominio o sottodominio già dichiarato sul tuo piano di hosting Web, esegui queste operazioni:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `Multisito`{.action}.
 6. Nella tabella che appare sotto la scheda, clicca sul pulsante `...`{.action} e poi su `Modifica il dominio`{.action}.

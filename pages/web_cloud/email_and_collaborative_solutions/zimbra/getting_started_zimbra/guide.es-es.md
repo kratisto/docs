@@ -1,7 +1,7 @@
 ---
 title: "Primeros pasos con el producto Zimbra"
 excerpt: "Cómo empezar a utilizar la solución Zimbra desde el área de cliente de OVHcloud"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -18,6 +18,8 @@ updated: 2025-02-12
 Con el servicio Zimbra, OVHcloud le ofrece una plataforma de mensajería en colaboración open source que ofrece todas las funcionalidades necesarias para un uso profesional. Esta guía explica los pasos necesarios para configurar una cuenta de correo electrónico de Zimbra.
 
 **Descubra cómo empezar con la solución de correo electrónico Zimbra**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/PdKKoTlJkec?si=RU3CRnpLQsqhxbF2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 
@@ -114,6 +116,7 @@ Seleccione la pestaña correspondiente a su elección:
 >> - **Configuración personalizada** : Si ya ha configurado una solución de correo en su dominio, puede elegir los elementos que le interesen.
 >>    - *Configurar el registro MX automáticamente* : Permite introducir automáticamente los servidores de recepción de OVHcloud (se aplica a todos los productos de correo de OVHcloud).
 >>    - *Configurar el registro SPF automáticamente* : Permite introducir automáticamente el registro que autoriza a los servidores de correo de envío de OVHcloud a transmitir sus mensajes de correo. Este registro es válido para todas las soluciones de correo de OVHcloud.
+>>    - *Configurar el registro DKIM automáticamente* : Permite introducir automáticamente los registros necesarios para autenticar los envíos de correo.
 >>
 >> ![zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +137,22 @@ Seleccione la pestaña correspondiente a su elección:
 >> > [!warning]
 >> >
 >> > Después de 48 horas, si el CNAME no está visible en la zona DNS, la operación se cancela. Será necesario volver a intentar la operación.
+
+#### Editar un dominio
+
+Puede cambiar el nombre de dominio para cambiar su organización o comprobar los registros DNS asociados.
+
+En la pestaña `Dominio`{.action} del servicio Zimbra, haga clic en el icono "&#8285;" situado al final de la línea correspondiente al dominio para ver las opciones.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Haga clic en `Configurar`{.action} para modificar la organización asociada a su dominio.
+- Haga clic en `Diagnósticos`{.action} para ver la interfaz de diagnóstico de los registros DNS del dominio. Es necesario asegurarse de que no se muestran alertas para cada uno de los registros DNS mencionados en las fichas. Siga las instrucciones detalladas en cada ficha de alertas para configurar los registros DNS:
+    - **MX**: indispensable para recibir mensajes de correo.
+    - **SPF**: Seguridad requerida por la mayoría de los servidores de correo de destino para legitimar los servidores de envío de correo de OVHcloud con su dominio.
+    - **DKIM** : Permite implementar un sistema de firma para cada mensaje de correo electrónico enviado por su servicio Zimbra. El destinatario comprueba la firma con la clave pública visible en la zona DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### Cuentas de correo <a name="email"></a>
 

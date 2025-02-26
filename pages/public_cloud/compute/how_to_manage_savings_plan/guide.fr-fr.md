@@ -1,7 +1,7 @@
 ---
 title: Comment gérer un Savings Plan
 excerpt: Découvrez comment créer un Savings Plan avec différents outils
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -15,6 +15,12 @@ details>summary::before {
 }
 details[open]>summary::before {
     content:'\25BC';
+}
+.w-400 {
+  max-width:400px !important;
+}
+.h-600 {
+  max-height:600px !important;
 }
 </style>
 
@@ -49,7 +55,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >>
 >> Sélectionnez le type de ressource pour lequel le Savings Plan s'appliquera, définissez le modèle spécifique de ressource et indiquez le nombre de ressources concernées par ce plan.
 >>
->> ![Savings Plan service](images/savings_plan_service.png){.thumbnail}
+>> ![Savings Plan service](images/savings_plan_service.png){.thumbnail .h-600}
 >>
 >> Choisissez la durée de votre Savings Plan parmi les durées disponibles et donnez-lui un nom. 
 >>
@@ -113,6 +119,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >> >
 >> > @api {v1} /services GET /services
 >> >
+>>
 >> Vous devez inscrire en paramètre, dans le champ **resourceName**, l'id de votre projet Public Cloud.
 >>
 >> Vous obtenez une liste contenant l'id de vos services comme suit :
@@ -127,13 +134,11 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >> >
 >> Le **serviceId** correspond à l'id récupéré via l'appel API précédent.
 >>
->> Vous obtenez une liste contenant l'id de vos services comme suit :
+>> Vous obtenez une liste contenant les détails de votre service comme ci-dessous. Vérifiez qu'il s'agit bien du bon projet grâce au champ `vars.value` :
 >>
->> ![Savings Plan services list](images/savings_plan_list_service.png){.thumbnail}
+>> ![Savings Plan details service list](images/savings_plan_list_service_details.png){.thumbnail .h-600}
 >>
->> Cherchez ensuite le service concerné dans la liste et copiez son **id**.
->>
->> Vous pouvez retrouver l'id de votre Savings Plan dans la liste de vos Savings Plans qui s'obtient via l'appel suivant :
+>> Vous pouvez retrouver l'ID de votre Savings Plan dans la liste de vos Savings Plans qui s'obtient via l'appel suivant :
 >>
 >> > [!api]
 >> >
@@ -143,7 +148,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >>
 >> Vous obtenez une liste de Savings Plans comme suit :
 >>
->> ![Savings Plan list](images/savings_plan_list_svp.png){.thumbnail}
+>> ![Savings Plan list](images/savings_plan_list_svp.png){.thumbnail .h-600}
 >>
 >> Cherchez ensuite le Savings Plan concerné dans la liste et copiez le champ **id**.
 >>
@@ -155,6 +160,7 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >> >
 >> > @api {v1} /services PUT /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}
 >> >
+>>
 >> Le **savingsPlanId** correspondant à l'id de votre Savings Plan copié précédemment.
 >>
 >> ///
@@ -165,21 +171,24 @@ Vous pouvez créer votre Savings Plan pour le type de ressource voulue en suivan
 >>
 >> > [!api]
 >> >
->> >  @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changePeriodEndAction
+>> >
 >>
 >> ///
 >>
->> /// | Augmenter le nombre de ressources d'un Savings Plan
+>> /// details | Augmenter le nombre de ressources d'un Savings Plan
 >>
 >> Pour augmenter le nombre de ressources souscrites par votre Savings Plan, utilisez cet appel API :
 >>
 >> > [!primary]
 >> >
 >> > Le nombre de ressources peut uniquement être augmenté.
+>> >
 >>
 >> > [!api] 
 >> >
 >> > @api {v1} /services POST /services/{serviceId}/savingsPlans/subscribed/{savingsPlanId}/changeSize
+>> >
 >>
 >> ///
 >>

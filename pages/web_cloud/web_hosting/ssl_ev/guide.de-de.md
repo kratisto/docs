@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Sectigo EV SSL-Zertifikat aktivieren"
 excerpt: "Erfahren Sie hier, wie Sie ein Sectigo EV SSL-Zertifikat auf Ihrem OVHcloud Webhosting bestellen und aktivieren"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
   
 ## Ziel  
@@ -89,8 +89,8 @@ Um dies zu überprüfen, lesen Sie unsere Anleitungen:
 So bestellen Sie das Sectigo EV SSL-Zertifikat:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Hosting-Pakete`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Hosting-Pakete`{.action}.
 4. Wählen Sie das betreffende Webhosting aus.
 5. Bleiben Sie auf der angezeigten Seite im Tab `Allgemeine Informationen`{.action}.
 6. Gehen Sie in die Box mit dem Namen `Konfiguration`.

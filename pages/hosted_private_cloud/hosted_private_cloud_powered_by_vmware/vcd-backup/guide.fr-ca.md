@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Sauvegarde avec Veeam Data Platform"
 excerpt: "Découvrez comment effectuer des sauvegardes et restaurations avec l'intégration Veeam Data Platform"
-updated: 2024-10-15
+updated: 2025-02-24
 ---
 
 <style>
@@ -183,6 +183,10 @@ Cliquez sur `Next`{.action}
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_6.png){.thumbnail}
 
 Si nécessaire, vous pouvez ajouter des options de monitoring pour vos tâches de sauvegarde. Cliquez enfin sur `Finish`{.action}.
+
+> [!warning]
+> Si vous ajoutez plusieurs adresses e-mail pour le monitoring, utilisez un point-virgule (`;`) comme séparateur entre chaque adresse.
+> **Exemple** : `email1@example.com; email2@example.com`
 
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_7.png){.thumbnail}
 

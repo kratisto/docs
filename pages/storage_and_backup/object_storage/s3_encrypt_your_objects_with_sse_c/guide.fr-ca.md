@@ -243,7 +243,11 @@ aws s3api put-bucket-encryption --bucket votre-bucket --server-side-encryption-c
 
 - Remplacez `votre-bucket` par le nom de votre bucket Object Storage.
 
-Cela va configurer le bucket pour utiliser le chiffrement SSE-OMK avec les clés gérées par Object Storage (AES256) pour tous les nouveaux objets. Les objets existants ne seront pas affectés. Si vous souhaitez également les chiffrer, vous devrez les copier ou les uploader à nouveau après avoir changé cette configuration.
+Cela va configurer le bucket pour utiliser le chiffrement SSE-OMK avec les clés gérées par Object Storage (AES256) pour tous les nouveaux objets.
+
+> [!primary]
+> Les objets existants ne seront pas affectés. Si vous souhaitez également les chiffrer, vous devrez les copier ou les uploader à nouveau après avoir changé cette configuration.
+> 
 
 ##### Affichage de la configuration du chiffrement du Bucket
 

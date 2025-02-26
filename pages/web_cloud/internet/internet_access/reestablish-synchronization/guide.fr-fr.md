@@ -1,6 +1,6 @@
 ---
 title: "Rétablir la synchronisation d'une connexion suite à une coupure"
-excerpt: 'Découvrez comment rétablir la synchronisation de votre ligne xDSL OVH suite à une coupure'
+excerpt: 'Découvrez comment rétablir la synchronisation de votre ligne xDSL OVHcloud suite à une coupure'
 updated: 2018-09-18
 ---
 
@@ -12,7 +12,7 @@ Une coupure de synchronisation est généralement occasionnée par un élément 
 
 > [!primary]
 >
-> Pour vous accompagner au mieux dans le rétablissement de vos services, vous avez également la possibilité d'utiliser notre assistant de dépannage. Pour y accéder, connectez-vous à votre [espace client OVH](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr){.external} dans la section « Télécom ». Une fois positionné sur l'accès internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
+> Pour vous accompagner au mieux dans le rétablissement de vos services, vous avez également la possibilité d'utiliser notre assistant de dépannage. Pour y accéder, connectez-vous à votre [espace client OVHcloud](/links/manager) dans la section « Télécom ». Une fois positionné sur l'accès internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
 >
 
 ## Prérequis
@@ -25,7 +25,7 @@ Une coupure de synchronisation est généralement occasionnée par un élément 
 
 Avant de débuter, assurez-vous que la panne que vous rencontrez actuellement est bien liée à une coupure de synchronisation. Aidez-vous des voyants de votre modem pour le vérifier. 
 
-Si cela est nécessaire, reportez-vous aux instructions décrites dans notre documentation « [Rétablir son service suite à une coupure complète ou partielle](/pages/web_cloud/internet/internet_access/interruption_de_service){.external} » afin de vous en assurer. Dès lors, si la panne rencontrée est bien liée à une coupure de synchronisation, poursuivez la lecture de cette documentation afin de réaliser quelques vérifications préalables. 
+Si cela est nécessaire, reportez-vous aux instructions décrites dans notre documentation « [Rétablir son service suite à une coupure complète ou partielle](/pages/web_cloud/internet/internet_access/interruption_de_service) » afin de vous en assurer. Dès lors, si la panne rencontrée est bien liée à une coupure de synchronisation, poursuivez la lecture de cette documentation afin de réaliser quelques vérifications préalables. 
 
 ### Étape 2 : réaliser des vérifications préalables
 
@@ -70,7 +70,7 @@ Les tests listés ci-dessous doivent être réalisés dans l'ordre, jusqu'à la 
 
 Débranchez d'abord tous les équipements connectés sur les prises téléphoniques de votre domicile, sauf votre modem. 
 
-Une fois cette action effectuée, redémarrez votre modem. Si besoin, reportez-vous aux instructions décrites dans notre documentation « [Redémarrer ou réinitialiser un modem ADSL OVH](/pages/web_cloud/internet/internet_access/restart_reboot_modem){.external} ».
+Une fois cette action effectuée, redémarrez votre modem. Si besoin, reportez-vous aux instructions décrites dans notre documentation « [Redémarrer ou réinitialiser un modem ADSL OVHcloud](/pages/web_cloud/internet/internet_access/restart_reboot_modem){.external} ».
 
 #### 2. Vérifier l'environnement électromagnétique
 
@@ -120,13 +120,13 @@ Assurez-vous finalement que votre modem n'est pas à l'origine de la panne que v
 
 Deux tests croisés sont possibles :
 
-- **tester votre modem chez une personne disposant d'un accès DSL fonctionnel** : vous devrez relier votre modem au câble téléphonique utilisé chez cette autre personne. Une fois votre modem sous tension, vérifiez le voyant « broadband ». S'il reste allumé fixe, cela indique que votre modem a réussi à se synchroniser et qu'il fonctionne correctement. Auquel cas, effectuez plusieurs combinaisons de tests croisés en testant vos câbles et vos filtres afin d'identifier précisément l'origine du dysfonctionnement ;
+- **tester votre modem chez une personne disposant d'un accès DSL fonctionnel** : vous devrez relier votre modem au câble téléphonique utilisé chez cette autre personne. Une fois votre modem sous tension, vérifiez le voyant « broadband ». S'il reste allumé fixe, cela indique que votre modem a réussi à se synchroniser et qu'il fonctionne correctement. Auquel cas, effectuez plusieurs combinaisons de tests croisés en testant vos câbles et vos filtres afin d'identifier précisément l'origine du dysfonctionnement.
 
 - **tester un autre modem à votre domicile** : si vous possédez un autre modem, testez-le directement sur votre prise de test « DTI » ou la première prise installée dans votre logement. Si cet autre modem réussit à se synchroniser, ceci indique que votre modem ne fonctionne pas correctement.
 
 #### 8. Réinitialiser le modem
 
-Le dernier test possible consiste à réinitialiser votre modem. Si besoin, reportez-vous aux instructions décrites dans notre documentation « [Redémarrer ou réinitialiser un modem ADSL OVH](/pages/web_cloud/internet/internet_access/restart_reboot_modem){.external} ».
+Le dernier test possible consiste à réinitialiser votre modem. Si besoin, reportez-vous aux instructions décrites dans notre documentation « [Redémarrer ou réinitialiser un modem ADSL OVHcloud](/pages/web_cloud/internet/internet_access/restart_reboot_modem){.external} ».
 
 ## Aller plus loin
 

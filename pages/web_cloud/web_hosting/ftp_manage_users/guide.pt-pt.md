@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web -Como gerir utilizadores FTP"
 excerpt: "Saiba como criar, modificar ou eliminar utilizadores FTP no seu alojamento web da OVHcloud"
-updated: 2024-10-07
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -26,8 +26,8 @@ As ofertas de alojamento web da OVHcloud dão acesso a um espaço de armazenamen
 Para criar um novo utilizador FTP no seu alojamento web através da Área de Cliente OVHcloud, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, clique no separador `FTP-SSH`{.action}.
 6. Para criar um novo utilizador FTP, clique no botão `Criar utilizador`{.action} à direita. Dependendo da resolução da sua tela, o botão pode ser localizado na parte inferior da página.
@@ -72,8 +72,8 @@ Se necessário, teste este novo utilizador FTP através do nosso guia "[Aceder a
 Para editar um utilizador FTP, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, clique no separador `FTP-SSH`{.action}.
 6. Na tabela que se encontra na parte inferior da página e na parte direita da linha correspondente ao utilizador FTP em questão, clique no botão `...`{.action} e, em seguida, clique em `Alterar`{.action}.
@@ -101,8 +101,8 @@ Depois de realizar as alterações, clique em `Seguinte`{.action} para aceder à
 Para eliminar um utilizador FTP, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, clique no separador `FTP-SSH`{.action}.
 6. Na tabela que se encontra na parte inferior da página e na parte direita da linha correspondente ao utilizador FTP em questão, clique no botão `...`{.action} e, em seguida, clique em `Eliminar`{.action}.

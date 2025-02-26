@@ -38,7 +38,7 @@ Para conhecer o cluster de alojamento web no qual se encontra o seu serviço, cl
 >>
 > **Etapa 2**
 >>
->> Clique no menu pendente `Alojamentos`{.action} e escolha o alojamento web em causa.
+>> Clique no menu `Alojamentos`{.action} e escolha o alojamento web em causa.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

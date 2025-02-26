@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z ofertą Zimbra"
 excerpt: "Dowiedz się, jak rozpocząć korzystanie z oferty Zimbra z poziomu Panelu klienta OVHcloud"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -18,6 +18,8 @@ updated: 2025-02-12
 Z ofertą Zimbra OVHcloud oferuje platformę open source do przesyłania wiadomości e-mail z wszystkimi niezbędnymi funkcjami do profesjonalnego użytku. W tym przewodniku znajdziesz pierwsze kroki z konfiguracją Twoich kont e-mail Zimbra.
 
 **Dowiedz się, jak rozpocząć korzystanie z usługi e-mail Zimbra**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Wymagania początkowe
 
@@ -81,8 +83,8 @@ W tej karcie znajdziesz wszystkie nazwy domen dodane do Twojej usługi Zimbra. A
 
 Tabela domen podaje dwie informacje:
 
-- **Organization** : Domena zostanie oznaczona po dodaniu nazwy. W tej kolumnie automatycznie odnajdziesz jej etykietę.
-- **Liczba kont** : w tej sekcji odnajdziesz wszystkie konta utworzone pod daną nazwą domeny.
+- **Organization**: Domena zostanie oznaczona po dodaniu nazwy. W tej kolumnie automatycznie odnajdziesz jej etykietę.
+- **Liczba kont**: w tej sekcji odnajdziesz wszystkie konta utworzone pod daną nazwą domeny.
 
 ![zimbra](images/zimbra_domain_tab.png){.thumbnail .w-400}
 
@@ -110,10 +112,11 @@ Wybierz kartę:
 >>
 >> Aby skonfigurować strefę DNS, wybierz jedną z dwóch poniższych opcji:
 >>
->> - **Rekomendowana konfiguracja** : Twoja strefa DNS zostanie skonfigurowana automatycznie. Ta opcja jest odpowiednia, jeśli nie skonfigurowałeś kont e-mail dla swojej nazwy domeny.
->> - **Konfiguracja niestandardowa** : jeśli skonfigurowałeś już usługę e-mail dla swojej domeny, możesz wybrać tematy, które Cię interesują.
->>    - *Skonfiguruj automatycznie rekord MX* : umożliwia automatyczne wpisanie serwerów poczty przychodzącej OVHcloud (dotyczy wszystkich ofert e-mail OVHcloud).
->>    - *Skonfiguruj automatycznie rekord SPF* : umożliwia automatyczne wpisanie rekordu zezwalającego serwerom poczty elektronicznej OVHcloud na przesyłanie e-maili. Wpis ten dotyczy wszystkich ofert e-mail OVHcloud.
+>> - **Rekomendowana konfiguracja**: Twoja strefa DNS zostanie skonfigurowana automatycznie. Ta opcja jest odpowiednia, jeśli nie skonfigurowałeś kont e-mail dla swojej nazwy domeny.
+>> - **Konfiguracja niestandardowa**: jeśli skonfigurowałeś już usługę e-mail dla swojej domeny, możesz wybrać tematy, które Cię interesują.
+>>    - *Skonfiguruj automatycznie rekord MX*: umożliwia automatyczne wpisanie serwerów poczty przychodzącej OVHcloud (dotyczy wszystkich ofert e-mail OVHcloud).
+>>    - *Skonfiguruj automatycznie rekord SPF*: umożliwia automatyczne wpisanie rekordu zezwalającego serwerom poczty elektronicznej OVHcloud na przesyłanie e-maili. Wpis ten dotyczy wszystkich ofert e-mail OVHcloud.
+>>    - *Automatyczna konfiguracja DKIM*: umożliwia automatyczne wprowadzenie rekordów niezbędnych do uwierzytelnienia wysyłanych wiadomości e-mail.
 >>
 >> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -135,13 +138,29 @@ Wybierz kartę:
 >> >
 >> > Po 48 godzinach, jeśli pole CNAME nie jest widoczne w strefie DNS, operacja jest anulowana. W takim przypadku konieczne będzie ponowne wykonanie operacji.
 
+### Zmiana nazwy domeny
+
+Możesz zmienić nazwę domeny, aby zmienić jej organizację, lub sprawdzić powiązane z nią rekordy DNS.
+
+W zakładce `Domena`{.action} Twojej usługi Zimbra kliknij na ikonę "&#8285;" z prawej strony odpowiedniej domeny, aby wyświetlić opcje.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Kliknij przycisk `Konfiguruj`{.action}, aby zmienić organizację przypisaną do Twojej domeny.
+- Kliknij `Raporty diagnostyczne`{.action}, aby wyświetlić interfejs diagnostyczny dla rekordów DNS domeny. Należy upewnić się, że żaden alert nie jest wyświetlany dla każdego z rekordów DNS wymienionych w zakładkach. Postępuj zgodnie z instrukcjami wyświetlanymi w każdej zakładce z alertem, aby skonfigurować rekordy DNS:
+    - **MX**: niezbędne do odbierania e-maili.
+    - **SPF**: bezpieczeństwo wymagane przez większość serwerów e-mail odbiorców, aby potwierdzić autoryzację serwerów poczty elektronicznej OVHcloud dla Twojej domeny.
+    - **DKIM**: umożliwia uruchomienie systemu podpisywania wszystkich e-maili wysyłanych przez Twoją usługę Zimbra. Podpis jest weryfikowany przez odbiorcę za pomocą klucza publicznego widocznego w strefie DNS.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
+
 ### Konta email <a name="emails"></a>
 
 Adresami e-mail usługi Zimbra można zarządzać w zakładce `Konta e-mail`{.action}. W tabeli wyświetla się lista kont e-mail obecnych w Twojej usłudze oraz 3 informacje dla każdego z nich:
 
-- **Organizacja** : Jeśli nazwa domeny przypisana do Twojego konta e-mail jest skojarzona z organizacją, w tej kolumnie automatycznie odnajdziesz jej etykietę.
-- **Oferta** : Ponieważ Twoja usługa Zimbra może hostować kilka ofert Zimbra, w tej kolumnie znajdziesz ofertę powiązaną z Twoim kontem e-mail.
-- **Rozmiar** : w tej kolumnie wyświetlana jest całkowita pojemność konta e-mail oraz aktualnie zajęta przestrzeń.
+- **Organizacja**: Jeśli nazwa domeny przypisana do Twojego konta e-mail jest skojarzona z organizacją, w tej kolumnie automatycznie odnajdziesz jej etykietę.
+- **Oferta**: Ponieważ Twoja usługa Zimbra może hostować kilka ofert Zimbra, w tej kolumnie znajdziesz ofertę powiązaną z Twoim kontem e-mail.
+- **Rozmiar**: w tej kolumnie wyświetlana jest całkowita pojemność konta e-mail oraz aktualnie zajęta przestrzeń.
 
 Na górze tej strony znajduje się również link do [Webmail](/links/web/email), dzięki któremu będziesz mógł połączyć się bezpośrednio z zawartością Twojego konta e-mail z poziomu przeglądarki internetowej.
 
@@ -153,7 +172,7 @@ Aby utworzyć konto e-mail w Twojej usłudze Zimbra, kliknij zakładkę `Konta e
 
 Uzupełnij kolejne informacje, o które zostaniesz poproszony.
 
-- **Konto e-mail** : wpisz *nazwę konta*, które będzie posiadać Twój adres e-mail (np. imię.nazwisko) i *wybierz nazwę domeny* z rozwijanego menu.
+- **Konto e-mail**: wpisz *nazwę konta*, które będzie posiadać Twój adres e-mail (np. imię.nazwisko) i *wybierz nazwę domeny* z rozwijanego menu.
 
 > [!warning]
 >
@@ -164,9 +183,9 @@ Uzupełnij kolejne informacje, o które zostaniesz poproszony.
 > - Brak znaków akcentowanych
 > - Brak znaków specjalnych, z wyjątkiem następujących znaków: `.`, `+`, `-` i `_`
 
-- **Imię** : wpisz imię.
-- **Nazwa** : wprowadź nazwę.
-- **Nazwa do wyświetlenia** : wprowadź nazwę nadawcy, która ma się wyświetlać podczas wysyłki e-maili z tego adresu.
+- **Imię**: wpisz imię.
+- **Nazwa**: wprowadź nazwę.
+- **Nazwa do wyświetlenia**: wprowadź nazwę nadawcy, która ma się wyświetlać podczas wysyłki e-maili z tego adresu.
 - **Hasło**: Ustaw hasło składające się z (minimum) 9 znaków, jednej wielkiej litery, jednej małej litery i jednej cyfry. Ze względów bezpieczeństwa nie używaj dwa razy tego samego hasła. Wybierz takie, które nie ma żadnego związku z Twoimi danymi osobowymi (np. unikaj podawania imienia, nazwiska i daty urodzenia). Zmieniaj ustawienia regularnie.
 
 > [!warning]

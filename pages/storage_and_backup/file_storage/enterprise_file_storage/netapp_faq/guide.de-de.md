@@ -1,7 +1,7 @@
 ---
 title: Enterprise File Storage - FAQ
 excerpt: 'FAQ zum Enterprise File Storage Dienst'
-updated: 2024-09-24
+updated: 2025-02-21
 ---
 
 > [!primary]
@@ -60,7 +60,7 @@ Unser Enterprise File Storage entspricht führenden Branchenstandards, darunter 
 
 ### Kann über ein privates vRack Netzwerk auf Enterprise File Storage zugegriffen werden?
 
-Derzeit noch nicht, aber diese Funktion wird demnächst verfügbar sein (vRack *endpoint*).
+Ja (vRack endpoint).
 
 ## Zugang "on-premise"
 

@@ -40,7 +40,7 @@ updated: 2024-10-30
 
 Aby zmienić abonament, przejdź do [Panelu klienta OVHcloud](/links/manager) w części `Web Cloud`{.action}. Kliknij opcję `Hosting`{.action} i wybierz odpowiedni hosting.
 
-W polu `Abonament` kliknij przycisk`...`{.action} po prawej stronie `Usługa`, a następnie `Zmień ofertę`{.action}.
+W polu `Abonament` kliknij przycisk `...`{.action} po prawej stronie `Usługa`, a następnie `Zmień ofertę`{.action}.
 
 ![change_plan](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/pro-change-plan.png){.thumbnail}
 
@@ -62,7 +62,7 @@ Sprawdź, czy nowa oferta zawiera wystarczającą liczbę [baz danych](/links/we
 
 W przeciwnym razie usuń nieużywane bazy danych i w razie potrzeby zmniejsz ilość danych w nich zawartych. Ilość ta nie może przekroczyć maksymalnego rozmiaru baz danych w nowej ofercie. Jeśli potrzebujesz wsparcia w zakresie wymaganych działań, skontaktuj się z [partnerami OVHcloud](/links/partner).
 
-Po usunięciu danych z Twoich baz, ponownie oblicz wykorzystany limit. W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. W lewej kolumnie kliknij opcję `Hosting`{.action}, a następnie wybierz odpowiedni hosting. Na stronie, która się wyświetli przejdź do zakładki `Bazy danych`{.action}, następnie kliknij przycisk`...`{.action} po prawej stronie odpowiedniej bazy danych, a następnie `Przelicz rozmiar bazy`{.action}.
+Po usunięciu danych z Twoich baz, ponownie oblicz wykorzystany limit. W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. W lewej kolumnie kliknij opcję `Hosting`{.action}, a następnie wybierz odpowiedni hosting. Na stronie, która się wyświetli przejdź do zakładki `Bazy danych`{.action}, następnie kliknij przycisk `...`{.action} po prawej stronie odpowiedniej bazy danych, a następnie `Przelicz rozmiar bazy`{.action}.
 
 ![quota](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
 
@@ -83,7 +83,7 @@ Dzięki temu będziesz mógł zamówić ofertę Web Cloud Databases niezależną
 Jeśli nie chcesz przechowywać tych danych, możesz usunąć Twoją usługę Web Cloud Databases przed przejściem na ofertę *Pro*: 
 
 1. Wykonaj kopię zapasową danych, postępując zgodnie z instrukcjami zawartymi w tym [przewodniku](/pages/web_cloud/web_cloud_databases/save-export-on-database-server).<br>
-2. Usuń serwer Web Cloud Databases za pomocą [Panelu klienta OVHcloud](/links/manager). W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę w prawym górnym rogu, a następnie ikonę `Produkty i usługi`{.action}. Następnie kliknij przycisk `...`{.action} po prawej stronie wiersza oferty Web Cloud Databases/Private SQL . `Usuń mój hosting Private SQL`{.action}.
+2. Usuń serwer Web Cloud Databases za pomocą [Panelu klienta OVHcloud](/links/manager). W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę w prawym górnym rogu, a następnie `Moje rozwiązania i usługi`{.action}. Następnie kliknij przycisk `...`{.action} po prawej stronie wiersza oferty Web Cloud Databases/Private SQL . `Usuń mój hosting Private SQL`{.action}.
 
 #### 3 - Przestrzeń dyskowa FTP
 
@@ -116,7 +116,7 @@ W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź 
 
 >[!primary]
 >
-> Jeśli przycisk `...`{.action} jest niedostępny w Twojej ofercie e-mail, możesz odłączyć ofertę e-mail od hostingu. W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager) w części `Web Cloud`{.action}. W lewej kolumnie kliknij `Hosting`{.action}, a następnie wybierz odpowiedni hosting. Na stronie `Informacje ogólne`{.action}, która się wyświetla i w ramce `Konfiguracja`{.action}, kliknij przycisk`...`{.action} z prawej strony wzmianki `Adresy e-mail`{.action}, a następnie `Odłącz opcję e-mail`{.action}.
+> Jeśli przycisk `...`{.action} jest niedostępny w Twojej ofercie e-mail, możesz odłączyć ofertę e-mail od hostingu. W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager) w części `Web Cloud`{.action}. W lewej kolumnie kliknij `Hosting`{.action}, a następnie wybierz odpowiedni hosting. Na stronie `Informacje ogólne`{.action}, która się wyświetla i w ramce `Konfiguracja`{.action}, kliknij przycisk `...`{.action} z prawej strony wzmianki `Adresy e-mail`{.action}, a następnie `Odłącz opcję e-mail`{.action}.
 >
 
 #### 6 - Użytkownicy FTP
@@ -156,7 +156,7 @@ Jeśli opcja **Boost** odpowiada Twoim potrzebom, poniżej znajdziesz instrukcje
 > [!tabs]
 > **Włącz opcję Boost**
 >>
->> Aby aktywować opcję Boost, zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. W lewej kolumnie kliknij `Hosting`{.action}, a następnie wybierz odpowiedni hosting. W ramce `Informacje ogólne` na stronie, która się wyświetli kliknij przycisk`...`{.action} po prawej stronie `Boost`, a następnie `Skorzystaj z opcji Boost`{.action}.<br><br>
+>> Aby aktywować opcję Boost, zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. W lewej kolumnie kliknij `Hosting`{.action}, a następnie wybierz odpowiedni hosting. W ramce `Informacje ogólne` na stronie, która się wyświetli kliknij przycisk `...`{.action} po prawej stronie `Boost`, a następnie `Skorzystaj z opcji Boost`{.action}.<br><br>
 >> ![boost](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/boost-my-hosting-plan.png){.thumbnail}<br>
 >>
 > **Wyłącz opcję Boost**

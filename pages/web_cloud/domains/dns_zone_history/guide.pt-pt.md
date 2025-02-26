@@ -1,7 +1,7 @@
 ---
 title: "Gerir o histórico de uma zona DNS"
 excerpt: "Saiba como consultar, comparar, descarregar e restaurar os seus backups de zona DNS"
-updated: 2024-06-26
+updated: 2025-02-19
 ---
 
 ## Objetivo
@@ -28,22 +28,41 @@ Agora, a gestão dos DNS é facilitada graças ao histórico das suas zonas DNS.
 
 ## Instruções
 
-Para aceder a esta funcionalidade, aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action} ao separador `Nomes de domínio`{.action} e selecione o domínio associado à zona DNS que pretende utilizar.
+Clique nas guias abaixo para exibir sucessivamente cada um dos **5** etapas.
 
-Na página que se abrir, se ainda não tiver sido reencaminhado para este separador, clique no separador `Zona DNS`{.action}.
-
-A tabela que aparece representa a zona DNS do seu domínio. Poderá consultar a lista dos registos DNS que contém. À direita da tabela, vários botões permitem-lhe efetuar ações na sua zona DNS. 
-
-![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
-
-Clique em `Ver o histórico da minha zona DNS`{.action}. 
-
-Na nova página que vai aparecer, aparecerá uma tabela com o histórico dos backups da sua zona DNS, classificada da data mais recente à mais antiga. No topo desta tabela encontra-se a versão atual da sua zona DNS. Nessa página, você pode executar as seguintes ações:
-
-- [Visualizar uma zona DNS](#view)
-- [Descarregar uma zona DNS](#download)
-- [Restaurar uma zona DNS](#restore)
-- [Comparar duas zonas DNS](#compare)
+> [!tabs]
+> **Etapa 1**
+>>
+>> Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Etapa 2**
+>>>
+>> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>>
+>> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>>
+> **Etapa 3**
+>> 
+>> Selecione o separador `Zona DNS`{.action} quando posicionado no domínio em questão.
+>>
+> **Etapa 4**
+>>
+>> A tabela que aparece representa a zona DNS do seu domínio. Poderá consultar a lista dos registos DNS que contém. À direita da tabela, vários botões permitem-lhe efetuar ações na sua zona DNS. 
+>>
+>> ![DNS history tool](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dns-zone-history.png){.thumbnail}
+>>
+>> Clique em `Ver o histórico da minha zona DNS`{.action}. 
+>>
+> **Etapa 5**
+>>
+>> Na nova página que vai aparecer, aparecerá uma tabela com o histórico dos backups da sua zona DNS, classificada da data mais recente à mais antiga. No topo desta tabela encontra-se a versão atual da sua zona DNS. Nessa página, você pode executar as seguintes ações:
+>>
+>> - [Visualizar uma zona DNS](#view)
+>> - [Descarregar uma zona DNS](#download)
+>> - [Restaurar uma zona DNS](#restore)
+>> - [Comparar duas zonas DNS](#compare)
 
 > [!primary]
 >

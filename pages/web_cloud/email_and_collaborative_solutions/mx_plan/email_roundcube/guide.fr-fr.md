@@ -394,7 +394,7 @@ Vous rencontrez le message suivant lorsque vous tentez d'accèder à votre webma
 
 ```console
 ÉCHEC DE VÉRIFICATION DE LA DEMANDE
-Pour votre protection, l'accès à cette ressource est protégé contre les attaques CSFR.
+Pour votre protection, l'accès à cette ressource est protégé contre les attaques CSRF.
 Si vous voyez ceci, vous ne vous êtes probablement pas déconnecté avant de quitter l'application Web.
 Une interaction humaine est maintenant exigé afin de continuer.
 Veuillez contacter l'administrateur de votre serveur.

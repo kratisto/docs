@@ -83,7 +83,7 @@ Mit dieser Aktion können Sie ein Angebot für Web Cloud Databases unabhängig v
 Wenn Sie diese Daten nicht behalten möchten, können Sie auch Ihr Angebot Web Cloud Databases löschen, bevor Sie zum Angebot *Pro* wechseln: 
 
 1. Sichern Sie Ihre Daten gemäß den Anweisungen in [dieser Anleitung](/pages/web_cloud/web_cloud_databases/save-export-on-database-server).<br>
-2. Löschen Sie Ihren Web Cloud Databases Server über Ihr [OVHcloud Kundencenter](/links/manager). Loggen Sie sich hierzu in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Account-Namen und dann auf das Icon `Produkte und Diensleistungen`{.action}. Klicken Sie dann auf den Button `...`{.action} rechts in der Zeile des betreffenden Web Cloud Databases/SQL Private Angebots und dann auf `Mein SQL Private Hosting löschen`{.action}.
+2. Löschen Sie Ihren Web Cloud Databases Server über Ihr [OVHcloud Kundencenter](/links/manager). Loggen Sie sich hierzu in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Account-Namen und dann auf `Meine Angebote und Dienste`{.action}. Klicken Sie dann auf den Button `...`{.action} rechts in der Zeile des betreffenden Web Cloud Databases/SQL Private Angebots und dann auf `Mein SQL Private Hosting löschen`{.action}.
 
 #### 3 - FTP-Speicherplatz
 

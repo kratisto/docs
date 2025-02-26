@@ -1,7 +1,7 @@
 ---
 title: 'Configurer votre serveur de bases de données'
 excerpt: 'Découvrez comment configurer et optimiser votre serveur de base de données'
-updated: 2024-03-20
+updated: 2025-02-20
 ---
 
 ## Objectif
@@ -66,9 +66,7 @@ Pour un hébergement web OVHcloud, vous pouvez simplement cocher `Autoriser les 
 > 
 > Si votre offre Web Cloud Databases est liée à une offre d'hébergement web **Performance**, vous devrez obligatoirement et préalablement délier l'offre Web Cloud Databases de votre hébergement **Performance** pour basculer sur une offre supérieure.
 >
-> Pour délier une offre Web Cloud Databases associée à un hébergement web **Performance**, rendez-vous dans votre [espace client OVHcloud](/links/manager). Cliquez sur l'onglet `Web Cloud` puis sur l'hébergement concerné dans l'onglet `Hébergements`{.action} qui apparaît dans la colonne de gauche. 
->
-> Sur la nouvelle page `Informations générales`{.action} qui s'affiche, vous retrouvez un encadré intitulé `Configuration`{.action} au centre de la page. A droite de la mention `Web Cloud Databases`{.action}, cliquez sur le bouton `...`{.action} puis sur `Délier`{.action}. Choisissez la durée du renouvellement la plus courte puis poursuivez jusqu'à la validation de la commande.
+> Pour délier une offre Web Cloud Databases associée à un hébergement web **Performance**, consultez notre guide « [Délier ma solution Web Cloud Databases d'un hébergement web](/pages/web_cloud/web_cloud_databases/detach-from-web-hosting) ».
 >
 > **Cette action est irréversible et l'offre Web Cloud Databases sera ensuite facturée indépendamment de votre hébergement web Performance.**
 >

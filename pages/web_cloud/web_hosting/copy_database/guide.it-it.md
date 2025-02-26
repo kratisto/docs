@@ -1,7 +1,7 @@
 ---
 title: "Duplicare il contenuto di un database in un altro"
 excerpt: "Questa guida ti mostra come copiare il contenuto di un database OVHcloud in un altro database OVHcloud"
-updated: 2023-11-22
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -40,23 +40,55 @@ Il percorso per accedere al database di origine è diverso in base alla situazio
 
 #### Database Start SQL
 
-Nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona `Web Cloud`{.action} nel menu in alto nell’interfaccia. Nella colonna a sinistra, clicca sulla scheda `Hosting`{.action} e poi sull’hosting Web in cui si trova il database di origine il cui contenuto deve essere copiato.
+Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
 
-![Lista degli hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
-
-Clicca sulla scheda `Database`{.action} per visualizzare la lista dei database Start SQL disponibili.
-
-![Lista dei BDD Start SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/sharedsql-dashboard-db-list.png){.thumbnail}
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
+>>
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Nella nuova pagina clicca sulla scheda `Database`{.action}.
+>>
+>> ![Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> Compare la lista dei database Start SQL.
+>>
+>> ![Lista dei BDD Start SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/sharedsql-dashboard-db-list.png){.thumbnail}
 
 #### Web Cloud Databases
 
-Nel tuo [Spazio Cliente OVHcloud](/links/manager), seleziona `Web Cloud`{.action} nel menu in alto nell’interfaccia. Nella colonna a sinistra, clicca sulla scheda `Web Cloud Databases`{.action} e seleziona il server Web Cloud Databases in cui si trova il database sorgente il cui contenuto deve essere copiato.
+Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
-![Lista dei server WCD](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
-
-Clicca sulla scheda `Database`{.action} per visualizzare la lista dei database presenti sul tuo server Web Cloud Databases.
-
-![Lista dei database WCD](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/databases/wcdb-dashboard-db-list.png){.thumbnail}
+> [!tabs]
+> **Step 1**
+>>
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}.
+>>
+>> ![Web Cloud](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Clicca sul menu `Web Cloud Databases`{.action} e seleziona la soluzione Web Cloud Databases interessata.
+>>
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> Clicca sulla scheda `Database`{.action} per visualizzare la lista dei database presenti sul tuo server Web Cloud Databases.
+>>
+>> ![Lista dei database WCD](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/databases/wcdb-dashboard-db-list.png){.thumbnail}
 
 ### Copia il contenuto di un database
 

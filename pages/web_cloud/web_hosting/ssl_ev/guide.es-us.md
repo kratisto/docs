@@ -1,7 +1,7 @@
 ---
 title: "Web hosting - Activar un certificado SSL Sectigo EV"
 excerpt: "Descubra cómo contratar e instalar un certificado SSL Sectigo EV en un alojamiento web de OVHcloud"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -90,8 +90,8 @@ Si necesita activar un certificado SSL para varios dominios o subdominios declar
 Para contratar el certificado SSL Sectigo EV, lleve a cabo las siguientes acciones:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-2. En la línea situada en la parte superior del área de cliente, haga clic en la pestaña `Web Cloud`{.action}.
-3. En la columna izquierda, haga clic en el menú desplegable `Alojamientos`{.action}.
+2. Haga clic en la pestaña `Web Cloud`{.action}.
+3. En la columna izquierda, haga clic en el menú `Alojamientos`{.action}.
 4. Seleccione el alojamiento web correspondiente.
 5. A continuación, siga en la pestaña `Información general`{.action}.
 6. Acceda al recuadro `Configuración`.

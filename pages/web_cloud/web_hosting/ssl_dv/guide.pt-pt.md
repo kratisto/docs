@@ -1,7 +1,7 @@
 ---
 title: "Alojamento web - Ativar um certificado SSL Sectigo DV"
 excerpt: "Saiba como ativar um certificado SSL Sectigo DV no seu alojamento Web OVHcloud"
-updated: 2024-10-21
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -79,8 +79,8 @@ Se necessário, consulte os nossos manuais para saber como:
 Para encomendar o certificado SSL Sectigo DV, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, permaneça no separador `Informações gerais`{.action}.
 6. Aceda à caixa chamada `Configuração`.
@@ -109,8 +109,8 @@ A instalação do certificado SSL Sectigo DV pode levar até **24** horas.
 Para verificar se a instalação foi concluída, execute as seguintes ações:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-2. Na linha situada no topo da Área de Cliente, clique no separador `Web Cloud`{.action}.
-3. Na coluna da esquerda, clique no menu pendente `Alojamentos`{.action}.
+2. Clique no separador `Web Cloud`{.action}.
+3. Na coluna da esquerda, clique no menu `Alojamentos`{.action}.
 4. Selecione o alojamento web em causa.
 5. Na página que vai aparecer, permaneça no separador `Informações gerais`{.action}.
 6. Aceda à caixa chamada `Configuração`.

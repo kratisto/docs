@@ -40,11 +40,13 @@ Verifique que as suas duas interfaces, ou grupos de interfaces, são bem selecio
 
 A operação pode demorar alguns minutos até ficar concluída. O próximo passo consistirá em configurar as interfaces do seu sistema operativo como NIC bond ou NIC team. Para ficar a conhecer o procedimento, consulte os nossos manuais relativos aos sistemas operativos mais populares:
 
-[Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9 através do ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em  SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan)
 
 ### Restaurar OLA aos valores predefinidos
 
@@ -56,10 +58,12 @@ A operação pode demorar alguns minutos.
 
 ## Saiba mais
 
-[Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
+[Como configurar a NIC para o OVHcloud Link Aggregation em Debian 9 através do ifupdown](/pages/bare_metal_cloud/dedicated_servers/ola-enable-debian9)
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em Windows Server 2019](/pages/bare_metal_cloud/dedicated_servers/ola-enable-w2k19)
 
 [Como configurar a NIC para o OVHcloud Link Aggregation em  SLES 15](/pages/bare_metal_cloud/dedicated_servers/ola-enable-sles15)
+
+[How to configure Your NIC for OVHcloud Link Aggregation in Debian 12 or Ubuntu 24.04 using Netplan](/pages/bare_metal_cloud/dedicated_servers/lacp-enable-netplan)
 
 Fale com nossa [comunidade de utilizadores](/links/community).

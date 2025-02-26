@@ -49,7 +49,7 @@ Si tiene alguna duda, le recomendamos que consulte los siguientes recursos:
 
 ### Iniciar el procedimiento de cambio de titular o modificar la información asociada
 
-Haga clic en las fichas siguientes para ver cada uno de los **7** etapas.
+Haga clic en las fichas siguientes para ver cada una de las **7** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -60,7 +60,7 @@ Haga clic en las fichas siguientes para ver cada uno de los **7** etapas.
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú desplegable `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
 >>
 >> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
 >>

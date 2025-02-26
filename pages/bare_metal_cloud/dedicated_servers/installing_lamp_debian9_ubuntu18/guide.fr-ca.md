@@ -13,7 +13,7 @@ La mise en place d'un serveur web et des logiciels associés permet à votre ser
 ## Prérequis
 
 - Un [serveur dédié](/links/bare-metal/bare-metal), un [VPS](https://www.ovhcloud.com/fr-ca/vps/) ou une instance [Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) dans votre compte OVHcloud (hors systèmes Windows)
-- Être connecté à votre [espace client OVHcloud](/links/manager).
+- Être connecté à votre [espace client OVHcloud](/links/manager)
 - Un accès administratif à votre service via SSH
 
 > [!warning]
@@ -100,7 +100,7 @@ Entrez `n`{.action} à l'invite suivante :
 Change the root password? [Y/n]
 ```
 
-Les invites suivantes concernant les mesures de sécurité, confirmez-les toutes avec `y`{.action} jusqu'à la fin du script.
+Les invites suivantes concernent les mesures de sécurité, confirmez-les toutes avec `y`{.action} jusqu'à la fin du script.
 
 ```console
 Reloading the privilege tables will ensure that all changes made so far

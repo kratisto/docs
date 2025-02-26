@@ -1,7 +1,7 @@
 ---
 title: "Hosting WWW - Aktywacja certyfikatu SSL Sectigo EV"
 excerpt: "Dowiedz się, jak zamówić i zainstalować certyfikat SSL Sectigo EV na Twoim hostingu WWW OVHcloud"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Wprowadzenie
@@ -90,8 +90,8 @@ Jeśli chcesz aktywować certyfikat SSL dla kilku domen/subdomen zadeklarowanych
 Aby zamówić certyfikat SSL Sectigo EV, wykonaj następujące czynności:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-2. W wierszu u góry Panelu klienta kliknij zakładkę `Web Cloud`{.action}.
-3. W lewej kolumnie kliknij menu rozwijane `Hosting`{.action}.
+2. Kliknij zakładkę `Web Cloud`{.action}.
+3. W lewej kolumnie kliknij menu `Hosting`{.action}.
 4. Wybierz odpowiedni hosting.
 5. Na stronie, która się wyświetli pozostań w zakładce `Informacje ogólne`{.action}.
 6. Przejdź do ramki zatytułowanej `Konfiguracja`.

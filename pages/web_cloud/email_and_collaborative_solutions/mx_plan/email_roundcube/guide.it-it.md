@@ -396,7 +396,7 @@ Quando si tenta di accedere alla Webmail Roundcube, viene visualizzato il seguen
 
 ```console
 IMPOSSIBILE VERIFICARE LA RICHIESTA
-Per la tua protezione, l'accesso a questa risorsa è protetto dagli attacchi CSFR.
+Per la tua protezione, l'accesso a questa risorsa è protetto dagli attacchi CSRF.
 Se vedi questo, probabilmente non ti sei disconnesso prima di uscire dall'applicazione Web.
 Per continuare, è necessaria l'interazione umana.
 ```

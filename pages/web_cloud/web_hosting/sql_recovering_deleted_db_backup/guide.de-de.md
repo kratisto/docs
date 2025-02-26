@@ -1,7 +1,7 @@
 ---
 title: "Backup einer gelöschten Datenbank wiederherstellen"
 excerpt: "Erfahren Sie hier, wie Sie das Backup einer im OVHcloud Kundencenter gelöschten Datenbank wiederherstellen können"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Ziel
@@ -37,10 +37,10 @@ Die OVHcloud API wird Entwicklern zur Verfügung gestellt, um alle verfügbaren 
 So rufen Sie den Namen Ihres Webhostings ab:
 
 1. Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Hosting-Pakete`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Hosting-Pakete`{.action}.
 4. Wählen Sie das betreffende Webhosting aus.
-5. Oben links auf der angezeigten Seite finden Sie den Namen Ihres Webhostings rechts unter `Hosting-Pakete`{.action}.
+5. Oben links auf der angezeigten Seite finden Sie den Namen Ihres Webhostings rechts unter `Hosting-Pakete /`{.action}.
 
 ![API](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/find-webhosting-name.png){.thumbnail}
 

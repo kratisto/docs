@@ -15,21 +15,21 @@ La résiliation sera effective à la prochaine facturation de votre accès à In
 ## Prérequis
 
 - Disposer d'un accès xDSL/FTTH actif.
-- Être connecté à l’[espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), partie `Télécom` :
+- Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
 ![espace client Telecom Accès Internet](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-01-fr-internet.png){.thumbnail}
 
 > [!primary]
-> La résiliation d'un [pack SIP Trunk](https://www.ovhtelecom.fr/telephonie/sip-trunk/) doit faire l'objet d'une [« demande d'assistance »](https://www.ovh.com/manager/dedicated/index.html#/support/tickets) via l'espace-client OVHcloud afin que les équipes du support la mettent en place.
+> La résiliation d'un [pack SIP Trunk](https://www.ovhtelecom.fr/telephonie/sip-trunk/) doit faire l'objet d'une [demande d'assistance](https://help.ovhcloud.com/csm?id=csm_get_help) via le centre d'aide OVHcloud afin que les équipes du support la mettent en place.
 >
 
 ## En pratique
 
 ### Demander la résiliation
 
-Connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), partie `Télécom`, puis sélectionnez votre pack dans le menu `Accès Internet`.
-
-Cliquez alors sur le bouton `Résilier`{.action} dans le cadre « Informations Générales ».
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez alors sur le bouton `Résilier`{.action} dans le cadre « Informations Générales ».
 
 ![Resiliation acces](images/Resiliation01-edit-2022.png){.thumbnail}
 
@@ -56,16 +56,16 @@ Vous recevrez un e-mail vous confirmant la prise en compte de la demande de rés
 
 ### Annuler la résiliation
 
-Cette action n'est possible que si la demande de résiliation a été effectuée au cours du mois.
-<br> Cette annulation peut être réalisée jusqu'à la veille de la date de résiliation.
+Cette action n'est possible que si la demande de résiliation a été effectuée au cours du mois.<br>
+Cette annulation peut être réalisée jusqu'à la veille de la date de résiliation.
 
-Connectez-vous à votre [Espace Client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), partie `Télécom`, puis sélectionnez votre pack dans le menu `Accès Internet`.
-
-<br>Dans le cadre « Informations Générales », cliquez sur le bouton `Annuler`{.action} à droite de la date de résiliation.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Dans le cadre « Informations Générales », cliquez sur le bouton `Annuler`{.action} à droite de la date de résiliation.
 
 ![Annulation resiliation](images/Resiliation05-edit-2022.png){.thumbnail}
 
-<br>Afin de valider cette annulation, cliquez sur le bouton `Annuler la résiliation en cours`{.action}.
+Afin de valider cette annulation, cliquez sur le bouton `Annuler la résiliation en cours`{.action}.
 
 ![Annulation resiliation](images/Resiliation06-edit-2022.png){.thumbnail}
 

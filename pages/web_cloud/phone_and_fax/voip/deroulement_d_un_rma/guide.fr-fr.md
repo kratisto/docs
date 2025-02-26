@@ -96,9 +96,11 @@ Lorsque vous recevez cet e-mail, le lien du PDF est disponible dans le corps de 
 
 > [!success]
 >
-> Vous pouvez télécharger le bon de retour RMA depuis votre [espace client OVHcloud](/links/manager).<br>
-> Une fois connecté, rendez-vous dans l'onglet `Telecom`{.action}, cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne VoIP concernée (vous pouvez rechercher le numéro dans le champ prévu à cet effet).<br>
-> Cliquez alors sur l'onglet `Assistance`{.action} puis sur `Suivi RMA`{.action}.<br>
+> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+> 1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+> 1. Cliquez sur la ligne SIP concernée (vous pouvez rechercher le numéro dans le champ prévu à cet effet).
+> 1. Cliquez alors sur l'onglet `Assistance`{.action} puis sur `Suivi RMA`{.action}.
+>
 > Les informations relatives au RMA sont alors visibles, ainsi qu'un bouton pour `Télécharger le bon de retour`{.action}.
 
 Une partie du bon est impérativement à joindre dans le colis et l'autre volet est à coller sur le colis pour l'affranchissement.
@@ -168,11 +170,9 @@ Lorsque nous avons reçu votre équipement, vous recevez cet e-mail :
 Si une caution est restituée, elle sera disponible sur votre compte OVHcloud et servira ainsi à régler vos prochaines factures de manière automatique. 
 <br>Si vous le souhaitez , vous pouvez en demander le versement sur votre compte bancaire via ces étapes :
 
-- connectez vous à votre [espace client OVHcloud](/links/manager), partie **Telecom** ;
-- cliquez sur **Téléphonie**;****
-- cliquez sur le bouton "**Groupe**" ;
-- cliquez sur "**Facturation**" ;
-- cliquez sur "**Virement vers un compte bancaire**".
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur l'onglet `Facturation`{.action} puis sur `Virement vers un compte bancaire`{.action}
 
 Entrez le compte bancaire à créditer et validez. Le virement sera effectué sous 48 heures ouvrées.
 

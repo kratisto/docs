@@ -51,7 +51,7 @@ W tabeli poniżej wpisz informacje korzystając z paska szybkiego połączenia:
 |Hasło|Hasło przypisane do użytkownika.|
 |Port|Jest to zazwyczaj uzupełniane automatycznie przez oprogramowanie. W przeciwnym razie wprowadź:<br><br>- port "21" dla połączenia FTP;<br>- port "22" dla połączenia SFTP (w przypadku gdy połączenie jest włączone). Więcej informacji o SFTP znajdziesz w [sekcji poświęconej temu tutorialu](#sftp).|
 
-Jeśli nie posiadasz wskazanych wyżej informacji, zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external} w sekcji "Web Cloud" i kliknij `Hosting`{.action}. Wybierz odpowiedni hosting i przejdź do zakładki `FTP - SSH`{.action}. Wyświetlą się wówczas informacje dotyczące Twojej przestrzeni dyskowej:
+Jeśli nie posiadasz wskazanych wyżej informacji, zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external} w sekcji `Web Cloud`{.action} i kliknij `Hosting`{.action}. Wybierz odpowiedni hosting i przejdź do zakładki `FTP - SSH`{.action}. Wyświetlą się wówczas informacje dotyczące Twojej przestrzeni dyskowej:
 
 ![hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/ftp-ssh/tab-pro.png){.thumbnail}
 
@@ -79,7 +79,7 @@ SFTP** (**S**ecure **F**ile **T**ransfer **P**rotocol) to protokół podobny do 
 
 Sprawdź najpierw, czy SFTP jest aktywny dla Twojego **Login FTP**.
 
-Przejdź do [Panelu klienta OVHcloud](/links/manager){.external}, w sekcji "Web Cloud", następnie kliknij `Hosting`{.action}. Wybierz odpowiedni hosting i przejdź do zakładki `FTP - SSH`{.action}.
+Przejdź do [Panelu klienta OVHcloud](/links/manager){.external}, w sekcji `Web Cloud`{.action}, następnie kliknij `Hosting`{.action}. Wybierz odpowiedni hosting i przejdź do zakładki `FTP - SSH`{.action}.
 
 Następnie sprawdź, czy **SFTP** jest aktywny w tabeli na dole strony.
 

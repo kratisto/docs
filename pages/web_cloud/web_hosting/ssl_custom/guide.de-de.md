@@ -1,7 +1,7 @@
 ---
 title: "Webhosting - Eigenes SSL-Zertifikat installieren"
 excerpt: "Erfahren Sie hier, wie Sie ein SSL-Zertifikat eines externen Anbieters auf Ihrem OVHcloud Webhosting importieren und installieren"
-updated: 2024-10-17
+updated: 2025-02-20
 ---
   
 ## Ziel  
@@ -163,8 +163,8 @@ Sobald alle diese Voraussetzungen erfüllt sind, können Sie mit der Fertigstell
 Gehen Sie hierzu wie folgt vor:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Hosting-Pakete`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Hosting-Pakete`{.action}.
 4. Wählen Sie das betreffende Webhosting aus.
 5. Bleiben Sie auf der angezeigten Seite im Tab `Allgemeine Informationen`{.action}.
 6. Gehen Sie in die Box mit dem Namen `Konfiguration`.
@@ -204,8 +204,8 @@ Die Installation dauert mehrere Minuten.
 So überprüfen Sie, ob die Installation abgeschlossen ist:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Hosting-Pakete`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Hosting-Pakete`{.action}.
 4. Wählen Sie das betreffende Webhosting aus.
 5. Bleiben Sie auf der angezeigten Seite im Tab `Allgemeine Informationen`{.action}.
 6. Gehen Sie in die Box mit dem Namen `Konfiguration`.

@@ -1,7 +1,7 @@
 ---
 title: "MX Plan - Configurar o seu endereço de e-mail na interface online do Gmail"
 excerpt: "Aprenda a configurar um endereço de e-mail MX Plan na interface on-line do Gmail"
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Objetivo
@@ -34,11 +34,15 @@ Os endereços de e-mail da oferta MX Plan podem ser configurados em diferentes p
 
 Para começar, aceda à interface de gestão do Gmail a partir do browser. Uma vez nesta última, introduza as informações da sua conta Gmail e ligue-se.
 
-Depois de aceder à interface, clique no ícone em forma de roda dentada e, a seguir, em `Ver todos os parâmetros`{.action}. Na página que se abrir, clique no separador `Contas e importação`{.action}.
+Depois de aceder à interface, clique no ícone em forma de roda dentada e, a seguir, em `Ver todos os parâmetros`{.action}.
 
 ![mxplan](images/configuration-gmail-web-step1.png){.thumbnail}
 
-Ao lado de `Consultar outras contas de e-mail`, clique em `Adicionar uma conta de e-mail`{.action}. Na janela que se abrir, indique o seu endereço de e-mail OVHcloud e clique em `Seguinte`{.action}. Escolha `Importar os e-mails da minha outra conta (POP3)`{.action} e clique novamente em `Seguinte`{.action}.
+Na página que se abrir, clique no separador `Contas e importação`{.action}. Ao lado de `Consultar outras contas de e-mail`, clique em `Adicionar uma conta de e-mail`{.action}.
+
+![mxplan](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+Na janela que se abrir, indique o seu endereço de e-mail OVHcloud e clique em `Seguinte`{.action}. Escolha `Importar os e-mails da minha outra conta (POP3)`{.action} e clique novamente em `Seguinte`{.action}.
 
 ![mxplan](images/configuration-gmail-web-step2.png){.thumbnail}
 

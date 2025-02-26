@@ -32,9 +32,11 @@ Une interface spécifique vous propose également de suivre en temps réel les d
 
 ### Étape 1 : accéder à la configuration du numéro
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom){.external}, partie `Télécom`{.action}.<br>
-Cliquez sur `Téléphonie`{.action}, sélectionnez le groupe de téléphonie puis le numéro à configurer.<br>
-Dans l'onglet `Configuration`{.action}, cliquez sur `Conférence`{.action} puis sur `Paramétrer`{.action}.<br>
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
+1. Dans l'onglet `Configuration`{.action}, cliquez sur `Conférence`{.action} puis sur `Paramétrer`{.action}.<br>
+
 L'application de la configuration prend quelques secondes.
 
 ![conférence](images/conference2022-01.png){.thumbnail}

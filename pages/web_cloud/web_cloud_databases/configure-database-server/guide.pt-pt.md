@@ -1,7 +1,7 @@
 ---
 title: 'Configurar o servidor de bases de dados'
 excerpt: 'Descubra como configurar e otimizar o servidor de bases de dados'
-updated: 2024-03-20
+updated: 2025-02-20
 ---
 
 ## Objetivo
@@ -66,9 +66,7 @@ Para um alojamento web da OVHcloud, pode simplesmente selecionar `Autorizar os a
 > 
 > Se a sua oferta Web Cloud Databases está associada a uma oferta de alojamento web **Performance**, deverá obrigatoriamente e previamente desassociar a oferta Web Cloud Databases do seu alojamento **Performance** para migrar para uma oferta superior.
 >
-> Para desassociar uma oferta Web Cloud Databases associada a um alojamento web **Performance**, aceda à [Área de Cliente OVHcloud](/links/manager). Clique no separador `Web Cloud`{.action} e, a seguir, no separador `Alojamentos`{.action}, que aparece na coluna da esquerda. 
->
-> Na nova página `Informações gerais`{.action}, encontrará no centro da página uma caixa intitulada `Configuração`{.action}. À direita da menção `Web Cloud Databases`{.action}, clique no botão `...`{.action} depois `Desassociar`{.action}. Escolha a duração da renovação mais curta e prossiga até à validação da encomenda.
+> Para desassociar uma oferta Web Cloud Databases associada a um alojamento web **Performance**, consulte o guia "[Desassociar a minha solução Web Cloud Databases de um alojamento web](/pages/web_cloud/web_cloud_databases/detach-from-web-hosting)".
 >
 > **Esta ação é irreversível e a oferta Web Cloud Databases será depois faturada independentemente do seu alojamento web Performance.**
 >

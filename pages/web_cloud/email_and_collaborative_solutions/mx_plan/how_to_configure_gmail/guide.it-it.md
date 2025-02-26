@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Configurare un account di posta su Gmail'
 excerpt: 'Come configurare un account MX Plan dall’interfaccia Web di Gmail'
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Obiettivo
@@ -33,19 +33,23 @@ Gli account email del servizio MX Plan possono essere configurati su client o ap
 
 Accedi tramite browser all’interfaccia Web di Gmail, inserisci le credenziali del tuo account ed effettua il login.
 
-Clicca sull’icona a forma di ingranaggio in alto a destra e poi su `Visualizza tutti le impostazioni`{.action}. Seleziona la scheda `Account e importazione`{.action}. 
+Clicca sull’icona a forma di ingranaggio in alto a destra e poi su `Visualizza tutti le impostazioni`{.action}.
 
 ![MX Plan](images/configuration-gmail-web-step1.png){.thumbnail}
 
-Nella sezione `Controlla la posta da altri account`, clicca su `Aggiungi un account email`{.action}. Nella nuova finestra, inserisci il tuo indirizzo OVHcloud e clicca su `Avanti`{.action}. Seleziona `Importa le email dal mio altro account (POP3)`{.action} e clicca di nuovo su `Avanti`{.action}.
+Seleziona la scheda `Account e importazione`{.action}. Nella sezione `Controlla la posta da altri account`, clicca su `Aggiungi un account email`{.action}.
+
+![MX Plan](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+Nella nuova finestra, inserisci il tuo indirizzo OVHcloud e clicca su `Avanti`{.action}. Seleziona `Importa le email dal mio altro account (POP3)`{.action} e clicca di nuovo su `Avanti`{.action}.
 
 ![MX Plan](images/configuration-gmail-web-step2.png){.thumbnail}
 
 Indica i parametri del server POP (server in entrata) del tuo indirizzo email OVHcloud:
 
-|Informazione|Descrizione| 
-|---|---| 
-|Nome utente|Inserisci l’indirizzo email completo|  
+|Informazione|Descrizione|
+|---|---|
+|Nome utente|Inserisci l’indirizzo email completo|
 |Password|Inserisci la password associata all’account|
 |Server POP|Inserisci il server “ssl0.ovh.net”|
 |Porta|Seleziona la porta 995|
@@ -60,11 +64,11 @@ Ecco le opzioni disponibili:
 
 - **Archivia messaggi in arrivo (ignora Posta in arrivo)**: seleziona questa opzione per non visualizzare nella posta in arrivo dell’account Gmail i messaggi importati dal tuo indirizzo email OVHcloud.
 
-Una volta inserite tutte le informazioni, clicca su `Aggiungi account`{.action}. Se i dati sono corretti, la connessione all’account andrà a buon fine. 
+Una volta inserite tutte le informazioni, clicca su `Aggiungi account`{.action}. Se i dati sono corretti, la connessione all’account andrà a buon fine.
 
 ![MX Plan](images/configuration-gmail-web-step3.png){.thumbnail}
 
-Per inviare messaggi dal tuo indirizzo OVHcloud utilizzando l’interfaccia di Gmail, seleziona la casella `Sì, desidero poter inviare messaggi come...`{.action} e continua. 
+Per inviare messaggi dal tuo indirizzo OVHcloud utilizzando l’interfaccia di Gmail, seleziona la casella `Sì, desidero poter inviare messaggi come...`{.action} e continua.
 
 Nella nuova finestra inserisci il nome che verrà visualizzato come mittente per i messaggi inviati da questo account, spunta la casella `Considera come un alias`{.action} e clicca su `Passaggio successivo`{.action}.
 
@@ -72,18 +76,18 @@ Nella nuova finestra inserisci il nome che verrà visualizzato come mittente per
 
 A questo punto ti verrà chiesto di indicare i parametri del server SMTP (server in uscita) dell’account di posta OVHcloud:
 
-|Informazione|Descrizione| 
-|---|---| 
+|Informazione|Descrizione|
+|---|---|
 |Server SMTP|Inserisci il server “ssl0.ovh.net”|
 |Porta|Seleziona la porta 587|
-|Nome utente|Inserisci l’indirizzo email completo|  
+|Nome utente|Inserisci l’indirizzo email completo|
 |Password|Inserisci la password associata all’account|
 
-Una volta inserite tutte le informazioni, seleziona `Connessione protetta TLS (consigliata)`{.action} e clicca su `Aggiungi account`{.action}. Se i dati sono corretti, la connessione all’account andrà a buon fine. 
+Una volta inserite tutte le informazioni, seleziona `Connessione protetta TLS (consigliata)`{.action} e clicca su `Aggiungi account`{.action}. Se i dati sono corretti, la connessione all’account andrà a buon fine.
 
 ![MX Plan](images/configuration-gmail-web-step5.png){.thumbnail}
 
-Per confermare l’operazione è necessario inserire il codice di conferma inviato al tuo indirizzo di posta OVHcloud. Per recuperarlo, accedi all’account dalla nostra Webmail disponibile all’indirizzo:[Webmail](/links/web/email). 
+Per confermare l’operazione è necessario inserire il codice di conferma inviato al tuo indirizzo di posta OVHcloud. Per recuperarlo, accedi all’account dalla nostra Webmail disponibile all’indirizzo:[Webmail](/links/web/email).
 
 Una volta effettuata la convalida, l’indirizzo email OVHcloud compare nella scheda `Account e Importazione`{.action} a cui ti sei connesso all’inizio della procedura.
 
@@ -95,7 +99,7 @@ Per inviare email dall’account OVHcloud è necessario scegliere l’indirizzo 
 
 ![MX Plan](images/configuration-gmail-web-step6.png){.thumbnail}
 
-Ti ricordiamo che per accedere all’account OVHcloud è sempre possibile utilizzare la nostra Webmail disponibile all’indirizzo [Webmail](/links/web/email). 
+Ti ricordiamo che per accedere all’account OVHcloud è sempre possibile utilizzare la nostra Webmail disponibile all’indirizzo [Webmail](/links/web/email).
 
 ## Per saperne di più
 

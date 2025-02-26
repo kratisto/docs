@@ -97,7 +97,7 @@ Vous pouvez accéder à vos logs, aux statistiques et aux graphiques directement
 
 Comment accéder aux statistiques et logs :
 
-1. Cliquez sur `Hébergement`{.action} dans la colonne de gauche puis sélectionnez l'hébergement web concerné.
+1. Cliquez sur `Hébergements`{.action} dans la colonne de gauche puis sélectionnez l'hébergement web concerné.
 2. Sur la page qui s'affiche, cliquez sur l’onglet `Statistiques et logs`{.action}.
 3. Cliquez ensuite sur le bouton `Voir les statistiques`{.action} affiché pour accéder aux statistiques de visite du site web ou sur `Voir les logs`{.action} pour consulter les logs disponibles pour votre hébergement web.
 
@@ -105,7 +105,7 @@ Comment accéder aux statistiques et logs :
 
 Comment accéder aux graphiques :
 
-1. Cliquez sur `Hébergement`{.action} dans la colonne de gauche puis sélectionnez l'hébergement web concerné.
+1. Cliquez sur `Hébergements`{.action} dans la colonne de gauche puis sélectionnez l'hébergement web concerné.
 2. Sur la page qui s'affiche, cliquez sur l’onglet `Statistiques et logs`{.action}. Défilez jusqu’au bas de la page où se trouve le graphique lié à l’utilisation de votre hébergement.
 3. Sélectionnez le **type** d’information ainsi que la **période** des données affichées.
 
@@ -171,7 +171,7 @@ Toutefois, il existe un grand nombre de guides externes qui traitent le sujet.
 
 **Comment accéder à la base de données par le biais de phpMyAdmin :** Pour accéder à votre base de données par le biais de phpMyAdmin, procédez comme suit à partir de [l’espace client OVHcloud](/links/manager){.external} :
 
-- Cliquez sur votre domaine dans la section `Hébergement`{.action} ;
+- Cliquez sur votre domaine dans la section `Hébergements`{.action} ;
 
 - Cliquez sur l’onglet `Base de données`{.action} ;
 

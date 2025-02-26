@@ -1,7 +1,7 @@
 ---
 title: "How to recover a deleted database backup"
 excerpt: "Find out how to retrieve a database backup once it has been deleted from your OVHcloud Control Panel"
-updated: 2024-07-25
+updated: 2025-02-20
 ---
 
 ## Objective
@@ -38,8 +38,8 @@ The OVHcloud API is made available to developers or integrators to associate fea
 To retrieve the name of your web hosting plan, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. On the line at the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} dropdown menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. In the top left-hand corner of the page that opens, you will find the name of your web hosting plan on the right-hand side, with the words `Hosting plans /`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configure your email account on the Gmail online interface'
 excerpt: 'Find out how to configure an Email Pro account on the Gmail online interface'
-updated: 2024-09-24
+updated: 2025-02-17
 ---
 
 ## Objective
@@ -40,11 +40,15 @@ You can configure Email Pro accounts on email clients and online interfaces, if 
 
 First of all, go to the Gmail online interface via your web browser. Then log in to your account using your Gmail credentials.
 
-Once you have logged in to the interface, click on the cogwheel icon, then `See all settings`{.action}. On the page that pops up, click on `Accounts and Import`{.action}.
+Once you have logged in to the interface, click on the cogwheel icon, then `See all settings`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step1.png){.thumbnail}
 
-Next to `Check mail from other accounts`, click `Add a mail account`{.action}. In the window that pops up, enter your OVHcloud Email Pro email address, then click `Next`{.action}. Select `Import emails from my other account (POP3)`{.action}, then click again on `Next`{.action}.
+On the page that pops up, click on `Accounts and Import`{.action}. Next to `Check mail from other accounts`, click `Add a mail account`{.action}.
+
+![emailpro](images/configuration-gmail-web-step1-2.png){.thumbnail}
+
+In the window that pops up, enter your OVHcloud Email Pro email address, then click `Next`{.action}. Select `Import emails from my other account (POP3)`{.action}, then click again on `Next`{.action}.
 
 ![emailpro](images/configuration-gmail-web-step2.png){.thumbnail}
 

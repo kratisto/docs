@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit Zimbra"
 excerpt: "Erfahren Sie hier, wie Sie Ihr Zimbra Angebot über Ihr OVHcloud Kundencenter verwalten"
-updated: 2025-02-12
+updated: 2025-02-13
 ---
 
 <style>
@@ -18,6 +18,8 @@ updated: 2025-02-12
 Mit dem Zimbra Dienst bietet Ihnen OVHcloud eine kollaborative Open Source Messaging Plattform mit allen für eine professionelle Nutzung notwendigen Funktionen. In dieser Anleitung erfahren Sie, wie Sie mit der Konfiguration Ihrer Zimbra E-Mail-Accounts beginnen.
 
 **Diese Anleitung erklärt, wie Sie Zimbra E-Mail im OVHcloud Kundencenter konfigurieren.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/q8QCtcXRbME?si=bAjQhzr-PQ--3Aj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Voraussetzungen
 
@@ -114,6 +116,7 @@ Wählen Sie den betreffenden Tab aus:
 >> - **Benutzerdefinierte Konfiguration**: Wenn Sie bereits ein E-Mail-Angebot für Ihre Domain eingerichtet haben, können Sie die für Sie interessanten Elemente auswählen.
 >>    - *MX-Eintrag automatisch konfigurieren*: Ermöglicht die automatische Eingabe der Empfangsserver von OVHcloud (gilt für alle E-Mail-Angebote von OVHcloud).
 >>    - *SPF-Eintrag automatisch konfigurieren*: Ermöglicht die automatische Eingabe des Eintrags, der den OVHcloud E-Mail-Servern den Versand Ihrer E-Mails erlaubt. Diese Registrierung gilt für alle OVHcloud E-Mail-Angebote.
+>>    - *DKIM-Eintrag automatisch konfigurieren*: Damit werden automatisch die erforderlichen Einträge für die Authentifizierung des Versands von E-Mails eingegeben.
 >>
 >> ![Zimbra](images/zimbra_domain_add_internal02.png){.thumbnail .w-400 .h400}
 >>
@@ -134,6 +137,22 @@ Wählen Sie den betreffenden Tab aus:
 >> > [!warning]
 >> >
 >> > Nach 48 Stunden wird der Vorgang abgebrochen, wenn der CNAME in der DNS-Zone nicht sichtbar ist. In diesem Fall muss der Vorgang wiederholt werden.
+
+#### Domainnamen bearbeiten
+
+Sie können einen Domainnamen bearbeiten, um dessen Organisation zu ändern oder die zugehörigen DNS-Einträge zu überprüfen.
+
+Klicken Sie im Tab `Domain`{.action} Ihres Zimbra Dienstes auf das Symbol &#8285; rechts neben der betreffenden Domain, um die Optionen anzuzeigen.
+
+![zimbra](images/zimbra_domain_modify01.png){.thumbnail .w-400 .h400}
+
+- Klicken Sie auf `Konfigurieren`{.action}, um die Ihrem Domainnamen zugeordnete Organisation zu ändern.
+- Klicken Sie auf `Diagnose`{.action}, um die Ansicht für die Diagnose der DNS-Einträge anzuzeigen. Es sollten keine Warnungen für die DNS-Einträge in den Tabs angezeigt werden. Falls Warnungen angezeigt werden, folgen Sie jeweils den Anweisungen in den Tabs, um die DNS-Einträge zu konfigurieren:
+    - **MX**: Notwendig zum Empfang Ihrer E-Mails.
+    - **SPF**: Sicherheitseintrag, der von den meisten E-Mail-Empfänger-Servern verlangt wird, um die OVHcloud Server für den E-Mail-Versand mit Ihrem Domainnamen zu legitimieren.
+    - **DKIM**: Ermöglicht die Einrichtung eines Signatursystems für jede E-Mail, die von Ihrem Zimbra-Dienst gesendet wird. Die Signatur wird vom Empfänger anhand des öffentlichen Schlüssels überprüft, der in Ihrer DNS-Zone hinterlegt ist.
+
+![zimbra](images/zimbra_domain_modify02.png){.thumbnail .w-400 .h400}
 
 ### E-Mail-Accounts <a name="emails"></a>
 

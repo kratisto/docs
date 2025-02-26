@@ -19,7 +19,9 @@ Votre espace client OVHcloud Telecom regroupe un certain nombre de fonctionnalit
 
 ### Comment accéder au changement de profil
 
-Connectez-vous à la rubrique `Telecom` de votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr). Cliquez ensuite sur `Accès Internet`{.action}, sélectionnez votre offre puis cliquez sur la référence de votre accès. 
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
 
 Par défaut, l'onglet affiché est `Mon accès`.
 

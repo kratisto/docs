@@ -38,7 +38,7 @@ Aby poznać klaster hostingu WWW, w którym znajduje się Twoja usługa, kliknij
 >>
 > **Etap 2**
 >>
->> Kliknij menu rozwijane `Hosting`{.action}, następnie wybierz odpowiedni hosting.
+>> Kliknij menu `Hosting`{.action}, następnie wybierz odpowiedni hosting.
 >>
 >> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
 >>

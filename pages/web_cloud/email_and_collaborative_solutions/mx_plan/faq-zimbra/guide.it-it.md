@@ -26,7 +26,7 @@ Zimbra è una popolare soluzione collaborativa open source. Zimbra propone numer
 Per contestualizzare la soluzione Zimbra in OVHcloud, viene utilizzata per 2 offerte e-mail.
 
 - **MX Plan**: Zimbra viene utilizzato nel quadro di una transizione tecnologica dalla webmail Outlook Web Access (OWA) a quella di Zimbra per la soluzione email storica MX Plan.
-- **Zimbra**: Zimbra è presente nel catalogo OVHcloud come offerta a tutti gli effetti con l’offerta ["Zimbra Starter" attualmente in Beta](https://labs.ovhcloud.com/en/zimbra-beta/).
+- **Zimbra**: Zimbra è presente nel catalogo OVHcloud come offerta a tutti gli effetti con l’offerta [Zimbra Starter](/links/web/zimbra).
 
 Per meglio comprendere, nella figura seguente vengono mostrate le tecnologie attualmente utilizzate su ciascuna delle soluzioni OVHcloud. La Webmail Outlook Web Access (OWA) scomparirà progressivamente dal servizio MX Plan.
 

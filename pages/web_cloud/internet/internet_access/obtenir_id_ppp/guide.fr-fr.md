@@ -16,7 +16,7 @@ Les identifiants *Point to Point Protocol over Ethernet* (PPPoE) sont composés 
 
 - Disposer d'une [offre xDSL ou FTTH OVHcloud](https://www.ovhtelecom.fr/offre-internet/) active.
 - Disposer d'un équipement (routeur, firewall) compatible PPPoE.
-- Être connecté à l'[espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovhtelecom.fr%2Fmanager&ovhSubsidiary=fr).
+- Être connecté à l'[espace client OVHcloud](/links/manager).
 - Être connecté aux [API OVHcloud](https://api.ovh.com/){.external}.
 - Consulter le guide [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) pour vous familiariser avec l'utilisation des APIv6 OVHcloud.
 
@@ -36,7 +36,12 @@ Dans un premier temps, il vous faut retrouver le *serviceName* de votre accès �
 
 ### Récupérer le serviceName de votre accès xDSL ou FTTH
 
-Le *serviceName* correspond à la référence interne de votre accès. Pour la retrouver, connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovhtelecom.fr%2Fmanager&ovhSubsidiary=fr), partie `Telecom`{.action}. Cliquez sur `Accès Internet`{.action} puis sélectionnez votre offre xDSL ou FTTH. La référence interne est affichée dans le cadre `Accès Internet` à droite.
+Le *serviceName* correspond à la référence interne de votre accès. Pour la retrouver, suivez ces étapes :
+
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+
+La référence interne est affichée dans le cadre `Accès Internet` à droite.
 
 ![serviceName dans espace client](images/servicename-2022.png){.thumbnail}
 
@@ -60,9 +65,9 @@ Dans un délai approximatif de deux à trois minutes, vous recevrez un e-mail, *
 
 #### Retrouver l'email dans l'espace client OVHcloud
 
-Si vous n'avez pas accès à l'adresse e-mail de contact du compte OVHcloud, vous pouvez consulter les e-mails de service depuis l'[espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovhtelecom.fr%2Fmanager&ovhSubsidiary=fr).
+Si vous n'avez pas accès à l'adresse e-mail de contact du compte OVHcloud, vous pouvez consulter les e-mails de service depuis l'[espace client OVHcloud](/links/manager).
 
-Une fois connecté, cliquez sur `E-mails de service`{.action} sous votre identifiant.
+Une fois connecté, cliquez sur votre nom puis sur `E-mails de service`{.action}.
 
 ![emails de service](images/emails.png){.thumbnail}
 

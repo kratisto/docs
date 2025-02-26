@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting - How to configure an SSL certificate"
 excerpt: "Find out how to install and manage your SSL certificate on an OVHcloud web hosting plan"
-updated: 2024-10-31
+updated: 2025-02-20
 ---
 
 ## Objective
@@ -73,8 +73,8 @@ Since this check is carried out depending on the settings for your website(s), w
 To delete the SSL certificate installed on your web hosting plan, perform the following steps:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
-2. At the top of the Control Panel, click on the `Web Cloud`{.action} tab.
-3. In the left-hand column, click on the `Hosting plans`{.action} drop-down menu.
+2. Click on the `Web Cloud`{.action} tab.
+3. In the left-hand column, click on the `Hosting plans`{.action} menu.
 4. Select the web hosting plan concerned.
 5. On the page that appears, stay in the `General Information`{.action} tab.
 6. Go to the box labelled `Configuration`.

@@ -1,7 +1,7 @@
 ---
 title: "Web Cloud Databases - Logs verwalten"
 excerpt: "Erfahren Sie hier, wie Sie die Logs von Datenbanken, die auf Ihrem Web Cloud Databases Server"
-updated: 2024-11-25
+updated: 2025-02-20
 ---
 
 ## Ziel
@@ -48,8 +48,8 @@ In manchen Situationen kann es notwendig sein, Logs Ihres Web Cloud Databases Se
 So greifen Sie auf die Logs Ihrer Web Cloud Databases in Echtzeit zu:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Web Cloud Databases`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Web Cloud Databases`{.action}.
 4. Wählen Sie die betreffende Web Cloud Databases Instanz aus.
 5. Klicken Sie auf den Tab `Logs`{.action}.
 
@@ -78,8 +78,8 @@ Um den Logverlauf Ihrer Web Cloud Databases abzurufen, muss eine SFTP-Verbindung
 So finden Sie die SFTP-Verbindungsinformationen zu Ihrer Web Cloud Databases Lösung:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Web Cloud Databases`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Web Cloud Databases`{.action}.
 4. Wählen Sie die betreffende Web Cloud Databases Lösung aus.
 5. Im Tab `Allgemeine Informationen`{.action} finden Sie den Bereich `Verbindungsinformationen`{.action}.
 6. Unter `SFTP`{.action} finden Sie alle notwendigen Informationen, um sich via SFTP zu verbinden.
@@ -131,8 +131,8 @@ Da die [Web Cloud Databases](/links/web/databases) mit vielen verschiedenen Dien
 So abonnieren Sie einen Datenstrom auf der Logs Data Platform für Ihre Web Cloud Databases:
 
 1. Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager).
-2. Klicken Sie oben im Kundencenter auf den Tab `Web Cloud`{.action}.
-3. Klicken Sie in der linken Spalte auf das Dropdown-Menü `Web Cloud Databases`{.action}.
+2. Klicken Sie auf den Tab `Web Cloud`{.action}.
+3. Klicken Sie in der linken Spalte auf `Web Cloud Databases`{.action}.
 4. Wählen Sie die betreffende Web Cloud Databases Instanz aus.
 5. Klicken Sie auf der angezeigten Seite auf den Tab `Logs`{.action}.
 6. Klicken Sie auf der rechten Seite der Box, in der Ihre Logs in Echtzeit angezeigt werden, auf den Button `Abonnieren`{.action}.

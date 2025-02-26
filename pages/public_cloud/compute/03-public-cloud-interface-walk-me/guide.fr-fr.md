@@ -91,7 +91,7 @@ Plusieurs outils de gestion sont disponibles dans votre projet Public Cloud, ils
 > La matrice ci-dessous compare les caractéristiques clés de chaque outil afin de vous aider à choisir la solution la mieux adaptée à vos besoins. Que vous soyez débutant, utilisateur intermédiaire ou expert en automatisation, cette comparaison vous permettra de mieux comprendre les avantages, la facilité d'utilisation, les niveaux de compétence requis, et la scalabilité de chaque outil.
 >
 
-| Critères/Caractéristiques                   | Espace client OVHcloud | Horizon | Openstack API |
+| Critères/Caractéristiques                   | Espace client OVHcloud | Horizon | OpenStack API |
 | ------------------------------------------- | ---------------------- | ------- | ------------- |
 | Avantages principaux                        | Interface intuitive, idéale pour une prise en main rapide. | Offre un contrôle accru pour les utilisateurs expérimentés, avec une vue avancée des paramètres. | Automatisation complète, avec intégration fluide à d'autres outils. |
 | Niveau de compétence requis                 | Accessible à tous, idéal pour les débutants ou les besoins simples | Intermédiaire, requiert une certaine expertise (Administrateurs systèmes, Ingénieurs Cloud…) | Avancé, nécessite des compétences en scripting/API (Architectes Cloud, Ingénieurs DevOps, Experts en automatisation) |

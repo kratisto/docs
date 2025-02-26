@@ -398,7 +398,7 @@ Wenn Sie versuchen, auf Ihr Roundcube Webmail zuzugreifen, wird folgende Meldung
 
 ```console
 FEHLER BEI DER ANFORDERUNGSÜBERPRÜFUNG
-Zu Ihrem Schutz ist der Zugriff auf diese Ressource gegen CSFR-Angriffe geschützt.
+Zu Ihrem Schutz ist der Zugriff auf diese Ressource gegen CSRF-Angriffe geschützt.
 Wenn Sie das sehen, haben Sie sich wahrscheinlich nicht abgemeldet, bevor Sie die Web-App verlassen haben.
 Um fortzufahren, ist nun eine menschliche Interaktion erforderlich.
 Bitte wenden Sie sich an den Administrator Ihres Servers.

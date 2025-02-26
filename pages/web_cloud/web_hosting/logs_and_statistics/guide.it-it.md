@@ -1,7 +1,7 @@
 ---
 title: "Hosting Web - Consultare le statistiche e i log di un sito Web"
 excerpt: "Questa guida ti mostra come consultare le statistiche e i log del tuo sito Web grazie alla tua soluzione di hosting Web"
-updated: 2024-02-27
+updated: 2025-02-20
 ---
 
 ## Obiettivo
@@ -20,8 +20,8 @@ L’accesso ai log e alle statistiche del sito Web è incluso nella soluzione di
 Per accedere ai diversi dati statistici e log dell’hosting Web, esegui queste operazioni: 
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `Statistiche e log`{.action}.
 
@@ -108,8 +108,8 @@ https://logs.cluster000.hosting.ovh.net/domain.tld/
 Puoi anche recuperare il link di accesso alle statistiche / log direttamente dal tuo Spazio Cliente:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-2. Nella riga superiore dello Spazio Cliente, clicca sulla scheda `Web Cloud`{.action}.
-3. Nella colonna di sinistra, clicca sul menu a tendina `Hosting`{.action}.
+2. Clicca sulla scheda `Web Cloud`{.action}.
+3. Nella colonna di sinistra, clicca sul menu `Hosting`{.action}.
 4. Seleziona il tuo hosting Web.
 5. Clicca sulla scheda `Statistiche e log`{.action}.
 6. Accedi alla sezione `Statistiche delle visite`{.action}.

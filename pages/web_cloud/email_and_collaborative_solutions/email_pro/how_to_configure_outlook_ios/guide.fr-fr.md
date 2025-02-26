@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Configurer son compte e-mail sur Outlook pour iOS"
 excerpt: "Découvrez comment configurer votre adresse E-mail Pro sur l'application mobile Outlook pour iOS"
-updated: 2025-02-11
+updated: 2025-02-13
 ---
 
 <style>
@@ -44,7 +44,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 - **Lors du premier démarrage de l'application** : un assistant de configuration s'affiche, appuyez sur `Ajouter un compte`{.action}.
 
-![outlook ios](images/outlook-app-ios-add01.png){.thumbnail .w-400 .h-600}
+![outlook iOS](images/outlook-app-ios-add01.png){.thumbnail .w-400 .h-600}
 
 - **Si un compte a déjà été paramétré** :
     1. Appuyez sur le cercle contenant les initiales du compte e-mail consulté ou l'icône de maison « &#8962; » dans la partie supérieure gauche de votre écran.
@@ -53,7 +53,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
     4. Appuyez sur `Ajouter un compte`{.action}.
     5. Appuyez sur `Compte de courrier`{.action}.
 
-![outlook ios](images/outlook-app-ios-add02.png){.thumbnail .w-400 .h-600}
+![outlook iOS](images/outlook-app-ios-add02.png){.thumbnail .w-400 .h-600}
 
 Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
@@ -62,7 +62,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> Saisissez votre adresse e-mail et appuyez sur `Ajouter un compte`{.action}.
 >>
->> ![outlook ios](images/outlook-app-ios-add-step01.png){.thumbnail .w-400 .h-600}
+>> ![outlook iOS](images/outlook-app-ios-add-step01.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 2**
 >>
@@ -71,7 +71,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - Si vous avez la mention « **IMAP** » en haut de la page, passez à l'étape 3.
 >> - Si la fenêtre de paramètre du compte affiche « **Exchange** » en haut, appuyez sur le bouton `?` dans le coin supérieur droit de l'écran **(1)**, puis choisissez `Changer de fournisseur de compte`{.action} **(2)**. Sélectionnez alors `IMAP`**(3)** et passez à l'étape 3.
 >>
->> ![outlook ios](images/outlook-app-ios-add-step02.png){.thumbnail .w-400 .h-600}
+>> ![outlook iOS](images/outlook-app-ios-add-step02.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 3**
 >>
@@ -85,7 +85,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> Pour finaliser la configuration, appuyez sur `Connexion`{.action}.
 >>
->> ![outlook ios](images/outlook-app-ios-add-step03-imap-emailpro.png){.thumbnail .w-400 .h-600}
+>> ![outlook iOS](images/outlook-app-ios-add-step03-imap-emailpro.png){.thumbnail .w-400 .h-600}
 >>
 
 > [!warning]
@@ -106,7 +106,7 @@ OVHcloud propose aussi une application web permettant d'accéder à votre adress
 4. Sélectionnez le compte concerné.
 5. Appuyez sur `Modifier les informations de connexion`{.action}.
 
-![outlook ios](images/outlook-app-ios-modify-account-01.png){.thumbnail .w-400 .h-600}
+![outlook iOS](images/outlook-app-ios-modify-account-01.png){.thumbnail .w-400 .h-600}
 
 Retrouvez les paramètres à **l'étape 3** du chapitre [Ajouter le compte](#add-account).
 
@@ -118,7 +118,7 @@ Retrouvez les paramètres à **l'étape 3** du chapitre [Ajouter le compte](#add
 4. Sélectionnez le compte concerné.
 5. Appuyez sur `Suppression du compte`{.action}.
 
-![outlook ios](images/outlook-app-ios-modify-delete-01.png){.thumbnail .w-400 .h-600}
+![outlook iOS](images/outlook-app-ios-modify-delete-01.png){.thumbnail .w-400 .h-600}
 
 ### Rappel des paramètres POP, IMAP et SMTP <a name="popimap-settings"></a>
 
