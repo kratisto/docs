@@ -1,5 +1,5 @@
 ---
-title: 'Jak uruchomić instancję w chmurze publicznej na wolumenie startowym'
+title: 'Jak uruchomić instancję Public Cloud na woluminie bootowalnym'
 excerpt: 'Dowiedz się, jak uruchomić instancję na woluminie startowym'
 updated: 2025-02-26
 ---
@@ -23,7 +23,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 
 > [!warning]
 >
-> W przypadku aktualnej wersji OpenStack, z wolumenem bootowalnym, tryb rescue-pro nie jest dostępny w instancji z kopią zapasową.
+> W aktualnej wersji OpenStack tryb rescue-pro nie jest dostępny na instancji uruchomionej z poziomu wolumenu bootowalnego.
 >
 
 ## Wymagania
@@ -71,7 +71,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **Klient OpenStack**
->> Możesz utworzyć wolumin rozruchowy na podstawie istniejącego obrazu, woluminu lub migawki. Ta procedura pokazuje, jak utworzyć wolumen z obrazu i użyć go do uruchomienia instancji.
+>> Wolumin rozruchowy można utworzyć na podstawie istniejącego obrazu, woluminu lub snapshota woluminu. Ta procedura pokazuje, jak utworzyć wolumen z obrazu i użyć go do uruchomienia instancji.
 >>
 >> ```console
 >> $ openstack image list
@@ -133,7 +133,9 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
 >>
->> W oknie dialogowym `Launch Instance` na karcie Źródło wybierz "Volume" w polu `Select Boot Source`.
+>> W oknie dialogowym `Launch Instance` uzupełnij wymagane informacje. Więcej szczegółów znajdziesz w przewodniku [Tworzenie instancji w interfejsie Horizon](/pages/public_cloud/compute/create_instance_in_horizon).
+>>
+>> W zakładce `Source` wybierz "Volume" w polu `Select Boot Source`.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
 >>
@@ -236,7 +238,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> Wyświetl wolumin na serwerze, aby upewnić się, że jest prawidłowo podłączony.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+

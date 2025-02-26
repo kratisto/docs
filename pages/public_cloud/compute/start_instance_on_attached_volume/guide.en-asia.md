@@ -23,7 +23,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 
 > [!warning]
 >
-> Regarding the current OpenStack version, with a bootable volume, the rescue-pro mode is not available on a volume-backed instance.
+> With the current version of OpenStack, rescue-pro mode is not available on an instance booted via a bootable volume.
 >
 
 ## Requirements
@@ -70,7 +70,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **OpenStack client**
->> You can create a bootable volume from an existing image, volume, or snapshot. This procedure shows you how to create a volume from an image and use the volume to boot an instance.
+>> You can create a bootable volume from an existing image, volume, or volume snapshot. This procedure shows you how to create a volume from an image and use the volume to boot an instance.
 >>
 >> ```console
 >> $ openstack image list
@@ -132,7 +132,9 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
 >>
->> In the Launch Instance dialog box, in the Source tab, choose "Volume" in the `Select Boot Source` field.
+>> In the `Launch Instance` dialog box, enter the information requested. Refer to the guide [Create an instance from the Horizon interface](/pages/public_cloud/compute/create_instance_in_horizon) for more details.
+>>
+>> In the Source tab, choose "Volume" in the `Select Boot Source` field.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
 >>
@@ -235,7 +237,7 @@ You can also deploy an operating system to and from a volume. The Public Cloud i
 >> List the volume on the server to make sure it's properly attached.
 >>
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+

@@ -1,5 +1,5 @@
 ---
-title: 'Cómo iniciar una instancia de cloud público en un volumen de arranque'
+title: 'Cómo iniciar una instancia de Public Cloud en un volumen de arranque'
 excerpt: 'Cómo iniciar una instancia en un volumen de arranque'
 updated: 2025-02-26
 ---
@@ -23,7 +23,7 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 
 > [!warning]
 >
-> En cuanto a la versión actual de OpenStack, con un volumen de arranque, el modo rescue-pro no está disponible en una instancia con copia de seguridad en volumen.
+> Con la versión actual de OpenStack, el modo rescue-pro no está disponible en una instancia iniciada a través de un volumen de arranque.
 >
 
 ## Requisitos
@@ -70,7 +70,7 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **Cliente OpenStack**
->> Puede crear un volumen de arranque a partir de una imagen, volumen o instantánea existentes. Este procedimiento muestra cómo crear un volumen a partir de una imagen y cómo utilizar el volumen para iniciar una instancia.
+>> Puede crear un volumen de arranque a partir de una imagen, un volumen o un snapshot de un volumen existente. Este procedimiento muestra cómo crear un volumen a partir de una imagen y cómo utilizar el volumen para iniciar una instancia.
 >>
 >> ```console
 >> $ openstack image list
@@ -133,7 +133,9 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> 
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
 >> 
->> En el cuadro de diálogo `Launch Instance`, en la pestaña Origen, seleccione "Volume" en el campo `Select Boot Source`.
+>> En el cuadro de diálogo `Launch Instance`, complete la información solicitada. Para más información, consulte la guía [Crear una instancia desde Horizon](/pages/public_cloud/compute/create_instance_in_horizon).
+>>
+>> En la pestaña Source, seleccione "Volume" en el campo `Select Boot Source`.
 >> 
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
 >> 
@@ -236,7 +238,7 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 >> Enumere el volumen en el servidor para asegurarse de que esté correctamente conectado.
 >> 
 >> ```console
->> $ openstack server volume list InstanceTest
+>> $ openstack server volume list InstanceTest2
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> | ID | Device | Server ID | Volume ID | Tag |
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
