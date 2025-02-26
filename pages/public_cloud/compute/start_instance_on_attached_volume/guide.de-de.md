@@ -1,89 +1,87 @@
---- 
-title: 'Jak uruchomić instancję w chmurze publicznej na wolumenie startowym'
-excerpt: 'Dowiedz się, jak uruchomić instancję na woluminie startowym'
+---
+title: Starten einer Public Cloud Instanz von einem bootfähigen Volume
+excerpt: Erfahren Sie hier, wie Sie eine Instanz von einem bootfähigen Volume starten
 updated: 2025-02-26
---- 
+---
 
-## Wprowadzenie
+## Ziel
 
-Instancje Public Cloud są dostarczane z dyskiem skopiowanym z obrazu systemu (Debian 12, Windows Server, etc.). Możliwe jest również użycie dodatkowych wolumenów - dysków stałych, które pozwolą na przechowywanie danych.
+Public Cloud Instanzen werden mit einer Disk geliefert, die von einem System-Image kopiert wurde (Debian 12, Windows Server, etc.). Es können auch zusätzliche Volumes verwendet werden, also persistente Disks, auf denen Daten gespeichert werden können.
 
-Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten sposób instancja Public Cloud zostanie uruchomiona w tym woluminie, a nie na oryginalnym dysku.
+Sie können auch ein Betriebssystem von einem Volume aus oder auf einem Volume bereitstellen. Die Public Cloud Instanz startet dann von diesem Volume statt der ursprünglichen Disk.
 
-**Niniejszy przewodnik wyjaśnia, jak uruchomić instancję na podłączonym wolumenie.**
+**Diese Anleitung erklärt, wie Sie eine Instanz von einem angeschlossenen Volume starten.**
 
 ![public-cloud](images/3704.png){.thumbnail}
 
 > [!success]
 >
-> OpenStack pozwala na uruchomienie z wolumenu.
-> Chodzi o to, aby wolumin był bootowalny i aby można było uruchomić instancję z tego woluminu.
-> Zmiany spowodują usunięcie oryginalnego dysku, gdy nowy wolumin przejmie jego funkcje.
-> Funkcje opisane w tym przewodniku eliminują potrzebę dostępu do oryginalnego dysku i dzięki temu wykorzystują wolumin.
+> OpenStack erlaubt es, nativ von einem Volume zu booten.  
+> Dabei wird das Volume bootfähig gemacht und die Instanz von diesem Volume gestartet.  
+> Diese Änderungen führen dazu, dass die Instanz-Disk nicht mehr angezeigt wird, wenn das neue Volume den Betrieb übernimmt.  
+> Die nachfolgend beschriebenen Funktionen machen den Zugriff auf die Instanz-Disk obsolet und nutzen somit das Volume.
 
 > [!warning]
 >
-> W przypadku aktualnej wersji OpenStack, z wolumenem bootowalnym, tryb rescue-pro nie jest dostępny w instancji z kopią zapasową.
+> Für die aktuelle Version von OpenStack mit einem bootfähigen Volume ist die OVHcloud Rescue-Distribution, wie Sie für eine Instanz verwendbar ist, nicht verfügbar.
 >
 
-## Wymagania
+## Voraussetzungen
 
-- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/loading_presentation_horizon)
-- [Pobieranie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Sie haben Zugang zum [Horizon-Interface](/pages/public_cloud/compute/introducing_horizon). 
+- Sie haben [OpenStack Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables) eingerichtet.
 
+## In der praktischen Anwendung
 
-## Instrukcje
-
-### Tworzenie wolumenu rozruchowego z obrazu.
+### Erstellen eines Boot-Volumes von einem Image
 
 > [!tabs]
 > **Horizon**
->> Zaloguj się do [interfejsu Horizon](https://horizon.cloud.ovh.net/auth/login/).
+>> Loggen Sie sich ins [Horizon-Interface](https://horizon.cloud.ovh.net/auth/login/) ein.
 >>
->> Wybierz odpowiedni region z menu rozwijanego w lewym górnym rogu.
+>> Wählen Sie oben links die korrekte Region aus.
 >>
->> W karcie Projekt otwórz zakładkę `Volumes`{.action} i kliknij kategorię `Volumes`{.action}.
+>> Öffnen Sie im Tab Project `Volumes`{.action} und klicken Sie auf die Kategorie `Volumes`{.action}.
 >>
->> Kliknij `Create Volume`{.action}.
+>> Klicken Sie auf `Create Volume`{.action}.
 >>
 >> ![public-cloud](images/create-a-volume-2.png){.thumbnail width="800"}
 >>
->> W wyświetlonym oknie dialogowym wprowadź lub wybierz następujące wartości:
+>> Geben Sie im angezeigten Dialogfeld die folgenden Werte ein bzw. wählen Sie diese aus:
 >>
->> | Informacje | Opis |
->> | ---  | ---  |
->> | Volume Name | Określ nazwę woluminu |
->> | Descriptiom | Opcjonalnie, podaj krótki opis wolumenu |
->> | Wolumen Źródłowy | Wybierz opcję `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail} |
->> | Use image as a source | Możesz wybrać obraz z listy.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail} |
->> | Type | W zależności od typu wolumenu, którego chcesz użyć |
->> | Size (GB) | Rozmiar wolumenu w gigabajtach (GiB) |
+>> | Information | Beschreibung |
+>> | --- | --- |
+>> | Volume Name | Geben Sie einen Namen für das Volume ein. |
+>> | Description | Optional, eine kurze Beschreibung des Volumes. |
+>> | Volume Source | Wählen Sie die Option `Image`.<br><br> ![public-cloud](images/create-a-volume-3.png){.thumbnail} |
+>> | Use image as a source | Sie können das Image aus der Liste auswählen.<br><br> ![public-cloud](images/create-a-volume-4.png){.thumbnail} |
+>> | Type | Abhängig vom Typ des zu verwendenden Volumes. |
+>> | Size (GB) | Volumegröße in Gigabyte (GB). |
 >> | Availability Zone | nova <br><br> ![public-cloud](images/create-a-volume-5.png){.thumbnail} |
 >>
->> Kliknij `Create Volume`{.action}.
+>> Klicken Sie auf `Create Volume`{.action}.
 >>
->> Wolumen będzie w stanie *`creating`*, a następnie *`downloading`* zanim będzie dostępny.
+>> Das Volume befindet sich im Status `creating` und dann im Status `downloading`, bevor es verfügbar ist.
 >>
 >> ![public-cloud](images/create-a-volume-8.png){.thumbnail width="800"}
 >>
->> Jak widać na poniższym obrazku lub po kliknięciu na nazwę wolumenu, jest on ustawiony jako bootowalny (*bootable*).
+>> Wie in der Abbildung unten oder durch Klicken auf den Namen des Volumes dargestellt, wird es als bootfähig (*bootable*) definiert.
 >>
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
-> **Klient OpenStack**
->> Możesz utworzyć wolumin rozruchowy na podstawie istniejącego obrazu, woluminu lub migawki. Ta procedura pokazuje, jak utworzyć wolumen z obrazu i użyć go do uruchomienia instancji.
+> **OpenStack-Client**
+>> Sie können ein Startvolume aus einem vorhandenen Image, Volume oder Snapshot erstellen. Im folgenden Beispiel-Verfahren wird gezeigt, wie Sie ein Volume aus einem Imnage erstellen und das Volume zum Starten einer Instanz verwenden.
 >>
 >> ```console
 >> $ openstack image list
 >> ```
->>
 >> > [!primary]
 >> >
->> > Zapisz identyfikator lub nazwę obrazu, którego chcesz użyć.
+>> > Notieren Sie sich die ID oder den Namen des Image, das Sie verwenden möchten.
 >>
->> Utwórz bootowalny wolumen 10 GB o wysokiej prędkości nazwany **volume_ubuntu** z obrazu Ubuntu 24.04:
+>> Erstellen Sie ein bootfähiges Volume mit hoher Geschwindigkeit und einer Speicherkapazität von 10 GB mit dem Namen **volume_ubuntu** aus einem Ubuntu 24.04 Image.
 >>
->> Możesz zainstalować obraz na woluminie, używając argumentu `--image`:
+>> Sie können ein Image auf einem Volume mit dem Parameter `--image` installieren:
 >>
 >> ```console
 >> $ openstack volume create --type high-speed --image 2c2e28dc-9124-49c3-b92d-7f00bd83ac86 --size 10 volume_ubuntu
@@ -112,51 +110,51 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> +---------------------+--------------------------------------+
 >> ```
 >>
->> W tym poleceniu, **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** to Ubuntu ID 24.04.
+>> In diesem Befehl ist **2c2e28dc-9124-49c3-b92d-7f00bd83ac86** die Image ID für Ubuntu 24.04.
 >>
 >> > [!primary]
 >> >
->> > Cinder sprawia, że wolumin jest bootowalny po przekazaniu parametru `--image`.
+>> > Cinder macht ein Volume bootfähig, wenn der Parameter `--image` übergeben wird.
 >>
 
-### Uruchom instancję korzystając z wolumenu bootowalnego
+### Eine Instanz mit einem bootfähigen Volume starten
 
 > [!tabs]
 > **Horizon**
->> Zaloguj się do [interfejsu Horizon](https://horizon.cloud.ovh.net/auth/login/).
+> Loggen Sie sich ins [Horizon-Interface](https://horizon.cloud.ovh.net/auth/login/).
 >>
->> Wybierz odpowiedni region z menu rozwijanego w lewym górnym rogu.
+>> Wählen Sie oben links die korrekte Region aus.
 >>
->> W karcie Projekt otwórz zakładkę `Compute`{.action} i kliknij `Instances`{.action} kategorii.
+>> Öffnen Sie im Tab Projekt `Compute`{.action} und klicken Sie auf die Kategorie `Instances`{.action}.
 >>
->> Kliknij na `Launch Instance`{.action}.
+>> Klicken Sie auf `Launch Instance`{.action}.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-1.png){.thumbnail width="800"}
 >>
->> W oknie dialogowym `Launch Instance` na karcie Źródło wybierz "Volume" w polu `Select Boot Source`.
+>> Wählen Sie im Dialogfeld `Launch Instance` auf dem Tab Quelle im Feld `Select Boot Source` die Option "Volume".
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-3.png){.thumbnail}
 >>
->> Pojawi się nowe pole wyboru objętości. Z listy można wybrać utworzony wcześniej wolumen.
+>> Ein neues Volume-Auswahlfeld wird angezeigt. Sie können das zuvor erstellte Volume aus der Liste auswählen.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-4.png){.thumbnail}
 >>
->> Kliknij na `Launch Instance`{.action}.
+>> Klicken Sie auf `Launch Instance`{.action}.
 >>
->> Instancja będzie w stanie `build`, a następnie w stanie `Block Device Mapping`, zanim stanie się dostępna.
+>> Die Instanz befindet sich im Status `build` und dann im Status `Block Device Mapping`, bevor sie verfügbar ist.
 >>
->> Instancja w końcu będzie miała przypisany wolumen.
+>> Die Instanz wird zuletzt mit dem Volume verbunden.
 >>
 >> ![public-cloud](images/create-an-instance-with-a-bootable-volume-9.png){.thumbnail width="800"}
 >>
-> **Klient OpenStack**
->> Utwórz instancję, określając wolumin bootowalny **volume_ubuntu** jako urządzenie startowe.
+> **OpenStack-Client**
+>> Erstellen einer Instanz mit dem bootfähigen Volume **volume_ubuntu** als Bootgerät:
 >>
 >> ```console
 >> openstack server create --volume volume_ubuntu --flavor d2-2 --key-name publickey --nic net-id=Ext-Net InstanceTest
 >> ```
 >>
->> Wyświetl woluminy, aby upewnić się, że stan zmienił się na *in-use* i że wolumin prawidłowo raportuje przyłączenie:
+>> Volumes auflisten, um sicherzustellen, dass sich der Status zu *in-use* geändert hat und dass das Volume korrekt angeschlossen wird:
 >>
 >> ```console
 >> $ openstack volume list
@@ -167,7 +165,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> +--------------------------------------+---------------+--------+------+--------------------------------------+
 >> ```
 >>
->> Wyświetl woluminy przypisane do instancji **InstanceTest**:
+>> Mit der Instanz **InstanceTest** verbundene Volumes auflisten:
 >>
 >> ```console
 >> $ openstack server volume list InstanceTest
@@ -180,7 +178,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >>
 >> > [!primary]
 >> >
->> > Możesz również utworzyć instancję, używając wybranego obrazu i żądając zachowania "boot from volume".
+>> > Sie können auch eine Instanz erstellen, indem Sie das Image und den Parameter "boot from volume" übergeben.
 >>
 >> ```console
 >> $ openstack server create --flavor d2-2 --key-name publickey --nic net-id=Ext-Net --image b680f0aa-8eb8-4ac8-b008-2a90bb71af4f --boot-from-volume 10 InstanceTest2
@@ -217,11 +215,11 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> +-----------------------------+---------------------------------------------+
 >> ```
 >>
->> W powyższym poleceniu `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` jest identyfikatorem obrazu Debiana 12.
+>> Im obigen Befehl ist `b680f0aa-8eb8-4ac8-b008-2a90bb71af4f` die Image ID für Debian 12.
 >>
->> - Wyświetl woluminy:
+>> - Volumes auflisten:
 >>
->> Wyświetl listę woluminów, aby upewnić się, że stan zmienił się na *in-use* i że wolumin poprawnie zgłasza dołączenie.
+>> Alle Volumes auflisten, um sicherzustellen, dass der Status zu *in-use* geändert wurde und dass das Volume den Anschluss korrekt signalisiert:
 >>
 >> ```console
 >> $ openstack volume list
@@ -233,7 +231,7 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> +--------------------------------------+---------------+--------+------+----------------------------------------+
 >> ```
 >>
->> Wyświetl wolumin na serwerze, aby upewnić się, że jest prawidłowo podłączony.
+>> Anzeigen des Volume auf dem Server, um sicherzustellen, dass es ordnungsgemäß angeschlossen ist:
 >>
 >> ```console
 >> $ openstack server volume list InstanceTest
@@ -244,6 +242,6 @@ Możesz również wdrożyć system operacyjny z wolumenu i na wolumin. W ten spo
 >> +--------------------------------------+----------+--------------------------------------+--------------------------------------+------+
 >> ```
 
-## Krok w przyszłość
+## Weiterführende Informationen
 
-Przyłącz się do [społeczności użytkowników](/links/community).
+Treten Sie unserer [User Community](/links/community) bei.
