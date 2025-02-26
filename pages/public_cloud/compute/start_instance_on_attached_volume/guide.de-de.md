@@ -70,7 +70,7 @@ Sie können auch ein Betriebssystem von einem Volume aus oder auf einem Volume b
 >> ![public-cloud](images/create-a-volume-9.png){.thumbnail width="800"}
 >>
 > **OpenStack-Client**
->> Sie können ein Startvolume aus einem vorhandenen Image, Volume oder Snapshot erstellen. Im folgenden Beispiel-Verfahren wird gezeigt, wie Sie ein Volume aus einem Imnage erstellen und das Volume zum Starten einer Instanz verwenden.
+>> Sie können ein Startvolume aus einem vorhandenen Image, Volume oder Snapshot erstellen. Im folgenden Beispiel-Verfahren wird gezeigt, wie Sie ein Volume aus einem Image erstellen und das Volume zum Starten einer Instanz verwenden.
 >>
 >> ```console
 >> $ openstack image list

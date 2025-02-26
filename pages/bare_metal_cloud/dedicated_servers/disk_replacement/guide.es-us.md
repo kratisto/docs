@@ -4,10 +4,6 @@ excerpt: 'Cómo saber si falla un disco y solicitar su sustitución'
 updated: 2018-06-21
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
-
 ## Objetivo
 
 Si detecta un fallo en un disco o nuestro sistema le ha enviado una notificación por correo electrónico informándole del fallo de un disco, debe adoptar las medidas necesarias para sustituirlo lo antes posible.
@@ -23,7 +19,8 @@ Si detecta un fallo en un disco o nuestro sistema le ha enviado una notificació
 
 ## Requisitos
 
-- Estar conectado al [servidor dedicado de OVHcloud](/links/bare-metal/bare-metal){.external} por SSH con acceso root (Linux).
+- Tener un [servidor dedicado](/links/bare-metal/bare-metal).
+- Tener acceso de administrador (sudo) al servidor por SSH.
 
 ## Procedimiento
 
@@ -154,7 +151,7 @@ Si desea solicitar la sustitución de un disco, solo tiene que crear un tíquet 
 
 > [!primary]
 >
-> Este tipo de sustitución solo es posible en los servidores FS-MAX y los servidores Big-HG con tarjeta RAID.
+> Este tipo de sustitución solo es posible para los [servidores dedicados](/links/bare-metal/bare-metal) con una tarjeta RAID.
 > 
 
 Para la sustitución en caliente en un servidor con tarjeta MegaRAID, una vez que la intervención esté programada deberá hacer parpadear el LED del disco que quiera sustituir para facilitar su identificación por los técnicos.
@@ -209,4 +206,8 @@ Si tiene un servidor con RAID por software, deberá reconstruir el RAID usted mi
 
 [Modo de rescate](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
 
-Interactúe con nuestra comunidad de usuarios en [https://community.ovh.com](https://community.ovh.com/en/){.external}.
+Para servicios especializados (posicionamiento web, desarrollo...), póngase en contacto con los [partners de OVHcloud](/links/partner).
+
+Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
+
+Interactúe con nuestra [comunidad de usuarios](/links/community).

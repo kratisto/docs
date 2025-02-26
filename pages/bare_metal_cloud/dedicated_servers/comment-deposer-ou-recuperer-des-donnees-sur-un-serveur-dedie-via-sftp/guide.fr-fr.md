@@ -40,7 +40,7 @@ Différentes options existent pour transférer des fichiers entre un périphéri
 
 Vous aurez besoin de l'adresse IP de votre serveur que vous pouvez retrouver dans votre [espace client OVHcloud](/links/manager) ainsi que du nom du compte d'utilisateur à utiliser pour la connexion SSH. N’hésitez pas à consulter nos guides « Premiers pas » si vous souhaitez obtenir plus de détails sur ce sujet :
 
-- [Serveur dédié](/pages/bare_metal_cloud/serveurs_dedies/getting-started-with-dedicated-server)
+- [Serveur dédié](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 - [Serveur dédié de la gamme **Eco**](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server-eco)
 - [VPS](/pages/bare_metal_cloud/virtual_private_servers/starting_with_a_vps)
 

@@ -98,7 +98,7 @@ A progressão da transferência de dados será então apresentada na fila em bai
 
 ## Quer saber mais?
 
-[Introdução ao SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introducao)
+[Introdução ao SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)
 
 [Configuração das contas de utilizador e do acesso root num servidor](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds)
 

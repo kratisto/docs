@@ -19,7 +19,8 @@ Se verificar que um disco tem problemas ou que o nosso sistema lhe enviou uma no
 
 ## Requisitos
 
-- Estar conectado em SSH ao [servidor dedicado OVHcloud](https://www.ovh.pt/servidores_dedicados/){.external} com acesso *root* (Linux).
+- Dispor de um [servidor dedicado](/links/bare-metal/bare-metal).
+- Ter um acesso administrador (sudo) ao seu servidor via SSH.
 
 ## Instruções
 
@@ -146,8 +147,8 @@ Como já indicado, os números de todos os discos são importantes. Eles serão 
 #### Substituir o disco a quente (sem desligar o servidor)
 
 > [!primary]
->
-> Este tipo de substituição só é possível para os servidores [FS-MAX](https://www.ovh.pt/servidores_dedicados/armazenamento/1801fs05.xml){.external} e para os servidores [Big-HG](https://www.ovh.pt/servidores_dedicados/hg/1801bhg01.xml){.external} com recurso a uma placa RAID.
+> 
+Este tipo de substituição só é possível para os [servidores dedicados](/links/bare-metal/bare-metal) com uma placa RAID.
 > 
 
 No caso de uma substituição a quente num servidor com uma placa MegaRAID, quando a intervenção for programada ser-lhe-á pedido que faça piscar o LED do disco a substituir, para facilitar o trabalho dos técnicos.
@@ -202,4 +203,8 @@ Se possui um servidor em RAID por software, convém que execute manualmente a re
 
 [Modo rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Fale com a nossa comunidade de utilizadores: <https://community.ovh.com/en/>.
+Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
+
+Se pretender usufruir de uma assistência na utilização e na configuração das suas soluções OVHcloud, consulte as nossas diferentes [ofertas de suporte](/links/support).
+
+Fale com nossa [comunidade de utilizadores](/links/community).

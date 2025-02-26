@@ -19,7 +19,8 @@ W przypadku gdy stwierdzisz awarię dysku lub gdy otrzymasz wiadomość e-mail o
 
 ## Wymagania początkowe
 
-- Połączenie przez SSH z Twoim [serwerem dedykowanym](https://www.ovh.pl/serwery_dedykowane/all_servers.xml){.external} z dostępem *root* (Linux).
+- Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal).
+- Dostęp administratora (sudo) do serwera przez SSH.
 
 ## W praktyce
 
@@ -147,7 +148,7 @@ Jak zostało zasygnalizowane wcześniej, istotne są numery wszystkich dysków. 
 
 > [!primary]
 >
-> Ten typ wymiany dysku możliwy jest tylko w przypadku serwerów [FS-MAX](https://www.ovh.pl/serwery_dedykowane/storage/1801fs05.xml){.external} oraz [Big-HG](https://www.ovh.pl/serwery_dedykowane/hg/1801bhg01.xml){.external} z zainstalowaną macierzą RAID.
+> Ten typ wymiany jest możliwy tylko w przypadku [serwerów dedykowanych](/links/bare-metal/bare-metal) z kartą RAID.
 > 
 
 W przypadku wymiany dysku w serwerze z kartą MegaRAID (wymiana bez wyłączania serwera), włącz diodę LED w dysku przeznaczonym do wymiany w momencie, gdy operacja techniczna jest zaprogramowana. Ułatwi to pracę naszym zespołom.
@@ -202,4 +203,8 @@ Jeśli posiadasz serwer z programową macierzą RAID, uruchom ręcznie ponowną 
 
 [Trybu Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj się z [partnerami OVHcloud](/links/partner).
+
+Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
+
+Dołącz do [grona naszych użytkowników](/links/community).

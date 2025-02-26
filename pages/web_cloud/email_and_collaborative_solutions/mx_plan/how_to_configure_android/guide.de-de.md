@@ -113,7 +113,7 @@ Wenn Ihr E-Mail-Account eingerichtet ist, können Sie ab sofort E-Mails über Ih
 
 ### POP-, IMAP- und SMTP-Einstellungen
 
-Für den Empfang von E-Mails empfehlen wir Ihnen bei der Auswahl des Kontotyps die Verwendung von **IMAP**. Sie können auch **POP** auswählen. Wie diese funktionieren, erfahren Sie im Abschnitt [„POP oder IMAP, was ist der Unterschied?“](#popimap)
+Für den Empfang von E-Mails empfehlen wir Ihnen bei der Auswahl des Kontotyps die Verwendung von **IMAP**. Sie können aber auch **POP** auswählen. Wie diese funktionieren, erfahren Sie im Abschnitt [„POP oder IMAP, was ist der Unterschied?“](#popimap)
 
 - **POP-Konfiguration**
 

@@ -1,5 +1,5 @@
 ---
-title: Tutorial - PuTTY für SSH-Verbindungen und Authentifizierung verwenden
+title: PuTTY für SSH-Verbindungen und Authentifizierung verwenden
 excerpt: Erfahren Sie hier, wie Sie mit der SSH Client-Software PuTTY auf Cloud Server oder Webhostings zugreifen und SSH-Schlüssel verwalten können
 updated: 2024-11-11
 ---

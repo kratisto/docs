@@ -1,6 +1,6 @@
 ---
-title: Remplacer un disque défectueux
-excerpt: Découvrez comment identifier un disque défectueux et demander son remplacement
+title: 'Remplacer un disque défectueux'
+excerpt: 'Découvrez comment identifier un disque défectueux et demander son remplacement'
 updated: 2018-06-21
 ---
 
@@ -11,15 +11,15 @@ Si vous constatez un défaut de disque ou que notre système vous a envoyé une 
 **Ce guide vous explique comment identifier qu'un disque est défectueux et comment faire la demande de remplacement auprès de nos équipes.**
 
 > [!warning]
+> OVHcloud fournit des services dont la configuration et la gestion relèvent de votre responsabilité. Il est donc de votre responsabilité de vous assurer de leur bon fonctionnement.
 >
-> OVHcloud met à votre disposition des services dont la responsabilité vous revient. En effet, n’ayant aucun accès à ces machines, nous n’en sommes pas les administrateurs et ne pourrons vous fournir d'assistance. Il vous appartient de ce fait d’en assurer la gestion logicielle et la sécurisation au quotidien.
->
-> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr-ca/directory/) si vous éprouvez des difficultés ou des doutes concernant l’administration, l’utilisation ou la sécurisation d’un serveur. Plus d’informations dans la section « Aller plus loin » de ce guide.
+> Ce guide est conçu pour vous aider avec les tâches courantes. Néanmoins, nous vous recommandons de contacter un [prestataire de services spécialisé](/links/partner) ou de contacter la [communauté OVHcloud](/links/community) si vous rencontrez des difficultés. Plus d'informations dans la section [Aller plus loin](#gofurther) de ce guide.
 >
 
 ## Prérequis
 
-- Être connecté en SSH à votre [serveur dédié OVHcloud](/links/bare-metal/bare-metal){.external} avec l'accès *root* (Linux).
+- Posséder un [serveur dédié](/links/bare-metal/bare-metal).
+- Avoir un accès administrateur (sudo) à votre serveur via SSH.
 
 ## En pratique
 
@@ -39,7 +39,7 @@ Aucun changement de disque ne sera effectué sans :
 
 #### Serveur disposant d'un RAID logiciel
 
-Si vous possédez un serveur disposant d'un RAID logiciel, référez-vous au guide [« RAID Logiciel »](/pages/bare_metal_cloud/dedicated_servers/raid_soft){.external} afin de trouver les disques installés sur votre serveur.
+Si vous possédez un serveur disposant d'un RAID logiciel, référez-vous au guide [« RAID Logiciel »](/pages/bare_metal_cloud/dedicated_servers/raid_soft) afin de trouver les disques installés sur votre serveur.
 
 Une fois que vous avez trouvé le chemin d'accès à vos disques, vous pouvez les tester en utilisant la commande `smartctl` de cette manière :
 
@@ -83,7 +83,7 @@ La ligne importante dans notre cas sera donc la suivante :
 
 #### Serveur disposant d'un RAID matériel
 
-Si vous possédez un serveur disposant d'un RAID matériel, référez-vous au guide [« RAID Matériel »](/pages/bare_metal_cloud/dedicated_servers/raid_hard){.external} et utilisez la procédure concernant votre type de contrôleur RAID pour trouver les chemins d'accès à vos disques.
+Si vous possédez un serveur disposant d'un RAID matériel, référez-vous au guide [« RAID Matériel »](/pages/bare_metal_cloud/dedicated_servers/raid_hard) et utilisez la procédure concernant votre type de contrôleur RAID pour trouver les chemins d'accès à vos disques.
 
 Une fois que vous avez trouvé le chemin d'accès à vos disques, vous pouvez les tester en utilisant la commande `smartctl` de cette manière :
 
@@ -113,7 +113,8 @@ Le numéro du RAID est à préciser (/dev/sg0 = 1er RAID, /dev/sg1 = 2e RAID, et
 
 #### Serveur avec un disque NVMe
 
-Dans le cas d'un disque NVMe, il sera nécessaire de placer le serveur en [mode rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external} et installer l'outil `nvme-cli`.
+Dans le cas d'un disque NVMe, il sera nécessaire de placer le serveur en [mode rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) et installer l'outil `nvme-cli`.
+
 
 ```sh
 apt install nvme-cli
@@ -147,7 +148,7 @@ Comme précisé précédemment, les numéros de tous les disques sont importants
 
 > [!primary]
 >
-> Ce type de remplacement n'est possible que pour les serveurs [Big-HG](https://www.ovh.com/ca/fr/serveurs-dedies/hg/){.external} disposant d'une carte RAID.
+> Ce type de remplacement n'est possible que pour les [serveurs dédiés](/links/bare-metal/bare-metal) avec une carte RAID.
 > 
 
 Dans le cas d'un remplacement à chaud sur un serveur avec une carte MegaRAID, il vous est demandé de faire clignoter la LED du disque à remplacer une fois l'intervention programmée pour faciliter le travail de nos équipes.
@@ -192,14 +193,18 @@ MegaCli -PdLocate -stop -physdrv[E0:S0] -a0
 
 Si vous possédez un serveur en RAID matériel, le RAID va se reconstruire par lui-même. Attention, l'*auto-rebuild*, activé par défaut, ne doit pas avoir été désactivé par vos soins. Notez que le processus de resynchronisation peut prendre quelque minutes et diminuer les performances de lecture/écriture de votre RAID.
 
-Si vous possédez un serveur en RAID logiciel, il convient de lancer manuellement la resynchronisation de vos disques. Pour cela, n'hésitez pas à vous reporter à la documentation liée au [« RAID logiciel »](/pages/bare_metal_cloud/dedicated_servers/raid_soft){.external}.
+Si vous possédez un serveur en RAID logiciel, il convient de lancer manuellement la resynchronisation de vos disques. Pour cela, n'hésitez pas à vous reporter à la documentation liée au [« RAID logiciel »](/pages/bare_metal_cloud/dedicated_servers/raid_soft).
 
 ## Aller plus loin
 
-[RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft){.external}
+[RAID logiciel](/pages/bare_metal_cloud/dedicated_servers/raid_soft)
 
-[RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard){.external}
+[RAID matériel](/pages/bare_metal_cloud/dedicated_servers/raid_hard)
 
-[Mode Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
+[Mode Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+
+Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](/links/partner).
+
+Si vous souhaitez bénéficier d'une assistance à l'usage et à la configuration de vos solutions OVHcloud, nous vous proposons de consulter nos différentes [offres de support](/links/support).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
