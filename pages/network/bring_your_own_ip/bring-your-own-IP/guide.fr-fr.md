@@ -31,6 +31,8 @@ Vous devez posséder (voir ci-dessous) un bloc IPv4 public auprès de l'un des R
 - [RIPE](https://www.ripe.net/)
 - [APNIC](https://www.apnic.net/) (Veuillez noter que le support pour les Registres Internet Nationaux - NIRs - est actuellement en phase expérimentale)
 
+Veuillez noter que l'enregistrement WHOIS du bloc IPv4 public fourni **doit correspondre précisément à la plage souhaitée**. La sélection d'un bloc IPv4 parent ou enfant vous empêchera d'utiliser cette plage.
+
 Il est désormais possible d'utiliser des blocs IP ARIN, RIPE ou APNIC sur n'importe quelle région OVHcloud. Cette flexibilité améliorée permet une gestion plus efficace et une allocation optimisée des adresses IP pour répondre aux besoins spécifiques de votre entreprise.
 
 Contrairement à la politique précédente, où un bloc ARIN ne pouvait être utilisé qu'avec des services OVHcloud situés au Canada ou aux États-Unis et un bloc RIPE ne pouvait être utilisé qu'avec des services OVHcloud situés en Europe, cette restriction a été levée.
