@@ -150,10 +150,100 @@ Une fois votre installation terminée et après avoir effectué des tests de bas
 
 Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes de notre côté.
 
-### Configuration de FRR
+### Configuration de FRR sur les Hôtes
 
 ***Tous les paramètres décrits ci-dessous sont présents dans le fichier de configuration /etc/frr/frr.conf.***
-<span style="color:red">TODO</span>
+
+#### Configuration des listes de préfixes et route-maps
+
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+
+Dans cet exemple :
+- Les hôtes n'acceptent que les routes par défaut provenant des Edges OVHcloud
+- Les hôtes n'annoncent que les préfixes du client aux Edges OVHcloud
+
+Listes de préfixes et route-maps connexes pour filtrer les routes :
+
+```bash
+ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
+ 
+ip prefix-list PL_CUSTOMER_PREFIX_V4 seq 10 permit <CUSTOMER_PREFIX_V4> ge <length>
+... <d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
+ 
+ipv6 prefix-list PL_DEFAULT_ROUTE_V6 seq 10 permit ::/0
+ 
+ipv6 prefix-list PL_CUSTOMER_PREFIX_V6 seq 10 permit <CUSTOMER_PREFIX_V6> eq <length>
+... <d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
+ 
+ 
+route-map RM_EDGE_V4_OUT permit 10
+  match ip address prefix-list PL_CUSTOMER_PREFIX_V4
+route-map RM_EDGE_V4_IN permit 10
+  match ip address prefix-list PL_DEFAULT_ROUTE_V4
+ 
+route-map RM_EDGE_V6_OUT permit 10
+  match ipv6 address prefix-list PL_CUSTOMER_PREFIX_V6
+route-map RM_EDGE_V6_IN permit 10
+  match ipv6 address prefix-list PL_DEFAULT_ROUTE_V6
+```
+
+#### Configuration BFD
+
+***La configuration ci-dessous est une suggestion d'installation pour améliorer le temps de convergence BGP entre les RS et les Edges sur vRack.***
+
+```bash
+bfd
+ profile edge
+  detect-multiplier 8
+  receive-interval 500
+  transmit-interval 500
+ 
+ peer <EDGE_IPV4>
+  profile edge
+  no shutdown
+...
+ peer <EDGE_IPV6>
+  profile edge
+  no shutdown
+...
+```
+
+#### Configuration BGP
+
+Configuration globale:
+
+```bash
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
+```
+
+Appairage BGP avec les Edges OVHcloud:
+
+```bash
+router bgp <CUSTOMER_ASN>
+ neighbor PG_EDGE_V4 peer-group
+ neighbor PG_EDGE_V4 remote-as <OVHcloud_ASN>
+ neighbor PG_EDGE_V4 bfd
+ neighbor PG_EDGE_V6 peer-group
+ neighbor PG_EDGE_V6 remote-as <OVHcloud_ASN>
+ neighbor PG_EDGE_V6 bfd
+ neighbor <EDGE_IPV4> peer-group PG_EDGE_V4
+...
+ neighbor <EDGE_IPV6> peer-group PG_EDGE_V6
+ ...
+ 
+ address-family ipv4 unicast
+  neighbor PG_EDGE_V4 activate
+  neighbor PG_EDGE_V4 route-map RM_EDGE_V4_IN in
+  neighbor PG_EDGE_V4 route-map RM_EDGE_V4_OUT out
+ address-family ipv6 unicast
+  neighbor PG_EDGE_V6 activate
+  neighbor PG_EDGE_V6 route-map RM_EDGE_V6_IN in
+  neighbor PG_EDGE_V6 route-map RM_EDGE_V6_OUT out
+```
 
 ## Cas d'utilisation: Configuration BGP avancée utilisant des Route Servers (RS)
 
@@ -173,7 +263,7 @@ Les RS s'appairent avec les Load Balancing Edges (LBEdges) et les Hôtes, et éd
 | **EDGE_IPV4 <br> EDGE_IPV6** | Adresses IP des Edges OVHcloud dans la plage privée/ULA, utilisées pour l'appairage BGP et la connectivité à l'intérieur du vRack client. |
 | **HOST_IPV4 <br> HOST_IPV6** | Autres adresses IP des hôtes client dans la plage privée/ULA, utilisées comme Next Hop BGP et comme pairs à l'intérieur du vRack |
 
-### Configuration d'un daemon BGP (FRR) <span style="color:red">TODO</span>
+### Configuration d'un daemon BGP (FRR)
 
 Pour établir une session BGP à l'aide de FRR, procédez comme suit :
 
@@ -248,13 +338,13 @@ Une fois votre installation terminée et après avoir effectué des tests de bas
 
 Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes de notre côté.
 
-### Configuration de FRR pour l'utilisation de RS
+### Configuration de FRR sur les Route Servers
 
 ***Tous les paramètres décrits ci-dessous sont présents dans le fichier de configuration /etc/frr/frr.conf.***
 
 #### Configuration des listes de préfixes et route-maps
 
-***Cette configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
 
 Les Route Servers acceptent les routes par défaut des LBEdges et toutes les routes des Hôtes si elles correspondent à la longueur de préfixe définie (cf. les règles OVHcloud pour la longueur de préfixe IPv4 et IPv6).
 Les Route Servers publient les routes des hôtes vers les LBEdges et les routes par défaut vers les hôtes.
@@ -265,12 +355,12 @@ Listes de préfixes et route-maps connexes pour filtrer les routes :
 ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
  
 ip prefix-list PL_CUSTOMER_PREFIX_V4 seq 10 permit <CUSTOMER_PREFIX_V4> ge <length>
-<other sequences may be added depending of the customer setup>
+<d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
  
 ipv6 prefix-list PL_DEFAULT_ROUTE_V6 seq 10 permit ::/0
  
 ipv6 prefix-list PL_CUSTOMER_PREFIX_V6 seq 10 permit <CUSTOMER_PREFIX_V6> eq <length>
-<other sequences may be added depending of the customer setup>
+<d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
  
  
 route-map RM_EDGE_V4_OUT deny 10
@@ -309,7 +399,7 @@ route-map RM_HOST_V6_OUT permit 10
 
 #### Configuration BFD
 
-***Cette configuration ci-dessous est une suggestion d'installation pour améliorer le temps de convergence BGP entre les RS et les Edges sur vRack.***
+***La configuration ci-dessous est une suggestion d'installation pour améliorer le temps de convergence BGP entre les RS et les Edges sur vRack.***
 
 ```bash
 bfd
@@ -328,7 +418,7 @@ bfd
 
 #### Configuration BGP
 
-##### Configuration globale
+Configuration globale
 
 ```bash
 router bgp <CUSTOMER_ASN>
@@ -336,7 +426,7 @@ router bgp <CUSTOMER_ASN>
  no bgp default ipv4-unicast
 ```
 
-##### Appairage BGP avec les Edges OVHcloud
+Appairage BGP avec les Edges OVHcloud:
 
 ```bash
 router bgp <CUSTOMER_ASN>
@@ -363,7 +453,7 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_EDGE_V6 route-map RM_EDGE_V6_OUT out
 ```
 
-##### Appairage BGP avec les Hôtes
+Appairage BGP avec les Hôtes:
 
 ```bash
 router bgp <CUSTOMER_ASN>
@@ -386,7 +476,104 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_HOST_V6 route-map RM_HOST_V6_OUT out
 ```
 
-## Limitations
+### Configuration de FRR sur les Hôtes
+
+***Tous les paramètres décrits ci-dessous sont présents dans le fichier de configuration /etc/frr/frr.conf.***
+
+#### Configuration des listes de préfixes et route-maps
+
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+
+Dans cet exemple:
+- Les hôtes n'acceptent que les routes par défaut provenant des RS
+- Les hôtes n'annoncent que les préfixes du client aux RS
+
+Listes de préfixes et route-maps connexes pour filtrer les routes :
+
+```bash
+ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
+ 
+ip prefix-list PL_CUSTOMER_PREFIX_V4 seq 10 permit <CUSTOMER_PREFIX_V4> ge <length>
+... <d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
+ 
+ipv6 prefix-list PL_DEFAULT_ROUTE_V6 seq 10 permit ::/0
+ 
+ipv6 prefix-list PL_CUSTOMER_PREFIX_V6 seq 10 permit <CUSTOMER_PREFIX_V6> eq <length>
+... <d'autres lignes peuvent être ajoutées en fonction de la configuration du client>
+ 
+ 
+route-map RM_RS_V4_OUT permit 10
+  match ip address prefix-list PL_CUSTOMER_PREFIX_V4
+route-map RM_RS_V4_IN permit 10
+  match ip address prefix-list PL_DEFAULT_ROUTE_V4
+ 
+route-map RM_RS_V6_OUT permit 10
+  match ipv6 address prefix-list PL_CUSTOMER_PREFIX_V6
+route-map RM_RS_V6_IN permit 10
+  match ipv6 address prefix-list PL_DEFAULT_ROUTE_V6
+```
+
+#### Configuration BFD
+
+***La configuration ci-dessous est une suggestion d'installation pour améliorer le temps de convergence BGP entre les RS et les Edges sur vRack.***
+
+Les valeurs ci-dessous sont à titre d'exemple, et le client peut choisir n'importe quelle valeur parmi ses RS et Hôtes.
+
+```bash
+bfd
+ profile rs
+  detect-multiplier 8
+  receive-interval 500
+  transmit-interval 500
+ 
+ peer <RS_IPV4>
+  profile rs
+  no shutdown
+...
+ peer <RS_IPV6>
+  profile rs
+  no shutdown
+...
+```
+
+#### Configuration BGP
+
+Configuration globale:
+
+```bash
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
+```
+
+Appairage BGP avec les RS:
+
+```bash
+router bgp <CUSTOMER_ASN>
+ neighbor PG_RS_V4 peer-group
+ neighbor PG_RS_V4 remote-as <CUSTOMER_ASN>
+ neighbor PG_RS_V4 bfd
+ neighbor PG_RS_V6 peer-group
+ neighbor PG_RS_V6 remote-as <CUSTOMER_ASN>
+ neighbor PG_RS_V6 bfd
+ neighbor <RS_IPV4> peer-group PG_RS_V4
+...
+ neighbor <RS_IPV6> peer-group PG_RS_V6
+ ...
+ 
+ address-family ipv4 unicast
+  neighbor PG_RS_V4 activate
+  neighbor PG_RS_V4 route-map RM_RS_V4_IN in
+  neighbor PG_RS_V4 route-map RM_RS_V4_OUT out
+ address-family ipv6 unicast
+  neighbor PG_RS_V6 activate
+  neighbor PG_RS_V6 route-map RM_RS_V6_IN in
+  neighbor PG_RS_V6 route-map RM_RS_V6_OUT out
+```
+
+## Limites
 
 Le nombre de pairs côté OVHcloud est limité à 4. Si vous avez besoin de plus de 4 pairs, vous devrez installer un réflecteur de route sur votre infrastructure afin de redistribuer les routes vers vos hôtes.
 
