@@ -46,26 +46,26 @@ Attention, le vRack ne doit contenir que des serveurs dans une zone de disponibi
 Vous devez nous fournir les paramètres suivants afin que nous puissions configurer le service BGP côté OVHcloud :
 
 | Paramètre	| Value (exemple) | Netmask | Description | Commentaire |
-| :--- | :--- | :--- | :--- | :--- |
-| Localisation	| RBX | | Emplacement de livraison du service | |
-| ID vRack | 937 | | ID vRack sur lequel les sessions BGP vont s'exécuter | |
-| BYOIP | Y | | Bloc d’IP provenant du client ?	| |
-| Bloc IP | 17.13.2.0 | 24 | Le bloc d'IP à annoncer | Taille de plage autorisée : <br>&bull; IP OVHcloud (/24 à /30) <br>&bull; plage importée BYOIP (/19 à /24) <br>&bull; IPv6 (/56) |
-| Sous-réseau privé | 10.0.0.0 | 28 | Sous-réseau réservé pour les IP des homologues BGP <br> 4 dernières adresses seront utilisées par OVHcloud pour les homologues BGP côté OVHcloud | |
-| Peering IP 1 | 10.0.0.1 | | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 2 | 10.0.0.2 | | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 3 | 10.0.0.3 | | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 4 | 10.0.0.4 | | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
+| :--- | :--- | :--- | :--- |
+| Localisation	| RBX | Emplacement de livraison du service | |
+| ID vRack | 937 | ID vRack sur lequel les sessions BGP vont s'exécuter | |
+| BYOIP | Y | Bloc d’IP provenant du client ?	| |
+| Bloc IP | 17.13.2.0 | Le bloc d'IP à annoncer | Netmask: /24 <br> Taille de plage autorisée : <br>&bull; IP OVHcloud (/24 à /30) <br>&bull; plage importée BYOIP (/19 à /24) <br>&bull; IPv6 (/56) |
+| Sous-réseau privé | 10.0.0.0 | Sous-réseau réservé pour les IP des pairs BGP <br> 4 dernières adresses seront utilisées par OVHcloud pour les pairs BGP côté OVHcloud | Netmask: /28 |
+| Peering IP 1 | 10.0.0.1 | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
+| Peering IP 2 | 10.0.0.2 | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
+| Peering IP 3 | 10.0.0.3 | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
+| Peering IP 4 | 10.0.0.4 | L'IP du client doit être explicitement spécifiée par le client (pour le monitoring côté OVH) | |
 
 ### Étape 5 : livraison du service BGP
 
 Après environ 2 semaines, votre service sera livré. Nous vous recontacterons pour vous informer que le service est prêt à être utilisé et vous donner les paramètres nécessaires suivants de votre côté :
 
-&bull; Adresses IP des pairs OVHcloud (4 IPs) <br>&bull; AS clients et AS OVHcloud à utiliser pour les sessions de peering BGP<br>&bull; Paramètres BFD
+&bull; Adresses IP des edges OVHcloud (4 IPs) <br>&bull; AS clients et AS OVHcloud à utiliser pour les sessions de peering BGP<br>&bull; Paramètres BFD
 
 ### Étape 6 : configuration côté client
 
-Vous pouvez maintenant configurer les sessions BGP de votre côté. Vous trouverez ci-dessous un guide qui vous guide à travers une configuration typique pour un équilibrage de charge simple à l'aide de BGP ECMP.
+Vous pouvez maintenant configurer les sessions BGP de votre côté. Vous trouverez ci-dessous une procédure qui détaille une configuration typique pour un équilibrage de charge simple à l'aide de BGP ECMP.
 
 ## Cas d'utilisation : Équilibreur de charges utilisant BGP et ECMP
 
@@ -81,7 +81,7 @@ Pour établir une session BGP à l'aide de FRR, procédez comme suit :
 
 #### Étape 1: Installer FRR
 
-Sur un système basé sur Debian, installez BIRD avec la commande suivante:
+Sur un système basé sur Debian, installez FRR avec la commande suivante:
 
 ```bash
 sudo apt update && sudo apt install frr frr-pythontools
@@ -92,13 +92,11 @@ sudo apt update && sudo apt install frr frr-pythontools
 Modifiez le fichier de configuration FRR, le plus souvent localisé à l'emplacement /etc/frr/frr.conf:
 
 ```bash
-router bgp YOUR_ASN
- bgp router-id YOUR_ROUTER_IP
- neighbor YOUR_PEER_IP remote-as PEER_ASN
- neighbor YOUR_PEER_IP ebgp-multihop 5
- address-family ipv4 unicast
-  redistribute connected
- exit-address-family
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
 !
 ```
 
@@ -156,7 +154,7 @@ Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes 
 
 #### Configuration des listes de préfixes et route-maps
 
-***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les pairs BGP.***
 
 Dans cet exemple :
 - Les hôtes n'acceptent que les routes par défaut provenant des Edges OVHcloud
@@ -269,7 +267,7 @@ Pour établir une session BGP à l'aide de FRR, procédez comme suit :
 
 #### Étape 1: Installer FRR
 
-Sur un système basé sur Debian, installez BIRD avec la commande suivante:
+Sur un système basé sur Debian, installez FRR avec la commande suivante:
 
 ```bash
 sudo apt update && sudo apt install frr frr-pythontools
@@ -280,13 +278,11 @@ sudo apt update && sudo apt install frr frr-pythontools
 Modifiez le fichier de configuration FRR, le plus souvent localisé à l'emplacement /etc/frr/frr.conf:
 
 ```bash
-router bgp YOUR_ASN
- bgp router-id YOUR_ROUTER_IP
- neighbor YOUR_PEER_IP remote-as PEER_ASN
- neighbor YOUR_PEER_IP ebgp-multihop 5
- address-family ipv4 unicast
-  redistribute connected
- exit-address-family
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
 !
 ```
 
@@ -344,7 +340,7 @@ Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes 
 
 #### Configuration des listes de préfixes et route-maps
 
-***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les pairs BGP.***
 
 Les Route Servers acceptent les routes par défaut des LBEdges et toutes les routes des Hôtes si elles correspondent à la longueur de préfixe définie (cf. les règles OVHcloud pour la longueur de préfixe IPv4 et IPv6).
 Les Route Servers publient les routes des hôtes vers les LBEdges et les routes par défaut vers les hôtes.
@@ -482,7 +478,7 @@ router bgp <CUSTOMER_ASN>
 
 #### Configuration des listes de préfixes et route-maps
 
-***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les homologues BGP.***
+***La configuration ci-dessous est une suggestion d'installation pour éviter toute annonce inattendue entre les pairs BGP.***
 
 Dans cet exemple:
 - Les hôtes n'acceptent que les routes par défaut provenant des RS

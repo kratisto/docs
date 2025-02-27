@@ -23,13 +23,13 @@ The Border Gateway Protocol (BGP) allows you to build highly available infrastru
 
 First you need to request to join the beta on the following [page](labs.ovh.com). After we receive your application, we will contact you via email.
 
-Important : BGP Service is currently in alpha. This product is not intended to be used in production environment.
+Important : BGP Service is currently in alpha. This product is not intended to be used in a production environment.
 
 ### Step 2: Prepare your IP addresses
 
-You need to either buy Additional IP from OVHcloud our use your own IPs with BYOIP.
+You need to either buy Additional IP from OVHcloud or use your own IPs with BYOIP.
 
-If you buy Additional IP from us, you MUST NOT associate them to any service (e.g. Baremetal).
+If you buy Additional IPs from us, you MUST NOT associate them to any service (e.g. Baremetal).
 
 If you need to import your IPs, you need to use our BYOIP service. Please follow [this documentation](/pages/network/bring_your_own_ip/bring-your-own-IP/) to import your IPs to OVHcloud.
 
@@ -45,23 +45,23 @@ Important : the vRack must contain only servers in one specific availability zon
 
 You need to provide us the following parameters so that we can configure the BGP service on OVHcloud side :
 
-| Parameter	| Value (example) | Netmask | Description | Comment |
-| :--- | :--- | :--- | :--- | :--- |
-| Location	| RBX | | The location on which to deliver the service | |
-| vRack ID | 937 | | vRack ID on which the BGP sessions will run | |
-| BYOIP | Y | | IP block coming from the customer ?	| |
-| IP block | 17.13.2.0 | 24 | The IP block to be announced | Allowed range size : <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported rang (/19 to /24) <br>&bull; IPv6 (/56) |
-| Private Subnet | 10.0.0.0 | 28 | Reserved subnet for BGP peer IPs <br> 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers | |
-| Peering IP 1 | 10.0.0.1 | | Customer IP should be explictely specificed by customer (for OVH-side monitoring) | |
-| Peering IP 2 | 10.0.0.2 | | Customer IP should be explictely specificed by customer (for OVH-side monitoring) | |
-| Peering IP 3 | 10.0.0.3 | | Customer IP should be explictely specificed by customer (for OVH-side monitoring) | |
-| Peering IP 4 | 10.0.0.4 | | Customer IP should be explictely specificed by customer (for OVH-side monitoring) | |
+| Parameter	| Value (example) | Description | Comment |
+| :--- | :--- | :--- | :--- |
+| Location	| RBX | The location on which to deliver the service | |
+| vRack ID | 937 | vRack ID on which the BGP sessions will run | |
+| BYOIP | Y | IP block coming from the customer ?	| |
+| IP block | 17.13.2.0 | The IP block to be announced | Netmask: /24 <br> Allowed range size : <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported range (/19 to /24) <br>&bull; IPv6 (/56) |
+| Private Subnet | 10.0.0.0 | Reserved subnet for BGP peer IPs <br> 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers | Netmask: /28 |
+| Peering IP 1 | 10.0.0.1 | Customer IP should be explicitly specificed by customer (for OVH-side monitoring) | |
+| Peering IP 2 | 10.0.0.2 | Customer IP should be explicitly specificed by customer (for OVH-side monitoring) | |
+| Peering IP 3 | 10.0.0.3 | Customer IP should be explicitly specificed by customer (for OVH-side monitoring) | |
+| Peering IP 4 | 10.0.0.4 | Customer IP should be explicitly specificed by customer (for OVH-side monitoring) | |
 
 ### Step 5: BGP Service delivery
 
-After a approximatively 2 weeks, your service will be delivered. We will contact you back to notify you that the service is ready to use and give you the following needed parameters on your side :
+After a approximatively 2 weeks, your service will be delivered. We will contact you back to notify you that the service is ready to use, and give you the following parameters that are needed on your side :
 
-&bull; OVHcloud peer IPs (4 IPs) <br>&bull; Customer AS and OVH AS to use for the BGP peering sessions
+&bull; OVHcloud Edges IPs (4 IPs) <br>&bull; Customer AS and OVH AS to use for the BGP peering sessions
 <br>&bull; BFD parameters
 
 ### Step 6: Customer-side setup
@@ -82,7 +82,7 @@ To establish a BGP session using FRR, follow these steps :
 
 #### Step 1: Install FRR
 
-On a Debian-based system, install BIRD with:
+On a Debian-based system, install FRR with:
 
 ```bash
 sudo apt update && sudo apt install frr frr-pythontools
@@ -93,13 +93,11 @@ sudo apt update && sudo apt install frr frr-pythontools
 Edit the FRR configuration file, typically located at /etc/frr/frr.conf:
 
 ```bash
-router bgp YOUR_ASN
- bgp router-id YOUR_ROUTER_IP
- neighbor YOUR_PEER_IP remote-as PEER_ASN
- neighbor YOUR_PEER_IP ebgp-multihop 5
- address-family ipv4 unicast
-  redistribute connected
- exit-address-family
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
 !
 ```
 
@@ -270,7 +268,7 @@ To establish a BGP session using FRR, follow these steps :
 
 #### Step 1: Install FRR
 
-On a Debian-based system, install BIRD with:
+On a Debian-based system, install FRR with:
 
 ```bash
 sudo apt update && sudo apt install frr frr-pythontools
@@ -281,13 +279,11 @@ sudo apt update && sudo apt install frr frr-pythontools
 Edit the FRR configuration file, typically located at /etc/frr/frr.conf:
 
 ```bash
-router bgp YOUR_ASN
- bgp router-id YOUR_ROUTER_IP
- neighbor YOUR_PEER_IP remote-as PEER_ASN
- neighbor YOUR_PEER_IP ebgp-multihop 5
- address-family ipv4 unicast
-  redistribute connected
- exit-address-family
+router bgp <CUSTOMER_ASN>
+ bgp router-id <HOST_IPV4>
+ no bgp default ipv4-unicast
+ maximum-paths 16
+ maximum-paths ibgp 16
 !
 ```
 
