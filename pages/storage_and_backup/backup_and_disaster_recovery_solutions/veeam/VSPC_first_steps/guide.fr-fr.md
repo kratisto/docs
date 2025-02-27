@@ -42,25 +42,25 @@ Si vous ne disposez pas des identifiants, contactez l'équipe en charge du produ
 
 Les principaux éléments du tableau de bord incluent :
 
-- **Alarmes actives** : Affichage et personnalisation des alertes pour surveiller les opérations clés.
-- **Charges de travail protégées** : Nombre total de charges de travail sécurisées dans vos infrastructures de sauvegarde et cloud.
-- **Utilisation des ressources cloud** : Vue des ressources consommées par votre organisation.
-- **Statuts des sessions de tâches** : État et efficacité des tâches de protection des données.
-- **Tâches de sauvegarde** : Liste des sauvegardes configurées, avec options pour les créer, les exécuter ou les modifier.
-- **Vue d’ensemble des données** : Résumé des données sauvegardées.
-- **Règles de découverte des hôtes** : Configuration des règles de découverte automatique des hôtes.
-- **Ordinateurs gérés** : Liste des machines connectées et administrées via VSPC.
-- **Rapports** : Accès aux rapports détaillés sur l’exécution et les performances des sauvegardes.
+- **Active alarms** : Affichage et personnalisation des alertes pour surveiller les opérations clés.
+- **Protected workloads** : Nombre total de charges de travail sécurisées dans vos infrastructures de sauvegarde et cloud.
+- **Cloud resource usage** : Vue des ressources consommées par votre organisation.
+- **Job session statuses** : État et efficacité des tâches de protection des données.
+- **Backup jobs** : Liste des sauvegardes configurées, avec options pour les créer, les exécuter ou les modifier.
+- **Data overview** : Résumé des données sauvegardées.
+- **Host discovery rules** : Configuration des règles de découverte automatique des hôtes.
+- **Managed computers** : Liste des machines connectées et administrées via VSPC.
+- **Reports** : Accès aux rapports détaillés sur l’exécution et les performances des sauvegardes.
 
 ![Tableau de bord VSPC](images/VSPC-console.png){.thumbnail}
 
 ### Étape 2 : Télécharger l’agent de gestion
 
-Accédez à la section **Ordinateurs découverts** dans VSPC.
+Accédez à la section `Discovered Computers`{.action} dans VSPC.
 
 ![Panneau des ordinateurs découverts](images/download-agent-step01.png){.thumbnail}
 
-Cliquez sur `Télécharger l’agent de gestion`, puis sélectionnez `Créer un lien de téléchargement`.
+Cliquez sur `Download Management Agent`{.action}, puis sélectionnez `Create Download Link`{.action}.
 
 ![Créer un lien de téléchargement](images/download-agent-step02.png){.thumbnail}
 
@@ -78,7 +78,7 @@ Options disponibles :
 
 - **Blocage par le pare-feu** : Si l’agent ne parvient pas à se télécharger, vérifiez que les ports TCP 443 et 6183 sont ouverts pour la communication sortante.
 - **Compatibilité navigateur** : Assurez-vous d’utiliser un navigateur pris en charge (ex. Chrome, Edge). Les anciens navigateurs peuvent bloquer ou restreindre les téléchargements.
-- **Lien de téléchargement expiré** : Si vous avez partagé le lien et qu’il a expiré, générez-en un nouveau depuis la section `Ordinateurs découverts`{.action}.
+- **Lien de téléchargement expiré** : Si vous avez partagé le lien et qu’il a expiré, générez-en un nouveau depuis la section `Discovered Computers`{.action}.
 - **Problèmes de proxy** : Si votre réseau utilise un serveur proxy, assurez-vous qu’il autorise le trafic vers et depuis VSPC.
 
 ### Étape 3 : Installer l’agent de gestion
@@ -88,7 +88,7 @@ Options disponibles :
 1. Suivez les étapes d’installation.
     - Pour les systèmes Linux, utilisez l’installateur `.rpm` ou `.deb` selon la distribution.
 1. Une fois installé, le serveur se connecte automatiquement à VSPC.
-1. Vérifiez que le serveur apparaît dans la liste **Ordinateurs découverts** avec une barre de progression indiquant l’installation.
+1. Vérifiez que le serveur apparaît dans la liste `Discovered Computers`{.action} avec une barre de progression indiquant l’installation.
 
 ![installing management agent progress bar](images/installing-agent-progress-bar.png){.thumbnail}
 
@@ -97,7 +97,7 @@ Options disponibles :
 
 ### Étape 4 : Vérifier l’installation de l’agent
 
-- Confirmez le statut de l’agent dans la section **Ordinateurs découverts**.
+- Confirmez le statut de l’agent dans la section `Discovered Computers`{.action}.
 - Vérifiez la connexion et l’enregistrement du serveur dans VSPC.
 
 ### Étape 5 : Modification des politiques de sauvegarde
@@ -118,16 +118,16 @@ Pour consulter ou configurer la politique :
 
 Voici les composants que vous pouvez ajuster :
 
-- **Mode d’exploitation** : Définissez le type d’hôte à sauvegarder.
-- **Mode de sauvegarde** : Sélectionnez les données spécifiques à sauvegarder (ex. serveur entier, partition spécifique).
+- **Operation mode** : Définissez le type d’hôte à sauvegarder.
+- **Backup mode** : Sélectionnez les données spécifiques à sauvegarder (ex. serveur entier, partition spécifique).
 - **Destination** : Définissez l’emplacement de stockage des sauvegardes (par défaut, un bucket Object Storage compatible S3 de 2 To).
-- **Identifiants du dépôt** : Configurez l’authentification pour le dépôt de sauvegarde.
-- **Politique de rétention** : Déterminez la durée de conservation des sauvegardes (par défaut, 7 jours).
-- **Cache de sauvegarde** : Désactivé par défaut.
-- **Mode de traitement des invités** :
-    - **Traitement des applications** : Garantit la cohérence des applications compatibles VSS en gérant les logs d’application pour la reprise après sinistre.
-    - **Indexation système** : Permet la navigation fichier par fichier et la restauration sélective.
-- **Planification** : Les sauvegardes s’exécutent quotidiennement à 22h, avec jusqu’à trois tentatives de reprise en cas d’échec.
+- **Repository credentials** : Configurez l’authentification pour le dépôt de sauvegarde.
+- **Retention policy** : Déterminez la durée de conservation des sauvegardes (par défaut, 7 jours).
+- **Backup cache** : Désactivé par défaut.
+- **Guest processing mode** :
+    - **Application-aware processing** : Garantit la cohérence des applications compatibles VSS en gérant les logs d’application pour la reprise après sinistre.
+    - **System indexing** : Permet la navigation fichier par fichier et la restauration sélective.
+- **Schedule** : Les sauvegardes s’exécutent quotidiennement à 22h, avec jusqu’à trois tentatives de reprise en cas d’échec.
 
 Avant de finaliser la configuration, un écran récapitulatif affichera tous les paramètres pour vérification.
 

@@ -78,7 +78,7 @@ Available options :
 
 - **Firewall blockage**: If the agent fails to download, verify that TCP ports 443 and 6183 are open for outbound communication.
 - **Browser compatibility**: Ensure you're using a supported browser (e.g., Chrome, Edge). Older browsers may block or restrict downloads.
-- **Expired download Link**: If you shared the link and it has expired, generate a new one from the **Discovered Computers** section.
+- **Expired download Link**: If you shared the link and it has expired, generate a new one from the `Discovered Computers`{.action} section.
 - **Proxy issues**: If your network uses a proxy server, verify that it allows traffic to and from the VSPC.
 
 ### Step 3: Installing the Management Agent
@@ -88,7 +88,7 @@ Available options :
 1. Follow the installation prompts to complete the setup.
     - For Linux systems, use the `.rpm` or `.deb` installer depending on the distribution.
 1. Once installed, the server will automatically connect to the VSPC.
-1. Verify that the server appears in the **Discovered Computers** list with an installation progress bar.
+1. Verify that the server appears in the `Discovered Computers`{.action} list with an installation progress bar.
 
 ![installing management agent progress bar](images/installing-agent-progress-bar.png){.thumbnail}
 
@@ -97,7 +97,7 @@ Available options :
 
 ### Step 4: Verifying the Agent installation
 
-- Confirm the agent status in the **Discovered Computers** section.
+- Confirm the agent status in the `Discovered Computers`{.action} section.
 - Check for successful connection and registration with the VSPC.
 
 ### Step 5: Changing backup policies
