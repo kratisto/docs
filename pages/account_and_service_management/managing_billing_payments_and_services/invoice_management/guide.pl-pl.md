@@ -1,7 +1,7 @@
 ---
 title: Zarządzanie fakturami OVHcloud
 excerpt: Dowiedz się, jak zarządzać fakturami i związanymi z nimi płatnościami
-updated: 2022-05-12
+updated: 2025-03-04
 ---
 
 ## Wprowadzenie
@@ -25,7 +25,7 @@ OVHcloud oddaje do Twojej dyspozycji Panel klienta, na którym możesz przegląd
 
 > [!primary]
 >
-> Każda faktura jest wysyłana e-mailem. Jest ona dostępna pod linkiem. Zaloguj się do [Panelu klienta OVHcloud](/links/manager), uwierzytelniając Twój adres. Każda faktura jest również dostępna w zakładce `Dashboard`{.action} w Panelu klienta.
+> Każda faktura jest wysyłana e-mailem. Jest ona dostępna pod linkiem. Zaloguj się do [Panelu klienta OVHcloud](/links/manager), uwierzytelniając Twój adres. Wszystkie faktury są również dostępne na stronie głównej Panelu klienta.
 >
 
 ### Informacje na Twojej fakturze

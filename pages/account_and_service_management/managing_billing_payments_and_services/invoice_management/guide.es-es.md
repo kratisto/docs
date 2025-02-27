@@ -1,7 +1,7 @@
 ---
 title: Gestionar las facturas de OVHcloud
 excerpt: Cómo gestionar sus facturas y pagos en OVHcloud
-updated: 2022-05-12
+updated: 2025-03-04
 ---
 
 ## Objetivo
@@ -25,10 +25,10 @@ OVHcloud pone a su disposición un espacio que le permitirá consultar, administ
 
 > [!primary]
 >
-> Cada factura se enviará por correo electrónico y podrá acceder a ella a través de un enlace accesible. Podrá acceder autenticándose en el [área de cliente de OVHcloud](/links/manager). Todas las facturas están también disponibles en la pestaña `Panel de control`{.action} del área de cliente.
+> Cada factura se enviará por correo electrónico y podrá acceder a ella a través de un enlace accesible. Podrá acceder autenticándose en el [área de cliente de OVHcloud](/links/manager). Todas las facturas también están disponibles desde la página de inicio del área de cliente.
 >
 
-### Partes de una factura de OVH
+### Partes de una factura de OVHcloud
 
 La factura del servicio de OVHcloud se enviará una vez realizado el pago de un pedido o una renovación. En ella se resumen los importes correspondientes a la compra o renovación de sus productos, así como sus períodos de validez.
 
@@ -46,9 +46,9 @@ La factura del servicio de OVHcloud se enviará una vez realizado el pago de un 
 
 ### Descubrir el área de Facturación
 
-#### Consultar y administrar las facturas de OVH
+#### Consultar y administrar las facturas de OVHcloud
 
-Para consultar sus facturas, acceda al [área de cliente de OVHcloud](/links/manager). Haga clic en su nombre en la esquina superior derecha de su pantalla y, en el nuevo menú que aparecerá, haga clic en `Facturas`{.action}.
+Para consultar sus facturas, acceda al [área de cliente de OVHcloud](/links/manager). Haga clic en su nombre en la esquina superior derecha de su pantalla y, en el nuevo menú que aparecerá, haga clic en `Mis facturas`{.action}.
 
 ![Facturación](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
 

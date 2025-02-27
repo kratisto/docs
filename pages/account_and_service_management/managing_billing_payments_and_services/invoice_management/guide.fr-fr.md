@@ -1,7 +1,7 @@
 ---
 title: Gérer mes factures OVHcloud
 excerpt: Découvrez comment gérer vos factures et les paiements liés à celles-ci
-updated: 2022-05-12
+updated: 2025-03-04
 ---
 
 ## Objectif
@@ -26,7 +26,7 @@ OVHcloud met à votre disposition un espace vous permettant de consulter, gérer
 
 > [!primary]
 >
-> Chaque facture vous est envoyée par e-mail et accessible via un lien cliquable. Vous pourrez alors y accéder en vous authentifiant à votre [espace client OVHcloud](/links/manager). Toute facture reste également disponible depuis l'onglet `Tableau de bord`{.action} de votre espace client.
+> Chaque facture vous est envoyée par e-mail et accessible via un lien cliquable. Vous pourrez alors y accéder en vous authentifiant à votre [espace client OVHcloud](/links/manager). Toute facture reste également disponible depuis la page d'accueil de votre espace client.
 >
 
 ### Comprendre votre facture
