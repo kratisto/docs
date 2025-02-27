@@ -1,7 +1,7 @@
 ---
 title: Backing-up an OVHcloud Managed Kubernetes cluster using Velero
 excerpt: Find out how to back-up an OVHcloud Managed Kubernetes cluster using Velero, including Persistent Volumes
-updated: 2025-01-17
+updated: 2025-02-27
 ---
 
 ## Objective
@@ -99,26 +99,30 @@ Complete and write down the configuration into `~/.aws/config`:
 [plugins]
 endpoint = awscli_plugin_endpoint
 
-[profile default]
+[default]
 region = <s3_region>
-s3 =
-  endpoint_url = https://s3.<s3_region>.io.cloud.ovh.net
-  signature_version = s3v4
-  addressing_style = virtual
-s3api =
-  endpoint_url = https://s3.<s3_region>.io.cloud.ovh.net
+endpoint_url = https://s3.<s3_region>.io.cloud.ovh.net/
 ```
 
 > [!primary]
 >
 > Replace ```s3_region``` by the Public Cloud Region with no digits (e.g.: gra, sbg, bhs)
 
+You can test your settings by running this command : 
+```bash 
+aws --profile default s3 ls
+```
+
+> [!primary]
+>
+> If your .aws/config only contains one profile, the argument ```--profile default``` is optional
+
 #### Create an Object Storage bucket for Velero
 
 Create a new bucket:
 
 ```bash
-aws --profile default s3 mb s3://velero-s3
+aws s3 mb s3://velero-s3
 ```
 
 List your buckets:
@@ -273,7 +277,7 @@ spec:
       targetPort: 80
   selector:
     app: nginx
-  type: LoadBalancer
+  type: ClusterIP
 ```
 
 And apply it to your cluster:
@@ -333,8 +337,8 @@ service/my-nginx created
 $ kubectl get pod -n nginx-example
 
 NAME                                READY   STATUS    RESTARTS   AGE
-nginx-deployment-9d6cbcc65-5ss7j   1/1     Running   0          21s
-nginx-deployment-9d6cbcc65-dqvvn   1/1     Running   0          21s
+nginx-deployment-9d6cbcc65-5ss7j    1/1     Running   0          21s
+nginx-deployment-9d6cbcc65-dqvvn    1/1     Running   0          21s
 
 $ velero backup create nginx-backup --include-namespaces nginx-example --snapshot-move-data
 
@@ -375,7 +379,7 @@ pod/nginx-deployment-9d6cbcc65-5ss7j   1/1     Running   0          3m28s
 pod/nginx-deployment-9d6cbcc65-dqvvn   1/1     Running   0          3m28s
 
 NAME               TYPE           CLUSTER-IP    EXTERNAL-IP     PORT(S)        AGE
-service/my-nginx   LoadBalancer   10.3.89.179   xx.xx.xx.xx   80:32406/TCP   3m28s
+service/my-nginx   ClusterIP      10.3.89.179                   80/TCP         3m28s
 
 NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/nginx-deployment   2/2     2            2           3m29s
@@ -464,7 +468,7 @@ spec:
       targetPort: 80
   selector:
     app: nginx
-  type: LoadBalancer
+  type: ClusterIP
 ```
 
 Apply it to the cluster:
@@ -510,22 +514,9 @@ service/nginx-service created
 $ kubectl -n nginx-example get svc nginx-service -w
 
 NAME            TYPE           CLUSTER-IP   EXTERNAL-IP   PORT(S)        AGE
-nginx-service   LoadBalancer   10.3.116.4   <pending>     80:31450/TCP   12s
-nginx-service   LoadBalancer   10.3.116.4   <pending>     80:31450/TCP   2m36s
-nginx-service   LoadBalancer   10.3.116.4   57.xx.xx.xx   80:31450/TCP   2m36s
-
-$ export LB_IP=$(kubectl -n nginx-example get svc nginx-service -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
-
-$ curl -I $LB_IP
-HTTP/1.1 200 OK
-Server: nginx/1.27.3
-Date: Mon, 27 Jun 2025 10:23:43 GMT
-Content-Type: text/html
-Content-Length: 612
-Last-Modified: Tue, 23 Dec 2014 16:25:09 GMT
-Connection: keep-alive
-ETag: "54999765-264"
-Accept-Ranges: bytes
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         12s
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         2m36s
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         2m36s
 ```
 
 Now we need to connect to the Pod to read the log file and verify that our logs are written.
@@ -703,7 +694,7 @@ NAME                                    READY   STATUS              RESTARTS   A
 pod/nginx-deployment-56996c688d-l58kf   0/1     ContainerCreating   0          6s
 
 NAME                    TYPE           CLUSTER-IP    EXTERNAL-IP   PORT(S)        AGE
-service/nginx-service   LoadBalancer   10.3.155.16   <pending>     80:32038/TCP   6s
+service/nginx-service   ClusterIP      10.3.155.16                 80/TCP         6s
 
 NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/nginx-deployment   0/1     1            0           6s
