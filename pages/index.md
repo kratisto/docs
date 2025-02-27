@@ -1792,6 +1792,8 @@
             + [Restoring a Bare Metal Server with Veeam Enterprise](bare_metal_cloud/dedicated_servers/veeam-enterprise-server-restore)
         + [HYCU for OVHcloud](storage-backup-and-disaster-recovery-solution-hycu)
             + [Configuring HYCU Backup](hosted_private_cloud/nutanix_on_ovhcloud/40-hycu-backup)
+        + [Agent Backup for IaaS](storage-backup-and-disaster-recovery-solution-agent-backup-for-iaas)
+            + [Getting started with VSPC](storage_and_backup/backup_and_disaster_recovery_solutions/veeam/VSPC_first_steps)
         + [Managed Kubernetes - Data Protection](storage-backup-and-disaster-recovery-solution-kubernetes-data-protection)
             + [Backup and Restore OVHcloud Managed Kubernetes Cluster, Namespace and Applications using TrilioVault for Kubernetes](public_cloud/containers_orchestration/managed_kubernetes/backup-and-restore-cluster-namespace-and-applications-with-trilio)
             + [Backing-up an OVHcloud Managed Kubernetes cluster using CloudCasa](public_cloud/containers_orchestration/managed_kubernetes/backup-and-restore-cluster-using-cloudcasa)
