@@ -16,7 +16,7 @@ These IP addresses will be imported in the form of a /24 IP block size and will 
 - [Your IP range must have a supported size](#supportedsize)
 - [Your IP range is not in use on the Internet](#notinuseontheinternet)
 - [Your IP/AS have a clean reputation](#cleanipreputation)
-- [You need to choose a campus](#chooseacampus)
+- [You need to choose a region](#choosearegion)
 - [You must prove ownership of the IP range](#proveownershipip)
 - [You must prove ownership of the AS number](#proveownershipas)
 - [You have to allow OVHcloud to announce the IP range](#announceip)
@@ -31,7 +31,7 @@ You need to own (see below) a public IPv4 block with one of the following RIRs:
 - [RIPE](https://www.ripe.net/)
 - [APNIC](https://www.apnic.net/) (Please note that support for National Internet Registries - NIRs - is experimental at the moment)
 
-It is now possible to use ARIN, RIPE or APNIC IP blocks on any OVHcloud campus. This enhanced flexibility enables more efficient management and optimized allocation of IP addresses to meet your company's specific needs.
+It is now possible to use ARIN, RIPE or APNIC IP blocks on any OVHcloud region. This enhanced flexibility enables more efficient management and optimized allocation of IP addresses to meet your company's specific needs.
 
 Unlike the previous policy, where an ARIN block could only be used with OVHcloud services located in Canada or the USA, and a RIPE block could only be used with OVHcloud services located in Europe, this restriction has been lifted.
 
@@ -64,32 +64,14 @@ The range should not be announced or in use on the Internet (no announcement in 
 
 We may refuse using IPs/AS with a bad reputation, and we reserve the right to stop announcing the IPs/AS if their reputation has a negative impact on OVHcloud's reputation.
 
-### You need to choose a campus <a name="chooseacampus"></a>
+### You need to choose a region <a name="choosearegion"></a>
 
-A campus can be viewed as a list of datacenters where an IP can be used.
+A region can be viewed as a list of datacenters where an IP can be used.
 
-You will need to choose one campus where your IP will be used. Once the delivery is done, you will be able to move any /24 size block obtained from the imported range to any OVHcloud services in the same campus as the one chosen at order time.
+You will need to choose one region where your IP will be used. Once the delivery is done, you will be able to move any /24 size block obtained from the imported range to any OVHcloud services in the same region as the one chosen at order time.
 
-Below is a list of current campuses:
+To choose a region, please refer to the list of available regions accessible on [this page](https://www.ovhcloud.com/en/network/byoip/).
 
-- RBX (Roubaix)
-    - rbx (1-8)
-- GRA (Gravelines)
-    - gra (1-3)
-- SBG (Strasbourg)
-    - sbg (1-5)
-- WAW (Warsaw)
-    - waw1
-- LIM (Limburg)
-    - lim (1,3)
-- ERI (Erith)
-    - eri1
-- BHS (Beauharnois)
-    - bhs (1-8)
-- SGP (Singapore)
-    - sgp1
-- YNM (Mumbai)
-    - ynm1
 
 ### You must prove ownership of the IP range <a name="proveownershipip"></a>
 
@@ -128,7 +110,7 @@ For more information on route objects, please refer to your RIR’s documentatio
 
 ### How to use the product
 
-The imported IPs will behave like the current Additional IP product. An imported IP range will be split into /24 blocks that will be movable to any service in the same campus.<br>
+The imported IPs will behave like the current Additional IP product. An imported IP range will be split into /24 blocks that will be movable to any service in the same region.<br>
 To activate the announcement of your imported IP range on the Internet, simply assign one of your block to an eligible product via the control panel or the OVHcloud API.<br>
 
 > [!warning]
@@ -210,8 +192,8 @@ This call returns a list of possible aggregated blocks and, for each one of them
 - Configuration elements associated to individual IP addresses (/32) such as firewall rules or reverse DNS entries will be kept after slicing/merging operations.
 - Slice/Aggregate API tasks cannot be followed up by the asynchronous task number returned by API, as associated IP objects will be destroyed in the slice/aggregate process.
 - The listing of IP addresses and blocks returned by API is ordered by network prefix size. We are working to provide a solution to list IPs by numerical order.
-- Once sliced, smaller blocks are not movable outside the campus chosen during the order of the product.
-- Moving a /24 block across french campuses won't work if :
+- Once sliced, smaller blocks are not movable outside the region chosen during the order of the product.
+- Moving a /24 block across french regions won't work if :
     - It has been reaggregated from a previous slicing.
     - The /24 block was imported from a bigger block (/23 to /19).
 
@@ -237,13 +219,13 @@ Yes.
 
 Not for the moment.
 
-### Is it possible to use an IP range on more than one campus?
+### Is it possible to use an IP range on more than one region?
 
-No, an IP range must be used in only one campus.
+No, an IP range must be used in only one region.
 
-### Is changing the campus of an imported IP range possible?
+### Is changing the region of an imported IP range possible?
 
-It is not possible to change the campus of an imported IP range. To achieve this you would have to release the product and purchase it again. However, if you have chosen Gravelines, Roubaix or Strasbourg campus at the time of the order and if you ordered the service after January 1st, 2023, you will be able to move your IP blocks across those 3 campuses (and only those 3 ones).
+It is not possible to change the region of an imported IP range. To achieve this you would have to release the product and purchase it again. However, if you have chosen Gravelines, Roubaix or Strasbourg region at the time of the order and if you ordered the service after January 1st, 2023, you will be able to move your IP blocks across those 3 regions (and only those 3 ones).
 
 ### How will I know which OVHcloud DNS servers will handle the ARPA zone for my imported IP?
 
