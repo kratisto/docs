@@ -1,11 +1,11 @@
 ---
 title: Getting started with VSPC
-excerpt: Discover VSPC, a cloud-enabled platform provided by Veeam that helps you manage backups and data protection.
-updated: 2025-02-26
+excerpt: Discover Veeam Service Provider Console (VSPC), a cloud-enabled platform provided by Veeam that helps you manage backups and data protection
+updated: 2025-02-27
 ---
 
 > [!primary]
->VSPC on OVHcloud is currently in alpha phase. This guide can evolve and be updated in the future with the advances of our teams in charge of this product.
+> VSPC on OVHcloud is currently in alpha phase. This guide can evolve and be updated in the future with the advances of our teams in charge of this product.
 
 ## Objective
 
@@ -28,7 +28,7 @@ It will walk you through the first steps to get started with VSPC, including:
 >
 ## Requirements
 
-- Administrative permissions for the [OVHcloud Control Panel](https://www.ovhcloud.com/control-panel) to manage resources.
+- Administrative permissions for the [OVHcloud Control Panel](/links/manager) to manage resources.
 - A server compatible with the Veeam Backup Agents, running a supported [operating system](https://helpcenter.veeam.com).
 - A firewall configured to allow communication between the VSPC and your managed servers.
 
@@ -36,11 +36,8 @@ It will walk you through the first steps to get started with VSPC, including:
 
 ### Step 1: Accessing the VSPC portal
 
-1. Visit the VSPC portal link provided by OVHcloud (e.g., `https://...`).
-
-2. Log in using the administrative credentials assigned to your Hosted Private Cloud infrastructure.
-    - If credentials are missing, contact OVHcloud support or your account manager.
-
+1. Visit the VSPC portal link provided by OVHcloud.
+2. Log in using the administrative credentials assigned to your Hosted Private Cloud infrastructure. If credentials are missing, contact our product teams on [Discord](https://discord.gg/ovhcloud) or your account manager.
 3. Key elements of the dashboard include:
 
 - **Active alarms**: Displays and allows customization of alarms to monitor key operations.
@@ -57,15 +54,15 @@ It will walk you through the first steps to get started with VSPC, including:
 
 ### Step 2: Downloading the Management Agent
 
-1. Navigate to the `Discovered Computers`{.action} section in the VSPC.
+1\. Navigate to the `Discovered Computers`{.action} section in the VSPC.
 
 ![discovered computers panel](images/download-agent-step01.png){.thumbnail}
 
-2. Click `Download Management Agent`{.action}, then select `Create Download Link`{.action}.
+2\. Click `Download Management Agent`{.action}, then select `Create Download Link`{.action}.
 
 ![create download link](images/download-agent-step02.png){.thumbnail}
 
-3. Options available:
+- Options available:
     - Copy the download link.
     - Download the agent directly.
 
@@ -84,16 +81,16 @@ It will walk you through the first steps to get started with VSPC, including:
 ### Step 3: Installing the Management Agent
 
 1. Open the generated link on the target server to download the management agent.
-2. Run the downloaded file on the target server.
-3. Follow the installation prompts to complete the setup.
+1. Run the downloaded file on the target server.
+1. Follow the installation prompts to complete the setup.
     - For Linux systems, use the `.rpm` or `.deb` installer depending on the distribution.
-4. Once installed, the server will automatically connect to the VSPC.
-5. Verify that the server appears in the **Discovered Computers** list with an installation progress bar.
+1. Once installed, the server will automatically connect to the VSPC.
+1. Verify that the server appears in the **Discovered Computers** list with an installation progress bar.
 
 ![installing management agent progress bar](images/installing-agent-progress-bar.png){.thumbnail}
 
 > [!primary]
-> Some OVHcloud distributions may encounter issues (e.g., UUID errors) during installation. Contact OVHcloud support if the agent fails to install or does not appear in the dashboard.
+> Some OVHcloud distributions may encounter issues (e.g., UUID errors) during installation. Contact our product teams on [Discord](https://discord.gg/ovhcloud) if the agent fails to install or does not appear in the dashboard.
 
 ### Step 4: Verifying the Agent installation
 
@@ -102,24 +99,25 @@ It will walk you through the first steps to get started with VSPC, including:
 
 ### Step 5: Changing backup policies
 
-OVHcloud provides a **default backup policy** that includes a 2TB S3 bucket. Currently, users can modify this default policy but cannot create custom policies or add personal S3 buckets.
+OVHcloud provides a **default backup policy** that includes a 2TB S3<sup>1</sup>-compatible Object Storage bucket. Currently, users can modify this default policy but cannot create custom policies or add personal S3-compatible Object Storage buckets.
 
 To review or configure the policy:
 
-1. Go to the `Backup Job`{.action} section in the VSPC dashboard.
+1\. Go to the `Backup Job`{.action} section in the VSPC dashboard.
 
-2. Click the value under `Successful Jobs`{.action} . A window will open showing the default policy name (e.g., “FCO – Windows …”).
+2\. Click the value under `Successful Jobs`{.action} . A window will open showing the default policy name (e.g., “FCO – Windows …”).
 
 ![backup job section](images/backup-policy-step01.png){.thumbnail}
 
-3. Select the **backup policy** you want to modify. A new window will display the policy components.
+3\. Select the **backup policy** you want to modify. A new window will display the policy components.
 
 ![succesful job section](images/backup-policy-step02.png){.thumbnail}
 
 Here are the components you can adjust:
+
 - **Operation mode**: Choose the type of host to back up.
 - **Backup mode**: Select specific data to back up (e.g., entire server, partition).
-- **Destination**: Define the backup storage location (default is a 2TB S3 bucket).
+- **Destination**: Define the backup storage location (default is a 2TB S3-compatible Object Storage bucket).
 - **Repository credentials**: Configure authentication for the repository.
 - **Retention policy**: Specify the duration for keeping backups (default is 7 days).
 - **Backup cache**: Disabled by default.
@@ -138,42 +136,48 @@ Before finalizing, a summary screen will display all settings for review.
 ### Policy customization scenarios
 
 #### **Windows example: Partition-level backup**
+
 - Configure the policy to back up only the `C:` drive.
+
 1. Navigate to `Backup Job`{.action} and select the server.
 2. Modify the backup policy by selecting `Partition Backup`.
 3. Choose the `C:` partition and exclude others.
 
 #### **Linux example: Directory-level backup**
+
 - Target critical directories like `/var/www`, excluding `/tmp`.
+
 1. Navigate to `Backup Job`{.action} and select the Linux server.
 2. Assign or modify a policy to include `/var/www` and exclude `/tmp`.
 
 ### Step 6: Assigning policies to servers
 
-1. Navigate to `Managed Computers`{.action} and select `Backup Agents`{.action}.
+1\. Navigate to `Managed Computers`{.action} and select `Backup Agents`{.action}.
 
 ![policy assignment panel](images/assigning-policy-step01.png){.thumbnail}
 
-2. Choose the server from the list.
-3. Click `Assign`{.action}, select the desired policy, and confirm.
+2\. Choose the server from the list.
+3\. Click `Assign`{.action}, select the desired policy, and confirm.
 
 ![confirm policy assignement panel](images/assigning-policy-step02.png){.thumbnail}
 
-4. View the summary of assigned policies by clicking `Show`{.action}.
+4\. View the summary of assigned policies by clicking `Show`{.action}.
 
 ![summary of policy assignement](images/assigning-policy-step03.png){.thumbnail}
----
 
 ### Step 7: Managing backup jobs
 
 #### **Scheduled backups**
+
 - Backups run automatically as per the configured schedule.
 
 #### **On-demand backups**
+
 1. In the `Backup Job`{.action} section, select the server.
 2. Click `Start`{.action} to initiate a backup immediately.
 
 ### Step 8: Logs and reporting
+
 1. Generate reports from the `Reports`{.action} section in the VSPC.
 2. Review logs to troubleshoot any issues during backup or restoration.
 
@@ -182,6 +186,7 @@ Before finalizing, a summary screen will display all settings for review.
 Restoring data from VSPC lets you recover lost or corrupted files, folders, or entire systems. Follow these steps to perform a restoration.
 
 #### **1. Access the Restore List**
+
 1. Log in to the VSPC interface and navigate to the `Protected Data`{.action} section.
 2. Select the `Backup Job`{.action} containing the data you want to restore.
 3. Click `File-Level Restore`{.action} to begin. 
@@ -190,19 +195,19 @@ Restoring data from VSPC lets you recover lost or corrupted files, folders, or e
 
 #### **2. Select the Restore Point**
 
-1. Navigate to the `Restore List`{.action}.
+1\. Navigate to the `Restore List`{.action}.
 
 You will land on the following screen:
 
 ![Select Restore Point](images/restoration_2.png){.thumbnail}
 
-2. Click on `Select Restore Point`{.action} to display the calendar.
-3. The calendar will appear, showing all available restore points.
+2\. Click on `Select Restore Point`{.action} to display the calendar.
+3\. The calendar will appear, showing all available restore points.
 
 ![Calendar](images/restoration_3.png){.thumbnail}
  
-4. Choose the desired date on the calendar and click `Select`{.action}.
-5. A list of files, folders, or system components from the selected restore point will load.
+4\. Choose the desired date on the calendar and click `Select`{.action}.
+5\. A list of files, folders, or system components from the selected restore point will load.
 
 ![List](images/restoration_5.png){.thumbnail}
 
@@ -210,7 +215,8 @@ You will land on the following screen:
 > Ensure the target environment has sufficient storage and no conflicts with the restore destination.
 
 #### **3. Choose Restore Options**
-1. Expand the list to locate specific files or folders, select the file you want to restore and click on `Add to the restore list`{.action}.
+
+1\. Expand the list to locate specific files or folders, select the file you want to restore and click on `Add to the restore list`{.action}.
 
 ![List expanded](images/restoration_6.png){.thumbnail}
  
@@ -218,20 +224,23 @@ Above the screen, you can see the amount of file added:
  
 ![Restore files added](images/restoration_7.png){.thumbnail}
 
-2. Add the selected items to the **Restore List**:
-    - **Overwrite**: Replace the original files on the target system.
-    - **Keep**: Save restored files in the same directory, prefixed with `RESTORED-`.
-    - **Download**: Retrieve the restored files locally for manual application. 
- 
- ![Restore files added](images/restoration_8.png){.thumbnail}
+2\. Add the selected items to the **Restore List**:
+
+- **Overwrite**: Replace the original files on the target system.
+- **Keep**: Save restored files in the same directory, prefixed with `RESTORED-`.
+- **Download**: Retrieve the restored files locally for manual application. 
+
+![Restore files added](images/restoration_8.png){.thumbnail}
 
 #### **4. Initiate Restoration**
+
 1. Review the **Restore List** to ensure accuracy.
 2. Confirm the settings and click `Restore`{.action} to start the process.
 3. Monitor progress in real time via the VSPC dashboard.
 
 #### **5. Verify Restoration**
-1. After completion, navigate to the `Audit Logs`{.action}tab for detailed records of the restore process.
+
+1. After completion, navigate to the `Audit Logs`{.action }tab for detailed records of the restore process.
 2. Check for errors or warnings and validate that the restored data is functional.
 
 > [!warning]
@@ -244,3 +253,5 @@ If you need training or technical assistance to implement our solutions, please 
 Ask questions, give your feedback and interact directly with the team building our Hosted Private Cloud services on the dedicated [Discord](https://discord.gg/ovhcloud) channel.
 
 Join our [community of users](/links/community).
+
+<sup>1</sup>: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.
