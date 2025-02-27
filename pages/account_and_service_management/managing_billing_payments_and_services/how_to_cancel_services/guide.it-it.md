@@ -1,7 +1,7 @@
 ---
 title: Come disattivare i servizi OVHcloud
 excerpt: "Scopri come interrompere l’abbonamento a OVHcloud dallo Spazio Cliente"
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Obiettivo
@@ -47,7 +47,7 @@ Esistono tuttavia **casi particolari**, descritti in dettaglio [più in basso](#
 
 ### Come disattivare l’abbonamento <a name="terminate"></a>
 
-Per disattivare l’abbonamento al servizio, accedi al tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/it/&ovhSubsidiary=it), clicca sul tuo nome in alto a destra e poi sul pulsante `Le mie offerte e servizi`{.action}.
+Per disattivare l’abbonamento al servizio, accedi al tuo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Le mie offerte e servizi`{.action}.
 
 ![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
@@ -131,7 +131,7 @@ Accedi allo Spazio Cliente OVHcloud per [consultare i tuoi consumi correnti](/pa
 > Puoi annullare una richiesta di disattivazione del servizio fino a 24 ore prima della data di scadenza dell'abbonamento.
 >
 
-Per annullare una richiesta di disattivazione, accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi sul pulsante `Le mie offerte e servizi`{.action}.
+Per annullare una richiesta di disattivazione, accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Le mie offerte e servizi`{.action}.
 
 Clicca sui tre puntini `...`{.action} in corrispondenza del servizio richiesto e seleziona `Annulla la disattivazione del servizio`{.action} 
 

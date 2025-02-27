@@ -1,7 +1,7 @@
 ---
 title: Jak zrezygnować z usług OVHcloud
 excerpt: Dowiedz się, jak przerwać subskrypcję OVHcloud z poziomu Panelu klienta
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Wprowadzenie
@@ -47,7 +47,7 @@ Istnieją jednak **przypadki szczególne**, które są opisane [poniżej](#speci
 
 ### Jak zrezygnować z abonamentu? <a name="terminate"></a>
 
-Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=pl), kliknij Twoją nazwę w prawym górnym rogu, a następnie przycisk `Moje rozwiązania i usługi`{.action}.
+Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę w prawym górnym rogu, a następnie `Moje rozwiązania i usługi`{.action}.
 
 ![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
@@ -131,7 +131,7 @@ Możesz również [sprawdzić aktualne](/pages/public_cloud/compute/analyze_bill
 > Możesz anulować zlecenie rezygnacji z usługi do 24 godzin przed datą wygaśnięcia abonamentu.
 >
 
-Aby anulować zlecenie rezygnacji z usługi, zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij swoją nazwę w prawym górnym rogu, a następnie przycisk `Moje rozwiązania i usługi`{.action}.
+Aby anulować zlecenie rezygnacji z usługi, zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij swoją nazwę w prawym górnym rogu, a następnie `Moje rozwiązania i usługi`{.action}.
 
 Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, w odniesieniu do której złożono wniosek o rezygnację, a następnie `Anuluj rezygnację z usługi`{.action} 
 
