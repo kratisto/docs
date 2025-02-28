@@ -1,7 +1,7 @@
 ---
 title: "Comment obtenir l'empreinte carbone de vos services OVHcloud"
 excerpt: "Découvrez comment récupérer l'empreinte carbone mensuelle des services OVHcloud grâce à notre calculatrice carbone"
-updated: 2025-02-26
+updated: 2025-03-04
 ---
 
 ## Objectif

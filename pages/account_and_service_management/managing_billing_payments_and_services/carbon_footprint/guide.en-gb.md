@@ -1,7 +1,7 @@
 ---
 title: "How to obtain the carbon footprint of your OVHcloud services"
 excerpt: "Find out how to retrieve the monthly carbon footprint of your OVHcloud services using our carbon calculator"
-updated: 2025-02-26
+updated: 2025-03-04
 ---
 
 ## Objective
@@ -39,9 +39,8 @@ Please note the following information:
 ### Retrieving the monthly carbon footprint report for the previous month via the OVHcloud Control Panel
 
 1. Log in to the [OVHcloud Control Panel](/links/manager).
-1. Click on your account name in the top right-hand corner, then click on your name again in the sidebar that appears on the right-hand side.
-1. On the new page that opens, click on the `My Carbon Footprint`{.action} tab in the left-hand column.
-1. On the page that appears, click `Download my [Month] [Year] footprint`{.action}.
+1. On the page that opens, scroll down to the **Useful links** section in the left-hand column, then click on the `My carbon footprint`{.action} tab.
+1. On the new page that appears, click `Download my [Month] [Year] footprint`{.action}.
 
 ![Carbon footprint](/pages/assets/screens/control_panel/product-selection/right-column/carbon-footprint/my-carbon-footprint.png){.thumbnail}
 
