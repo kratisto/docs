@@ -17,13 +17,13 @@ updated: 2025-02-13
 
 Gli account Email Pro possono essere configurati su client di posta compatibili. per permetterti di utilizzare il tuo indirizzo email dal dispositivo che preferisci. L'applicazione Microsoft Outlook su iOS è disponibile gratuitamente dall'App Store di Apple.
 
-**Questa guida ti mostra come configurare il tuo indirizzo Email Pro sull’applicazione mobile Outlook per iOS**
+**Scopri come configurare il tuo indirizzo Email Pro sull’applicazione mobile Outlook per iOS**
 
 > [!warning]
 >
-> OVHcloud mette a disposizione i servizi ma non si occupa della loro configurazione e gestione. garantirne il corretto funzionamento è quindi responsabilità dell’utente.
+> OVHcloud mette a disposizione i servizi ma non si occupa della loro configurazione e gestione; garantirne quotidianamente il corretto funzionamento è quindi responsabilità dell’utente.
 >
-> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di contattare un [partner specializzato](https://marketplace.ovhcloud.com/c/support-collaboration) o il fornitore del servizio. OVH non sarà infatti in grado di fornirti assistenza. Per maggiori informazioni consulta la sezione [Per saperne di più](#gofurther) di questa guida.
+> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di contattare un fornitore specializzato o l’amministratore del servizio.  Per maggiori informazioni consulta la sezione [Per saperne di più](#gofurther).
 
 ## Prerequisiti
 

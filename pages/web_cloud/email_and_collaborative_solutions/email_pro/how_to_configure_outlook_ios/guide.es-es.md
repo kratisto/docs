@@ -1,6 +1,6 @@
 ---
 title: "Email Pro - Configurar una cuenta de correo en Outlook para iOS"
-excerpt: "Cómo configurar una dirección Email Pro en la aplicación móvil Outlook para iOS"
+excerpt: "Descubra cómo configurar una dirección Email Pro en la aplicación móvil Outlook para iOS"
 updated: 2025-02-13
 ---
 
@@ -17,13 +17,13 @@ updated: 2025-02-13
 
 Las cuentas Email Pro pueden configurarse en distintos programas de correo compatibles. para que pueda utilizar su dirección de correo desde cualquier dispositivo. La aplicación Outlook de Microsoft en iOS está disponible gratuitamente desde la App Store de Apple.
 
-**Aprenda a configurar su cuenta Email Pro en la aplicación móvil Outlook para iOS**
+**Descubra cómo configurar una dirección Email Pro en la aplicación móvil Outlook para iOS**
 
 > [!warning]
 >
-> OVHcloud pone a su disposición servicios cuya configuración, gestión y responsabilidad recaen sobre usted. Por lo tanto, usted deberá asegurarse de que estos funcionen correctamente.
+> La responsabilidad sobre la configuración y la gestión de los servicios que OVHcloud pone a su disposición recae íntegramente en usted. Por lo tanto, usted deberá asegurarse de que estos funcionan correctamente.
 >
-> Esta guía le ayudará a realizar las tareas más habituales. No obstante, si necesita ayuda, le recomendamos que contacte con un [partner especializado](https://marketplace.ovhcloud.com/c/support-collaboration) o con el editor del servicio. Nosotros no podremos asistirle. Para más información, consulte el apartado [Más información](#go-further) de esta guía.
+> Esta guía le ayudará a realizar las operaciones más habituales. No obstante, si tiene alguna duda le recomendamos que contacte con un proveedor de servicios especializado o con el editor del servicio. Nosotros no podremos asistirle. Para más información, consulte el apartado [Más información](#go-further) de esta guía.
 
 ## Requisitos
 

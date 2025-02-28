@@ -1,6 +1,6 @@
 ---
-title: "Email Pro - Konfiguracja account email w Outlook per iOS"
-excerpt: "Scopri come configurare il tuo indirizzo Email Pro sull'application mobile Outlook per iOS"
+title: "E-mail Pro - Konfiguracja konta e-mail w programie Outlook na urządzeniu z systemem iOS"
+excerpt: "Dowiedz się, jak skonfigurować konto E-mail Pro w aplikacji mobilnej Outlook na urządzeniu z systemem iOS"
 updated: 2025-02-13
 ---
 
@@ -21,9 +21,9 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 > [!warning]
 >
-> OVHcloud udostępnia różnorodne usługi, jednak to Ty odpowiadasz za ich konfigurację i zarządzanie nimi. Ponosisz więc odpowiedzialność za ich prawidłowe funkcjonowanie.
+> OVHcloud udostępnia różnorodne usługi, jednak ich konfiguracja, zarządzanie oraz utrzymanie należy do Ciebie. Jesteś tym samym odpowiedzialny za ich prawidłowe funkcjonowanie.
 >
-> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Niemniej jednak, w przypadku trudności zalecamy skontaktowanie się z [partnerem wyspecjalizowanym](https://marketplace.ovhcloud.com/c/support-collaboration) i/lub skontaktowanie się z wydawcą usługi. Niestety firma OVHcloud nie jest w stanie udzielić Ci wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji [Sprawdź również](#gofurther) niniejszego przewodnika.
+> Oddajemy w Twojej ręce niniejszy przewodnik, którego celem jest pomoc w jak najlepszym wykonywaniu bieżących zadań. W przypadku trudności zalecamy skorzystanie z pomocy wyspecjalizowanego webmastera lub kontakt z producentem oprogramowania. Niestety firma OVHcloud nie będzie mogła udzielić wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji „[Sprawdź również](#gofurther).
 
 ## Wymagania początkowe
 

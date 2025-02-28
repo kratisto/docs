@@ -23,7 +23,7 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 >
 > A OVHcloud oferece-lhe serviços cuja configuração, gestão e responsabilidade é da sua responsabilidade. Assim, deverá assegurar o seu bom funcionamento.
 >
-> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](https://marketplace.ovhcloud.com/c/support-collaboration) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte [Vá mais longe](#gofurther) deste guia.
+> Este guia fornece as instruções necessárias para realizar as operações mais habituais. No entanto, se encontrar dificuldades, recomendamos que recorra a um [parceiro especializado](/links/partner) e/ou que contacte o editor do serviço. Não poderemos proporcionar-lhe assistência técnica. Para mais informações, consulte a secção [Quer saber mais?](#gofurther) deste guia.
 
 ## Requisitos
 
@@ -107,7 +107,7 @@ A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder a
 
 ![outlook iOS](images/outlook-app-ios-modify-account-01.png){.thumbnail .w-400 .h-600}
 
-Consulte as definições para **no passo 3** no capítulo [Adicionar conta](#add-account).
+Consulte as definições para no **Etapa 3** no capítulo [Adicionar conta](#add-account).
 
 ### Eliminar uma conta de e-mail <a name="delete"></a>
 
