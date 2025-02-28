@@ -50,7 +50,7 @@ Gli account Email Pro possono essere configurati su client di posta compatibili.
     1. Clicca sul cerchio che contiene le iniziali dell’account email consultato o l’icona di casa " &#8962;" in alto a sinistra dello schermo.
     2. Premere l'ingranaggio &#9881; nella parte inferiore sinistra dello schermo.
     3. Clicca su `Account`{.action} nel menu **Impostazioni**.
-    . Clicca su `Aggiungi un account`{.action}.
+    4. Clicca su `Aggiungi un account`{.action}.
     5. Clicca su `Account di posta`{.action}.
 
 ![outlook iOS](images/outlook-app-ios-add02.png){.thumbnail .w-400 .h-600}

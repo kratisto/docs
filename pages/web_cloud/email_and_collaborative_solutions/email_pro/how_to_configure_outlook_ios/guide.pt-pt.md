@@ -1,6 +1,6 @@
 ---
-title: "Email Pro - Configurar uma conta de e-mail no Outlook per iOS"
-excerpt: "Scopri come configurare il tuo indirizzo Email Pro sull aplicazione mobile Outlook per iOS"
+title: "E-mail Pro - Configurar a sua conta de e-mail no Outlook para iOS"
+excerpt: "Saiba como configurar o seu endereço E-mail Pro na aplicação móvel Outlook para iOS"
 updated: 2025-02-13
 ---
 
@@ -95,7 +95,7 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 Depois de configurar o endereço de e-mail, já só precisa de o utilizar! Já pode enviar e receber mensagens no seu dispositivo.
 
-A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Aceda através desta ligação: [Webmail](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o nosso guia [Consultar a sua conta a partir da interface OWA](/pages/web_cloud/email_and_colaborative_solutions/using_the_outlook_web_app_webmail/email_owa).
+A OVHcloud também disponibiliza uma aplicação web que pode usar para aceder ao seu e-mail diretamente a partir do browser. Aceda através desta ligação: [Webmail](/links/web/email). Para aceder, só precisa dos dados de acesso do seu endereço de e-mail. Para qualquer questão relativa à sua utilização, consulte o nosso guia [Consultar a sua conta a partir da interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa).
 
 ### Alterar os parâmetros existentes <a name="modify-settings"></a>
 
@@ -164,6 +164,6 @@ Se necessita de inserir manualmente as definições **SMTP** nas preferências d
 
 Para serviços especializados (referenciamento, desenvolvimento, etc), contacte os [parceiros OVHcloud](/links/partner).
 
-Se deseja beneficiar de uma assistência ao uso e à configuração das suas soluções OVHcloud, sugerimos que consulte as nossas diferentes [ofertas de suporte](/links/suporte).
+Se deseja beneficiar de uma assistência ao uso e à configuração das suas soluções OVHcloud, sugerimos que consulte as nossas diferentes [ofertas de suporte](/links/support).
 
 Fale com a nossa [comunidade de utilizadores](/links/community).
