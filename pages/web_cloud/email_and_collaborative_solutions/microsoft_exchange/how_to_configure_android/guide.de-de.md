@@ -90,7 +90,7 @@ Folgen Sie den in den Tabs aufgeführten Schritten:
 >> Die Meldung "Sie können Ihr Konto jetzt verwenden" sollte angezeigt werden. Tippen Sie auf `OK`{.action}, um die Konfiguration abzuschließen.<br><br>
 >> ![Exchange Android](images/exchange-android-05.png){.thumbnail .h-600}
 
-Ihre E-Mail-Adresse ist nun fertig konfiguriert und Sie können jetzt E-Mails  über Ihre Gmail-App versenden und empfangen.
+Ihre E-Mail-Adresse ist nun fertig konfiguriert und Sie können E-Mails über Ihre Gmail-App versenden und empfangen.
 
 > [!success]
 >

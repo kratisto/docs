@@ -1,8 +1,12 @@
 ---
 title: Accéder à l’interface de gestion NSX-v
 excerpt: Découvrez l'interface de NSX-v
-updated: 2021-11-17
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 

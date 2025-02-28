@@ -46,7 +46,7 @@ MX Plan Accounts können auf verschiedenen, kompatiblen E-Mail-Clients eingerich
 
 ![Outlook-Android](images/outlook-app-android-add02.png){.thumbnail .w-400 .h-600}
 
-Folgen Sie den Installationsschritten, indem Sie unten auf die Registerkarten klicken:
+Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 
 > [!tabs]
 > **Schritt 1**

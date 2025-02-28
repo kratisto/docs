@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Cómo utilizar PuTTY para conexiones SSH y autenticación
+title: Cómo utilizar PuTTY para conexiones SSH y autenticación
 excerpt: Cómo acceder a su servidor cloud o a su alojamiento web y gestionar las llaves SSH con el cliente SSH PuTTY
 updated: 2024-11-11
 ---

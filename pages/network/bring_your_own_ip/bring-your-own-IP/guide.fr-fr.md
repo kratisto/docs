@@ -1,7 +1,7 @@
 ---
 title: Utiliser la fonctionnalité Bring Your Own IP
 excerpt: Découvrez comment importer facilement votre propre adresse IP comme Additional IP dans votre compte OVHcloud
-updated: 2024-04-03
+updated: 2025-02-28
 ---
 
 ## Objectif
@@ -16,7 +16,7 @@ Ces adresses IP seront importées sous la forme d'un bloc d'adresses IP de taill
 - [Avoir une plage d'IP d'une taille prise en charge](#supportedsize)
 - [Avoir une plage d'IP non utilisée sur Internet](#notinuseontheinternet)
 - [Avoir une plage d'IP ou numéro AS avec une réputation propre](#cleanipreputation)
-- [Choix du campus](#chooseacampus)
+- [Choix de la région](#choosearegion)
 - [Prouver que vous êtes propriétaire de la plage d'IP](#proveownership)
 - [Prouver que vous êtes propriétaire du numéro AS](#proveownershipas)
 - [Permettre à OVHcloud d'annoncer la plage d'IP](#announceip)
@@ -29,17 +29,20 @@ Vous devez posséder (voir ci-dessous) un bloc IPv4 public auprès de l'un des R
 
 - [ARIN](https://www.arin.net/)
 - [RIPE](https://www.ripe.net/)
+- [APNIC](https://www.apnic.net/) (Veuillez noter que le support pour les Registres Internet Nationaux - NIRs - est actuellement en phase expérimentale)
 
-Il est désormais possible d'utiliser des blocs IP ARIN ou RIPE sur n'importe quel campus OVHcloud. Cette flexibilité améliorée permet une gestion plus efficace et une allocation optimisée des adresses IP pour répondre aux besoins spécifiques de votre entreprise.
+Veuillez noter que l'enregistrement WHOIS du bloc IPv4 public fourni **doit correspondre précisément à la plage souhaitée**. La sélection d'un bloc IPv4 parent ou enfant vous empêchera d'utiliser cette plage.
+
+Il est désormais possible d'utiliser des blocs IP ARIN, RIPE ou APNIC sur n'importe quelle région OVHcloud. Cette flexibilité améliorée permet une gestion plus efficace et une allocation optimisée des adresses IP pour répondre aux besoins spécifiques de votre entreprise.
 
 Contrairement à la politique précédente, où un bloc ARIN ne pouvait être utilisé qu'avec des services OVHcloud situés au Canada ou aux États-Unis et un bloc RIPE ne pouvait être utilisé qu'avec des services OVHcloud situés en Europe, cette restriction a été levée.
 
 Pour que le bloc soit considéré comme valide, les blocs importés doivent être de type suivants :
 
-| ARIN (object « Network type ») | RIPE (object « status ») |
-| :--- | :--- |
-| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |
-| **Pour plus d’informations :** <br>&bull; [« Using WhoIs - Network »](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [« Reporting Reassignments »](https://www.arin.net/resources/registry/reassignments/) | **Pour plus d'informations :** <br>[« Description of the INETNUM Object »](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |
+| ARIN (object « Network type ») | RIPE (object « status ») | APNIC (object « status »)
+| :--- | :--- | :--- |
+| &bull; Direct Allocation <br>&bull; Direct Assignment <br>&bull; Reallocated <br>&bull; Reassigned  |  &bull; ALLOCATED PA <br>&bull; LIR-PARTITIONED PA  <br>&bull; SUB-ALLOCATED PA  <br>&bull; ASSIGNED PA  <br>&bull; ASSIGNED PI  <br>&bull; LEGACY   |  &bull; Allocated-Portable <br>&bull; Allocated-Non-Portable <br>&bull; Assigned-Portable <br>&bull; Assigned-Non-Portable  |
+| **Pour plus d’informations :** <br>&bull; [« Using WhoIs - Network »](https://www.arin.net/resources/registry/whois/#network) <br>&bull; [« Reporting Reassignments »](https://www.arin.net/resources/registry/reassignments/) | **Pour plus d'informations :** <br>[« Description of the INETNUM Object »](https://apps.db.ripe.net/docs/04.RPSL-Object-Types/02-Descriptions-of-Primary-Objects.html#description-of-the-inetnum-object) |  **Pour plus d'informations :** <br>&bull; [« INETNUM Quick Guide »](https://www.apnic.net/manage-ip/using-whois/guide/inetnum/) <br>&bull; [« Recording network assignments »](https://www.apnic.net/manage-ip/using-whois/updating-whois/network-assignments/) |
 
 ### Avoir une plage d'IP d'une taille prise en charge <a name="haveaniprangeofasupportedsize"></a>
 
@@ -62,32 +65,13 @@ La plage d'IP ne doit pas être annoncée ou utilisée sur Internet (pas d'annon
 
 Nous pouvons refuser l’utilisation d’adresses IP ou de numéros AS ayant une mauvaise réputation, et nous nous réservons le droit de ne plus les annoncer si leur réputation a un impact négatif sur la réputation d’OVHcloud.
 
-### Choix du campus <a name="chooseacampus"></a>
+### Choix de la région <a name="choosearegion"></a>
 
-Un campus peut être vu comme une liste de centre de données où une IP peut être utilisée.
+Une région peut être vue comme une liste de datacentres où une IP peut être utilisée.
 
-Vous devrez choisir un campus où votre IP sera utilisée. Une fois la livraison effectuée, vous pourrez déplacer n’importe quel bloc de taille /24, obtenu à partir de la plage importée, vers n’importe quel service OVHcloud dans le même campus que celui choisi au moment de la commande.
+Vous devrez choisir une région où votre IP sera utilisée. Une fois la livraison effectuée, vous pourrez déplacer n’importe quel bloc de taille /24, obtenu à partir de la plage importée, vers n’importe quel service OVHcloud dans la même région que celle choisie au moment de la commande.
 
-Vous trouverez ci-dessous une liste des campus actuels :
-
-- RBX (Roubaix)
-    - rbx (1-8)
-- GRA (Gravelines)
-    - gra (1-3)
-- SBG (Strasbourg)
-    - sbg (1-5)
-- WAW (Warsaw)
-    - waw1
-- LIM (Limburg)
-    - lim (1,3)
-- ERI (Erith)
-    - eri1
-- BHS (Beauharnois)
-    - bhs (1-8)
-- SGP (Singapore)
-    - sgp1
-- YNM (Mumbai)
-    - ynm1
+Pour choisir une région, veuillez vous référer à la liste des régions disponibles accessible sur [cette page](/links/network/byoip).
 
 ### Prouver que vous êtes propriétaire de la plage d'adresses IP <a name="proveownershipontheiprange"></a>
 
@@ -96,6 +80,7 @@ Cela se fera via le portail web du RIR gérant vos adresses IP. Ce token sera fo
 
 - Pour RIPE, éditez le champ « **descr** » de l'objet « **inetnum** » de l'IP.
 - Pour ARIN, éditez le champ « **Public Comments** » de l'objet « **Network** ».
+- Pour APNIC, éditez le champ « **remarks** » de l'objet « **inetnum** ».
 
 Il est nécessaire que le token apparaisse dans le champ de description (voir ci-dessus) de l'objet WHOIS, sur une ligne dédiée. D'autres lignes peuvent être présentes, à condition que le token soit présent dans sa propre ligne dédiée dans la description. Le token doit être ajouté avant la commande et ne doit pas être supprimé avant la fin de la livraison.
 
@@ -106,6 +91,7 @@ Cela se fera via le portail web du RIR gérant votre numéro AS. Ce token sera f
 
 - Pour RIPE, éditez le champ « **descr** » de l'objet « **aut-num** » du numéro AS.
 - Pour ARIN, éditez le champ « **Public Comments** » de l'objet « **ASN** ».
+- Pour APNIC, éditez le champ « **remarks** » de l'objet « **aut-num** ».
 
 Il est nécessaire que le token apparaisse dans le champ de description (voir ci-dessus) de l'objet WHOIS, sur une ligne dédiée. D'autres lignes peuvent être présentes, à condition que le token soit présent dans sa propre ligne dédiée dans la description. Le token doit être ajouté avant la commande et ne doit pas être supprimé avant la fin de la livraison.
 
@@ -117,6 +103,7 @@ Pour plus d'informations sur les objets de routage (*route objects*), veuillez c
 
 - RIPE - [Managing Route Objects](https://www.ripe.net/manage-ips-and-asns/db/support/managing-route-objects-in-the-irr)
 - ARIN - [Submitting Routing Information](https://www.arin.net/resources/manage/irr/#submitting-routing-information)
+- APNIC - [Creating Route Objects](https://www.apnic.net/manage-ip/using-whois/guide/creating-route-objects/)
 
 > [!warning]
 > Si votre bloc IP importé est déjà annoncé sur Internet à partir d’autre sites qu’OVHcloud lors de l’utilisation du service BYOIP (multihoming), vous risquez d’éventuelles pertes de paquets ou d'autres difficultés de routage. Nous ne serons par conséquent pas en mesure de vous garantir la connectivité aux services OVHcloud avec votre bloc IP importé.
@@ -125,7 +112,7 @@ Pour plus d'informations sur les objets de routage (*route objects*), veuillez c
 
 ### Comment utiliser les adresses IP
 
-Les adresses IP importées se comporteront comme le produit Additional IP OVHcloud. Une plage d'adresses IP importée sera fractionnée en blocs de /24 pouvant être déplacés vers n’importe quel service d’un même campus.<br>
+Les adresses IP importées se comporteront comme le produit Additional IP OVHcloud. Une plage d'adresses IP importée sera fractionnée en blocs de /24 pouvant être déplacés vers n’importe quel service d’une même région.<br>
 Pour activer l'annonce de votre plage IP importée sur Internet, il vous suffit d'affecter un de vos blocs à un produit éligible via l'espace client où l'API OVHcloud.<br>
 
 > [!warning]
@@ -207,8 +194,8 @@ Cet appel renvoie une liste de blocs agrégés possibles et, pour chacun d'eux, 
 - Les éléments de configuration associés aux adresses IP individuelles (/32) tels que les règles de pare-feu ou les entrées reverse DNS seront conservés après les opérations de découpage/fusion.
 - Les tâches API découpage/fusion ne peuvent pas être suivies par le numéro de tâche asynchrone renvoyé par l'API, car les objets IP associés seront détruits dans le processus de découpage/fusion.
 - La liste des adresses IP et des blocs renvoyés par l'API est classée par taille de préfixe réseau. Nous travaillons pour fournir une solution permettant de répertorier les adresses IP par ordre numérique.
-- Une fois découpés, les petits blocs ne sont pas déplaçables en dehors du campus choisi lors de la commande du produit.
-- Déplacer un bloc /24 sur les campus français ne fonctionnera pas si :
+- Une fois découpés, les petits blocs ne sont pas déplaçables en dehors de la région choisie lors de la commande du produit.
+- Déplacer un bloc /24 sur les régions françaises ne fonctionnera pas si :
     - Il a été réagrégé à partir d'un découpage précédent.
     - Le bloc /24 a été importé à partir d'un bloc plus gros (/23 à /19).
 
@@ -226,25 +213,21 @@ Pas au lancement de l'offre BYOIP. Cependant, si tel est votre souhait, nous vou
 
 Oui. Pour plus d'informations, veuillez vous reporter à la section [Découpage de plages d'addresses](#range-slicing) ci-dessus.
 
-### Puis-je importer une plage d'adresses IP ARIN dans des campus acceptant uniquement des plages d'adresses IP RIPE et inversement ?
-
-Oui, avec la mise à jour de notre politique, il est désormais possible d'utiliser des blocs IP ARIN ou RIPE sur n'importe quel campus OVHcloud où le produit BYOIP est disponible. Nous avons éliminé les restrictions précédentes pour offrir une plus grande flexibilité et efficacité dans la gestion et l'allocation des adresses IP. Vous pouvez importer et utiliser vos blocs IP en fonction de vos besoins spécifiques, indépendamment de la localisation géographique du campus.
-
-### Puis-je importer un numéro AS ARIN avec une plage d'adresses IP RIPE et inversement ?
+### Puis-je importer un numéro AS et une plage d'adresses IP provenant de RIR différents ?
 
 Oui.
 
-### Puis-je importer une plage d’adresses IP ou un numéro AS géré par IP APNIC/AFRINIC/LACNIC ?
+### Puis-je importer une plage d’adresses IP ou un numéro AS géré par IP AFRINIC/LACNIC ?
 
 Pas pour le moment.
 
-### Est-il possible d'utiliser une plage d'adresses IP sur plusieurs campus ?
+### Est-il possible d'utiliser une plage d'adresses IP sur plusieurs régions ?
 
-Non, une plage d'IP doit être utilisée dans un seul campus.
+Non, une plage d'IP doit être utilisée dans une seule région.
 
-### Est-il possible de changer le campus d'une plage IP importée ?
+### Est-il possible de changer la région d'une plage IP importée ?
 
-Il n'est pas possible de changer le campus d'une plage IP importée. Pour y parvenir, il vous faudrait résilier le produit et le commander à nouveau. En revanche, si vous avez choisi le campus de Gravelines, Roubaix ou Strasbourg au moment de la commande et si vous avez commandé le service après le 1er janvier 2023, vous pourrez déplacer vos blocs IP sur ces 3 campus (et uniquement sur ces 3 campus).
+Il n'est pas possible de changer la région d'une plage IP importée. Pour y parvenir, il vous faudrait résilier le produit et le commander à nouveau. En revanche, si vous avez choisi la région de Gravelines, Roubaix ou Strasbourg au moment de la commande et si vous avez commandé le service après le 1er janvier 2023, vous pourrez déplacer vos blocs IP sur ces 3 régions (et uniquement sur ces 3 régions).
 
 ### Comment savoir quels serveurs DNS OVHcloud géreront la zone ARPA de mon IP importée ?
 

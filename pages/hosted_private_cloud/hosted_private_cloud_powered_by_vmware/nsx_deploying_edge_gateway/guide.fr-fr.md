@@ -1,8 +1,12 @@
 ---
 title: Comment déployer une NSX-v Edge Gateway
 excerpt: "Découvrez comment déployer une edge gateway NSX via l'interface vSphere"
-updated: 2021-11-19
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 

@@ -1,8 +1,12 @@
 ---
 title: Evitar la usurpación de IP con el servicio SpoofGuard (EN)
 excerpt: Set up policies to detect IP spoofing
-updated: 2021-02-12
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

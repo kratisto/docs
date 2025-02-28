@@ -1,12 +1,16 @@
 ---
 title: Configurer le NAT NSX-v Edge
 excerpt: Redirigez votre trafic à l'aide des règles NAT
-updated: 2021-11-26
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 
-NAT signigie « traduction d'addresses réseau »(*Network Address Translation*). Cela permet de rediriger une ou de multiples adresses vers une autre. Il y a deux types de NAT :
+NAT signifie « traduction d'addresses réseau »(*Network Address Translation*). Cela permet de rediriger une ou de multiples adresses vers une autre. Il y a deux types de NAT :
 
 - DNAT est le NAT de destination. Il modifie l'adresse de destination et s'applique au trafic entrant.
 - SNAT est le NAT de source. Il modifie l'adresse source et s'applique au trafic sortant.

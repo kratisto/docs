@@ -1,8 +1,12 @@
 ---
 title: Configurer le Load Balancer NSX-v Edge
 excerpt: Utiliser le service d'équilibrage de charge du NSX-v Edge
-updated: 2021-11-29
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 

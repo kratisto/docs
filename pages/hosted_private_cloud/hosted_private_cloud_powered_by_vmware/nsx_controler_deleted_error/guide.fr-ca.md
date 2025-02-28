@@ -1,8 +1,12 @@
 ---
 title: Comprendre l'erreur "VM du contrôleur supprimée"
 excerpt: Découvrez ce que signifie l'erreur "VM du contrôleur supprimée"
-updated: 2021-11-26
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 

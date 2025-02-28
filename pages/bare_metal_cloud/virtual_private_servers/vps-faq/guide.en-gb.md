@@ -1,6 +1,6 @@
 ---
 title: FAQ VPS OVHcloud
-updated: 2023-07-06
+updated: 2025-02-26
 ---
 
 ## FAQ VPS
@@ -44,7 +44,7 @@ To choose a VPS adapted to your needs, please check the following:
 
 This will help you make the right choice from our VPS solutions:
 
-- **VPS Starter**: entry-level server to test our solution (with a Linux distribution only, no web hosting control panel).
+- **VPS Starter**: entry-level server to test our solution (with a Linux distribution only).
 - **VPS Value, Essential and Comfort**: ideal for hosting websites, e-commerce services or monitoring systems.
 - **VPS Elite**: adapted for e-commerce websites and applications that require more CPU and memory resources.
 - **VPS Limited Edition** (Limited quantities): this VPS solution offers increased performance, which is a major advantage when it comes to hosting complex websites, resource-intensive applications, and even game servers. This offer is limited and only valid until stocks run out.

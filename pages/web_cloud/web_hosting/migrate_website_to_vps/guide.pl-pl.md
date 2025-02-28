@@ -106,10 +106,10 @@ Użyj **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) jest zalecaną me
 
 #### Etap 3.1 - Logowanie do serwera VPS za pomocą SFTP
 
-Postępuj zgodnie z etapem "Uruchom połączenie SFTP" w naszym przewodniku "[Korzystanie z FileZilla na Twoim hostingu OVHcloud](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide)" przy użyciu następującej konfiguracji:
+Zapoznaj się z [przewodnikiem](/pages/bare_metal_cloud/dedicated_servers/comment-deposer-ou-recuperer-des-donnees-sur-un-serveur-dedie-via-sftp) i wprowadź następujące informacje:
 
-- **Host** : użyj adresu IP serwera VPS.
-- **Identyfikator** i **hasło** : hasło do konta użytkownika SSH na serwerze VPS.
+- **Host**: Korzystaj z adresu IP serwera VPS.
+- **Username** i **Password**: Dane dostępowe do konta SSH na serwerze VPS.
 - **Port** : użyj portu 22 (domyślny port SFTP).
 
 #### Etap 3.2 - Przeniesienie plików z Twojej strony WWW na serwer VPS

@@ -1,11 +1,11 @@
 ---
 title: VMware vCenter Converter
-updated: 2018-03-26
+updated: 2025-02-25
 ---
 
 **VMware vCenter Converter** est un outil pour convertir une machine physique ou virtuelle vers une infrastructure Cloud en l'occurrence un **P2V** (Physical to Virtual) ou **V2V** (Virtual to Virtual).
 
-Cette [application](https://www.vmware.com/fr/products/converter.html){.external-link} est uniquement compatible Windows.
+Cette [application](https://www.vmware.com/products/cloud-infrastructure/converter) est uniquement compatible Windows.
 
 Nous allons réaliser une migration à froid (VM éteinte) d'une machine virtuelle d'un **Private Cloud** vers un autre, en l'occurrence un **V2V** (Virtual To Virtual). L'action sera effectuée depuis une VM Windows tierce sur l'infrastructure source.
 
@@ -56,3 +56,5 @@ Le **status** de la conversion est affiché sur la page d'accueil ainsi que la *
 Vous pouvez finalement voir si la tâche s'est correctement déroulée et finalisée.
 
 ![](images/TaskFinishing.PNG){.thumbnail}
+
+Échangez avec notre [communauté d'utilisateurs](/links/community).

@@ -1,8 +1,12 @@
 ---
 title: How to deploy an NSX-v Edge Services Gateway
 excerpt: Discover how to deploy an NSX-v Edge Services Gateway with the vSphere interface
-updated: 2021-11-19
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

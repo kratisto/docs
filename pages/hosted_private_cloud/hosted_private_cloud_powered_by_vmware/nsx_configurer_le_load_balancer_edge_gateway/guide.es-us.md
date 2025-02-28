@@ -1,8 +1,12 @@
 ---
 title: Configurar el Load Balancer NSX-v Edge (EN)
 excerpt: Simple steps to use the NSX-v Edge load balancing service
-updated: 2021-11-29
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

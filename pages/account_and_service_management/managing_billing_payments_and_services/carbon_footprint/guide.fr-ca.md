@@ -27,7 +27,7 @@ Plusieurs points sont à prendre en compte :
 
 - Vous ne pouvez pas générer de bilan pour le mois en cours.
 - Que vous saisissiez, via l'API OVHcloud, une date en début, milieu ou fin de mois pour le mois choisi, le bilan prendra en compte le mois complet.
-- Aucun bilan ne peut être généré au delà des 24 derniers mois.
+- Aucun bilan ne peut être généré au delà des 24 derniers mois. 
 - Aucun bilan ne peut être généré pour la période précédant la date de mise en place de la fonctionnalité pour chaque service OVHcloud (voir le tableau ci-dessous).
 
 | Service                | Date de mise en service de la calculatrice d'empreinte carbone |

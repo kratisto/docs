@@ -19,8 +19,8 @@ Se riscontri un malfunzionamento del disco oppure il nostro sistema ti ha inviat
 
 ## Prerequisiti
 
-- Avere un [server dedicato OVHcloud](https://www.ovh.it/server_dedicati/){.external}
-- Avere l’accesso amministratore (sudo) al server via SSH
+- Disporre di un [server dedicato](/links/bare-metal/bare-metal).
+- Avere un accesso amministratore (sudo) al server via SSH.
 
 ## Procedura
 
@@ -148,7 +148,7 @@ Come anticipato, sono importanti i numeri di tutti i dischi in quanto verranno p
 
 > [!primary]
 >
-> Questo tipo di sostituzione è possibile solo per i server [FS-MAX](https://www.ovh.it/server_dedicati/storage/1801fs05.xml){.external} e i server [Big-HG](https://www.ovh.it/server_dedicati/hg/1801bhg01.xml){.external} che dispongono di una scheda RAID.
+Questo tipo di sostituzione è possibile solo per i [server dedicati](/links/bare-metal/bare-metal) con una scheda RAID.
 > 
 
 Nel caso di una sostituzione a caldo su un server con una scheda MegaRAID, ti sarà chiesto di far lampeggiare il LED del disco da sostituire una volta programmata l’operazione, al fine di facilitare il lavoro dei nostri team.
@@ -203,4 +203,8 @@ Se possiedi un server con RAID software, ti consigliamo di risincronizzare i dis
 
 [Rescue Mode](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Per prestazioni specializzate (referenziamento, sviluppo, ecc...), contatta i [partner OVHcloud](/links/partner).
+
+Per usufruire di un supporto per l'utilizzo e la configurazione delle soluzioni OVHcloud, è possibile consultare le nostre soluzioni [offerte di supporto](/links/support).
+
+Contatta la nostra [Community di utenti](/links/community).

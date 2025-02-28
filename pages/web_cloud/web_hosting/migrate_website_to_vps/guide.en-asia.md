@@ -106,10 +106,10 @@ Using **S**ecure **F**ile **T**ransfer **P**rotocol (**SFTP**) is the recommende
 
 #### Step 3.1 - Log in to your VPS via SFTP
 
-Follow the "Launch the SFTP connection" step in our guide on "[Using FileZilla with your OVHcloud hosting](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide)" using the following configuration:
+Follow our [guide on using FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) and enter the following details:
 
 - **Host**: Use the IP address of your VPS.
-- **ID** and **password**: The credentials for your SSH user account on the VPS.
+- **Username** and **Password**: The credentials for your SSH user account on the VPS.
 - **Port**: Use port 22 (default port for SFTP).
 
 #### Step 3.2 - Transfer your website files to the VPS

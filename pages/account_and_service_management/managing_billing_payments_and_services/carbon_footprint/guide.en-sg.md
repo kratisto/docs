@@ -11,6 +11,7 @@ As part of your professional activities or out of interest on the subject, you m
 **Find out how to retrieve the monthly carbon footprint of your OVHcloud services.**
 
 ## Requirements
+
 - Being the billing contact for the service(s) you would like to create a carbon footprint for. For more information, see [our guide to managing contacts](/pages/account_and_service_management/account_information/managing_contacts).
 
 **The carbon footprint calculation is available for the following services:**
@@ -26,7 +27,7 @@ Please note the following information:
 
 - You cannot generate a carbon footprint report for the current month.
 - When using the OVHcloud API, whether you enter a date at the beginning, middle or end of the month for the month chosen, the carbon footprint report will be generated for the full month.
-- No carbon footprint report can be generated for more than the last 24 months.
+- No carbon footprint report can be generated for more than the last 24 months. 
 - No carbon footprint can be generated before the date of implementation of the feature for each OVHcloud service (see table below).
 
 | Service                | Date of commissioning of the carbon footprint calculator |

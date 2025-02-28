@@ -381,6 +381,8 @@ mount /dev/md4 /home
 
 [Hot Swap – RAID por hardware (EN)](/pages/bare_metal_cloud/dedicated_servers/hotswap_raid_hard){.external}
 
+[OVHcloud API and Storage](/pages/bare_metal_cloud/dedicated_servers/partitioning_ovh)
+
 [Substituir um disco a quente num servidor com RAID por software](/pages/bare_metal_cloud/dedicated_servers/hotswap_raid_soft){.external}
 
 [RAID por hardware (EN)](/pages/bare_metal_cloud/dedicated_servers/raid_hard){.external}

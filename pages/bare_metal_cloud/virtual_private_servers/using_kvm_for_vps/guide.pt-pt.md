@@ -45,7 +45,7 @@ No separador `Informações gerais`{.action}, clique no botão `...`{.action} ju
 
 ### Como abrir a consola KVM através da API OVHcloud
 
-/// details |  expanda esta secção
+/// details |  Expanda esta secção
 
 Se não está familiarizado com a utilização da API OVHcloud, consulte o nosso guia "[Primeiros passos com as API OVHcloud](/pages/manage_and_operate/api/first-steps)".
 

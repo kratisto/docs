@@ -1,7 +1,11 @@
 ---
 title: "How to edit the HA function of an NSX-v Edge"
-updated: 2022-09-14
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

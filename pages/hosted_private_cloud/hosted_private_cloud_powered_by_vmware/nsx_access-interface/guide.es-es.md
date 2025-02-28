@@ -1,8 +1,12 @@
 ---
 title: Acceder a la interfaz de gestión NSX-v (EN)
 excerpt: Find out how to use the NSX-v interface
-updated: 2021-11-17
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

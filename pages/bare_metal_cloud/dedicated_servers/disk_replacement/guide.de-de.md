@@ -1,6 +1,6 @@
 ---
-title: 'Eine defekte Disk austauschen'
-excerpt: 'In dieser Anleitung erklären wir Ihnen, wie Sie eine defekte Festplatte erkennen und deren Austausch beantragen.'
+title: Austausch einer defekten Disk
+excerpt: Erfahren Sie hier, wie Sie einen defekten Datenträger erkennen und einen Austausch beantragen
 updated: 2018-06-21
 ---
 
@@ -8,17 +8,18 @@ updated: 2018-06-21
 
 Wenn Sie feststellen, dass eine Festplatte defekt ist, oder per E-Mail eine Systeminformation über den Ausfall einer Festplatte erhalten haben, sollten Sie schnellstmöglich die notwendigen Maßnahmen ergreifen, um den Austausch der betreffenden Festplatte in die Wege zu leiten.
 
-**Hier erfahren Sie, wie Sie einen Festplattendefekt erkennen und den Austausch der betreffenden Festplatte durch unsere Teams beantragen.**
+**Diese Anleitung erklärt, wie Sie einen Festplattendefekt erkennen und den Austausch der betreffenden Festplatte durch unsere Teams beantragen.**
 
 > [!warning]
->Diese Anleitung soll Sie bei allgemeinen Aufgaben bestmöglich unterstützen. Denken Sie daran, diese Aktionen nötigenfalls an Ihre Situation anzupassen.
+> OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für deren Konfiguration und Verwaltung Sie verantwortlich sind. Es liegt somit bei Ihnen, sicherzustellen, dass diese ordnungsgemäß funktionieren.
 >
-> Bei Schwierigkeiten kontaktieren Sie bitte einen [spezialisierten Dienstleister](/links/partner) oder stellen Sie Ihre Fragen in der [OVHcloud Community](https://community.ovh.com/en/). Leider können wir Ihnen für administrative Aufgaben keine weitergehende technische Unterstützung anbieten.
+> Diese Anleitung soll Sie bei allgemeinen Aufgaben bestmöglich unterstützen. Wir empfehlen jedoch, einen [spezialisierten Dienstleister](/links/partner) zu kontaktieren oder Ihre Fragen an die [OVHcloud Community](/links/community) zu richten, wenn Sie bei der Administration Ihres Systems Hilfe benötigen. Zusätzliche Informationen finden Sie im am [Ende dieser Anleitung](#gofurther).
 >
 
 ## Voraussetzungen
 
-- Sie sind via SSH (*Root*-Zugriff) mit Ihrem [OVHcloud Dedicated Server](https://www.ovh.de/dedicated_server/){.external} verbunden (Linux).
+- Sie haben einen [Dedicated Server](/links/bare-metal/bare-metal) in Ihrem Kunden-Account.
+- Sie haben administrativen Zugriff (sudo) auf Ihren Server über SSH.
 
 ## In der praktischen Anwendung
 
@@ -29,8 +30,8 @@ Bevor Sie weitere Schritte einleiten, **sollten Sie in jedem Fall eine vollstän
 Es ist zwar außerordentlich selten, dass zwei Festplatten gleichzeitig ausfallen, allerdings auch nicht unmöglich.
 Wir führen keinen Festplattenwechsel durch ohne:
 
--	eine Bestätigung Ihrerseits über die ordnungsgemäße Sicherung Ihrer Daten
--	eine Bestätigung Ihrerseits, dass Sie sich der Möglichkeit eines Datenverlusts im Rahmen des Festplattenaustauschs bewusst sind
+- Eine Bestätigung Ihrerseits über die ordnungsgemäße Sicherung Ihrer Daten.
+- Eine Bestätigung Ihrerseits, dass Sie sich der Möglichkeit eines Datenverlusts im Rahmen des Festplattenaustauschs bewusst sind.
 
 ### Eine defekte Festplatte erkennen
 
@@ -132,21 +133,21 @@ root@rescue:~# nvme list
 
 #### Cold Swap (Abschaltung des Servers notwendig)
 
-Den Austausch einer Ihrer Festplatten können Sie ganz bequem durch die Erstellung einer Support-Anfrage über Ihr [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help) anfordern. Sie können den Vorgang beschleunigen, indem Sie uns alle mit den Tests verbundenen Daten mitteilen. Hier eine Zusammenfassung der von uns benötigten Informationen:
+Den Austausch einer Ihrer Festplatten können Sie durch die Erstellung einer Support-Anfrage über Ihr [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help) anfordern. Sie können den Vorgang beschleunigen, indem Sie uns alle mit den Tests verbundenen Daten mitteilen. Hier eine Zusammenfassung der von uns benötigten Informationen:
 
-- **die Seriennummer sowohl der zu ersetzenden Festplatte als auch aller weiteren intakten Festplatten**. Wie Sie die Seriennummer der zu ersetzenden Festplatte in Erfahrung bringen, sehen Sie in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/how_to_find_hdd_serial){.external} (Englisch). Sollten Sie aus irgendeinem Grund die Seriennummer der Festplatte nicht abrufen können, geben Sie dies bitte im Ticket an und teilen Sie uns die Seriennummern der nicht zu ersetzenden Festplatten mit. 
+- **Die Seriennummer sowohl der zu ersetzenden Festplatte als auch aller weiteren intakten Festplatten**. Wie Sie die Seriennummer der zu ersetzenden Festplatte in Erfahrung bringen, sehen Sie in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/how_to_find_hdd_serial). Sollten Sie aus irgendeinem Grund die Seriennummer der Festplatte nicht abrufen können, geben Sie dies bitte im Ticket an und teilen Sie uns die Seriennummern der nicht zu ersetzenden Festplatten mit. 
 
 Wie oben bereits erläutert, benötigen wir idealerweise die Seriennummern aller Festplatten. Diese werden dem Techniker im Rechenzentrum mitgeteilt, um Fehler beim Austausch zu vermeiden.
 
 - **Datum und Uhrzeit für den Beginn des Eingriffs**. Eine kurze Dienstunterbrechung muss eingeplant werden. Sie können den Beginn des Eingriffs aber auf jede beliebige Uhrzeit an jedem beliebigen Wochentag festlegen.
 
-- **die Bestätigung, dass Ihre Daten ordnungsgemäß gesichert sind und Sie einen möglichen Datenverlust akzeptieren**.
+- **Die Bestätigung, dass Ihre Daten ordnungsgemäß gesichert sind und Sie einen möglichen Datenverlust akzeptieren**.
 
 #### Hot Swap (ohne Serverabschaltung)
 
 > [!primary]
 >
-> Die Möglichkeit des Hot Swap ohne Serverabschaltung besteht ausschließlich für die Server [FS-MAX](https://www.ovh.de/dedicated_server/storage/1801fs05.xml){.external} und [Big-HG](https://www.ovh.de/dedicated_server/hg/1801bhg01.xml){.external} mit RAID-Karte.
+> Die Möglichkeit des Hot Swap ohne Serverabschaltung besteht ausschließlich für [Dedicated Server](/links/bare-metal/bare-metal) mit RAID-Karte.
 > 
 
 Bei einem Hot Swap auf einem Server mit MegaRAID-Karte werden Sie aufgefordert, zum Zeitpunkt des gewünschten Interventionsstarts die LED der zu ersetzenden Festplatte blinken zu lassen, um so die Arbeit unserer Techniker zu erleichtern.
@@ -201,4 +202,8 @@ Wenn Sie über einen Software-RAID verfügen, muss die Resynchronisation Ihrer F
 
 [Rescue-Modus](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Kontaktieren Sie für spezialisierte Dienstleistungen (SEO, Web-Entwicklung etc.) die [OVHcloud Partner](/links/partner).
+
+Wenn Sie Hilfe bei der Nutzung und Konfiguration Ihrer OVHcloud Lösungen benötigen, beachten Sie unsere [Support-Angebote](/links/support).
+
+Treten Sie unserer [User Community](/links/community) bei.

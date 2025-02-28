@@ -81,7 +81,7 @@ A ligação ao espaço de armazenamento FTP pode ser efetuada de várias formas.
 
 - [1 Ligação via "FTP Explorer"](#ftpexplorer): permite aceder ao seu espaço de armazenamento FTP a partir do seu browser.
 
-- [2. Ligação através de um software FTP](#ftpsoftware): permite aceder ao seu espaço de armazenamento FTP através de um software (como [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) ou [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac). 
+- [2. Ligação através de um software FTP](#ftpsoftware): permite aceder ao seu espaço de armazenamento FTP através de um software (como [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) ou [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)). 
 Deverá instalar previamente o software/cliente FTP escolhido no seu computador.
 
 - [3. Ligação via acesso SSH](#ssh): permite aceder ao seu espaço de armazenamento FTP através de um acesso SSH. Este tipo de acesso requer conhecimentos técnicos avançados, bem como uma oferta de [alojamento web da OVHcloud](/links/web/hosting){.external} **Pro* ou **Performance**.
@@ -100,7 +100,7 @@ Na nova página, insira o seu identificador FTP e a respetiva palavra-passe. Se 
 
 #### 2. Ligação através de um software FTP <a name="ftpsoftware"></a>
 
-Depois de instalar o software FTP à sua escolha no seu computador (como [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) ou [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac), inicie-o. 
+Depois de instalar o software FTP à sua escolha no seu computador (como [FileZilla](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide) ou [Cyberduck](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)), inicie-o. 
 
 Deverá encontrar campos específicos onde inserir as informações de ligação. 
 

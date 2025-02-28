@@ -1,8 +1,12 @@
 ---
 title: Konfiguracja grup obiektów NSX-v (EN)
 excerpt: Create groups to simplify rules management
-updated: 2021-11-24
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

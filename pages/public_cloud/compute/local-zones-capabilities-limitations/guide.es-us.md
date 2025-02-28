@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Funcionalidades, capacidades y límites
 excerpt: Descubra las funcionalidades, capacidades y límites actuales de las instancias de Local Zone
-updated: 2024-11-12
+updated: 2025-02-25
 ---
 
 ## Objetivo
@@ -27,8 +27,8 @@ Para más información, consulte nuestra [página dedicada a las instancias de L
 | Stop | Sí |
 | Block Storage | Sí |
 | Copias de seguridad de instancias | Sí |
-| Copias de seguridad automáticas | No |
-| Snapshots de volúmenes | No |
+| Copias de seguridad automáticas | Sí |
+| Snapshots de volúmenes | Sí |
 | Copias de seguridad de volúmenes | No |
 | Object Storage | Sí |
 | Imágenes de Windows | No |

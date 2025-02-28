@@ -1,7 +1,11 @@
 ---
 title: Konfiguration der NSX-v Distributed Firewall (EN)
-updated: 2021-12-01
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

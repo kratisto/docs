@@ -1,22 +1,22 @@
 ---
-title: 'MX Plan - Konfiguration Ihrer E-Mail-Adresse in Courrier für Windows'
-excerpt: 'Hier erfahren Sie, wie Sie Ihre MX Plan E-Mail-Adresse auf der Mail App von Windows einrichten'
+title: MX Plan - Konfiguration Ihres E-Mail-Accounts in Mail für Windows
+excerpt: Erfahren Sie hier, wie Sie Ihre MX Plan E-Mail-Adresse in der Mail App von Windows einrichten
 updated: 2024-10-01
 ---
 
-## Einleitung
+## Ziel
 
 E-Mail-Adressen aus dem MX Plan Angebot können auf einem kompatiblen E-Mail-Client eingerichtet werden. So können Sie Ihre bevorzugte App für den Versand und den Empfang Ihrer E-Mails verwenden.
 
-**In dieser Anleitung erfahren Sie, wie Sie Ihre MX Plan E-Mail-Adresse auf der Mail App von Windows 10 einrichten.**
+**Diese Anleitung erklärt, wie Sie Ihren MX Plan E-Mail-Account in der Mail App von Windows 10 einrichten.**
 
 ## Voraussetzungen
 
-- Sie besitzen eine MX Plan E-Mail-Adresse (im MX Plan Angebot oder in einem [OVHcloud Webhosting Angebot](/links/web/hosting) enthalten).
-- Die Mail App ist auf Ihrem Gerät installiert.
-- Sie haben die Login-Daten der E-Mail-Adresse, die Sie einrichten möchten.
+- Sie verfügen über einen MX Plan E-Mail-Account (im MX Plan Angebot oder in einem [OVHcloud Webhosting](/links/web/hosting) enthalten).
+- Sie haben die Anwendung Mail auf Ihrem Gerät installiert.
+- Sie verfügen über die Login-Daten für den E-Mail-Account, den Sie konfigurieren möchten.
 
-## Beschreibung
+## In der praktischen Anwendung
 
 ### Schritt 1: Account hinzufügen
 
@@ -40,7 +40,7 @@ Geben Sie nun folgende Informationen ein:
 |Kontoname|Geben Sie einen Namen für diesen Account ein, damit Sie ihn später von anderen Accounts in der Mail App unterscheiden können.|
 |Sendet Ihre Nachrichten unter diesem Namen|Geben Sie den Namen an, der als Absender angezeigt werden soll, wenn E-Mails mit dieser Adresse verschickt werden.|
 |Posteingangsserver|Geben Sie den Server „ssl0.ovh.net:993“ ein.|
-|Kontotyp|Wir empfehlen die Verwendung von **IMAP4**. Sie können auch **POP** im Drop-down-Menü auswählen (dann werden Ihre E-Mails lokal in Ihrer Mail App gespeichert).|
+|Kontotyp|Wir empfehlen die Verwendung von **IMAP**. Sie können auch **POP** im Drop-down-Menü auswählen (dann werden Ihre E-Mails lokal in Ihrer Mail App gespeichert).|
 |Postausgangsserver|Geben Sie den Server „ssl0.ovh.net:465“ ein.|
 
 Überprüfen Sie, dass die folgenden Haken gesetzt sind:
@@ -72,11 +72,11 @@ Wenn manuelle Änderungen in den Account-Einstellungen erforderlich sind, verwen
 |Eingangsserver|ssl0.ovh.net|Ja|995|
 |Ausgangsserver|ssl0.ovh.net|Ja|465|
 
-### Schritt 2: E-Mail-Adresse verwenden
+### Schritt 2: E-Mail-Account verwenden
 
-Ihre E-Mail-Adresse ist nun fertig konfiguriert und Sie können jetzt Nachrichten versenden und empfangen.
+Ihr E-Mail-Account ist nun fertig konfiguriert und Sie können Nachrichten versenden und empfangen.
 
-Eine OVHcloud Webanwendung, mit der Sie über Ihren Webbrowser auf Ihre E-Mail-Adresse zugreifen können, ist verfügbar unter[Webmail](/links/web/email). Sie können sich mit den Login-Daten Ihrer E-Mail-Adresse anmelden.
+OVHcloud bietet Ihnen außerdem eine Webanwendung, mit der Sie über einen Webbrowser auf Ihren E-Mail-Account zugreifen können. Diese ist über[Webmail](/links/web/email) verfügbar. Sie können sich mit den Login-Daten Ihres E-Mail-Accounts anmelden.
  
 ## Weiterführende Informationen
 

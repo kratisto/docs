@@ -51,7 +51,7 @@ Klicken Sie im Tab `Allgemeine Informationen`{.action} auf den Button `...`{.act
 
 Wenn Sie mit der Verwendung der OVHcloud API nicht vertraut sind, folgen Sie unserer Anleitung zu den [Grundlagen zur Nutzung der OVHcloud API](/pages/manage_and_operate/api/first-steps).
 
-Öffnen Sie diesen Endpunkt, um die URL zum KVM-Zugriffs abzurufen:
+Öffnen Sie diesen Aufruf, um die URL zum KVM-Zugriff abzurufen:
 
 > [!api]
 >
@@ -62,7 +62,7 @@ Geben Sie den internen Namen Ihres VPS (`vps-x11x11xyy.vps.ovh.net`) in das Feld
 
 Klicken Sie auf die Schaltfläche `EXECUTE`{.action}.
 
-Die Zugangs-URL wird im Bereich `RESPONSE` angezeigt.
+Die URL für den Zugang wird im Bereich `RESPONSE` angezeigt.
 
 ///
 

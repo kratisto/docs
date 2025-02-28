@@ -1,8 +1,12 @@
 ---
 title: 'Capire l’errore “Controller VM deleted” (EN)'
 excerpt: 'Find out what the “Controller VM deleted” error message means'
-updated: 2021-11-26
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

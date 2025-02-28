@@ -1,8 +1,12 @@
 ---
 title: DHCP auf Edge NSX-v konfigurieren (EN)
 excerpt: Assign IPs to your VMs through DHCP
-updated: 2021-11-22
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

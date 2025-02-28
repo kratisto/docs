@@ -1,8 +1,12 @@
 ---
 title: NSX-v Edge Firewall Configuration
 excerpt: creating firewall rules  
-updated: 2021-11-25
+updated: 2025-02-24
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

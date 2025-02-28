@@ -11,6 +11,7 @@ As part of your professional activities or out of interest on the subject, you m
 **Find out how to retrieve the monthly carbon footprint of your OVHcloud services.**
 
 ## Requirements
+
 - Being the billing contact for the service(s) you would like to create a carbon footprint for. For more information, see [our guide to managing contacts](/pages/account_and_service_management/account_information/managing_contacts).
 
 **The carbon footprint calculation is available for the following services:**

@@ -1,8 +1,12 @@
 ---
 title: Configurar o NAT NSX-v Edge (EN)
 excerpt: Using NAT rules to redirect traffic
-updated: 2021-11-26
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **End of life**
+> NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
 

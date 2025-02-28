@@ -1,8 +1,12 @@
 ---
 title: Configurer un VPN via une Gateway Edge
 excerpt: Utilisez le service VPN de la NSX-v Edge Gateway pour interconnecter des sites distants
-updated: 2021-11-30
+updated: 2025-02-27
 ---
+
+> [!alert]
+> **Fin de prise en charge**
+>  NSX-v n'est plus pris en charge dans l'environnement OVHcloud.
 
 ## Objectif
 

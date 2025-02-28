@@ -1,6 +1,6 @@
 ---
-title: 'Replacing a defective disk'
-excerpt: 'Find out how to identify a defective disk, and request a replacement'
+title: Replacing a defective disk
+excerpt: Find out how to identify a defective disk, and request a replacement
 updated: 2018-06-21
 ---
 
@@ -11,16 +11,15 @@ If you notice that a disk is faulty, or receive a notification email about a fau
 **This guide explains how to identify a defective disk, and how to request a disk replacement from our teams.**
 
 > [!warning]
+>OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
 >
-> OVHcloud is providing you with services that you will be responsible for. We have no access to these machines, and therefore cannot manage them, so we cannot provide administrative assistance. You are responsible for your own software and security management.
-> 
-> This guide is designed to assist you in common tasks as much as possible. However, we recommend that you call upon a [specialist service provider](/links/partner) if you experience any issues or doubts when it comes to managing, using or securing your server. You can find more information in the “Go further” section of this guide.
-> 
+>This guide is designed to help you with common tasks. Nevertheless, we recommend contacting a [specialist service provider](/links/partner) or reaching out to the [OVHcloud community](/links/community) if you encounter any difficulties. You can find more information in the [Go further](#gofurther) section of this guide.
+>
 
 ## Requirements
 
-- a [Dedicated Server](/links/bare-metal/bare-metal){.external}
-- administrative (sudo) access to the server via SSH
+- A [dedicated server](/links/bare-metal/bare-metal)
+- Administrative access (sudo) to the server via SSH
 
 ## Instructions
 
@@ -32,12 +31,12 @@ Although it’s rare to have two disks become faulty at the same time, it’s no
 
 We will not carry out any disk replacements without:
 
-- confirmation from you that you have backed up your data
-- confirmation that you accept full knowledge of the risk of data loss as a result of disk replacement
+- Confirmation from you that you have backed up your data.
+- Confirmation that you accept full knowledge of the risk of data loss as a result of disk replacement.
 
 ### Detecting a defective disk
 
-If you receive an email alert, or notice any signs that you might have a faulty disk, it is absolutely essential to check that all your disks are working properly. If two disks that make up part of the same RAID array seem to be faulty, we will replace the one that flags the highest number of errors as a priority.
+If you receive an email alert, or notice any signs that you might have a faulty disk, it is essential to check that all your disks are working properly. If two disks that make up part of the same RAID array seem to be faulty, we will replace the one that flags the highest number of errors as a priority.
 
 #### Servers using soft RAID
 
@@ -85,7 +84,7 @@ In this case, the line to look out for is as follows:
 
 #### Servers using hard RAID
 
-If you have a server that uses hard RAID, please refer to the [hardware RAID](/pages/bare_metal_cloud/dedicated_servers/raid_hard){.external} guide, and use the appropriate procedure for your RAID controller type to find the access paths to your disks.
+If you have a server that uses hard RAID, please refer to the [hardware RAID](/pages/bare_metal_cloud/dedicated_servers/raid_hard) guide, and use the appropriate procedure for your RAID controller type to find the access paths to your disks.
 
 Once you have found the access path for your disks, you can test them using the `smartctl` command, as follows:
 
@@ -115,7 +114,7 @@ You will need to specify the RAID number (/dev/sg0 = 1er RAID, /dev/sg1 = 2e RAI
 
 #### Servers with NVMe disks
 
-If you have an NVMe disk, you will need to put the server into [rescue mode](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external} and install the `nvme-cli` tool.
+If you have an NVMe disk, you will need to put the server into [rescue mode](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) and install the `nvme-cli` tool.
 
 ```sh
 apt install nvme-cli
@@ -131,16 +130,13 @@ root@rescue:~# nvme list
 >>> /dev/nvme1n1   CVPF6333002Y450RGN  INTEL SSDPE2MX450G7   1         450.10  GB / 450.10  GB   512  B +  0 B MDV10253
 ```
 
-#### Check S.M.A.R.T logs in rescue mode
-You can check S.M.A.R.T logs in web panel of rescue mode.To check how you can use rescue mode please follow [this guide](/pages/bare_metal_cloud/dedicated_servers/rescue_mode){.external}
-
 ### Requesting a disk replacement
 
 #### Cold-swapping the disk (server downtime required)
 
-To request a disk replacement, you simply need to create a ticket through your [OVHcloud Help Centre](https://help.ovhcloud.com/csm?id=csm_get_help). You can speed up the process by providing the information required for the tests. Below is a list of what you will need to provide:
+To request a disk replacement, you simply need to create a ticket through your [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help). You can speed up the process by providing the information required for the tests. Below is a list of what you will need to provide:
 
-- **The serial number of the disk that needs to be replaced, as well as the serial numbers for all other disks that are working properly**. To retrieve the serial number of the disk that needs to be replaced, please follow [this guide](/pages/bare_metal_cloud/dedicated_servers/how_to_find_hdd_serial){.external}. If, for any reason, you are unable to retrieve the disk’s serial number, please let us know in the ticket, and list the serial numbers of the disks that don’t need to be replaced. 
+- **The serial number of the disk that needs to be replaced, as well as the serial numbers for all other disks that are working properly**. To retrieve the serial number of the disk that needs to be replaced, please follow [this guide](/pages/bare_metal_cloud/dedicated_servers/how_to_find_hdd_serial). If, for any reason, you are unable to retrieve the disk’s serial number, please let us know in the ticket, and list the serial numbers of the disks that don’t need to be replaced. 
 
 As a reminder, it’s important to include the serial numbers of all the disks. They will be sent to the datacentre technician, and this will avoid any mistakes being made as the replacement operation is carried out.
 
@@ -152,12 +148,41 @@ As a reminder, it’s important to include the serial numbers of all the disks. 
 
 > [!primary]
 >
-> This replacement type is only possible for [FS-48T](https://www.ovh.co.uk/dedicated_servers/storage/1901fs03.xml){.external}, [STOR-72T](https://www.ovh.co.uk/dedicated_servers/storage/1801fs09.xml){.external}, [FS-MAX](https://www.ovh.co.uk/dedicated_servers/storage/1801fs05.xml){.external}, [mHG](https://www.ovh.co.uk/dedicated_servers/hg/1801mhg03.xml){.external}(2019 range only), [HG](https://www.ovh.co.uk/dedicated_servers/hg/1801hg03.xml){.external} and [BHG](https://www.ovh.co.uk/dedicated_servers/hg/1801bhg03.xml){.external} 
+> This replacement type is only possible for [dedicated servers](/links/bare-metal/bare-metal) with a RAID card.
 > 
 
-If you are hot-swapping a disk on a server with a MegaRAID card you can refer to our [Hot Swap - Hardware RAID](/pages/bare_metal_cloud/dedicated_servers/hotswap_raid_hard){.external} guide. 
+If you are hot-swapping a disk on a server with a megaRAID card, please make the LED light flash for the disk that needs to be replaced, once the intervention has been scheduled. This will make the process easier for the teams who are working on the replacement operation.
 
-While if you are hot-swapping a disk using software RAID (with a LSI card) please refer to our [Hot Swap - Software RAID](/pages/bare_metal_cloud/dedicated_servers/hotswap_raid_soft){.external} guide 
+If your server uses a megaRAID card, please use the following commands:
+
+- To make the LED light flash:
+
+```sh
+MegaCli -PdLocate -start -physdrv[E0:S0] -a0
+```
+
+- To stop the LED light from flashing:
+
+```sh
+MegaCli -PdLocate -stop -physdrv[E0:S0] -a0
+```
+
+> [!primary]
+>
+> Equivalent via the `storcli` command:
+>
+> - To make the LED light flash:
+>
+> ```sh
+> storcli /c0/e0/s0 start locate
+> ```
+>
+> - To stop the LED light from flashing:
+>
+> ```sh
+> storcli /c0/e0/s0 stop locate
+> ```
+>
 
 > [!primary]
 >
@@ -168,7 +193,7 @@ While if you are hot-swapping a disk using software RAID (with a LSI card) pleas
 
 If you have a server that uses hard RAID, then the RAID will rebuild itself. Please note that *auto-rebuild* is enabled by default. For it to work, please ensure that you have not disabled it. The resync process will take a few minutes, and may decrease your RAID’s read/write performance.
 
-If you have a server that uses soft RAID, we recommend that you resync your disks manually. To do this, you can refer to our [software RAID](/pages/bare_metal_cloud/dedicated_servers/raid_soft){.external} guide.
+If you have a server that uses soft RAID, we recommend that you resync your disks manually. To do this, you can refer to our [software RAID](/pages/bare_metal_cloud/dedicated_servers/raid_soft) guide.
 
 ## Go further
 
@@ -177,5 +202,9 @@ If you have a server that uses soft RAID, we recommend that you resync your disk
 [Hardware RAID](/pages/bare_metal_cloud/dedicated_servers/raid_hard)
 
 [Rescue Mode](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)
+
+For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
+If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
 
 Join our [community of users](/links/community).
