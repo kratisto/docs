@@ -57,7 +57,7 @@ Below is a matching of existing annotations supported on [Load Balancer for Mana
 >
 > Some annotations have been **deprecated** and need to be replaced to ensure full compatibility.
 
-You can find full details on the official documentation pages :
+You can find full details on the official documentation pages:
 
 - [Load Balancer for Managed Kubernetes annotations](/pages/public_cloud/containers_orchestration/managed_kubernetes/using-lb#supported-annotations)
 - [Public Cloud Load Balancer annotations](/pages/public_cloud/containers_orchestration/managed_kubernetes/expose_your_applications_using_a_load_balancer#supported-annotations-features)
@@ -166,7 +166,7 @@ kubectl delete svc old-loadbalancer-service
 
 ### **Replacement**
 
-Replace an existing [Load Balancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) to a [Public Cloud Load Balancer](/links/public-cloud/load-balancer) involves to modify the existing service and change the loadbalancer class from `iolb` to `octavia`. This will lead to Kubernetes reconciling the loadbalancer class by deleting the old one and create a new loadbalancer.
+Replacing an existing [Load Balancer for Kubernetes](/links/public-cloud/load-balancer-kubernetes) with a [Public Cloud Load Balancer](/links/public-cloud/load-balancer) involves modifying the existing service and changing the loadbalancer class from `iolb` to `octavia`. This will lead to Kubernetes reconciling the loadbalancer class by deleting the old one and creating a new loadbalancer.
 
 Once the new Load Balancer delivered, you can perform a DNS switch using the new public IP.
 
