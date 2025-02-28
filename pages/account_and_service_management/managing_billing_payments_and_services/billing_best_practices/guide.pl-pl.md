@@ -1,7 +1,7 @@
 ---
 title: Dobre praktyki zarządzania usługami i kontem OVHcloud
 excerpt: Znajdziesz tutaj elementy niezbędne do prawidłowego zarządzania fakturami, zamówieniami, sposobami płatności i kontem klienta.
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Wprowadzenie
@@ -31,7 +31,7 @@ Aby środki bezpieczeństwa były skuteczne, upewnij się, że Twoje konta e-mai
 
 Twoje dane osobowe (adres pocztowy, e-mail, itp.) muszą być aktualne na Twoim koncie klienta, aby zapewnić bezpieczeństwo i prawidłowe działanie usług.
 
-Sprawdź Twoje dane osobowe klikając w prawym górnym rogu Panelu klienta OVHcloud, na Twoje nazwisko, a następnie na Twoje inicjały (`Zarządzaj kontem`{.action}).<br>
+Sprawdź dane osobowe, klikając w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) Twoje nazwisko, a następnie wybierając `Dostęp do konta`{.action}.<br>
 W sekcji `Mój profil`{.action} po prawej stronie ekranu (kliknij ponownie nazwę, aby usunąć menu po lewej stronie), kliknij `...`{.action}, a następnie `Edytuj moj profil`{.action}.
 
 ![miprofile](images/myprofile.png){.thumbnail}
@@ -46,7 +46,7 @@ Upewnij się, czy Twoje konto e-mail jest zawsze **aktualne, bezpieczne i dostę
 >
 
 E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](/links/manager)<br>
-Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `E-maile od OVHcloud`{.action} w prawym menu.
+Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `Połączenia`{.action} w prawym menu.
 
 ![service_email](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
@@ -69,7 +69,7 @@ Jeśli zdecydujesz się nie aktywować automatycznego odnowienia, otrzymasz e-ma
 ### Informacje o zamówieniach
 
 Czy wiesz, że możesz [śledzić zamówienia](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) w [Panelu klienta OVHcloud](/links/manager)?<br>
-Wystarczy przejść do zakładki `Dashboard`{.action} w górnym menu ekranu, a następnie kliknąć `Wyswietl moje zamówienia`{.action}.
+Kliknij logo OVHcloud w lewym górnym rogu ekranu, a następnie kliknij `Wyswietl moje zamówienia`{.action}.
 
 ![starsi](images/viewmyorders.png){.thumbnail}
 

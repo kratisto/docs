@@ -1,7 +1,7 @@
 ---
 title: Les bonnes pratiques pour la gestion de vos services et de votre compte OVHcloud
 excerpt: Retrouvez ici les éléments indispensables pour la bonne gestion de vos factures, commandes, moyens de paiement et compte client
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Objectif

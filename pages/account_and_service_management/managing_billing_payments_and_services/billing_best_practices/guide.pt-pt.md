@@ -1,7 +1,7 @@
 ---
 title: As boas práticas para a gestão dos seus serviços e da sua conta OVHcloud
 excerpt: Encontre aqui os elementos indispensáveis para a boa gestão das suas faturas, encomendas, métodos de pagamento e conta de cliente
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Objetivo
@@ -31,7 +31,7 @@ Para que as medidas de segurança sejam eficazes, certifique-se de que os seus e
 
 As suas informações pessoais (endereço postal, e-mail, etc.) devem estar atualizadas na sua conta de cliente para garantir a segurança e o bom funcionamento dos seus serviços.
 
-Verifique os seus dados pessoais clicando no seu nome e nas suas iniciais (`Gerir a minha conta`{.action}) no canto superior direito da sua Área de Cliente OVHcloud.<br>
+Verifique as suas informações pessoais clicando, no canto superior direito do seu [Área de Cliente OVHcloud](/links/manager), no seu nome e, depois, em `Aceder à minha conta`{.action}.<br>
 Na secção `O meu perfil`{.action} à direita do ecrã (clique novamente no seu nome para eliminar o menu à esquerda), clique em `...`{.action} e, a seguir, em `Editar o meu perfil`{.action}.
 
 ![myprofile](images/myprofile.png){.thumbnail}
@@ -46,7 +46,7 @@ Certifique-se de que o seu endereço de e-mail está sempre **atualizado, seguro
 >
 
 Os e-mails enviados pela OVHcloud também estão acessíveis a partir da [Área de Cliente OVHcloud](/links/manager).<br>
-Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `E-mails de serviço`{.action} no menu à direita.
+Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `As minhas comunicações`{.action} no menu à direita.
 
 ![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
@@ -69,7 +69,7 @@ Se decidir não ativar a renovação automática, receberá notificações por e
 ### Seguimento das suas encomendas
 
 Sabia que podia [Gerir as encomendas da OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) no seu [Área de Cliente OVHcloud](/links/manager)?<br>
-Basta aceder ao separador `Painel de controlo`{.action} do menu superior do seu ecrã e clicar em `Ver as minhas encomendas`{.action}.
+Basta clicar no logótipo da OVHcloud no canto superior esquerdo do seu ecrã e clicar em `Ver as minhas encomendas`{.action}.
 
 ![viewmyorders](images/viewmyorders.png){.thumbnail}
 

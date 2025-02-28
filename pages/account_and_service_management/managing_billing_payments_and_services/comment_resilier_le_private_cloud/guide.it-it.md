@@ -46,7 +46,7 @@ Compare un messaggio di conferma di ricezione della richiesta. La procedura da s
 
 Una volta inoltrata la richiesta, un’email di conferma della disattivazione viene inviata all’indirizzo associato all’account OVHcloud. 
 
-Il messaggio è disponibile anche nello Spazio Cliente: clicca sul nome utente in alto a destra e seleziona `Email di servizio`{.action}.
+Il messaggio è disponibile anche nello Spazio Cliente: clicca sul nome utente in alto a destra e seleziona `Le mie comunicazioni`{.action}.
 
 ![Conferma disattivazione](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 

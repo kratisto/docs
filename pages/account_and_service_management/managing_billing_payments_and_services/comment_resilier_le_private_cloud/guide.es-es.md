@@ -46,7 +46,7 @@ Aparecerá un mensaje confirmándole que la solicitud de baja se ha enviado corr
 
 Una vez solicitada la baja del servicio, recibirá el procedimiento de confirmación por correo electrónico en la dirección asociada a su cuenta de OVHcloud. 
 
-También puede consultar este mensaje de correo electrónico en su área de cliente de OVHcloud. Para ello, desde la página de inicio del panel de control, haga clic en el botón `Emails de servicio`{.action} que aparece en el menú de la derecha.
+También puede consultar este mensaje de correo electrónico en su área de cliente de OVHcloud. Para ello, desde la página de inicio del panel de control, haga clic en el botón `Mis mensajes`{.action} que aparece en el menú de la derecha.
 
 ![Confirmar la baja del servicio](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 

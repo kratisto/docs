@@ -1,7 +1,7 @@
 ---
 title: Best practices for managing your OVHcloud services and account
 excerpt: Find out about the best ways to manage your invoices, orders, payment methods and account
-updated: 2024-12-23
+updated: 2025-03-04
 ---
 
 ## Objective
@@ -31,7 +31,7 @@ For the security measures to be efficient, make sure your email addresses (main 
 
 Your personal information (postal address, email address, etc.) must be up-to-date in your customer account to guarantee the security and proper functioning of your services.
 
-Check your personal information by clicking on your name in the top right-hand corner of the [OVHcloud Control Panel](/links/manager), then on your initials (`Manage my account`{.action}).<br>
+Verify your personal information by clicking on your name in the top right-hand corner of your [OVHcloud Control Panel](/links/manager), then `Access my account`{.action}.<br>
 In the `My profile`{.action} section on the right of your screen (click on your name again to remove the left menu), click on `...`{.action}, then on `Edit my profile`{.action}.
 
 ![myprofile](images/myprofile.png){.thumbnail}
@@ -46,7 +46,7 @@ Ensure your email address is always **up to date, accessible and secured**. Emai
 >
 
 Emails sent by OVHcloud will be also visible in your [OVHcloud Control Panel](/links/manager).<br>
-Click on your name at the top right of your screen, then on `Service emails`{.action} in the right-hand menu.
+Click on your name at the top right of your screen, then on `My messages`{.action} in the right-hand menu.
 
 ![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
@@ -69,7 +69,7 @@ If you decide not to activate the autorenewal on your services, you will receive
 ### Order follow-up
 
 Did you know that you can [track your orders](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) in your [OVHcloud Control Panel](/links/manager)? <br>
-Just navigate to the `Dashboard`{.action} tab at the top menu of your screen, then click on `View my orders`{.action}.
+Just click on the OVHcloud logo in the top left-hand corner of your screen, then click `View my orders`{.action}.
 
 ![viewmyorders](images/viewmyorders.png){.thumbnail}
 

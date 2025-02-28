@@ -46,7 +46,7 @@ Ser-lhe-á apresentada uma notificação de confirmação do seu pedido. O proce
 
 No seguimento do seu pedido, ser-lhe-á enviado um e-mail de confirmação para o endereço associado à conta OVHcloud. 
 
-Também poderá encontrar este e-mail na sua Área de Cliente OVHcloud. Clique no seu nome na parte superior à direita > `E-mails de serviço`{.action}.
+Também poderá encontrar este e-mail na sua Área de Cliente OVHcloud. Clique no seu nome na parte superior à direita > `As minhas comunicações`{.action}.
 
 ![validação rescisão](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 

@@ -46,7 +46,7 @@ You will then receive a confirmation notice of your request. The procedure for c
 
 Following your request, a termination confirmation email is sent to you at the address linked to the OVHcloud account.
 
-You can also find this email in your OVHcloud client space. Click on your name at the top right and then on `Service emails`{.action}.
+You can also find this email in your OVHcloud client space. Click on your name at the top right and then on `My messages`{.action}.
 
 ![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
 
