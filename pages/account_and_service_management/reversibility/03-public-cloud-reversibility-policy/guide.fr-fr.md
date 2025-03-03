@@ -5,13 +5,13 @@ updated: 2021-05-05
 
 ## Objectif
 
-Ce document est la politique de réversibilité pour les activités Public Cloud [Compute](https://www.ovhcloud.com/fr/public-cloud/compute/), [Object Storage](https://www.ovhcloud.com/fr/public-cloud/object-storage/) et [Block Storage](https://www.ovhcloud.com/fr/public-cloud/block-storage/).
+Ce document est la politique de réversibilité pour les activités Public Cloud [Compute](/links/public-cloud/compute), [Object Storage](/links/public-cloud/object-storage) et [Block Storage](/links/public-cloud/block-storage).
 
 Cette politique vise à mettre en oeuvre les principes généraux de réversibilité et notre conformité au [code de conduite IaaS SWIPO pour les fournisseurs Cloud](https://swipo.eu/download-section/copyrighted-downloads/){.external}.
 
 ## Liste des fonctionnalités
 
-Les fonctionnalités Hosted Private Cloud sont divisées en trois catégories :
+Les fonctionnalités Public Cloud sont divisées en trois catégories :
 
 - Les [fonctionnalités principales](#fonctionnalites-principales) pour lesquelles nous garantissons la capacité de migrer.
 - L'[implémentation OVHcloud](#ovhcloud-implementation), dont la migration nécessitera des adaptations à un nouvel environnement.
@@ -42,13 +42,13 @@ Les fonctionnalités Hosted Private Cloud sont divisées en trois catégories :
 
 ### Liste des architectures
 
-Tous les composants des produits Public Cloud sont accessibles via l'[espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr). Cela permet de visualiser et de gérer les instances, les volumes, les conteneurs d'objets ... ainsi que les fonctions associées à ces composants.
+Tous les composants des produits Public Cloud sont accessibles via l'[espace client OVHcloud](/links/manager). Cela permet de visualiser et de gérer les instances, les volumes, les conteneurs d'objets ... ainsi que les fonctions associées à ces composants.
 
 L'interface web Horizon permet également d'afficher les composants de l'architecture.
 
 ### Services Partenaires
 
-Les partenaires OVHcloud sont répertoriés avec le mot clé « Cloud Migration » dans le [répertoire dédié](https://partner.ovhcloud.com/fr/directory/).
+Les partenaires OVHcloud sont répertoriés avec le mot clé « Cloud Migration » dans le [répertoire dédié](/links/partner).
 
 ### Coût et frais
 

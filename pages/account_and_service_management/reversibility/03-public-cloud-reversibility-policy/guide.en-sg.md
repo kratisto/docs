@@ -5,7 +5,7 @@ updated: 2021-05-05
 
 ## Objective
 
-This document is the reversibility policy for the Public Cloud [Compute](https://www.ovhcloud.com/en-sg/public-cloud/compute/), [Object Storage](https://www.ovhcloud.com/en-sg/public-cloud/object-storage/) and [Block Storage](https://www.ovhcloud.com/en-sg/public-cloud/block-storage/) activities.
+This document is the reversibility policy for the Public Cloud [Compute](/links/public-cloud/compute), [Object Storage](/links/public-cloud/object-storage) and [Block Storage](/links/public-cloud/block-storage) activities.
 
 This policy aims at implementing the global reversibility principles and requirements of [SWIPO IaaS Code of Conduct for Cloud Providers](https://swipo.eu/download-section/copyrighted-downloads/){.external}.
 
@@ -42,13 +42,13 @@ Public cloud features are divided into three categories:
 
 ### Architecture listing
 
-All components of Public Cloud products are accessible through the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg). This allows to visualize and manage the instances, volumes, object containers ... as well as the features that are attached to these components.
+All components of Public Cloud products are accessible through the [OVHcloud Control Panel](/links/manager). This allows to visualize and manage the instances, volumes, object containers ... as well as the features that are attached to these components.
 
 Horizon webUI also allows to view architecture components.
 
 ### Partner services
 
-OVHcloud Partners are listed with the "Cloud Migration" keyword in the dedicated [directory](https://partner.ovhcloud.com/en-sg/directory/).
+OVHcloud Partners are listed with the "Cloud Migration" keyword in the dedicated [directory](/links/partner).
 
 ### Cost and fees
 
