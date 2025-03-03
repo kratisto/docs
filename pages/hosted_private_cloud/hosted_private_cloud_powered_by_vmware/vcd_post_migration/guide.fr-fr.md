@@ -1,7 +1,7 @@
 ---
 title: "Configuration réseau après migration de vSphere vers VCD"
 excerpt: "Apprenez à configurer votre réseau après la migration de VMware vSphere vers VMware Cloud Director."
-updated: 2025-02-19
+updated: 2025-03-03
 ---
 
 ## Objectif
@@ -35,7 +35,7 @@ Pour passer la configuration réseau en `DHCP` *(Recommandé)*:
 
 ### Étape 2 : Gérer le problème d’adressage IP dans `VCD`
 
-Lors de la migration, les `VLANs` sont pré-créés avec des **`Gateway CIDRs` temporaires**, car les sous-réseaux exacts des VMs ne sont pas connus à l’avance.
+Les réseaux sont précréés avec des CIDR de passerelle temporaires, car les sous-réseaux réels des machines virtuelles ne sont pas connus à l’avance.
 
 Cela peut entraîner des erreurs d’attribution d’IP si les paramètres ne sont pas ajustés après la migration.
 
@@ -51,12 +51,8 @@ Cela peut entraîner des erreurs d’attribution d’IP si les paramètres ne so
 
    ![DHCP mode](images/03-VCD-post-migration.png){.thumbnail}
 
-2. **Mettre à jour manuellement le sous-réseau en `mode statique`**
-    - Identifier et configurer manuellement le bon sous-réseau pour chaque réseau.
-    - Il n’existe pas de méthode automatique pour récupérer ces informations.
-
-3. **Créer un nouveau `segment`**
-    - Les clients peuvent créer un nouveau `network segment` avec le sous-réseau correct.
+2. **Créer un nouveau `network`**
+    - Les clients peuvent créer un nouveau `network` avec le sous-réseau correct.
     - Cette solution est applicable uniquement si le client possède **un seul** bloc d’adresses IP publiques.
 
 ## Aller plus loin

@@ -1,7 +1,7 @@
 ---
 title: "Setting up your network after vSphere to VCD migration"
 excerpt: "Learn how to configure your network after migrating from VMware vSphere to VMware Cloud Director."
-updated: 2025-02-19
+updated: 2025-03-03
 ---
 
 ## Objective
@@ -51,11 +51,7 @@ This can lead to IP assignment issues if not addressed post-migration.
 
     ![DHCP mode](images/03-VCD-post-migration.png){.thumbnail}
 
-2. **Manually update the subnet in `static mode`**
-    - Identify and configure the correct subnet manually for each network.
-    - There is no automatic method to retrieve these details.
-
-3. **Create a new `segment`**
+2. **Create a new `network`**
     - Customers can create a new `network` with the correct subnet.
     - This solution works only if the customer has **a single** public IP range.
 
