@@ -1,7 +1,7 @@
 ---
-title: "VMware Cloud Director - Concepts réseau et bonnes pratiques"
+title: "VMware Cloud Director - Concepts réseaux et bonnes pratiques"
 excerpt: "Découvrez les puissantes capacités de mise en réseau de VMware Cloud Director on OVHcloud avec ce guide complet sur les concepts et fonctionnalités clés"
-updated: 2024-10-22
+updated: 2025-03-03
 ---
 
 <style>
@@ -31,10 +31,10 @@ details[open]>summary::before {
 
 > [!primary]
 >
-> Si vous ne savez comment vous connecter au portail web de votre organisation, consultez d'abord le guide « [Comment se connecter à VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging) ».
+> Si vous ne savez pas comment vous connecter au portail web de votre organisation, consultez d'abord le guide « [Comment se connecter à VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging) ».
 >
 
-- Un navigateur Web (avec de préférence une base Chromium et la traduction activée en Français).
+- Un navigateur Web (de préférence avec un navigateur basé sur Chromium et la traduction activée en français).
 - Avoir un compte VMware Cloud Director avec des droits utilisateur (vérifiez que votre compte utilisateur dispose des droits suffisants).
 - Avoir suivi le guide « [VMware Cloud Director - Les concepts fondamentaux de VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-get-concepts) ».
 
@@ -49,10 +49,10 @@ Dans ce guide d'introduction, nous allons exposer :
 
 Pour assurer une infrastructure réseau flexible et sécurisée dans un environnement de cloud polyvalent, VMware Cloud Director utilise une architecture de mise en réseau superposée comprenant quatre catégories de réseaux :
 
-- **Les réseaux externes**.
-- **Les réseaux vDC d'organisation**.
-- **Les réseaux de groupe de centres de données**.
-- **Les réseaux vApp**.
+- **Les réseaux externes**
+- **Les réseaux vDC d'organisation**
+- **Les réseaux de groupe de centres de données**
+- **Les réseaux vApp**
 
 La plupart de ces réseaux nécessitent des éléments d'infrastructure supplémentaires tels que les **Passerelles Edge** et les **Pools de réseaux**.
 
@@ -73,7 +73,7 @@ Il contient aussi une section `Réseau`{.action} au sein de chaque vDC dans `Cen
 
 ### Étape 1 - Les offres et fonctionnalités réseau
 
-/// details | Quelles sont les capacités, les fonctionnalités proposées et offertes ?
+/// details | Quelles sont les capacités et les fonctionnalités proposées ?
 
 **Capacités de mise en réseau**
 
@@ -85,13 +85,13 @@ Voici les principales fonctionnalités réseau offertes avec les offres VCD on O
 | **Public IPv4 Range.**            | ✅        | ✅        | ✅       |                                                                                                                                                                                                                                 |
 | **Réseau privé - Support vRack.** | ✅        | ✅        | ✅       | - Dans la Roadmap.                                                                                                                                                                                                              |
 | **Routage et commutation IPv6.**  |          |          |         | - Dans la Roadmap.                                                                                                                                                                                                              |
-| **VPN.**                          |          | ✅        | ✅       | - L2VPN, VPN IPsec Policy Based Non pris en charge : VPN SSL, Routed based IPsec VPN.                                                                                                                                           |
+| **VPN.**                          |          | ✅        | ✅       | - L2VPN, VPN IPsec Policy Based Non pris en charge : VPN SSL, route-based IPsec VPN.                                                                                                                                           |
 | **Load Balancing.**               |          |          |         | - Non pris en charge avec les fonctionnalités réseau VCD natives.                                                                                                                                                               |
 | **Load balancing avancée.**       |          |          |         | - Dans la Roadmap.                                                                                                                                                                                                              |
 
 **Fonctionnalités réseau des offres VCD on OVHcloud**
 
-Voici un comparatif des 3 offres proposés par VMware Cloud Director on OVHcloud.
+Voici un comparatif des 3 offres proposées par VMware Cloud Director on OVHcloud.
 
 |                   | Advanced Network & Security | vSAN Storage |
 |:-----------------:|:---------------------------:|:------------:|
@@ -105,14 +105,14 @@ Les fonctionnalités de réseau avancé et de sécurité au sein de VCD on OVHcl
 
 ### Étape 2 - Concepts et bonnes pratiques
 
-/// details | Quels sont les bonnes pratiques depuis l'espace client VCD ?
+/// details | Quelles sont les bonnes pratiques dans l'espace client VCD ?
 
-**Recommandation dans la conception et l'administration de l'espace réseau**
+**Recommandations pour la conception et l'administration de l'espace réseau**
 
 | Design Recommendation                                                                                                                   | Design Justification                                                                            | Design Implication                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | Créez une ou plusieurs passerelles Edge (passerelles de niveau 1) par CDV d'organisation.                                               | Active les services de mise en réseau pour le vDC de l'organisation.                            | Aucune.                                                                               |
-| Créer des groupes de centre de données, s'il est nécessaire d'avoir des réseaux OrgvDC couvrant plusieurs OrgVDC dans une organisation. | Simplifie la connectivité transversale Org vDC.                                                 | Nécessite la création de groupes de centre de données dans le tenant (locataire) VCD. |
+| Créez des groupes de centres de données, s'il est nécessaire d'avoir des réseaux OrgvDC couvrant plusieurs OrgVDC dans une organisation. | Simplifie la connectivité transversale Org vDC.                                                 | Nécessite la création de groupes de centre de données dans le tenant (locataire) VCD. |
 | Utiliser la fonction Espaces IP plutôt que l'adressage par blocs IP traditionnel.                                                       | Note : La livraison de l'ensemble des fonctionnalités d'IP Spaces s'étend sur plusieurs phases. | Aucune.                                                                               |
 
 **Le réseau au sein de VCD (concept)**
@@ -301,7 +301,7 @@ Vous pouvez maintenant suivre les étapes du guide suivant : [« Guide 2 - VMwar
 - Guide 1 : « VMware Cloud Director on OVHcloud - Network - Concepts »
 - Guide 2 : « [VMware Cloud Director on OVHcloud - Network - Créer des composants réseau via le control panel VCD on OVHcloud »](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_network_creation)
 - **Bientôt disponible** : « Guide 3 : VMware Cloud Director on OVHcloud - Network - Comment créer un tunnel IPsec avec VCD on OVHcloud ? »
-- **Bientôt disponible** : « Guide 4 : VMware Cloud Director on OVHcloud - Network - Comment exploiter un block IP avec VCD on OVHcloud ? »
+- **Bientôt disponible** : « Guide 4 : VMware Cloud Director on OVHcloud - Network - Comment exploiter un bloc IP avec VCD on OVHcloud ? »
 - **Bientôt disponible** : « Guide 5 : VMware Cloud Director on OVHcloud - Network - Comment utiliser le distributed firewalling (East - Ouest) ? »
 
 **Notions réseau OVHcloud utiles**
