@@ -7,14 +7,14 @@ updated: 2025-03-04
 > [!primary]
 > L'application [Softcall](https://labs.ovhcloud.com/en/softphone-beta/) est disponible en phase bêta.
 >
-> Ce guide peut donc être incomplet et sera mis à jour lors de la bêta. Notre équipe reste disponible pour répondre à vos questions sur la mailing-list [voip@ml.ovh.net](mailto:voip@ml.ovh.net). Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services VoIP.
+> Ce guide est susceptible d'être incomplet et sera mis à jour durant la phase bêta. Notre équipe reste disponible pour répondre à vos questions sur la mailing-list [voip@ml.ovh.net](mailto:voip@ml.ovh.net). Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services VoIP.
 >
 > **[Inscrivez-vous à la bêta dès maintenant !](https://survey.ovh.com/index.php/361586?lang=fr)**
 > 
 
 ## Objectif
 
-Le Softphone est une solution qui transforme votre ordinateur, smartphone ou tablette en un téléphone virtuel, vous permettant d'utiliser votre ligne SIP (**S**ession **I**nitiation **P**rotocol) n'importe où et à tout moment. Grâce à notre application [Softcall](https://labs.ovhcloud.com/en/softphone-beta/), facilement téléchargeable sur les plateformes Android, iOS, macOS et Windows, vous pouvez accéder à toutes les fonctionnalités de votre ligne téléphonique professionnelle sans être lié à un téléphone de bureau traditionnel. Que vous soyez en déplacement ou que vous travailliez à distance, Softcall assure que votre ligne SIP reste aussi mobile et flexible que vos besoins quotidiens l'exigent.
+Le Softphone est une solution qui transforme votre ordinateur, smartphone ou tablette en un téléphone virtuel, vous permettant d'utiliser votre ligne SIP (**S**ession **I**nitiation **P**rotocol) n'importe où et à tout moment. Grâce à notre application [Softcall](https://labs.ovhcloud.com/en/softphone-beta/), facilement téléchargeable sur les plateformes Android, iOS, macOS et Windows, vous pouvez accéder à toutes les fonctionnalités de votre ligne téléphonique professionnelle sans être attaché à un téléphone de bureau traditionnel. Que vous soyez en déplacement ou que vous travailliez à distance, Softcall garantit que votre ligne SIP reste aussi mobile et flexible que nécessaire.
 
 **Découvrez comment installer et configurer Softcall sur les plateformes Android, iOS, macOS et Windows.**
 
@@ -23,15 +23,20 @@ Le Softphone est une solution qui transforme votre ordinateur, smartphone ou tab
 - Disposer d'une [ligne SIP OVHcloud](/links/telecom/telephonie-voip).
 - Être connecté à l'[espace client OVHcloud](/links/manager), partie `Télécom`{.action}.
 - Rejoindre la [bêta Softcall](https://survey.ovh.com/index.php/361586?lang=fr).
+- Une fois Softcall activé, le téléphone OVH lié à la ligne ne pourra plus être utilisé.
+- Si votre connexion utilise un pare-feu, vous devez autoriser les adresses IP suivantes : `57.128.38.204/32` et `57.128.38.156/32`.
+
+> [!primary]
+> Si Softcall est désactivé et que vous souhaitez réutiliser votre téléphone OVH, vous devez procéder à un dépannage Plug & Phone. Pour les autres types d'appareils, il est nécessaire de réinitialiser le mot de passe SIP et de le renseigner dans la configuration de l'appareil. Pour plus de détails, consultez notre guide « [Dépanner son téléphone OVHcloud](web_cloud/phone_and_fax/voip/troubleshoot-02-fix-control-panel) ».
 
 ## En pratique
 
 ### Installer Softcall
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
-1. Après avoir sélectionné l'onglet `Softphone`{.action}, cliquez sur l'interrupteur pour générer l'envoi d'un e-mail dans lequel se trouve le logiciel Softcall, disponible pour Windows, macOS, Android et iOS.
+2. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+3. Cliquez sur la ligne SIP concernée.
+4. Après avoir sélectionné l'onglet `Softphone`{.action}, cliquez sur l'interrupteur pour générer un e-mail dans lequel se trouve le logiciel Softcall, disponible pour Windows, macOS, Android et iOS.
 
 ![Install Softcall](images/send_mail_manager.png){.thumbnail}
 
@@ -55,7 +60,7 @@ Cliquez sur l'icône de l'application Softcall. Au premier démarrage, vous ête
 >> ![Install Softcall](images/assistant_ios_android.png){.thumbnail}
 >>
 
-Récupérez le code ou le QR CODE de configuration vous permettant de télécharger votre configuration Softcall. Retrouvez le code et le QR CODE de configuration dans l'e-mail que vous avez reçu après avoir souscrit à l'offre Softcall.
+Récupérez le code ou le QR CODE pour télécharger votre configuration Softcall. Retrouvez le code et le QR CODE de configuration dans l'e-mail que vous avez reçu après avoir souscrit à l'offre Softcall.
 
 Dans l'écran `Assistant`{.action} de l'application Softcall, entrez le code de configuration ou appuyez sur le bouton QR CODE pour scanner le QR CODE. Cliquez sur `Télécharger et appliquer`{.action} pour valider.
 
@@ -125,7 +130,7 @@ Dans le menu principal à gauche de l'interface, cliquez sur l'icône des contac
 #### Supprimer le compte Softcall sur l'appareil
 
 > [!primary]
-> Cette fonctionalité permet de supprimer votre compte Softcall uniquement sur votre appareil. Votre compte Softcall sera supprimé uniquement en local, et vous pourrez à nouveau le configurer sur votre appareil quand vous le souhaiterez. 
+> Cette fonctionnalité permet de supprimer votre compte Softcall uniquement sur votre appareil. Votre compte Softcall sera supprimé uniquement en local, et vous pourrez à nouveau le configurer sur votre appareil quand vous le souhaiterez. 
 >
 
 Effectuez les actions suivantes pour supprimer votre compte Softcall de votre appareil :
@@ -143,7 +148,7 @@ Effectuez les actions suivantes pour supprimer votre compte Softcall de votre ap
 
 Lorsque vous transférez un appel téléphonique à l'aveugle, cela signifie que : 
 
-- Le transfert est effectué de manière directe, sans préalablement contacter le nouveau destinataire.
+- Le transfert est effectué directement, sans préalablement contacter le nouveau destinataire.
 - Votre correspondant en cours n'est pas mis en attente lors du transfert. 
 
 Pour effectuer un transfert d'appel à l'aveugle, suivez ces étapes :
@@ -169,8 +174,8 @@ Pour effectuer un transfert d'appel à l'aveugle, suivez ces étapes :
 
 Lorsque vous transférez un appel téléphonique accompagné, cela signifie que : 
 
-- Vous appelez le nouveau destinataire pour lui demander son accord avant la validation du transfert.
-- Votre correspondant en cours est mis en attente avant d'effectuer le transfert. 
+- Vous contactez le nouveau destinataire pour obtenir son accord avant de valider le transfert.
+- Votre correspondant est mis en attente avant d'effectuer le transfert. 
 
 Pour transférer un appel téléphonique accompagné, suivez ces étapes :
 
@@ -212,13 +217,13 @@ En haut à droite de l'écran, cliquez sur le bouton représentant un téléphon
 
 ##### Rapporter un incident à Softcall
 
-Si vous rencontrez un problème dans l'application Softcall (bugs, erreurs, etc.), envoyez un rapport à Softcall en suivant les étapes suivantes :
+Si vous rencontrez un problème avec l'application Softcall (bugs, erreurs, etc.), envoyez un rapport à Softcall en suivant les étapes suivantes :
 
 - En bas à gauche de l'interface de Softcall, cliquez sur l'icône des paramètres (représentée par une roue crantée), puis sur `Préférences`{.action}.
 - Sur l'écran qui s'affiche, rendez-vous dans l'onglet `Avancés`{.action}.
 - Cliquez sur le bouton `Envoyer les traces`{.action}.
 - Un client de messagerie s'ouvre automatiquement avec le destinataire et le lien du rapport de bug pré-remplis.
-- Envoyez le mail pour transmettre les traces au support technique de Softcall.
+- Envoyez l'e-mail pour transmettre les traces au support technique de Softcall.
 
 #### Application mobile (Android et IOS)
 
@@ -250,7 +255,7 @@ Pour effectuer un transfert d'appel à l'aveugle, suivez ces étapes :
 Lorsque vous transférez un appel téléphonique accompagné, cela signifie que : 
 
 - Vous appelez le nouveau destinataire pour lui demander son accord avant la validation du transfert.
-- Votre correspondant en cours est mis en attente avant d'effectuer le transfert. 
+- Votre correspondant est mis en attente avant d'effectuer le transfert. 
 
 Pour transférer un appel téléphonique accompagné, suivez ces étapes :
 
@@ -258,7 +263,7 @@ Pour transférer un appel téléphonique accompagné, suivez ces étapes :
 
 ![Install Softcall](images/mobile_call_in_progress_interface.jpg){.thumbnail}
 
-- Dans le menu qui s'ouvre, cliquez sur `Nouvel appel`{.action}.
+- Dans le menu qui s'affiche, cliquez sur `Nouvel appel`{.action}.
 
 ![Install Softcall](images/mobile_call_in_progress_menu_new_call.jpg){.thumbnail}
 
