@@ -107,12 +107,17 @@ Estas opciones se agrupan en un área de cliente de OVHcloud. Haga clic en su no
 
 A continuación le ofrecemos algunas guías adicionales que le ayudarán en sus primeros pasos:
 
-[Conectarse al área de cliente de OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login).<br>
-[Establecer y gestionar la contraseña de su cuenta](/pages/account_and_service_management/account_information/manage-ovh-password).<br>
-[Proteger mi cuenta de OVHcloud y gestionar mis datos personales](/pages/account_and_service_management/account_information/all_about_username).<br>
-[Gestionar los contactos de los servicios](/pages/account_and_service_management/account_information/managing_contacts).<br>
-[Crear claves SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).<br>
-[¿Cuáles son las direcciones IP del monitoring de OVHcloud?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring).
+[Conectarse al área de cliente de OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login)
+
+[Establecer y gestionar la contraseña de su cuenta](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[Proteger mi cuenta de OVHcloud y gestionar mis datos personales](/pages/account_and_service_management/account_information/all_about_username)
+
+[Gestionar los contactos de los servicios](/pages/account_and_service_management/account_information/managing_contacts)
+
+[Crear claves SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+
+[¿Cuáles son las direcciones IP del monitoring de OVHcloud?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
 
 Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](/links/professional-services) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
 

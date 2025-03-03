@@ -14,7 +14,7 @@ Para proteger su infraestructura mundial y los servidores de sus clientes, OVHcl
 
 > [!primary]
 >
-> Para más información sobre la solución anti-DDoS de OVHcloud, consulte la página <https://www.ovhcloud.com/es/security/anti-ddos/>.
+> Puede encontrar más información sobre nuestra solución anti-DDoS en [nuestro sitio web](/links/security/antiddos).
 > 
 
 | ![global-schema](images/global_schema.png) |

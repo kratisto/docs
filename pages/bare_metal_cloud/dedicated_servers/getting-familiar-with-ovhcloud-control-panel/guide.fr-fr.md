@@ -103,12 +103,17 @@ Dans l’espace client OVHcloud, ces options sont regroupées dans un espace com
 
 Voici quelques guides supplémentaires qui vous aideront dans vos premiers pas :
 
-[Se connecter à l’espace client OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login).<br>
-[Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password).<br>
-[Sécuriser mon compte OVHcloud et gérer mes informations personnelles](/pages/account_and_service_management/account_information/all_about_username).<br>
-[Gérer les contacts de ses services](/pages/account_and_service_management/account_information/managing_contacts).<br>
-[Créer une clé SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).<br>
-[Quelles sont les adresses IP du monitoring OVHcloud ?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring).
+[Se connecter à l’espace client OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login)
+
+[Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[Sécuriser mon compte OVHcloud et gérer mes informations personnelles](/pages/account_and_service_management/account_information/all_about_username)
+
+[Gérer les contacts de ses services](/pages/account_and_service_management/account_information/managing_contacts)
+
+[Créer une clé SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+
+[Quelles sont les adresses IP du monitoring OVHcloud ?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 

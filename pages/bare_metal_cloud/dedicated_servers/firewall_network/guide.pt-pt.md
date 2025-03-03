@@ -12,7 +12,7 @@ Para proteger os serviços dos clientes expostos aos IPs públicos, a OVHcloud o
 
 > [!primary]
 >
-> Encontrará mais informações sobre a nossa solução Anti-DDoS no nosso website: <https://www.ovhcloud.com/pt/security/anti-ddos/>.
+> Encontrará mais informações sobre a nossa solução Anti-DDoS no [nosso website](/links/security/antiddos).
 > 
 
 | ![global-schema](images/global_schema.png) | 

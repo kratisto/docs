@@ -12,7 +12,7 @@ Pour protéger les services des clients exposés sur les adresses IP publiques, 
 
 > [!primary]
 >
-> Pour plus d'informations sur notre solution Anti-DDoS, cliquez ici : <https://www.ovhcloud.com/fr-ca/security/anti-ddos/>.
+> Pour plus d'informations sur notre solution Anti-DDoS, [cliquez ici](/links/security/antiddos).
 > 
 
 | ![global-schema](images/global_schema.png) | 

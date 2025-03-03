@@ -35,7 +35,7 @@ Durante un ataque, una acción de mitigación activa se indica mediante un icono
 
 > [!primary]
 >
-> Puede encontrar más información sobre cómo mitigar los ataques DDoS en OVHcloud [aquí](https://www.ovhcloud.com/es/security/anti-ddos/ddos-attack-optimization/).
+> Puede encontrar más información sobre cómo mitigar los ataques DDoS en OVHcloud [aquí](/links/security/mitigation).
 >
 
 > [!warning]

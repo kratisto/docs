@@ -35,7 +35,7 @@ Während eines Angriffs wird eine aktive Abwehraktion durch ein Warnsymbol auf d
 
 > [!primary]
 >
-> Weitere Informationen zur OVHcloud DDoS-Abwehr finden Sie [hier](https://www.ovhcloud.com/de/security/anti-ddos/ddos-attack-Mitigation/).
+> Weitere Informationen zur OVHcloud DDoS-Abwehr finden Sie [hier](/links/security/mitigation).
 >
 
 > [!warning]

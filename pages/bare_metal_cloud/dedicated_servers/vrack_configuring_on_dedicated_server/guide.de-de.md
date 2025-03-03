@@ -248,6 +248,6 @@ Wiederholen Sie diesen Vorgang für Ihre anderen Server und weisen Sie jedem Ser
 
 ## Weiterführende Informationen
 
-[Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).
+[Mehrere VLANs im vRack erstellen](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack)
 
 Treten Sie unserer [User Community](/links/community) bei.

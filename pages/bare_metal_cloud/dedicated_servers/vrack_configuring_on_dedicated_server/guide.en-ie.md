@@ -29,11 +29,11 @@ The OVHcloud vRack (virtual rack) allows multiple servers to be grouped together
 
 ### Step 1: Ordering the vRack
 
-Once you are connected to your OVHcloud control panel, go to the `Bare Metal Cloud`{.action} menu and click on the `Order`{.action} button. Under this menu, click on `vRack`{.action}.
+Once you are connected to your OVHcloud Control Panel, go to the `Bare Metal Cloud`{.action} menu and click on the `Order`{.action} button. In this menu, click on `vRack`{.action}.
 
 ![Order vrack](images/orderingvrack.png){.thumbnail}
 
-You will be redirected to another page to validate the order, it will take a few minutes for the vRack to be setup in your account.
+You will be redirected to another page to validate the order, it will take a few minutes for the vRack to be set up in your account.
 
 ### Step 2: Adding your servers to the vRack
 
@@ -244,6 +244,6 @@ Repeat this process for your other server(s) and assign an unused IP address fro
 
 ## Go further
 
-[Creating multiple vLANs in a vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack).
+[Creating multiple vLANs in a vRack](/pages/bare_metal_cloud/dedicated_servers/creating-multiple-vlans-in-a-vrack)
 
 Join our [community of users](/links/community).

@@ -12,7 +12,7 @@ Aby chronić usługi dostępne dla klientów korzystających z publicznych adres
 
 > [!primary]
 >
-> Więcej informacji na temat rozwiązania Anty-DDoS znajdziesz na naszej stronie WWW: <https://www.ovhcloud.com/pl/security/anti-ddos/>.
+> Więcej informacji na temat rozwiązania Anty-DDoS znajdziesz na [naszej stronie WWW](/links/security/antiddos).
 > 
 
 | ![global-schema](images/global_schema.png) |

@@ -69,7 +69,7 @@ For more information on managing your dedicated server via the OVHcloud Control 
 
 ### Section IP
 
-To access the IP section of the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu and open `Network`{.action}. Next, click on `IP`{.action}.
+To access the IP section of the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu, open `Network`{.action} and then `IP`{.action}.
 
 ![ip section](images/manageIP2023.png){.thumbnail}
 
@@ -101,12 +101,17 @@ In the OVHcloud Control Panel, these options are grouped into a common space. Cl
 
 In practice, here are some guides to help you get started:
 
-[Logging in to the OVHcloud Control Panel](/pages/account_and_service_management/account_information/ovhcloud-account-login).<br>
-[Setting and managing an account password](/pages/account_and_service_management/account_information/manage-ovh-password).<br>
-[Securing my OVHcloud account and managing my personal information](/pages/account_and_service_management/account_information/all_about_username).<br>
-[Managing contacts for your services](/pages/account_and_service_management/account_information/managing_contacts).<br>
-[Creating SSH keys](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).<br>
-[What are the IP addresses of the OVHcloud monitoring?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring).
+[Logging in to the OVHcloud Control Panel](/pages/account_and_service_management/account_information/ovhcloud-account-login)
+
+[Setting and managing an account password](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[Securing my OVHcloud account and managing my personal information](/pages/account_and_service_management/account_information/all_about_username)
+
+[Managing contacts for your services](/pages/account_and_service_management/account_information/managing_contacts)
+
+[Creating SSH keys](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+
+[What are the IP addresses of the OVHcloud monitoring?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 

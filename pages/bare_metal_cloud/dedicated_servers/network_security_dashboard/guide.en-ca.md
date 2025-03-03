@@ -31,7 +31,7 @@ During an attack, an active mitigation action will be indicated by a warning ico
 
 > [!primary]
 >
-> Find more information on how DDoS mitigation is achieved at OVHcloud [here](https://www.ovhcloud.com/en-ca/security/anti-ddos/ddos-attack-mitigation/).
+> Find more information on how DDoS mitigation is achieved at OVHcloud [here](/links/security/mitigation).
 >
 
 > [!warning]

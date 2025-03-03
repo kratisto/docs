@@ -12,7 +12,7 @@ Zum Schutz von Diensten, die über öffentliche IP-Adressen zugänglich sind, bi
 
 > [!primary]
 >
-> Weitere Informationen zu unserer Anti-DDoS-Lösung finden Sie hier: <https://www.ovhcloud.com/de/security/anti-ddos/>.
+> Weitere Informationen zu unserer Anti-DDoS-Lösung finden Sie [hier](/links/security/antiddos).
 > 
 
 | ![global-schema](images/global_schema.png) | 

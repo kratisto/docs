@@ -35,7 +35,7 @@ W trakcie ataku, aktywne filtrowanie jest wskazane przez ikonę ostrzegawczą na
 
 > [!primary]
 >
-> Więcej informacji na temat filtrowania DDoS na stronie OVHcloud [here](https://www.ovhcloud.com/pl/security/anti-ddos/ddos-attack-mitigation/).
+> Więcej informacji na temat filtrowania DDoS na stronie OVHcloud [here](/links/security/mitigation).
 >
 
 > [!warning]

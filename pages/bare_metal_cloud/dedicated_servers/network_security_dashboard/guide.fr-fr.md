@@ -31,7 +31,7 @@ Lors d'une attaque, une action de mitigation active sera indiquée par une icôn
 
 > [!primary]
 >
-> Découvrez comment la mitigation des attaques DDoS est réalisée chez OVHcloud [ici](https://www.ovhcloud.com/fr/security/anti-ddos/ddos-attack-mitigation/).
+> Découvrez comment la mitigation des attaques DDoS est réalisée chez OVHcloud [ici](/links/security/mitigation).
 >
 
 > [!warning]

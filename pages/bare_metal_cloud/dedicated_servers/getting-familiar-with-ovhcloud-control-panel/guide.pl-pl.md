@@ -107,12 +107,17 @@ W Panelu klienta OVHcloud te opcje są pogrupowane we wspólnej przestrzeni. Kli
 
 Oto kilka dodatkowych przewodników, które pomogą Ci w pierwszych krokach:
 
-[Logowanie do Panelu klienta OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login).<br>
-[Tworzenie i zarządzanie hasłem do konta](/pages/account_and_service_management/account_information/manage-ovh-password).<br>
-[Zabezpieczenie konta OVHcloud i zarządzanie danymi osobowymi](/pages/account_and_service_management/account_information/all_about_username).<br>
-[Zarządzanie kontaktami swoich usług](/pages/account_and_service_management/account_information/managing_contacts).<br>
-[Tworzenie kluczy SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated).<br>
-[Jakie są adresy IP monitoringu OVHcloud?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring).
+[Logowanie do Panelu klienta OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login)
+
+[Tworzenie i zarządzanie hasłem do konta](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[Zabezpieczenie konta OVHcloud i zarządzanie danymi osobowymi](/pages/account_and_service_management/account_information/all_about_username)
+
+[Zarządzanie kontaktami swoich usług](/pages/account_and_service_management/account_information/managing_contacts)
+
+[Tworzenie kluczy SSH](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+
+[Jakie są adresy IP monitoringu OVHcloud?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
 
 Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 

@@ -10,7 +10,7 @@ updated: 2024-04-04
 
 ## Ziel
 
-OVHcloud kündigt die Zusammenfassung aller Kimsufi, So you Start und Rise Dedicated Server in einer Produktlinie namens Eco an, um Ihnen einen besseren Überblick über unsere Konfigurationen zu geben. Aufgrund dieser Änderungen können Sie nun alle Ihre Dienste unabhängig von ihrer Angebotsreihe über das OVHcloud Kundencenter verwalten. Um Sie bei dieser Umstellung zu unterstützen, wenn Sie sich für einen Server in der Eco-Produktlinie entschieden haben, haben wir diese Anleitung erstellt, um Ihnen das OVHcloud Kundencenter und dessen Optionen vorzustellen.
+Die OVHcloud Kimsufi, So you Start und Rise Dedicated Server wurden in der neuen Produktlinie namens Eco zusammengefasst, um Ihnen einen besseren Überblick über unsere Konfigurationen zu geben. Aufgrund dieser Änderungen können Sie nun alle Ihre Dienste unabhängig von ihrer Angebotsreihe über das OVHcloud Kundencenter verwalten. Um Sie bei dieser Umstellung zu unterstützen, wenn Sie sich für einen Server in der Eco-Produktlinie entschieden haben, haben wir diese Anleitung erstellt, um Ihnen das OVHcloud Kundencenter und dessen Optionen vorzustellen.
 
 **Diese Anleitung hilft Ihnen, sich mit dem OVHcloud Kundencenter vertraut zu machen.**
 
@@ -47,7 +47,7 @@ Klicken Sie im Menü `Dedicated Server`{.action} auf den Server Ihrer Wahl, um a
 **Allgemeine Informationen**: In diesem Abschnitt finden Sie alle Informationen zu Ihrem Server.
 
 - Name: Klicken Sie auf `...`{.action} neben dieser Option, um den Namen Ihres Servers zu ändern.
-- Boot: Klicken Sie auf `...`{.action} neben dieser Option, um den Netboot-Modus Ihres Servers auf den *Rescue-Modus*, den *normalen Modus* (von der Festplatte) oder den *Netzwerk-Modus* umzustellen.
+- Boot: Klicken Sie auf `...`{.action} neben dieser Option, um den Netboot-Modus Ihres Servers auf den *Rescue-Modus*, den *normalen Modus* (von Disk) oder den *Netzwerk-Modus* umzustellen.
 - Neuestes von OVHcloud installiertes Betriebssystem: Klicken Sie `...`{.action} neben dieser Option, um Ihren Server neu zu installieren.
 
 **Dienststatus**
@@ -68,19 +68,19 @@ Klicken Sie im Menü `Dedicated Server`{.action} auf den Server Ihrer Wahl, um a
 
 **IPMI** (ausschließlich verfügbar für OVHcloud Server und bestimmte So you Start Server, einschließlich derjenigen der Eco Reihen): Verwenden Sie hier das IPMI-Tool oder das KVM over IP Ihres Servers. Weitere Informationen zur Verwendung dieses Tools finden Sie in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/using_ipmi_on_dedicated_servers).
 
-**Tasks**: sehen Sie hier die aktuellen Tasks Ihres Servers.
+**Tasks**: Sehen Sie hier die aktuellen Tasks Ihres Servers.
 
-Weitere Informationen zur Verwaltung Ihres Dedicated Servers über das OVHcloud Kundencenter finden Sie in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server).
+Weitere Informationen zur Verwaltung Ihres Dedicated Server über das OVHcloud Kundencenter finden Sie in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server).
 
-### IP Bereich
+### IP / Netzwerk
 
-Um auf den Bereich **IP** in Ihrem OVHcloud Kundencenter zuzugreifen, klicken Sie auf das Menü `Bare Metal Cloud`{.action} und öffnen Sie `Network`{.action}. Klicken Sie dann auf `IP`{.action}:
+Um auf den Bereich **IP** in Ihrem OVHcloud Kundencenter zuzugreifen, klicken Sie auf das Menü `Bare Metal Cloud`{.action} und öffnen Sie `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
 
 ![ip](images/manageIP2023.png){.thumbnail}
 
-### Tab Lizenzen (nicht für Kimsufi verfügbar)
+### Lizenzen (nicht für Kimsufi verfügbar)
 
-Um im OVHcloud Kundencenter auf den Tab **Lizenzen** zuzugreifen, klicken Sie auf das Menü `Bare Metal Cloud`{.action} und anschließend auf `Lizenzen`{.action}:
+Um im OVHcloud Kundencenter auf den Bereich **Lizenzen** zuzugreifen, klicken Sie auf das Menü `Bare Metal Cloud`{.action} und anschließend auf `Lizenzen`{.action}.
 
 ![license](images/managelicencesOVHcloud.png){.thumbnail}
 
@@ -107,12 +107,17 @@ Im OVHcloud Kundencenter werden diese Optionen in einem gemeinsamen Kundencenter
 
 Hier einige zusätzliche Anleitungen, die Ihnen bei Ihren ersten Schritten helfen:
 
-[In das OVHcloud Kundencenter einloggen](/pages/account_and_service_management/account_information/ovhcloud-account-login)<br>
-[Das Passwort Ihres Kunden-Accounts anlegen und verwalten](/pages/account_and_service_management/account_information/manage-ovh-password)<br>
-[OVHcloud Kunden-Account absichern und persönliche Informationen verwalten](/pages/account_and_service_management/account_information/all_about_username)<br>
-[Die Kontakte Ihrer Dienste verwalten](/pages/account_and_service_management/account_information/managing_contacts)<br>
-[SSH-Schlüssel erzeugen](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)<br>
-[Was sind die IP-Adressen des OVHcloud Monitorings?](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
+[In das OVHcloud Kundencenter einloggen](/pages/account_and_service_management/account_information/ovhcloud-account-login)
+
+[Das Passwort Ihres Kunden-Accounts anlegen und verwalten](/pages/account_and_service_management/account_information/manage-ovh-password)
+
+[OVHcloud Kunden-Account absichern und persönliche Informationen verwalten](/pages/account_and_service_management/account_information/all_about_username)
+
+[Die Kontakte Ihrer Dienste verwalten](/pages/account_and_service_management/account_information/managing_contacts)
+
+[SSH-Schlüssel erzeugen](/pages/bare_metal_cloud/dedicated_servers/creating-ssh-keys-dedicated)
+
+[IP-Adressen des OVHcloud Monitorings](/pages/bare_metal_cloud/dedicated_servers/network_ip_monitoring)
 
 Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
 
