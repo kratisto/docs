@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Network concepts and best practices"
 excerpt: "Discover the powerful networking capabilities of VMware Cloud Director on OVHcloud with this comprehensive guide (key concepts and features)"
-updated: 2024-10-22
+updated: 2025-03-03
 ---
 
 <style>
@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 > [!primary]
 >
-> VCD on OVHcloud is currently in Alpha phase. This guide can evolve and be updated in the future with the advances of our teams in charge of this product.
+> VCD on OVHcloud is currently in Alpha phase. This guide can evolve and be updated in the future as our teams continue to develop this product.
 >
 
 ## Objective
@@ -34,8 +34,8 @@ details[open]>summary::before {
 > If you are unsure how to log in to your organization's web portal, first refer to the guide: [How to log in to VCD](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging).
 >
 
-- A web browser (with a preference of chromium based one, and translation enabled in English)
-- A VMware Cloud Director account with required user rights (check that your user account has sufficient rights).
+- A web browser (with preferably a Chromium-based one, and translation enabled in English).
+- A VMware Cloud Director account with required user rights (make sure your user account has the necessary permissions).
 - You need to have followed the guide: "[VMware Cloud Director - Basic VCD concepts](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-get-concepts)".
 
 ## Instructions
@@ -45,23 +45,23 @@ details[open]>summary::before {
 In this introductory guide, we will explore:
 
 - The different networking concepts within VMware Cloud Director on OVHcloud.
-- The notions of optimizing network space such as IP space, Edge gateways, datacentre groups for example.
+- Concepts related to optimizing network space, such as IP space, Edge Gateways, and Datacentre Groups.
 
 To ensure a flexible and secure network infrastructure in a versatile cloud environment, VMware Cloud Director uses a layered networking architecture that includes four categories of networks:
 
-- **External networks**.
-- **Organizational vDC networks**.
-- **Datacentre group networks**.
-- **vApp networks**.
+- **External networks**
+- **Organizational vDC networks**
+- **Datacentre group networks**
+- **vApp networks**
 
-Most of these networks require additional infrastructure elements such as **"Edge Gateways"** and **Network Pools"**.
+Most of these networks require additional infrastructure elements, such as "**Edge Gateways**" and "**Network Pools**".
 
 The VCD control panel has a network banner with 6 sections: 
 
 - `Network`
 - `Edge Gateways`
 - `Provider Gateways`
-- `IP Spaces`.
+- `IP Spaces`
 - `Data Center Groups`
 - `Security Tags`
 
@@ -82,11 +82,11 @@ Here are the main network features offered with the VCD on OVHcloud solutions.
 
 | Features                        	| Standard 	| Advanced 	| Premium 	| Comments                                                                                                                                                                                           	                        |
 |---------------------------------	|----------	|----------	|---------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Routing & Switching IPv4        	| ✅        	| ✅        	| ✅       	| - Network segments. distributed & non distributed routing. <br> - Routed Network with or without NAT/BGP/DHCP/DNS/Static routes. <br> - Cross vDC networking on the same site. <br> - **Not supported:** OSPF, VRF Lite. 	 |
+| Routing & Switching IPv4        	|         	| ✅        	| ✅       	| - Network segments. distributed & non distributed routing. <br> - Routed Network with or without NAT/BGP/DHCP/DNS/Static routes. <br> - Cross vDC networking on the same site. <br> - **Not supported:** OSPF, VRF Lite. 	 |
 | Public IPv4 Range               	| ✅        	| ✅        	| ✅       	| 	                                                                                                                                                                                                                           |
 | Private Network - vRack support 	| ✅        	| ✅        	| ✅       	| - in Roadmap                                                                                                                                                                                                  	             |
 | Routing & Switching IPv6        	|          	|          	|         	| - in Roadmap                                                                                                                                                                                         	                      |
-| VPN                             	|          	| ✅        	| ✅       	| - L2VPN, VPN IPsec Policy Based Not Supported: SSL VPN, Routed based IPsec VPN.                                                                                                                      	                     |
+| VPN                             	|          	| ✅        	| ✅       	| - L2VPN, VPN IPsec Policy Based Not Supported: SSL VPN, route-based IPsec VPN.                                                                                                                      	                     |
 | Load Balancing                  	|          	|          	|         	| - Not supported with native VCD network capabilities                                                                                                                                                 	                      |
 | Advanced Load Balancing         	|          	|          	|         	| - in Roadmap                                                                                                                                                                                         	                      |                                                                                          	|
 
@@ -113,7 +113,7 @@ Here we see that only the advanced networking and security features within VCD o
 | Design Recommendation                                                                                                 | Design Justification                                               | Design Involvement                                        |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------|
 | Create one or more Edge Gateways (Level 1 Gateways) per organization vDC.                                             | Enables networking services for the organization's vDC.            | None.                                                     |
-| Create datacenter groups, if there is a need to have Org vDC networks spanning multiple Org vDC's in an organization. | Simplifies Org vDC cross-functional connectivity.                  | Requires creation of datacenter groups in the VCD tenant. |
+| Create datacenter groups, if there is a need to have Org vDC networks spanning multiple Org vDCs in an organization. | Simplifies Org vDC cross-functional connectivity.                  | Requires creation of datacenter groups in the VCD tenant. |
 | Use the IP Spaces feature instead of traditional IP block addressing.                                                 | Note: The delivery of all Spaces IP features spans several phases. | None.                                                     |
 
 **The network within VCD (concept)**
@@ -164,12 +164,12 @@ Network pools must be set up before organization vDC networks and vApp networks.
 > 
 > You can use a new way to manage your IP space in VMware Cloud Director on OVHcloud with the new IP space management subsystem.
 > 
-> An Edge gateways can only connect to provider gateways that use IP spaces.
+> An Edge Gateway can only connect to provider gateways that use IP spaces.
 > 
 
-An IP space consists of a set of non-overlapping IP address ranges and small CIDR. blocks that are reserved and used when consuming the IP space lifecycle. An IP space can be IPv4 or IPv6, but not both.
+An IP space consists of a set of non-overlapping IP address ranges and small CIDR blocks that are reserved and used when consuming the IP space lifecycle. An IP space can be IPv4 or IPv6, but not both.
 
-Since version (10.4.1), IP spaces have been part of the new features. and are recommended for your network space needs.
+Since version 10.4.1, IP spaces have been part of the new features and are recommended for your network space needs.
 
 There are two types of IP spaces that you can use as the Organization Administrator user:
 
@@ -234,7 +234,7 @@ You can also synchronize them. This synchronization action will check all associ
 
 ![VCD Network Datacenter Groups Network Import](images/vcd_network_datacenter-groups_network_import.png){.thumbnail}
 
-**Edge gateways (required)**
+**Edge Gateway (required)**
 
 VCD Edge Gateway allows an organization vDC network to route connectivity to internal networks, network address translation (NAT), firewall, IPsec tunnel mounting,
 
