@@ -1,7 +1,7 @@
 ---
 title: "Comment connecter un produit compatible en utilisant le protocole KMIP"
 excerpt: "Comment communiquer avec le KMS OVHcloud avec le protocole KMIP"
-updated: 2025-01-15
+updated: 2025-03-03
 ---
 
 ## Objectif
@@ -45,6 +45,8 @@ A partir de là, il est possible d'échanger des messages KMIP tels que définis
 
 - PyKMIP pour python : <https://github.com/OpenKMIP/PyKMIP>.
 - Libkmip pour le C : <https://github.com/OpenKMIP/libkmip>.
+
+Vous pouvez aussi utiliser notre SDK pour Go : https://github.com/ovh/kmip-go
 
 ### Couverture KMIP
 
