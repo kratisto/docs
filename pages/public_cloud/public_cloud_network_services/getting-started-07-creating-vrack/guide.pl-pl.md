@@ -292,7 +292,7 @@ Wybierz polecenie `Compute`, a następnie polecenie `Instances`.
 
 ![Instancje obliczeniowe Horizon](images/horizon2.png){.thumbnail}
 
-**Dodawanie prywatnego interfejsu**
+**Dodanie prywatnego interfejsu sieciowego**
 
 Aby dodać interfejs, kliknij strzałkę w kolumnie "Actions" w celu uzyskania dostępu do możliwych akcji dla instancji. Wybierz opcję `Attach Interface`{.action}.
 
@@ -308,13 +308,13 @@ Wybierz interfejs i zatwierdź.
 ><br>Do klienta należy poprawna konfiguracja interfejsu przez DHCP lub użycie odpowiednich adresów IP w statycznej konfiguracji IP.
 >
 
-**Usuwanie prywatnego interfejsu**
+**Odłącz interfejs sieciowy**
 
 > [!warning]
-> Usunięcie interfejsu jest operacją nieodwracalną.
+> Odłączenie interfejsu sieciowego powoduje jego natychmiastowe usunięcie.
 >
-> Jeśli usuniesz interfejs "Ext-Net" (publiczny adres IP), adres ten zostanie ponownie udostępniony. Nie można tego po prostu przypisać ponownie.
-><br>Czynność ta jest niezbędna, jeśli chcesz odizolować Twój serwer od sieci vRack (interfejs Ext-Net) lub usunąć go z sieci VLAN.
+> Pamiętaj, że po odłączeniu interfejsu "Ext-Net" (publiczny adres IP), zostanie on zwolniony i ponownie wprowadzony do obiegu. Nie będziesz mógł jej ponownie przypisać.
+><br>Tę czynność należy wykonać tylko wtedy, gdy chcesz odizolować serwer w sieci vRack (sieć prywatna) lub jeśli chcesz odizolować serwer z jednej lub kilku sieci VLAN.
 >
 
 Aby usunąć interfejs, kliknij strzałkę w kolumnie "Actions" w celu uzyskania dostępu do możliwych akcji dla instancji. Wybierz opcję `Detach Interface`{.action}.

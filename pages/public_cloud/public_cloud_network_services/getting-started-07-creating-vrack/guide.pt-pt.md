@@ -312,13 +312,13 @@ Selecione a sua interface e valide:
 ><br>É sua responsabilidade configurar corretamente a interface por meio de DHCP ou usando os endereços IP adequados por meio de uma configuração de IP estático.
 >
 
-**Eliminação de uma interface privada**
+**Desassociar uma interface de rede**
 
 > [!warning]
-> A eliminação de uma interface é definitiva.
+> Desassociar uma interface de rede leva à sua eliminação imediata.
 >
->Se eliminar a interface "Ext-Net" (IP público), este endereço será libertado e reposto em circulação. Por isso, não poderia reatribuir-se a ela.
-><br>Esta ação só deve ser realizada se pretender isolar o seu servidor no vRack (interface "Ext-Net") ou retirá-lo de uma VLAN.
+> No entanto, é importante notar que se desassociar a interface « Ext-Net » (IP público), esse endereço será liberado e reposto em circulação. Por isso, não se conseguiria atribuir a si próprio a responsabilidade.
+><br>Esta ação só deve ser efetuada se pretender isolar o seu servidor no vRack (rede privada) ou, caso contrário, retirá-lo de uma ou várias VLAN.
 >
 
 Para eliminar uma interface, na coluna "Actions", clique na seta que permite aceder às ações possíveis na instância. A seguir, clique em `Detach Interface`{.action}:

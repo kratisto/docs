@@ -33,7 +33,7 @@ Zanim zaczniesz, zapoznaj się z tymi przewodnikami, aby poprawnie skonfigurowa�
 - [Etap 3: Integracja instancji z usługą vRack](#instance-vrack)
     - [W przypadku nowej instancji](#new-instance)
     - [W przypadku istniejącej instancji](#existing-instance)
-- [Usuwanie prywatnego interfejsu](#detach-interface)
+- [Odłącz interfejs sieciowy](#detach-interface)
 
 
 <a name="activating-vrack"></a>
@@ -374,13 +374,13 @@ openstack server show <ID-instance>
 
 <a name="detach-interface"></a>
 
-### Usuwanie prywatnego interfejsu
+### Odłącz interfejs sieciowy
 
 > [!warning]
-> Usunięcie interfejsu jest operacją nieodwracalną.
+> Odłączenie interfejsu sieciowego powoduje jego natychmiastowe usunięcie.
 >
-> Jeśli usuniesz interfejs "Ext-Net" (publiczny adres IP), adres ten zostanie ponownie udostępniony. Nie można tego po prostu przypisać ponownie.
-><br>Czynność ta jest niezbędna, jeśli chcesz odizolować Twój serwer od sieci vRack (interfejs Ext-Net) lub usunąć go z sieci VLAN.
+> Pamiętaj, że po odłączeniu interfejsu "Ext-Net" (publiczny adres IP), zostanie on zwolniony i ponownie wprowadzony do obiegu. Nie będziesz mógł jej ponownie przypisać.
+><br>Tę czynność należy wykonać tylko wtedy, gdy chcesz odizolować serwer w sieci vRack (sieć prywatna) lub jeśli chcesz odizolować serwer z jednej lub kilku sieci VLAN.
 >
 
 Aby odłączyć interfejs, najpierw trzeba zidentyfikować utworzony port Neutron.

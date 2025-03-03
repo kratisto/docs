@@ -309,16 +309,16 @@ Seleziona la tua interfaccia e conferma:
 ><br>A vostro carico, configurare la vostra interfaccia tramite il DHCP o utilizzare i vostri IP tramite una configurazione in IP statico.
 >
 
-**Elimina un'interfaccia privata**
+**Scollega un’interfaccia di rete**
 
 > [!warning]
-> L'eliminazione di un'interfaccia è definitiva.
+> Scollega un'interfaccia di rete e la rimuove immediatamente.
 >
->Se elimini l'interfaccia "Ext-Net" (IP pubblico), questo indirizzo viene rilasciato e rimesso in circolazione. Non potreste riassegnarla.
-><br>Questa operazione è necessaria solo per isolare il server nella vRack (interfaccia "Ext-Net") o per estrarlo da una VLAN.
+> È importante notare che se scollegi l'interfaccia "Ext-Net" (IP pubblico), questo indirizzo verrebbe rilasciato e reimmesso in circolazione. e non può essere riassegnata.
+><br>Questa operazione è necessaria solo se vuoi isolare il tuo server nella vRack (rete privata) o in caso contrario estrarlo da una o più VLAN.
 >
 
-Per eliminare un'interfaccia, clicca sulla freccia che permette di accedere alle azioni sull'istanza. Clicca su `Detach Interface`{.action}:
+Per scollegare un’interfaccia di rete privata, nella colonna "Actions" clicca sulla freccia che consente di accedere alle azioni possibili sull’istanza. Clicca su `Detach Interface`{.action}:
 
 ![Horizon detach interface](images/horizon5.png){.thumbnail}
 

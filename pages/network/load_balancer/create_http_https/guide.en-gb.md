@@ -14,7 +14,7 @@ As a reminder, the OVHcloud Load Balancer has four primary components:
 
 - `front-ends`
 - server `farms` and their `servers`
-- the advanced `routes` between the front-ends and server farms (available soon, via the Sunrise Control Panel)
+- the advanced `routes` between the front-ends and server farms
 - `SSL/TLS` connections that can encrypt TCP and/or HTTP connections
 
 **This guide will show you how to configure an OVHcloud Load Balancer Service.**
@@ -31,18 +31,18 @@ As a reminder, the OVHcloud Load Balancer has four primary components:
 > This guide will take you through the steps required. Depending on the way you have designed your architecture, some configurations may vary.
 > 
 
-If you have not done so already, we recommend reading a general introduction to the OVHcloud Load Balancer service before you get started: [Introduction to the OVHcloud Load Balancer](/pages/network/load_balancer/use_presentation)
+If you have not done so already, we recommend reading a general introduction to the OVHcloud Load Balancer service before you get started: [Introduction to the OVHcloud Load Balancer](/pages/network/load_balancer/use_presentation){.ref}
 
 > [!warning]
 >
 > The order in which elements are created is important. In particular, the server farms must be configured before we can attach an SSL/TLS certificate or servers to them. The front-ends must be configured after the server farms in order to configure the front-end’s default farm.
 > 
 
-In the Sunrise Control Panel, you will see the features detailed below:
+In the control panel of the load balancer, you will see the features detailed below:
 
 ![OVHcloud Load Balancer service](images/iplb_service.png){.thumbnail}
 
- 
+For more information on the Control Panel’s features, you can consult the following guide: [Managing the Load Balancer from the customer control panel](/pages/network/load_balancer/use-lb){.ref}
 
 Similarly, this can be done via the OVHcloud API, in the section:
 
@@ -51,13 +51,15 @@ Similarly, this can be done via the OVHcloud API, in the section:
 > @api {v1} /ipLoadbalancing GET /ipLoadbalancing
 > 
 
-For more information on the API’s features, you can consult [the following guide in French](/pages/network/load_balancer/use_api_reference).
+For more information on the API’s features, you can consult the following guide: [Load Balancer API Quick Reference](/pages/network/load_balancer/use_api_reference){.ref}
 
 ## Add a server farm.
 
 We will add a farm of HTTP servers to our service, which is the part that balances traffic on the servers.
 
-### Via the Sunrise Control Panel.
+### Via the OVHCloud Control Panel.
+
+Log into the [OVHcloud Control Panel](/links/manager), click `Network`{.action} in the left-hand menu, then `Load Balancer`. Click on your load balancer service.
 
 In the `Server farms`{.action} tab, click on the `Add a server farm`{.action} button.
 
@@ -114,7 +116,9 @@ Your server farm should appear in the list, in the `Server farms`{.action} tab.
 
 We will now add a server to our server farm.
 
-### Via the Sunrise Control Panel.
+### Via the OVHcloud Control Panel.
+
+Log into the [OVHcloud Control Panel](/links/manager), click `Network`{.action} in the left-hand menu, then `Load Balancer`. Click on your load balancer service.
 
 In the `Server farms`{.action} tab, select the farm you want to add a server to by clicking on the corresponding line. The list of servers already configured in the farm will appear beneath the list of farms, along with the `Add a server`{.action} button. Click on this button to add a new server.
 
@@ -169,7 +173,7 @@ Your server should appear in the server list, in the `Server farm`{.action} tab,
 
 We will now add a `front-end` to our service, and connect it to our server farm. The front-end is the part of your OVHcloud Load Balancer that exposes your service on the internet. First, we will only configure it in HTTP, without an SSL/TLS certificate.
 
-### Via the Sunrise Control Panel.
+### Via the OVHcloud Control Panel.
 
 Go to the `Front-ends`{.action} tab, and click `Add a front-end`{.action}.
 
@@ -229,7 +233,7 @@ The section above described the general configuration of a HTTP front-end. This 
 - switch over the front-end to port 443, which is standard for HTTPS protocol
 - configure an SSL/TLS certificate to authenticate and encrypt connections
 
-Whether you choose to configure your service via the API or the Sunrise Control Panel, you can choose from two methods for adding an SSL/TLS certificate. The choice of method will depend on your needs, as well as the solutions currently set up. You can either:
+Whether you choose to configure your service via the API or the OVHcloud Control Panel, you can choose from two methods for adding an SSL/TLS certificate. The choice of method will depend on your needs, as well as the solutions currently set up. You can either:
 
 - Import an existing SSL/TLS certificate.
 - Order an automatically managed SSL/TLS certificate. DV and EV certificates will be available to order soon.
@@ -254,7 +258,7 @@ TLS 1.3 is the latest version of the TLS protocol, offering significant improvem
 ##### Why use TLS 1.3 with OVHcloud Load Balancer?
 By integrating TLS 1.3, your OVHcloud Load Balancer will benefit from enhanced security and improved performance, ensuring an optimal user experience for your visitors. Reduced handshake times speed up page loading, while security enhancements ensure that your data is protected with the latest, most secure standards.
 
-### Via the Sunrise Control Panel.
+### Via the OVHcloud Control Panel.
 
 The list of SSL/TLS certificates configured on the OVHcloud Load Balancer can be found in the `SSL certificates`{.action} tab. In this interface, you can select one of the two options mentioned further up, i.e. importing an existing certificate (`Add an SSL certificate`{.action}) and (`Order an SSL certificate`{.action}) managed automatically by your OVHcloud Load Balancer.
 
@@ -320,7 +324,7 @@ The modifications made to your OVHcloud Load Balancer must be *explicitly applie
 
 If you have several zones, you must apply the same configuration for each of them.
 
-### Via the Sunrise Control Panel.
+### Via the OVHcloud Control Panel.
 
 Go to the page for your OVHcloud Load Balancer, and click `Apply configuration`{.action}.
 
@@ -346,4 +350,3 @@ Once you have completed all of these steps, you should have a functional load ba
 ## Go further
 
 Join our community of users on <https://community.ovh.com/en/>.
-

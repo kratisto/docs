@@ -308,16 +308,16 @@ Select your interface and confirm.
 ><br>It is your responsibility to correctly configure the interface through DHCP or by using the proper IP addresses through a static IP configuration.
 >
 
-**Removing a private interface**
+**Detaching a network private interface**
 
 > [!warning]
-> Deleting an interface is permanent.
+> Detaching a network interface is permanent.
 >
-> If you remove the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
-><br>This action is only necessary if you want to isolate your server in the vRack (Ext-Net interface) or remove it from a VLAN.
+> However, it is important to note that if you detach the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
+><br>This action is only required if you wish to isolate your server in the vRack (private network), or if you wish to remove it from one or more VLANs.
 >
 
-To delete an interface, click on the arrow in the "Actions" column to access the possible actions on the instance. Select `Detach Interface`{.action}.
+To detach a private interface, click on the arrow in the "Actions" column to access the possible actions on the instance. Select `Detach Interface`{.action}.
 
 ![Horizon detach interface](images/horizon5.png){.thumbnail}
 

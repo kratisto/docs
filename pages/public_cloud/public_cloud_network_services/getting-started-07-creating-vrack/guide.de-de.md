@@ -239,7 +239,7 @@ Folgen Sie der Anleitung zum [Erstellen einer Public Cloud-Instanz](/pages/publi
 ![attach new instance](images/network-selection.png){.thumbnail}
 
 > [!warning]
-> Bei der Erstellung einer neuen Instanz können Sie Ihre Instanz nur mit einem vRack über das OVHcloud Kundencenter verbinden.
+> Bei der Erstellung einer neuen Instanz können Sie Ihre Instanz über das OVHcloud Kundencenter mit nur einem vRack verbinden.  
 > Um mehrere verschiedene Interfaces hinzuzufügen, müssen Sie die OpenStack API oder Horizon API verwenden.
 >
 
@@ -256,7 +256,7 @@ Fügen Sie dann einfach zusätzlich zu dem existierenden ein neues Netzwerkinter
 Wenn Sie zum Beispiel ein öffentliches Interface *eth0* haben, fügen Sie ein Interface *eth1* hinzu.
 
 > [!warning]
-> Die Konfiguration dieses neuen Interfaces erfolgt wahrscheinlich nicht automatisch.
+> Die Konfiguration dieses neuen Interfaces erfolgt wahrscheinlich nicht automatisch.  
 > Je nach Infrastruktur müssen Sie die Konfiguration daher als DHCP oder statische Adresse einrichten.
 >
 
@@ -308,16 +308,16 @@ Wählen Sie Ihr Interface aus und bestätigen Sie.
 ><br>Das Interface muss über DHCP konfiguriert oder IP-Adressen über eine statische IP-Konfiguration zugewiesen werden.
 >
 
-**Löschung eines privaten Interfaces**
+**Eine Netzwerkschnittstelle entfernen**
 
 > [!warning]
-> Das Löschen eines Interfaces ist endgültig.
+> Wenn Sie eine Netzwerkschnittstelle trennen, wird diese sofort gelöscht.
 >
->Wenn Sie das Interface "Ext-Net" (öffentliche IP) löschen, wird diese Adresse freigegeben und wieder in Betrieb genommen. Sie kann also nicht erneut zugeordnet werden.
-><br>Diese Aktion ist nur durchzuführen, wenn Sie Ihren Server im vRack ("Ext-Net" Interface) isolieren oder aus einem VLAN entfernen möchten.
+> Es ist jedoch wichtig zu beachten, dass durch das Entfernen des "Ext-Net" Interface dessen öffentliche IP-Adresse freigegeben und wieder verfügbar wird. Sie können die Adresse nicht gezielt zuweisen.  
+> Diese Aktion ist nur dann notwendig, wenn Sie Ihren Server im vRack (privates Netzwerk) isolieren oder ihn aus einem oder mehreren VLANs herausnehmen möchten.
 >
 
-Um ein Interface zu löschen, klicken Sie in der Spalte "Action" auf den Pfeil, um auf die Aktionen zuzugreifen, die auf der Instanz möglich sind. Klicken Sie dann auf `Detach Interface`{.action}:
+Um ein Interface zu löschen, klicken Sie in der Spalte "Actions" auf den Pfeil, um auf die Aktionen zuzugreifen, die auf der Instanz möglich sind. Klicken Sie dann auf `Detach Interface`{.action}:
 
 ![Horizon detach interface](images/horizon5.png){.thumbnail}
 

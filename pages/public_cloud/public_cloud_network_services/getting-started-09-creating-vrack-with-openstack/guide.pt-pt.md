@@ -33,7 +33,7 @@ Antes de começar, certifique-se de que lê estes guias para configurar corretam
 - [Etapa 3: Integrar uma instância no vRack](#instance-vrack)
     - [Em caso de nova instância](#new-instance)
     - [Caso de uma instância existente](#existing-instance)
-- [Eliminação de uma interface privada](#detach-interface)
+- [Desassociar uma interface de rede](#detach-interface)
 
 ## Instruções
 
@@ -372,15 +372,15 @@ openstack server show <ID-instance>
 [...]
 ```
 
-<a name="remove-network"></a>
+<a name="detach-network"></a>
 
-### Eliminação de uma interface
+### Desassociar uma interface de rede
 
 > [!warning]
-> A eliminação de uma interface é definitiva.
+> Desassociar uma interface de rede leva à sua eliminação imediata.
 >
-> Se eliminar a interface "Ext-Net" (IP público), este endereço será libertado e reposto em circulação. Por isso, não poderia reatribuir-se a ela.
-><br>Esta ação só deve ser realizada se pretender isolar o seu servidor no vRack (interface "Ext-Net") ou retirá-lo de uma VLAN.
+> No entanto, é importante notar que se desassociar a interface « Ext-Net » (IP público), esse endereço será liberado e reposto em circulação. Por isso, não se conseguiria atribuir a si próprio a responsabilidade.
+><br>Esta ação só deve ser efetuada se pretender isolar o seu servidor no vRack (rede privada) ou, caso contrário, retirá-lo de uma ou várias VLAN.
 >
 
 Para desassociar uma interface, terá de identificar primeiro a porta Neutron que foi criada.

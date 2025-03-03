@@ -310,16 +310,16 @@ Seleccione la interfaz y acepte:
 ><br>que deberá utilizar configurando la interfaz a través del DHCP o utilizando sus propias IP mediante una configuración de IP estática.
 >
 
-**Eliminación de una interfaz privada**
+**Desvincular una interfaz de red**
 
 > [!warning]
-> La eliminación de una interfaz es definitiva.
+> Desvincular una interfaz de red hace que se elimine inmediatamente.
 >
-> En caso de que elimine la interfaz "Ext-Net" (IP pública), esta dirección se liberará y volverá a estar en circulación. Así que no se podría reasignar.
-><br>Esta operación solo es necesaria si desea aislar su servidor en el vRack (interfaz "Ext-Net") o sacarlo de una VLAN.
+> Sin embargo, es importante tener en cuenta que si desvincula la interfaz «Ext-Net» (IP pública), esta dirección se liberará y volverá a poner en circulación. Así que no podrías reasignarla.
+><br>Esta acción solo debe realizarse si desea aislar su servidor en el vRack (red privada) o en caso contrario, sacarlo de una o varias VLAN.
 >
 
-Para eliminar una interfaz, haga clic en la flecha que le permitirá acceder a las acciones que pueda realizar en la instancia, en la columna "Actions". Haga clic en `Detach Interface`{.action}.
+Para desvincular una interfaz red privata, haga clic en la flecha que le permitirá acceder a las acciones que pueda realizar en la instancia, en la columna "Actions". Haga clic en `Detach Interface`{.action}.
 
 ![Horizon detach interface](images/horizon5.png){.thumbnail}
 

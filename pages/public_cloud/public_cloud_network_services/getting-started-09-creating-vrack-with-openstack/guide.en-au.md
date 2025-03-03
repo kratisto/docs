@@ -34,7 +34,7 @@ Before you get started, make sure you read these guides to properly setup your O
 - [Step 3: Integrating an instance into vRack](#instance-vrack)
     - [In case of a new instance](#new-instance)
     - [In case of an existing instance](#existing-instance)
-- [Removing a private interface](#detach-interface)
+- [Removing a network interface](#detach-interface)
 
 <a name="activating-vrack"></a>
 
@@ -338,7 +338,7 @@ nova net-list
 ><br> - The VLAN(s) required for your configuration
 >
 
-**Adding a private interface**
+**Adding a private network interface**
 
 In order to attach a new interface, execute the following command:
 
@@ -379,13 +379,13 @@ openstack server show <ID-instance>
 
 <a name="detach-interface"></a>
 
-### Removing a private interface
+### Removing a network interface
 
 > [!warning]
-> Deleting an interface is permanent.
+> Detaching a network interface is permanent.
 >
-> If you remove the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
-><br>This action is only necessary if you want to isolate your server in the vRack (Ext-Net interface) or remove it from a VLAN.
+> However, it is important to note that if you detach the "Ext-Net" interface (public IP), this address will be released and put back into circulation. It is not possible to just reassign it.
+><br>This action is only required if you wish to isolate your server in the vRack (private network), or if you wish to remove it from one or more VLANs.
 >
 
 In order to detach an interface, you will first need to identify the Neutron port that has been created.

@@ -294,7 +294,7 @@ Dirigez-vous ensuite dans `Compute`, puis `Instances` :
 
 ![Horizon compute instances](images/horizon2.png){.thumbnail}
 
-**Ajout d'une interface privée**
+**Ajout d'une interface réseau privée**
 
 Pour ajouter une interface, dans la colonne « Actions », cliquez sur la flèche permettant d'accéder aux actions possible sur l'instance. Cliquez alors sur `Attach Interface`{.action} :
 
@@ -310,16 +310,16 @@ Sélectionnez votre interface et validez :
 ><br>À votre charge de l'utiliser en configurant votre interface via le DHCP ou en utilisant vos propres IP au travers d'une configuration en IP statique.
 >
 
-**Suppression d'une interface privée**
+**Détacher une interface réseau**
 
 > [!warning]
-> La suppression d'une interface est définitive.
+> Détacher une interface réseau entraîne sa suppression immédiate.
 >
-> Dans le cas où vous supprimeriez l'interface « Ext-Net » (IP publique), cette adresse serait relâchée et remise en circulation. Vous ne pourriez donc pas vous la réattribuer.
-><br>Cette action n'est à effectuer que si vous souhaitez isoler votre serveur dans le vRack (interface « Ext-Net ») ou la sortir d'un VLAN.
+> Cependant, il est important de noter que si vous detacher l'interface « Ext-Net » (IP publique), cette adresse serait relâchée et remise en circulation. Vous ne pourriez donc pas vous la réattribuer.
+><br>Cette action n'est à effectuer que si vous souhaitez isoler votre serveur dans le vRack (réseau privée) ou dans le cas contraire la sortir d'un ou plusieurs VLAN.
 >
 
-Pour supprimer une interface, dans la colonne « Actions », cliquez sur la flèche permettant d'accéder aux actions possible sur l'instance. Cliquez alors sur `Detach Interface`{.action} :
+Pour détacher une interface réseau privée, dans la colonne « Actions », cliquez sur la flèche permettant d'accéder aux actions possible sur l'instance. Cliquez alors sur `Detach Interface`{.action} :
 
 ![Horizon detach interface](images/horizon5.png){.thumbnail}
 

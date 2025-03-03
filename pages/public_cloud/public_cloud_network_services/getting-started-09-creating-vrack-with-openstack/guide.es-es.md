@@ -34,7 +34,7 @@ Antes de empezar, asegúrese de leer estas guías para configurar correctamente 
 - [Etapa 3: Integrar una instancia en el vRack](#instance-vrack)
     - [Caso de una nueva instancia](#new-instance)
     - [Caso de una instancia ya existente](#existing-instance)
-- [Eliminación de una interfaz privada](#detach-interface)
+- [Desvincular interfaz de red](#detach-interface)
 
 
 <a name="activating-vrack"></a>
@@ -376,13 +376,13 @@ openstack server show <ID-instance>
 
 <a name="detach-interface"></a>
 
-### Eliminación de una interfaz privada
+### Desvincular una interfaz de red
 
 > [!warning]
-> La eliminación de una interfaz es definitiva.
+> Desvincular una interfaz de red hace que se elimine inmediatamente.
 >
-> En caso de que elimine la interfaz "Ext-Net" (IP pública), esta dirección se liberará y volverá a estar en circulación. Así que no se podría reasignar.
-><br>Esta operación solo es necesaria si desea aislar su servidor en el vRack (interfaz "Ext-Net") o sacarlo de una VLAN.
+> Sin embargo, es importante tener en cuenta que si desvincula la interfaz «Ext-Net» (IP pública), esta dirección se liberará y volverá a poner en circulación. Así que no podrías reasignarla.
+><br>Esta acción solo debe realizarse si desea aislar su servidor en el vRack (red privada) o en caso contrario, sacarlo de una o varias VLAN.
 >
 
 Para desvincular una interfaz, es necesario identificar en primer lugar el puerto Neutron que se habrá creado.

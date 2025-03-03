@@ -33,7 +33,7 @@ Bevor Sie beginnen, sollten Sie unbedingt diese Leitfäden lesen, um Ihre OpenSt
 - [Schritt 3: Instanz in das vRack integrieren](#instance-vrack)
     - [Im Fall einer neuen Instanz](#new-instance)
     - [Im Fall einer bereits vorhandenen Instanz](#existing-instance)
-- [Löschung eines Interfaces](#detach-interface)
+- [Eine Netzwerkschnittstelle lösen](#detach-interface)
 
 <a name="activating-vrack"></a>
 
@@ -371,13 +371,13 @@ openstack server show <ID-instance>
 
 <a name="detach-interface"></a>
 
-### Löschung eines Interfaces
+### Eine Netzwerkschnittstelle entfernen
 
 > [!warning]
-> Das Löschen eines Interfaces ist endgültig.
+> Wenn Sie eine Netzwerkschnittstelle trennen, wird diese sofort gelöscht.
 >
-> Wenn Sie das Interface "Ext-Net" (öffentliche IP) löschen, wird diese Adresse freigegeben und wieder in Betrieb genommen. Sie kann also nicht erneut zugeordnet werden.
-><br>Diese Aktion ist nur durchzuführen, wenn Sie Ihren Server im vRack ("Ext-Net" Interface) isolieren oder aus einem VLAN entfernen möchten.
+> Es ist jedoch wichtig zu beachten, dass durch das Entfernen des "Ext-Net" Interface dessen öffentliche IP-Adresse freigegeben und wieder verfügbar wird. Sie können die Adresse nicht gezielt zuweisen.  
+> Diese Aktion ist nur dann notwendig, wenn Sie Ihren Server im vRack (privates Netzwerk) isolieren oder ihn aus einem oder mehreren VLANs herausnehmen möchten.
 >
 
 Um ein Interface zu trennen, müssen Sie zunächst den Neutron-Port identifizieren, der erstellt wurde.

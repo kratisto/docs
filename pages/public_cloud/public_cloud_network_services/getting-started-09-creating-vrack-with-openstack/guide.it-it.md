@@ -32,7 +32,7 @@ Prima di iniziare, ricorda di leggere queste guide:
 - [Step 3: Integra un'istanza nella vRack](#instance-vrack)
     - [Caso di una nuova istanza](#new-instance)
     - [In caso di istanza esistente](#existing-instance)
-- [Elimina un'interfaccia privata](#detach-interface)
+- [Scollega un’interfaccia di rete](#detach-interface)
 
 <a name="activating-vrack"></a>
 
@@ -369,15 +369,15 @@ openstack server show <ID-instance>
 [...]
 ```
 
-<a name="remove-network"></a>
+<a name="detach-interface"></a>
 
-### Elimina un'interfaccia
+### Scollega un’interfaccia di rete
 
 > [!warning]
-> L'eliminazione di un'interfaccia è definitiva.
+> Scollega un'interfaccia di rete e la rimuove immediatamente.
 >
-> Se elimini l'interfaccia "Ext-Net" (IP pubblico), questo indirizzo viene rilasciato e rimesso in circolazione. Non potreste riassegnarla.
-><br>Questa operazione è necessaria solo per isolare il server nella vRack (interfaccia "Ext-Net") o per estrarlo da una VLAN.
+> È importante notare che se scollegi l'interfaccia "Ext-Net" (IP pubblico), questo indirizzo verrebbe rilasciato e reimmesso in circolazione. e non può essere riassegnata.
+><br>Questa operazione è necessaria solo se vuoi isolare il tuo server nella vRack (rete privata) o in caso contrario estrarlo da una o più VLAN.
 >
 
 Per scollegare un'interfaccia è necessario, in un primo tempo, identificare la porta *Neutron* creata.
