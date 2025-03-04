@@ -355,6 +355,7 @@
             + [VMware Cloud Director - Network - Concepts, capacity and limitations](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_network_concepts)
             + [VMware Cloud Director - Network - Create network components](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_network_creation)
             + [VMware Cloud Director - Audit tricky use cases of migration to VCD](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_migration_use-cases)
+            + [VMware Cloud Director - Setting up your network after vSphere to VCD migration](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd_post_migration)
         + [Access and Security](hosted-private-cloud-hosted-private-cloud-powered-by-vmware-access-security)
             + [IAM for VMware on OVHcloud - Introduction and FAQ](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_getting_started)
             + [IAM for VMware on OVHcloud - How to activate IAM](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_iam_activation)
