@@ -4,6 +4,20 @@ excerpt: 'Find out how to increase the size of an additional volume and enlarge 
 updated: 2022-03-29
 ---
 
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
 ## Objective
 
 If you have reached the maximum capacity on your additional disk, you can add more storage by increasing its size. 
@@ -20,6 +34,68 @@ If you have reached the maximum capacity on your additional disk, you can add mo
 ## Instructions
 
 The following steps presume that you have configured an additional disk according to [our guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+## Monitoring Disk Usage Before Resizing
+
+> [!warning]
+>
+> We recommend that you always maintain 20% free space on your storage volumes. This ensures optimum performance and avoids the risk of system degradation or failure when the volume reaches its maximum capacity.
+>
+
+To ensure that you resize your disk at the right moment, it is essential to monitor disk usage regularly. Below are quick tutorials for both Windows and Linux to help you track disk space and anticipate when an upgrade is needed.
+
+> [!tabs]
+> On Windows
+>> /// details | **Using Command Prompt**
+>>
+>> Open Command Prompt (Win + R → cmd → Enter).
+>>
+>> Run the following command:
+>>
+>> ```bash
+>> wmic logicaldisk get name, size, freespace
+>> ```
+>>
+>> This will display the free space and total size of each disk.
+>>
+>> ///
+>>
+>> /// details | **Using PowerShell**
+>>
+>> Open PowerShell as Administrator.
+>>
+>> Run the following command:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> This will show the used and available disk space.
+>>
+>> ///
+>>
+> On Linux
+>> /// details | **Using 'df' command**
+>>
+>> To check overall disk usage, run:
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> This will display disk usage in a human-readable format.
+>>
+>> ///
+>>
+>> /// details | **Using 'lsblk ' command**
+>>
+>> To view disk partitions and their sizes:
+>>
+>> ```bash
+>> lsblk
+>> ```
+>>
+>> ///
 
 ### Modifying the size of the disk
 
@@ -156,5 +232,6 @@ The resized volume now includes the additional disk space.
 ## Go further
 
 [Creating and configuring an additional disk on an instance](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Change your block storage volume type](/pages/public_cloud/compute/switch_volume_type)
 
 Join our [community of users](/links/community).

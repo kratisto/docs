@@ -4,6 +4,20 @@ excerpt: "Découvrez comment augmenter la taille d'un volume supplémentaire et 
 updated: 2022-03-29
 ---
 
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
+
 ## Objectif
 
 Si vous avez atteint la capacité maximale de votre disque supplémentaire, vous pouvez ajouter du stockage en augmentant sa taille. 
@@ -20,6 +34,68 @@ Si vous avez atteint la capacité maximale de votre disque supplémentaire, vous
 ## En pratique
 
 Les étapes suivantes supposent que vous avez déjà configuré un disque supplémentaire selon les intrusctions de [notre guide](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+## Monitorer l'utilisation du disque avant le redimensionnement
+
+> [!warning]
+>
+> Il est recommandé de toujours maintenir 20% d'espace libre sur vos volumes de stockage. Cela permet d'assurer des performances optimales et d'éviter des risques de dégradation ou de panne du système lorsque le volume atteint sa capacité maximale.
+>
+
+Pour vous assurer de redimensionner votre disque au bon moment, il est essentiel de surveiller régulièrement l'utilisation du disque. Vous trouverez ci-dessous des tutoriels rapides pour Windows et Linux qui vous aideront à surveiller l'espace disque et à anticiper le moment où une mise à niveau est nécessaire.
+
+> [!tabs]
+> Pour Windows
+>> /// details | **Utilision du Command Prompt**
+>>
+>> Ouvrir le Command Prompt (Win + R → cmd → Enter).
+>>
+>> Exécutez la commande suivante:
+>>
+>> ```bash
+>> wmic logicaldisk get name, size, freespace
+>> ```
+>>
+>> L'espace libre et la taille totale de chaque disque s'affichent.
+>>
+>> ///
+>>
+>> /// details | **Utilisation de PowerShell**
+>>
+>> Ouvrir le PowerShell en tant qu'Administrateur.
+>>
+>> Exécutez la commande suivante:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> L'espace disque utilisé et l'espace disque disponible s'affichent.
+>>
+>> ///
+>>
+> On Linux
+>> /// details | **Utilisation de la commande 'df'**
+>>
+>> Pour vérifier l'utilisation globale du disque, exécutez la commande
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> Cette fonction affiche l'utilisation du disque dans un format lisible par l'homme.
+>>
+>> ///
+>>
+>> /// details | **Utilisation de la commande 'lsblk'**
+>>
+>> Pour afficher les partitions du disque et leur taille :
+>>
+>> ```bash
+>> lsblk
+>> ```
+>>
+>> ///
 
 ### Modifier la taille du disque
 
@@ -162,5 +238,6 @@ Le volume redimensionné inclut désormais l'espace disque supplémentaire.
 ## Aller plus loin
 
 [Créer et configurer un disque additionnel sur une instance](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Modifier un Volume Block Storage](/pages/public_cloud/compute/switch_volume_type)
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
