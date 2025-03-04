@@ -25,6 +25,7 @@ Après la migration, vous devez ajuster la configuration réseau de vos machines
 Pour passer la configuration réseau en DHCP **(recommandé)** :
 
 1\. Accédez aux paramètres réseau de chaque VM.
+
 2\. Modifiez le mode d’attribution des IP et sélectionnez `DHCP`{.action}.
 
 ![Paramètre DHCP](images/01-VCD-post-migration.png){.thumbnail}
