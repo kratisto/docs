@@ -43,6 +43,42 @@ Cela peut être utile dans les cas suivants :
 
 ## En pratique
 
+### Les différents types de volumes
+
+OVHcloud propose trois types de volumes Block Storage, chacun adapté à des besoins spécifiques en matière de performance, de capacité et de coûts. Ces solutions vous permettent d’attacher des volumes de stockage persistants à vos instances, en garantissant un haut niveau de fiabilité et de disponibilité.
+
+/// details | **Classic – 500 IOPS garantis**
+
+Le volume Classic est une solution de stockage fiable et économique, idéale pour les charges de travail nécessitant des performances modérées. Il offre 500 IOPS garantis, ce qui le rend adapté aux usages suivants :
+
+- Hébergement d’applications web classiques
+- Stockage de bases de données de petite à moyenne taille
+- Sauvegarde et archivage de données
+
+///
+
+/// details | **High-Speed – Jusqu’à 3000 IOPS**
+
+Le volume High-Speed est conçu pour des applications nécessitant un accès plus rapide aux données. Avec une performance pouvant atteindre 3000 IOPS, il convient parfaitement aux cas d’usage suivants :
+
+- Bases de données transactionnelles (MySQL, PostgreSQL, etc..)
+- Environnements de virtualisation et de conteneurs
+- Applications nécessitant une latence réduite et un débit élevé
+
+///
+
+/// details | **High-Speed Gen2 – 30 IOPS/GB et jusqu’à 20 000 IOPS**
+
+La génération 2 des volumes High-Speed est optimisée pour les workloads les plus exigeants. Avec une performance de 30 IOPS/GB, pouvant atteindre 20 000 IOPS, ce type de volume est recommandé pour :
+
+- Big Data et analyses en temps réel
+- Intelligence artificielle et Machine Learning
+- Traitement de grandes bases de données et stockage haute performance
+
+///
+
+![volume_types](images/volume-types.png){.thumbnail}
+
 ### Attacher un nouveau volume
 
 > [!tabs]
