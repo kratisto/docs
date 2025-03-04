@@ -25,6 +25,7 @@ After migration, you need to update the network configurations of your `virtual 
 To set the network configuration to DHCP (**recommended**):
 
 1\. Go to the network settings of each VM.
+
 2\. Change the IP assignment mode to `DHCP`{.action}.
 
 ![DHCP setting](images/01-VCD-post-migration.png){.thumbnail}
