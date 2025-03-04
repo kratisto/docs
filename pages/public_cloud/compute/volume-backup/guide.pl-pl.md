@@ -91,4 +91,6 @@ Więcej informacji na ten temat znajdziesz w [naszym przewodniku dotyczącym two
 
 [Zwiększ rozmiar dodatkowego dysku](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
 
+[Przenoszenie kopii zapasowej wolumenu z jednego regionu OpenStack do innego](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
+
 Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

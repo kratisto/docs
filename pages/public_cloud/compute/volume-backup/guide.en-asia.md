@@ -78,4 +78,6 @@ You can find further information in [this guide](/pages/public_cloud/compute/cre
 
 [Increasing the size of an additional disk](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
+[Transferring a volume backup from one OpenStack region to another](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
+
 Join our [community of users](/links/community).

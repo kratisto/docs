@@ -91,4 +91,6 @@ Para más información, consulte [nuestra guía sobre la creación de un volumen
 
 [Aumentar el tamaño de un disco adicional](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
+[Transferir la copia de seguridad de un volumen de una región de OpenStack a otra](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
+
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

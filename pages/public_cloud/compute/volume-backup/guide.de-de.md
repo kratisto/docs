@@ -90,4 +90,6 @@ Weitere Informationen zu diesem Thema finden Sie in unserer [Anleitung zur Erste
 
 [Die Größe einer zusätzlichen Disk erweitern](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
+[Übertragen von Volume-Backups von einer OpenStack-Region in eine andere](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
+
 Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

@@ -87,4 +87,6 @@ Retrouvez plus d’informations à ce sujet dans [notre guide sur la création d
 
 [Augmenter la taille d’un disque supplémentaire](/pages/public_cloud/compute/increase_the_size_of_an_additional_disk)
 
+[Transférer la sauvegarde d'un volume d'une région OpenStack à une autre](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another)
+
 Échangez avec notre [communauté d'utilisateurs](/links/community).
