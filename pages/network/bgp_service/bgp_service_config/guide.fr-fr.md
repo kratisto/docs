@@ -1,6 +1,6 @@
 ---
 title : Configuration du service BGP
-excerpt : En tirant parti de BGP, vous bénéficiez d'un contrôle total sur vos politiques de routage et la résilience du réseau. Suivez ce guide pour configurer et optimiser votre session BGP de manière transparente.
+excerpt : En tutilisant le service Bgp, vous bénéficiez d'un contrôle total sur vos politiques de routage et la résilience du réseau. Suivez ce guide pour configurer et optimiser vos sessions BGP.
 updated : 2025-02-27
 ---
 
@@ -21,13 +21,15 @@ Le protocole Border Gateway Protocol (BGP) vous permet de construire des infrast
 
 ## Étape 1 : rejoindre l'Alpha
 
-Vous devez d'abord demander à rejoindre la bêta sur [cette page](labs.ovh.com). Après réception de votre candidature, nous vous contacterons par e-mail.
+Vous devez d'abord demander à rejoindre l'alpha sur [cette page](labs.ovh.com). Après réception de votre candidature, nous vous contacterons par e-mail.
 
-Important : le service BGP est actuellement en alpha. Ce produit n'est pas destiné à être utilisé dans un environnement de production.
+>
+>Important : le service BGP est actuellement en alpha. Ce produit n'est pas destiné à être utilisé dans un environnement de production.
+>
 
 ## Étape 2 : préparer vos adresses IP
 
-Vous devez soit acheter des adresses IP supplémentaires chez OVHcloud, soit utiliser vos propres IP avec BYOIP.
+Vous devez soit acheter des Additional IP chez OVHcloud, soit utiliser vos propres adresses IP avec BYOIP.
 
 Si vous achetez des adresses IP auprès de nous, vous **NE DEVEZ PAS** les associer à un service (par exemple, un serveur Bare Metal).
 
@@ -39,7 +41,9 @@ Vous devez avoir créé un vRack, qui est un réseau privé où se fera le peeri
 
 Le vRack doit contenir les serveurs qui participeront au peering BGP.
 
-Attention, le vRack ne doit contenir que des serveurs dans une zone de disponibilité (AZ) spécifique. Pour les régions 1-AZ, un AZ équivaut à une région. Seules les régions 1-AZ sont disponibles dans l'alpha.
+>
+>Attention: le vRack ne doit contenir que des serveurs dans une zone de disponibilité (AZ) spécifique. Puisque seules les régions 1-AZ (possédant une seule AZ) sont disponibles pendant l'alpha, vos serveurs doivent simplement être dans la même région.
+>
 
 ## Étape 4 : fournir les paramètres de configuration de votre service BGP
 
@@ -48,20 +52,20 @@ Vous devez nous fournir les paramètres suivants afin que nous puissions configu
 | Paramètre	| Value (exemple) | Description | Commentaire |
 | :--- | :--- | :--- | :--- |
 | Localisation	| RBX | Emplacement de livraison du service | |
-| ID vRack | 937 | ID vRack sur lequel les sessions BGP vont s'exécuter | |
-| BYOIP | Y | Bloc d’IP provenant du client ?	| |
+| ID vRack | 937 | ID du vRack sur lequel les sessions BGP vont s'exécuter | |
+| BYOIP | Y | Bloc d’IP fourni par le client	| |
 | Bloc IP | 17.13.2.0 | Le bloc d'IP à annoncer | Netmask: /24 <br> Taille de plage autorisée : <br>&bull; IP OVHcloud (/24 à /30) <br>&bull; plage importée BYOIP (/19 à /24) <br>&bull; IPv6 (/56) |
 | Sous-réseau privé | 10.0.0.0 | Sous-réseau réservé aux les IP des pairs BGP <br> les 4 dernières adresses seront utilisées par OVHcloud pour les pairs BGP côté OVHcloud | Netmask: /28 |
-| Peering IP 1 | 10.0.0.1 | L'IP du client doit être spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 2 | 10.0.0.2 | L'IP du client doit être spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 3 | 10.0.0.3 | L'IP du client doit être spécifiée par le client (pour le monitoring côté OVH) | |
-| Peering IP 4 | 10.0.0.4 | L'IP du client doit être spécifiée par le client (pour le monitoring côté OVH) | |
+| Peering IP 1 | 10.0.0.1 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVH) | |
+| Peering IP 2 | 10.0.0.2 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVH) | |
+| Peering IP 3 | 10.0.0.3 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVH) | |
+| Peering IP 4 | 10.0.0.4 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVH) | |
 
 ## Étape 5 : livraison du service BGP
 
 Après environ 2 semaines, votre service sera livré. Nous vous recontacterons pour vous informer que le service est prêt à être utilisé et vous donner les paramètres nécessaires suivants de votre côté :
 
-&bull; Adresses IP des edges OVHcloud (4 IPs) <br>&bull; AS clients et AS OVHcloud à utiliser pour les sessions de peering BGP<br>&bull; Paramètres BFD
+&bull; Adresses IP des Edges OVHcloud (4 IPs) <br>&bull; AS clients et AS OVHcloud à utiliser pour les sessions de peering BGP<br>&bull; Paramètres BFD
 
 ## Étape 6 : configuration côté client
 
@@ -244,7 +248,7 @@ Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes 
 # Cas d'utilisation: Configuration BGP avancée utilisant des Route Servers (RS)
 
 Les Route Servers sont déployés et gérés par le client. Ceux-ci doivent déployer leurs RS sur des hôtes dédiés.
-Les RS s'appairent avec les Load Balancing Edges (LBEdges) et les Hôtes, et édablissent deux sessions par pair (une pour l'IPv4, l'autre pour l'IPv6).
+Les RS s'appairent avec les Load Balancing Edges (LBEdges) et les Hôtes, et établissent deux sessions par pair (une pour l'IPv4, l'autre pour l'IPv6).
 
 Voici une vue d'ensemble du système:
 ![BGPaaS RS Peering](images/bgpaas_rs-peering.png)
@@ -359,7 +363,7 @@ bfd
 
 #### Configuration BGP
 
-Configuration globale
+Configuration globale:
 
 ```bash
 router bgp <CUSTOMER_ASN>
@@ -564,9 +568,9 @@ Nous nous assurerons que la connectivité BGP et les annonces IP sont correctes 
 
 # Limites
 
-Le nombre de pairs côté OVHcloud est limité à 4. Si vous avez besoin de plus de 4 pairs, vous devrez installer un réflecteur de route sur votre infrastructure afin de redistribuer les routes vers vos hôtes.
+Le nombre de pairs côté OVHcloud est limité à 4. Si vous avez besoin de plus de 4 pairs, vous devrez installer un réflecteur de route sur votre infrastructure, afin de redistribuer les routes vers vos hôtes.
 
-&bull; Sessions BGP : 4 par client (4IPv4 + 4IPv6) <br>&bull; Préfixes IP : jusqu'à 32 préfixes IPv4 et 32 préfixes IPv6 par client <br>&bull; Hôtes : 10 par client
+&bull; **Sessions BGP :** 4 par client (4IPv4 + 4IPv6) <br>&bull; **Préfixes IP :** jusqu'à 32 préfixes IPv4 et 32 préfixes IPv6 par client <br>&bull; **Hôtes :** 10 par client
 
 # Régions disponibles
 
