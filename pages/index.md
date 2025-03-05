@@ -1487,6 +1487,7 @@
             + [Using Zimbra webmail](web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra)
             + [FAQ Zimbra OVHcloud](web_cloud/email_and_collaborative_solutions/mx_plan/faq-zimbra)
             + [Configure Zimbra account on email client](web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps)
+            + [How to migrate an MX Plan email address to a Zimbra account](web_cloud/email_and_collaborative_solutions/zimbra/migrate_mxplan_to_zimbra)
             + [How to configure a Zimbra email account on the Zimbra mobile application](web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios)
             + [Synchronize a Zimbra CalDAV calendar in an application](web_cloud/email_and_collaborative_solutions/zimbra/zimbra_calendar_sync)
     + [Internet](products/web-cloud-internet)
