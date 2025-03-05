@@ -1,7 +1,7 @@
 ---
 title: "Configurar um DNS dinâmico (DynHost/DynDNS) para o seu nome de domínio"
 excerpt: "Saiba como configurar um registo DNS dinâmico para o seu nome de domínio OVHcloud"
-updated: 2024-09-04
+updated: 2025-03-05
 ---
 
 ## Objetivo
@@ -47,7 +47,7 @@ Por exemplo, o **DynHost** pode ser utilizado se *autoidentificar* (nas instala�
 
 ## Instruções
 
-### Etapa 1 - Criar um utilizador DynHost <a name="step1"></a>
+### 1 - Criar um utilizador DynHost <a name="step1"></a>
 
 Para criar um utilizador DynHost, aceda à [Área de Cliente OVHcloud](/links/manager){.external} e aceda à secção `Web cloud`{.action}. Na coluna da esquerda, clique no separador `Nomes de domínio`{.action} e selecione o domínio em causa. Na página que aparece, clique no separador `DynHost`{.action}.
 
@@ -70,7 +70,7 @@ Depois de preencher os campos, clique no botão `Validar`{.action}. O identifica
 
 ![dynhost](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dynhost/create-a-dynhost-username.png){.thumbnail}
 
-### Etapa 2: criar o registo DNS dinâmico (DynHost) <a name="step2"></a>
+### 2 - Criar o registo DNS dinâmico (DynHost) <a name="step2"></a>
 
 A segunda etapa consiste em criar o registo DNS que deverá ser atualizado de forma dinâmica. Relembramos que este não deve já existir na zona DNS da OVHcloud do seu nome de domínio enquanto registo "A" ou "AAAA". Para o verificar e, se necessário, eliminá-lo, consulte o nosso manual "[Editar uma zona DNS da OVHcloud](/pages/web_cloud/domains/dns_zone_edit){.external}".
 
@@ -95,9 +95,9 @@ Depois de preencher os campos, clique no botão `Validar`{.action}. O registo Dy
 > Se o seu domínio ou subdomínio tiver de ser configurado dinamicamente com, por exemplo, um IPv4 e um IPv6, pode criar dois registos DNS dinâmicos para o mesmo domínio ou subdomínio. O primeiro registo DNS dinâmico será então para o IPv4 e o segundo para o IPv6.
 >
 
-### Etapa 3: automatizar a alteração do DynHost
+### 3 - Automatizar a alteração do DynHost
 
-Depois de criar o[utilizador](#step1) e o[registo DynHost](#step2), é necessário automatizar a atualização do registo DNS de forma a que o registo seja realizado de forma dinâmica. Para isso, deverá utilizar um software/cliente que se encarregará de verificar regularmente se o endereço IP de destino mudou de forma a que o atualize automaticamente.
+Depois de criar o [utilizador](#step1) e o [registo DynHost](#step2), é necessário automatizar a atualização do registo DNS de forma a que o registo seja realizado de forma dinâmica. Para isso, deverá utilizar um software/cliente que se encarregará de verificar regularmente se o endereço IP de destino mudou de forma a que o atualize automaticamente.
 
 > [!warning]
 >

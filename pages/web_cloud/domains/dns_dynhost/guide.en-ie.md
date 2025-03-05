@@ -1,7 +1,7 @@
 ---
 title: "Configure dynamic DNS (DynHost/DynDNS) for your domain name"
 excerpt: "Find out how to configure a dynamic DNS record for your OVHcloud domain name"
-updated: 2024-09-04
+updated: 2025-03-05
 ---
 
 ## Objective
@@ -47,7 +47,7 @@ For example, the **DynHost** can be used for a self-hosted game server (located 
 
 ## Instructions
 
-### Step 1: Create a DynHost username <a name="step1"></a>
+### 1 - Create a DynHost username <a name="step1"></a>
 
 To create a DynHost user, log in to your [OVHcloud Control Panel](/links/manager){.external} then go to the `Web Cloud`{.action} section. In the left-hand column, click on the `Domain names`{.action} tab, then select the domain name concerned. On the page that appears, click on the `DynHost`{.action} tab.
 
@@ -70,7 +70,7 @@ Once you have filled in all of the required fields, click `Confirm`{.action}. Th
 
 ![dynhost](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dynhost/create-a-dynhost-username.png){.thumbnail}
 
-### Step 2: Create the dynamic DNS record (DynHost) <a name="step2"></a>
+### 2 - Create the dynamic DNS record (DynHost) <a name="step2"></a>
 
 This second step involves creating the DNS record that must be updated dynamically. As a reminder, it must not already exist in your domain name’s OVHcloud DNS zone as an "A" or "AAAA" record. For advice on how to check this and delete the A record if necessary, please read our guide "[Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)".
 
@@ -95,7 +95,7 @@ Once you have filled in all of the required fields, click `Confirm`{.action}. Th
 > If your domain or subdomain needs to be configured dynamically with, for example, an IPv4 and an IPv6, you can create two dynamic DNS records for the same domain or subdomain. The first dynamic DNS record will then be for IPv4 and the second for IPv6.
 >
 
-### Step 3: Automate the DynHost update
+### 3 - Automate the DynHost update
 
 Once you have created the [user](#step1) and the [DynHost record](#step2), you need to automate DNS record updates so that they are performed dynamically. To do this, you will need to use a client software that regularly checks if the destination IP address has changed in order to update it automatically.
 

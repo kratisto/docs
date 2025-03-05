@@ -211,7 +211,7 @@ https://dns.eu.ovhapis.com/nic/update?system=dyndns&hostname=$HOSTNAME&myip=$IP
 |$HOSTNAME|Le sous-domaine concerné par la modification.|
 |$IP|La nouvelle adresse IPv4 ou IPv6 de destination.|
 
-Vous pouvez vérifier si l'adresse IP de destination a bien été mise à jour. Pour cela, cliquez sur les onglets ci-dessous afin d'afficher successivement chacune des **5** étapes.
+Vous pouvez vérifier si l'adresse IP de destination a bien été mise à jour. Pour cela, cliquez sur les onglets ci-dessous afin d'afficher successivement chacune des **4** étapes.
 
 > [!tabs]
 > **Etape 1**

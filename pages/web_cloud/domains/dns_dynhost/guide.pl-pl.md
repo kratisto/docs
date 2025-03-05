@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja dynamicznego DNS (DynHost/DynDNS) dla Twojej domeny"
 excerpt: "Dowiedz się, jak skonfigurować dynamiczny rekord DNS dla Twojej domeny OVHcloud"
-updated: 2024-09-04
+updated: 2025-03-05
 ---
 
 ## Wprowadzenie
@@ -47,7 +47,7 @@ Na przykład **DynHost** może być używany do samodzielnego hostowania serwera
 
 ## W praktyce
 
-### Etap 1: utworzenie identyfikatora DynHost <a name="step1"></a>
+### 1 - Utworzenie identyfikatora DynHost <a name="step1"></a>
 
 Aby utworzyć użytkownika DynHost, zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external} i przejdź do sekcji `Web cloud`{.action}. W lewej kolumnie kliknij zakładkę `Domeny`{.action} i wybierz odpowiednią nazwę domeny. Na stronie, która się wyświetla kliknij zakładkę `DynHost`{.action}.
 
@@ -70,7 +70,7 @@ Po uzupełnieniu pól kliknij przycisk `Zatwierdź`{.action}. Identyfikator poja
 
 ![dynhost](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dynhost/create-a-dynhost-username.png){.thumbnail}
 
-### Etap 2: tworzenie dynamicznego rekordu DNS (DynHost) <a name="step2"></a>
+### 2 - Utworzenie dynamicznego rekordu DNS (DynHost) <a name="step2"></a>
 
 Drugi etap polega na utworzeniu rekordu DNS, który będzie aktualizowany dynamicznie. Rekord DynHost nie może już istnieć w strefie DNS OVHcloud Twojej domeny jako rekord "A" lub "AAAA". Aby zweryfikować rekord, i w razie potrzeby go usunąć, zapoznaj się z informacjami zawartymi w przewodniku [Modyfikacja DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit){.external}.
 
@@ -95,7 +95,7 @@ Po uzupełnieniu pól kliknij przycisk `Zatwierdź`{.action}. Rekord DynHost poj
 > Jeśli domena lub subdomena ma być konfigurowana dynamicznie, na przykład za pomocą adresów IPv4 i IPv6, możesz utworzyć dwa dynamiczne rekordy DNS dla tej samej domeny lub subdomeny. Pierwszy dynamiczny rekord DNS zostanie utworzony dla IPv4, a drugi dla IPv6.
 >
 
-### Etap 3: automatyzacja zmiany DynHost
+### 3 - Automatyzacja zmiany DynHost
 
 Po utworzeniu [użytkownik](#step1) i [rekordu DynHost](#step2) należy zautomatyzować aktualizację rekordu DNS, aby była ona dynamicznie wykonywana. W tym celu użyj programu/klienta, który będzie regularnie sprawdzał, czy docelowy adres IP zmienił się i aktualizował go automatycznie.
 
@@ -138,4 +138,4 @@ W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj
 
 Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
 
-Dołącz do [grona naszych użytkowników](/links/community). 
+Dołącz do [grona naszych użytkowników](/links/community).
