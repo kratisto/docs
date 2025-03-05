@@ -54,7 +54,7 @@ Rendez-vous sur [OVH Mail Migrator](https://omm.ovh.net/){.external}.
 
 Sur la page <https://omm.ovh.net/>, dans l'onglet `Migration`{.action}, cliquez sur `Nouvelle migration`{.action}.
 
-![omm](images/omm-migration-create.png){.thumbnail}
+![omm](images/omm-migration-create01.png){.thumbnail}
 
 #### Étape 2 : Renseigner les informations de migration
 
@@ -71,6 +71,10 @@ Sur la page <https://omm.ovh.net/>, dans l'onglet `Migration`{.action}, cliquez 
 
 - **Informations** : renseignez une adresse e-mail afin d'être notifié sur l'avancement de la migration.
 
+- cochez la case en bas de la page pour accepter les termes et conditions d'OMM
+
+![omm](images/omm-migration-create02.png){.thumbnail}
+
 #### Étape 3 : Lancer la migration
 
 Vérifiez que toutes les informations sont correctes, puis cliquez sur `Démarrer la migration`{.action}. La page qui apparaît détaille le suivi de la migration. Conservez `l'Identifiant de migration` affiché et patientez jusqu'à ce que le processus arrive à son terme. Ce délai est variable selon le nombre d'éléments à migrer.
@@ -86,9 +90,9 @@ Il existe deux chemins pour accéder au suivi d'une migration unique :
 
 La page qui s'affiche vous permet de suivre l'avancement de votre migration. Un message vous indique si le processus va débuter, est en cours ou est terminé. Selon cet état, plusieurs interactions sont possibles :
 
-- `Stopper le processus `{.action} : permet d'annuler la migration. Les éléments déjà migrés seront conservés sur le compte de destination.
+- `Stopper le processus`{.action} : permet d'annuler la migration. Les éléments déjà migrés seront conservés sur le compte de destination.
 - `Supprimer les éléments migrés`{.action} : permet de supprimer des éléments déjà migrés vers le compte de destination. Vous pouvez effacer des éléments à partir d'un point de synchronisation précis.
-- `Synchroniser`{.action} : permet de récupérer des nouveaux éléments non migrés lors d'une précédente synchronisation entre le compte source et le compte de destination. Nous considérons cette action comme une migration des éléments manquants sur le compte de destination par rapport au compte source.
+- `Synchroniser`{.action} : permet de récupérer de nouveaux éléments non migrés lors d'une précédente synchronisation entre le compte source et le compte de destination. Nous considérons cette action comme une migration des éléments manquants sur le compte de destination par rapport au compte source.
 
 Pour réaliser une migration par fichier ou multiple, consultez les sections « Migration par fichier » et « Réaliser et suivre une migration multiple (mode projet) » de notre guide « [Migrer des comptes e-mail via OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)».
 
