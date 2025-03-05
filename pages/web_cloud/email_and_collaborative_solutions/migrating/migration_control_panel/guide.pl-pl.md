@@ -44,7 +44,12 @@ W przeciwnym razie zaloguj się do [Panelu klienta OVHcloud](/links/manager) i z
 
 Przed rozpoczęciem migracji określ wersję programu MX Plan, z której chcesz wykonać migrację.
 
-W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager), część `Web Cloud`{.action}. Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę. Przejdź do wersji, którą posiadasz, odnosząc się do poniższej tabeli.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+
+Przejdź do wersji, którą posiadasz, odnosząc się do poniższej tabeli.
 
 |Poprzednia wersja usługi MX Plan|Nowa wersja usługi MX Plan|
 |---|---|

@@ -24,7 +24,11 @@ Uma **conta partilhada** é uma caixa de e-mail partilhada entre várias contas 
 
 ### Adicionar uma conta partilhada
 
-Aceda à [Área de Cliente OVHcloud](/links/manager). Aceda à secção `Web Cloud`{.action} e selecione o seu serviço em `Microsoft`{.action} e depois `Exchange`{.action}.
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique na rubrica `Microsoft`{.action}.
+1. Clique em `Exchange`{.action}.
+1. Selecione a plataforma em causa.
 
 Selecione o separador `Contas partilhadas`{.action} no menu horizontal e clique em `Adicionar uma conta partilhada`{.action}.
 

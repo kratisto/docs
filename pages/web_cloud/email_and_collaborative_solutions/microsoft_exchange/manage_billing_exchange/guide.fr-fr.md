@@ -17,13 +17,17 @@ Les services Hosted Exchange et Private Exchange disposent d'une gestion flexibl
 
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) et dirigez-vous dans la section `Web Cloud`{.action}. Cliquez sur `Microsoft`{.action} puis sur `Exchange`{.action} et sélectionnez la plateforme Exchange concernée.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action} .
+1. Cliquez sur la rubrique `MICROSOFT`{.action}.
+1. Cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 ### Hosted Exchange
 
 #### Commander des comptes supplémentaires
 
-Dirigez-vous dans l'onglet `Comptes e-mail`{.action} puis cliquez sur le bouton `Actions`{.action} en haut à gauche et enfin cliquez sur `Commander des comptes`{.action}
+Dirigez-vous dans l'onglet `Comptes e-mail`{.action} puis cliquez sur le bouton `Actions`{.action} en haut à gauche et enfin cliquez sur `Commander des comptes`{.action}.
 
 ![billing_exchange](images/billing-exchange-00.png){.thumbnail}
 

@@ -24,7 +24,11 @@ Una **cuenta compartida** es una cuenta de correo compartida entre varias cuenta
 
 ### Añadir una cuenta compartida
 
-Inicie sesión en el [área de cliente de OVHcloud](/links/manager), Acceda a la sección `Web Cloud`{.action} y seleccione su servicio, en `Microsoft`{.action}, luego en `Exchange`{.action}.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
 
 Seleccione la pestaña `Cuentas compartidas`{.action} en el menú horizontal y haga clic en `Añadir cuenta compartida`{.action}.
 

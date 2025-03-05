@@ -17,7 +17,11 @@ I servizi Hosted Exchange e Private Exchange offrono una gestione flessibile del
 
 ## Procedura
 
-Accedi alla sezione `Webcloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Seleziona il tuo servizio cliccando su `Microsoft`{.action} > `Exchange`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Microsoft`{.action}.
+1. Clicca su `Exchange`{.action}.
+1. Seleziona la piattaforma interessata.
 
 ### Hosted Exchange
 

@@ -24,7 +24,11 @@ Konto **współdzielone** to skrzynka e-mail współdzielona między kilka kont 
 
 ### Dodaj konto współdzielone
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager). Przejdź do sekcji `Web Cloud`{.action} i wybierz usługę w `Microsoft`{.action}, a następnie `Exchange`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
 
 Wybierz kartę `Konta współdzielone`{.action} w menu poziomym i kliknij `Dodaj konto współdzielone`{.action}.
 

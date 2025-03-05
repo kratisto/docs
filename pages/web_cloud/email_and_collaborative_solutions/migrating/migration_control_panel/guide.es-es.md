@@ -44,7 +44,12 @@ En caso contrario, conéctese al [área de cliente de OVHcloud](/links/manager) 
 
 Antes de realizar la migración, deberá identificar la versión del MX Plan desde el que migrará.
 
-Para ello, conéctese al [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}.Haga clic en `Correo electrónico`{.action} y seleccione el servicio correspondiente. Continúe leyendo esta guía en el apartado correspondiente a la versión:
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Correo electrónico`{.action}.
+1. Seleccione el dominio.
+
+Continúe leyendo esta guía en el apartado correspondiente a la versión:
 
 |Versión histórica de la solución MX Plan|Nueva versión de la solución MX Plan|
 |---|---|
