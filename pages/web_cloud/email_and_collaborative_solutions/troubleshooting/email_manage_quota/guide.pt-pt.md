@@ -4,10 +4,6 @@ excerpt: "Saiba como gerir e otimizar o espaço de armazenamento de um endereço
 updated: 2022-11-17
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Cada conta de e-mail da OVHcloud dispõe de um espaço de armazenamento dedicado. Gerir bem o seu espaço de armazenamento permite evitar a saturação, também chamada "overquota". Por predefinição, os e-mails que recebe e envia são armazenados no servidor da sua conta de e-mail. Também é possível armazenar os seus e-mails localmente no seu computador, através de um software de mensagens (Outlook, Mail de macOS, Thunderbird, etc.).

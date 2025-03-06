@@ -4,10 +4,6 @@ excerpt: Come delegare la gestione degli account email della tua soluzione MX Pl
 updated: 2021-10-08
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo <a name="objective"></a>
 
 La delega offre all'utente di un account email la possibilità di gestire autonomamente diverse funzionalità (come la modifica della password). Queste funzionalità dipendono dal tipo di delega installato:

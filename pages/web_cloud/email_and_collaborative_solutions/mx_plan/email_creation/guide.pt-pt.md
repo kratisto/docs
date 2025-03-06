@@ -4,10 +4,6 @@ excerpt: 'Saiba como criar um endereço de e-mail com a oferta MX Plan'
 updated: 2024-06-13
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Adquiriu um serviço de e-mail MX Plan. que lhe permite beneficiar de endereços de e-mail associados a um domínio.

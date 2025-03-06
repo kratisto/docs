@@ -4,10 +4,6 @@ excerpt: "Questa guida ti mostra come migrare gli indirizzi email da una piattaf
 updated: 2021-10-21
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Modifica" di questa pagina.
->
-
 ## Obiettivo
 
 Per migrare i tuoi indirizzi email presenti su una piattaforma Exchange o Email Pro su un'altra piattaforma Exchange, Email Pro o MX Plan. In questa guida trovi il processo di migrazione in due fasi:

@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak korzystać z konta e-mail przy użyciu Webmail OWA'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Dzięki rozwiązaniom poczty elektronicznej OVHcloud można wysyłać oraz odbierać e-maile przy użyciu wybranego urządzenia i klienta poczty. Aby umożliwić dostęp do konta z dowolnego miejsca przy użyciu przeglądarki, OVHcloud udostępnia klient poczty e-mail online o nazwie Outlook Web App (OWA). [Strona logowania do interfejsu webmail](/links/web/email) zapewnia dostęp do odpowiednich interfejsów OWA dla wszystkich aktywnych kont e-mail w ramach usług MX Plan, E-mail Pro i Hosted Exchange.

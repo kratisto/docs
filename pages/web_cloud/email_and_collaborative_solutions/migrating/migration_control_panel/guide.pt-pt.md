@@ -4,10 +4,6 @@ excerpt: 'Saiba como migrar um endereço de e-mail MX Plan para uma conta E-mail
 updated: 2022-11-22
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 A OVHcloud oferece várias soluções de e-mail: MX Plan (vendido isoladamente ou incluído numa oferta de alojamento web), E-mail Pro e Exchange. Estas beneficiam de funcionalidades próprias e podem adaptar-se a várias utilizações. As suas necessidades evoluem? A OVHcloud oferece-lhe uma ferramenta de migração que lhe permite passar de uma solução para outra.

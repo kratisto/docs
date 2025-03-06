@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie Microsoft 365 Apps auf einem Remote- (RDS) o
 updated: 2021-09-06
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Sie haben die Möglichkeit, die im Paket "Microsoft 365 Apps" enthaltene Software-Suite auf einem Remote-Desktop oder gemeinsam genutzten Gerät zu verwenden. Hiernei ist das in dieser Anleitung beschriebene Installationsverfahren anzuwenden.

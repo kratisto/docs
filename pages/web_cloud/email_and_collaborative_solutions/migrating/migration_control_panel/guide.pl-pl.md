@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak przenieść konto e-mail MX Plan na konto E-mail Pro
 updated: 2022-11-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk „Zaproponuj zmianę” na tej stronie.
-> 
-
 ## Wprowadzenie
 
 OVHcloud oferuje kilka rozwiązań poczty elektronicznej: MX Plan (sprzedawany samodzielnie lub zawarty w ofercie hostingu), E-mail Pro i Exchange. Korzystają one z własnych funkcji i mogą być dostosowane do wielu zastosowań. Twoje potrzeby zmieniają się? OVHcloud udostępnia Ci narzędzie migracji umożliwiające przejście z jednego rozwiązania na drugie.

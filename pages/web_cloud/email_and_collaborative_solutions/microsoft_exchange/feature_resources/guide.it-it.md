@@ -4,10 +4,6 @@ excerpt: In questa guida ti mostriamo come configurare degli account di risorsa
 updated: 2020-06-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Questa funzione collaborativa di Exchange permette di creare indirizzi di posta dedicati alle risorse della tua organizzazione, come sale di conferenza e dispositivi condivisi. L'utilizzo di questi account di risorse permette di ottimizzare l'organizzazione di eventi in un ambiente di lavoro collaborativo, fornendo controlli di disponibilità e integrando le risorse in modo trasparente nei calendari Exchange.

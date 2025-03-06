@@ -4,10 +4,6 @@ excerpt: Insert Here A Short Desc
 updated: 2020-06-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Esta função colaborativa do Exchange permite criar endereços de e-mail dedicados aos recursos da sua organização, tais como salas de conferência e equipamentos partilhados. A utilização destas contas de recursos permite otimizar a organização de eventos num ambiente de trabalho colaborativo, ao fornecer controlos de disponibilidade e ao integrar os recursos de forma transparente nos seus calendários Exchange.

@@ -4,10 +4,6 @@ excerpt: 'Saiba como delegar a gestão das contas de e-mail da sua oferta MX Pla
 updated: 2021-10-08
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo <a name="objective"></a>
 
 A delegação dá ao utilizador de uma conta de e-mail a possibilidade de gerir ele próprio diferentes funcionalidades (a alteração da palavra-passe nomeadamente). Estas funcionalidades dependem do tipo de delegação estabelecida:

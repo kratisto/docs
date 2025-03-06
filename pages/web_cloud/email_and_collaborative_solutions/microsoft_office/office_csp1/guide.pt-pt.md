@@ -4,10 +4,6 @@ excerpt: Saiba como subscrever uma licença Microsoft 365 e geri-la na sua Área
 updated: 2024-03-27
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Existem várias vantagens em subscrever às ofertas OVHcloud **Microsoft 365 apps for business** ou **Microsoft 365 apps for entreprise**. A faturação é mensal e pode instalar uma licença em 5 PC/Mac, 5 tablets e 5 smartphones.

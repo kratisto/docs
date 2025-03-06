@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie Ihre E-Mail-Adresse manuell auf eine andere 
 updated: 2021-01-05
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Die automatische [Migration](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm) einer E-Mail-Adresse ist über unseren [OVH Mail Migrator](https://omm.ovh.net/) möglich. Sie können Ihre E-Mail-Adresse auch manuell über einen E-Mail-Client migrieren.

@@ -4,10 +4,6 @@ excerpt: 'Cómo y por qué añadir un registro CNAME a un dominio'
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Al añadir un dominio a su plataforma de correo, es posible que se le pida que configure un registro CNAME en la zona DNS. El objetivo de esta operación es garantizar que el dominio en cuestión es legítimo para su uso en la plataforma de correo.

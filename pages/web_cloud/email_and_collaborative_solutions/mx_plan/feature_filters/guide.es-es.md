@@ -4,10 +4,6 @@ excerpt: 'Cómo crear y configurar un filtro en una dirección de correo electr�
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Un filtro de correo permite aplicar diferentes tratamientos a los mensajes que reciba, según los criterios que usted decida.

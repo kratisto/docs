@@ -4,10 +4,6 @@ excerpt: Questa guida ti mostra come configurare un dominio sulla piattaforma di
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Quando aggiungi un dominio sulla tua piattaforma di posta, potrebbe esserti richiesta la configurazione di un record CNAME nella zona DNS. con lo scopo di garantire che il dominio in questione sia legittimo per essere utilizzato sulla piattaforma email.

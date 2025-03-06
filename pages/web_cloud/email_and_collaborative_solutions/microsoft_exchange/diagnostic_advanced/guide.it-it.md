@@ -4,10 +4,6 @@ excerpt: Come eseguire la diagnostica automatizzata degli errori sugli account E
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli errori sugli account email Exchange possono avere diverse cause. Una diagnostica automatica delle funzionalità dell'account permette di ridurre questo numero di cause. I risultati di questi test saranno utili anche in caso di richiesta di assistenza relativa al tuo servizio Exchange.

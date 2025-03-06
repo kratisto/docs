@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie Ihr MX Plan Angebot verwenden'
 updated: 2023-11-15
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit der MX Plan Lösung verfügen Sie über E-Mail-Adressen, mit denen Sie Nachrichten von einem Gerät Ihrer Wahl aus versenden und empfangen können.

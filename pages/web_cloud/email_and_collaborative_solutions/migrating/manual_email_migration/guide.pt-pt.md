@@ -4,10 +4,6 @@ excerpt: Saiba como migrar manualmente um endereço de e-mail para outro endere�
 updated: 2021-01-05
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 [A migração automática](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm) de um endereço de e-mail é possível através da nossa ferramenta [OVH Mail Migrator](https://omm.ovh.net/). Também pode migrar manualmente o seu endereço de e-mail através dos softwares de e-mail.
