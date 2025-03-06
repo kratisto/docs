@@ -33,7 +33,7 @@ La delega offre all'utente di un account email la possibilità di gestire autono
 
 > [!primary]
 >
->La creazione di una delega su un account email lo mostra nello [Spazio Cliente](/links/manager) interessato. Tuttavia, in questa situazione saranno possibili solo le modifiche indicate nella sezione [Obiettivo](#objective) della guida.
+> La creazione di una delega su un account email lo mostra nello [Spazio Cliente](/links/manager) interessato. Tuttavia, in questa situazione saranno possibili solo le modifiche indicate nella sezione [Obiettivo](#objective) della guida.
 >
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).

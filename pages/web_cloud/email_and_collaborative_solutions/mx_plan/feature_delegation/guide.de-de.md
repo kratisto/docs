@@ -33,7 +33,7 @@ Die Delegation gibt dem Benutzer eines E-Mail-Accounts die Möglichkeit, verschi
 
 > [!primary]
 >
->Die Einrichtung einer Delegation für einen E-Mail-Account führt dazu, dass er im betreffenden [Kundencenter](/links/manager) angezeigt wird. Für den delegierten Account sind jedoch nur die im Abschnitt [Ziel](#objective) dieser Anleitung aufgeführten Änderungen möglich.
+> Die Einrichtung einer Delegation für einen E-Mail-Account führt dazu, dass er im betreffenden [Kundencenter](/links/manager) angezeigt wird. Für den delegierten Account sind jedoch nur die im Abschnitt [Ziel](#objective) dieser Anleitung aufgeführten Änderungen möglich.
 >
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.

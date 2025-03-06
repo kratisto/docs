@@ -34,7 +34,7 @@ Delegacja uprawnień daje użytkownikowi konta e-mail możliwość samodzielnego
 
 > [!primary]
 >
->Delegacja na koncie e-mail wyświetla się w [odpowiednim panelu klienta](/links/manager). W tej sytuacji możliwe będą jedynie zmiany wskazane w sekcji [Cel](#objective) niniejszego przewodnika.
+> Delegacja na koncie e-mail wyświetla się w [odpowiednim panelu klienta](/links/manager). W tej sytuacji możliwe będą jedynie zmiany wskazane w sekcji [Cel](#objective) niniejszego przewodnika.
 >
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
