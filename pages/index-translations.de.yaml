@@ -316,6 +316,7 @@ storage-backup-and-disaster-recovery-solution-kubernetes-data-protection: Manage
 storage-backup-and-disaster-recovery-solution-agent-backup-for-iaas: Agent Backup for IaaS
 network-byoip: Bring your own IP (BYOIP)
 network-additional-ip: Additional IP
+network-bgp: BGP Service
 network-security: Netzwerk und Sicherheit
 network-ovhcloud-connect: OVHcloud Connect
 network-ovhcloud-connect-concepts: Konzepte
