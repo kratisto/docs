@@ -23,12 +23,10 @@ details[open]>summary::before {
 **Découvrez comment optimiser vos coûts de stockage avec les règles lifecycle d'OVHcloud.**
 
 > [!warning]
->
-> Actuellement, la feature est en bêta.
 > 
 > La mise en place de la fonctionnalité se fera en 2 phases :
 >
-> - Phase 1 : publication de l'expiration uniquement
+> - Phase 1 : prise en charge de l'expiration uniquement
 > - Phase 2 : prise en charge des transitions
 
 ## Introduction
@@ -58,7 +56,7 @@ Lorsqu'un objet atteint la fin de sa durée de vie selon la configuration de son
 - **versionné** : un marqueur de suppression est créé et devient la version courante. Vous pouvez également choisir le nombre d'anciennes versions que vous souhaitez conserver. Si la version courante de l'objet est la seule version de l'objet et qu'il s'agit également d'un marqueur de suppression, ce dernier sera supprimé.
 - **versioning suspendu** : actuellement, nous ne permettons pas la suspension du versioning si vous avez une configuration de lifecycle en vigueur. De la même manière, nous ne permettons pas le téléchargement d'une configuration de lifecycle si le versioning est suspendu sur le bucket.
 
-## Expiration
+## Expiration (disponible)
 
 Les règles de lifecycle sont traitées de manière asynchrone et dans la mesure du possible. La plupart des règles sont appliquées dans les 24 heures, mais cela peut prendre plus de temps dans le cas d'un très grand nombre d'objets ou lors du traitement de nombreux objets. Pendant ce délai, vous continuez à être facturé pour le niveau de stockage actuel de l'objet, même si la règle (par exemple, l'expiration ou la transition) a déjà été déclenchée mais n'est pas encore terminée. Par exemple, si un objet doit être supprimé le 30e jour, mais qu'il n'est traité que le 32e jour, vous pouvez être facturé pour deux jours supplémentaires.
 
@@ -348,7 +346,7 @@ Dans un bucket versionné, la configuration suivante effectue ces actions :
 
 ///
 
-## Transition
+## Transition (à venir)
 
 ### Transitions supportées
 
