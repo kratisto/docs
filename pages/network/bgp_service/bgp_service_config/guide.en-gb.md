@@ -1,90 +1,99 @@
 ---
 title: BGP Service Configuration
-excerpt: By using BGP Service, you gain full control over your routing policies and network resilience. Follow this guide to set up and optimize your BGP sessions.
-updated: 2025-03-05
+excerpt: By using BGP Service, you gain full control over your routing policies and network resilience. Follow this guide to set up and optimize your BGP sessions
+updated: 2025-03-06
 ---
 
-# Introduction
+## Objective
 
-BGP Service allows you to build highly available infrastructures by running standard BGP (Border Gateway Protocol) straight from your OVHcloud hosts. It can be used with OVHcloud Additional IP or with your own IP addresses, by using BYOIP.
+BGP Service allows you to build highly available infrastructures by running standard BGP (Border Gateway Protocol) straight from your OVHcloud hosts. It can be used with OVHcloud Additional IP or with your own IP addresses, by using Bring Your Own IP (BYOIP).
 
-# Requirements
+## Requirements
 
-- At least one Bare Metal [dedicated server](/links/bare-metal/bare-metal) from the following range : High Grade, Scale, Advance Gen3. All servers that will participate in the BGP peering must be in the same 1-AZ Region.
+- At least one Bare Metal [dedicated server](/links/bare-metal/bare-metal) from the following ranges: High Grade, Scale, Advance Gen3. All servers that will participate in the BGP peering must be in the same 1-AZ Region.
 - Access to the [OVHcloud Control Panel](/links/manager)
-- If you use [Bring Your Own IP (BYOIP)](/links/network/byoip) : IP prefixes that you own and can announce
+- If you use [Bring Your Own IP (BYOIP)](/links/network/byoip): IP prefixes that you own and can announce
 - A [vRack private network](/links/network/vrack)
 - Knowledge in IP networks and BGP routing protocol
 - Knowledge in Linux networking
 
-# Instructions
+## Instructions
 
-## Step 1: Join the Alpha
+### Step 1: Join the Alpha
 
-First, you need to request to join the alpha on the following [page](labs.ovh.com). After we receive your application, we will contact you via email.
+First, you need to request to join the alpha on the following [page](https://labs.ovhcloud.com/en/). After we receive your application, we will contact you by email.
 
+> [!primary]
 >
->Important : BGP Service is currently in alpha. This product is not intended to be used in a production environment.
+> **Important**: BGP Service is currently in alpha phase. This product is not intended to be used in a production environment.
 >
 
-## Step 2: Prepare your IP addresses
+### Step 2: Prepare your IP addresses
 
-You need to either buy Additional IP from OVHcloud or use your own IPs with BYOIP.
+You need to either buy [Additional IP](/links/network/additional-ip) from OVHcloud or use your own IPs with BYOIP.
 
-If you buy Additional IPs from us, you **MUST NOT** associate them to any service (e.g. Bare Metal).
+> [!warning]
+>
+> If you buy Additional IPs from us, you **MUST NOT** associate them to any service (e.g. Bare Metal).
 
 If you need to import your IPs, you need to use our BYOIP service. Please follow [this documentation](/pages/network/bring_your_own_ip/bring-your-own-IP/) to import your IPs to OVHcloud.
 
-## Step 3: Configure your vRack
+### Step 3: Configure your vRack
 
 You need to have created a vRack, which is the private network where the peering between your servers and the BGP service will take place.
 
 The vRack must contain the servers that will participate in the BGP peering.
 
+> [!warning]
 >
->Important : the vRack must contain only servers in one given AZ of a region. As during the alpha period, the BGP service is only available on 1-AZ regions, this simply means that the vRack must contain only servers in one given region.
+> **Important**: the vRack must contain only servers in one given AZ of a region. As during the alpha period, the BGP service is only available on 1-AZ regions, this simply means that the vRack must contain only servers in one given region.
 >
 
-## Step 4: Provide configuration parameters of your BGP Service
+### Step 4: Provide configuration parameters of your BGP Service
 
-You need to provide us the following parameters so that we can configure the BGP service on the OVHcloud side :
+You need to provide us with the following parameters so that we can configure the BGP service on the OVHcloud side:
 
 | Parameter	| Value (example) | Description | Comment |
 | :--- | :--- | :--- | :--- |
 | Location	| RBX | The location on which to deliver the service | |
 | vRack ID | 937 | vRack ID on which the BGP sessions will run | |
 | BYOIP | Y | IP block coming from the customer	| |
-| IP block | 198.51.100.0/24 | The IP block to be announced | <br> Allowed range size : <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported range (/19 to /24) <br>&bull; IPv6 (/56) |
-| Private Subnet | 10.0.0.0 | Reserved subnet for BGP peer IPs <br> 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers. Netmask should be /28 |  |
-| Peering IP 1 | 10.0.0.1 | Customer IP should be explicitly specified by customer (for OVH-side monitoring) | |
-| Peering IP 2 | 10.0.0.2 | Customer IP should be explicitly specified by customer (for OVH-side monitoring) | |
-| Peering IP 3 | 10.0.0.3 | Customer IP should be explicitly specified by customer (for OVH-side monitoring) | |
-| Peering IP 4 | 10.0.0.4 | Customer IP should be explicitly specified by customer (for OVH-side monitoring) | |
+| IP block | 198.51.100.0/24 | The IP block to be announced | Allowed range size: <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported range (/19 to /24) <br>&bull; IPv6 (/56) |
+| Private Subnet | 10.0.0.0 | Reserved subnet for BGP peer IPs <br> The 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers. Netmask should be /28 |  |
+| Peering IP 1 | 10.0.0.1 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
+| Peering IP 2 | 10.0.0.2 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
+| Peering IP 3 | 10.0.0.3 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
+| Peering IP 4 | 10.0.0.4 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
 
-## Step 5: BGP Service delivery
+### Step 5: BGP Service delivery
 
-We will then contact you back to notify you that the service is ready to use, and give you the following parameters that are needed on your side :
+We will then contact you back to notify you that the service is ready to use, and give you the following parameters that are needed on your side:
 
-&bull; OVHcloud Edges IPs (4 IPs) <br>&bull; Customer AS and OVH AS to use for the BGP peering sessions
-<br>&bull; BFD parameters
+- OVHcloud Edges IPs (4 IPs)
+- Customer AS and OVHcloud AS to use for the BGP peering sessions
+- BFD parameters
 
-Important : during the alpha, we cannot commit on a specific delivery time. Delivery can take up to several weeks.
+> [!primary]
+>
+> **Important**: during the alpha phase, we cannot commit on a specific delivery time. Delivery can take up to several weeks.
 
-## Step 6: Customer-side setup
+### Step 6: Customer-side setup
 
 You now are able to setup the BGP sessions on your side. Below is a guide that walks you through a typical setup for simple load balancing using BGP ECMP.
 
-Important : OVHcloud is not responsible for the configuration of the BGP daemaon on the customer's hosts. It is the responsability of the customer to configure the BGP daemon on his hosts. We provide example configurations for your consideration.
+> [!primary]
+>
+> **Important**: OVHcloud is not responsible for the configuration of the BGP daemaon on the customer's hosts. It is the responsability of the customer to configure the BGP daemon on his hosts. We provide example configurations for your consideration.
 
-# Use case : Basic BGP Configuration - Load Balancing using BGP ECMP
+## Use case: Basic BGP Configuration - Load Balancing using BGP ECMP
 
-Here is a simple architecture that allows you to perform load balancing of your traffic on 3 hosts :
+Here is a simple architecture that allows you to perform load balancing of your traffic on 3 hosts:
 
-![BGPaaS Basic Architecture](images/bgpaas_basic-peering.png)
+![BGPaaS Basic Architecture](images/bgpaas_basic-peering.png){.thumbnail}
 
 To achieve this setup, you need to install a BGP daemon, like FRR, on each host, and configure it.
 
-## Configuration parameters
+### Configuration parameters
 
 The following parameters are to be substituted in your router configuration files with those agreed on with OVHcloud during the configuration and delivery steps.
 
@@ -97,11 +106,11 @@ The following parameters are to be substituted in your router configuration file
 | **EDGE_IPV4 <br> EDGE_IPV6** | OVHcloud Edges IP addresses in private/ULA range used for BGP peering and connectivity inside the customer vRack. |
 | **HOST_IPV4 <br> HOST_IPV6** | Other Customer Hosts IP addresses in private/ULA range used as BGP Next Hop and peer inside the vRack |
 
-## Configuring a BGP Daemon (FRR)
+### Configuring a BGP Daemon (FRR)
 
-To configure the BGP sessions using FRR, follow these steps :
+To configure the BGP sessions using FRR, follow these next steps.
 
-## Step 1: Install FRR
+#### Step 1: Install FRR
 
 On a Debian-based system, install FRR with:
 
@@ -109,20 +118,24 @@ On a Debian-based system, install FRR with:
 sudo apt update && sudo apt install frr frr-pythontools
 ```
 
-## Step 2: Configure FRR
+#### Step 2: Configure FRR
 
-***All of the following parameters should be present in the /etc/frr/frr.conf configuration file of the hosts.***
+> [!primary]
+>
+> All of the following parameters should be present in the `/etc/frr/frr.conf` configuration file of the hosts.
 
-#### Prefix list and Route Map Configuration
+##### Prefix list and Route Map Configuration
 
-***The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.***
+> [!primary]
+>
+> The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.
 
-In the following example :
-- Hosts only accept default routes from OVHcloud Edges;
+In the following example:
+
+- Hosts only accept default routes from OVHcloud Edges.
 - Hosts advertise customer's prefixes to OVHcloud Edges.
 
-
-Related prefix lists and route maps to filter routes :
+Related prefix lists and route maps to filter routes:
 
 ```bash
 ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
@@ -147,9 +160,11 @@ route-map RM_EDGE_V6_IN permit 10
   match ipv6 address prefix-list PL_DEFAULT_ROUTE_V6
 ```
 
-#### BFD Configuration
+##### BFD Configuration
 
-***The configuration below is a suggested setup to improve BGP convergence time between Host and Edges over vRack.***
+> [!primary]
+>
+> The configuration below is a suggested setup to improve BGP convergence time between Host and Edges over vRack.
 
 ```bash
 bfd
@@ -168,7 +183,7 @@ bfd
 ...
 ```
 
-#### BGP Configuration
+##### BGP Configuration
 
 Global configuration:
 
@@ -205,7 +220,7 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_EDGE_V6 route-map RM_EDGE_V6_OUT out
 ```
 
-## Step 3: Restart FRR
+#### Step 3: Restart FRR
 
 After editing the configuration, restart FRR to apply changes:
 
@@ -213,7 +228,7 @@ After editing the configuration, restart FRR to apply changes:
 sudo systemctl restart frr
 ```
 
-## Step 4: Verify BGP Session
+#### Step 4: Verify BGP Session
 
 Check the status of your BGP session with:
 
@@ -221,11 +236,12 @@ Check the status of your BGP session with:
 show protocols all
 ```
 
-## Step 5: Verify Ingress and Egress Connectivity
+#### Step 5: Verify Ingress and Egress Connectivity
 
 To ensure your BGP session is functioning correctly, test both inbound and outbound traffic:
 
-**Check Ingress Traffic (Incoming)**
+- **Check Ingress Traffic (Incoming)**
+
 Use a remote server to ping or traceroute to your advertised IP prefix:
 
 ```bash
@@ -235,7 +251,7 @@ traceroute YOUR_ADVERTISED_IP
 
 Verify that traffic reaches your network via the expected BGP paths.
 
-**Check Egress Traffic (Outgoing)**
+- **Check Egress Traffic (Outgoing)**
 
 From your server, check the routing table and ensure your BGP routes are in use:
 
@@ -246,44 +262,45 @@ vtysh -c 'show ip route bgp'
 
 Confirm that outbound traffic is following the correct BGP paths.
 
-## Step 6: Verify connectivity with OVHcloud team
+#### Step 6: Verify connectivity with the OVHcloud team
 
 When your setup is done and after conducting basic tests, you should notify us via email at this address: <bgp_alpha@ovh.net>.
 
 We'll make sure the BGP connectivity and IP announcements are OK from our side.
 
-
-# Use Case: Advanced BGP configuration using Route Servers (RS)
+## Use Case: Advanced BGP configuration using Route Servers (RS)
 
 If you want to use more than 4 hosts with BGP Service, you need to deploy and manage a Route Server (RS). The RS must deployed on a dedicated host.
 An RS peers with Edges and Hosts, establishing two sessions per peer (one for IPv4 and one for IPv6).
 
 Here is an overview of the system:
-![BGPaaS RS Peering](images/bgpaas_rs-peering.png)
+
+![BGPaaS RS Peering](images/bgpaas_rs-peering.png){.thumbnail}
 
 And here is a detailed view of the BGP sessions between Edges, RS and Hosts:
-![BGPaaS sessions detail](images/shadow_bgpaas_rs-peering.png)
+
+![BGPaaS sessions detail](images/shadow_bgpaas_rs-peering.png){.thumbnail}
 
 To achieve this setup, you need to install a BGP daemon, like FRR, on each host, and configure it.
 
-## Configuration parameters
+### Configuration parameters
 
 The following parameters are to be substituted in your router configuration files with those agreed on with OVHcloud during the configuration and delivery steps.
 
 | Parameter | Description |
 | :--- | :--- |
 | **OVHcloud_ASN** | Private ASN used on OVHcloud Edges |
-| **CUSTOMER_ASN** | Private ASN given by OVHcloud. |
+| **CUSTOMER_ASN** | Private ASN given by OVHcloud |
 | **CUSTOMER_PREFIX_V4 <br> CUSTOMER_PREFIX_V6** | Public prefixes allocated for IPv4 and IPv6 usages |
-| **RS_IPV4 <br> RS_IPV6** | Customer RS IP addresses in private/ULA range used for BGP peering and connectivity inside the vRack. |
-| **EDGE_IPV4 <br> EDGE_IPV6** | OVHcloud Edges IP addresses in private/ULA range used for BGP peering and connectivity inside the customer vRack. |
+| **RS_IPV4 <br> RS_IPV6** | Customer RS IP addresses in private/ULA range used for BGP peering and connectivity inside the vRack |
+| **EDGE_IPV4 <br> EDGE_IPV6** | OVHcloud Edges IP addresses in private/ULA range used for BGP peering and connectivity inside the customer vRack |
 | **HOST_IPV4 <br> HOST_IPV6** | Other Customer Hosts IP addresses in private/ULA range used as BGP Next Hop and peer inside the vRack |
 
-## Configuring a BGP Daemon (FRR)
+### Configuring a BGP Daemon (FRR)
 
-To configure the BGP sessions using FRR, follow these steps :
+To configure the BGP sessions using FRR, follow the steps below.
 
-## Step 1: Install FRR
+#### Step 1: Install FRR
 
 On a Debian-based system, install FRR with:
 
@@ -291,20 +308,24 @@ On a Debian-based system, install FRR with:
 sudo apt update && sudo apt install frr frr-pythontools
 ```
 
-## Step 2: Configure FRR
+#### Step 2: Configure FRR
 
-### FRR configuration for Route Servers
+##### FRR configuration for Route Servers
 
-***All of the following parameters should be present in the /etc/frr/frr.conf configuration file of the route server(s).***
+> [!primary]
+>
+> All of the following parameters should be present in the `/etc/frr/frr.conf` configuration file of the route server(s).
 
-#### Prefix list and Route Map Configuration
+###### **Prefix list and Route Map Configuration**
 
-***The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.***
+> [!primary]
+>
+> The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.
 
 Route Servers accept default routes from LBEdges and all routes from Hosts if they match the defined prefix length (cf. OVHcloud rules for IPv4 and IPv6 prefix length).
 Route Servers advertise Hosts routes to LBEdges and Default routes to Hosts.
 
-Related prefix lists and route maps to filter routes :
+Related prefix lists and route maps to filter routes:
 
 ```bash
 ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
@@ -352,9 +373,11 @@ route-map RM_HOST_V6_OUT permit 10
  match ipv6 address prefix-list PL_DEFAULT_ROUTE_V6
 ```
 
-#### BFD Configuration
+##### BFD Configuration
 
-***The configuration below is a suggested setup to improve BGP convergence time between RS and edges over vRack.***
+> [!primary]
+>
+> The configuration below is a suggested setup to improve BGP convergence time between RS and edges over vRack.
 
 ```bash
 bfd
@@ -371,7 +394,7 @@ bfd
   no shutdown
  ```
 
-#### BGP Configuration
+##### BGP Configuration
 
 Global configuration:
 
@@ -431,19 +454,24 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_HOST_V6 route-map RM_HOST_V6_OUT out
 ```
 
-### FRR configuration for Hosts
+##### FRR configuration for Hosts
 
-***All of the following parameters should be present in the /etc/frr/frr.conf configuration file of the hosts.***
+> [!primary]
+>
+> All of the following parameters should be present in the `/etc/frr/frr.conf` configuration file of the hosts.
 
-#### Prefix list and Route Map Configuration
+###### **Prefix list and Route Map Configuration**
 
-***The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.***
+> [!primary]
+>
+> The configuration below is a suggested setup to prevent any unexpected announcement between BGP peers.
 
-In the following example :
-- Hosts only accept default routes from RS;
+In the following example:
+
+- Hosts only accept default routes from RS.
 - Hosts only advertise customer's prefixes to RS.
 
-Related prefix lists and route maps to filter routes :
+Related prefix lists and route maps to filter routes:
 
 ```bash
 ip prefix-list PL_DEFAULT_ROUTE_V4 seq 10 permit 0.0.0.0/0
@@ -468,9 +496,11 @@ route-map RM_RS_V6_IN permit 10
   match ipv6 address prefix-list PL_DEFAULT_ROUTE_V6
 ```
 
-#### BFD Configuration
+##### BFD Configuration
 
-***The configuration below is a suggested setup to improve BGP convergence time between RS and edges over vRack.***
+> [!primary]
+>
+> The configuration below is a suggested setup to improve BGP convergence time between RS and edges over vRack.
 
 The values below are just an example, and you may choose other values for your RS and Hosts.
 
@@ -491,7 +521,7 @@ bfd
 ...
 ```
 
-#### BGP Configuration
+##### BGP Configuration
 
 Global configuration:
 
@@ -528,27 +558,28 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_RS_V6 route-map RM_RS_V6_OUT out
 ```
 
-## Step 3: Restart FRR
+#### Step 3: Restart FRR
 
-On each hosts / RS, after editing the configuration, restart FRR to apply changes:
+On each host/RS, after editing the configuration, restart FRR to apply changes:
 
 ```bash
 sudo systemctl restart frr
 ```
 
-## Step 4: Verify BGP Session
+#### Step 4: Verify BGP Session
 
-Check the status of your BGP sessions on your differents hosts / RS with:
+Check the status of your BGP sessions on your differents hosts/RS with:
 
 ```bash
 show protocols all
 ```
 
-## Step 5: Verify Ingress and Egress Connectivity
+#### Step 5: Verify Ingress and Egress Connectivity
 
 To ensure your BGP session is functioning correctly, test both inbound and outbound traffic:
 
-**Check Ingress Traffic (Incoming)**
+- **Check Ingress Traffic (Incoming)**
+
 Use a remote server to ping or traceroute to your advertised IP prefix:
 
 ```bash
@@ -558,7 +589,7 @@ traceroute YOUR_ADVERTISED_IP
 
 Verify that traffic reaches your network via the expected BGP paths.
 
-**Check Egress Traffic (Outgoing)**
+- **Check Egress Traffic (Outgoing)**
 
 From your server, check the routing table and ensure your BGP routes are in use:
 
@@ -569,19 +600,21 @@ vtysh -c 'show ip route bgp'
 
 Confirm that outbound traffic is following the correct BGP paths.
 
-## Step 6: Verify connectivity with OVHcloud team
+#### Step 6: Verify connectivity with the OVHcloud team
 
 When your setup is done and after conducting basic tests, you should notify us via email at this address: <bgp_alpha@ovh.net>.
 
 We'll make sure the BGP connectivity and IP announcements are OK from our side.
 
-# Limitations
+## Limitations
 
 The number of peers on OVHcloud side is limited to 4. If you need more than 4 peers, you will need to install a route server on your infrastructure in order to redistribute routes to your hosts.
 
-&bull; **BGP sessions :** 4 BGP sessions per client (4 IPv4 + 4 IPv6) <br>&bull; **Prefixes :** up to 32 IPv4 prefixes and 32 IPv6 prefixes per client <br>&bull; **Hosts :** 10 hosts per client
+- **BGP sessions:** 4 BGP sessions per client (4 IPv4 + 4 IPv6)
+- **Prefixes:** up to 32 IPv4 prefixes and 32 IPv6 prefixes per client
+-  **Hosts:** 10 hosts per client
 
-# Available Regions
+## Available Regions
 
 The product is available in the following regions:
 
@@ -600,12 +633,15 @@ The product is available in the following regions:
 | Asia-Pacific (Australia - Sydney) | ap-southeast-syd | 1-AZ |
 | Asia-Pacific (India - Mumbai) | ap-south-mum | 1-AZ |
 
-# Troubleshooting
+## Troubleshooting
 
 If you encounter issues with your BGP session:
 
-&bull; Verify that your ASN and IP prefixes are correctly configured. <br>&bull; Check for any conflicting announcements. <br>&bull; Ensure your firewall and network policies allow BGP traffic. <br>&bull; Contact our team for further assistance via email : <bgp_alpha@ovh.net>
+- Verify that your ASN and IP prefixes are correctly configured.
+- Check for any conflicting announcements.
+- Ensure your firewall and network policies allow BGP traffic.
+- Contact our team for further assistance by email: <bgp_alpha@ovh.net>
 
-# Go further
+## Go further
 
-Join our [community of users](/links/community)
+Join our [community of users](/links/community).
