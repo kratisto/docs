@@ -1,5 +1,5 @@
 ---
-title: 'Migrating an MX Plan email address to an OVHcloud Zimbra account'
+title: 'How to migrate an MX Plan email address to an OVHcloud Zimbra account'
 excerpt: 'Find out how to migrate an MX Plan email address to an OVHcloud Zimbra account'
 updated: 2025-03-05
 ---
@@ -8,14 +8,14 @@ updated: 2025-03-05
 
 As part of the gradual transition from MX Plan accounts to Zimbra, you can anticipate this migration and carry out the email account transfer yourself before OVHcloud implements an automated tool. This guide will show you how to migrate manually.
 
-**Find out how to migrate an MX Plan email address to an OVHcloud Zimbra account.**
+**This guide explains how to migrate an MX Plan email address to an OVHcloud Zimbra account.**
 
 ## Requirements
 
-- You must have an MX Plan email address (via the MX Plan solution, or included in an [OVHcloud Web Hosting](/links/web/hosting) solution).
-- An OVHcloud Zimbra email account.
-- **Do not set redirection on the MX Plan email address you want to migrate**.
-- You must be logged in to your [OVHcloud Control Panel](/links/manager).
+- You have an MX Plan email address (via the MX Plan solution, or included in an [OVHcloud web hosting](/links/web/hosting)).
+- You have an OVHcloud Zimbra email account.
+- **No redirection is applied to the MX Plan email address you want to migrate**.
+- You have access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions
 
@@ -41,7 +41,7 @@ In the example below, we are migrating the address `contact@mydomain.ovh`. To do
 
 > [!primary]
 >
-> If you already have an Zimbra email address, go to [Migrate emails with OVH Mail Migrator](#step12).
+> If you already have a Zimbra email address, go to [Migrate emails with OVH Mail Migrator](#step12).
 
 First, create an email address with a temporary name. For example, you can create the address `contact2@mydomain.ovh`{.action} if you need to migrate the address `contact@mydomain.ovh`{.action}.
 
@@ -68,7 +68,7 @@ On the <https://omm.ovh.net/> page, in the `Migration`{.action} tab, click `New 
 |Source login|Enter the full email address (`contact@mydomain.ovh`).|
 |Destination login|Enter the full email address (`contact2@mydomain.ovh`).|
 |Administrator account with delegation|This field appears only with certain server types.|
-|Password|Enter the password for the email address concerned.|
+|Password|Enter the password for the email account concerned.|
 
 - **Options**: Select the elements you want to migrate. Some content may be unavailable, depending on the server type you have chosen.
 
@@ -93,7 +93,7 @@ There are two ways to track a single migration:
 
 On the page that opens, you can track the progress of your migration. You will see a message indicating whether the process will begin, is in progress, or has been completed. Depending on this status, there are several possible interactions:
 
-- `Stop the process`{.action}: allows you to cancel the migration. Items that have already been migrated will remain in the destination account.
+- `Stop the process`{.action}: Allows you to cancel the migration. Items that have already been migrated will remain in the destination account.
 -`Delete migrated elements`{.action}: Enables you to delete elements that have already been migrated to the destination account. You can clear items from a specific synchronization point.
 - `Synchronize`{.action}: Used to retrieve new elements that were not migrated during a previous synchronization between the source account and the destination account. We consider this action as a migration of the missing elements on the destination account from the source account.
 
@@ -109,7 +109,7 @@ To migrate by file or multiple files, please read the “Migrate by file” and 
 >
 > Before deleting your MX Plan account, **back up your emails** to avoid any data loss.
 
-Use the export options of your email client. In our guide on [Migrating your email address manually](/pages/web_cloud/email_and_collaborative_solutions/migrating/manual_email_migration), you can find the details for manually exporting an email address from an email client.
+Use the export options of your email client. In our guide on [Migrating your email address manually](/pages/web_cloud/email_and_collaborative_solutions/migrating/manual_email_migration), you can find the details for manually exporting an email account from an email client.
 
 ### 2.1 - Deleting the old MX Plan email address <a name="step21"></a>
 
