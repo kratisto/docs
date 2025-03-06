@@ -18,12 +18,11 @@ details[open]>summary::before {
 }
 </style>
 
-
 ## Objective
 
 This guide is designed to familiarise you with the management of your containers/objects.
 
-**Learn how to create an Object Storage bucket and manage this.**
+**Learn how to create an Object Storage bucket and manage it.**
 
 > [!primary]
 >
@@ -43,30 +42,33 @@ This guide is designed to familiarise you with the management of your containers
 
 /// details | To use the AWS CLI
 
-Enter this command command depending on the method chosen:
+> [!warning]
+>
+> AWS CLI and SDK compatibility warning
+>
+> Recently, Amazon Web Services (AWS) implemented a change that strengthens checksums when using the S3 API. These new integrity checks are currently being integrated into our platform. The following headers are not supported:
+>
+> - x-amz-content-sha256 with value STREAMING-UNSIGNED-PAYLOAD-TRAILER
+> - x-amz-sdk-checksum-algorithm with value CRC32
+>
+> Until our Object Storage service is updated, we recommend that you use the maximum supported versions of the CLI, SDK and other AWS tools below:
+>
+> - boto3 1.35.99
+> - legacy aws cli 1.36.40
+> - aws cli 2.22.35
+> - aws-sdk-go 1.72.3
+> - aws-sdk-java 2.29.52
+> - aws-sdk-js-v3 3.726.1
+> - aws-sdk-net 3.7.962.0
+> - aws-sdk-php 3.336.15
+> - aws-sdk-ruby 1.177.0
+>
+> Find out more [here].(https://docs.aws.amazon.com/fr_fr/sdkref/latest/guide/feature-dataintegrity.html)
+>
+> Follow-up update at OVHcloud, [here].(https://public-cloud.status-ovhcloud.com/incidents/491vx956zx6b)
+> 
 
-> [!tabs]
-> **Linux x86 (64-bit)**
->>
->> ```bash
->> user@host:~$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
->> unzip awscliv2.zip
->> sudo ./aws/install
->> ```
->>
-> **Linux ARM**
->>
->> ```bash
->> user@host:~$ curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
->> unzip awscliv2.zip
->> sudo ./aws/install
->> ```
->>
-> **Snap package**
->>
->> ```bash 
->> user@host:~$ snap install aws-cli --classic
->> ```
+To find out how to install the AWS CLI in your environment, we recommend you consult [the official AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions).
 
 **Check installation**
 
@@ -149,9 +151,21 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 
 > [!tabs]
 > Via AWS CLI
+>> /// details | **Via AWS s3**
+>>
 >> ```bash
 >> aws s3 ls
 >> ```
+>>
+>> ///
+>>
+>> /// details | **Via AWS S3api**
+>>
+>> ```bash
+>> aws s3api list-buckets --query "Buckets[].Name" // retirez --query pour avoir plus d'info que le name.
+>> ```
+>>
+>> ///
 >>
 > Via OVHcloud Control Panel
 >> Click on `Object Storage`{.action} in the navigation bar on the left and then on the `My containers`{.action} tab.
@@ -162,10 +176,23 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 
 > [!tabs]
 > Via AWS CLI
+>> /// details | **Via AWS s3**
+>>
 >> ```bash
 >> aws s3 mb s3://<bucket_name>
 >> aws --profile default s3 mb s3://<bucket_name>
 >> ```
+>>
+>> ///
+>>
+>> /// details | **Via AWS S3api**
+>>
+>> ```bash
+>> aws s3api create-bucket --bucket <bucket_name>
+>> aws s3api create-bucket --bucket <bucket_name> --profile default
+>> ```
+>>
+>> ///
 >>
 > Via OVHcloud Control Panel
 >> Click `Create Object Container`{.action} and select your storage class:
@@ -253,9 +280,20 @@ High Performance Storage Class:
 > Via AWS CLI
 >> **To upload an object:**
 >>
+>> /// details | **Via AWS s3**
+>>
+>>
 >> ```bash
 >> aws s3 cp /datas/test1 s3://<bucket_name>
 >> ```
+>>
+>> **Par défaut, les objets sont nommés d'après des fichiers, mais ils peuvent être renommés**
+>>
+>> ```bash
+>> aws s3 cp /data/test1 s3://<bucket_name>/other-filename
+>> ```
+>>
+>> ///
 >>
 >> > [!primary]
 >> >
@@ -264,6 +302,8 @@ High Performance Storage Class:
 >> > To learn more about the storage class mapping between OVHcloud storage tiers and AWS storage classes, you can check our documentation [here](/pages/storage_and_backup/object_storage/s3_location).
 >> >
 >>
+>> /// details | **Via AWS s3api**
+>>
 >> ```bash
 >> # upload an object to High Performance tier
 >> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/test1 --storage-class EXPRESS_ONEZONE
@@ -271,6 +311,8 @@ High Performance Storage Class:
 >> # explicitly upload an object to Standard tier
 >> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/test1 --storage-class STANDARD
 >> ```
+>>
+>> ///
 >>
 >> **By default, objects are named after files, but can be renamed**
 >>
@@ -295,6 +337,8 @@ High Performance Storage Class:
 
 > [!tabs]
 > Via AWS CLI
+>> /// details | **Via AWS s3**
+>>
 >> **Downloading an object from a bucket**
 >>
 >> ```bash
@@ -313,6 +357,31 @@ High Performance Storage Class:
 >> aws s3 cp s3://<bucket_name> . --recursive
 >> aws s3 cp s3://<bucket_name> s3://<bucket_name_2> --recursive
 >> ```
+>>
+>> ///
+>>
+>> /// details | **Via AWS s3api**
+>>
+>> **Downloading an object from a bucket**
+>>
+>> ```bash
+>> aws s3api get-object --bucket <bucket_name> --key test1 test1
+>> ```
+>>
+>> **Uploading an object from one bucket to another bucket**
+>>
+>> ```bash
+>> aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/test1 --key test1
+>> ```
+>>
+>> **Downloading or uploading an entire bucket to the host/bucket**
+>>
+>> ```bash
+>> aws s3api list-objects --bucket <bucket_name> --query "Contents[].Key" --output text | xargs -I {} aws s3api get-object --bucket <bucket_name> --key "{}" "{}" // Télécharger un bucket entier
+>> aws s3api list-objects --bucket <bucket_name> --query "Contents[].Key" --output text | xargs -I {} aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/{} --key "{}" // Copier un bucket entier vers un autre bucket :
+>> ```
+>>
+>> ///
 >>
 > Via OVHcloud Control Panel
 >> Click on the `...`{.action} button on the object line and on `Download`{.action}.
@@ -355,11 +424,13 @@ High Performance Storage Class:
 >> Click on `Confirm`{.action}.
 >>
 > Via AWS CLI
+>> /// details | **Via AWS s3**
+>>
 >> **Deleting objects and buckets**
 >>
 >> ```bash
 >> # Delete an object
->> aws s3 rm s3://<bucket_name>/test1
+>> aws s3 rm s3://<bucket_name>/<object_name>
 >> # Removing all objects from a bucket
 >> aws s3 rm s3://<bucket_name> --recursive
 >> # Delete a storage area. To delete a bucket, it must be empty.
@@ -390,6 +461,33 @@ High Performance Storage Class:
 >> ```bash
 >> aws s3api delete-objects --bucket <NAME> --delete "$(aws s3api list-object-versions --bucket <NAME> --query='{Objects: Versions[].{Key:Key,VersionId:VersionId}}')"
 >> ```
+>>
+>> ///
+>>
+>> /// details | **Via AWS s3api**
+>>
+>> **Deleting objects and buckets**
+>>
+>> ```bash
+>> # Delete an object
+>> aws s3api delete-object --bucket <bucket_name> --key <object_name>
+>> # Removing all objects from a bucket
+>> aws s3api delete-objects --bucket <bucket_name> --delete "$(aws s3api list-objects-v2 --bucket <bucket_name> --query='{Objects: Contents[].{Key:Key}}')"
+>> # Delete a bucket. To delete a bucket, it must be empty.
+>> aws s3api delete-bucket --bucket <bucket_name>
+>> ```
+>>
+>> **Deleting objects and buckets with versioning enabled**
+>>
+>> If versioning is enabled, a simple delete operation on your objects will not delete them permanently.
+>>
+>> To permanently delete an object, you need to specify a version identifier:
+>>
+>> ```bash
+>> aws s3api delete-objects --bucket <bucket_name> --delete "$(aws s3api list-object-versions --bucket <bucket_name> --query='{Objects: Versions[].{Key:Key,VersionId:VersionId}}')"
+>> ```
+>>
+>> ///
 >>
 >> > [!primary]
 >> >
