@@ -512,10 +512,12 @@ Dans ce scénario, les objets seront stockés dans le niveau haute performance p
       "ID": "123456",
       "Status": "Enabled",
       "Filter": {
-        "Prefix": "old/",
-        "Tag": {
-          "Key": "type",
-          "Value": "logs"
+        "And": {
+            "Prefix": "old/",
+            "Tag": {
+              "Key": "type",
+              "Value": "logs"
+            }
         }
       },
       "Expiration": {
@@ -550,10 +552,12 @@ Dans ce scénario, deux règles imposent à OVHcloud Object Storage d'effectuer 
       "ID": "123456",
       "Status": "Enabled",
       "Filter": {
-        "Prefix": "old/",
-        "Tag": {
-          "Key": "type",
-          "Value": "logs"
+        "And":{
+            "Prefix": "old/",
+            "Tag": {
+              "Key": "type",
+              "Value": "logs"
+            }
         }
       },
       "Expiration": {
@@ -564,10 +568,12 @@ Dans ce scénario, deux règles imposent à OVHcloud Object Storage d'effectuer 
       "ID": "456789",
       "Status": "Enabled",
       "Filter": {
-        "Prefix": "old/",
-        "Tag": {
-          "Key": "type",
-          "Value": "logs"
+            "And":{
+            "Prefix": "old/",
+            "Tag": {
+              "Key": "type",
+              "Value": "logs"
+            }
         }
       },
       "Transitions": [
