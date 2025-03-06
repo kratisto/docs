@@ -26,8 +26,12 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/
 
 > [!primary]
 >
-> - Si vous êtes intéressé par la classe de stockage **Standard object storage - SWIFT API**, suivez ce [guide](/pages/storage_and_backup/object_storage/pcs_create_container)
-> Si vous êtes intéressé par la classe de stockage **Cloud Archive - SWIFT API**, suivez ce [guide](/pages/storage_and_backup/object_storage/pca_create_container).
+> Si vous utilisez l'ancien système de stockage d'objets SWIFT, alors :
+>
+> - pour la classe de stockage **Standard object storage - SWIFT API**, suivez ce [guide.](/pages/storage_and_backup/object_storage/pcs_create_container)
+> - pour la classe de stockage **Cloud Archive - SWIFT API**, suivez ce [guide.] (/pages/storage_and_backup/object_storage/pca_create_container)
+>
+> Pour les nouveaux projets, nous recommandons vivement d'utiliser notre stockage d'objets compatible S3, qui bénéficie de nos dernières innovations et de nos nouvelles fonctionnalités.
 >
 
 ## Prérequis
@@ -256,9 +260,9 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 
 #### Télécharger vos fichiers en tant qu'objets dans votre bocket
 
-/// details | Différences entre les types de stockages **Standard** and **High performance**
+/// details | Différences entre les types de stockages **Standard** and **High Performance**
 
-Classe de stockage standard :
+Classe de stockage Standard :
 
 - Conçue pour le stockage polyvalent avec un équilibre entre le coût et la performance.
 - Convient aux charges de travail avec une fréquence d'accès modérée.
@@ -282,13 +286,13 @@ Classe de stockage haute performance :
 >>
 >>
 >> ```bash
->> aws s3 cp /datas/test1 s3://<bucket_name>
+>> aws s3 cp /datas/<object_name> s3://<bucket_name>
 >> ```
 >>
 >> **Par défaut, les objets sont nommés d'après des fichiers, mais ils peuvent être renommés**
 >>
 >> ```bash
->> aws s3 cp /data/test1 s3://<bucket_name>/other-filename
+>> aws s3 cp /data/<object_name> s3://<bucket_name>/other-filename
 >> ```
 >>
 >> ///
@@ -296,7 +300,7 @@ Classe de stockage haute performance :
 >> > [!primary]
 >> >
 >> > La commande `aws s3 cp` utilisera STANDARD comme classe de stockage par défaut pour télécharger des objets.
->> > Pour stocker des objets dans le niveau de stockage High performance, utilisez la commande `aws s3api put-object` à la place, car `aws s3 cp` ne supporte pas la classe de stockage EXPRESS_ONEZONE qui est utilisée pour mapper le niveau de stockage High performance.
+>> > Pour stocker des objets dans le niveau de stockage High Performance, utilisez la commande `aws s3api put-object` à la place, car `aws s3 cp` ne supporte pas la classe de stockage EXPRESS_ONEZONE qui est utilisée pour mapper le niveau de stockage High Performance.
 >> > Pour en savoir plus sur le mappage des classes de stockage entre les niveaux de stockage OVHcloud et les classes de stockage AWS, vous pouvez consulter notre documentation [ici] (/pages/storage_and_backup/object_storage/s3_location).
 >> >
 >>
@@ -304,10 +308,10 @@ Classe de stockage haute performance :
 >>
 >> ```bash
 >> # télécharger un objet vers le niveau de stockage High Performance
->> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/test1 --storage-class EXPRESS_ONEZONE
+>> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/<object_name> --storage-class EXPRESS_ONEZONE
 >>
 >> # télécharger explicitement un objet vers le niveau de stockage Standard
->> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/test1 --storage-class STANDARD
+>> aws s3api put-object --bucket <bucket_name> --key <object_name> --body /data/<object_name> --storage-class STANDARD
 >> ```
 >>
 >> ///
@@ -321,7 +325,7 @@ Classe de stockage haute performance :
 >>
 >> ![Upload file](images/upload-file.png)
 >>
->> Vous pouvez ajouter un préfixe au nom de votre objet. ( le nom de l'objet est le même que le nom du fichier ) Sélectionnez la classe de stockage entre **Standard** et **High performance**. Enfin, sélectionnez le fichier que vous êtes sur le point de télécharger et cliquez sur le bouton `Importer`{.action}.
+>> Vous pouvez ajouter un préfixe au nom de votre objet. ( le nom de l'objet est le même que le nom du fichier ) Sélectionnez la classe de stockage entre **Standard** et **High Performance**. Enfin, sélectionnez le fichier que vous êtes sur le point de télécharger et cliquez sur le bouton `Importer`{.action}.
 >>
 >> ![upload file window](images/upload-file-window.png)
 
@@ -334,13 +338,13 @@ Classe de stockage haute performance :
 >> **Téléchargement d'un objet à partir d'un bucket**
 >>
 >> ```bash
->> aws s3 cp s3://<bucket_name>/test1 .
+>> aws s3 cp s3://<bucket_name>/<object_name> .
 >> ```
 >>
 >> **Téléchargement d'un objet d'un bucket vers un autre bucket**
 >>
 >> ```bash
->> aws s3 cp s3://<bucket_name>/test1 s3://<bucket_name_2
+>> aws s3 cp s3://<bucket_name>/<object_name> s3://<bucket_name_2
 >> ```
 >>
 >> **Télécharger ou uploader un bucket entier sur l'hôte/bucket**
@@ -357,20 +361,13 @@ Classe de stockage haute performance :
 >> **Téléchargement d'un objet à partir d'un bucket**
 >>
 >> ```bash
->> aws s3api get-object --bucket <bucket_name> --key test1 test1
+>> aws s3api get-object --bucket <bucket_name> --key <object_name> <object_name>
 >> ```
 >>
 >> **Téléchargement d'un objet d'un bucket vers un autre bucket**
 >>
 >> ```bash
->> aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/test1 --key test1
->> ```
->>
->> **Télécharger ou uploader un bucket entier sur l'hôte/bucket**
->>
->> ```bash
->> aws s3api list-objects --bucket <bucket_name> --query "Contents[].Key" --output text | xargs -I {} aws s3api get-object --bucket <bucket_name> --key "{}" "{}" // Télécharger un bucket entier
->> aws s3api list-objects --bucket <bucket_name> --query "Contents[].Key" --output text | xargs -I {} aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/{} --key "{}" // Copier un bucket entier vers un autre bucket :
+>> aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/<object_name> --key <object_name>
 >> ```
 >>
 >> ///
@@ -518,7 +515,7 @@ Classe de stockage haute performance :
 >> **Définir des tags sur un objet**
 >>
 >> ```bash
->> aws s3api put-object-tagging --bucket <bucket_name> --key test1 --tagging 'TagSet=[{Key=myKey,Value=myKeyValue}]'
+>> aws s3api put-object-tagging --bucket <bucket_name> --key <object_name> --tagging 'TagSet=[{Key=myKey,Value=myKeyValue}]'
 >> aws s3api get-bucket-tagging --bucket <bucket_name>
 >> ```
 >>
@@ -536,7 +533,7 @@ Classe de stockage haute performance :
 >> **Suppression de tags sur un object**
 >>
 >> ```bash
->> aws s3api s3api delete-object-tagging --bucket <bucket_name> --key test1
+>> aws s3api s3api delete-object-tagging --bucket <bucket_name> --key <object_name>
 >> ```
 
 ## Go further
