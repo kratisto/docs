@@ -40,11 +40,11 @@ La delegación ofrece al usuario de una cuenta de correo la posibilidad de gesti
 >La delegación en una cuenta de correo electrónico lo hace evidente en [el área de cliente](/links/manager). Sin embargo, en esta situación solo serán posibles los cambios indicados en la sección [Objetivo](#objective) de esta guía.
 >
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) en la sección `Web Cloud`.
-
-Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente.
-
-Para ver la lista de cuentas de correo de su solución MX Plan, haga clic en la pestaña `Correo electrónico`{.action}.
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Correo electrónico`{.action}.
+1. Seleccione el dominio.
+1. Para ver la lista de cuentas de correo de su solución MX Plan, haga clic en la pestaña `Correo electrónico`{.action}.
 
 ![Delegación de permisos](images/mxplan-delegation-01.png){.thumbnail}
 

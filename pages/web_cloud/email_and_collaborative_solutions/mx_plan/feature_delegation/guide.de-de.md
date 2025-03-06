@@ -40,9 +40,11 @@ Die Delegation gibt dem Benutzer eines E-Mail-Accounts die Möglichkeit, verschi
 >Die Einrichtung einer Delegation für einen E-Mail-Account führt dazu, dass er im betreffenden [Kundencenter](/links/manager) angezeigt wird. Für den delegierten Account sind jedoch nur die im Abschnitt [Ziel](#objective) dieser Anleitung aufgeführten Änderungen möglich.
 >
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wechseln Sie zum Bereich `Web Cloud`{.action}.
-
-Wählen Sie die Domain im Bereich `E-Mails`{.action} aus und gehen Sie auf den Tab `E-Mails`{.action}, um die Liste der E-Mail-Accounts Ihres MX Plan Angebots anzuzeigen.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `E-Mails`{.action}.
+1. Wählen Sie die betreffende Domain aus.
+1. Gehen Sie auf den Tab `E-Mails`{.action}, um die Liste der E-Mail-Accounts Ihres MX Plan Angebots anzuzeigen.
 
 ![Delegation](images/mxplan-delegation-01.png){.thumbnail}
 

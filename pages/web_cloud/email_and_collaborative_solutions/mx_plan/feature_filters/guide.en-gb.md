@@ -32,11 +32,11 @@ MX Plan legacy version|MX Plan new version|
 
 ## Instructions <a name="oldmxplan"></a>
 
-Log in to your [OVHcloud Control Panel](/links/manager) and select `Web Cloud`{.action}.
-
-Select the domain name from the `Emails`{.action} section. Switch to the tab `Emails`{.action}.
-
-In the table listing your email addresses, click on the `Filter`{.action} icon in the row of the email address concerned.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Emails`{.action}.
+1. Select the domain concerned.
+1. In the table listing your email addresses, click on the `Filter`{.action} icon in the row of the email address concerned.
 
 ![emails](images/img_3239.png){.thumbnail}
 

@@ -19,7 +19,11 @@ La solución de alojamiento web permite disfrutar de direcciones de correo elect
 
 Una vez que el MX Plan haya sido creado y esté disponible, puede administrarlo desde el [área de cliente de OVHcloud](/links/manager). En función de cuándo haya activado su MX Plan o de si el servicio ha sido migrado recientemente, tendrá una versión diferente. Antes de continuar, compruebe de qué versión dispone. 
 
-Para ello, conéctese al [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}. Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente. Siga leyendo esta guía en función de su versión:
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Correo electrónico`{.action}.
+1. Seleccione el dominio.
+1. Siga leyendo esta guía en función de su versión.
 
 |Versión histórica de la solución MX Plan|Nueva versión de la solución MX Plan|
 |---|---|

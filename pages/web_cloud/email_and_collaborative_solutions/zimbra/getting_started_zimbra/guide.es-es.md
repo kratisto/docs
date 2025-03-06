@@ -31,7 +31,9 @@ Con el servicio Zimbra, OVHcloud le ofrece una plataforma de mensajería en cola
 
 ### Acceder a la gestión de su servicio
 
-Para acceder a su servicio Zimbra , conéctese a su [área de cliente de OVHcloud](/links/manager) y haga clic en la pestaña `Web Cloud`{.action}. {.action} En la sección `Direcciones de correo`{.action} de la columna izquierda, haga clic en `Zimbra`{.action}.
+1. Conéctese al [área de cliente de OVHcloud] (/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Zimbra Mail`{.action}.
 
 ![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}
 

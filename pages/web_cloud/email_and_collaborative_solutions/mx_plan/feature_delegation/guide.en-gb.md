@@ -36,9 +36,11 @@ By creating a delegation, you can enable an email account user to manage their o
 >When you set up a delegation on an email account, it will appear in the relevant [Control Panel](/links/manager). However, only the modifications listed in the [Objective](#objective) section of this guide will be possible in this situation.
 >
 
-Log in to your [OVHcloud Control Panel](/links/manager) and select `Web Cloud`{.action}.
-
-Select the domain name from the `Emails`{.action}. Switch to the tab `Emails`{.action} to view the list of email accounts in your MX Plan solution.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Emails`{.action}.
+1. Select the domain concerned.
+1. Switch to the tab `Emails`{.action} to view the list of email accounts in your MX Plan solution.
 
 ![delegation](images/mxplan-delegation-01.png){.thumbnail}
 

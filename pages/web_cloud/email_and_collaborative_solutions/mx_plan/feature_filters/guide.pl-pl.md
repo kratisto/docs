@@ -36,11 +36,11 @@ Poprzednia wersja usługi MX Plan|Nowa wersja usługi MX Plan|
 
 ## W praktyce <a name="oldmxplan"></a>
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`.
-
-Kliknij E-maile na pasku usług, po czym wybierz odpowiednią usługę MX Plan.
-
-W zakładce `E-maile`{.action} w Twojej usłudze MX Plan znajdziesz listę Twoich kont e-mail. Kolumna `Filtry` jest widoczna w tabeli kont e-mail. Kliknij ikonę lejka.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+1. W zakładce `E-maile`{.action} w Twojej usłudze MX Plan znajdziesz listę Twoich kont e-mail. Kolumna `Filtry` jest widoczna w tabeli kont e-mail. Kliknij ikonę lejka.
 
 ![emails](images/img_3239.png){.thumbnail}
 

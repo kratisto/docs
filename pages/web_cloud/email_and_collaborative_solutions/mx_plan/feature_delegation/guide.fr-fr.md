@@ -36,11 +36,11 @@ La délégation donne la possibilité à l'utilisateur d'un compte e-mail de gé
 > La mise en place d'une délégation sur un compte e-mail le fait apparaître dans [l'espace client](/links/manager) concerné. Pour autant, seules les modifications indiquées dans la section [Objectif](#objective) de ce guide seront possibles dans cette situation.
 >
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) dans la partie `Web Cloud`.
-
-Cliquez sur `Emails`{.action}, puis choisissez le nom du service MX Plan concerné.
-
-Pour afficher la liste des comptes e-mails de votre offre MX Plan, cliquez sur l'onglet `Emails`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action} .
+1. Cliquez sur `E-mails`{.action}.
+1. Sélectionnez le domaine concerné.
+1. Pour afficher la liste des comptes e-mails de votre offre MX Plan, cliquez sur l'onglet `Emails`{.action}.
 
 ![delegation](images/mxplan-delegation-01.png){.thumbnail}
 

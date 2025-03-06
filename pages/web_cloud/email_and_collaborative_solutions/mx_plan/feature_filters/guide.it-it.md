@@ -36,11 +36,11 @@ Vecchia versione della soluzione MX Plan|Nuova versione della soluzione MX Plan|
 
 ## In pratica <a name="oldmxplan"></a>
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) nella sezione `Web Cloud`.
-
-E seleziona il tuo servizio nella sezione `Email`{.action}.
-
-Nella scheda `Email`{.action} del tuo servizio MX Plan, visualizzi la lista dei tuoi indirizzi email. Una colonna `Filtri` è visibile nella tabella degli account email. Clicca sull'icona dell'imbuto.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Email`{.action}.
+1. Seleziona il dominio.
+1. Nella scheda `Email`{.action} del tuo servizio MX Plan, visualizzi la lista dei tuoi indirizzi email. Una colonna `Filtri` è visibile nella tabella degli account email. Clicca sull'icona dell'imbuto.
 
 ![email](images/img_3239.png){.thumbnail}
 

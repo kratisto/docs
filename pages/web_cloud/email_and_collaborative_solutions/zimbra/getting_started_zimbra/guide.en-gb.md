@@ -31,7 +31,9 @@ With the Zimbra solution, OVHcloud offers an open-source collaborative messaging
 
 ### Access your service management
 
-To access your Zimbra service, log in to your [OVHcloud Control Panel](/links/manager) and click on the `Web Cloud`{.action} tab. In the `Emails`{.action} section, click `Zimbra`{.action}.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Click on the `Web Cloud`{.action} tab.
+1. Click `Zimbra Mail`{.action}.
 
 ![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}
 

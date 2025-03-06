@@ -40,11 +40,11 @@ La delega offre all'utente di un account email la possibilità di gestire autono
 >La creazione di una delega su un account email lo mostra nello [Spazio Cliente](/links/manager) interessato. Tuttavia, in questa situazione saranno possibili solo le modifiche indicate nella sezione [Obiettivo](#objective) della guida.
 >
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) nella sezione `Web Cloud`.
-
-e seleziona il tuo servizio nella sezione `Email`{.action}.
-
-Per visualizzare la lista degli account email della tua offerta MX Plan, clicca sulla scheda `Email`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Email`{.action}.
+1. Seleziona il dominio.
+1. Per visualizzare la lista degli account email della tua offerta MX Plan, clicca sulla scheda `Email`{.action}.
 
 ![Delega](images/mxplan-delegation-01.png){.thumbnail}
 
