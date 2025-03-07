@@ -120,12 +120,6 @@ Here we see that only the advanced networking and security features within VCD o
 
 The types of network supported within an organization’s vDC:
 
-| Datacentre network  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct              | - An organization’s vDC network that has a direct connection to one of the external networks that are provisioned by the system administrator and rely on vSphere resources.  <br><br>  - Direct networks are supported for organization VDCs that rely on NSX. Direct networks are accessible by multiple organization VDCs.   Virtual machines belonging to different organization VDCs can connect to this network and see the traffic.    <br><br> - A direct network provides direct Layer 2 connectivity to virtual machines outside of the organization VDC.  <br><br> - Virtual machines outside of this organization VDC can connect directly to the virtual machines inside the organization VDC.  <br><br>  Note: Only OVHcloud can add a direct organization VDC network. |
-| Isolated (Internal) | - Isolated networks can only be accessed by the same organization vDC.  <br><br> - Only virtual machines located in this organization vDC can connect to the internal organization VDC network and see the traffic for it. <br><br> - Isolated networks are supported for organizational VDCs that rely on NSX or NSX Data Center for vSphere.  The isolated organization VDC network provides an organization VDC with an isolated private network to which multiple virtual machines and vApp can connect.  <br><br> This network does not provide connectivity to virtual machines outside of the organization VDC. Machines outside the organization VDC cannot connect to machines inside the organization VDC.                                                                  |
-| Routing             | - Routed networks can only be accessed by the same organization vDC.  <br><br> - Only virtual machines inside this organization vDC can connect to this network.   <br><br> - This network also provides controlled access to an external network. As a system administrator or organization administrator, you can configure Network Address Translation (NAT), Firewall, and VPN settings to make certain virtual machines accessible from the external network. <br><br> Routed networks are supported for organizational VDCs that rely on NSX or NSX Data Center for vSphere.                                                                                                                                                                                                    |
-
 > [!tabs]
 > Direct
 >>
@@ -267,7 +261,7 @@ vApp networks allow virtual machines to communicate with each other or, by conne
 
 ///
 
-### Step 4 - Limitations
+### Step 3 - Limitations
 
 /// details | What are the known network limitations?
 
