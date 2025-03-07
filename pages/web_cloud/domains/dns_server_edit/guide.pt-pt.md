@@ -45,7 +45,7 @@ No entanto, é essencial ter em conta os seguintes pontos:
 
 ### 1 - Aceder à gestão dos servidores DNS da OVHcloud <a name="access-dns-servers"></a>
 
-Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **3** etapas.
+Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **4** etapas.
 
 > [!tabs]
 > **Etapa 1**
