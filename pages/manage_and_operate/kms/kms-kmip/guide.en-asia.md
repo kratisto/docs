@@ -47,7 +47,7 @@ Then it's possible to exchange KMIP messages such as defined in the standard. De
 - PyKMIP for python: <https://github.com/OpenKMIP/PyKMIP>.
 - Libkmip for C: <https://github.com/OpenKMIP/libkmip>.
 
-You can use as well our SDK for Go : https://github.com/ovh/kmip-go
+You can use as well our SDK for Go: <https://github.com/ovh/kmip-go>
 
 ### KMIP coverage
 

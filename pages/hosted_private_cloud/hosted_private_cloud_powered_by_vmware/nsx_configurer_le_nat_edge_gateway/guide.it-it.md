@@ -5,7 +5,8 @@ updated: 2025-02-27
 ---
 
 > [!alert]
-> **End of life**
+> **End of life:**
+>
 > NSX-v is no longer supported in the OVHcloud environment.
 
 ## Objective
