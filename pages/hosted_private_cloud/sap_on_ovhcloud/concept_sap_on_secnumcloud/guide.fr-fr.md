@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure SAP avec SAP HANA on Private Cloud qualifiée SecNumCloud"
 excerpt: "Ce concept vous présente une architecture utilisant des hosts certifiés SAP HANA avec notre infrastructure VMware on OVHcloud qualifiée SecNumCloud"
-updated: 2024-09-26
+updated: 2025-03-07
 ---
 
 ## Objectif
@@ -26,7 +26,7 @@ Ce concept vous permet de construire une architecture à haut niveau d'exigence 
 >
 > De plus, maintenez régulièrement vos équipements à jour. Ceci avec les derniers correctifs et mises à jour disponibles.
 >
-> [L'ANSSI<sup>1</sup> préconise](https://cyber.gouv.fr/publications/recommandations-relatives-ladministration-securisee-des-si) d'héberger les environnements de production sur une infrastructure distincte et dédiée. Elle demande également de les isoler des environnements hors production, tels que les environnements de développement et de test.
+> [L'ANSSI<sup>1</sup> préconise](https://cyber.gouv.fr/publications/recommandations-relatives-ladministration-securisee-des-si) d'héberger les environnements de production sur une infrastructure distincte et dédiée. Elle préconise également de les isoler des environnements hors production, tels que les environnements de développement et de test.
 >
 
 <sup>1</sup> **A**gence **N**ationale de la **S**écurité des **S**ystèmes d'**I**nformation  
@@ -103,7 +103,7 @@ Avec Veeam Backup and Replication, vous avez la possibilité de créer et gérer
 
 Veeam Backup and Replication fournit un Plug-in Veeam pour SAP HANA, vous permettant d'exploiter toutes les fonctionnalités de Backint proposées par SAP pour SAP HANA.
 
-Pour des instructions détaillées sur la configuration de cette infrastructure de sauvegarde, consultez notre documentation : [Backup SAP HANA with Veeam Backup and Replication](/pages/hosted_private_cloud/sap_on_ovhcloud/Cookbook_veeam_backup_sap_hana).
+Pour des instructions détaillées sur la configuration de cette infrastructure de sauvegarde, consultez notre documentation : [Backup SAP HANA with Veeam Backup and Replication](/pages/hosted_private_cloud/sap_on_ovhcloud/cookbook_veeam_backup_sap_hana).
 
 Nous vous recommandons de mettre en œuvre des sauvegardes régulières et de tester le processus de restauration pour garantir la récupération des données en cas de sinistre.
 
@@ -131,9 +131,9 @@ Pour une sécurité et une connectivité constantes de votre infrastructure, nou
 
 #### 6.2 - Base de données SAP HANA
 
-La réplication SAP HANA, connue sous le nom de SAP HSR, joue un rôle essentiel dans la réplication des données et des configurations de votre région OVHcloud principale vers votre région OVHcloud secondaire. Ce processus de réplication vous permet de sécuriser vos données dans une base de données SAP HANA distincte, avec pour résultat une perte de données maximale admissible (RPO) le plus bas possible. SAP HSR assure des capacités de haute disponibilité et de reprise après sinistre en proposant des modes de réplication synchrone et asynchrone. Pour des informations détaillées sur les différents modes de réplication pris en charge par SAP HANA, consultez la documentation SAP sur [SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/86267e1ed56940bb8e4a4557cee0e43.html?en=US).
+La réplication SAP HANA, connue sous le nom de SAP HSR, joue un rôle essentiel dans la réplication des données et des configurations de votre région OVHcloud principale vers votre région OVHcloud secondaire. Ce processus de réplication vous permet de sécuriser vos données dans une base de données SAP HANA distincte, avec pour résultat une perte de données maximale admissible (RPO) le plus bas possible. SAP HSR assure des capacités de haute disponibilité et de reprise après sinistre en proposant des modes de réplication synchrone et asynchrone. Pour des informations détaillées sur les différents modes de réplication pris en charge par SAP HANA, consultez la documentation SAP sur [SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/c3fe0a3c263c49dc9404143306455e16.html).
 
-Pour les systèmes SAP HANA fonctionnant dans un environnement OVHcloud avec deux régions, nous vous recommandons vivement d’activer la compression des données et des journaux et d’utiliser le mode de réplication ASYNC. Cette combinaison améliore l’efficacité de la réplication et réduit la bande passante réseau requise. Pour plus d'informations sur ces paramètres, consultez [SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/92447e0a105c4facad3553b28aaec318.html).
+Pour les systèmes SAP HANA fonctionnant dans un environnement OVHcloud avec deux régions, nous vous recommandons vivement d’activer la compression des données et des journaux et d’utiliser le mode de réplication ASYNC. Cette combinaison améliore l’efficacité de la réplication et réduit la bande passante réseau requise.
 
 À partir de la version SAP HANA Platform 2.0 SPS 07, le SSL (Secure Sockets Layer) est activé par défaut à l'aide de TLS/SSL pour les communications entre les sites principaux et secondaires. Si vous utilisez une version inférieure de SAP HANA, assurez-vous que cette fonction de sécurité est activée comme décrit dans la [documentation SAP](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/ec50b815f5b740d7a9777d80f7104a2c?html=US).
 
