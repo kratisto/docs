@@ -1,12 +1,17 @@
 ---
 title: BGP Service configuration
 excerpt: By using BGP Service, you gain full control over your routing policies and network resilience. Follow this guide to set up and optimize your BGP sessions
-updated: 2025-03-06
+updated: 2025-03-07
 ---
 
 ## Objective
 
 BGP Service allows you to build highly available infrastructures by running standard BGP (Border Gateway Protocol) straight from your OVHcloud hosts. It can be used with OVHcloud Additional IP or with your own IP addresses, by using Bring Your Own IP (BYOIP).
+
+> [!warning]
+>
+> **Important**: BGP Service is currently in alpha phase. This product is not intended to be used in a production environment.
+>
 
 ## Requirements
 
@@ -22,11 +27,6 @@ BGP Service allows you to build highly available infrastructures by running stan
 ### Step 1: Join the Alpha
 
 First, you need to request to join the alpha on the following [page](https://labs.ovhcloud.com/en/). After we receive your application, we will contact you by email.
-
-> [!primary]
->
-> **Important**: BGP Service is currently in alpha phase. This product is not intended to be used in a production environment.
->
 
 ### Step 2: Prepare your IP addresses
 
@@ -310,13 +310,13 @@ sudo apt update && sudo apt install frr frr-pythontools
 
 #### Step 2: Configure FRR
 
-##### FRR configuration for Route Servers
+##### ***FRR configuration for Route Servers***
 
 > [!primary]
 >
 > All of the following parameters should be present in the `/etc/frr/frr.conf` configuration file of the route server(s).
 
-###### **Prefix list and Route Map Configuration**
+##### Prefix list and Route Map Configuration
 
 > [!primary]
 >
@@ -454,13 +454,13 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_HOST_V6 route-map RM_HOST_V6_OUT out
 ```
 
-##### FRR configuration for Hosts
+##### ***FRR configuration for Hosts***
 
 > [!primary]
 >
 > All of the following parameters should be present in the `/etc/frr/frr.conf` configuration file of the hosts.
 
-###### **Prefix list and Route Map Configuration**
+##### Prefix list and Route Map Configuration
 
 > [!primary]
 >

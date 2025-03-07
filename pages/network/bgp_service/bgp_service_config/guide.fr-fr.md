@@ -1,12 +1,17 @@
 ---
 title: Configuration du service BGP
 excerpt: En utilisant le service BGP, vous bénéficiez d'un contrôle total sur vos politiques de routage et la résilience du réseau. Suivez ce guide pour configurer et optimiser vos sessions BGP
-updated: 2025-03-06
+updated: 2025-03-07
 ---
 
 ## Objectif
 
 Le protocole Border Gateway Protocol (BGP) vous permet de construire des infrastructures hautement disponibles en exécutant le protocole de routage BGP standard directement à partir de vos hôtes OVHcloud. Il peut être utilisé avec les Additional IP d’OVHcloud ou avec vos propres adresses IP, en utilisant Bring Your Own IP (BYOIP).
+
+> [!warning]
+>
+> **Important**: le service BGP est actuellement en phase alpha. Ce produit n'est pas destiné à être utilisé dans un environnement de production.
+>
 
 ## Prérequis
 
@@ -22,11 +27,6 @@ Le protocole Border Gateway Protocol (BGP) vous permet de construire des infrast
 ### Étape 1 : rejoindre l'Alpha
 
 Vous devez d'abord demander à rejoindre l'alpha sur [cette page](https://labs.ovhcloud.com/en/). Après réception de votre candidature, nous vous contacterons par e-mail.
-
-> [!primary]
->
-> **Important**: le service BGP est actuellement en phase alpha. Ce produit n'est pas destiné à être utilisé dans un environnement de production.
->
 
 ### Étape 2 : préparer vos adresses IP
 
@@ -310,13 +310,13 @@ sudo apt update && sudo apt install frr frr-pythontools
 
 #### Étape 2 : Configurer FRR
 
-##### Configuration de FRR sur les Route Servers
+##### ***Configuration de FRR sur les Route Servers***
 
 > [!primary]
 >
 > Tous les paramètres décrits ci-dessous sont présents dans le fichier de configuration `/etc/frr/frr.conf`.
 
-###### **Configuration des listes de préfixes et route-maps**
+##### Configuration des listes de préfixes et route-maps
 
 > [!primary]
 >
@@ -454,13 +454,13 @@ router bgp <CUSTOMER_ASN>
   neighbor PG_HOST_V6 route-map RM_HOST_V6_OUT out
 ```
 
-##### Configuration de FRR sur les Hôtes
+##### ***Configuration de FRR sur les Hôtes***
 
 > [!primary]
 >
 > Tous les paramètres décrits ci-dessous sont présents dans le fichier de configuration `/etc/frr/frr.conf`.
 
-###### **Configuration des listes de préfixes et route-maps**
+##### Configuration des listes de préfixes et route-maps
 
 > [!primary]
 >
