@@ -31,8 +31,8 @@ Mit dem Zimbra Dienst bietet Ihnen OVHcloud eine kollaborative Open Source Messa
 
 ### Auf die Verwaltung Ihrer Dienstleistung zugreifen
 
-1. Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager).
-1. Klicken Sie auf den Tab `Web Cloud`{.action}.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
 1. Klicken Sie auf `Zimbra Mail`{.action}.
 
 ![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}

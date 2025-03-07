@@ -64,7 +64,7 @@ Für den Empfang von E-Mails empfehlen wir bei der Auswahl des Kontotyps die Ver
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|pop.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|pop.mail.ovh.ca|
@@ -75,7 +75,7 @@ Für den Empfang von E-Mails empfehlen wir bei der Auswahl des Kontotyps die Ver
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|imap.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|imap.mail.ovh.ca|
@@ -88,7 +88,7 @@ Wenn Sie zum Senden von E-Mails die **SMTP**-Einstellungen in den Kontoeinstellu
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|smtp.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|smtp.mail.ovh.ca|

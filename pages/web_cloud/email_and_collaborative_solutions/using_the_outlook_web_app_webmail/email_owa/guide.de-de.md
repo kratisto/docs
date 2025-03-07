@@ -171,7 +171,6 @@ Geben Sie im neuen Fenster Ihr aktuelles Passwort ein. Danach geben Sie ein neue
 > [!primary]
 >
 > Denken Sie daran, Ihr neues Passwort auch auf jedem Gerät anzupassen, das für den Zugriff auf dieses Konto verwendet wird (E-Mail-Clients). Bei Problemen mit Ihrem Passwort wenden Sie sich an Ihren Dienst-Administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

@@ -151,7 +151,6 @@ In the new window that pops up, enter your current password. Then enter a new pa
 > [!primary]
 >
 > Remember to also enter your new password on any device i.e. email client used to access this account. In case of any issues with your password, contact your service administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

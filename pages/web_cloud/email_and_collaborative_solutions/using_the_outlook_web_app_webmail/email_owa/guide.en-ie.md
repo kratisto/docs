@@ -22,7 +22,6 @@ This guide will give you a better understanding of the usual email account tasks
 > [!primary]
 >
 > After the first two steps, the instructions don't have to be considered in a particular order.
->
 
 ### 1. Accessing OWA webmail
 
@@ -31,7 +30,7 @@ To log in to OWA webmail with your email address, go to the general [webmail log
 ![useowa](images/use-owa-step1.png){.thumbnail}
 
 > [!warning]
-> 
+>
 > If you are redirected to a **Roundcube** interface, this means that you are using the legacy version of the MX Plan solution. To find out more about your MX Plan solution, go to our guide [Getting started with an MX Plan solution](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_generalities).
 >
 > To familiarise yourself with the **Roundcube** interface, please refer to our guide on [Using your email account via the Roundcube webmail interface](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube).
@@ -118,13 +117,13 @@ To manage rules, click on the gear icon at the top, then click on `Options`{.act
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list. 
+On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list.
 
-To add a new rule, click the `+`{.action} button. 
+To add a new rule, click the `+`{.action} button.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}. 
+Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -173,7 +172,6 @@ In the new window that pops up, enter your current password. Then enter a new pa
 > [!primary]
 >
 > Remember to also enter your new password on any device i.e. email client used to access this account. In case of any issues with your password, contact your service administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

@@ -22,7 +22,6 @@ Ten przewodnik zawiera informacje o zwykłych zadaniach dotyczących konta e-mai
 > [!primary]
 >
 > Instrukcji przedstawionych po dwóch pierwszych krokach nie trzeba wykonywać w konkretnej kolejności.
->
 
 ### 1. Dostęp do interfejsu OWA webmail
 
@@ -54,9 +53,9 @@ Od tej pory po zalogowaniu domyślnie będzie wyświetlany widok skrzynki odbior
 
 Interfejs OWA ma kilka sekcji. W poznaniu ich pomogą poniższa tabela i obrazy.
 
-|Części|Opis|  
-|---|---|  
-|Sekcja górna (1)|Zawiera dwa paski z kartami: pierwszy umożliwia dostęp do ustawień ogólnych (takich jak [sekcja opcji](./#dostep-do-sekcji-opcji)), a drugi służy do wykonywania konkretnych działań przy użyciu adresu (na przykład wysyłania e-maili lub odpowiadania na nie).|  
+|Części|Opis|
+|---|---|
+|Sekcja górna (1)|Zawiera dwa paski z kartami: pierwszy umożliwia dostęp do ustawień ogólnych (takich jak [sekcja opcji](./#dostep-do-sekcji-opcji)), a drugi służy do wykonywania konkretnych działań przy użyciu adresu (na przykład wysyłania e-maili lub odpowiadania na nie).|
 |Lewa strona (2)|Tutaj znajduje się lista folderów na potrzeby Twojego adresu e-mail. Jest widoczna w formie drzewa menu, które można rozwinąć lub ukryć.|
 |Część środkowa (3)|Zawiera listę wiadomości (przeczytanych i nieprzeczytanych) z folderu wybranego w lewym menu. W tej sekcji mogą też być widoczne wyniki wyszukiwania.|
 |Prawa strona (4)|Gdy wybrano e-mail, po prawej jest widoczne okienko odczytu.|
@@ -99,7 +98,7 @@ Interfejs OWA umożliwia porządkowanie skrzynki odbiorczej. Możesz
 
 #### Tworzenie folderu
 
-Aby utworzyć nowy folder, kliknij prawym przyciskiem myszy nazwę adresu e-mail w drzewie folderów i wybierz pozycję `Utwórz nowy folder`{.action}. W taki sam sposób możesz utworzyć podfolder w istniejących folderach (`Utwórz nowy podfolder`{.action}). 
+Aby utworzyć nowy folder, kliknij prawym przyciskiem myszy nazwę adresu e-mail w drzewie folderów i wybierz pozycję `Utwórz nowy folder`{.action}. W taki sam sposób możesz utworzyć podfolder w istniejących folderach (`Utwórz nowy podfolder`{.action}).
 
 ![useowa](images/use-owa-step10.png){.thumbnail}
 
@@ -118,13 +117,13 @@ Aby zarządzać regułami, kliknij ikonę koła zębatego u góry, a następnie 
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-Zostanie wyświetlona nowa strona, na której kliknij pozycję `Skrzynka odbiorcza i reguły oczyszczania`{.action} w lewym menu. W widoku drzewa „Opcje” ten element jest widoczny po rozwinięciu kolejno pozycji „Poczta” i „Automatyczne przetwarzanie”. W tym obszarze można tworzyć, edytować i usuwać reguły oraz przenosić je na liście. 
+Zostanie wyświetlona nowa strona, na której kliknij pozycję `Skrzynka odbiorcza i reguły oczyszczania`{.action} w lewym menu. W widoku drzewa „Opcje” ten element jest widoczny po rozwinięciu kolejno pozycji „Poczta” i „Automatyczne przetwarzanie”. W tym obszarze można tworzyć, edytować i usuwać reguły oraz przenosić je na liście.
 
-Aby dodać nową regułę, kliknij przycisk `+`{.action}. 
+Aby dodać nową regułę, kliknij przycisk `+`{.action}.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Podaj wymagane informacje w zależności od działania, które ma wykonywać reguła. Na koniec kliknij `OK`{.action}. 
+Podaj wymagane informacje w zależności od działania, które ma wykonywać reguła. Na koniec kliknij `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -173,7 +172,6 @@ Zostanie wyświetlone nowe okno. Wpisz w nim bieżące hasło. Następnie wpisz 
 > [!primary]
 >
 > Wprowadź nowe hasło na każdym urządzeniu (na przykład kliencie poczty e-mail), z którego uzyskujesz dostęp do tego konta. W przypadku problemów z hasłem skontaktuj się z administratorem usługi.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

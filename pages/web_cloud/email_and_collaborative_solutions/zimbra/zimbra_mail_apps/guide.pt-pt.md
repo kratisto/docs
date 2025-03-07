@@ -63,7 +63,7 @@ Para a receção dos e-mails, ao escolher o tipo de conta, recomendamos uma util
 
 |Informação|Descrição|
 |---|---|
-|Nome de utilizador|Introduza o endereço de e-mail **completo*|
+|Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
 |Servidor **EUROPE** (entrada)|pop.mail.ovh.net **ou** ssl0.ovh.net|
 |Servidor **AMÉRICA/ÁSIA-PACÍFICO** (entrada)|pop.mail.ovh.ca|
@@ -74,7 +74,7 @@ Para a receção dos e-mails, ao escolher o tipo de conta, recomendamos uma util
 
 |Informação|Descrição|
 |---|---|
-|Nome de utilizador|Introduza o endereço de e-mail **completo*|
+|Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
 |Servidor **EUROPA** (entrada)|imap.mail.ovh.net **ou** ssl0.ovh.net|
 |Servidor **AMÉRICA/ÁSIA-PACÍFICO** (entrada)|imap.mail.ovh.ca|
@@ -87,7 +87,7 @@ Se necessitar de inserir manualmente as definições **SMTP** nas preferências 
 
 |Informação|Descrição|
 |---|---|
-|Nome de utilizador|Introduza o endereço de e-mail **completo*|
+|Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
 |Servidor **EUROPA** (entrada)|smtp.mail.ovh.net **ou** ssl0.ovh.net|
 |Servidor **AMÉRICA/ÁSIA-PACÍFICO** (entrada)|smtp.mail.ovh.ca|

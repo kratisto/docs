@@ -22,9 +22,8 @@ Zimbra email accounts can be configured on different email clients that are comp
 > [!warning]
 >
 > OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
-> 
+>
 > This guide is designed to help you with common tasks. Nevertheless, we recommend contacting a [specialized partner](/links/partner) or the software publisher if you encounter any difficulties. OVHcloud cannot provide you with technical support in this regard. You can find more information in the [Go further](#go-further) section of this guide.
-> 
 
 ## Requirements
 
@@ -43,19 +42,19 @@ Follow the installation steps by clicking on the tabs below:
 >>
 >> When you first launch the application, the window below appears. Enter the URL of the OVHcloud Zimbra server `https://zimbra1.mail.ovh.net` and press `Continue`{.action} to confirm.
 >>
->>![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
 >>
 > **Step 2**
 >>
 >> Enter your **Zimbra email address** and the associated **password**, then press `Login`{.action}.
 >>
->>![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
 >>
 > **Step 3**
 >>
 >> You now have access to the content of your email account. By default, your inbox appears.
 >>
->>![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
+>> ![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
 
 > [!success]
 >

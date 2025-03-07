@@ -50,10 +50,9 @@ Jeśli utworzono kilka reguł, do e-maila przychodzącego prawdopodobnie może m
 Ponieważ jest dostępnych wiele warunków i działań, nie jesteśmy w stanie przedstawić wszystkich z nich w tym przewodniku. Poniżej znajdują się dwa przykłady zasadnicze z punktu widzenia korzystania z konta e-mail OVHcloud. 
 
 > [!warning]
->OVHcloud oferuje usługi, ale to użytkownik ponosi odpowiedzialność za zarządzanie nimi oraz ich konfigurację. Tym samym odpowiada za zapewnienie ich prawidłowego działania.
+> OVHcloud oferuje usługi, ale to użytkownik ponosi odpowiedzialność za zarządzanie nimi oraz ich konfigurację. Tym samym odpowiada za zapewnienie ich prawidłowego działania.
 >
->Niniejszy przewodnik zawiera informacje pomocne przy wykonywaniu typowych zadań. Jednak w przypadku wystąpienia problemów zalecamy kontakt z dostawcą konkretnych usług lub wydawcą oprogramowania, ponieważ nie będziemy w stanie udzielić pomocy. Więcej informacji zawiera sekcja „Sprawdź również” tego przewodnika.
->
+> Niniejszy przewodnik zawiera informacje pomocne przy wykonywaniu typowych zadań. Jednak w przypadku wystąpienia problemów zalecamy kontakt z dostawcą konkretnych usług lub wydawcą oprogramowania, ponieważ nie będziemy w stanie udzielić pomocy. Więcej informacji zawiera sekcja „Sprawdź również” tego przewodnika.
 
 #### Przykład 1: przekierowanie e-maili na inny adres
 

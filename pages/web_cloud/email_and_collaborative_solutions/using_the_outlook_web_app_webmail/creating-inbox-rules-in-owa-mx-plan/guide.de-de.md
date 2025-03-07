@@ -71,8 +71,7 @@ Die neue Regel wird nun nebst einer Erläuterung ihrer Funktion aufgelistet und 
 
 > [!primary]
 >
-Diese Anweisungen sind nur dann umsetzbar, wenn Ihre Domain die OVHcloud MX-Einträge ordnungsgemäß verwendet. Es sind auch abweichende Konfigurationen der Dienste möglich, die dann nicht zwangsläufig unserem Spam-Schutz unterliegen.
->
+> Diese Anweisungen sind nur dann umsetzbar, wenn Ihre Domain die OVHcloud MX-Einträge ordnungsgemäß verwendet. Es sind auch abweichende Konfigurationen der Dienste möglich, die dann nicht zwangsläufig unserem Spam-Schutz unterliegen.
 
 Erstellen Sie eine neue Regel durch Klicken auf das `+`{.action}-Symbol.
 

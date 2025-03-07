@@ -50,10 +50,9 @@ Se hai creato diverse regole, è probabile che molte di queste siano applicabili
 Data la moltitudine di condizioni e azioni disponibili, non è possibile esaminarle tutte in questa guida.  Ecco, qui di seguito, due esempi molto utili per l’utilizzo di un account email OVHcloud. 
 
 > [!warning]
->OVHcloud fornisce servizi la cui gestione e configurazione sono sotto la tua completa responsabilità. Pertanto spetta a te garantire che tali servizi funzionino correttamente.
+> OVHcloud fornisce servizi la cui gestione e configurazione sono sotto la tua completa responsabilità. Pertanto spetta a te garantire che tali servizi funzionino correttamente.
 >
->Questa guida ti mostra come effettuare le operazioni più comuni. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di contattare un esperto del settore e/o il fornitore del servizio. OVHcloud non potrà fornirti alcuna assistenza.  Per maggiori informazioni, consulta la sezione “Per saperne di più” di questa guida.
->
+> Questa guida ti mostra come effettuare le operazioni più comuni. Tuttavia, in caso di difficoltà o dubbi, ti consigliamo di contattare un esperto del settore e/o il fornitore del servizio. OVHcloud non potrà fornirti alcuna assistenza.  Per maggiori informazioni, consulta la sezione “Per saperne di più” di questa guida.
 
 #### Esempio 1: inoltrare un’email a un altro indirizzo
 
