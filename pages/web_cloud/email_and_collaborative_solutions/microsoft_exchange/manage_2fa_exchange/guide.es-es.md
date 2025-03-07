@@ -39,7 +39,7 @@ Al momento de realizar la primera configuración, es necesario activar la doble 
 1. Haga clic en `Exchange`{.action}.
 1. Seleccione la plataforma correspondiente.
 1. Acceda a la pestaña `Seguridad`{.action} de la plataforma.
-1. Debajo de la opción «Doble autenticación», haga clic en `Activar`{.action}».
+1. Debajo de la opción "Doble autenticación", haga clic en `Activar`{.action}.
 1. Para terminar, desplácese hasta el final de la página y haga clic en `Guardar los cambios`{.action}.
 
 ![2fa-exchange](images/2fa-exchange.gif){.thumbnail}
