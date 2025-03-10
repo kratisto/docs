@@ -4,10 +4,6 @@ excerpt: 'Descubra cómo configurar por primera vez la solución Email Pro'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 La solución E-mail Pro le permite disfrutar de direcciones de correo electrónico profesionales al precio más razonable con vistas a impulsar o comenzar su negocio.
@@ -25,9 +21,12 @@ La solución E-mail Pro le permite disfrutar de direcciones de correo electróni
 
 ### 1. Acceder a la gestión del servicio
 
-Una vez creado y activado el servicio E-mail Pro, puede administrarlo desde el [área de cliente de OVHcloud](/links/manager).
+Una vez creado y activado el servicio E-mail Pro :
 
-Para ello, inicie sesión en el área de cliente. Haga clic en `E-mail Pro`{.action} y seleccione el nombre del servicio correspondiente.
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Emails Pro`{.action}.
+1. Seleccione la plataforma correspondiente.
 
 > [!primary]
 >

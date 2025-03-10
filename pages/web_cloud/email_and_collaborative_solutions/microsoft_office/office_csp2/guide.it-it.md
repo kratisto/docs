@@ -4,10 +4,6 @@ excerpt: Come attivare e gestire un servizio Office 365 Reseller (CSP2) in OVHcl
 updated: 2023-01-17
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Office 365 Reseller (CSP2) è un servizio che ti permette di usufruire di diversi tipi di licenze Microsoft 365 a tariffe agevolate, per poterle rivendere ai tuoi clienti.

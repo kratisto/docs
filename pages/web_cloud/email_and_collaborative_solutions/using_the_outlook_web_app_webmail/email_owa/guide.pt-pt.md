@@ -22,7 +22,6 @@ Este guia fornece-lhe informações mais detalhadas sobre as habituais tarefas a
 > [!primary]
 >
 > Após as duas primeiras etapas, as instruções não têm de ser consideradas de acordo com uma ordem particular
->
 
 ### 1. Aceder ao webmail OWA
 
@@ -54,9 +53,9 @@ A partir de agora, a sua caixa de correio irá aparecer por defeito sempre que i
 
 Existem várias secções na interface OWA. Para as conhecer melhor, consulte o quadro e a imagem que se seguem.
 
-|Componentes|Descrição|  
-|---|---|  
-|Secção superior (1)|Contém duas barras de separadores: a primeira permite o acesso às configurações gerais (tais como [a secção de opções](./#aceder-a-seccao-de-opcoes)), e a segunda pode ser utilizada para realizar ações específicas com o seu endereço (como enviar ou responder a e-mails).|  
+|Componentes|Descrição|
+|---|---|
+|Secção superior (1)|Contém duas barras de separadores: a primeira permite o acesso às configurações gerais (tais como [a secção de opções](./#aceder-a-seccao-de-opcoes)), e a segunda pode ser utilizada para realizar ações específicas com o seu endereço (como enviar ou responder a e-mails).|
 |Lado esquerdo (2)|Exibe a lista de pastas relativas ao seu endereço de e-mail. Estas são visualizadas numa estrutura em árvore que se pode expandir ou ocultar.|
 |Segmento central (3)|Exibe a lista de mensagens (lidas e não lidas) da pasta selecionada no menu à esquerda. Esta secção pode igualmente exibir os resultados de pesquisa.|
 |Lado direito (4)|Exibe o painel de leitura quando um e-mail foi selecionado.|
@@ -118,13 +117,13 @@ Para gerir as regras, clique no ícone de engrenagem na parte superior e, de seg
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-Na nova página exibida, clique em `Regras inbox e varrimento`{.action} no menu situado à esquerda. Na vista de árvore do menu “Opções”, pode encontrá-lo clicando em “Mail” e, de seguida, em “Processamento automático”. A partir daqui, pode criar, editar, apagar e mover regras da lista. 
+Na nova página exibida, clique em `Regras inbox e varrimento`{.action} no menu situado à esquerda. Na vista de árvore do menu “Opções”, pode encontrá-lo clicando em “Mail” e, de seguida, em “Processamento automático”. A partir daqui, pode criar, editar, apagar e mover regras da lista.
 
-Para adicionar uma nova regra, clique no botão `+`{.action}. 
+Para adicionar uma nova regra, clique no botão `+`{.action}.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Preencha a informação solicitada consoante a regra que pretende que seja executada. De seguida, clique em `OK`{.action}. 
+Preencha a informação solicitada consoante a regra que pretende que seja executada. De seguida, clique em `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -173,7 +172,6 @@ Na janela seguinte, introduza a sua palavra-passe atual. De seguida, introduza a
 > [!primary]
 >
 > Lembre-se também de voltar a introduzir a sua nova palavra-passe em qualquer dispositivo que use para aceder a esta conta. Caso tenha algum problema com a sua palavra-passe, contacte o administrador responsável pelo seu serviço.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

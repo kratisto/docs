@@ -4,9 +4,6 @@ excerpt: 'Cómo migrar una dirección MX Plan a una cuenta Email Pro o Exchange'
 updated: 2022-11-22
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
@@ -44,7 +41,12 @@ En caso contrario, conéctese al [área de cliente de OVHcloud](/links/manager) 
 
 Antes de realizar la migración, deberá identificar la versión del MX Plan desde el que migrará.
 
-Para ello, conéctese al [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}.Haga clic en `Correo electrónico`{.action} y seleccione el servicio correspondiente. Continúe leyendo esta guía en el apartado correspondiente a la versión:
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Correo electrónico`{.action}.
+1. Seleccione el dominio.
+
+Continúe leyendo esta guía en el apartado correspondiente a la versión:
 
 |Versión histórica de la solución MX Plan|Nueva versión de la solución MX Plan|
 |---|---|

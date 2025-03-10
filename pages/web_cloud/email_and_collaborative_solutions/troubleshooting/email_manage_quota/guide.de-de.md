@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie den Speicherplatz von E-Mail-Accounts verwa
 updated: 2022-11-17
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Jeder OVHcloud E-Mail-Account verfügt über einen dedizierten Speicherplatz. Eine regelmäßige Verwaltung des Speicherplatzes verhindert dessen Auslastung, auch als "overquota" bezeichnet. Standardmäßig werden E-Mails, die Sie empfangen und versenden, auf dem Server Ihres E-Mail-Accounts gespeichert. Sie können Ihre E-Mails auch über ein E-Mail-Programm (Outlook, macOS Mail, Thunderbird, etc.) lokal auf Ihrem Computer speichern.

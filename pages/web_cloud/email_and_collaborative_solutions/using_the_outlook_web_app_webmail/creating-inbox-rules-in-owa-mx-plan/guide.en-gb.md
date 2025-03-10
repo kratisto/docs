@@ -71,8 +71,7 @@ The new rule is now listed with an explanation of what it does and it can be edi
 
 > [!primary]
 >
-These instructions are only feasible if your domain is using the OVHcloud MX records appropriately. Other configurations are possible with the service but might not use our spam protection.
->
+> These instructions are only feasible if your domain is using the OVHcloud MX records appropriately. Other configurations are possible with the service but might not use our spam protection.
 
 Create a new rule by clicking on the `+`{.action} icon.
 

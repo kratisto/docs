@@ -45,9 +45,13 @@ Nadawca (sender) przesyła wiadomość e-mail do odbiorców z listy mailingowej.
 >
 > Lista mailingowa zachowuje się jak adres e-mail. Nie można zmienić jej nazwy. Jeśli nazwa listy mailingowej nie jest już dla Ciebie odpowiednia, utwórz nową i usuń starą.
 
-Aby utworzyć listę mailingową, przejdź do [Panelu klienta OVHcloud](/links/manager) i wybierz kartę `Web Cloud`{.action} znajdującą się u góry.
+Aby utworzyć listę mailingową:
 
-Po zalogowaniu kliknij w sekcję `E-maile`{.action}, a następnie nazwę danej domeny. Przejdź do karty `Listy mailingowe`{.action} w Twojej usłudze e-mail.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+1. Przejdź do karty `Listy mailingowe`{.action} w Twojej usłudze e-mail.
 
 ![emails](images/manage_mailing-lists_01.png){.thumbnail}
 

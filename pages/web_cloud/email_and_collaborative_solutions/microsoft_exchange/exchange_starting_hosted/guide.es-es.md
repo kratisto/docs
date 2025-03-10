@@ -4,10 +4,6 @@ excerpt: 'Cómo configurar por primera vez el servicio Hosted Exchange'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
-
 <style>
 .w-640 {
   max-width:640px !important;
@@ -31,9 +27,13 @@ El servicio Hosted Exchange le permite disfrutar de direcciones de correo electr
 
 ### Acceder a la gestión del servicio
 
-Una vez que el servicio Hosted Exchange haya sido creado y esté disponible, puede administrarlo desde el [área de cliente de OVHcloud](/links/manager).
+Una vez que el servicio Hosted Exchange haya sido creado y esté disponible :
 
-Para ello, Haga clic en `Microsoft`{.action}, luego en `Exchange`{.action} y seleccione el servicio Hosted Exchange correspondiente.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
 
 > [!primary]
 >

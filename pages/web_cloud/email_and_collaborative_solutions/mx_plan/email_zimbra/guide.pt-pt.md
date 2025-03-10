@@ -4,10 +4,6 @@ excerpt: "Descubra a interface do webmail Zimbra para os endereços de e-mail MX
 updated: 2025-02-12
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 <style>
 .w-400 {
   max-width:400px !important;

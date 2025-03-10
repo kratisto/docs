@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie einen MX Plan E-Mail-Account zu E-Mail Pro 
 updated: 2022-11-22
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button «Mitmachen» auf dieser Seite.
->
-
 ## Ziel
 
 OVHcloud bietet verschiedene E-Mail-Lösungen an: MX Plan (autonom oder in einem Webhosting-Angebot inbegriffen), E-Mail Pro und Exchange. Diese verfügen über individuelle Funktionen und können sich an verschiedene Einsatzzwecke anpassen. Ihre Bedürfnisse ändern sich? OVHcloud stellt Ihnen ein Migrationswerkzeug zur Verfügung, mit dem Sie von einer Lösung zur anderen wechseln können.
@@ -44,7 +40,12 @@ Andernfalls loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein u
 
 Bevor Sie mit der Migration beginnen, müssen Sie die Version des MX Plan identifizieren, von der aus Sie migrieren.
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und klicken Sie im Bereich `Web Cloud`{.action} auf `E-Mails`{.action}. Wählen Sie Ihren Dienst aus.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `E-Mails`{.action}.
+1. Wählen Sie die betreffende Domain aus.
+
+Wählen Sie Ihren Dienst aus.
 
 |Legacy MX Plan Version|Neue MX Plan Version|
 |---|---|

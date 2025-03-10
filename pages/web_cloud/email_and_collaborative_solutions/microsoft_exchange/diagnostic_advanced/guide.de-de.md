@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie eine automatische Fehlerdiagnose für Excha
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Da es eine Vielzahl von Gründen für mögliche Fehler bei Exchange-Accounts gibt, kann eine automatische Überprüfung der Kontofunktionen helfen, die Ursachen einzugrenzen. Die Prüfergebnisse sind daher hilfreich für eine Supportanfrage bei Problemen mit Ihrem Exchange-Dienst.
@@ -25,7 +21,11 @@ Da es eine Vielzahl von Gründen für mögliche Fehler bei Exchange-Accounts gib
 
 ### Diagnose durchführen
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter ein](/links/manager) und gehen Sie in den Bereich `Web Cloud`{.action}. Öffnen Sie `Microsoft`{.action} und dann `Exchange`{.action}, und wählen Sie Ihre Dienstleistung aus.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `Microsoft`{.action}.
+1. Klicken Sie auf `Exchange`{.action}.
+1. Wählen Sie den gewünschten Dienst aus.
 
 ![Exchange-Diagnose](images/img_4450.png){.thumbnail}
 

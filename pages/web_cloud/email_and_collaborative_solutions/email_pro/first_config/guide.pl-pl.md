@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Właśnie zakupiłeś usługę E-mail Pro. Umożliwia ona korzystanie z profesjonalnych kont e-mail w najlepszej cenie pozwalającej na prowadzenie bieżącej działalności lub rozpoczęcie nowej.
@@ -25,7 +21,12 @@ Właśnie zakupiłeś usługę E-mail Pro. Umożliwia ona korzystanie z profesjo
 
 ### Etap 1: logowanie do usługi E-mail Pro
 
-Po utworzeniu i udostępnieniu usługi E-mail Pro, można nią zarządzać poprzez [Panel klienta OVHcloud](/links/manager).Zaloguj się do Panelu klienta, kliknij E-mail Pro, następnie wybierz odpowiednią usługę.
+Po utworzeniu i udostępnieniu usługi E-mail Pro :
+
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile Pro`{.action}.
+1. Wybierz odpowiednią platformę.
 
 > [!primary]
 >

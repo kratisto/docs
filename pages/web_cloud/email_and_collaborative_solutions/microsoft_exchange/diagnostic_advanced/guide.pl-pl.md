@@ -4,9 +4,6 @@ excerpt: 'Dowiedz się, jak przeprowadzić automatyczną diagnostykę błędów 
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -25,7 +22,11 @@ Błędy na kontach e-mail Exchange mogą mieć wiele przyczyn. Automatyczna diag
 
 ### Wykonaj diagnostykę
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`{.action}. Wybierz `Microsoft`{.action} , następnie kliknij `Exchange`{.action} i wybierz Twoją usługę.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
 
 ![Diagnostyka Exchange](images/img_4450.png){.thumbnail}
 

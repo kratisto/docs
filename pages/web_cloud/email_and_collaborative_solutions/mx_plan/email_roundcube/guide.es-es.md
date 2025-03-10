@@ -3,10 +3,6 @@ title: 'Webmail: Guía de uso de Roundcube'
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Con el MX Plan de OVHcloud, puede enviar y recibir mensajes de correo desde un programa de terceros o a través de un webmail. OVHcloud ofrece un servicio de correo en línea llamado Roundcube, que permite acceder a una cuenta de correo a través de un navegador web.

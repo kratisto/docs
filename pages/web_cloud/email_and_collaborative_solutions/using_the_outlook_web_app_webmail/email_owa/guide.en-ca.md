@@ -48,9 +48,9 @@ From now on, your inbox view will appear by default after login.
 
 There are several sections to the OWA interface. Please refer to the table and the image below to familiarise yourself with it.
 
-|Parts|Description|  
-|---|---|  
-|Top section (1)|Contains two tab bars: the first one allows access to general settings (such as the [options section](./#accessing-the-options-section)), and the second one can be used to perform specific actions with your address (such as sending or replying to emails).|  
+|Parts|Description|
+|---|---|
+|Top section (1)|Contains two tab bars: the first one allows access to general settings (such as the [options section](./#accessing-the-options-section)), and the second one can be used to perform specific actions with your address (such as sending or replying to emails).|
 |Left-hand side (2)|Displays the list of folders for your email address. These appear as a tree-view that you can expand or hide.|
 |Central segment (3)|Displays the list of messages (read and unread) from the folder selected in the left-hand menu. This section can also display search results.|
 |Right-hand side (4)|Displays the reading pane when an email has been selected.|
@@ -93,7 +93,7 @@ OWA provides several ways to organise your inbox. You can
 
 #### Creating a folder
 
-To create a new folder, right-click on the name of your email address in the folder tree and then choose `Create new folder`{.action}. You can create a subfolder in existing folders in the same way (`Create new subfolder`{.action}). 
+To create a new folder, right-click on the name of your email address in the folder tree and then choose `Create new folder`{.action}. You can create a subfolder in existing folders in the same way (`Create new subfolder`{.action}).
 
 ![useowa](images/use-owa-step10.png){.thumbnail}
 
@@ -112,13 +112,13 @@ To manage rules, click on the gear icon at the top, then click on `Options`{.act
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list. 
+On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list.
 
-To add a new rule, click the `+`{.action} button. 
+To add a new rule, click the `+`{.action} button.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}. 
+Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -167,7 +167,6 @@ In the new window that pops up, enter your current password. Then enter a new pa
 > [!primary]
 >
 > Remember to also enter your new password on any device i.e. email client used to access this account. In case of any issues with your password, contact your service administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

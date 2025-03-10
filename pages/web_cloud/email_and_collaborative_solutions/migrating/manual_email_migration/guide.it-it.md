@@ -4,10 +4,6 @@ excerpt: Come migrare manualmente il tuo indirizzo email verso un altro indirizz
 updated: 2021-01-05
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 [La migrazione automatica](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm) di un indirizzo email è possibile tramite il nostro tool [OVH Mail Migrator](https://omm.ovh.net/). Inoltre, è possibile migrare manualmente il tuo indirizzo email tramite client di posta.
@@ -44,9 +40,12 @@ Le seguenti istruzioni sono suddivise in due parti:
 
 Se disponi di un account email [Exchange OVHcloud](/links/web/emails-hosted-exchange), è possibile esportarlo direttamente in formato PST dallo Spazio Cliente.
 
-Accedi al tuo [Spazio Cliente OVHcloud](/links/manager) e clicca sulla sezione `Web Cloud`{.action}. Seleziona `Microsoft`{.action} e poi `Exchange`{.action}. Clicca sul nome del servizio Hosted Exchange interessato.
-
-Nella scheda `Account email`{.action}, clicca sul pulsante `...`{.action} a destra dell'account da esportare e poi su `Esporta in formato PST`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Microsoft`{.action}.
+1. Clicca su `Exchange`{.action}.
+1. Seleziona la piattaforma interessata.
+1. Nella scheda `Account email`{.action}, clicca sul pulsante `...`{.action} a destra dell'account da esportare e poi su `Esporta in formato PST`{.action}.
 
 ![email](images/manager-export-pst01.png){.thumbnail}
 

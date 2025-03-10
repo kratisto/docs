@@ -27,10 +27,6 @@ updated: 2023-11-06
  }
 </style>
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Wenn Sie einen SMTP Send Connector zu Ihrer Exchange Plattform hinzufügen, können Sie für eine oder mehrere Exchange-E-Mail-Adressen E-Mails über einen Sendeserver außerhalb Ihrer Exchange Plattform senden. Dies kann zum Beispiel beim massenhaften Versand von E-Mails oder bei der Verwendung einer externen Anti-Spam-Lösung der Fall sein. Dieser Send Connector wird nur von E-Mail-Adressen verwendet, die an den Send Connector angefügt sind.

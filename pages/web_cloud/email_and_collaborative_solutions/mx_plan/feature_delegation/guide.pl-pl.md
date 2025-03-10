@@ -4,9 +4,6 @@ excerpt: 'Dowiedz się, jak delegować uprawnienia do zarządzania kontami e-mai
 updated: 2021-10-08
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Cel <a name="objective"></a>
 
@@ -37,14 +34,14 @@ Delegacja uprawnień daje użytkownikowi konta e-mail możliwość samodzielnego
 
 > [!primary]
 >
->Delegacja na koncie e-mail wyświetla się w [odpowiednim panelu klienta](/links/manager). W tej sytuacji możliwe będą jedynie zmiany wskazane w sekcji [Cel](#objective) niniejszego przewodnika.
+> Delegacja na koncie e-mail wyświetla się w [odpowiednim panelu klienta](/links/manager). W tej sytuacji możliwe będą jedynie zmiany wskazane w sekcji [Cel](#objective) niniejszego przewodnika.
 >
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`.
-
-Kliknij E-maile na pasku usług, po czym wybierz odpowiednią usługę MX Plan.
-
-Aby wyświetlić listę kont e-mail w Twojej usłudze MX Plan, kliknij zakładkę `E-maile`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+1. Aby wyświetlić listę kont e-mail w Twojej usłudze MX Plan, kliknij zakładkę `E-maile`{.action}.
 
 ![delegacja uprawnień exchange](images/mxplan-delegation-01.png){.thumbnail}
 

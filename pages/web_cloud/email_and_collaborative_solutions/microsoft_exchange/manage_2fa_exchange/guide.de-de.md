@@ -33,9 +33,14 @@ Wenn Sie die Sicherheit Ihres Accounts erhöhen möchten, können Sie die Zwei-F
 
 Bei der ersten Einrichtung muss die Zwei-Faktor-Authentifizierung zunächst für den Exchange Dienst aktiviert werden, bevor sie für dessen Accounts aktiviert werden kann.
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie unter `Microsoft`{.action} und `Exchange`{.action} Ihren Exchange Dienst aus. Gehen Sie dann auf den Tab `Sicherheit`{.action}.
-
-Klicken Sie unter „Zwei-Faktor-Authentifizierung“ auf `Aktiviert`{.action}. Zum Abschluss scrollen Sie nach unten zum Ende der Seite und klicken Sie auf `Änderungen speichern`{.action}.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `Microsoft`{.action}.
+1. Klicken Sie auf `Exchange`{.action}.
+1. Wählen Sie den gewünschten Dienst aus.
+1. Gehen Sie dann auf den Tab `Sicherheit`{.action}.
+1. Klicken Sie unter „Zwei-Faktor-Authentifizierung“ auf `Aktiviert`{.action}.
+1. Zum Abschluss scrollen Sie nach unten zum Ende der Seite und klicken Sie auf `Änderungen speichern`{.action}.
 
 ![2fa-exchange](images/2fa-exchange.gif){.thumbnail}
 
@@ -59,9 +64,12 @@ Bei Ihren nachfolgenden Verbindungen werden Sie nur noch nach dem von Ihrer OTP-
 
 Die Zwei-Faktor-Authentifizierung Ihres Exchange Accounts kann auf drei Arten deaktiviert werden.
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie unter `Microsoft`{.action} und `Exchange`{.action} Ihren Exchange Dienst aus.
-
-Vom Tab `E-Mail-Accounts`{.action} aus, klicken Sie auf `...`{.action} rechts des Accounts, auf dem die Zwei-Faktor-Authentifizierung bereits aktiv ist.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `Microsoft`{.action}.
+1. Klicken Sie auf `Exchange`{.action}.
+1. Wählen Sie den gewünschten Dienst aus.
+1. Vom Tab `E-Mail-Accounts`{.action} aus, klicken Sie auf `...`{.action} rechts des Accounts, auf dem die Zwei-Faktor-Authentifizierung bereits aktiv ist.
 
 ![2fa-exchange](images/2fa-exchange-04.png){.thumbnail}
 

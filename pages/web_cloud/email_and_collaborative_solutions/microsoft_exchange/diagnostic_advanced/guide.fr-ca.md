@@ -21,7 +21,11 @@ Les erreurs sur les comptes e-mail Exchange peuvent avoir une multitude de cause
 
 ### Réaliser un diagnostic
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) dans la partie `Web Cloud`{.action}. Sélectionnez `Microsoft`{.action} puis cliquez sur `Exchange`{.action} et sélectionnez votre service.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action} .
+1. Cliquez sur la rubrique `Microsoft`{.action}.
+1. Cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 ![Diagnostic Exchange](images/img_4450.png){.thumbnail}
 

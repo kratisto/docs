@@ -21,9 +21,12 @@ Vous venez d’acquérir une solution E-mail Pro. Celle-ci vous permet de béné
 
 ### Étape 1 : accéder à la gestion de votre service
 
-Une fois le service E-mail Pro créé et disponible, vous pouvez le gérer depuis votre [espace client OVHcloud](/links/manager).
+Une fois le service E-mail Pro créé et disponible :
 
-Pour cela, connectez-vous à ce dernier, cliquez sur `E-mail Pro`{.action}, puis choisissez le nom du service concerné.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action}.
+1. Cliquez sur `E-mails Pro`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 > [!primary]
 >

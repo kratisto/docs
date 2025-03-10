@@ -33,9 +33,14 @@ Możesz wzmocnić bezpieczeństwo swojego konta Exchange za pomocą weryfikacji 
 
 Przy pierwszej konfiguracji należy aktywować weryfikację dwuetapową w platformie, aby móc ją włączyć w koncie.
 
-Zaloguj się do swojego [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. Na koniec wybierz swoją usługę Exchange.
-
-Wybierz kartę `Bezpieczeństwo`{.action} w platformie. Naciśnij przycisk `Aktywuj`{.action}, który znajduje się pod opcją „Weryfikacja dwuetapowa”. Na koniec przejdź na dół strony i kliknij `Zapisz zmiany`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
+1. Wybierz kartę `Bezpieczeństwo`{.action} w platformie.
+1. Naciśnij przycisk `Aktywuj`{.action} Który znajduje się pod opcją „Weryfikacja dwuetapowa”.
+1. Na koniec przejdź na dół strony i kliknij `Zapisz zmiany`{.action}.
 
 ![2fa-exchange](images/2fa-exchange.gif){.thumbnail}
 
@@ -59,9 +64,12 @@ Podczas następnych logowań wymagany będzie jedynie kod wygenerowany przez apl
 
 Weryfikację dwuetapową Twojego konta można wyłączyć na trzy sposoby.
 
-Zaloguj się do swojego [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. Na koniec wybierz swoją usługę Exchange.
-
-Z poziomu karty `Konta e-mail`{.action} Twojej platformy Exchange kliknij `...`{.action} po prawej stronie konta z aktywną weryfikacją dwuetapową.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
+1. Z poziomu karty `Konta e-mail`{.action} Twojej platformy Exchange kliknij `...`{.action} po prawej stronie konta z aktywną weryfikacją dwuetapową.
 
 ![2fa-exchange](images/2fa-exchange-04.png){.thumbnail}
 

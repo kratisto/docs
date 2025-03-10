@@ -21,9 +21,12 @@ You have just purchased an Email Pro solution, which gives you affordable profes
 
 ### Step 1: Log in to your service’s interface
 
-Once the Email Pro service has been created and is available, you can manage it from the [OVHcloud Control Panel](/links/manager).
+Once the Email Pro service has been created and is available:
 
-To do this, log in, then click on `Email Pro`{.action} and select the appropriate service.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Email Pro`{.action}.
+1. Select the service concerned.
 
 > [!primary]
 >

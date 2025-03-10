@@ -22,7 +22,6 @@ Esta guía le permitirá comprender mejor las tareas más habituales de la cuent
 > [!primary]
 >
 > Después de los dos primeros pasos, no es necesario seguir las instrucciones en un orden concreto.
->
 
 ### 1. Acceder a OWA
 
@@ -93,7 +92,7 @@ OWA le permite organizar su bandeja de entrada de distintas formas. Puede
 
 #### Crear una carpeta
 
-Para crear una carpeta nueva, haga clic derecho sobre el nombre de su dirección de correo en el árbol de carpetas y seleccione `Crear carpeta nueva`{.action}. Puede crear subcarpetas en carpetas existentes de la misma formar (`Crear subcarpeta nueva`{.action}). 
+Para crear una carpeta nueva, haga clic derecho sobre el nombre de su dirección de correo en el árbol de carpetas y seleccione `Crear carpeta nueva`{.action}. Puede crear subcarpetas en carpetas existentes de la misma formar (`Crear subcarpeta nueva`{.action}).
 
 ![useowa](images/use-owa-step10.png){.thumbnail}
 
@@ -112,13 +111,13 @@ Para gestionar las reglas, haga clic en el símbolo de engranaje en la parte sup
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-En la página nueva que aparece, seleccione `Reglas de la bandeja de entrada y de limpieza`{.action} del menú de la izquierda. En el árbol de «Opciones» puede encontrar este elemento dentro de «Correo», en «Procesamiento automático». Desde aquí puede crear, editar, eliminar y mover reglas en la lista. 
+En la página nueva que aparece, seleccione `Reglas de la bandeja de entrada y de limpieza`{.action} del menú de la izquierda. En el árbol de «Opciones» puede encontrar este elemento dentro de «Correo», en «Procesamiento automático». Desde aquí puede crear, editar, eliminar y mover reglas en la lista.
 
-Para añadir una nueva regla, haga clic en el botón `+`{.action}. 
+Para añadir una nueva regla, haga clic en el botón `+`{.action}.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Rellene la información solicitada según la acción que quiere que lleve a cabo la regla. Después, haga clic en `OK`{.action}. 
+Rellene la información solicitada según la acción que quiere que lleve a cabo la regla. Después, haga clic en `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -167,7 +166,6 @@ En la nueva ventana emergente, introduzca su contraseña actual. A continuación
 > [!primary]
 >
 > Recuerde que debe introducir la nueva contraseña en todos los dispositivos que utilice, es decir, en los clientes de correo que utilice para acceder a esta cuenta. Si tiene algún problema con su contraseña, póngase en contacto con el administrador del servicio.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

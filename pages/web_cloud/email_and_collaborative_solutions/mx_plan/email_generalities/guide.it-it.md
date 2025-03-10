@@ -4,10 +4,6 @@ excerpt: 'Come eseguire le prime operazioni sul servizio MX Plan'
 updated: 2023-11-15
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La soluzione MX Plan di OVHcloud con cui potrai inviare e ricevere messaggi dal dispositivo che preferisci.
@@ -23,12 +19,16 @@ La soluzione MX Plan di OVHcloud con cui potrai inviare e ricevere messaggi dal 
 
 Una volta creata e disponibile la soluzione MX Plan, è possibile gestirla dallo [Spazio Cliente OVHcloud](/links/manager). In base alla data di attivazione o in caso di recente migrazione del servizio, la versione disponibile sarà differente. Per verificare quella attiva
 
-Accedendo allo [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}. E seleziona il tuo servizio nella sezione `Email`{.action}. Prosegui nella lettura di questa guida in base alla versione di cui disponi.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Email`{.action}.
+1. Seleziona il dominio.
+1. Prosegui nella lettura di questa guida in base alla versione di cui disponi.
 
 |Vecchia versione della soluzione MX Plan|Nuova versione della soluzione MX Plan|
 |---|---|
 |![email](images/mxplan-starter-legacy-step1.png){.thumbnail}<br> Il servizio è indicato nel riquadro “Abbonamento”|![email](images/mxplan-starter-new-step1.png){.thumbnail}<br>Il servizio è indicato nel riquadro “Riepilogo”, sotto la voce "Referenza server"|
-|Consulta il paragrafo [ Vecchia versione della soluzione MX Plan](#oldmxplan)|Consulta il paragrafo: [Nuova versione della soluzione MX Plan](#newmxplan)|
+|Consulta il paragrafo [Vecchia versione della soluzione MX Plan](#oldmxplan)|Consulta il paragrafo: [Nuova versione della soluzione MX Plan](#newmxplan)|
 
 ### Nuova versione della soluzione MX Plan <a name="newmxplan"></a>
 

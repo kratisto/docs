@@ -4,10 +4,6 @@ excerpt: Saiba como instalar e utilizar Microsoft 365 apps num ambiente de traba
 updated: 2021-09-06
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Deseja utilizar o pacote de software presente no pack Microsoft 365 apps numa máquina distante ou partilhada. Para isso, é necessário seguir o procedimento de instalação descrito neste guia.

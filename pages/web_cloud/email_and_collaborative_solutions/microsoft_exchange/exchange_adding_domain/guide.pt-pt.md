@@ -4,10 +4,6 @@ excerpt: Saiba como adicionar um domínio à sua plataforma Exchange ou E-mail P
 updated: 2023-06-14
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Adicionar um domínio a um serviço Exchange é indispensável para poder utilizar as suas contas incluídas neste último. Também é possível adicionar vários domínios a um serviço Exchange ou E-mail Pro.

@@ -4,10 +4,6 @@ excerpt: Saiba como subscrever e administrar um serviço Office 365 Revendedores
 updated: 2023-01-17
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O Office 365 Revendedores (CSP2) é um serviço que lhe permite beneficiar de diferentes tipos de licenças Microsoft 365 a preços preferenciais, para que possa revendê-las junto dos seus clientes.

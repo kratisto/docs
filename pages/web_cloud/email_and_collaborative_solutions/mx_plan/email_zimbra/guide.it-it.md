@@ -4,10 +4,6 @@ excerpt: "Scopri l'interfaccia della Webmail Zimbra per i tuoi indirizzi email M
 updated: 2025-02-12
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 <style>
 .w-400 {
   max-width:400px !important;

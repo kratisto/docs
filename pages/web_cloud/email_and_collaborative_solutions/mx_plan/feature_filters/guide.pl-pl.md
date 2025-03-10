@@ -4,9 +4,6 @@ excerpt: 'Dowiedz się, jak utworzyć i skonfigurować filtr na Twoim koncie e-m
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -36,11 +33,11 @@ Poprzednia wersja usługi MX Plan|Nowa wersja usługi MX Plan|
 
 ## W praktyce <a name="oldmxplan"></a>
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) w sekcji `Web Cloud`.
-
-Kliknij E-maile na pasku usług, po czym wybierz odpowiednią usługę MX Plan.
-
-W zakładce `E-maile`{.action} w Twojej usłudze MX Plan znajdziesz listę Twoich kont e-mail. Kolumna `Filtry` jest widoczna w tabeli kont e-mail. Kliknij ikonę lejka.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+1. W zakładce `E-maile`{.action} w Twojej usłudze MX Plan znajdziesz listę Twoich kont e-mail. Kolumna `Filtry` jest widoczna w tabeli kont e-mail. Kliknij ikonę lejka.
 
 ![emails](images/img_3239.png){.thumbnail}
 

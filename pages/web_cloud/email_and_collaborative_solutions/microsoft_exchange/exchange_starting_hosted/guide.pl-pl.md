@@ -4,10 +4,6 @@ excerpt: 'Rozpocznij pracę z usługą Hosted Exchange'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
-
 <style>
 .w-640 {
   max-width:640px !important;
@@ -31,9 +27,13 @@ Usługa Hosted Exchange pozwala na korzystanie z profesjonalnej poczty elektroni
 
 ### Dostęp do zarządzania usługą
 
-Po utworzeniu i udostępnieniu usługi Hosted Exchange, można nią zarządzać poprzez Panel [klienta OVHcloud](/links/manager).
+Po utworzeniu i udostępnieniu usługi Hosted Exchange :
 
-W tym celu zaloguj się do Panelu klienta, kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. W kolejnym kroku kliknij wybraną nazwę usługi  Hosted Exchange.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
 
 > [!primary]
 >

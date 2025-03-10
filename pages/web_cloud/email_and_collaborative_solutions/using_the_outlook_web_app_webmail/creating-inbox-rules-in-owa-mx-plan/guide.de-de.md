@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie E-Mail-Weiterleitungen und Eingangsfilter i
 updated: 2020-03-11
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Unter der Option „Posteingangsregeln“ können Sie ein umfangreiches Regelwerk für die Verarbeitung eingehender E-Mails erstellen. Diese können Ihnen helfen, Ihr E-Mail-Konto zu organisieren, indem E-Mails automatisch in die passenden Ordner sortiert werden. Auf diese Weise können Sie auch Weiterleitungen definieren und Spam-Nachrichten herausfiltern.
@@ -75,8 +71,7 @@ Die neue Regel wird nun nebst einer Erläuterung ihrer Funktion aufgelistet und 
 
 > [!primary]
 >
-Diese Anweisungen sind nur dann umsetzbar, wenn Ihre Domain die OVHcloud MX-Einträge ordnungsgemäß verwendet. Es sind auch abweichende Konfigurationen der Dienste möglich, die dann nicht zwangsläufig unserem Spam-Schutz unterliegen.
->
+> Diese Anweisungen sind nur dann umsetzbar, wenn Ihre Domain die OVHcloud MX-Einträge ordnungsgemäß verwendet. Es sind auch abweichende Konfigurationen der Dienste möglich, die dann nicht zwangsläufig unserem Spam-Schutz unterliegen.
 
 Erstellen Sie eine neue Regel durch Klicken auf das `+`{.action}-Symbol.
 

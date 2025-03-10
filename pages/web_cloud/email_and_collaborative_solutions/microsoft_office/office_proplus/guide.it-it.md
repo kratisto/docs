@@ -4,10 +4,6 @@ excerpt: Come installare e utilizzare Microsoft 365 aps su un desktop remoto (RD
 updated: 2021-09-06
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Vuoi utilizzare la suite software presente nel pack Microsoft 365 aps su una macchina remota o condivisa. Per effettuare l'installazione è necessario seguire la procedura descritta in questa guida.

@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie Ihre E-Mail-Accounts mit dem OVH Mail Migra
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie beim geringsten Zweifel die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button «Mitmachen» auf dieser Seite.
->
-
 ## Ziel
 
 [OVH Mail Migrator](https://omm.ovh.net/) ist ein von OVHcloud entwickeltes Tool. Sie können damit E-Mail-Accounts auf Ihre OVHcloud E-Mail-Accounts oder einen externen E-Mail-Dienst migrieren. Dabei können verschiedene Inhalte wie E-Mails, Kontakte, Kalender und Aufgaben übertragen werden, sofern diese mit Ihren E-Mail-Accounts kompatibel sind.

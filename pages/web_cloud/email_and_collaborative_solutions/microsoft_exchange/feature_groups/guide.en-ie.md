@@ -28,7 +28,12 @@ Exchange groups enable multiple participants to communicate by sending emails to
 
 ### Creating a new group
 
-First, log in to your [OVHcloud Control Panel](/links/manager), navigate to the `Webcloud`{.action} section, and select your Exchange service from the column under `Microsoft`{.action} `Exchange`{.action}. Click on the `Groups`{.action} tab in the horizontal menu.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
+1. Click on the `Groups`{.action} tab in the horizontal menu.
 
 ![contactgroups](images/exchange-groups-create01.png){.thumbnail .w-600 .h-600}
 

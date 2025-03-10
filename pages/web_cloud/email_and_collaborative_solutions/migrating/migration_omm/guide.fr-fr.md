@@ -56,7 +56,7 @@ Cliquez sur `Démarrer la migration`{.action} une fois les informations complét
 
 La page qui apparaît alors détaille le suivi de la migration. Pensez à conserver l'`Identifiant de migration`{.action} affiché et patientez jusqu'à ce que le processus arrive à son terme ; ce délai est variable selon le nombre d'éléments à migrer. Si vous souhaitez accéder de nouveau à ce suivi, poursuivez vers la section « Suivre une migration unique » ci-dessous.
 
-#### Suivre la migration  
+#### Suivre la migration
 
 Il existe deux chemins pour accéder au suivi d'une migration unique :
 

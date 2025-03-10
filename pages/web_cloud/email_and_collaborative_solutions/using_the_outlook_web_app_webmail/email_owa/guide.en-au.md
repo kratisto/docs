@@ -110,13 +110,13 @@ To manage rules, click on the gear icon at the top, then click on `Options`{.act
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list. 
+On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list.
 
-To add a new rule, click the `+`{.action} button. 
+To add a new rule, click the `+`{.action} button.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}. 
+Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -151,7 +151,6 @@ In the new window that pops up, enter your current password. Then enter a new pa
 > [!primary]
 >
 > Remember to also enter your new password on any device i.e. email client used to access this account. In case of any issues with your password, contact your service administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

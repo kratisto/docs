@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie eine Microsoft 365 Lizenz bestellen und in I
 updated: 2024-03-27
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Die OVHcloud Angebote für **Microsoft 365 Apps for Business** und **Microsoft 365 Apps for Enterprise** bieten mehrere Vorteile. Die Abrechnung erfolgt monatlich und Sie können eine Lizenz für 5 PCs/Macs, 5 Tablets und 5 Smartphones verwenden.
