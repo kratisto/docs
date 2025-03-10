@@ -95,7 +95,7 @@ Les échanges externes et internes avec votre environnement SAP peuvent être ch
 
 L'authentification au système SAP peut être effectuée à l'aide de diverses méthodes : mot de passe, l'authentification unique (SSO) avec Kerberos, LDAP ou SAML. Pour une sécurité optimale, utilisez un mécanisme d'authentification fort pour empêcher tout accès non autorisé au système SAP. Nous vous conseillons de réviser et de mettre à jour régulièrement les rôles et les privilèges pour assurer un contrôle d'accès approprié. L'activation des logs d'audit et leur externalisation peut être envisagé pour détecter et répondre aux comportements suspects. Vous pouvez vous reporter au [SAP Help Portal](https://help.sap.com/docs/ABAP_PLATFORM_NEW/025d1fb2f02c42c097f04f45df09106a/f64babd8c8a0489caf61c48d8bdc9478.html) pour obtenir plus d'informations sur la configuration et la gestion des logs d'audit dans votre environnement SAP.
 
-<sup>2</sup> La fonctionnalité Fault Tolerance est actuellement incompatible si votre machine virtuelle utilise un groupe de porst créé et géré par NSX ([Article 317806](https://knowledge.broadcom.com/external/article?articleNumber=317806)).
+<sup>2</sup> La fonctionnalité Fault Tolerance est actuellement incompatible si votre machine virtuelle utilise un groupe de ports créé et géré par NSX ([Article 317806](https://knowledge.broadcom.com/external/article?articleNumber=317806)).
 
 ### 4 - Infrastructure de sauvegarde
 
