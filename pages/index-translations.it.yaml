@@ -70,9 +70,10 @@ hosted-private-cloud-hosted-private-cloud-powered-by-vmware-vrops: VMware vROps
 hosted-private-cloud-sap-ovhcloud: SAP on OVHcloud
 hosted-private-cloud-sap-ovhcloud-concepts: Concetti
 hosted-private-cloud-sap-ovhcloud-getting-started: Per iniziare
-hosted-private-cloud-sap-ovhcloud-advanced-usage: Utilizzo avanzato
+hosted-private-cloud-sap-ovhcloud-automated-deployments: Implementazioni automatizzate
+hosted-private-cloud-sap-ovhcloud-resilience: Resilienza
 hosted-private-cloud-sap-ovhcloud-backups: Backups
-hosted-private-cloud-sap-ovhcloud-observability: Observability
+hosted-private-cloud-sap-ovhcloud-observability: Osservabilità
 ovhcloud-labs-data-collector: Data Collector
 ovhcloud-labs-data-collector-getting-started: Per iniziare
 ovhcloud-labs-power-web-hosting: POWER Web Hosting
