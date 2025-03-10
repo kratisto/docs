@@ -42,7 +42,7 @@ Si vous possédez un compte e-mail [Exchange OVHcloud](/links/web/emails-hosted-
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur la rubrique `MICROSOFT`{.action}.
+1. Cliquez sur la rubrique `Microsoft`{.action}.
 1. Cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 1. Dans l'onglet `Comptes e-mail`{.action}, cliquez sur le bouton `...`{.action} à droite du compte e-mail à exporter, puis sur `Exporter au format PST`{.action}.

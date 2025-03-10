@@ -22,7 +22,7 @@ Un **compte partagé** est une boîte e-mail partagée entre plusieurs comptes E
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur la rubrique `MICROSOFT`{.action}.
+1. Cliquez sur la rubrique `Microsoft`{.action}.
 1. Cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 

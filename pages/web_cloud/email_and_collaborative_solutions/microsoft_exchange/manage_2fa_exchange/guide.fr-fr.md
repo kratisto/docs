@@ -35,7 +35,7 @@ Lors d'une première configuration, il est nécessaire d'activer la double authe
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur la rubrique `MICROSOFT`{.action}.
+1. Cliquez sur la rubrique `Microsoft`{.action}.
 1. Cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 1. Sélectionnez l'onglet `Sécurité`{.action} de votre plateforme.
@@ -66,7 +66,7 @@ La double authentification de votre compte peut être désactivée de trois mani
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 1. Cliquez sur l'onglet `Web Cloud`{.action}.
-1. Cliquez sur la rubrique `MICROSOFT`{.action}.
+1. Cliquez sur la rubrique `Microsoft`{.action}.
 1. Cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 1. Depuis l'onglet `Comptes e-mail`{.action} de votre plateforme Exchange, cliquez sur `...`{.action} à droite du compte sur lequel la double authentification est déjà active.
