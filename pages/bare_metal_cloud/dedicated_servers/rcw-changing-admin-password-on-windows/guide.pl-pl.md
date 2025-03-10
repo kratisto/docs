@@ -1,7 +1,7 @@
 ---
 title: "Jak zresetować hasło administratora za pomocą Rescue-Customer-Windows"
 excerpt: "Jak zresetować hasło administratora za pomocą Rescue-Customer-Windows"
-updated: 2024-11-15
+updated: 2025-03-06
 ---
 
 
@@ -11,15 +11,15 @@ Niniejszy przewodnik wyjaśnia, jak zresetować hasło `Administrator` przy uży
 
 ## Wymagania początkowe
 
-- Posiadanie [serwera dedykowanego](/links/bare-metal/bare-metal) zainstalowanego z wersją systemu Microsoft Windows.
-- Serwer musi mieć więcej niż 16 GB pamięci RAM.
-- Dostęp do [panelu klienta OVHcloud](/links/manager).
+- Microsoft Windows Server 2016 lub nowszy zainstalowany na Twoim [serwerze dedykowanym](/links/bare-metal/bare-metal)
+- Dostęp do [panelu klienta OVHcloud](/links/manager)
 
 > [!warning]
 >
-> Ten przewodnik nie jest kompatybilny z trybem `WinPE Rescue` (WinRescue).
-> Sprawdź [ten przewodnik](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows), jeśli korzystasz z trybu `WinPe Rescue` (WinRescue).
+> Niniejszy przewodnik nie dotyczy systemu Windows **stary system Windows rescue (tryb Rescue WinPE)** (szczegółowe informacje na ten temat można znaleźć w [przewodniku trybu Rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)).
 >
+> Jeśli ta wersja systemu Windows Server nie jest obsługiwana, aktywowanie bieżącego systemu rescue dla Windows może nie być możliwe. W takim przypadku zapoznaj się z przewodnikiem [Jak zresetować hasło administratora Windows za pomocą systemu Windows Rescue *legacy*](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows).  
+> Znajdziesz tam również alternatywną metodę resetowania hasła administratora za pomocą systemu rescue customer OVHcloud opartego na Debianie.
 
 ## W praktyce
 

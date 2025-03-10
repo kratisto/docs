@@ -1,7 +1,7 @@
 ---
 title: "Administrator-Passwort eines Windows Servers mit dem Windows Customer Rescue System zurücksetzen"
 excerpt: "Erfahren Sie hier, wie Sie den OVHcloud Windows-Rescue-Modus verwenden, um das Passwort des Administrator-Accounts auf einem Windows Dedicated Server zurückzusetzen"
-updated: 2024-11-15
+updated: 2025-03-06
 ---
 
 ## Ziel
@@ -18,7 +18,7 @@ Diese Anleitung erklärt, wie Sie das Passwort für den Administrator-Account mi
 > Diese Anleitung ist nicht anwendbar für das **Legacy Windows Rescue System (WinPE-Rescue-Modus)** (Details dazu in der [Anleitung zum Rescue-Modus](/pages/bare_metal_cloud/dedicated_servers/rescue_mode)).
 >
 > Wenn Ihre Windows Server-Version nicht mehr unterstützt wird, ist das aktuelle Rescue-System für Windows nicht aktivierbar. In diesem Fall konsultieren Sie stattdessen unsere Anleitung zum [Zurücksetzen des Administrator-Accounts mit dem Legacy Windows Rescue System](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows).  
-> Eine alternative Methode zum Zurücksetzen des Administrator-Passworts mit dem Debian-basierten OVHcloud Rescue-Modus wird ebenfalls in [dieser Anleitung](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) erklärt.
+> Dieselbe Anleitung erläutert auch eine alternative Methode zum Zurücksetzen des Administrator-Passworts mit dem Debian-basierten OVHcloud Rescue-Modus.
 
 ## In der praktischen Anwendung
 

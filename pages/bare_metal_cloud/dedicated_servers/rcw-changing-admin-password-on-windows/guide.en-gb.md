@@ -18,7 +18,7 @@ This guide will help you to reset your `Administrator` account password with the
 > This guide is not applicable to the **legacy Windows rescue system (WinPE rescue mode)** (see the [rescue mode guide](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) for details).
 >
 > If your Windows Server version is out of support, you might not be able to activate the current rescue system for Windows. In this case, please refer to our guide page on [how to reset the Windows Administrator password with the legacy Windows rescue system](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) instead.  
-> An alternative method to reset the Administrator password using the OVHcloud customer rescue system based on Debian is explained also in [this guide](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows).
+> The same guide explains an alternative method for resetting the Administrator password using the OVHcloud customer rescue system based on Debian.
 
 ## Instructions
 

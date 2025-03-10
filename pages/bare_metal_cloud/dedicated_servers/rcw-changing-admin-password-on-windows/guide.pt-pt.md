@@ -1,7 +1,7 @@
 ---
 title: "Como redefinir a palavra-passe de administrador com o Rescue-Customer-Windows"
 excerpt: "Como redefinir a palavra-passe de administrador com o Rescue-Customer-Windows"
-updated: 2024-11-15
+updated: 2025-03-06
 ---
 
 ## Objetivo
@@ -10,15 +10,17 @@ Este manual explica como reinicializar a palavra-passe "Administrator" graças a
 
 ## Requisitos
 
-- O Microsoft Windows deve estar instalado no seu [servidor dedicado](/links/bare-metal/bare-metal)
-- Ter pelo menos 16GB de RAM no seu servidor
-- Ter acesso a [Área de Cliente OVHcloud](/links/manager)
+- Microsoft Windows Server 2016 ou superior instalado no seu [servidor dedicado](/links/bare-metal/bare-metal)
+- Acesso à [Área de Cliente OVHcloud](/links/manager)
 
 > [!warning]
 >
-> Este manual não é compatível com o modo `WinPE Rescue` (WinRescue).
-> Consulte [este manual](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) se utilizar o modo `WinPe Rescue` (WinRescue).
+> Este manual não é aplicável ao **antigo sistema Windows rescue (modo rescue WinPE)** (ver [manual do modo rescue](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) para mais informações).
 >
+> Se não for suportada a sua versão do Windows Server, poderá não conseguir ativar o sistema de rescue atual do Windows. Neste caso, consulte o nosso manual [como redefinir a palavra-passe do administrador Windows com o sistema Windows rescue *legacy*](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows).  
+> Encontrará também um método alternativo para reinicializar a palavra-passe de administrador através do sistema rescue customer OVHcloud baseado em Debian.
+
+
 
 ## Instruções
 

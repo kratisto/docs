@@ -1,7 +1,7 @@
 ---
 title: "Cómo restablecer la contraseña de administrador con Rescue-Customer-Windows"
 excerpt: "Cómo restablecer la contraseña de administrador con Rescue-Customer-Windows"
-updated: 2024-11-15
+updated: 2025-03-06
 ---
 
 ## Objetivo
@@ -10,15 +10,15 @@ Esta guía explica cómo restaurar la contraseña de `Administrator` con **Windo
 
 ## Requisitos
 
-- Microsoft Windows debe estar instalado en su [servidor dedicado](/links/bare-metal/bare-metal)
-- Disponer de al menos 16 GB de RAM en el servidor
-- Estar conectado al [área de cliente de OVHcloud](/links/manager)
+- Microsoft Windows Server 2016 o superior instalado en su [servidor dedicado](/links/bare-metal/bare-metal)
+- Acceso al [área de cliente de OVHcloud](/links/manager)
 
 > [!warning]
 >
-> Esta guía no es compatible con el modo `WinPE Rescue` (WinRescue).
-> Consulte [esta guía](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) si utiliza el modo `WinPe Rescue` (WinRescue).
+> Esta guía no se aplica al sistema Windows rescue antiguo (modo de rescate WinPE)** (consulte la [guía del modo de rescate](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) para obtener más información).
 >
+> Si su versión de Windows Server no es compatible, es posible que no pueda activar el sistema de rescate actual para Windows. En este caso, consulte [nuestra guía sobre cómo restaurar la contraseña de administrador de Windows con el sistema Windows rescue *legacy*](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows).  
+> También encontrará un método alternativo para restaurar la contraseña de administrador con el sistema de rescate customer de OVHcloud basado en Debian.
 
 ## Procedimiento
 
