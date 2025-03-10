@@ -1,7 +1,7 @@
 ---
 title: 'Zabezpieczenie konta OVHcloud i zarządzanie danymi osobowymi'
 excerpt: 'Dowiedz się, jak zoptymalizować bezpieczeństwo konta OVHcloud, zarządzać danymi osobowymi i delegować dostęp do konta.'
-updated: 2021-07-01
+updated: 2025-03-10
 ---
 
 ## Wprowadzenie
@@ -53,11 +53,9 @@ Jeśli jeszcze tego nie zrobiłeś, zapisz hasło w [menedżerze haseł](/pages/
 W przypadku problemów z dostępem do Twojego głównego konta e-mail, zapasowy adres e-mail umożliwia zachowanie dostępu do Twojego konta, a tym samym zarządzanie usługami.
 <br>Ten drugi adres **musi być inny** niż pierwszy, w szczególności w celu ułatwienia wykonania kroków w przypadku odzyskania hasła.
 
-Aby wprowadzić ten adres zapasowy, kliknij Twoją nazwę w prawym górnym rogu konta, a następnie kliknij Twoje inicjały.
+Aby wprowadzić ten adres zapasowy, klikając w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) Twoje nazwisko, a następnie wybierając `Dostęp do konta`{.action}.
 
-Następnie w ramce `Mój profil` kliknij przycisk `...`{.action} a następnie `Edytuj profil`{.action}.
-
-![zapasowy adres e-mail](images/edit-profile.png){.thumbnail}
+W sekcji `Mój profil`{.action} po prawej stronie ekranu (kliknij ponownie nazwę, aby usunąć menu po lewej stronie), kliknij `Edytuj moj profil`{.action}.
 
 > [!warning]
 > Przypominamy, że **ważne** jest, aby zapasowy adres e-mail był **inny** niż główny adres e-mail przypisany do konta.
@@ -78,11 +76,9 @@ Wszystkie informacje, które chcesz aktywować w przewodniku "[Zabezpieczenie ko
 
 #### Zmiana danych osobowych
 
-Możesz zmienić informacje o swoim koncie w Panelu [klienta OVHcloud](/links/manager). W tym celu kliknij Twoją nazwę w prawym górnym rogu Panelu klienta, a następnie swoje inicjały.
+Możesz zmienić informacje o swoim koncie w Panelu [klienta OVHcloud](/links/manager). W tym celu klikając w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) Twoje nazwisko, a następnie wybierając `Dostęp do konta`{.action}.
 
-Kliknij przycisk `...`{.action} w ramce `Mój profil`, a następnie `Edytuj profil`{.action}.
-
-![identyfikator klienta](images/edit-profile.png){.thumbnail}
+W sekcji `Mój profil`{.action} po prawej stronie ekranu (kliknij ponownie nazwę, aby usunąć menu po lewej stronie), kliknij `Edytuj moj profil`{.action}.
 
 Zmień dane, a następnie kliknij przycisk `Potwierdź`{.action}.
 

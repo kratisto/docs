@@ -55,11 +55,11 @@ Si vous ne l'avez pas encore fait, sauvegardez votre mot de passe dans un [gesti
 En cas de difficulté d'accès à votre adresse e-mail principale, une adresse e-mail de secours permet de conserver l'accès à votre compte et donc à la gestion de vos services.
 <br>Cette seconde adresse **doit être différente** de la première, notamment pour faciliter vos démarches en cas de récupération de mot de passe.
 
-Pour renseigner cette adresse e-mail de secours, cliquez sur votre nom en haut à droite de votre compte puis cliquez sur vos initiales.
+Pour renseigner cette adresse e-mail de secours, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-Cliquez alors, dans le cadre `Mon profil` sur le bouton `...`{.action} puis sur `Éditer mon profil`{.action}.
+Cliquez alors sur `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
 
-![adresse e-mail de secours](images/edit-profile.png){.thumbnail}
+Vous aurez ainsi accès aux informations personnelles de votre compte. Faites défiler l'écran jusqu'à la rubrique `Vos informations de contact` pour trouver le champ `E-mail de secours`, en-dessous du champ dédié à l'adresse e-mail principale. 
 
 > [!warning]
 > Pour rappel, il est **primordial** que l'adresse e-mail de secours soit **différente** de l'adresse e-mail principale du compte.
