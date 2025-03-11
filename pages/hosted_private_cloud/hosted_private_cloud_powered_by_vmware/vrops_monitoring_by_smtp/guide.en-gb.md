@@ -1,7 +1,7 @@
 ---
 title: "Configuring a vROps alert via the SMTP protocol"
 excerpt: "Find out how to create an outbound SMTP alert in vROps"
-updated: 2023-12-04
+updated: 2025-03-11
 ---
 
 ## Objective
@@ -11,7 +11,7 @@ updated: 2023-12-04
 ## Requirements
 
 - A working SMTP server
-- STMP flows allowed between  your SMTP server and your vROps instance
+- SMTP flows allowed between your SMTP server and your vROps instance
 
 ## Instructions
 
@@ -34,8 +34,8 @@ Fill in the API call fields. If the results are not as expected, check your serv
 | :-: | :-: |
 | serviceName | Domain of the service |
 | description | Outgoing flow description (for example, here connect to SMTP) |
-| ip | IP address of the remote service, e.g 123.100.200.0 |
-| servicePort | Remote service port (25,465,587 or 2525 for SMTP) |
+| ip | IP address of the remote service, e.g., 123.100.200.0 |
+| servicePort | Remote service port (587) |
 
 ![FlowApi](images/vrops_flow_api.png){.thumbnail}
 
@@ -75,7 +75,7 @@ A series of options will appear, just fill in the fields.
 
 >[!warning]
 >
-> For the sake of this documentation, no authentication has been configured on the SMTP server.
+> For demonstration purposes, authentication has not been configured on the SMTP server.
 > However, for obvious security reasons, we strongly advise you to do so!
 >
 
