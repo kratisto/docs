@@ -35,7 +35,7 @@ Die Migration eines MX Plan E-Mail-Accounts auf einen Zimbra E-Mail-Account erfo
 
 Im folgenden Beispiel migrieren wir die Adresse `kontakt@mydomain.ovh`. Dazu erstellen wir den Zimbra Account unter dem Namen `contact2@mydomain.ovh`.
 
-![Zimbra](images/Zimbra_migration_mxplan.png){.thumbnail}
+![Zimbra](images/zimbra_migration_mxplan.png){.thumbnail}
 
 ### 1.1 - Erstellung eines Zimbra E-Mail-Accounts <a name="step11"></a>
 

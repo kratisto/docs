@@ -25,12 +25,12 @@ W ramach stopniowego przechodzenia z kont MX Plan do Zimbra, można przewidzieć
 Migracja konta e-mail MX Plan na konto e-mail Zimbra odbywa się w 2-etapowym procesie. Aby uniknąć przerwy w otrzymywaniu wiadomości na oryginalny adres e-mail, należy zastosować się do następującego procesu:
 
 1. **Przeniesienie zawartości konta MX Plan na konto Zimbra**
-- [1.1 - Tworzenie konta e-mail Zimbra](#step11)
-- [1.2 - Migracja e-maili za pomocą OVH Mail Migrator](#step12)
-- [1.3 - Kopia zapasowa e-maili konta źródłowego (opcjonalnie)](#step13)
+    - [1.1 - Tworzenie konta e-mail Zimbra](#step11)
+    - [1.2 - Migracja e-maili za pomocą OVH Mail Migrator](#step12)
+    - [1.3 - Kopia zapasowa e-maili konta źródłowego (opcjonalnie)](#step13)
 2. **Usuń oryginalne konto MX Plan i przypisz adres do konta Zimbra**
-- [2.1 - Usuwanie starego adresu e-mail MX Plan](#step21)
-- [2.2 - Zmień nazwę adresu e-mail Zimbra](#step22)
+    - [2.1 - Usuwanie starego adresu e-mail MX Plan](#step21)
+    - [2.2 - Zmień nazwę adresu e-mail Zimbra](#step22)
 
 W poniższym przykładzie przenosimy adres `contact@modomain.ovh`. W tym celu utworzymy konto Zimbra pod nazwą `contact2@mydomain.ovh`.
 
@@ -61,7 +61,7 @@ Na stronie <https://omm.ovh.net/> w zakładce `Migration`{.action} kliknij `Nowa
 #### Etap 2: Wpisz informacje dotyczące migracji
 
 |Informacje|Opis|
-|---|---| 
+|---|---|
 |Typ serwera|Wybierz typ serwera odpowiadający Twoim kontom. Jeśli jedno z kont jest kontem klienta OVHcloud (**Hosted by OVHcloud (Autodetect)**), informacje mogą zostać automatycznie uzupełnione za wyjątkiem hasła. Wybierz `Zimbra` dla typu serwera docelowego.|
 |Adres URL serwera|Wpisz adres serwera, na którym hostowane są Twoje konta. Pole to może zostać automatycznie uzupełnione podczas wybierania typu serwera.|
 |Login source|Wpisz pełny adres e-mail (`contact@mojadomena.ovh`).|
@@ -88,7 +88,7 @@ Aby śledzić migrację pojedynczych kont, możesz skorzystać z jednej z dwóch
 - Z poziomu wiadomości e-mail informującej o postępie migracji.
 - Ze strony <https://omm.ovh.net/>. W zakładce `Migration`{.action} kliknij `Śledź / Synchronizuj`{.action}. Wpisz `Identyfikator migracji`{.action} oraz `Konto źródłowe`{.action}.
 
-![omm](obrazy/omm-migracja-track.png){.thumbnail}
+![omm](images/omm-migracja-track.png){.thumbnail}
 
 Strona, która się wyświetla pozwala śledzić postępy migracji. Zobaczysz komunikat, który poinformuje Cię, że operacja się rozpoczęła, jest w toku lub że się zakończyła. W zależności od statusu, możliwych jest kilka różnych działań:
 
@@ -96,7 +96,7 @@ Strona, która się wyświetla pozwala śledzić postępy migracji. Zobaczysz ko
 - `Usuń elementy migrowane`{.action} : umożliwia usunięcie elementów już przeniesionych na konto docelowe. Możesz usunąć elementy, korzystając z określonego punktu synchronizacji.
 - `Synchronizuj`{.action} : umożliwia pobranie nowych elementów, nieprzeniesionych podczas poprzedniej synchronizacji konta źródłowego i konta docelowego. Operację tę można uznać za migrację brakujących elementów z konta źródłowego na konto docelowe.
 
-Aby przeprowadzić migrację z użyciem pliku lub wielu plików, zapoznaj się z sekcjami "Migracja z użyciem pliku" i "Migracja z użyciem wielu plików (tryb projektu)" w naszym przewodniku "[Migracja kont e-mail za pomocą OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_com)".
+Aby przeprowadzić migrację z użyciem pliku lub wielu plików, zapoznaj się z sekcjami "Migracja z użyciem pliku" i "Migracja z użyciem wielu plików (tryb projektu)" w naszym przewodniku "[Migracja kont e-mail za pomocą OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm)".
 
 > [!primary]
 >

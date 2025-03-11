@@ -113,7 +113,7 @@ Utilice las opciones de exportación de su cliente de correo. En nuestra guía "
 
 ### 2.1 - Eliminación de la antigua dirección de correo MX Plan <a name="step21"></a>
 
-Para eliminar la dirección de correo electrónico MX Plan (p. ej.: `contact@mydomain.ovh`), siga nuestra guía "[Eliminar una cuenta de correo electrónico](/pages/web_cloud/email_and_colaborative_solutions/common_email_features/email_reset_account) ".
+Para eliminar la dirección de correo electrónico MX Plan (p. ej.: `contact@mydomain.ovh`), siga nuestra guía "[Eliminar una cuenta de correo electrónico](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/email_reset_account) ".
 
 > [!warning]
 >
