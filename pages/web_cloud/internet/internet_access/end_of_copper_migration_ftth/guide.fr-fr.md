@@ -1,7 +1,7 @@
 ---
-title: 'Fin du cuivre : comment migrer mon offre xDSL vers la fibre'
-excerpt: 'Découvrez comment migrer votre connexion xDSL vers la fibre optique en raison de la fermeture progressive du réseau cuivre.'
-updated: 2025-03-11
+title: 'Fin du cuivre - Comment migrer mon offre xDSL vers la fibre'
+excerpt: 'Découvrez comment migrer votre connexion xDSL vers la fibre optique en raison de la fermeture progressive du réseau cuivre'
+updated: 2025-03-12
 ---
 
 ## Objectif
@@ -10,28 +10,28 @@ Le réseau téléphonique cuivre, utilisé depuis des décennies pour fournir de
 Cette transition offre aux utilisateurs une connectivité plus rapide et plus fiable. D'ici 2030, le réseau cuivre sera entièrement démantelé, rendant nécessaire la migration vers la fibre optique.<br>
 Vous retrouverez dans ce guide les étapes clés pour assurer une transition en douceur vers la fibre optique, en tenant compte des spécificités de votre situation et des offres disponibles chez OVHcloud.
 
-**Découvrez comment migrer votre connexion xDSL vers la fibre optique.**
-
-## Prérequis
-
-- Disposer d'un accès xDSL (ADSL/VDSL) actif.
-- Disposer d'une offre éligible au changement d'offre.
-- Être connecté à l'[espace client OVHcloud](/links/manager), partie `Télécom`.
-
-## En pratique
-
 ### Pourquoi cette fermeture ?
 
 - **Obsolescence** : l'entretien du réseau cuivre est coûteux en raison d'infrastructures vieillissantes.
 - **Amélioration des performances** : la fibre optique offre un débit plus stable et plus rapide.
 - **Objectif de transition numérique** : l'ARCEP encourage le passage progressif vers des solutions plus modernes.
 
-L'arrêt progressif du cuivre implique l'extinction des offres xDSL dans certaines zones.
+L'arrêt progressif du cuivre implique l'extinction des offres xDSL dans certaines zones.<br>
 Il est possible de demander une migration vers une offre fibre sous réserve d'éligibilité.
+
+**Découvrez comment migrer votre connexion xDSL vers la fibre optique.**
+
+## Prérequis
+
+- Disposer d'un accès xDSL (ADSL/VDSL) actif.
+- Disposer d'une offre éligible au changement d'offre.
+- Être connecté à l'[espace client OVHcloud](/links/manager), partie `Télécom`{.action}.
+
+## En pratique
 
 ### Vérifier si votre accès est concerné
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) et accédez à l'onglet `Télécom`.
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et accédez à l'onglet `Télécom`{.action}.
 
 La page qui s'affiche indique la date de fermeture du cuivre pour chacun de vos accès à Internet et si la migration vers la fibre est possible.
 
@@ -92,8 +92,8 @@ L'absence de la colonne `Fibre Pro` dans le tableau `Changement d'offre` **ne si
 - Référence OTP.
 - Référence bâtiment.
 
-> [!warning]
-> Pour des raisons techniques, il se peut que le résultat de votre éligibilité ne soit pas fiable. Afin de confirmer avec certitude votre éligibilité à la fibre, vérifiez directement sur le [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external}.
+**Pour des raisons techniques, il se peut que le résultat de votre éligibilité ne soit pas fiable.**<br>
+Afin de confirmer avec certitude votre éligibilité à la fibre, vérifiez directement sur le [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external}.
 
 Une fois sur le site de l'ARCEP :
 
@@ -101,10 +101,10 @@ Une fois sur le site de l'ARCEP :
 2. Accédez à l'onglet **Déploiement fibre**.
 3. Identifiez votre bâtiment. Si la pastille est de couleur verte, vous êtes éligible à la fibre (voir légende en bas à droite de la carte).
 4. Cliquez sur votre bâtiment. Parmi les informations qui s'affichent, notez l'**Identifiant immeuble IPE** associé à votre adresse (ex : `HT-BAT-012AB`).
-5. Déménagez votre accès vers l'adresse indiquée sur le site de l'ARCEP, en suivant notre guide [Comment déménager mon accès xDSL/FTTH](/pages/web_cloud/internet/internet_access/comment_demenager_mon_acces_xdsl) et choisissez l'offre Fibre Pro.
-6. En cas de doute, contactez le support OVHcloud via un [ticket](/links/support) en précisant :
+5. Déménagez votre accès vers l'adresse indiquée sur le site de l'ARCEP, en suivant notre guide [Comment déménager mon accès xDSL/FTTH](/pages/web_cloud/internet/internet_access/comment_demenager_mon_acces_xdsl) et choisissez l'offre Fibre Pro. Une fois votre adresse postale renseignée, l'**Identifiant immeuble IPE** correspondant est alors affiché. Vérifiez qu'il est identique à l'identifiant préalablement noté sur le site de l'ARCEP.
+6. En cas de doute ou si l'identifiant ne correspond pas, contactez le support OVHcloud via un [ticket](/links/support) en précisant :
     - La référence de votre accès xDSL.
-    - L'**Identifiant immeuble IPE**.
+    - L'**Identifiant immeuble IPE** de votre adresse.
 
 L'équipe OVHcloud vous aidera à finaliser votre migration vers la fibre.
 

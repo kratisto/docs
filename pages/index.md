@@ -1501,7 +1501,7 @@
                 + [Activer l'adresse IPv6 d'une connexion internet OVHcloud](web_cloud/internet/internet_access/comment_gerer_ipv6)
             + [Managing your offer](web-cloud-internet-internet-access-managing-your-offer)
                 + [Comment changer mon offre xDSL/FTTH](web_cloud/internet/internet_access/comment_changer_mon_offre_xdsl)
-                + [Fin du cuivre : comment migrer mon offre xDSL vers la fibre](web_cloud/internet/internet_access/end_of_copper_migration_ftth)
+                + [Fin du cuivre - Comment migrer mon offre xDSL vers la fibre](web_cloud/internet/internet_access/end_of_copper_migration_ftth)
                 + [Comment déménager mon accès xDSL/FTTH](web_cloud/internet/internet_access/comment_demenager_mon_acces_xdsl)
                 + [Comment résilier un accès xDSL/FTTH](web_cloud/internet/internet_access/comment_resilier_mon_acces_xdsl)
             + [Managing your options](web-cloud-internet-internet-access-managing-your-options)
