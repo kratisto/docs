@@ -1,7 +1,7 @@
 ---
-title: "Configuring a vROps alert by the smtp protocol"
-excerpt: "Find out how to create an Outbound Smtp alert in vROps"
-updated: 2023-12-04
+title: "Configuring a vROps alert via the SMTP protocol"
+excerpt: "Find out how to create an outbound SMTP alert in vROps"
+updated: 2025-03-11
 ---
 
 ## Objective
@@ -11,7 +11,7 @@ updated: 2023-12-04
 ## Requirements
 
 - A working SMTP server
-- STMP flows allowed between  your SMTP server and your vROps instance
+- SMTP flows allowed between your SMTP server and your vROps instance
 
 ## Instructions
 
@@ -19,7 +19,7 @@ updated: 2023-12-04
 
 The first step is to open a *flow* on the OVHcloud API to enable vROps to communicate with your SMTP server.
 
-You can check that the flow has been opened using this [endpoint](https://api.ovh.com/console/#/dedicatedCloud/%7BserviceName%7D/vrops/outgoingFlow/%7BoutgoingFlowId%7D~GET).
+You can check that the flow has been opened using this [endpoint](https://ca.api.ovh.com/console/#/dedicatedCloud/%7BserviceName%7D/vrops/outgoingFlow/%7BoutgoingFlowId%7D~GET).
 
 To do this, use the following API call:
 
@@ -34,8 +34,8 @@ Fill in the API call fields. If the results are not as expected, check your serv
 | :-: | :-: |
 | serviceName | Domain of the service |
 | description | Outgoing flow description (for example, here connect to SMTP) |
-| ip | IP address of the remote service, e.g 123.100.200.0 |
-| servicePort | Remote service port (25,465,587 or 2525 for SMTP) |
+| ip | IP address of the remote service, e.g., 123.100.200.0 |
+| servicePort | Remote service port (587) |
 
 ![FlowApi](images/vrops_flow_api.png){.thumbnail}
 
@@ -75,7 +75,7 @@ A series of options will appear, just fill in the fields.
 
 >[!warning]
 >
-> For the sake of this documentation, no authentication has been configured on the SMTP server.
+> For demonstration purposes, authentication has not been configured on the SMTP server.
 > However, for obvious security reasons, we strongly advise you to do so!
 >
 
@@ -95,6 +95,6 @@ You can modify an existing alert by clicking on it from the menu.
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-sg/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
