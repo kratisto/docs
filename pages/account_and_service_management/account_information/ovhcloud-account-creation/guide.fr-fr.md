@@ -1,7 +1,7 @@
 ---
 title: 'Créer un compte OVHcloud'
 excerpt: 'Découvrez comment créer votre compte OVHcloud'
-updated: 2024-09-09
+updated: 2025-03-10
 ---
 
 ## Objectif
@@ -51,7 +51,7 @@ Votre compte créé, vous serez automatiquement connecté sur la page d'accueil,
 
 Chaque compte client OVHcloud est associé à un identifiant unique, aussi appelé *NIC-handle*.
 
-Il est le plus souvent composé de deux lettres suivies de chiffres. Par exemple : **xx11111-ovh**.<br>
+Il est le plus souvent composé de deux lettres suivies de chiffres. Par exemple : **aa00000-ovh**.<br>
 Pour la plupart des comptes en dehors de l'Europe, il est souvent remplacé par l'adresse e-mail principale renseignée dans le compte OVHcloud.
 
 Cet identifiant client vous permet :
@@ -59,10 +59,6 @@ Cet identifiant client vous permet :
 - de réaliser des commandes en ligne ;
 - de vous connecter à votre espace client pour gérer l'ensemble de vos services ;
 - de vous identifier lors de votre prise de contact avec le support OVHcloud et ainsi faciliter le traitement de vos questions.
-
-Votre identifiant client est affiché en haut à droite sous votre nom et votre adresse e-mail.
-
-![identifiant client](images/nic-handle.png){.thumbnail}
 
 > [!warning]
 > Prenez bien note de votre identifiant car vous en aurez besoin pour chaque connexion à votre compte.

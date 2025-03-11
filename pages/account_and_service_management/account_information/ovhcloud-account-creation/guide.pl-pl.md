@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie konta OVHcloud'
 excerpt: 'Dowiedz się, jak założyć konto OVHcloud'
-updated: 2024-09-09
+updated: 2025-03-10
 ---
 
 ## Wprowadzenie
@@ -51,7 +51,7 @@ Twoje konto zostało utworzone, po zalogowaniu się do strony głównej konta, z
 
 Każde konto klienta OVHcloud jest przypisane do unikalnego identyfikatora, zwanego również *identyfikatorem klienta*.
 
-Identyfikator składa się najczęściej z dwóch liter i następujących po nich cyfr. Na przykład: **xx11111-ovh**.<br>
+Identyfikator składa się najczęściej z dwóch liter i następujących po nich cyfr. Na przykład: **aa00000-ovh**.<br>
 W przypadku większości kont spoza Europy jest on często zastępowany głównym adresem e-mail podanym w koncie OVHcloud.
 
 Ten identyfikator klienta pozwala na:
@@ -59,10 +59,6 @@ Ten identyfikator klienta pozwala na:
 - składać zamówienia online;
 - zalogować się do panelu klienta, aby zarządzać wszystkimi Twoimi usługami;
 - zalogować się podczas kontaktu z zespołem obsługi klienta OVHcloud, co ułatwia rozpatrywanie pytań.
-
-Identyfikator klienta jest wyświetlany w prawym górnym rogu pod Twoją nazwą i adresem e-mail.
-
-![identyfikator klienta](images/nic-handle.png){.thumbnail}
 
 > [!warning]
 > Zapisz się na swój identyfikator klienta, ponieważ będziesz potrzebował go przy każdym logowaniu do konta.
