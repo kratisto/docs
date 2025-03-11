@@ -1,7 +1,7 @@
 ---
-title: "Configurer une alert vROps via le protocol smtp"
-excerpt: "Découvrez comment créer une alerte Outbound Smtp dans vROps"
-updated: 2023-12-04
+title: "Configurer une alerte vROps via le protocole SMTP"
+excerpt: "Découvrez comment créer une alerte sortante SMTP dans vROps"
+updated: 2025-03-11
 ---
 
 ## Objectif
@@ -11,7 +11,7 @@ updated: 2023-12-04
 ## Prérequis
 
 - Avoir un serveur SMTP fonctionnel
-- Autoriser les flux STMP entre votre serveur SMTP et votre instance vROps
+- Autoriser les flux SMTP entre votre serveur SMTP et votre instance vROps
 
 ## En pratique
 
@@ -19,7 +19,7 @@ updated: 2023-12-04
 
 La première étape est d'ouvrir un flux (*Flow*) sur l'API OVHcloud pour permettre à vROps de communiquer avec votre serveur SMTP.
 
-Vous pouvez controler que le flux a bien été ouvert grâce à ce [endpoint](https://api.ovh.com/console/#/dedicatedCloud/%7BserviceName%7D/vrops/outgoingFlow/%7BoutgoingFlowId%7D~GET).
+Vous pouvez contrôler que le flux a bien été ouvert grâce à ce [endpoint](https://ca.api.ovh.com/console/#/dedicatedCloud/%7BserviceName%7D/vrops/outgoingFlow/%7BoutgoingFlowId%7D~GET).
 
 Pour cela, utilisez l'appel API suivant :
 
@@ -35,7 +35,7 @@ Complétez les champs de l'appel API. Si les résultats ne sont pas escomptés, 
 | serviceName | nom de domaine du service |
 | description | description du flux sortant (à mettre en rapport avec votre SMTP par exemple) |
 | ip | l'adresse IP du service distant, par exemple 123.100.200.0 |
-| servicePort | le port du service distant (de base 25, 465, 587 ou 2525 pour le SMTP) |
+| servicePort | le port du service distant (de base 587) |
 
 ![FlowApi](images/vrops_flow_api.png){.thumbnail}
 
@@ -55,7 +55,7 @@ Vous arrivez sur un récapitulatif de tous vos paramètres Outbound Settings. Cl
 ![AddButton](images/vrops_add_button.png)
 
 Au niveau de l'option `Plugin Type`, sélectionnez `Standard Email Plugin`{.action}.
-Une série d'options va apparaitre, complétez les champs indiqués.
+Une série d'options va apparaître, complétez les champs indiqués.
 
 | Option | Description |
 | :-: | :-: |
@@ -75,7 +75,7 @@ Une série d'options va apparaitre, complétez les champs indiqués.
 >[!warning]
 >
 > Pour la réalisation de cette documentation, aucune authentification n'a été configurée sur le serveur SMTP.
-> Cependant, pour des questions évidentes de sécurité, il est fortement conseillé d'en configurer une.
+> Cependant, pour des raisons évidentes de sécurité, il est fortement conseillé d'en configurer une.
 >
 
 Vous pouvez tester votre configuration avec le bouton `Test`{.action} situé en bas de la page.
@@ -94,6 +94,6 @@ Vous pouvez modifier une alerte existante en cliquant sur celle-ci depuis le men
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
