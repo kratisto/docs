@@ -1,7 +1,7 @@
 ---
 title: 'Managing contacts for your services'
 excerpt: 'Find out how to manage contacts for your OVHcloud services'
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 ## Objective
@@ -24,7 +24,7 @@ There are three different contact types:
 - **The technical contact** only manages the technical aspects of a service.
 - **The billing contact** only manages the billing aspects of a service. Notably, this contact receives renewal notifications for services. 
 
-The NIC handle is a personal username that you receive via email when you create a customer account with OVHcloud. It is usually made up of two letters followed by numbers, in the format **xx11111-ovh**. When you order services, this NIC handle is used as a contact.
+The NIC handle is a personal username that you receive via email when you create a customer account with OVHcloud. It is usually made up of two letters followed by numbers, in the format **aa00000-ovh**. When you order services, this NIC handle is used as a contact.
 
 ![Contact management](images/managing_contacts_scheme.png){.thumbnail}
 
@@ -44,7 +44,7 @@ The NIC handle is a personal username that you receive via email when you create
 
 ### Access contact management <a name="gestion_des_contacts"></a>
 
-Log in to the [OVHcloud Control Panel](/links/manager){.external}, click on the name linked to your NIC handle (Customer ID) in the menu bar in the top right-hand corner, then click `Contact management`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}.
 
 ![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -85,7 +85,7 @@ You can only add another billing contact to replace you. Confirmation is require
 
 ### Confirm, decline or track a contact change.
 
-To track and manage ongoing requests, click on the `My requests`{.action} tab. Here, you can accept or decline a request.
+To track and manage ongoing requests, log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}. Click on the `My requests`{.action} tab. Here, you can accept or decline a request.
 
 ![Contact management](images/managing_contacts_05.png){.thumbnail}
 

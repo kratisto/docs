@@ -1,7 +1,7 @@
 ---
 title: Gestionar los contactos de los servicios
 excerpt: Cómo gestionar los distintos contactos de los servicios de OVHcloud
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 ## Objetivo
@@ -22,7 +22,7 @@ Existen tres tipos de contactos:
 
 ## Requisitos
 
-- Estar conectado a su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}.
+- Estar conectado a su [área de cliente de OVHcloud](/links/manager){.external}.
 - Tener acceso a la dirección de correo electrónico que se indica en el perfil de su cuenta.
 - Tener los permisos necesarios sobre el servicio correspondiente.
 - Conocer la dirección de correo electrónico principal indicada en la cuenta de OVHcloud del nuevo contacto (para poder modificarlo).
@@ -37,7 +37,7 @@ Existen tres tipos de contactos:
 
 ### Acceder a la gestión de los contactos
 
-Conéctese a su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}, haga clic en el nombre asociado a su cuenta de cliente en la esquina superior derecha y seleccione `Gestión de contactos`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione en `Mis contactos`{.action}.
 
 ![Gestión de contactos](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -78,7 +78,7 @@ Como contacto de facturación, solo puede designar a otro contacto de facturaci�
 
 ### Validar, rechazar o realizar el seguimiento de un cambio de contacto
 
-Para gestionar y realizar el seguimiento de las solicitudes en curso, haga clic en `Gestión de contactos`{.action} > `Mis solicitudes`{.action}. Ahí es donde puede aceptar o rechazar una solicitud.
+Para gestionar y realizar el seguimiento de las solicitudes en curso, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione en `Mis contactos`{.action} > `Mis solicitudes`{.action}. Ahí es donde puede aceptar o rechazar una solicitud.
 
 ![Gestión de contactos](images/managing_contacts_05.png){.thumbnail}
 

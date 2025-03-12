@@ -1,7 +1,7 @@
 ---
 title: 'Die Kontakte Ihrer Dienste verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Kontakte Ihrer OVHcloud Dienste verwalten'
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 > [!warning]
@@ -24,7 +24,7 @@ Es gibt drei Arten von Kontakten:
 - **Der technische Kontakt** verwaltet ausschließlich die technischen Aspekte eines Dienstes.
 - **Der Rechnungskontakt** verwaltet lediglich die mit der Abrechnung eines Dienstes zusammenhängenden Aspekte. Dieser Kontakt erhält die Benachrichtigungen zur Dienstverlängerung. 
 
-Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E-Mail erhalten, nachdem Ihr Account bei OVHcloud erstellt wurde. Sie besteht in der Regel aus zwei Buchstaben gefolgt von Ziffern. Zum Beispiel: **xx11111-ovh**. Wenn Sie Dienste bestellen, wird ihnen diese Kennung als Kontakt zugewiesen.
+Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E-Mail erhalten, nachdem Ihr Account bei OVHcloud erstellt wurde. Sie besteht in der Regel aus zwei Buchstaben gefolgt von Ziffern. Zum Beispiel: **aa00000-ovh**. Wenn Sie Dienste bestellen, wird ihnen diese Kennung als Kontakt zugewiesen.
 
 ![Kontaktverwaltung](images/managing_contacts_scheme.png){.thumbnail}
 
@@ -45,7 +45,7 @@ Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E
 
 ### Auf die Kontaktverwaltung zugreifen <a name="gestion_des_contacts"></a>
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie dann `Verwaltung der Kontakte`{.action} aus.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}.
 
 ![Kontaktverwaltung](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -86,7 +86,7 @@ Sie können lediglich eine andere Person an Ihrer Stelle als Rechnungskontakt er
 
 ### Bestätigung, Ablehnung oder Nachverfolgung einer Kontaktänderung
 
-Um aktuelle Änderungsanfragen zu verfolgen und zu verwalten, klicken Sie auf den Tab `Meine Anfragen`{.action}. Hier können Sie eine Anfrage annehmen oder ablehnen.
+Um aktuelle Änderungsanfragen zu verfolgen und zu verwalten, loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}. Klicken Sie auf den Tab `Meine Anfragen`{.action}. Hier können Sie eine Anfrage annehmen oder ablehnen.
 
 ![Kontaktverwaltung](images/managing_contacts_05.png){.thumbnail}
 

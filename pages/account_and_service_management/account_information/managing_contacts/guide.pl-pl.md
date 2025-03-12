@@ -1,7 +1,7 @@
 ---
 title: Zarządzanie kontaktami swoich usług
 excerpt: 'Dowiedz się, jak zarządzać kontaktami dla Twoich usług OVHcloud'
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 ## Wprowadzenie
@@ -25,13 +25,13 @@ Istnieją trzy rodzaje kontaktów:
 - **Kontakt techniczny** zarządza wyłącznie kwestiami technicznymi usługi.
 - **Kontakt księgowy** zarządza wyłącznie płatnościami usługi, w tym przelewami. Kontakt ten otrzymuje zwłaszcza powiadomienia o odnowieniu. 
 
-Identyfikator klienta to osobisty login, który otrzymujesz e-mailem podczas tworzenia konta klienta w OVHcloud. Najczęściej składa się on z dwóch liter i następujących po nich cyfr. Na przykład: **xx11111-ovh**. Podczas zamawiania usług identyfikator ten jest do nich przypisany jako kontakt.
+Identyfikator klienta to osobisty login, który otrzymujesz e-mailem podczas tworzenia konta klienta w OVHcloud. Najczęściej składa się on z dwóch liter i następujących po nich cyfr. Na przykład: **aa00000-ovh**. Podczas zamawiania usług identyfikator ten jest do nich przypisany jako kontakt.
 
 ![Contact management](images/managing_contacts_scheme.png){.thumbnail}
 
 ## Wymagania początkowe
 
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}.
+- Dostęp do [Panelu klienta OVHcloud](/links/manager){.external}.
 - Dostęp do adresu e-mail podanego w profilu.
 - Wystarczające uprawnienia dotyczące danej usługi.
 - Posiadanie identyfikatora klienta nowego kontaktu (dla którego wprowadzasz zmianę).
@@ -46,7 +46,7 @@ Identyfikator klienta to osobisty login, który otrzymujesz e-mailem podczas two
 
 ### Dostęp do zarządzania kontaktami <a name="gestion_des_contacts"></a>
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}, kliknij nazwę powiązaną z Twoim identyfikatorem klienta na pasku menu w prawym górnym rogu, a następnie kliknij pozycję `Zarządzanie kontaktami`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Moje kontakty`{.action}.
 
 ![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -87,7 +87,7 @@ Możesz wyznaczyć wyłącznie inny kontakt księgowy na swoje miejsce. Konieczn
 
 ### Zatwierdzenie, odrzucenie lub śledzenie zmiany kontaktu
 
-Aby śledzić bieżące wnioski i zarządzać nimi, kliknij kartę `Moje wnioski`{.action}. Tutaj możesz zaakceptować lub odrzucić wniosek.
+Aby śledzić bieżące wnioski i zarządzać nimi, zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Moje kontakty`{.action}. Kliknij kartę `Moje wnioski`{.action}. Tutaj możesz zaakceptować lub odrzucić wniosek.
 
 ![Contact management](images/managing_contacts_05.png){.thumbnail}
 

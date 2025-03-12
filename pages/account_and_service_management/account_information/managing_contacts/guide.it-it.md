@@ -1,7 +1,7 @@
 ---
 title: 'Gestire i contatti dei servizi OVHcloud'
 excerpt: 'Come gestire i contatti dei tuoi servizi dallo Spazio Cliente OVHcloud'
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 ## Obiettivo
@@ -25,13 +25,13 @@ Ecco i diversi contatti disponibili e il loro ruolo:
 - Il **contatto tecnico** gestisce esclusivamente gli aspetti tecnici del servizio
 - **Il contatto di fatturazione** gestisce esclusivamente gli aspetti relativi alla fatturazione e riceve le notifiche dei rinnovi. 
 
-L'identificativo cliente è un codice personale che viene inviato via email al momento della creazione dell’account OVHcloud. È composto da due lettere seguite da diversi numeri e termina con -ovh (esempio: **xx11111-ovh**) Al momento dell’ordine di una soluzione OVHcloud, l’identificativo viene associato come contatto al servizio scelto.
+L'identificativo cliente è un codice personale che viene inviato via email al momento della creazione dell’account OVHcloud. È composto da due lettere seguite da diversi numeri e termina con -ovh (esempio: **aa00000-ovh**) Al momento dell’ordine di una soluzione OVHcloud, l’identificativo viene associato come contatto al servizio scelto.
 
 ![Gestione dei contatti](images/managing_contacts_scheme.png){.thumbnail}
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external}
 - Avere accesso all'indirizzo email inserito nel tuo profilo
 - Disporre dei diritti sufficienti sul servizio interessato
 - Avere a disposizione l’identificativo cliente del nuovo contatto (per cui si sta effettuando la modifica)
@@ -46,7 +46,7 @@ L'identificativo cliente è un codice personale che viene inviato via email al m
 
 ### Accedi alla pagina di gestione dei contatti <a name="gestion_des_contacts"></a>
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}, clicca sul tuo nome utente in alto a destra e seleziona `Gestisci i contatti`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei contatti`{.action}.
 
 ![Gestione dei contatti](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -87,7 +87,7 @@ Puoi solo definire un altro contatto di fatturazione per sostituirti. Questa ope
 
 ### Conferma, rifiuta o verifica lo stato di una modifica del contatto
 
-Per visualizzare e gestire le richieste in corso, clicca sulla scheda `Le tue richieste`{.action}. Qui puoi accettare o rifiutare una richiesta.
+Per visualizzare e gestire le richieste in corso, accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei contatti`{.action}. Clicca sulla scheda `Le tue richieste`{.action}. Qui puoi accettare o rifiutare una richiesta.
 
 ![Gestione dei contatti](images/managing_contacts_05.png){.thumbnail}
 

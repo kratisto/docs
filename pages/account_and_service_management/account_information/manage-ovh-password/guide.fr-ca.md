@@ -72,11 +72,8 @@ Si votre mot de passe est compromis, nous vous recommandons vivement de le [modi
 
 #### Depuis votre espace client OVHcloud
 
-- Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external}, cliquez sur votre nom en haut à droite dans votre espace client, puis sur vos initiales.
-
-![manage-ovh-password](images/newhub2.png){.thumbnail}
-
-- Cliquez ensuite sur `Sécurité`{.action} puis sur `Modifier`{.action} à droite de « Mot de passe ».
+- Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
+- Cliquez sur l'onglet `Sécurité`{.action}, puis sur le bouton `Modifier`{.action} situé à droite de la mention **Mot de passe**.
 
 ![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 

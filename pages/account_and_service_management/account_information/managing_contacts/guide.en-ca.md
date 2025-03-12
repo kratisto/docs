@@ -1,7 +1,7 @@
 ---
 title: 'Managing contacts for your services'
 excerpt: 'Find out how to manage contacts for your OVHcloud services'
-updated: 2024-02-16
+updated: 2025-03-10
 ---
 
 ## Objective
@@ -36,7 +36,7 @@ There are three different contact types:
 
 ### Access contact management
 
-Log in to the [OVHcloud Control Panel](/links/manager){.external}, click on the name linked to your customer account in the menu bar in the top right-hand corner, then click `Contact management`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}.
 
 ![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
 
@@ -77,7 +77,7 @@ You can only add another billing contact to replace you. Confirmation is require
 
 ### Confirm, decline or track a contact change.
 
-To track and manage ongoing requests, click on the `My requests`{.action} tab. Here, you can accept or decline a request.
+To track and manage ongoing requests, log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}. Click on the `My requests`{.action} tab. Here, you can accept or decline a request.
 
 ![Contact management](images/managing_contacts_05.png){.thumbnail}
 
