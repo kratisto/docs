@@ -220,7 +220,7 @@ sudo apt-get install iproute2
 Next, we need to create a new IP route for the vRack. We'll be adding a new traffic rule by amending the file, as shown below:
 
 ```sh
-sudo nano /etc/iproute2/rt_tables
+sudo nano /etc/iproute2/rt_tables # Per fedora: sudo nano /usr/share/iproute2/rt_tables
 
 #
 # reserved values
