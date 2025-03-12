@@ -1,7 +1,7 @@
 ---
 title: 'Den OVHcloud Kunden-Account mit der Zwei-Faktor-Authentifizierung absichern'
 excerpt: 'Erfahren Sie hier, wie Sie die Sicherheit Ihres Accounts bei OVHcloud steigern können, indem Sie die Zwei-Faktor-Authentifizierung (2FA) aktivieren'
-updated: 2024-08-22
+updated: 2025-03-10
 ---
 
 <style>
@@ -86,9 +86,9 @@ Wir bieten vier verschiedene Methoden an (klicken Sie jeweils auf die Tabs, um d
 
 ### Schritt 1: Aktivieren Sie Ihre erste Methode der Zwei-Faktor-Authentifizierung <a name="enabling-2fa"></a>
 
-Verbinden Sie sich mit dem [OVHcloud Kundencenter](/links/manager){.external}, klicken Sie oben rechts auf Ihren Namen (1) und dann auf Ihre Initialen (2). Klicken Sie dann auf `Sicherheit`{.action} (3) und schließlich auf `Die Zwei-Faktor-Authentifizierung aktivieren`{.action} (4).
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Klicken Sie danach auf `Sicherheit`{.action}, und schließlich auf `Die Zwei-Faktor-Authentifizierung aktivieren`{.action}.
 
 **Klicken Sie auf den Tab für die gewünschte Methode:**
 
@@ -193,9 +193,9 @@ Wenn Ihr Peripheriegerät (Mobiltelefon/Smartphone/Sicherheitsschlüssel) verlor
 > - Gültige Notfall-Codes.
 >
 
-Um ein Gerät zu entfernen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/de/&ovhSubsidiary=de){.external} ein. Klicken Sie oben rechts auf Ihren Namen und dann auf Ihre Initialen.
+Um ein Gerät zu entfernen, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
-Klicken Sie dann auf `Sicherheit`{.action}, dann auf die `...`{.action} rechts vom zu löschenden Gerät und schließlich auf `Löschen`{.action}.
+Klicken Sie danach auf `Sicherheit`{.action}, dann auf die `...`{.action} rechts vom zu löschenden Gerät und schließlich auf `Löschen`{.action}.
 
 ![2FA](images/2024-006-delete-device.png){.thumbnail}
 

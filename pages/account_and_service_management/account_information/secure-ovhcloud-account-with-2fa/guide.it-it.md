@@ -1,7 +1,7 @@
 ---
 title: 'Rendere sicuro il tuo account OVHcloud con la doppia autenticazione'
 excerpt: 'Come rendere più sicuro il tuo account OVHcloud attivando la doppia autenticazione (2FA)'
-updated: 2024-08-22
+updated: 2025-03-10
 ---
 
 <style>
@@ -87,9 +87,9 @@ Ti proponiamo quattro diversi metodi (clicca sulle schede qui sotto per visualiz
 
 ### Step 1 - Attiva il primo metodo di doppia autenticazione <a name="enabling-2fa"></a>
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager){.external}, clicca sul tuo nome in alto a destra (1) e poi sulle tue iniziali (2). Clicca su `Sicurezza`{.action} (3) e infine su `Attiva l'autenticazione a due fattori`{.action} (4).
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+- Clicca sulla scheda `Sicurezza`{.action} e infine su `Attiva l'autenticazione a due fattori`{.action}.
 
 **Clicca sulla scheda corrispondente al metodo che preferisci:**
 
@@ -194,7 +194,7 @@ Se il dispositivo (telefono cellulare/smartphone/chiave di sicurezza) viene smar
 > - codici di sicurezza validi.
 >
 
-Per rimuovere un dispositivo, accedi allo [Spazio Cliente OVHcloud](/links/manager){.external}. Clicca sul tuo nome in alto a destra e poi sulle tue iniziali.
+Per rimuovere un dispositivo, accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
 
 Clicca su `Sicurezza`{.action} e poi sui `...`{.action} a destra del dispositivo da rimuovere e infine su `Eliminare`{.action}.
 

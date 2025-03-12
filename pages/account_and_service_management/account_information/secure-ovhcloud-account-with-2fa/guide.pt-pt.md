@@ -1,7 +1,7 @@
 ---
 title: 'Proteger a sua conta OVHcloud com a dupla autenticação'
 excerpt: 'Descubra como melhorar a segurança da sua conta OVHcloud ao ativar a dupla autenticação (2FA)'
-updated: 2024-08-22
+updated: 2025-03-10
 ---
 
 <style>
@@ -86,9 +86,9 @@ Existem quatro métodos diferentes (clique nos separadores abaixo para ver a apr
 
 ### Etapa 1 - Ativar o seu primeiro método de autenticação dupla <a name="enabling-2fa"></a>
 
-Aceda à [Área de Cliente OVHcloud](/links/manager){.external}. Clique no seu nome no canto superior direito (1) e nas iniciais (2). Em seguida, clique em `Segurança`{.action} (3) e, por fim, em `Ativar a dupla autenticação`{.action} (4).
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Aceder à minha conta`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Clique então em `Segurança`{.action} e em `Ativar a dupla autenticação`{.action}.
 
 **Clique no separador correspondente ao método da sua escolha:**
 
@@ -193,7 +193,7 @@ Se o seu periférico (telemóvel/smartphone/chave de segurança) estiver perdido
 > - códigos de segurança válidos.
 >
 
-Para eliminar um periférico, aceda à [Área de Cliente OVHcloud](/links/manager){.external}. Clique no seu nome no canto superior direito e depois nas iniciais.
+Para eliminar um periférico, aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Aceder à minha conta`{.action}.
 
 A seguir, clique em `Segurança`{.action}, depois nos `...`{.action} à direita do seu periférico a eliminar e, por fim, em `Eliminar`{.action}.
 

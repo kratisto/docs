@@ -1,7 +1,7 @@
 ---
 title: 'Zabezpieczenie konta OVHcloud za pomocą weryfikacji dwuetapowej'
 excerpt: 'Dowiedz się, jak poprawić bezpieczeństwo Twojego konta OVHcloud dzięki aktywacji weryfikacji dwuetapowej (2FA)'
-updated: 2024-08-22
+updated: 2025-03-10
 ---
 
 <style>
@@ -86,9 +86,9 @@ Proponujemy cztery różne metody (kliknij na poniższe zakładki, aby wyświetl
 
 ### Etap 1 - Aktywuj Twoją pierwszą metodę weryfikacji dwuetapowej <a name="enabling-2fa"></a>
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external}, kliknij Twoją nazwę w prawym górnym rogu (1), a następnie Twoje inicjały (2). Następnie kliknij przycisk `Bezpieczeństwo`{.action} (3), a na koniec `Włącz weryfikację dwuetapową`{.action} (4).
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Dostęp do konta`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Kliknij `Bezpieczeństwo`{.action}, a na koniec `Włącz weryfikację dwuetapową`{.action}.
 
 **Kliknij na zakładkę wybranej przez Ciebie metody:**
 
@@ -193,7 +193,7 @@ Jeśli Twoje urządzenie (telefon komórkowy/smartfon/klucz sprzętowy) zostanie
 > - prawidłowymi kodami zapasowymi.
 >
 
-Aby usunąć urządzenie, zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external}. Kliknij Twoją nazwę w prawym górnym rogu, a następnie Twoje inicjały.
+Aby usunąć urządzenie, zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Dostęp do konta`{.action}.
 
 Następnie kliknij przycisk `Bezpieczeństwo`{.action}, po czym kliknij `...`{.action} po prawej stronie Twojego urządzenia do usunięcia, a na koniec wybierz `Usuń`{.action}.
 

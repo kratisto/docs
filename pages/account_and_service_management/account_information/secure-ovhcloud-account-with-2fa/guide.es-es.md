@@ -1,7 +1,7 @@
 ---
 title: 'Proteger su cuenta de OVHcloud con la doble autenticación'
 excerpt: 'Cómo mejorar la seguridad de su cuenta de OVHcloud activando la doble autenticación (2FA)'
-updated: 2024-08-22
+updated: 2025-03-10
 ---
 
 <style>
@@ -86,9 +86,9 @@ Le proponemos cuatro métodos diferentes (haga clic en las fichas siguientes par
 
 ### Etapa 1 - Activar su primer método de doble autenticación <a name="enabling-2fa"></a>
 
-Conéctese al [área de cliente de OVHcloud](/links/manager){.external}, haga clic en su nombre en la esquina superior derecha (1) y seleccione sus iniciales (2). A continuación, haga clic en `Seguridad`{.action} (3) y luego en `Activar la doble autenticación`{.action} (4).
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Luego, haga clic en `Seguridad`{.action} y, seguidamente, en `Activar la doble autenticación`{.action}.
 
 **Haga clic en la ficha correspondiente al método que desee:**
 
@@ -195,7 +195,7 @@ Si el dispositivo (teléfono móvil, smartphone o llave de seguridad) se pierde,
 > - Códigos de seguridad válidos.
 > 
 
-Para eliminar un dispositivo, conéctese al [área de cliente de OVHcloud](/links/manager){.external}. Haga clic en su nombre en la esquina superior derecha y luego en sus iniciales.
+Para eliminar un dispositivo, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
 
 A continuación, haga clic en `Seguridad`{.action}, luego en los `...`{.action} a la derecha de su dispositivo que quiera eliminar y, por último, en `Eliminar`{.action}.
 
