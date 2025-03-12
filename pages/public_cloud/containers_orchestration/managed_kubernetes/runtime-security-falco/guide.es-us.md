@@ -285,7 +285,7 @@ You should see the previous events generated thanks to our tests.
 
 You can also save/push the events to an OVHcloud Object Storage bucket (compatible with the S3 **\*** API) to archive the outputs and be able to analyze them later if you want.
 
-To do that, you need to have an Object Storage container. If you don't already had one, you can follow the [Creating an Object Storage container](/pages/storage_and_backup/object_storage/s3_create_bucket) guide.
+To do that, you need to have an Object Storage container. If you don't already had one, you can follow the [Creating an Object Storage container](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) guide.
 
 For this guide, our Object Storage container is:
 

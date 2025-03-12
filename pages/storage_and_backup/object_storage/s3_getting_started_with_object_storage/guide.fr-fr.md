@@ -101,8 +101,12 @@ Vous pouvez utiliser la configuration interactive pour générer les fichiers de
 > [!primary]
 >
 > Pour utiliser la configuration interactive, exécutez la commande suivante :
+> 
 > `aws configure`
->
+> 
+> Ou
+> 
+> `aws configure --profile PROFILE_NAME`
 
 Le format du fichier de configuration dans le client aws est le suivant :
 
@@ -118,8 +122,28 @@ user@host:~$ cat ~/.aws/config
 [default]
 region = <region_in_lowercase>
 endpoint_url = <url_endpoint>
+services = ovh-rbx-archive
+
+[profile PROFILE_NAME]
+region = rbx
+output = json
+services = ovh-rbx
+
+[services ovh-rbx-archive]
 s3 =
+  endpoint_url = https://s3.rbx-archive.io.cloud.ovh.net/
   signature_version = s3v4
+
+s3api =
+endpoint_url = https://s3.rbx-archive.io.cloud.ovh.net/
+
+[services ovh-rbx]
+s3 =
+  endpoint_url = https://s3.rbx.io.cloud.ovh.net/
+  signature_version = s3v4
+
+s3api =
+endpoint_url = https://s3.rbx.io.cloud.ovh.net/
 ```
 
 Voici les valeurs de configuration que vous pouvez définir spécifiquement :
