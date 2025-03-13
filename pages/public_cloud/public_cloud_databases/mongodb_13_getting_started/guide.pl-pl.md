@@ -12,12 +12,12 @@ updated: 2024-02-05
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)
-- A [Public Cloud project](https://www.ovhcloud.com/pl/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 ## Instructions
 
-Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) and switch to the `Public Cloud`{.action} section. After selecting your Public Cloud project, click on `Databases`{.action} in the left-hand navigation bar under **Databases & Analytics**.
+Log in to your [OVHcloud Control Panel](/links/manager) and switch to the `Public Cloud`{.action} section. After selecting your Public Cloud project, click on `Databases`{.action} in the left-hand navigation bar under **Databases & Analytics**.
 
 Click the `Create a database instance`{.action} button (click `Create a service`{.action} if your project already contains databases).
 
@@ -41,7 +41,7 @@ The **Discovery** plan is selected by default along with the following options:
 
 Review the service settings and click on the `Order`{.action} button.
 
-Within a few minutes your **Discovery** MongoDB service will be deployed.
+Within a few minutes, your **Discovery** MongoDB service will be deployed.
 
 ### Connectivity settings
 
@@ -51,7 +51,7 @@ Once the service is up and running you will be able to configure it to accept in
 
 When the service is running and accepting incoming connections, the next step is to access the service. The common way to do so is to use **MongoDB Compass** to connect to the service, following [this guide](/pages/public_cloud/public_cloud_databases/mongodb_07_connect_compass).
 
-If **MongoDB Compass** is not your preferred method, read these other guides to connect to the service :
+If **MongoDB Compass** is not your preferred method, read these other guides to connect to the service:
 
 - [Connect with CLI](/pages/public_cloud/public_cloud_databases/mongodb_03_connect_cli)
 - [Connect with Python](/pages/public_cloud/public_cloud_databases/mongodb_05_connect_python)
@@ -61,8 +61,8 @@ Other integration examples can be found on the following repository: <https://gi
 
 ## We want your feedback!
 
-Visit our dedicated Discord channel: <https://discord.gg/PwPqWUpN8G>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
+Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our databases services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pl/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
