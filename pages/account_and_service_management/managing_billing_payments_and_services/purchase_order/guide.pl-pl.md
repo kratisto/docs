@@ -51,7 +51,7 @@ W przypadku OVHcloud dokument musi zawierać co najmniej następujące informacj
 
 Zaloguj się do [Panelu klienta OVHcloud](/links/manager), a następnie na wyświetlonej stronie kliknij `Wyświetl moje zamówienia`{.action}.
 
-![Panel klienta](images/internalreference00.png){.thumbnail}
+![Panel klienta](images/huborders.png){.thumbnail}
 
 Kliknij kartę `Moje oznaczenia wewnętrzne`{.action}, a następnie przycisk `+ Dodaj wewnętrzne oznaczenia referencyjne`{.action}.
 

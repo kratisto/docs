@@ -51,7 +51,7 @@ Für OVHcloud muss das Dokument daher mindestens folgende Angaben enthalten:
 
 Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und klicken Sie dann direkt auf der angezeigten Seite auf `Meine Bestellungen anzeigen`{.action}.
 
-![Kundencenter](images/internalreference00.png){.thumbnail}
+![Kundencenter](images/huborders.png){.thumbnail}
 
 Klicken Sie auf den Tab `Meine internen Referenzen`{.action} und anschließend auf den Button `+ Interne Referenz hinzufügen`{.action}.
 

@@ -51,7 +51,7 @@ Per OVHcloud il documento deve quindi contenere almeno le seguenti informazioni:
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager) e, direttamente dalla pagina che appare, clicca su `Visualizza i tuoi ordini`{.action}.
 
-![Spazio Cliente](images/internalreference00.png){.thumbnail}
+![Spazio Cliente](images/huborders.png){.thumbnail}
 
 Clicca sulla scheda `Le tue referenze interne`{.action} e poi sul pulsante `+ Aggiungi un referenza interna`{.action}.
 

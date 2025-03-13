@@ -51,7 +51,7 @@ Para a OVHcloud, o documento deve conter, no mínimo, as seguintes informações
 
 Ligue-se ao seu [Área de Cliente OVHcloud](/links/manager) e, a seguir, diretamente na página que é apresentada, clique em `Ver as minhas encomendas`{.action}.
 
-![Espaço cliente](images/internalreference00.png){.thumbnail}
+![Espaço cliente](images/huborders.png){.thumbnail}
 
 Clique no separador `As minhas referências internas`{.action} e, a seguir, no botão `+ Adicionar uma referência interna`{.action}.
 
