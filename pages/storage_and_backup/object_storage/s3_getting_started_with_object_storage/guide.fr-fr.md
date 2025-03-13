@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Premiers pas avec Object Storage
 excerpt: Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs / objets
-updated: 2025-03-05
+updated: 2025-03-17
 ---
 
 <style>
@@ -18,20 +18,20 @@ details[open]>summary::before {
 }
 </style>
 
-## Objectifs
+## Objectif
 
 Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/objets.
 
-**Apprenez à créer un bucket Object Storage et à le gérer.**
+**Découvrez comment créer et gérer un bucket Object Storage.**
 
 > [!primary]
 >
-> Si vous utilisez l'ancien système de stockage d'objets SWIFT, alors :
+> Si vous utilisez l'ancien système de stockage d'objets SWIFT :
 >
-> - pour la classe de stockage **Standard object storage - SWIFT API**, suivez ce [guide.](/pages/storage_and_backup/object_storage/pcs_create_container)
-> - pour la classe de stockage **Cloud Archive - SWIFT API**, suivez ce [guide.] (/pages/storage_and_backup/object_storage/pca_create_container)
+> - pour la classe de stockage **Standard object storage - SWIFT API**, suivez [ce guide](/pages/storage_and_backup/object_storage/pcs_create_container).
+> - pour la classe de stockage **Cloud Archive - SWIFT API**, suivez [ce guide](/pages/storage_and_backup/object_storage/pca_create_container).
 >
-> Pour les nouveaux projets, nous recommandons vivement d'utiliser notre stockage d'objets compatible S3, qui bénéficie de nos dernières innovations et de nos nouvelles fonctionnalités.
+> Pour les nouveaux projets, nous vous recommandons vivement d'utiliser notre stockage d'objets compatible S3<sup>*</sup>, qui bénéficie de nos dernières innovations et de nos nouvelles fonctionnalités.
 >
 
 ## Prérequis
@@ -42,7 +42,7 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/
 
 ## En pratique
 
-### Preparation
+### Préparation
 
 /// details | Pour utiliser l'AWS CLI
 
@@ -50,10 +50,10 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/
 >
 > Avertissement sur la compatibilité de la CLI et du SDK AWS
 >
-> Récemment, Amazon Web Services (AWS) a effecuté une modification qui renforce les checksum lors d'opérations via l'API S3. Ces nouveaux contrôles d’intégrité sont en cours d'intégration sur notre plateforme. Aussi les headers suivants ne sont pas supportés :
+> Amazon Web Services (AWS) a récemment effectué une modification qui renforce les checksum lors d'opérations via l'API S3. Ces nouveaux contrôles d’intégrité sont en cours d'intégration sur notre plateforme. Aussi, les headers suivants ne sont pas supportés :
 >
-> - x-amz-content-sha256 with value STREAMING-UNSIGNED-PAYLOAD-TRAILER
-> - x-amz-sdk-checksum-algorithm with value CRC32
+> - `x-amz-content-sha256 with value STREAMING-UNSIGNED-PAYLOAD-TRAILER`
+> - `x-amz-sdk-checksum-algorithm with value CRC32`
 >
 > En attendant la mise à jour de notre service Object Storage, nous vous recommandons d'utiliser les versions maximales prises en charge de la CLI, du SDK et des autres outils AWS suivants :
 >
@@ -67,11 +67,11 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/
 > - aws-sdk-php 3.336.15
 > - aws-sdk-ruby 1.177.0
 >
-> Pour en savoir plus rendez vous [ici](https://docs.aws.amazon.com/fr_fr/sdkref/latest/guide/feature-dataintegrity.html)
+> Pour en savoir plus, rendez vous [ici](https://docs.aws.amazon.com/fr_fr/sdkref/latest/guide/feature-dataintegrity.html){.external}.
 >
-> Suivi de la mise à jour chez OVHcloud, [ici](https://public-cloud.status-ovhcloud.com/incidents/491vx956zx6b)
+> Obtenez des informations sur la mise à jour chez OVHcloud sur [cette page](https://public-cloud.status-ovhcloud.com/incidents/491vx956zx6b).
 
-Pour connaître la procédure d’installation de l’AWS CLI adaptée à votre environnement, nous vous recommandons de consulter [la documentation officielle d’AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions).
+Pour connaître la procédure d’installation de l’AWS CLI adaptée à votre environnement, nous vous recommandons de consulter [la documentation officielle d’AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions){.external}.
 
 **Vérifier l'installation**
 
@@ -80,7 +80,7 @@ user@host:~$ aws --version
 ```
 > [!primary]
 >
-> Si vous avez besoin de plus d'informations sur l'installation de l'AWS CLI, vous pouvez aller [ici] (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+> Si vous avez besoin de plus d'informations sur l'installation de l'AWS CLI, consultez [la documentation AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html){.external}.
 >
 
 #### Collecter les informations d'identification
@@ -92,7 +92,7 @@ user@host:~$ aws --version
 
 Cliquez sur le nom de votre bucket pour en afficher les détails et le contenu :
 
-![Bucket details](images/highperf-create-container-20220928091433895.png)
+![détails du bucket](images/highperf-create-container-20220928091433895.png){.thumbnail}
 
 #### Configuration
 
@@ -104,11 +104,11 @@ Vous pouvez utiliser la configuration interactive pour générer les fichiers de
 > 
 > `aws configure`
 > 
-> Ou
+> Ou cette commande :
 > 
 > `aws configure --profile PROFILE_NAME`
 
-Le format du fichier de configuration dans le client aws est le suivant :
+Le format du fichier de configuration dans le client AWS est le suivant :
 
 ```bash
 user@host:~$ cat ~/.aws/credentials
@@ -170,10 +170,11 @@ Pour connaître la liste des endpoints par région et par classe de stockage, vo
 
 /// details | Utiliser l'espace client OVHcloud
 
-Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace client OVHcloud](/links/manager) et ouvrez votre projet `Public Cloud`{.action}. 
+Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace client OVHcloud](/links/manager) et ouvrez votre projet `Public Cloud`{.action}.
+
 ///
 
-#### Listez vos buckets
+#### Lister vos buckets
 
 > [!tabs]
 > Via AWS CLI
@@ -193,10 +194,10 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >>
 >> ///
 >>
-> Via espace client OVHcloud
->> Cliquez sur `Object Storage`{.action} dans la barre de navigation à gauche et ensuite sur l'onglet `Mes conteneurs`{.action}.
+> Via l'espace client OVHcloud
+>> Cliquez sur `Object Storage`{.action} dans la barre de navigation, puis sur l'onglet `Mes conteneurs`{.action}.
 >>
->> ![My Dashboard containers](images/01-object-storage-bucket-listing.png)
+>> ![My Dashboard containers](images/01-object-storage-bucket-listing.png){.thumbnail}
 
 #### Créer un bucket
 
@@ -220,54 +221,54 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >>
 >> ///
 >>
-> Via espace client OVHcloud
+> Via l'espace client OVHcloud
 >> Cliquez sur `Créer un conteneur d'objets`{.action} et sélectionnez votre offre :
 >>
->> ![Select your solution](images/object-storage-bucket-creation-step1.png)
+>> ![Sélectionner votre offre](images/object-storage-bucket-creation-step1.png){.thumbnail}
 >>
->> Selectionnez un mode de déploiement :
+>> Sélectionnez un mode de déploiement :
 >>
 >> > [!primary]
 >> >
 >> > OVHcloud propose plusieurs modes de déploiement pour répondre à différents besoins en termes de résilience, de disponibilité et de performance. Chaque mode est optimisé pour des cas d'utilisation spécifiques et offre différents niveaux de redondance et de tolérance aux pannes.
 >> >
 >>
->> ![Select a deployment mode](images/object-storage-bucket-creation-step2.png)
+>> ![Sélectionner un mode de déploiement](images/object-storage-bucket-creation-step2.png){.thumbnail}
 >>
->> Selectionnez une région :
+>> Sélectionnez une région :
 >>
 >> > [!primary]
 >> >
 >> > Les régions peuvent varier en fonction du mode de déploiement choisi.
 >> >
 >>
->> ![Select a region](images/object-storage-bucket-creation-step3.png)
+>> ![Sélectionner une région](images/object-storage-bucket-creation-step3.png){.thumbnail}
 >>
->> Vous devez associer un utilisateur à la bucket :
+>> Vous devez associer un utilisateur au bucket :
 >>
->> ![Link to user](images/object-storage-bucket-creation-step4_1.png)
+>> ![Associer un utilisateur](images/object-storage-bucket-creation-step4_1.png){.thumbnail}
 >>
->> Pour ce faire, vous pouvez soit lier un utilisateurs Object Storage :
+>> Pour ce faire, vous pouvez lier un utilisateur Object Storage existant :
 >>
->> ![Link to user](images/object-storage-bucket-creation-step4_2.png)
+>> ![Associer un utilisateur existant](images/object-storage-bucket-creation-step4_2.png){.thumbnail}
 >>
 >> Vous pouvez afficher les informations d'identification de l'utilisateur en cliquant sur `Voir les informations d'identification`{.action} :
 >>
->> ![view credentials](images/object-storage-bucket-creation-step4_3.png)
+>> ![Informations d'identification](images/object-storage-bucket-creation-step4_3.png){.thumbnail}
 >>
->> Vous pouvez également créer un nouvel utilisateurs Object Storage :
+>> Vous pouvez également créer un nouvel utilisateur Object Storage :
 >>
->> ![Create an Object Storage user](images/object-storage-bucket-creation-step4_4.png)
+>> ![Créer un utilisateur Object Storage](images/object-storage-bucket-creation-step4_4.png){.thumbnail}
 >>
->> À ce stade, vous pouvez décider d'activer ou non le **versionnement**.
+>> À ce stade, vous pouvez décider d'activer ou non la **gestion des versions**.
 >>
->> Le versionnage vous permet de conserver plusieurs variantes d'un objet dans le même bac. Cette fonctionnalité permet de **préserver, récupérer et restaurer chaque version de chaque objet stocké dans vos buckets**, ce qui facilite la récupération en cas d'actions involontaires de l'utilisateur ou de défaillances de l'application. Par défaut, le versionnage est désactivé sur les buckets, et vous devez l'activer explicitement. Vous trouverez plus d'informations sur le versionnage dans notre [guide dédié] (/pages/storage_and_backup/object_storage/s3_versioning).
+>> La gestion des versions vous permet de conserver plusieurs variantes d'un objet dans le même bucket. Cette fonctionnalité permet de **préserver, récupérer et restaurer chaque version de chaque objet stocké dans vos buckets**, ce qui facilite la récupération en cas d'actions involontaires de l'utilisateur ou de défaillances de l'application. Par défaut, la gestion des versions est désactivée sur les buckets, et vous devez l'activer explicitement. Vous trouverez plus d'informations sur la gestion des versions dans notre [guide dédié](/pages/storage_and_backup/object_storage/s3_versioning).
 >>
->> ![Enabling versioning](images/object-storage-bucket-creation-step5.png)
+>> ![Activation de la gestion des versions](images/object-storage-bucket-creation-step5.png){.thumbnail}
 >>
->> Vous pouvez maintenant décider si vous souhaitez **chiffrer vos données** en utilisant [SSE-OMK (chiffrement côté serveur avec OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
+>> Vous pouvez alors décider si vous souhaitez **chiffrer vos données** en utilisant [SSE-OMK (chiffrement côté serveur avec OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 >>
->> ![Encryption](images/object-storage-bucket-creation-step6.png)
+>> ![chiffrer les données](images/object-storage-bucket-creation-step6.png){.thumbnail}
 >>
 >> Enfin, donnez un nom à votre bucket :
 >>
@@ -276,24 +277,24 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >> > Les noms des buckets sont globaux. Il n'est pas possible de donner le même nom à deux buckets différents dans toutes les régions d'OVHcloud.
 >> >
 >>
->> ![Container name](images/object-storage-bucket-creation-step7.png)
+>> ![Nom du container](images/object-storage-bucket-creation-step7.png){.thumbnail}
 >>
 >> Félicitations, votre bucket est créé :
 >>
->> ![Result](images/01_object_storage-bucket_listing.png)
+>> ![Résultat](images/01_object_storage-bucket_listing.png){.thumbnail}
 
-#### Télécharger vos fichiers en tant qu'objets dans votre bocket
+#### Télécharger vos fichiers en tant qu'objets dans votre bucket
 
-/// details | Différences entre les types de stockages **Standard** and **High Performance**
+/// details | Différences entre les types de stockage **Standard** et **High Performance**
 
-Classe de stockage Standard :
+**Classe de stockage Standard :**
 
 - Conçue pour le stockage polyvalent avec un équilibre entre le coût et la performance.
 - Convient aux charges de travail avec une fréquence d'accès modérée.
 - Assure la durabilité et la disponibilité, mais peut avoir une latence d'accès légèrement plus élevée.
 - Idéal pour les sauvegardes, l'archivage et les données rarement consultées.
 
-Classe de stockage haute performance :
+**Classe de stockage High Performance :**
 
 - Optimisée pour les charges de travail à faible latence et à haut débit.
 - Idéal pour les opérations de lecture/écriture fréquentes et intensives.
@@ -313,7 +314,7 @@ Classe de stockage haute performance :
 >> aws s3 cp /datas/<object_name> s3://<bucket_name>
 >> ```
 >>
->> **Par défaut, les objets sont nommés d'après des fichiers, mais ils peuvent être renommés**
+>> **Par défaut, les objets sont nommés d'après des fichiers, mais ils peuvent être renommés.**
 >>
 >> ```bash
 >> aws s3 cp /data/<object_name> s3://<bucket_name>/other-filename
@@ -324,8 +325,8 @@ Classe de stockage haute performance :
 >> > [!primary]
 >> >
 >> > La commande `aws s3 cp` utilisera STANDARD comme classe de stockage par défaut pour télécharger des objets.
->> > Pour stocker des objets dans le niveau de stockage High Performance, utilisez la commande `aws s3api put-object` à la place, car `aws s3 cp` ne supporte pas la classe de stockage EXPRESS_ONEZONE qui est utilisée pour mapper le niveau de stockage High Performance.
->> > Pour en savoir plus sur le mappage des classes de stockage entre les niveaux de stockage OVHcloud et les classes de stockage AWS, vous pouvez consulter notre documentation [ici] (/pages/storage_and_backup/object_storage/s3_location).
+>> > Pour stocker des objets dans le niveau de stockage High Performance, utilisez plutôt la commande `aws s3api put-object`, car `aws s3 cp` ne supporte pas la classe de stockage EXPRESS_ONEZONE qui est utilisée pour mapper le niveau de stockage High Performance.
+>> > Pour en savoir plus sur le mappage des classes de stockage entre les niveaux de stockage OVHcloud et les classes de stockage AWS, vous pouvez consulter [notre documentation](/pages/storage_and_backup/object_storage/s3_location).
 >> >
 >>
 >> /// details | **Avec AWS s3api**
@@ -340,18 +341,18 @@ Classe de stockage haute performance :
 >>
 >> ///
 >>
-> Via espace client OVHcloud
+> Via l'espace client OVHcloud
 >> Cliquez sur le `nom de votre conteneur`{.action} :
 >>
->> ![Go in bucket](images/go-in-bucket.png)
+>> ![Conteneur](images/go-in-bucket.png){.thumbnail}
 >>
->> Cliquez sur `Ajouter des objets`{.action}
+>> Cliquez sur `Ajouter des objets`{.action} :
 >>
->> ![Upload file](images/upload-file.png)
+>> ![Ajout de fichiers](images/upload-file.png){.thumbnail}
 >>
->> Vous pouvez ajouter un préfixe au nom de votre objet. ( le nom de l'objet est le même que le nom du fichier ) Sélectionnez la classe de stockage entre **Standard** et **High Performance**. Enfin, sélectionnez le fichier que vous êtes sur le point de télécharger et cliquez sur le bouton `Importer`{.action}.
+>> Vous pouvez ajouter un préfixe au nom de votre objet (le nom de l'objet est le même que le nom du fichier). Sélectionnez la classe de stockage entre **Standard** et **High Performance**. Enfin, sélectionnez le fichier que vous êtes sur le point de télécharger et cliquez sur le bouton `Importer`{.action}.
 >>
->> ![upload file window](images/upload-file-window.png)
+>> ![Upload d'un fichier](images/upload-file-window.png){.thumbnail}
 
 #### Téléchargement d'un objet à partir d'un bucket
 
@@ -359,19 +360,19 @@ Classe de stockage haute performance :
 > Via AWS CLI
 >> /// details | **Avec AWS s3**
 >>
->> **Téléchargement d'un objet à partir d'un bucket**
+>> **Téléchargement d'un objet à partir d'un bucket :**
 >>
 >> ```bash
 >> aws s3 cp s3://<bucket_name>/<object_name> .
 >> ```
 >>
->> **Téléchargement d'un objet d'un bucket vers un autre bucket**
+>> **Téléchargement d'un objet d'un bucket vers un autre bucket :**
 >>
 >> ```bash
 >> aws s3 cp s3://<bucket_name>/<object_name> s3://<bucket_name_2
 >> ```
 >>
->> **Télécharger ou uploader un bucket entier sur l'hôte/bucket**
+>> **Télécharger ou uploader un bucket entier sur l'hôte/bucket :**
 >>
 >> ```bash
 >> aws s3 cp s3://<bucket_name> . --recursive
@@ -382,13 +383,13 @@ Classe de stockage haute performance :
 >>
 >> /// details | **Avec AWS s3api**
 >>
->> **Téléchargement d'un objet à partir d'un bucket**
+>> **Téléchargement d'un objet à partir d'un bucket :**
 >>
 >> ```bash
 >> aws s3api get-object --bucket <bucket_name> --key <object_name> <object_name>
 >> ```
 >>
->> **Téléchargement d'un objet d'un bucket vers un autre bucket**
+>> **Téléchargement d'un objet d'un bucket vers un autre bucket :**
 >>
 >> ```bash
 >> aws s3api copy-object --bucket <bucket_name_2> --copy-source <bucket_name>/<object_name> --key <object_name>
@@ -396,15 +397,16 @@ Classe de stockage haute performance :
 >>
 >> ///
 >>
-> Via espace client OVHcloud
->> Cliquez sur le bouton `...`{.action} sur la ligne d'objet et sur `Télécharger`{.action}.
+> Via l'espace client OVHcloud
+>> Cliquez sur le bouton `...`{.action} sur la ligne d'objet, puis sur `Télécharger`{.action}.
 >>
->> ![Download file from bucket](images/download-file-from-bucket.png)
+>> ![Télécharger un fichier depuis un bucket](images/download-file-from-bucket.png){.thumbnail}
 
 #### Synchronisation des buckets
 
 > [!tabs]
 > Via AWS CLI
+>>
 >> ```bash
 >> aws s3 sync . s3://<bucket_name> # Synchronisation du répertoire local avec le bucket S3
 >> aws s3 sync s3://<bucket_name> . # Synchronisation du bucket S3 avec le répertoire local
@@ -419,24 +421,25 @@ Classe de stockage haute performance :
 >
 
 > [!tabs]
-> Via espace client OVHcloud
+> Via l'espace client OVHcloud
 >> **Suppression d'un bucket**
 >>
->> Dans la liste des conteneurs d'Object Storage, cliquez sur le bouton `...`{.action} sur la ligne des conteneurs et sur `Supprimer`{.action}.
+>> Dans la liste des conteneurs Object Storage, cliquez sur le bouton `...`{.action} sur la ligne des conteneurs, puis sur `Supprimer`{.action}.
 >>
->> ![Delete bucket](images/delete-bucket.png)
+>> ![Delete bucket](images/delete-bucket.png){.thumbnail}
 >>
 >> Cliquez sur `Confirmer`{.action}.
 >>
 >> **Suppression d'objets**
 >>
->> Allez dans le bucket concerné et cliquez sur le bouton `...`{.action} sur la ligne de l'objet et sur `Supprimer`{.action}.
+>> Allez dans le bucket concerné et cliquez sur le bouton `...`{.action} sur la ligne de l'objet, puis sur `Supprimer`{.action}.
 >>
->> ![Delete file](images/delete-file.png)
+>> ![Delete file](images/delete-file.png){.thumbnail}
 >>
 >> Cliquez sur `Confirmer`{.action}.
 >>
 > Via AWS CLI
+>>
 >> /// details | **Avec AWS s3**
 >>
 >> **Suppression d'objets et de buckets**
@@ -453,9 +456,9 @@ Classe de stockage haute performance :
 >> aws s3 rb s3://<bucket_name> --force
 >> ```
 >>
->> **Suppression d'objets et de buckets avec versionnement activé**
+>> **Suppression d'objets et de buckets avec la gestion des versions activée**
 >>
->> Si le versionnage est activé, une simple opération de suppression sur vos objets ne les supprimera pas définitivement.
+>> Si la gestion des versions est activée, une simple opération de suppression sur vos objets ne les supprimera pas définitivement.
 >>
 >> Pour supprimer définitivement un objet, vous devez spécifier un identifiant de version :
 >>
@@ -469,7 +472,7 @@ Classe de stockage haute performance :
 >> aws s3api list-object-versions --bucket <NAME>
 >> ```
 >>
->> Avec la commande delete-object précédente, vous devrez itérer sur toutes vos versions d'objets. Alternativement, vous pouvez utiliser la commande suivante pour vider votre bucket :
+>> Avec la commande `delete-object` précédente, vous devrez itérer sur toutes vos versions d'objets. Alternativement, vous pouvez utiliser la commande suivante pour vider votre bucket :
 >>
 >> ```bash
 >> aws s3api delete-objects --bucket <NAME> --delete "$(aws s3api list-object-versions --bucket <NAME> --query='{Objects: Versions[].{Key:Key,VersionId:VersionId}}')"
@@ -490,9 +493,9 @@ Classe de stockage haute performance :
 >> aws s3api delete-bucket --bucket <bucket_name>
 >> ```
 >>
->> **Suppression d'objets et de buckets avec versionnement activé**
+>> **Suppression d'objets et de buckets avec la gestion des versions activée**
 >>
->> Si le versionnage est activé, une simple opération de suppression sur vos objets ne les supprimera pas définitivement.
+>> Si la gestion des versions est activée, une simple opération de suppression sur vos objets ne les supprimera pas définitivement.
 >>
 >> Pour supprimer définitivement un objet, vous devez spécifier un identifiant de version :
 >>
@@ -554,15 +557,16 @@ Classe de stockage haute performance :
 >> }
 >> ```
 >>
->> **Suppression de tags sur un object**
+>> **Suppression de tags sur un objet**
 >>
 >> ```bash
 >> aws s3api s3api delete-object-tagging --bucket <bucket_name> --key <object_name>
 >> ```
 
-## Go further
+## Aller plus loin
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
-Join our [community of users](/links/community).
+Échangez avec notre [communauté d'utilisateurs](/links/community).
 
+<sup>*</sup> : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.
