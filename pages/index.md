@@ -345,6 +345,7 @@
             + [Datamotive - Introduction](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/datamotive_intro)
         + [VMware Cloud Director](hosted-private-cloud-hosted-private-cloud-powered-by-vmware-vcd)
             + [VMware Cloud Director - Concepts](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-get-concepts)
+            + [Technical capabilities and limitations of Public VCF aaS (aka Managed VCD)](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-limitations)
             + [VMware Cloud Director - FAQ](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-faq)
             + [VMware Cloud Director - Logging in to your organization](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging)
             + [VMware Cloud Director - Find out how to use the vCD user interface](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-getting-started)
