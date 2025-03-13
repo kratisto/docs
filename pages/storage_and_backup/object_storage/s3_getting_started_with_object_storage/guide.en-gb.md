@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Getting started with Object Storage
 excerpt: This guide is designed to familiarise you with the management of your containers/objects
-updated: 2025-03-05
+updated: 2025-03-17
 ---
 
 <style>
@@ -28,10 +28,10 @@ This guide is designed to familiarise you with the management of your containers
 >
 > If you are using legacy SWIFT Object Storage, then:
 >
-> - for **Standard object storage - SWIFT API** storage class, follow this [guide.](/pages/storage_and_backup/object_storage/pcs_create_container)
-> - for **Cloud Archive - SWIFT API** storage class, follow this [guide.](/pages/storage_and_backup/object_storage/pca_create_container)
+> - for **Standard object storage - SWIFT API** storage class, follow [this guide](/pages/storage_and_backup/object_storage/pcs_create_container).
+> - for **Cloud Archive - SWIFT API** storage class, follow [this guide](/pages/storage_and_backup/object_storage/pca_create_container).
 >
-> For new projects we highly recommend using our S3-compatible Object Storage which benefits from our latest innovation and new features.
+> For new projects we highly recommend using our S3<sup>*</sup>-compatible Object Storage which benefits from our latest innovation and new features.
 > 
 
 ## Requirements
@@ -67,12 +67,12 @@ This guide is designed to familiarise you with the management of your containers
 > - aws-sdk-php 3.336.15
 > - aws-sdk-ruby 1.177.0
 >
-> Find out more [here].(https://docs.aws.amazon.com/fr_fr/sdkref/latest/guide/feature-dataintegrity.html)
+> Find out more [here](https://docs.aws.amazon.com/fr_fr/sdkref/latest/guide/feature-dataintegrity.html){.external}.
 >
-> Follow-up update at OVHcloud, [here].(https://public-cloud.status-ovhcloud.com/incidents/491vx956zx6b)
+> Follow-up update at OVHcloud [here](https://public-cloud.status-ovhcloud.com/incidents/491vx956zx6b).
 > 
 
-To find out how to install the AWS CLI in your environment, we recommend you consult [the official AWS documentation.](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions).
+To find out how to install the AWS CLI in your environment, we recommend you consult [the official AWS documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions){.external}.
 
 **Check installation**
 
@@ -81,7 +81,7 @@ user@host:~$ aws --version
 ```
 > [!primary]
 >
-> If you need more information about AWS CLI installation, you should go [here.](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+> If you need more information about AWS CLI installation, you should go [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html){.external}.
 >
 
 #### Collect Credentials
@@ -93,7 +93,7 @@ user@host:~$ aws --version
 
 Click on the name of your bucket to view its details and content:
 
-![Bucket details](images/highperf-create-container-20220928091433895.png)
+![Bucket details](images/highperf-create-container-20220928091433895.png){.thumbnail}
 
 #### Configuration
 
@@ -145,7 +145,6 @@ s3 =
 
 s3api =
 endpoint_url = https://s3.rbx.io.cloud.ovh.net/
-```
 ```
 
 Here are the configuration values that you can specifically set:
@@ -199,7 +198,7 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 > Via OVHcloud Control Panel
 >> Click on `Object Storage`{.action} in the navigation bar on the left and then on the `My containers`{.action} tab.
 >>
->> ![My Dashboard containers](images/01-object-storage-bucket-listing.png)
+>> ![My Dashboard containers](images/01-object-storage-bucket-listing.png){.thumbnail}
 
 #### Create a bucket
 
@@ -226,7 +225,7 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 > Via OVHcloud Control Panel
 >> Click `Create Object Container`{.action} and select your storage class:
 >>
->> ![Select your solution](images/object-storage-bucket-creation-step1.png)
+>> ![Select your solution](images/object-storage-bucket-creation-step1.png){.thumbnail}
 >>
 >> Select a deployment mode:
 >>
@@ -235,7 +234,7 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 >> > OVHcloud provides multiple deployment modes to meet different needs in terms of resilience, availability, and performance. Each mode is optimized for specific use cases and offers varying levels of redundancy and fault tolerance.
 >> >
 >>
->> ![Select a deployment mode](images/object-storage-bucket-creation-step2.png)
+>> ![Select a deployment mode](images/object-storage-bucket-creation-step2.png){.thumbnail}
 >>
 >> Select a region:
 >>
@@ -244,33 +243,33 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 >> > Regions can vary depending on the chosen deployment mode.
 >> >
 >>
->> ![Select a region](images/object-storage-bucket-creation-step3.png)
+>> ![Select a region](images/object-storage-bucket-creation-step3.png){.thumbnail}
 >>
 >> You must link a user to the bucket:
 >>
->> ![Link to user](images/object-storage-bucket-creation-step4_1.png)
+>> ![Link to user](images/object-storage-bucket-creation-step4_1.png){.thumbnail}
 >>
 >> To do this, you can either link an existing Object Storage user:
 >>
->> ![Link to user](images/object-storage-bucket-creation-step4_2.png)
+>> ![Link to user](images/object-storage-bucket-creation-step4_2.png){.thumbnail}
 >>
 >> You can view the user credentials by clicking on `View credentials`{.action}:
 >>
->> ![view credentials](images/object-storage-bucket-creation-step4_3.png)
+>> ![view credentials](images/object-storage-bucket-creation-step4_3.png){.thumbnail}
 >>
 >> Or you can create a new Object Storage user:
 >>
->> ![Create an Object Storage user](images/object-storage-bucket-creation-step4_4.png)
+>> ![Create an Object Storage user](images/object-storage-bucket-creation-step4_4.png){.thumbnail}
 >>
 >> At this stage, you can decide whether or not to enable **versioning**.
 >>
 >> Versioning allows you to keep multiple variants of an object in the same bucket. This feature helps **preserve, retrieve, and restore every version of every object stored in your buckets**, making it easier to recover from unintended user actions or application failures. By default, versioning is disabled on buckets, and you must explicitly enable it. Find more information about versioning on our [dedicated guide](/pages/storage_and_backup/object_storage/s3_versioning).
 >>
->> ![Enabling versioning](images/object-storage-bucket-creation-step5.png)
+>> ![Enabling versioning](images/object-storage-bucket-creation-step5.png){.thumbnail}
 >>
 >> You can now decide whether or not you wish to **encrypt your data** using [SSE-OMK (server-side encryption with OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 >>
->> ![Encryption](images/object-storage-bucket-creation-step6.png)
+>> ![Encryption](images/object-storage-bucket-creation-step6.png){.thumbnail}
 >>
 >> Finally, name your bucket:
 >>
@@ -279,11 +278,11 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 >> > Buckets' names are global. It's not possible to give the same name to two different buckets across all the OVHcloud regions.
 >> >
 >>
->> ![Container name](images/object-storage-bucket-creation-step7.png)
+>> ![Container name](images/object-storage-bucket-creation-step7.png){.thumbnail}
 >>
 >> Congratulations, your bucket is created:
 >>
->> ![Result](images/01_object_storage-bucket_listing.png)
+>> ![Result](images/01_object_storage-bucket_listing.png){.thumbnail}
 
 #### Uploading your files as objects in your bucket
 
@@ -352,15 +351,15 @@ High Performance Storage Class:
 > Via OVHcloud Control Panel
 >> Click on the `name of your container`{.action}:
 >>
->> ![Go in bucket](images/go-in-bucket.png)
+>> ![Go in bucket](images/go-in-bucket.png){.thumbnail}
 >>
 >> Click on `Add objects`{.action}
 >>
->> ![Upload file](images/upload-file.png)
+>> ![Upload file](images/upload-file.png){.thumbnail}
 >>
 >> You can add a prefix to your object name. ( the object name is the same as the file name ) Select the storage class between **Standard** and **High Performance**. Finally, select the file you are about to download and click on the `Import`{.action} button.
 >>
->> ![upload file window](images/upload-file-window.png)
+>> ![upload file window](images/upload-file-window.png){.thumbnail}
 
 #### Downloading an object from a bucket
 
@@ -408,7 +407,7 @@ High Performance Storage Class:
 > Via OVHcloud Control Panel
 >> Click on the `...`{.action} button on the object line and on `Download`{.action}.
 >>
->> ![Download file from bucket](images/download-file-from-bucket.png)
+>> ![Download file from bucket](images/download-file-from-bucket.png){.thumbnail}
 
 #### Synchronising buckets
 
@@ -433,7 +432,7 @@ High Performance Storage Class:
 >>
 >> In the list of object storage containers, click on the `...`{.action} button on the containers line and on `Delete`{.action}.
 >>
->> ![Delete bucket](images/delete-bucket.png)
+>> ![Delete bucket](images/delete-bucket.png){.thumbnail}
 >>
 >> Click on `Confirm`{.action}.
 >>
@@ -441,7 +440,7 @@ High Performance Storage Class:
 >>
 >> Go to the relevant bucket and click on the `...`{.action} button on the object line and on `Delete`{.action}.
 >>
->> ![Delete file](images/delete-file.png)
+>> ![Delete file](images/delete-file.png){.thumbnail}
 >>
 >> Click on `Confirm`{.action}.
 >>
@@ -575,3 +574,4 @@ If you need training or technical assistance to implement our solutions, contact
 
 Join our [community of users](/links/community).
 
+<sup>*</sup>: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.
