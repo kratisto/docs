@@ -55,7 +55,7 @@ In caso di difficoltà di accesso al tuo indirizzo email principale, un indirizz
 
 Per inserire questo indirizzo email di recupero, clicca sul tuo nome in alto a destra del tuo [Spazio Cliente OVHcloud](/links/manager) e poi su `Accedere al mio account`{.action}.
 
-Nella sezione `Il tuo profilo`{.action} a destra dello schermo (clicca di nuovo sul tuo nome per eliminare il menu a sinistra), clicca su `Modifica il tuo profilo`{.action}
+Nella sezione `Il tuo profilo`{.action} a destra dello schermo (clicca di nuovo sul tuo nome per eliminare il menu a sinistra), clicca su `Modifica il tuo profilo`{.action}.
 
 > [!warning]
 > Ti ricordiamo che è **fondamentale** che l'indirizzo email di recupero sia **diverso** dall'indirizzo email principale dell'account.

@@ -10,8 +10,10 @@ Trovi le domande più frequenti sulla gestione dell'account OVHcloud.
 
 ### Come creare un account OVHcloud?
 
-La creazione di un account è un’operazione gratuita che dà accesso a un’area dedicata pensata per semplificare l’accessibilità alle proprie informazioni e la gestione dei servizi. Per usufruirne è sufficiente cliccare sulla voce “Il tuo account” in alto a destra.
-Per proteggere ulteriormente l’accesso ai tuoi dati personali ti consigliamo di attivare la doppia identificazione dalla scheda “Sicurezza”, disponibile nella sezione “Il tuo account” dello Spazio Cliente (per maggiori informazioni, consulta la domanda “Come proteggere il proprio account?”).
+La creazione di un account è gratuita. Questo spazio facilita l'accesso alle tue informazioni e permette di gestire i tuoi servizi. Consulta la nostra guida [Creare un account OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
+
+> [!success]
+> Una volta creato il tuo account, ricordati di proteggerlo configurando un’autenticazione a due fattori. Per maggiori informazioni, consulta la nostra guida [Proteggere l’account OVHcloud con la doppia autenticazione](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa).
 
 #### Consigli e suggerimenti
 
@@ -21,7 +23,7 @@ Se non riesci a trovare la versione del sito OVHcloud del tuo Paese, clicca sull
 
 Il tuo identificativo cliente, chiamato anche NIC-handle, si trova in alto a destra dell'ultima fattura e ha un formato di questo tipo: aa00000-ovh (le prime lettere corrispondono in genere con le iniziali dell’utente che ha creato l’account). L’identificativo cliente è indicato anche in tutte le email inviate da OVHcloud (email di conferma di creazione dell’account, di rinnovo dell’ordine, ecc.).
 
-Se non riesci a trovare l’identificativo, clicca su "Non ricordi identificativo o password?" nella pagina di connessione allo [Spazio Cliente di OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) e inserisci l'indirizzo email associato all’account.
+Se non riesci a trovare l’identificativo, clicca su "Non ricordi identificativo o password?" nella pagina di connessione allo [Spazio Cliente di OVHcloud](/links/manager) e inserisci l'indirizzo email associato all’account.
 
 #### Consigli e suggerimenti
 
@@ -34,7 +36,9 @@ In questa evenienza, consigliamo di consultare [questa documentazione](/pages/ac
 
 ### Come modificare le informazioni personali di un account OVHcloud?
 
-Per visualizzare o modificare i dati associati a un account OVHcloud è necessario accedere al proprio profilo nello Spazio Cliente cliccando sulle iniziali del proprio nome che compaiono nella parte destra della dashboard iniziale. Nella nuova pagina, i dati sono riportati nel riquadro "Il tuo profilo": per modificarli, clicca sui tre puntini e seleziona "Modifica il tuo profilo".
+Per visualizzare o modificare i dati associati a un account OVHcloud è necessario accedere al proprio profilo nello Spazio Cliente cliccando sulle iniziali del proprio nome che compaiono nella parte destra della dashboard iniziale. Clicca sul tuo nome in alto a destra del tuo [Spazio Cliente OVHcloud](/links/manager) e poi su `Accedere al mio account`{.action}.
+
+Nella sezione `Il tuo profilo`{.action} a destra dello schermo (clicca di nuovo sul tuo nome per eliminare il menu a sinistra), clicca su `Modifica il tuo profilo`{.action}.
 
 #### Consigli e suggerimenti
 
@@ -66,7 +70,7 @@ Se hai dimenticato il tuo identificativo cliente, è possibile recuperarlo da qu
 
 ### Come modificare i contatti di un account OVHcloud?
 
-Dallo Spazio Cliente è possibile delegare ad altri account cliente OVHcloud la gestione amministrativa, tecnica e di fatturazione dei servizi. Per effettuare questa operazione clicca su "Gestione dei contatti" nella sezione a destra.
+Dallo Spazio Cliente è possibile delegare ad altri account cliente OVHcloud la gestione amministrativa, tecnica e di fatturazione dei servizi. Per effettuare questa operazione accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei contatti`{.action}.
 
 La delega dei servizi dovrà essere convalidata via email dall'amministratore del servizio e dal nuovo contatto.
 
@@ -80,7 +84,7 @@ Per maggiori informazioni sulla gestione dei contatti, consulta la guida [/pages
 
 ### Come configurare o modificare il contatto di fatturazione?
 
-Accedi allo Spazio Cliente e, nel menu di scelta rapida nella parte destra dell’interfaccia, clicca su “Gestisci i contatti”.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei contatti`{.action}.
 
 #### Consigli e suggerimenti
 
@@ -94,13 +98,17 @@ Sono disponibili diverse soluzioni per proteggere il tuo account, come:
 - il rinnovo regolare della password
 - doppia autenticazione
 
-Per la doppia autenticazione tramite l'invio di un codice via SMS o tramite la restrizione IP (autorizzazione o rifiuto di accesso ad alcuni indirizzi), è possibile aggiungere regole di sicurezza dal tuo Spazio Cliente. Queste opzioni sono disponibili nella sezione "Sicurezza" del tuo profilo. Per accedere clicca sulle iniziali che compaiono in alto a destra nella dashboard dello Spazio Cliente OVHcloud.
+Per la doppia autenticazione tramite l'invio di un codice via SMS o tramite la restrizione IP (autorizzazione o rifiuto di accesso ad alcuni indirizzi), è possibile aggiungere regole di sicurezza dal tuo Spazio Cliente. Queste opzioni sono disponibili nella sezione "Sicurezza" del tuo profilo. Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
+
+Clicca sulla scheda `Sicurezza`{.action}
 
 Per maggiori informazioni, visualizza il [video](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
 
 ### Come attivare la doppia autenticazione/2FA di OVHcloud?
 
-Dopo aver creato il tuo account cliente OVHcloud, ti consigliamo di proteggere i tuoi dati personali attivando la doppia autenticazione. Puoi effettuare questa operazione accedendo alla sezione “Il mio account” > “Sicurezza”. Inoltre, per attivare la 2FA, puoi autenticarti in diversi modi:
+Dopo aver creato il tuo account cliente OVHcloud, ti consigliamo di proteggere i tuoi dati personali attivando la doppia autenticazione. Puoi effettuare questa operazione accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
+
+Clicca sulla scheda `Sicurezza`{.action}. Inoltre, per attivare la 2FA, puoi autenticarti in diversi modi:
 
 - tramite SMS, con un codice di sicurezza;
 - da un'applicazione mobile compatibile con Android, Iphone e Windows mobile;
@@ -110,7 +118,10 @@ Dopo aver creato il tuo account cliente OVHcloud, ti consigliamo di proteggere i
 
 ### Come disattivare la doppia autenticazione/2FA di OVHcloud?
 
-Per disattivare la doppia autenticazione, accedi allo Spazio Cliente e seleziona "Il tuo account" > "Sicurezza".
+Per disattivare la doppia autenticazione, accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
+
+Clicca sulla scheda `Sicurezza`{.action}.
+
 Le diverse periferiche di sicurezza possono essere disattivate una alla volta. 
 Se non riesci ad accedere allo Spazio Cliente perché hai perso la periferica di doppia autenticazione, ti invitiamo a contattare il supporto OVHcloud per richiedere a un consulente di disattivare manualmente il dispositivo, previa presentazione di documenti giustificativi.
 
@@ -158,7 +169,7 @@ Un membro del nostro team risponderà il prima possibile.
 
 ### Ho risposto all’email di Abuse di OVHcloud ma il servizio è sempre bloccato: cosa fare?
 
-Dallo Spazio Cliente è possibile inviare una richiesta di assistenza al servizio clienti di OVHcloud per ottenere maggiori informazioni sullo stato del ticket da parte del team Abuse. Per semplificare la gestione della richiesta, ricorda di riportare il numero di riferimento del ticket.
+Dallo Spazio Cliente è possibile inviare una richiesta di assistenza al servizio [Help Center di OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help) per ottenere maggiori informazioni sullo stato del ticket da parte del team Abuse. Per semplificare la gestione della richiesta, ricorda di riportare il numero di riferimento del ticket.
 
 ### Come eliminare un account OVHcloud?
 
