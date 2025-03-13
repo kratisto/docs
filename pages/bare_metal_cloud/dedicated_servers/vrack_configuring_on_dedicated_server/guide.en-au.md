@@ -237,7 +237,7 @@ eno2             ethernet  connected               --
 enp0s20f0u8u3c2  ethernet  disconnected            --
 ```
 
-If your the `STATE` of your device is `disconnected`, run the following command to connect the interface. Replace `NETWORK_INTERFACE` with your own value:
+If the `STATE` of your device is `disconnected`, run the following command to connect the interface. Replace `NETWORK_INTERFACE` with your own value:
 
 ```bash
 nmcli device connect NETWORK_INTERFACE
@@ -245,7 +245,7 @@ nmcli device connect NETWORK_INTERFACE
 
 Once this is done, a new configuration file will be created in the folder `/etc/NetworkManager/system-connections`.
 
-You can then edit this file using the `nmcli` handler, replacing `IP_ADDRESS`, `PREFIX` and `INTERFACE_NAME` and  with your own values.
+You can then edit this file using the `nmcli` handler, replacing `IP_ADDRESS`, `PREFIX` and `INTERFACE_NAME` with your own values.
 
 Add your IP using the following command:
 
@@ -286,7 +286,7 @@ sudo nmcli con mod eno2 connection.autoconnect true
 Reboot your network with the following command:
 
 ```bash
-sudo nmcli device down interface_name;nmcli device up interface_name
+sudo systemctl restart NetworkManager
 ```
 
 #### Windows configuration 
