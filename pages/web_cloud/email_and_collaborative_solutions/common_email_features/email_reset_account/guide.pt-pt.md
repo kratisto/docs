@@ -34,29 +34,56 @@ Selecione o separador correspondente à sua oferta de e-mail:
 > [!tabs]
 > **E-mails MX Plan histórico**
 >>
->> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.<br><br>
+>> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.
 >>
->> Clique em `E-mails`{.action} e escolha o nome do serviço MX Plan em causa. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Eliminar conta`{.action}.<br><br>
->>![email](images/email-mxplan-legacy-reset.png){.thumbnail}<br>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails`{.action}.
+>> 1. Selecione o domínio em questão.
+>> 1. Aceda ao separador `Contas de e-mail`{.action}.
+>> 1. Na nova janela, podem ver-se as contas de e-mail existentes. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Eliminar conta`{.action}.
+>>
+>> ![email](images/email-mxplan-legacy-reset.png){.thumbnail}
 >>
 > **E-mails MX Plan nova versão**
 >>
->> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.<br><br>
+>> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.
 >>
->> Clique em `E-mails`{.action} e escolha o nome do serviço MX Plan em causa. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.<br><br>
->>![e-mail](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails`{.action}.
+>> 1. Selecione o domínio em questão.
+>> 1. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.
+>> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.
+>>
+>> ![e-mail](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Email Pro**
 >>
->> Clique em `E-mail Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.<br><br>
->> Após a reinicialização da sua conta, se pretender eliminá-la definitivamente, deverá rescindir a sua conta. Para isso, consulte o nosso guia [Gerir a faturação das contas Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).<br><br>
->>![email](images/emailpro-reset.png){.thumbnail}<br>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Selecione a plataforma em causa.
+>> 1. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.
+>> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.
+>>
+>> Após a reinicialização da sua conta, se pretender eliminá-la definitivamente, deverá rescindir a sua conta. Para isso, consulte o nosso guia [Gerir a faturação das contas Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).
+>>
+>> ![email](images/emailpro-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Clique em `Microsoft`{.action}, depois `Exchange`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar`{.action}.<br><br>
->> Após a reinicialização da sua conta, se pretender eliminá-la definitivamente, deverá rescindir a sua conta. Para isso, consulte o nosso guia [Gerir a faturação das contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).<br><br>
->>![email](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique na rubrica `Microsoft`{.action}.
+>> 1. Clique em `Exchange`{.action}.
+>> 1. Selecione a plataforma em causa.
+>> 1. Aceda ao separador `Contas de e-mail`{.action}.
+>> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar`{.action}.
+>>
+>> Após a reinicialização da sua conta, se pretender eliminá-la definitivamente, deverá rescindir a sua conta. Para isso, consulte o nosso guia [Gerir a faturação das contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).
+>>
+>> ![email](images/exchange-reset.png){.thumbnail}
 >>
 
 #### Identifique a sua oferta MX Plan <a name="whichmxplan"></a>
@@ -66,7 +93,7 @@ Na tabela abaixo, encontrará as informações necessárias para identificar a s
 |Versão antiga da oferta MX Plan|Nova versão da oferta MX Plan|
 |---|---|
 |![email](images/mxplan-starter-legacy-step1.png){.thumbnail}<br> Consulte o tipo de oferta na secção “Subscrição”.|![email](images/mxplan-starter-new-step1.png){.thumbnail}<br>Consulte a Referência do servidor na secção "Resumo".|
-|Selecione o separador E-**mails MX Plan histórico** acima neste guia.|Selecione o separador E-**mails MX plan, nova versão**, neste guia.|<br>
+|Selecione o separador E-**mails MX Plan histórico** acima neste guia.|Selecione o separador E-**mails MX plan, nova versão**, neste guia.|
 
 ## Saiba mais
 

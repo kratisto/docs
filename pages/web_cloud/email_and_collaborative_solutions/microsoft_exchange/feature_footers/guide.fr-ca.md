@@ -22,8 +22,7 @@ Dans votre espace client OVHcloud, vous pouvez créer des signatures universelle
 1. Cliquez sur la rubrique `Microsoft`{.action}.
 1. Cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
-
-Cliquez sur l’onglet `Plus+`{.action} dans le menu horizontal et sélectionnez `Pieds de page`{.action}.
+1. Cliquez sur l’onglet `Plus+`{.action} dans le menu horizontal et sélectionnez `Pieds de page`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 

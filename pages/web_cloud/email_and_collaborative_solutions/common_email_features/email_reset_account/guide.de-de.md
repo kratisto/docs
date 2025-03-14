@@ -4,7 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie einen Account Ihrer E-Mail-Lösung löschen
 updated: 2023-01-27
 ---
 
-
 ## Ziel
 
 Sie möchten:
@@ -34,29 +33,56 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 > [!tabs]
 > **MX Plan Legacy**
 >>
->> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).<br>
+>> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).
 >>
->> Öffnen Sie `E-Mails`{.action} in der Seitenleiste und wählen Sie den Namen des betreffenden MX Plan Dienstes aus. Wechseln Sie zum Tab `E-Mails`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Account löschen`{.action}.<br><br>
->>![E-Mail](images/email-mxplan-legacy-reset.png){.thumbnail}<br>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Wählen Sie die betreffende Domain aus.
+>> 1. Wechseln Sie zum Tab `E-Mails`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt.
+>> 1. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Account löschen`{.action}.
+>>
+>> ![E-Mail](images/email-mxplan-legacy-reset.png){.thumbnail}
 >>
 > **MX Plan neue Version**
 >>
->> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).<br>
+>> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).
 >>
->> Öffnen Sie `E-Mails`{.action} im Seitenfenster und wählen Sie den Namen des betreffenden MX Plan Dienstes aus. Wechseln Sie zum Tab `E-Mails`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Diesen Account zurücksetzen`{.action}.<br><br>
->>![E-Mail](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Wählen Sie die betreffende Domain aus.
+>> 1. Wechseln Sie zum Tab `E-Mails`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt.
+>> 1. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Diesen Account zurücksetzen`{.action}.
+>>
+>> ![E-Mail](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **E-Mail Pro**
 >>
->> Öffnen Sie `E-Mail Pro`{.action} in der Seitenleiste und wählen Sie den Namen des betreffenden Dienstes aus. Wechseln Sie zum Tab `E-Mail Accounts`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Diesen Account zurücksetzen`{.action}.<br><br>
->> Wenn Sie Ihren Account nach dem Zurücksetzen endgültig löschen möchten, müssen Sie ihn kündigen. Lesen Sie hierzu unsere Anleitung zur [Verwaltung der Abrechnung Ihrer E-Mail Pro Accounts](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).<br><br>
->>![E-Mail](images/emailpro-reset.png){.thumbnail}<br>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mails Pro`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>> 1. Wechseln Sie zum Tab `E-Mail Accounts`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt.
+>> 1. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Diesen Account zurücksetzen`{.action}.
+>>
+>> Wenn Sie Ihren Account nach dem Zurücksetzen endgültig löschen möchten, müssen Sie ihn kündigen. Lesen Sie hierzu unsere Anleitung zur [Verwaltung der Abrechnung Ihrer E-Mail Pro Accounts](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).
+>>
+>> ![E-Mail](images/emailpro-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Öffnen Sie `Microsoft`{.action} und dann `Exchange`{.action} in der Seitenleiste und wählen Sie den Namen des betreffenden Dienstes aus. Wechseln Sie zum Tab `E-Mail Accounts`{.action}. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Zurücksetzen`{.action}.<br><br>
->> Wenn Sie Ihren Account nach dem Zurücksetzen endgültig löschen möchten, müssen Sie ihn kündigen. Lesen Sie hierzu unsere Anleitung zur [Verwaltung der Abrechnung Ihrer Exchange Accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).<br><br>
->>![E-Mail](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `Microsoft`{.action}.
+>> 1. Klicken Sie auf `Exchange`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>> 1. Wechseln Sie zum Tab `E-Mail Accounts`{.action}.
+>> 1. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Zurücksetzen`{.action}.
+>>
+>> Wenn Sie Ihren Account nach dem Zurücksetzen endgültig löschen möchten, müssen Sie ihn kündigen. Lesen Sie hierzu unsere Anleitung zur [Verwaltung der Abrechnung Ihrer Exchange Accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).
+>>
+>> ![E-Mail](images/exchange-reset.png){.thumbnail}
 >>
 
 #### Identifizierung der Version Ihres MX Plans <a name="whichmxplan"></a>

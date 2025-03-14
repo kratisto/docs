@@ -33,29 +33,56 @@ Select the tab corresponding to your email solution:
 > [!tabs]
 > **MX Plan legacy**
 >>
->> To check if your MX Plan solution is a legacy or new version, please refer to the table in the "[Identifying your MX Plan solution](#whichmxplan)" section of this guide.<br><br>
+>> To check if your MX Plan solution is a legacy or new version, please refer to the table in the "[Identifying your MX Plan solution](#whichmxplan)" section of this guide.
 >>
->> Open `Emails`{.action} in the side panel, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action}  tab. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Disable account`{.action}.<br><br>
->>![email](images/email-mxplan-legacy-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Emails`{.action}.
+>> 1. Select the domain concerned.
+>> 1. Go to the `Email accounts`{.action}  tab. The window that appears will display the existing email accounts.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Disable account`{.action}.
+>>
+>> ![email](images/email-mxplan-legacy-reset.png){.thumbnail}
 >>
 > **MX Plan new version**
 >>
->> To check if your MX Plan solution is a legacy version, please refer to the table in the “[Identifying your MX Plan solution](#whichmxplan)” section of this guide.<br><br>
+>> To check if your MX Plan solution is a legacy version, please refer to the table in the “[Identifying your MX Plan solution](#whichmxplan)” section of this guide.
 >>
->> Open `Emails`{.action} in the side panel, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.<br><br>
->>![email](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Emails`{.action}.
+>> 1. Select the domain concerned.
+>> 1. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
+>>
+>> ![email](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Email Pro**
 >>
->> Open `Email Pro`{.action} in the side panel, then choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.<br><br>
->> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Email Pro accounts](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro)".<br><br>
->>![email](images/emailpro-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Email Pro`{.action}.
+>> 1. Select the service concerned.
+>> 1. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
+>>
+>> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Email Pro accounts](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro)".
+>>
+>> ![email](images/emailpro-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Open `Microsoft`{.action}, then `Exchange`{.action} in the side panel, and choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset`{.action}.<br><br>
->> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)".<br><br>
->>![email](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Microsoft`{.action}.
+>> 1. Click `Exchange`{.action}.
+>> 1. Select the service concerned.
+>> 1. Go to the `Email accounts`{.action} tab.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset`{.action}.
+>>
+>> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)".
+>>
+>> ![email](images/exchange-reset.png){.thumbnail}
 >>
 
 #### Identifying your MX Plan solution <a name="whichmxplan"></a>
@@ -65,7 +92,7 @@ In the table below, you will find the information you need to identify your MX P
 |MX Plan legacy version|MX Plan new version|
 |---|---|
 |![email](images/mxplan-starter-legacy-step1.png){.thumbnail}<br> The solution appears in the **Subscription** box on the right. The legacy solution *does not* have a server reference.|![email](images/mxplan-starter-new-step1.png){.thumbnail}<br>The new solution has a **Server model** in the **Summary** box on the left.|
-|Select the **MX Plan legacy** emails tab above in this guide.|Select the **MX Plan new version** emails tab above in this guide.|<br>
+|Select the **MX Plan legacy** emails tab above in this guide.|Select the **MX Plan new version** emails tab above in this guide.|
 
 ## Go further
 

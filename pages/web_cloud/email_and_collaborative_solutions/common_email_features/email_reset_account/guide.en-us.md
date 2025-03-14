@@ -33,15 +33,29 @@ Select the tab corresponding to your email solution:
 > [!tabs]
 > **MX Plan**
 >>
->> Open `Emails`{.action} in the side panel, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.<br><br>
->>![email](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Emails`{.action}.
+>> 1. Select the domain concerned.
+>> 1. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
+>>
+>> ![email](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Open `Microsoft`{.action}, then `Exchange`{.action} in the side panel, and choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset`{.action}.<br><br>
->> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)".<br><br>
->>![email](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `Microsoft`{.action}.
+>> 1. Click `Exchange`{.action}.
+>> 1. Select the service concerned.
+>> 1. Go to the `Email accounts`{.action} tab.
+>> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset`{.action}.
 >>
+>> After resetting your account, if you want to permanently delete it, you must cancel it. To do this, please refer to our guide "[Managing the billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)".
+>> ![email](images/exchange-reset.png){.thumbnail}
+>>
+
 
 ## Go further
 

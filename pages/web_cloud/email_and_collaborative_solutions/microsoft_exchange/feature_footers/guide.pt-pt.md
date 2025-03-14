@@ -34,7 +34,7 @@ Na Área de Cliente OVHcloud, pode criar assinaturas universais (footers) para e
 >> 1. Selecione a plataforma em causa.
 >>
 
-No menu horizontal, clique em `More+`{.action} e selecione `Footers`{.action}.
+No menu horizontal, clique em `Mais +`{.action} e selecione `Footers`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
