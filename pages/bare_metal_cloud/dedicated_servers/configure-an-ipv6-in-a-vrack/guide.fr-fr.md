@@ -38,16 +38,16 @@ En tirant parti de l’IPv6 au sein du vRack, les utilisateurs d’OVHcloud peuv
 
 ## Prérequis
 
-- Un service [vRack](/links/network/vrack){.external} actif sur votre compte
-- Un [serveur compatible vRack](/links/network/vrack){.external} connecté à votre réseau vRack
+- Un service [vRack](/links/network/vrack) actif sur votre compte
+- Un [serveur compatible vRack](/links/network/vrack) connecté à votre réseau vRack
 - Un accès à [l'espace client OVHcloud](/links/manager)
 
 > [!warning]
-> Cette fonctionnalité peut être limitée ou indisponible sur les serveurs de [la gamme **Eco**](https://eco.ovhcloud.com/fr/about/).
+> Cette fonctionnalité peut être limitée ou indisponible sur les serveurs de [la gamme **Eco**](/links/bare-metal/eco-about).
 >
-> Merci de visiter notre [comparatif des serveurs Eco](https://eco.ovhcloud.com/fr/compare/) pour obtenir plus d'informations.
+> Merci de visiter notre [comparatif des serveurs Eco](/links/bare-metal/eco-compare) pour obtenir plus d'informations.
 
-## Instructions
+## En pratique
 
 ### Obtention d’un nouveau bloc Additional IPv6
 
@@ -57,7 +57,7 @@ Lors de la demande d'un nouveau bloc Additional IPv6, il est important de noter 
 
 Vous pouvez commander votre nouveau bloc IPv6 supplémentaire [ici](https://www.ovh.com/manager/#/dedicated/ip/agoraOrder/ipv6?catalogName=ip).
 
-![page de configuration](\images/500.png){.thumbnail}
+![page de configuration](images/500.png){.thumbnail}
 
 Ensuite, suivez les instructions étape par étape.
 
@@ -69,7 +69,7 @@ Votre Additional IPv6 sera alors disponible sur la page de configuration de votr
 
 Dans cette section, nous présenterons la configuration IPv6 de base de vos hôtes connectés au vRack.
 
-![Configurer une IPv6 dans un vRack](\images/20240418-03.png){.thumbnail}
+![Configurer une IPv6 dans un vRack](images/20240418-03.png){.thumbnail}
 
 L'exemple ci-dessus montre deux hôtes avec leurs interfaces côté vRack configurées avec des adresses publiques IPv6. Un hôte possède une configuration manuelle, tandis qu’un autre dispose d'une adresse IP attribuée automatiquement en SLAAC. Toutes les adresses IP appartiennent au premier sous-réseau /64 d'un bloc /56 d'Additional IPv6 publiques donné. Les deux utilisent l'interface vRack pour la connectivité IPv6 publique.
 
@@ -77,7 +77,7 @@ L'exemple ci-dessus montre deux hôtes avec leurs interfaces côté vRack config
 
 Allez dans `Network`{.action} et cliquez sur la section `vRack private network`{.action}. Sélectionnez ensuite le vRack que vous souhaitez gérer :
 
-![vrack management](\images/700.png){.thumbnail}
+![vrack management](images/700.png){.thumbnail}
 
 Sur la partie gauche, les options possibles (services éligibles à configurer) sont listées.
 
@@ -85,7 +85,7 @@ Sur la partie droite, vous pouvez voir ce qui est déjà configuré avec votre v
 
 Sélectionnez votre nouvelle Additional IPv6 et ajoutez-la à votre vRack.
 
-![vrack selection](\images/701.png){.thumbnail}
+![vrack selection](images/701.png){.thumbnail}
 
 Vous avez maintenant votre nouvelle Additional IPv6 ajoutée à votre vRack.
 
@@ -99,7 +99,7 @@ Cela signifie que vous pouvez facilement utiliser de telles IP sur vos hôtes av
 
 Pour simplifier l'adressage IP à l'intérieur de votre réseau, vous pouvez utiliser SLAAC. Il peut être activé uniquement par sous-réseau bridgé, et peut aussi être activé pour le premier sous-réseau /64 de votre bloc (celui-ci est toujours bridgé) à tout moment à l'aide de ce bouton curseur :
 
-![enabling SLAAC](\images/702.png){.thumbnail}
+![enabling SLAAC](images/702.png){.thumbnail}
 
 N'oubliez pas de configurer SLAAC sur votre machine hôte.
 
@@ -119,7 +119,7 @@ Si vous avez supprimé cette nouvelle Additional IPv6 de votre vRack, vous pouve
 
 Comme dans l'exemple ci-dessous:
 
-![api post add block](\images/post-ipv6.png){.thumbnail}
+![api post add block](images/post-ipv6.png){.thumbnail}
 
 Utilisez l'appel suivant pour vérifier que l'IPv6 a été attribuée :
 
@@ -130,7 +130,7 @@ Utilisez l'appel suivant pour vérifier que l'IPv6 a été attribuée :
 
 Comme dans l'exemple ci-dessous :
 
-![GET ipv6 call](\images/20240418-04.png){.thumbnail}
+![GET ipv6 call](images/20240418-04.png){.thumbnail}
 
 Maintenant, nous voyons notre bloc configuré avec un vRack. L’étape suivante consiste à configurer le ou les hôtes virtuels.
 
@@ -147,7 +147,7 @@ Vérifions quels sont les sous-réseaux bridgés:
 
 Comme dans l'exemple ci-dessous :
 
-![GET subrange bridged into your vrack](\images/20240418-05.png){.thumbnail}
+![GET subrange bridged into your vrack](images/20240418-05.png){.thumbnail}
 
 Pour obtenir plus de détails, utilisez l'appel suivant :
 
@@ -158,7 +158,7 @@ Pour obtenir plus de détails, utilisez l'appel suivant :
 
 Comme dans l'exemple ci-dessous :
 
-![GET subrange bridged into your vrack](\images/20240418-06.png){.thumbnail}
+![GET subrange bridged into your vrack](images/20240418-06.png){.thumbnail}
 
 Notez que la configuration d'IP automatique (SLAAC) est désactivée par défaut.
 
@@ -173,7 +173,7 @@ Pour simplifier l'adressage IP à l'intérieur de votre réseau, vous pouvez uti
 
 Comme dans l'exemple ci-dessous :
 
-![API call POST enable SLAAC](\images/20240418-07.png){.thumbnail}
+![API call POST enable SLAAC](images/20240418-07.png){.thumbnail}
 
 N'oubliez pas de configurer SLAAC sur votre machine hôte.
 
@@ -181,7 +181,7 @@ N'oubliez pas de configurer SLAAC sur votre machine hôte.
 
 #### Commandes sur l'hôte
 
-/// details | details | Configuration IP statique
+/// details | Configuration IP statique
 
 Dans une configuration de base, vous pouvez vouloir configurer une adresse IP et un routage manuellement. Il s'agit également de la méthode recommandée lorsque votre machine est configurée comme un routeur (voir la section [configurer le sous-réseau routé](#routedmode)) et que le mode ipv6.forwarding est activé.
 
@@ -191,7 +191,7 @@ Tout d'abord, ajoutons une adresse IP sur l'interface vRack (dans notre exemple,
 $ sudo ip address add 2001:41d0:abcd:ef00::2/64 dev eth1
 ```
 
-(Notez que la première adresse IP d'un bloc, ici 2001:41d0:abcd:ef00::1/64, est l'adresse de la passerelle et ne doit pas être utilisée pour l'adressage des hôtes).
+(Notez que la première adresse IP d'un bloc, ici `2001:41d0:abcd:ef00::1/64`, est l'adresse de la passerelle et ne doit pas être utilisée pour l'adressage des hôtes).
 
 Si vous souhaitez utiliser l'interface vRack comme interface principale pour le trafic IPv6, la route par défaut peut potentiellement être configurée de la manière suivante :
 
@@ -216,7 +216,7 @@ Pour utiliser la configuration automatique, assurez-vous d'avoir configuré votr
 
 Tout d'abord, autorisons notre hôte à accepter les publications de routage (pour la configuration automatique) sur l'interface vRack (dans notre exemple "eth1") :
 
-``` bash
+```bash
 $ sudo sysctl -w net.ipv6.conf.eth1.accept_ra=1
 ```
 
@@ -225,7 +225,7 @@ Il est important de noter que cette configuration ne sera pas fonctionnelle si l
 
 Puis, démarrez l'interface :
 
-``` bash
+```bash
 $ sudo ip link set up dev eth1
 $ ip -6 addr list dev eth1
 4: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
@@ -233,7 +233,7 @@ $ ip -6 addr list dev eth1
        valid_lft 2322122sec preferred_lft 334922sec
 ```
 
-Après une courte durée (le temps de la propagation de la configuration), une adresse spécifique IPv6 (avec les flags <i>global</i> et <i>dynamic</i>) devrait apparaître sur l'interface.
+Après une courte durée (le temps de la propagation de la configuration), une adresse spécifique IPv6 (avec les flags *global* et *dynamic*) devrait apparaître sur l'interface.
 
 ///
 
@@ -243,7 +243,7 @@ Après une courte durée (le temps de la propagation de la configuration), une a
 
 Le test le plus simple est de lancer un ping vers une adresse IP locale depuis un hôte :
 
-``` bash
+```bash
 debian@host:~$ ping 2001:41d0:900:2100:fe34:97ff:feb0:c166
 PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c166) 56 data bytes
 64 bytes from 2001:41d0:900:2100:fe34:97ff:feb0:c166: icmp_seq=1 ttl=64 time=0.043 ms
@@ -256,7 +256,7 @@ PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c1
 
 Ensuite, vérifions la connectivité depuis une adresse distante :
 
-``` bash
+```bash
 ubuntu@remote-test:~$ ping 2001:41d0:900:2100:fe34:97ff:feb0:c166
 PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c166) 56 data bytes
 64 bytes from 2001:41d0:900:2100:fe34:97ff:feb0:c166: icmp_seq=1 ttl=55 time=7.23 ms
@@ -270,7 +270,7 @@ PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c1
 
 Dans cette section, nous présenterons une configuration IPv6 plus avancée, où vos hôtes connectés au vRack agissent comme des routeurs pour les machines virtuelles hébergées. Ces VMs disposent de sous-réseaux délégués provenant du bloc IPv6 principal (présenté avec une couleur orange dans le schéma ci-dessous).
 
-![Configuring an IPv6 in a vRack for routed-mode](\images/routed-mode-20240513.png){.thumbnail}
+![Configuring an IPv6 in a vRack for routed-mode](images/routed-mode-20240513.png){.thumbnail}
 
 Le chemin emprunté par le trafic est le suivant : le trafic entrant vers une VM donnée (avec le sous-réseau spécifié) est routé via le vRack du client, d'abord vers un hôte spécifié (avec une adresse de prochain saut), puis en utilisant un lien local (ou vSwitch - lien noir fd00::/64 sur le diagramme) vers la machine virtuelle particulière.
 Le trafic revenant d'une telle VM doit utiliser la route par défaut via la première partie du lien local (en noir sur le diagramme, fd00::1), puis la route (éventuellement par défaut) d'un hôte vers sa passerelle.
@@ -283,7 +283,7 @@ Pour la définition de sous-réseau routé, toute taille de préfixe peut être 
 
 Après avoir ajouté Additional IP à votre vRack, vous pouvez gérer le sous-réseau routé en cliquant sur le bouton `Ajouter un sous-réseau`{.action} .
 
-![vrack select](\images/600.png){.thumbnail}
+![vrack select](images/600.png){.thumbnail}
 
 Pour créer un sous-réseau routé, nous devons d'abord définir :
 
@@ -292,11 +292,11 @@ Pour créer un sous-réseau routé, nous devons d'abord définir :
 
 Veuillez noter qu'un sous-réseau donné ne peut pas chevaucher un autre sous-réseau défini, et que l'adresse du tronçon suivant doit appartenir à la première partie (sous-réseau /64 bridgé) de votre préfixe Additional IPv6.
 
-![continue](\images/800.png){.thumbnail}
+![continue](images/800.png){.thumbnail}
 
 Le sous-réseau routé `2001:41d0:abcd::ef10::/60` est accessible via le saut suivant `2001:41d0:abcd::ef00::2`.
 
-![continue](\images/801.png){.thumbnail}
+![continue](images/801.png){.thumbnail}
 
 ///
 
@@ -311,7 +311,7 @@ Veuillez noter qu'un sous-réseau donné ne peut pas chevaucher un autre sous-r�
 
 L'exemple ci-dessous montre comment définir un tel sous-réseau :
 
-![continue](\images/20240418-02.png){.thumbnail}
+![continue](images/20240418-02.png){.thumbnail}
 
 Nous avons ici défini le sous-réseau routé `2001:41d0:abcd:ef10::/60`, qui sera délégué à la VM hébergée à l'adresse `2001:41d0:abcd:ef00::2`.
 
@@ -411,7 +411,7 @@ PING 2001:41d0:abcd:ef10::1(2001:41d0:abcd:ef10::1) 56 data bytes
 
 Vérifiez la route vers notre sous-réseau /60 sur un hôte :
 
-``` bash
+```bash
 debian@host:~$ ip -6 route get 2001:41d0:abcd:ef10::1
 2001:41d0:abcd:ef10::1 from :: via fd00::2 dev veth1a src fd00::1 metric 1024 pref medium
 ```
@@ -505,8 +505,7 @@ D’autre part, les services comme Additional IPv6 sont régionaux, ce qui signi
 
 Ci-dessous, une architecture est présentée à des fins d'apprentissage avec deux régions différentes, et des blocs Additional IPv6 différents annoncés depuis chacune des deux régions. De plus, il y a un hôte configuré avec des adresses IP des deux réseaux ainsi qu'un exemple de route sous-optimale - un hôte dans une région possédant une adresse IPv6 annoncée dans une autre région :
 
-![image](\images/20240418-08.png)
-
+![image](images/20240418-08.png)
 
 Veuillez noter que dans de telles configurations (avec des Additional IPv6 provenant de plus d'une région), le SLAAC **doit être désactivé dans l'ensemble du vRack** (car cela peut entraîner des résultats imprévisibles et une perte de connectivité aléatoire).
 

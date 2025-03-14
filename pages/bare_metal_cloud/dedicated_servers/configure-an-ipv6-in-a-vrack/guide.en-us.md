@@ -24,7 +24,6 @@ The vRack network serves as a global private network bridging various OVHcloud p
 
 **This guide focuses on Additional IPv6 address block configuration within a vRack network.**
 
-
 ## Introduction
 
 IPv6 revolutionizes networking within OVHcloud's vRack by addressing IPv4's limitations and introducing features for the modern internet. Its rollout is a direct response to the need for more extensive, secure, and sophisticated internet architectures. Here are the key benefits of integrating IPv6 with vRack:
@@ -40,14 +39,14 @@ By leveraging IPv6 within vRack, OVHcloud users can enjoy a more secure, efficie
 
 ## Requirements
 
-- A [vRack](/links/network/vrack){.external} service activated in your account
-- A [vRack compatible server](/links/network/vrack){.external} attached to your vRack network
+- A [vRack](/links/network/vrack) service activated in your account
+- A [vRack compatible server](/links/network/vrack) attached to your vRack network
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!warning]
-> This feature might be unavailable or limited on servers of the [**Eco** product line](https://eco.ovhcloud.com/en/about/).
+> This feature might be unavailable or limited on servers of the [**Eco** product line](/links/bare-metal/eco-about).
 >
-> Please visit our [comparison page](https://eco.ovhcloud.com/en/compare/) for more information.
+> Please visit our [comparison page](/links/bare-metal/eco-compare) for more information.
 
 ## Instructions
 
@@ -220,7 +219,7 @@ To use automatic configuration, please ensure you have configured your interface
 
 First, let's allow our host to accept Router Advertisements (for autoconfiguration) on the vRack interface (in our example "eth1"):
 
-``` bash
+```bash
 $ sudo sysctl -w net.ipv6.conf.eth1.accept_ra=1
 ```
 
@@ -228,7 +227,7 @@ Important to note is that this setting will not work if ipv6.forwarding is enabl
 
 Then, simply bring up the interface:
 
-``` bash
+```bash
 $ sudo ip link set up dev eth1
 $ ip -6 addr list dev eth1
 4: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
@@ -246,7 +245,7 @@ After a moment (the configuration must propagate), specific IPv6 address (with t
 
 The most basic test is to ping a local IP address on a host:
 
-``` bash
+```bash
 debian@host:~$ ping 2001:41d0:900:2100:fe34:97ff:feb0:c166
 PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c166) 56 data bytes
 64 bytes from 2001:41d0:900:2100:fe34:97ff:feb0:c166: icmp_seq=1 ttl=64 time=0.043 ms
@@ -259,7 +258,7 @@ PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c1
 
 Next, let's verify the connectivity from remote:
 
-``` bash
+```bash
 ubuntu@remote-test:~$ ping 2001:41d0:900:2100:fe34:97ff:feb0:c166
 PING 2001:41d0:900:2100:fe34:97ff:feb0:c166(2001:41d0:900:2100:fe34:97ff:feb0:c166) 56 data bytes
 64 bytes from 2001:41d0:900:2100:fe34:97ff:feb0:c166: icmp_seq=1 ttl=55 time=7.23 ms
@@ -414,7 +413,7 @@ PING 2001:41d0:abcd:ef10::1(2001:41d0:abcd:ef10::1) 56 data bytes
 
 Check the route to our /60 subnet on a host:
 
-``` bash
+```bash
 debian@host:~$ ip -6 route get 2001:41d0:abcd:ef10::1
 2001:41d0:abcd:ef10::1 from :: via fd00::2 dev veth1a src fd00::1 metric 1024 pref medium
 ```
@@ -521,7 +520,6 @@ Please note that in such setups (with Additional IPv6 from more than single regi
 
 - **No SLAAC support in multi-location setups:** When there is more than one location acting in routing public IP traffic (both IPv4 and IPv6) into the same vRack, Stateless Address Autoconfiguration (SLAAC) **should not be used**. As an example of such situation, let's consider existing hosts using IPv4 addresses. Such hosts are becoming reconfigured automatically by SLAAC with IPv6 gateway set up from other region. Together with IPv6 prioritization over IPv4 by some Operating Systems this situation can lead to suboptimal routing or even total loss of connectivity for such hosts.
 
-
 ## Known Limitations
 
 Understanding the constraints of using **Additional IPv6** within the **vRack** environment is crucial for effective network planning. Here are the key limitations to consider:
@@ -534,7 +532,7 @@ Understanding the constraints of using **Additional IPv6** within the **vRack** 
 - **IPv6 block allocation limits**: Single Additional IPv6 block per vRack in a region location. Maximum of 3 blocks (/56) per region location.
 - **Mobility of Additional IPv6 blocks**: Due to the hierarchical design of the IPv6 address space, Additional IPv6 blocks are region-specific. This means blocks cannot be transferred between regions, although they can be reassigned within any vRack-connected backend.
 - **No direct VLAN 802.1Q support in vRack by Additional IPv6**: Configuration can only be done with native VLAN of your vRack network. For packet forwarding inside specific VLAN (of a vRack) a dedicated host on customer side will be needed.
-- **At the moment, routing Additional IPv6 into vRack is not supported in APAC regions.**
+- **At the moment, routing Additional IPv6 into vRack is not supported in APAC (Asia-Pacific) regions.**
 
 ## Go further
 
