@@ -280,7 +280,7 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >>
 >> Félicitations, votre bucket est créé :
 >>
->> ![Result](images/01_object_storage-bucket_listing.png)
+>> ![Result](images/01-object-storage-bucket-listing.png)
 
 #### Télécharger vos fichiers en tant qu'objets dans votre bocket
 
@@ -351,7 +351,7 @@ Classe de stockage haute performance :
 >>
 >> Vous pouvez ajouter un préfixe au nom de votre objet. ( le nom de l'objet est le même que le nom du fichier ) Sélectionnez la classe de stockage entre **Standard** et **High Performance**. Enfin, sélectionnez le fichier que vous êtes sur le point de télécharger et cliquez sur le bouton `Importer`{.action}.
 >>
->> ![upload file window](images/upload-file-window.png)
+>> ![upload file window](images/upload-files-window.png)
 
 #### Téléchargement d'un objet à partir d'un bucket
 

@@ -283,7 +283,7 @@ To manage an Object Storage bucket, first log in to your [OVHcloud Control Panel
 >>
 >> Congratulations, your bucket is created:
 >>
->> ![Result](images/01_object_storage-bucket_listing.png)
+>> ![Result](images/01-object-storage-bucket-listing.png)
 
 #### Uploading your files as objects in your bucket
 
@@ -360,7 +360,7 @@ High Performance Storage Class:
 >>
 >> You can add a prefix to your object name. ( the object name is the same as the file name ) Select the storage class between **Standard** and **High Performance**. Finally, select the file you are about to download and click on the `Import`{.action} button.
 >>
->> ![upload file window](images/upload-file-window.png)
+>> ![upload file window](images/upload-files-window.png)
 
 #### Downloading an object from a bucket
 
