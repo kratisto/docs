@@ -1,7 +1,7 @@
 ---
-title: AI Endpoints - Troubleshooting
-excerpt: Find out how to resolve issues when using AI Endpoints
-updated: 2025-03-13
+title: AI Endpoints - Dépannage (EN)
+excerpt: Résoudre les problèmes rencontrés lors de l'utilisation d'AI Endpoints
+updated: 2024-12-03
 ---
 
 > [!primary]
