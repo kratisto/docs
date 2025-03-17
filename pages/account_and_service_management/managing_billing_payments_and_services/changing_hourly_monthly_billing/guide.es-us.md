@@ -23,7 +23,7 @@ Al crear una instancia de Public Cloud, puede elegir entre una tarifa por horas 
 
 ## Requisitos
 
-- Debe haber creado una [instancia de Public Cloud](https://www.ovhcloud.com/es/public-cloud/){.external}
+- Debe haber creado una [instancia de Public Cloud](/links/public-cloud/public-cloud)
 - Debe estar conectado a su [área de cliente de OVHcloud](/links/manager){.external}
 
 ## Procedimiento
