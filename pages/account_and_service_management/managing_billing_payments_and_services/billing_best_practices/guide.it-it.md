@@ -54,7 +54,7 @@ Clicca sul tuo nome in alto a destra e poi su `Le mie comunicazioni`{.action} ne
 
 > [!primary]
 >
-> Per evitare interruzioni di servizio e garantire il corretto funzionamento del rinnovo automatico, [registra una modalità di pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) nello [Spazio Cliente OVHcloud](/links/manager)
+> Per evitare interruzioni di servizio e garantire il corretto funzionamento del rinnovo automatico, [registra una modalità di pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) nello [Spazio Cliente OVHcloud](/links/manager).
 >
 > Assicurati regolarmente che il tuo metodo di pagamento sia **valido**.
 >
