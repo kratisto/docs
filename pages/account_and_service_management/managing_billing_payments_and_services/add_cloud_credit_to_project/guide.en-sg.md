@@ -12,7 +12,7 @@ With the *cloud credit* option you can allocate a specific amount to your Public
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-sg/public-cloud/) in your OVHcloud account
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
