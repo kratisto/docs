@@ -25,7 +25,7 @@ Once the Email Pro service has been created and is available:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Email Pro`{.action}.
+1. Click `Professional emails`{.action}.
 1. Select the service concerned.
 
 > [!primary]
@@ -170,7 +170,7 @@ If you would like to configure your email address on an email client or device (
 >
 > In our guides, we use as the server name: pro**?**.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 > 
-> You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Email Pro`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
+> You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Professional emails`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >
 
 ## Go further

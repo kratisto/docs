@@ -35,7 +35,7 @@ Añadir un dominio a un servicio Exchange es un requisito indispensable para pod
 >>
 >> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 >> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Emails Pro`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >>
 

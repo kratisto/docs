@@ -36,7 +36,7 @@ Follow these steps to ensure that your relevant services are up and running:
 - For your **domain name**, go to the `Web Cloud`{.action} section, click `Domain names`{.action}, then select your domain name. If your domain name has expired, this will be listed at the top of the page.
 - For your **Web Hosting plan**, go to the `Web Cloud`{.action} section, click `Hosting plans`{.action}, then select your Web Hosting plan. The date of expiry or automatic renewal of your hosting will be indicated at the top of the page.
 - For an **MXplan** solution, go to the `Web Cloud`{.action} section, click `Emails`{.action}, then select the domain name concerned. Click the `Email`{.action} accounts tab. Check the status of the email account in the `Status` column.
-- For an **Email Pro** solution, go to the `Web Cloud`{.action} section, click `Email Pro`{.action}, then select your service. Click the `Email`{.action} accounts tab. Check the status of the email account in the `Status` column.
+- For an **Email Pro** solution, go to the `Web Cloud`{.action} section, click `Professional emails`{.action}, then select your service. Click the `Email`{.action} accounts tab. Check the status of the email account in the `Status` column.
 - For an **Exchange** solution, go to the `Web Cloud`{.action} section, click `Microsoft`{.action}, then click `Exchange`{.action} and select your service. Click the `Email accounts`{.action} tab. Check the status of the email account in the `Status` column.
 
 ### I am unable to send emails from my email software (**sending** and/or **receiving**)
@@ -69,7 +69,7 @@ Here is how to change the password for an email address:
 
 - For an **MX Plan** solution, please refer to our guide on [Changing a password for an MX Plan email address](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)
 
-- For an **Email Pro** solution, go to the `Web Cloud`{.action} section, click `Email Pro`{.action}, then select your platform. In the `Email`{.action} accounts tab, click the `...`{.action} button, then click `Modify`{.action} to change the password.
+- For an **Email Pro** solution, go to the `Web Cloud`{.action} section, click `Professional emails`{.action}, then select your platform. In the `Email`{.action} accounts tab, click the `...`{.action} button, then click `Modify`{.action} to change the password.
 
 - For an **Exchange** solution, go to the `Web Cloud`{.action} section, click `Microsoft`{.action}, then click `Exchange`{.action} and select your platform. In the `Email`{.action} accounts tab, click the `...`{.action} button, then click `Modify`{.action} to change the password. <br> Check if two-factor authentication is enabled in our guide on [Configuring two-factor authentication on an Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_2fa_exchange) account.
 

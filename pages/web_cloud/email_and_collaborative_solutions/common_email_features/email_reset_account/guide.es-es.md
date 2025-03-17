@@ -63,7 +63,7 @@ Seleccione la pestaña correspondiente a su servicio de correo:
 >>
 >> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 >> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Emails Pro`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >> 1. Abra la pestaña `Cuentas de correo`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes.
 >> 1. Haga clic en el botón `...`{.action} situado al final de la línea correspondiente a la cuenta que desea modificar y, seguidamente, en `Restaurar la cuenta`{.action}.

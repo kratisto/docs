@@ -30,7 +30,7 @@ In the OVHcloud Control Panel, you can create universal signatures (footers) for
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Email Pro`{.action}.
+>> 1. Click `Professional emails`{.action}.
 >> 1. Select the service concerned.
 >>
 

@@ -66,7 +66,7 @@ If the suspicious activity detected by the antispam system was not initiated by 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Email Pro`{.action}.
+>> 1. Click `Professional emails`{.action}.
 >> 1. Select the service concerned.
 >> 
 >> Go to the `Email accounts`{.action} section of your platform. If the "Status" column to the right of the email account concerned displays "Spam", click on it, then `Reply to the ticket`{.action}. Email accounts are not unblocked automatically. You will need to contact the support team by answering the 3 questions in the support ticket.<br>

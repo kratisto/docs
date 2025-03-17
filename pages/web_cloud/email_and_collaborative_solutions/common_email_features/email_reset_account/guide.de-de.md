@@ -61,7 +61,7 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 >> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
->> 1. Klicken Sie auf `E-Mails Pro`{.action}.
+>> 1. Klicken Sie auf `E-Mail Pro`{.action}.
 >> 1. Wählen Sie den gewünschten Dienst aus.
 >> 1. Wechseln Sie zum Tab `E-Mail Accounts`{.action}. Im daraufhin angezeigten Fenster werden die vorhandenen E-Mail-Accounts angezeigt.
 >> 1. Klicken Sie auf `...`{.action} rechts neben dem zu bearbeitenden Account, und klicken Sie dann auf `Diesen Account zurücksetzen`{.action}.

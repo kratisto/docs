@@ -25,7 +25,7 @@ Wenn der E-Mail Pro Dienst eingerichtet und verfügbar ist:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails Pro`{.action}.
+1. Klicken Sie auf `E-Mail Pro`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 
 > [!primary]
