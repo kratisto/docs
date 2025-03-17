@@ -13,7 +13,7 @@ Oznacza to, że wszystkie zobowiązania z tytułu zasilenia konta cloud zostaną
 
 ## Wymagania początkowe
 
-- Projekt [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) na Twoim koncie OVHcloud
+- Projekt [Public Cloud](/links/public-cloud/public-cloud) na Twoim koncie OVHcloud
 - Dostęp do [Panelu klienta OVHcloud](/links/manager)
 
 ## W praktyce
