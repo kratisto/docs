@@ -34,7 +34,7 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients und We
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 >
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -59,7 +59,7 @@ Geben Sie jetzt die Einstellungen des POP-Servers (Eingangsserver) Ihres OVHclou
 |---|---|
 |Nutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort der E-Mail-Adresse ein.|
-|POP-Server|Tragen Sie „pro**?**.mail.ovh.net“ ein.|
+|POP-Server|Tragen Sie „pro?.mail.ovh.net“ ein.|
 |Port|Wählen Sie den Port „995“ aus.|
 
 Sie können folgende Optionen auswählen:
@@ -86,7 +86,7 @@ Geben Sie jetzt die Einstellungen des SMTP-Servers (Ausgangsserver) Ihres OVHclo
 
 |Information|Beschreibung|
 |---|---|
-|SMTP-Server|Tragen Sie „pro**?**.mail.ovh.net“ ein.|
+|SMTP-Server|Tragen Sie „pro?.mail.ovh.net“ ein.|
 |Port|Wählen Sie den Port „587“ aus.|
 |Nutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort der E-Mail-Adresse ein.|

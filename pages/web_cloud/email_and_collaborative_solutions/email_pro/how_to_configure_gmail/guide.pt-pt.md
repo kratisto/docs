@@ -34,7 +34,7 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail e int
 
 > [!primary]
 >
-> Neste exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
+> Neste exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
 > Encontre este algarismo na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e `E-mails Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
 >
@@ -59,7 +59,7 @@ Indique agora os parâmetros do servidor POP (servidor de entrada) da sua conta 
 |---|---|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**.|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail.|
-|Servidor POP|Indique o servidor « pro**?**.mail.ovh.net ».|
+|Servidor POP|Indique o servidor « pro?.mail.ovh.net ».|
 |Porta|Selecione a porta « 995 ».|
 
 Em relação às escolhas que pode assinalar:
@@ -86,7 +86,7 @@ Indique agora os parâmetros do servidor SMTP (servidor de envio) da sua conta E
 
 |Informação|Descrição|
 |---|---|
-|Servidor SMTP|Indique o servidor « pro**?**.mail.ovh.net ».|
+|Servidor SMTP|Indique o servidor « pro?.mail.ovh.net ».|
 |Porta|Selecione a porta « 587 ».|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**.|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail.|

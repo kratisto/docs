@@ -39,7 +39,7 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 > [!primary]
 >
-> W przewodniku używamy oznaczenia serwera: pro**?**.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
+> W przewodniku używamy oznaczenia serwera: pro?.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 > 
 > Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
 >
@@ -49,14 +49,14 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 |![Outlook](images/config-outlook-emailpro02.png){.thumbnail}|Spośród różnych rodzajów kont wybierz IMAP i POP. <br>Rekomendujemy użycie protokołu IMAP.|
 |Wpisz hasło przypisane do Twojego konta e-mail, po czym kliknij `Dalej`{.action}. |![Outlook](images/config-outlook-emailpro03.png){.thumbnail}|
 |![Outlook](images/config-outlook-emailpro04.png){.thumbnail}|Jeśli program Outlook nie jest w stanie automatycznie skonfigurować Twojego konta, wyświetli się to okno. <br>Kliknij `Zmień parametry konta`{.action} |
-|Wpisz w **wiadomości przychodzącej**: <br>- serwer **pro**?**.mail.ovh.net** (zastąp "?" numerem serwera) <br>- Port **993**<br>- Metoda szyfrowania **SSL/TLS**<br><br>Wpisz w **poczty wychodzącej**: <br>- serwer **pro**?**.mail.ovh.net** (zastąp "?" numerem serwera)<br>- Port **587**<br>- Metoda szyfrowania **STARTTLS**<br><br>Kliknij `Dalej`{.action}, aby zatwierdzić. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
+|Wpisz w **wiadomości przychodzącej**: <br>- serwer **pro?.mail.ovh.net** (zastąp "?" numerem serwera) <br>- Port **993**<br>- Metoda szyfrowania **SSL/TLS**<br><br>Wpisz w **poczty wychodzącej**: <br>- serwer **pro?.mail.ovh.net** (zastąp "?" numerem serwera)<br>- Port **587**<br>- Metoda szyfrowania **STARTTLS**<br><br>Kliknij `Dalej`{.action}, aby zatwierdzić. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
 
 W przypadku konfiguracji **POP** wartości są następujące:
 
 |Typ serwera|Nazwa serwera|Metoda szyfrowania|Port|
 |---|---|---|---|
-|Serwer poczty przychodzącej|pro**?**.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|SSL/TLS|995|
-|Serwer poczty wychodzącej|pro**?**.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|STARTTLS|587|
+|Serwer poczty przychodzącej|pro?.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|SSL/TLS|995|
+|Serwer poczty wychodzącej|pro?.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|STARTTLS|587|
 
 ### Użyj konta e-mail
 
@@ -82,7 +82,7 @@ Okno jest podzielone na dwie części, **Poczta przychodząca** i **Wychodząca*
 
 > [!primary]
 >
-> W przewodniku używamy oznaczenia serwera: pro**?**.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
+> W przewodniku używamy oznaczenia serwera: pro?.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 > 
 > Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
 >

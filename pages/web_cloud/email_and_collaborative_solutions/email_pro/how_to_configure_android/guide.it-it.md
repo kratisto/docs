@@ -41,7 +41,7 @@ Gli indirizzi email del servizio Email Pro possono essere configurati su client 
 
 > [!primary]
 >
-> Nel nostro esempio abbiamo utilizzato come nome del server "pro**?**.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
+> Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
 > Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 >
@@ -115,7 +115,7 @@ Per la ricezione delle email, durante la scelta del tipo di account, ti consigli
 |---|---|
 |Nome utente|Inserisci l'indirizzo email **completo**|
 |Password|Inserisci la password dell’indirizzo email|
-|Server|pro**?**.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
+|Server|pro?.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
 |Porta|995|
 |Tipo di sicurezza|SSL/TLS|
 
@@ -125,7 +125,7 @@ Per la ricezione delle email, durante la scelta del tipo di account, ti consigli
 |---|---|
 |Nome utente|Inserisci l'indirizzo email **completo**|
 |Password|Inserisci la password dell’indirizzo email|
-|Server|pro**?**.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
+|Server|pro?.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
 |Porta|993|
 |Tipo di sicurezza|SSL/TLS|
 
@@ -137,7 +137,7 @@ Per l’invio delle email, se hai necessità di inserire manualmente le impostaz
 |---|---|
 |Nome utente|Inserisci l'indirizzo email **completo**|
 |Password|Inserisci la password dell’indirizzo email|
-|Server|pro**?**.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
+|Server|pro?.mail.ovh.net (sostituisci "?" con il numero del tuo server)|
 |Porta|587|
 |Tipo di sicurezza|STARTTLS|
 

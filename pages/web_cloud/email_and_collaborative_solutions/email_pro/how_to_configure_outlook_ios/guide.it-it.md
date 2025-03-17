@@ -37,7 +37,7 @@ Gli account Email Pro possono essere configurati su client di posta compatibili.
 
 > [!warning]
 >
-> Nei nostri esempi, utilizziamo la dicitura server: pro**?**.mail.ovh.net. Sostituisci "?" con il numero che indica il server del tuo servizio Email Pro.
+> Nei nostri esempi, utilizziamo la dicitura server: pro?.mail.ovh.net. Sostituisci "?" con il numero che indica il server del tuo servizio Email Pro.
 >
 > Ritrova questa cifra nel tuo [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} poi `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 >
@@ -80,7 +80,7 @@ Segui i passaggi di installazione cliccando sulle schede qui sotto:
 >> - **Indirizzo email**
 >> - **Nome visualizzato**: inserisci l’indirizzo email completo
 >> - **Descrizione**
->> - **Server di posta in entrata IMAP**:<br>- **Nome host IMAP**: digitare pro**?**.mail.ovh.net (sostituire "?" con il numero del server)<br>- **Porta IMAP**: 993<br>- **Nome utente IMAP**: l'indirizzo e-mail completo<br>- **Password IMAP**: quello dell'indirizzo e-mail<br>- **Sicurezza porta**: SSL
+>> - **Server di posta in entrata IMAP**:<br>- **Nome host IMAP**: digitare pro?.mail.ovh.net (sostituire "?" con il numero del server)<br>- **Porta IMAP**: 993<br>- **Nome utente IMAP**: l'indirizzo e-mail completo<br>- **Password IMAP**: quello dell'indirizzo e-mail<br>- **Sicurezza porta**: SSL
 >> - **Server di posta in entrata SMTP**:<br>- **Host Name SMTP**: inserisci `pro*?**.mail.ovh.net` (sostituisci bene "?" con il numero del tuo server)<br>- **Porta SMTP**: 587<br>- **Username SMTP**: il tuo indirizzo email completo<br>- **Password SMTP**: quello del tuo indirizzo email<br>- **Sicurezza della porta**: errori dell'ordine STARTLS
 >>
 >> Per completare la configurazione, clicca su `Connessione`{.action}.
@@ -133,7 +133,7 @@ Fare clic sulla scheda relativa al protocollo di ricezione:
 >>
 >> - **Nome utente**: Inserisci l'indirizzo email **completo**
 >> - **Password**: Inserisci la password dell’indirizzo email
->> - **Server (in entrata)**: pro**?**.mail.ovh.net
+>> - **Server (in entrata)**: pro?.mail.ovh.net
 >> - **Porta**: 993
 >> - **Tipo di sicurezza**: SSL/TLS
 >>
@@ -141,7 +141,7 @@ Fare clic sulla scheda relativa al protocollo di ricezione:
 >>
 >> - **Nome utente**: Inserisci l'indirizzo email **completo**
 >> - **Password**: Inserisci la password dell’indirizzo email
->> - **Server (in entrata)**: pro**?**.mail.ovh.net
+>> - **Server (in entrata)**: pro?.mail.ovh.net
 >> - **Porta**: 995
 >> - **Tipo di sicurezza**: SSL/TLS
 
@@ -153,7 +153,7 @@ Per l’invio delle email, se hai necessità di inserire manualmente le impostaz
 
 - **Nome utente**: Inserisci l'indirizzo email **completo**
 - **Password**: Inserisci la password dell’indirizzo email
-- **Server (in entrata)**: pro**?**.mail.ovh.net
+- **Server (in entrata)**: pro?.mail.ovh.net
 - **Porta**: 587
 - **Tipo di sicurezza**: SSL/TLS
 

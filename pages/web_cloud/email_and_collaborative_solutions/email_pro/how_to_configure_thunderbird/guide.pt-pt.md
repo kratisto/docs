@@ -26,7 +26,7 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
 > Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 
@@ -47,8 +47,8 @@ No âmbito de uma configuração em **POP**, os valores são os seguintes:
 
 |Tipo de servidor|Nome do servidor|Método de encriptação|Porta|
 |---|---|---|---|
-|De entrada|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
-|De saída|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
+|De entrada|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
+|De saída|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
 
 ### Utilizar o endereço de e-mail
 
@@ -64,7 +64,7 @@ Se tiver de efetuar uma operação suscetível de causar a perda dos dados da su
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
 > Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 

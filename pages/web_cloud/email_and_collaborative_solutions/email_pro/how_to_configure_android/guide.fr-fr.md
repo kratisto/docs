@@ -41,7 +41,7 @@ Les adresses e-mail de l'offre E-mail Pro peuvent être configurées sur différ
 
 > [!primary]
 >
-> Dans nos exemples, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans nos exemples, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 >
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
 >
@@ -83,11 +83,11 @@ Suivez les étapes successives de configuration en parcourant les onglets ci-des
 >> ![emailpro](images/emailpro-android-04.png){.thumbnail .h-600}
 >>
 > **Etape 5**
->> Complétez les « **Paramètres de serveur entrant** »<br><br>- **Nom d'utilisateur** : Votre adresse e-mail complète<br>- **Mot de passe** : Le mot de passe de votre adresse e-mail<br>- **Serveur** : saisissez **pro**?**.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur). <br><br>
+>> Complétez les « **Paramètres de serveur entrant** »<br><br>- **Nom d'utilisateur** : Votre adresse e-mail complète<br>- **Mot de passe** : Le mot de passe de votre adresse e-mail<br>- **Serveur** : saisissez **pro?.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur). <br><br>
 >> ![emailpro](images/emailpro-android-05.png){.thumbnail .h-600}
 >>
 > **Etape 6**
->> Complétez les « **Paramètres de serveur sortant** »<br><br>- **Nom d'utilisateur** : Votre adresse e-mail complète<br>- **Mot de passe** : Le mot de passe de votre adresse e-mail<br>- **Serveur SMTP** : saisissez **pro**?**.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur). <br><br>
+>> Complétez les « **Paramètres de serveur sortant** »<br><br>- **Nom d'utilisateur** : Votre adresse e-mail complète<br>- **Mot de passe** : Le mot de passe de votre adresse e-mail<br>- **Serveur SMTP** : saisissez **pro?.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur). <br><br>
 >> ![emailpro](images/emailpro-android-06.png){.thumbnail .h-600}
 >>
 > **Etape 7**
@@ -115,7 +115,7 @@ Pour la réception des e-mails, lors du choix du type de compte, nous vous conse
 |---|---|
 |Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
 |Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur|pro**?**.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
+|Serveur|pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
 |Port|995|
 |Type de sécurité|SSL/TLS|
 
@@ -125,7 +125,7 @@ Pour la réception des e-mails, lors du choix du type de compte, nous vous conse
 |---|---|
 |Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
 |Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur|pro**?**.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
+|Serveur|pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
 |Port|993|
 |Type de sécurité|SSL/TLS|
 
@@ -137,7 +137,7 @@ Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres 
 |---|---|
 |Nom d'utilisateur|Renseignez l'adresse e-mail **complète**|
 |Mot de passe|Renseignez le mot de passe de l'adresse e-mail|
-|Serveur|pro**?**.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
+|Serveur|pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)|
 |Port|587|
 |Type de sécurité|STARTTLS|
 

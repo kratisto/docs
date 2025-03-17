@@ -36,7 +36,7 @@ Email Pro accounts can be configured on various compatible email clients. This a
 
 > [!warning]
 >
-> In this guide, we will use as the server name: pro**?**.mail.ovh.net. You will need to replace the "?" with the actual number designating the appropriate server for your Email Pro service.
+> In this guide, we will use as the server name: pro?.mail.ovh.net. You will need to replace the "?" with the actual number designating the appropriate server for your Email Pro service.
 > 
 > You can find this information in the [OVHcloud Control Panel](/links/manager): In the `Web Cloud`{.action} section, select `Professional Email`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >
@@ -79,8 +79,8 @@ Follow the installation steps by clicking on the tabs below:
 >> - **Email address**
 >> - **Full name**: Enter your full email address.
 >> - **Description**
->> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: Type pro**?**.mail.ovh.net (replace "?" with your server number)<br>- **IMAP Port**: 993<br>- **IMAP Username**: Your full email address<br>- **IMAP Password**: Your email account password<br>- **Port Security**: SSL
->> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: Type pro**?**.mail.ovh.net (replace "?" with your server number)<br>- **SMTP Port**: 587<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email account password<br>- **Port security**: STARTTLS
+>> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: Type pro?.mail.ovh.net (replace "?" with your server number)<br>- **IMAP Port**: 993<br>- **IMAP Username**: Your full email address<br>- **IMAP Password**: Your email account password<br>- **Port Security**: SSL
+>> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: Type pro?.mail.ovh.net (replace "?" with your server number)<br>- **SMTP Port**: 587<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email account password<br>- **Port security**: STARTTLS
 >>
 >> To finalize the configuration, press `Login`{.action}.
 >>
@@ -132,7 +132,7 @@ Click on the tab corresponding to your receive protocol:
 >>
 >> - **Username**: Enter the full **email address**
 >> - **Password**: Enter the password for the email account
->> - **Server (incoming)**: pro**?**.mail.ovh.net
+>> - **Server (incoming)**: pro?.mail.ovh.net
 >> - **Port**: 993
 >> - **Security type**: SSL/TLS
 >>
@@ -140,7 +140,7 @@ Click on the tab corresponding to your receive protocol:
 >>
 >> - **Username**: Enter the full **email address**
 >> - **Password**: Enter the password for the email account
->> - **Server (incoming)**: pro**?**.mail.ovh.net
+>> - **Server (incoming)**: pro?.mail.ovh.net
 >> - **Port**: 995
 >> - **Security type**: SSL/TLS
 
@@ -152,7 +152,7 @@ For sending emails, if you have to enter the **SMTP** settings manually in your 
 
 - **Username**: Enter the **full** email address
 - **Password**: Enter the password for the email account
-- **Server (incoming)**: pro**?**.mail.ovh.net
+- **Server (incoming)**: pro?.mail.ovh.net
 - **Port**: 587
 - **Security type**: SSL/TLS
 

@@ -41,7 +41,7 @@ E-Mail-Accounts aus dem E-Mail Pro Angebot können auf allen kompatiblen E-Mail-
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -86,11 +86,11 @@ Folgen Sie den Anleitungsschritten indem Sie nacheinander die Tabs aufrufen:
 >> ![emailpro](images/emailpro-android-04.png){.thumbnail .h-600}
 >>
 > **Schritt 5**
->> Geben Sie die **Einstellungen des Eingangsservers** ein:<br><br>- **Benutzername**: Ihre vollständige E-Mail-Adresse<br>- **Passwort**: Das Passwort des E-Mail-Accounts<br>- **Server**: Geben Sie **pro**?**.mail.ovh.net** ein (ersetzen Sie "?" mit der Nummer Ihres Servers). <br><br>
+>> Geben Sie die **Einstellungen des Eingangsservers** ein:<br><br>- **Benutzername**: Ihre vollständige E-Mail-Adresse<br>- **Passwort**: Das Passwort des E-Mail-Accounts<br>- **Server**: Geben Sie **pro?.mail.ovh.net** ein (ersetzen Sie "?" mit der Nummer Ihres Servers). <br><br>
 >> ![emailpro](images/emailpro-android-05.png){.thumbnail}
 >>
 > **Schritt 6**
->> Geben Sie die **Einstellungen des Ausgangsservers** ein:<br><br>- **Benutzername**: Ihre vollständige E-Mail-Adresse<br>- **Passwort**: Das Passwort des E-Mail-Accounts<br>- **SMTP-Server**: Geben Sie **pro**?**.mail.ovh.net** ein (ersetzen Sie "?" mit der Nummer Ihres Servers). <br><br>
+>> Geben Sie die **Einstellungen des Ausgangsservers** ein:<br><br>- **Benutzername**: Ihre vollständige E-Mail-Adresse<br>- **Passwort**: Das Passwort des E-Mail-Accounts<br>- **SMTP-Server**: Geben Sie **pro?.mail.ovh.net** ein (ersetzen Sie "?" mit der Nummer Ihres Servers). <br><br>
 >> ![emailpro](images/emailpro-android-06.png){.thumbnail .h-600}
 >>
 > **Schritt 7**
@@ -118,7 +118,7 @@ Für den Empfang von E-Mails empfehlen wir Ihnen bei der Auswahl des Kontotyps d
 | --- | --- |
 | Benutzername | Geben Sie die **vollständige** E-Mail-Adresse ein. |
 | Passwort | Geben Sie das Passwort des E-Mail-Accounts ein. |
-| Server | pro**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
+| Server | pro?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
 | Port | 995 |
 | Sicherheitstyp | SSL/TLS |
 
@@ -128,7 +128,7 @@ Für den Empfang von E-Mails empfehlen wir Ihnen bei der Auswahl des Kontotyps d
 | --- | --- |
 | Benutzername | Geben Sie die **vollständige** E-Mail-Adresse ein. |
 | Passwort | Geben Sie das Passwort des E-Mail-Accounts ein. |
-| Server | pro**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
+| Server | pro?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
 | Port | 993 |
 | Sicherheitstyp | SSL/TLS |
 
@@ -141,7 +141,7 @@ eingeben müssen, verwenden Sie die folgenden Einstellungen:
 | --- | --- |
 | Benutzername | Geben Sie die **vollständige** E-Mail-Adresse ein. |
 | Passwort | Geben Sie das Passwort des E-Mail-Accounts ein. |
-| Server | pro**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
+| Server | pro?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers) |
 | Port | 587 |
 | Sicherheitstyp | STARTTLS |
 

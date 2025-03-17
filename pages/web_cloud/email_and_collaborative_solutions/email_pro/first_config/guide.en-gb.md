@@ -163,12 +163,12 @@ If you would like to configure your email address on an email client or device (
 
 |Server type|Server name|Security type|Port|
 |---|---|---|---|
-|Incoming|pro**?**.mail.ovh.net|SSL/TLS|993|
-|Outgoing|pro**?**.mail.ovh.net|STARTTLS|587|
+|Incoming|pro?.mail.ovh.net|SSL/TLS|993|
+|Outgoing|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> In our guides, we use as the server name: pro**?**.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
+> In our guides, we use as the server name: pro?.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 > 
 > You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Professional emails`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >

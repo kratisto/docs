@@ -37,7 +37,7 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 
 > [!warning]
 >
-> Nos nossos exemplos, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "?" pelo número que identifica o servidor do seu serviço E-mail Pro.
+> Nos nossos exemplos, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "?" pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
 > Encontre este algarismo na sua [área de cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `E-mails Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
 
@@ -132,7 +132,7 @@ Clique no separador correspondente ao seu protocolo de receção:
 >>
 >> - **Nome de utilizador** : Introduza o endereço de e-mail **completo**
 >> - **Palavra-passe** : Insira a palavra-passe do endereço de e-mail
->> - **Servidor (de entrada)**: pro**?**.mail.ovh.net
+>> - **Servidor (de entrada)**: pro?.mail.ovh.net
 >> - **Port** : 993
 >> - **Tipo de segurança**: SSL/TLS
 >>
@@ -140,7 +140,7 @@ Clique no separador correspondente ao seu protocolo de receção:
 >>
 >> - **Nome de utilizador** : Introduza o endereço de e-mail **completo**
 >> - **Palavra-passe** : Insira a palavra-passe do endereço de e-mail
->> - **Servidor (de entrada)**: pro**?**.mail.ovh.net
+>> - **Servidor (de entrada)**: pro?.mail.ovh.net
 >> - **Port** : 995
 >> - **Tipo de segurança**: SSL/TLS
 
@@ -152,7 +152,7 @@ Se necessita de inserir manualmente as definições **SMTP** nas preferências d
 
 - **Nome de utilizador** : Insira o endereço de e-mail **completo**
 - **Palavra-passe**: Insira a palavra-passe do endereço de e-mail
-- **Servidor (de entrada)**: pro**?**.mail.ovh.net
+- **Servidor (de entrada)**: pro?.mail.ovh.net
 - **Port** : 587
 - **Tipo de segurança**: SSL/TLS
 

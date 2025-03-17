@@ -28,7 +28,7 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -52,9 +52,9 @@ Geben Sie nun folgende Informationen ein:
 |Kennwort|Geben Sie das Passwort der E-Mail-Adresse ein.|
 |Kontoname|Geben Sie einen Namen für diesen Account ein, damit Sie ihn später von anderen Accounts in Ihrer Mail App unterscheiden können.|
 |Sendet Ihre Nachrichten unter diesem Namen|Geben Sie den Namen an, der als Absender angezeigt werden soll, wenn E-Mails mit dieser Adresse verschickt werden.|
-|Posteingangsserver|Tragen Sie „pro**?**.mail.ovh.net:993“ ein.|
+|Posteingangsserver|Tragen Sie „pro?.mail.ovh.net:993“ ein.|
 |Kontotyp|Wir empfehlen die Verwendung von **IMAP4**. Sie können auch **POP** im Drop-down-Menü auswählen (dann werden Ihre E-Mails lokal in Ihrer Mail App gespeichert).|
-|Postausgangsserver|Tragen Sie „pro**?**.mail.ovh.net:587“ ein.|
+|Postausgangsserver|Tragen Sie „pro?.mail.ovh.net:587“ ein.|
 
 Überprüfen Sie, dass die folgenden Haken gesetzt sind:
 
@@ -73,8 +73,8 @@ Wenn manuelle Änderungen in den Account-Einstellungen erforderlich sind, verwen
 
 |Servertyp|Servername|SSL|Port|
 |---|---|---|---|
-|Eingangsserver|pro**?**.mail.ovh.net|Ja|993|
-|Ausgangsserver|pro**?**.mail.ovh.net|Ja|587|
+|Eingangsserver|pro?.mail.ovh.net|Ja|993|
+|Ausgangsserver|pro?.mail.ovh.net|Ja|587|
 
 ### Schritt 2: E-Mail-Adresse verwenden
 
