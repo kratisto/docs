@@ -93,7 +93,7 @@ Se tiver de efetuar uma operação suscetível de causar a perda dos dados da su
 Se a sua conta de e-mail já está configurada e tem de aceder aos parâmetros da conta para os alterar:
 
 - Clique em `Mail`{.action} na barra de menu no topo do seu ecrã e, a seguir, clique em `Preferências...`{.action} **ou** `Definições...`{.action} conforme a versão do macOS.
-- No separador "Contas" {.action}, selecione a conta correspondente na coluna da esquerda e, a seguir, clique em "Definições do servidor" {.action}.
+- No separador `Contas`{.action}, selecione a conta correspondente na coluna da esquerda e, a seguir, clique em `Definições do servidor`{.action}.
 
 ![mailmac](images/mail-mac-exchange05.png){.thumbnail}
 
