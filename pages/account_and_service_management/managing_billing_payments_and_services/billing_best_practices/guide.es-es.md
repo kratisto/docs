@@ -13,7 +13,7 @@ Esta guía explica los requisitos necesarios para una buena gestión de su cuent
 ## Requisitos
 
 - Tener uno o más servicios de OVHcloud activos.
-- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
+- Haber iniciado sesión en su [área de cliente de OVHcloud](/links/manager).
 
 ## Procedimiento
 
