@@ -18,7 +18,7 @@ Esto significa que este crédito cloud se cargará en primer lugar y que, a cont
 
 ## Procedimiento
 
-Inicie sesión en el [Panel de configuración de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. Abra `Credit and Vouchers`{.action} en el menú de la izquierda.
+Inicie sesión en su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. Abra `Credit and Vouchers`{.action} en el menú de la izquierda.
 
 > [!warning]
 >
