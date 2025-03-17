@@ -23,7 +23,7 @@ Creando un’istanza Public Cloud, si può scegliere tra fatturazione oraria o m
 
 ## Prerequisiti
 
-- Aver creato un’[istanza Public Cloud](https://www.ovhcloud.com/it/public-cloud/){.external}.
+- Aver creato un’[istanza Public Cloud](/links/public-cloud/public-cloud).
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external}
 
 ## Procedura
