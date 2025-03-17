@@ -12,7 +12,7 @@ If your Private Cloud offer no longer suits you, or if you have ordered a new in
 
 ## Requirements
 
-- a [Hosted Private Cloud infrastructure](https://www.ovhcloud.com/en-sg/enterprise/products/hosted-private-cloud/)
+- A [Hosted Private Cloud infrastructure](/links/hosted-private-cloud/vmware)
 - access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
