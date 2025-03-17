@@ -13,7 +13,7 @@ Isto significa que este crédito cloud é debitado em primeiro lugar e que qualq
 
 ## Requisitos
 
-- Um projeto [Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) na sua conta OVHcloud
+- Um projeto [Public Cloud](/links/public-cloud/public-cloud) na sua conta OVHcloud
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager)
 
 ## Instruções
