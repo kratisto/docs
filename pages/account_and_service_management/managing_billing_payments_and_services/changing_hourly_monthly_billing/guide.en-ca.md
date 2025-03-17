@@ -25,7 +25,7 @@ If you initially selected hourly billing, you can switch to monthly billing at a
 
 ## Requirements
 
-- A [Public Cloud instance](https://www.ovhcloud.com/en-ca/public-cloud/){.external} in your OVHcloud account
+- A [Public Cloud instance](/links/public-cloud/public-cloud) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
