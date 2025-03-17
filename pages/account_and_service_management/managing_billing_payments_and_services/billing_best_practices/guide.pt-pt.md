@@ -54,7 +54,7 @@ Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `As m
 
 > [!primary]
 >
-> Para evitar qualquer interrupção de serviço e para o bom funcionamento da renovação automática, [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) na sua [Área de Cliente OVHcloud](/links/manager)
+> Para evitar qualquer interrupção de serviço e para o bom funcionamento da renovação automática, [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) na sua [Área de Cliente OVHcloud](/links/manager).
 >
 > Certifique-se regularmente de que o seu método de pagamento é **válido**.
 >
