@@ -35,7 +35,6 @@ Legen Sie zunächst fest, welche Berechtigungen Sie vergeben möchten. Zur Erinn
 > [!warning]
 >
 > Sie können nicht gleichzeitig „Senden als“- und „Senden im Auftrag von“-Berechtigungen vergeben. Andere Kombinationen sind jedoch möglich.
-> 
 
 Wählen Sie zunächst den Account aus, für den Sie Berechtigungen vergeben möchten. Bestimmen Sie dann die entsprechenden Rechte sowie den oder die Accounts, die zusätzliche Berechtigungen erhalten sollen. Folgen Sie nun Schritt 1 der vorliegenden Anleitung.
 
@@ -43,10 +42,24 @@ Wählen Sie zunächst den Account aus, für den Sie Berechtigungen vergeben möc
 
 Loggen Sie sich zunächst in Ihrem [OVHcloud Kundencenter](/links/manager) ein:
 
-- **Exchange**: Klicken Sie auf `Microsoft`{.action} und dann auf `Exchange`{.action}.
-- **Email Pro**: Klicken Sie auf `Email Pro`{.action}.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `Microsoft`{.action}.
+>> 1. Klicken Sie auf `Exchange`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>>
+> **Email Pro**
+>>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mail Pro`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>>
 
-Klicken Sie dann auf den Namen des E-Mail Dienstes, in dem sich der Account befindet, für den Sie Rechte vergeben möchten. Gehen Sie nun auf den Tab `E-Mail-Accounts`{.action}.
+Gehen Sie nun auf den Tab `E-Mail-Accounts`{.action}.
 
 Die Tabelle zeigt alle Accounts an, die mit Ihrem E-Mail Dienst verbunden sind. Klicken Sie auf die drei Punkte rechts neben dem Account, für den Sie Berechtigungen vergeben möchten, und gehen Sie dann auf `Berechtigungen verwalten`{.action}.
 

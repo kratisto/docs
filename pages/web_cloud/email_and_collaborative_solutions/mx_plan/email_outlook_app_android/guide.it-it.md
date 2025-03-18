@@ -73,7 +73,7 @@ Segui i passaggi di installazione cliccando sulle schede qui sotto:
 >> - **Indirizzo email**
 >> - **Nome visualizzato**: inserisci l’indirizzo email completo
 >> - **Descrizione**
->> - **Server di posta in entrata IMAP**:<br>- **Hostname IMAP**: per l'**EUROPA**, digitare `imap.mail.ovh.net` o `ssl0.ovh.net`. Per l'**AMERICA/ASIA**, inserisci `imap.mail.ovh.ca`<br>- **Porta**: 993<br>- **Tipo di sicurezza**: SSL/TLS<br>- **Nome utente IMAP***: il tuo indirizzo email completo<br>- **Password IMAP**: quello del tuo indirizzo email
+>> - **Server di posta in entrata IMAP**:<br>- **Hostname IMAP**: per l'**EUROPA**, digitare `imap.mail.ovh.net` o `ssl0.ovh.net`. Per l'**AMERICA/ASIA**, inserisci `imap.mail.ovh.ca`<br>- **Porta**: 993<br>- **Tipo di sicurezza**: SSL/TLS<br>- **Nome utente IMAP**: il tuo indirizzo email completo<br>- **Password IMAP**: quello del tuo indirizzo email
 >> - **Server di posta in entrata SMTP**:<br>- **Host Name SMTP**: per l'**EUROPA**, digitare `smtp.mail.ovh.net` o `ssl0.ovh.net` . Per l'**AMERICA/ASIA**, inserisci `smtp.mail.ovh.ca`<br>- **Porta**: 465<br>- **Tipo di sicurezza**: SSL/TLS<br>- **Nome utente SMTP**: il tuo indirizzo email completo<br>- **Password SMTP**: quello del tuo indirizzo email
 >>
 >> Per completare la configurazione, clicca sul pulsante " &#10003;"

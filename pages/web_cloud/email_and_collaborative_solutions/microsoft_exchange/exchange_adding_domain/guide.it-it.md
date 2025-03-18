@@ -21,14 +21,22 @@ Aggiungere un dominio su Exchange è un’operazione fondamentale per utilizzare
 
 ### Accedi alla gestione del tuo servizio
 
-Una volta che il tuo Exchange o Email Pro è stato creato e reso disponibile, è possibile gestirlo dallo [Spazio Cliente OVHcloud](/links/manager).
-
-Nella sezione `Web Cloud`{.action}:
-
-- **Exchange**: Clicca su `Microsoft`{.action} e poi su `Exchange`{.action}. 
-- **Email Pro**: Clicca su `Email Pro`{.action}.
-
-e seleziona il nome del servizio.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Microsoft`{.action}.
+>> 1. Clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+> **Email Pro**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
 
 ### Aggiungi un dominio
 

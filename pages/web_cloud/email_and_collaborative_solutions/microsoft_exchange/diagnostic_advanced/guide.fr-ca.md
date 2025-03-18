@@ -84,7 +84,7 @@ En fonction de l'utilisation de votre service Exchange, les serveurs MX suivants
 
 - Exchange seul : mx0.mail.ovh.ca, mx2.mail.ovh.ca, mx3.mail.ovh.ca et mx4.mail.ovh.ca
 - Exchange + E-mail POP/IMAP hébergé par OVHcloud: mx0.mail.ovh.ca, mx2.mail.ovh.ca, mx3.mail.ovh.ca et mx4.mail.ovh.ca
-- Exchange + E-mail POP/IMAP non hébergé par OVHcloud: ex**?**.mail.ovh.ca
+- Exchange + E-mail POP/IMAP non hébergé par OVHcloud: ex?.mail.ovh.ca
 
 <a name="hostname"></a>
 
@@ -112,7 +112,7 @@ Sous domaine | _autodiscover._tcp
 Priorité | 0
 Poids | 0
 Port | 443
-Cible | [ex**?**.mail.ovh.ca ](#hostname) (remplacez le « ? » par le numéro correspondant au serveur de votre service Exchange)
+Cible | [ex?.mail.ovh.ca ](#hostname) (remplacez le « ? » par le numéro correspondant au serveur de votre service Exchange)
 
 ### L'email de test n'a pas pu être envoyé à partir du compte
 

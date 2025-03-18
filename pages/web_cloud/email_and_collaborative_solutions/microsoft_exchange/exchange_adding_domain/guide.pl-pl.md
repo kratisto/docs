@@ -22,14 +22,22 @@ Dodanie domeny do usługi Exchange jest niezbędne, abyś mógł korzystać z ko
 
 ### Dostęp do zarządzania usługą
 
-Po utworzeniu i udostępnieniu usługi Exchange lub E-mail Pro, można nią zarządzać poprzez [Panel klienta OVHcloud](/links/manager).
-
-W sekcji `Web Cloud`{.action}:
-
-- **Exchange**: Kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. 
-- **E-mail Pro**: Kliknij `Email Pro`{.action}.
-
-Następnie wybierz odpowiednią usługę.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij rubrykę `Microsoft`{.action}.
+>> 1. Kliknij na `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+> **Email Pro**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
 
 ### Dodaj domenę
 

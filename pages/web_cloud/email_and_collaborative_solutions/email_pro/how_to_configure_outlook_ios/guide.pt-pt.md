@@ -37,9 +37,9 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 
 > [!warning]
 >
-> Nos nossos exemplos, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "?" pelo número que identifica o servidor do seu serviço E-mail Pro.
+> Nos nossos exemplos, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "?" pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
-> Encontre este algarismo na sua [área de cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `E-mail Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este algarismo na sua [área de cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `E-mails Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
 
 - **Ao iniciar pela primeira vez a aplicação** : será apresentado um assistente de configuração, prima `Adicionar uma conta`{.action}.
 
@@ -79,8 +79,8 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 >> - **Endereço de correio eletrónico**
 >> - **Nome completo** : introduza o seu endereço de e-mail completo
 >> - **Description**
->> - **Servidor de receção de correio eletrónico IMAP**:<br>- **Nome de anfitrião IMAP**: digite `pro**?**mail.ovh.net` (substitua "**?**" pelo número do seu servidor)<br>- **Porta IMAP**: 993<br>- **Nome de utilizador IMAP** : o seu endereço de correio eletrónico completo<br>- **Palavra-passe IMAP** : o seu endereço de correio eletrónico<br>- **Segurança da porta**: SSL
->> - **Servidor de receção de correio eletrónico SMTP**:<br>- **Nome de host SMTP**: digite `pro**?**mail.ovh.net` (substitua "**?**" pelo número do seu servidor)<br>- **Porta SMTP**: 587<br>- **Nome de utilizador SMTP**: o seu endereço de correio eletrónico completo<br>- **Palavra-passe SMTP**: o do seu endereço de correio eletrónico<br>- **Segurança da porta**: falhas do TLS START
+>> - **Servidor de receção de correio eletrónico IMAP**:<br>- **Nome de anfitrião IMAP**: digite `pro?mail.ovh.net` (substitua "?" pelo número do seu servidor)<br>- **Porta IMAP**: 993<br>- **Nome de utilizador IMAP** : o seu endereço de correio eletrónico completo<br>- **Palavra-passe IMAP** : o seu endereço de correio eletrónico<br>- **Segurança da porta**: SSL
+>> - **Servidor de receção de correio eletrónico SMTP**:<br>- **Nome de host SMTP**: digite `pro?mail.ovh.net` (substitua "?" pelo número do seu servidor)<br>- **Porta SMTP**: 587<br>- **Nome de utilizador SMTP**: o seu endereço de correio eletrónico completo<br>- **Palavra-passe SMTP**: o do seu endereço de correio eletrónico<br>- **Segurança da porta**: falhas do TLS START
 >>
 >> Para finalizar a configuração, prima `Connection`{.action}.
 >>
@@ -132,7 +132,7 @@ Clique no separador correspondente ao seu protocolo de receção:
 >>
 >> - **Nome de utilizador** : Introduza o endereço de e-mail **completo**
 >> - **Palavra-passe** : Insira a palavra-passe do endereço de e-mail
->> - **Servidor (de entrada)**: pro**?**.mail.ovh.net
+>> - **Servidor (de entrada)**: pro?.mail.ovh.net
 >> - **Port** : 993
 >> - **Tipo de segurança**: SSL/TLS
 >>
@@ -140,7 +140,7 @@ Clique no separador correspondente ao seu protocolo de receção:
 >>
 >> - **Nome de utilizador** : Introduza o endereço de e-mail **completo**
 >> - **Palavra-passe** : Insira a palavra-passe do endereço de e-mail
->> - **Servidor (de entrada)**: pro**?**.mail.ovh.net
+>> - **Servidor (de entrada)**: pro?.mail.ovh.net
 >> - **Port** : 995
 >> - **Tipo de segurança**: SSL/TLS
 
@@ -152,7 +152,7 @@ Se necessita de inserir manualmente as definições **SMTP** nas preferências d
 
 - **Nome de utilizador** : Insira o endereço de e-mail **completo**
 - **Palavra-passe**: Insira a palavra-passe do endereço de e-mail
-- **Servidor (de entrada)**: pro**?**.mail.ovh.net
+- **Servidor (de entrada)**: pro?.mail.ovh.net
 - **Port** : 587
 - **Tipo de segurança**: SSL/TLS
 

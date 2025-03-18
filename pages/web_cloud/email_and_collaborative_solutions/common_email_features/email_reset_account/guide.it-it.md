@@ -35,29 +35,56 @@ Seleziona la scheda corrispondente al tuo servizio di posta:
 > [!tabs]
 > **Email MX Plan storico**
 >>
->> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.<br><br>
+>> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.
 >>
->> Clicca su `Email`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Elimina l'account`{.action}.<br><br>
->>![email](images/email-mxplan-legacy-reset.png){.thumbnail}<br>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email`{.action}.
+>> 1. Seleziona il dominio.
+>> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
+>> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Elimina l'account`{.action}.
+>>
+>> ![email](images/email-mxplan-legacy-reset.png){.thumbnail}
 >>
 > **Email MX Plan nuova versione**
 >>
->> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.<br><br>
+>> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.
 >>
->> Clicca su `Email`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta questo account`{.action}.<br><br>
->>![email](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email`{.action}.
+>> 1. Seleziona il dominio.
+>> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
+>> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta questo account`{.action}.
+>>
+>> ![email](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Email Pro**
 >>
->> Clicca su `Email Pro`{.action} e seleziona il nome della piattaforma. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta questo account`{.action}.<br><br>
->> Dopo la reinizializzazione del tuo account, per eliminarlo definitivamente, dovrai disattivarlo. Per effettuare questa operazione, consulta la nostra guida [Gestire la fatturazione dei tuoi account Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).<br><br>
->>![email](images/emailpro-reset.png){.thumbnail}<br>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
+>> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta questo account`{.action}.
+>>
+>> Dopo la reinizializzazione del tuo account, per eliminarlo definitivamente, dovrai disattivarlo. Per effettuare questa operazione, consulta la nostra guida [Gestire la fatturazione dei tuoi account Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).
+>>
+>> ![email](images/emailpro-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Clicca su `Microsoft`{.action} e poi su `Exchange`{.action} e scegli il nome della piattaforma. Clicca sulla scheda `Account email`{.action}. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta`{.action}.<br><br>
->> Dopo la reinizializzazione del tuo account, per eliminarlo definitivamente, dovrai disattivarlo. Per effettuare questa operazione, consulta la nostra guida [Gestire la fatturazione dei tuoi account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).<br><br>
->>![email](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Microsoft`{.action}.
+>> 1. Clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>> 1. Clicca sulla scheda `Account email`{.action}.
+>> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta`{.action}.
+>>
+>> Dopo la reinizializzazione del tuo account, per eliminarlo definitivamente, dovrai disattivarlo. Per effettuare questa operazione, consulta la nostra guida [Gestire la fatturazione dei tuoi account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).
+>>
+>> ![email](images/exchange-reset.png){.thumbnail}
 >>
 
 #### Identifica la tua offerta MX Plan <a name="whichmxplan"></a>
@@ -67,7 +94,7 @@ Nella tabella qui sotto trovi le informazioni necessarie per identificare la tua
 |Vecchia versione della soluzione MX Plan|Nuova versione della soluzione MX Plan|
 |---|---|
 |![email](images/mxplan-starter-legacy-step1.png){.thumbnail}<br> Il servizio è indicato nel riquadro “Abbonamento”|![email](images/mxplan-starter-new-step1.png){.thumbnail}<br>Nel riquadro "Riepilogo", indica il "Referenza server".|
-|Seleziona la scheda **Email MX Plan storica** qui sotto in questa guida.|Seleziona la scheda **Email MX Plan nuova versione** qui sotto in questa guida.|<br>
+|Seleziona la scheda **Email MX Plan storica** qui sotto in questa guida.|Seleziona la scheda **Email MX Plan nuova versione** qui sotto in questa guida.|
 
 ## Per saperne di più
 

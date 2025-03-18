@@ -38,7 +38,7 @@ Konta Exchange mogą być skonfigurowane w  kompatybilnych programach pocztowych
 
 > [!primary]
 >
-> W naszym przykładzie używamy nazwy serwera: ex**?**.mail.ovh.net. Należy zastąpić "?" cyfrą wskazującą serwer Twojej usługi Exchange.
+> W naszym przykładzie używamy nazwy serwera: ex?.mail.ovh.net. Należy zastąpić "?" cyfrą wskazującą serwer Twojej usługi Exchange.
 >
 > Znajdziesz tę cyfrę w [Panelu klienta OVHcloud](/links/manager), w rubryce `Web Cloud`{.action}, następnie `Microsoft`{.action}.
 > Kliknij na `Exchange`{.action}, a następnie na wybraną platformę Exchange. Nazwa serwera jest widoczna w ramce **Połączenie** w zakładce `Informacje ogólne`{.action}.

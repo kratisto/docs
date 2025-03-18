@@ -21,9 +21,11 @@ To use the accounts included with an Exchange service, you will need to add a do
 
 ### Access your service management
 
-Once your Exchange service has been created and is available, you can manage it from your [OVHcloud Control Panel](/links/manager).
-
-In the `Web Cloud`{.action} section, open the appropriate service. Click `Microsoft`{.action}, and then click `Exchange`{.action}. Then select the name of the service concerned.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
 
 ### Add a domain name
 

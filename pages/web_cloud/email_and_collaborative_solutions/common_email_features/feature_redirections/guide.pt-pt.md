@@ -165,7 +165,7 @@ Aceda à [Área de Cliente OVHcloud](/links/manager) e dirija-se à secção `We
 
 - **Exchange**: na `Microsoft`{.action}, depois em `Exchange`{.action} e selecione a plataforma em causa. Clique no separador `Contas de e-mail`{.action}.
 
-- **E-mail Pro**: No `E-mail Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
+- **E-mail Pro**: No `E-mails Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 
 - **E-mails** (MXplan): em `E-mails`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 

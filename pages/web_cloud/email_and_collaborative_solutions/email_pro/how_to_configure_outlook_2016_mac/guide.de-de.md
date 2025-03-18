@@ -33,7 +33,7 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -54,9 +54,9 @@ Klicken Sie nun auf Ihre E-Mail-Adresse und dann auf `Weiter`{.action}. Aus den 
 |E-Mail-Adresse|Geben Sie einen Namen für diesen Account ein, damit Sie ihn später von anderen Accounts in Ihrer Outlook-App unterscheiden können.|
 |Benutzername|Geben Sie die vollständige E-Mail-Adresse ein.|
 |Kennwort|Geben Sie das Passwort der E-Mail-Adresse ein.|
-|Eingangsserver|Tragen Sie „pro**?**.mail.ovh.net“ ein. Lassen Sie den Haken bei **Für Verbindung SSL verwenden** gesetzt.|
+|Eingangsserver|Tragen Sie „pro?.mail.ovh.net“ ein. Lassen Sie den Haken bei **Für Verbindung SSL verwenden** gesetzt.|
 |Eingangsport|Tragen Sie den Port „993“ ein.|
-|Ausgangsserver|Tragen Sie „pro**?**.mail.ovh.net“ ein. Lassen Sie den Haken bei **Für Verbindung SSL verwenden** gesetzt.|
+|Ausgangsserver|Tragen Sie „pro?.mail.ovh.net“ ein. Lassen Sie den Haken bei **Für Verbindung SSL verwenden** gesetzt.|
 |Ausgangsport|Tragen Sie den Port „587“ ein.|
 
 Nachdem Sie diese Informationen eingegeben haben, klicken Sie auf `Konto hinzufügen`{.action}. Sind die Angaben korrekt, wird die Verbindung zu Ihrem Account hergestellt.
@@ -69,8 +69,8 @@ Wenn manuelle Änderungen in den Account-Einstellungen erforderlich sind, verwen
 
 |Servertyp|Servername|SSL|Port|
 |---|---|---|---|
-|Eingangsserver|pro**?**.mail.ovh.net|Ja|993|
-|Ausgangsserver|pro**?**.mail.ovh.net|Ja|587|
+|Eingangsserver|pro?.mail.ovh.net|Ja|993|
+|Ausgangsserver|pro?.mail.ovh.net|Ja|587|
 
 ### Schritt 2: E-Mail-Adresse verwenden
 

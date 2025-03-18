@@ -35,18 +35,29 @@ Avant de débuter, définissez le ou les droits que vous allez déléguer. Pour 
 > [!warning]
 >
 > Vous n'avez pas la possibilité de cumuler le « droit d'envoi » avec le « droit d'envoyer de la part de ». Les autres combinaisons sont quant à elles possibles.
->
 
 Lorsque vous avez identifié le compte concerné par la délégation, déterminé les droits que vous allez déléguer, ainsi qu'identifié le ou les comptes qui bénéficieront de ces droits supplémentaires, poursuivez vers la première étape.
 
 ### Étape 1 : mettre en place la délégation
 
-Pour effectuer cette manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur la rubrique `Microsoft`{.action}.
+>> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
+> **Email Pro**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
+>> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
 
-- **Exchange**: Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}.
-- **Email Pro**: Cliquez sur `Email Pro`{.action}.
-
-Cliquez ensuite sur le nom du service e-mail dans lequel se trouve le compte concerné par la création de la délégation. Positionnez-vous enfin sur l'onglet `Comptes e-mail`{.action}.
+Dirigez-vous vers l'onglet `Comptes e-mail`{.action}.
 
 Le tableau qui apparaît affiche les comptes liés à votre service e-mail. Cliquez sur les trois points à droite du compte pour lequel vous souhaitez créer une délégation,  puis sur `Gérer les délégations`{.action}.
 

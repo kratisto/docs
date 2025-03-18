@@ -37,9 +37,9 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 > [!warning]
 >
-> W naszych przykładach używamy określenia serwer: pro*?**.mail.ovh.net. Należy zastąpić "?" cyfrą wskazującą serwer Twojej usługi E-mail Pro.
+> W naszych przykładach używamy określenia serwer: pro?.mail.ovh.net. Należy zastąpić "?" cyfrą wskazującą serwer Twojej usługi E-mail Pro.
 >
-> Znajdziesz tę cyfrę w [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Web Cloud`{.action}, a następnie `E-mail Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w zakładce `Informacje ogólne`{.action}.
+> Znajdziesz tę cyfrę w [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Web Cloud`{.action}, a następnie `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w zakładce `Informacje ogólne`{.action}.
 >
 
 - **Podczas pierwszego uruchomienia aplikacji** : wyświetli się asystent konfiguracji, po czym kliknij `Dodaj konto`{.action}.
@@ -80,8 +80,8 @@ Postępuj zgodnie z kolejnymi instrukcjami, klikając poniższe zakładki:
 >> - **Adres e-mail**
 >> - **Pełna nazwa** : wprowadź pełny adres e-mail
 >> - **Opis**
->> - **Serwer poczty przychodzącej IMAP** :<br>- **Nazwa hosta IMAP** : wprowadź `pro*?**.mail.ovh.net` (zastąp dobrze "**?**" numerem serwera)<br>- **Port IMAP** : 993<br>- **Nazwa użytkownika IMAP**: Twój pełny adres e-mail<br>- **Hasło IMAP** : Twój adres e-mail<br>- **Bezpieczeństwo portu** : SSL
->> - **Serwer poczty przychodzącej SMTP** :<br>- **Nazwa hosta SMTP** : wprowadź `pro*?**.mail.ovh.net` (zastąp dobrze "**?**" numerem serwera)<br>- **Port SMTP** : 587<br>- **Nazwa użytkownika SMTP**: Twój pełny adres e-mail<br>- **Hasło SMTP**: Twój adres e-mail<br>- **Bezpieczeństwo portu** : Niepowodzenie polecenia STARTTLS
+>> - **Serwer poczty przychodzącej IMAP** :<br>- **Nazwa hosta IMAP** : wprowadź `pro?.mail.ovh.net` (zastąp dobrze "?" numerem serwera)<br>- **Port IMAP** : 993<br>- **Nazwa użytkownika IMAP**: Twój pełny adres e-mail<br>- **Hasło IMAP** : Twój adres e-mail<br>- **Bezpieczeństwo portu** : SSL
+>> - **Serwer poczty przychodzącej SMTP** :<br>- **Nazwa hosta SMTP** : wprowadź `pro?.mail.ovh.net` (zastąp dobrze "?" numerem serwera)<br>- **Port SMTP** : 587<br>- **Nazwa użytkownika SMTP**: Twój pełny adres e-mail<br>- **Hasło SMTP**: Twój adres e-mail<br>- **Bezpieczeństwo portu** : Niepowodzenie polecenia STARTTLS
 >>
 >> Aby dokończyć konfigurację, naciśnij przycisk `Połącz`{.action}.
 >>
@@ -133,7 +133,7 @@ Kliknij kartę odpowiadającą protokołowi odbioru:
 >>
 >> - **Nazwa użytkownika** : Wpisz pełny adres e-mail **Complete**
 >> - **Hasło** : Wprowadź hasło przypisane do konta e-mail
->> - **Serwer (przychodzący)** : pro*?**.mail.ovh.net
+>> - **Serwer (przychodzący)** : pro?.mail.ovh.net
 >> - **Port** : 993
 >> - **Typ bezpieczeństwa** : SSL/TLS
 >>
@@ -141,7 +141,7 @@ Kliknij kartę odpowiadającą protokołowi odbioru:
 >>
 >> - **Nazwa użytkownika** : Wpisz pełny adres e-mail **Complete**
 >> - **Hasło** : Wprowadź hasło przypisane do konta e-mail
->> - **Serwer (przychodzący)** : pro*?**.mail.ovh.net
+>> - **Serwer (przychodzący)** : pro?.mail.ovh.net
 >> - **Port** : 995
 >> - **Typ bezpieczeństwa** : SSL/TLS
 
@@ -153,7 +153,7 @@ Jeśli chcesz wysyłać wiadomości e-mail, wprowadź ręcznie ustawienia **SMTP
 
 - **Nazwa użytkownika** : Wpisz pełny adres e-mail **complete**
 - **Hasło** : Wprowadź hasło przypisane do konta e-mail
-- **Serwer (przychodzący)** : pro*?**.mail.ovh.net
+- **Serwer (przychodzący)** : pro?.mail.ovh.net
 - **Port** : 587
 - **Typ bezpieczeństwa** : SSL/TLS
 

@@ -38,7 +38,7 @@ Es posible configurar sus cuentas Exchange en el cliente de correo electrónico 
 
 > [!primary]
 >
-> En nuestro ejemplo, utilizamos la mención servidor : ex**?**.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor de su servicio Exchange.
+> En nuestro ejemplo, utilizamos la mención servidor : ex?.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor de su servicio Exchange.
 >
 > Puede consultar esta cifra en el [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y luego `Microsoft`{.action}.
 > Haga clic en `Exchange`{.action} y seleccione la plataforma Exchange deseada. El nombre del servidor puede verse en el recuadro **Conexión** de la pestaña `Información general`{.action}.
@@ -62,7 +62,7 @@ Es posible configurar sus cuentas Exchange en el cliente de correo electrónico 
 >> ![mailmac](images/mail-mac-exchange03.png){.thumbnail .w-400 .h-600}
 >>
 > **Paso 4**
->> Escriba: <br><br>- Dirección de correo electrónico: deje su dirección de correo electrónico completa<br>- Nombre de usuario: deje su dirección de correo electrónico completa <br>- Contraseña: deje su **contraseña**<br> - URL interna: **ex?.mail.ovh.net** (sustituya el **?** por [el número de su servidor Exchange](#addaccount))<br>- URL externa: **ex?.mail.ovh.net** (sustituya el **?*** por [el número de su servidor Exchange](#addaccount))<br><br>
+>> Escriba: <br><br>- Dirección de correo electrónico: deje su dirección de correo electrónico completa<br>- Nombre de usuario: deje su dirección de correo electrónico completa <br>- Contraseña: deje su **contraseña**<br> - URL interna: **ex?.mail.ovh.net** (sustituya el **?** por [el número de su servidor Exchange](#addaccount))<br>- URL externa: **ex?.mail.ovh.net** (sustituya el **?** por [el número de su servidor Exchange](#addaccount))<br><br>
 >>
 >> > [!warning]
 >> >

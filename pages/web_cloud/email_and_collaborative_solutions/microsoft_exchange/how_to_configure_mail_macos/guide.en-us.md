@@ -38,7 +38,7 @@ You can configure Exchange accounts on email clients, if they are compatible. By
 
 > [!primary]
 >
-> In this guide, we will use as the server name: ex**?**.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Exchange service.
+> In this guide, we will use as the server name: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Exchange service.
 > 
 > You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Microsoft`{.action}, `Exchange`{.action} and then the desired Exchange service. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >

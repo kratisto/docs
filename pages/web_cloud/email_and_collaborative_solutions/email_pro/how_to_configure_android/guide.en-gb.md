@@ -42,7 +42,7 @@ You can configure Email Pro accounts on email clients, if they are compatible. B
 
 > [!primary]
 >
-> In this guide, we will use as the server name: pro**?**.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
+> In this guide, we will use as the server name: pro?.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 > 
 > You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Professional Email`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >
@@ -83,11 +83,11 @@ Follow the next steps in the configuration process by browsing the tabs below:
 >> ![emailpro](images/emailpro-android-04.png){.thumbnail .h-600}
 >>
 > **Step 5**
->>> Enter the "**Incoming server settings**"<br><br>- **Username**: Your full email address<br>- **Password**: Your email account password<br>- **Server**: Type pro**?**.mail.ovh.net (replace "**?**" with your server number). <br><br>
+>>> Enter the "**Incoming server settings**"<br><br>- **Username**: Your full email address<br>- **Password**: Your email account password<br>- **Server**: Type pro?.mail.ovh.net (replace "?" with your server number). <br><br>
 >>![emailpro](images/emailpro-android-05.png){.thumbnail .h-600}
 >>
 > **Etape 6**
->> Complete the "**Outgoing Server Settings**"<br><br>- **Username**: Your full email address<br>- **Password**: Your email account password<br>- **SMTP Server**: Type pro**?**.mail.ovh.net (replace "**?**" with your server number). <br><br>
+>> Complete the "**Outgoing Server Settings**"<br><br>- **Username**: Your full email address<br>- **Password**: Your email account password<br>- **SMTP Server**: Type pro?.mail.ovh.net (replace "?" with your server number). <br><br>
 >>![emailpro](images/emailpro-android-06.png){.thumbnail .h-600}
 >>
 > **Step 7**
@@ -118,7 +118,7 @@ When you choose your account type, we recommend using **IMAP** to receive emails
 | --- | --- |
 | Username | Enter the **full** email address |
 | Password | Enter the password for the email address |
-| Server | pro**?**.mail.ovh.net (replace "**?**" with your server number) |
+| Server | pro?.mail.ovh.net (replace "?" with your server number) |
 | Port | 995 |
 | Security type | SSL/TLS |
 
@@ -128,7 +128,7 @@ When you choose your account type, we recommend using **IMAP** to receive emails
 | --- | --- |
 | Username | Enter the **full** email address |
 | Password | Enter the password for the email address |
-| Server | pro**?**.mail.ovh.net (replace "**?**" with your server number) |
+| Server | pro?.mail.ovh.net (replace "?" with your server number) |
 | Port | 993 |
 | Security type | SSL/TLS |
 
@@ -141,7 +141,7 @@ you will find the settings below to use:
 | --- | --- |
 | Username | Enter the **full** email address |
 | Password | Enter the password for the email address |
-| Server | pro**?**.mail.ovh.net (replace "**?**" with your server number) |
+| Server | pro?.mail.ovh.net (replace "?" with your server number) |
 | Port | 587 |
 | Security type | STARTTLS |
 

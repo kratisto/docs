@@ -49,7 +49,7 @@ Para crear una lista de difusión:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Correo electrónico`{.action}.
+1. Haga clic en `Direcciones de correo`{.action}.
 1. Seleccione el dominio.
 1. Acceda a la pestaña `Listas de difusión`{.action} de su servicio de correo electrónico.
 

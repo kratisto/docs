@@ -28,7 +28,7 @@ Aby przejść do polityki bezpieczeństwa usługi e-mail, zaloguj się do [Pane
 
 |E-maile i E-mail Pro|Exchange| 
 |---|---| 
-|kliknij pozycję `E-maile`{.action} lub `E-mail Pro`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|kliknij pozycję `Microsoft`{.action}, następnie `Exchange`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|
+|kliknij pozycję `E-maile`{.action} lub `E-maile Pro`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|kliknij pozycję `Microsoft`{.action}, następnie `Exchange`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|
 |![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
 > [!primary]

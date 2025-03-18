@@ -156,7 +156,7 @@ Nachfolgend finden Sie eine nicht erschöpfende Liste der Konfigurationsanleitun
 >> - [Windows 10 Mail](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_windows_10) (bei Windows inklusive)<br>
 >> - [Outlook](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016)<br>
 >> - [Thunderbird](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_thunderbird) (kostenlos)<br><br>>
->> Konfiguration eines E-Mail Pro Accounts auf **macOS***:<br><br>
+>> Konfiguration eines E-Mail Pro Accounts auf **macOS**:<br><br>
 >> - [Mail](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_mail_macos) (inklusive mit macOS)<br>
 >> - [Outlook](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016_mac)<br>
 >> - [Thunderbird](/pages/web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_thunderbird_mac) (kostenlos)<br>

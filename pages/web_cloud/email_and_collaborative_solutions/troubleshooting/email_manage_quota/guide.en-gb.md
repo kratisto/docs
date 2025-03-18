@@ -49,7 +49,7 @@ In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} 
 >>
 > **Email Pro**
 >>
->> Click `Email Pro`{.action}, then choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
+>> Click `Professional emails`{.action}, then choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**
