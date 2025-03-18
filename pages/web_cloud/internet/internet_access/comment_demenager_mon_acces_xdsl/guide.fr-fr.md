@@ -1,20 +1,20 @@
 ---
-title: Comment déménager mon accès xDSL/FTTH
+title: Comment déménager mon accès xDSL/Fibre
 excerpt: "Découvrez comment demander le déménagement de votre offre d'accès à Internet OVHcloud depuis votre espace client"
 updated: 2024-11-22
 ---
 
 ## Objectif
 
-Déménager un accès xDSL/FTTH vous permet de recréer votre accès internet à une adresse différente lors d'un changement de lieu de vie ou de lieu de travail, tout en conservant les services liés à votre offre.
+Déménager un accès xDSL/Fibre vous permet de recréer votre accès internet à une adresse différente lors d'un changement de lieu de vie ou de lieu de travail, tout en conservant les services liés à votre offre.
 <br>Il s'agit d'un service gratuit accessible depuis votre espace client OVHcloud.
 
-**Découvrez comment demander correctement puis suivre le déménagement de votre offre xDSL/FTTH.**
+**Découvrez comment demander correctement puis suivre le déménagement de votre offre xDSL/Fibre.**
 
 ## Prérequis
 
-- Disposer d'un abonnement xDSL(ADSL/VDSL) ou FTTH actif.
-- Disposer d'une offre xDSL ou FTTH récente (offres Pro, Connect, Express, Entreprise, Serenity).
+- Disposer d'un abonnement xDSL(ADSL/VDSL) ou Fibre actif.
+- Disposer d'une offre xDSL ou Fibre récente (offres Pro, Connect, Express, Entreprise, Serenity).
 - La nouvelle adresse doit-être différente de l'ancienne.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -33,7 +33,7 @@ Pour réaliser une demande de déménagement, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
 1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur votre accès à Internet Fibre ou xDSL dans le cadre à droite.
 1. Cliquez ensuite sur `Déménager`{.action} dans le cadre « Informations Générales ».
 
 ![accès déménagement](images/move01-edit-2022.png){.thumbnail}
@@ -88,13 +88,13 @@ Si vous souhaitez conserver votre offre et vos options actuelles (lignes VoIP su
 
 > [!primary]
 >
-> Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres FTTH Pro et xDSL Pro :
+> Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres Fibre Pro et xDSL Pro :
 > 
 > - Nom de domaine
 > - EcoFax Pro
 > - Compte(s) Exchange
 >
-> Lors d'un changement d'offre vers les nouvelles offres FTTH Pro et xDSL Pro, vous pourrez soit résilier ces options ou choisir de les conserver aux tarifs en vigueur.
+> Lors d'un changement d'offre vers les nouvelles offres Fibre Pro et xDSL Pro, vous pourrez soit résilier ces options ou choisir de les conserver aux tarifs en vigueur.
 
 ![Choix de l'offre](images/move07-2022.png){.thumbnail}
 

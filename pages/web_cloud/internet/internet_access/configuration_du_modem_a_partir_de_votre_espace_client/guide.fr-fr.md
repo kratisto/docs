@@ -24,7 +24,7 @@ Afin de faciliter la gestion de votre accès à Internet, vous avez la possibili
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
 1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur votre accès à Internet Fibre ou xDSL dans le cadre à droite.
 1. Positionnez-vous alors sur l'onglet `Mon modem`{.action}.
 
 > [!warning]

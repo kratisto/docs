@@ -1,16 +1,19 @@
 ---
-title: Comment changer mon offre xDSL/FTTH
+title: Comment changer mon offre xDSL/Fibre
 excerpt: "Découvrez comment modifier votre offre d'accès Internet depuis votre espace client OVHcloud"
-updated: 2024-11-22
+updated: 2025-03-18
 ---
 
 ## Objectif
 
-Vous pouvez faire évoluer votre offre xDSL/FTTH afin de pouvoir accéder à de nouvelles fonctionnalités et services.
+Vous pouvez faire évoluer votre offre xDSL/Fibre afin de pouvoir accéder à de nouvelles fonctionnalités et services.
+
+> [!success]
+> Vous souhaitez migrer vers la Fibre ? Consultez notre guide « [Fin du cuivre - Comment migrer mon offre xDSL vers la Fibre ?](/pages/web_cloud/internet/internet_access/end_of_copper_migration_ftth) ».
 
 ## Prérequis
 
-- Disposer d'un accès xDSL/FTTH actif.
+- Disposer d'un accès xDSL/Fibre actif.
 - Disposer d'une offre éligible au changement d'offre.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -24,13 +27,13 @@ Vous pouvez faire évoluer votre offre xDSL/FTTH afin de pouvoir accéder à de 
 
 ### Conservation des options
 
-Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres FTTH Pro et xDSL Pro :
+Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres Fibre Pro et xDSL Pro :
 
 - Nom de domaine
 - EcoFax Pro
 - Compte(s) Exchange
 
-Lors d'un changement d'offre vers les nouvelles offres FTTH Pro et xDSL Pro, vous pourrez choisir de résilier ces options ou de les conserver aux tarifs en vigueur.
+Lors d'un changement d'offre vers les nouvelles offres Fibre Pro et xDSL Pro, vous pourrez choisir de résilier ces options ou de les conserver aux tarifs en vigueur.
 
 ### Changer d’offre
 
@@ -53,6 +56,10 @@ Sélectionnez les options souhaitées (lignes téléphoniques, comptes e-mail, G
 ![choix de l'offre](images/changement-offre-details.png){.thumbnail}
 
 Selon l'offre choisie, sélectionnez les informations requises.
+
+> [!success]
+> La Fibre ne vous est pas proposée ? Il peut s'agir d'une divergence d'adresses dans les bases de données.<br>
+> Vérifiez votre situation en consultant notre guide « [Fin du cuivre - Comment migrer mon offre xDSL vers la Fibre ?](/pages/web_cloud/internet/internet_access/end_of_copper_migration_ftth) ».
 
 > [!tabs]
 > xDSL Pro
