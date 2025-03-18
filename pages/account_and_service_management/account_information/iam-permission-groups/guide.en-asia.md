@@ -1,7 +1,7 @@
 ---
 title: List of permission groups managed by OVHcloud
 excerpt: Details of permission groups provided by OVHcloud
-updated: 2023-12-06
+updated: 2025-03-19
 ---
 
 <style>
@@ -2318,45 +2318,6 @@ This permission group resumes the rights formerly carried by the `nicBilling` ro
     },
     {
         "action": "publicCloudProject:apiovh:database/m3aggregator/node/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/advancedConfiguration/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/backup/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/capabilities/advancedConfiguration/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/capabilities/integration/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/integration/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/ipRestriction/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/logs/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/maintenance/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/metric/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/namespace/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/node/get"
-    },
-    {
-        "action": "publicCloudProject:apiovh:database/m3db/user/get"
     },
     {
         "action": "publicCloudProject:apiovh:database/mongodb/backup/get"

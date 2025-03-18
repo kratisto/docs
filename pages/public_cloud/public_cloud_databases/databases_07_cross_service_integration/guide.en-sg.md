@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Databases - How to setup a service integration
 excerpt: Find out how to use Cross Service Integration for Public Cloud Databases engines
-updated: 2023-05-25
+updated: 2025-03-19
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ Cross Service Integration allows you to expose your Public Cloud Databases Logs 
 
 The Cross Service Integrations for Logs and Metrics allow you for example:
 
-- To send Caching or MySQL metrics or Cassandra metrics in M3db or PostgreSQL.
+- To send Caching or MySQL metrics or Cassandra metrics in PostgreSQL.
 - To send PostgreSQL or MySQL metrics to OpenSearch.
 - To show metrics in Dashboards service.
 
@@ -49,18 +49,16 @@ For that you need:
 ### Integration matrix
 
 - All services support logs to opensearch & kafka_logs to kafka.
-- All services except m3db & m3agg support metrics to pg & metrics to m3db.
+- All services support metrics to pg.
 
 Other integrations:
 
-| source →<br>↓ destination | dashboards service	| m3db	| kafka |
-|:--|---|---|---|
-| pg | dashboard, datasource | | |
-| opensearch | datasource | | |
-| m3db | dashboard, datasource | | |
-| m3agg | | m3agg | |
-| kmm | | | kafka_mirrormaker |
-| kc | | | kafka_connect |
+| source →<br>↓ destination | dashboards service	| kafka |
+|:--|---|---|
+| pg | dashboard, datasource | |
+| opensearch | datasource | |
+| kmm | | kafka_mirrormaker |
+| kc | | kafka_connect |
 
 ## Instructions
 
@@ -79,11 +77,6 @@ Define the `Integration type`{.action} and the `Destination service`{.action}:
 > [!warning]
 >
 > First create a Public Cloud Database for your *Destination* service via your Control Panel or API.
->
-
-> [!primary]
->
-> If you want to store the metrics of your *postgresql* cluster to *m3db*, select `m3dbMetrics` as `Integration type`{.action} and `m3db` as `Destination service`{.action}, as shown below.
 >
 
 ![Create integration](images/databases_07_cross_service_integration-20220708155848940.png){.thumbnail}
@@ -182,16 +175,6 @@ Open the following API call, paste your service ID into the `serviceName` input 
 >> >
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafkaMirrorMaker
 >> >
-> M3 Aggregator
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/m3aggregator
->> >
-> M3db
->> > [!api]
->> >
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/m3db
->> >
 > MySQL
 >> > [!api]
 >> >
@@ -240,14 +223,6 @@ Get integration capabilities related to your Public Cloud Databases service:
 >> > [!api]
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/capabilities/integration
 >> >
-> M3 Aggregator
->> > [!api]
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/m3aggregator/{clusterId}/capabilities/integration
->> >
-> M3db
->> > [!api]
->> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/m3db/{clusterId}/capabilities/integration
->> >
 > MySQL
 >> > [!api]
 >> > @api {v1} /cloud GET /cloud/project/{serviceName}/database/mysql/{clusterId}/capabilities/integration
@@ -293,14 +268,6 @@ For that, you need to create a new integration:
 > Kafka MirrorMaker
 >> > [!api]
 >> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration
->> >
-> M3 Aggregator
->> > [!api]
->> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration
->> >
-> M3db
->> > [!api]
->> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/m3db/{clusterId}/integration
 >> >
 > MySQL
 >> > [!api]
@@ -357,14 +324,6 @@ Then create a second integration from your *Destination* service name:
 > Kafka MirrorMaker
 >> > [!api]
 >> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration
->> >
-> M3 Aggregator
->> > [!api]
->> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration
->> >
-> M3db
->> > [!api]
->> > @api {v1} /cloud POST /cloud/project/{serviceName}/database/m3db/{clusterId}/integration
 >> >
 > MySQL
 >> > [!api]
