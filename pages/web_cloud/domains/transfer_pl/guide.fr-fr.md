@@ -2,7 +2,7 @@
 title: 'Transférer son nom de domaine en .pl vers OVHcloud'
 hidden: true
 excerpt: "Découvrez comment réaliser le transfert d'un nom de domaine en .pl vers OVHcloud"
-updated: 2022-10-19
+updated: 2025-03-17
 ---
 
 ## Objectif
@@ -105,7 +105,7 @@ Vous pouvez également terminer votre commande avec un [hébergement web](/links
 
 ![domaine](/pages/assets/screens/website/order/order-summary.png){.thumbnail}
 
-Une fois la commande validée, vous recevrez un bon de commande gratuit. Le processus de transfert ne démarrera qu'après validation de ce bon de commande gratuit. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via [l'espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, cliquez sur `Noms de domaine`{.action}, puis `Opérations en cours`{.action}.
+Une fois la commande validée, vous recevrez un bon de commande gratuit. Le processus de transfert ne démarrera qu'après validation de ce bon de commande gratuit. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via [l'espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 
 ### Étape 4 : Validation du transfert
 

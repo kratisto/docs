@@ -1,6 +1,6 @@
 ---
 title: 'Résoudre une erreur sur un nom de domaine'
-updated: 2022-09-01
+updated: 2025-03-17
 ---
 
 ## Objectif
@@ -17,7 +17,7 @@ La création d'un nom de domaine, son transfert, son changement de propriétaire
 
 ## En pratique
 
-Depuis votre [espace client OVHcloud](/links/manager), dirigez-vous dans la rubrique `Web Cloud`{.action} puis `Noms de domaine`{.action}. Cliquez sur `Opérations en cours`{.action} au-dessus de la liste des noms de domaine.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 
 Un tableau vous permet de consulter toutes les opérations liées aux noms de domaine de votre espace client.
 

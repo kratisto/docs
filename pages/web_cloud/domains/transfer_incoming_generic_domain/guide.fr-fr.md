@@ -1,7 +1,7 @@
 ---
 title: 'Transférer son nom de domaine vers OVHcloud'
 excerpt: "Découvrez comment réaliser le transfert d'un nom de domaine vers OVHcloud"
-updated: 2024-06-28
+updated: 2025-03-17
 ---
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mbyfj1JyK7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -123,7 +123,7 @@ Vous pouvez également terminer votre commande avec un [hébergement web](/links
 
 #### Suivi du transfert après la commande
 
-Une fois la commande validée, vous recevrez un bon de commande. Le processus de transfert ne démarrera qu'après réception du paiement. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via [l'espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, cliquez sur `Noms de domaine`{.action}, puis `Opérations en cours`{.action}.
+Une fois la commande validée, vous recevrez un bon de commande. Le processus de transfert ne démarrera qu'après réception du paiement. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via [l'espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 
 > [!primary]
 >
@@ -141,7 +141,7 @@ Une fois la commande et le code de transfert validés, le bureau d'enregistremen
 
 Si un refus est émis par le bureau d'enregistrement actuel, contactez le pour savoir pourquoi il l'a refusée.
 
-Le processus de transfert peut être redémarré à partir de l'[espace client OVHcloud](/links/manager){.external}. Sélectionnez `Web Cloud`{.action} et accédez à la section `Noms de domaine`{.action}, puis cliquez sur `Opérations en cours`{.action}.
+Le processus de transfert peut être redémarré à partir de l'[espace client OVHcloud](/links/manager){.external}. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 
 > [!primary]
 >
