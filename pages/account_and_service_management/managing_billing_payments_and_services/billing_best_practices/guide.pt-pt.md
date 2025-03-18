@@ -13,17 +13,17 @@ Este guia contém os elementos indispensáveis a uma boa gestão da sua conta e 
 ## Requisitos
 
 - Dispor de um ou vários serviços ativos da OVHcloud.
-- Ter acesso a [Área de Cliente OVHcloud](/links/manager).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 
 ## Instruções
 
 ### Parâmetros da conta
 
-#### Proteja a sua conta
+#### Proteja à sua conta
 
 - [Crie uma palavra-passe forte](/pages/account_and_service_management/account_information/manage-ovh-password#gerar-uma-boa-palavra-passe) que assegurará a confidencialidade da sua conta.
 
-- [Ative a dupla autenticação](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) para evitar qualquer acesso fraudulento a sua Área de Cliente.
+- [Ative a dupla autenticação](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) para evitar qualquer acesso fraudulento à sua Área de Cliente.
 
 Para que as medidas de segurança sejam eficazes, certifique-se de que os seus endereços de e-mail (principal e de SOS) e o seu número de telemóvel estão **atualizados e acessíveis**.
 
@@ -42,7 +42,7 @@ Certifique-se de que o seu endereço de e-mail está sempre **atualizado, seguro
 
 > [!warning]
 >
-> Adicione um **e-mail de SOS** às suas informações pessoais para o proteger de qualquer perda de acesso a sua conta de cliente OVHcloud.
+> Adicione um **e-mail de SOS** às suas informações pessoais para o proteger de qualquer perda de acesso à sua conta de cliente OVHcloud.
 >
 
 Os e-mails enviados pela OVHcloud também estão acessíveis a partir da [Área de Cliente OVHcloud](/links/manager).<br>
@@ -64,7 +64,7 @@ Para mais informações sobre a ativação da renovação automática, consulte 
 - [Gerir a renovação dos serviços](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal);
 - [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods);
 
-Se decidir não ativar a renovação automática, receberá notificações por e-mail convidando-o a efetuar um **pagamento manual**. Permite-lhe renovar o seu serviço com antecedência ou pagar a sua fatura em espera.
+Se decidir não ativar a renovação automática, receberá notificações por e-mail convidando-o a efetuar um **pagamento manual**. Permite-lhe renovar o seu serviço com antecedência ou pagar à sua fatura em espera.
 
 ### Seguimento das suas encomendas
 
@@ -87,7 +87,7 @@ Para obter mais informações sobre a rescisão dos seus serviços, consulte o g
 
 ### Encerramento de conta
 
-Se pretender encerrar definitivamente a sua conta pessoal OVHcloud, verifique em primeiro lugar se não contém serviços ativos, faturas com pagamento pendente ou encomendas em curso.<br>
+Se pretender encerrar definitivamente à sua conta pessoal OVHcloud, verifique em primeiro lugar se não contém serviços ativos, faturas com pagamento pendente ou encomendas em curso.<br>
 De seguida, utilize [este formulário](https://www.ovh.pt/proteger-dados-pessoais/exercer-seus-direitos/) para pedir a eliminação definitiva da sua conta. Selecione exercer o "Direito de eliminação" na lista de propostas.
 
 ## Quer saber mais? <a name="gofurther"></a>

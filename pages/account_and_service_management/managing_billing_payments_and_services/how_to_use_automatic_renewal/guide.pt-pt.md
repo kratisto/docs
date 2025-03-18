@@ -1,6 +1,6 @@
 ---
 title: Como renovar os meus serviços OVHcloud
-excerpt: Saiba como gerir os seus serviços e a sua renovação na sua Área de Cliente
+excerpt: Saiba como gerir os seus serviços e à sua renovação na sua Área de Cliente
 updated: 2025-01-28
 ---
 
@@ -15,11 +15,11 @@ Este manual permitir-lhe-á:
 - [Conhecer as diferentes ações possíveis para cada um dos seus serviços](#actions)
 - [Descobrir quais as ações que podem ser agrupadas em vários serviços](#group-actions)
 
-**Saiba como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
+**Saiba como gerir os seus serviços e à sua renovação na Área de Cliente OVHcloud.**
 
 > [!primary]
 >
-> Em função do seu local de residência, da legislação local, assim como das soluções em questão, alguns pormenores deste guia podem variar ou não se aplicar a sua situação. Para mais informações, consulte os contratos da OVHcloud a partir da sua [Área de Cliente](/links/manager): clique no seu nome no canto superior direito do seu ecrã, na `As minhas ofertas e serviços`{.action} e, a seguir, no separador `Contratos`{.action}.
+> Em função do seu local de residência, da legislação local, assim como das soluções em questão, alguns pormenores deste guia podem variar ou não se aplicar à sua situação. Para mais informações, consulte os contratos da OVHcloud a partir da sua [Área de Cliente](/links/manager): clique no seu nome no canto superior direito do seu ecrã, na `As minhas ofertas e serviços`{.action} e, a seguir, no separador `Contratos`{.action}.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dfpPCa0mUyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ Este manual permitir-lhe-á:
 
 Antes de continuar a ler este guia, deve preencher as seguintes condições:
 
-- Ter acesso a Área de [Cliente OVHcloud](/links/manager);
+- Ter acesso à Área de [Cliente OVHcloud](/links/manager);
 - Dispor de serviços ativos da OVHcloud;
 - Ter [contacto de faturação](/pages/account_and_service_management/account_information/managing_contacts#definicao) dos seus serviços OVHcloud.
 - Dispor de um método de pagamento válido na sua conta OVHcloud. Consulte o guia "[Gerir os métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)".
@@ -43,7 +43,7 @@ Antes de continuar a ler este guia, deve preencher as seguintes condições:
 > **A renovação automática**
 >>
 >> No momento da subscrição, os seus serviços estão parametrizados em **renovação automática**. Este modo permite-lhe assegurar que os seus serviços são sistematicamente reconduzidos no final do prazo da subscrição.
->> Exemplo: subscreveu um alojamento Web em 15 de janeiro de 2024. O serviço será automaticamente renovado a 15 de janeiro de 2025 e o montante correspondente a sua subscrição anual será debitado do seu método de pagamento predefinido.
+>> Exemplo: subscreveu um alojamento Web em 15 de janeiro de 2024. O serviço será automaticamente renovado a 15 de janeiro de 2025 e o montante correspondente à sua subscrição anual será debitado do seu método de pagamento predefinido.
 >>
 >> Se tiver guardado um método de pagamento na sua Área de Cliente, as suas faturas serão automaticamente debitadas dessa conta.
 >> Se não tiver guardado nenhum [método de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods), receberá uma fatura por correio eletrónico. Bastará, então, pagá-la online.
@@ -66,7 +66,7 @@ Antes de continuar a ler este guia, deve preencher as seguintes condições:
 >> Poderá também simplesmente efetuar o pagamento a partir da sua Área de Cliente.
 >>
 >> **Atenção**, se não pagar um serviço que se encontra em renovação manual, será **suspenso** na sua data de expiração e **eliminado** dentro de alguns dias.
->> No entanto, se não pretender manter este serviço, não será necessário pedir a sua rescisão.
+>> No entanto, se não pretender manter este serviço, não será necessário pedir à sua rescisão.
 
 ## Instruções
 
@@ -83,7 +83,7 @@ A página **Gestão das minhas ofertas e serviços** contém uma tabela de gest�
 
 > [!success]
 > Estão disponíveis ferramentas de ordenação, filtragem e pesquisa por cima da tabela.
-> Pode ordenar as colunas na ordem crescente ou decrescente, procurar o nome de um dos seus serviços ou aplicar um filtro para apresentar apenas alguns dos seus serviços, em função de critérios a sua escolha.
+> Pode ordenar as colunas na ordem crescente ou decrescente, procurar o nome de um dos seus serviços ou aplicar um filtro para apresentar apenas alguns dos seus serviços, em função de critérios à sua escolha.
 >
 > Os seus critérios de filtragem serão, então, apresentados por cima do quadro. Eis um exemplo de filtro que permite apresentar os nomes de domínios cuja renovação é manual.
 >
@@ -98,7 +98,7 @@ A página **Gestão das minhas ofertas e serviços** contém uma tabela de gest�
 > Dependendo do serviço, da sua elegibilidade para renovação manual, algumas ações poderão não estar disponíveis.
 >
 
-À direita de um serviço, clique no botão `...`{.action} na coluna `Açōes` e, a seguir, numa ação a sua escolha.
+À direita de um serviço, clique no botão `...`{.action} na coluna `Açōes` e, a seguir, numa ação à sua escolha.
 
 ![menu ações](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/actions-en.png){.thumbnail}
 
@@ -198,13 +198,13 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 > [!faq]
 >
 > Onde posso encontrar o meu identificador de cliente (NIC) OVHcloud?
->> É apresentado na Área de Cliente, clicando no seu nome no canto superior direito. Encontra-se também no canto superior direito de todas as suas faturas. Também pode ser encontrada no e-mail de confirmação de criação de conta, nas mensagens de confirmação de subscrição ou de renovação, bem como nas notificações de acesso a sua conta.
+>> É apresentado na Área de Cliente, clicando no seu nome no canto superior direito. Encontra-se também no canto superior direito de todas as suas faturas. Também pode ser encontrada no e-mail de confirmação de criação de conta, nas mensagens de confirmação de subscrição ou de renovação, bem como nas notificações de acesso à sua conta.
 > Não consigo ligar-me à minha conta OVHcloud para renovar os meus serviços. O que fazer?
 >> Consulte a parte "[O que fazer se não conseguir ligar-me?](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure)" do nosso guia "[Aceder à Área de Cliente OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-login)".
 > Quero ativar a renovação automática mas recebo uma mensagem de erro. O que devo fazer?
->> Para que a renovação automática possa ser ativada nos seus serviços, deve ter adicionado um método de pagamento válido a sua conta OVHcloud. Se este não for o caso ou se o método de pagamento estiver expirado, aparecerá uma mensagem de erro na Área de Cliente quando tentar ativar a renovação automática. Consulte o nosso guia "[Gerir os seus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)" para verificar ou adicionar um método de pagamento.
+>> Para que a renovação automática possa ser ativada nos seus serviços, deve ter adicionado um método de pagamento válido à sua conta OVHcloud. Se este não for o caso ou se o método de pagamento estiver expirado, aparecerá uma mensagem de erro na Área de Cliente quando tentar ativar a renovação automática. Consulte o nosso guia "[Gerir os seus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)" para verificar ou adicionar um método de pagamento.
 > O meu método de pagamento já não é válido. Como adicionar um novo método de pagamento?
->> Consulte o guia "[Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Antes de poder eliminar um método de pagamento obsoleto, deve adicionar um novo método de pagamento válido a sua conta OVHcloud.
+>> Consulte o guia "[Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)". Antes de poder eliminar um método de pagamento obsoleto, deve adicionar um novo método de pagamento válido à sua conta OVHcloud.
 > Tenho uma questão relativa à renovação do meu nome de domínio
 >> Consulte o nosso guia "[Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)".
 > Não quero mais débito direto, mas não quero cancelar o meu serviço. O que devo fazer?
@@ -223,7 +223,7 @@ O seguinte quadro especifica as ações agrupadas possíveis.
 
 ## Quer saber mais?
 
-Este guia não respondeu a sua pergunta? Consulte [FAQ sobre faturação e pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
+Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/faq-billing)
 
 [Renovar os meus nomes de domínio OVHcloud](/pages/web_cloud/domains/autorenew_domain_name)
 

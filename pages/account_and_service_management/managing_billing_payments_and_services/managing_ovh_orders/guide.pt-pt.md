@@ -12,12 +12,12 @@ Quando efetuar uma encomenda, pode segui-la e interagir com ela a partir da [Ár
 
 > [!primary]
 >
-> Dependendo do seu local de residência e da legislação em vigor, assim como dos produtos afetados, é possível que algumas secções deste manual variem e/ou não sejam aplicáveis a sua situação. Em caso de dúvida, consulte os seus contratos OVHcloud disponíveis na sua [Área de Cliente OVHcloud](/links/manager) (clique no canto superior direito do ecrã sobre o seu nome e, no menu contextual, em `As minhas ofertas e serviços`{.action}. Por fim, clique no separador `Contratos`{.action}).
+> Dependendo do seu local de residência e da legislação em vigor, assim como dos produtos afetados, é possível que algumas secções deste manual variem e/ou não sejam aplicáveis à sua situação. Em caso de dúvida, consulte os seus contratos OVHcloud disponíveis na sua [Área de Cliente OVHcloud](/links/manager) (clique no canto superior direito do ecrã sobre o seu nome e, no menu contextual, em `As minhas ofertas e serviços`{.action}. Por fim, clique no separador `Contratos`{.action}).
 >
 
 ## Requisitos
 
-- Ter acesso a [Área de Cliente OVHcloud](/links/manager).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 - Ter realizado, pelo menos, uma encomenda na OVHcloud.
 
 ## Instruções
@@ -31,15 +31,15 @@ A nota de encomenda é criada quando efetua a encomenda. Indica os produtos enco
 |Número|Descrição|
 |---|---|
 |1|Número, data de criação e data de expiração da nota de encomenda. Se o prazo expirou, deverá efetuar novamente a encomenda.|
-|2|As suas informações de faturação. Deve estar identificado para apresentar e pagar a sua nota de encomenda.|
+|2|As suas informações de faturação. Deve estar identificado para apresentar e pagar à sua nota de encomenda.|
 |3|Métodos de pagamento registados na sua conta de cliente. Para mais informações, consulte o guia [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods).|
 |4|Métodos de pagamento disponíveis. Apenas serão sugeridos os métodos de pagamento autorizados no país de origem da conta ou os relacionados com o tipo de conta registada.|
 
-Pode consultar a sua nota de encomenda a qualquer momento a partir da [Área de Cliente OVHcloud](/links/manager) conforme explicado abaixo.
+Pode consultar à sua nota de encomenda a qualquer momento a partir da [Área de Cliente OVHcloud](/links/manager) conforme explicado abaixo.
 
 ### Aceder às notas de encomenda na Área de Cliente OVHcloud
 
-Para aceder ao painel de gestão das encomendas, aceda a sua [Área de Cliente OVHcloud](/links/manager). Na página que se abrir, clique em `Ver as minhas encomendas`{.action}.
+Para aceder ao painel de gestão das encomendas, aceda à sua [Área de Cliente OVHcloud](/links/manager). Na página que se abrir, clique em `Ver as minhas encomendas`{.action}.
 
 ![Área de Cliente](images/huborders.png){.thumbnail}
 
@@ -67,9 +67,9 @@ Poderá igualmente visualizar a nota de encomenda em formato HTML, clicando em `
 
 ![Resumo das encomendas](images/order04.png){.thumbnail}
 
-### Seguir a sua encomenda
+### Seguir à sua encomenda
 
-Depois de gerar a sua nota de encomenda, pode seguir a sua encomenda a partir da [Área de Cliente OVHcloud](/links/manager):
+Depois de gerar à sua nota de encomenda, pode seguir à sua encomenda a partir da [Área de Cliente OVHcloud](/links/manager):
 
 * Aceda à [Área de Cliente OVHcloud](/links/manager). Na página que se abrir, clique em `Ver as minhas encomendas`{.action} e, em seguida, clique no botão `...`{.action} junto da sua encomenda.
 * Selecione `Seguir encomenda`{.action}. O acompanhamento da encomenda pode igualmente ser apresentado clicando no estado de uma encomenda na coluna `Estado`.
@@ -89,7 +89,7 @@ O artigo 12.4 das [Condições Gerais de Serviço](https://www.ovhcloud.com/pt/t
 > O direito de arrependimento só diz respeito aos particulares e só se aplica às novas encomendas. Assim, não pode invocá-lo:
 >
 > - renovações;
-> - se a sua conta de cliente OVHcloud é de [outro tipo que não Particer](/pages/account_and_service_management/account_information/all_about_username#modificar-o-tipo-de-conta).
+> - se à sua conta de cliente OVHcloud é de [outro tipo que não Particer](/pages/account_and_service_management/account_information/all_about_username#modificar-o-tipo-de-conta).
 >
 > Além disso, o direito de arrependimento não se aplica às encomendas não pagas, uma vez que estas são automaticamente anuladas quando a nota de encomenda expira.
 >

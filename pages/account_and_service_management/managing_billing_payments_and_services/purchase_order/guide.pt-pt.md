@@ -57,8 +57,8 @@ Clique no separador `As minhas referências internas`{.action} e, a seguir, no b
 
 ![Espaço cliente](images/internalreference01.png){.thumbnail}
 
-Tem a sua disposição duas terminologias, consoante deseje afixar nas suas faturas a `referência interna` **ou**, a menção `Purchase Order`.<br>
-Selecione `Criar a sua referência interna`{.action} ou `Criar o seu purchase order`{.action}.
+Tem à sua disposição duas terminologias, consoante deseje afixar nas suas faturas a `referência interna` **ou**, a menção `Purchase Order`.<br>
+Selecione `Criar à sua referência interna`{.action} ou `Criar o seu purchase order`{.action}.
 
 Atribua um nome à referência interna / Purchase Order no campo previsto para o efeito, introduza uma **data de início** e uma **data de fim** (a data de fim está excluída) e clique em `Validar`{.action}.
 

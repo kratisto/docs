@@ -6,7 +6,7 @@ updated: 2020-07-08
 
 ## Objetivo
 
-Se a sua oferta de Hosted Private Cloud já não lhe convier, ou se encomendou uma nova infraestrutura para substituir a antiga, pode solicitar a rescisão da infraestrutura depois de recuperar todos os seus dados.
+Se à sua oferta de Hosted Private Cloud já não lhe convier, ou se encomendou uma nova infraestrutura para substituir a antiga, pode solicitar a rescisão da infraestrutura depois de recuperar todos os seus dados.
 
 **Saiba como solicitar a rescisão de uma oferta Hosted Private Cloud** 
 
@@ -21,12 +21,12 @@ A oferta Hosted Private Cloud não tem compromisso. No entanto, tal como indicad
 
 >[!warning]
 >
-> Antes de rescindir a sua oferta, não se esqueça de recuperar todos os dados que pretende conservar. De facto, a rescisão provocará a supressão integral do seu Hosted Private Cloud e de todos os dados lá armazenados.
+> Antes de rescindir à sua oferta, não se esqueça de recuperar todos os dados que pretende conservar. De facto, a rescisão provocará a supressão integral do seu Hosted Private Cloud e de todos os dados lá armazenados.
 >
 
 ### 1 - Solicitar a rescisão através da Área de Cliente OVHcloud
 
-Aceda à [Área de Cliente OVHcloud](/links/manager){.external}, dirija-se à secção `Hosted Private Cloud`{.action} (1), clique em `Private Cloud`{.action} (2) e selecione a sua oferta na lista (3).
+Aceda à [Área de Cliente OVHcloud](/links/manager){.external}, dirija-se à secção `Hosted Private Cloud`{.action} (1), clique em `Private Cloud`{.action} (2) e selecione à sua oferta na lista (3).
 
 Na tabela «Gestão do serviço» do separador «Informações gerais», clique no botão `...`{.action} (4) à direita da data de renovação. Clique em `Eliminar o serviço`{.action} (5).
 

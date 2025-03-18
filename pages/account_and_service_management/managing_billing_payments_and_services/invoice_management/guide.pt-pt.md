@@ -12,14 +12,14 @@ A OVHcloud disponibiliza-lhe um espaço que lhe permite consultar, gerir e pagar
 
 > [!primary]
 >
-> Dependendo do seu local de residência e da legislação em vigor, assim como dos produtos afetados, é possível que algumas secções deste manual variem e/ou não sejam aplicáveis a sua situação. Em caso de dúvida, consulte os seus contratos OVHcloud disponíveis na sua [Área de Cliente OVHcloud](/links/manager) (clique no canto superior direito do ecrã sobre o seu nome e, no menu contextual, em `As minhas ofertas e serviços`{.action}. Por fim, clique no separador `Contratos`{.action}).
+> Dependendo do seu local de residência e da legislação em vigor, assim como dos produtos afetados, é possível que algumas secções deste manual variem e/ou não sejam aplicáveis à sua situação. Em caso de dúvida, consulte os seus contratos OVHcloud disponíveis na sua [Área de Cliente OVHcloud](/links/manager) (clique no canto superior direito do ecrã sobre o seu nome e, no menu contextual, em `As minhas ofertas e serviços`{.action}. Por fim, clique no separador `Contratos`{.action}).
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requisitos
 
-- Ter acesso a [Área de Cliente OVHcloud](/links/manager) enquanto [contacto de faturação](/pages/account_and_service_management/account_information/managing_contacts) do serviço.
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager) enquanto [contacto de faturação](/pages/account_and_service_management/account_information/managing_contacts) do serviço.
 
 ## Instruções
 
@@ -90,11 +90,11 @@ Ao clicar num dos botões `...`{.action} à direita da tabela, poderá também:
 
 ##### **Filtrar**
 
-Tem a sua disposição vários filtros:
+Tem à sua disposição vários filtros:
 
 ![Filtros de tri](images/sort_filters.png){.thumbnail}
 
-Para encontrar uma fatura precisa, poderá assim indicar a sua referência, o número da encomenda associada ou a sua data de emissão.
+Para encontrar uma fatura precisa, poderá assim indicar à sua referência, o número da encomenda associada ou à sua data de emissão.
 
 ##### **Ações em massa**
 
