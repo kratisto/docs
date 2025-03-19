@@ -292,7 +292,7 @@ nmcli connection modify private-interface IPv4.address 192.168.0.1/16
 sudo nmcli connection modify CONNECTION_NAME IPv4.method manual
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 sudo nmcli connection modify private-interface IPv4.method manual
