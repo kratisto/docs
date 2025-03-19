@@ -597,6 +597,7 @@
                 + [Managing firewall rules and port security on networks using OpenStack CLI](public_cloud/compute/security_group_private_network)
         + [Infrastructure](public-cloud-cross-functional-infrastructure)
             + [Comparison and resilience of Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones](public_cloud/compute/deployment_modes_comparison_resilience_details)
+            + [3-AZ resilience - Mechanisms and reference architectures](public_cloud/compute/3az_ref_architecture)
         + [Billing information](public-cloud-cross-functional-billing-information)
             + [How do Savings Plans work?](public_cloud/compute/savings_plans)
             + [How to manage a Savings Plan](public_cloud/compute/how_to_manage_savings_plan)
