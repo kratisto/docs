@@ -255,7 +255,7 @@ eno2             ethernet  disconnected            --
 
 If the `STATE` of the `DEVICE` appears as `disconnected`, it must be connected before configuring the IP. 
 
-When adding an **ethernet** connection, we have to create a configuration profile which we then assigned to a device.
+When adding an **ethernet** connection, we have to create a configuration profile which we then assign to a device.
 
 Run the following command, replacing `INTERFACE_NAME` and `CONNECTION_NAME` with your own values.
 
