@@ -1,7 +1,7 @@
 ---
 title: 'Configuring the vRack on your dedicated servers'
 excerpt: 'Find out how to configure the vRack on two or more dedicated servers'
-updated: 2025-03-17
+updated: 2025-03-20
 ---
 
 ## Objective

@@ -1,7 +1,7 @@
 ---
 title: 'Configuring the vRack on your dedicated servers'
 excerpt: 'Find out how to configure the vRack on two or more dedicated servers'
-updated: 2025-03-17
+updated: 2025-03-20
 ---
 
 ## Objective
@@ -99,7 +99,7 @@ Add the following lines to the existing configuration after the line `version: 2
               - IP_ADDRESS/PREFIX
 ```
 
-**Example**
+**Example:**
 
 ![netplan config](images/netplan_configuration.png){.thumbnail}
 
@@ -232,7 +232,7 @@ Restart the networking service to apply the changes:
 sudo systemctl restart networking
 ```
 
-On **CentOS 8, AlmaLinux and RockyLinux** use this command:
+On **CentOS 8, AlmaLinux and RockyLinux**, use this command:
 
 ```bash
 sudo systemctl restart NetworkManager.service
@@ -253,9 +253,9 @@ lo               loopback  connected (externally)  lo
 eno2             ethernet  disconnected            --
 ```
 
-If the `STATE` of the `DEVICE` appears as `disconnected`, it must be connected in before configuring the IP. 
+If the `STATE` of the `DEVICE` appears as `disconnected`, it must be connected before configuring the IP. 
 
-When adding an **ethernet** connection, we have to create a configuration profile which we then assigned to a device.
+When adding an **ethernet** connection, we have to create a configuration profile which we then assign to a device.
 
 Run the following command, replacing `INTERFACE_NAME` and `CONNECTION_NAME` with your own values.
 
@@ -265,7 +265,7 @@ In our example, we named our configuration profile `private-interface`.
 nmcli connection add type ethernet con-name CONNECTION_NAME ifname INTERFACE_NAME
 ```
 
-**example**
+**Example:**
 
 ```bash
 nmcli connection add type ethernet con-name private-interface ifname eno2

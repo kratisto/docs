@@ -1,7 +1,7 @@
 ---
 title: 'Configurer le vRack sur vos serveurs dédiés'
 excerpt: 'Découvrez comment configurer le vRack sur plusieurs serveurs dédiés'
-updated: 2025-03-17
+updated: 2025-03-20
 ---
 
 ## Objectif
@@ -96,7 +96,7 @@ Ajoutez les lignes suivantes à la configuration existante après la ligne `vers
               - IP_ADDRESS/PREFIX
 ```
 
-**Exemple**
+**Exemple :**
 
 ![netplan config](images/netplan_configuration.png){.thumbnail}
 
@@ -132,7 +132,7 @@ iface NETWORK_INTERFACE inet static
     netmask NETMASK
 ```
 
-**Exemple**
+**Exemple :**
 
 ![debian config](images/debian_configuration.png){.thumbnail}
 
@@ -164,7 +164,7 @@ Ajoutez les lignes suivantes à la configuration existante après la ligne `vers
               - IP_ADDRESS/PREFIX
 ```
 
-**Exemple**
+**Exemple :**
 
 ![netplan config](images/netplan_configuration.png){.thumbnail}
 
@@ -185,7 +185,7 @@ Répétez cette procédure pour vos autres serveurs et attribuez à chacun d'ent
 
 ##### **CentOS, AlmaLinux et RockyLinux**
 
-Une fois que vous avez identifié votre interface de réseau privé, utilisez un éditeur de texte de votre choix pour créer le fichier de configuration réseau suivant. Remplacez `NETWORK_INTERFACE` par votre propre valeur.
+Une fois que vous avez identifié votre interface de réseau privé, utilisez l'éditeur de texte de votre choix pour créer le fichier de configuration réseau suivant. Remplacez `NETWORK_INTERFACE` par votre propre valeur.
 
 ```bash
 sudo touch /etc/sysconfig/network-scripts/ifcfg-NETWORK_INTERFACE
@@ -202,7 +202,7 @@ ONBOOT=yes
 TYPE=Ethernet
 ```
 
-**Exemple**
+**Exemple :**
 
 ![centos config](images/centos_alma_configuration.png){.thumbnail}
 
@@ -224,7 +224,7 @@ Répétez cette procédure pour vos autres serveurs et attribuez à chacun d'ent
 
 ##### Fedora
 
-Une fois que vous avez identifié le nom de votre interface privée (comme expliqué [ici](#vrack-interface)), lancez la command suivante pour vérifiez qu'elle est bien connectée. Dans notre exemple, notre interface est appelée `eno2` :
+Une fois que vous avez identifié le nom de votre interface privée (comme expliqué [ici](#vrack-interface)), lancez la commande suivante pour vérifiez qu'elle est bien connectée. Dans notre exemple, notre interface est appelée `eno2` :
 
 ```bash 
 $ nmcli device status
@@ -247,13 +247,13 @@ Dans notre exemple, nous avons nommé notre profil de configuration `private-int
 nmcli connection add type ethernet con-name CONNECTION_NAME ifname INTERFACE_NAME
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 nmcli connection add type ethernet con-name private-interface ifname eno2
 ```
 
-Vérifiez que l'interface a été correctement connectée :
+- Vérifiez que l'interface a été correctement connectée :
 
 ```bash
 $ nmcli device status
@@ -280,7 +280,7 @@ Vous pouvez alors éditer ce fichier en utilisant le gestionnaire `nmcli`, en re
 nmcli connection modify CONNECTION_NAME IPv4.address IP_ADDRESS/PREFIX
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 nmcli connection modify private-interface IPv4.address 192.168.0.1/16
@@ -292,7 +292,7 @@ nmcli connection modify private-interface IPv4.address 192.168.0.1/16
 sudo nmcli connection modify CONNECTION_NAME IPv4.method manual
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 sudo nmcli connection modify private-interface IPv4.method manual
@@ -304,13 +304,13 @@ sudo nmcli connection modify private-interface IPv4.method manual
 sudo nmcli con mod CONNECTION_NAME connection.autoconnect true
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 sudo nmcli con mod private-interface connection.autoconnect true
 ```
 
-Redémarrez votre réseau avec la commande suivante :
+- Redémarrez votre réseau avec la commande suivante :
 
 ```bash
 sudo systemctl restart NetworkManager
