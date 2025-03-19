@@ -352,7 +352,6 @@ Each line represents a sg device, which is mapped according to the order of the 
 
 ```none
 Vendor: LSI      Model: Logical Volume   Rev: 3000 => /dev/sg0
- 
 Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
 Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
 ```

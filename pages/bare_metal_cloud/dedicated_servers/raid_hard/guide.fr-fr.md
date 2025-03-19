@@ -56,8 +56,8 @@ Default Access Policy: Read/Write
 Current Access Policy: Read/Write
 Disk Cache Policy : Disk's Default
 Encryption Type : None
-Bad Blocks Exist: Non
-Is VD Cached: Non
+Bad Blocks Exist: No
+Is VD Cached: No
 
 Virtual Drive: 1 (Target Id: 1)
 Name :
@@ -75,8 +75,8 @@ Default Access Policy: Read/Write
 Current Access Policy: Read/Write
 Disk Cache Policy : Disk's Default
 Encryption Type : None
-Bad Blocks Exist: Non
-Is VD Cached: Oui
+Bad Blocks Exist: No
+Is VD Cached: Yes
 Cache Cade Type : Read Only
 
 Exit Code: 0x00
@@ -159,10 +159,10 @@ MegaCli -AdpAllInfo -aALL
 La partie la plus importante de la sortie est le compteur d'erreurs :
 
 ```none
-Compteur d'erreurs
+Error Counters
                 ================
-Erreurs corrigeables de mémoire : 0
-Erreurs de mémoire non corrigeables : 0
+Memory Correctable Errors   : 0
+Memory Uncorrectable Errors : 0
 ```
 
 Si le nombre d'erreurs est supérieur à zéro, créez une sauvegarde de vos données et contactez le support avec la sortie complète. Notre équipe programmera ensuite une intervention pour le remplacement du contrôleur RAID.
@@ -171,8 +171,8 @@ Pour une sortie succincte des compteurs d'erreurs seulement, la commande peut ê
 
 ```none
 MegaCli -AdpAllInfo -aALL | grep "Errors"
-Erreurs corrigeables de mémoire : 0
-Erreurs de mémoire non corrigeables : 0
+Memory Correctable Errors   : 0
+Memory Uncorrectable Errors : 0
 ```
 
 #### Étape 4 : resynchronisation du RAID
