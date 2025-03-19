@@ -39,7 +39,7 @@ A titre d'exemple, les produits suivants ont été validés à l'utilisation ave
 
 Il est aussi possible d'utiliser les API KMIP directement.
 
-L'authentification sur ce protocole s’effectue avec un certificat client, de la même façon qu’avec l’API REST.  Il faut donc ouvrir un flux TLS tout en fournissant un certificat d'accès valide.
+L'authentification sur ce protocole s’effectue avec un certificat client, de la même façon qu’avec l’API REST. Il faut donc ouvrir un flux TLS tout en fournissant un certificat d'accès valide.
 
 A partir de là, il est possible d'échanger des messages KMIP tels que définis dans le standard. Selon votre stack technologique, nous vous recommandons des librairies telles que :
 
@@ -51,7 +51,7 @@ Vous pouvez aussi utiliser notre SDK pour Go : <https://github.com/ovh/kmip-go>
 ### Couverture KMIP
 
 Le KMS OVHcloud couvre un sous-ensemble des versions 1.0 à 1.4 du standard KMIP.
-Le détail de la couverture est disponible ci-dessous
+Le détail de la couverture est disponible ci-dessous.
 
 > **Légende:**
 >
