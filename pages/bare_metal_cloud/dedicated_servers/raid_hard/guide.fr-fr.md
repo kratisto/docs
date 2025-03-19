@@ -28,7 +28,7 @@ Sur un serveur disposant d'une configuration RAID matériel, la matrice RAID est
 
 Avant tout, vérifiez que vous disposez d'un contrôleur MegaRAID :
 
-```none
+```console
 lspci | grep -i lsi | grep -i megaraid
 03:00.0 RAID bus controller: LSI Logic / Symbios Logic MegaRAID SAS 2108 [Liberator] (rev 05)
 ```
@@ -37,7 +37,7 @@ Le résultat obtenu ci-dessus vous confirme que le serveur dispose d'un contrôl
 
 Pour rassembler et lister les ensembles RAID disponibles, vous pouvez utiliser la commande `MegaCli` :
 
-```none
+```console
 MegaCli -LDInfo -Lall -aALL (Or : storcli /c0 /vall show)
 Adapter 0 - Virtual Drive Information:
 Virtual Drive: 0 (Target Id: 0)
@@ -90,7 +90,7 @@ Si l'état du RAID est « dégradé », nous vous recommandons de vérifier é
 
 En premier lieu, listez les `device Id` pour chaque disque dur afin de bien les tester avec l’outil Smarmontools :
 
-```none
+```console
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -132,13 +132,13 @@ Dans certaines situations, vous pouvez recevoir ce résultat :
 >
 > Dans certaines situations, vous pouvez recevoir ce résultat :
 >
-> ```none
+> ```console
 > /dev/sda [megaraid_disk_00] [SAT]: Device open changed type from 'megaraid' to 'sat'
 > ```
 >
 > Vous devez alors remplacer `megaraid` par `sat+megaraid` comme suit :
 >
-> ```none
+> ```console
 > smartctl -d sat+megaraid,N -a /dev/sdX
 > ```
 
@@ -158,7 +158,7 @@ MegaCli -AdpAllInfo -aALL
 
 La partie la plus importante de la sortie est le compteur d'erreurs :
 
-```none
+```console
 Error Counters
                 ================
 Memory Correctable Errors   : 0
@@ -169,7 +169,7 @@ Si le nombre d'erreurs est supérieur à zéro, créez une sauvegarde de vos don
 
 Pour une sortie succincte des compteurs d'erreurs seulement, la commande peut être étendue par un `grep` :
 
-```none
+```console
 MegaCli -AdpAllInfo -aALL | grep "Errors"
 Memory Correctable Errors   : 0
 Memory Uncorrectable Errors : 0
@@ -179,7 +179,7 @@ Memory Uncorrectable Errors : 0
 
 Si un ou plusieurs disques durs ont été remplacés, le RAID se synchronisera automatiquement. Vous pouvez utiliser la commande ci-dessous pour voir quel disque dur est en cours de reconstruction :
 
-```none
+```console
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -255,7 +255,7 @@ La valeur la plus importante à vérifier est l'état de la batterie, s'assurer 
 
 Avant tout, vérifiez que vous êtes en possession d'un contrôleur RAID de type LSI en tapant la commande suivante :
 
-```none
+```console
 lspci | grep -i lsi | grep -v megaraid
 01:00.0 Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire] (rev 03)
 ```
@@ -274,7 +274,7 @@ Pour rassembler et lister les ensembles RAID disponibles, vous pouvez utiliser l
 > Attention, les valeurs (1,0 21) peuvent être différentes selon les versions. Soyez vigilant lorsque vous manipulez ce type de commande.
 >
 
-```none
+```console
 lsiutil -p1 -a 1,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -312,7 +312,7 @@ Si l'état du RAID est « dégradé », nous vous recommandons de vérifier é
 
 Pour vérifier l’état des disques à partir du contrôleur RAID, vous pouvez utiliser la commande suivante :
 
-```none
+```console
 lsiutil -p1 -a 2,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -345,7 +345,7 @@ Comme le contrôleur LSI utilise `sg-map`, nous devons tester le fichier `/dev/s
 
 Voici la commande permettant de les lister :
 
-```none
+```console
 cat /proc/scsi/scsi | grep Vendor
   Vendor: LSI      Model: Logical Volume   Rev: 3000
   Vendor: ATA      Model: HGST HUS724020AL Rev: AA70
@@ -354,7 +354,7 @@ cat /proc/scsi/scsi | grep Vendor
 
 Chaque ligne représente un périphérique sg, qui est mappé en fonction de l'ordre du périphérique affiché ci-dessous :
 
-```none
+```console
 Vendor: LSI      Model: Logical Volume   Rev: 3000 => /dev/sg0
 Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
 Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
@@ -362,7 +362,7 @@ Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
 
 Afin d’obtenir le bon périphérique à l’aide d’une seule commande, vous pouvez utiliser celle-ci :
 
-```none
+```console
 cat /proc/scsi/scsi | grep Vendor | nl -v 0 | sed 's/^/\/dev\/sg/' | grep -v LSI | cut -d ' ' -f1,6 | sed 's/sg\ /sg/' | sed 's/\/dev\/sg.\ /\/dev\/sg/'
 /dev/sg1
 /dev/sg2
@@ -390,7 +390,7 @@ Si un ou plusieurs disques durs ont été remplacés, le RAID se resynchronisera
 > Attention, les valeurs (3,0 21) peuvent être différentes selon les versions. Soyez vigilant lorsque vous manipulez ce type de commande.
 >
 
-```none
+```console
 lsiutil -p1 -a 3,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
