@@ -84,7 +84,7 @@ Les nouveaux services liés à votre nouvelle offre Fibre Pro seront accessibles
 #### Cas n°2 : Aucune migration n'est proposée
 
 L'absence de la colonne `Fibre Pro` dans le tableau `Changement d'offre` **ne signifie pas nécessairement** que vous n'êtes pas éligible à la migration vers la fibre OVHcloud.<br>
-Cela peut provenir d'une divergence d'adresses entre les deux bases de données suivantes :
+Cela provient généralement d'une divergence d'adresses entre les deux bases de données suivantes :
 
 - La base de données du réseau cuivre, qui contient les informations de raccordement de votre accès xDSL actuel.
 - La base de données du réseau fibre, qui contient les informations de raccordement pour votre nouvel accès fibre potentiel.
@@ -92,7 +92,9 @@ Cela peut provenir d'une divergence d'adresses entre les deux bases de données 
 Dans ce cas de figure, nous vous recommandons de suivre les étapes ci-dessous **dans l'ordre**, en cliquant successivement sur les 3 onglets affichés :
 
 > [!tabs]
-> Étape 1 - Obtenir les informations techniques sur arcep.fr
+> Étape 1
+>> **Récupérez les informations techniques sur arcep.fr :**
+>>
 >> Accédez au [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external} et cliquez sur l'onglet `Déploiements fibre`{.action} en haut à droite afin d'afficher la carte des déploiements de la fibre en France.
 >>
 >> ![ARCEP - Déploiements fibre](images/arcep01.png){.thumbnail width="600"}
@@ -109,9 +111,10 @@ Dans ce cas de figure, nous vous recommandons de suivre les étapes ci-dessous *
 >> > [!warning]
 >> > Les informations sur le [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external} ne sont pas actualisées en temps réel. Leur date de dernière mise à jour est indiquée en haut à droite du site. Il est donc possible que, à date, le statut réel de votre éligibilité fibre ne corresponde pas aux données indiquées sur ce site.
 >>
-> Étape 2 - Vérfier les informations sur l'outil d'éligibilité à la Fibre OVHcloud
+> Étape 2
+>> **Vérifiez les informations sur l'outil d'éligibilité à la Fibre OVHcloud :**
 >>
->> Rendez-vous sur [notre outil d'éligibilité à la Fibre OVHcloud](https://order.isp.ovh.net/){.external}.
+>> Rendez-vous sur [notre outil d'éligibilité](https://order.isp.ovh.net/){.external}.
 >>
 >> Cliquez sur l'onglet `Par référence d'immeuble`{.action} et renseignez l'**Identifiant immeuble IPE** préalablement noté sur le site de l'ARCEP. Cliquez alors sur `Vérifier mon éligibilité`{.action}.
 >>
@@ -122,13 +125,14 @@ Dans ce cas de figure, nous vous recommandons de suivre les étapes ci-dessous *
 >> - Si l'adresse correspond, passez à l'étape suivante.
 >> - En cas de divergence d'adresse, contactez le support OVHcloud via un [ticket](https://help.ovhcloud.com/csm?id=csm_get_help) en précisant la référence de votre accès xDSL et l'**Identifiant immeuble IPE** de votre adresse.
 >>
-> Étape 3 - Effectuer un déménagement de votre accès à Internet
+> Étape 3
+>> **Effectuez un déménagement de votre accès à Internet :**
 >>
 >> Maintenant que vous avez récupéré et confirmé les bonnes informations de raccordement à la fibre, il est nécessaire de déménager techniquement votre accès depuis l'adresse actuelle (celle qui correspond au réseau cuivre) vers la nouvelle adresse (correspondant au réseau fibre).
 >>
 >> Connectez-vous à votre [espace client OVHcloud](/links/manager) et accédez à l'onglet `Télécom`{.action}.
 >>
->> Effectuez une demande de déménagement de votre accès en  suivant notre guide « [Comment déménager mon accès xDSL/Fibre](/pages/web_cloud/internet/internet_access/comment_demenager_mon_acces_xdsl) » et choisissez l'offre Fibre Pro.
+>> Effectuez une demande de déménagement de votre accès en suivant notre guide « [Comment déménager mon accès xDSL/Fibre](/pages/web_cloud/internet/internet_access/comment_demenager_mon_acces_xdsl) » et choisissez l'offre Fibre Pro.
 >> 
 >> Renseignez l'adresse postale obtenue sur le site de l'ARCEP (Etape 1) et confirmée sur notre outil d'éligibilité (Etape 2). L'**Identifiant immeuble IPE** correspondant est alors affiché. Vérifiez à nouveau qu'il est identique à l'identifiant préalablement noté sur le site de l'ARCEP.
 >>
