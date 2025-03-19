@@ -12,21 +12,21 @@ With the cloud-init module, you can configure your [Public Cloud instance](https
 
 > [!warning]
 >
-> OVHcloud provides services which you are responsible for.  In fact, as we do not have administrative access to these machines, we are not administrators and we cannot provide you with support. This means that it is up to you to manage the software and security daily.
+> OVHcloud provides services which you are responsible for with regard to their configuration and management. You are therefore responsible for ensuring they function correctly.
 >
-> We have provided you with this guide in order to help you with common tasks. However, we advise contacting a specialist provider if you experience any difficulties or doubts about administration, usage or server security. You can find more information in the "Go further" section in this guide.
+> This guide is designed to assist you in common tasks as much as possible. If you encounter any difficulties performing these actions, please contact a [specialist service provider](/links/partner) and/or discuss the issue with our community on <https://community.ovh.com/en/>. OVHcloud cannot provide you with technical support in this regard.
 >
 > This guide is for instances based on Linux distributions **only**.
 >
 
 ## Requirements
 
-- An [OVHcloud Public Cloud instance](https://www.ovh.co.uk/public-cloud/instances/){.external}
-- [SSH access](/pages/public_cloud/compute/public-cloud-first-steps) (sudo) to the instance
+- An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
+- [SSH access](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance) (sudo) to the instance
 
 ## Instructions
 
-### Disable the cloud-init module.
+### Disable the cloud-init module
 
 > [!primary]
 >
