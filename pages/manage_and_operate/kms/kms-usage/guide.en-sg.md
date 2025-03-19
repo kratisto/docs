@@ -277,7 +277,7 @@ The **context** field must have the same value as the one given during encryptio
 #### Encryption with a Data Key (DK)
 
 For better performance, you can generate a Data Key (DK) from a Symmetric Key (AES) to use from your application.
-The AES key use must have been generated with the "wrapKey, unwrapKey" operations
+The AES key used must have been generated with the "wrapKey, unwrapKey" operations.
 
 ![Encryption with DK](images/Datakey_encrypt.png){.thumbnail}
 
