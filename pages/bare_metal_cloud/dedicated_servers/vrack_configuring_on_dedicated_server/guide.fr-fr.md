@@ -224,7 +224,7 @@ Répétez cette procédure pour vos autres serveurs et attribuez à chacun d'ent
 
 ##### Fedora
 
-Une fois que vous avez identifié le nom de votre interface privée (comme expliqué [ici](#vrack-interface)), lancez la command suivante pour vérifiez qu'elle est bien connectée. Dans notre exemple, notre interface est appelée `eno2` :
+Une fois que vous avez identifié le nom de votre interface privée (comme expliqué [ici](#vrack-interface)), lancez la commande suivante pour vérifiez qu'elle est bien connectée. Dans notre exemple, notre interface est appelée `eno2` :
 
 ```bash 
 $ nmcli device status
