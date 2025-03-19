@@ -280,7 +280,7 @@ Vous pouvez alors éditer ce fichier en utilisant le gestionnaire `nmcli`, en re
 nmcli connection modify CONNECTION_NAME IPv4.address IP_ADDRESS/PREFIX
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 nmcli connection modify private-interface IPv4.address 192.168.0.1/16
