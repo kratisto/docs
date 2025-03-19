@@ -1,7 +1,7 @@
 ---
 title: Gestion du RAID matériel
 excerpt: Apprenez à vérifier l'état de votre RAID matériel et de vos disques durs
-updated: 2023-08-21
+updated: 2025-03-20
 ---
 
 ## Objectif
@@ -28,7 +28,7 @@ Sur un serveur disposant d'une configuration RAID matériel, la matrice RAID est
 
 Avant tout, vérifiez que vous disposez d'un contrôleur MegaRAID :
 
-```sh
+```none
 lspci | grep -i lsi | grep -i megaraid
 03:00.0 RAID bus controller: LSI Logic / Symbios Logic MegaRAID SAS 2108 [Liberator] (rev 05)
 ```
@@ -37,7 +37,7 @@ Le résultat obtenu ci-dessus vous confirme que le serveur dispose d'un contrôl
 
 Pour rassembler et lister les ensembles RAID disponibles, vous pouvez utiliser la commande `MegaCli` :
 
-```sh
+```none
 MegaCli -LDInfo -Lall -aALL (Or : storcli /c0 /vall show)
 Adapter 0 - Virtual Drive Information:
 Virtual Drive: 0 (Target Id: 0)
@@ -90,7 +90,7 @@ Si l'état du RAID est « dégradé », nous vous recommandons de vérifier é
 
 En premier lieu, listez les `device Id` pour chaque disque dur afin de bien les tester avec l’outil Smarmontools :
 
-```sh
+```none
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -120,7 +120,7 @@ Inquiry Data:       PN2234P8JYP59YHGST HUS724030ALA640                    MF8OAA
 
 Avec la commande `smartctl` de l’outil Smartmontools, vous pouvez tester chaque disque dur comme indiqué ci-dessous :
 
-```sh
+```bash
 smartctl -d megaraid,N -a /dev/sdX
 ```
 
@@ -132,16 +132,17 @@ Dans certaines situations, vous pouvez recevoir ce résultat :
 >
 > Dans certaines situations, vous pouvez recevoir ce résultat :
 >
-> ```
+> ```none
 > /dev/sda [megaraid_disk_00] [SAT]: Device open changed type from 'megaraid' to 'sat'
 > ```
 >
 > Vous devez alors remplacer `megaraid` par `sat+megaraid` comme suit :
 >
-> ```
+> ```none
 > smartctl -d sat+megaraid,N -a /dev/sdX
 > ```
 
+<!-- markdownlint-disable-next-line MD028 -->
 > [!warning]
 >
 > Si l'un de vos disques durs affiche des erreurs SMART, vous devez effectuer une sauvegarde complète de vos données dès que possible et contacter notre équipe Support. Votre interlocuteur aura besoin du slot number et du device ID afin d'identifier le disque défectueux.
@@ -151,13 +152,13 @@ Dans certaines situations, vous pouvez recevoir ce résultat :
 
 Pour vous assurer que votre contrôleur RAID fonctionne correctement, vous pouvez lister toutes les informations avec la commande suivante :
 
-```sh
+```bash
 MegaCli -AdpAllInfo -aALL
 ```
 
 La partie la plus importante de la sortie est le compteur d'erreurs :
 
-```
+```none
 Compteur d'erreurs
                 ================
 Erreurs corrigeables de mémoire : 0
@@ -168,7 +169,7 @@ Si le nombre d'erreurs est supérieur à zéro, créez une sauvegarde de vos don
 
 Pour une sortie succincte des compteurs d'erreurs seulement, la commande peut être étendue par un `grep` :
 
-```sh
+```none
 MegaCli -AdpAllInfo -aALL | grep "Errors"
 Erreurs corrigeables de mémoire : 0
 Erreurs de mémoire non corrigeables : 0
@@ -178,7 +179,7 @@ Erreurs de mémoire non corrigeables : 0
 
 Si un ou plusieurs disques durs ont été remplacés, le RAID se synchronisera automatiquement. Vous pouvez utiliser la commande ci-dessous pour voir quel disque dur est en cours de reconstruction :
 
-```sh
+```none
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -208,7 +209,7 @@ Inquiry Data:       PN2234P8JYP59YHGST HUS724030ALA640                    MF8OAA
 
 Pour voir la progression de la reconstruction d’un disque, vous pouvez utiliser la commande suivante :
 
-```sh
+```bash
 MegaCli -PDRbld -ShowProg -PhysDrv [EncID:SlotID] -aALL (Or : storcli /c0/eEncID/sSlotID show rebuild)
 ```
 
@@ -223,13 +224,13 @@ La commande récupérera l’enclosure ID et le slot ID, comme indiqué ci-dessu
 
 Pour vérifier la configuration de CacheCade, utilisez les commandes suivantes :
 
-```sh
+```bash
 MegaCli -CfgCacheCadeDsply -a0 (Or : storcli /c0 /dall show cachecade)
 ```
 
 Pour voir quel RAID est associé au CacheCade :
 
-```sh
+```bash
 MegaCli -CfgCacheCadeDsply -a0 | grep "Associated LDs"
 ```
 
@@ -237,7 +238,7 @@ MegaCli -CfgCacheCadeDsply -a0 | grep "Associated LDs"
 
 Pour recevoir la liste complète des paramètres d'état du BBU, utilisez cette commande :
 
-```sh
+```bash
 MegaCli -AdpBbuCmd -aALL
 ```
 
@@ -249,7 +250,7 @@ La valeur la plus importante à vérifier est l'état de la batterie, s'assurer 
 
 Avant tout, vérifiez que vous êtes en possession d'un contrôleur RAID de type LSI en tapant la commande suivante :
 
-```sh
+```none
 lspci | grep -i lsi | grep -v megaraid
 01:00.0 Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire] (rev 03)
 ```
@@ -268,7 +269,7 @@ Pour rassembler et lister les ensembles RAID disponibles, vous pouvez utiliser l
 > Attention, les valeurs (1,0 21) peuvent être différentes selon les versions. Soyez vigilant lorsque vous manipulez ce type de commande.
 >
 
-```sh
+```none
 lsiutil -p1 -a 1,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -306,7 +307,7 @@ Si l'état du RAID est « dégradé », nous vous recommandons de vérifier é
 
 Pour vérifier l’état des disques à partir du contrôleur RAID, vous pouvez utiliser la commande suivante :
 
-```sh
+```none
 lsiutil -p1 -a 2,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -339,7 +340,7 @@ Comme le contrôleur LSI utilise `sg-map`, nous devons tester le fichier `/dev/s
 
 Voici la commande permettant de les lister :
 
-```sh
+```none
 cat /proc/scsi/scsi | grep Vendor
   Vendor: LSI      Model: Logical Volume   Rev: 3000
   Vendor: ATA      Model: HGST HUS724020AL Rev: AA70
@@ -348,17 +349,15 @@ cat /proc/scsi/scsi | grep Vendor
 
 Chaque ligne représente un périphérique sg, qui est mappé en fonction de l'ordre du périphérique affiché ci-dessous :
 
-```
+```none
 Vendor: LSI      Model: Logical Volume   Rev: 3000 => /dev/sg0
-> 
-> Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
-> Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
-> ```
-> 
+Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
+Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
+```
 
 Afin d’obtenir le bon périphérique à l’aide d’une seule commande, vous pouvez utiliser celle-ci :
 
-```sh
+```none
 cat /proc/scsi/scsi | grep Vendor | nl -v 0 | sed 's/^/\/dev\/sg/' | grep -v LSI | cut -d ' ' -f1,6 | sed 's/sg\ /sg/' | sed 's/\/dev\/sg.\ /\/dev\/sg/'
 /dev/sg1
 /dev/sg2
@@ -366,7 +365,7 @@ cat /proc/scsi/scsi | grep Vendor | nl -v 0 | sed 's/^/\/dev\/sg/' | grep -v LSI
 
 Avec la comande `smartctl` de l’outil Smartmontools, nous allons tester chaque disque dur individuellement comme indiqué ci-dessous :
 
-```sh
+```bash
 smartctl -a /dev/sgX 
 ```
 
@@ -386,7 +385,7 @@ Si un ou plusieurs disques durs ont été remplacés, le RAID se resynchronisera
 > Attention, les valeurs (3,0 21) peuvent être différentes selon les versions. Soyez vigilant lorsque vous manipulez ce type de commande.
 >
 
-```sh
+```none
 lsiutil -p1 -a 3,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
