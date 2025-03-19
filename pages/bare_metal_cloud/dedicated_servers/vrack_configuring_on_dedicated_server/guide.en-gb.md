@@ -232,7 +232,7 @@ Restart the networking service to apply the changes:
 sudo systemctl restart networking
 ```
 
-On **CentOS 8, AlmaLinux and RockyLinux** use this command:
+On **CentOS 8, AlmaLinux and RockyLinux**, use this command:
 
 ```bash
 sudo systemctl restart NetworkManager.service
