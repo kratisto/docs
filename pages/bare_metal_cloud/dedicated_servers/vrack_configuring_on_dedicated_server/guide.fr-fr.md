@@ -247,7 +247,7 @@ Dans notre exemple, nous avons nommé notre profil de configuration `private-int
 nmcli connection add type ethernet con-name CONNECTION_NAME ifname INTERFACE_NAME
 ```
 
-**exemple**
+**Exemple :**
 
 ```bash
 nmcli connection add type ethernet con-name private-interface ifname eno2
