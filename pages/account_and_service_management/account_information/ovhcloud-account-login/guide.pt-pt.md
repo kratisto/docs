@@ -31,7 +31,7 @@ A suite deste manual fornece-lhe métodos para resolver os casos frequentes de f
 
 #### Não sei qual é o meu ID de cliente, como encontrá-lo?
 
-O identificador de cliente da OVHcloud, sob a forma *aa00000-ovh**, ser-lhe-á sempre pedido quando aceder à sua conta ou quando contactar a assistência técnica da OVHcloud. Há várias formas de o encontrar.
+O identificador de cliente da OVHcloud, sob a forma **aa00000-ovh**, ser-lhe-á sempre pedido quando aceder à sua conta ou quando contactar a assistência técnica da OVHcloud. Há várias formas de o encontrar.
 
 ##### **Nos e-mails enviados pela OVHcloud**
 
