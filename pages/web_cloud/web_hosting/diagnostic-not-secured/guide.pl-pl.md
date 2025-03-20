@@ -1,7 +1,7 @@
 ---
 title: "Co zrobić w przypadku błędu « Połączenie nie jest prywatne »?"
 excerpt: "Reagowanie w przypadku wiadomości z błędem związanej z bezpieczeństwem strony"
-updated: 2021-07-08
+updated: 2025-03-17
 ---
 
 ## Wprowadzenie  <a name="objective"></a>
@@ -52,9 +52,9 @@ W zakładce `Informacje ogólne`{.action} podaj adres IPV4 i/lub IPV6 Twojego ho
 
 Teraz sprawdź, czy adres IP podany w [Strefa DNS](/pages/web_cloud/domains/dns_zone_edit) odpowiada adresowi Twojej [hostingu Web Cloud](/links/web/hosting).
 
-Kliknij przycisk `Domeny{.action} w lewym górnym rogu [Panelu klienta OVHcloud](/links/manager) i wybierz nazwę domeny Twojej strony.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę.
 
-Wybierz zakładkę `Strefa DNS`{.action} i zapisz docelowy wpis `A` dla Twojej domeny:
+Zapisz docelowy wpis `A` dla Twojej domeny:
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 

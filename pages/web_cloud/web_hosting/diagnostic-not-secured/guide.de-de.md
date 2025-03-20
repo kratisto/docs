@@ -1,7 +1,7 @@
 ---
 title: Was tun bei dem Fehler "Dies ist keine sichere Verbindung"?
 excerpt: Erfahren Sie hier, wie Sie bei sicherheitsrelevanten Fehlermeldungen auf Ihrer Website vorgehen
-updated: 2021-07-08
+updated: 2025-03-17
 ---
 
 ## Ziel  <a name="objective"></a>
@@ -51,9 +51,9 @@ Im Tab `Allgemeine Informationen`{.action} wird Ihnen die IPv4- und IPv6-Adresse
 
 Überprüfen Sie nun, ob die in der [DNS Zone](/pages/web_cloud/domains/dns_zone_edit) hinterlegte IP-Adresse der Adresse Ihres [Webhostings](/links/web/hosting) entspricht.
 
-Loggen Sie Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und  und wählen Sie den Domainnamen Ihrer Website unter `Domainnamen`{.action} aus.
+Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}. Klicken Sie auf das Menü `DNS-zone`{.action} und wählen Sie den Domainnamen aus.
 
-Wechseln Sie zum Tab `DNS-Zone`{.action} aus und notieren Sie das "Ziel" des Eintrags vom Typ `A` Ihres Domainnamens:
+Notieren Sie das "Ziel" des Eintrags vom Typ `A` Ihres Domainnamens:
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 

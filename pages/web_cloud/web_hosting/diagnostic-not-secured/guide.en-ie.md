@@ -1,7 +1,7 @@
 ---
 title: What to do if you get a "Your connection is not private" error?
 excerpt: How to react to a security error message on your website
-updated: 2021-07-08
+updated: 2025-03-17
 ---
 
 ## Objective <a name="objective"></a>
@@ -52,9 +52,9 @@ In the `General information`{.action} tab, note the IPV4 and/or IPV6 address of 
 
 You now need to check that the IP address listed in the [DNS zone](/pages/web_cloud/domains/dns_zone_edit) corresponds to the one of your [Web Cloud hosting plan](/links/web/hosting).
 
-Click on `Domain names`{.action} of your [OVHcloud Control Panel](/links/manager) and select your website’s domain name.
+Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click the `DNS zones`{.action} menu, then choose the domain name concerned.
 
-Select the `DNS Zone`{.action} tab and note the target of the `A` record for your domain name:
+Note the target of the `A` record for your domain name:
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 

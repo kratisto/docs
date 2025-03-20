@@ -1,7 +1,7 @@
 ---
 title: "Cosa fare in caso di errore « La connessione non è privata »?"
 excerpt: "Reagire in caso di messaggio di errore relativo alla sicurezza del tuo sito"
-updated: 2021-07-08
+updated: 2025-03-17
 ---
 
 ## Obiettivo <a name="objective"></a>
@@ -52,9 +52,9 @@ Nella scheda `Informazioni generali`{.action}, inserisci l'indirizzo IPV4 e/o IP
 
 A questo punto è necessario verificare che l'indirizzo IP indicato nella [Zona DNS](/pages/web_cloud/domains/dns_zone_edit) corrisponda a quello del tuo [hosting Web Cloud](/links/web/hosting).
 
-Clicca su `Nomi di dominio`{.action} del tuo [Spazio Cliente OVHcloud](/links/manager) e seleziona il dominio del tuo sito.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}. Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato..
 
-Seleziona la scheda `Zona DNS`{.action} e annota la destinazione d'ingresso di tipo `A` per il tuo dominio:
+Annota la destinazione d'ingresso di tipo `A` per il tuo dominio:
 
 ![zona-DNP](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 
