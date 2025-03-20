@@ -123,7 +123,7 @@ Vous pouvez également terminer votre commande avec un [hébergement web](/links
 
 #### Suivi du transfert après la commande
 
-Une fois la commande validée, vous recevrez un bon de commande. Le processus de transfert ne démarrera qu'après réception du paiement. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via [l'espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
+Une fois la commande validée, vous recevrez un bon de commande. Le processus de transfert ne démarrera qu'après réception du paiement. Une fois cette opération effectuée, vous pouvez suivre la progression du transfert via l'[espace client OVHcloud](/links/manager){.external}. Pour suivre la progression, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 
 > [!primary]
 >
