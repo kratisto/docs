@@ -1,7 +1,7 @@
 ---
 title: "Primeros pasos con un hosting Cloud Web"
 excerpt: "Descubra cómo empezar con un alojamiento Cloud Web"
-updated: 2022-05-04
+updated: 2025-03-17
 ---
 
 ## Objetivo
@@ -162,7 +162,7 @@ A continuación se indica dónde realizar las operaciones correspondientes:
 
 |Configuración DNS utilizada|Dónde realizar las operaciones|
 |---|---|
-|OVHcloud|En el [área de cliente de OVHcloud](/links/manager){.external}, haga clic en `Dominios`{.action} y seleccione el dominio correspondiente. A continuación, abra la pestaña `Zona DNS`{.action} y revise la información, modificándola cuando sea necesario. Si lo necesita, puede consultar nuestra guía [Editar una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|Desde su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Web Cloud`{.action}. Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente. Consulte nuestra documentación "[Editar una zona DNS de OVHcloud](/pages/web_cloud/domains/dns_zone_edit)" si es necesario.|
 |Otros|Utilice el panel que le ofrezca el proveedor que gestione la configuración DNS de su dominio. Contacte con este último si tiene dificultades para realizar las operaciones.|
 
 Una vez que haya editado la configuración DNS del dominio, los cambios tardarán un máximo de 24 horas en propagarse y ser efectivos. Si ha añadido varios dominios a su hosting Cloud Web como multisitio, deberá realizar las dos operaciones anteriores para cada uno de ellos. 

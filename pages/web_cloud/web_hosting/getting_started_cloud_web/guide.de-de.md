@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit Cloud Web Hosting"
 excerpt: "Diese Anleitung erklärt, wie Sie richtig mit Ihrem Cloud Web Hosting starten"
-updated: 2022-05-04
+updated: 2025-03-17
 ---
 
 ## Ziel
@@ -164,7 +164,7 @@ Lesen Sie in der folgenden Tabelle, wo Sie die entsprechenden Änderungen vorneh
 
 |Verwendete DNS-Konfiguration|Wo nehme ich die Änderungen vor?|
 |---|---|
-|OVHcloud|Begeben Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager){.external} im Bereich `Domains`{.action} zur betreffenden Domain. In dem Tab `DNS Zone`{.action} überprüfen Sie dann die Informationen und ändern diese gegebenenfalls ab. Wenn Sie weitere Hilfe benötigen, lesen Sie unsere Anleitung [„Bearbeiten der OVHcloud DNS-Zone“](/pages/web_cloud/domains/dns_zone_edit){.external}|
+|OVHcloud|Gehen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) in den Bereich `Web Cloud`{.action}. Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie die betreffende Domain aus. Weitere Informationen finden Sie in unserer Dokumentation [„Bearbeiten der OVHcloud DNS-Zone“](/pages/web_cloud/domains/dns_zone_edit).|
 |Andere|Verwenden Sie das Interface des Anbieters, der die DNS-Konfiguration Ihrer Domain verwaltet. Bei Problemen wenden Sie sich bitte an Ihren Anbieter.|
 
 Die Änderung der DNS-Konfiguration Ihrer Domain erfordert eine Propagationszeit von bis zu 24 Stunden, bis sie voll wirksam ist. Falls Sie mehrere Domains als Multisite mit Ihrem Cloud Web Hosting verbunden haben, müssen die notwendigen Änderungen für jede Domain einzeln durchgeführt werden. 

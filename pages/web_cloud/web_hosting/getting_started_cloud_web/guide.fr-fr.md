@@ -164,7 +164,7 @@ Reportez-vous aux indications ci-dessous pour savoir où effectuer les manipulat
 
 |Configuration DNS utilisée|Où réaliser les manipulations ?|
 |---|---|
-|OVHcloud|Depuis votre [espace client OVHcloud](/links/manager), rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur le menu `Zones DNS`{.action}, puis choisissez le nom de domaine concerné. Consulter notre documentation [« Éditer une zone DNS OVHcloud »](/pages/web_cloud/domains/dns_zone_edit){.external} si nécessaire.|
+|OVHcloud|Depuis votre [espace client OVHcloud](/links/manager), rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur le menu `Zones DNS`{.action}, puis choisissez le nom de domaine concerné. Consultez notre documentation [« Éditer une zone DNS OVHcloud »](/pages/web_cloud/domains/dns_zone_edit){.external} si nécessaire.|
 |Autre|Depuis l'interface du prestataire gérant la configuration DNS de votre nom de domaine. Nous vous invitons à prendre contact avec ce dernier si vous éprouvez des difficultés pour réaliser les manipulations.|
 
 Une fois la configuration DNS de votre nom de domaine modifiée, un temps de propagation de 24 heures maximum est nécessaire afin que les modifications soient effectives. Si vous avez ajouté plusieurs noms de domaine à votre hébergement Cloud Web en tant que Multisite, vous devrez réaliser ces deux manipulations pour chacun d'entre eux. 

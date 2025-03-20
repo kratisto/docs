@@ -1,7 +1,7 @@
 ---
 title: "Getting started with a Cloud Web hosting plan"
 excerpt: "Find out how to get started with a Cloud Web hosting plan"
-updated: 2022-05-04
+updated: 2025-03-17
 ---
 
 ## Objective
@@ -164,7 +164,7 @@ Please read the instructions below to see where you should make the changes:
 
 |DNS configuration used|Where to make the changes|
 |---|---|
-|OVHcloud|In the [OVHcloud Control Panel](/links/manager){.external}, go to the `Domains`{.action} section for the domain name concerned. Then in the DNS zone tab, check and edit the information as required. If you need any further assistance, you can read our guide to [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|In your [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} section. Click on the `DNS zones`{.action} menu, then choose the domain name concerned. Read our documentation "[Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)" if necessary.|
 |Other|From the interface given by the service provider managing your domain name’s DNS configuration. Please contact your service provider if you encounter any difficulties making these changes.|
 
 Once you have modified your domain name’s DNS configuration, you will need to allow a maximum of 24 hours for the changes to fully propagate and take effect. If you have added several domain names to your Cloud Web hosting plan as a multisite, you will need to make these two changes for each individual domain name. 

@@ -1,7 +1,7 @@
 ---
 title: 'Risolvere l’errore "Sito non installato"'
 excerpt: Questa guida ti mostra come identificare e risolvere la pagina di errore "Sito non installato"
-updated: 2021-05-18
+updated: 2025-03-17
 ---
 
 ## Obiettivo
@@ -80,7 +80,7 @@ A questo punto, è necessario verificare che l’indirizzo IP dell’hosting Web
 > Se modifichi direttamente i **server DNS** associati al tuo dominio, l'intervallo di tempo massimo consentito è di **48 ore**.
 >
 
-Per farlo, accedi al tuo [Spazio Cliente OVHcloud](/links/manager), clicca sulla sezione `Web Cloud`{.action} in alto nella pagina. Accedi alla sezione `Domini`{.action}, seleziona il tuo dominio e clicca sulla scheda `Zona DNS`{.action}.
+Per farlo, accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}. Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 
 Viene visualizzata una tabella con diversi record DNS.
 
@@ -88,7 +88,7 @@ Viene visualizzata una tabella con diversi record DNS.
 |---|---| 
 |Nella zona DNS attiva, il dominio/sottodominio punta all'indirizzo IP dell'hosting Web con un record di tipo A (per un IPv4) o AAAA (per un IPv6).<br><br>![zonaDNS_IP2](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}|Ciò indica che la configurazione del dominio è corretta.<br><br><br> Attendere il tempo di propagazione DNS se la modifica è recente.<br><br> Ricordati inoltre di riavviare i tuoi dispositivi (PC, smartphone, box, ecc.) e di svuotare la cache del browser. La configurazione precedente del dominio può infatti essere salvata in cache e rallentare la visualizzazione dell’aggiornamento.|
 |La zona DNS attiva non contiene record di tipo A o AAAA che collegano il dominio o sottodominio all’indirizzo IP dell’hosting Web. In cui il record esistente punta a un altro indirizzo IP.|Aggiungere il nuovo record di tipo A o AAAA o correggere il record esistente seguendo [questa guida](/pages/web_cloud/domains/dns_zone_edit).|
-|Il tuo dominio non compare nella sezione `Domini`{.action} dello Spazio Cliente OVHcloud.<br><br>Oppure la scheda `Zona DNS`{.action} del tuo dominio viene visualizzata nel modo seguente:<br><br>![zone-without-domain-top-of-the-page](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/zone-without-domain-top-of-the-page.png){.thumbnail}|Questo significa che il tuo dominio non è gestito dallo Spazio Cliente OVHcloud.<br><br>Determina il suo "registrar" tramite il nostro strumento [WHOIS](/links/web/domains-whois) e i server DNS ai quali è associato. <br><br>Ritrova e modifica la zona DNS seguendo la sezione dedicata della guida "[Condividere l’hosting tra più siti - aggiungere un dominio esterno](/pages/web_cloud/web_hosting/multisites_configure_multisite)".|
+|Il tuo dominio non compare nella sezione `Zone DNS`{.action} dello Spazio Cliente OVHcloud.<br><br>Oppure la scheda `Zona DNS`{.action} del tuo dominio viene visualizzata nel modo seguente:<br><br>![zone-without-domain-top-of-the-page](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/zone-without-domain-top-of-the-page.png){.thumbnail}|Questo significa che il tuo dominio non è gestito dallo Spazio Cliente OVHcloud.<br><br>Determina il suo "registrar" tramite il nostro strumento [WHOIS](/links/web/domains-whois) e i server DNS ai quali è associato. <br><br>Ritrova e modifica la zona DNS seguendo la sezione dedicata della guida "[Condividere l’hosting tra più siti - aggiungere un dominio esterno](/pages/web_cloud/web_hosting/multisites_configure_multisite)".|
 |Questo avviso viene visualizzato nella scheda `Zona DNS`{.action}:<br><br><br>![avviso_zonedns_pas_sur_srv_dns](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/message-other-ovh-dns-servers.png){.thumbnail}|Dovrai quindi modificare i server DNS del tuo nome di dominio di conseguenza seguendo la nostra guida "[Modifica i server DNS di un nome di dominio OVHcloud](/pages/web_cloud/domains/dns_server_edit)"|
 
 ## Per saperne di più <a name="go-further"></a>

@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z hostingiem Cloud Web"
 excerpt: "Dowiedz się, jak rozpocząć korzystanie z hostingu Cloud Web"
-updated: 2022-05-04
+updated: 2025-03-17
 ---
 
 ## Wprowadzenie
@@ -164,7 +164,7 @@ Zapoznaj się z poniższymi wskazówkami, aby dowiedzieć się, gdzie przeprowad
 
 |Używana konfiguracja DNS|Gdzie przeprowadzić operacje?|
 |---|---|
-|OVHcloud|W [Panelu klienta](/links/manager){.external}, w sekcji `Domeny`{.action} zaznacz odpowiednią domenę. W zakładce `Strefa DNS`{.action} sprawdź i zmodyfikuj niezbędne informacje. W razie potrzeby skorzystaj z naszej dokumentacji [Modyfikacja strefy DNS](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.action}. Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę. Zapoznaj się z naszą dokumentacją ["Modyfikacja strefy DNS OVHcloud"](/pages/web_cloud/domains/dns_zone_edit){.external}, jeśli to konieczne.|
 |Inne|W interfejsie dostawcy zarządzającego konfiguracją DNS Twojej domeny. W przypadku trudności w przeprowadzeniu tych operacji zachęcamy do kontaktu z dostawcą zarządzającym konfiguracją DNS Twojej domeny.|
 
 Czas propagacji wprowadzonych w strefie DNS zmian wynosi maksymalnie 24 godziny. Jeśli dodałeś kilka domen do Twojego hostingu Cloud Web w opcji MultiSite, przeprowadź obydwie operacje dla każdej z domen. 

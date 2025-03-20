@@ -1,7 +1,7 @@
 ---
 title: "Alojamento Cloud Web: primeira utilização"
 excerpt: "Saiba como começar num plano de alojamento Cloud Web"
-updated: 2022-05-04
+updated: 2025-03-17
 ---
 
 ## Objetivo
@@ -164,7 +164,7 @@ Siga as indicações abaixo para saber onde efetuar estas manipulações:
 
 |Configuração DNS utilizada|Onde realizar as manipulações?|
 |---|---|
-|OVHcloud|Na [Área de Cliente OVHcloud](/links/manager){.external}, posicionado na secção `Domínios`{.action}, no domínio em causa. No separador `Zona DNS`{.action}, verifique e altere as informações necessárias. Se necessário, pode recorrer ao guia [Alojamento Partilhado: como editar a minha zona DNS?](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|A partir do seu [espaço cliente OVHcloud](/links/manager), aceda à parte `Web Cloud`{.action}. Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa. Consulte a nossa documentação "[Editar uma zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit)", se necessário.|
 |Outra|No sistema do agente responsável pela gestão do seu domínio. Sugerimos que o contacte se sentir dificuldades durante as manipulações.|
 
 Uma vez modificada a configuração DNS do domínio, é necessário um tempo máximo de propagação de 24 horas até as alterações serem efetivas. Se adicionou vários domínios ao seu alojamento Cloud Web enquanto Multisite, deverá realizar estas duas manipulações para cada um deles. 
