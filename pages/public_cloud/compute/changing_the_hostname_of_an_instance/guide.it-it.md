@@ -1,7 +1,7 @@
 ---
 title: 'Modificare l’hostname di un’istanza Public Cloud'
 excerpt: "Modifica l'hostname della tua istanza"
-updated: 2018-09-18
+updated: 2025-03-20
 ---
 
 > [!primary]
@@ -10,30 +10,43 @@ updated: 2018-09-18
 
 ## Obiettivo
 
-Nel momento in cui crei un’[istanza Public Cloud](https://www.ovh.it/public-cloud/istanze/){.external}, così come ad ogni riavvio, puoi configurarla grazie al modulo Cloud-Init. Di conseguenza, per riconfigurare l’hostname (ad esempio, in caso di errore durante la creazione dell’istanza o per riconfigurare il server) è necessario disattivare il modulo Cloud-Init, incaricato di configurare l’hostname affinché quest’ultimo non venga ripristinato.
+Nel momento in cui crei un’[istanza Public Cloud](https://www.ovhcloud.com/it/public-cloud/){.external}, così come ad ogni riavvio, puoi configurarla grazie al modulo Cloud-init. Di conseguenza, se si desidera riconfigurare l'hostname, a causa di un errore durante la creazione dell'istanza o per riconfigurare il server di posta elettronica, è necessario disabilitare il modulo Cloud-init. Questo è responsabile della configurazione dell'hostname in modo che non venga ripristinato.
 
-**Questa guida ti mostra come riconfigurare il modulo Cloud-Init per modificare l’hostname di un’istanza**.
+**Questa guida spiega come riconfigurare cloud-init in modo da poter cambiare l'hostname dell'istanza.**
 
 > [!warning]
 >
 > OVHcloud mette a tua disposizione macchine di cui tu sei responsabile. Non avendo accesso a queste macchine, non siamo noi gli amministratori e pertanto non possiamo fornirti alcuna assistenza. È responsabilità dell'utente garantire ogni giorno la gestione e la sicurezza del software.
 >
-> Mettiamo questa guida a tua disposizione per aiutarti con le attività più comuni. Tuttavia, in caso di difficoltà o dubbi relativi ad amministrazione e sicurezza, ti consigliamo di contattare un fornitore specializzato. Per maggiori informazioni consulta la sezione “Per saperne di più” di questa guida.
+> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi relativamente ad amministrazione e sicurezza, ti consigliamo di contattare un [provider specializzato](/links/partner). Per maggiori informazioni consulta la sezione "Per saperne di più".
+>
+> Questa guida è destinata alle istanze basate su distribuzioni Linux **esclusivamente**.
 >
 
 ## Prerequisiti
 
-- Aver creato un’[istanza Public Cloud](https://www.ovh.it/public-cloud/istanze/){.external}
+- Aver creato un’[istanza Public Cloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation)
 - [Essere connessi in SSH](/pages/public_cloud/compute/public-cloud-first-steps) (sudo) all’istanza
 
 ## Procedura
 
-### Disattiva il modulo Cloud-Init
+### Disattiva il modulo cloud-init
 
-Come prima cosa, modifica il file di configurazione:
+> [!primary]
+>
+> Per gli scopi di questa guida, utilizzeremo l'editor di file **vi**, in quanto presente di default nelle distribuzioni Linux. È ovviamente possibile utilizzare l'editor di propria scelta.
+>
+> Uso di base di vi :
+>
+> - Premere **i** per passare alla modalità di inserimento del testo.
+> - Premere **Escape** (Esc) per uscire dalla modalità di inserimento.
+> - Premere **:wq** e poi **Invio** per salvare e uscire.
+> - Premere **:q!** e poi **Invio** per uscire senza salvare.
+
+Per disattivare cloud-init, è necessario iniziare a modificare il file di configurazione:
 
 ```sh
-sudo vim /etc/cloud/cloud.cfg
+sudo vi /etc/cloud/cloud.cfg
 ```
 
 Aggiungi o modifica le due seguenti righe:
@@ -43,20 +56,29 @@ preserve_hostname: true
 manage_etc_hosts: false
 ```
 
-### Modifica l’hostname
+### Modificare il nome dell'host (*hostname*)
 
-Il primo step consiste nel modificare l’hostname:
+Il primo passo è cambiare il nome dell'host (*hostname*). In questo esempio, cambieremo l'hostname in **webserver**. È ovviamente possibile modificarlo in base alle proprie preferenze:
 
 ```sh
-sudo vim /etc/hostname
+sudo vi /etc/hostname
+```
+
+Aggiungere o sostituire il contenuto con:
+
+```sh
 webserver
 ```
 
 Successivamente, modifica il file **/etc/hosts**:
 
 ```sh
-sudo vim /etc/hosts
+sudo vi /etc/hosts
+```
 
+Aggiungere o sostituire il contenuto con:
+
+```sh
 127.0.1.1 webserver.localdomain webserver
 127.0.0.1 localhost
 ```
@@ -67,7 +89,7 @@ Riavvia l’istanza:
 sudo reboot
 ```
 
-Dopo il riavvio, l’hostname risulterà aggiornato con le tue modifiche:
+Dopo il riavvio, il cambio di *hostname* è stato preso in considerazione correttamente:
 
 ```sh
 sudo cat /etc/hosts
@@ -78,4 +100,4 @@ sudo cat /etc/hosts
 
 ## Per saperne di più 
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).
