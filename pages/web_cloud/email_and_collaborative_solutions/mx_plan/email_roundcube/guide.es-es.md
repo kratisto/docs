@@ -398,7 +398,7 @@ Ahora se requiere la interacción humana para poder continuar.
 Póngase en contacto con el administrador del servidor.
 ```
 
-Como verá en el correo electrónico, su cuenta se considerará como que ya ha iniciado sesión. Esto se denomina sesión. Esto significa que su cuenta de correo ya está siendo utilizada por el servidor de correo, y que la sesión anterior debe ser cerrada . Compruebe que su cuenta de correo electrónico no se haya abierto aún en RoundCube. También puede borrar los datos almacenados en caché en su navegador web.
+Como se indica en el mensaje, su cuenta de correo se considera ya conectada. Esto se conoce como "sesión". Esto significa que su cuenta de correo ya está en uso a los ojos del servidor de correo y que esta sesión anterior debe ser cerrada . Compruebe que su cuenta de correo electrónico no está abierta en roundcube. También puede vaciar los datos almacenados en caché en su navegador de internet.
 
 ## Más información
 

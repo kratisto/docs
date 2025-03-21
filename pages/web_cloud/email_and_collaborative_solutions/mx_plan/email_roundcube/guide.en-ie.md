@@ -399,7 +399,7 @@ Human interaction is now required to continue.
 Please contact your server-administrator.
 ```
 
-As you will see in the email, your account will be considered as already logged in. This is called a session. It means that your email account is already being used by the email server, and that the previous session must be closed. Check that your email account has not already been opened on Roundcube. You can also clear cached data in your web browser.
+As you will see in the email, your account will be considered as already logged in. This is called a “session”. This means that your email account is already in use by the email server, and that your previous session must be closed . Check that your email account is not already open on roundcube. You can also clear cached data from your web browser.
 
 ## Go further <a name="gofurther"></a>
 

@@ -400,7 +400,7 @@ Um fortzufahren, ist nun eine menschliche Interaktion erforderlich.
 Bitte wenden Sie sich an den Administrator Ihres Servers.
 ```
 
-Wie in der Nachricht angegeben, wird bei Ihrem E-Mail-Account bereits ein Login registriert. Dies bedeutet, dass Ihr E-Mail-Account vom E-Mail-Server bereits verwendet wird und dass diese Sitzung zuerst geschlossen werden muss. Stellen Sie sicher, dass Ihr E-Mail-Account nicht bereits in Roundcube geöffnet ist. Leeren Sie auch den Cache (die zwischengespeicherten Daten) in Ihrem Browser.
+As you will see in the email, your account will be considered as already logged in. This is called a "session". This means that your email account is already in use by the email server, and that your previous session must be closed . Check that your email account is not already open on roundcube. You can also clear cached data from your web browser.
 
 ## Weiterführende Informationen
 
