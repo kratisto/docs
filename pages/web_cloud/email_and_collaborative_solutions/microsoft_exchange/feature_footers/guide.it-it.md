@@ -17,12 +17,24 @@ Nello Spazio Cliente OVHcloud, è possibile creare firme universali (footers) pe
 
 ## Procedura
 
-Per effettuare questa operazione, accedi allo [Spazio Cliente OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Microsoft`{.action}.
+>> 1. Clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+> **Email Pro**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
 
-- **Exchange**: Clicca su `Microsoft`{.action} > `Exchange`{.action}. 
-- **Email Pro**: Clicca su `Email Pro`{.action}.
-
-Seleziona il nome del servizio in cui si trova l’account per cui vuoi creare la delega e clicca sulla scheda `Account email`{.action}. Clicca sulla scheda `More+`{.action}nel menu orizzontale e seleziona `Footers`{.action}.
+Clicca sulla scheda `Altre opzioni`{.action} nel menu orizzontale e seleziona `Footers`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 

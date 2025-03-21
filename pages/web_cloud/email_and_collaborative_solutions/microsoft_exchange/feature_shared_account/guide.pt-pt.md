@@ -4,10 +4,6 @@ excerpt: Adicionar e utilizar uma conta partilhada na sua oferta E-mail Exchange
 updated: 2023-09-15
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Uma **conta partilhada** é uma caixa de e-mail partilhada entre várias contas Exchange e unicamente acessível através destas últimas. Uma conta partilhada não possui uma palavra-passe, é necessário delegar o seu acesso a uma ou várias contas da plataforma Exchange.
@@ -24,7 +20,11 @@ Uma **conta partilhada** é uma caixa de e-mail partilhada entre várias contas 
 
 ### Adicionar uma conta partilhada
 
-Aceda à [Área de Cliente OVHcloud](/links/manager). Aceda à secção `Web Cloud`{.action} e selecione o seu serviço em `Microsoft`{.action} e depois `Exchange`{.action}.
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique na rubrica `Microsoft`{.action}.
+1. Clique em `Exchange`{.action}.
+1. Selecione a plataforma em causa.
 
 Selecione o separador `Contas partilhadas`{.action} no menu horizontal e clique em `Adicionar uma conta partilhada`{.action}.
 

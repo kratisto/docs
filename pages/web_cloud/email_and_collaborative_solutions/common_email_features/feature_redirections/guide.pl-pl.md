@@ -10,9 +10,6 @@ updated: 2024-06-10
 }
 </style>
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -168,7 +165,7 @@ Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `
 
 - **Exchange**: w `Microsoft`{.action}, następnie w `Exchange`{.action} i wybierz odpowiednią platformę. Kliknij kartę `Konta e-mail`{.action}.
 
-- **E-mail Pro**: w `E-mail Pro`{.action} wybierz odpowiednią platformę i kliknij zakładkę `Konta e-mail`{.action}.
+- **E-mail Pro**: w `E-maile Pro`{.action} wybierz odpowiednią platformę i kliknij zakładkę `Konta e-mail`{.action}.
 
 - **E-maile** (MXplan): w `e-mailach`{.action} wybierz odpowiednią platformę, a następnie kliknij zakładkę `Konta e-mail`{.action}.
 

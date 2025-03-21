@@ -4,10 +4,6 @@ excerpt: Come gestire la fatturazione del tuo servizio Email Pro
 updated: 2022-02-23
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 L'offerta Email Pro dispone di una gestione flessibile riguardante la fatturazione degli account. OVHcloud ti aiuta a configurarla passo dopo passo.
@@ -23,7 +19,10 @@ L'offerta Email Pro dispone di una gestione flessibile riguardante la fatturazio
 
 ### Ordina account aggiuntivi
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca sulla sezione `Web Cloud`{.action}. Clicca su `Email Pro`{.action} e seleziona il tuo servizio.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Email Pro`{.action}.
+1. Seleziona la piattaforma interessata.
 
 Clicca sulla scheda `Account email`{.action} e poi sul pulsante `Ordina account`{.action} in alto a destra.
 

@@ -5,6 +5,7 @@ updated: 2018-03-26
 ---
 
 ## How do I configure my Firewall to accept traffic from the OVHcloud Load Balancer?
+
 When using the Load Balancer, your clients do not connect directly to your servers. A good practice is to setup a firewall to allow only traffic from the OVHcloud Load Balancer service.
 
 - To determine which IPs to allow in your firewall, you can use the following API call:
@@ -15,6 +16,7 @@ When using the Load Balancer, your clients do not connect directly to your serve
 > 
 
 ## How do I know the status of my service?
+
 Sometimes it may be useful to know the status of your OVHcloud Load Balancer.
 
 - To determine the status of your service, you can use the following API call :
@@ -27,6 +29,7 @@ Sometimes it may be useful to know the status of your OVHcloud Load Balancer.
 The different statuses of the OVHcloud Load Balancer can be `running`{.action} (Active), `reload`{.action} (Refresh in progress), `unknown`{.action} (Not yet started), or `dead`{.action} (inactive).
 
 ## How to add an Additional IP to the OVHcloud Load Balancer?
+
 An Additional IP is an additional IP in which can be joined with your primary IP. The Additional IP can be switched from one server to another in seconds.
 
 - To add an Additional IP to an OVHcloud Load Balancer service :
@@ -51,6 +54,7 @@ An Additional IP is an additional IP in which can be joined with your primary IP
 > 
 
 ## How do I order a free SSL certificate ?
+
 It is possible to order a free SSL ceritificate for the OVHcloud Load Balancer..
 
 - To order a free SSL certificate, you can use the following API call and entering your domain in the `fqdn` field:
@@ -84,3 +88,6 @@ An SSL certificate appearing as `built_not_routed` is a certificate that has bee
 > @api {v1} /ipLoadbalancing GET /ipLoadbalancing/{serviceName}/ssl/{id}
 >
 
+## Go further
+
+Join our [community of users](/links/community).

@@ -3,10 +3,6 @@ title: Email Pro - Configura il tuo account di posta elettronica su Mail per mac
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli account Email Pro possono essere configurati su client di posta compatibili per permetterti di utilizzare il tuo account email dal dispositivo che preferisci. L'applicazione Mail su macOS è disponibile gratuitamente su tutti i Mac.
@@ -45,7 +41,7 @@ Gli account Email Pro possono essere configurati su client di posta compatibili 
 |---|---|
 |![mailmac](images/mail-mac-emailpro01.png){.thumbnail}|Seleziona `Altro account Mail`{.action} e clicca su `Account Mail`{.action}.|
 |Nella finestra "**Aggiungi account Mail**" inserisci le seguenti informazioni: <br>- il **Nome** del tuo account email <br>- Il tuo **indirizzo email** <br>- La **password** del tuo indirizzo email |![mailmac](images/mail-mac-emailpro02.png){.thumbnail}|
-|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Nella nuova finestra, inserisci le informazioni: <br>- Lascia il tuo **indirizzo email** già inserito <br>- Inserisci il tuo indirizzo email completo nel **nome utente** <br>- Lascia la tua **password** già inserita <br>- Seleziona `POP` o `IMAP`(consigliato) in **Tipo di account**<br>- Inserisci `pro?.mail.ovh.net` nel **server di ricezione** (sostituisci "**?**" con il numero del tuo server)<br>- Inserisci anche `pro?.mail.ovh.net` nel **Server di invio** (sostituisci "**?**" con il numero del tuo server)<br><br>Per completare la configurazione, clicca su `Accedi`{.action}|
+|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Nella nuova finestra, inserisci le informazioni: <br>- Lascia il tuo **indirizzo email** già inserito <br>- Inserisci il tuo indirizzo email completo nel **nome utente** <br>- Lascia la tua **password** già inserita <br>- Seleziona `POP` o `IMAP`(consigliato) in **Tipo di account**<br>- Inserisci `pro?.mail.ovh.net` nel **server di ricezione** (sostituisci "?" con il numero del tuo server)<br>- Inserisci anche `pro?.mail.ovh.net` nel **Server di invio** (sostituisci "?" con il numero del tuo server)<br><br>Per completare la configurazione, clicca su `Accedi`{.action}|
 
 ### Utilizza l'indirizzo email
 

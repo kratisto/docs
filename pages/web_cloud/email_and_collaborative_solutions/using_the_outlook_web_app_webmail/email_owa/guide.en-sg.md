@@ -22,7 +22,6 @@ This guide will give you a better understanding of the usual email account tasks
 > [!primary]
 >
 > After the first two steps, the instructions don't have to be considered in a particular order.
->
 
 ### 1. Accessing OWA webmail
 
@@ -93,7 +92,7 @@ OWA provides several ways to organise your inbox. You can
 
 #### Creating a folder
 
-To create a new folder, right-click on the name of your email address in the folder tree and then choose `Create new folder`{.action}. You can create a subfolder in existing folders in the same way (`Create new subfolder`{.action}). 
+To create a new folder, right-click on the name of your email address in the folder tree and then choose `Create new folder`{.action}. You can create a subfolder in existing folders in the same way (`Create new subfolder`{.action}).
 
 ![useowa](images/use-owa-step10.png){.thumbnail}
 
@@ -110,13 +109,13 @@ To manage rules, click on the gear icon at the top, then click on `Options`{.act
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list. 
+On the new page that appears, click on `Inbox and sweep rules`{.action} in the left-hand menu. In the "Options" tree-view, you can find this item under "Mail", then "Automatic processing". From here, you can create, edit, delete and move rules in the list.
 
-To add a new rule, click the `+`{.action} button. 
+To add a new rule, click the `+`{.action} button.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}. 
+Fill in the requested information depending on the action you want the rule to carry out. Afterwards, click `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -151,7 +150,6 @@ In the new window that pops up, enter your current password. Then enter a new pa
 > [!primary]
 >
 > Remember to also enter your new password on any device i.e. email client used to access this account. In case of any issues with your password, contact your service administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

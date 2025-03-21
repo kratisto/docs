@@ -13,9 +13,6 @@ updated: 2024-10-09
 }
 </style>
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
-
 ## Objetivo
 
 Las direcciones de correo de la solución Exchange pueden configurarse en distintos programas de correo compatibles. para enviar y recibir mensajes desde su dispositivo sin necesidad de una nueva aplicación. Esta guía explica cómo configurar una dirección de correo Exchange desde la aplicación Gmail para dispositivos Android.
@@ -50,7 +47,7 @@ Esta guía explica cómo configurar una cuenta Exchange en Android utilizando la
 
 > [!primary]
 >
-> En nuestros ejemplos, utilizamos la mención servidor: ex**?**.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor del servicio Email Pro.
+> En nuestros ejemplos, utilizamos la mención servidor: ex?.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor del servicio Email Pro.
 >
 > Puede consultar esta cifra en el [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}, y en la sección `Email Pro`{.action}. El nombre del servidor puede verse en el recuadro **«Conexión»** de la pestaña `Información General`{.action}.
 

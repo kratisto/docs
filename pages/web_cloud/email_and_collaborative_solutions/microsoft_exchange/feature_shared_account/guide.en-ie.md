@@ -20,7 +20,11 @@ A **shared account** is a mailbox shared between several Exchange accounts and c
 
 ### Adding a shared account
 
-Log in to the [OVHcloud Control Panel](/links/manager). Go to the `Web Cloud`{.action} section and select your service in under `Microsoft`{.action}, then `Exchange`{.action}.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
 
 Select the `Shared accounts`{.action} tab in the horizontal menu and click on `Add a shared account`{.action}.
 

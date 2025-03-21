@@ -73,8 +73,8 @@ Follow the installation steps by clicking on the tabs below:
 >> - **Email address**
 >> - **Full name** : enter your full email address
 >> - **Description**
->> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: For the **EUROPE**, type `imap.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `imap.mail.ovh.ca`<br>- **Port**: 993<br>- **Security Type**: SSL/TLS<br>- **IMAP Username**: Your full email address<br>- **IMAP password**: Your email address password
->> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For the **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net` . For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Security Type**: SSL/TLS<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email address password
+>> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: For the **EUROPE**, type `imap.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `imap.mail.ovh.ca`<br>- **Port**: 993<br>- **Security Type**: SSL/TLS<br>- **IMAP Username**: Your full email address<br>- **IMAP password**: Your email account password
+>> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For the **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net` . For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Security Type**: SSL/TLS<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email account password
 >>
 >> To finalize the configuration, click the “ &#10003; ” button
 >>
@@ -87,8 +87,8 @@ Follow the installation steps by clicking on the tabs below:
 >> - **Email address**
 >> - **Full name** : Enter your full email address
 >> - **Description**
->> - **POP3 Incoming Mail Server**:<br>- **POP3 Hostname**: For the **EUROPE**, type `pop.mail.ovh.net` or `ssl0.ovh.net` . For **AMERICA/ASIA**, type `pop.mail.ovh.ca`<br>- **Port**: 995<br>- **Security Type**: SSL/TLS<br>- **POP3 User Name**: Your full email address<br>- **POP3 Password**: Your email address password
->> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For the **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Security Type**: SSL/TLS<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email address password
+>> - **POP3 Incoming Mail Server**:<br>- **POP3 Hostname**: For the **EUROPE**, type `pop.mail.ovh.net` or `ssl0.ovh.net` . For **AMERICA/ASIA**, type `pop.mail.ovh.ca`<br>- **Port**: 995<br>- **Security Type**: SSL/TLS<br>- **POP3 User Name**: Your full email address<br>- **POP3 Password**: Your email account password
+>> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For the **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **Port**: 465<br>- **Security Type**: SSL/TLS<br>- **SMTP Username**: Your full email address<br>- **SMTP password**: Your email account password
 >>
 >> To finalize the configuration, click the “ &#10003; ” button
 >>

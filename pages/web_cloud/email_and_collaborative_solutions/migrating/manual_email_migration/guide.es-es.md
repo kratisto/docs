@@ -3,10 +3,7 @@ title: Migrar manualmente una dirección de correo electrónico
 excerpt: Cómo migrar manualmente su dirección de correo a otra dirección de correo
 updated: 2021-01-05
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
+ 
 
 ## Objetivo
 
@@ -44,9 +41,12 @@ Las instrucciones siguientes se dividen en dos partes:
 
 Si tiene una cuenta de correo [Exchange de OVHcloud](/links/web/emails-hosted-exchange), puede exportarla directamente en formato PST desde el área de cliente.
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) y acceda al apartado `Web Cloud`{.action}. Caga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Haga clic en el nombre del servicio Hosted Exchange correspondiente.
-
-En la pestaña `Cuentas de correo`{.action}, haga clic en el botón `..`{.action} a la derecha de la cuenta de correo que quiera exportar y luego en `Exportar en formato PST`{.action}.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
+1. En la pestaña `Cuentas de correo`{.action}, haga clic en el botón `...`{.action} a la derecha de la cuenta de correo que quiera exportar y luego en `Exportar en formato PST`{.action}.
 
 ![correo electrónico](images/manager-export-pst01.png){.thumbnail}
 

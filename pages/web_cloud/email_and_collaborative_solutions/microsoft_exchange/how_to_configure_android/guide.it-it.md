@@ -13,10 +13,6 @@ updated: 2024-10-09
 }
 </style>
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli indirizzi email del servizio Exchange possono essere configurati su client di posta compatibili. per permetterti di utilizzare il tuo account email dal dispositivo che preferisci. Questa guida ti mostra come configurare un indirizzo email Exchange dall’applicazione Gmail presente sui dispositivi Android.
@@ -46,7 +42,7 @@ Gli indirizzi email del servizio Exchange possono essere configurati su client d
 
 > [!primary]
 >
-> Nel nostro esempio, usiamo il nome del server: ex**?**.mail.ovh.net. Dovrai sostituire il ""? " dalla cifra che indica il server del tuo servizio Exchange.
+> Nel nostro esempio, usiamo il nome del server: ex?.mail.ovh.net. Dovrai sostituire il ""? " dalla cifra che indica il server del tuo servizio Exchange.
 >
 > Questa cifra è disponibile nello [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} e `Microsoft`{.action}.
 > Clicca su `Exchange`{.action} e poi sulla piattaforma Exchange. Il nome del server è visibile nel riquadro **Connessione** della `scheda Informazioni generali`{.action}.

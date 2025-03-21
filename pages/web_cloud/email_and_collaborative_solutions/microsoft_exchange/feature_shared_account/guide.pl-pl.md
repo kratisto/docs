@@ -3,10 +3,7 @@ title: Tworzenie i korzystanie z konta współdzielonego
 excerpt: Dodaj i użyj konta współdzielonego w Twojej usłudze E-mail Exchange
 updated: 2023-09-15
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
+ 
 
 ## Wprowadzenie
 
@@ -24,7 +21,11 @@ Konto **współdzielone** to skrzynka e-mail współdzielona między kilka kont 
 
 ### Dodaj konto współdzielone
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager). Przejdź do sekcji `Web Cloud`{.action} i wybierz usługę w `Microsoft`{.action}, a następnie `Exchange`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij rubrykę `Microsoft`{.action}.
+1. Kliknij na `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
 
 Wybierz kartę `Konta współdzielone`{.action} w menu poziomym i kliknij `Dodaj konto współdzielone`{.action}.
 

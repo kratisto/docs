@@ -70,9 +70,10 @@ hosted-private-cloud-hosted-private-cloud-powered-by-vmware-vrops: VMware vROps
 hosted-private-cloud-sap-ovhcloud: SAP on OVHcloud
 hosted-private-cloud-sap-ovhcloud-concepts: Koncepcje
 hosted-private-cloud-sap-ovhcloud-getting-started: Pierwsze kroki
-hosted-private-cloud-sap-ovhcloud-advanced-usage: Zaawansowane użycie
+hosted-private-cloud-sap-ovhcloud-automated-deployments: Automatyczne wdrożenia
+hosted-private-cloud-sap-ovhcloud-resilience: Odporność
 hosted-private-cloud-sap-ovhcloud-backups: Backups
-hosted-private-cloud-sap-ovhcloud-observability: Observability
+hosted-private-cloud-sap-ovhcloud-observability: Obserwowalność
 ovhcloud-labs-data-collector: Data Collector
 ovhcloud-labs-data-collector-getting-started: Pierwsze kroki
 ovhcloud-labs-power-web-hosting: POWER Web Hosting
@@ -285,12 +286,13 @@ web-cloud-hosting-configuring-web-hosting-plan: Konfiguracja swój hostingu WWW 
 web-cloud-hosting-databases: Bazy danych
 web-cloud-hosting-ftp-and-ssh: FTP i SSH
 web-cloud-hosting-getting-started: Pierwsze kroki
+web-cloud-hosting-general-information: Informacje ogólne
 web-cloud-hosting-php: PHP
 web-cloud-hosting-redirection-and-authentication: Przekierowanie i uwierzytelnianie
 web-cloud-hosting-ssl: SSL
 web-cloud-hosting-troubleshooting: Rozwiązywanie problemów
 web-cloud-hosting-tutorials: Samouczki
-web-cloud-hosting-tutorials-wordpress: Samouszki WordPress
+web-cloud-hosting-tutorials-wordpress: Samouczki WordPress
 web-cloud-hosting-tutorials-cloud-web: Samouczki dla Cloud Web
 web-cloud-hosting-website-optimisation: Optymalizacja witryny sieci Web
 web-cloud-hosting-api: API

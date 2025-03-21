@@ -4,10 +4,6 @@ excerpt: "Erfahren Sie hier, wie Sie einen Domainnamen zu Ihrer Exchange Lösung
 updated: 2023-06-14
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Um die in Ihrer Exchange Lösung enthaltenen Accounts nutzen zu können, benötigen Sie einen Domainnamen. Es ist auch möglich, mehrere Domainnamen zu einer Exchange oder E-Mail Pro Dienstleistung hinzuzufügen.
@@ -25,14 +21,22 @@ Um die in Ihrer Exchange Lösung enthaltenen Accounts nutzen zu können, benöti
 
 ### Zugang zur Verwaltung Ihrer Dienstleistung
 
-Sobald Ihr Exchange oder E-Mail Pro Dienst eingerichtet und verfügbar ist, können Sie ihn über Ihr [OVHcloud Kundencenter](/links/manager) verwalten.
-
-Im Bereich `Web Cloud`{.action}:
-
-- **Exchange**: Klicken Sie auf `Microsoft`{.action} und dann auf `Exchange`{.action}. 
-- **E-Mail Pro**: Klicken Sie auf `E-Mail Pro`{.action}.
-
-Wählen Sie anschließend den Namen des betreffenden Dienstes aus.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `Microsoft`{.action}.
+>> 1. Klicken Sie auf `Exchange`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>>
+> **Email Pro**
+>>
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mail Pro`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
+>>
 
 ### Eine Domain hinzufügen
 

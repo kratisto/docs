@@ -24,7 +24,6 @@ Concernant les fonctionnalités spécifiques à Exchange, vous pourrez retrouver
 > [!primary]
 >
 > Après les deux premières étapes, il n'est pas nécessaire de suivre les instructions dans l'ordre donné.
->
 
 ### Étape 1 : Se connecter à OWA
 
@@ -175,7 +174,6 @@ Dans la nouvelle fenêtre qui s'ouvre, entrez votre mot de passe actuel. Saisiss
 > [!primary]
 >
 > N'oubliez pas d’enter votre nouveau mot de passe sur tous vos appareils utilisés pour accéder à ce compte (par exemple dans le logiciel client de messagerie). En cas de difficultés avec votre mot de passe, contactez votre administrateur de services.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

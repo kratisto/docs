@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Właśnie zakupiłeś usługę E-mail Pro. Umożliwia ona korzystanie z profesjonalnych kont e-mail w najlepszej cenie pozwalającej na prowadzenie bieżącej działalności lub rozpoczęcie nowej.
@@ -25,7 +21,12 @@ Właśnie zakupiłeś usługę E-mail Pro. Umożliwia ona korzystanie z profesjo
 
 ### Etap 1: logowanie do usługi E-mail Pro
 
-Po utworzeniu i udostępnieniu usługi E-mail Pro, można nią zarządzać poprzez [Panel klienta OVHcloud](/links/manager).Zaloguj się do Panelu klienta, kliknij E-mail Pro, następnie wybierz odpowiednią usługę.
+Po utworzeniu i udostępnieniu usługi E-mail Pro :
+
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile Pro`{.action}.
+1. Wybierz odpowiednią platformę.
 
 > [!primary]
 >
@@ -129,7 +130,7 @@ Teraz uzupełnij kolejne informacje, o które zostaniesz poproszony.
 - **Imię** : wpisz imię.
 - **Nazwa** : wprowadź nazwę.
 - **Nazwa do wyświetlenia** : wprowadź nazwę nadawcy, która ma się wyświetlać podczas wysyłki e-maili z tego adresu.
-- **Hasło i potwierdzenie*** : Ustaw hasło składające się z minimum 8 znaków i zawierające co najmniej jedną dużą literę, jedną małą literę i jedną cyfrę. Ze względów bezpieczeństwa zalecamy nie używać dwa razy tego samego hasła. Najlepiej wybrać hasło nie mające żadnego związku z Twoimi danymi osobistymi (należy unikać używania imienia, nazwiska, daty urodzenia, etc.) i regularnie je zmieniać.
+- **Hasło i potwierdzenie** : Ustaw hasło składające się z minimum 8 znaków i zawierające co najmniej jedną dużą literę, jedną małą literę i jedną cyfrę. Ze względów bezpieczeństwa zalecamy nie używać dwa razy tego samego hasła. Najlepiej wybrać hasło nie mające żadnego związku z Twoimi danymi osobistymi (należy unikać używania imienia, nazwiska, daty urodzenia, etc.) i regularnie je zmieniać.
 
 > [!warning]
 >
@@ -162,14 +163,14 @@ Aby skonfigurować Twoje konto e-mail w programie pocztowym lub na urządzeniu t
 
 |Typ serwera|Nazwa serwera|Typ zabezpieczenia|Port|
 |---|---|---|---|
-|Serwer poczty przychodzącej|pro**?**.mail.ovh.net|SSL/TLS|993|
-|Serwer poczty wychodzącej|pro**?**.mail.ovh.net|STARTTLS|587|
+|Serwer poczty przychodzącej|pro?.mail.ovh.net|SSL/TLS|993|
+|Serwer poczty wychodzącej|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> Poniżej stosujemy przykładową nazwę serwera, czyli pro**?**.mail.ovh.net. Należy zastąpić „X” cyfrą wskazującą serwer Twojej usługi E-mail Pro.
+> Poniżej stosujemy przykładową nazwę serwera, czyli pro?.mail.ovh.net. Należy zastąpić „X” cyfrą wskazującą serwer Twojej usługi E-mail Pro.
 > 
-> Znajdziesz tę cyfrę w Twoim [Panelu klienta OVHcloud](/links/manager), przechodząc do sekcji `Web Cloud`{.action}, a następnie do `E-mail Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+> Znajdziesz tę cyfrę w Twoim [Panelu klienta OVHcloud](/links/manager), przechodząc do sekcji `Web Cloud`{.action}, a następnie do `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
 > 
 
 ## Sprawdź również

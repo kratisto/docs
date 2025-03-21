@@ -4,10 +4,6 @@ excerpt: 'Cómo crear y configurar un filtro en una dirección de correo electr�
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Un filtro de correo permite aplicar diferentes tratamientos a los mensajes que reciba, según los criterios que usted decida.
@@ -36,11 +32,11 @@ Versión histórica de la solución MX Plan|Nueva versión de la solución MX Pl
 
 ## En la práctica <a name="oldmxplan"></a>
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) en la sección `Web Cloud`.
-
-Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente.
-
-En la pestaña `Correo electrónico`{.action} de su servicio MX Plan, encontrará la lista de sus direcciones de correo. En el cuadro de cuentas de correo puede verse una columna `Filtros`. Haga clic en el icono de embudo.
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Direcciones de correo`{.action}.
+1. Seleccione el dominio.
+1. En la pestaña `Correo electrónico`{.action} de su servicio MX Plan, encontrará la lista de sus direcciones de correo. En el cuadro de cuentas de correo puede verse una columna `Filtros`. Haga clic en el icono de embudo.
 
 ![correo electrónico](images/img_3239.png){.thumbnail}
 

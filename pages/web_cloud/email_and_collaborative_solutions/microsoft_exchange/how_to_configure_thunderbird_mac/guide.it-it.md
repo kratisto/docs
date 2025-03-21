@@ -4,10 +4,6 @@ excerpt: Come configurare il tuo indirizzo Exchange su Thunderbird per macOS
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli account Exchange possono essere configurati su client di posta compatibili, per permetterti di utilizzare il tuo account email dal dispositivo che preferisci. Thunderbird è un client di posta gratuito e gratuito.
@@ -31,7 +27,7 @@ Gli account Exchange possono essere configurati su client di posta compatibili, 
 
 > [!warning]
 >
-> Nel nostro esempio, usiamo il nome del server: ex**?**.mail.ovh.net. Dovrai sostituire il "? " dalla cifra che indica il server del tuo servizio Exchange.
+> Nel nostro esempio, usiamo il nome del server: ex?.mail.ovh.net. Dovrai sostituire il "? " dalla cifra che indica il server del tuo servizio Exchange.
 > 
 > Questa cifra è disponibile nello [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} e poi nella sezione `Microsoft`{.action}/`Exchange`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 > 
@@ -45,15 +41,15 @@ Gli account Exchange possono essere configurati su client di posta compatibili, 
 | | |
 |---|---|
 |![Thunderbird](images/thunderbird-mac-exchange01.png){.thumbnail}|Nella finestra che appare inserisci queste 3 informazioni: <br>- Nome completo (Nome visualizzato)<br>- Indirizzo di posta elettronica <br>- Password|
-|Clicca su `Configura manualmente...`{.action} per inserire le impostazioni del server **IN ENTRATA**: <br>- Protocollo **IMAP** <br>- Server **ex?.mail.ovh.net** (sostituisci "**?**" con il numero del tuo server)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Autenticazione **Password normale** <br>- Identificativo **del tuo indirizzo email completo**|![Thunderbird](images/thunderbird-mac-exchange02.png){.thumbnail}|
-|![Thunderbird](images/thunderbird-mac-exchange03.png){.thumbnail}|Inserisci le impostazioni del server **USCENTE**: <br>- Protocollo **SMTP** <br>- Server **ex?.mail.ovh.net** (sostituisci "**?**" con il numero del tuo server)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Autenticazione **Password normale** <br>- Identificativo **del tuo indirizzo email completo**<br><br>Per completare la configurazione, clicca su `Fine`{.action}|
+|Clicca su `Configura manualmente...`{.action} per inserire le impostazioni del server **IN ENTRATA**: <br>- Protocollo **IMAP** <br>- Server **ex?.mail.ovh.net** (sostituisci "?" con il numero del tuo server)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Autenticazione **Password normale** <br>- Identificativo **del tuo indirizzo email completo**|![Thunderbird](images/thunderbird-mac-exchange02.png){.thumbnail}|
+|![Thunderbird](images/thunderbird-mac-exchange03.png){.thumbnail}|Inserisci le impostazioni del server **USCENTE**: <br>- Protocollo **SMTP** <br>- Server **ex?.mail.ovh.net** (sostituisci "?" con il numero del tuo server)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Autenticazione **Password normale** <br>- Identificativo **del tuo indirizzo email completo**<br><br>Per completare la configurazione, clicca su `Fine`{.action}|
 
 Nell'ambito di una configurazione in **POP**, i valori sono i seguenti:
 
 |Tipo di server|Nome del server|Metodo di cifratura|Porta|
 |---|---|---|---|
-|In entrata|ex**?**.mail.ovh.net (la menzione **"?"** è da sostituire con il numero del tuo server)|SSL/TLS|995|
-|In uscita|ex**?**.mail.ovh.net (la menzione **"?"** è da sostituire con il numero del tuo server)|STARTTLS|857|
+|In entrata|ex?.mail.ovh.net (la menzione **"?"** è da sostituire con il numero del tuo server)|SSL/TLS|995|
+|In uscita|ex?.mail.ovh.net (la menzione **"?"** è da sostituire con il numero del tuo server)|STARTTLS|857|
 
 ### Utilizza l'indirizzo email
 
@@ -69,7 +65,7 @@ Se è necessario effettuare un'operazione che potrebbe comportare la perdita dei
 
 > [!warning]
 >
-> Nel nostro esempio, usiamo il nome del server: ex**?**.mail.ovh.net. Dovrai sostituire il "? " dalla cifra che indica il server del tuo servizio Exchange.
+> Nel nostro esempio, usiamo il nome del server: ex?.mail.ovh.net. Dovrai sostituire il "? " dalla cifra che indica il server del tuo servizio Exchange.
 > 
 > Questa cifra è disponibile nello [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} e poi nella sezione `Microsoft`{.action}/`Exchange`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 > 

@@ -1,7 +1,7 @@
 ---
 title: "Comparaison et résilience des modes de déploiement - Comprendre les régions 3-AZ / 1-AZ / Local Zones"
 excerpt: "Découvrez les modes de déploiement d'OVHcloud"
-updated: 2025-01-27
+updated: 2025-03-21
 ---
 
 <style>
@@ -35,7 +35,7 @@ Une Availability Zone (AZ) est une unité d'infrastructure composée d'un ou plu
 OVHcloud fournit une infrastructure robuste et adaptable, conçue pour répondre à une grande variété de cas d'utilisation grâce à des modèles de déploiement qui équilibrent rentabilité, redondance et tolérance aux pannes. Ces différentes options permettent aux utilisateurs de choisir l’approche la plus adaptée à leurs exigences en matière de résilience, de disponibilité et de performance.
 
 1. **Région 1-AZ** : Ces régions à zone unique sont optimales pour les charges de travail où l’optimisation des coûts est prioritaire. Elles conviennent parfaitement aux besoins généraux tels que le stockage, la sauvegarde ou les applications dont les exigences en matière de disponibilité ne nécessitent pas une redondance multi-zones. Elles offrent un bon compromis entre fiabilité, performance et maîtrise des coûts.
-2. **Région 3-AZ** : Ce modèle est conçu pour les applications critiques nécessitant une haute disponibilité et une résilience accrue. Grâce à la réplication des données sur trois zones de disponibilité distinctes, les régions 3-AZ réduisent significativement les risques de temps d’arrêt, garantissant une continuité d’activité même en cas d’incidents affectant une ou plusieurs zones. Ce niveau de redondance est particulièrement adapté aux environnements de production exigeants.
+2. **Région 3-AZ** : Ce modèle est conçu pour les applications critiques nécessitant une haute disponibilité et une résilience accrue. Grâce à la réplication des données sur trois zones de disponibilité distinctes, les régions 3-AZ réduisent significativement les risques de temps d’arrêt, garantissant une continuité d’activité même en cas d’incidents affectant une ou plusieurs zones. Ce niveau de redondance est particulièrement adapté aux environnements de production exigeants. Pour en savoir plus, cliquez [ici](/pages/public_cloud/compute/3az_ref_architecture).
 3. **Local Zones** : Ces infrastructures sont spécifiquement pensées pour répondre aux besoins nécessitant une latence ultra-faible ou des contraintes géographiques strictes. En plaçant les ressources à proximité des utilisateurs finaux, les Local Zones sont idéales pour des cas d’usage tels que l’informatique de pointe, les jeux vidéo, la diffusion de contenu ou encore les solutions nécessitant une conformité réglementaire locale.
 
 Chacune de ces options repose sur les principes fondamentaux de résilience, de performance et de tolérance aux pannes.

@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak zatwierdzić domenę na platformie e-mail przez dodan
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk “Zgłóś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Podczas dodawania domeny do platformy e-mail możesz zostać poproszony o skonfigurowanie rekordu CNAME w strefie DNS. Celem konfiguracji jest zyskanie pewności, że wybrana domena zostanie zarejestrowana na platformie e-mail.

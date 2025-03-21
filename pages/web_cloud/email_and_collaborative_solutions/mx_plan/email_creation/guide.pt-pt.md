@@ -4,10 +4,6 @@ excerpt: 'Saiba como criar um endereço de e-mail com a oferta MX Plan'
 updated: 2024-06-13
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Adquiriu um serviço de e-mail MX Plan. que lhe permite beneficiar de endereços de e-mail associados a um domínio.
@@ -28,9 +24,14 @@ Adquiriu um serviço de e-mail MX Plan. que lhe permite beneficiar de endereços
 
 ## Instruções <a name="instructions"></a>
 
-A versão da sua oferta MX Plan (antiga ou nova) irá depender da data de ativação ou de se o serviço foi migrado recentemente. Antes de continuar, deve verificar a versão de que dispõe. 
+A versão da sua oferta MX Plan (antiga ou nova) irá depender da data de ativação ou de se o serviço foi migrado recentemente. Antes de continuar, deve verificar a versão de que dispõe.
 
-Para isso, aceda à [Área de Cliente OVHcloud](/links/manager), na secção `Web Cloud`{.action}. Clique em `E-mails`{.action} e escolha o nome do serviço MX Plan em causa. Continue a ler em função da sua versão:
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique em `E-mails`{.action}.
+1. Selecione o domínio em questão.
+
+Continue a ler em função da sua versão:
 
 |Versão antiga da oferta MX Plan|Nova versão da oferta MX Plan|
 |---|---|

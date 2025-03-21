@@ -3,9 +3,6 @@ title: 'E-mail Pro - Skonfiguruj swoje konto e-mail w programie Mail dla systemu
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -32,7 +29,7 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 >
 > W przewodniku używamy oznaczenia serwera: pro<b>?</b>.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 > 
-> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-mail Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
+> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
 >
 
 ### Dodaj konto
@@ -45,7 +42,7 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 |---|---|
 |![mailmac](images/mail-mac-emailpro01.png){.thumbnail}|Wybierz `Inne konto Mail`{.action}, a następnie kliknij `Konto Mail`{.action}.|
 |W oknie "**Dodaj konto Mail**" wpisz następujące informacje: <br>- **Nazwa** konta e-mail <br>- Twój **adres e-mail** <br>- **Hasło** do Twojego konta e-mail |![mailmac](images/mail-mac-emailpro02.png){.thumbnail}|
-|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|W następnym oknie wprowadź informacje: <br>- Pozostaw Twój **adres e-mail**, który został wcześniej wpisany <br>- Wpisz pełny adres e-mail w **Nazwisko użytkownika** <br>- Zostaw **hasło** już wprowadzone <br>- Wybierz `POP` lub `IMAP`(zalecane) w **Typ konta**<br>- Wprowadź `pro?.mail.ovh.net` w **Serwerze odbiorczym** (zastąp "**?**" numerem serwera)<br>-Wpisz również `pro?.mail.ovh.net` w **Serwerze poczty wychodzącej** (zastąp dobrze "**?**" numerem serwera)<br><br>Aby dokończyć konfigurację, kliknij `Zaloguj się`{.action}|
+|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|W następnym oknie wprowadź informacje: <br>- Pozostaw Twój **adres e-mail**, który został wcześniej wpisany <br>- Wpisz pełny adres e-mail w **Nazwisko użytkownika** <br>- Zostaw **hasło** już wprowadzone <br>- Wybierz `POP` lub `IMAP`(zalecane) w **Typ konta**<br>- Wprowadź `pro?.mail.ovh.net` w **Serwerze odbiorczym** (zastąp "?" numerem serwera)<br>-Wpisz również `pro?.mail.ovh.net` w **Serwerze poczty wychodzącej** (zastąp dobrze "?" numerem serwera)<br><br>Aby dokończyć konfigurację, kliknij `Zaloguj się`{.action}|
 
 ### Użyj konta e-mail
 

@@ -13,10 +13,6 @@ updated: 2024-10-09
 }
 </style>
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji” na tej stronie.
->
-
 ## Wprowadzenie
 
 Konta e-mail Exchange mogą być skonfigurowane w jednym z kompatybilnych programów pocztowych. Dzięki temu możesz wysyłać i odbierać wiadomości, korzystając z wybranej przez Ciebie aplikacji. W tym przewodniku znajdziesz etapy konfiguracji konta e-mail Exchange przy użyciu aplikacji Gmail dostępnej na urządzeniach z systemem Android.
@@ -47,7 +43,7 @@ Konta e-mail Exchange mogą być skonfigurowane w jednym z kompatybilnych progra
 
 > [!primary]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex**?*.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
 >
 > Liczbę tę odnajdziesz w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w wersji `Microsoft`{.action}.
 > Kliknij `Exchange`{.action}, a następnie wybraną platformę Exchange. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.

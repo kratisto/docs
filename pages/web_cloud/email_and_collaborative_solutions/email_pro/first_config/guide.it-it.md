@@ -4,10 +4,6 @@ excerpt: 'Questa guida ti mostra come eseguire le prime operazioni sul servizio 
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La soluzione Email Pro permette di usufruire di un servizio di posta elettronica professionale a un prezzo competitivo, per supportare o avviare la tua attività.
@@ -25,7 +21,12 @@ La soluzione Email Pro permette di usufruire di un servizio di posta elettronica
 
 ### Step 1: accedi alla gestione del servizio
 
-Per gestire la soluzione Email Pro accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona il tuo servizio nella sezione `Email Pro`{.action}.
+Per gestire la soluzione Email Pro :
+
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Email Pro`{.action}.
+1. Seleziona la piattaforma interessata.
 
 > [!primary]
 >
@@ -162,12 +163,12 @@ Per configurare l’account su un altro client di posta o dispositivi come _smar
 
 |Tipo di server|Nome del server|Tipo di sicurezza|Porta|
 |---|---|---|---|
-|In entrata|pro**?**.mail.ovh.net|SSL/TLS|993|
-|In uscita|pro**?**.mail.ovh.net|STARTTLS|587|
+|In entrata|pro?.mail.ovh.net|SSL/TLS|993|
+|In uscita|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> Nel nostro esempio, usiamo il nome del server, ad esempio: pro**?**.mail.ovh.net, dove “?” dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
+> Nel nostro esempio, usiamo il nome del server, ad esempio: pro?.mail.ovh.net, dove “?” dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 > 
 > Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della `scheda Informazioni generali`{.action}.
 > 

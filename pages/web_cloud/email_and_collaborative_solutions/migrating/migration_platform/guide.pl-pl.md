@@ -4,10 +4,6 @@ excerpt: "Dowiedz się, jak migrować konta e-mail z platformy Exchange lub E-ma
 updated: 2021-10-21
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk „Zaproponuj zmianę” na tej stronie.
->
-
 ## Wprowadzenie
 
 Chcesz przenieść Twoje konta e-mail obecne na platformę Exchange lub E-mail Pro na inną platformę Exchange, E-mail Pro lub MX Plan. W tym przewodniku znajdziesz dwuetapowy proces migracji:

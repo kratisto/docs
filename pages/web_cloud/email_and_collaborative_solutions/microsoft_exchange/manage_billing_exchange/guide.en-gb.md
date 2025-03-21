@@ -17,7 +17,11 @@ The Hosted Exchange and Private Exchange services offer flexible management for 
 
 ## Instructions
 
-Log in to your [OVHcloud Control Panel](/links/manager) and select `Web Cloud`{.action}. Click `Microsoft`{.action}, then `Exchange`{.action}. Next, select the Exchange service concerned.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
 
 ### Hosted Exchange
 

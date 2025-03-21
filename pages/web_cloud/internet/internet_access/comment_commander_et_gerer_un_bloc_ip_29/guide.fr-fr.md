@@ -12,7 +12,7 @@ Un bloc IP vous permet d'associer des équipements de votre réseau interne à u
 
 ## Prérequis
 
-- Disposer d’un [accès internet xDSL ou fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}. 
+- Disposer d’un [accès internet xDSL ou Fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}. 
 - Être connecté à l'[espace client OVHcloud](/links/manager) dans la partie `Telecom`{.action}.
 - Avoir la possibilité de se connecter à l'interface de votre box OVHcloud.
 - Disposer d'une box OVHcloud compatible avec la configuration d'un bloc IP.
@@ -30,7 +30,7 @@ Un bloc IP vous permet d'associer des équipements de votre réseau interne à u
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
 1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur votre accès à Internet Fibre ou xDSL dans le cadre à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
 
 ![blocip](images/blocip-step01-edit-2022.png){.thumbnail}

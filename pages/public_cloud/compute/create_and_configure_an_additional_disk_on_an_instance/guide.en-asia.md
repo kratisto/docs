@@ -1,7 +1,7 @@
 ---
 title: Creating and configuring an additional disk on an instance
 excerpt: Find out how to attach a new volume to your Public Cloud instance
-updated: 2024-12-24
+updated: 2025-03-21
 ---
 
 <style>
@@ -43,6 +43,42 @@ This can be useful in cases where:
 
 ## Instructions
 
+### The different types of volumes
+
+OVHcloud offers three types of Block Storage volumes, each tailored to specific needs in terms of performance, capacity and cost. These solutions enable you to attach persistent storage volumes to your instances, guaranteeing a high level of reliability and availability.
+
+/// details | **Classic – 500 IOPS guaranteed**
+
+The Classic volume is a reliable, cost-effective storage solution, ideal for workloads requiring moderate performance. It offers 500 guaranteed IOPS, making it suitable for the following uses:
+
+- Hosting of classic web applications
+- Storage of small to medium-sized databases
+- Data backup and archiving
+
+///
+
+/// details | **High-Speed – Up to 3000 IOPS**
+
+The High-Speed volume is designed for applications requiring faster data access. With performance of up to 3000 IOPS, it is ideally suited to the following use cases:
+
+- Transactional databases (MySQL, PostgreSQL, etc.)
+- Virtualization and container environments
+- Applications requiring low latency and high throughput
+
+///
+
+/// details | **High-Speed Gen2 – 30 IOPS/GB and up to 20,000 IOPS**
+
+Generation 2 High-Speed volumes are optimized for the most demanding workloads. With a performance of 30 IOPS/GB, up to 20,000 IOPS, this type of volume is recommended for :
+
+- Big Data and real-time analysis
+- Artificial intelligence and machine learning
+- Large database processing and high-performance storage
+
+///
+
+![volume_types](images/volume-types.png){.thumbnail}
+
 ### Attaching a new volume
 
 > [!tabs]
@@ -55,6 +91,11 @@ This can be useful in cases where:
 >> ![select project](images/avolume01.png){.thumbnail}
 >>
 >> Follow the configuration steps in order to select options for location, disk type and disk capacity. Then enter a name for the volume and confirm by clicking on `Create the volume`{.action}.
+>>
+>> > [!warning]
+>> >
+>> > Please note: Your volume must be created in the same region as the instance to which you want to attach it. If you create it in another region, you can delete it and recreate it in the correct region, or you can migrate the region by following [this guide](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another).
+>> >
 >>
 >> ![create disk](images/avolume02.png){.thumbnail}
 >>

@@ -3,10 +3,7 @@ title: "E-mail Pro - Skonfiguruj swoje konto e-mail w programie Mail dla systemu
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro na urządzeniu iPhone lub iPad przy użyciu aplikacji Mail'
 updated: 2024-10-09
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
-> 
+ 
 
 ## Wprowadzenie
 
@@ -33,9 +30,9 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 > [!primary]
 >
-> W przewodniku używamy oznaczenia serwera: pro**?**.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
+> W przewodniku używamy oznaczenia serwera: pro?.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 >
-> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-mail Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
+> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
 >
 
 Na ekranie Twojego urządzenia wybierz `Ustawienia`{.action} (ikona koła zębatego). Konto można dodawać na różne sposoby, w zależności od wersji iOS:
@@ -60,8 +57,8 @@ Jeśli wprowadzasz ręcznie dane techniczne w ustawieniach konta, poniżej znajd
 
 |Typ serwera|Nazwa serwera|SSL|Port|
 |---|---|---|---|
-|Serwer poczty przychodzącej|pro**?**.mail.ovh.net|Tak|993|
-|Serwer poczty wychodzącej|pro**?**.mail.ovh.net|Tak|587|
+|Serwer poczty przychodzącej|pro?.mail.ovh.net|Tak|993|
+|Serwer poczty wychodzącej|pro?.mail.ovh.net|Tak|587|
 
 ### Użyj konta e-mail
 

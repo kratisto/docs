@@ -27,7 +27,7 @@ Vous y trouverez deux approches : l'une sans nouveau serveur Veeam Enterprise et
 
 1\. **Créer un espace de stockage Object Storage (bucket).**
 
-Suivez les étapes de ce guide : [Object Storage - Création d'un bucket](/pages/storage_and_backup/object_storage/s3_create_bucket).
+Suivez les étapes de ce guide : [Object Storage - Création d'un bucket](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 2\. **Configurer un nouveau repository de sauvegarde.**
 
@@ -55,7 +55,7 @@ Incluez les données migrées dans un job existant ou créez un nouveau job.
 
 1\. **Créer un espace de stockage Object Storage (bucket).**
 
-Suivez les étapes de ce guide : [Object Storage - Création d'un bucket](/pages/storage_and_backup/object_storage/s3_create_bucket).
+Suivez les étapes de ce guide : [Object Storage - Création d'un bucket](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 2\. **Installer et configurer Veeam Backup & Replication sur le nouveau serveur.**
 

@@ -19,10 +19,6 @@ Mit OVHcloud Hosted Exchange können Sie Ihre E-Mails mit einem Gerät und einem
 
 
 Diese Anleitung vermittelt Ihnen ein besseres Verständnis der üblichen Funktionen eines Mailkontos, die im OWA Webmail verfügbar sind. Da diese Anwendung jedoch ursprünglich nicht von OVHcloud erstellt wurde, können wir keine spezifischen Anweisungen zu Einstellungen geben, die in dieser Anleitung nicht erwähnt werden. In Bezug auf exklusive Exchange-Funktionen stehen gesonderte Anleitungen zur Verfügung, die im Abschnitt **Weiterführende Informationen** am Seitenende verlinkt sind.
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 > Nach den ersten beiden Schritten müssen die Anweisungen nicht in einer bestimmten Reihenfolge berücksichtigt werden.
 >
 
@@ -175,7 +171,6 @@ Geben Sie im neuen Fenster Ihr aktuelles Passwort ein. Danach geben Sie ein neue
 > [!primary]
 >
 > Denken Sie daran, Ihr neues Passwort auch auf jedem Gerät anzupassen, das für den Zugriff auf dieses Konto verwendet wird (E-Mail-Clients). Bei Problemen mit Ihrem Passwort wenden Sie sich an Ihren Dienst-Administrator.
->
 
 ![useowa](images/use-owa-step19.png){.thumbnail}
 

@@ -4,10 +4,6 @@ excerpt: Come gestire e ottimizzare lo spazio di storage di un indirizzo email
 updated: 2022-11-17
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Ogni account email OVHcloud dispone di uno spazio di storage dedicato. Gestire correttamente lo spazio di storage permette di evitare la saturazione, conosciuta anche come "overquota". Di default, le email ricevute ed inviate vengono salvate sul server del tuo account email. È inoltre possibile, tramite un client di posta (Outlook, Mail di macOS, Thunderbird, ecc...), salvare le tue email in locale sul tuo computer.

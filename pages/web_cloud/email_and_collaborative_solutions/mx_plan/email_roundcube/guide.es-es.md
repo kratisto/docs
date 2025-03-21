@@ -3,10 +3,6 @@ title: 'Webmail: Guía de uso de Roundcube'
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Con el MX Plan de OVHcloud, puede enviar y recibir mensajes de correo desde un programa de terceros o a través de un webmail. OVHcloud ofrece un servicio de correo en línea llamado Roundcube, que permite acceder a una cuenta de correo a través de un navegador web.
@@ -402,7 +398,7 @@ Ahora se requiere la interacción humana para poder continuar.
 Póngase en contacto con el administrador del servidor.
 ```
 
-Como verá en el correo electrónico, su cuenta se considerará como que ya ha iniciado sesión. Esto se denomina sesión. Esto significa que su cuenta de correo ya está siendo utilizada por el servidor de correo, y que la sesión anterior debe ser cerrada . Compruebe que su cuenta de correo electrónico no se haya abierto aún en RoundCube. También puede borrar los datos almacenados en caché en su navegador web.
+Como se indica en el mensaje, su cuenta de correo se considera ya conectada. Esto se conoce como "sesión". Esto significa que su cuenta de correo ya está en uso a los ojos del servidor de correo y que esta sesión anterior debe ser cerrada . Compruebe que su cuenta de correo electrónico no está abierta en roundcube. También puede vaciar los datos almacenados en caché en su navegador de internet.
 
 ## Más información
 

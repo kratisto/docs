@@ -3,10 +3,7 @@ title: "MX Plan - Configure su cuenta de correo electrónico en Mail para iPhone
 excerpt: 'Cómo configurar una cuenta MX Plan en un iPhone o iPad'
 updated: 2024-10-01
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
+ 
 
 ## Objetivo
 

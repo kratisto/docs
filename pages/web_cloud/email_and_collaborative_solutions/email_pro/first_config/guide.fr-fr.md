@@ -21,9 +21,12 @@ Vous venez d’acquérir une solution E-mail Pro. Celle-ci vous permet de béné
 
 ### Étape 1 : accéder à la gestion de votre service
 
-Une fois le service E-mail Pro créé et disponible, vous pouvez le gérer depuis votre [espace client OVHcloud](/links/manager).
+Une fois le service E-mail Pro créé et disponible :
 
-Pour cela, connectez-vous à ce dernier, cliquez sur `E-mail Pro`{.action}, puis choisissez le nom du service concerné.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action}.
+1. Cliquez sur `E-mails Pro`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 > [!primary]
 >
@@ -160,12 +163,12 @@ Pour configurer votre adresse e-mail sur un logiciel de messagerie ou un apparei
 
 |Type de serveur|Nom du serveur|Type de sécurité|Port|
 |---|---|---|---|
-|Entrant|pro**?**.mail.ovh.net|SSL/TLS|993|
-|Sortant|pro**?**.mail.ovh.net|STARTTLS|587|
+|Entrant|pro?.mail.ovh.net|SSL/TLS|993|
+|Sortant|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> Dans notre exemple, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans notre exemple, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 >
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
 >

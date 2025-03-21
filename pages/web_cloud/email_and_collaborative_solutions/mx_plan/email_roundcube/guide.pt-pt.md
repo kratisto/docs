@@ -3,10 +3,6 @@ title: 'Webmail: Guia de utilização do Roundcube'
 updated: 2024-03-26
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Com a oferta MX Plan OVHcloud, pode enviar e-mails a partir de um software de terceiros ou através de um webmail. A OVHcloud oferece um serviço de e-mail online chamado Roundcube que permite o acesso a uma conta de e-mail através de um browser web.
@@ -404,7 +400,7 @@ A interação humana é agora necessária para continuar.
 Contacte o administrador do seu servidor.
 ```
 
-Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Esta secção descreve "sessão", o que significa que a sua conta de e-mail já se encontra em curso de utilização aos olhos do servidor de e-mail e que esta sessão anterior deve ser encerrada Certifique-se de que a sua conta de e-mail ainda não foi aberta no roundcube. Esvazie igualmente os dados em cache no seu browser.
+Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Estamos a falar "sessão". Isto significa que a sua conta de e-mail já se encontra em curso de utilização aos olhos do servidor de e-mail e que esta sessão anterior deve ser encerrada Certifique-se de que a sua conta de e-mail não está já aberta no roundcube. Esvazie igualmente os dados em cache no seu browser.
 
 ## Quer saber mais?
 
@@ -417,5 +413,5 @@ Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Esta
 [Criar filtros para os seus endereços de e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_filters)
 
 [Utilizar os reencaminhamentos de e-mail](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
- 
+
 Fale com nossa [comunidade de utilizadores](/links/community).

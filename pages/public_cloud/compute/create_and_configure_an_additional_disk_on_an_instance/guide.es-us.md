@@ -1,7 +1,7 @@
 ---
 title: 'Crear y configurar un disco adicional en una instancia'
 excerpt: 'Cómo asociar un nuevo volumen a una instancia de Public Cloud'
-updated: 2024-12-24
+updated: 2025-03-21
 ---
 
 <style>
@@ -32,7 +32,7 @@ Esto puede ser útil en los siguientes casos:
 
 ## Requisitos
 
-- Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager).
+- Tienes acceso a tu [área de cliente de OVHcloud](/links/manager).
 - Disponer de una instancia de [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) en su cuenta de OVHcloud.
 - Tener acceso de administrador (sudo) a su instancia a través de SSH.
 - Preparar el entorno si desea utilizar [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
@@ -44,15 +44,56 @@ Esto puede ser útil en los siguientes casos:
 
 ## Procedimiento
 
+### Los diferentes tipos de volúmenes
+
+OVHcloud ofrece tres tipos de volúmenes Block Storage, cada uno de ellos adaptado a las necesidades específicas en materia de rendimiento, capacidad y costes. Estas soluciones permiten asociar volúmenes de almacenamiento persistentes a sus instancias, garantizando un alto nivel de fiabilidad y disponibilidad.
+
+/// details | **Classic - 500 IOPS garantizadas**
+
+El volumen Classic es una solución de almacenamiento fiable y rentable, ideal para cargas de trabajo que requieren un rendimiento moderado. Ofrece 500 IOPS garantizadas, lo que lo hace adecuado para los siguientes usos:
+
+- Alojamiento de aplicaciones web clásicas
+- Almacenamiento de bases de datos de tamaño pequeño a mediano
+- Backup y archivado de datos
+
+///
+
+/// details | **High-Speed - Hasta 3000 IOPS**
+
+El volumen High-Speed está diseñado para aplicaciones que requieren un acceso más rápido a los datos. Con un rendimiento de hasta 3000 IOPS, es ideal para los siguientes casos de uso:
+
+- Bases de datos transaccionales (MySQL, PostgreSQL, etc.)
+- Entornos de virtualización y contenedores
+- Aplicaciones que requieren una latencia reducida y un rendimiento elevado
+
+///
+
+/// details | **High-Speed Gen2 - 30 IOPS/GB y hasta 20.000 IOPS**
+
+La generación 2 de los volúmenes High-Speed está optimizada para las cargas de trabajo más exigentes. Con un rendimiento de 30 IOPS/GB, hasta 20.000 IOPS, este tipo de volumen se recomienda para:
+
+- Big Data y análisis en tiempo real
+- Inteligencia artificial y Machine Learning
+- Procesamiento de grandes bases de datos y almacenamiento de altas prestaciones
+
+///
+
+![tipos_de_volumenes](images/volume-types.png){.thumbnail}
+
 ### Asociar un nuevo volumen
 
 > [!tabs]
 > **Desde el área de cliente de OVHcloud**
 >>
->> Conéctese al [Panel de configuración de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. A continuación, abra `Block Storage`{.action} en el menú de la izquierda.
+>> Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. A continuación, abra `Block Storage`{.action} en el menú de la izquierda.
 >>
 >> En esta sección, haga clic en el botón `Crear un volumen`{.action}.
->> 
+>>
+>> > [!warning]
+>> >
+>> > Nota: El volumen debe crearse en la misma región que la instancia a la que desea asociarlo. Si lo crea en otra región, puede eliminarlo y volver a crearlo en la región correcta o puede migrar la región siguiendo [esta guía](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another).
+>> >
+>>
 >> ![Seleccionar el proyecto Public Cloud](images/avolume01.png){.thumbnail}
 >>
 >> Siga los pasos de configuración para seleccionar las opciones de ubicación, tipo de disco y capacidad de disco. Introduzca un nombre para el volumen y haga clic en `Crear el volumen`{.action}.

@@ -10,10 +10,6 @@ updated: 2024-06-10
 }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Encontre neste guia diferentes informações e dicas relativas à configuração dos seus **reencaminhamentos** e **alias** emails, por exemplo para reenviar e-mails recebidos num endereço A para um endereço B.
@@ -169,7 +165,7 @@ Aceda à [Área de Cliente OVHcloud](/links/manager) e dirija-se à secção `We
 
 - **Exchange**: na `Microsoft`{.action}, depois em `Exchange`{.action} e selecione a plataforma em causa. Clique no separador `Contas de e-mail`{.action}.
 
-- **E-mail Pro**: No `E-mail Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
+- **E-mail Pro**: No `E-mails Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 
 - **E-mails** (MXplan): em `E-mails`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 

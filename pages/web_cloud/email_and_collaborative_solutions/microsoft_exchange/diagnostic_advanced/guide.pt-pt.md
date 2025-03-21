@@ -4,10 +4,6 @@ excerpt: 'Saiba como realizar um diagnóstico automatizado dos erros nas contas 
 updated: 2022-10-19
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os erros nas contas de e-mail Exchange podem ter várias causas. Um diagnóstico automático das funcionalidades da conta permite reduzir este número de causas. Os resultados destes testes também serão úteis em caso de pedido de assistência relativo ao seu serviço Exchange.
@@ -25,7 +21,11 @@ Os erros nas contas de e-mail Exchange podem ter várias causas. Um diagnóstico
 
 ### Realizar um diagnóstico
 
-Aceda à [Área de Cliente OVHcloud](/links/manager), na secção `Web Cloud`{.action}. Selecione `Microsoft`{.action} e clique em `Exchange`{.action} e selecione o seu serviço.
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique na rubrica `Microsoft`{.action}.
+1. Clique em `Exchange`{.action}.
+1. Selecione a plataforma em causa.
 
 ![Diagnóstico Exchange](images/img_4450.png){.thumbnail}
 

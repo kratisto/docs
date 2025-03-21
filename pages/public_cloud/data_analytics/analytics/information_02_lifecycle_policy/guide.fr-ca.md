@@ -1,7 +1,7 @@
 ---
 title: Analytics - Lifecycle policy
 excerpt: Lifecycle policy for Analytics engines
-updated: 2025-02-03
+updated: 2025-03-12
 ---
 
 ## Objective
@@ -75,6 +75,7 @@ Analytics for Kafka *major.minor* version will reach its EOL approximately one y
 | 3.5.x             | 2024-07-31       | 2023-07-31                                |
 | 3.6.x             | 2024-10-18       | 2023-10-18                                |
 | 3.7.x             | 2025-04-17       | 2024-04-17                                |
+| 3.8.x             | 2026-09-03       | 2024-09-03                                |
 
 ## Go further
 

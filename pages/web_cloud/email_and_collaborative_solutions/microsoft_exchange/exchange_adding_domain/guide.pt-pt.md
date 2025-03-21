@@ -4,10 +4,6 @@ excerpt: Saiba como adicionar um domínio à sua plataforma Exchange ou E-mail P
 updated: 2023-06-14
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Adicionar um domínio a um serviço Exchange é indispensável para poder utilizar as suas contas incluídas neste último. Também é possível adicionar vários domínios a um serviço Exchange ou E-mail Pro.
@@ -25,14 +21,22 @@ Adicionar um domínio a um serviço Exchange é indispensável para poder utiliz
 
 ### Aceder à gestão do seu serviço
 
-Depois de ativado, o serviço Exchange ou E-mail Pro pode ser gerido a partir da [Área de Cliente OVHcloud](/links/manager).
-
-Na secção `Web Cloud`{.action}:
-
-- **Exchange**: Clique em `Microsoft`{.action} e, a seguir, em `Exchange`{.action}. 
-- **Email Pro**: Clique em `Email Pro`{.action}.
-
-Por fim, selecione o nome do serviço em questão.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique na rubrica `Microsoft`{.action}.
+>> 1. Clique em `Exchange`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
+> **Email Pro**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
 
 ### Adicionar um domínio
 

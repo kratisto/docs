@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie Domainnamen für Ihren E-Mail-Dienst zu vali
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Wenn Sie einen Domainnamen zu Ihrem E-Mail-Dienst hinzufügen, werden Sie möglicherweise aufgefordert, einen CNAME-Eintrag in der DNS-Zone zu konfigurieren. Dies ist notwendig, um nur berechtigten Personen die Verknüpfung eines Domainnamens mit einem E-Mail-Dienst zu erlauben.
@@ -89,7 +85,7 @@ Wählen Sie den Tab für Ihr verwendetes Interface aus:
 >> >
 >> > Die Änderung wird in der Regel innerhalb weniger Minuten angewendet, kann aber eine Propagationszeit von bis zu 24 Stunden erfordern.
 >>
-> **Externes Interface***
+> **Externes Interface**
 >>
 >> Loggen Sie sich in der Verwaltungsoberfläche für Ihre DNS-Zone ein und fügen Sie einen CNAME-Eintrag mit folgenden Einstellungen hinzu:
 >>

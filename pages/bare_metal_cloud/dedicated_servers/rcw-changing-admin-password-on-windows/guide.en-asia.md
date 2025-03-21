@@ -1,7 +1,7 @@
 ---
 title: "How to reset the Windows Administrator password with the Windows customer rescue system"
 excerpt: "Find out how to use the OVHcloud Windows rescue mode to reset the password of the Administrator account on a Windows dedicated server"
-updated: 2024-11-15
+updated: 2025-03-06
 ---
 
 ## Objective
@@ -10,15 +10,15 @@ This guide will help you to reset your `Administrator` account password with the
 
 ## Requirements
 
-- Microsoft Windows installed on your [dedicated server](/links/bare-metal/bare-metal)
-- At least 16 GB of RAM installed on the server
+- Microsoft Windows Server 2016 or greater installed on your [dedicated server](/links/bare-metal/bare-metal)
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!warning]
 >
-> This guide is not applicable to the legacy `WinPE Rescue` (WinRescue) mode.
+> This guide is not applicable to the **legacy Windows rescue system (WinPE rescue mode)** (see the [rescue mode guide](/pages/bare_metal_cloud/dedicated_servers/rescue_mode) for details).
 >
-> Follow [this guide](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) instead when using the `WinPE Rescue` (WinRescue) mode in the OVHcloud Control Panel.
+> If your Windows Server version is out of support, you might not be able to activate the current rescue system for Windows. In this case, please refer to our guide page on [how to reset the Windows Administrator password with the legacy Windows rescue system](/pages/bare_metal_cloud/dedicated_servers/changing-admin-password-on-windows) instead.  
+> The same guide explains an alternative method for resetting the Administrator password using the OVHcloud customer rescue system based on Debian.
 
 ## Instructions
 

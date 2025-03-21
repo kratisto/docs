@@ -23,7 +23,12 @@ You want to:
 
 To check if your MX Plan solution is a legacy version, please refer to the table in the “[Identifying your MX Plan solution](#whichmxplan)” section of this guide.
 
-Open `Emails`{.action} in the side panel, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Emails`{.action}.
+1. Select the domain concerned.
+1. Go to the `Email accounts`{.action} tab.
+1. The window that appears will display the existing email accounts. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
 
 ![email](images/email-mxplan-new-reset.png){.thumbnail}
 

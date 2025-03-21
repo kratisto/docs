@@ -24,7 +24,6 @@ Concernant les fonctionnalités spécifiques à Exchange, vous pourrez retrouver
 > [!primary]
 >
 > Après les deux premières étapes, il n'est pas nécessaire de suivre les instructions dans l'ordre donné.
->
 
 ### Étape 1 : Se connecter à OWA
 
@@ -50,9 +49,9 @@ Dorénavant, votre boîte de réception apparaîtra par défaut dès que vous se
 
 L'interface OWA comporte plusieurs sections. Veuillez vous référer au tableau et à l'image ci-dessous pour vous familiariser avec celle-ci.
 
-|Parties|Description|  
-|---|---|  
-|Section supérieure (1)|Elle dispose de deux barres d'onglets : la première permet d'accéder aux paramètres généraux (tels que la [rubrique Options](./#acceder-a-la-section-options)). La seconde barre peut être utilisée pour des actions spécifiques avec votre adresse (telles que l'envoi ou la réponse aux e-mails).|  
+|Parties|Description|
+|---|---|
+|Section supérieure (1)|Elle dispose de deux barres d'onglets : la première permet d'accéder aux paramètres généraux (tels que la [rubrique Options](./#acceder-a-la-section-options)). La seconde barre peut être utilisée pour des actions spécifiques avec votre adresse (telles que l'envoi ou la réponse aux e-mails).|
 |Côté gauche (2)|Affiche la liste des dossiers pour votre adresse e-mail. Ces dossiers se présentent sous la forme d'une arborescence que vous pouvez développer ou masquer.|
 |Segment central (3)|Affiche la liste des messages (lus et non lus) du dossier sélectionné dans le menu de gauche. Cette section peut également afficher les résultats de recherche.|
 |Côté droit (4)|Affiche le volet de lecture lorsqu'un e-mail a été sélectionné.|
@@ -95,7 +94,7 @@ OWA propose plusieurs façons d'organiser votre messagerie. Vous pouvez :
 
 #### Créer un dossier
 
-Pour créer un nouveau dossier, faites un clic droit sur le nom de votre adresse e-mail dans l'arborescence des dossiers, puis choisissez `Créer un nouveau dossier`{.action}. Vous pouvez créer un sous-dossier dans des dossiers existants de la même manière en cliquant sur `Créer un nouveau sous-dossier`{.action}. 
+Pour créer un nouveau dossier, faites un clic droit sur le nom de votre adresse e-mail dans l'arborescence des dossiers, puis choisissez `Créer un nouveau dossier`{.action}. Vous pouvez créer un sous-dossier dans des dossiers existants de la même manière en cliquant sur `Créer un nouveau sous-dossier`{.action}.
 
 ![useowa](images/use-owa-step10.png){.thumbnail}
 
@@ -114,13 +113,13 @@ Pour créer et gérer des règles, cliquez d’abord sur l'icône d'engrenage en
 
 ![useowa](images/use-owa-step12.png){.thumbnail}
 
-Dans la nouvelle page qui s’ouvre, cliquez sur `Règles de boîte de réception et de rangement`{.action} qui se trouve dans le menu de gauche. Dans l’arborescence « Options », vous pouvez trouver cette fonctionnalité dans « Courrier », sous « Traitement automatique ». Ici, vous pouvez créer, modifier et déplacer des règles de la liste. 
+Dans la nouvelle page qui s’ouvre, cliquez sur `Règles de boîte de réception et de rangement`{.action} qui se trouve dans le menu de gauche. Dans l’arborescence « Options », vous pouvez trouver cette fonctionnalité dans « Courrier », sous « Traitement automatique ». Ici, vous pouvez créer, modifier et déplacer des règles de la liste.
 
-Pour ajouter une nouvelle règle, cliquez sur le bouton `+`{.action}  
+Pour ajouter une nouvelle règle, cliquez sur le bouton `+`{.action}.
 
 ![useowa](images/use-owa-step13.png){.thumbnail}
 
-Renseignez les informations demandées en fonction de la tâche que vous voudrez effectuer avec cette règle. Cliquez ensuite sur `OK`{.action}. 
+Renseignez les informations demandées en fonction de la tâche que vous voudrez effectuer avec cette règle. Cliquez ensuite sur `OK`{.action}.
 
 ![useowa](images/use-owa-step14.png){.thumbnail}
 
@@ -132,7 +131,7 @@ Pour des instructions plus détaillées sur la création des règles de gestion 
 
 Cliquez sur l'icône de l'engrenage en haut à droite, puis cliquez sur `Options`{.action}. Toujours dans la colonne de gauche, parcourez l'arborescence "Courrier" sous "Comptes", puis "Bloquer ou autoriser".
 
-Dans la section « **Expéditeurs bloqués** », tapez une adresse e-mail ou un nom de domaine à bloquer, puis cliquez sur le bouton `+`{.action} pour l'ajouter dans la liste. 
+Dans la section « **Expéditeurs bloqués** », tapez une adresse e-mail ou un nom de domaine à bloquer, puis cliquez sur le bouton `+`{.action} pour l'ajouter dans la liste.
 
 ![useowa](images/owa_exchange_block.png){.thumbnail}
 

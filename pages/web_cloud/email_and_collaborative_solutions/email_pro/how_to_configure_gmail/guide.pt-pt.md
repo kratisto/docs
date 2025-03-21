@@ -4,10 +4,6 @@ excerpt: "Aprenda a configurar uma conta E-mail Pro na interface on-line do Gmai
 updated: 2025-02-17
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As contas E-mail Pro podem ser configuradas em vários softwares de e-mail e interfaces online compatíveis. Isto permite-lhe enviar e receber e-mails a partir do dispositivo ou da interface online à sua escolha.
@@ -38,9 +34,9 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail e int
 
 > [!primary]
 >
-> Neste exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
+> Neste exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
-> Encontre este algarismo na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e `E-mail Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este algarismo na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e `E-mails Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
 >
 
 Para começar, aceda à interface de gestão do Gmail a partir do browser. Uma vez nesta última, introduza as informações da sua conta Gmail e ligue-se.
@@ -63,7 +59,7 @@ Indique agora os parâmetros do servidor POP (servidor de entrada) da sua conta 
 |---|---|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**.|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail.|
-|Servidor POP|Indique o servidor « pro**?**.mail.ovh.net ».|
+|Servidor POP|Indique o servidor « pro?.mail.ovh.net ».|
 |Porta|Selecione a porta « 995 ».|
 
 Em relação às escolhas que pode assinalar:
@@ -90,7 +86,7 @@ Indique agora os parâmetros do servidor SMTP (servidor de envio) da sua conta E
 
 |Informação|Descrição|
 |---|---|
-|Servidor SMTP|Indique o servidor « pro**?**.mail.ovh.net ».|
+|Servidor SMTP|Indique o servidor « pro?.mail.ovh.net ».|
 |Porta|Selecione a porta « 587 ».|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**.|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail.|

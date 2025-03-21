@@ -4,10 +4,6 @@ excerpt: 'Saiba como configurar o serviço E-mail Pro.'
 updated: 2024-09-03
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Sumário
 
 Adquiriu um serviço E-mail Pro, que lhe permite beneficiar de endereços de e-mail profissionais a preços muito vantajosos para o seu negócio ou atividade.
@@ -25,7 +21,12 @@ Adquiriu um serviço E-mail Pro, que lhe permite beneficiar de endereços de e-m
 
 ### 1 - Aceder à interface de gestão do serviço
 
-Depois de ativado, o serviço E-mail Pro pode ser gerido a partir da [Área de Cliente](/links/manager).Para isso, clique em `E-mail Pro`{.action} e selecione o nome do serviço.
+Assim que o serviço E-mail Pro for criado e estiver disponível:
+
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique em `E-mails Pro`{.action}.
+1. Selecione a plataforma em causa.
 
 > [!primary]
 >
@@ -162,14 +163,14 @@ Se desejar associar o seu endereço de e-mail a um software de correio eletróni
 
 |Tipo de servidor|Nome do servidor|Tipo de segurança|Porta|
 |---|---|---|---|
-|De entrada|pro**?**.mail.ovh.net|SSL/TLS|993|
-|De saída|pro**?**.mail.ovh.net|STARTTLS|587|
+|De entrada|pro?.mail.ovh.net|SSL/TLS|993|
+|De saída|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a referência servidor: pro**?**.mail.ovh.net. Deve substituir o "?" pelo algarismo que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a referência servidor: pro?.mail.ovh.net. Deve substituir o "?" pelo algarismo que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre esse algarismo na [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action}, em `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre esse algarismo na [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action}, em `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 >
 
 ## Quer saber mais?

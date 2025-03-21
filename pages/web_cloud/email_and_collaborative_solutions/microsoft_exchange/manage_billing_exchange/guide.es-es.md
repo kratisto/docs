@@ -17,7 +17,11 @@ Los servicios Hosted Exchange y Private Exchange permiten una gestión flexible 
 
 ## Procedimiento
 
-Inicie sesión en el [área de cliente de OVHcloud](/links/manager) y acceda al apartado `Webcloud`{.action}. Haga clic en `Microsoft`{.action}, luego en `Exchange`{.action} y, por último, seleccione la plataforma Exchange correspondiente.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
 
 ### Hosted Exchange
 
@@ -53,7 +57,7 @@ Para eliminar una cuenta de su plataforma Hosted, primero la debe dar de baja es
 
 Una vez dada de baja la cuenta, se suspenderá en su fecha de expiración. Si quiere eliminar la dirección de correo electrónico alojada por la cuenta antes de su fecha de expiración, reiníciela.
 
-Acceda a la pestaña `Cuentas de correo electrónico`{.action} de su plataforma, haga clic en el botón `...`{.action} delante de la cuenta correspondiente y luego en `Reiniciar`{.action}. Una vez reiniciada, la cuenta permanecerá en blanco hasta su expiración.
+Acceda a la pestaña `Cuentas de correo`{.action} de su plataforma, haga clic en el botón `...`{.action} delante de la cuenta correspondiente y luego en `Reiniciar`{.action}. Una vez reiniciada, la cuenta permanecerá en blanco hasta su expiración.
 
 ### Private Exchange
 
@@ -73,7 +77,7 @@ Acceda a la pestaña `Cuentas de correo`{.action}, haga clic en el botón `Accio
 >
 > Para poder eliminar una cuenta de correo en una plataforma Private Exchange, **es necesario que esta haya sido creada** (asociada al dominio de su plataforma Exchange). No se puede eliminar una cuenta no configurada.
 
-En la pestaña `Cuentas de correo electrónico`{.action}, haga clic en `...`{.action} a la derecha de la cuenta correspondiente y luego en `Eliminar`{.action}. La cuenta se eliminará de la plataforma de inmediato, por lo que no será necesario darla de baja.
+En la pestaña `Cuentas de correo`{.action}, haga clic en `...`{.action} a la derecha de la cuenta correspondiente y luego en `Eliminar`{.action}. La cuenta se eliminará de la plataforma de inmediato, por lo que no será necesario darla de baja.
 
 ![billing_exchange](images/billing-exchange-07.png){.thumbnail}
 

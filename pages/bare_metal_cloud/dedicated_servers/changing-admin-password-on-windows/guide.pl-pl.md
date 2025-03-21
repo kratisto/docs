@@ -2,11 +2,8 @@
 title: 'Zmiana hasła administratora na serwerze dedykowanym z systemem Windows'
 excerpt: 'Dowiedz się, jak zmienić hasło administratora na serwerze dedykowanym z systemem Windows'
 updated: 2024-06-26
+flag: hidden
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
 
 ## Wprowadzenie
 

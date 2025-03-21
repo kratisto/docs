@@ -1,7 +1,7 @@
 ---
 title: Configurer un bloc IP dans un vRack sur une instance Public Cloud
 excerpt: Découvrez comment associer un bloc d’adresses IP publiques au vRack pour une configuration sur une Instance Public Cloud
-updated: 2025-02-21
+updated: 2025-03-12
 ---
 
 ## Objectif
@@ -221,7 +221,7 @@ sudo apt-get install iproute2
 Ensuite, nous devons créer une nouvelle route IP pour le vRack. Nous allons ajouter une nouvelle règle de trafic en modifiant le fichier, comme indiqué ci-dessous :
 
 ```sh
-sudo nano /etc/iproute2/rt_tables
+sudo nano /etc/iproute2/rt_tables # Pour Fedora: sudo nano /usr/share/iproute2/rt_tables
 
 #
 # reserved values

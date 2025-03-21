@@ -4,10 +4,6 @@ excerpt: 'Come configurare un account Email Pro su un iPhone o un iPad tramite l
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Gli account Email Pro possono essere configurati su client di posta compatibili per permetterti di utilizzare il tuo account email dal dispositivo che preferisci.
@@ -33,7 +29,7 @@ Gli account Email Pro possono essere configurati su client di posta compatibili 
 
 > [!primary]
 >
-> Nel nostro esempio abbiamo utilizzato come nome del server "pro**?**.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
+> Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
 > Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 >
@@ -50,7 +46,7 @@ Sulla schermata Home del tuo dispositivo clicca su `Impostazioni`{.action} (icon
 |---|---|
 |![exchange](images/configuration-mail-ios-step01.gif){.thumbnail}|1. Nelle `Impostazioni`, vai su `Mail`. <br><br> 2. Premi su `Account`.<br><br> 3. Clicca su `Aggiungi account`.<br><br> 4. Scegliete `Altro` in basso.|
 |5. Clicca su `Aggiungi un account Mail`.<br><br>6. Inserisci il tuo **nome**, il tuo indirizzo **email**, la tua **password** e una **descrizione** del tuo account.<br><br>7. Clicca su `Avanti`.|![exchange](images/configuration-mailpro-ios-step02.png){.thumbnail}|
-|![exchange](images/configuration-mailpro-ios-step03.png){.thumbnail}|8. Seleziona il tipo di server di ricezione `IMAP` (consigliato) o `POP`.<br><br>Nelle sezioni `SERVER RICEVENTE` e `SERVER DI INVIO`, nonostante la dicitura "facoltativo", inserisci: <br>- l'hostname **pro?.mail.ovh.net** (sostituisci l'hostname "**?**" dal numero del server della tua Email Pro) <br>- il tuo indirizzo **email completo** nel nome utente <br>- la password del tuo indirizzo email|
+|![exchange](images/configuration-mailpro-ios-step03.png){.thumbnail}|8. Seleziona il tipo di server di ricezione `IMAP` (consigliato) o `POP`.<br><br>Nelle sezioni `SERVER RICEVENTE` e `SERVER DI INVIO`, nonostante la dicitura "facoltativo", inserisci: <br>- l'hostname **pro?.mail.ovh.net** (sostituisci l'hostname "?" dal numero del server della tua Email Pro) <br>- il tuo indirizzo **email completo** nel nome utente <br>- la password del tuo indirizzo email|
 
 Assicurati che, al termine della configurazione, la voce `Mail`{.action} sia selezionata in modo che l'applicazione possa utilizzare questo account e poi clicca su `Salva`{.action}.
 
@@ -60,8 +56,8 @@ Se hai necessità di inserire manualmente le preferenze per il tuo account, ecco
 
 |Tipo di server |Nome del server|SSL|Porta|
 |---|---|---|---|
-|In entrata|pro**?**.mail.ovh.net|Sì|993|
-|In uscita|pro**?**.mail.ovh.net|Sì|587|
+|In entrata|pro?.mail.ovh.net|Sì|993|
+|In uscita|pro?.mail.ovh.net|Sì|587|
 
 ### Utilizza l'indirizzo email
 

@@ -4,10 +4,6 @@ excerpt: 'Encontre aqui o procedimento para adicionar uma conta Exchange para Th
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As contas Exchange podem ser configuradas em vários softwares de e-mail compatíveis. Isto permite-lhe usar o seu endereço de e-mail no dispositivo que preferir. A Thunderbird é um cliente de e-mails livre e gratuito.
@@ -31,7 +27,7 @@ As contas Exchange podem ser configuradas em vários softwares de e-mail compat�
 
 > [!warning]
 >
-> No nosso exemplo, utilizamos a menção servidor: ex**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
+> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
 > 
 > Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `Microsoft`{.action}/`Exchange`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 > 
@@ -52,8 +48,8 @@ No âmbito de uma configuração em **POP**, os valores são os seguintes:
 
 |Tipo de servidor|Nome do servidor|Método de encriptação|Porta|
 |---|---|---|---|
-|De entrada|ex**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
-|De saída|ex**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
+|De entrada|ex?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
+|De saída|ex?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
 
 ### Utilizar o endereço de e-mail
 
@@ -69,7 +65,7 @@ Se tiver de efetuar uma operação suscetível de causar a perda dos dados da su
 
 > [!warning]
 >
-> No nosso exemplo, utilizamos a menção servidor: ex**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
+> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
 > 
 > Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `Microsoft`{.action}/`Exchange`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 > 

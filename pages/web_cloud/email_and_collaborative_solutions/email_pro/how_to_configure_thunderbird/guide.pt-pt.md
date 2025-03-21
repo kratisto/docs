@@ -4,10 +4,6 @@ excerpt: 'Saiba como configurar o seu endereço E-mail Pro no Thunderbird para W
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compatíveis. Isto permite-lhe usar o seu endereço de e-mail no dispositivo que preferir. A Thunderbird é um cliente de e-mails livre e gratuito.
@@ -30,9 +26,9 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 
 
 ### Adicionar a conta
@@ -51,8 +47,8 @@ No âmbito de uma configuração em **POP**, os valores são os seguintes:
 
 |Tipo de servidor|Nome do servidor|Método de encriptação|Porta|
 |---|---|---|---|
-|De entrada|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
-|De saída|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
+|De entrada|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
+|De saída|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
 
 ### Utilizar o endereço de e-mail
 
@@ -68,9 +64,9 @@ Se tiver de efetuar uma operação suscetível de causar a perda dos dados da su
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 
 Se a sua conta de e-mail já está configurada e tem de aceder aos parâmetros da conta para os alterar:
 

@@ -3,10 +3,6 @@ title: 'Email Pro - Configure su cuenta de correo electrónico en Mail para macO
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón "Contribuir" de esta página.
->
-
 ## Objetivo
 
 Es posible configurar sus cuentas Email Pro en el cliente de correo que usted utilice, siempre que sea compatible, para poder acceder a ellas desde cualquiera de sus dispositivos. La aplicación Mail en macOS está disponible gratuitamente en todos los Mac.
@@ -45,7 +41,7 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 |---|---|
 |![mailmac](images/mail-mac-emailpro01.png){.thumbnail}|Seleccione `Otra cuenta de correo`{.action} y haga clic en `Cuentas de correo`{.action}.|
 |Introduzca en la ventana "**Añadir cuenta de correo**" la siguiente información: <br>- el **nombre** de su cuenta de correo <br>- Su **dirección de correo electrónico** <br>- La **contraseña** de su dirección de correo electrónico |![mailmac](images/mail-mac-emailpro02.png){.thumbnail}|
-|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Introduzca la información en la siguiente ventana: <br>- Deje su **dirección de correo electrónico** ya introducida <br>- Introduzca su dirección de correo electrónico completa en el **Nombre** de usuario <br>- Deje su **contraseña** ya introducida <br>- Seleccione `POP` o `IMAP`(recomendado) en **Tipo de cuenta**<br>- Introduzca `pro?.mail.ovh.net` en el **Servidor de recepción** (sustituya "**?**" por el número de su servidor)<br>-Introduzca también `pro?.mail.ovh.net` en el **servidor de envío** (sustituya "**?**" por el número de su servidor)<br><br>Para finalizar la configuración, haga clic en `Conectar`{.action}|
+|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Introduzca la información en la siguiente ventana: <br>- Deje su **dirección de correo electrónico** ya introducida <br>- Introduzca su dirección de correo electrónico completa en el **Nombre** de usuario <br>- Deje su **contraseña** ya introducida <br>- Seleccione `POP` o `IMAP`(recomendado) en **Tipo de cuenta**<br>- Introduzca `pro?.mail.ovh.net` en el **Servidor de recepción** (sustituya "?" por el número de su servidor)<br>-Introduzca también `pro?.mail.ovh.net` en el **servidor de envío** (sustituya "?" por el número de su servidor)<br><br>Para finalizar la configuración, haga clic en `Conectar`{.action}|
 
 ### Utilizar la dirección de correo
 

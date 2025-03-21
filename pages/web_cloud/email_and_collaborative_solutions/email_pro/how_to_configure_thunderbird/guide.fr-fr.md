@@ -27,7 +27,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 > [!primary]
 >
-> Dans notre exemple, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans notre exemple, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 > 
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
 > 
@@ -41,15 +41,15 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 | | |
 |---|---|
 |![Thunderbird](images/thunderbird-win-emailpro01.png){.thumbnail}|Dans la fenêtre qui s'affiche, saisissez les 3 informations suivantes: <br>- Votre nom complet (Nom d'affichage)<br>- Adresse électronique <br>- Mot de passe.|
-|Cliquez ensuite sur `Configurer manuellement...`{.action} pour saisir les paramètres de serveur **ENTRANT**: <br>- Protocole **IMAP** <br>- Serveur **pro?.mail.ovh.net** (remplacez bien «**?**» par le numéro de votre serveur)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Authentification **Mot de passe normal** <br>- Identifiant **votre adresse e-mail complète**|![Thunderbird](images/thunderbird-win-emailpro02.png){.thumbnail}|
-|![Thunderbird](images/thunderbird-win-emailpro03.png){.thumbnail}|Saisir les paramètres de serveur **SORTANT**: <br>- Protocole **SMTP** <br>- Serveur **pro?.mail.ovh.net** (remplacez bien «**?**» par le numéro de votre serveur)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Authentification **Mot de passe normal** <br>- Identifiant **votre adresse e-mail complète**<br><br>Pour finaliser la configuration, cliquez sur `Terminé`{.action}|
+|Cliquez ensuite sur `Configurer manuellement...`{.action} pour saisir les paramètres de serveur **ENTRANT**: <br>- Protocole **IMAP** <br>- Serveur **pro?.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Authentification **Mot de passe normal** <br>- Identifiant **votre adresse e-mail complète**|![Thunderbird](images/thunderbird-win-emailpro02.png){.thumbnail}|
+|![Thunderbird](images/thunderbird-win-emailpro03.png){.thumbnail}|Saisir les paramètres de serveur **SORTANT**: <br>- Protocole **SMTP** <br>- Serveur **pro?.mail.ovh.net** (remplacez bien «?» par le numéro de votre serveur)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Authentification **Mot de passe normal** <br>- Identifiant **votre adresse e-mail complète**<br><br>Pour finaliser la configuration, cliquez sur `Terminé`{.action}|
 
 Dans le cadre d'une configuration en **POP**, les valeurs sont les suivantes:
 
 |Type de serveur|Nom du serveur|Méthode de chiffrement|Port|
 |---|---|---|---|
-|Entrant|pro**?**.mail.ovh.net (la mention **«?»** est à remplacer par le numéro de votre serveur)|SSL/TLS|995|
-|Sortant|pro**?**.mail.ovh.net (la mention **«?»** est à remplacer par le numéro de votre serveur)|STARTTLS|587|
+|Entrant|pro?.mail.ovh.net (la mention **«?»** est à remplacer par le numéro de votre serveur)|SSL/TLS|995|
+|Sortant|pro?.mail.ovh.net (la mention **«?»** est à remplacer par le numéro de votre serveur)|STARTTLS|587|
 
 ### Utiliser l'adresse e-mail
 
@@ -65,7 +65,7 @@ Si vous devez effectuer une manipulation qui risquerait d'entrainer la perte des
 
 > [!primary]
 >
-> Dans notre exemple, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans notre exemple, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 > 
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
 > 

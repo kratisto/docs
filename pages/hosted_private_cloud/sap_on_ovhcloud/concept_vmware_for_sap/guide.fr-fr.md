@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure SAP avec la solution VMware on OVHcloud"
 excerpt: "Ce concept vous présente une architecture utilisant la solution VMware on OVHcloud SAP HANA pack"
-updated: 2023-09-05
+updated: 2025-03-10
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ Ce concept vous permet de construire une architecture basée sur une base de don
 
 ### 1 - Connectivité réseau
 
-Afin de garantir la qualité de la liaison entre vos locaux et votre infrastructure SAP hébergée sur OVHcloud, nous recommandons d'utiliser OVHcloud Connect. Cette solution vous fournit un lien sécurisé et performant entre vos locaux et OVHcloud. Pour obtenir plus d'informations, veuillez vous référer à la [documentation OVHcloud Connect](https://www.ovhcloud.com/fr/network/ovhcloud-connect/).
+Afin de garantir la qualité de la liaison entre vos locaux et votre infrastructure SAP hébergée sur OVHcloud, nous recommandons d'utiliser OVHcloud Connect. Cette solution vous fournit un lien sécurisé et performant entre vos locaux et OVHcloud. Pour obtenir plus d'informations, veuillez vous référer à la [documentation OVHcloud Connect](/links/network/ovhcloud-connect).
 
 Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut également être déployé avec NSX. Pour connaître les étapes de configuration d'une passerelle VPN NSX avec OVHcloud, veuillez vous référer à [notre documentation](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx-12-configure-ipsec).
 
@@ -41,13 +41,15 @@ Si vous souhaitez réduire le temps maximal admissible de coupure de service et 
 
 ### 3 - Serveurs d'application SAP
 
-La fonctionnalité Fault Tolerance fournit par VMware garantit la disponibilité de vos serveurs d'application SAP en cas d'incident sur un host ESXi. Vos machines virtuelles sont automatiquement activées sur un autre membre de votre cluster VMware. Nous conseillons d'activer cette fonctionnalité sur vos machines virtuelles qui hébergent les services centraux SAP (SCS) et si vous ne gérez pas un cluster SAP pour ce service par un autre moyen. La fonctionnalité Fault Tolerance peut également être activée pour vos serveurs d'application SAP qui hébergent des services critiques. Découvrez comment activer cette fonctionnalité dans [notre guide](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_fault_tolerance).
+La fonctionnalité Fault Tolerance<sup>1</sup> fournit par VMware garantit la disponibilité de vos serveurs d'application SAP en cas d'incident sur un host ESXi. Vos machines virtuelles sont automatiquement activées sur un autre membre de votre cluster VMware. Nous conseillons d'activer cette fonctionnalité sur vos machines virtuelles qui hébergent les services centraux SAP (SCS) et si vous ne gérez pas un cluster SAP pour ce service par un autre moyen. La fonctionnalité Fault Tolerance peut également être activée pour vos serveurs d'application SAP qui hébergent des services critiques. Découvrez comment activer cette fonctionnalité dans [notre guide](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_fault_tolerance).
 
 Cependant, pour activer cette fonctionnalité, la machine virtuelle ne peut excéder les 8 vCPUs et les 128 GB de mémoire.
 
 Pour les serveurs d'application SAP qui n'hébergent pas de service critique, la fonctionnalité vSphere HA est recommandée.
 
 Enfin, la fonctionnalité vSphere Distributed Resource Scheduler peut également être activée avec une règle VM/Host dans le but d'éviter d'héberger l'ensemble des serveurs d'application SAP sur un même host ESXi. Pour en savoir plus sur cette fonctionnalité, veuillez vous référer à [notre guide](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vmware_drs_distributed_ressource_scheduler_new).
+
+<sup>1</sup> La fonctionnalité Fault Tolerance est actuellement incompatible si votre machine virtuelle utilise un groupe de ports créé et géré par NSX ([Article 317806](https://knowledge.broadcom.com/external/article?articleNumber=317806)).
 
 ### 4 - Infrastructure de sauvegarde
 
@@ -80,7 +82,7 @@ Pour en savoir plus sur l'installation d'un serveur Veeam Backup and Replication
 
 Certaines données nécessitent d'être stockées et sauvegardées avec une rétention longue pour des raisons légales et/ou techniques, idéalement dans un espace de stockage dédié avec des accès limités une fois que la donnée a été écrite. OVHcloud propose une solution nommée Cold Archive pour ce type de besoin, solution ayant un haut niveau de sécurité pour vos données.
 
-Plus d'information sur [OVHcloud](https://www.ovhcloud.com/fr/public-cloud/cold-archive/).
+Plus d'information sur [OVHcloud](/links/public-cloud/cold-archive).
 
 ### 6 - Connexion du support SAP
 

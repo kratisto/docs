@@ -1,7 +1,7 @@
 ---
 title: Backing-up an OVHcloud Managed Kubernetes cluster using Velero
 excerpt: Find out how to back-up an OVHcloud Managed Kubernetes cluster using Velero, including Persistent Volumes
-updated: 2025-01-10
+updated: 2025-03-07
 ---
 
 ## Objective
@@ -67,11 +67,11 @@ $ openstack ec2 credentials create
 | Field      | Value
 +------------+----------------------------------------------------------------------------------------------------------------------------+
 | access     | 5a4d8b8d88104123a862c527ede5a3d3
-| links      | {u'self': u'https://auth.cloud.ovh.net/v3/users/d74d05ff121b44bea9216495e7f0df61/credentials/OS-EC2/5a4d8b8d88104123a862c527ede5a3d3'}
-| project_id | 20e124b71be141299e111ec26b1892fa
-| secret     | 925d5fcfcd9f436d8ffcb20548cc53a2
+| links      | {u'self': u'https://auth.cloud.ovh.net/v3/users/xxxx/credentials/OS-EC2/xxxx'}
+| project_id | xxxx
+| secret     | xxxx
 | trust_id   | None
-| user_id    | d74d05ff121b44bea9216495e7f0df61
+| user_id    | xxxx
 +------------+----------------------------------------------------------------------------------------------------------------------------+
 ```
 
@@ -99,23 +99,31 @@ Complete and write down the configuration into `~/.aws/config`:
 [plugins]
 endpoint = awscli_plugin_endpoint
 
-[profile default]
-# region = <public_cloud_region_without_digit>
-region = gra #for example
-s3 =
-  endpoint_url = https://s3.<public_cloud_region_without_digit>.io.cloud.ovh.net
-  signature_version = s3v4
-  addressing_style = virtual
-s3api =
-  endpoint_url = https://s3.<public_cloud_region_without_digit>.io.cloud.ovh.net
+[default]
+region = <s3_region>
+endpoint_url = https://s3.<s3_region>.io.cloud.ovh.net/
 ```
+
+> [!primary]
+>
+> Replace `s3_region` by the Public Cloud Region with no digits (e.g.: gra, sbg, bhs)
+
+You can test your settings by running this command:
+
+```bash 
+aws --profile default s3 ls
+```
+
+> [!primary]
+>
+> If your .aws/config only contains one profile, the argument `--profile default` is optional.
 
 #### Create an Object Storage bucket for Velero
 
 Create a new bucket:
 
 ```bash
-aws --profile default s3 mb s3://velero-s3
+aws s3 mb s3://velero-s3
 ```
 
 List your buckets:
@@ -130,20 +138,23 @@ We strongly recommend that you use an [official release of Velero](https://githu
 
 Install Velero, including all prerequisites, into the cluster and start the deployment. This will create a namespace called `velero`, and place a deployment named `velero` in it.
 
+> [!primary]
+>
+> Starting with version 1.14 the plugin-for-csi is integrated in Velero. You can simply remove it from the install example if you install version 1.14 or newer. For upgrading an older version follow the upgrade notes: [Upgrade-to-1.14](https://velero.io/docs/v1.14/upgrade-to-1.14/).
+> Please refer to those links to check Velero's plugins comptability: [velero-plugin-for-aws](https://github.com/vmware-tanzu/velero-plugin-for-aws?tab=readme-ov-file#compatibility) and [velero-plugin-for-csi](https://github.com/vmware-tanzu/velero-plugin-for-csi?tab=readme-ov-file#compatibility).
+
+Example for 1.13 and older:
+
 ```bash
 velero install \
   --features=EnableCSI \
   --provider aws \
-  --plugins velero/velero-plugin-for-aws:v1.10.1,velero/velero-plugin-for-csi:v0.4.0 \
+  --plugins velero/velero-plugin-for-aws:v1.9.2,velero/velero-plugin-for-csi:v0.7.0 \
   --bucket <your bucket name> \
-  --secret-file ./credentials \
-  --backup-location-config region=<public cloud region without digit>,s3ForcePathStyle="true",s3Url=https://s3.<public cloud region without digit>.io.cloud.ovh.net,checksumAlgorithm="" \
-  --snapshot-location-config region=<public cloud region without digit>,enableSharedConfig=true
+  --secret-file ~/.aws/credentials \
+  --backup-location-config region=<s3_region>,s3ForcePathStyle="true",s3Url=https://s3.<s3_region>.io.cloud.ovh.net,checksumAlgorithm="" \
+  --snapshot-location-config region=<s3_region>,enableSharedConfig=true
 ```
-
-> [!primary]
->
-> Starting with version 1.14 the plugin-for-csi is integrated in velero. You can simply remove it from the install example if you install version 1.14 or newer. For upgrading an older version follow the upgrade notes: [Upgrade-to-1.14](https://velero.io/docs/v1.14/upgrade-to-1.14/).
 
 Example for 1.14 and newer:
 
@@ -153,42 +164,22 @@ velero install \
   --provider aws \
   --plugins velero/velero-plugin-for-aws:v1.10.1 \
   --bucket <your bucket name> \
-  --secret-file ./credentials \
-  --backup-location-config region=<public cloud region without digit>,s3ForcePathStyle="true",s3Url=https://s3.<public cloud region without digit>.io.cloud.ovh.net,checksumAlgorithm="" \
-  --snapshot-location-config region=<public cloud region without digit>,enableSharedConfig=true
+  --secret-file ~/.aws/credentials \
+  --backup-location-config region=<s3_region>,s3ForcePathStyle="true",s3Url=https://s3.<s3_region>.io.cloud.ovh.net,checksumAlgorithm="" \
+  --snapshot-location-config region=<s3_region>,enableSharedConfig=true
 ```
 
-In our case, with the cluster in the `GRA` region, that meant:
+> [!primary]
+>
+> Replace `s3_region` by the Public Cloud Region with no digits (e.g.: gra, sbg, bhs).
 
-```bash
-velero install \
-  --features=EnableCSI \
-  --provider aws \
-  --plugins velero/velero-plugin-for-aws:v1.10.1,velero/velero-plugin-for-csi:v0.4.0 \
-  --bucket velero-s3 \
-  --secret-file .aws/credentials \
-  --backup-location-config region=gra,s3ForcePathStyle="true",s3Url=https://s3.gra.io.cloud.ovh.net,checksumAlgorithm="" \
-  --snapshot-location-config region=gra,enableSharedConfig=true
-```
-
-For 1.14 and newer:
-
-```bash
-velero install \
-  --features=EnableCSI \
-  --provider aws \
-  --plugins velero/velero-plugin-for-aws:v1.10.1 \
-  --bucket velero-s3 \
-  --secret-file .aws/credentials \
-  --backup-location-config region=gra,s3ForcePathStyle="true",s3Url=https://s3.gra.io.cloud.ovh.net,checksumAlgorithm="" \
-  --snapshot-location-config region=gra,enableSharedConfig=true
-```
+This command should return an output similar to this (we are taking GRA S3 Region as an example): 
 
 ```console
 $ velero install \
   --features=EnableCSI \
   --provider aws \
-  --plugins velero/velero-plugin-for-aws:v1.6.0,velero/velero-plugin-for-csi:v0.4.0 \
+  --plugins velero/velero-plugin-for-aws:v1.9.2,velero/velero-plugin-for-csi:v0.7.0 \
   --bucket velero-s3 \
   --secret-file .aws/credentials \
   --backup-location-config region=gra,s3ForcePathStyle="true",s3Url=https://s3.gra.io.cloud.ovh.net,checksumAlgorithm="" \
@@ -196,55 +187,7 @@ $ velero install \
 CustomResourceDefinition/backups.velero.io: attempting to create resource
 CustomResourceDefinition/backups.velero.io: attempting to create resource client
 CustomResourceDefinition/backups.velero.io: created
-CustomResourceDefinition/backupstoragelocations.velero.io: attempting to create resource
-CustomResourceDefinition/backupstoragelocations.velero.io: attempting to create resource client
-CustomResourceDefinition/backupstoragelocations.velero.io: created
-CustomResourceDefinition/deletebackuprequests.velero.io: attempting to create resource
-CustomResourceDefinition/deletebackuprequests.velero.io: attempting to create resource client
-CustomResourceDefinition/deletebackuprequests.velero.io: created
-CustomResourceDefinition/downloadrequests.velero.io: attempting to create resource
-CustomResourceDefinition/downloadrequests.velero.io: attempting to create resource client
-CustomResourceDefinition/downloadrequests.velero.io: created
-CustomResourceDefinition/podvolumebackups.velero.io: attempting to create resource
-CustomResourceDefinition/podvolumebackups.velero.io: attempting to create resource client
-CustomResourceDefinition/podvolumebackups.velero.io: created
-CustomResourceDefinition/podvolumerestores.velero.io: attempting to create resource
-CustomResourceDefinition/podvolumerestores.velero.io: attempting to create resource client
-CustomResourceDefinition/podvolumerestores.velero.io: created
-CustomResourceDefinition/resticrepositories.velero.io: attempting to create resource
-CustomResourceDefinition/resticrepositories.velero.io: attempting to create resource client
-CustomResourceDefinition/resticrepositories.velero.io: created
-CustomResourceDefinition/restores.velero.io: attempting to create resource
-CustomResourceDefinition/restores.velero.io: attempting to create resource client
-CustomResourceDefinition/restores.velero.io: created
-CustomResourceDefinition/schedules.velero.io: attempting to create resource
-CustomResourceDefinition/schedules.velero.io: attempting to create resource client
-CustomResourceDefinition/schedules.velero.io: created
-CustomResourceDefinition/serverstatusrequests.velero.io: attempting to create resource
-CustomResourceDefinition/serverstatusrequests.velero.io: attempting to create resource client
-CustomResourceDefinition/serverstatusrequests.velero.io: created
-CustomResourceDefinition/volumesnapshotlocations.velero.io: attempting to create resource
-CustomResourceDefinition/volumesnapshotlocations.velero.io: attempting to create resource client
-CustomResourceDefinition/volumesnapshotlocations.velero.io: created
-Waiting for resources to be ready in cluster...
-Namespace/velero: attempting to create resource
-Namespace/velero: attempting to create resource client
-Namespace/velero: created
-ClusterRoleBinding/velero: attempting to create resource
-ClusterRoleBinding/velero: attempting to create resource client
-ClusterRoleBinding/velero: created
-ServiceAccount/velero: attempting to create resource
-ServiceAccount/velero: attempting to create resource client
-ServiceAccount/velero: created
-Secret/cloud-credentials: attempting to create resource
-Secret/cloud-credentials: attempting to create resource client
-Secret/cloud-credentials: created
-BackupStorageLocation/default: attempting to create resource
-BackupStorageLocation/default: attempting to create resource client
-BackupStorageLocation/default: created
-VolumeSnapshotLocation/default: attempting to create resource
-VolumeSnapshotLocation/default: attempting to create resource client
-VolumeSnapshotLocation/default: created
+[...]
 Deployment/velero: attempting to create resource
 Deployment/velero: attempting to create resource client
 Deployment/velero: created
@@ -301,7 +244,6 @@ metadata:
   name: nginx-example
   labels:
     app: nginx
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -319,11 +261,10 @@ spec:
         app: nginx
     spec:
       containers:
-        - image: nginx:1.7.9
+        - image: nginx:1.27.3
           name: nginx
           ports:
             - containerPort: 80
-
 ---
 apiVersion: v1
 kind: Service
@@ -338,7 +279,7 @@ spec:
       targetPort: 80
   selector:
     app: nginx
-  type: LoadBalancer
+  type: ClusterIP
 ```
 
 And apply it to your cluster:
@@ -356,7 +297,7 @@ kubectl get pod -n nginx-example
 Create a backup of the namespace:
 
 ```bash
-velero backup create nginx-backup --include-namespaces nginx-example
+velero backup create nginx-backup --include-namespaces nginx-example --snapshot-move-data
 ```
 
 Verify that the backup is done:
@@ -398,10 +339,10 @@ service/my-nginx created
 $ kubectl get pod -n nginx-example
 
 NAME                                READY   STATUS    RESTARTS   AGE
-nginx-deployment-9d6cbcc65-5ss7j   1/1     Running   0          21s
-nginx-deployment-9d6cbcc65-dqvvn   1/1     Running   0          21s
+nginx-deployment-9d6cbcc65-5ss7j    1/1     Running   0          21s
+nginx-deployment-9d6cbcc65-dqvvn    1/1     Running   0          21s
 
-$ velero backup create nginx-backup --include-namespaces nginx-example
+$ velero backup create nginx-backup --include-namespaces nginx-example --snapshot-move-data
 
 Backup request "nginx-backup" submitted successfully.
 Run `velero backup describe nginx-backup` or `velero backup logs nginx-backup` for more details.
@@ -430,9 +371,6 @@ time="2024-06-17T10:13:42Z" level=info msg="Resource 'customresourcedefinitions.
 time="2024-06-17T10:13:42Z" level=info msg="Getting client for apiextensions.k8s.io/v1, Kind=CustomResourceDefinition" logSource="pkg/restore/restore.go:882" restore=velero/nginx-backup-20240617121341
 time="2024-06-17T10:13:42Z" level=info msg="restore status includes excludes: <nil>" logSource="pkg/restore/restore.go:1134" restore=velero/nginx-backup-20240617121341
 time="2024-06-17T10:13:42Z" level=info msg="Executing item action for customresourcedefinitions.apiextensions.k8s.io" logSource="pkg/restore/restore.go:1141" restore=velero/nginx-backup-20240617121341
-time="2024-06-17T10:13:42Z" level=info msg="Executing CRDV1PreserveUnknownFieldsAction" cmd=/velero logSource="pkg/restore/crd_v1_preserve_unknown_fields_action.go:49" pluginName=velero restore=velero/nginx-backup-20240617121341
-time="2024-06-17T10:13:42Z" level=info msg="Attempting to restore CustomResourceDefinition: configauditreports.aquasecurity.github.io" logSource="pkg/restore/restore.go:1245" restore=velero/nginx-backup-20240617121341
-time="2024-06-17T10:13:42Z" level=info msg="Restored 1 items out of an estimated total of 1 (estimate will change throughout the restore)" logSource="pkg/restore/restore.go:669" name=configauditreports.aquasecurity.github.io namespace= progress= resource=customresourcedefinitions.apiextensions.k8s.io restore=velero/nginx-backup-20240617121341
 [...]
 time="2024-06-17T10:13:48Z" level=warning msg="Cluster resource restore warning: could not restore, CustomResourceDefinition \"configauditreports.aquasecurity.github.io\" already exists. Warning: the in-cluster version is different than the backed-up version." logSource="pkg/controller/restore_controller.go:511" restore=velero/nginx-backup-20240617121341
 time="2024-06-17T10:13:48Z" level=info msg="restore completed" logSource="pkg/controller/restore_controller.go:518" restore=velero/nginx-backup-20240617121341
@@ -443,7 +381,7 @@ pod/nginx-deployment-9d6cbcc65-5ss7j   1/1     Running   0          3m28s
 pod/nginx-deployment-9d6cbcc65-dqvvn   1/1     Running   0          3m28s
 
 NAME               TYPE           CLUSTER-IP    EXTERNAL-IP     PORT(S)        AGE
-service/my-nginx   LoadBalancer   10.3.89.179   xx.xx.xx.xx   80:32406/TCP   3m28s
+service/my-nginx   ClusterIP      10.3.89.179                   80/TCP         3m28s
 
 NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/nginx-deployment   2/2     2            2           3m29s
@@ -472,7 +410,6 @@ metadata:
   name: nginx-example
   labels:
     app: nginx
-
 ---
 kind: PersistentVolumeClaim
 apiVersion: v1
@@ -488,7 +425,6 @@ spec:
   resources:
     requests:
       storage: 1Gi
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -512,7 +448,7 @@ spec:
           persistentVolumeClaim:
             claimName: nginx-logs
       containers:
-        - image: nginx:1.7.9
+        - image: nginx:1.27.3
           name: nginx
           ports:
             - containerPort: 80
@@ -534,7 +470,7 @@ spec:
       targetPort: 80
   selector:
     app: nginx
-  type: LoadBalancer
+  type: ClusterIP
 ```
 
 Apply it to the cluster:
@@ -580,37 +516,9 @@ service/nginx-service created
 $ kubectl -n nginx-example get svc nginx-service -w
 
 NAME            TYPE           CLUSTER-IP   EXTERNAL-IP   PORT(S)        AGE
-nginx-service   LoadBalancer   10.3.116.4   <pending>     80:31450/TCP   12s
-nginx-service   LoadBalancer   10.3.116.4   <pending>     80:31450/TCP   2m36s
-nginx-service   LoadBalancer   10.3.116.4   57.xx.xx.xx   80:31450/TCP   2m36s
-nginx-service   LoadBalancer   10.3.116.4   57.xx.xx.xx   80:31450/TCP   2m40s
-
-$ export LB_IP=$(kubectl -n nginx-example get svc nginx-service -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
-
-$ echo $LB_IP
-57.xx.xx.xx
-
-$ curl -I $LB_IP
-HTTP/1.1 200 OK
-Server: nginx/1.7.9
-Date: Mon, 17 Jun 2024 10:23:43 GMT
-Content-Type: text/html
-Content-Length: 612
-Last-Modified: Tue, 23 Dec 2014 16:25:09 GMT
-Connection: keep-alive
-ETag: "54999765-264"
-Accept-Ranges: bytes
-
-$ curl -I $LB_IP
-HTTP/1.1 200 OK
-Server: nginx/1.7.9
-Date: Mon, 17 Jun 2024 10:24:29 GMT
-Content-Type: text/html
-Content-Length: 612
-Last-Modified: Tue, 23 Dec 2014 16:25:09 GMT
-Connection: keep-alive
-ETag: "54999765-264"
-Accept-Ranges: bytes
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         12s
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         2m36s
+nginx-service   ClusterIP      10.3.116.4                 80/TCP         2m36s
 ```
 
 Now we need to connect to the Pod to read the log file and verify that our logs are written.
@@ -643,7 +551,7 @@ xx.xx.xx.xx - - [17/Jun/2024:10:23:43 +0000] "HEAD / HTTP/1.1" 200 0 "-" "curl/8
 Now we can ask velero to do the backup of the namespace:
 
 ```bash
-velero backup create nginx-backup-with-pv --include-namespaces nginx-example --wait
+velero backup create nginx-backup-with-pv --include-namespaces nginx-example --wait --snapshot-move-data
 ```
 
 Check the backup has finished successfully:
@@ -694,7 +602,7 @@ kubectl -n nginx-example exec $POD_NAME -c nginx -- cat /var/log/nginx/access.lo
 You should have a result like this:
 
 ```console
-$ velero backup create nginx-backup-with-pv --include-namespaces nginx-example --wait
+$ velero backup create nginx-backup-with-pv --include-namespaces nginx-example --wait --snapshot-move-data
 
 Backup request "nginx-backup-with-pv" submitted successfully.
 Waiting for backup to complete. You may safely press ctrl-c to stop waiting - your backup will continue in the background.
@@ -761,44 +669,7 @@ Resource List:
     - nginx-example/service-nginx-service
   discovery.k8s.io/v1/EndpointSlice:
     - nginx-example/nginx-service-4gv27
-  snapshot.storage.k8s.io/v1/VolumeSnapshot:
-    - nginx-example/velero-nginx-logs-q5fw8
-  snapshot.storage.k8s.io/v1/VolumeSnapshotClass:
-    - csi-cinder-snapclass-in-use-v1-velero
-  snapshot.storage.k8s.io/v1/VolumeSnapshotContent:
-    - snapcontent-299f505a-7598-4d9d-bc97-80c87b79a62c
-  v1/ConfigMap:
-    - nginx-example/kube-root-ca.crt
-  v1/Endpoints:
-    - nginx-example/nginx-service
-  v1/Event:
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c36d6e1ce5aa
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c36db0aebd7a
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c36e5fc2ec7a
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c372261a5e49
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c372da5b5005
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c3733f72d6c6
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c3734112dc99
-    - nginx-example/nginx-deployment-56996c688d-l58kf.17d9c373468a2066
-    - nginx-example/nginx-deployment-56996c688d.17d9c36d6e4a2ff9
-    - nginx-example/nginx-deployment.17d9c36d6d928be1
-    - nginx-example/nginx-logs.17d9c36d67215301
-    - nginx-example/nginx-logs.17d9c36d6726b1ef
-    - nginx-example/nginx-logs.17d9c36db0dbc3ef
-    - nginx-example/nginx-service.17d9c36d77db08ff
-    - nginx-example/nginx-service.17d9c391c3e41972
-  v1/Namespace:
-    - nginx-example
-  v1/PersistentVolume:
-    - ovh-managed-kubernetes-yvd0z4-pvc-7969c988-5464-48f6-920b-3a489e8d4dbc
-  v1/PersistentVolumeClaim:
-    - nginx-example/nginx-logs
-  v1/Pod:
-    - nginx-example/nginx-deployment-56996c688d-l58kf
-  v1/Service:
-    - nginx-example/nginx-service
-  v1/ServiceAccount:
-    - nginx-example/default
+  [...]
 
 Velero-Native Snapshots: <none included>
 
@@ -825,7 +696,7 @@ NAME                                    READY   STATUS              RESTARTS   A
 pod/nginx-deployment-56996c688d-l58kf   0/1     ContainerCreating   0          6s
 
 NAME                    TYPE           CLUSTER-IP    EXTERNAL-IP   PORT(S)        AGE
-service/nginx-service   LoadBalancer   10.3.155.16   <pending>     80:32038/TCP   6s
+service/nginx-service   ClusterIP      10.3.155.16                 80/TCP         6s
 
 NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/nginx-deployment   0/1     1            0           6s
@@ -861,10 +732,8 @@ spec:
   schedule: '15 */1 * * *' # Every hour at hh:15
   template:
     defaultVolumesToRestic: false
-
     includedNamespaces:
     - nginx-example
-
     ttl: 168h0m0s # Keep the backup 7 days
     storageLocation: default
 ```

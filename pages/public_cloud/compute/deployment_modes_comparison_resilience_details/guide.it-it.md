@@ -1,7 +1,7 @@
 ---
 title: "Comparison and resilience of Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones"
 excerpt: "Explore OVHcloud's deployment modes"
-updated: 2025-01-27
+updated: 2025-03-21
 ---
 
 <style>
@@ -35,7 +35,7 @@ An Availability Zone (AZ) is a unit of infrastructure made up of one or more iso
 OVHcloud provides a robust and adaptable infrastructure, designed to meet a wide variety of use cases through deployment models that balance cost-effectiveness, redundancy and fault tolerance. These different options allow users to choose the approach best suited to their resilience, availability and performance requirements.
 
 1. **1-AZ Region**: These single-zone regions are ideal for workloads where cost optimisation is a priority. They are ideally suited to general needs such as storage, backup or applications whose availability requirements do not call for multi-zone redundancy. They offer a good compromise between reliability, performance and cost control.
-2. **3-AZ Region**: This model is designed for mission-critical applications requiring high availability and resilience. By replicating data across three distinct availability zones, 3-AZ regions significantly reduce the risk of downtime, guaranteeing business continuity even in the event of incidents affecting one or more zones. This level of redundancy is particularly well suited to demanding production environments.
+2. **3-AZ Region**: This model is designed for mission-critical applications requiring high availability and resilience. By replicating data across three distinct availability zones, 3-AZ regions significantly reduce the risk of downtime, guaranteeing business continuity even in the event of incidents affecting one or more zones. This level of redundancy is particularly well suited to demanding production environments. Find out more [here](/pages/public_cloud/compute/3az_ref_architecture).
 3. **Local Zones**: These infrastructures are specifically designed to meet needs requiring ultra-low latency or strict geographical constraints. By placing resources close to end-users, Local Zones are ideal for use cases such as high-end computing, video games, content delivery or solutions requiring local regulatory compliance.
 
 Each of these options is based on the fundamental principles of resilience, performance and fault tolerance.

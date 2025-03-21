@@ -4,9 +4,6 @@ excerpt: 'Cómo configurar una cuenta Email Pro en Thunderbird para Windows'
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-
 ## Objetivo
 
 Es posible configurar sus cuentas Email Pro en el cliente de correo que usted utilice, siempre que sea compatible, para poder acceder a ellas desde cualquiera de sus dispositivos. Thunderbird es un cliente de correo libre y gratuito.
@@ -29,7 +26,7 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 
 > [!primary]
 >
-> En nuestro ejemplo, hemos utilizado la mención servidor: pro**?**.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
+> En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
 > Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 
@@ -42,15 +39,15 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 | | |
 |---|---|
 |![Thunderbird](images/thunderbird-win-emailpro01.png){.thumbnail}|En la nueva ventana, introduzca los siguientes 3 datos: <br>- Su nombre completo (Nombre mostrado)<br>- Dirección de correo electrónico <br>- Contraseña.|
-|Haga clic en `Configurar manualmente...`{.action} para introducir la configuración del servidor **ENTRANT**: <br>- Protocolo **IMAP** <br>- Servidor **pro?.mail.ovh.net** (sustituya "**?**" por el número del servidor)<br>- Puerto **993** <br>- SSL **SSL/TLS** <br>- Autenticación **Contraseña normal** <br>- Identificador de **su dirección de correo electrónico completa**|![Thunderbird](images/thunderbird-win-emailpro02.png){.thumbnail}|
-|![Thunderbird](images/thunderbird-win-emailpro03.png){.thumbnail}|Introduzca la configuración del servidor **SALIENTE**: <br>- Protocolo **SMTP** <br>- Servidor **pro?.mail.ovh.net** (sustituya "**?**" por el número del servidor)<br>- Puerto **587** <br>- SSL **STARTTLS** <br>- Autenticación **Contraseña normal** <br>- Identificador de **su dirección de correo electrónico completa**<br><br>Para finalizar la configuración, haga clic en `Finalizado.`{.action}|
+|Haga clic en `Configurar manualmente...`{.action} para introducir la configuración del servidor **ENTRANT**: <br>- Protocolo **IMAP** <br>- Servidor **pro?.mail.ovh.net** (sustituya "?" por el número del servidor)<br>- Puerto **993** <br>- SSL **SSL/TLS** <br>- Autenticación **Contraseña normal** <br>- Identificador de **su dirección de correo electrónico completa**|![Thunderbird](images/thunderbird-win-emailpro02.png){.thumbnail}|
+|![Thunderbird](images/thunderbird-win-emailpro03.png){.thumbnail}|Introduzca la configuración del servidor **SALIENTE**: <br>- Protocolo **SMTP** <br>- Servidor **pro?.mail.ovh.net** (sustituya "?" por el número del servidor)<br>- Puerto **587** <br>- SSL **STARTTLS** <br>- Autenticación **Contraseña normal** <br>- Identificador de **su dirección de correo electrónico completa**<br><br>Para finalizar la configuración, haga clic en `Finalizado.`{.action}|
 
 En una configuración en **POP**, los valores son los siguientes:
 
 |Tipo de servidor|Nombre del servidor|Método de cifrado|Puerto|
 |---|---|---|---|
-|Entrante|pro**?***.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|SSL/TLS|995|
-|Saliente|pro**?***.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|STARTTLS|587|
+|Entrante|pro?.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|SSL/TLS|995|
+|Saliente|pro?.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|STARTTLS|587|
 
 ### Utilizar la dirección de correo
 
@@ -66,7 +63,7 @@ Si necesita realizar alguna operación que pueda provocar la pérdida de los dat
 
 > [!primary]
 >
-> En nuestro ejemplo, hemos utilizado la mención servidor: pro**?**.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
+> En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
 > Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 

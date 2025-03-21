@@ -26,12 +26,12 @@ As part of the gradual transition from MX Plan accounts to Zimbra, you can antic
 You can migrate an MX Plan email account to a Zimbra email account in 2 steps. To avoid cutting off the receipt on the original email address, it is necessary to follow the following process:
 
 1. **Transfer the contents of the MX Plan account to a Zimbra account**
-- [1.1 - Creating a Zimbra email address](#step11)
-- [1.2 - Migrating emails with OVH Mail Migrator](#step12)
-- [1.3 - Source account email backup (optional)](#step13)
+    - [1.1 - Creating a Zimbra email address](#step11)
+    - [1.2 - Migrating emails with OVH Mail Migrator](#step12)
+    - [1.3 - Source account email backup (optional)](#step13)
 2. **Delete the original MX Plan account and reassign its address to the Zimbra account**
-- [2.1 - Deletion of the old MX Plan email address](#step21)
-- [2.2 - Rename Zimbra email address](#step22)
+    - [2.1 - Deletion of the old MX Plan email address](#step21)
+    - [2.2 - Rename Zimbra email address](#step22)
 
 In the example below, we are migrating the address `contact@mydomain.ovh`. To do this, we will create the Zimbra account under the name `contact2@mydomain.ovh`.
 

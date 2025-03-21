@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie Ihren Exchange Account via Mail App auf ein
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Exchange Accounts können auf verschiedenen, kompatiblen E-Mail-Clients eingerichtet werden. So können Sie Ihr bevorzugtes Gerät für Ihre E-Mail-Adressen verwenden.
@@ -32,7 +28,7 @@ Exchange Accounts können auf verschiedenen, kompatiblen E-Mail-Clients eingeric
 
 > [!primary]
 >
-> In unserem Beispiel verwenden wir als Serverbezeichnung: ex**?**.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
+> In unserem Beispiel verwenden wir als Serverbezeichnung: ex?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
 >
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie unter `Microsoft`{.action} und `Exchange`{.action} den Dienst auswählen: Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >

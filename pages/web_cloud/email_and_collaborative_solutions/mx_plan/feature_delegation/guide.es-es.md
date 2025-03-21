@@ -4,9 +4,6 @@ excerpt: 'Cómo delegar la gestión de las cuentas de correo de su solución MX 
 updated: 2021-10-08
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo <a name="objective"></a>
 
@@ -37,14 +34,14 @@ La delegación ofrece al usuario de una cuenta de correo la posibilidad de gesti
 
 > [!primary]
 >
->La delegación en una cuenta de correo electrónico lo hace evidente en [el área de cliente](/links/manager). Sin embargo, en esta situación solo serán posibles los cambios indicados en la sección [Objetivo](#objective) de esta guía.
+> La delegación en una cuenta de correo electrónico lo hace evidente en [el área de cliente](/links/manager). Sin embargo, en esta situación solo serán posibles los cambios indicados en la sección [Objetivo](#objective) de esta guía.
 >
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) en la sección `Web Cloud`.
-
-Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente.
-
-Para ver la lista de cuentas de correo de su solución MX Plan, haga clic en la pestaña `Correo electrónico`{.action}.
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en `Direcciones de correo`{.action}.
+1. Seleccione el dominio.
+1. Para ver la lista de cuentas de correo de su solución MX Plan, haga clic en la pestaña `Correo electrónico`{.action}.
 
 ![Delegación de permisos](images/mxplan-delegation-01.png){.thumbnail}
 

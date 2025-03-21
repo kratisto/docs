@@ -63,7 +63,7 @@ When you choose your account type, we recommend using **IMAP** to receive emails
 
 |Information|Description|
 |---|---|
-|Username|Enter the **full** email address. |
+|Username|Enter the **full** email address.|
 |Password|Enter the password for the email account|
 |Server **EUROPE** (incoming)|pop.mail.ovh.net **ou** ssl0.ovh.net|
 |Server **AMERICA / ASIA-PACIFIC** (incoming)|pop.mail.ovh.ca|
@@ -74,7 +74,7 @@ When you choose your account type, we recommend using **IMAP** to receive emails
 
 |Information|Description|
 |---|---|
-|Username|Enter the **full** email address. |
+|Username|Enter the **full** email address.|
 |Password|Enter the password for the email account|
 |Server **EUROPE** (incoming)|imap.mail.ovh.net **ou** ssl0.ovh.net|
 |Server **AMERICA / ASIA-PACIFIC** (incoming)|imap.mail.ovh.ca|
@@ -87,7 +87,7 @@ For sending emails, if you need to enter the **SMTP** settings manually in your 
 
 |Information|Description|
 |---|---|
-|Username|Enter the **full** email address. |
+|Username|Enter the **full** email address.|
 |Password|Enter the password for the email account|
 |Server **EUROPE** (incoming)|smtp.mail.ovh.net **ou** ssl0.ovh.net|
 |Server **AMERICA / ASIA-PACIFIC** (incoming)|smtp.mail.ovh.ca|

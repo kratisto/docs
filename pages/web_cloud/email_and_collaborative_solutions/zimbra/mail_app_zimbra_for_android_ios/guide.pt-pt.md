@@ -39,22 +39,22 @@ Siga as etapas de instalação, clicando nos separadores abaixo:
 
 > [!tabs]
 > **Etapa 1**
->>>
+>>
 >> Quando iniciar o aplicativo pela primeira vez, a janela abaixo será exibida. Introduza o URL do servidor Zimbra OVHcloud `https://zimbra1.mail.ovh.net`, e prima `Continue`{.action} para validar.
->>>
->>>![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
->>>
+>>
+>> ![zimbra_app](images/zimbra_app_connect01.png){.thumbnail .w-600 .h-600}
+>>
 > **Etapa 2**
->>>
->>> Introduza o seu **endereço de e-mail** Zimbra e a **palavra-passe** associada. De seguida, prima `Início de sessão`{.action}.
->>>
->>>![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
->>>
+>>
+>> Introduza o seu **endereço de e-mail** Zimbra e a **palavra-passe** associada. De seguida, prima `Início de sessão`{.action}.
+>>
+>> ![zimbra_app](images/zimbra_app_connect02.png){.thumbnail .w-600 .h-600}
+>>
 > **Etapa 3**
->>>
->>> Já tem acesso ao conteúdo da sua conta de e-mail. Por predefinição, a sua caixa de entrada é apresentada <br><br>
->>>
->>>![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
+>>
+>> Já tem acesso ao conteúdo da sua conta de e-mail. Por predefinição, a sua caixa de entrada é apresentada <br><br>
+>>
+>> ![zimbra_app](images/zimbra_app_inbox01.png){.thumbnail .w-600 .h-600}
 
 > [!success]
 >

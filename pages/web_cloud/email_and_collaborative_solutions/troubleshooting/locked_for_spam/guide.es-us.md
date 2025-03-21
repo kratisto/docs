@@ -52,18 +52,25 @@ Seleccione el servicio de correo en las siguientes pestañas:
 > [!tabs]
 > **Exchange**
 >>
->> Inicie sesión en el [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en `Microsoft`{.action}, luego en `Exchange`{.action} y, por último, seleccione la plataforma Exchange correspondiente.
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Haga clic en la pestaña `Web Cloud`{.action}.
+>> 1. Haga clic en el tema `Microsoft`{.action}.
+>> 1. Haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
 >>
->> Acceda a la pestaña `Cuentas de correo electrónico`{.action} de su plataforma. Si la columna «Estado» de la dirección de correo electrónico correspondiente indica «bloqueado», haga clic en `...`{.action} a la derecha de la cuenta y, seguidamente, en `Desbloquear`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
+>> Acceda a la pestaña `Cuentas de correo`{.action} de su plataforma. Si la columna «Estado» de la dirección de correo electrónico correspondiente indica «bloqueado», haga clic en `...`{.action} a la derecha de la cuenta y, seguidamente, en `Desbloquear`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
 >> Continúe con el [paso 3](#step3) de la guía.
 >>
 >> ![spam](images/blocked-for-SPAM-01-01.png){.thumbnail}
 >>
 > **MX plan**
 >>
->> Inicie sesión en el [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en `Correos electrónicos`{.action} y seleccione el nombre de dominio correspondiente.
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Haga clic en la pestaña `Web Cloud`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
 >>
->> Acceda a la pestaña `Cuentas de correo electrónico`{.action} de su plataforma. Si la columna «Estado» —a la derecha de la dirección de correo electrónico correspondiente— indica «Correo no deseado», haga clic en esa opción y, seguidamente, en `Responder al tiquet`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
+>> Acceda a la pestaña `Cuentas de correo`{.action} de su plataforma. Si la columna «Estado» —a la derecha de la dirección de correo electrónico correspondiente— indica «Correo no deseado», haga clic en esa opción y, seguidamente, en `Responder al tiquet`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
 >> Continúe con el [paso 3](#step3) de la guía.
 >>
 >> ![spam](images/blocked-for-SPAM-01-03.png){.thumbnail}

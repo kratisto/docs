@@ -34,7 +34,7 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 
 > [!primary]
 >
-> En nuestro ejemplo, hemos utilizado la mención servidor: pro**?**.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
+> En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
 > Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >
@@ -59,7 +59,7 @@ Introduzca a continuación la configuración del servidor POP (servidor de entra
 |---|---|
 |Nombre de usuario|Introduzca la dirección de correo electrónico completa.|
 |Contraseña|Introduzca la contraseña de la dirección de correo electrónico.|
-|Servidor POP|Introduzca el servidor pro**?**.mail.ovh.net.|
+|Servidor POP|Introduzca el servidor pro?.mail.ovh.net.|
 |Puerto|Seleccione el puerto **995**.|
 
 Estas son las opciones que puede elegir:
@@ -86,7 +86,7 @@ Introduzca a continuación la configuración del servidor SMTP (servidor de sali
 
 |Campo|Descripción|
 |---|---|
-|Servidor SMTP|Introduzca el servidor pro**?**.mail.ovh.net.|
+|Servidor SMTP|Introduzca el servidor pro?.mail.ovh.net.|
 |Puerto|Seleccione el puerto **587**.|
 |Nombre de usuario|Introduzca la dirección de correo electrónico completa.|  
 |Contraseña|Introduzca la contraseña de la dirección de correo electrónico.|

@@ -17,12 +17,24 @@ Dans votre espace client OVHcloud, vous pouvez créer des signatures universelle
 
 ## En pratique
 
-Pour effectuer cette manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur la rubrique `Microsoft`{.action}.
+>> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
+> **Email Pro**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
+>> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
 
-- **Exchange**: Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}. 
-- **Email Pro**: Cliquez sur `Email Pro`{.action}.
-
-Cliquez ensuite sur le nom du service e-mail dans lequel se trouve le compte concerné par la création de la délégation. Cliquez sur l’onglet `Plus+`{.action} dans le menu horizontal et sélectionnez `Pieds de page`{.action}.
+Cliquez sur l’onglet `Plus+`{.action} dans le menu horizontal et sélectionnez `Pieds de page`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
@@ -35,7 +47,7 @@ L'éditeur propose une sélection de variables qui correspondent aux données de
 ![exchangesig](images/exchange-footer-step3aag.gif){.thumbnail}
 
 Le pied de page est créé à l'aide de balises HTML, qui permettent certaines options de formatage. Utilisez la barre d'outils en haut pour personnaliser votre signature. Vous pouvez également vérifier le code HTML en cliquant sur `Source`{.action}.
- 
+
 ![exchangesig](images/exchange-footer-step4.png){.thumbnail}
 
 Cochez la case « Activer la signature pour le courrier sortant uniquement » pour éviter d'ajouter ce pied de page aux e-mails envoyés entre utilisateurs d'un même domaine. Cliquez sur `Confirmer`{.action} une fois votre signature terminée. Elle apparaîtra désormais dans les e-mails envoyés à partir des comptes d'utilisateurs de ce domaine. Vous pouvez modifier ou supprimer des signatures dans votre espace client OVHcloud après leur création.
@@ -55,7 +67,7 @@ Veillez à prendre en considération les spécificités suivantes avant de crée
 
 [Consulter son compte e-mail depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa)
 
-[Déléguer des permissions sur un compte ](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)
+[Déléguer des permissions sur un compte](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/feature_delegation)
 
 [Partager un calendrier via le webmail OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing)
 

@@ -4,10 +4,6 @@ excerpt: 'Dowiedz się, jak przenieść konto e-mail MX Plan na konto E-mail Pro
 updated: 2022-11-22
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk „Zaproponuj zmianę” na tej stronie.
-> 
-
 ## Wprowadzenie
 
 OVHcloud oferuje kilka rozwiązań poczty elektronicznej: MX Plan (sprzedawany samodzielnie lub zawarty w ofercie hostingu), E-mail Pro i Exchange. Korzystają one z własnych funkcji i mogą być dostosowane do wielu zastosowań. Twoje potrzeby zmieniają się? OVHcloud udostępnia Ci narzędzie migracji umożliwiające przejście z jednego rozwiązania na drugie.
@@ -44,7 +40,12 @@ W przeciwnym razie zaloguj się do [Panelu klienta OVHcloud](/links/manager) i z
 
 Przed rozpoczęciem migracji określ wersję programu MX Plan, z której chcesz wykonać migrację.
 
-W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager), część `Web Cloud`{.action}. Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę. Przejdź do wersji, którą posiadasz, odnosząc się do poniższej tabeli.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Kliknij `E-maile`{.action}.
+1. Wybierz odpowiednią domenę.
+
+Przejdź do wersji, którą posiadasz, odnosząc się do poniższej tabeli.
 
 |Poprzednia wersja usługi MX Plan|Nowa wersja usługi MX Plan|
 |---|---|

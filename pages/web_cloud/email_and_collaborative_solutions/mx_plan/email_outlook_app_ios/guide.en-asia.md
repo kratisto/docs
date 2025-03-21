@@ -15,7 +15,7 @@ max-height:600px !important;
 
 ## Objective
 
-MX Plan accounts can be configured on various compatible email clients. This allows you to use your email address from the device of your choice. The Microsoft Outlook app on iOS is available for free from the Apple App Store.
+MX Plan accounts can be configured on various compatible email clients. This allows you to use Your email address from the device of your choice. The Microsoft Outlook app on iOS is available for free from the Apple App Store.
 
 **Find out how to configure your MX Plan email address on the Outlook mobile app for iOS.**
 
@@ -56,7 +56,7 @@ Follow the installation steps by clicking on the tabs below:
 > [!tabs]
 > **Step 1**
 >>
->> Enter your email address and press `Add account`{.action}.
+>> Enter Your email address and press `Add account`{.action}.
 >>
 >>![outlook ios](images/outlook-app-ios-add-step01.png){.thumbnail .w-400 .h-600}
 >>
@@ -76,8 +76,8 @@ Follow the installation steps by clicking on the tabs below:
 >> - **Email address**
 >> - **Full name**: Enter your full email address.
 >> - **Description**
->> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: For **EUROPE**, type `imap.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `imap.mail.ovh.ca`<br>- **IMAP Port**: 993<br>- **IMAP Username**: Your full email address<br>- **IMAP Password**: Your email address<br>- **Port Security**: SSL
->> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **SMTP Port**: 465<br>- **SMTP Username**: Your full email address<br>- **SMTP Password**: Your email address<br>- **Port Security**: SSL
+>> - **IMAP Incoming Mail Server**:<br>- **IMAP Hostname**: For **EUROPE**, type `imap.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `imap.mail.ovh.ca`<br>- **IMAP Port**: 993<br>- **IMAP Username**: Your full email address<br>- **IMAP Password**: Your email account password<br>- **Port Security**: SSL
+>> - **SMTP Incoming Mail Server**:<br>- **SMTP Hostname**: For **EUROPE**, type `smtp.mail.ovh.net` or `ssl0.ovh.net`. For **AMERICA/ASIA**, type `smtp.mail.ovh.ca`<br>- **SMTP Port**: 465<br>- **SMTP Username**: Your full email address<br>- **SMTP Password**: Your email account password<br>- **Port Security**: SSL
 >>
 >> To finalize the configuration, press `Login`{.action}.
 >>

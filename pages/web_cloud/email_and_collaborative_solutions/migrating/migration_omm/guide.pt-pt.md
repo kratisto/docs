@@ -4,10 +4,6 @@ excerpt: Descubra como utilizador o OVH Mail Migrator
 updated: 2023-08-29
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 [OVH Mail Migrator](https://omm.ovh.net/) é uma ferramenta criada pela OVHcloud. Permite migrar as suas contas de e-mail para os seus endereços de e-mail OVHcloud ou um serviço de e-mail externo. O processo trata de diferentes tipos de conteúdos, tais como os e-mails, os contactos, os calendários e as tarefas, desde que estes sejam compatíveis com os seus endereços de e-mail.
@@ -65,7 +61,7 @@ A página que aparece então detalha o seguimento da migração. Considere conse
 Existem dois caminhos para aceder ao acompanhamento de uma migração única:
 
 - após o e-mail recebido, notifica-o do progresso da migração;
-- a partir da página <https://omm.ovh.net/>, no separador `Migration`{.action}, clique em `Seguinte / Sincronizar`{.action}. Deverá indicar o `ID de migração` {.ação} e a `Conta source` {.ação} em causa.
+- a partir da página <https://omm.ovh.net/>, no separador `Migration`{.action}, clique em `Seguinte / Sincronizar`{.action}. Deverá indicar o `ID de migração`{.action} e a `Conta source`{.action} em causa.
 
 ![omm](images/omm-migration-track.png){.thumbnail}
 
@@ -99,7 +95,7 @@ Existem dois caminhos para aceder ao acompanhamento de uma migração por fichei
 
 - a partir do e-mail recebido após o início da migração;
 
-- a partir da página <https://omm.ovh.net/>, passando o rato no separador `Migration`{.action} na barra de menu por cima da página e clicando em `Seguinte / Sincronizar`{.action}. De seguida, deverá introduzir o `Identificador de migração` {.ação} e a `Conta de destino` {.ação} em causa.
+- a partir da página <https://omm.ovh.net/>, passando o rato no separador `Migration`{.action} na barra de menu por cima da página e clicando em `Seguinte / Sincronizar`{.action}. De seguida, deverá introduzir o `Identificador de migração`{.action} e a `Conta de destino`{.action} em causa.
 
 ![omm](images/omm-migration-track.png){.thumbnail}
 

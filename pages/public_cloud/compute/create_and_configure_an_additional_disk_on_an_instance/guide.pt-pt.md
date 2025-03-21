@@ -1,7 +1,7 @@
 ---
 title: 'Criar e configurar um disco suplementar numa instância'
 excerpt: 'Saiba como associar um novo volume à sua instância Public Cloud'
-updated: 2024-12-24
+updated: 2025-03-21
 ---
 
 <style>
@@ -44,6 +44,42 @@ Tal pode ser útil nos seguintes casos:
 
 ## Instruções
 
+### Os diferentes tipos de volumes
+
+A OVHcloud propõe três tipos de volumes Block Storage, cada um adaptado a necessidades específicas em matéria de desempenho, de capacidade e de custos. Estas soluções permitem-lhe associar volumes de armazenamento persistentes às suas instâncias, garantindo um alto nível de fiabilidade e disponibilidade.
+
+/// details | **Classic - 500 IOPS garantidos**
+
+O volume Classic é uma solução de armazenamento fiável e económica, ideal para cargas de trabalho exigentes em termos de desempenho. Oferece 500 IOPS garantidos, o que o torna adaptado às seguintes utilizações:
+
+- Alojamento de aplicações web clássicas
+- Armazenamento de bases de dados de pequena a média dimensão
+- Backup e arquivamento de dados
+
+///
+
+/// details | **High-Speed - Até 3000 IOPS**
+
+O volume High-Speed foi concebido para aplicações que requerem um acesso mais rápido aos dados. Com um rendimento de até 3000 IOPS, é ideal para os seguintes casos de utilização:
+
+- Bases de dados transacionais (MySQL, PostgreSQL, etc.)
+- Ambientes de virtualização e de containers
+- Aplicações que requerem uma latência reduzida e uma velocidade elevada
+
+///
+
+/// details | **High-Speed Gen2 - 30 IOPS/GB e até 20 000 IOPS**
+
+A geração 2 dos volumes High-Speed é otimizada para as cargas de trabalho mais exigentes. Com um desempenho de 30 IOPS/GB, até 20 000 IOPS, este tipo de volume é recomendado para as seguintes utilizações:
+
+- Big Data e análises em tempo real
+- Inteligência artificial e Machine Learning
+- Tratamento de grandes bases de dados e armazenamento de alta performance
+
+///
+
+![tipos_de_volumes](images/volume-types.png){.thumbnail}
+
 ### Associar um novo volume
 
 > [!tabs]
@@ -55,6 +91,11 @@ Tal pode ser útil nos seguintes casos:
 >> ![selecione o projeto](images/avolume01.png){.thumbnail}
 >>
 >> Siga os passos de configuração para selecionar as opções de localização, o tipo de disco e a capacidade de disco. Introduza um nome para o volume e valide clicando em `Criar o volume`{.action}.
+>>
+>>> [!warning]
+>> >
+>> > Nota: O seu volume deve ser criado na mesma região que a instância à qual deseja associá-lo. Se o criar noutra região, poderá eliminá-lo e recriá-lo na região correta, ou migrá-lo seguindo [este manual](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacenter_to_another).
+>> >
 >>
 >> ![creme disk](images/avolume02.png){.thumbnail}
 >>

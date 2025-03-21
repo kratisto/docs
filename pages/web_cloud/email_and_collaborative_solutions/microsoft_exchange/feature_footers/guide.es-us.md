@@ -17,7 +17,12 @@ El área de cliente de OVHcloud le permite crear firmas genéricas (pies de mens
 
 ## Procedimiento
 
-En primer lugar, acceda a su [área de cliente de OVHcloud](/links/manager), diríjase a la sección `Webcloud`{.action}, y seleccione su servicio Exchange de la columna `Microsoft`{.action} > `Exchange`{.action}. Haga clic en la pestaña `Más +`{.action} en la barra horizontal y seleccione `Pies de página`{.action}.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
+1. Haga clic en la pestaña `Más +`{.action} en la barra horizontal y seleccione `Pies de página`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 

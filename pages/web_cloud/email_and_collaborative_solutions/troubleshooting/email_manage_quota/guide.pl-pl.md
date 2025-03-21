@@ -4,9 +4,6 @@ excerpt: "Dowiedz się, jak zarządzać przestrzenią dyskową konta e-mail i je
 updated: 2022-11-17
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłoś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
@@ -53,7 +50,7 @@ W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.acti
 >>
 > **Email Pro**
 >>
->> Kliknij `E-mail Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
+>> Kliknij `E-maile Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**

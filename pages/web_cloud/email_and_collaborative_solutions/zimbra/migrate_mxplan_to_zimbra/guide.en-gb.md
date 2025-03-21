@@ -3,7 +3,7 @@ title: 'How to migrate an MX Plan email address to an OVHcloud Zimbra account'
 excerpt: 'Find out how to migrate an MX Plan email address to an OVHcloud Zimbra account'
 updated: 2025-03-05
 ---
-
+ 
 ## Objective
 
 As part of the gradual transition from MX Plan accounts to Zimbra, you can anticipate this migration and carry out the email account transfer yourself before OVHcloud implements an automated tool. This guide will show you how to migrate manually.
@@ -26,12 +26,12 @@ As part of the gradual transition from MX Plan accounts to Zimbra, you can antic
 You can migrate an MX Plan email account to a Zimbra email account in 2 steps. To avoid cutting off the receipt on the original email address, it is necessary to follow the following process:
 
 1. **Transfer the contents of the MX Plan account to a Zimbra account**
-- [1.1 - Creating a Zimbra email address](#step11)
-- [1.2 - Migrating emails with OVH Mail Migrator](#step12)
-- [1.3 - Source account email backup (optional)](#step13)
+    - [1.1 - Creating a Zimbra email address](#step11)
+    - [1.2 - Migrating emails with OVH Mail Migrator](#step12)
+    - [1.3 - Source account email backup (optional)](#step13)
 2. **Delete the original MX Plan account and reassign its address to the Zimbra account**
-- [2.1 - Deletion of the old MX Plan email address](#step21)
-- [2.2 - Rename Zimbra email address](#step22)
+    - [2.1 - Deletion of the old MX Plan email address](#step21)
+    - [2.2 - Rename Zimbra email address](#step22)
 
 In the example below, we are migrating the address `contact@mydomain.ovh`. To do this, we will create the Zimbra account under the name `contact2@mydomain.ovh`.
 
@@ -94,7 +94,7 @@ There are two ways to track a single migration:
 On the page that opens, you can track the progress of your migration. You will see a message indicating whether the process will begin, is in progress, or has been completed. Depending on this status, there are several possible interactions:
 
 - `Stop the process`{.action}: Allows you to cancel the migration. Items that have already been migrated will remain in the destination account.
--`Delete migrated elements`{.action}: Enables you to delete elements that have already been migrated to the destination account. You can clear items from a specific synchronization point.
+- `Delete migrated elements`{.action}: Enables you to delete elements that have already been migrated to the destination account. You can clear items from a specific synchronization point.
 - `Synchronize`{.action}: Used to retrieve new elements that were not migrated during a previous synchronization between the source account and the destination account. We consider this action as a migration of the missing elements on the destination account from the source account.
 
 To migrate by file or multiple files, please read the “Migrate by file” and “Migrate and track multiple migrations (project mode)” sections of our guide on [Migrating email accounts via the OVH Mail Migrator](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_omm).

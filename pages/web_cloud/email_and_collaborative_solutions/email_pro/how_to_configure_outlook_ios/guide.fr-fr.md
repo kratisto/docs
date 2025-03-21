@@ -23,7 +23,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 >
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
 >
-> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [partenaire spécialisé](https://marketplace.ovhcloud.com/c/support-collaboration) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section « Aller plus loin » de ce guide.
+> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [partenaire spécialisé](/links/partner) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [Aller plus loin](#gofurther) de ce guide.
 
 ## Prérequis
 
@@ -37,10 +37,9 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 > [!warning]
 >
-> Dans nos exemples, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans nos exemples, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 >
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
->
 
 - **Lors du premier démarrage de l'application** : un assistant de configuration s'affiche, appuyez sur `Ajouter un compte`{.action}.
 
@@ -48,7 +47,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 - **Si un compte a déjà été paramétré** :
     1. Appuyez sur le cercle contenant les initiales du compte e-mail consulté ou l'icône de maison « &#8962; » dans la partie supérieure gauche de votre écran.
-    2. Appuyez sur l'engrenage «  &#9881; » dans la partie inférieure gauche de votre écran.
+    2. Appuyez sur l'engrenage « &#9881; » dans la partie inférieure gauche de votre écran.
     3. Appuyez ensuite sur `Comptes`{.action} dans le menu **Réglages**.
     4. Appuyez sur `Ajouter un compte`{.action}.
     5. Appuyez sur `Compte de courrier`{.action}.
@@ -80,8 +79,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur)<br>- **Port IMAP** : 993<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail<br>- **Sécurité du port** : SSL
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur)<br>- **Port SMTP** : 587<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail<br>- **Sécurité du port** : Échecs de la commande STARTTLS
+>> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)<br>- **Port IMAP** : 993<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail<br>- **Sécurité du port** : SSL
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur)<br>- **Port SMTP** : 587<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail<br>- **Sécurité du port** : Échecs de la commande STARTTLS
 >>
 >> Pour finaliser la configuration, appuyez sur `Connexion`{.action}.
 >>
@@ -101,7 +100,7 @@ OVHcloud propose aussi une application web permettant d'accéder à votre adress
 ### Modifier les paramètres existants <a name="modify-settings"></a>
 
 1. Appuyez sur le cercle contenant les initiales du compte e-mail consulté ou l'icône de maison « &#8962; » dans la partie supérieure gauche de votre écran.
-2. Appuyez sur l'engrenage «  &#9881; » dans la partie inférieure gauche de votre écran.
+2. Appuyez sur l'engrenage « &#9881; » dans la partie inférieure gauche de votre écran.
 3. Appuyez ensuite sur `Comptes`{.action} dans le menu **Réglages**.
 4. Sélectionnez le compte concerné.
 5. Appuyez sur `Modifier les informations de connexion`{.action}.
@@ -113,7 +112,7 @@ Retrouvez les paramètres à **l'étape 3** du chapitre [Ajouter le compte](#add
 ### Supprimer un compte e-mail <a name="delete"></a>
 
 1. Appuyez sur le cercle contenant les initiales du compte e-mail consulté ou l'icône de maison « &#8962; » dans la partie supérieure gauche de votre écran.
-2. Appuyez sur l'engrenage «  &#9881; » dans la partie inférieure gauche de votre écran.
+2. Appuyez sur l'engrenage « &#9881; » dans la partie inférieure gauche de votre écran.
 3. Appuyez ensuite sur `Comptes`{.action} dans le menu **Réglages**.
 4. Sélectionnez le compte concerné.
 5. Appuyez sur `Suppression du compte`{.action}.
@@ -133,7 +132,7 @@ Cliquez sur l'onglet correspondant à votre protocole de réception :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur (entrant)** : pro**?**.mail.ovh.net
+>> - **Serveur (entrant)** : pro?.mail.ovh.net
 >> - **Port** : 993
 >> - **Type de sécurité** : SSL/TLS
 >>
@@ -141,7 +140,7 @@ Cliquez sur l'onglet correspondant à votre protocole de réception :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur (entrant)** : pro**?**.mail.ovh.net
+>> - **Serveur (entrant)** : pro?.mail.ovh.net
 >> - **Port** : 995
 >> - **Type de sécurité** : SSL/TLS
 
@@ -153,7 +152,7 @@ Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres 
 
 - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
-- **Serveur (entrant)** : pro**?**.mail.ovh.net
+- **Serveur (entrant)** : pro?.mail.ovh.net
 - **Port** : 587
 - **Type de sécurité** : SSL/TLS
 

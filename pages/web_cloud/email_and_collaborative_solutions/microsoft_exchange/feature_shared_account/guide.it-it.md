@@ -4,10 +4,6 @@ excerpt: Aggiungi e utilizza un account condiviso sulla tua soluzione Exchange
 updated: 2023-09-15
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 Un **account condiviso** è una casella email condivisa tra più account Exchange e accessibile solo tramite questi ultimi. Se un account condiviso non possiede password, è necessario delegare il suo accesso a uno o più account della piattaforma Exchange.
@@ -24,7 +20,11 @@ Un **account condiviso** è una casella email condivisa tra più account Exchang
 
 ### Aggiungi un account condiviso
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager). Accedi alla sezione `Web Cloud`{.action} e seleziona il tuo servizio di `Microsoft`{.action} e poi `Exchange`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Clicca su `Microsoft`{.action}.
+1. Clicca su `Exchange`{.action}.
+1. Seleziona la piattaforma interessata.
 
 Seleziona la scheda `Account condivisi`{.action} nel menu orizzontale e clicca su `Aggiungi un account condiviso`{.action}.
 

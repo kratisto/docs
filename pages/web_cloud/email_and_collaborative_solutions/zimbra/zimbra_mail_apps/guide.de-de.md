@@ -10,10 +10,6 @@ max-width:400px!important;
 }
 </style>
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Mit dem Zimbra Dienst bietet Ihnen OVHcloud eine kollaborative Open Source Messaging Plattform mit allen für eine professionelle Nutzung notwendigen Funktionen.  
@@ -68,7 +64,7 @@ Für den Empfang von E-Mails empfehlen wir bei der Auswahl des Kontotyps die Ver
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|pop.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|pop.mail.ovh.ca|
@@ -79,7 +75,7 @@ Für den Empfang von E-Mails empfehlen wir bei der Auswahl des Kontotyps die Ver
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|imap.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|imap.mail.ovh.ca|
@@ -92,7 +88,7 @@ Wenn Sie zum Senden von E-Mails die **SMTP**-Einstellungen in den Kontoeinstellu
 
 |Information|Beschreibung|
 |---|---|
-|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein. |
+|Benutzername|Geben Sie die **vollständige** E-Mail-Adresse ein.|
 |Passwort|Geben Sie das Passwort des E-Mail-Accounts ein.|
 |Server **EUROPA** (eingehend)|smtp.mail.ovh.net **oder** ssl0.ovh.net|
 |Server **AMERIKA / ASIEN-PAZIFIK** (eingehend)|smtp.mail.ovh.ca|

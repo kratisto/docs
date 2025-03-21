@@ -38,7 +38,7 @@ La création et la configuration de l’Object Storage peuvent être effectuées
 
 Si vous n'avez pas encore de projet Public Cloud dans votre compte OVHcloud, consultez notre guide [Créer votre premier projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project).
 
-[Créez un conteneur Object Storage](/pages/storage_and_backup/object_storage/s3_create_bucket) grâce à l’une des solutions **Object Storage (Standard ou High Performance)**. La solution Standard est recommandée car notre cas d'usage (effectuer une sauvegarde) ne nécessite généralement pas de stockage High Performance.
+[Créez un conteneur Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) grâce à l’une des solutions **Object Storage (Standard ou High Performance)**. La solution Standard est recommandée car notre cas d'usage (effectuer une sauvegarde) ne nécessite généralement pas de stockage High Performance.
 
 > [!primary]
 > Lors de la commande d’un conteneur Object Storage auprès d’OVHcloud, sélectionnez uniquement l'**Object Storage Standard** ou l’**Object Storage High Performance**. Ces conteneurs prennent entièrement en charge le protocole Amazon S3 et sont conçus pour être utilisés comme dépôts de sauvegarde.

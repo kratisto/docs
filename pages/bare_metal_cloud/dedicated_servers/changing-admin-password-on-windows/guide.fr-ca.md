@@ -2,6 +2,7 @@
 title: 'Changer le mot de passe administrateur sur un serveur dédié Windows'
 excerpt: 'Découvrez comment changer le mot de passe administrateur sur un serveur dédié Windows'
 updated: 2024-06-26
+flag: hidden
 ---
 
 ## Objectif

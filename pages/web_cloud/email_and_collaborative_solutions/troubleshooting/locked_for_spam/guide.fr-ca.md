@@ -48,7 +48,11 @@ Sélectionnez l'offre e-mail concernée dans les onglets suivants:
 > [!tabs]
 > **Exchange**
 >>
->> Connectez-vous à votre [espace client OVHcloud](/links/manager) et dirigez-vous dans la section `Web Cloud`{.action}. Cliquez sur `Microsoft`{.action} puis sur `Exchange`{.action} et sélectionnez la plateforme Exchange concernée.
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur la rubrique `Microsoft`{.action}.
+>> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
 >> 
 >> Dirigez-vous vers l'onglet `Comptes e-mail`{.action} de votre plateforme. Si la colonne « statut » de l'adresse e-mail concernée mentionne « bloqué », cliquez sur `...`{.action} à droite du compte puis sur `Débloquer`{.action}. Le déblocage de l'adresse e-mail ne se fait pas automatiquement. Il est nécessaire de contacter le support, sur le ticket d'assistance, en répondant aux 3 questions posées.<br>
 >> Passez à [l'étape 3](#step3) du guide.
@@ -57,7 +61,10 @@ Sélectionnez l'offre e-mail concernée dans les onglets suivants:
 >>
 > **MX plan**
 >>
->> Connectez-vous à votre [espace client OVHcloud](/links/manager) et dirigez-vous dans la section `Web Cloud`{.action}. Cliquez sur `Emails`{.action}, puis sélectionnez le nom de domaine concerné.
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur `E-mails`{.action}.
+>> 1. Sélectionnez le domaine concerné.
 >>
 >> Dirigez-vous vers l'onglet `Comptes e-mail`{.action} de votre plateforme. Si la colonne « statut » à droite de l'adresse e-mail concernée mentionne « Spam », cliquez sur cette mention puis sur `Répondre au ticket`{.action}. Le déblocage de l'adresse e-mail ne se fait pas automatiquement. Il est nécessaire de contacter le support, sur le ticket d'assistance, en répondant aux 3 questions posées.<br>
 >> Passez à [l'étape 3](#step3) du guide.

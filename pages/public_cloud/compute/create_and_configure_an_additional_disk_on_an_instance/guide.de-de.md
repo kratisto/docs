@@ -1,7 +1,7 @@
 ---
 title: Zusätzliches Volume auf einer Instanz erstellen und konfigurieren
 excerpt: Erfahren Sie hier, wie Sie eine neue Disk erstellen und zu Ihrer Public Cloud Instanz hinzufügen
-updated: 2024-12-24
+updated: 2024-03-21
 ---
 
 <style>
@@ -43,6 +43,42 @@ Es ist möglich, zusätzliche Volumes für Ihre OVHcloud Public Cloud Instanzen 
 
 ## In der praktischen Anwendung
 
+### Die verschiedenen Volume-Typen
+
+OVHcloud bietet drei Arten von Block Storage-Volumes, die jeweils an spezifische Leistungs-, Kapazitäts- und Kostenanforderungen angepasst sind. Mit diesen Lösungen können Sie Ihren Instanzen persistenten Speicher zuweisen und so ein hohes Maß an Zuverlässigkeit und Verfügbarkeit sicherstellen.
+
+/// details | **Classic - 500 IOPS garantiert**
+
+Das Volume Classic ist eine zuverlässige und kostengünstige Speicherlösung, die ideal für Workloads ist, die eine moderate Leistung erfordern. Es bietet 500 IOPS und ist somit für folgende Anwendungen geeignet:
+
+- Hosting klassischer Webanwendungen
+- Speicherung kleiner bis mittlerer Datenbanken
+- Datensicherung und -archivierung
+
+///
+
+/// details | **High-Speed - Bis zu 3000 IOPS**
+
+Das High-Speed-Volume wurde für Anwendungen entwickelt, die einen schnelleren Datenzugriff erfordern. Mit einer Leistung von bis zu 3000 IOPS ist es ideal für folgende Anwendungsfälle:
+
+- Transaktionsdatenbanken (MySQL, PostgreSQL, etc.)
+- Virtualisierungs- und Containerumgebungen
+- Anwendungen, die eine geringe Latenz und einen hohen Durchsatz erfordern
+
+///
+
+/// details | **High-Speed Gen2 - 30 IOPS/GB und bis zu 20.000 IOPS**
+
+High-Speed Volumes der zweiten Generation sind für die anspruchsvollsten Workloads optimiert. Mit einer Performance von 30 IOPS/GB bis zu 20.000 IOPS wird dieser Volume-Typ für folgende Anwendungen empfohlen:
+
+- Big Data und Analysen in Echtzeit
+- Künstliche Intelligenz und Machine Learning
+- Verarbeitung großer Datenbanken und High Performance Storage
+
+///
+
+![standardvolumes](images/volume-types.png){.thumbnail}
+
 ### Ein neues Volume hinzufügen
 
 > [!tabs]
@@ -54,6 +90,11 @@ Es ist möglich, zusätzliche Volumes für Ihre OVHcloud Public Cloud Instanzen 
 >> ![Projekt auswählen](images/avolume01.png){.thumbnail}
 >>
 >> Folgen Sie den Konfigurationsschritten, um die Optionen für Standort, Volumetyp und Volumekapazität auszuwählen. Geben Sie einen Namen für das Volume ein und bestätigen Sie, indem Sie auf `Volume erstellen klicken`{.action}.
+>>
+>> > [!warning]
+>> >
+>> > Hinweis: Das Volume muss in derselben Region wie die Instanz erstellt werden, mit der es verbunden werden soll. Ein in einer anderen Region erstelltes Volume kann entfernt und in der richtigen Region neu erstellt werden, oder Sie können zwischen Regionen migrieren, indem Sie [diese Anleitung](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacenter_to_another) befolgen.
+>> >
 >>
 >> ![create disk](images/avolume02.png){.thumbnail}
 >> 

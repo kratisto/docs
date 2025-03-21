@@ -70,9 +70,10 @@ hosted-private-cloud-hosted-private-cloud-powered-by-vmware-vrops: VMware vROps
 hosted-private-cloud-sap-ovhcloud: SAP on OVHcloud
 hosted-private-cloud-sap-ovhcloud-concepts: Conceptos
 hosted-private-cloud-sap-ovhcloud-getting-started: Primeros pasos
-hosted-private-cloud-sap-ovhcloud-advanced-usage: Uso avanzado
+hosted-private-cloud-sap-ovhcloud-automated-deployments: Implementaciones automatizadas
+hosted-private-cloud-sap-ovhcloud-resilience: Resiliencia
 hosted-private-cloud-sap-ovhcloud-backups: Backups
-hosted-private-cloud-sap-ovhcloud-observability: Observability
+hosted-private-cloud-sap-ovhcloud-observability: Observabilidad
 ovhcloud-labs-data-collector: Data Collector
 ovhcloud-labs-data-collector-getting-started: Primeros pasos
 ovhcloud-labs-power-web-hosting: POWER Web Hosting
@@ -286,6 +287,7 @@ web-cloud-hosting-configuring-web-hosting-plan: Configurar un web hosting Person
 web-cloud-hosting-databases: Bases de datos
 web-cloud-hosting-ftp-and-ssh: FTP y SSH
 web-cloud-hosting-getting-started: Primeros pasos
+web-cloud-hosting-general-information: Información General
 web-cloud-hosting-php: PHP
 web-cloud-hosting-redirection-and-authentication: Redirección y autenticación
 web-cloud-hosting-ssl: SSL

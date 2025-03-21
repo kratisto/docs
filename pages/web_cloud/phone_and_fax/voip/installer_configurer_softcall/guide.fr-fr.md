@@ -1,7 +1,7 @@
 ---
 title: 'Installer et configurer Softcall'
 excerpt: 'Découvrez comment installer et configurer Softcall afin de profiter de la solution Softphone'
-updated: 2025-03-17
+updated: 2025-03-21
 ---
 
 <style>
@@ -258,8 +258,7 @@ Si vous rencontrez un problème avec l'application Softcall (bug, erreur, etc.),
 1. En bas à gauche de l'interface de Softcall, cliquez sur l'icône des paramètres (représentée par une roue crantée), puis sur `Préférences`{.action}.
 1. Sur l'écran qui s'affiche, rendez-vous dans l'onglet `Avancés`{.action}.
 1. Cliquez sur le bouton `Envoyer les traces`{.action}.
-1. Le client de messagerie de votre poste de travail s'ouvre automatiquement avec le destinataire et le lien du rapport de bug pré-remplis.
-1. Envoyez l'e-mail pour transmettre ce rapport à notre équipe en charge du produit Softcall.
+1. Un lien est alors généré. Sélectionnez ce lien, copiez-le puis envoyez-le par e-mail à l'adresse suivante : [bug@softcall.app](mailto:bug@softcall.app)
 
 ///
 
@@ -347,19 +346,19 @@ Pour effectuer un transfert d'appel accompagné, suivez ces étapes :
 
 Si vous rencontrez un problème dans l'application Softcall (bug, erreur, etc.),nous vous recommandons d'envoyer un rapport d'erreurs à nos équipes en suivant ces étapes :
 
-1\. Composez le numéro `#1234#`.
-2\. Dans le menu qui s'affiche, cliquez sur `Activer les traces`{.action}.
+Composez le numéro `#1234#`.<br>
+Dans le menu qui s'affiche, cliquez sur `Activer les traces`{.action}.
 
 ![Install Softcall](images/mobile_enable_debugging.jpg){.thumbnail}
 
-3\. Reproduisez les actions qui provoquent l'anomalie.
-4\. Composez à nouveau le numéro `#1234#`.
-5\. Dans le menu qui s'affiche, cliquez sur `Envoyer les traces`{.action}.
+Reproduisez les actions qui provoquent l'anomalie.<br>
+Composez à nouveau le numéro `#1234#`.<br>
+Dans le menu qui s'affiche, cliquez sur `Envoyer les traces`{.action}.
 
 ![Install Softcall](images/mobile_submit_logs.jpg){.thumbnail}
 
-6\. Sur l'écran qui s'affiche, choisissez votre client de messagerie. Le destinataire et le lien du rapport de bug sont pré-remplis dans l'e-mail.
-7\. Envoyez l'e-mail pour transmettre ce rapport à notre équipe en charge du produit Softcall.
+Sur l'écran qui s'affiche, choisissez votre client de messagerie. Le destinataire et le lien du rapport de bug sont pré-remplis dans l'e-mail.
+Envoyez l'e-mail pour transmettre ce rapport à notre équipe en charge du produit Softcall.
 
 ///
 

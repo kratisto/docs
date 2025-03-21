@@ -4,10 +4,6 @@ excerpt: "Saiba como gerir e otimizar o espaço de armazenamento de um endereço
 updated: 2022-11-17
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Cada conta de e-mail da OVHcloud dispõe de um espaço de armazenamento dedicado. Gerir bem o seu espaço de armazenamento permite evitar a saturação, também chamada "overquota". Por predefinição, os e-mails que recebe e envia são armazenados no servidor da sua conta de e-mail. Também é possível armazenar os seus e-mails localmente no seu computador, através de um software de mensagens (Outlook, Mail de macOS, Thunderbird, etc.).
@@ -53,7 +49,7 @@ Na [Área de Cliente OVHcloud](/links/manager), aceda à secção `Web Cloud`{.a
 >>
 > **Email Pro**
 >>
->> Clique em `E-mail Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
+>> Clique em `E-mails Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**

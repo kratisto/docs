@@ -21,14 +21,22 @@ Ajouter un nom de domaine sur un service Exchange est indispensable afin de pouv
 
 ### Accéder à la gestion de votre service
 
-Une fois votre service Exchange ou E-mail Pro créé et disponible, vous pouvez le gérer depuis votre [espace client OVHcloud](/links/manager).
-
-Dans la section `Web Cloud`{.action}:
-
-- **Exchange**: Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}. 
-- **Email Pro**: Cliquez sur `Email Pro`{.action}.
-
-Sélectionnez enfin le nom du service concerné.
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur la rubrique `Microsoft`{.action}.
+>> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
+> **Email Pro**
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
+>> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>>
 
 ### Ajouter un nom de domaine
 

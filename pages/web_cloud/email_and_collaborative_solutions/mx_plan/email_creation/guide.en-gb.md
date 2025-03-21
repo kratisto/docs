@@ -26,7 +26,12 @@ You have just purchased an MX Plan email solution. It allows you to benefit from
 
 Depending on the date your service was activated and whether it was recently migrated, you are using either the legacy version or the new version of the MX Plan solution. Before you proceed with this guide, you need to check which version you are using. 
 
-To do this, log in to the [OVHcloud Control Panel](/links/manager), and open the `Web Cloud`{.action} section. Click on `Emails`{.action}, then choose the name of the MX Plan service concerned. Continue with the next steps, depending on which version you own.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Emails`{.action}.
+1. Select the domain concerned.
+
+Continue with the next steps, depending on which version you own.
 
 |MX Plan legacy version|MX Plan new version|
 |---|---|

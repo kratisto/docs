@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie wolumenem instancji Public Cloud'
 excerpt: 'Dowiedz się, jak przypisać nowy wolumen do instancji Public Cloud'
-updated: 2024-12-24
+updated: 2025-03-21
 ---
 
 <style>
@@ -44,6 +44,42 @@ Może to być przydatne w następujących przypadkach:
 
 ## W praktyce
 
+### Rodzaje wolumenów
+
+OVHcloud oferuje trzy rodzaje wolumenów Block Storage, z których każdy jest dostosowany do specyficznych potrzeb w zakresie wydajności, pojemności i kosztów. Rozwiązania te pozwalają na przypisanie trwałych wolumenów przestrzeni dyskowej do Twoich instancji i gwarantują wysoki poziom niezawodności i dostępności.
+
+/// details | **Classic - 500 IOPS gwarantowanych**
+
+Wolumen Classic to niezawodne i ekonomiczne rozwiązanie do przechowywania danych, idealne do obsługi obciążeń o umiarkowanej wydajności. Oferuje 500 gwarantowanych IOPS, dzięki czemu nadaje się do następujących zastosowań:
+
+- Hosting klasycznych aplikacji www
+- Małe i średnie przechowywanie baz danych
+- Archiwizacja i kopie zapasowe danych
+
+///
+
+/// details | **High-Speed - Do 3000 IOPS**
+
+Wolumen High-Speed jest przeznaczony dla aplikacji wymagających szybszego dostępu do danych. Dzięki wydajności do 3000 IOPS rozwiązanie to jest idealne do następujących zastosowań:
+
+- Transakcyjne bazy danych (MySQL, PostgreSQL, etc.)
+- Środowiska wirtualizacji i kontenerów
+- Aplikacje wymagające krótkiego czasu odpowiedzi i dużej przepustowości
+
+///
+
+/// details | **High-Speed Gen2 - 30 IOPS/GB i do 20 000 IOPS**
+
+Generowanie 2 wolumenów High-Speed jest zoptymalizowane pod kątem najbardziej wymagających obciążeń. Przy wydajności 30 IOPS/GB i wydajności do 20 000 IOPS ten typ wolumenu jest zalecany do następujących zastosowań:
+
+- Big Data i analizy w czasie rzeczywistym
+- Sztuczna inteligencja i Machine Learning
+- Przetwarzanie dużych baz danych i przestrzeń dyskowa o wysokiej wydajności
+
+///
+
+![Typy_wolumenow](images/volume-types.png){.thumbnail}
+
 ### Przypisz nowy wolumen
 
 > [!tabs]
@@ -55,6 +91,11 @@ Może to być przydatne w następujących przypadkach:
 >> ![Wybierz projekt](images/avolume01.png){.thumbnail}
 >>
 >> Postępuj zgodnie z kolejnymi instrukcjami, aby wybrać opcje lokalizacji, typu dysku i pojemności dysku. Wpisz nazwę wolumenu i zatwierdź, klikając `Utwórz wolumen`{.action}.
+>>
+>> > [!warning]
+>> >
+>> > Uwaga: Wolumen musi być utworzony w tym samym regionie, co instancja, do której chcesz go przypisać. Jeśli utworzysz ją w innym regionie, możesz ją usunąć i odtworzyć we właściwej lokalizacji lub możesz przenieść ją ponownie, postępując zgodnie z [tym przewodnikiem](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another).
+>> >
 >>
 >> ![create disk](images/avolume02.png){.thumbnail}
 >>

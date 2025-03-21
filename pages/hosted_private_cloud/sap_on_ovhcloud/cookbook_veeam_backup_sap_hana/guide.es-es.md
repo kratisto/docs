@@ -85,7 +85,7 @@ In this configuration, you can use a storage space, as well as an Object Storage
 
 This Backup Repository will be used to secure your backups on a secondary storage space, which can be hosted on a second OVHcloud region.
 
-To discover the steps to create an Object Storage bucket, please refer to the detailed steps in [our guide](/pages/storage_and_backup/object_storage/s3_create_bucket).
+To discover the steps to create an Object Storage bucket, please refer to the detailed steps in [our guide](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 > [!tabs]
 > **Step 1**

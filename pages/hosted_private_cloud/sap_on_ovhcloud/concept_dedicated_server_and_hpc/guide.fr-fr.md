@@ -1,7 +1,7 @@
 ---
 title: "SAP HANA on Bare Metal et serveurs d'application SAP sur VMware on OVHcloud"
 excerpt: "Cette page vous présente une architecture hybride utilisant un serveur dédié HGR-SAP et la solution VMware on OVHcloud"
-updated: 2023-09-28
+updated: 2025-03-10
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ Ce concept vous permet de construire une architecture basée sur une base de don
 
 ### 1 - Connectivité réseau
 
-Afin de garantir la qualité de la liaison entre vos locaux et votre infrastructure SAP hébergée sur OVHcloud, nous recommandons d'utiliser OVHcloud Connect. Cette solution vous fournit un lien sécurisé et performant entre vos locaux et OVHcloud. Pour obtenir plus d'informations, veuillez vous référer à la [documentation OVHcloud Connect](https://www.ovhcloud.com/fr/network/ovhcloud-connect/).
+Afin de garantir la qualité de la liaison entre vos locaux et votre infrastructure SAP hébergée sur OVHcloud, nous recommandons d'utiliser OVHcloud Connect. Cette solution vous fournit un lien sécurisé et performant entre vos locaux et OVHcloud. Pour obtenir plus d'informations, veuillez vous référer à la [documentation OVHcloud Connect](/links/network/ovhcloud-connect).
 
 Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut également être déployé avec NSX. Pour connaître les étapes de configuration d'une passerelle VPN NSX avec OVHcloud, veuillez vous référer à [notre documentation](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/nsx_configurer_un_vpn_via_une_gateway_edge).
 
@@ -29,7 +29,7 @@ Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut �
 
 La base de données SAP HANA est hébergée sur un serveur dédié de la gamme SAP HANA on Bare Metal (références HGR-SAP-1/2/3). Pour découvrir comment déployer une base de données SAP HANA sur un serveur dédié OVHcloud, nous vous conseillons [notre documentation](/pages/hosted_private_cloud/sap_on_ovhcloud/cookbook_install_sles_sap_hana_dedicated_server).
 
-Déployer une base de données SAP HANA sur un serveur dédié offre une [infrastructure aux coûts maîtrisés](https://www.ovhcloud.com/fr/bare-metal/uc-sap-hana/) conforme aux exigences SAP TDI (Tailored Datacenter Integration).
+Déployer une base de données SAP HANA sur un serveur dédié offre une [infrastructure aux coûts maîtrisés](/links/hosted-private-cloud/sap-hana) conforme aux exigences SAP TDI (Tailored Datacenter Integration).
 
 Dans le but de réduire la perte de données maximale admissible et le temps d'indisponibilité de votre infrastructure SAP sur une unique localisation OVHcloud, vous avez la possibilité d'ajouter une autre base de données SAP HANA sur un second serveur dédié et de configurer une réplication SAP HANA. Pour découvrir les différentes réplications supportées par SAP HANA, veuillez vous référer à la documentation officielle SAP disponible sur [SAP Help Portal](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/86267e1ed56940bb8e4a45557cee0e43.html?locale=en-US). Dans ce contexte, vous pourriez utiliser une réplication en mode SYNC.
 
@@ -39,12 +39,14 @@ Cette architecture vous prémunit d'une coupure de service causée par un incide
 
 Les serveurs d'application SAP sont hébergés sur la solution VMware on OVHcloud. Nous conseillons de prendre connaissance de la [SAP Note 2161991](https://launchpad.support.sap.com/#/notes/2161991), particulièrement les chapitres 2 et 3, ainsi que la [SAP Note 2015392](https://launchpad.support.sap.com/#/notes/2015392) pour appliquer une configuration de vos machines virtuelles conforme.
 
-La fonctionnalité Fault Tolerance fournie par VMware garantie la disponibilité de vos serveurs d'application SAP en cas de défauts sur l'hôte ESXi. Votre machine virtuelle est automatiquement activée sur un autre membre du cluster VMware. Nous conseillons de l'activer pour vos machines virtuelles qui hébergent les SAP Central Services (SCS), si vous ne gérez pas un cluster SAP pour ce service d'une autre manière. Le Fault Tolerance peut également être activé sur vos serveurs d'application SAP hébergeant un service critique.
+La fonctionnalité Fault Tolerance<sup>1</sup> fournie par VMware garantie la disponibilité de vos serveurs d'application SAP en cas de défauts sur l'hôte ESXi. Votre machine virtuelle est automatiquement activée sur un autre membre du cluster VMware. Nous conseillons de l'activer pour vos machines virtuelles qui hébergent les SAP Central Services (SCS), si vous ne gérez pas un cluster SAP pour ce service d'une autre manière. Le Fault Tolerance peut également être activé sur vos serveurs d'application SAP hébergeant un service critique.
 Cependant, pour être en capacité d'activer le Fault Tolerance, la machine virtuelle ne peut excéder 8 vCPU et 128 GB de mémoire.
 
 Pour les serveurs d'application SAP n'hébergeant pas de service critique, nous recommandons de vérifier que la fonctionnalité vSphere HA est activée sur votre cluster VMware. Cette fonctionnalité surveille l'état de santé de chaque hôte ESXi dans le cluster et redémarre automatiquement les machines virtuelles qui étaient hébergées sur l'hôte ESXi affecté.
 
 La fonctionnalité vSphere Distributed Resource Scheduler peut également être activée et liée à une règle VM/Host pour éviter d'héberger l'ensemble des serveurs d'application SAP sur le même hôte ESXi.
+
+<sup>1</sup> La fonctionnalité Fault Tolerance est actuellement incompatible si votre machine virtuelle utilise un groupe de ports créé et géré par NSX ([Article 317806](https://knowledge.broadcom.com/external/article?articleNumber=317806)).
 
 ### 4 - Infrastructure de sauvegarde
 
@@ -77,7 +79,7 @@ Pour en savoir plus sur l'installation d'un serveur Veeam Enterprise Plus dans v
 
 Certaines données nécessitent d'être stockées et sauvegardées avec une rétention longue pour des raisons légales et/ou techniques, idéalement dans un espace de stockage dédié avec des accès limités une fois que la donnée a été écrite. OVHcloud propose une solution nommée Cold Archive pour ce type de besoin, solution ayant un haut niveau de sécurité pour vos données.
 
-Plus d'information sur [OVHcloud](https://www.ovhcloud.com/fr/public-cloud/cold-archive/).
+Plus d'information sur [OVHcloud](/links/public-cloud/cold-archive).
 
 ### 6 - Connexion du support SAP
 

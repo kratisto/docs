@@ -81,7 +81,12 @@ Cliquez sur les onglets suivants pour des explications illustrées sur le foncti
 >
 > Selon la date d'activation de votre offre MX plan ou si celle-ci a été récemment migrée, il est possible que vous disposiez de la version historique ou de la nouvelle version de l'offre. Avant de poursuivre, vous devez identifier celle-ci.<br> 
 >
-> Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager), partie `Web Cloud`{.action}. Cliquez sur `Emails`{.action} puis choisissez le nom du service MX Plan concerné. Poursuivez selon la version que vous possédez :<br>
+> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+> 1. Cliquez sur `E-mails`{.action}.
+> 1. Sélectionnez le domaine concerné.
+>
+> Poursuivez selon la version que vous possédez :<br>
 >
 > |Version historique de l'offre MX Plan|Nouvelle version de l'offre MX Plan|
 > |---|---|

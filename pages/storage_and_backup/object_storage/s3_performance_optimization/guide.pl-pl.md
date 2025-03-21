@@ -39,7 +39,7 @@ The benefits of using multipart upload are as follows:
 
 You will need the following:
 
-- An [OVHcloud bucket](/pages/storage_and_backup/object_storage/s3_create_bucket) created
+- An [OVHcloud bucket](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) created
 - The [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html){.external} installed and configured
 - A large file split into multiple parts
 

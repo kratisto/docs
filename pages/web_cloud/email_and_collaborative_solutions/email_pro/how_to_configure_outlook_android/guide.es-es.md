@@ -4,9 +4,6 @@ excerpt: "Descubra cómo configurar una cuenta Email Pro en Adroid con la aplica
 updated: 2023-07-25
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
@@ -30,7 +27,7 @@ La configuración, la gestión y la responsabilidad de los servicios que OVHclou
 
 ### Etapa 1: recuperar los datos de la cuenta Email Pro <a name="step1"></a>
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `E-mail Pro`{.action} y seleccione la plataforma Email Pro en la que se encuentra la dirección de correo electrónico que desea configurar.
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `Email Pro`{.action} y seleccione la plataforma Email Pro en la que se encuentra la dirección de correo electrónico que desea configurar.
 
 En la nueva página, abra la pestaña `Cuentas de correo`{.action}.
 

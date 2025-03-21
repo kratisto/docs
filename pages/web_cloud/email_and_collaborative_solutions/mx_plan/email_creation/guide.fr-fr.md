@@ -26,7 +26,12 @@ Vous venez d'acquérir une solution e-mail MX Plan. Celle-ci vous permet de bén
 
 Selon la date d'activation de votre service ou si celui-ci a été récemment migré, il est possible que vous disposiez de la version historique ou de la nouvelle version de l'offre MX Plan. Avant de poursuivre, vous devez identifier celle-ci.
 
-Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager), partie `Web Cloud`{.action}. Cliquez sur `Emails`{.action}, puis choisissez le nom du service MX Plan concerné. Poursuivez selon la version que vous possédez.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action}.
+1. Cliquez sur `E-mails`{.action}.
+1. Sélectionnez le domaine concerné.
+
+Poursuivez selon la version que vous possédez.
 
 |Version historique de l'offre MX Plan|Nouvelle version de l'offre MX Plan|
 |---|---|
@@ -216,7 +221,7 @@ Si vous désirez simplement obtenir les éléments nécessaires pour configurer 
 >> |Port|465|
 >> |Type de sécurité|SSL/TLS|
 >>
-
+ 
 > [!warning]
 >
 > Si vous éprouvez des difficultés dans la configuration de votre adresse e-mail sur votre appareil, [aidez-vous de nos guides de configuration](/products/web-cloud-email-collaborative-solutions-mx-plan) ou rapprochez-vous de l'éditeur de l'application que vous utilisez, la manipulation étant inhérente à cette dernière.

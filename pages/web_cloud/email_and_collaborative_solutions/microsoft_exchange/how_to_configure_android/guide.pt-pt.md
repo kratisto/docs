@@ -13,9 +13,6 @@ updated: 2024-10-09
 }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
-
 ## Objetivo
 
 Os endereços de e-mail da oferta Exchange podem ser configurados em diferentes softwares de e-mail compatíveis. Isto permite-lhe enviar e receber e-mails no dispositivo que preferir. Encontre neste guia as etapas de configuração de um endereço de e-mail Exchange a partir da aplicação Gmail presente nos dispositivos Android.
@@ -44,7 +41,7 @@ Os endereços de e-mail da oferta Exchange podem ser configurados em diferentes 
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: ex**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
+> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
 >
 > Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `Microsoft`{.action}.
 > Clique em `Exchange`{.action} e, a seguir, na plataforma Exchange pretendida. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.

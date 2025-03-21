@@ -4,10 +4,6 @@ excerpt: 'Saiba como começar a usar a oferta MX Plan'
 updated: 2023-11-15
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Adquiriu um serviço MX Plan, que lhe permite beneficiar de endereços de e-mail, com os quais poderá enviar e receber mensagens no dispositivo que preferir.
@@ -23,7 +19,11 @@ Adquiriu um serviço MX Plan, que lhe permite beneficiar de endereços de e-mail
 
 Depois de criada e disponível a oferta MX Plan, poderá geri-la a partir da [Área de Cliente OVHcloud](/links/manager). A versão da sua oferta MX Plan (antiga ou nova) irá depender da data de ativação ou de se o serviço foi migrado recentemente. Antes de continuar, deve verificar a versão de que dispõe.
 
-Aceda à [Área de Cliente OVHcloud](/links/manager), na secção `Web Cloud`{.action}. Clique em `E-mails`{.action}e selecione o serviço MX Plan correspondente. Continue a ler em função da sua versão:
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Clique no separador `Web Cloud`{.action}.
+1. Clique em `E-mails`{.action}.
+1. Selecione o domínio em questão.
+1. Continue a ler em função da sua versão.
 
 |Versão antiga da oferta MX Plan|Nova versão da oferta MX Plan|
 |---|---|

@@ -3,10 +3,7 @@ title: "Exchange - Configure su cuenta de correo electrónico en Mail para iPhon
 excerpt: 'Cómo configurar una cuenta Exchange en un iPhone o iPad utilizando la aplicación Mail'
 updated: 2024-10-09
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
+ 
 
 ## Objetivo
 
@@ -33,7 +30,7 @@ Es posible configurar sus cuentas Exchange en el cliente de correo que usted uti
 
 > [!primary]
 >
-> En nuestro ejemplo, utilizamos el nombre del servidor: ex**?**.mail.ovh.ca. ¿Debe reemplazar el "?" por el número que designa el servidor del servicio Exchange.
+> En nuestro ejemplo, utilizamos el nombre del servidor: ex?.mail.ovh.ca. ¿Debe reemplazar el "?" por el número que designa el servidor del servicio Exchange.
 >
 > Encuentre esta cifra en el [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y, seguidamente, `Microsoft`{.action}.
 > Haga clic en `Exchange`{.action} y seleccione la plataforma Exchange. El nombre del servidor puede verse en el recuadro **«Conexión»** de la pestaña `«Información General»`{.action}.

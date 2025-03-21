@@ -21,7 +21,11 @@ Since there is a multitude of reasons why errors might occur on Exchange email a
 
 ### Running the diagnostic
 
-Log in to your [OVHcloud Control Panel](/links/manager) and switch to `Web Cloud`{.action}. Open `Microsoft`{.action}, then `Exchange`{.action} and select your service.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
 
 ![Exchange Diagnostic](images/img_4450.png){.thumbnail}
 

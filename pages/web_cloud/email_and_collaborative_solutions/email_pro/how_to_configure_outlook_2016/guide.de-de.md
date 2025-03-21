@@ -4,10 +4,6 @@ excerpt: 'Erfahren Sie hier, wie Sie Ihren E-Mail Pro Account in Outlook für Wi
 updated: 2024-10-09
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients eingerichtet werden. So können Sie Ihr bevorzugtes Gerät für Ihre E-Mail-Adressen verwenden.
@@ -41,7 +37,7 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -51,14 +47,14 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 |![Outlook](images/config-outlook-emailpro02.png){.thumbnail}|Wählen Sie zwischen IMAP und POP aus der Liste der Kontotypen. <br>Wir empfehlen die Verwendung von IMAP.|
 |Geben Sie das Passwort Ihrer E-Mail-Adresse ein und klicken Sie auf `Weiter`{.action}. |![Outlook](images/config-outlook-emailpro03.png){.thumbnail}|
 |![Outlook](images/config-outlook-emailpro04.png){.thumbnail}|Wenn Outlook Ihre Adresse nicht automatisch konfigurieren konnte, öffnet sich dieses Fenster. <br>Klicken Sie auf `Einstellungen des Accounts ändern`{.action} |
-|Geben Sie als **Eingangserver** ein: <br>- **pro**?**.mail.ovh.net** (ersetzen Sie "?" mit der Nummer Ihres Servers) <br>- Port **993**<br>- Verschlüsselungsmethode **SSL/TLS**<br><br>Geben Sie als **Ausgangserver** ein: <br>- **pro**?**.mail.ovh.net** (ersetzen Sie "?" mit der Nummer Ihres Servers)<br>- Port **587**<br>- Verschlüsselungsmethode **STARTTLS**<br><br>Klicken Sie auf `Weiter`{.action}, um zu bestätigen. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
+|Geben Sie als **Eingangserver** ein: <br>- **pro?.mail.ovh.net** (ersetzen Sie "?" mit der Nummer Ihres Servers) <br>- Port **993**<br>- Verschlüsselungsmethode **SSL/TLS**<br><br>Geben Sie als **Ausgangserver** ein: <br>- **pro?.mail.ovh.net** (ersetzen Sie "?" mit der Nummer Ihres Servers)<br>- Port **587**<br>- Verschlüsselungsmethode **STARTTLS**<br><br>Klicken Sie auf `Weiter`{.action}, um zu bestätigen. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
 
 Für eine **POP** Konfiguration verwenden Sie die folgenden Werte:
 
 |Servertyp|Servername|Verschlüsselung|Port|
 |---|---|---|---|
-|Eingangsserver|pro**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|SSL/TLS|995|
-|Ausgangsserver|pro**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|STARTTLS|587|
+|Eingangsserver|pro?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|SSL/TLS|995|
+|Ausgangsserver|pro?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|STARTTLS|587|
 
 ### E-Mail-Adresse verwenden
 
@@ -84,7 +80,7 @@ Das Fenster ist in zwei Bereiche unterteilt, für **eingehende** und **ausgehend
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >

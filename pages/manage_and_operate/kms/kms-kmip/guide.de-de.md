@@ -40,20 +40,20 @@ As an example, the following products were validated with the OVHcloud KMS :
 
 It's also possible to use the KMIP API directly.
 
-Authentication on this procotol is done with a client certificate, in the same way as for the REST API. It needs to open a TLS channel with a valid access certificate.
+Authentication on this protocol is done with a client certificate, in the same way as for the REST API. It needs to open a TLS channel with a valid access certificate.
 
-Then it's possible to exchange KMIP messages such as defined in the standard. Depending n the technology stack, we recommend the following libraries:
+Then it's possible to exchange KMIP messages such as defined in the standard. Depending on the technology stack, we recommend the following libraries:
 
 - PyKMIP for python: <https://github.com/OpenKMIP/PyKMIP>.
 - Libkmip for C: <https://github.com/OpenKMIP/libkmip>.
 
-You can use as well our SDK for Go : https://github.com/ovh/kmip-go
+You can use as well our SDK for Go: <https://github.com/ovh/kmip-go>
 
 ### KMIP coverage
 
 The OVHcloud KMS covers a part of 1.0 to 1.4 versions of the KMIP standard.
 
-Details of the coverage is available here:
+Details of the coverage are available here:
 
 > **Legend:**
 >

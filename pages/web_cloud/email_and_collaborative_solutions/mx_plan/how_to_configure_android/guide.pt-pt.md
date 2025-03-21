@@ -10,10 +10,6 @@ updated: 2024-10-01
 }
 </style>
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 Os endereços de e-mail do serviço MX Plan podem ser configurados em diferentes programas de e-mail compatíveis. Isto permite-lhe enviar e receber e-mails no dispositivo que preferir. Neste guia, vamos detalhar o processo de configuração de um endereço de e-mail MX Plan a partir da aplicação Gmail presente nos dispositivos Android.

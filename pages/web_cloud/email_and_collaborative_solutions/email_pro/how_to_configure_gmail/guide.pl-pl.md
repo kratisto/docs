@@ -34,9 +34,9 @@ Konta E-mail Pro mogą być skonfigurowane w jednym z kompatybilnych programów 
 
 > [!primary]
 >
-> W przewodniku używamy oznaczenia serwera: pro**?**.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
+> W przewodniku używamy oznaczenia serwera: pro?.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 >
-> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-mail Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
+> Odszukaj cyfrę w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action} =>  `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce *Logowanie* w zakładce `Informacje ogólne`{.action}.
 >
 
 Przed rozpoczęciem operacji przejdź do interfejsu online programu Gmail, korzystając z Twojej przeglądarki internetowej. Wprowadź Twoje dane identyfikacyjne przypisane do konta Gmail, a następnie zaloguj się.
@@ -59,7 +59,7 @@ Teraz podaj parametry serwera POP (serwer poczty przychodzącej) dla Twojego kon
 |---|---|
 |Nazwa użytkownika|Wpisz **pełny** adres e-mail.|
 |Hasło|Wpisz hasło przypisane do tego konta e-mail.|
-|Serwer POP|Wpisz serwer „pro**?**.mail.ovh.net”.|
+|Serwer POP|Wpisz serwer „pro?.mail.ovh.net”.|
 |Port|Wybierz port „995”.|
 
 Opcje, które możesz zaznaczyć:
@@ -86,7 +86,7 @@ Teraz podaj parametry serwera SMTP (serwer poczty wychodzącej) dla Twojego kont
 
 |Informacja|Opis |
 |---|---|
-|Serwer SMTP|Wpisz serwer „pro**?**.mail.ovh.net”.|
+|Serwer SMTP|Wpisz serwer „pro?.mail.ovh.net”.|
 |Port|Wybierz port „587”.|
 |Nazwa użytkownika|Wpisz **pełny** adres e-mail.|
 |Hasło|Wpisz hasło przypisane do tego konta e-mail.|

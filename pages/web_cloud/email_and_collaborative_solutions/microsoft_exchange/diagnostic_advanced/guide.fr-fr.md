@@ -21,7 +21,11 @@ Les erreurs sur les comptes e-mail Exchange peuvent avoir une multitude de cause
 
 ### Réaliser un diagnostic
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) dans la partie `Web Cloud`{.action}. Sélectionnez `Microsoft`{.action} puis cliquez sur `Exchange`{.action} et sélectionnez votre service.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Cliquez sur l'onglet `Web Cloud`{.action} .
+1. Cliquez sur la rubrique `Microsoft`{.action}.
+1. Cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 ![Diagnostic Exchange](images/img_4450.png){.thumbnail}
 
@@ -80,7 +84,7 @@ En fonction de l'utilisation de votre service Exchange, les serveurs MX suivants
 
 - Exchange seul : mx0.mail.ovh.net, mx1.mail.ovh.net, mx2.mail.ovh.net, mx3.mail.ovh.net et mx4.mail.ovh.net
 - Exchange + E-mail POP/IMAP hébergé par OVHcloud: mx0.mail.ovh.net, mx1.mail.ovh.net, mx2.mail.ovh.net, mx3.mail.ovh.net et mx4.mail.ovh.net
-- Exchange + E-mail POP/IMAP non hébergé par OVHcloud: ex**?**.mail.ovh.net
+- Exchange + E-mail POP/IMAP non hébergé par OVHcloud: ex?.mail.ovh.net
 
 <a name="hostname"></a>
 
@@ -108,7 +112,7 @@ Sous domaine | _autodiscover._tcp
 Priorité | 0
 Poids | 0
 Port | 443
-Cible | [ex**?**.mail.ovh.net ](#hostname) (remplacez le « ? » par le numéro correspondant au serveur de votre service Exchange)
+Cible | [ex?.mail.ovh.net ](#hostname) (remplacez le « ? » par le numéro correspondant au serveur de votre service Exchange)
 
 ### L'email de test n'a pas pu être envoyé à partir du compte
 

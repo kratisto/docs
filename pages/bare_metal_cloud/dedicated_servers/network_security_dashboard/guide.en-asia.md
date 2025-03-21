@@ -43,7 +43,7 @@ During an attack, an active mitigation action will be indicated by a warning ico
 
 ![red-line-attack](images/nsd_04_blur.PNG){.thumbnail}
 
-In the OVHcloud Control Panel, access the `Bare Metal Cloud`{.action} section. Then go to `Network`{.action} in the left-hand sidebar and click `Manage IPs`{.action}. Ensure that `Advanced mode` is enabled to see the Anti-DDoS infrastructure status and its components configuration.
+In the OVHcloud Control Panel, access the `Bare Metal Cloud`{.action} section. Then go to `Network`{.action} in the left-hand sidebar and click `IP`{.action}. Ensure that `Advanced mode` is enabled to see the Anti-DDoS infrastructure status and its components configuration.
 
 The columns correspond to the Anti-DDoS scrubbing (**Mitigation**) status, the Edge Network **Firewall** and **GAME firewall** features availability and their statuses.
 
@@ -70,7 +70,7 @@ In the OVHcloud Control Panel, accessing the dashboard can be done either from t
 
 Go to the `Bare Metal Cloud`{.action} tab, then to `Network`{.action} and select `Network Security Dashboard`{.action}.
 
-Alternatively, from the IP listing (this option is only available when the scrubbing centre is in action): Access the `Bare Metal Cloud`{.action} tab then go to `Network`{.action} and click `Public IP Addresses`{.action}. Click the `...`{.action} button and access `Network Security Dashboard`{.action}.
+Alternatively, from the IP listing (this option is only available when the scrubbing centre is in action): Access the `Bare Metal Cloud`{.action} tab then go to `Network`{.action} and click `IP`{.action}. Click the `...`{.action} button and access `Network Security Dashboard`{.action}.
 
 In the **scrubbing centre log** tab, you can retrieve all the information about attacks that were detected in the past (or that are ongoing).
 
