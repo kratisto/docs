@@ -42,7 +42,7 @@ Log in to the [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cl
 
 On the `Home`{.action} tab, click on `...`{.action} next to "Boot" in the section **Your VPS**.
 
-![rescue mode control panel](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Select `Reboot in rescue mode`{.action} from the menu and click `Confirm`{.action} in the popup window.
 
@@ -132,7 +132,7 @@ You can now apply changes to your system, for example [reset user passwords and 
 
 Once you have completed your actions in rescue mode, reboot the VPS again in the regular mode from the OVHcloud Control Panel.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Troubleshooting boot issues
 

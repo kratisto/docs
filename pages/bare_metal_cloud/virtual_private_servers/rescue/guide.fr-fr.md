@@ -42,7 +42,7 @@ Connectez-vous à votre [espace client OVHcloud](/links/manager), rendez-vous da
 
 Sous l'onglet `Accueil`{.action}, cliquez sur `...`{.action} à côté de « Boot » dans la zone **Votre VPS**.
 
-![configuration du mode rescue](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Sélectionnez `Redémarrer en mode rescue`{.action} dans le menu.
 
@@ -133,7 +133,7 @@ Vous pouvez maintenant appliquer des modifications à votre système, par exempl
 
 Une fois vos actions terminées en mode rescue, redémarrez le VPS en mode normal depuis votre espace client.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Résoudre les problèmes de démarrage
 

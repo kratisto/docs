@@ -4,10 +4,6 @@ excerpt: Descubra como utilizar o modo rescue OVHcloud para solucionar problemas
 updated: 2024-02-19
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O modo de segurança (*rescue*) é uma ferramenta fornecida pela OVHcloud para iniciar o seu VPS num sistema operativo temporário. Em seguida, você pode acessar seu sistema para executar tarefas de diagnóstico e resolver vários problemas, como por exemplo:
@@ -46,7 +42,7 @@ Ligue-se à sua [Área de Cliente OVHcloud](/links/manager), vá à secção `Ba
 
 No separador `Acolhimento`{.action}, clique em `...`{.action} junto de "Boot" na zona **O seu VPS**.
 
-![configuração do modo rescue](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Selecione `Reiniciar em modo de rescue`{.action} no menu.
 
@@ -136,7 +132,7 @@ Agora já pode aplicar alterações ao seu sistema, por exemplo [redefinir palav
 
 Depois de concluir as suas ações em modo rescue, reinicie o VPS em modo normal a partir da Área de Cliente.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Resolver problemas de arranque
 

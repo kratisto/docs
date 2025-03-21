@@ -4,10 +4,6 @@ excerpt: Descubra cómo utilizar el modo de rescate de OVHcloud para solucionar 
 updated: 2024-02-19
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
-
 ## Objetivo
 
 El modo de rescate (*rescue*) es una herramienta proporcionada por OVHcloud para arrancar su VPS en un sistema operativo temporal. A continuación, puede acceder al sistema para realizar tareas de diagnóstico y solucionar problemas como los siguientes:
@@ -46,7 +42,7 @@ Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la secc
 
 En la pestaña `Inicio`{.action}, haga clic en `...`{.action} junto al botón derecho en la zona **Su VPS**.
 
-![configuración del modo de rescate](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Seleccione `Reiniciar en modo de rescate`{.action} en el menú.
 
@@ -138,7 +134,7 @@ Ahora puede aplicar cambios al sistema, por ejemplo, [restablecer contraseñas d
 
 Una vez que haya completado las acciones en modo de rescate, reinicie el VPS en modo normal desde el área de cliente.
 
-![rescue modo control panel](images/rescue_exit.png){.thumbnail}
+![rescue modo control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Resolver problemas de inicio
 

@@ -4,10 +4,6 @@ excerpt: Dowiedz się, jak używać trybu Rescue OVHcloud do rozwiązywania prob
 updated: 2024-02-19
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
-
 ## Wprowadzenie
 
 Tryb awaryjny (*rescue*) to dostarczone przez OVHcloud narzędzie do uruchamiania Twojego serwera VPS w tymczasowym systemie operacyjnym. Po wykonaniu tych czynności można zalogować się do systemu w celu wykonania zadań diagnostycznych i rozwiązania problemów, na przykład:
@@ -46,7 +42,7 @@ Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `B
 
 W zakładce `Strona główna`{.action} kliknij `...`{.action} obok "Boot" w strefie **Twój VPS**.
 
-![Konfiguracja trybu ratunkowego](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Wybierz `Zrestartuj w trybie Rescue`{.action} w menu.
 
@@ -137,7 +133,7 @@ Możesz teraz zastosować zmiany w systemie, na przykład [zresetować hasła u�
 
 Po zakończeniu operacji w trybie Rescue zrestartuj VPS do trybu normalnego w Panelu klienta.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Rozwiązywanie problemów podczas uruchamiania
 

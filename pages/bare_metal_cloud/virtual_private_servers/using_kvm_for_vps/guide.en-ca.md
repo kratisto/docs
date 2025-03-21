@@ -41,7 +41,7 @@ Log in to the [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cl
 
 In the tab `General information`{.action}, click the button `...`{.action} next to the name of your VPS in the section **Your VPS**.
 
-![Open KVM](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/open-kvm.png){.thumbnail}
+![Open KVM](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_kvm.png){.thumbnail}
 
 ### How to open the KVM console via the OVHcloud API
 

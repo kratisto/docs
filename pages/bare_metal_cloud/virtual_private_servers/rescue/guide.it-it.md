@@ -4,10 +4,6 @@ excerpt: Scopri come utilizzare il Rescue mode OVHcloud per risolvere i problemi
 updated: 2024-02-19
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
-
 ## Obiettivo
 
 La modalità di ripristino (*rescue*) è uno strumento fornito da OVHcloud per avviare il tuo VPS in un sistema operativo temporaneo. È quindi possibile accedere al sistema per eseguire attività di diagnostica e risolvere diversi problemi, ad esempio:
@@ -46,7 +42,7 @@ Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanag
 
 Nella scheda `Home`{.action}, clicca su `...`{.action} accanto a "Boot" nella casella **Il tuo VPS**.
 
-![configurazione della modalità rescue](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Seleziona `Riavvia in modalità Rescue`{.action} nel menu.
 
@@ -137,7 +133,7 @@ A questo punto è possibile apportare modifiche al sistema, ad esempio [reimpost
 
 Una volta terminata l’operazione, riavvia il VPS in modalità normale dallo Spazio Cliente.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Risolvi i problemi di avvio
 

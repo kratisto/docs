@@ -4,10 +4,6 @@ excerpt: Erfahren Sie hier, wie Sie den OVHcloud Rescue-Modus für Ihren VPS zur
 updated: 2024-02-19
 ---
 
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
-
 ## Ziel
 
 Der Rescue-Modus ist ein von OVHcloud bereitgestelltes Tool, um Ihren VPS über ein temporäres Betriebssystem zu starten. Sie können dann auf Ihr System zugreifen, um Diagnoseaufgaben auszuführen und verschiedene Probleme zu beheben, beispielsweise:
@@ -47,7 +43,7 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in
 
 Klicken Sie im Tab `Start`{.action} auf `...`{.action} neben "Boot" im Bereich **Ihr VPS**.
 
-![Rescue-Modus](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Wählen Sie Im Menü `Neustart im Rescue-Modus`{.action}.
 
@@ -138,7 +134,7 @@ Sie können jetzt Änderungen auf Ihr System anwenden, zum Beispiel [Benutzerken
 
 Wenn Ihre Aktionen im Rescue-Modus abgeschlossen sind, starten Sie den VPS im "normalen" Modus über Ihr Kundencenter neu.
 
-![Rescue Mode Control Panel](images/rescue_exit.png){.thumbnail}
+![Rescue Mode Control Panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Boot-Probleme beheben
 
