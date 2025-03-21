@@ -1,7 +1,7 @@
 ---
 title: “3-AZ resilience - Mechanisms and reference architectures”
 excerpt: “Understand 3-AZ resilience mechanisms and explore OVHcloud reference architectures.”
-updated: 2025-03-15
+updated: 2025-03-21
 ---
 
 <style>
@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Objectives
 
-This guide aims to educate and support customers on the principles of resilience in **3-AZ** and the associated reference architectures. It details how OVHcloud services are designed to operate in a multi-AZ environment, deployment best practices and mechanisms for ensuring high availability. A table of **3-AZ** service specifications is provided, along with examples of **2-AZ** architectures to help users structure their infrastructures in a resilient way.
+This guide aims at educating and supporting customers on the principles of resilience in **3-AZ** and the associated reference architectures. It details how OVHcloud services are designed to operate in a multi-AZ environment, deployment best practices and mechanisms for ensuring high availability. A table of **3-AZ** service specifications is provided, along with examples of **2-AZ** architectures to help users structure their infrastructures in a resilient way.
 
 ## Deployment and resilience of 3-AZ services
 
@@ -30,16 +30,16 @@ The table below lists the services offered, their scope (zonal or regional), and
 
 | Service | Zonal/Local | Regional | Architecture/Configuration Best Practices      | In case of AZ failure                                                              |
 | ------- | ----------- | -------- | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Instances | X | | As instances are zonal services, they are only deployed in a single availability zone. To ensure resilience, customers must manually distribute their instances over several availability zones. Depending on your architecture and services, a regional load balancer may be the solution. For example, an active/passive clustered database distributed over two AZs can automatically switch from one instance to the other without a Load Balancer. | In the event of failure of one AZ, with resilience mechanisms, service continuity is ensured by your instances in the other AZs.
+| Instances | X | | As instances are zonal services, they are only deployed in a single availability zone. To ensure resilience, customers must manually distribute their instances over several availability zones. Depending on your architecture and services, a regional load balancer may be the solution. For example, an active/passive clustered database distributed over two AZs can automatically switch from one instance to the other without a Load Balancer. | In the event of failure of one AZ, with resilience mechanisms, service continuity is ensured by your instances in the other AZs. |
 | Private Network | | X | | DHCP/DNS agents operate in two AZs. If one AZ fails, they will be automatically reactivated in the AZ where they are not already running. |
 | Public Cloud Load Balancer ( Octavia ) | | X | The regional Load Balancer consists of an active Load Balancer and a passive Load Balancer, each deployed in a separate AZ. | The service will remain available without interruption. In the event of failure of an AZ containing a Load Balancer node, the latter will automatically be moved to the last AZ. |
 | Gateway | | X | The regional gateway consists of an active and a passive gateway, each deployed in a separate AZ. If an AZ containing a Gateway node fails, it will not be recreated in another AZ. | The service will remain available without interruption. |
-| Floating Ip | | X | The customer can attach a multi-AZ floating IP to any instance or Load Balancer in any AZ. | The service will remain available without interruption. |
-| Object Storage ( Standard class) | X | | Object Storage is a regional service offering advanced data protection options, including integrated off-site replication via the control panel and S3-compatible asynchronous replication via the API for custom configuration. | No impact on Object Storage service or data. Data remains available for read and write operations, even in the event of AZ failure. This configuration is ideal for high-availability, fault-tolerant applications. Once the AZ is restored, chunks are moved to the affected AZ. Learn more [here.](/pages/storage_and_backup/object_storage/s3_regions_comparison)
+| Floating Ip | | X | The customer can attach a multi-AZ Floating IP to any instance or Load Balancer in any AZ. | The service will remain available without interruption. |
+| Object Storage ( Standard class) | X | | Object Storage is a regional service offering advanced data protection options, including integrated off-site replication via the Control Panel and S3-compatible asynchronous replication via the API for custom configuration. | No impact on Object Storage service or data. Data remains available for read and write operations, even in the event of an AZ failure. This configuration is ideal for high-availability, fault-tolerant applications. Once the AZ is restored, chunks are moved to the affected AZ. Learn more [here](/pages/storage_and_backup/object_storage/s3_regions_comparison). |
 | Block storage High Speed | X | | HighSpeed is a zonal service with triple replication within a single AZ. To ensure resilience, customers must manually deploy HighSpeed Block Storage on several AZs to ensure service continuity. The use of volume backups (local or distant) can also be interesting in some use cases to restore local block storage. | In the event of a major outage, as the service is zonal, customers could lose their data and will have to recreate their Block volume (from backups for example) when the AZ is restored. |
 | Block storage Classic Multi-Zone | | X | Block Storage Classic is a regional service using distributed erasure coding across several AZs. Off-site replication is recommended to protect against regional failure. | Block Storage data will remain available without impact or downtime. In the event of a major incident, chunks will be recreated as soon as the AZ is restored. |
 | Managed Kubernetes Service | | X | With the Managed Kubernetes on 3-AZ regions, the Control Plane is distributed over 3 AZs. The customer must deploy worker nodes on several AZs and use Multi-Zone/Regional Block Storage for persistent volumes. | In the event of an AZ failure, the Control Plane remains available and the customer's workload is rescheduled on the nodes on another available AZ. <br> Note that workloads using persistent volumes of single-zone classes cannot be migrated to other AZs. When the AZ is restored, the Control Plane will become available again in the AZ and the unmigrated workload will resume. |
-| DBaaS | | X | Database nodes are distributed across several nodes in different AZs. Backup is useful in the event of regional failure or for a single-node database. | In the event of an AZ failure, databases and data will remain available. The Production and Advanced offerings include at least two nodes, ensuring no service interruption. Backups are automatically managed by our services and stored off-site. Learn more [here.](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups) |
+| DBaaS | | X | Database nodes are distributed across several nodes in different AZs. Backup is useful in the event of regional failure or for a single-node database. | In the event of an AZ failure, databases and data will remain available. The Production and Advanced offerings include at least two nodes, ensuring no service interruption. Backups are automatically managed by our services and stored off-site. Learn more [here](/pages/public_cloud/public_cloud_databases/databases_05_automated_backups). |
 <!-- | Private Registry | | X | Based on S3, with a Control Plane distributed over several geographical zones. Off-site replication is recommended in the event of regional failure. | In the event of AZ failure, the registry remains available. <br> On the basis of S3 3-AZ/regional storage, the data will remain available without impact. <br> The chunks will be recreated once the AZ is operational again. | -->
 <!-- | Rancher | | X | Rancher managed service is a “global” service | No impact | -->
 <!-- | File storage | | | File Storage is a zonal service with EC/triple replication within a single AZ. It is recommended to set up a backup or snapshot in another AZ. | In the event of a major outage, as the service is zonal, customers could lose their data and will have to recreate their file (from backups for example) when the AZ is restored. | -->
@@ -51,7 +51,7 @@ The table below lists the services offered, their scope (zonal or regional), and
 > When deploying a zonal/local service (e.g. Compute instances or HighSpeed Block storage), this means that the service is compatible with the 3-AZ regions, but not automatically deployed in each single AZ of the region.
 >
 > - For a 2-AZ architecture, you must manually create an instance in AZ-a and AZ-b.
-> - For a 3-AZ architecture, you need to create one in AZ-a, AZ-b and AZ-c.
+> - For a 3-AZ architecture, you need to create one instance in AZ-a, AZ-b and AZ-c.
 >
 
 This section presents reference architectures for multi-AZ deployment, illustrating different resilience scenarios in the face of AZ failure. Through detailed diagrams and technical explanations, we highlight best practices for designing robust infrastructures, guaranteeing service availability and optimizing disaster recovery.
@@ -95,7 +95,7 @@ Thanks to dynamic service transfer between availability zones, the application r
 
 /// details | **2 AZ deployment with local Block Storage**
 
-This diagram illustrates a 2 AZ deployment architecture with local Block Storage service.
+This diagram illustrates a 2 AZ deployment architecture with a local Block Storage service.
 
 ![2-az with local Block Storage](images/2az-with-local-storage.png){.thumbnail}
 
@@ -118,7 +118,7 @@ This diagram illustrates a 2 AZ deployment architecture with local Block Storage
 - The app remains available, but the app no longer works in High Availability (HA) mode.
 - Since the Block Storage service is local and not regional, data stored on the AZ-a instance can be temporarily or definitely (in case of major outage) lost until the zone is restored.
 
-Thanks to dynamic service transfer between availability zones, the application remained active throughout the incident, without interruption to users. Once AZ-a is restored, the application returns to its initial state and becomes high-available again. A pre-scheduled backup can be useful to recover data and restore Block volume in case of major outage.
+Thanks to dynamic service transfer between availability zones, the application remained active throughout the incident, without interruption to users. Once AZ-a is restored, the application returns to its initial state and becomes high-available again. A pre-scheduled backup can be useful to recover data and restore Block Storage volumes in case of major outage.
 
 ///
 
