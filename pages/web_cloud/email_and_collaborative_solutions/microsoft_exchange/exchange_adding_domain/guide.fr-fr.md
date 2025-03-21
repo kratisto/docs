@@ -1,7 +1,7 @@
 ---
 title: Ajouter et gérer un nom de domaine sur une plateforme e-mail
 excerpt: Découvrez comment ajouter un nom de domaine à votre plateforme Exchange ou E-mail Pro
-updated: 2023-06-14
+updated: 2025-03-21
 ---
 
 <style>
@@ -15,7 +15,7 @@ updated: 2023-06-14
 
 ## Objectif
 
-Ajouter un nom de domaine sur un service Exchange est indispensable afin de pouvoir utiliser vos comptes inclus dans ce dernier. Il est également possible d'ajouter plusieurs noms de domaine à un service Exchange ou E-mail Pro.
+Ajouter un nom de domaine sur un service Exchange ou E-mail Pro est indispensable pour utiliser vos comptes inclus dans ce dernier. Il est possible d'ajouter plusieurs noms de domaine à un service Exchange ou E-mail Pro.
 
 **Découvrez comment ajouter un nom de domaine à votre plateforme Exchange ou E-mail Pro.**
 
@@ -49,20 +49,20 @@ Ajouter un nom de domaine sur un service Exchange est indispensable afin de pouv
 
 ### Ajouter un nom de domaine
 
-1. Cliquez sur l'onglet `Domaine associés`{.action}.
-1. Le tableau affiche les noms de domaine actuellement associés à votre service.
+1. Cliquez sur l'onglet `Domaine associés`{.action} de votre plateforme Exchange ou E-mail Pro.
+1. Le tableau qui s'affiche vous indique les noms de domaine actuellement associés à votre service.
 1. Cliquez sur le bouton `Ajouter un domaine`{.action}.
-
-> [!warning]
->
-> Toutes les adresses créées sur votre service e-mail seront en mesure de visualiser dans l'annuaire l'ensemble des adresses de ce service, y compris celles possédant un nom de domaine différent. Pour dissocier l'affichage des domaines, vous devez commander une autre [plateforme Exchange ou Email Pro](/links/web/emails) pour le ou les noms de domaine concernés.
->
 
 ![Add Domain](images/add_domain_exchange_step1.png){.thumbnail .w-400}
 
+> [!warning]
+>
+> Par défaut, l'ensembles des comptes e-mail d'une plateforme sont interconnectés. Toutes les adresses créées sur votre service e-mail seront en mesure de visualiser l'ensemble des adresses de ce service dans l'annuaire, y compris celles possédant un nom de domaine différent. Pour dissocier l'affichage des domaines, il est nécessaire de commander une autre [plateforme Exchange ou Email Pro](/links/web/emails) pour le ou les noms de domaine concernés.
+>
+
 Sur la fenêtre d'ajout de domaine :
 
-- **sélectionner un domaine dans la liste** : seuls les noms de domaine pour lesquels vous avez la gestion complète ou leur zone DNS dans votre espace client OVHcloud s'affichent.
+- **sélectionner un domaine dans la liste** : seuls les noms de domaine pour lesquels vous avez la gestion complète ou celle de la zone DNS, dans votre espace client OVHcloud, s'affichent.
 
 - **saisir un nom de domaine non géré par votre compte OVHcloud** : vous devrez être en mesure de modifier la configuration du nom de domaine, plus précisément sa zone DNS, afin que le service puisse être configuré.
 
@@ -75,6 +75,7 @@ La fenêtre affiche désormais des informations concernant la configuration des 
 - **Si vous avez sélectionné dans la liste un nom de domaine géré par OVHcloud** : vous avez le choix entre deux modes.
     - **Configuration recommandée** : votre zone DNS sera configurée automatiquement. Convient si vous n'avez pas de configuration spécifique dans votre zone DNS pour les enregistrements MX, SPF, DKIM et SRV.
     - **Configuration personnalisée** : Convient si vous avez déjà configuré une offre e-mail sur votre nom de domaine, vous pouvez choisir les éléments qui vous intéressent.
+        - Si souhaitez utiliser un service e-mail privé ou externe à OVHcloud, en complément de cette plateforme e-mail, renseigner le nom d'hôte du serveur e-mail dans le cadre `URL du serveur email cible`.
         - *Configurer l'enregistrement MX automatiquement* : il permet de saisir automatiquement les serveurs de réception OVHcloud (s'applique à toutes les offres e-mail OVHcloud).
         - *Configurer l'enregistrement SPF automatiquement* : il permet de saisir automatiquement l'enregistrement autorisant les serveurs e-mail d'envoi OVHcloud à transmettre vos e-mails. Cet enregistrement est valable pour l'ensemble des offres e-mail OVHcloud.
         - *Configurer l'enregistrement DKIM automatiquement* : il permet de saisir automatiquement les enregistrements nécessaires pour authentifier vos envois d'e-mails.
@@ -90,7 +91,7 @@ La fenêtre affiche désormais des informations concernant la configuration des 
 
 En fin de configuration, nous vous invitons à vérifier les informations qui s'affichent, puis à cliquer sur le bouton `Confirmer`{.action} pour valider l'ajout du domaine.
 
-### Configurer le nom de domaine (DNS)
+### Configurer le nom de domaine (zone DNS)
 
 Une fois le nom de domaine ajouté en tant que domaine associé, assurez-vous que la configuration de ce dernier est correcte grâce au tableau qui s'affiche. Une pastille de couleur verte indique que le nom de domaine est correctement configuré. Dans le cas où la pastille est de couleur rouge :
 
@@ -119,17 +120,17 @@ Il est possible de modifier le mode d'un domaine associé sur votre plateforme. 
 >
 > **Autoritatif / Non-authoritatif**
 >
-> - Lorsqu'un e-mail est transmis vers votre plateforme e-mail (*Server A*) en mode **autoritatif**, cela signifie que toutes les adresses e-mail de votre nom de domaine sont uniquement hébergées sur cette plateforme. <br> <br> Par exemple, si on envoie un e-mail à l'adresse "*mary.johnson@mydomain.ovh*", le "*Server A*" renvoie un message d'échec à l'expéditeur, car cette adresse n'existe pas sur le "*Server A*".
-> - Lorsqu'un e-mail est transmis vers votre plateforme e-mail (*Server A*) en mode **non-autoritatif**, cela signifie que les adresses e-mail de votre nom de domaine sont réparties entre votre plateforme e-mail principale (*Server A*) et un autre service e-mail (*Server B*). <br> <br> Par exemple, si on envoie un e-mail à l'adresse "*mary.johnson@mydomain.ovh*", le *Server A* transmettra l'e-mail au "*Server B*" pour que ce dernier puisse le délivrer.
+> - Lorsqu'un e-mail est transmis vers votre plateforme e-mail (*Server A*) en mode **autoritatif**, cela signifie que toutes les adresses e-mail de votre nom de domaine sont uniquement hébergées sur cette plateforme. <br> <br> Par exemple, si on envoie un e-mail à l'adresse « *mary.johnson@mydomain.ovh* », le « *Server A* » renvoie un message d'échec à l'expéditeur, car cette adresse n'existe pas sur le  « *Server A* ».
+> - Lorsqu'un e-mail est transmis vers votre plateforme e-mail (*Server A*) en mode **non-autoritatif**, cela signifie que les adresses e-mail de votre nom de domaine sont réparties entre votre plateforme e-mail principale (*Server A*) et un autre service e-mail (*Server B*). <br> <br> Par exemple, si on envoie un e-mail à l'adresse « *mary.johnson@mydomain.ovh* », le *Server A* transmettra l'e-mail au « *Server B* » pour que ce dernier puisse le délivrer.
 >
-> ![Add Domain](images/add_domain_exchange_authoritative.png){.thumbnail .w-400}
+> ![Authoritative](images/add_domain_exchange_authoritative.png){.thumbnail .w-400}
 
 1. Cliquez sur l'onglet `Domaines associés`{.action}.
 1. Cliquez sur le bouton `...`{.action} sur la ligne du nom de domaien concerné.
 1. Cliquez sur `Configuration`{.action}.
 1. Sélectionnez le mode de votre choix.
 
-![Add Domain](images/add_domain_exchange_emailpro_mode.png){.thumbnail .w-400}
+![Add Domain Exchange](images/add_domain_exchange_mode.png){.thumbnail .w-400}
 
 > [!warning]
 >
@@ -141,7 +142,7 @@ Maintenant que vous avez ajouté les noms de domaine souhaités à votre service
 
 Pour rappel, toutes les adresses créées sur votre service seront en mesure de visualiser dans l'annuaire l'ensemble des adresses de ce service, y compris celles possédant un nom de domaine différent.
 
-Une fois les comptes totalement configurés, il ne vous reste plus qu’à les utiliser. Pour cela, OVHcloud met à votre disposition le **webmail** accessible à l’adresse [Webmail](/links/web/email). Pour une utilisation optimale de votre adresse sur un logiciel, assurez-vous de sa bonne compatibilité avec le service. 
+Une fois les comptes totalement configurés, il ne vous reste plus qu’à les utiliser. Pour cela, OVHcloud met à votre disposition le **webmail** accessible à l’adresse [Webmail](/links/web/email). Pour une utilisation optimale de votre adresse sur un logiciel, assurez-vous de sa bonne compatibilité avec le service.
 
 Si vous souhaitez configurer votre adresse e-mail sur un logiciel de messagerie ou un périphérique comme un smartphone ou une tablette, ou obtenir de l'aide concernant les fonctionnalités de votre service e-mail, consultez nos documentations accessibles depuis les pages [Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange) et [E-mail Pro](/products/web-cloud-email-collaborative-solutions-email-pro).
 
@@ -159,7 +160,7 @@ Dirigez-vous dans l'onglet `Domaines associés`{.action} de votre plateforme. De
 
 Si des comptes e-mail sont attachés au nom de domaine que vous souhaitez détacher, vous avez 2 possibilités :
 
-- **Attacher les comptes à un autre nom de domaine** :
+**Attacher les comptes à un autre nom de domaine** :
 
 1. Rendez-vous dans l'onglet `Comptes e-mail`{.action}.
 1. À droite des comptes à modifier, cliquez sur le bouton `...`{.action}.
@@ -168,7 +169,7 @@ Si des comptes e-mail sont attachés au nom de domaine que vous souhaitez détac
 1. Depuis la fenêtre de modification, vous pouvez modifier le nom de domaine attaché au compte via le menu déroulant.
     ![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-400}
 
-- **Supprimer les comptes de votre plateforme** :
+**Supprimer les comptes de votre plateforme** :
 
 1. Rendez-vous dans l'onglet `Comptes e-mail`{.action}.
 1. À droite du compte à supprimer, cliquez sur le bouton `...`{.action}.
