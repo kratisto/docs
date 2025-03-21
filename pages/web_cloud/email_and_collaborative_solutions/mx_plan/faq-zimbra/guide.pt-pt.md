@@ -5,6 +5,17 @@ updated: 2024-11-15
 ---
 
 <style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
 .w-600 {
   max-width:600px !important;
 }
@@ -19,7 +30,7 @@ Esta página responde às questões relativas à solução Zimbra na OVHcloud
 
 ### Questões gerais sobre as ofertas Zimbra na OVHcloud
 
-#### Zimbra, o que é isto?
+/// details | Zimbra, o que é isto?
 
 Zimbra é uma solução colaborativa de código aberto popular. Zimbra propõe numerosas funcionalidades propostas no catálogo OVHcloud.
 
@@ -36,11 +47,15 @@ Para melhor compreender, o seguinte visual mostra-lhe as tecnologias atualmente 
 >
 > Existem diferenças de funcionalidade entre a solução Zimbra utilizada na oferta MX Plan e a solução Zimbra utilizada na oferta Zimbra Starter. Encontre as funcionalidades mantidas durante a transição para a solução Zimbra para a oferta MX Plan em [quadro no final desta FAQ](#features)
 
-#### Onde posso encontrar guias?
+///
+
+/// details | Onde posso encontrar guias?
 
 Um guia de utilização do Zimbra está desde já disponível em [este endereço](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra).
 
-#### Como posso configurar o meu endereço de e-mail num software de e-mail?
+///
+
+/// details | Como posso configurar o meu endereço de e-mail num software de e-mail?
 
 Consulte a nossa página « [Configurar o seu endereço de e-mail Zimbra num programa de correio eletrónico](/pages/web_cloud/email_and_collaborative_solutions/zimbra/zimbra_mail_apps) ».
 
@@ -50,71 +65,99 @@ No âmbito da evolução da oferta MX Plan, está planificada uma migração da 
 
 Se for afetado por esta migração, encontrará aqui as questões mais frequentes sobre esta questão.
 
-#### Quais são as diferenças entre o webmail Outlook Web App (OWA) e o Zimbra?
+///
+
+/// details | Quais são as diferenças entre o webmail Outlook Web App (OWA) e o Zimbra?
 
 Zimbra oferece as mesmas funcionalidades e uma ergonomia semelhante ao OWA. Um guia de utilização do Zimbra está desde já disponível em [este endereço](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_zimbra).
 
-#### A migração oferece novas funcionalidades?
+///
+
+/// details | A migração oferece novas funcionalidades?
 
 A migração para o novo webmail mantém o mesmo nível de serviço que o anterior.
 
-#### Quando é que os meus serviços irão ser migrados?
+///
+
+/// details | Quando é que os meus serviços irão ser migrados?
 
 As notificações por correio eletrónico para cada serviço ser-lhe-ão enviadas **2 semana** e, em seguida, **1 dia** antes da migração.
 
 Os seus serviços serão migrados de forma progressiva, é possível que os seus diferentes serviços sejam migrados com várias semanas de diferença.
 
-#### Como preparar a minha migração para o Zimbra?
+///
+
+/// details | Como preparar a minha migração para o Zimbra?
 
 A migração não requer nenhuma ação da sua parte relativamente ao conteúdo das contas de e-mail.
 
 No entanto, é necessária uma curta interrupção do serviço durante a fase de migração. Assim, recomendamos vivamente que informe os seus utilizadores quando a data de migração das suas contas de e-mail lhe for comunicada.
 
-#### Tenho alguma operação a efetuar no âmbito da migração para o Zimbra?
+///
+
+/// details | Tenho alguma operação a efetuar no âmbito da migração para o Zimbra?
 
 Esta migração foi pensada para minimizar o impacto nos nossos clientes. Não é esperada qualquer manipulação da sua parte.
 
 Não é esperada qualquer manipulação da sua parte.
 
-#### É necessário prever alterações na Área de Cliente OVHcloud?
+///
+
+/// details | É necessário prever alterações na Área de Cliente OVHcloud?
 
 Não está prevista qualquer alteração na Área de Cliente. Uma vez que a migração se realiza com uma nova solução, poderão não estar disponíveis algumas funcionalidades menores nas primeiras semanas após a migração.
 
 Consulte a lista das funcionalidades e o respetivo estado para esta migração [no final desta FAQ](#features).
 
-#### Vou ter de reconfigurar o meu software de correio eletrónico?
+///
+
+/// details | Vou ter de reconfigurar o meu software de correio eletrónico?
 
 Não, a migração não requer a reconfiguração do software de e-mail
 
 Caso haja uma alteração de palavra-passe, você precisará digitar a nova palavra-passe no seu software de e-mail.
 
-#### A migração altera a faturação do meu serviço?
+///
+
+/// details | A migração altera a faturação do meu serviço?
 
 Não, a migração para o novo webmail Zimbra está incluída na sua oferta. Não há alteração na parte de faturação ou contrato do seu serviço MX Plan.
 
-#### Onde serão alojados os meus emails após a migração?
+///
+
+/// details | Onde serão alojados os meus emails após a migração?
 
 A migração faz-se dentro dos nossos datacenters franceses. Os seus dados permanecem em França.
 
-#### Haverá alterações no processamento dos meus dados?
+///
+
+/// details | Haverá alterações no processamento dos meus dados?
 
 Não estão previstas alterações no que respeita ao tratamento dos dados e à sua utilização. Pode consultar todas estas informações no contrato da sua oferta MX Plan.
 
-#### Como permanecer no webmail atual (OWA)?
+///
+
+/// details | Como permanecer no webmail atual (OWA)?
 
 Se desejar, pode migrar para uma oferta que utilize o webmail OWA, a saber, E-mail Pro ou Exchange. Para isso, consulte o nosso guia « [Migrar um endereço de e-mail MX Plan para uma conta E-mail Pro ou Exchange](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_control_panel) ».
 
-#### Posso opor-me à migração?
+///
+
+/// details | Posso opor-me à migração?
 
 Não, A OVHcloud compromete-se a fornecer um serviço com a melhor relação qualidade/preço para as suas ofertas MX Plan. Por esta razão, optámos por migrar as ofertas atuais para a solução Zimbra.
 
 No entanto, é possível continuar a beneficiar da interface OWA [ao migrar as suas contas de e-mail para uma solução E-mail Pro ou Exchange](/pages/web_cloud/email_and_collaborative_solutions/migrating/migration_control_panel)
 
-#### Posso rescindir a minha oferta MX Plan?
+///
+
+/// details | Posso rescindir a minha oferta MX Plan?
 
 Para rescindir a sua oferta na secção « Serviços » do seu espaço OVHcloud, consulte a rubrica MX Plan do nosso guia « [Como rescindir os seus serviços OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services#mxplan) ».
 
-#### As funcionalidades são mantidas, suspensas ou retiradas durante a migração para o Zimbra. <a name="features"></a>
+///
+
+/// details | As funcionalidades são mantidas, suspensas ou retiradas durante a migração para o Zimbra. <a name="features"></a>
 
 | Função | Descrição | Estado |
 |-|-|-|
@@ -134,6 +177,8 @@ Para rescindir a sua oferta na secção « Serviços » do seu espaço OVHcloud,
 |**Política de Segurança**|Esta funcionalidade da Área de Cliente, que permite alterar a política de gestão das palavras-passe, não estará presente numa primeira fase na solução Zimbra.<br>A política de segurança aplicada por predefinição nas palavras-passe requer um mínimo de 10 caracteres alfanuméricos, 1 caráter especial, 1 maiúscula.|❌|
 |**Spoofing**|O spoofing consiste em enviar um e-mail a partir de uma identidade diferente da conta de e-mail na qual é autenticado. Esta prática é incompatível com os protocolos de segurança SPF e DKIM necessários para a correta entrega dos e-mails.<br>A partir do Zimbra, pode configurar outra identidade diferente da conta de e-mail utilizada, desde que seja aplicada uma delegação.|❌|
 |**Suporte para TLS (Transport Layer Security) 1.0 e 1.1.**|As versões 1.0 e 1.1 são consideradas vulneráveis a ataques e já não cumprem as normas de segurança atuais.<br>Se o seu browser da Internet não suportar **o protocolo TLS 1.2** ou posterior, recomendamos que instale as mais recentes atualizações de segurança e funcionalidade.|❌|
+
+///
 
 ## Saiba mais
 
