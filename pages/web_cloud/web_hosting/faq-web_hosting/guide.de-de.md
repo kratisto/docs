@@ -272,10 +272,9 @@ Sie müssen in dieser Situation nichts unternehmen. Selbst wenn Ihre Domain in I
 
 > [!alert]
 >
-> Es wird nicht empfohlen, eine E-Mail-Adresse mit einem IDN-Domainnamen (internationalized domain name) in einem E-Mail-Client (Outlook, macOS Mail etc.) zu verwenden, da dies zu Inkompatibilitäten führen kann. Es gibt E-Mail-Clients, die Domainnamen mit Akzenten nicht übersetzen, was die Übertragung dieser E-Mails verhindert. Der Absender der E-Mail erhält dann eine Nachricht, dass die eingegebene Adresse nicht existiert.
+> Es wird davon abgeraten, eine E-Mail-Adresse mit einem Domänennamen-IDN (internationalized Domain Name) von einem E-Mail-Client (Outlook, Mail von macOS etc.) zu verwenden, da dies zu Inkompatibilitäten führen kann.In der Tat interpretieren einige E-Mail-Clients keine Domänennamen mit Akzenten, was die Übertragung dieser E-Mails blockiert. Der Absender der E-Mail erhält dann eine Mitteilung, dass die eingegebene Adresse nicht existiert.
 >
-> **Es wird empfohlen, zusätzlich zu Ihrer Domain mit Akzent den gleichen Domainnamen ohne diese Akzente zu reservieren, um Inkompatibilitäten beim E-Mail-Verkehr zu vermeiden.**
->
+> **Es wird empfohlen, zusätzlich zu Ihrem mit Akzenten versehenen Domainnamen denselben Domainnamen ohne Akzente zu registrieren, um eine Inkompatibilität bei E-Mail-Austauschen zu vermeiden.**
 
 ///
 

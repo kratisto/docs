@@ -272,10 +272,9 @@ Nie musisz podejmować żadnych działań w tej sytuacji. Nawet jeśli Twoja dom
 
 > [!alert]
 >
-> Odradzamy używanie adresu e-mail z nazwą domeny IDN (internationalized Domain Name) w programie pocztowym (Outlook, Mail na macOS, itp.), ponieważ może to prowadzić do niezgodności. Istnieją klienci poczty, którzy nie tłumaczą nazw domen z akcentami, co blokuje ich transmisję. Nadawca e-maila otrzyma wówczas wiadomość informującą, że wprowadzony adres nie istnieje.
+> Nie zaleca się używania adresu e-mail z nazwą domeny IDN (internationalized Domain Name) od klienta e-mail (Outlook, Mail na macOS itd.), ponieważ może to spowodować niekompatybilność. Faktycznie niektóre klientów e-mail nie interpretują nazw domen z akcentami, co blokuje transmisję tych e-maili. Wysyłający e-mail otrzymuje wtedy komunikat informujący, że wprowadzony adres nie istnieje.
 >
-> **Zalecana jest rezerwacja tej samej domeny bez tych akcentów jako uzupełnienie nazwy domeny.** W celu uniknięcia niezgodności podczas wymiany e-maili.
->
+> **Zaleca się zarezerwować, jako uzupełnienie twojej nazwy domeny z akcentami, ten sam adres domeny bez tych akcentów, aby uniknąć niekompat**
 
 ///
 

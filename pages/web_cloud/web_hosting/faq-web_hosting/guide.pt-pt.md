@@ -272,9 +272,9 @@ Não tem nada a fazer nesta situação. Mesmo que o seu domínio seja apresentad
 
 > [!alert]
 >
-> É desaconselhado utilizar um endereço de e-mail com um nome de domínio IDN (internacionalized Domain Name) num cliente de e-mail (Outlook, Mail de macOS, etc.), pois pode causar incompatibilidades. De facto, existem clientes de e-mail que não traduzem os nomes de domínio com acentos, o que bloqueia a transmissão destes e-mails. O remetente do e-mail receberá uma mensagem indicando que o endereço introduzido não existe.
+> Recomenda-se contraíndo o uso de um endereço de e-mail com um nome de domínio IDN (internacionalized Domain Name) a partir de um cliente de e-mail (Outlook, Mail do macOS, etc.), pois isso pode causar incompatibilidades. De fato, alguns clientes de e-mail não interpretam nomes de domínio com caracteres acentuados, o que bloqueia a transmissão desses e-mails. O remetente do e-mail então recebe uma mensagem indicando que o endereço inserido não existe.
 >
-> **Recomenda-se a reserva do mesmo domínio sem estes acentos, em complemento do seu nome de domínio com acento, para evitar incompatibilidades na troca de e-mails.**
+> **Recomenda-se reservar, como complemento do seu nome de domínio com caracteres acentuados, o mesmo nome de domínio sem esses acentos, a fim de evitar quaisquer incompatibilidades ao nível das trocas de e-mails.**
 >
 
 ///
