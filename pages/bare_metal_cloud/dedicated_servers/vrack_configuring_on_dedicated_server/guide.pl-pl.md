@@ -224,7 +224,7 @@ Powtórz tę procedurę dla innych serwerów i przypisz każdemu z nich nieużyw
 
 ##### Fedora
 
-Po określeniu nazwy interfejsu prywatnego (zgodnie z wyjaśnieniami [tutaj] (#vrack-interface)), wprowadź następujące polecenie, aby upewnić się, że interfejs jest poprawnie podłączony. W naszym przykładzie nasz interfejs nosi nazwę `eno2`:
+Po określeniu nazwy interfejsu prywatnego (zgodnie z wyjaśnieniami [tutaj](#vrack-interface)), wprowadź następujące polecenie, aby upewnić się, że interfejs jest poprawnie podłączony. W naszym przykładzie nasz interfejs nosi nazwę `eno2`:
 
 ```bash 
 $ nmcli device status
