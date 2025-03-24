@@ -268,13 +268,13 @@ Kontaktieren Sie einen [unserer Partner](/links/partner), um den Code Ihrer Webs
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
-Sie müssen in dieser Situation nichts unternehmen. Selbst wenn Ihre Domain in Ihrem Kundencenter mit [internationaler Notation (IDN)](https://de.wikipedia.org/wiki/Internationalisierter_Domainname){.external} angezeigt wird, funktioniert sie und wird andernorts vollkommen normal angezeigt. Die Webadresse Ihrer Website wird wie von Ihnen gewünscht angezeigt. Ihre E-Mail-Adressen werden auch bei Ihren Kontakten wie gewünscht angezeigt.
+Sie müssen in dieser Situation nichts unternehmen. Selbst wenn Ihre Domain in Ihrem Kundencenter mit [internationaler Notation (IDN)](https://de.wikipedia.org/wiki/Internationalisierter_Domainname){.external} angezeigt wird, funktioniert sie und wird andernorts normal angezeigt. Die Webadresse Ihrer Website wird wie von Ihnen gewünscht angezeigt. Ihre E-Mail-Adressen werden auch bei Ihren Kontakten wie gewünscht angezeigt.
 
 > [!alert]
 >
 > Es wird nicht empfohlen, eine E-Mail-Adresse mit einem IDN-Domainnamen (Internationalized Domain Name) von einem E-Mail-Client (Outlook, macOS Mail etc.) aus zu verwenden. Dies liegt daran, dass einige E-Mail-Clients Domainnamen nicht mit Akzentzeichen interpretieren, was die Übertragung von E-Mails verhindert. Ein Absender, der Ihnen eine E-Mail sendet, erhält dann eine automatische Nachricht, dass Ihre E-Mail-Adresse nicht existiert.
 >
-> **Es wird empfohlen, zusätzlich zu Ihrer Domain mit Akzent den gleichen Domainnamen ohne Akzente zu reservieren, um Inkompatibilitäten beim E-Mail-Verkehr zu vermeiden.**
+> **Es wird empfohlen, zusätzlich zu Ihrem Domainnamen mit Akzent den gleichen Domainnamen ohne Akzente zu reservieren, um Inkompatibilitäten beim E-Mail-Verkehr zu vermeiden.**
 >
 
 ///
