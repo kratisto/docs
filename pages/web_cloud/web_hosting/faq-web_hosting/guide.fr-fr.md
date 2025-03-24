@@ -272,9 +272,9 @@ Vous n'avez aucune action à mener dans cette situation. Même si votre domaine 
 
 > [!alert]
 >
-> L'utilisation d'une adresse e-mail avec un domaine IDN dans un logiciel de messagerie (Outlook, Mail de macOS, etc.) n'est pas recommandée et peut provoquer des incompatibilités. En effet ils existent des clients de messagerie e-mail qui ne traduisent pas les noms de domaine avec accents, ce qui bloque la transmission de ces e-mails. L'émetteur de l'e-mail reçoit un message indiquant que l'adresse saisie n'existe pas.
+> L'utilisation d'une adresse e-mail avec un domaine IDN dans un logiciel de messagerie (Outlook, Mail de macOS, etc.) n'est pas recommandée et peut provoquer des incompatibilités. En effet il existe des clients de messagerie qui ne traduisent pas les noms de domaine avec accents, ce qui bloque la transmission de ces e-mails. L'émetteur de l'e-mail reçoit un message indiquant que l'adresse saisie n'existe pas.
 >
-> Il est recommandé de réserver, en complément de votre nom de domaine avec accent, le même nom de domaine sans les accents pour éviter toutes incompatibilités au niveau des échanges d'e-mails.
+> Il est recommandé de réserver, en complément de votre nom de domaine avec accent, le même nom de domaine sans les accents pour éviter toute incompatibilité au niveau des échanges d'e-mails.
 >
 
 ///
