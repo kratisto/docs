@@ -1,7 +1,7 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Encuentre las respuestas a las preguntas más frecuentes sobre alojamiento web"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
