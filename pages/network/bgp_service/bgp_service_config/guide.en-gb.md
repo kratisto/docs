@@ -58,8 +58,8 @@ You need to provide us with the following parameters so that we can configure th
 | Location	| RBX | The location on which to deliver the service | |
 | vRack ID | 937 | vRack ID on which the BGP sessions will run | |
 | BYOIP | Y | IP block coming from the customer	| |
-| IP block | 198.51.100.0/24 | The IP block to be announced | Allowed range size: <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported range (/19 to /24) <br>&bull; IPv6 (/56) |
-| Private Subnet | 10.0.0.0 | Reserved subnet for BGP peer IPs <br> The 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers. Netmask should be /28 |  |
+| IP block | 198.51.100.0/24 | The public IP block to be used. <br> Subsets of this block may be announced : <br>&bull; For IPv4, any subset up to /32 <br>&bull; For IPv6, any subset up to /64 | Allowed range size: <br>&bull; OVHcloud IP (/24 to /30) <br>&bull; BYOIP imported range (/19 to /24) <br>&bull; IPv6 (/56) |
+| Private Subnet | 10.0.0.0 | Reserved subnet for BGP peer IPs <br> The 4 last addresses will be used by OVHcloud for OVHcloud side BGP peers. | IPv4 : Netmask /28 <br> IPv6 : Netmask /124 |
 | Peering IP 1 | 10.0.0.1 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
 | Peering IP 2 | 10.0.0.2 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
 | Peering IP 3 | 10.0.0.3 | Customer IP should be explicitly specified by customer (for OVHcloud-side monitoring) | |
