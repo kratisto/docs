@@ -1,6 +1,6 @@
 ---
 title: 'Anúncios de fim de venda/vida Web Cloud Databases'
-updated: 2025-03-17
+updated: 2025-03-25
 ---
 
 ## Objetivo
@@ -21,7 +21,6 @@ Para mais informações, consulte a [política de fim de vida das bases de dados
 |PostgreSQL 15|A definir|A definir|A definir|
 |PostgreSQL 16|A definir|A definir|A definir|
 |PostgreSQL 17|A definir|A definir|A definir|
-|Redis 6.0|2024-12-03|2025-03-03|2025-03-03|
 |Redis 7.0|A definir|A definir|A definir|
 
 ## Quer saber mais?

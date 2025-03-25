@@ -1,6 +1,6 @@
 ---
 title: 'Ogłoszenia dotyczące końca umowy sprzedaży/usługi Web Cloud Databases'
-updated: 2025-03-17
+updated: 2025-03-25
 ---
 
 ## Wprowadzenie
@@ -21,7 +21,6 @@ Więcej informacji na ten temat znajdziesz w [polityce wycofania zarządzanych](
 |PostgreSQL 15|Do określenia|Do określenia|Do określenia|
 |PostgreSQL 16|Do określenia|Do określenia|Do określenia|
 |PostgreSQL 17|Do określenia|Do określenia|Do określenia|
-|Redis 6.0|2024-12-03|2025-03-03|2025-03-03|
 |Redis 7.0|Do określenia|Do określenia|Do określenia|
 
 ## Sprawdź również
