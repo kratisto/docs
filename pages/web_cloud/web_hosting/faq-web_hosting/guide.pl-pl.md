@@ -274,7 +274,7 @@ Nie musisz podejmować żadnych działań w tej sytuacji. Nawet jeśli Twoja dom
 >
 > Odradzamy używanie adresu e-mail z nazwą domeny IDN (Internationalized Domain Name) z poziomu klienta poczty (Outlook, Mail na macOS, itp.). Wynika to z faktu, że niektórzy klienci poczty nie interpretują nazw domen przy użyciu znaków akcentowanych, co blokuje transmisję wiadomości e-mail. Nadawca, który prześle Ci wiadomość e-mail, otrzyma automatyczną wiadomość informującą, że Twój adres e-mail nie istnieje.
 >
-> **Zalecana jest rezerwacja tej samej domeny bez akcentów jako uzupełnienie nazwy domeny ze znakami akcentowanymi, co pozwoli uniknąć niezgodności między kontami e-mail.**
+> **Zalecana jest rezerwacja tej samej domeny bez akcentów jako uzupełnienie nazwy domeny ze znakami akcentowanymi, co pozwoli uniknąć wszelkich niezgodności podczas transmisji wiadomości e-mail.**
 >
 
 ///
