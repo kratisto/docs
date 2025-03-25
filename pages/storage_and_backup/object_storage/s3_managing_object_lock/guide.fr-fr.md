@@ -152,6 +152,11 @@ Le résultat devrait ressembler à ceci :
 
 ### Comment configurer une période de rétention sur un objet
 
+> [!primary]
+>
+> Avant de configurer une période de rétention Object Lock sur un objet, assurez-vous que les permissions appropriées sont accordées. Plus précisément, l’utilisateur doit avoir l’autorisation "s3:PutObjectRetention" dans sa politique IAM pour définir la période de rétention avec succès.
+>
+
 Pour appliquer une configuration de rétention sur un objet :
 
 ```bash
@@ -203,6 +208,11 @@ aws s3api delete-object \
 ```
 
 ### Comment configurer Object Lock Legal hold sur un objet
+
+> [!primary]
+>
+> Avant de placer un objet en Legal Hold, assurez-vous que les permissions nécessaires sont accordées. L’utilisateur doit avoir la permission "s3:PutObjectLegalHold" dans sa politique IAM pour appliquer ou supprimer un Legal Hold.
+>
 
 Pour appliquer une configuration Legal hold à l'objet spécifié :
 
