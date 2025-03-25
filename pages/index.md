@@ -1240,6 +1240,7 @@
         + [General Information](web-cloud-hosting-general-information)
             + [IP address list for Web Hosting clusters](web_cloud/web_hosting/clusters_and_shared_hosting_IP)
             + [Technical specifications of Web Hostings](web_cloud/web_hosting/hosting_technical_specificities)
+            + [Web Hosting - Available language versions](web_cloud/web_hosting/web_hosting_main_info)
             + [PHP - End-of-Support & End-Of-Life announcements](web_cloud/web_hosting/php_eol_eos)
         + [Getting started](web-cloud-hosting-getting-started)
             + [Activating the 100M free hosting plan](web_cloud/web_hosting/activate_start10m)
