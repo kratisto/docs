@@ -1,6 +1,6 @@
 ---
 title: Web Cloud Databases - EOL und EOS Ankündigungen
-updated: 2025-03-17
+updated: 2025-03-25
 ---
 
 ## Ziel
@@ -22,7 +22,6 @@ Weitere Informationen erhalten Sie auf der Seite zur [EOL Policy für Managed Da
 |PostgreSQL 15|Noch festzulegen|Noch festzulegen|Noch festzulegen|
 |PostgreSQL 16|Noch festzulegen|Noch festzulegen|Noch festzulegen|
 |PostgreSQL 17|Noch festzulegen|Noch festzulegen|Noch festzulegen|
-|Redis 6.0|2024-12-03|2025-03-03|2025-03-03|
 |Redis 7.0|Noch festzulegen|Noch festzulegen|Noch festzulegen|
 
 ## Weiterführende Informationen
