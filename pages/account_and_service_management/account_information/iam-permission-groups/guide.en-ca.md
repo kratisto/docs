@@ -1,7 +1,7 @@
 ---
 title: List of permission groups managed by OVHcloud
 excerpt: Details of permission groups provided by OVHcloud
-updated: 2025-03-19
+updated: 2025-04-15
 ---
 
 <style>

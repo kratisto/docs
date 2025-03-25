@@ -1,7 +1,7 @@
 ---
 title: "Liste des groupes de permissions d'OVHcloud"
 excerpt: "Détail des groupes de permissions mis à disposition par OVHcloud"
-updated: 2025-03-19
+updated: 2025-04-15
 ---
 
 <style>
