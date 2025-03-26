@@ -116,7 +116,7 @@ Pour vérifier que la configuration d'un nom de domaine est correcte, reposition
 
 ### Modifier le mode d'un domaine associé
 
-Il est possible de modifier le mode d'un domaine associé sur votre plateforme. Avant, il est nécessaire de comprendre la différence de fonctionnement entre les modes autoritatif et non-autoritatif.
+Il est possible de modifier le mode d'un domaine associé sur votre plateforme. Au préalable, il est nécessaire de comprendre la différence de fonctionnement entre les modes autoritatif et non-autoritatif.
 
 > [!primary]
 >
