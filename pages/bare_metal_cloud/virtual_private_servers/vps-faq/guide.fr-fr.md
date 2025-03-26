@@ -76,7 +76,7 @@ OVHcloud ne fournit pas de sauvegarde des données hébergées sur votre VPS. Vo
 
 ### Comment sécuriser mon VPS ?
 
-Par défaut le VPS est fourni « nu », aucune configuration de sécurité n’est présente sur ce dernier. C’est donc la première action que vous devez entreprendre à la réception.
+Par défaut le VPS est fourni « nu », aucune configuration de sécurité n’est présente sur ce dernier. C’est donc la première action que vous devez entreprendre dès la livraison de votre VPS.
 Pour ce faire, n’hésitez pas à consulter le guide « [Sécuriser un VPS](/pages/bare_metal_cloud/virtual_private_servers/secure_your_vps) ».
 
 ### Quelle est la bande passante allouée à mon VPS ? Est-elle garantie ?
@@ -89,7 +89,7 @@ OVHcloud propose un SLA de 99,9% sur l’ensemble des gammes VPS.
 
 ### Comment accéder à mon Backup Storage depuis une adresse IP différente de mon service ?
 
-L'accès à votre backup FTP peut être restreint au service auquel il est lié via votre espace client OVHcloud.
+L'accès à votre Backup Storage (backup FTP) peut être restreint au service auquel il est lié via votre espace client OVHcloud.
 
 Afin d'autoriser des adresses IP supplémentaires depuis lesquelles vous souhaitez accéder à votre Backup Storage, vous pouvez utiliser l'API OVHcloud.
 Cela vous permettra de récupérer vos sauvegardes de données depuis un service différent via différents protocoles (FTP, NFS, CIFS).
