@@ -23,8 +23,9 @@ Before submitting a Pull Request, please ensure you have:
 - 📝 Edited or blurred any sensitive/private information from your text and images (IPs, user IDs, private URLs, etc.)
 -->
 
-## What type of Pull Request is this? (check all applicable)
+## What type of Pull Request is this?
 
+<!-- Check [X] all applicable: -->
 - [ ] New guide(s) <!-- You need to create a meta.yaml file and edit the index: https://github.com/ovh/docs/blob/develop/pages/index.md -->
 - [ ] Update of existing guide(s)
 - [ ] Fix
@@ -38,8 +39,7 @@ Before submitting a Pull Request, please ensure you have:
 
 ## Mandatory information
 
-Please check the following when applicable:
-
+<!-- Check the following when applicable: -->
 - [ ] This Pull Request can be merged as soon as possible.
 - [ ] This Pull Request shouldn't be merged before (indicate a date): YYYY-MM-DD
 
