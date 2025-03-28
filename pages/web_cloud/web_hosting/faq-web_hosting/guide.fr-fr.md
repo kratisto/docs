@@ -1,7 +1,7 @@
 ---
 title: "Hébergement Web - FAQ"
 excerpt: "Retrouvez les principales questions posées sur les hébergements web OVHcloud"
-updated: 2025-03-27
+updated: 2025-03-28
 ---
 
 <style>
@@ -95,7 +95,7 @@ A cet endroit, vous pourrez gérer le(s) mot(s) de passe de votre (vos) base(s) 
 Pour cela, réalisez les étapes suivantes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
-2. Cliquez sur le menu `E-mails`{.action} (ou sur le menu `MX Plan`{.action}), puis choisissez le nom de domaine concerné.
+2. Cliquez sur le menu `E-mails`{.action} (ou sur le menu `MX Plan`{.action} si vous utilisez la version bêta de l'espace client OVHcloud), puis choisissez le nom de domaine concerné.
 3. Sur la page qui s'affiche, cliquez sur l'onglet `Emails`{.action}.
 4. Dans le tableau qui apparaît, cliquez sur le bouton `...`{.action} situé à droite de l'adresse e-mail concernée, puis cliquez sur `Changer le mot de passe`{.action}.
 
@@ -171,6 +171,36 @@ A cet endroit, vous pourrez gérer les noms de domaine/sous-domaines déclarés 
 > [!success]
 >
 > Si besoin, consultez en complément notre guide détaillé « [Partager son hébergement web entre plusieurs sites web](/pages/web_cloud/web_hosting/multisites_configure_multisite) ».
+
+///
+
+/// details | Comment afficher mon site web avec une URL en « HTTPS » ?
+
+Pour que votre site web soit accessible avec une URL en « HTTPS » (exemple: `https://domain.tld`), deux prérequis sont nécessaires:
+
+- Vous devez disposer d'un certificat SSL actif pour votre nom de domaine (ou installé sur votre hébergement web)
+- Au niveau du code source de votre site web, celui-ci doit forcer la réécriture des URLs en « HTTPS ».
+
+Sur les hébergements web, OVHcloud propose plusieurs certificats SSL.
+
+Pour activer un certificat SSL sur votre hébergement web pour votre site web, réaliser les étapes suivantes :
+
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
+2. Cliquez sur le menu `Hébergements`{.action}, puis choisissez l'hébergement web concerné.
+3. Sur la page qui s'affiche et dans l'encadré **Configuration**, cliquez sur le bouton `...`{.action} situé à droite de la mention **Certificat SSL**, puis sur `Commander un certificat SSL`{.action}.
+4. [Choisissez le certificat que vous souhaitez parmi la liste des certificats disponibles](/pages/web_cloud/web_hosting/ssl_on_webhosting), puis poursuivez jusqu'à la finalisation du bon de commande.
+
+> [!success]
+>
+> Si besoin, consultez en complément les guides détaillés suivants :
+>
+> - « [Hébergement web - Gérer un certificat SSL](/pages/web_cloud/web_hosting/ssl_on_webhosting) ».
+> - « [Hébergement web - Activer un certificat SSL gratuit Let's Encrypt](/pages/web_cloud/web_hosting/ssl_letsencrypt) ».
+> - « [Hébergement web - Activer un certificat SSL Sectigo DV](/pages/web_cloud/web_hosting/ssl_dv) ».
+> - « [Hébergement web - Activer un certificat SSL Sectigo EV](/pages/web_cloud/web_hosting/ssl_ev) ».
+> - « [Hébergement web - Installer un certificat SSL personnalisé](/pages/web_cloud/web_hosting/ssl_custom) ».
+
+Une fois le certificat SSL de votre choix installé et mis en place côté OVHcloud, vérifiez que le code source de votre site web réécrit bien les URLs d'accès à votre site web en « HTTPS ». Si vous épprouvez des difficultés sur ce point, contactez votre Webmaster ou l'un de nos [partenaires](/links/partner).
 
 ///
 
@@ -340,7 +370,7 @@ Dès lors où les suppressions sont terminées, réalisez une nouvelle installat
 
 > [!success]
 >
-> Si besoin, consultez en complément notre guide détaillé « [Hébergement Web - Installer un module en 1 clic](/pages/web_cloud/web_hosting/cms_install_1_click_modules) »
+> Si besoin, consultez en complément notre guide détaillé « [Hébergement Web - Installer un module en 1 clic](/pages/web_cloud/web_hosting/cms_install_1_click_modules) ».
 
 ///
 
@@ -405,14 +435,63 @@ Pour corriger cela, réaliser les étapes suivantes :
 2. Cliquez sur le menu `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
 3. Sur la page qui s'affiche, cliquez sur l'onglet `Serveurs DNS`{.action}.
 4. Notez ensuite les noms des serveurs DNS indiqués, puis rendez-vous dans l'onglet `Zone DNS`{.action} (à droite de l'onglet `Serveurs DNS`{.action}).
+5. Dans le tableau (représentant la zone DNS du nom de domaine) qui apparaît, comparez les `Cibles` des entrées de type `NS` présentes dans la zone DNS avec les noms des serveurs DNS récupérés précédemment. 3 cas de figure peuvent survenir. Cliquez sur les onglets ci-dessous afin d'afficher successivement chacun des **3** cas.
 
-Comparez les `Cibles` des entrées de type `NS` indiquées dans l'onglet `Zone DNS`{.action} avec les `Serveurs DNS` indiqués dans l'onglet du même nom :
-
-- Si les éléments sont identiques, remplacez la cible `213.186.33.5` par le code à quatre nombres noté dans l'onglet `Informations générales` sous la mention `IPv4` (pour plus de détails sur les manipulations à effectuer, suivez les instructions de [ce guide](/pages/web_cloud/domains/dns_zone_edit)).
-
-- Si les éléments ne sont pas identiques, mais que les `Serveurs DNS` indiqués dans l'onglet du même nom apparaissent dans [cette liste](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), effectuez une réinitialisation en suivant les instructions de [ce guide](/pages/web_cloud/domains/dns_server_edit).
-
-- Si les éléments ne sont pas identiques et que les `Serveurs DNS` indiqués dans l'onglet du même nom n'apparaissent pas dans [cette liste](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), contactez votre Webmaster ou recherchez un [prestataire spécialisé](/links/partner) via la page des [partenaires OVHcloud](/links/partner).
+> [!tabs]
+> **Cas n°1**
+>>
+>> Les `Cibles` (serveurs DNS) des entrées de type `NS` déclarées dans la zone DNS du nom de domaine **sont identiques** à ceux récupérés dans l'onglet `Serveurs DNS`{.action}.
+>>
+>> Dans ce cas, cela signifie que votre nom de domaine (ou son sous-domaine en *www*) pointe vers l'adresse IP de notre serveur de redirection (213.186.33.5).
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
+>> 2. Cliquez sur le menu `Noms de domaine`{.action} (ou sur le menu `Zones DNS`{.action} si vous utilisez la version bêta de l'espace client OVHcloud), puis choisissez le nom de domaine concerné.
+>> 3. Sur la page qui s'affiche, cliquez sur l'onglet `Zone DNS`{.action}.
+>> 4. Dans le tableau qui apparaît (représentant la zone DNS de votre nom de domaine), identifiez l'entrée de type `A` dont la `Cible` a pour valeur l'adresse IP `213.186.33.5`.
+>> 5. Cliquez sur le bouton `...`{.action} situé à droite de la ligne, puis sur `Modifier l'entrée`{.action}.
+>> 6. Dans la fenêtre qui s'ouvre, remplacer dans le formulaire `Cible*` l'adresse IP `213.186.33.5` par l'adresse IP de l'hébergement web où se trouve votre site web.
+>>
+>> > [!success]
+>> >
+>> > Si besoin, consultez en complément les guides détaillés suivants :
+>> >
+>> > - « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
+>> > - « [Hébergement web - Liste des adresses IP par cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP) ».
+>>
+> **Cas n°2**
+>>
+>> Les `Cibles` (serveurs DNS) des entrées de type `NS` déclarées dans la zone DNS du nom de domaine **ne sont pas identiques** à ceux récupérés dans l'onglet `Serveurs DNS`{.action}. Cependant, les `Cibles` (serveurs DNS) ont l'une des formes suivantes : 
+>>
+>> - `nsXX.ovh.net` et `dnsXX.ovh.net` **ou** `nsXXX.ovh.net` et `dnsXXX.ovh.net` (où chaque `X` désigne un chiffre compris entre **0** et **9**);
+>> - `nsXX.ovh.ca` et `dnsXX.ovh.ca` **ou** `nsXXX.ovh.ca` et `dnsXXX.ovh.ca` (où chaque `X` désigne un chiffre compris entre **0** et **9**);
+>> - `ns200.anycast.me` et `dns200.anycast.me` (si vous avez souscrit à l'option [DNS anycast](/links/web/domains-options)).
+>>
+>> > [!primary]
+>> > 
+>> > Si l'un de vos serveurs DNS déclarés dans l'onglet `Serveurs DNS`{.action} à la forme suivante : `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` ou `vpsXXXXXX.ovh.ca` (où chaque `X` désigne un chiffre compris entre **0** et **9**), consultez directement le **Cas n°3**.
+>> > En effet, il s'agit de noms de serveurs DNS fournis par OVHcloud permettant uniquement à nos clients d'héberger leur configuration DNS directement sur leur propre serveurs (Serveurs dédiés, VPS, etc.).
+>>
+>> Dans ce cas, cela signifie que votre nom de domaine n'utilise pas les bons serveurs DNS OVHcloud pour appliquer la configuration de la zone DNS présente dans l'onglet `Zone DNS`{.action}.
+>>
+>> Pour corriger cela, réalisez les étapes suivantes :
+>>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
+>> 2. Cliquez sur le menu `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
+>> 3. Sur la page qui s'affiche, cliquez sur l'onglet `Serveurs DNS`{.action}.
+>> 4. Sur la nouvelle page qui apparaît, cliquez sur le bouton `Modifier les serveurs DNS`{.action}.
+>> 5. Sur la page qui s'affiche, sélectionnez le choix `Utiliser les DNS par défaut d'OVHcloud`{.action}, puis cliquez sur le bouton `Appliquez la configuration`{.action}.
+>>
+>> La propagation de la mise à jour des serveurs DNS appliqués à un nom de domaine peut prendre jusqu'à **48** heures.
+>>
+>> > [!success]
+>> >
+>> > Si besoin, consultez en complément notre guide détaillé « [Modifier les serveurs DNS d'un nom de domaine OVHcloud](/pages/web_cloud/domains/dns_server_edit) ».
+>>
+> **Cas n°3**
+>>
+>> Les `Cibles` (serveurs DNS) des entrées de type `NS` déclarées dans la zone DNS du nom de domaine **ne sont pas identiques** à ceux récupérés dans l'onglet `Serveurs DNS`{.action}. De plus, les noms des serveurs DNS récupérés dans l'onglet `Serveurs DNS`{.action} n'ont aucune des formes décrites dans le **Cas n°2**; exception faite pour les formes suivantes : `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` ou `vpsXXXXXX.ovh.ca` (où chaque `X` désigne un chiffre compris entre **0** et **9**).
+>>
+>> Dans ce cas, cela siginfie que la zone DNS active appliquée à votre nom de domaine n'est pas gérée par OVHcloud directement. Contactez votre Webmaster, votre fournisseur de nom de domaine, votre fournisseur DNS ou l'un de nos [partenaires](/links/partner).
 
 ///
 
