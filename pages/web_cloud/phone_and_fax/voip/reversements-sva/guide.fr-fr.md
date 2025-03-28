@@ -71,16 +71,6 @@ Lorsque le cumul de vos reversements disponibles atteint la somme de 30 €, un 
 
 Le cas échéant, cliquez sur `Modifier mes coordonnées bancaires`{.action} si celles-ci sont erronées.
 
-#### Détails des reversements par numéro
-
-Pour consulter le détail complet des appels entrants et les reversements liés **par numéro**. Sélectionnez ce numéro puis cliquez successivement sur `Reversements`{.action} et `Reversement et coûts`{.action}.
-
-![reversements](images/reversements04.png){.thumbnail}
-
-Le tableau qui vous est alors présenté récapitule tous les appels entrants.
-
-![reversements](images/reversements03.png){.thumbnail}
-
 ### Numéros verts gratuits
 
 #### Coûts SVA
