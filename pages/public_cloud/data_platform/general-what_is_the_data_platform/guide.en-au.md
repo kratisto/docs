@@ -1,7 +1,7 @@
 ---
 title: Data Platform documentation
 excerpt: Learn what is OVHcloud Data Platform
-updated: 2025-03-28
+updated: 2025-03-31
 ---
 
 <style>
