@@ -6,13 +6,24 @@ updated: 2025-03-31
 
 This page's objective is to be used as a sandbox for markdown tests.
 
+## Numbered list with code-block - No tabulation
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+```bash
+lsblk
+```
+
+3. This is the third thing to do.
+
 ## Numbered list with code-block - 1 tabulation only
 
 1. This the first thing to do.
 2. This the second thing to do.
 
     ```bash
-    root@rescue
+    lsblk
     ```
 
 3. This is the third thing to do.
@@ -23,29 +34,12 @@ This page's objective is to be used as a sandbox for markdown tests.
 2. This the second thing to do.
 
         ```bash
-        root@rescue
+        lsblk
         ```
 
 3. This is the third thing to do.
 
-## Numbered list with code-block - 2 tabulations and no skipped lines
-
-1. This the first thing to do.
-2. This the second thing to do.
-        ```bash
-        root@rescue
-        ```
-3. This is the third thing to do.
-
-## Numbered list with code-block - 1 tabulation and no skipped lines
-
-1. This the first thing to do.
-2. This the second thing to do.
-    ```bash
-    root@rescue
-    ```
-3. This is the third thing to do.
-
+---
 
 ## Numbered list with image - 1 tabulation only
 
@@ -57,30 +51,31 @@ This page's objective is to be used as a sandbox for markdown tests.
 3. This is the third thing to do.
 
 
-## Numbered list with image - 2 tabulations
+## Numbered list with image - 1 tabulation with no skipped line after the image
 
 1. This the first thing to do.
 2. This the second thing to do.
 
-        ![mot de passe fax](images/motdepassefax.png){.thumbnail}
-
+![mot de passe fax](images/motdepassefax.png){.thumbnail}
 3. This is the third thing to do.
 
-## Numbered list with image - 2 tabulations and no skipped lines
+---
 
-1. This the first thing to do.
-2. This the second thing to do.
-        ![mot de passe fax](images/motdepassefax.png){.thumbnail}
-3. This is the third thing to do.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
 
-## Numbered list with image - 1 tabulation and no skipped lines
+---
+##### Linux
+---
 
-1. This the first thing to do.
-2. This the second thing to do.
-    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
-3. This is the third thing to do.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
 
+---
+##### **Ubuntu**
+---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
+
+<hr />
 
 ## Image 1
 
