@@ -47,7 +47,7 @@ Elles vous permettent de gagner du temps sur « l'administration serveur » et d
 
 ## En pratique
 
-Pour une meilleur compréhension, l'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting). 
+L'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting). 
 Chacune de ces actions sera accompagnée d'un ou plusieurs liens vers des guides spécifiques (en rapport avec l'action en question).
 
 Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possibles dès la souscription de votre offre d'[hébergement web](/links/web/hosting) et tout au long de son utilisation.
