@@ -1,10 +1,86 @@
 ---
-title: Test article for ServiceNow images loading issue
+title: Sandbox article for markdown tests
 flag: hidden
-updated: 2025-01-29
+updated: 2025-03-31
 ---
 
-This article's purpose is to show the main images loading issue currently experienced on the OVHcloud Help Centre.
+This page's objective is to be used as a sandbox for markdown tests.
+
+## Numbered list with code-block - 1 tabulation only
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+    ```bash
+    root@rescue
+    ```
+
+3. This is the third thing to do.
+
+## Numbered list with code-block - 2 tabulations
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+        ```bash
+        root@rescue
+        ```
+
+3. This is the third thing to do.
+
+## Numbered list with code-block - 2 tabulations and no skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.
+        ```bash
+        root@rescue
+        ```
+3. This is the third thing to do.
+
+## Numbered list with code-block - 1 tabulation and no skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.
+    ```bash
+    root@rescue
+    ```
+3. This is the third thing to do.
+
+
+## Numbered list with image - 1 tabulation only
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+
+3. This is the third thing to do.
+
+
+## Numbered list with image - 2 tabulations
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+        ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+
+3. This is the third thing to do.
+
+## Numbered list with image - 2 tabulations and no skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.
+        ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+3. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation and no skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+3. This is the third thing to do.
+
+
 
 ## Image 1
 
