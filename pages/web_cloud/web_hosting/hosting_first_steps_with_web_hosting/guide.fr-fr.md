@@ -59,7 +59,7 @@ Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possi
 
 **Cliquez sur chacune des étapes ci-dessous pour afficher les explications.**
 
-/// details | Étape 1 - Délimiter votre projet
+/// details | Étape 1 - Définir votre projet
 
 Avant de commencer, il est essentiel d'identifier et de délimiter clairement vos besoins en vous posant les questions suivantes : 
 
