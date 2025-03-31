@@ -167,8 +167,8 @@ Provide the following parameters:
 
 - **Credential Name** (optional).
 - **OpenStack Authentication URL**, default value can't be changed.
-- Your OpenStack **Username**, please refer to our Documentation for [Creating and deleting OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
-- your OpenStack **Password**, please refer to our Documentation for [Creating and deleting OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
+- Your OpenStack **Username**, please refer to our Documentation for [Managing OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
+- your OpenStack **Password**, please refer to our Documentation for [Managing OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
 
 Once created, the cloud credentials will be used to provision nodes in your cluster. You can reuse these credentials for other node templates or in other clusters.
 
