@@ -88,7 +88,7 @@ Si vous devez migrer un site web depuis un autre hébergeur, nous vous invitons 
 Vous pouvez choisir de créer vous-même intégralement votre site web ou d'utiliser un [CMS (Content Management System)](/links/web/hosting-cms-comparison) tel que WordPress, PrestaShop, Joomla! ou Drupal. Cliquez sur les onglets ci-dessous en fonction de votre choix :
 
 > [!tabs]
-> **Cas n°1**
+> **Utiliser un CMS**
 >>
 >> **Mettre en ligne un site web développé localement**
 >>
