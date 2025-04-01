@@ -5,14 +5,14 @@ updated: 2024-01-09
 
 ## Objectif
 
-Vous pouvez activer, selon votre [offre internet](https://www.ovhtelecom.fr/offre-internet/), une ou plusieurs lignes téléphoniques sur votre pack ADSL/VDSL/FTTH. 
+Vous pouvez activer, selon votre [offre Internet](https://www.ovhtelecom.fr/offre-internet/), une ou plusieurs lignes téléphoniques sur votre pack ADSL/VDSL/FTTH. 
 Ces dernières vous permettent d'émettre et recevoir des appels. Elles peuvent également être liées à un ou plusieurs numéros portés si vous en possédez.
 
 **Ces lignes ne sont pas livrées en même temps que l'accès ADSL/VDSL/FTTH, ce guide vous explique comment les activer.**
 
 ## Prérequis
 
-- Disposer d'un [pack ADSL/VDSL/FTTH](https://www.ovhtelecom.fr/offre-internet/) actif.
+- Disposer d'un [pack ADSL/VDSL/FTTH](/links/telecom/offre-internet) actif.
 - Disposer d'une ou plusieurs ligne(s) non activée(s) dans ce pack.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -63,7 +63,7 @@ Ce type d'activation nécessite que vous possédiez un téléphone analogique pe
 
 Vous ne pouvez activer que deux lignes sans téléphone par accès car il n'y a que deux ports analogiques disponibles sur le modem.
 
-Pour activer une ligne sans téléphone, choisissez le nombre de lignes à activer (par défaut 1 est proposé).
+Pour activer une ligne sans téléphone, choisissez le nombre de lignes à activer (par défaut, « 1 » est proposé).
 <br>Sélectionnez ensuite la case `Ligne SIP sans téléphone`{.action} puis cliquez sur `Valider la commande`{.action} en bas de page.
 
 ![activation ligne sans téléphone ](images/Activation03-edit.png){.thumbnail}
@@ -104,9 +104,9 @@ Si vous avez activé une ligne sans téléphone, vous devez posséder un simple 
 
 Pour que cette ligne soit utilisable, **les conditions suivantes doivent être remplies**:
 
-Le voyant **Voice** du modem doit être allumé pour les modems Technicolor (TG788 et TG799).
-<br>Le voyant **Phone** du modem doit être allumé sur les modems Zyxel.
-<br>Si ce n'est pas le cas, vérifiez bien que l'activation de ligne a été effectuée sur l'espace client OVHcloud et patientez une heure.
+Le voyant **Voice** du modem doit être allumé sur les modems Technicolor (TG788 et TG799).
+Le voyant **Phone** du modem doit être allumé sur les modems Zyxel.
+Si ce n'est pas le cas, vérifiez que l'activation de la ligne a bien été effectuée sur l'espace client OVHcloud et patientez une heure.
 
 ![voyants technicolor](images/2015-03-18-143620_120x314_scrot.png){.thumbnail}
 
@@ -115,7 +115,7 @@ Le voyant **Voice** du modem doit être allumé pour les modems Technicolor (TG7
 Votre téléphone analogique doit être branché sur le port **phone 1** du modem (ou le port **phone 2** si c'est la deuxième ligne sans téléphone).
 
 > [!primary]
-> Il y a une inversion de ports sur les modems Technicolor TG788 : le port **phone 2** est à gauche alors que le port **phone 1** est à droite.
+> Sur les modems Technicolor TG788, les ports **phone** sont inversés : le port **phone 2** est à gauche et le port **phone 1** est à droite.
 >
 
 ![schéma branchement tg788](images/untitled.jpg){.thumbnail}
