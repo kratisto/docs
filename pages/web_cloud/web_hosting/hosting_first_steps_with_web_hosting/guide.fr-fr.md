@@ -90,7 +90,6 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 > [!tabs]
 > **Utiliser un CMS**
 >>
->> **Mettre en ligne un site web développé localement**
 >>
 >>
 >> OVHcloud vous met à disposition l'option « Modules en 1 clic ».
