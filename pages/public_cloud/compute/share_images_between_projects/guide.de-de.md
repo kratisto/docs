@@ -14,7 +14,7 @@ Diese Funktion bietet viele Möglichkeiten, birgt aber auch Risiken. Es ist also
 
 Wenn Sie z.B. ein Image aus Projekt A für Projekt B freigeben möchten (unter demselben oder einem anderen Account), gelten die folgenden Regeln:
 
-- Bilder können nur innerhalb einer region freigegeben werden. Ein in Projekt A in der region GRA11 erstelltes image ist beispielsweise nur für Projekt B in derselben region GRA11 verfügbar.
+- Ein Image kamm nur innerhalb einer Region freigegeben werden. Ein in Projekt A in der Region GRA11 erstelltes Image ist beispielsweise nur für Projekt B in derselben Region (GRA11) verfügbar.
 - Das Image bleibt physisch an Projekt A angehängt. Das Projekt B verfügt nur über eine Zugriffsberechtigung (*access authorization*) für dieses Image.
 - Wenn Projekt A den Zugriff auf das Image unterdrückt (Löschen der ACL, Löschen des Images, Löschen des Projekts aufgrund ausstehender Zahlungen, etc.), funktionieren Instanzen, die von diesem Image aus in Projekt B ausgeführt werden, möglicherweise wegen Problemen bei Migration oder Rebuild nicht mehr.
 
@@ -26,12 +26,7 @@ Weitere Informationen finden Sie in der offiziellen [OpenStack Dokumentation](ht
 
 ## Voraussetzungen
 
-Bevor sie diese schritte ausführen, sollten Sie diese Anleitung lesen:
-
-- Sie sind mit der Vorgehensweise zur [Vorbereitung der Umgebung für die Verwendung der OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) vertraut (empfohlen).
-
-Außerdem benötigen sie folgendes:
-
+- Sie haben [Ihre Umgebung für die Verwendung der OpenStack API vorbereitet](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 - Sie haben eine [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/) in Ihrem Account erstellt.
 - Sie haben einen [OpenStack User erstellt](/pages/public_cloud/compute/create_and_delete_a_user).
 
@@ -60,7 +55,7 @@ $ openstack image list --private
 $ openstack image set --shared <Image_UUID>
 ```
 
-Sie können den folgenden Befehl ausführen, um die bilder aufzulisten, die für ein anderes projekt freigegeben werden können:
+Sie können den folgenden Befehl ausführen, um die Images aufzulisten, die für ein anderes Projekt freigegeben werden können:
 
 ```bash
 $ openstack image list --shared
@@ -69,7 +64,7 @@ $ openstack image list --shared
 
 ### Hinzufügen eines Projekts zu einem Image
 
-Im nächsten Schritt fügen Sie die UUID eines anderen Projekts als Member des Image hinzu. In unserem Beispiel unten fügen wir die UUID von Projekt B hinzu.
+Im nächsten Schritt fügen Sie die UUID eines anderen Projekts als *Member* des Image hinzu. In unserem Beispiel unten fügen wir die UUID von Projekt B hinzu.
 
 ```bash
 $ openstack image add project 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba <UUID_Project_B>
@@ -138,7 +133,7 @@ $ openstack image show 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Überprüfen der Member des Image
 
-Um alle projekte anzuzeigen, die über das quellprojekt (in diesem fall projekt A) zugriff auf das Bild haben, können Sie diesen Befehl ausführen:
+Um alle Projekte anzuzeigen, die über das Quell-Projekt (in diesem Fall Projekt A) Zugriff auf das Image haben, können Sie diesen Befehl ausführen:
 
 ```bash
 $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
@@ -150,9 +145,9 @@ $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 +--------------------------------------+----------------------------------+----------+
 ```
 
-### Entfernen eines Members aus einem Image oder Aufheben der Freigabe eines Images
+### Entfernen eines *Members* aus einem Image oder Aufheben der Freigabe eines Images
 
-Im quellprojekt (projekt A) können Sie ein mitglied der freigabe löschen:
+Im Quell-Projekt (Projekt A) können Sie ein *Member* der Freigabe löschen:
 
 ```bash
 $ openstack image remove project <image> <UUID_Project_To_Delete>
@@ -160,6 +155,6 @@ $ openstack image remove project <image> <UUID_Project_To_Delete>
 
 ## Weiterführende Informationen
 
-[Backup einer Instanz von einem Rechenzentrum in ein anderes übertragen](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another)
+[Backup einer Instanz von einer Region in eine andere übertragen](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another)
 
 Treten Sie unserer [User Community](/links/community) bei.
