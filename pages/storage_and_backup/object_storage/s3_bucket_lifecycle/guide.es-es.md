@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Smart Storage Management with Lifecycle Rules
 excerpt: Learn how to optimise your storage costs with OVHcloud lifecycle rules
-updated: 2025-03-17
+updated: 2025-04-03
 ---
 
 <style>
