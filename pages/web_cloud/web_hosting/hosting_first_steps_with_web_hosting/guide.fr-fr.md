@@ -1,5 +1,5 @@
 ---
-title: "Hébergement Web - Réaliser mon projet de site web"
+title: "Comment créer un site web - Réaliser votre projet en 5 étapes"
 excerpt: "Découvrez comment définir votre projet, publier votre site internet et créer des adresses e-mail avec votre solution d'hébergement web"
 updated: 2025-03-28
 ---
