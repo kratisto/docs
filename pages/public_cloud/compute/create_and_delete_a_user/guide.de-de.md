@@ -1,16 +1,14 @@
 ---
 title: Verwalten von OpenStack-Benutzern
-excerpt: Erfahren Sie, wie Sie OpenStack-Benutzer über das OVHcloud Kundencenter und das Horizon-Interface verwalten
+excerpt: Erfahren Sie hier, wie Sie OpenStack-Benutzer über das OVHcloud Kundencenter und das Horizon-Interface verwalten
 updated: 2025-04-02
 ---
 
 ## Ziel
 
-Der Zugriff auf Horizon und die OpenStack APIs erfolgt über Benutzername/Passwort-Kombinationen, die als "OpenStack User" bezeichnet werden. Sie können so viele OpenStack User wie nötig erstellen und ihnen verschiedene Zugriffsrechte zuweisen.
+Der Zugriff auf Horizon und die OpenStack API erfolgt über Benutzername/Passwort-Kombinationen, die als "OpenStack User" bezeichnet werden. Sie können so viele OpenStack User wie nötig erstellen und ihnen verschiedene Zugriffsrechte zuweisen.
 
-In der Anleitung "[Auf das Horizon-Interface zugreifen](/pages/public_cloud/compute/introducing_horizon)" konnten Sie nachlesen, wie Sie einen OpenStack-Benutzer und ein Zugangspasswort erstellen und löschen.
-
-Mithilfe des Horizon-Panels kann jedem Benutzer ein Passwort zugewiesen werden. Bitte beachten Sie, dass beim Ändern eines Benutzerkonto-Passworts die bisherigen Login-Daten sofort gelöscht werden.
+Mithilfe des Horizon-Interface kann jedem Benutzer ein Passwort zugewiesen werden. Beachten Sie, dass mit dem Ändern eines Benutzer-Passworts die bisherigen Login-Daten unmittelbar deaktiviert werden.
 
 **Diese Anleitung erklärt, wie OpenStack-Benutzer über das OVHcloud Kundencenter und das Horizon-Interface verwaltet werden.**
 
@@ -49,14 +47,14 @@ Achten Sie darauf, das Passwort, das nur zu diesem Zeitpunkt im grünen Rahmen a
 
 Sobald der OpenStack User erstellt ist, können Sie seine Zugangsdaten für den Login zum [Horizon Interface](/pages/public_cloud/compute/introducing_horizon) verwenden, indem Sie im linken Menü auf den Eintrag `Horizon`{.action} klicken.
 
-### Passwort eines OpenStack Benutzers
+### Passwörter von OpenStack-Benutzern verwalten
 
 Nachdem Sie sich bei [OpenStack Horizon](https://horizon.cloud.ovh.net){.external} eingeloggt haben, können Sie ein OpenStack-Passwort erstellen:
 
 ![Login Horizon](images/1_H_login_window.png){.thumbnail}
 
-Die Benutzerkennung für Horizon sehen Sie ganz oben rechts im Horizon-Interface. Klicken Sie auf Ihre Kennung, um im Menü alle Optionen zu sehen.
-Wählen Sie `Settings`{.action} und dann links `Change password`{.action}:
+Die Benutzerkennung für Horizon sehen Sie oben rechts im Horizon-Interface. Klicken Sie auf die Kennung, um im Menü alle Optionen zu sehen.  
+Wählen Sie `Settings`{.action} und dann links `Change password`{.action}.
 
 ![Passwort ändern](images/2_H_pass_change_option.png){.thumbnail}
 
@@ -64,7 +62,7 @@ Tragen Sie im ersten Feld Ihr aktuelles Passwort und in den beiden folgenden Fel
 
 > [!primary]
 >
-> Bitte beachten Sie beim Ändern des Passworts folgende Empfehlungen:
+> Beachten Sie beim Ändern des Passworts folgende Richtlinie:
 >
 > - Das Passwort muss mindestens 8 Zeichen umfassen.
 > - Es darf maximal 30 Zeichen umfassen.
@@ -78,7 +76,7 @@ Bestätigen Sie anschließend das neue Passwort, indem Sie auf `Change`{.action}
 
 ![Neues Passwort erstellen](images/3_H_set_new_passord.png){.thumbnail}
 
-Bitte beachten Sie, dass beim Ändern des Benutzerkonto-Passworts die bisherigen Login-Daten sofort gelöscht werden.
+Beachten Sie, dass beim Ändern des Benutzerkonto-Passworts die bisherigen Login-Daten sofort gelöscht werden.
 
 ### Löschung eines OpenStack Benutzers
 
