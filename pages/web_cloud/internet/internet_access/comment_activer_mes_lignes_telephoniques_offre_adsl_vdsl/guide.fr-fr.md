@@ -104,8 +104,8 @@ Si vous avez activé une ligne sans téléphone, vous devez posséder un simple 
 
 Pour que cette ligne soit utilisable, **les conditions suivantes doivent être remplies**:
 
-Le voyant **Voice** du modem doit être allumé sur les modems Technicolor (TG788 et TG799).
-Le voyant **Phone** du modem doit être allumé sur les modems Zyxel.
+Le voyant **Voice** du modem doit être allumé sur les modems Technicolor (TG788 et TG799).<br>
+Le voyant **Phone** du modem doit être allumé sur les modems Zyxel.<br>
 Si ce n'est pas le cas, vérifiez que l'activation de la ligne a bien été effectuée sur l'espace client OVHcloud et patientez une heure.
 
 ![voyants technicolor](images/2015-03-18-143620_120x314_scrot.png){.thumbnail}

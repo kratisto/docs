@@ -56,7 +56,7 @@ Un couple user/password vous est alors demandé :
 
 ### Étape 3 : Accéder aux options de connexion broadband
 
-Une fois connecté à l'interface locale du modem, accédez à la page de configuration `Broadband`. Cliquez sur l'icône du menu à tiroir en haut à droite, la page `Broadband` se trouve dans le menu `Network Setting`.
+Une fois connecté à l'interface locale du modem, accédez à la page de configuration `Broadband`. Cliquez sur l'icône du menu à tiroir (`☰`{.action}) en haut à droite, la page `Broadband` se trouve dans le menu `Network Setting`.
 
 ![activerBridge](images/activerBridge-step3-1.png){.thumbnail}
 
