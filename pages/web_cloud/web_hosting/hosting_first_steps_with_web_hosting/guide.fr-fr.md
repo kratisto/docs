@@ -104,7 +104,6 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 >>
 > **Publier un site web développé en local**
 >>
->> **Mettre en ligne un site web développé localement**
 >
 >> Pour ce cas de figure, nous vous invitons à suivre directement notre guide « [Mettre en ligne un site web sur son hébergement web](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online) ». Vous y retrouverez toutes les étapes à réaliser pour :
 >>
