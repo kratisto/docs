@@ -17,36 +17,40 @@ Les informations contenues dans ce guide concernent les versions de **PHP**, **P
 
 ## En pratique
 
-### Tableau des versions disponibles
+<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : support complet assuré.
+<br><br>
+<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : corrections de sécurité uniquement.
+<br><br>
+<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : version obsolète, non maintenue.
+
+### Tableaux des versions disponibles
+
+> [!primary]
+>
+> Les éléments affichés dans les tableaux (✔ ou numéros de version) sont cliquables et redirigent vers la page d'information correspondante.
 
 <table>
 <thead>
 <tr>
 <th>Langage</th>
-<th>Environnement</th>
 <th>Versions</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Apache</td>
-<td></td>
 <td><a href="https://webhosting-infos.hosting.ovh.net/fr/apache/"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">2.4</span></a></td>
 </tr>
 <tr>
-<tr>
 <td>Python</td>
-<td></td>
 <td><a href="https://webhosting-infos.hosting.ovh.net/fr/python/2"><span style="background-color:#dc3545; color:white; padding:2px 6px; border-radius:6px;">2</span></a> <a href="https://webhosting-infos.hosting.ovh.net/fr/python/3"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">3</span></a></td>
 </tr>
 <tr>
 <td>Perl</td>
-<td></td>
 <td><a href="https://webhosting-infos.hosting.ovh.net/fr/perl/5"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">5</span></a></td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -103,12 +107,6 @@ Les informations contenues dans ce guide concernent les versions de **PHP**, **P
 </tr>
 </tbody>
 </table>
-
-<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : support complet assuré.
-<br><br>
-<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : corrections de sécurité uniquement.
-<br><br>
-<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : version obsolète, non maintenue.
 
 Pour plus de détails concernant les dates de fin de vie et support de PHP, consultez notre guide « [Annonces de fin de vie/support des versions de PHP](/pages/web_cloud/web_hosting/php_eol_eos) ».
 
