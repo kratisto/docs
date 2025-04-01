@@ -1,7 +1,7 @@
 ---
 title: Sharing images between Public Cloud projects
 excerpt: Find out how to share images between Public Cloud projects using OpenStack
-updated: 2023-07-27
+updated: 2025-04-01
 ---
 
 ## Objective

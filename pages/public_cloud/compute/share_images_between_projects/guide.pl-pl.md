@@ -1,7 +1,7 @@
 ---
 title: "Współdzielenie obrazów między projektami Public Cloud"
 excerpt: "Dowiedz się, jak współdzielić obrazy między projektami Public Cloud za pomocą OpenStack"
-updated: 2023-08-07
+updated: 2025-04-01
 ---
 
 ## Wprowadzenie
