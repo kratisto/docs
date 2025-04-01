@@ -132,7 +132,6 @@ Une fois l'option activée, consultez notre guide « [Créer une adresse e-mail]
 >
 > - Si vous n'avez pas attaché un nom de domaine lors de la commande de votre hébergement web et si vous souhaitez bénéficier de l'option « adresse(s) e-mail incluse(s) avec votre hébergement web », vous devrez effectuer l'opération manuellement depuis votre [espace client OVHcloud](/links/manager).
 
-
 /// details | 4 - Vérifier et/ou modifier la configuration de votre nom de domaine
 
 À ce stade, votre site web doit être installé sur votre hébergement web et vos adresses e-mail créées. Il est possible que ces éléments ne soient pas encore fonctionnels tant que la configuration de votre nom de domaine avec vos nouveaux services est incomplète.
