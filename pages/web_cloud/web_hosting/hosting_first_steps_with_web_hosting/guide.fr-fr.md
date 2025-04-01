@@ -66,7 +66,7 @@ Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possi
 - [Étape 5 - Autres options disponibles avec les hébergements web](#other-options)
 **Cliquez sur chacune des étapes ci-dessous pour afficher les explications.**
 
-/// details | Étape 1 - Définir votre projet
+### Étape 1 - Délimiter votre projet <a name="project-delimitation"></a>
 
 Avant de commencer, il est essentiel d'identifier et de délimiter clairement vos besoins en vous posant les questions suivantes : 
 
