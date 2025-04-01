@@ -57,6 +57,13 @@ Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possi
 > Pour la bonne compréhension de ce guide, le terme « site web » fera désormais référence à l'ensemble des types de sites internet (site web, blog, CMS, boutique en ligne, etc.) évoqués plus haut dans ce guide.
 >
 
+**Sommaire :**
+
+- [Étape 1 - Délimiter votre projet](#project-delimitation)
+- [Étape 2 - Installer votre site web](#website-installation)
+- [Étape 3 - Créer vos adresses e-mail (facultatif)](#email-creation)
+- [Étape 4 - Vérifier et/ou modifier la configuration de votre nom de domaine](#domain-configuration)
+- [Étape 5 - Autres options disponibles avec les hébergements web](#other-options)
 **Cliquez sur chacune des étapes ci-dessous pour afficher les explications.**
 
 /// details | Étape 1 - Définir votre projet
