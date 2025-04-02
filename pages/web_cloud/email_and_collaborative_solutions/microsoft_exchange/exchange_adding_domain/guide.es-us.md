@@ -15,13 +15,13 @@ updated: 2025-04-01
 
 ## Objetivo
 
-Añadir un dominio a un servicio Exchange es un requisito indispensable para poder utilizar las cuentas de dicho servicio. También es posible añadir varios dominios a un servicio Exchange o Email Pro.
+Añadir un dominio a un servicio Exchange es un requisito indispensable para poder utilizar las cuentas de dicho servicio. También es posible añadir varios dominios a un servicio Exchange.
 
-**Esta guía explica cómo añadir un dominio a una plataforma Exchange o Email Pro.**
+**Esta guía explica cómo añadir un dominio a una plataforma Exchange**
 
 ## Requisitos
 
-- Tener una [solución Exchange](/links/web/emails) o [Email Pro](/links/web/email-pro).
+- Tener una [solución Exchange](/links/web/emails).
 - Tener uno o más dominios.
 - Estar en condiciones de modificar la configuración del dominio ([zona DNS](/pages/web_cloud/domains/dns_zone_edit)).
 - Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
@@ -30,26 +30,17 @@ Añadir un dominio a un servicio Exchange es un requisito indispensable para pod
 
 ### Acceder a la gestión del servicio
 
-> [!tabs]
-> **Exchange**
->>
->> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
->> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en el tema `Microsoft`{.action}.
->> 1. Haga clic en `Exchange`{.action}.
->> 1. Seleccione la plataforma correspondiente.
->>
-> **Email Pro**
->>
->> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
->> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Email Pro`{.action}.
->> 1. Seleccione la plataforma correspondiente.
->>
+**Exchange**
+
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Haga clic en la pestaña `Web Cloud`{.action}.
+1. Haga clic en el tema `Microsoft`{.action}.
+1. Haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
 
 ### Añadir un dominio
 
-1. Haga clic en la pestaña `Dominios asociados`{.action} de su plataforma Exchange o Email Pro.
+1. Haga clic en la pestaña `Dominios asociados`{.action} de su plataforma Exchange.
 1. Se mostrará una tabla con los dominios asociados a su servicio.
 1. Haga clic en el botón `Añadir un dominio`{.action}.
 
@@ -57,7 +48,7 @@ Añadir un dominio a un servicio Exchange es un requisito indispensable para pod
 
 > [!warning]
 >
-> Por defecto, todas las cuentas de correo de una plataforma están interconectadas. Todas las direcciones creadas en el servicio de correo podrán ver todas las direcciones de ese servicio en el directorio, incluidas las que tengan un nombre de dominio diferente. Para disociar la visualización de los dominios, es necesario contratar otra plataforma [Exchange o Email Pro](/links/web/emails) para el dominio o dominios en cuestión.
+> Por defecto, todas las cuentas de correo de una plataforma están interconectadas. Todas las direcciones creadas en el servicio de correo podrán ver todas las direcciones de ese servicio en el directorio, incluidas las que tengan un nombre de dominio diferente. Para disociar la visualización de los dominios, es necesario contratar otra plataforma [Exchange](/links/web/emails) para el dominio o dominios en cuestión.
 >
 
 En la ventana de adición de dominio:
@@ -103,7 +94,7 @@ Si la etiqueta es roja:
     - Haga clic en la etiqueta roja `MX`, `SRV`, `SPF` y `DKIM` para ver los cambios que debe realizar. Si el dominio no utiliza la configuración de OVHcloud (es decir, si no utiliza los servidores DNS de OVHcloud), deberá realizar los cambios necesarios desde el panel de administración del dominio.
     - En el marco de una etiqueta roja `CNAME`, consulte nuestra guía explicando cómo [crear un registro CNAME al añadir un dominio asociado](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -143,13 +134,13 @@ Le recordamos que todas las direcciones creadas en el servicio podrán ver en el
 
 Una vez que haya configurado las cuentas, ya puede empezar a utilizarlas. Para ello, OVHcloud pone a su disposición el **webmail**, disponible [aquí](/links/web/email). Para un uso óptimo de su dirección en un programa, asegúrese de que es compatible con el servicio.
 
-Si desea configurar su dirección de correo electrónico en un cliente de correo o un dispositivo periférico, como un smartphone o una tablet, u obtener ayuda sobre las funcionalidades de su servicio de correo, consulte nuestras guías, que encontrará en las páginas [Exchange](/links/web/emails) y [E-mail Pro](/links/web/email-pro).
+Si desea configurar su dirección de correo electrónico en un cliente de correo o un dispositivo periférico, como un smartphone o una tablet, u obtener ayuda sobre las funcionalidades de su servicio de correo, consulte nuestras guías, que encontrará en las páginas [Exchange](/links/web/emails).
 
-Puede adquirir licencias Outlook en el [área de cliente de OVHcloud](/links/manager) y licencias Office 365 en la página [Microsoft 365](/links/web/ms365). Le recomendamos una de estas soluciones si desea disfrutar del cliente de correo Outlook o de más programas de la suite Office, según sus necesidades.
+Puede adquirir licencias Outlook en el [área de cliente de OVHcloud](/links/manager). Le recomendamos una de estas soluciones si desea disfrutar del cliente de correo Outlook o de más programas de la suite Office, según sus necesidades.
 
 ### Eliminar un dominio de una plataforma
 
-Si quiere eliminar un dominio asociado a su servicio Exchange o Email Pro, compruebe que este no esté asociado a cuentas de correo, alias, recursos, cuentas compartidas (solo en Exchange), grupos, contactos externos o pies de página siempre configurados. En ese caso, deberá **asociar las cuentas a otro dominio** de su plataforma o eliminarlas y/o **eliminarlas**.
+Si quiere eliminar un dominio asociado a su servicio Exchange, compruebe que este no esté asociado a cuentas de correo, alias, recursos, cuentas compartidas (solo en Exchange), grupos, contactos externos o pies de página siempre configurados. En ese caso, deberá **asociar las cuentas a otro dominio** de su plataforma o eliminarlas y/o **eliminarlas**.
 
 > [!warning]
 >
@@ -162,14 +153,14 @@ Si tiene cuentas de correo asociadas al dominio que desea desvincular, tiene dos
 **Asociar las cuentas a otro dominio**:
 
 1. Acceda a la pestaña `Cuentas de correo`{.action}.
-2. A la derecha de las cuentas que quiera modificar, haga clic en el botón `...`{.action}.
-3. Haga clic en `Editar`{.action}.
+1. A la derecha de las cuentas que quiera modificar, haga clic en el botón `...`{.action}.
+1. Haga clic en `Editar`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. Desde la ventana de modificación, puede modificar el nombre de dominio asociado a la cuenta a través del menú desplegable.
+4\. Desde la ventana de modificación, puede modificar el nombre de dominio asociado a la cuenta a través del menú desplegable.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Eliminar las cuentas de su plataforma**:
 
@@ -177,13 +168,13 @@ Si tiene cuentas de correo asociadas al dominio que desea desvincular, tiene dos
 1. A la derecha de la cuenta que quiera eliminar, haga clic en el botón `...`{.action}.
 1. Haga clic en `Restablecer esta cuenta`{.action} o `Restablecer`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Una vez que las cuentas se hayan reasignado a otro dominio o se hayan restablecido, es posible eliminar el dominio.
 
 En la pestaña `Dominios asociados`{.action} de su plataforma, haga clic en el botón `...`{.action} a la derecha del dominio correspondiente y seleccione `Eliminar este dominio`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Más información
 

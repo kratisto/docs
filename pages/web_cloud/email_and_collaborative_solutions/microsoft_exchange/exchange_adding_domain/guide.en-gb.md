@@ -103,7 +103,7 @@ If the box is red:
     - Click on the red box `MX`, `SRV`, `SPF` and `DKIM` to see the changes you need to make. If this domain name does not use the OVHcloud configuration (its DNS servers), you will need to carry out the modifications from your domain name’s management interface.
     - In case of a red `CNAME` box, please refer to our guide explaining how to [create a CNAME record when adding an associated domain](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -127,7 +127,7 @@ You can change the mode of an associated domain on your service. First, it is ne
 > ![Authoritative](images/add_domain_exchange_authoritative.png){.thumbnail .w-600}
 
 1. Click on the `Associated domains`{.action} tab.
-1. Click the `...`{.action}' button on the line for the domain name concerned.
+1. Click the `...`{.action} button on the line for the domain name concerned.
 1. Click `Configuration`{.action}.
 1. Select the mode you want.
 
@@ -161,29 +161,29 @@ If you have email accounts attached to the domain name you want to detach, you h
 
 **Attach accounts to another domain name**:
 
-1. Go to the `Email accounts`{.action} tab.  
-2. To the right of the accounts you want to modify, click the `...`{.action} button.  
-3. Click `Modify`{.action}.  
+1. Go to the `Email accounts`{.action} tab.
+1. To the right of the accounts you want to modify, click the `...`{.action} button.
+1. Click `Modify`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. From the Edit window, you can modify the domain name attached to the account via the dropdown menu.
+4\. From the Edit window, you can modify the domain name attached to the account via the dropdown menu.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Delete accounts from your service**:
 
 1. Go to the `Email accounts`{.action} tab.
-1. To the right of the account you want to delete, click the `...`{.action}' button.
+1. To the right of the account you want to delete, click the `...`{.action} button.
 1. Click `Reset this account`{.action} or `Reset`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Once the accounts have been reassigned to another domain name, or after their reset, the domain name can be deleted.
 
 In the `Associated domains`{.action} tab of your service, click the `...`{.action} button to the right of the domain name concerned, then `Delete this domain`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Go further
 

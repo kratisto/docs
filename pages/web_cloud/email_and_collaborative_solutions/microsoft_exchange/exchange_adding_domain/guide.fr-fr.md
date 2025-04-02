@@ -103,7 +103,7 @@ Dans le cas où la pastille est de couleur rouge :
     - Cliquez sur la pastille de couleur rouge `MX`, `SRV`, `SPF` et `DKIM` pour afficher les modifications que vous devez réaliser. Si ce nom de domaine n’utilise pas la configuration d’OVHcloud (ses serveurs DNS), vous devrez réaliser les modifications depuis l’interface de gestion de votre nom de domaine.
     - Dans le cadre d'une pastille `CNAME` rouge, veuillez vous référer à notre guide expliquant comment [créer un champ CNAME à l’ajout d’un domaine associé](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -161,15 +161,15 @@ Si des comptes e-mail sont attachés au nom de domaine que vous souhaitez détac
 
 **Attacher les comptes à un autre nom de domaine** :
 
-1. Rendez-vous dans l'onglet `Comptes e-mail`{.action}.<br>
-2. À droite des comptes à modifier, cliquez sur le bouton `...`{.action}.<br>
-3. Cliquez sur `Modifier`{.action}.
+1. Rendez-vous dans l'onglet `Comptes e-mail`{.action}.
+1. À droite des comptes à modifier, cliquez sur le bouton `...`{.action}.
+1. Cliquez sur `Modifier`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. Depuis la fenêtre de modification, vous pouvez modifier le nom de domaine attaché au compte via le menu déroulant.
+4\. Depuis la fenêtre de modification, vous pouvez modifier le nom de domaine attaché au compte via le menu déroulant.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Supprimer les comptes de votre plateforme** :
 
@@ -177,13 +177,13 @@ Si des comptes e-mail sont attachés au nom de domaine que vous souhaitez détac
 1. À droite du compte à supprimer, cliquez sur le bouton `...`{.action}.
 1. Cliquez sur `Réinitialiser ce compte`{.action} ou `Réinitialiser`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Une fois la réattribution des comptes à un autre nom de domaine effectuée, ou suite à leur réinitialisation, il est possible de procéder à la suppression du nom de domaine.
 
 Depuis l'onglet `Domaine associés`{.action} de votre plateforme, cliquez sur le bouton `...`{.action} à droite du nom de domaine concerné, puis sur `Supprimer ce domaine`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Aller plus loin
 

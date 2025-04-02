@@ -103,7 +103,7 @@ Se la casellina è rossa:
     - Clicca sulla casellina rossa `MX`, `SRV`, `SPF` e `DKIM` per visualizzare le modifiche da apportare. Se il dominio non utilizza la configurazione di OVHcloud (i suoi server DNS), è necessario apportare le modifiche tramite l’interfaccia di gestione del dominio.
     - Per una casellina `CNAME` rossa, consulta la nostra guida che spiega come [creare un record CNAME quando si aggiunge un dominio associato](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -143,7 +143,7 @@ Ti ricordiamo che tutti gli indirizzi creati sul tuo servizio saranno in grado d
 
 Una volta completata la configurazione degli account, è possibile iniziare a utilizzarli. OVHcloud mette a disposizione il servizio **webmail**, accessibile [qui](/links/web/email). Per un utilizzo ottimale del tuo indirizzo su un client, assicurati che sia compatibile con il servizio.
 
-Per configurare l’indirizzo email su un client di posta o un dispositivo come smartphone o tablet o se hai bisogno di assistenza sulle funzionalità del tuo servizio di posta, consulta le nostre guide relative alle funzionalità del servizio di posta elettronica [Exchange](/links/web/emails) e [Email Pro](/links/web/emails).
+Per configurare l’indirizzo email su un client di posta o un dispositivo come smartphone o tablet o se hai bisogno di assistenza sulle funzionalità del tuo servizio di posta, consulta le nostre guide relative alle funzionalità del servizio di posta elettronica [Exchange](/links/web/emails) e [Email Pro](/links/web/email-pro).
 
 È possibile acquistare licenze Outlook nello [Spazio Cliente OVHcloud](/links/manager) e licenze Office 365 nella pagina [Microsoft 365](/links/web/ms365). Per utilizzare un client di posta Outlook o più programmi della suite Office, ti consigliamo una di queste soluzioni.
 
@@ -161,15 +161,15 @@ Se alcuni account email sono associati al dominio che vuoi scollegare, hai 2 pos
 
 **Associa gli account a un altro dominio**:
 
-1. Accedi alla scheda `Account email`{.action}.<br>
-2. A destra degli account da modificare, clicca sul pulsante `...`{.action}.<br>
-3. Clicca su `Modifica`{.action}.
+1. Accedi alla scheda `Account email`{.action}.
+1. A destra degli account da modificare, clicca sul pulsante `...`{.action}.
+1. Clicca su `Modifica`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. Dalla finestra di modifica, è possibile modificare il nome di dominio associato all'account tramite il menu a tendina.
+4\. Dalla finestra di modifica, è possibile modificare il nome di dominio associato all'account tramite il menu a tendina.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Elimina gli account dalla tua piattaforma**:
 
@@ -177,13 +177,13 @@ Se alcuni account email sono associati al dominio che vuoi scollegare, hai 2 pos
 1. A destra dell’account da eliminare, clicca sul pulsante `...`{.action}.
 1. Clicca su `Ripristina questo account`{.action} o `Ripristina`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Una volta effettuata la riassegnazione degli account a un altro dominio o in seguito alla reinizializzazione, è possibile procedere alla cancellazione del dominio.
 
 Dalla scheda `Domini associati`{.action} della tua piattaforma, clicca sul pulsante `...`{.action} a destra del dominio in questione e poi su `Elimina questo dominio`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Per saperne di più
 

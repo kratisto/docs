@@ -103,7 +103,7 @@ No caso de a pastilha ser de cor vermelha:
     - Clique na etiqueta de cor vermelha `MX`, `SRV`, `SPF` e `DKIM` para ver as alterações que deve realizar. Se este domínio não utilizar a configuração da OVHcloud (ou seja, se não utilizar os seus servidores DNS), deverá realizar as modificações a partir da interface de gestão do seu domínio.
     - No âmbito de uma etiqueta `CNAME` vermelha, queira consultar o nosso guia explicando como [criar um registo CNAME ao adicionar um domínio associado](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -161,15 +161,15 @@ Se houver contas de e-mail associadas ao nome de domínio que pretende desassoci
 
 **Associar as contas a outro domínio**:
 
-1. Aceda ao separador `Contas de e-mail`{.action}.<br>
-2. À direita das contas a modificar, clique no botão `...`{.action}.<br>
-3. Clique em `Alterar`{.action}.
+1. Aceda ao separador `Contas de e-mail`{.action}.
+1. À direita das contas a modificar, clique no botão `...`{.action}.
+1. Clique em `Alterar`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. A partir da janela de edição, pode modificar o nome de domínio associado à conta através do menu pendente.
+4\. A partir da janela de edição, pode modificar o nome de domínio associado à conta através do menu pendente.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Eliminar as contas da sua plataforma**:
 
@@ -177,13 +177,13 @@ Se houver contas de e-mail associadas ao nome de domínio que pretende desassoci
 1. À direita da conta a eliminar, clique no botão `...`{.action}.
 1. Clique em `Reiniciar esta conta`{.action} ou em `Reiniciar`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Depois de efetuar a reatribuição das contas a outro domínio, ou após a reinicialização das contas, é possível proceder à eliminação do nome de domínio.
 
 No separador `Domínios associados`{.action} da sua plataforma, clique no botão `...`{.action} à direita do nome de domínio em causa e, a seguir, em `Eliminar este domínio`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Quer saber mais?
 

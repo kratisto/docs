@@ -103,7 +103,7 @@ W przypadku gdy przycisk jest czerwony:
     - Kliknij czerwony przycisk `MX`, `SRV`, `SPF` i `DKIM`, aby wyświetlić listę modyfikacji do wprowadzenia. Jeśli ta nazwa domeny nie używa konfiguracji OVHcloud (serwerów DNS OVHcloud), musisz wprowadzić zmiany za pomocą interfejsu zarządzania twoją domeną.
     - W związku z czerwonym przyciskiem `CNAME` zapoznaj się z naszym przewodnikiem, jak [utworzyć pole CNAME po dodaniu przypisanej domeny](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -161,15 +161,15 @@ Jeśli do kont e-mail przypisana jest nazwa domeny, którą chcesz odłączyć, 
 
 **Przypisz konta do innej domeny**:
 
-1. Przejdź do zakładki `Konta e-mail`{.action}.<br>
-2. Po prawej stronie listy kont, które chcesz zmienić, kliknij przycisk `...`{.action}.<br>
-3. Kliknij na `Zmień`{.action}.
+1. Przejdź do zakładki `Konta e-mail`{.action}.
+1. Po prawej stronie listy kont, które chcesz zmienić, kliknij przycisk `...`{.action}.
+1. Kliknij na `Zmień`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. W oknie edycji możesz zmienić nazwę domeny przypisanej do konta w rozwijanym menu.
+4\. W oknie edycji możesz zmienić nazwę domeny przypisanej do konta w rozwijanym menu.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Usuń konta z platformy**:
 
@@ -177,13 +177,13 @@ Jeśli do kont e-mail przypisana jest nazwa domeny, którą chcesz odłączyć, 
 1. Po prawej stronie konta, które chcesz usunąć, kliknij przycisk`...`{.action}.
 1. Kliknij na `Zresetuj to konto`{.action} lub `Resetuj`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Po ponownym przypisaniu kont do innej domeny lub po ich zresetowaniu można przystąpić do usunięcia domeny.
 
 W zakładce `Przypisane domeny`{.action} twojej platformy kliknij przycisk `...`{.action} po prawej stronie odpowiedniej domeny, a następnie `Usuń tę domenę`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Sprawdź również
 

@@ -15,41 +15,33 @@ updated: 2025-04-01
 
 ## Objective
 
-To use the accounts included with an Exchange service, you will need to add a domain name to it. You can also add multiple domain names to an Exchange or Email Pro service.
+To use the accounts included with an Exchange service, you will need to add a domain name to it. You can also add multiple domain names to an Exchange service.
 
-**Find out how to add a domain name to your Exchange or Email Pro service.**
+**Find out how to add a domain name to your Exchange service.**
 
 ## Requirements
 
-- An [Exchange](/links/web/emails) or [Email Pro](/links/web/email-pro) solution
-- One or more domain names
-- Administrative access to your domain name’s configuration (in order to [modify the DNS zone](/pages/web_cloud/domains/dns_zone_edit))
-- Access to the [OVHcloud Control Panel](/links/manager)
+- An [Exchange](/links/web/emails).
+- One or more domain names.
+- Administrative access to your domain name’s configuration (in order to [modify the DNS zone](/pages/web_cloud/domains/dns_zone_edit)).
+- Access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions
 
 ### Access your service management
 
-> [!tabs]
-> **Exchange**
->>
->> 1. Log in to your [OVHcloud Control Panel](/links/manager).
->> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Microsoft`{.action}.
->> 1. Click `Exchange`{.action}.
->> 1. Select the service concerned.
->>
-> **Email Pro**
->>
->> 1. Log in to your [OVHcloud Control Panel](/links/manager).
->> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Professional emails`{.action}.
->> 1. Select the service concerned.
->>
+**Exchange**
+
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
+
 
 ### Add a domain name
 
-1. Click on the `Associated domains`{.action} tab of your Exchange or Email Pro service.
+1. Click on the `Associated domains`{.action} tab of your Exchange service.
 1. The table will show you the domain names currently associated with your service.
 1. Click the `Add a domain`{.action} button.
 
@@ -57,7 +49,7 @@ To use the accounts included with an Exchange service, you will need to add a do
 
 > [!warning]
 >
-> By default, all email accounts on a service are interconnected. All of the addresses created on your email service will be able to view all of the service’s addresses in the directory, including those with a different domain name. To unlink the display of domains, you need to order another [Exchange or Email Pro](/links/web/emails) service for the domain name(s) concerned.
+> By default, all email accounts on a service are interconnected. All of the addresses created on your email service will be able to view all of the service’s addresses in the directory, including those with a different domain name. To unlink the display of domains, you need to order another [Exchange](/links/web/emails) service for the domain name(s) concerned.
 >
 
 In the window for adding a domain:
@@ -103,7 +95,7 @@ If the box is red:
     - Click on the red box `MX`, `SRV`, `SPF` and `DKIM` to see the changes you need to make. If this domain name does not use the OVHcloud configuration (its DNS servers), you will need to carry out the modifications from your domain name’s management interface.
     - In case of a red `CNAME` box, please refer to our guide explaining how to [create a CNAME record when adding an associated domain](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -127,7 +119,7 @@ You can change the mode of an associated domain on your service. First, it is ne
 > ![Authoritative](images/add_domain_exchange_authoritative.png){.thumbnail .w-600}
 
 1. Click on the `Associated domains`{.action} tab.
-1. Click the `...`{.action}' button on the line for the domain name concerned.
+1. Click the `...`{.action} button on the line for the domain name concerned.
 1. Click `Configuration`{.action}.
 1. Select the mode you want.
 
@@ -143,13 +135,13 @@ As a reminder, all of the addresses created on your service will be able to view
 
 Once the accounts are fully configured, you can start using them. To do this, OVHcloud offers **webmail**, accessible [here](/links/web/email). To optimize the use of your email accounts on a software application, ensure that it is compatible with the service.
 
-If you would like to configure your email accounts on an email client or device such as a smartphone or tablet, or if you would like assistance with the features of your email service, please refer to our documentation, which is accessible from the [Exchange](/links/web/emails) and [Email Pro](/links/web/email-pro) pages.
+If you would like to configure your email accounts on an email client or device such as a smartphone or tablet, or if you would like assistance with the features of your email service, please refer to our documentation, which is accessible from the [Exchange](/links/web/emails) pages.
 
-You can purchase Outlook licenses in the [OVHcloud Control Panel](/links/manager) and Office 365 licenses on the [Microsoft 365](/links/web/ms365) page. We recommend using one of these solutions if you would like to use Outlook email software, or more software from the Office suite, depending on your needs.
+You can purchase Outlook licenses in the [OVHcloud Control Panel](/links/manager). We recommend using one of these solutions if you would like to use Outlook email software, or more software from the Office suite, depending on your needs.
 
 ### Delete a domain name from a service
 
-If you would like to remove a domain name from your Exchange or Email Pro service, you will need to ensure that it is not linked to any email accounts, aliases, resources, shared accounts (only on Exchange), groups, external contacts or footers that are still configured. In this case, you will need to **attach these accounts to another domain name** on your service, or **delete them**.
+If you would like to remove a domain name from your Exchange service, you will need to ensure that it is not linked to any email accounts, aliases, resources, shared accounts (only on Exchange), groups, external contacts or footers that are still configured. In this case, you will need to **attach these accounts to another domain name** on your service, or **delete them**.
 
 > [!warning]
 >
@@ -161,29 +153,29 @@ If you have email accounts attached to the domain name you want to detach, you h
 
 **Attach accounts to another domain name**:
 
-1. Go to the `Email accounts`{.action} tab.  
-2. To the right of the accounts you want to modify, click the `...`{.action} button.  
-3. Click `Modify`{.action}.  
+1. Go to the `Email accounts`{.action} tab.
+1 To the right of the accounts you want to modify, click the `...`{.action} button.
+1. Click `Modify`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. From the Edit window, you can modify the domain name attached to the account via the dropdown menu.
+4\. From the Edit window, you can modify the domain name attached to the account via the dropdown menu.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Delete accounts from your service**:
 
 1. Go to the `Email accounts`{.action} tab.
-1. To the right of the account you want to delete, click the `...`{.action}' button.
+1. To the right of the account you want to delete, click the `...`{.action} button.
 1. Click `Reset this account`{.action} or `Reset`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Once the accounts have been reassigned to another domain name, or after their reset, the domain name can be deleted.
 
 In the `Associated domains`{.action} tab of your service, click the `...`{.action} button to the right of the domain name concerned, then `Delete this domain`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Go further
 

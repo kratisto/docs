@@ -103,7 +103,7 @@ Wenn Einträge in rot angezeigt werden:
     - Klicken Sie auf `MX`, `SRV`, `SPF` oder `DKIM`, um Details anzuzeigen. Verwendet diese Domain nicht die DNS-Server von OVHcloud, nehmen Sie die Änderungen über das Verwaltungsinterface Ihrer Domain vor.
     - Im Fall eines rot angezeigten `CNAME`, lesen Sie unsere Anleitung zur [Erstellung eines CNAME-Eintrags](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/exchange_dns_cname).
 
-![emailpro](images/add_domain_exchange_step4.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step4\.png){.thumbnail .w-600}
 
 > [!primary]
 >
@@ -161,15 +161,15 @@ Wenn mit dem Domainnamen, den Sie abtrennen möchten, E-Mail-Accounts verbunden 
 
 **Die Accounts mit einem anderen Domainnamen verbinden**:
 
-1. Gehen Sie in den Tab `E-Mail-Accounts`{.action}.  
-2. Klicken Sie rechts neben den zu ändernden Konten auf die Schaltfläche `...`{.action}.  
-3. Klicken Sie auf `Bearbeiten`{.action}.
+1. Gehen Sie in den Tab `E-Mail-Accounts`{.action}.
+1. Klicken Sie rechts neben den zu ändernden Konten auf die Schaltfläche `...`{.action}.
+1. Klicken Sie auf `Bearbeiten`{.action}.
 
-![emailpro](images/add_domain_exchange_step8.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step8.png){.thumbnail .w-600}
 
-4. Im Bearbeitungsfenster können Sie den mit dem Account verbundenen Domainnamen über das Dropdown-Menü ändern.
+4\. Im Bearbeitungsfenster können Sie den mit dem Account verbundenen Domainnamen über das Dropdown-Menü ändern.
 
-![emailpro](images/add_domain_exchange_step9.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step9.png){.thumbnail .w-600}
 
 **Accounts Ihres Dienstes löschen**:
 
@@ -177,13 +177,13 @@ Wenn mit dem Domainnamen, den Sie abtrennen möchten, E-Mail-Accounts verbunden 
 1. Klicken Sie rechts neben dem zu löschenden Account auf `...`{.action}.
 1. Klicken Sie auf `Account zurücksetzen`{.action} oder `Zurücksetzen`{.action}.
 
-![emailpro](images/add_domain_exchange_step7.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step7.png){.thumbnail .w-600}
 
 Sobald die Accounts einem anderen Domainnamen zugewiesen wurden oder nachdem sie zurückgesetzt wurden, kann der Domainname gelöscht werden.
 
 Klicken Sie im Tab `Assoziierte Domains`{.action} Ihrer Dienst auf den Button `...`{.action} rechts neben der betreffenden Domain und dann auf `Diese Domain löschen`{.action}.
 
-![emailpro](images/add_domain_exchange_step10.png){.thumbnail .w-600}
+![exchange](images/add_domain_exchange_step10.png){.thumbnail .w-600}
 
 ## Weiterführende Informationen
 
