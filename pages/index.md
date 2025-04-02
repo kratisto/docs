@@ -949,6 +949,7 @@
                 + [Using Private Registry with OVHcloud Managed Kubernetes](public_cloud/containers_orchestration/managed_private_registry/using-private-registry-with-kubernetes)
                 + [Managing Helm charts in the OVHcloud Managed Private Registry](public_cloud/containers_orchestration/managed_private_registry/using-helm-charts)
                 + [Deploying a Helm chart from your private registry in Kubernetes](public_cloud/containers_orchestration/managed_private_registry/deploy-chart-from-registry-in-kubernetes)
+                + [Configuring Proxy Cache on an OVHcloud Managed Private Registry](public_cloud/containers_orchestration/managed_private_registry/configure-proxy-cache)
                 + [Migrate Helm Charts from Chartmuseum to OCI](public_cloud/containers_orchestration/managed_private_registry/migrate-helm-charts-from-chartmuseum-to-oci)
                 + [Scanning Docker images for vulnerabilities with OVHcloud Managed Private Registry](public_cloud/containers_orchestration/managed_private_registry/scan-docker-images-vulnerabilities)
                 + [Sign OCI artifacts with Cosign on OVHcloud Managed Private Registry](public_cloud/containers_orchestration/managed_private_registry/sign-artifacts-with-cosign)
