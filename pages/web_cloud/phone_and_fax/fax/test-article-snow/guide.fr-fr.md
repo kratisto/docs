@@ -50,6 +50,37 @@ lsblk
 
 3. This is the third thing to do.
 
+## Numbered list with image - 1 tabulation only + Only 1
+
+1. This the first thing to do.
+1. This the second thing to do.
+
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + Only 1 + No skipped lines
+
+1. This the first thing to do.
+1. This the second thing to do.
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + Only 1 + No skipped lines + br
+
+1. This the first thing to do.
+1. This the second thing to do.<br>
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}<br>
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + No skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.<br>
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}<br>
+3. This is the third thing to do.
+
+
 
 ## Numbered list with image - 1 tabulation with no skipped line after the image
 
