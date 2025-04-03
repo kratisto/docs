@@ -13,7 +13,7 @@ Déménager un accès xDSL/Fibre vous permet de recréer votre accès Internet �
 
 ## Prérequis
 
-- Disposer d'un abonnement xDSL(ADSL/VDSL) ou Fibre actif.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet) actif.
 - Disposer d'une offre xDSL ou Fibre récente (offres Pro, Connect, Express, Entreprise, Serenity).
 - La nouvelle adresse doit être différente de l'ancienne.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :

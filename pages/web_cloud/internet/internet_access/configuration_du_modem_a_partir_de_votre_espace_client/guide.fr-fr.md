@@ -12,7 +12,7 @@ Afin de faciliter la gestion de votre accès à Internet, vous avez la possibili
 
 ## Prérequis
 
-- Disposer d'un [accès à Internet OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}. 
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet). 
 - Avoir activé la gestion de votre box à distance.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -48,7 +48,7 @@ Afin de faciliter la gestion de votre accès à Internet, vous avez la possibili
 
 ### Étape 2 : personnaliser la configuration de votre box
 
-Pour paramétrer votre box depuis l'[espace client OVHcloud](/links/manager){.external}, assurez-vous d'être positionné sur l'onglet `Mon modem`{.action} de l'accès à Internet concerné. **Pour rappel, il est impératif que la configuration à distance soit activée pour que cette gestion soit possible.**
+Pour paramétrer votre box depuis l'[espace client OVHcloud](/links/manager), assurez-vous d'être positionné sur l'onglet `Mon modem`{.action} de l'accès à Internet concerné. **Pour rappel, il est impératif que la configuration à distance soit activée pour que cette gestion soit possible.**
 
 Depuis l'onglet `Mon modem`{.action}, vous retrouvez alors plusieurs sections. Chacune d'elles permet d'interagir avec la configuration de votre box. Poursuivez alors selon la manipulation que vous souhaitez effectuer :
 
@@ -80,7 +80,7 @@ Depuis cette partie, plusieurs possibilités s'offrent à vous.
 
 - **Redémarrer à distance votre box** : pour cela, cliquez sur le bouton `Redémarrer le modem`{.action} puis confirmez l'action. Patientez alors le temps que votre box redémarre.
 
-- **Activer ou désactiver la configuration à distance de votre box** : pour cela, cochez ou décochez la case à côté de `Configuration à distance activée`. L'activation écrasera le paramétrage actuel de votre box. La désactivation rendra impossible la configuration de votre box depuis l'espace client OVHcloud, celle-ci conservera cependant les paramètres en place au moment de la désactivation. Lors de la désactivation, un nouveau mot de passe est généré et transmis par e-mail pour vous permettre d'accéder à l'interface locale du modem. Pour plus d'informations sur la configuration d'un modem Zyxel sans la configuration à distance, veuillez consulter le [guide utilisateur du modem Zyxel](http://files.isp.ovh.net/zyxel/VMG8825-T50K_V5.13_5.50-1.pdf){.external}.
+- **Activer ou désactiver la configuration à distance de votre box** : pour cela, cochez ou décochez la case à côté de `Configuration à distance activée`. L'activation écrasera le paramétrage actuel de votre box. La désactivation rendra impossible la configuration de votre box depuis l'espace client OVHcloud, celle-ci conservera cependant les paramètres en place au moment de la désactivation. Lors de la désactivation, un nouveau mot de passe est généré et transmis par e-mail pour vous permettre d'accéder à l'interface locale du modem. Pour plus d'informations sur la configuration d'un modem Zyxel sans la configuration à distance, veuillez consulter le [guide utilisateur du modem Zyxel](http://files.isp.ovh.net/zyxel/VMG8825-T50K_V5.13_5.50-1.pdf).
 
 - **Pare-feu** : lorsque vous gérez votre box à distance, le pare-feu n’est pas paramétrable. Celui-ci s’adapte automatiquement aux configurations en place dans l’espace client.
 
@@ -210,11 +210,11 @@ Vous avez la possibilité dans cette partie d'activer ou de désactiver des serv
 |---|---|
 |Bloc IP|Si vous [disposez d'un bloc IP](/pages/web_cloud/internet/internet_access/comment_commander_et_gerer_un_bloc_ip_29), vous pouvez activer ou désactiver celui-ci. Toute la configuration de votre box va alors s'adapter automatiquement (par exemple : désactivation pare-feu + NAT).|
 |Partage de contenu|**Concerne uniquement les box Thomson (TG7XX).** Par défaut, le partage de contenu est activé pour ces dernières, ce qui utilise une adresse IP supplémentaire. <br><br>Depuis l’espace client, il n’est pas possible de configurer ce partage mais vous pouvez le désactiver via l’accès à distance afin de libérer l’IP utilisée par défaut. La configuration du partage de contenu s'effectue uniquement en local.|
-|FTP|Active où désactive le serveur FTP de votre box.|
-|UPnP|Active où désactive la fonction UPnP de votre box (ouverture automatique des ports).|
+|FTP|Active ou désactive le serveur FTP de votre box.|
+|UPnP|Active ou désactive la fonction UPnP de votre box (ouverture automatique des ports).|
 |Mise en attente d’appel|Active ou désactive la mise en attente des appels, directement depuis la box (uniquement pour les téléphones branchés sur les prises RJ11 de la box).|
-|SIP ALG|Active où désactive le SIP ALG. L’ALG permet de contrôler (en autorisant ou refusant) du trafic vers une application de serveur.|
-|IPsec ALG|Active où désactive le processus ALG pour le tunneling IPsec.|
+|SIP ALG|Active ou désactive le SIP ALG. L’ALG permet de contrôler (en autorisant ou refusant) du trafic vers une application de serveur.|
+|IPsec ALG|Active ou désactive le processus ALG pour le tunneling IPsec.|
 
 ![configureremotelybox](images/configure-remotely-box-step10.png){.thumbnail}
 

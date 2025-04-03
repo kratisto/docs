@@ -13,10 +13,10 @@ Les notifications sont envoyées par e-mail ou par SMS (il est alors nécessaire
 
 ### Prérequis
 
-- Disposer d'un accès ADSL / SDSL / FTTH qui répond aux requêtes ICMP (c'est le cas par défaut sur les modems distribués par OVHcloud).
-- Une adresse e-mail pour recevoir les notifications.
-- Un [compte SMS crédité](https://www.ovhtelecom.fr/sms/) si vous souhaitez recevoir les SMS de notifications sur votre mobile.
-- Etre connecté à votre [espace client OVHcloud](/links/manager).
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet) qui répond aux requêtes ICMP (c'est le cas par défaut sur les modems distribués par OVHcloud).
+- Disposer d'une adresse e-mail pour recevoir les notifications.
+- Détenir un [compte SMS crédité](https://www.ovhcloud.com/fr/sms/) si vous souhaitez recevoir les SMS de notifications sur votre mobile.
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
@@ -56,7 +56,7 @@ Sélectionnez « SMS » dans le menu déroulant correspondant au type de notific
 
 Choisissez, dans le champ `Compte SMS à débiter`, le compte SMS à utiliser pour envoyer les notifications. 
 <br>Renseignez, dans le champ `Numéro de téléphone`, le numéro de mobile à notifier, au format international (00336xxxxxxxx).
-<br>Précisez, dans le champ `Fréquence d'envoi`, la fréquence d'envoi des notifications SMS lors d'une coupure.Si vous sélectionnez « Une fois », vous recevrez un SMS lors de la coupure et un SMS lors du rétablissement de l’accès à Internet concerné.
+<br>Précisez, dans le champ `Fréquence d'envoi`, la fréquence d'envoi des notifications SMS lors d'une coupure. Si vous sélectionnez « Une fois », vous recevrez un SMS lors de la coupure et un SMS lors du rétablissement de l’accès à Internet concerné.
 
 Validez l'alerte via le bouton dédié, à droite de la ligne.
 

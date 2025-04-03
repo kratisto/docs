@@ -12,7 +12,7 @@ La pénurie d'IPv4 avançant de plus en plus, l'utilisation d'une IPv6 en parall
 
 ## Prérequis
 
-- Disposer d’un [accès Internet xDSL ou FTTH OVHcloud](https://www.ovhtelecom.fr/offre-internet/).
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Disposer d'une machine connectée et configurée IPv6 (facultatif).
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom`{.action} :
 

@@ -12,7 +12,7 @@ Un bloc IP vous permet d'associer des équipements de votre réseau interne à u
 
 ## Prérequis
 
-- Disposer d’un [accès Internet xDSL ou FTTH OVHcloud](https://www.ovhtelecom.fr/offre-internet/).
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Être connecté à l'[espace client OVHcloud](/links/manager) dans la partie `Telecom`{.action}.
 - Avoir la possibilité de se connecter à l'interface de votre box OVHcloud.
 - Disposer d'une box OVHcloud compatible avec la configuration d'un bloc IP.
@@ -37,8 +37,8 @@ Un bloc IP vous permet d'associer des équipements de votre réseau interne à u
 
 Sur la page, dans le cadre « Caractéristiques », reportez-vous aux éléments de la partie `IPs`. Vous retrouverez dans cette dernière les adresses IP associées à votre accès à Internet. Concernant les adresses IPv4, deux lignes peuvent apparaître :
 
-- l'adresse IP initiale de votre accès à Internet associée à un bloc /32 ;
-- une adresse IP associée à un bloc /29. 
+- l'adresse IP initiale de votre accès à Internet associée à un bloc /32;
+- une adresse IP associée à un bloc /29.
 
 Si vous ne possédez pas de bloc IP /29, vous pouvez en commander un en cliquant sur le bouton `Commander`{.action} puis en suivant les étapes.
 
@@ -46,7 +46,7 @@ Si vous ne possédez pas de bloc IP /29, vous pouvez en commander un en cliquant
 
 Collectez à présent les adresses IP qui serviront lors des étapes suivantes. Pour cela :
 
-- **récupérez l'adresse initiale de votre accès à Internet** : elle apparaît à côté du bloc /32 ;
+- **récupérez l'adresse initiale de votre accès à Internet** : elle apparaît à côté du bloc /32;
 - **récupérez les huit adresses IP (dont cinq associables à vos équipements)** : aidez-vous du tableau ci-dessous pour les retrouver.
 
 |Types d'adresses|Description|Exemple|
@@ -62,7 +62,7 @@ Vous devez à présent avoir récupéré l'adresse IP initiale (mentionnée à c
 
 > [!primary]
 >
-> Si vous possédez une box Technicolor ou Thomson (excepté le modèle Technicolor TG799vac) et souhaitez utiliser les API d'OVHcloud (utilisateurs experts) pour configurer le bloc IP : poursuivez directement vers l'étape 3.1 « [Configuration sur une box Technicolor ou Thomson](./#31-configuration-sur-une-box-technicolor-ou-thomson){.external} ».
+> Si vous possédez une box Technicolor ou Thomson (excepté le modèle Technicolor TG799vac) et souhaitez utiliser les API d'OVHcloud (utilisateurs experts) pour configurer le bloc IP : poursuivez directement vers l'étape 3.1 « [Configuration sur une box Technicolor ou Thomson](./#31-configuration-sur-une-box-technicolor-ou-thomson) ».
 >
 
 Afin que la configuration du bloc IP puisse s'effectuer en local sur votre box OVHcloud, il est impératif de désactiver la prise en main à distance de celle-ci. Pour cela, toujours depuis votre [espace client OVHcloud](/links/manager) sur l’accès à Internet concerné, positionnez-vous sur l'onglet `Mon modem`{.action}.
@@ -75,8 +75,8 @@ Sur la page, dans la partie « Configuration générale », assurez-vous de déc
 
 Maintenant que vous êtes en possession de votre bloc IP, vous pouvez le configurer dans votre box OVHcloud. Poursuivez selon le modèle que vous possédez :
 
-- [3.1 Configuration sur une box Technicolor ou Thomson](./#31-configuration-sur-une-box-technicolor-ou-thomson){.external} (**excepté pour le modèle Technicolor TG799vac**).
-- [3.2 Configuration sur une box Zyxel](./#32-configuration-sur-une-box-zyxel){.external}.
+- [3.1 Configuration sur une box Technicolor ou Thomson](./#31-configuration-sur-une-box-technicolor-ou-thomson) (**excepté pour le modèle Technicolor TG799vac**).
+- [3.2 Configuration sur une box Zyxel](./#32-configuration-sur-une-box-zyxel).
 
 > [!primary]
 >
@@ -109,7 +109,7 @@ Permet de récupérer l'état d'activation du bloc IP /29.
 
 Permet d'activer ou de désactiver la configuration du bloc IP /29 sur votre box OVHcloud Technicolor ou Thomson compatible.
 
-Une fois configurée, poursuivez vers l'étape 4 « [Configurer les adresses IP sur vos équipements](./#etape-4-configurer-les-adresses-ip-sur-vos-equipements){.external} ».
+Une fois configurée, poursuivez vers l'étape 4 « [Configurer les adresses IP sur vos équipements](./#etape-4-configurer-les-adresses-ip-sur-vos-equipements) ».
 
 ##### 3.1.2 Via un client Telnet
 
@@ -160,7 +160,7 @@ dhcp server lease flush
 
 Configurez la passerelle (_gateway_) du bloc IP sur l'interface **lan**.
 
-Prenez soin de remplacer « LocalNetwork » par le nom de l'interface correspondant à **lan** récupéré précédemment. Changez également l'adresse « 1.1.1.6/29 » par celle de passerelle (_gateway_) récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces){.external}. 
+Prenez soin de remplacer « LocalNetwork » par le nom de l'interface correspondant à **lan** récupéré précédemment. Changez également l'adresse « 1.1.1.6/29 » par celle de passerelle (_gateway_) récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces).
 
 ```
 ip ipadd intf=LocalNetwork addr=1.1.1.6/29
@@ -178,7 +178,7 @@ Sauvegardez les changements réalisés. Cette configuration restera active même
 saveall
 ```
 
-Le paramétrage maintenant effectué, poursuivez vers l'étape 4 « [Configurer les adresses IP sur vos équipements](./#etape-4-configurer-les-adresses-ip-sur-vos-equipements){.external} ».
+Le paramétrage maintenant effectué, poursuivez vers l'étape 4 « [Configurer les adresses IP sur vos équipements](./#etape-4-configurer-les-adresses-ip-sur-vos-equipements) ».
 
 #### 3.2 Configuration sur une box Zyxel
 
@@ -193,7 +193,7 @@ Une fois connecté à l'interface, plusieurs manipulations sont nécessaires. La
 
 |Informations|Description|
 |---|---|
-|IPv4 Address|Renseignez l'adresse de passerelle (_gateway_) récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces){.external}.|
+|IPv4 Address|Renseignez l'adresse de passerelle (_gateway_) récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces).|
 |Subnet Mask|Indiquez l'adresse `255.255.255.248` (qui correspond au bloc /29).|
 
 Cliquez ensuite sur le bouton `Apply`{.action}.
@@ -216,7 +216,7 @@ Complétez les informations demandées en vous aidant du tableau ci-dessous :
 |Type|Sélectionnez dans le menu déroulant `Many-to-One`.|
 |Local Start IP|Indiquez `192.168.1.2`. Il s'agit de l'adresse par défaut, sauf si vous l'avez changée dans la configuration de votre box.|
 |Local End IP|Indiquez `192.168.1.254`. Il s'agit de l'adresse par défaut, sauf si vous l'avez changée dans la configuration de votre box.|
-|Global Start IP|Indiquez l'adresse IPv4 initiale que vous avez récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces){.external} (celle mentionnée avec le bloc /32).|
+|Global Start IP|Indiquez l'adresse IPv4 initiale que vous avez récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces) (celle mentionnée avec le bloc /32).|
 |WAN Interface|Sélectionnez le nom de l'interface récupéré précédemment (mentionné en dessous de « Connected Interface »).|
 
 Cliquez ensuite sur le bouton `OK`{.action}.
@@ -225,9 +225,9 @@ Cliquez ensuite sur le bouton `OK`{.action}.
 
 Toujours dans le menu `Network Settings`{.action}, sélectionnez le menu `Broadband`{.action}. Cliquez sur l'icône représentant une feuille et un crayon, à droite du nom de l'interface utilisée par votre modem. L'interface dépend de votre type de connexion :
 
-- **ADSL** : Pour une connexion de type ADSL
-- **VDSL** : Pour une connexion de type VDSL
-- **ETHWAN** : Pour une connexion de type FTTH
+- **ADSL** : Pour une connexion de type ADSL.
+- **VDSL** : Pour une connexion de type VDSL.
+- **ETHWAN** : Pour une connexion de type FTTH.
 
 ![blocip](images/blocip-step13.png){.thumbnail}
 
@@ -245,8 +245,8 @@ Votre bloc IP /29 étant à présent paramétré sur votre box OVHcloud, vous po
 
 Pour réaliser une configuration sur l'un de vos équipements, vous aurez besoin des trois informations suivantes :
 
-- **l'une des cinq adresses IP associables de votre bloc /29** : vous les avez récupérées lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces){.external} ;
-- **l'adresse de passerelle de votre bloc /29** : vous l'avez récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces){.external} ;
+- **l'une des cinq adresses IP associables de votre bloc /29** : vous les avez récupérées lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces);
+- **l'adresse de passerelle de votre bloc /29** : vous l'avez récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces);
 - **le masque de sous-réseau** : vous l'avez configuré lors de l'étape précédente ; il doit correspondre à `255.255.255.248`.
 
 Une fois cette opération effectuée depuis un ordinateur, vous aurez la possibilité de tester l'attribution de nouvelles adresses IP en réalisant un test de débit depuis notre site <http://ovh.net/>. À la fin, celles-ci apparaîtront à côté de **IPv4** à gauche.

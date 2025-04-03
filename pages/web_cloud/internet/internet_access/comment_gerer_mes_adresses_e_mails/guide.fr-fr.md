@@ -12,7 +12,7 @@ Vous avez la possibilité de bénéficier d'adresses E-mail avec nos offres FTTH
 
 ## Prérequis
 
-- Disposer d’un [accès Internet xDSL ou FTTH OVHcloud](https://www.ovhtelecom.fr/offre-internet/).
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Avoir encore la possibilité de créer des adresses e-mail dans le cadre de votre offre.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 

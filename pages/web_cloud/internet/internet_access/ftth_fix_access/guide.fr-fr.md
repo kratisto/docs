@@ -1,6 +1,6 @@
 ---
-title: 'Dépanner son accès internet fibre'
-excerpt: 'Découvrez comment dépanner et remettre en service votre accès internet fibre OVHcloud'
+title: 'Dépanner son accès Internet fibre'
+excerpt: 'Découvrez comment dépanner et remettre en service votre accès Internet fibre OVHcloud'
 updated: 2024-11-07
 ---
 
@@ -8,25 +8,25 @@ updated: 2024-11-07
 
 Vous n’avez actuellement pas accès à Internet ou rencontrez une dégradation de la qualité de votre connexion (coupures intermittentes, lenteurs) ? Nous vous proposons quelques vérifications et manipulations pouvant vous permettre de vous dépanner seul et de rétablir votre service.
 
-**Découvrez comment dépanner et remettre en service votre accès internet fibre OVHcloud.**
+**Découvrez comment dépanner et remettre en service votre accès Internet fibre OVHcloud.**
 
 ## Prérequis
 
-- Disposer d'un [accès internet fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}.
-- Selon les vérifications que vous allez devoir réaliser, vous devrez soit : être à proximité des équipements internet (ONT et box OVHcloud) ou disposer d'un ordinateur relié à votre box OVHcloud via un câble Ethernet ou en Wi-Fi.
+- Disposer d'un [accès Internet FTTH OVHcloud](/links/telecom/offre-internet).
+- Selon les vérifications que vous allez devoir réaliser, vous devrez être à proximité des équipements Internet (ONT et box OVHcloud) ou disposer d'un ordinateur relié à votre box OVHcloud via un câble Ethernet ou en Wi-Fi.
 
 > [!primary]
 >
-> Ce guide s'adresse uniquement aux clients disposant d'un [accès internet fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}. Si vous disposez d'un accès internet xDSL OVHcloud, reportez-vous aux documentations xDSL correspondantes [accessibles depuis ce lien](/products/web-cloud-internet-internet-access){.external}.
+> Ce guide s'adresse uniquement aux clients disposant d'un [accès Internet FTTH OVHcloud](/links/telecom/offre-internet). Si vous disposez d'un accès Internet xDSL OVHcloud, reportez-vous aux documentations xDSL correspondantes accessibles depuis [ce lien](/products/web-cloud-internet-internet-access).
 >
 
 ## En pratique
 
-Afin de déterminer la cause précise du dysfonctionnement affectant votre accès internet fibre, il est nécessaire de procéder étape par étape. Suivez ainsi les indications ci-dessous, dans l'ordre, jusqu'au rétablissement de votre accès.
+Afin de déterminer la cause précise du dysfonctionnement affectant votre accès Internet fibre, il est nécessaire de procéder étape par étape. Suivez ainsi les indications ci-dessous, dans l'ordre, jusqu'au rétablissement de votre accès.
 
 ### Étape 1 : vérifier l'existence d'un incident déclaré
 
-Rendez-vous sur la page <https://www.ovhtelecom.fr/xdsl/incident/#/> et vérifiez si votre accès internet fibre est affecté par un incident en cours.
+Rendez-vous sur la page <https://status.isp.ovh.net/> et vérifiez si votre accès Internet fibre est affecté par un incident en cours.
 
 - **Si votre accès est affecté** : prenez connaissance des éléments renseignés sur la page, puis patientez le temps de la résolution de l’incident.
 
@@ -34,7 +34,7 @@ Rendez-vous sur la page <https://www.ovhtelecom.fr/xdsl/incident/#/> et vérifie
 
 ### Étape 2 : vérifier le fonctionnement jusqu'à l'équipement ONT
 
-Vérifiez le fonctionnement de votre accès fibre jusqu'à l'équipement ONT se trouvant à votre domicile. L'état des voyants vous permettra de savoir si le signal optique de votre accès internet fibre arrive correctement jusqu'à l'équipement ONT.
+Vérifiez le fonctionnement de votre accès fibre jusqu'à l'équipement ONT se trouvant à votre domicile. L'état des voyants vous permettra de savoir si le signal optique de votre accès Internet fibre arrive correctement jusqu'à l'équipement ONT.
 
 > [!warning]
 >
@@ -58,7 +58,7 @@ Commencez en relevant l'état des trois voyants mentionnés ci-dessous sur l'app
 |Voyant|États et significations|
 |---|---|
 |Alimentation|**Vert fixe** : l'équipement ONT est bien alimenté électriquement.<br> **Éteint** : l'équipement ONT n'est pas raccordé électriquement ou n'est pas allumé (bouton ON/OFF) ou est hors service.|
-|Fibre|**Vert fixe** : la synchronisation optique (fibre) est établie.<br> **Vert clignotant** : un signal optique est détecté par l'équipement ONT.<br> **Eteint** : aucun signal optique n'est détecté par l'équipement ONT.|
+|Fibre|**Vert fixe** : la synchronisation optique (fibre) est établie.<br> **Vert clignotant** : un signal optique est détecté par l'équipement ONT.<br> **Éteint** : aucun signal optique n'est détecté par l'équipement ONT.|
 |État|**Éteint** : l'équipement ONT fonctionne correctement.<br>**Rouge clignotant rapidement (deux fois par seconde)** : le signal optique présente une anomalie.| 
 |Lan|**Vert clignotant** : fonctionnement normal, des données sont échangées entre l'équipement ONT et le routeur.<br>**Éteint** : il n'y a pas de communication entre l'équipement ONT et le routeur OVHcloud, via un câble RJ45.|
 
@@ -70,7 +70,7 @@ Dès lors, plusieurs possibilités, selon l'état des voyants.
 
 - **Le voyant « État » est allumé en rouge fixe ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help). 
 
-- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh){.external} ».
+- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh) ».
 
 ![diagnosticfibre](images/acces-internet-ont-huawei.jpg)
 
@@ -82,7 +82,7 @@ Commencez en relevant l'état des trois voyants mentionnés ci-dessous sur l'app
 |---|---|
 |Power|**Vert fixe** : l'équipement ONT est bien alimenté électriquement.<br> **Éteint** : l'équipement ONT n'est pas raccordé électriquement ou n'est pas allumé (bouton ON/OFF) ou est hors service.|
 |Alarm|**Éteint** : l'équipement ONT fonctionne correctement.<br>**Rouge fixe** : le signal optique présente des anomalies LOF/LOS (pertes de frames/pertes de signal)|
-|PON|**Vert fixe** : la synchronisation optique (fibre) est établie.<br> **Vert clignotant** : un signal optique (fibre) est détecté, la synchronisation est en train de s'établir.<br> **Eteint** : le signal optique (fibre) n'est pas/plus détecté par l'équipement ONT.|
+|PON|**Vert fixe** : la synchronisation optique (fibre) est établie.<br> **Vert clignotant** : un signal optique (fibre) est détecté, la synchronisation est en train de s'établir.<br> **Éteint** : le signal optique (fibre) n'est pas/plus détecté par l'équipement ONT.|
 |LAN|**Vert clignotant** : fonctionnement normal, des données sont échangées entre l'équipement ONT et le routeur.<br>**Éteint** : il n'y a pas/plus de communication entre l'équipement ONT et le routeur OVHcloud, via un câble RJ45.<br>**Vert fixe** : cela signifie que l'équipement ONT est bien relié au routeur via un câble RJ45 mais il n'y a pas de communication de données entre ces deux éléments.|
 
 Dès lors, plusieurs possibilités selon l'état des voyants.
@@ -91,9 +91,9 @@ Dès lors, plusieurs possibilités selon l'état des voyants.
 
 - **Le voyant PON est éteint** : assurez-vous que le câble de fibre optique est correctement relié à votre ONT et que celui-ci est en bon état (non plié ou non coincé sous un meuble). Essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **Le voyant « Alarm » est allumé en rouge ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
+- **Le voyant « Alarm » est allumé en rouge fixe ou clignote rapidement** : essayez de redémarrer l'ONT grâce au bouton-poussoir « ON/OFF », situé sur une tranche de l'appareil. Si le défaut persiste, [prenez contact avec notre équipe support](https://help.ovhcloud.com/csm?id=csm_get_help).
 
-- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh){.external} ».
+- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que l'ONT est allumé et que la connexion avec le signal optique est établie. Dans ce cas, poursuivez vers l'étape 3 « [vérifier le fonctionnement jusqu'à la box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-3-verifier-le-fonctionnement-jusqua-la-box-ovh) ».
 
 ![diagnosticfibre](images/acces-internet-ont-nokia.jpg)
 
@@ -109,13 +109,13 @@ Poursuivez par la vérification du fonctionnement de votre accès fibre jusqu'à
 
 Dès lors, plusieurs possibilités selon l'état des voyants.
 
-- **Aucun voyant n’est allumé sur la box OVHcloud** : poursuivez vers la partie « [3.1 Tests liés au voyant POWER](/pages/web_cloud/internet/internet_access/ftth_fix_access#31-tests-lies-au-voyant-power){.external} ».
+- **Aucun voyant n’est allumé sur la box OVHcloud** : poursuivez vers la partie « [3.1 Tests liés au voyant POWER](/pages/web_cloud/internet/internet_access/ftth_fix_access#31-tests-lies-au-voyant-power) ».
 
-- **Le voyant « WAN » est éteint** : poursuivez vers la partie « [3.2 Tests liés au voyant WAN](/pages/web_cloud/internet/internet_access/ftth_fix_access#32-tests-lies-au-voyant-wan){.external} ».
+- **Le voyant « WAN » est éteint** : poursuivez vers la partie « [3.2 Tests liés au voyant WAN](/pages/web_cloud/internet/internet_access/ftth_fix_access#32-tests-lies-au-voyant-wan) ».
 
-- **Le voyant « INTERNET » est éteint et le voyant « WAN » allumé** : poursuivez vers la partie « [3.3 Tests liés au voyant INTERNET](/pages/web_cloud/internet/internet_access/ftth_fix_access#33-tests-lies-au-voyant-internet){.external} ».
+- **Le voyant « INTERNET » est éteint et le voyant « WAN » allumé** : poursuivez vers la partie « [3.3 Tests liés au voyant INTERNET](/pages/web_cloud/internet/internet_access/ftth_fix_access#33-tests-lies-au-voyant-internet) ».
 
-- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que la box OVHcloud est allumée, reliée à l'ONT et connectée à Internet. Poursuivez alors vers l'étape 4 « [vérifier le fonctionnement jusqu'à vos équipements personnels](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-4-verifier-le-fonctionnement-jusqua-vos-equipements-personnels){.external} ».
+- **L'état des voyants indique que tout fonctionne correctement** : cela signifie que la box OVHcloud est allumée, reliée à l'ONT et connectée à Internet. Poursuivez alors vers l'étape 4 « [vérifier le fonctionnement jusqu'à vos équipements personnels](/pages/web_cloud/internet/internet_access/ftth_fix_access#etape-4-verifier-le-fonctionnement-jusqua-vos-equipements-personnels) ».
 
 ![diagnosticfibre](images/acces-internet-box-ovh.png){.thumbnail}
 
@@ -157,7 +157,7 @@ Si le voyant « INTERNET » de votre box OVHcloud est éteint et le voyant « W
 
 2. **Configurer manuellement les identifiants PPP** : réalisez la configuration ci-dessous dans l'éventualité où celle automatique de votre box OVHcloud serait défaillante. 
 
-Pour cela, connectez-vous depuis votre navigateur internet à l'interface web de votre box OVHcloud en entrant l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud.
+Pour cela, connectez-vous depuis votre navigateur Internet à l'interface web de votre box OVHcloud en entrant l'adresse `192.168.1.1`. Vous devrez renseigner un mot de passe pour y accéder. Celui-ci devrait se trouver à l'arrière de votre box OVHcloud.
 
 - Pour le modèle **VMG8823-B50B**, le mot de passe se trouve à côté de « Admin Password ». Le mot de passe par défaut est « 1234 ».
 - Pour les autres modèles, le mot de passe se trouve à côté de « Login Password ».
@@ -182,7 +182,7 @@ Cliquez sur `OK`{.action}, puis patientez quelques instants le temps que la mani
 
 ### Étape 4 : vérifier le fonctionnement jusqu'à vos équipements personnels
 
-Poursuivez en vérifiant le fonctionnement de votre accès internet fibre jusqu'à vos équipements personnels, comme votre ordinateur ou une tablette.
+Poursuivez en vérifiant le fonctionnement de votre accès Internet fibre jusqu'à vos équipements personnels, comme votre ordinateur ou une tablette.
 
 > [!warning]
 >
@@ -203,17 +203,17 @@ Si votre connexion fonctionne de nouveau, c'est qu'un élément perturbe la liai
 
 #### 4.2 Vérifier quelques éléments basiques de votre ordinateur
 
-Il se peut qu'un élément basique de votre ordinateur (comme la configuration de votre navigateur internet ou de l'ordinateur lui-même) perturbe le bon fonctionnement de votre connexion. Pour le déterminer, réalisez les vérifications et manipulations ci-dessous :
+Il se peut qu'un élément basique de votre ordinateur (comme la configuration de votre navigateur Internet ou de l'ordinateur lui-même) perturbe le bon fonctionnement de votre connexion. Pour le déterminer, réalisez les vérifications et manipulations ci-dessous :
 
-- essayez de vous connecter via un onglet de navigation privée à votre navigateur internet ;
+- essayez de vous connecter via un onglet de navigation privée à votre navigateur Internet ;
 
-- utilisez, si cela est possible, un autre navigateur internet ;
+- utilisez, si cela est possible, un autre navigateur Internet ;
 
 - vérifiez que votre antivirus ou pare-feu ne ralentit pas ou ne bloque pas la connexion sur votre ordinateur ;
 
 - vérifiez que la date et l'heure sont à jour sur votre ordinateur. Si ce n'est pas le cas, l'accès à certains sites bénéficiant d'un certificat SSL pourrait ne plus fonctionner ;
 
-- si vous avez activé le protocole **IPv6** sur votre accès internet OVHcloud, assurez-vous que le ou les sites qui ne fonctionnent pas sont bien accessibles via ce protocole. Si ce n'est pas le cas, désactiver l'IPv6 pourrait rétablir l'accès à ces pages. Cette gestion s'effectue dans l'espace client, en cliquant sur l'onglet `Mon accès`{.action} de l'accès à Internet concerné, puis sur la section « Caractéristiques ».
+- si vous avez activé le protocole **IPv6** sur votre accès Internet OVHcloud, assurez-vous que le ou les sites qui ne fonctionnent pas sont bien accessibles via ce protocole. Si ce n'est pas le cas, désactiver l'IPv6 pourrait rétablir l'accès à ces pages. Cette gestion s'effectue dans l'espace client, en cliquant sur l'onglet `Mon accès`{.action} de l'accès à Internet concerné, puis sur la section « Caractéristiques ».
 
 Si votre connexion fonctionne de nouveau, c'est qu'un élément perturbe son fonctionnement. Reconfigurez, réinitialisez ou écartez cet élément afin de résoudre la panne. Si votre connexion ne fonctionne toujours pas, poursuivez la lecture de cette documentation.
 
@@ -282,14 +282,14 @@ Plusieurs causes peuvent expliquer cet état. Nous vous conseillons alors de :
 
 > [!primary]
 >
-> Si vous n'utilisez pas une connexion Wi-Fi, poursuivez dès à présent vers la manipulation suivante : « [4.5 Vérifier la configuration réseau de votre box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#45-verifier-la-configuration-reseau-de-votre-box-ovh){.external} ».
+> Si vous n'utilisez pas une connexion Wi-Fi, poursuivez dès à présent vers la manipulation suivante : « [4.5 Vérifier la configuration réseau de votre box OVHcloud](/pages/web_cloud/internet/internet_access/ftth_fix_access#45-verifier-la-configuration-reseau-de-votre-box-ovh) ».
 >
 
 Votre connexion Wi-Fi n'est toujours pas fonctionnelle ? Deux vérifications peuvent ici vous permettre de rétablir votre accès.
 
-- **Changer de canal Wi-Fi** : le réseau Wi-Fi est diffusé sur une plage de fréquences comportant 13 canaux. Si plusieurs box diffusent sur le même canal, des lenteurs de navigation, des coupures, voire une impossibilité de se connecter au réseau Wi-Fi peuvent survenir. Il est donc intéressant de tester différents canaux, afin de trouver le plus stable et le mieux adapté à votre situation ;
+- **Changer de canal Wi-Fi** : Le réseau Wi-Fi est diffusé sur une plage de fréquences comportant 13 canaux. Si plusieurs box diffusent sur le même canal, des lenteurs de navigation, des coupures, voire une impossibilité de se connecter au réseau Wi-Fi peuvent survenir. Il est donc intéressant de tester différents canaux, afin de trouver le plus stable et le mieux adapté à votre situation ;
 
-- **Modifier la clé Wi-Fi** : votre réseau Wi-Fi étant accessible par le biais d'une clé, il est possible que celle que vous utilisez ne soit pas correcte. Il est alors conseillé de modifier la clé Wi-Fi, afin d'être sûr d'en utiliser une fonctionnelle.
+- **Modifier la clé Wi-Fi** : Votre réseau Wi-Fi étant accessible par le biais d'une clé, il est possible que celle que vous utilisez ne soit pas correcte. Il est alors conseillé de modifier la clé Wi-Fi, afin d'être sûr d'en utiliser une fonctionnelle.
 
 Pour accéder à la configuration de votre réseau Wi-Fi OVHcloud, suivez ces étapes :
 
