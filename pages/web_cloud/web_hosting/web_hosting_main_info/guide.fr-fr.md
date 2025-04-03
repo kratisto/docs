@@ -1,7 +1,7 @@
 ---
 title: "Hébergement Web - Versions disponibles des langages"
 excerpt: "Découvrez le détail des versions des langages (Apache, PHP, Python, Perl) pour les offres d'hébergement Web OVHcloud"
-updated: 2025-04-02
+updated: 2025-04-03
 flag: hidden
 ---
 
@@ -39,15 +39,15 @@ Les informations contenues dans ce guide concernent les versions de **PHP**, **P
 <tbody>
 <tr>
 <td>Apache</td>
-<td><a href="https://webhosting-infos.hosting.ovh.net/fr/apache/"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">2.4</span></a></td>
+<td><a href="https://apache.webhosting-infos.hosting.ovh.net/"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">2.4</span></a></td>
 </tr>
 <tr>
 <td>Python</td>
-<td><a href="https://webhosting-infos.hosting.ovh.net/fr/python/2"><span style="background-color:#dc3545; color:white; padding:2px 6px; border-radius:6px;">2</span></a> <a href="https://webhosting-infos.hosting.ovh.net/fr/python/3"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">3</span></a></td>
+<td><a href="https://python-2.webhosting-infos.hosting.ovh.net/"><span style="background-color:#dc3545; color:white; padding:2px 6px; border-radius:6px;">2</span></a> <a href="https://python-3.webhosting-infos.hosting.ovh.net/"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">3</span></a></td>
 </tr>
 <tr>
 <td>Perl</td>
-<td><a href="https://webhosting-infos.hosting.ovh.net/fr/perl/5"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">5</span></a></td>
+<td><a href="https://perl.webhosting-infos.hosting.ovh.net/"><span style="background-color:#198754; color:white; padding:2px 6px; border-radius:6px;">5</span></a></td>
 </tr>
 </tbody>
 </table>
