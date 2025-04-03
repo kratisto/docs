@@ -24,10 +24,8 @@ details[open]>summary::before {
 
 > [!warning]
 > 
-> La mise en place de la fonctionnalité se fera en 2 phases :
->
-> - Phase 1 : prise en charge de l'expiration uniquement
-> - Phase 2 : prise en charge des transitions
+> Cette fonctionnalité n'est **pas** prise en charge par le endpoint legacy **.perf** et n'est disponible que via le endpoint **.io**.
+> Pour plus d'informations sur les différences entre les deux endpoints, veuillez consulter [cette documentation](/pages/storage_and_backup/object_storage/s3_location).
 
 ## Introduction
 
@@ -55,6 +53,13 @@ Lorsqu'un objet atteint la fin de sa durée de vie selon la configuration de son
 - **non versionné** : il n'existe qu'une seule version de l'objet, la version courante, et elle est supprimée définitivement.
 - **versionné** : un marqueur de suppression est créé et devient la version courante. Vous pouvez également choisir le nombre d'anciennes versions que vous souhaitez conserver. Si la version courante de l'objet est la seule version de l'objet et qu'il s'agit également d'un marqueur de suppression, ce dernier sera supprimé.
 - **versioning suspendu** : actuellement, nous ne permettons pas la suspension du versioning si vous avez une configuration de lifecycle en vigueur. De la même manière, nous ne permettons pas le téléchargement d'une configuration de lifecycle si le versioning est suspendu sur le bucket.
+
+> [!warning]
+> 
+> La mise en place de la fonctionnalité se fera en 2 phases :
+>
+> - Phase 1 : prise en charge de l'expiration uniquement
+> - Phase 2 : prise en charge des transitions
 
 ## Expiration (disponible)
 

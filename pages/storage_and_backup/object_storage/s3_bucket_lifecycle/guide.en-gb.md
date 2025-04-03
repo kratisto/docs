@@ -24,10 +24,8 @@ details[open]>summary::before {
 
 > [!warning]
 > 
-> The release of the feature will be done in 2 phases:
->
-> - Phase 1: support for expiration only
-> - Phase 2: support for transitions
+> This feature is **not** supported on the legacy **.perf** endpoint and is only available through the **.io** endpoint.
+> For more information about the differences between the 2 endpoints, please check [this documentation](/pages/storage_and_backup/object_storage/s3_location).
 
 ## Introduction
 
@@ -55,6 +53,13 @@ When an object reaches the end of its lifetime based on its lifecycle configurat
 - **non-versioned**: there is only one existing version of the object which is the current version and it is deleted permanently.
 - **versioned**: a delete marker is created and becomes the current version. You can also choose how many old versions you want to keep. If the current object version is the only object version and it is also a delete marker, that delete marker will be removed.
 - **versioning-suspended**: we currently do not allow for the suspension of versioning if you have a lifecycle configuration in effect and vice-versa. We currently do not allow for the upload of a lifecycle configuration if versioning is suspended on the bucket.
+
+> [!warning]
+> 
+> The release of the feature will be done in 2 phases:
+>
+> - Phase 1: support for expiration only
+> - Phase 2: support for transitions
 
 ## Expiration (available)
 
