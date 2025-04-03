@@ -150,9 +150,11 @@ Une fois le sous-réseau créé, votre réseau privé apparaîtra comme suit :
 
 ### Attacher une interface réseau à l’instance
 
-Cette action ne doit être effectuée que via l'interface Horizon.
-
-Si vous n'avez pas encore créé d'instance, vous devez d'abord la créer, puis attacher le réseau ultérieurement. Ne sélectionnez pas le réseau privé lors de la création de l'instance.
+> [!warning]
+> Cette action ne doit être effectuée que via l'interface Horizon.
+>
+> Si vous n'avez pas encore créé d'instance, vous devez d'abord la créer, puis attacher le réseau ultérieurement. Ne sélectionnez pas le réseau privé lors de la création de l'instance.
+>
 
 Nous vous recommandons de consulter les guides suivants si vous créez une instance Public Cloud pour la première fois : [Comment créer une instance Public Cloud et s'y connecter](/pages/public_cloud/compute/public-cloud-first-steps/) ou [Créer une instance depuis l'interface Horizon](/pages/public_cloud/compute/create_instance_in_horizon/).
 
@@ -220,22 +222,43 @@ sudo apt-get install iproute2
 
 Ensuite, nous devons créer une nouvelle route IP pour le vRack. Nous allons ajouter une nouvelle règle de trafic en modifiant le fichier, comme indiqué ci-dessous :
 
-```sh
-sudo nano /etc/iproute2/rt_tables # Pour Fedora: sudo nano /usr/share/iproute2/rt_tables
-
-#
-# reserved values
-#
-255	local
-254	main
-253	default
-0	unspec
-#
-# local
-#
-#1	inr.ruhep
-1 vrack
-```
+> [!tabs]
+> **Linux**
+>>
+>> ```sh
+>> sudo nano /etc/iproute2/rt_tables
+>> #
+>> # reserved values
+>> #
+>> 255	local
+>> 254	main
+>> 253	default
+>> 0	unspec
+>> #
+>> # local
+>> #
+>> #1	inr.ruhep
+>> 1 vrack
+>> ```
+>>
+> **Fedora**
+>>
+>> ```sh
+>> sudo nano /usr/share/iproute2/rt_tables
+>> #
+>> # reserved values
+>> #
+>> 255	local
+>> 254	main
+>> 253	default
+>> 0	unspec
+>> #
+>> # local
+>> #
+>> #1	inr.ruhep
+>> 1 vrack
+>> ```
+>>
 
 <a name="nonpersistent"></a>
 
