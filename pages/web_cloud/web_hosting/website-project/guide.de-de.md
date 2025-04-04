@@ -1,12 +1,12 @@
 ---
 title: "Webhosting - In wenigen Schritten richtig starten"
-excerpt: "Erfahren Sie hier die ersten Schritte, um Ihren Domainnamen zu verknüpfen, Ihre Website online zu stellen und E-Mail-Adressen mit Ihrem Webhosting zu erstellen"
+excerpt: "Erfahren Sie in dieser Quickstart-Anleitung, wie Sie Ihren Domainnamen verknüpfen, Ihre Website online stellen und E-Mail-Adressen mit Ihrem Webhosting erstellen"
 updated: 2024-02-13
 ---
 
 ## Ziel 
 
-OVHcloud bietet mehrere [Webhosting-Angebote](/links/web/hosting). Sie sind für verschiedene Einsatzzwecke konzipiert:
+OVHcloud bietet mehrere [Webhostings](/links/web/hosting) an. Sie sind für verschiedene Einsatzzwecke konzipiert:
 
 - Erste Schritte im Web.
 - Schnelles Erstellen einer Website (professionell oder nicht), eines Blogs, eines **C**ontent **M**anagement **S**ystem (**CMS**) wie *WordPress*, *Joomla!*, *PrestaShop* oder *Drupal* oder eines Onlineshops.
@@ -15,8 +15,8 @@ OVHcloud bietet mehrere [Webhosting-Angebote](/links/web/hosting). Sie sind für
 - Verwaltung von Datenbanken ([bei einigen unserer Webhostings inklusive](/links/web/hosting)).
 - etc.
 
-Diese Angebote ersparen Ihnen die Verwaltung der Wartung, der Updates und der Sicherheit einer Webhosting-Infrastruktur.<br>
-So sparen Sie Zeit bei der Administration und können sich ganz auf Folgendes konzentrieren:
+Diese Angebote ersparen Ihnen die Verwaltung der Wartung, der Updates und der Sicherheit einer Webhosting-Infrastruktur.  
+So sparen Sie Zeit bei der Administration und können sich etwa auf Folgendes konzentrieren:
 
 - Entwicklung, Aktualisierung und Sicherheit einer Website, eines Blogs, eines CMS oder eines Webshops
 - Sicherheit und Optimierung einer oder mehrerer Datenbanken, wenn Ihr Angebot über solche verfügt
@@ -33,17 +33,17 @@ So sparen Sie Zeit bei der Administration und können sich ganz auf Folgendes ko
 
 ## In der praktischen Anwendung
 
-Ziel dieser Anleitung ist es, Ihnen die wichtigsten Aktionen aufzuzeigen, die mit unseren [Webhosting](/links/web/hosting) Lösungen durchgeführt werden können. 
+Ziel dieser Anleitung ist es, Ihnen die wichtigsten Aktionen aufzuzeigen, die mit unseren [Webhosting](/links/web/hosting) Lösungen durchgeführt werden können.  
 Jede dieser Aktionen wird durch einen oder mehrere Links zu spezifischen Leitfäden (im Zusammenhang mit der jeweiligen Aktion) begleitet.
 
-Sie können diese Anleitung also als „Repository“ für die möglichen Aktionen verwenden, sobald Sie Ihr [Webhosting](/links/web/hosting) abonniert haben und während Sie es verwenden.
+Sie können diese Anleitung als Einstieg für alle Webhosting-Aktionen verwenden, bevor und während Sie Ihr [Webhosting](/links/web/hosting) verwenden.
 
 > [!primary]
 > 
-> Für ein besseres Verständnis bezieht sich der Begriff „Website“ in der folgenden Anleitung auf alle Arten von Websites (Websites, Blogs, CMS, Webshops usw.), die weiter oben erwähnt werden.
+> Die Bezeichnung "Website" in dieser Anleitung bezieht sich auf alle Arten von Websites (Websites, Blogs, CMS, Webshops usw.), die weiter oben erwähnt werden.
 >
 
-**Inhalt:**
+**Inhaltsübersicht**
 
 - [Schritt 1 - Projekt abgrenzen](#project-delimitation)
 - [Schritt 2 - Website installieren](#website-installation)
@@ -61,13 +61,13 @@ Bevor Sie beginnen, ist es wichtig, Ihre Bedürfnisse klar zu identifizieren und
 
 Je nach Ihren Antworten überprüfen Sie, ob Ihr [Webhosting](/links/web/hosting) Angebot Ihren Anforderungen entspricht, bevor Sie fortfahren.
 
-Ist das nicht der Fall, lesen Sie unsere Anleitung „[Webhosting: Wie kann ich mein Angebot wechseln?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)“.
+Andernfalls nutzen Sie unsere Anleitung „[Webhosting: Wie kann ich mein Angebot wechseln?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)“.
 
 ### Schritt 2 - Website installieren <a name="website-installation"></a>
 
 Nachdem Sie das Projekt genau definiert haben, können Sie mit der Installation Ihrer Website beginnen.
 
-Es gibt zwei mögliche Szenarien: **Migrieren** einer vorhandenen Website oder **Erstellen** einer neuen Website.
+Es gibt zwei Möglichkeiten: **Migrieren** einer vorhandenen Website oder **Erstellen** einer neuen Website.
 
 #### Website migrieren
 
@@ -77,25 +77,25 @@ Wenn Sie eine Website von einem anderen Hosting-Anbieter migrieren möchten, les
 
 In diesem Fall stehen Ihnen mehrere Lösungen zur Verfügung.
 
-##### Fall 1 - Eine lokal entwickelte Website online stellen
+##### Fall 1 - Eine selbst produzierte Website online stellen
 
-Folgen Sie in diesem Fall unserer Anleitung „[Eine Website auf Ihrem Webhosting online stellen](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)“. Sie finden dort alle notwendigen Schritte:
+Folgen Sie in diesem Fall unserer Anleitung „[Eine Website auf Ihrem Webhosting online stellen](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)“.  Sie finden dort alle notwendigen Schritte:
 
 - Platzieren Ihrer Website auf dem FTP-Speicherplatz Ihres Webhostings
 - Ihrem Webhosting zugeordnete Datenbank erstellen
-- Platzieren Ihrer lokale Datenbank in der zu Ihrem Webhosting gehörenden Datenbank
+- Platzieren Ihrer lokalen Datenbank in der zu Ihrem Webhosting gehörenden Datenbank
 - Ihre Datenbank mit der Website auf Ihrem Webhosting verbinden
 
 ##### Fall 2 - Erstellen einer Website mithilfe eines CMS
 
-OVHcloud stellt Ihnen die Option „1-Klick-Module“ zur Verfügung.<br>
+OVHcloud stellt Ihnen die Option „1-Klick-Module“ zur Verfügung.  
 Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager) eingeloggt sind, können Sie mit dieser Option schnell die CMS *WordPress*, *Joomla!*, *PrestaShop* und *Drupal* auf dem Hosting installieren.
 
 Um diese Option zu verwenden, lesen Sie unsere Anleitung „[Installation Ihrer Website mit 1-Klick-Modulen (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)“.
 
 > [!primary]
 >
-> Wenn Sie Ihr CMS lieber manuell installieren möchten, ohne die Option „1-Klick-Module“, lesen Sie unsere Dokumentation „[Manuelle Installation eines CMS auf einem Webhosting](/pages/web_cloud/web_hosting/cms_manual_installation)“.
+> Wenn Sie Ihr CMS manuell installieren möchten, ohne die Option „1-Klick-Module“, lesen Sie unsere Dokumentation „[Manuelle Installation eines CMS auf einem Webhosting](/pages/web_cloud/web_hosting/cms_manual_installation)“.
 >
 
 ### Schritt 3 - E-Mail-Accounts erstellen (optional) <a name="email-creation"></a>
@@ -116,22 +116,22 @@ Wenn die Option aktiviert ist, lesen Sie unsere Anleitung „[E-Mail-Accounts mi
 
 Ihre Website muss nun auf Ihrem Webhosting installiert sein, und Ihre E-Mail-Adressen müssen erstellt sein. Solange die Konfiguration Ihrer Domain mit den neuen Diensten unvollständig ist, funktionieren diese Elemente möglicherweise noch nicht.
 
-Die Verbindung zwischen Ihrem Domainnamen und Ihren Diensten (Webhosting, E-Mail-Server etc.) erfolgt im Wesentlichen über die aktive DNS-Zone Ihrer Domain und die darin enthaltenen DNS-Einträge.
+Die Verbindung zwischen Ihrem Domainnamen und Ihren Diensten (Webhosting, E-Mail-Server, etc.) erfolgt im Wesentlichen über die aktive DNS-Zone Ihrer Domain und die darin enthaltenen DNS-Einträge.
 
 > [!primary]
 >
-> Beachten Sie, dass eine Änderung in einer DNS-Zone eine Propagationszeit von 4 bis maximal 24 Stunden erfordert, bevor sie voll wirksam ist.
+> Beachten Sie, dass eine Änderung in einer DNS-Zone eine Propagationszeit von 4 bis 24 Stunden erfordert, bevor sie voll wirksam ist.
 >
 
 > **Sonderfälle:**
 >
-> Wenn Sie eine Website und/oder E-Mail-Adressen migrieren, die dem Domainnamen Ihrer Website zugeordnet sind, lesen Sie unsere Anleitung „[Migration Ihrer Website und E-Mails zu OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)“. Dort finden Sie alle wesentlichen Schritte für eine unterbrechungsfreie Migration aller Ihrer Dienstleistungen (Domainname, Website, E-Mail-Adresse(n) etc.).
+> Wenn Sie eine Website und/oder E-Mail-Adressen migrieren, die dem Domainnamen Ihrer Website zugeordnet sind, lesen Sie unsere Anleitung „[Migration Ihrer Website und E-Mails zu OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)“. Dort finden Sie alle wesentlichen Schritte für eine unterbrechungsfreie Migration aller Ihrer Dienstleistungen (Domainname, Website, E-Mail-Adresse(n), etc.).
 
 Um die Verbindung zwischen Ihrem Domainnamen und Ihrem Webhosting zu überprüfen und/oder zu ändern, **lesen Sie die folgenden Hilfen in der angegebenen Reihenfolge:**
 
-- [Verzeichnis von IP-Adressen für die Webhosting Cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP): Hier finden Sie alle IP-Adressen unserer Webhosting-Infrastruktur. Diese Anleitung hilft Ihnen insbesondere bei Domainnamen, deren aktive DNS-Zone nicht bei OVHcloud verwaltet wird (oder die über ein anderes OVHcloud Account verwaltet werden).
-- [Mehrere Websites auf einem Webhosting einrichten](/pages/web_cloud/web_hosting/multisites_configure_multisite): In dieser Anleitung erfahren Sie, wie Sie mehrere Domainnamen zu einem Webhosting hinzufügen. Es kann Ihnen auch dabei helfen, zu überprüfen, ob die Angabe Ihres Domainnamens im Tab `Multisite`{.action} Ihres Webhostings korrekt ist. Bei Bedarf können Sie diese dann in der aktiven DNS-Zone Ihrer Domain ändern.
-- [Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit): In dieser Anleitung erfahren Sie, wie Sie eine bei OVHcloud vorhandene DNS-Zone bearbeiten. Sie wird verwendet, wenn die aktive DNS-Zone Ihrer Domain auf einem anderen OVHcloud Account als Ihrem eingerichtet ist. Sie können damit auch auf die OVHcloud DNS-Zone Ihrer Domain zugreifen, um zu überprüfen, dass die für Ihre Domain in der DNS-Zone deklarierte IP-Adresse (Eintrag(e) vom Typ *A* und/oder *AAAA*) mit der IP-Adresse Ihres Webhostings übereinstimmt.
+- [Verzeichnis von IP-Adressen für die Webhosting Cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP): Hier finden Sie alle IP-Adressen unserer Webhosting-Infrastruktur. Diese Anleitung hilft Ihnen insbesondere bei Domainnamen, deren aktive DNS-Zone nicht bei OVHcloud verwaltet wird (oder die über einen anderen OVHcloud Kunden-Account verwaltet wird).
+- [Mehrere Websites auf einem Webhosting einrichten](/pages/web_cloud/web_hosting/multisites_configure_multisite): In dieser Anleitung erfahren Sie, wie Sie mehrere Domainnamen zu einem Webhosting hinzufügen und überprüfen, ob die Angabe Ihres Domainnamens im Tab `Multisite`{.action} Ihres Webhostings korrekt ist. Bei Bedarf können Sie diese dann in der aktiven DNS-Zone Ihrer Domain ändern.
+- [Bearbeiten der OVHcloud DNS-Zone](/pages/web_cloud/domains/dns_zone_edit): In dieser Anleitung erfahren Sie, wie Sie eine bei OVHcloud vorhandene DNS-Zone bearbeiten. Sie wird verwendet, wenn die aktive DNS-Zone Ihrer Domain auf einem anderen OVHcloud Kunden-Account als Ihrem eingerichtet ist. Sie können damit auch auf die OVHcloud DNS-Zone Ihrer Domain zugreifen, um zu überprüfen, dass die für Ihre Domain in der DNS-Zone deklarierte IP-Adresse (Eintrag vom Typ *A* und/oder *AAAA*) mit der IP-Adresse Ihres Webhostings übereinstimmt.
 
 Um die Verbindung zwischen Ihrem Domainnamen und Ihrem OVHcloud E-Mail-Angebot zu überprüfen und/oder zu ändern, lesen Sie die Anleitung „[MX-Eintrag für die E-Mail-Verwaltung konfigurieren](/pages/web_cloud/domains/dns_zone_mx)“: Dort finden Sie die Namen der OVHcloud E-Mail-Server sowie die Vorgehensweise, um Ihren Domainnamen auf diese Server verweisen zu lassen.
 
@@ -141,7 +141,7 @@ Um die Verbindung zwischen Ihrem Domainnamen und Ihrem OVHcloud E-Mail-Angebot z
 > 
 > - **Für die Verbindung zwischen Ihrem Domainnamen und Ihrem Webhosting**: Ziehen Sie die oben aufgeführten Anleitungen „[Verzeichnis von IP-Adressen für die Webhosting Cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)“ und „[Mehrere Websites auf einem Webhosting einrichten](/pages/web_cloud/web_hosting/multisites_configure_multisite)“ zu Rate, um die IP-Adresse Ihres Webhostings abzurufen. Deklarieren Sie anschließend Ihren Domainnamen korrekt auf Ihrem Webhosting. Wenden Sie sich anschließend an die Organisation, die die aktive DNS-Zone Ihrer Domain verwaltet, damit diese auf Ihr Webhosting verweist.
 >
-> - **Für die Verbindung zwischen Ihrem Domainnamen und Ihrem OVHcloud E-Mail-Angebot**: Lesen Sie nur die Anleitung „[MX-Eintrag für die E-Mail-Verwaltung konfigurieren](/pages/web_cloud/domains/dns_zone_mx)“, um die Namen der OVHcloud E-Mail-Server abzurufen, die in der aktiven DNS-Zone Ihrer Domain angegeben werden müssen. Wenden Sie sich anschließend an die Organisation, die die aktive DNS-Zone Ihrer Domain verwaltet, damit diese auf die OVHcloud E-Mail-Server verweist.
+> - **Für die Verbindung zwischen Ihrem Domainnamen und Ihrem OVHcloud E-Mail-Dienst**: Sie benötigen nur die Anleitung „[MX-Eintrag für die E-Mail-Verwaltung konfigurieren](/pages/web_cloud/domains/dns_zone_mx)“, um die Namen der OVHcloud E-Mail-Server abzurufen, die in der aktiven DNS-Zone Ihrer Domain angegeben werden müssen. Wenden Sie sich anschließend an die Organisation, die die aktive DNS-Zone Ihrer Domain verwaltet, damit diese auf die OVHcloud E-Mail-Server verweist.
 >
 
 ### Schritt 5 - Weitere Optionen für Webhostings <a name="other-options"></a>
@@ -150,29 +150,29 @@ Abhängig von Ihrem [Webhosting Angebot](/links/web/hosting) sind zusätzliche O
 
 #### SSL Zertifikate
 
-Mit SSL Zertifikaten wird Ihre Website über HTTPS erreichbar gemacht. Dieses Protokoll verschlüsselt die Kommunikation zwischen Ihrem Webhosting und den Personen, die Ihre Website besuchen.
+Mit SSL-Zertifikaten wird Ihre Website über HTTPS erreichbar gemacht. Dieses Protokoll verschlüsselt die Kommunikation zwischen Ihrem Webhosting und Besuchern Ihrer Website.
 
 Sie können ein kostenloses SSL-Zertifikat von **Let's Encrypt** für jedes [Webhosting](/links/web/hosting) aktivieren.
 
 Weitere Informationen zu den SSL-Zertifikaten (kostenlos oder kostenpflichtig), die auf Webhostings angeboten werden, finden Sie in unserer Anleitung „[SSL-Zertifikate auf Webhostings](/pages/web_cloud/web_hosting/ssl_on_webhosting)“.
 
-#### Die CDN Angebote
+#### Die CDN-Angebote
 
-Alle unsere CDN Angebote erlauben es, einen Teil Ihrer Website in den Cache zu legen. Dadurch verkürzen sich die Ladezeiten der Seiten, aus denen Ihre Website besteht, insbesondere für Besucher, die geografisch weit vom Rechenzentrum entfernt sind, in dem Ihr Webhosting betrieben wird.
+Alle unsere CDN-Angebote erlauben es, einen Teil Ihrer Website in den Cache zu legen. Dadurch verkürzen sich die Ladezeiten der Seiten, aus denen Ihre Website besteht, insbesondere für Besucher, die geografisch weit vom Rechenzentrum entfernt sind, in dem Ihr Webhosting betrieben wird.
 
-Mit den Webhostings bietet OVHcloud 3 CDN Angebote:
+Für Webhostings bietet OVHcloud 3 CDN-Varianten:
 
 - **CDN Basic**
 - **CDN Security**
 - **CDN Advanced**
 
-Weitere Informationen zu unseren verschiedenen CDN Angeboten finden Sie in unserer Anleitung „[Ihre Webseiten mit CDN beschleunigen](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)“.
+Weitere Informationen zum CDN finden Sie in unserer Anleitung „[Ihre Webseiten mit CDN beschleunigen](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)“.
 
 > [!primary]
 >
-> Das Angebot **CDN Basic** ist nur bei Webhostings kostenlos inklusive **Performance**.
+> Das Angebot **CDN Basic** ist nur bei **Performance** Webhostings kostenlos inklusive.
 >
-> Sie können nicht mehrere CDN Angebote auf demselben Webhosting zusammenfassen.
+> Sie können nicht mehrere CDN-Varianten auf demselben Webhosting zusammenfassen.
 
 #### Die Web Cloud Databases Datenbankserver
 
@@ -182,13 +182,13 @@ Weitere Informationen zur Verwendung finden Sie in unserer Dokumentation „[Ers
 
 #### E-Mails von Ihrer Website aus versenden
 
-Alle unsere [Webhosting](/links/web/hosting) ermöglichen den kostenlosen Versand von E-Mails von Ihrer Website oder einem bestimmten Skript aus.
+Alle unsere [Webhostings](/links/web/hosting) ermöglichen den kostenlosen Versand von E-Mails von Ihrer Website oder einem bestimmten Skript aus.
 
 Weitere Informationen zu dieser Funktion finden Sie in unserer Anleitung „[Automatische E-Mails eines Webhostings verwalten](/pages/web_cloud/web_hosting/mail_function_script_records)“.
 
-#### Die geplanten Tasks (CRON)
+#### Geplante Tasks (CRON)
 
-Mit den CRON Tasks können Sie automatisch Skripte ausführen, die auf Ihrem Webhosting gehostet werden.
+Mit CRON Tasks können Sie automatisch Skripte ausführen, die auf Ihrem Webhosting gehostet werden.
 
 Wenn Ihr [Webhosting](/links/web/hosting) über diese Option verfügt, lesen Sie unsere Anleitung „[Automatische Tasks mit einem Webhosting verwendenn](/pages/web_cloud/web_hosting/cron_tasks)“ für weitere Informationen.
 
@@ -196,7 +196,7 @@ Wenn Ihr [Webhosting](/links/web/hosting) über diese Option verfügt, lesen Sie
 
 [Migration Ihrer Website und E-Mails zu OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)
 
-[Meine Seite online stellen](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)
+[Website online stellen](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)
 
 [Installation Ihrer Website mit 1-Klick-Modulen](/pages/web_cloud/web_hosting/cms_install_1_click_modules)
 
