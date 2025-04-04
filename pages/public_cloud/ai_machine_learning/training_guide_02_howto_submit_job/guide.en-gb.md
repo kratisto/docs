@@ -24,7 +24,7 @@ Log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomana
 
 ### Step 2 - Activating AI Training service
 
-Once you have read the general information and validated this services's contract terms, you can start submitting your jobs. Upon activating the AI Training service you grant OVHcloud access to your Object Storage containers. This access is only used to synchronise your data within **AI Training** with your containers.
+Once you have read the general information and validated this service's contract terms, you can start submitting your jobs. Upon activating the AI Training service you grant OVHcloud access to your Object Storage containers. This access is only used to synchronise your data within **AI Training** with your containers.
 
 ![training onboarding page](images/01_training_onboarding.png){.thumbnail}
 
@@ -86,7 +86,7 @@ To attach a **data** object, just select from the list on the left. Next to each
 
 > [!warning]
 >
-> To attach a **data** object you must click on the plus (+) button after filling the fields
+> To attach a **data** object you must click on the plus (+) button after filling in the fields.
 
 Once the data is configured click `Next`{.action}.
 
