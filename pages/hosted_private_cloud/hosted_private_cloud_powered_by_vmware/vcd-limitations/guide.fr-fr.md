@@ -1,7 +1,7 @@
 ---
 title: "Capacités techniques et limites de Public VCF aaS (alias Managed VCD)"
 excerpt: "Découvrez les capacités techniques et les limites de Public VCF aaS (alias Managed VCD)"
-updated: 2025-03-19
+updated: 2025-04-04
 ---
 
 ## Objectif
@@ -28,7 +28,6 @@ Avant de commencer, consultez les guides suivants pour mieux comprendre VMware C
 | Cartes réseau (par VM) | 5 | 10 | 10 | Nombre maximal d'adaptateurs réseau par VM. |
 | Edge Gateway (par organisation) | N/A | 5 | 5 | Nombre maximal d'Edge Gateways par organisation. |
 | IP publiques (par vDC) | N/A | 2 | 2 | Nombre d’IP publiques disponibles par vDC. |
-| Stockage (par VM) | 1,5 To | 1,5 To | 1,5 To | Limite de stockage sur NFS/vSAN. |
 | Snapshots (par VM) | 3 | 3 | 3 | Nombre maximal de snapshots par VM. |
 | VMs (par vApp) | 128 | 128 | 128 | Nombre maximal de VMs autorisées par vApp. |
 | VMs (par organisation) | 2000 | 4000 | 4000 | Nombre maximal de VMs par organisation. |
