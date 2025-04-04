@@ -1,6 +1,6 @@
 ---
 title: "How to get started with your web hosting plan"
-excerpt: "Find out how to put a new website online via our 1-click modules options, how to create a new custom email address with your domain name, all using our web hosting solution"
+excerpt: "Find out how to put a new website online with our 1-click modules, how to create a new custom email address with your domain name, all using our web hosting solution"
 updated: 2025-04-03
 ---
 
@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Objective
 
-Want to create a website for your business or a personal blog? Need an e-commerce store to sell your products online? This guide to getting started with an OVHcloud Web Hosting plan will show you the key steps for setting it up. You will also find instructions for creating professional email addresses associated with your domain name. It will enable you to put your project online quickly and easily, so that you can communicate effectively with your audience.
+Want to create a website for your business or a personal blog? Need an e-commerce store to sell your products online? This guide to getting started with an OVHcloud web hosting plan will show you the key steps for setting it up. You will also find instructions for creating professional email addresses associated with your domain name. It will enable you to put your project online quickly and easily, so that you can communicate effectively with your audience.
 
 **Find out how to put a new website online quickly and easily with our 1-click module solution. This guide also explains how to create a new, customized email address with your domain name.**
 
@@ -30,11 +30,11 @@ Want to create a website for your business or a personal blog? Need an e-commerc
 
 ## Requirements
 
-- A [OVHcloud Web Hosting](/links/web/hosting) plan  with at least one database available.
-- An email confirming that your web hosting plan has been set up.
-- You must have a [domain name](/links/web/domains) and an associated DNS zone with OVHcloud.
-- All of the above services must be accessible from a single OVHcloud account.
-- Be log in to your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section.
+- A [OVHcloud Web Hosting](/links/web/hosting) plan with at least one database available
+- An email confirming that your web hosting plan has been set up
+- A [domain name](/links/web/domains) and an associated DNS zone at OVHcloud
+- Access to the [OVHcloud Control Panel](/links/manager), in the section `Web Cloud`{.action}
+- Access to all these services from a single OVHcloud account
 
 ## Instructions
 
@@ -45,7 +45,7 @@ Want to create a website for your business or a personal blog? Need an e-commerc
 > If you have subscribed to your domain name and web hosting plan in the same order, these two services are already linked. Skip to [Part 2](#part-2) of this guide.
 
 1. Click on the `Hosting plans`{.action} menu, then choose the web hosting plan concerned.
-2. Select the `Multisite`{.action} tab once you have clicked on the Web Hosting plan concerned.
+2. Select the `Multisite`{.action} tab.
 3. On the page that pops up, click the `Actions`{.action} button above the table listing the domain names already declared on the web hosting plan. Then click `Add a domain or sub-domain`{.action}.
 4. In the window that opens, check and complete the requested elements until they are validated.
 
@@ -53,8 +53,8 @@ Want to create a website for your business or a personal blog? Need an e-commerc
 
 See our detailed guides:
 
-- [Web hosting - Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite).
-- [Web Hosting - How to modify a domain name already associated to a hosting plan](/pages/web_cloud/web_hosting/multisites_modify_domain).
+- [Web hosting - Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)
+- [Web Hosting - How to modify a domain name already associated to a hosting plan](/pages/web_cloud/web_hosting/multisites_modify_domain)
 
 ///
 
@@ -63,16 +63,16 @@ See our detailed guides:
 On our web hosting plans, OVHcloud offers free WordPress, Joomla!, PrestaShop and Drupal CMS installations with the 1-click module option.
 
 1. Click on the `Hosting plans`{.action} menu, then choose the web hosting plan concerned.
-2. Select the `1-click modules`{.action} tab once you have clicked on the Web Hosting plan concerned.
+2. Select the `1-click modules`{.action} tab.
 3. On the page that appears, click the `Add a module`{.action} button.
-4. In the window that opens, select the CMS you want to install. Then select the domain on which you want to install the module by selecting the domain name you want **without selecting the “www”** in front of it (e.g. `domain.tld`, not `www.domain.tld`), then directly click `Install`{.action}.
+4. In the window that opens, select the CMS you want to install. Then select the domain on which you want to install the module by selecting the domain name you want **without www** (example: `domain.tld`, not `www.domain.tld`), then click `Install`{.action}.
 
 /// details | Click here for more information.
 
 See our detailed guides:
 
-- [Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
-- [How to manage your 1-click module](/pages/web_cloud/web_hosting/cms_manage_1_click_module).
+- [Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)
+- [How to manage your 1-click module](/pages/web_cloud/web_hosting/cms_manage_1_click_module)
 
 ///
 
@@ -123,10 +123,10 @@ Below is a selection of our guides detailing the main features offered with our 
 - [Activating the application firewall](/pages/web_cloud/web_hosting/multisites_activating_application_firewall).
 - [Configuring and using Git with an OVHcloud web hosting plan](/pages/web_cloud/web_hosting/git_integration_webhosting).
 - [Logging in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection).
-- [Using automated tasks (CRON) on a Web Hosting plan](/pages/web_cloud/web_hosting/cron_tasks).
+- [Using automated tasks (CRON) on a web hosting plan](/pages/web_cloud/web_hosting/cron_tasks).
 
-For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
- 
+For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+
 If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
- 
+
 Join our [community of users](/links/community).
