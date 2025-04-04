@@ -22,18 +22,17 @@ details[open]>summary::before {
 
 Pretende criar um site para a sua empresa ou um blogue pessoal? Precisa de uma loja online para vender os seus produtos? Este guia dedicado aos primeiros passos com o alojamento web OVHcloud indicar-lhe-á as etapas chave para o configurar. Além disso, também encontrará explicações para criar endereços de e-mail profissionais associados ao seu domínio. Permite-lhe colocar online o seu projeto de forma fácil e rápida, a fim de comunicar com o seu público de forma eficaz.
 
-**Saiba como colocar um novo site online de forma fácil e rápida através da solução "Módulo 1 clique". Este manual explica-lhe igualmente como criar um novo endereço de e-mail personalizado com o seu nome de domínio.**
-
 > [!primary]
 >
-> Se pretender migrar um site já existente para outro fornecedor de alojamento, consulte diretamente o nosso guia dedicado: [Migrar o seu site e os seus serviços associados para a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Deseja migrar um site já existente para outro fornecedor de alojamento? Consulte diretamente o nosso guia dedicado: [Migrar o seu website e os seus serviços associados para a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Deseja apenas uma página inicial simples para a sua atividade profissional? Consulte o nosso guia dedicado: [Alojamento web - Ativar alojamento gratuito 100M](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Requisitos
 
-- Ter um serviço de [alojamento web OVHcloud](/links/web/hosting) com, pelo menos, uma base de dados disponível.
+- Ter um serviço de [alojamento web OVHcloud](/links/web/hosting) com, pelo menos, uma base de dados disponível (exceto a oferta de alojamento gratuito 100M).
 - Ter recebido o e-mail com a confirmação da instalação do alojamento web.
 - Dispor de um [nome de domínio](/links/web/domains) e de uma zona DNS associada na OVHcloud.
-- Todos os serviços acima referidos devem estar acessíveis a partir de uma única conta OVHcloud.
+- Todos os serviços (Alojamento web, Nome de domínio, zona DNS) devem estar acessíveis a partir de uma única conta OVHcloud.
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager), secção `Web Cloud`{.action}.
 
 ## Instruções

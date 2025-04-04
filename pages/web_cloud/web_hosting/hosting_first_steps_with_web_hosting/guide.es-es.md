@@ -22,18 +22,17 @@ details[open]>summary::before {
 
 ¿Quiere crear un sitio web para su empresa o un blog personal? ¿Necesita una tienda online para vender sus productos? Esta guía explica los primeros pasos con el alojamiento web de OVHcloud y explica cómo configurarlo. También encontrará instrucciones para crear direcciones de correo electrónico profesionales asociadas a su dominio. Le permitirá publicar su proyecto en Internet fácil y rápidamente para comunicarse con su audiencia de forma eficaz.
 
-**Descubra cómo publicar fácil y rápidamente un nuevo sitio web a través de nuestra solución Módulo en un clic. Esta guía explica también cómo crear una nueva dirección de correo personalizada con un dominio.**
-
 > [!primary]
 >
-> Si quiere migrar un sitio web existente a otro proveedor de hosting, consulte directamente nuestra guía dedicada: [Migrar un sitio web y los servicios asociados a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - ¿Quiere migrar un sitio web existente a otro proveedor de hosting? Consulte directamente nuestra guía dedicada: [Migrar un sitio web y los servicios asociados a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - ¿Desea solo una página de inicio sencilla para su actividad profesional? Consulte nuestra guía dedicada: [Web hosting - Activar el alojamiento gratuito 100M](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Requisitos
 
-- Tener contratado un [plan de hosting de OVHcloud](/links/web/hosting) con al menos una base de datos disponible.
+- Tener contratado un [plan de hosting de OVHcloud](/links/web/hosting) con al menos una base de datos disponible (fuera del plan de hosting gratuito 100M).
 - Haber recibido el email de confirmación de la instalación de su alojamiento web.
 - Tener un [dominio](/links/web/domains) y una zona DNS asociada en OVHcloud.
-- Todos los servicios mencionados deben ser accesibles desde una única cuenta de OVHcloud.
+- Todos los servicios (alojamiento web, dominio, zona DNS) deben ser accesibles desde una única cuenta de OVHcloud.
 - Estar conectado a su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}.
 
 ## Procedimiento

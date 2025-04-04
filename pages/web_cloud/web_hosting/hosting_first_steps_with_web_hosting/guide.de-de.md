@@ -22,18 +22,17 @@ details[open]>summary::before {
 
 Sie möchten eine Website für Ihr Unternehmen oder einen persönlichen Blog erstellen? Sie benötigen einen Onlineshop, um Ihre Produkte online zu verkaufen? In dieser Anleitung für die ersten Schritte mit OVHcloud Webhosting werden die wichtigsten Schritte zur Konfiguration beschrieben. Hier finden Sie auch Anleitungen zum Erstellen von professionellen E-Mail-Adressen, die mit Ihrer Domain verbunden sind. So können Sie Ihr Projekt einfach und schnell online stellen und effizient mit Ihrem Publikum kommunizieren.
 
-**Hier erfahren Sie, wie Sie mit unserer 1-Klick-Modul-Lösung einfach und schnell eine neue Website online stellen. In dieser Anleitung erfahren Sie auch, wie Sie eine neue personalisierte E-Mail-Adresse mit Ihrer Domain erstellen.**
-
 > [!primary]
 >
-> Wenn Sie eine bereits bestehende Website zu einem anderen Hosting-Anbieter migrieren möchten, lesen Sie unsere Anleitung: [Website und zugehörige Dienste zu OVHcloud migrieren](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Sie möchten eine bestehende Website zu einem anderen Hosting-Anbieter migrieren? Ziehen Sie unsere spezielle Anleitung zu Rate: [Migration Ihrer Website und zugehörigen Dienste zu OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Sie möchten nur eine einfache Homepage für Ihr Business? Lesen Sie unsere Anleitung: [Webhosting - Kostenloses Hosting 100M aktivieren](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Voraussetzungen
 
-- Sie verfügen über ein [OVHcloud Webhosting](/links/web/hosting) mit mindestens einer verfügbaren Datenbank.
+- Sie verfügen über ein [OVHcloud Webhosting](/links/web/hosting) mit mindestens einer verfügbaren Datenbank (mit Ausnahme des Kostenloses Hosting 100M Angebots).
 - Sie haben die E-Mail zur Installation Ihres Webhostings erhalten.
 - Sie haben einen [Domainnamen](/links/web/domains) und eine zugehörige DNS-Zone bei OVHcloud.
-- Alle oben genannten Dienste müssen von einem einzigen OVHcloud Kunden-Account verwaltet werden.
+- Alle Dienste (Webhosting, Domainnamen, DNS-Zone) müssen von einem einzigen OVHcloud Account aus erreichbar sein.
 - Sie sind in Ihrem [OVHcloud Kundencenter](/links/manager) eingeloggt und befinden sich im Bereich `Web Cloud`{.action}.
 
 ## In der praktischen Anwendung

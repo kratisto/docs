@@ -22,18 +22,17 @@ details[open]>summary::before {
 
 Vuoi creare un sito Internet per la tua azienda o un blog personale? Hai bisogno di un e-commerce per vendere i tuoi prodotti online? Questa guida dedicata ai primi passi dell’hosting Web OVHcloud ti mostra gli step chiave per configurarlo. Trovi anche le spiegazioni per creare indirizzi email professionali associati al tuo dominio. Ti permette di pubblicare online il tuo progetto in modo semplice e rapido, per comunicare con il tuo pubblico in modo efficace.
 
-**Questa guida ti mostra come mettere online in modo semplice e veloce un nuovo sito Web con la nostra soluzione "Modulo in 1 click". Questa guida ti mostra come creare un nuovo indirizzo email personalizzato con il tuo dominio.**
-
 > [!primary]
 >
-> Per migrare un sito Web esistente a un altro provider, consulta la nostra guida dedicata: [Migrare un sito Web e i servizi associati a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Vuoi migrare un sito Web esistente presso un altro provider? Consulta la nostra guida dedicata: [Migrare il proprio sito Web e i servizi associati a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Vuoi solo una semplice home page per la tua attività professionale? Consulta la nostra guida dedicata: [Hosting Web - Attiva l'hosting gratuito 100M](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Prerequisiti
 
-- Disporre di una soluzione di [hosting Web OVHcloud](/links/web/hosting) con almeno un database disponibile.
+- Disporre di una soluzione di [hosting Web OVHcloud](/links/web/hosting) con almeno un database disponibile (escluso il servizio di hosting gratuito 100M).
 - Aver ricevuto l’email di conferma dell’installazione del tuo hosting Web.
 - Disporre di un [dominio](/links/web/domains) e di una zona DNS associata in OVHcloud.
-- Tutti i servizi citati devono essere accessibili da un solo account OVHcloud.
+- Tutti i servizi (Hosting Web, Domini, Zona DNS) devono essere accessibili da un unico account OVHcloud.
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}.
 
 ## Procedura

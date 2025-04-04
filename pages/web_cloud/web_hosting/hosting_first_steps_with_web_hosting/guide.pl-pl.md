@@ -22,18 +22,17 @@ details[open]>summary::before {
 
 Chcesz stworzyć stronę WWW dla swojej firmy lub własny blog? Potrzebujesz sklepu internetowego, aby sprzedawać swoje produkty online? Niniejszy przewodnik Pierwsze kroki z hostingiem OVHcloud wyjaśni kluczowe etapy jego konfiguracji. Dowiesz się również, jak utworzyć profesjonalne adresy e-mail powiązane z twoją nazwą domeny. Umożliwi on łatwą i szybką publikację twojego projektu, aby skutecznie komunikować się z odbiorcami.
 
-**Dowiedz się, jak szybko i łatwo umieścić nową stronę WWW w Internecie za pomocą naszego rozwiązania "Moduł za 1 kliknięciem". Z tego przewodnika dowiesz się, jak utworzyć nowy spersonalizowany adres e-mail z nazwą twojej domeny.**
-
 > [!primary]
 >
-> Jeśli chcesz przenieść istniejącą stronę WWW do innego dostawcy hostingu, zapoznaj się bezpośrednio z naszym przewodnikiem: [Przeniesienie strony WWW i powiązanych z nią usług do OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Chcesz przenieść istniejącą stronę WWW do innego dostawcy hostingu? Sprawdź przewodnik: [Przeniesienie strony WWW i powiązanych z nią usług do OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Chcesz mieć tylko jedną prostą stronę główną? Sprawdź przewodnik: [Hosting WWW - Włącz darmowy hosting 100M](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Wymagania
 
-- Posiadanie hostingu [OVHcloud](/links/web/hosting) z co najmniej jedną dostępną bazą danych.
+- Posiadanie hostingu [OVHcloud](/links/web/hosting) z co najmniej jedną dostępną bazą danych (poza ofertą darmowego hostingu 100M).
 - Otrzymanie wiadomości e-mail z potwierdzeniem, że Twój hosting został zainstalowany.
 - Posiadanie domeny [domena](/links/web/domains) oraz powiązanej strefy DNS w OVHcloud.
-- Wszystkie wyżej wymienione usługi muszą być dostępne z poziomu jednego konta OVHcloud.
+- Wszystkie usługi (hosting, domena, strefa DNS) muszą być dostępne z jednego konta OVHcloud.
 - Dostęp do [panelu klienta OVHcloud](/links/manager), sekcja `Web Cloud`{.action}.
 
 ## W praktyce

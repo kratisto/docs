@@ -22,18 +22,16 @@ details[open]>summary::before {
 
 ¿Quiere crear un sitio web para su empresa o un blog personal? ¿Necesita una tienda online para vender sus productos? Esta guía explica los primeros pasos con el alojamiento web de OVHcloud y explica cómo configurarlo. También encontrará instrucciones para crear direcciones de correo electrónico profesionales asociadas a su dominio. Le permitirá publicar su proyecto en Internet fácil y rápidamente para comunicarse con su audiencia de forma eficaz.
 
-**Descubra cómo publicar fácil y rápidamente un nuevo sitio web a través de nuestra solución Módulo en un clic. Esta guía explica también cómo crear una nueva dirección de correo personalizada con un dominio.**
-
 > [!primary]
 >
-> Si quiere migrar un sitio web existente a otro proveedor de hosting, consulte directamente nuestra guía dedicada: [Migrar un sitio web y los servicios asociados a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - ¿Quiere migrar un sitio web existente a otro proveedor de hosting? Consulte directamente nuestra guía dedicada: [Migrar un sitio web y los servicios asociados a OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
 
 ## Requisitos
 
-- Tener contratado un [plan de hosting de OVHcloud](/links/web/hosting) con al menos una base de datos disponible.
+- Tener contratado un [plan de hosting de OVHcloud](/links/web/hosting).
 - Haber recibido el email de confirmación de la instalación de su alojamiento web.
 - Tener un [dominio](/links/web/domains) y una zona DNS asociada en OVHcloud.
-- Todos los servicios mencionados deben ser accesibles desde una única cuenta de OVHcloud.
+- Todos los servicios (alojamiento web, dominio, zona DNS) deben ser accesibles desde una única cuenta de OVHcloud.
 - Estar conectado a su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}.
 
 ## Procedimiento
@@ -119,7 +117,6 @@ Consulte a continuación una selección de nuestras guías que detallan las prin
 - [Web hosting - Entorno, versión PHP, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting).
 - [Web hosting - Consultar las estadísticas y logs de un sitio web](/pages/web_cloud/web_hosting/logs_and_statistics).
 - [Gestionar los mensajes de correo automatizados](/pages/web_cloud/web_hosting/mail_function_script_records).
-- [¿Cómo geolocalizar un sitio web en un país específico?](/pages/web_cloud/web_hosting/multisites_geolocation).
 - [Activación del firewall de aplicación](/pages/web_cloud/web_hosting/multisites_activating_application_firewall).
 - [Configurar y utilizar Git con un alojamiento web de OVHcloud](/pages/web_cloud/web_hosting/git_integration_webhosting).
 - [Configurar y utilizar Git con un alojamiento web de OVHcloud](/pages/web_cloud/web_hosting/ftp_connection).

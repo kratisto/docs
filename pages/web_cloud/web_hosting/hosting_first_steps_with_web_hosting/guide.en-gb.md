@@ -22,19 +22,18 @@ details[open]>summary::before {
 
 Want to create a website for your business or a personal blog? Need an e-commerce store to sell your products online? This guide to getting started with an OVHcloud web hosting plan will show you the key steps for setting it up. You will also find instructions for creating professional email addresses associated with your domain name. It will enable you to put your project online quickly and easily, so that you can communicate effectively with your audience.
 
-**Find out how to put a new website online quickly and easily with our 1-click module solution. This guide also explains how to create a new, customized email address with your domain name.**
-
 > [!primary]
 >
-> If you would like to migrate an existing website to another hosting provider, please read our dedicated guide on [Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - Want to migrate an existing website to another hosting provider? Read our dedicated guide directly: [Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> - You only want a simple homepage for your professional activity? Read our dedicated guide: [Web Hosting - Activate free 100M hosting](/pages/web_cloud/web_hosting/activate_start10m).
 
 ## Requirements
 
-- A [OVHcloud Web Hosting](/links/web/hosting) plan with at least one database available
+- A [OVHcloud Web Hosting](/links/web/hosting) plan with at least one database available (apart from the free 100M hosting offer)
 - An email confirming that your web hosting plan has been set up
 - A [domain name](/links/web/domains) and an associated DNS zone at OVHcloud
 - Access to the [OVHcloud Control Panel](/links/manager), in the section `Web Cloud`{.action}
-- Access to all these services from a single OVHcloud account
+- Access to all these services (Web Hosting, Domain name, DNS zone) from a single OVHcloud account
 
 ## Instructions
 

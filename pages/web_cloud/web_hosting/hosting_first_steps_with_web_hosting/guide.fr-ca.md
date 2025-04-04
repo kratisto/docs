@@ -22,18 +22,16 @@ details[open]>summary::before {
 
 Vous souhaitez créer un site Internet pour votre entreprise ou un blog personnel ? Vous avez besoin d'une boutique e-commerce pour vendre vos produits en ligne ? Ce guide dédié aux premiers pas avec l'hébergement web OVHcloud vous indiquera les étapes clés pour le configurer. Vous trouverez également les explications pour créer des adresses e-mail professionnelles associées à votre nom de domaine. Il vous permettra une mise en ligne facile et rapide de votre projet afin de communiquer avec votre audience de manière efficace.
 
-**Découvrez comment mettre en ligne facilement et rapidement un nouveau site web via notre solution « Module en 1 clic ». Ce guide vous explique également comment créer une nouvelle adresse e-mail personnalisée avec votre nom de domaine.**
-
 > [!primary]
 >
-> Si vous souhaitez migrer un site web existant déjà chez un autre hébergeur, consultez directement notre guide dédié : [Migrer son site web et ses services associés vers OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
+> Vous souhaitez migrer un site web existant déjà chez un autre hébergeur ? Consultez directement notre guide dédié : [Migrer son site web et ses services associés vers OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh).
 
 ## Prérequis
 
-- Disposer d'une offre d'[hébergement web OVHcloud](/links/web/hosting) avec au moins une base de données disponible.
+- Disposer d'une offre d'[hébergement web OVHcloud](/links/web/hosting).
 - Avoir reçu l'e-mail vous confirmant l'installation de votre hébergement web.
 - Disposer d'un [nom de domaine](/links/web/domains) et d'une zone DNS associée chez OVHcloud.
-- Tous les services précités doivent être accessibles depuis un seul et même compte OVHcloud.
+- Tous les services (Hébergement web, Nom de domaine, zone DNS) doivent être accessibles depuis un seul et même compte OVHcloud.
 - Être connecté à votre [espace client OVHcloud](/links/manager), partie `Web Cloud`{.action}.
 
 ## En pratique
