@@ -15,7 +15,7 @@ OVHcloud offers [several web hosting plans](/links/web/hosting). They are design
 - Configure one or more databases ([included with some of our web hosting plans](/links/web/hosting)).
 - etc.
 
-These solutions spare you the hassle of maintaining, updating, and securing a web hosting infrastructure.<br>
+These solutions spare you the hassle of maintaining, updating, and securing a web hosting infrastructure.  
 This saves you time on server administration and allows you to focus only on:
 
 - Developing, updating and securing a website, blog, CMS or online store.
@@ -26,21 +26,21 @@ This saves you time on server administration and allows you to focus only on:
 
 ## Requirements
 
-- You have ordered an [OVHcloud Web Hosting plan](/links/web/hosting){.external}.
-- You have received an email confirming that your Web Hosting plan has been set up.
+- You have ordered an [OVHcloud web hosting plan](/links/web/hosting){.external}.
+- You have received an email confirming that your web hosting plan has been set up.
 - You have a [domain name](/links/web/domains).
 - You have access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions
 
-The purpose of this guide is to show you the main actions you can take with our [web hosting](/links/web/hosting) solutions. 
+The purpose of this guide is to show you the main actions you can take with our [web hosting](/links/web/hosting) solutions.  
 Each of these actions will be accompanied by one or more links to specific guides (relevant to the action).
 
 You can use this guide as a "repository" of possible actions when you subscribe to your [web hosting](/links/web/hosting) offer and throughout its use.
 
 > [!primary]
 > 
-> For the purposes of this guide, the term “website” will now refer to all types of website (website, blog, CMS, online store, etc.) mentioned earlier in this guide.
+> For the purposes of this guide, the term “website” will refer to all types of website (website, blog, CMS, online store, etc.) mentioned previously in this guide.
 >
 
 **Contents:**
@@ -53,7 +53,7 @@ You can use this guide as a "repository" of possible actions when you subscribe 
 
 ### Step 1 - Define your project <a name="project-delimitation"></a>
 
-Before you begin, it’s essential to clearly identify and define your needs by asking yourself the following questions: 
+Before you begin, identify and define your needs by asking yourself the following questions: 
 
 - Do I need to **create** a website or **migrate** one from another hosting provider?
 - Do I need one or more databases to run my website?
@@ -61,7 +61,7 @@ Before you begin, it’s essential to clearly identify and define your needs by 
 
 Depending on your answers, please ensure that your [web hosting plan](/links/web/hosting) meets all of your needs before you proceed.
 
-If this is not the case, please refer to our guide on "[Web Hosting: How to change your solution?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)".
+If this is not the case, please refer to our guide "[Web Hosting: How to change your solution?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)".
 
 ### Step 2 - Install your website <a name="website-installation"></a>
 
@@ -79,7 +79,7 @@ In this scenario, you can choose from several solutions.
 
 ##### Case 1 - Putting a locally developed website online
 
-If this is the case, please follow our guide on "[Publishing a website on your Web Hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". There, you will find all the steps you need to take in order to:
+If this is the case, please follow our guide on "[Publishing a website on your web hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". There, you will find all the steps you need to take in order to:
 
 - Place your website on your web hosting plan’s FTP storage space.
 - Create a database linked to your web hosting plan.
@@ -88,25 +88,25 @@ If this is the case, please follow our guide on "[Publishing a website on your W
 
 ##### Case 2 - Create a website using a CMS
 
-OVHcloud offers the "1-click modules" option.<br>
+OVHcloud offers the "1-click modules" option.  
 Once you have logged in to your [OVHcloud Control Panel](/links/manager), this option allows you to quickly install the *WordPress*, *Joomla!*, *PrestaShop* and *Drupal* CMS on your hosting.
 
 To use this option, please refer to our guide on "[Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)".
 
 > [!primary]
 >
-> If you would prefer to install your CMS manually without going through the "1-click modules" option, please read our guide on "[Installing a CMS manually on your Web Hosting plan](/pages/web_cloud/web_hosting/cms_manual_installation)".
+> If you would prefer to install your CMS manually without the "1-click modules" option, please read our guide on "[Installing a CMS manually on your web hosting plan](/pages/web_cloud/web_hosting/cms_manual_installation)".
 >
 
 ### Step 3 - Create your email addresses (optional) <a name="email-creation"></a>
 
-Your [Web Hosting plan](/links/web/hosting) includes one or more email accounts, which you can choose to enable or disable.
+Your [web hosting plan](/links/web/hosting) includes one or more email accounts, which you can choose to enable or disable.
 
-First of all, please read our guide on "[Activating email addresses included in your Web Hosting plan](/pages/web_cloud/web_hosting/activate-email-hosting)".
+First of all, please read our guide on "[Activating email addresses included in your web hosting plan](/pages/web_cloud/web_hosting/activate-email-hosting)".
 
 Once you have enabled this option, please refer to our guide on "[Creating an email address with an MX Plan solution](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)" to customize one or more email accounts with your domain name.
 
-> **Special Cases:**
+> **Special cases:**
 >
 > - If you are migrating a website and/or if you are looking for email addresses associated with your website’s domain name, please read our guide on "[Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". You will find all the key steps for migrating all of your services without any interruptions (domain name, website, email address(es), etc.).
 >
@@ -123,15 +123,15 @@ The link between your domain name and your services (web hosting plan, email ser
 > Please note that changes to a DNS zone can take between 4 and 24 hours to propagate fully.
 >
 
-> **Special Cases:**
+> **Special cases:**
 >
 > If you are migrating a website and/or email addresses associated with your website’s domain name, please read our guide on "[Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". You will find all the key steps for migrating all of your services without any interruptions (domain name, website, email address(es), etc.).
 
-To check and/or modify the link between your domain name and your web hosting plan, **please refer to the following guides in order:**
+To check and modify the link between your domain name and your web hosting plan, **please refer to the following guides in order:**
 
-- [IP address list for Web Hosting clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP): You will find all the IP addresses for our web hosting infrastructure there. This guide will particularly help you with domain names whose active DNS zone is not managed at OVHcloud (or managed on a different OVHcloud customer account than your own).
-- [Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite): This guide explains how to add multiple domain names to a Web Hosting plan. It can also help you check that your domain name declaration in the `Multisite`{.action} tab of your Web Hosting plan is correct. If necessary, you can then modify it and take the necessary measures in your domain name’s active DNS zone.
-- [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit): This guide explains how to edit an OVHcloud DNS zone. It will be useful to you in the event that your domain name’s active DNS zone is present on a different OVHcloud customer account than your own. You can also use it to access your domain name’s OVHcloud DNS zone, in order to verify that the IP address (entry(s) of type *A* and/or *AAAA*) declared for your domain name in the DNS zone corresponds to your Web Hosting plan’s IP address.
+- [IP address list for web hostin clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP): You will find all the IP addresses for our web hosting infrastructure there. This guide will particularly help you with domain names whose active DNS zone is not managed at OVHcloud (or managed on a different OVHcloud customer account than your own).
+- [Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite): This guide explains how to add multiple domain names to a web hosting plan and how to check that your domain name declaration in the `Multisite`{.action} tab of your web hosting plan is correct. If necessary, you can then modify it and take the necessary measures in your domain name’s active DNS zone.
+- [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit): This guide explains how to edit an OVHcloud DNS zone. It will be useful to you in the event that your domain name’s active DNS zone is present on a different OVHcloud customer account than your own. You can also use it to access your domain name’s OVHcloud DNS zone, in order to verify that the IP address (entry of type *A* and/or *AAAA*) declared for your domain name in the DNS zone corresponds to your web hosting plan’s IP address.
 
 To check and/or modify the link between your domain name and your OVHcloud email solution, please read our guide on "[Configure an MX record for email management](/pages/web_cloud/domains/dns_zone_mx)". You will find the names of the OVHcloud email servers, as well as the procedure to follow in order to point your domain name to these same servers.
 
@@ -139,7 +139,7 @@ To check and/or modify the link between your domain name and your OVHcloud email
 >
 > If the DNS zone for your domain name is not managed by OVHcloud:
 > 
-> - **For linking your domain name to your web hosting plan**: Please refer only to the guides “[IP address list for Web Hosting clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)” and “[Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)” mentioned above to retrieve your web hosting plan’s IP address, then declare your domain name correctly on your web hosting plan. Then contact the organization that manages your domain name’s active DNS zone to point it to your web hosting plan.
+> - **For linking your domain name to your web hosting plan**: Please refer only to the guides “[IP address list for web hostin clusters](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)” and “[Hosting multiple websites on your web hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)” mentioned above to retrieve your web hosting plan’s IP address, then declare your domain name correctly on your web hosting plan. Then contact the organization that manages your domain name’s active DNS zone to point it to your web hosting plan.
 >
 > - **For the link between your domain name and your OVHcloud email solution**: Only refer to our guide "[Configure an MX record for email management](/pages/web_cloud/domains/dns_zone_mx)" to retrieve the names of the OVHcloud email servers that need to be entered in your domain name’s active DNS zone. Then contact the organization that manages your domain name’s active DNS zone, and point it to the OVHcloud email servers.
 >
@@ -180,23 +180,23 @@ If you have a **Performance** web hosting plan, you can activate a [Web Cloud Da
 
 You can find more details on how to use it in our documentation “[Getting started with the Web Cloud Databases service](/pages/web_cloud/web_cloud_databases/starting_with_clouddb)”.
 
-#### Send emails from your website
+#### Sending emails from your website
 
 All [web hosting](/links/web/hosting) allow you to send emails free of charge from your website or a specific script.
 
 You can find all the details on this feature in our guide on "[Monitoring and managing automated emails in your web hosting plan](/pages/web_cloud/web_hosting/mail_function_script_records)".
 
-#### The scheduled tasks (CRON)
+#### Scheduled tasks (CRON)
 
 With CRON tasks, you can automatically run scripts hosted on your web hosting plan.
 
-If your [web hosting plan](/links/web/hosting) has this option, please refer to our guide on "[Using automated tasks on a Web Hosting plan](/pages/web_cloud/web_hosting/cron_tasks)" for further details.
+If your [web hosting plan](/links/web/hosting) has this option, please refer to our guide on "[Using automated tasks on a web hosting plan](/pages/web_cloud/web_hosting/cron_tasks)" for further details.
 
 ## Go further
 
 [Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)
 
-[Publishing a website on your Web Hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)
+[Publishing a website on your web hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)
 
 [Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)
 
@@ -204,7 +204,7 @@ If your [web hosting plan](/links/web/hosting) has this option, please refer to 
 
 [Managing SSL certificates on a web hosting plan](/pages/web_cloud/web_hosting/ssl_on_webhosting)
 
-For specialised services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
+For specialized services (SEO, development, etc.), contact [OVHcloud partners](/links/partner).
 
 If you would like assistance using and configuring your OVHcloud solutions, please refer to our [support offers](/links/support).
 
