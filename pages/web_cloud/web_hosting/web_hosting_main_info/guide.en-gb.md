@@ -6,7 +6,7 @@ updated: 2025-04-04
 
 ## Objective
 
-The information contained in this guide concerns the versions of **PHP**, **Python**, **Perl** and **Apache** used with [Web Hosting](/links/web/hosting) services, accessible via the Web Hosting network.
+The information contained in this guide concerns the versions of **PHP**, **Python**, **Perl** and **Apache** used with [Web Hosting](/links/web/hosting) services.
 
 **Learn more about PHP, Python, Perl and Apache versions.**
 
