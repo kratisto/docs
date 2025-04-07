@@ -26,7 +26,7 @@ This guide explains how to get started with OVHcloud AI Deploy, covering the dep
 
 Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and switch to `Public Cloud`{.action} in the top navigation bar. After selecting your Public Cloud project, click on `AI Deploy`{.action} in the left-hand navigation bar under **AI & Machine Learning**.
 
-Click on the `Deploy an AI Deploy app`{.action} button and accept terms and conditions if any.
+Click on the `Deploy an app`{.action} button and accept the terms and conditions if any.
 
 Once clicked, you will be redirected to the creation process detailed below.
 
@@ -94,7 +94,7 @@ Then you can modify the **Number of instances** on which your AI Deploy app will
 The **static scaling** strategy allows you to choose the number of replicas on which the app will be deployed. For this method, the minimum number of replicas is **1** and the maximum is **10**.
 
 - Static scaling can be used if you want to have fixed costs.
-- This scaling strategy is also useful when your consumption or inference load are fixed.
+- This scaling strategy is also useful when your consumption or inference load is fixed.
 
 **When to choose autoscaling?**
 
@@ -116,7 +116,7 @@ You can also mount an Object Storage as an output folder for example, to retriev
 
 In both cases, you will have to specify:
 
-- `Storage container` or `Git repository URL`: The name of the container to synchronise, or the GitHub repository URL (the one that ends by `.git`).
+- `Storage container` or `Git repository URL`: The name of the container to synchronise, or the GitHub repository URL (the one that ends with `.git`).
 - `Mount directory`: The location in the app where the synced data is mounted.
 
 There are also optional parameters:
@@ -156,8 +156,8 @@ We will select **Restricted Access** for this deployment.
 
 #### Step 6: Review and launch your AI Deploy app
 
-This final step is a summary about your AI Deploy app deployment. You can review the previously selected options and parameters.
-Launch your AI Deploy app by clicking on `Deploy an AI Deploy app`{.action}
+This final step is a summary of your AI Deploy app deployment. You can review the previously selected options and parameters.
+Launch your AI Deploy app by clicking on `Deploy an AI Deploy app`{.action}.
 
 Congratulations, your first AI Deploy app is now running on production!
 
