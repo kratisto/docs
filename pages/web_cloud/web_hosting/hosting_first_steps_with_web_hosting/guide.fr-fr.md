@@ -29,7 +29,7 @@ Vous souhaitez créer un site Internet pour votre entreprise ou un blog personne
 
 ## Prérequis
 
-- Disposer d'une offre d'[hébergement web OVHcloud](/links/web/hosting) avec au moins une base de données disponible (en dehors de l'offre d'hébergement gratuite 100M).
+- Disposer d'une offre d'[hébergement web OVHcloud](/links/web/hosting) avec au moins une base de données disponible (hors offre d'hébergement gratuit 100M).
 - Avoir reçu l'e-mail vous confirmant l'installation de votre hébergement web.
 - Disposer d'un [nom de domaine](/links/web/domains) et d'une zone DNS associée chez OVHcloud.
 - Tous les services (Hébergement web, Nom de domaine, zone DNS) doivent être accessibles depuis un seul et même compte OVHcloud.
