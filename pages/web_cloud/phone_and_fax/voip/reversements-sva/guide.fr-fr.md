@@ -53,7 +53,7 @@ Validez ensuite votre choix en cliquant sur `Confirmer`{.action}.
 
 ### Reversements des numéros surtaxés
 
-Les reversements de tous vos numéros surtaxés sont visibles dans le menu `Gérer mes reversement`{.action} situé juste en dessous de `Téléphonie`{.action} dans le volet de gauche.
+Les reversements de tous vos numéros surtaxés sont visibles dans le menu `Gérer mes reversements`{.action} situé juste en dessous de `Téléphonie`{.action} dans le volet de gauche.
 
 ![reversements](images/reversements.png){.thumbnail width="800"}
 
