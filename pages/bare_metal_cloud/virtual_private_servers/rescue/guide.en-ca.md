@@ -1,7 +1,7 @@
 ---
-title: Activating and using rescue mode on a VPS
-excerpt: Find out how to use the OVHcloud rescue mode to troubleshoot your VPS and run system checks
-updated: 2024-02-19
+title: How to use rescue mode on a VPS
+excerpt: Find out how to activate the OVHcloud rescue mode to troubleshoot your VPS and run system checks
+updated: 2025-03-27
 ---
 
 ## Objective
@@ -21,17 +21,17 @@ If you are facing a problem with your system, performing checks in rescue mode h
 > If you have any services still online, rescue mode will interrupt them as the server is being rebooted into the auxiliary rescue environment.
 >
 
-**This guide explains how to activate rescue mode in your OVHcloud Control Panel and how to use it to access your VPS file system.**
+**This guide explains how to boot a VPS into rescue mode in your OVHcloud Control Panel and how to use it to access your file system.**
 
 ## Requirements
 
+- A [Virtual Private Server](/links/bare-metal/vps) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
-- An OVHcloud [VPS service](https://www.ovhcloud.com/en-ca/vps/) already set up
 
 > [!warning]
->OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
+> OVHcloud provides services for which you are responsible with regard to their configuration and management. It is therefore your responsibility to ensure that they function correctly.
 >
->This guide is designed to assist you in common tasks as much as possible. Nevertheless, we recommend that you contact a [specialist service provider](https://partner.ovhcloud.com/en-ca/directory/) or reach out to [our community](https://community.ovh.com/en/) if you face difficulties or doubts concerning the administration, usage or implementation of services on a server.
+> This guide is designed to assist you in common tasks as much as possible. Nevertheless, we recommend contacting a [specialist service provider](/links/partner) or reaching out to [our community](/links/community) if you experience any issues.
 >
 
 ## Instructions
@@ -40,13 +40,11 @@ If you are facing a problem with your system, performing checks in rescue mode h
 
 Log in to the [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cloud`{.action} section and select your server from `Virtual Private Servers`{.action}.
 
-On the `Home`{.action} tab, click on `...`{.action} next to "Boot" in the **Your VPS** box.
+On the `Home`{.action} tab, click on `...`{.action} next to "Boot" in the section **Your VPS**.
 
 ![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Select `Reboot in rescue mode`{.action} from the menu and click `Confirm`{.action} in the popup window.
-
-If your Control Panel looks different, please refer to our guide "[Managing a legacy VPS](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel)".
 
 ### Using rescue mode
 
@@ -69,11 +67,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 > 
-> Your SSH client will likely block the connection at first due to a mismatch of the ECDSA fingerprint. This is normal because the rescue mode uses its own temporary SSH server.
->
-> One way around this is "commenting out" the fingerprint of your VPS by adding a `#` in front of its line in the `known_hosts` file. Remember to revert this change before switching the netboot back to "normal" mode.<br>You can also delete the line from the file. Your SSH client will then add a new fingerprint entry for the VPS when the connection is established anew. If you require more detailed instructions, please refer to our guide "[Getting started with SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
+> Your SSH client will normally block the connection at first due to a mismatch of the ECDSA fingerprint. This is because the rescue mode uses its own temporary SSH server. To resolve this, you need to edit the file `known_hosts` of your local `.ssh` folder.  
+> You have two options:
+> 
+> - **Delete the fingerprint from the file.** Your SSH client will then add a new fingerprint entry for the server when you are no longer using rescue mode. For a detailed explanation, refer to the section "Login and fingerprint" in our [SSH introduction guide](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+> 
+> - **Temporarily disable the fingerprint.** Open the file `known_hosts` with a text editor and identify the fingerprint string of your server by its IP address. Add the character `#` at the start of the line. As a result, this line is now a "comment" and will be ignored by applications reading the file. Remember to revert this change before rebooting the VPS.
 >
 
 For most changes you make to your server via SSH while in rescue mode, you will need to mount the system partition.

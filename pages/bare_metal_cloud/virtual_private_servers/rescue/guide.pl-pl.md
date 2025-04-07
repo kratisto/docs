@@ -1,7 +1,7 @@
 ---
 title: Uruchamianie i korzystanie z trybu Rescue na serwerze VPS
 excerpt: Dowiedz się, jak używać trybu Rescue OVHcloud do rozwiązywania problemów z serwerem VPS i przeprowadzania weryfikacji systemu
-updated: 2024-02-19
+updated: 2025-03-27
 ---
 
 ## Wprowadzenie
@@ -46,8 +46,6 @@ W zakładce `Strona główna`{.action} kliknij `...`{.action} obok "Boot" w stre
 
 Wybierz `Zrestartuj w trybie Rescue`{.action} w menu.
 
-Jeśli Panel klienta jest inny, zapoznaj się z naszym przewodnikiem "[Zarządzanie serwerem VPS legacy](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel)".
-
 ### Korzystanie z trybu Rescue
 
 Po rozpoczęciu restartu pasek postępu wskazuje czas trwania zadania. Może to potrwać kilka minut.
@@ -69,11 +67,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> Klient SSH prawdopodobnie zablokuje połączenie w pierwszej kolejności z powodu niezgodności odcisku palca ECDSA. Jest to normalne, ponieważ tryb ratunkowy korzysta z własnego tymczasowego serwera SSH.
+> Klient SSH normalnie zablokuje logowanie na początku z powodu niezgodności odcisku palca ECDSA. Jest to normalne, ponieważ tryb ratunkowy korzysta z własnego tymczasowego serwera SSH. Aby rozwiązać ten problem, edytuj plik `known_hosts` w Twoim lokalnym katalogu `.ssh`.  
+> Masz dwie możliwości:
 >
-> Jednym ze sposobów na ominięcie tego problemu jest "komentowanie" znaku firmowego Twojego serwera VPS poprzez dodanie znaku `#` przed jego linią w pliku `known_hosts`. Nie zapomnij anulować tej zmiany przed przywróceniem netbootu do trybu "normalnego".<br>Możesz również usunąć wiersz z pliku. Po ponownym zalogowaniu się klient SSH doda nowy wpis linii papilarnych do serwera VPS. Jeśli potrzebujesz bardziej szczegółowych instrukcji, zapoznaj się z naszym przewodnikiem "[Wprowadzenie do SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
+> - **Usuń odcisk palca z pliku.** Klient SSH doda nowy wpis odcisku palca dla serwera, gdy nie będziesz już korzystać z trybu Rescue. Więcej informacji na ten temat znajduje się w części "Login i fingerprint" naszego [przewodnika wprowadzającego do SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Tymczasowo wyłącz odcisk palca.** Otwórz plik `known_hosts` w edytorze tekstu i zidentyfikuj ciąg odcisku palca Twojego serwera za pomocą adresu IP. Dodaj znak `#` na początku wiersza. Dlatego ten wiersz jest teraz "komentarzem" i zostanie zignorowany przez aplikacje czytające plik. Pamiętaj, aby anulować tę zmianę przed zrestartowaniem serwera VPS.
 >
 
 Aby wykonać większość modyfikacji na Twoim serwerze za pomocą SSH w trybie Rescue, zamontuj partycję systemu.

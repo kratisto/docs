@@ -1,7 +1,7 @@
 ---
 title: 'Utiliser Backup Storage sur un serveur dédié'
 excerpt: 'Découvrez comment activer et accéder à votre espace de stockage supplémentaire'
-updated: 2025-02-12
+updated: 2025-03-27
 ---
 
 ## Objectif
@@ -18,8 +18,8 @@ Les serveurs dédiés OVHcloud comprennent un espace de sauvegarde supplémentai
 
 ## Prérequis
 
-* Posséder un [serveur dédié](/links/bare-metal/bare-metal){.external} dans votre compte OVHcloud.
-* Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
+- Posséder un [serveur dédié](/links/bare-metal/bare-metal){.external} dans votre compte OVHcloud.
+- Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
 
 > [!warning]
 > Cette fonctionnalité peut être indisponible ou limitée sur les [serveurs dédiés **Eco**](/links/bare-metal/eco-about).
@@ -43,7 +43,7 @@ Votre Backup Storage sera configuré en quelques minutes. Vous recevrez un e-mai
 
 ### Configurer le contrôle d'accès
 
-L'accès à votre espace de stockage est restreint par adresses IP à l'aide d'une liste de contrôle d'accès (<i>Access Control List</i> ou ACL). Seules les adresses IP de votre compte OVHcloud enregistrées dans l’ACL pourront accéder au stockage. Les protocoles d'accès (FTP, NFS et CIFS) ne sont pas autorisés par défaut mais peuvent être sélectionnés lors de l'ajout d'adresses IP.
+L'accès à votre espace de stockage est restreint par adresses IP à l'aide d'une liste de contrôle d'accès (*Access Control List* ou ACL). Seules les adresses IP de votre compte OVHcloud enregistrées dans l’ACL pourront accéder au stockage. Les protocoles d'accès (FTP, NFS et CIFS) ne sont pas autorisés par défaut mais peuvent être sélectionnés lors de l'ajout d'adresses IP.
 
 #### Ajouter un accès backup
 
@@ -85,22 +85,22 @@ Cela vous permettra alors de récupérer vos backups depuis un service d'une aut
 > Seules les adresses IP OVHcloud peuvent être autorisées.
 >
 
-Connectez-vous sur [api.ovh.com](/links/api) et utilisez l'appel suivant :
+Connectez-vous à la [console API OVHcloud](/links/api) avec les identifiants de votre compte client et utilisez l'appel suivant :
 
 > [!api]
 >
 > @api {v1} /dedicated/server POST /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-Renseignez les champs ainsi :
+Modifiez les paramètres comme suit :
 
-- `serviceName` : le nom de votre serveur dédié
-- `cifs` : cochez si nécessaire
-- `ftp` : cochez si nécessaire
-- `ipBlock` : renseignez l'IP qui aura accès sous la forme `1.2.3.4/32`
-- `nfs` : cochez si nécessaire
+- `serviceName` : renseignez le nom interne de votre serveur (`ns1111111.ip-203-0-113.eu`).
+- `cifs` : définissez ce paramètre sur `true` si vous utilisez ce protocole.
+- `ftp` : définissez ce paramètre sur `true` si vous utilisez ce protocole.
+- `ipBlock` : renseignez l'adresse IP qui y aura accès, sous la forme `203.0.113.100/32`.
+- `nfs` : définissez ce paramètre sur `true` si vous utilisez ce protocole.
 
-![apiacladdress](images/aclapi01.png){.thumbnail}
+Cliquez sur le bouton `EXECUTE`{.action}.
 
 Afin de vérifier que votre adresse IP est bien autorisée, utilisez l'appel suivant :
 
@@ -109,7 +109,6 @@ Afin de vérifier que votre adresse IP est bien autorisée, utilisez l'appel sui
 > @api {v1} /dedicated/server GET /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-![apiacladdress](images/aclapi02.png){.thumbnail}
 
 ### Réinitialiser votre mot de passe
 
@@ -313,7 +312,7 @@ mount -t nfs HostName:/export/ftpbackup/ServiceName /FolderMount
 L'exemple de code ci-dessus contient des variables que vous devrez remplacer par vos propres valeurs.
 
 * **HostName** : le nom de votre Backup Storage.
-* **ServiceName** : le nom de votre serveur (exemple : « ns0000000.ip-123-123-123.net »).
+* **ServiceName** : le nom de votre serveur (exemple : « `ns1111111.ip-203-0-113.eu` »).
 * **FolderMount** : le répertoire où vous souhaitez monter le partage NFS.
 
 Une fois le partage monté, vous pouvez utiliser des commandes telles que **cp** et \`rsync\` comme vous le feriez avec un répertoire normal.
@@ -331,7 +330,7 @@ net use z: \\HostName\ServiceName
 L'exemple de code ci-dessus contient des variables que vous devrez remplacer par vos propres valeurs.
 
 * **HostName** : le nom de votre Backup Storage.
-* **ServiceName** : le nom de votre serveur (exemple : « ns0000000.ip-123-123-123.net »).
+* **ServiceName** : le nom de votre serveur (exemple : « `ns1111111.ip-203-0-113.eu` »).
 
 Le message d'erreur suivant peut s'afficher :  
 
@@ -371,7 +370,7 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 L'exemple de code ci-dessus contient des variables que vous devrez remplacer par vos propres valeurs.
 
 * **HostName** : le nom de votre Backup Storage.
-* **ServiceName** : le nom de votre serveur (exemple : « ns0000000.ip-123-123-123.net »).
+* **ServiceName** : le nom de votre serveur (exemple : « `ns1111111.ip-203-0-113.eu` »).
 * **FolderMount** : le répertoire où vous souhaitez monter le partage (il doit déjà exister).
 
 ## Aller plus loin

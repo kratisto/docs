@@ -1,7 +1,7 @@
 ---
 title: Rescue-Modus für einen VPS aktivieren und verwenden
 excerpt: Erfahren Sie hier, wie Sie den OVHcloud Rescue-Modus für Ihren VPS zur Fehlerbehebung und zur Durchführung von Systemprüfungen verwenden
-updated: 2024-02-19
+updated: 2025-03-27
 ---
 
 ## Ziel
@@ -26,7 +26,7 @@ Wenn Sie ein Problem mit Ihrem System feststellen, können Sie mithilfe des Resc
 ## Voraussetzungen
 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
-- Sie haben einen [VPS](https://www.ovhcloud.com/de/vps/) in Ihrem OVHcloud Kunden-Account.
+- Sie haben einen [VPS](/links/bare-metal/vps) in Ihrem OVHcloud Kunden-Account.
 
 > [!warning]
 >
@@ -46,8 +46,6 @@ Klicken Sie im Tab `Start`{.action} auf `...`{.action} neben "Boot" im Bereich *
 ![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Wählen Sie Im Menü `Neustart im Rescue-Modus`{.action}.
-
-Wenn Ihr Kundencenter abweichend angezeigt wird, lesen Sie unsere Anleitung "[Legacy VPS verwalten](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel)".
 
 ### Verwendung des Rescue-Modus
 
@@ -71,11 +69,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> Ihr SSH-Client wird die Verbindung wahrscheinlich zunächst blockieren, weil der ECDSA *Fingerprint* nicht mehr übereinstimmt. Dies ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet.
+> Ihr SSH-Client wird die Verbindung üblicherweise zunächst blockieren, weil der ECDSA-Fingerprint nicht mehr übereinstimmt. Das ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet. Um dies zu beheben, bearbeiten Sie die Datei `known_hosts` in Ihrem lokalen Ordner `.ssh`.  
+> Sie haben zwei Möglichkeiten:
 >
-> Eine Möglichkeit, dieses Problem zu umgehen, besteht im "Auskommentieren" des VPS *Fingerprint*, indem Sie in der Datei `known_hosts` der entsprechenden Zeile ein `#` voranstellen. Vergessen Sie nicht, diese Änderung rückgängig zu machen, bevor Sie den Netboot wieder in den "normalen" Modus versetzen.<br>Sie können auch einfach die Zeile aus der Datei löschen. Ihr SSH-Client fügt dann einen neuen *Fingerprint*-Eintrag für den VPS hinzu, sobald die Verbindung erneut hergestellt wird. Wenn Sie detaillierte Instruktionen benötigen, konsultieren Sie unsere Anleitung "[Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
+> - **Den Fingerprint aus der Datei löschen.** Ihr SSH-Client fügt dann einen neuen Fingerprint-Eintrag für den Server hinzu, sobald Sie den Rescue-Modus nicht mehr verwenden. Eine ausführliche Erläuterung finden Sie im Abschnitt "Login und Fingerprint" in unserer [Einführung zu SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Den Fingerprint vorübergehend deaktivieren.** Öffnen Sie die Datei `known_hosts` mit einem Texteditor und identifizieren Sie die Fingerprint-Zeichenfolge Ihres Servers anhand dessen IP-Adresse. Fügen Sie am Anfang der Zeile das Zeichen `#` ein. Dadurch wird die Zeile zu einem "Kommentar" und von Anwendungen, die die Datei auslesen, ignoriert. Machen Sie diese Änderung rückgängig, bevor Sie den VPS neu starten.
 >
 
 Für die meisten Änderungen an Ihrem Server über SSH im Rescue-Modus muss die Systempartition gemountet werden.
