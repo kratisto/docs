@@ -1,7 +1,7 @@
 ---
 title: 'Comment installer Plesk sur une instance Public Cloud'
 excerpt: 'Apprenez à mettre en place Plesk sur votre instance Public Cloud'
-updated: 2025-04-04
+updated: 2025-04-07
 ---
 
 ## Objectif

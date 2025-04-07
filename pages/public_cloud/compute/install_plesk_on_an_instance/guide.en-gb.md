@@ -1,7 +1,7 @@
 ---
 title: 'Installing Plesk on an instance'
 excerpt: 'Find out how to install Plesk on an OVHcloud Public Cloud instance'
-updated: 2025-04-04
+updated: 2025-04-07
 ---
 
 ## Objective
