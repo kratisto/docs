@@ -1,24 +1,22 @@
 ---
-title: "Criação e eliminação de utilizadores OpenStack"
-excerpt: Saiba como criar e eliminar um utilizador OpenStack a partir da Área de Cliente OVHcloud
-updated: 2024-03-04
+title: "Gestão dos utilizadores OpenStackk"
+excerpt: Descubra como gerir os utilizadores OpenStack na sua Área de Cliente OVHcloud e na interface Horizon
+updated: 2025-04-02
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
 O acesso ao Horizon e às API OpenStack efetua-se através de combinações identificadoras/password chamadas "*OpenStack users*". Pode criar tantos utilizadores OpenStack quanto necessário e atribuir-lhes diferentes direitos de acesso.
 
-**Este manual explica-lhe como gerir utilizadores OpenStack a partir da Área de Cliente OVHcloud.**
+A partir da interface Horizon, pode definir uma palavra-passe para cada utilizador. Atenção: a alteração da palavra-passe de uma conta de utilizador implica a revogação imediata da palavra-passe anterior.
+
+**Este guia explica como gerir utilizadores OpenStack a partir da Área de Cliente OVHcloud e através da interface Horizon.**
 
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NC69nrb6QlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requisitos
 
-- Um projeto [Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) na sua conta OVHcloud
+- Um projeto [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) na sua conta OVHcloud
 - Estar ligado à [Área de Cliente OVHcloud](/links/manager)
 
 ## Instruções
@@ -47,7 +45,38 @@ Queira registar a palavra-passe, apresentada apenas no quadro verde nesse moment
 
 ![Generate](images/generatepw.png){.thumbnail}
 
-Depois de criar o utilizador OpenStack, poderá utilizar as suas credenciais para se ligar [à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) clicando na ligação `Horizon`{.action} no menu à esquerda.
+Depois de criar o utilizador OpenStack, poderá utilizar as suas credenciais para se ligar à [interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) clicando na ligação `Horizon`{.action} no menu à esquerda.
+
+### Alterar a palavra-passe de um utilizador OpenStack
+
+É possível criar uma palavra-passe OpenStack depois de estar conectado ao [OpenStack Horizon](https://horizon.cloud.ovh.net):
+
+![Conexão ao Horizon](images/1_H_login_window.png){.thumbnail}
+
+O ID do utilizador Horizon encontra-se no canto superior direito da interface Horizon. Clique no seu ID para fazer surgir um menu com as opções disponíveis.
+Selecione `Settings`{.action} e depois, à esquerda, `Change password`{.action}:
+
+![Alteração da palavra-passe](images/2_H_pass_change_option.png){.thumbnail}
+
+Introduza a sua palavra-passe atual no primeiro campo e a sua nova palavra-passe nos dois campos seguintes.
+
+> [!primary]
+>
+> Quando alterar a palavra-passe, tenha em conta algumas recomendações:
+>
+> - a palavra-passe deve conter pelo menos 8 caracteres;
+> - a palavra-passe deve conter no máximo 30 caracteres;
+> - a palavra-passe deve conter pelo menos uma letra maiúscula;
+> - a palavra-passe deve conter pelo menos uma letra minúscula;
+> - a palavra-passe deve conter pelo menos um algarismo;
+> - a palavra-passe deve conter apenas algarismos e letras.
+>
+
+De seguida, confirme a criação da nova palavra-passe clicando em `Change`{.action}.
+
+![Parametrização da palavra-passe](images/3_H_set_new_passord.png){.thumbnail}
+
+Atenção: a alteração da palavra-passe de uma conta de utilizador implica a anulação imediata dos ID utilizados anteriormente.
 
 ### Eliminação do utilizador OpenStack
 
@@ -66,4 +95,4 @@ Clique em `...`{.action} e selecione `Eliminar`{.action}.
 
 [Apresentação do Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
-Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
+Fale com nossa [comunidade de utilizadores](/links/community).

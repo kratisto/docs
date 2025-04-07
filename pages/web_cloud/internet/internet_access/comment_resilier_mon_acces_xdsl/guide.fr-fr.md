@@ -14,7 +14,7 @@ La résiliation sera effective à la prochaine facturation de votre accès à In
 
 ## Prérequis
 
-- Disposer d'un accès xDSL/Fibre actif.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
 ![espace client Telecom Accès Internet](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-01-fr-internet.png){.thumbnail}

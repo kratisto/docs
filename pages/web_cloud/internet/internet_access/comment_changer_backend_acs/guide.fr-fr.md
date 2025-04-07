@@ -17,9 +17,9 @@ L'Auto Configuration Server (ACS) est une couche de traduction entre votre modem
 
 ## Prérequis
 
-- Disposer d’un [accès internet xDSL ou fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external}.
+- Disposer d’un [accès Internet xDSL ou fibre OVHcloud](/links/telecom/offre-internet).
 - Être connecté à l'[espace client OVHcloud](/links/manager) dans la partie `Accès Internet`{.action}.
-- Cette fonctionalité est disponible même si la configuration à distance est désactivée.
+- Cette fonctionnalité est disponible même si la configuration à distance est désactivée.
 
 ## En pratique
 
@@ -40,7 +40,7 @@ Trois backends sont disponibles, vous devez choisir celui sur lequel vous souhai
 
 - Legacy: Le backend de l'ACSv1. Sélectionner ce backend configure le modem pour qu'il communique avec l'ancienne infrastructure.
 - Stable: Le backend par défaut de l'ACSv2. Sélectionner ce backend ne permet pas de profiter immédiatement des nouvelles fonctionnalités, mais il permet de profiter d'une meilleure stabilité avec des changements moins fréquents et éprouvés sur le backend beta.
-- Beta: Ce backend permet de profiter immédiatement des nouvelles fonctionnalités, mais peut être sujet à des instabilités dûes à des changements plus fréquents et moins éprouvés.
+- Beta: Ce backend permet de profiter immédiatement des nouvelles fonctionnalités, mais peut être sujet à des instabilités dues à des changements plus fréquents et moins éprouvés.
 
 ### Étape 3 : Appliquer la modification
 
@@ -57,16 +57,16 @@ Une tâche va alors modifier l'URL du serveur ACS sur le modem, puis va initier 
 
 ### Expert : Modifier le backend directement via l'API OVHcloud
 
-Cette méthode s'adresse aux utilisateurs expert uniquement. Nous ne serons pas en mesure de vous fournir une assistance.
+Cette méthode s'adresse aux utilisateurs experts uniquement. Nous ne serons pas en mesure de vous fournir d'assistance.
 
 > [!primary]
 >
-> Pour en savoir plus sur l'utilisation des API, consultez le guide [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps).
+> Pour en savoir plus sur l'utilisation des API, consultez le guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) ».
 >
 
 Rendez-vous sur le lien <https://api.ovh.com/console/> puis connectez-vous avec votre identifiant client OVHcloud. 
 
-Dès lors, utilisez les trois API ci-dessous afin de configurer le backend ACS.
+Dès lors, utilisez les trois API ci-dessous pour configurer le backend ACS.
 
 > [!api]
 >
@@ -87,7 +87,7 @@ Permet de récupérer différentes informations sur votre modem, y compris le ba
 > @api {v1} /xdsl PUT /xdsl/{serviceName}/modem
 >
 
-Modifiez le champ `acsBackend` pour appliquer le changement de backend ACS.
+Modifiez le champ `acsBackend` afin d'appliquer le changement de backend ACS.
 
 ## Aller plus loin
 

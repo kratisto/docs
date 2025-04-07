@@ -1,24 +1,22 @@
 ---
-title: Erstellung und Löschung von OpenStack Benutzern
-excerpt: 'Erfahren Sie hier, wie Sie einen OpenStack User über Ihr OVHcloud Kundencenter erstellen und löschen'
-updated: 2024-03-04
+title: Verwalten von OpenStack-Benutzern
+excerpt: Erfahren Sie hier, wie Sie OpenStack-Benutzer über das OVHcloud Kundencenter und das Horizon-Interface verwalten
+updated: 2025-04-02
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
-Der Zugriff auf Horizon und die OpenStack APIs erfolgt über Benutzername/Passwort-Kombinationen, die als "OpenStack User" bezeichnet werden. Sie können so viele OpenStack User wie nötig erstellen und ihnen verschiedene Zugriffsrechte zuweisen.
+Der Zugriff auf Horizon und die OpenStack API erfolgt über Benutzername/Passwort-Kombinationen, die als "OpenStack User" bezeichnet werden. Sie können so viele OpenStack User wie nötig erstellen und ihnen verschiedene Zugriffsrechte zuweisen.
 
-**Diese Anleitung erklärt, wie Sie OpenStack User im OVHcloud Kundencenter erstellen und löschen.**
+Mithilfe des Horizon-Interface kann jedem Benutzer ein Passwort zugewiesen werden. Beachten Sie, dass mit dem Ändern eines Benutzer-Passworts die bisherigen Login-Daten unmittelbar deaktiviert werden.
+
+**Diese Anleitung erklärt, wie OpenStack-Benutzer über das OVHcloud Kundencenter und das Horizon-Interface verwaltet werden.**
 
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NC69nrb6QlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Voraussetzungen
 
-- Sie haben ein [Public Cloud Projekt](https://www.ovhcloud.com/de/public-cloud) in Ihrem OVHcloud Kunden-Account.
+- Sie haben ein [Public Cloud Projekt](/pages/public_cloud/compute/create_a_public_cloud_project) in Ihrem OVHcloud Kunden-Account.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung
@@ -49,6 +47,37 @@ Achten Sie darauf, das Passwort, das nur zu diesem Zeitpunkt im grünen Rahmen a
 
 Sobald der OpenStack User erstellt ist, können Sie seine Zugangsdaten für den Login zum [Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) verwenden, indem Sie im linken Menü auf den Eintrag `Horizon`{.action} klicken.
 
+### Passwörter von OpenStack-Benutzern verwalten
+
+Nachdem Sie sich bei [OpenStack Horizon](https://horizon.cloud.ovh.net){.external} eingeloggt haben, können Sie ein OpenStack-Passwort erstellen:
+
+![Login Horizon](images/1_H_login_window.png){.thumbnail}
+
+Die Benutzerkennung für Horizon sehen Sie oben rechts im Horizon-Interface. Klicken Sie auf die Kennung, um im Menü alle Optionen zu sehen.  
+Wählen Sie `Settings`{.action} und dann links `Change password`{.action}.
+
+![Passwort ändern](images/2_H_pass_change_option.png){.thumbnail}
+
+Tragen Sie im ersten Feld Ihr aktuelles Passwort und in den beiden folgenden Feldern Ihr neues Passwort ein.
+
+> [!primary]
+>
+> Beachten Sie beim Ändern des Passworts folgende Richtlinie:
+>
+> - Das Passwort muss mindestens 8 Zeichen umfassen.
+> - Es darf maximal 30 Zeichen umfassen.
+> - Es muss mindestens einen Großbuchstaben enthalten.
+> - Es muss mindestens einen Kleinbuchstaben enthalten.
+> - Es muss mindestens eine Zahl enthalten.
+> - Es darf nur aus Zahlen und Buchstaben bestehen.
+>
+
+Bestätigen Sie anschließend das neue Passwort, indem Sie auf `Change`{.action} klicken.
+
+![Neues Passwort erstellen](images/3_H_set_new_passord.png){.thumbnail}
+
+Beachten Sie, dass beim Ändern des Benutzerkonto-Passworts die bisherigen Login-Daten sofort gelöscht werden.
+
 ### Löschung eines OpenStack Benutzers
 
 Sie können OpenStack Benutzer im [OVHcloud Kundencenter](/links/manager) löschen. Klicken Sie auf `Users & Roles`{.action} im linken Menü unter "Project management". 
@@ -66,4 +95,4 @@ Klicken Sie auf `...`{.action} und wählen Sie `Löschen`{.action} aus.
 
 [Einführung in das Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

@@ -95,11 +95,11 @@ Dans ce cas de figure, nous vous recommandons de suivre les étapes ci-dessous *
 > Étape 1
 >> **Récupérez les informations techniques sur arcep.fr :**
 >>
->> Accédez au [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external} et cliquez sur l'onglet `Déploiements fibre`{.action} en haut à droite afin d'afficher la carte des déploiements de la fibre en France.
+>> Accédez au [site officiel de l'ARCEP](https://cartefibre.arcep.fr/) et cliquez sur l'onglet `Déploiements fibre`{.action} en haut à droite afin d'afficher la carte des déploiements de la fibre en France.
 >>
 >> ![ARCEP - Déploiements fibre](images/arcep01.png){.thumbnail width="600"}
 >>
->> Identifiez votre bâtiment en recherchant votre adresse. Utilisez soit la carte (zommez dans celle-ci), soit le champ de recherche en haut à gauche.<br>
+>> Identifiez votre bâtiment en recherchant votre adresse. Utilisez soit la carte (zoomez dans celle-ci), soit le champ de recherche en haut à gauche.<br>
 >> Cliquez ensuite sur le point vert correspondant à votre bâtiment afin d'afficher ses informations.
 >> Prenez note de :
 >>
@@ -109,12 +109,12 @@ Dans ce cas de figure, nous vous recommandons de suivre les étapes ci-dessous *
 >> ![ARCEP - Déploiements fibre](images/arcep03.png){.thumbnail width="600"}
 >>
 >> > [!warning]
->> > Les informations sur le [site officiel de l'ARCEP](https://cartefibre.arcep.fr/){.external} ne sont pas actualisées en temps réel. Leur date de dernière mise à jour est indiquée en haut à droite du site. Il est donc possible que, à date, le statut réel de votre éligibilité fibre ne corresponde pas aux données indiquées sur ce site.
+>> > Les informations sur le [site officiel de l'ARCEP](https://cartefibre.arcep.fr/) ne sont pas actualisées en temps réel. Leur date de dernière mise à jour est indiquée en haut à droite du site. Il est donc possible que, à date, le statut réel de votre éligibilité fibre ne corresponde pas aux données indiquées sur ce site.
 >>
 > Étape 2
 >> **Vérifiez les informations sur l'outil d'éligibilité OVHcloud :**
 >>
->> Rendez-vous sur [notre outil d'éligibilité](https://order.isp.ovh.net/){.external}.
+>> Rendez-vous sur [notre outil d'éligibilité](https://order.isp.ovh.net/).
 >>
 >> Cliquez sur l'onglet `Par référence d'immeuble`{.action} et renseignez l'**Identifiant immeuble IPE** préalablement noté sur le site de l'ARCEP. Cliquez alors sur `Vérifier mon éligibilité`{.action}.
 >>

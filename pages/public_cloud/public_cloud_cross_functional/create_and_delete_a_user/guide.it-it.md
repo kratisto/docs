@@ -1,24 +1,22 @@
 ---
-title: Crea ed elimina utenti OpenStack
-excerpt: Scopri come creare e rimuovere un utente OpenStack dallo Spazio Cliente OVHcloud
-updated: 2024-03-04
+title: Gestione degli utenti OpenStack
+excerpt: "Scopri come gestire gli utenti OpenStack nello Spazio Cliente OVHcloud e nell’interfaccia Horizon"
+updated: 2025-04-02
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
-L'accesso a Horizon e alle API OpenStack avviene tramite combinazioni identificativo/password chiamate "*OpenStack Users*". È possibile creare tutti gli utenti OpenStack necessari e attribuire loro diversi diritti di accesso.
+L’accesso a Horizon e alle API OpenStack avviene tramite combinazioni identificativo/password chiamate "*OpenStack users*". Potrete creare tutti gli utenti OpenStack che vi servono e attribuire loro diversi diritti di accesso.
 
-**Questa guida ti mostra come gestire gli utenti OpenStack dallo Spazio Cliente OVHcloud.**
+Dall’interfaccia Horizon, è possibile impostare una password per ogni utente. Attenzione: la modifica della password di un account utente comporta la revoca immediata della password precedente.
+
+**Questa guida ti mostra come gestire gli utenti OpenStack dallo Spazio Cliente OVHcloud e tramite l’interfaccia Horizon.**
 
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NC69nrb6QlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisiti
 
-- Un progetto [Public Cloud](https://www.ovhcloud.com/it/public-cloud/) nel tuo account OVHcloud
+- Un progetto [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) nel tuo account OVHcloud
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
@@ -49,6 +47,36 @@ Salva la password, solo visualizzata in verde in quel momento, su un gestore di 
 
 Una volta creato l'utente OpenStack, puoi utilizzare le credenziali per accedere all'[interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) cliccando sul link `Horizon`{.action} nel menu di sinistra.
 
+### Modificare la password di un utente OpenStack
+
+Puoi creare una password OpenStack dopo esserti collegato a [OpenStack Horizon](https://horizon.cloud.ovh.net/): 
+
+![Connessione a Horizon](images/1_H_login_window.png){.thumbnail}
+
+Il nome utente Horizon si trova nell’angolo in alto a destra dell’interfaccia Horizon. Clicca sul tuo nome utente per far apparire un menu con le opzioni disponibili. Seleziona `Settings`{.action} e poi, sulla sinistra, `Change Password`{.action}.
+
+![Modifica della password](images/2_H_pass_change_option.png){.thumbnail}
+
+Inserisci la password attuale nel primo campo e la nuova password nei due campi successivi.
+
+> [!primary]
+>
+> è necessario che la nuova password abbia la seguenti caratteristiche: 
+>
+> - un minimo di 8 caratteri
+> - un massimo di 30 caratteri
+> - almeno una lettera maiuscola 
+> - almeno una lettera minuscola
+> - almeno un numero
+> - solo numeri e lettere
+>
+
+Successivamente conferma la tua nuova password cliccando su `Change`{.action}.
+
+![Impostazione password](images/3_H_set_new_passord.png){.thumbnail}
+
+Ricorda che la modifica della password dell’account utente comporta l’annullamento immediato delle precedenti credenziali.
+
 ### Elimina l'utente OpenStack
 
 L'utente OpenStack viene eliminato dallo [Spazio Cliente OVHcloud](/links/manager). Clicca su `Users & Roles`{.action} nel menu a sinistra sotto "Project management". 
@@ -66,4 +94,4 @@ Clicca su `...`{.action} e seleziona `Elimina`{.action}.
 
 [Introduzione a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

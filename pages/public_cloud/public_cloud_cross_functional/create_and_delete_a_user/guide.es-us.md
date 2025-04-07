@@ -1,24 +1,22 @@
 ---
-title: "Creación y eliminación de usuarios OpenStack"
-excerpt: Cómo crear y eliminar un usuario OpenStack desde el área de cliente de OVHcloud
-updated: 2024-03-04
+title: "Gestión de usuarios OpenStack"
+excerpt: Cómo gestionar los usuarios de OpenStack desde el área de cliente de OVHcloud y en Horizon
+updated: 2025-04-02
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
 El acceso a Horizon y a las API de OpenStack se realiza a través de combinaciones de usuario y contraseña denominadas "*OpenStack users*". Puede crear tantos usuarios OpenStack como sea necesario y asignarles distintos permisos de acceso.
 
-**Esta guía explica cómo gestionar los usuarios de OpenStack desde el área de cliente de OVHcloud.**
+En Horizon puede establecer una contraseña para cada usuario. Atención: El cambio de contraseña de una cuenta de usuario implica la revocación inmediata de la contraseña anterior.
+
+**Esta guía explica cómo gestionar usuarios de OpenStack desde el área de cliente de OVHcloud y a través de Horizon.**
 
 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NC69nrb6QlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requisitos
 
-- Un proyecto de [Public Cloud](https://www.ovhcloud.com/es/public-cloud/) en su cuenta de OVHcloud
+- Un proyecto de [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) en su cuenta de OVHcloud
 - Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager)
 
 ## Procedimiento
@@ -49,6 +47,37 @@ En este momento, guarde la contraseña en un gestor de contraseñas. La contrase
 
 Una vez que haya creado el usuario de OpenStack, podrá utilizar sus claves de acceso a [la interfaz Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) haciendo clic en `Horizon`{.action} en el menú de la izquierda.
 
+### Cambiar la contraseña de un usuario de OpenStack
+
+Una vez conectado a [OpenStack Horizon](https://horizon.cloud.ovh.net), es posible cambiar la contraseña de OpenStack.
+
+![Conexión a Horizon](images/1_H_login_window.png){.thumbnail}
+
+Haga clic en su nombre de usuario de Horizon, situado en la esquina superior derecha del panel, para desplegar un menú con las opciones disponibles,
+y seleccione `Settings`{.action}. En la columna izquierda, haga clic en `Change Password`{.action}.
+
+![Cambio de la contraseña](images/2_H_pass_change_option.png){.thumbnail}
+
+Introduzca la contraseña actual en el primer campo y una nueva contraseña en los dos campos siguientes.
+
+> [!primary]
+>
+> Es recomendable que la contraseña cumpla los siguientes criterios:
+>
+> - la contraseña debe tener al menos 8 caracteres;
+> - la contraseña debe tener un máximo de 30 caracteres;
+> - la contraseña debe contener al menos una letra mayúscula;
+> - la contraseña debe contener al menos una letra minúscula;
+> - la contraseña debe contener al menos un número;
+> - la contraseña debe estar compuesta únicamente por números y letras.
+>
+
+A continuación, haga clic en el botón `Change`{.action} para confirmar el cambio de contraseña.
+
+![Configuración de la contraseña](images/3_H_set_new_passord.png){.thumbnail}
+
+Tenga en cuenta que, al cambiar la contraseña de una cuenta de usuario, se cancela inmediatamente lla contraseña anteriormente utilizada.
+
 ### Eliminación del usuario OpenStack
 
 La eliminación del usuario de OpenStack se realiza desde el [Panel de configuración de OVHcloud](/links/manager). Haga clic en `Users & Roles`{.action} en el menú de la izquierda, en "Project management". 
@@ -66,4 +95,4 @@ Haga clic en `...`{.action} y seleccione `Eliminar`{.action}.
 
 [Presentación de Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

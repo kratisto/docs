@@ -8,17 +8,18 @@ updated: 2024-05-29
 
 Le Reverse DNS, aussi appelé PTR Record (ou pointer record) sert à associer une adresse IP à un enregistrement de nom de domaine.
 
-Il est important de l'utiliser car l'absence de Reverse DNS peut être considérée comme une erreur et peut entraîner le refus d'accès à certains services.
-Par exemple, dans le cadre de l'utilisation d'un serveur e-mail, si l'e-mail est envoyé depuis un serveur ayant une adresse IP sans résolution DNS appropriée, il a de grandes chances d'être refusé par le serveur de réception.
+Il est important de l'utiliser, car l'absence de Reverse DNS peut être considérée comme une erreur et peut entraîner le refus d'accès à certains services.
+Par exemple, dans le cadre de l'utilisation d'un serveur e-mail, si l'e-mail est envoyé depuis un serveur ayant une adresse IP sans résolution DNS appropriée, il y a de grandes chances qu'il soit refusé par le serveur de réception.
 
 ## Prérequis
 
-- Un nom de domaine (ou sous-domaine) redirigeant vers l'adresse IP (IPv4 et/ou IPv6) de votre accès xDSL ou fibre.
-- Un accès xDSL ou fibre OVHcloud.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
+- Disposer d'un nom de domaine (ou sous-domaine) redirigeant vers l'adresse IP (IPv4 et/ou IPv6) de votre accès xDSL ou fibre.
 - Être connecté à l'[espace client OVHcloud](/links/manager) dans la partie `Telecom`{.action}.
 
-Il est également possible de configurer les Reverse DNS des blocs IPv4 fournis en option sur nos accès.<br>
-Retrouvez plus d'informations sur notre guide « [Commander et gérer un bloc IP /29](/pages/web_cloud/internet/internet_access/comment_commander_et_gerer_un_bloc_ip_29) ».
+Il est également possible de configurer les Reverse DNS des blocs IPv4 fournis en option sur nos accès.
+
+Retrouvez plus d'informations dans notre guide « [Commander et gérer un bloc IP /29](/pages/web_cloud/internet/internet_access/comment_commander_et_gerer_un_bloc_ip_29) ».
 
 ## En pratique
 
@@ -98,7 +99,7 @@ Cliquez sur les onglets ci-dessous pour afficher les détails selon le type d'IP
 
 Dans les deux cas, nous voyons que le nom de domaine pointe bien vers notre adresse IP `198.27.92.21` en IPv4 et l'IP `2001:45d0:ab1e:ef00:a2e5:9aad:8a1:598f` en IPv6.
 
-Si ce n'est pas le cas, nous vous invitons à vous rapprocher de votre bureau d'enregistrement afin de configurer votre nom de domaine. Si OVHcloud est votre bureau d'enregistrement, consultez le guide « [Editer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
+Si ce n'est pas le cas, nous vous invitons à vous rapprocher de votre bureau d'enregistrement afin de configurer votre nom de domaine. Si OVHcloud est votre bureau d'enregistrement, consultez le guide « [Éditer une zone DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit) ».
 
 Nous pouvons maintenant passer à l'étape suivante qui est la configuration de notre Reverse DNS.
 
@@ -120,7 +121,7 @@ Dans les caractéristiques sur la droite, vous verrez apparaître votre IPv4 pub
 >>
 >> ![reverse DNS](images/XDSL-ReverseDNS.png){.thumbnail}
 >>
->> - Saisissez votre IPv4 publique et le sous domaine souhaité puis validez.
+>> - Saisissez votre IPv4 publique et le sous-domaine souhaité puis validez.
 >> - Saisissez le nom de domaine ou sous-domaine et cliquez sur `Suivant`{.action}. Validez à la page suivante.
 >>
 >> ![reverse DNS](images/telecom-reversedns-add-reverse.png){.thumbnail}
@@ -218,7 +219,7 @@ Cliquez sur les onglets ci-dessous pour afficher les détails selon le type d'IP
 
 Dans les deux cas, nous voyons que l'adresse IP redirige bien vers le nom de domaine [ovhtelecom.fr](http://ovhtelecom.fr).
 
-Votre Reverse DNS est maintenant configuré.
+Votre Reverse DNS est à présent configuré.
 
 ## Aller plus loin
 

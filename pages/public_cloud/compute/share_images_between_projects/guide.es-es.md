@@ -1,27 +1,26 @@
 ---
 title: "Compartir imágenes entre proyectos de Public Cloud"
 excerpt: "Cómo compartir imágenes entre proyectos de Public Cloud utilizando OpenStack"
-updated: 2023-08-07
+updated: 2025-04-01
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
->
 
 ## Objetivo
 
 En ocasiones, es posible que necesite compartir una imagen de [backup de instancia](/pages/public_cloud/compute/save_an_instance) o una imagen de [backup por volumen](/pages/public_cloud/compute/volume-backup) entre varios proyectos de Public Cloud.
 
 Con OpenStack, puede compartir una imagen entre varios proyectos, aunque no pertenezcan a la misma cuenta.
+
 Esta funcionalidad ofrece numerosas posibilidades, pero también conlleva riesgos. Por lo tanto, es importante entender sus principios.
 
 Por ejemplo, si desea compartir una imagen de un proyecto A con un proyecto B (en la misma cuenta o en una cuenta diferente), se aplican las reglas siguientes:
 
+- Las imágenes solo se pueden compartir dentro de la misma región. Por ejemplo, una imagen creada en el Proyecto A en la región GRA11 sólo estará disponible para el Proyecto B dentro de la misma región GRA11.
 - La imagen permanece físicamente unida al proyecto A. El Proyecto B sólo tiene "permiso de acceso" a esta imagen.
 - Si el Proyecto A elimina el acceso a la imagen (eliminación de la LCA, eliminación de la imagen, eliminación del proyecto para facturas impagadas, etc.), las instancias que se ejecutan a partir de esta imagen en el Proyecto B podrían dejar de funcionar debido a problemas de migración o de reconstrucción.
 
 Por lo tanto, es importante tener esto en cuenta antes de comprometerse con esta configuración.
-Para más información, consulte la [documentación oficial de OpenStack](https://docs.openstack.org/image-guide/share-images.html){.external}.
+
+Para más informaciónes, consulte la [documentación oficial de OpenStack](https://docs.openstack.org/image-guide/share-images.html){.external}.
 
 **Esta guía explica cómo compartir imágenes entre uno o varios proyectos, conservando al mismo tiempo la configuración y el estado de la imagen.**
 
@@ -59,6 +58,13 @@ $ openstack image list --private
 
 ```bash
 $ openstack image set --shared <Image_UUID>
+```
+
+Puede ejecutar el siguiente comando para mostrar las imágenes que se pueden compartir con otro proyecto:
+
+```bash
+$ openstack image list --shared
+9a0fbdc5-****-****-****-8d404a1313ba 	pfsense
 ```
 
 ### Agregar un proyecto a una imagen
@@ -132,6 +138,8 @@ $ openstack image show 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Comprobar los miembros de una imagen
 
+Para ver todos los proyectos que tienen acceso a la imagen, desde el proyecto de origen (en este caso el proyecto A), puede ejecutar este comando:
+
 ```bash
 $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 +--------------------------------------+----------------------------------+----------+
@@ -144,6 +152,8 @@ $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Eliminar un miembro de una imagen o dejar de compartir una imagen
 
+En el proyecto de origen (proyecto A), puede eliminar un miembro del recurso compartido:
+
 ```bash
 $ openstack image remove project <image> <UUID_Project_To_Delete>
 ```
@@ -152,4 +162,4 @@ $ openstack image remove project <image> <UUID_Project_To_Delete>
 
 [Transferir el backup de una instancia entre datacenters](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another).
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

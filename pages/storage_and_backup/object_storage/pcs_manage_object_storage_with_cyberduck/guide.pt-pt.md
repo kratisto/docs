@@ -29,7 +29,7 @@ Se não está familiarizado com a gestão do armazenamento em linha de comandos,
 - Ter os dados de utilizador (*OS_USERNAME*) e os projetos (*OS_PROJECT_NAME* ou *OS_TENANT_NAME*) disponíveis para o descarregar o ficheiro "OpenRC" no menu [Users and Roles](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables#etapa-1-recuperar-as-variaveis) da sua [Área de Cliente Public Cloud da OVHcloud](/links/manager).
 - Ter a palavra-passe de utilizador OpenStack.
 
-Se já não conhece a sua palavra-passe de utilizador OpenStack, pode alterá-la através [deste manual](/pages/public_cloud/public_cloud_cross_functional/change_openstack_user_password_in_horizon).
+Se já não conhece a sua palavra-passe de utilizador OpenStack, pode alterá-la através [deste manual](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## Instruções
 
