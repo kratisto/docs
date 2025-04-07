@@ -1246,6 +1246,7 @@
             + [Activating the 100M free hosting plan](web_cloud/web_hosting/activate_start10m)
             + [Getting started with an Individual or Business Web Hosting plan](web_cloud/web_hosting/hosting_first_steps_with_web_hosting)
             + [Getting started with a Cloud Web hosting plan](web_cloud/web_hosting/getting_started_cloud_web)
+            + [Web Hosting - How to get started in a few steps](web_cloud/web_hosting/website-project)
             + [Hosting multiple websites on your Web Hosting plan](web_cloud/web_hosting/multisites_configure_multisite)
             + [Web Hosting - Modifying a domain name already associated to a hosting plan](web_cloud/web_hosting/multisites_modify_domain)
             + [Exporting a website](web_cloud/web_hosting/exporter-son-site-web)
