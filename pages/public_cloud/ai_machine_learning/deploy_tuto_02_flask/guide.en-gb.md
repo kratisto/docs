@@ -27,7 +27,7 @@ The purpose of this tutorial is to show you how to build and use a custom Docker
 
 ### Write a simple Flask application
 
-Create a simple Python file with name `app.py`.
+Create a simple Python file with the name `app.py`.
 
 Inside that file, import your required modules:
 
@@ -130,7 +130,7 @@ docker run --rm -it -p 5000:5000 --user=42420:42420 flask-app:latest
 
 > [!primary]
 >
-> The `-p 5000:5000` argument indicates that you want to execute a port rediction from the port **5000** of your local machine into the port **5000** of the docker container. The port **5000** is the default port used by **Flask** applications.
+> The `-p 5000:5000` argument indicates that you want to execute a port redirection from the port **5000** of your local machine into the port **5000** of the docker container. The port **5000** is the default port used by **Flask** applications.
 >
 
 > [!warning]
