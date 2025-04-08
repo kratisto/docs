@@ -94,9 +94,11 @@ Si votre système ne démarre plus et que vous devez le restaurer :
 ![Choose Cloud Connect Repository](images/step2_03.png){.thumbnail}
 
 5. Saisissez l’adresse suivante lorsqu’il vous est demandé de renseigner le fournisseur de service :
-    ```
-    backup.private.ovhcloud.dev
-    ```
+
+```bash
+backup.private.ovhcloud.dev
+```
+
 ![Enter DNS](images/step2_04.png){.thumbnail}
 
 6. Saisissez votre nom d’utilisateur et votre mot de passe pour vous connecter.

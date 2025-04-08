@@ -94,9 +94,11 @@ If your system isn’t working and you need to restore it:
 ![Choose Cloud Connect Repository](images/step2_03.png){.thumbnail}
 
 5. Enter the following address when prompted for the service provider:
-    ```
-    backup.private.ovhcloud.dev
-    ```
+
+```bash
+backup.private.ovhcloud.dev
+```
+
 ![Enter DNS](images/step2_04.png){.thumbnail}
 
 6. Enter your username and password to log in.
