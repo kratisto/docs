@@ -1,32 +1,32 @@
 ---
-title: "Webhosting - Verfügbare Sprachversionen"
-excerpt: "Erfahren Sie mehr über Sprachversionen (Apache, PHP, Python, Perl) für OVHcloud Webhosting-Lösungen"
+title: "Webhosting - Verfügbare Versionen"
+excerpt: "Erfahren Sie hier Details zum Versionsstatus (Apache, PHP, Python, Perl) für OVHcloud Webhosting-Lösungen"
 updated: 2025-04-08
 ---
 
 ## Ziel
 
-Die in diesem Handbuch enthaltenen Informationen beziehen sich auf die Versionen von **PHP**, **Python**, **Perl** und **Apache**, die mit [Web Hosting](/links/web/hosting) Diensten verwendet werden.
+Die auf dieser Seite gelisteten Details beziehen sich auf die Versionen von **PHP**, **Python**, **Perl** und **Apache**, die mit [Web Hosting](/links/web/hosting) Diensten verwendet werden.
 
-**Erfahren Sie mehr über PHP-, Python-, Perl- und Apache-Versionen.**
+**Diese Anleitung enthält Informationen zu PHP-, Python-, Perl- und Apache-Versionen.**
 
 ## Voraussetzungen
 
-- Ein OVHcloud [Webhosting](/links/web/hosting).
+- Sie verfügen über ein [OVHcloud Webhosting](/links/web/hosting).
 
 ## In der praktischen Anwendung
 
-<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : Full support.
+<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span>: Full support.
 <br><br>
-<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : Security fixes only.
+<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span>: Security fixes only.
 <br><br>
-<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : Deprecated, not maintained.
+<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span>: Deprecated, not maintained.
 
-### Verfügbare Versionstabellen
+### Verfügbare Versionen - Übersicht
 
 > [!primary]
 >
-> Die in den Tabellen angezeigten Elemente (✔ oder Versionsnummern) sind anklickbar und führen zur entsprechenden Informationsseite.
+> Die in den Tabellen angezeigten Elemente (✔ oder Versionsnummern) sind klickbar und führen zur entsprechenden Informationsseite.
 
 <table>
 <thead>
@@ -109,10 +109,10 @@ Die in diesem Handbuch enthaltenen Informationen beziehen sich auf die Versionen
 </tbody>
 </table>
 
-Weitere Informationen zum Ende der Lebensdauer und den Support-Daten von PHP sowie Informationen zu Laufzeitumgebungen finden Sie in unseren Anleitungen:
+Weitere Informationen zum Ende der Lebensdauer und den Support-Datierungen von PHP sowie Informationen zu Laufzeitumgebungen finden Sie in unseren Anleitungen:
 
-- [Ankündigungen zu Lebensdauer (EOL) und Support für PHP-Versionen](/pages/web_cloud/web_hosting/php_eol_eos).
-- [Webhosting - Laufzeitumgebung, PHP-Version, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting).
+- [Ankündigungen zu Lebensdauer (EOL) und Support für PHP-Versionen](/pages/web_cloud/web_hosting/php_eol_eos)
+- [Webhosting - Laufzeitumgebung, PHP-Version, .ovhconfig](/pages/web_cloud/web_hosting/configure_your_web_hosting)
 
 ## Weiterführende Informationen
 
