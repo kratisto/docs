@@ -273,7 +273,7 @@ Follow these steps:
 
 > [!success]
 >
-> If you encounter any issues that are not listed in this FAQ, please refer to the “*Troubleshoot*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
+> If you encounter any issues that are not listed in this FAQ, please refer to the “*Troubleshooting*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
 
 /// details | What should I do if my website stops working?
 
@@ -283,11 +283,11 @@ To identify the cause, start by ensuring that none of your subscriptions need to
 Follow these steps:
 
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
-2. On the page that pops up, click on your name in the top right-hand corner, then choose `My offers & services`{.action}.
+2. On the page that pops up, click on your name in the top right-hand corner, then choose `My solutions & services`{.action}.
 
 > [!success]
 >
-> Find all the details in our guide “[How to renew my OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)”.
+> Find all the details in our guide “[How to renew OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)”.
 
 Then check out the [current events on our infrastructure](https://www.status-ovhcloud.com/).
 
@@ -295,13 +295,13 @@ If all your services are active and are not affected by any incidents or mainten
 
 > [!success]
 >
-> See the “*Troubleshoot*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
+> See the “*Troubleshooting*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
 
 ///
 
 /// details | What do I do if the OVHcloud “Website under construction” page remains displayed once my website is online?
 
-![site-in-construction](/pages/assets/screens/other/browsers/errors/site-in-construction.png){.thumbnail}
+![site-in-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
 When your web hosting plan is set up, OVHcloud sets up this holding page in the form of a **index.html** file, which is contained in the `www` folder in your web hosting plan’s FTP storage space.
 
@@ -317,10 +317,10 @@ There are two possible scenarios:
 >
 > Find more details in the following guides:
 >
-> - [Web Hosting - Log in to the FTP space](/pages/web_cloud/web_hosting/ftp_connection).
-> - [Web Hosting - Change an FTP user password](/pages/web_cloud/web_hosting/ftp_change_password).
-> - [Tutorial - Use FileZilla with your web hosting plan](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
-> - [Tutorial - Using Cyberduck with your web hosting plan](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac).
+> - [Logging in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection).
+> - [Web Hosting - Changing an FTP user password](/pages/web_cloud/web_hosting/ftp_change_password).
+> - [Tutorial - Using FileZilla with your OVHcloud hosting](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
+> - [Tutorial - Using Cyberduck with a web hosting plan](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac).
 
 ///
 
@@ -338,15 +338,15 @@ You will then need to delete your 1-click module, then reinstall it.
 >
 > If necessary, also refer to these detailed guides:
 >
-> - [Web Hosting - Restore FTP storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Web Hosting - Export database content](/pages/web_cloud/web_hosting/sql_database_export).
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Retrieving the backup of a Web Hosting plan’s databas](/pages/web_cloud/web_hosting/sql_database_export).
 
 **Only** after you have carried out all the necessary backups, delete your [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules) by doing the following:
 
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 3. On the page that appears, click on the `1-click modules`{.action} tab.
-4. In the table that pops up, click the '...`{.action}' button on the right-hand side of the *1-click module concerned*, then click `Delete module`{.action}.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the *1-click module* concerned, then click `Delete the module`{.action}.
 
 Deleting the *1-click module* may take **several minutes**.
 
@@ -355,7 +355,7 @@ Then delete the database associated with it by doing the following:
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 3. On the page that appears, click on the `Databases`{.action} tab.
-4. In the table that pops up, click the '...`{.action}' button on the right-hand side of the row for the database concerned, then `Delete database`{.action}.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the row for the database concerned, then `Delete a database`{.action}.
 
 It may take **several minutes** to delete the associated database.
 
@@ -363,7 +363,7 @@ Once the deletions are complete, reinstall your *1-click module*, taking care to
 
 > [!success]
 >
-> Find all the details in our guide on [Web Hosting - Install a 1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules) .
+> Find all the details in our guide on [Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules) .
 
 ///
 
@@ -383,15 +383,15 @@ If your website appears with this URL after you have made a change, the quickest
 >
 > If necessary, also refer to these detailed guides:
 >
-> - [Web Hosting - Restore FTP storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Web Hosting - Export database content](/pages/web_cloud/web_hosting/sql_database_export).
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Retrieving the backup of a Web Hosting plan’s database](/pages/web_cloud/web_hosting/sql_database_export).
 
 To restore your website’s source code, follow these steps:
 
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 3. On the page that appears, click on the `FTP - SSH`{.action} tab.
-4. On the new page that appears, click the `Restore a backup`{.action} button.
+4. On the new page that appears, click the `Restore backup`{.action} button.
 5. In the window that pops up, choose the date of the backup you want to restore, and then continue until you start restoring.
 
 Restoring the FTP storage space may take **several minutes**.
@@ -401,9 +401,9 @@ To restore a backup of your database, follow these steps:
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 3. On the page that appears, click on the `Databases`{.action} tab.
-4. In the table that pops up, click the '...`{.action}' button on the right-hand side of the row for the database concerned, then `Restore a backup`{.action}.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the row for the database concerned, then `Restore backup`{.action}.
 5. On the new page that pops up, choose the backup to restore (**ideally the backup corresponding to the date you have chosen for restoring your website’s source code (see above)**).
-6. Once you have chosen the backup, click the '...`{.action}' button to the right of the backup you want to restore, then `Restore backup`{.action}.
+6. Once you have chosen the backup, click the `...`{.action} button to the right of the backup you want to restore, then `Restore the backup`{.action}.
 
 Restoring a database backup may take **several minutes**.
 
@@ -411,8 +411,8 @@ Restoring a database backup may take **several minutes**.
 >
 > Find all the details in the following guides:
 >
-> - [Web Hosting - Restore FTP storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Restore a backup of your database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Importing a backup into a Web Hosting plan database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
 
 ///
 
@@ -443,22 +443,22 @@ To correct this, follow these steps:
 >> 2. Click on the `Domain names`{.action} menu (or on the `DNS zones`{.action} menu if you are using the beta version of the OVHcloud Control Panel), then select the domain name concerned.
 >> 3. On the page that opens, click on the `DNS Zone`{.action} tab.
 >> 4. In the table that appears (representing your domain name’s DNS zone), identify the entry of type `A` whose `Target` is set to the IP address `213.186.33.5`.
->> 5 Click the `...`{.action} button to the right of the line, then `Modify entry`{.action}.
+>> 5 Click the `...`{.action} button to the right of the line, then `Modify record`{.action}.
 >> 6. In the window that opens, replace the IP address `213.186.33.5` in the `Target*` form with the IP address of the web hosting plan where your website is located.
 >>
 >> > [!success]
 >> >
 >> > If necessary, also refer to the following detailed guides:
 >> >
->> > - [Edit an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
->> > - [Web Hosting - List of IP addresses per cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP).
+>> > - [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit).
+>> > - [Web Hosting - List of IP addresses by cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP).
 >>
 > **Case 2**
 >>
 >> The `Targets` (DNS servers) of the entries of type `NS` declared in the DNS zone of the domain name **are not identical** to those retrieved in the `DNS servers`{.action} tab. However, the `Targets` (DNS servers) have one of the following forms:
 >>
->> - `nsXX.ovh.net` and `dnsXX.ovh.net` **or** `nsXXX.ovh.net` and `dnsXXX.ovh.net` (where each `X` designates a number between **0*** and **9**);
->> - `nsXX.ovh.ca` and `dnsXX.ovh.ca` **or** `nsXXX.ovh.ca` and `dnsXXX.ovh.ca` (where each `X` denotes a number between **0*** and **9**);
+>> - `nsXX.ovh.net` and `dnsXX.ovh.net` **or** `nsXXX.ovh.net` and `dnsXXX.ovh.net` (where each `X` designates a number between **0** and **9**);
+>> - `nsXX.ovh.ca` and `dnsXX.ovh.ca` **or** `nsXXX.ovh.ca` and `dnsXXX.ovh.ca` (where each `X` denotes a number between **0** and **9**);
 >> - `ns200.anycast.me` and `dns200.anycast.me` (if you have subscribed to the [DNS anycast](/links/web/domains-options) option).
 >>
 >> > [!primary]
@@ -480,7 +480,7 @@ To correct this, follow these steps:
 >>
 >> > [!success]
 >> >
->> > Find all the details in our guide “[Modifying the DNS servers of an OVHcloud domain name](/pages/web_cloud/domains/dns_server_edit)”.
+>> > Find all the details in our guide “[How to modify the DNS servers of an OVHcloud domain name](/pages/web_cloud/domains/dns_server_edit)”.
 >>
 > **Case 3**
 >>
@@ -504,8 +504,8 @@ In this case, the quickest solution will be to restore it to a previous state wh
 >
 > See also these detailed guides:
 >
-> - [Web Hosting - Restore FTP storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Web Hosting - Export database content](/pages/web_cloud/web_hosting/sql_database_export).
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Retrieving the backup of a Web Hosting plan’s database](/pages/web_cloud/web_hosting/sql_database_export).
 
 To restore your website’s source code, follow these steps:
 
@@ -522,9 +522,9 @@ To restore a backup of your database, follow these steps:
 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
 2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 3. On the page that appears, click on the `Databases`{.action} tab.
-4. In the table that pops up, click the '...`{.action}' button on the right-hand side of the row for the database concerned, then `Restore a backup`{.action}.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the row for the database concerned, then `Restore backup`{.action}.
 5. On the new page that pops up, choose the backup to restore (**ideally the backup corresponding to the date you have chosen for restoring your website’s source code (see above)**).
-6. Once you have chosen the backup, click the '...`{.action}' button to the right of the backup you want to restore, then `Restore backup`{.action}.
+6. Once you have chosen the backup, click the `...`{.action} button to the right of the backup you want to restore, then `Restore the backup`{.action}.
 
 Restoring a database backup may take **several minutes**.
 
@@ -532,8 +532,8 @@ Restoring a database backup may take **several minutes**.
 >
 > Find all the details in the following guides:
 >
-> - [Web Hosting - Restore FTP storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Restore a backup of your database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Importing a backup into a Web Hosting plan database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
 
 If the restores do not allow you to restore access to your website, contact your Webmaster or one of our [partners](/links/partner).
 
@@ -554,7 +554,7 @@ This error can also appear if an HTTP request ends in *timeout* on your website.
 > If necessary, also refer to these detailed guides:
 >
 > - [Speed up my website using the CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn).
-> - [Troubleshoot common 1-click module errors](/pages/web_cloud/web_hosting/diagnostic_errors_module1click).
+> - [Troubleshooting common 1-click module errors](/pages/web_cloud/web_hosting/diagnostic_errors_module1clic).
 
 ///
 
@@ -577,7 +577,7 @@ If you are unsure about the changes you need to make, contact your Webmaster or 
 > See also our detailed guides:
 >
 > - [Web hosting - View website statistics and logs](/pages/web_cloud/web_hosting/logs_and_statistics).
-> - [Use cases - Tips following hacking of your website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
+> - [Use cases - What to do if your  Website is hacked](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
 
 ///
 
@@ -600,7 +600,7 @@ If you are unsure about the changes you need to make, contact your Webmaster or 
 > See also our detailed guides:
 >
 > - [Web hosting - View website statistics and logs](/pages/web_cloud/web_hosting/logs_and_statistics).
-> - [Use cases - Tips following hacking of your website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
+> - [Use cases - What to do if your  Website is hacked](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
 
 ///
 
@@ -618,7 +618,6 @@ You have no action to take in this situation. Even if your domain appears in [in
 >
 
 ///
-
 
 ## Go further <a name="go-further"></a>
 
