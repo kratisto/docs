@@ -20,7 +20,7 @@ Dostępne wersjeInformacje zawarte w tym przewodniku dotyczą wersji **PHP**, **
 <br><br>
 <span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : tylko korekty zabezpieczeń.
 <br><br>
-<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : version obsolète, non maintenue.
+<span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : nieaktualna wersja.
 
 ### Tabela dostępnych wersji
 
