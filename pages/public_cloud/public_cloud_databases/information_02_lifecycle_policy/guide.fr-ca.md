@@ -79,7 +79,9 @@ PostgreSQL EOL will coincide with the official PostgreSQL versioning policy : <h
 
 ### Caching/Valkey
 
-Caching/Valkey EOL will coincide with the official Redis® Community Releases policy : <https://redis.io/topics/releases>
+Caching EOL will coincide with the official Redis® Community Releases policy : <https://redis.io/topics/releases>
+
+Valkey EOL will coincide with the official Valkey Community Releases policy : <https://valkey.io/topics/releases>
 
 ## Go further
 
