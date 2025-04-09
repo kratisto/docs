@@ -362,11 +362,11 @@ In a versioned bucket, the following configuration does the following actions:
 
 The following are the currently supported transitions:
 
-| from/to          | High Performance | Standard  | Cold Archive |
-| ---------------- | ---------------- | --------- | ------------ |
-| High Performance |        -         | yes       | no           |
-| Standard         | forbidden        | -         | no           |
-| Cold Archive     | forbidden        | forbidden | -            |
+| from/to          | High Performance | Standard  | Standard Infrequent Access |Cold Archive |
+| ---------------- | ---------------- | --------- | -------------------------- |------------ |
+| High Performance |        -         | yes       |             yes            | no          |
+| Standard         | forbidden        | -         |             yes            | no          |
+| Cold Archive     | forbidden        | forbidden |             forbidden      | -           |
 
 ### Minimum object size
 
@@ -375,6 +375,9 @@ OVHcloud Object Storage will prevent any transition to any storage tier for obje
 ### Minimum transition delay
 
 The minimum duration for transition rules is **30 days** i.e your lifecycle configuration will not be valid and you will get an error if the number of days for your transition rule is less than 30 days. In practice, it means that the lifecycle feature will only consider objects older than **30 days**.
+For example, let's say you upload an object in the High Performance storage tier and you want to transition said object to Standard after a certain amount of time and then from Standard to Standard Infrequent Access after another amount of time. That means:
+- your object can only be transitioned to Standard after 30 days
+- your object can only be transitioned from Standard to Standard Infrequent Access after 60 days (30 days after the previous transition)
 
 ### Expiration vs transitions
 
