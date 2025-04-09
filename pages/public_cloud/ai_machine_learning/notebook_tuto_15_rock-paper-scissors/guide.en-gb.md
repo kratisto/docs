@@ -105,7 +105,7 @@ A preview of this notebook can be found on GitHub [here](https://github.com/ovh/
 - Do you want to train your YOLOv8 model? [Here it is](/pages/public_cloud/ai_machine_learning/training_tuto_09_train_rock-paper-scissors).
 - Do you want to use your YOLOv8 model in an app? [Here it is](/pages/public_cloud/ai_machine_learning/deploy_tuto_15_rock_paper_scissors).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

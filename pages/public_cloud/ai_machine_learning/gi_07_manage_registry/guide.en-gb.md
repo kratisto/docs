@@ -300,7 +300,7 @@ You can also use the Control Panel to deploy a job or an app from a GitHub regis
 - Learn [how to deploy an **app**](/pages/public_cloud/ai_machine_learning/deploy_guide_02_getting_started).
 - You can check out the documentation about the [ovhai CLI](/pages/public_cloud/ai_machine_learning/cli_15_commands_reference).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

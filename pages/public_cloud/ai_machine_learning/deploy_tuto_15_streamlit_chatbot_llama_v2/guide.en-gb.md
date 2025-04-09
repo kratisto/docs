@@ -188,7 +188,7 @@ ovhai app run <shared-registry-address>/llama_app:latest \
 - Discover how to [fine-tune LLaMA 2 on your own dataset](/pages/public_cloud/ai_machine_learning/notebook_tuto_13_fine_tune_llama_v2)
 - Create a voice chatbot with [Speech to Text](/pages/public_cloud/ai_machine_learning/notebook_tuto_08_speech_to_text)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

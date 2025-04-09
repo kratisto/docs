@@ -110,7 +110,7 @@ There are many other methods to track your ML model. Check our other tutorials t
 
 - [Weights & Biases integration](/pages/public_cloud/ai_machine_learning/notebook_tuto_03_weight_biases)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

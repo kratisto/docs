@@ -483,7 +483,7 @@ However, it takes longer to train and consumes **more computing resources**.
 - To build an app to classify audios, refer to this [tutorial](/pages/public_cloud/ai_machine_learning/deploy_tuto_03_streamlit_sounds_classification).
 - Do you want to know how to build and use custom Docker image with AI Training? [Here it is](/pages/public_cloud/ai_machine_learning/training_tuto_02_build_custom_image).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

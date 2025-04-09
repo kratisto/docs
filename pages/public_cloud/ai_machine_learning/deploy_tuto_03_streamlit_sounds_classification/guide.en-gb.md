@@ -369,7 +369,7 @@ If you want your notebook to be accessible without the need to authenticate, spe
 - You can imagine deploying an AI model with an other tool: **Gradio**. Refer to this [tutorial](/pages/public_cloud/ai_machine_learning/deploy_tuto_05_gradio_sketch_recognition).
 - Another way to create an AI Deploy app is to use **Flask**! [Here it is](/pages/public_cloud/ai_machine_learning/deploy_tuto_04_flask_yolov5).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

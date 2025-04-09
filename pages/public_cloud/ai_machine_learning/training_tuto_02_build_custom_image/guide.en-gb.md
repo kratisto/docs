@@ -371,7 +371,7 @@ If you want more concrete examples, feel free to look at the different `Dockerfi
 - Discover [how to build a custom Docker image to deploy a **Streamlit** app](/pages/public_cloud/ai_machine_learning/deploy_tuto_01_streamlit).
 - You can imagine deploying a Docker image for data processing and training tasks. Refer to this [tutorial](/pages/public_cloud/ai_machine_learning/training_tuto_06_models_comparaison_weights_and_biases).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

@@ -113,7 +113,7 @@ Once the repository has been cloned, find your notebook by following this path: 
 
 - With NLP, you can do **sentiment analysis**. For more information, click [here](/pages/public_cloud/ai_machine_learning/notebook_tuto_05_hugging_face_sentiment_analysis).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 
