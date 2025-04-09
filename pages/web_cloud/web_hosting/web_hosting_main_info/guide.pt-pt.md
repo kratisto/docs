@@ -16,7 +16,7 @@ As informações contidas neste guia dizem respeito às versões de **PHP**, **P
 
 ## Instruções
 
-<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : support complet assuré.
+<span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : suporte total garantido.
 <br><br>
 <span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : corrections de sécurité uniquement.
 <br><br>
