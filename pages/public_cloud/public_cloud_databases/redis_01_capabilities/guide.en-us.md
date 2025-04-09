@@ -31,6 +31,7 @@ Database nodes have to be in the same region. Multi-AZ is currently not supporte
 The Public Cloud Databases offer uses the following Redis® open source and Valkey versions:
 
 - Redis® open source 7.2
+- Valkey 7.2
 - Valkey 8.0
 
 Please refer to the [DBMS lifecycle policy guide](/pages/public_cloud/public_cloud_databases/information_02_lifecycle_policy) for recommendations on version upgrades and end of life announcements of major versions. Additionally, you can follow Redis® release cycle on their official page: <https://redis.io/topics/releases>
