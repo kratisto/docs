@@ -362,11 +362,11 @@ Dans un bucket versionné, la configuration suivante effectue ces actions :
 
 Les transitions actuellement prises en charge sont les suivantes :
 
-| de/vers          | High Performance | Standard  | Cold Archive |
-| ---------------- | ---------------- | --------- | ------------ |
-| High Performance |        -         | oui       | non          |
-| Standard         | interdit         | -         | non          |
-| Cold Archive     | interdit         | interdit  | -            |
+| de/vers          | High Performance | Standard  | Standard Infrequent Access |Cold Archive |
+| ---------------- | ---------------- | --------- | -------------------------- |------------ |
+| High Performance |        -         | oui       |             oui            | non          |
+| Standard         | interdit        | -         |             oui            | non          |
+| Cold Archive     | interdit        | interdit |             interdit      | -           |
 
 ### Taille minimale de l'objet
 
@@ -375,6 +375,9 @@ OVHcloud Object Storage empêchera toute transition vers un autre niveau de stoc
 ### Délai de transition minimal
 
 La durée minimale des règles de transition est de **30 jours**, ce qui signifie que votre configuration de lifecycle ne sera pas valide et que vous obtiendrez une erreur si le nombre de jours pour votre règle de transition est inférieur à 30 jours. En pratique, cela signifie que la fonction de lifecycle ne prendra en compte que les objets datant de plus de **30 jours**.
+Par exemple, supposons que vous téléversez un objet dans le niveau de stockage High Performance et que vous souhaitez le faire passer au niveau de stockage Standard après un certain temps, puis de Standard à Standard Infrequent Access après un autre laps de temps. Cela signifierait que:
+- votre objet ne pourra passer de High Performance à Standard qu'après 30 jours
+- votre objet ne pourra passer de Standard à Standard Infrequent Access qu'après 60 jours (30 jours après la précédente transition)
 
 ### Expiration vs transitions
 
@@ -471,7 +474,7 @@ Dans ce scénario, supposons que vous téléchargiez un objet comportant plusieu
 Si la date actuelle est 2024-10-23 :
 
 - v5 sera transférée 30 jours après le 2024-10-23
-- v1 sera transférée puisqu'elle est une version non courante depuis déjà 5 jours 
+- v1 sera transférée 30 jours après sa date de création (2024-10-18)
 
 ```json
 {
@@ -488,7 +491,7 @@ Si la date actuelle est 2024-10-23 :
       ],
       "NoncurrentVersionTransitions": [
         {
-          "NoncurrentDays": 5,
+          "NoncurrentDays": 30,
           "StorageClass": "STANDARD"
         }
        ]
