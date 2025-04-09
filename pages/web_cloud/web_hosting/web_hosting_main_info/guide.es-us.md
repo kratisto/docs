@@ -18,7 +18,7 @@ Esta guía explica las versiones de **PHP**, **Python**, **Perl** y **Apache** u
 
 <span style="background-color:#198754; color:white; padding:4px; border-radius:4px;">Active support</span> : soporte completo garantizado.
 <br><br>
-<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : corrections de sécurité uniquement.
+<span style="background-color:#ffc107; color:white; padding:4px; border-radius:4px;">Security fixes only</span> : sólo correcciones de seguridad.
 <br><br>
 <span style="background-color:#dc3545; color:white; padding:4px; border-radius:4px;">End of life</span> : version obsolète, non maintenue.
 
