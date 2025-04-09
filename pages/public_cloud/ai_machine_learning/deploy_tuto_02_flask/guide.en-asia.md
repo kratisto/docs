@@ -17,8 +17,8 @@ The purpose of this tutorial is to show you how to build and use a custom Docker
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia);
-- An **AI Deploy project** created inside a [Public Cloud project](https://www.ovhcloud.com/asia/public-cloud/) in your OVHcloud account;
+- Access to the [OVHcloud Control Panel](/links/manager);
+- An **AI Deploy project** created inside a [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account;
 - A [user for AI Deploy](/pages/public_cloud/ai_machine_learning/gi_01_manage_users);
 - [Docker](https://www.docker.com/get-started) installed on your local computer;
 - Some knowledge about building image and [Dockerfile](https://docs.docker.com/engine/reference/builder/).
@@ -27,7 +27,7 @@ The purpose of this tutorial is to show you how to build and use a custom Docker
 
 ### Write a simple Flask application
 
-Create a simple Python file with name `app.py`.
+Create a simple Python file with the name `app.py`.
 
 Inside that file, import your required modules:
 
@@ -130,7 +130,7 @@ docker run --rm -it -p 5000:5000 --user=42420:42420 flask-app:latest
 
 > [!primary]
 >
-> The `-p 5000:5000` argument indicates that you want to execute a port rediction from the port **5000** of your local machine into the port **5000** of the docker container. The port **5000** is the default port used by **Flask** applications.
+> The `-p 5000:5000` argument indicates that you want to execute a port redirection from the port **5000** of your local machine into the port **5000** of the docker container. The port **5000** is the default port used by **Flask** applications.
 >
 
 > [!warning]
@@ -192,7 +192,7 @@ Once the app is running you can access your Flask application directly from the 
 - To go further with **Flask**, imagine creating an app to deploy an Object Detection model. Refer to this [tutorial](/pages/public_cloud/ai_machine_learning/deploy_tuto_04_flask_yolov5).
 - **Flask** allows you to do sentiment classification on texts using Hugging Face models. [Here it is](/pages/public_cloud/ai_machine_learning/deploy_tuto_06_flask_hugging_face).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 
