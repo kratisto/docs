@@ -12,19 +12,19 @@ This guide covers the initialisation of **AI Training** and the submission of [*
 
 -   a **Public cloud** project
 -   optionally container objects to attach data to the **job** at step 6, see our [create data container](/pages/storage_and_backup/object_storage/pcs_create_container) guide.
--   access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie)
+-   access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
 
 ## Instructions
 
 ### Step 1 - Going to the AI Training menu
 
-Log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie), go to the `Public Cloud`{.action} section and then to the `AI Training`{.action} section which is located under `AI & Machine Learning`.
+Log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB), go to the `Public Cloud`{.action} section and then to the `AI Training`{.action} section which is located under `AI & Machine Learning`.
 
 ![image](images/00_training_menu.png){.thumbnail}
 
 ### Step 2 - Activating AI Training service
 
-Once you have read the general information and validated this services's contract terms, you can start submitting your jobs. Upon activating the AI Training service you grant OVHcloud access to your Object Storage containers. This access is only used to synchronise your data within **AI Training** with your containers.
+Once you have read the general information and validated this service's contract terms, you can start submitting your jobs. Upon activating the AI Training service you grant OVHcloud access to your Object Storage containers. This access is only used to synchronise your data within **AI Training** with your containers.
 
 ![training onboarding page](images/01_training_onboarding.png){.thumbnail}
 
@@ -86,7 +86,7 @@ To attach a **data** object, just select from the list on the left. Next to each
 
 > [!warning]
 >
-> To attach a **data** object you must click on the plus (+) button after filling the fields
+> To attach a **data** object you must click on the plus (+) button after filling in the fields.
 
 Once the data is configured click `Next`{.action}.
 
@@ -148,4 +148,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ie/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 

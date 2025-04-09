@@ -23,19 +23,19 @@ All steps for starting and working on AI Training are described in the [AI Train
 
 When you use AI Training, make sure to mount Object Storage containers to your job. You will need to back up your files on these volumes. Once your training job is complete (status is `DONE` ), your job should synchronise your data on the mounted Object Storage container(s).
 
-If no volumes are mounted in the specified location, your files will be saved in the job's local and ephemeral storage, then deleted once the job is finished.
+If no volumes are mounted in the specified location, your files will be saved in the job's local and ephemeral storage and then deleted once the job is finished.
 
 ### Which commands and arguments can I use to debug?
 
 A lot of options and sub-commands are available in the ovhai CLI tool. This is the recommended means of interaction with AI Solutions. To install it, follow the [CLI Installation guide](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli).
 
-To get a list of available sub-commands and arguments, just start run:
+To get a list of available sub-commands and arguments, use the command:
 
 ``` {.bash}
 ovhai --help
 ```
 
-Further details on each sub-command can be accessed by:
+Further details on each sub-command can be accessed with:
 
 ``` {.bash}
 ovhai <subcommand> --help
@@ -116,7 +116,7 @@ You may now start your commands and/or use the typical commandline utils to debu
 
 #### Debug your Code
 
-The easiest way to debug your code may be using above interactive debug-session and run/compile your code interactively checking for:
+The easiest way to debug your code may be using the above interactive debug-session and run/compile your code interactively checking for:
 
 -   error-messages
 -   syntax errors
@@ -156,4 +156,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es-es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 

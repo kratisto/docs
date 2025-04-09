@@ -16,7 +16,7 @@ This guide covers the creation of application tokens for AI Deploy.
 ## Requirements
 
 - a **Public cloud** project
-- access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc)
+- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
 - a Running AI Deploy app (the deployed app in this guide uses the Docker image [infrastructureascode/hello-world](https://hub.docker.com/r/infrastructureascode/hello-world))
 
 ## Instructions
@@ -27,9 +27,9 @@ Tokens are scoped based on labels added to your AI Deploy app. To scope a token 
 
 ![app add label](images/01-app-add-label.png){.thumbnail}
 
-In this instance we add the label `group=A` to the AI Deploy app. A set of defaults labels are added to all AI Deploy apps:
+In this instance we add the label `group=A` to the AI Deploy app. A set of defaults labels is added to all AI Deploy apps:
 
-- `ovh/id` which value is the ID of the AI Deploy app
+- `ovh/id` whose value is the ID of the AI Deploy app
 - `ovh/type` with value `app`, the type of AI resource
 
 > [!primary]
@@ -61,7 +61,7 @@ A Read-only token will only grant you the right to query the deployed app while 
 Let us create a token for the AI Deploy apps matching the label `group=A` with read-only access in the GRA cluster.
 To create an AI Deploy app token we need to specify 3 parameters:
 
-- The token scope specified through label selectors, a token will be scoped over any app matching the set of label selectors. In this case `group=A`
+- The token scope is specified through label selectors, and a token will be scoped over any app matching the set of label selectors. In this case `group=A`
 - The token role: AI Training - Read-only
 - The region (cluster in which are deployed the AI Deploy apps): GRA.
 
@@ -69,7 +69,7 @@ Fill out the form:
 
 ![token generation input read](images/05-token-gen-input-read.png){.thumbnail}
 
-Click `Generate`{.action}. Upon success, you are redirected to the token list with the new generated token displayed at the top:
+Click `Generate`{.action}. Upon success, you are redirected to the token list with the newly generated token displayed at the top:
 
 ![token generation result](images/06-token-gen-result-read.png){.thumbnail}
 
@@ -96,7 +96,7 @@ Additional information about the use of a token to manage an AI Training resourc
 
 ### Using a token to query an AI Deploy app
 
-With the token we generated in the previous step we will now query the app. For this demonstration, we deployed a simple Hello World app that always responds `Hello, World!`.
+With the token we generated in the previous step, we will now query the app. For this demonstration, we deployed a simple Hello World app that always responds `Hello, World!`.
 
 You can get the access URL of your app in the details of the AI Deploy app, above the **Tags**.
 
@@ -151,4 +151,4 @@ If you simply need to invalidate the token, you can delete it using the same act
 
 Please feel free to send us your questions, feedback and suggestions to help our team improve the service on the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/fr-ca/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.

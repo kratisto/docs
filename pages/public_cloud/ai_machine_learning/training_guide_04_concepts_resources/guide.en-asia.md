@@ -14,7 +14,7 @@ updated: 2021-05-03
 
 ## UI Access
 
-The URL to access the monitoring is built like this : *https://monitoring.`<REGION>`{=html}.ai.cloud.ovh.net/d/gpu?var-job=`<JOB-ID>`{=html}*
+The URL to access the monitoring is built like this: *https://monitoring.`<REGION>`{=html}.ai.cloud.ovh.net/d/gpu?var-job=`<JOB-ID>`{=html}*
 
 It can be fetched in the CLI using this command:
 
@@ -105,7 +105,7 @@ This panel displays input and output traffic on your job.
 This panel shows the usage and limit of ephemeral storage allocated to your job. Jobs can use ephemeral storage for data not within a synchronised container.
 
 > [!warning]
-> If your usage go beyond the limit of the ephemeral storage, your job will be evicted.
+> If your usage goes beyond the limit of the ephemeral storage, your job will be rejected.
 
 ## Feedback
 
@@ -113,4 +113,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 

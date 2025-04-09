@@ -17,16 +17,16 @@ This guide explains how to get started with OVHcloud AI Deploy, covering the dep
 
 ## Requirements
 
-- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt)
-- a [Public Cloud project](https://www.ovhcloud.com/pt/public-cloud/) in your OVHcloud account
+- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- a [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
 
 ## Instructions
 
 ### Subscribe to AI Deploy
 
-Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) and switch to `Public Cloud`{.action} in the top navigation bar. After selecting your Public Cloud project, click on `AI Deploy`{.action} in the left-hand navigation bar under **AI & Machine Learning**.
+Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and switch to `Public Cloud`{.action} in the top navigation bar. After selecting your Public Cloud project, click on `AI Deploy`{.action} in the left-hand navigation bar under **AI & Machine Learning**.
 
-Click on the `Deploy an AI Deploy app`{.action} button and accept terms and conditions if any.
+Click on the `Deploy an app`{.action} button and accept the terms and conditions if any.
 
 Once clicked, you will be redirected to the creation process detailed below.
 
@@ -48,7 +48,7 @@ Select where your AI Deploy app will be hosted, meaning the physical location.
 AI Deploy allows a user to deploy applications from two sources:
 
 - From an OVHcloud catalog with already built-in AI models and applications.
-- From your own Docker image, giving you the full flexibility to deploy what you want. This image can be stored on many types of registry ([OVHcloud Managed Private Registry](https://www.ovhcloud.com/pt/public-cloud/managed-private-registry/), [Docker Hub](https://hub.docker.com/), [GitHub packages](https://github.com/features/packages), ...) and the expected format is `<registry-address>/<image-identifier>:<tag-name>`.
+- From your own Docker image, giving you the full flexibility to deploy what you want. This image can be stored on many types of registry ([OVHcloud Managed Private Registry](https://www.ovhcloud.com/en-gb/public-cloud/managed-private-registry/), [Docker Hub](https://hub.docker.com/), [GitHub packages](https://github.com/features/packages), ...) and the expected format is `<registry-address>/<image-identifier>:<tag-name>`.
 
 In this tutorial, we will select an OVHcloud Docker image to deploy your first **AI Deploy app**.
 
@@ -94,7 +94,7 @@ Then you can modify the **Number of instances** on which your AI Deploy app will
 The **static scaling** strategy allows you to choose the number of replicas on which the app will be deployed. For this method, the minimum number of replicas is **1** and the maximum is **10**.
 
 - Static scaling can be used if you want to have fixed costs.
-- This scaling strategy is also useful when your consumption or inference load are fixed.
+- This scaling strategy is also useful when your consumption or inference load is fixed.
 
 **When to choose autoscaling?**
 
@@ -116,7 +116,7 @@ You can also mount an Object Storage as an output folder for example, to retriev
 
 In both cases, you will have to specify:
 
-- `Storage container` or `Git repository URL`: The name of the container to synchronise, or the GitHub repository URL (the one that ends by `.git`).
+- `Storage container` or `Git repository URL`: The name of the container to synchronise, or the GitHub repository URL (the one that ends with `.git`).
 - `Mount directory`: The location in the app where the synced data is mounted.
 
 There are also optional parameters:
@@ -156,8 +156,8 @@ We will select **Restricted Access** for this deployment.
 
 #### Step 6: Review and launch your AI Deploy app
 
-This final step is a summary about your AI Deploy app deployment. You can review the previously selected options and parameters.
-Launch your AI Deploy app by clicking on `Deploy an AI Deploy app`{.action}
+This final step is a summary of your AI Deploy app deployment. You can review the previously selected options and parameters.
+Launch your AI Deploy app by clicking on `Deploy an AI Deploy app`{.action}.
 
 Congratulations, your first AI Deploy app is now running on production!
 
@@ -314,7 +314,7 @@ You have the flexibility to keep your AI Deploy app running for an indefinite pe
 - You can imagine deploying an AI model for sketch recognition thanks to **AI Deploy**. Refer to this [tutorial](/pages/public_cloud/ai_machine_learning/deploy_tuto_05_gradio_sketch_recognition).
 - Do you want to use **Streamlit** in order to create an app? [Here it is](/pages/public_cloud/ai_machine_learning/deploy_tuto_02_flask).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pt/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 Please feel free to send us your questions, feedback and suggestions to help our team improve the service on the OVHcloud [Discord server](https://discord.com/invite/KbrKSEettv)!

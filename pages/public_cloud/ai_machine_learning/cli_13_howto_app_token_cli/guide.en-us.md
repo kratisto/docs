@@ -57,7 +57,7 @@ ovhai token create basetoken --label-selector model=base --role operator
 
 ### Use the app token
 
-If your token has a role `read` and you wish to acces the `job_url` or if it is an `operator` token and you wish to use the AI Training API simply add the following header to your HTTP requests:
+If your token has a role `read` and you wish to access the `job_url` or if it is an `operator` token and you wish to use the AI Training API simply add the following header to your HTTP requests:
 
 ``` {.console}
 -H 'Authorization: Bearer <token>'
@@ -73,7 +73,7 @@ ovhai job run --app-token <my-token> ubuntu -- echo `Hello World`
 
 ### Token lifecycle
 
-Application token do not have an expiration date.
+Application tokens do not have an expiration date.
 We need an additional mechanism to revoke those tokens and remove access to unwanted applications.
 
 There are two ways to revoke a token.
@@ -102,4 +102,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 

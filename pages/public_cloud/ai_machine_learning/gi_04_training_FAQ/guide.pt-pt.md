@@ -31,11 +31,11 @@ Here are the most frequently asked questions about `ovhai` CLI & OVHcloud AI Sol
 > >
 > > Although these products are all dedicated to AI, giving you access to powerful resources and the ability to interact with your data, they each have their own specific use:
 > >
-> > **Notebooks** are files which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc…).  This is why Notebooks are mainly used for data exploration, studies and comparing solutions. OVHcloud AI Notebooks provides you with managed Jupyter or VSCode notebooks, which come with pre-installed libraries. This way, you do not have to worry about your environment, which will save you some time.
+> > **Notebooks** are files that contain both computer code (e.g. python) and rich text elements (paragraphs, equations, figures, links, etc…).  This is why Notebooks are mainly used for data exploration, studies and comparing solutions. OVHcloud AI Notebooks provides you with managed Jupyter or VSCode notebooks, which come with pre-installed libraries. This way, you do not have to worry about your environment, which will save you some time.
 > > 
 > > **AI Training** is dedicated to model training. Once your environment has been configured, you can launch a model training session in just a few clicks. As soon as the training is complete, the job will stop automatically. So it is the perfect tool for training your models without having to worry about the bill.
 > >
-> > **AI Deploy** allows you to deploy your AI applications and models with high availability. If you're looking for a tool to make inference, this is the product you are looking for.
+> > **AI Deploy** allows you to deploy your AI applications and models with high availability. If you're looking for a tool to make inferences, this is the product you are looking for.
 > >
 > > For more information on these products, please read the [comparative guide for AI Solutions](/pages/public_cloud/ai_machine_learning/gi_00_ai_comparative-table).
 > >
@@ -66,7 +66,7 @@ Here are the most frequently asked questions about `ovhai` CLI & OVHcloud AI Sol
 > > You can upload any file or directory to the OVHcloud Object Storage without any format constraints.
 > >
 > Why can't I see my data volume in the container?
-> > Depending on how you build your container, make sure that the mapping between your data (/workspace/mybucket for instance) is not already existing within your environment.
+> > Depending on how you build your container, make sure that the mapping between your data (/workspace/mybucket for instance) does not already exist within your environment.
 > >
 > How to fix file access permission errors?
 > > Within AI Tools, code and users have no root/sudo privileges. To have access to your files, make sure to mount your **data** object at a location available for non-root users. For preset images provided by OVHcloud it is recommended that the destination path is of the form `/workspace/<your-path>` to avoid such errors.
@@ -102,7 +102,7 @@ Here are the most frequently asked questions about `ovhai` CLI & OVHcloud AI Sol
 > > Your AI Task might be in this state for 2 main reasons:
 > >
 > > * You are using an external registry and the image is taking longer to pull. Potential resolution: wait a bit longer for the AI Tool to pull the external image or recompile the image on an [OVHcloud managed Registry](/links/public-cloud/managed-private-registry).
-> > * The AI Tool is waiting for resources to be available. Potential resolution: try to launch the job with less resources or wait for resources to be available.
+> > * The AI Tool is waiting for resources to be available. Potential resolution: try to launch the job with fewer resources or wait for resources to be available.
 > >
 > Why can't I access my AI Solution UI?
 > > Make sure your AI Task is in a `RUNNING` state and that your UI is exposed either on the default port or that you specified the correct port in your URL (see [public ports](/pages/public_cloud/ai_machine_learning/training_guide_01_capabilities#quotas-per-public-cloud-project)).
