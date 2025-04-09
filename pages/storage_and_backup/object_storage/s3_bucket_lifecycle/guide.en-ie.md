@@ -375,8 +375,8 @@ OVHcloud Object Storage will prevent any transition to any storage tier for obje
 ### Minimum transition delay
 
 The minimum duration for transition rules is **30 days** i.e your lifecycle configuration will not be valid and you will get an error if the number of days for your transition rule is less than 30 days. In practice, it means that the lifecycle feature will only consider objects older than **30 days**.
-For example, let's say you upload an object in the High Performance storage tier and you want to transition said object to Standard after a certain amount of time and then from Standard to Standard Infrequent Access after another amount of time. That means:
-- your object can only be transitioned to Standard after 30 days
+For example, let's say you upload an object in the High Performance storage tier and you want to transition said object to Standard storage tier after a certain amount of time and then from Standard to Standard Infrequent Access storage tier after another amount of time. That means:
+- your object can only be transitioned from High Performance to Standard after 30 days
 - your object can only be transitioned from Standard to Standard Infrequent Access after 60 days (30 days after the previous transition)
 
 ### Expiration vs transitions
@@ -474,7 +474,7 @@ In this scenario, suppose you upload an object with multiple versions:
 If the current date is 2024-10-23:
 
 - v5 will be transitioned 30 days after 2024-10-23
-- v1 will be transitioned since it has been a noncurrent version for 5 days already
+- v1 will be transitioned 30 days after its creation i.e 2024-10-18
 
 ```json
 {
@@ -491,7 +491,7 @@ If the current date is 2024-10-23:
       ],
       "NoncurrentVersionTransitions": [
         {
-          "NoncurrentDays": 5,
+          "NoncurrentDays": 30,
           "StorageClass": "STANDARD"
         }
        ]
