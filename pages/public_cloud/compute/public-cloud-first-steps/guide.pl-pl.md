@@ -43,9 +43,9 @@ W zależności od Twoich potrzeb będziesz mógł skorzystać z Twojego projektu
 
 > [!primary]
 >
-> Jeśli jeszcze nie utworzyłeś projektu Public Cloud, zacznij od naszego [Przewodnika tworzenia projektu](/pages/public_cloud/compute/create_a_public_cloud_project).
+> Jeśli jeszcze nie utworzyłeś projektu Public Cloud, zacznij od naszego [Przewodnika tworzenia projektu](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 >
-> **Informacje techniczne** na temat Public Cloud OVHcloud są dostępne na [tej stronie](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> **Informacje techniczne** na temat Public Cloud OVHcloud są dostępne na [tej stronie](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 >
 
 ### Prezentacja zawartości
@@ -194,7 +194,7 @@ Modele instancji typu `Metal`{.action} dostarczają dedykowanych zasobów fizycz
 
 > [!primary]
 >
-> Całkowite zasoby Public Cloud zostaną początkowo ograniczone ze względu na kontrolę kosztów i bezpieczeństwo. Możesz sprawdzić te limity, klikając `Quota and Regions`{.action} na pasku nawigacyjnym po lewej stronie, pod **Project Management**. [Więcej informacji na ten temat znajdziesz w dokumentacji dedykowanej](/pages/public_cloud/compute/increasing_public_cloud_quota).
+> Całkowite zasoby Public Cloud zostaną początkowo ograniczone ze względu na kontrolę kosztów i bezpieczeństwo. Możesz sprawdzić te limity, klikając `Quota and Regions`{.action} na pasku nawigacyjnym po lewej stronie, pod **Project Management**. [Więcej informacji na ten temat znajdziesz w dokumentacji dedykowanej](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).
 >
 > Pamiętaj, że możesz **uaktualnić** Twoją instancję po jej utworzeniu, aby mieć więcej dostępnych zasobów. Przejście na mniejszy model nie jest jednak możliwe w przypadku instancji regularnej. Więcej informacji na ten temat można znaleźć w **etapie 4.4** poniżej.
 >
@@ -285,7 +285,7 @@ Ten etap oferuje kilka opcji konfiguracji. Kliknij poniższe zakładki, aby wyś
 > [!tabs]
 > **1: Liczba instancji do utworzenia**
 >>
->> Możesz utworzyć wiele instancji na podstawie wyborów dokonanych na etapach tworzenia, ale [limity przydziału zasobów](/pages/public_cloud/compute/increasing_public_cloud_quota) będą stosowane.<br>
+>> Możesz utworzyć wiele instancji na podstawie wyborów dokonanych na etapach tworzenia, ale [limity przydziału zasobów](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) będą stosowane.<br>
 >>
 > **2: Elastyczna instancja**
 >>
@@ -376,7 +376,7 @@ Kliknij przycisk `Dalej`{.action}, aby przejść do ostatniego etapu.
 
 Szczegółowe informacje znajdziesz w naszej dedykowanej dokumentacji fakturowania:
 
-- [Płatności za usługę Public Cloud](/pages/public_cloud/compute/analyze_billing)
+- [Płatności za usługę Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [FAQ dotyczący rozliczenia miesięcznego](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Po zakończeniu konfiguracji Twojej instancji kliknij przycisk `Utwórz instancję`{.action}. Dostarczenie usługi może potrwać kilka minut.
@@ -666,9 +666,9 @@ Aby uzyskać szczegółowe informacje na temat tych kroków, zapoznaj się z [pr
 
 [Zarządzanie instancjami w Panelu klienta](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Jak rozpocząć pracę z OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Jak rozpocząć pracę z OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[Jak rozpocząć pracę z Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Jak rozpocząć pracę z Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 

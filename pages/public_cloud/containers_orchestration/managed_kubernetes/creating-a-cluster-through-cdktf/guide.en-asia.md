@@ -22,7 +22,7 @@ Read the [official documentation of CDK for Terraform](https://developer.hashico
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - [Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/){.external} installed
 - [Cloud Development Kit for Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install){.external} installed
 - [Go](https://go.dev/doc/install) installed
@@ -519,7 +519,7 @@ You may get the following error message: `"not enough xxx quotas".`
 
 If this is the case, the quotas must be increased. In order to check your quotas and increase them, please follow this tutorial:
 
-[Increasing Public Cloud quotas](/pages/public_cloud/compute/increasing_public_cloud_quota){.external}.
+[Increasing Public Cloud quotas](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota){.external}.
 
 ### Destroy (cleanup)
 

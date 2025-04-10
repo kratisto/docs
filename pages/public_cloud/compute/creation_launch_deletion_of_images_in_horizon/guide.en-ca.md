@@ -11,7 +11,7 @@ You can add custom images via the OpenStack Horizon interface. For example, you 
 
 ## Requirements
 
-- [Access to the Horizon interface](/pages/public_cloud/compute/introducing_horizon)
+- [Access to the Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Access to the Images menu in the OpenStack Horizon interface 
 
 ![public-cloud](images/horizon_menu.png){.thumbnail}

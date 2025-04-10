@@ -1,5 +1,5 @@
 ---
-title: Comment résilier un accès xDSL/FTTH
+title: Comment résilier un accès xDSL/Fibre
 excerpt: Découvrez comment demander la résiliation de votre accès Internet
 updated: 2024-01-09
 ---
@@ -10,11 +10,11 @@ Si votre offre d'accès à Internet ne vous convient plus, vous pouvez en demand
 La résiliation sera effective à la prochaine facturation de votre accès à Internet. Les instructions pour retourner votre modem vous seront envoyées par e-mail.
 
 > [!success]
-> Si vous souhaitez changer d'offre, consultez notre guide « [Comment changer mon offre xDSL/FTTH](/pages/web_cloud/internet/internet_access/comment_changer_mon_offre_xdsl) ».
+> Si vous souhaitez changer d'offre, consultez notre guide « [Comment changer mon offre xDSL/Fibre](/pages/web_cloud/internet/internet_access/comment_changer_mon_offre_xdsl) ».
 
 ## Prérequis
 
-- Disposer d'un accès xDSL/FTTH actif.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
 ![espace client Telecom Accès Internet](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-01-fr-internet.png){.thumbnail}

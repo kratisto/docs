@@ -10,7 +10,7 @@ This tutorial covers the process of **building your own job image** for specific
 
 ## Requirements
 
--   Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+-   Access to the [OVHcloud Control Panel](/links/manager)
 -   A **Public Cloud** project
 -   A [user for AI Training](/pages/public_cloud/ai_machine_learning/gi_01_manage_users)
 -   [Docker](https://www.docker.com/get-started) installed on your local computer or a virtual machine
@@ -130,7 +130,7 @@ ADD . /workspace
 
 > [!warning]
 >
->This command could allow you to load your dataset within your Docker image. However, this would increase its size considerably. A best practice is to put data outside, such as [Object Storage](https://www.ovhcloud.com/en-gb/public-cloud/object-storage/) then link it to the AI Training job during its launch.
+>This command could allow you to load your dataset within your Docker image. However, this would increase its size considerably. A best practice is to put data outside, such as [Object Storage](/links/public-cloud/public-cloudobject-storage/) then link it to the AI Training job during its launch.
 >
 
 ### Give the OVHcloud user access to the home directory
@@ -371,7 +371,7 @@ If you want more concrete examples, feel free to look at the different `Dockerfi
 - Discover [how to build a custom Docker image to deploy a **Streamlit** app](/pages/public_cloud/ai_machine_learning/deploy_tuto_01_streamlit).
 - You can imagine deploying a Docker image for data processing and training tasks. Refer to this [tutorial](/pages/public_cloud/ai_machine_learning/training_tuto_06_models_comparaison_weights_and_biases).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

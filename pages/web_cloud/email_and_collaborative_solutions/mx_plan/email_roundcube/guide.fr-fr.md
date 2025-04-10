@@ -386,7 +386,7 @@ Dans la barre supérieure, les actions suivantes sont disponibles :
 
 ![hosting](images/roundcube13.png){.thumbnail}
 
-### cas d'usages <a name="usecase"></a>
+### Cas d'usages <a name="usecase"></a>
 
 #### Échec de la vérification de la demande
 
@@ -400,7 +400,7 @@ Une interaction humaine est maintenant exigé afin de continuer.
 Veuillez contacter l'administrateur de votre serveur.
 ```
 
-Comme il est précisé dans le message, votre compte e-mail est considéré comme déjà connecté. On parle ici de « session », cela signifie que votre compte e-mail est déjà en cours d'utilisation aux yeux du serveur e-mail et que cette session précédente doit être fermée . Vérifiez que votre compte e-mail n'ait pas déjà ouvert sur roundcube. Vider également les données en cache sur votre navigateur internet.
+Comme il est précisé dans le message, votre compte e-mail est considéré comme déjà connecté. On parle ici de « session ». Cela signifie que votre compte e-mail est déjà en cours d'utilisation aux yeux du serveur e-mail et que cette session précédente doit être fermée . Vérifiez que votre compte e-mail n'est pas déjà ouvert sur roundcube. Videz également les données en cache sur votre navigateur internet.
 
 ## Aller plus loin
 

@@ -28,7 +28,7 @@ Konta Exchange mogą być skonfigurowane w jednym z kompatybilnych programów po
 
 > [!warning]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex**?**.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
 > 
 > Zapoznaj się z tą cyfrą w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w sekcji `Microsoft`{.action}/`Exchange`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
 > 
@@ -42,15 +42,15 @@ Konta Exchange mogą być skonfigurowane w jednym z kompatybilnych programów po
 | | |
 |---|---|
 |![Thunderbird](images/thunderbird-win-exchange01.png){.thumbnail}|W oknie, które się wyświetla wprowadź 3 następujące informacje: <br>- Pełna nazwa (nazwa wyświetlacza)<br>- Adres e-mail <br>- Hasło.|
-|Następnie kliknij `Konfiguracja ręcznie...`{.action}, aby wprowadzić parametry serwera **PRZYCHODZĄCEGO**: <br>- Protokół **IMAP** <br>- Serwer **ex?.mail.ovh.net** (zmień "**?**" na numer serwera)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Uwierzytelnianie **Zwykłe hasło** <br>- Identyfikator **Twojego kompletnego konta e-mail**|![Thunderbird](images/thunderbird-win-exchange02.png){.thumbnail}|
-|![Thunderbird](images/thunderbird-win-exchange03.png){.thumbnail}|Wpisz parametry serwera **WYCHODZĄCEGO**: <br>- Protokół **SMTP** <br>- Serwer **ex?.mail.ovh.net** (zmień "**?**" na numer serwera)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Uwierzytelnianie **Zwykłe hasło** <br>- Identyfikator **Twojego kompletnego konta e-mail**<br><br>Aby zakończyć konfigurację, kliknij `Zakończ`{.action}|
+|Następnie kliknij `Konfiguracja ręcznie...`{.action}, aby wprowadzić parametry serwera **PRZYCHODZĄCEGO**: <br>- Protokół **IMAP** <br>- Serwer **ex?.mail.ovh.net** (zmień "?" na numer serwera)<br>- Port **993** <br>- SSL **SSL/TLS** <br>- Uwierzytelnianie **Zwykłe hasło** <br>- Identyfikator **Twojego kompletnego konta e-mail**|![Thunderbird](images/thunderbird-win-exchange02.png){.thumbnail}|
+|![Thunderbird](images/thunderbird-win-exchange03.png){.thumbnail}|Wpisz parametry serwera **WYCHODZĄCEGO**: <br>- Protokół **SMTP** <br>- Serwer **ex?.mail.ovh.net** (zmień "?" na numer serwera)<br>- Port **587** <br>- SSL **STARTTLS** <br>- Uwierzytelnianie **Zwykłe hasło** <br>- Identyfikator **Twojego kompletnego konta e-mail**<br><br>Aby zakończyć konfigurację, kliknij `Zakończ`{.action}|
 
 W przypadku konfiguracji **POP** wartości są następujące:
 
 |Typ serwera|Nazwa serwera|Metoda szyfrowania|Port|
 |---|---|---|---|
-|Serwer poczty przychodzącej|ex**?**.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|SSL/TLS|995|
-|Serwer poczty wychodzącej|ex**?**.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|STARTTLS|587|
+|Serwer poczty przychodzącej|ex?.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|SSL/TLS|995|
+|Serwer poczty wychodzącej|ex?.mail.ovh.net (nazwa **"?"** należy zastąpić numerem serwera)|STARTTLS|587|
 
 ### Użyj konta e-mail
 
@@ -66,7 +66,7 @@ Jeśli musisz wykonać operację, która może spowodować utratę danych przypi
 
 > [!warning]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex**?**.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
 > 
 > Zapoznaj się z tą cyfrą w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w sekcji `Microsoft`{.action}/`Exchange`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
 > 

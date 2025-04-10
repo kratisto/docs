@@ -16,8 +16,8 @@ Istnieje możliwość tworzenia instancji bezpośrednio w interfejsie Horizon. M
 
 ## Wymagania początkowe
 
-- Utworzenie [projektu Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) na Twoim koncie OVHcloud
-- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/introducing_horizon)
+- Utworzenie [projektu Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) na Twoim koncie OVHcloud
+- [Dostęp do interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## W praktyce
 
@@ -25,7 +25,7 @@ Istnieje możliwość tworzenia instancji bezpośrednio w interfejsie Horizon. M
 
 Zalecamy utworzenie prywatnej sieci przed utworzeniem instancji. Będziesz mógł później przypisać tę sieć do Twojej instancji.
 
-Zaloguj się do interfejsu Horizon, aby rozpocząć. Jeśli potrzebujesz pomocy w przeprowadzeniu tej operacji, zapoznaj się z [naszą dokumentacją](/pages/public_cloud/compute/introducing_horizon).
+Zaloguj się do interfejsu Horizon, aby rozpocząć. Jeśli potrzebujesz pomocy w przeprowadzeniu tej operacji, zapoznaj się z [naszą dokumentacją](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Następnie kliknij `Network`{.action} w menu po lewej stronie, po czym kliknij `Networks`{.action}.
 

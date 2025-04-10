@@ -1,16 +1,19 @@
 ---
-title: Comment changer mon offre xDSL/FTTH
+title: Comment changer mon offre xDSL/Fibre
 excerpt: "Découvrez comment modifier votre offre d'accès Internet depuis votre espace client OVHcloud"
-updated: 2024-11-22
+updated: 2025-03-18
 ---
 
 ## Objectif
 
-Vous pouvez faire évoluer votre offre xDSL/FTTH afin de pouvoir accéder à de nouvelles fonctionnalités et services.
+Vous pouvez faire évoluer votre offre xDSL/Fibre afin de pouvoir accéder à de nouvelles fonctionnalités et services.
+
+> [!success]
+> Vous souhaitez migrer vers la Fibre ? Consultez notre guide « [Fin du cuivre - Comment migrer mon offre xDSL vers la Fibre ?](/pages/web_cloud/internet/internet_access/end_of_copper_migration_ftth) ».
 
 ## Prérequis
 
-- Disposer d'un accès xDSL/FTTH actif.
+- Disposer d'un accès xDSL/Fibre actif.
 - Disposer d'une offre éligible au changement d'offre.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -24,13 +27,13 @@ Vous pouvez faire évoluer votre offre xDSL/FTTH afin de pouvoir accéder à de 
 
 ### Conservation des options
 
-Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres FTTH Pro et xDSL Pro :
+Les options suivantes ne peuvent pas être conservées en tant qu'**options incluses** dans les nouvelles offres Fibre Pro et xDSL Pro :
 
 - Nom de domaine
 - EcoFax Pro
 - Compte(s) Exchange
 
-Lors d'un changement d'offre vers les nouvelles offres FTTH Pro et xDSL Pro, vous pourrez choisir de résilier ces options ou de les conserver aux tarifs en vigueur.
+Lors d'un changement d'offre vers les nouvelles offres Fibre Pro et xDSL Pro, vous pourrez choisir de résilier ces options ou de les conserver aux tarifs en vigueur.
 
 ### Changer d’offre
 
@@ -53,6 +56,10 @@ Sélectionnez les options souhaitées (lignes téléphoniques, comptes e-mail, G
 ![choix de l'offre](images/changement-offre-details.png){.thumbnail}
 
 Selon l'offre choisie, sélectionnez les informations requises.
+
+> [!success]
+> La Fibre ne vous est pas proposée ? Il peut s'agir d'une divergence d'adresses dans les bases de données.<br>
+> Vérifiez votre situation en consultant notre guide « [Fin du cuivre - Comment migrer mon offre xDSL vers la Fibre ?](/pages/web_cloud/internet/internet_access/end_of_copper_migration_ftth) ».
 
 > [!tabs]
 > xDSL Pro
@@ -80,16 +87,16 @@ Comptez un délai d'une heure pour que le changement soit effectif, sauf pour le
 
 - en cas de remplacement du modem. Un délai de livraison de 24 à 48 heures est alors à prendre en compte suite à l'expédition du modem.
 - en cas de changement de collecte cuivre (un changement physique au niveau de la ligne qui implique une demande auprès de l'opérateur de collecte). Un délai moyen de 7 à 10 jours peut alors être constaté, ainsi qu'une coupure probable du service.
-- en cas de passage d'une offre cuivre (ADSL/VDSL) vers une offre Fibre (FTTH). Un délai moyen de 10 à 30 jours est nécessaire à la réalisation de votre nouvel accès internet Fibre. Dans ce cas précis nous créons, en parallèle de votre *packadsl*, un nouveau *packadsl* temporaire afin de pouvoir réaliser la commande Fibre tout en continuant de garder votre accès cuivre fonctionnel et inchangé. Ce *packadsl* temporaire sera supprimé dès lors où l'accès Fibre sera livré. L'accès Fibre viendra remplacer votre accès cuivre dans votre *packadsl* originel.
+- en cas de passage d'une offre cuivre (ADSL/VDSL) vers une offre Fibre (FTTH). Un délai moyen de 10 à 30 jours est nécessaire à la réalisation de votre nouvel accès Internet Fibre. Dans ce cas précis nous créons, en parallèle de votre *packadsl*, un nouveau *packadsl* temporaire afin de pouvoir réaliser la commande Fibre tout en continuant de garder votre accès cuivre fonctionnel et inchangé. Ce *packadsl* temporaire sera supprimé dès lors que l'accès Fibre sera livré. L'accès Fibre viendra remplacer votre accès cuivre dans votre *packadsl* originel.
 
 > [!warning]
 >
 > Aucune action de modification ou de suppression de votre part n'est nécessaire. Le passage vers votre nouvel accès Fibre ou cuivre se fera de manière entièrement automatisée.
 > 
 
-Suivant votre offre actuelle, un remplacement du modem peut s'avérer nécessaire. Cela vous sera indiqué lors du choix de votre nouvelle offre.
+En fonction de votre offre actuelle, un remplacement du modem peut s'avérer nécessaire. Cela vous sera indiqué lors du choix de votre nouvelle offre.
 
-Les nouveaux services liés à votre nouvelle offre Pro seront accessibles une fois le changement effectif. 
+Les nouveaux services liés à votre nouvelle offre Pro seront accessibles une fois le changement d'offre effectif. 
 
 ## Aller plus loin
 

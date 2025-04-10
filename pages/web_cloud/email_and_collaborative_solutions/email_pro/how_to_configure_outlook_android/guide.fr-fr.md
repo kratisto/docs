@@ -37,7 +37,7 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 
 > [!warning]
 >
-> Dans nos exemples, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+> Dans nos exemples, nous utilisons la mention serveur : pro?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
 >
 > Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
 >
@@ -80,8 +80,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur).<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
@@ -94,8 +94,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : Saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur).<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez pro?.mail.ovh.net (remplacez bien «?» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
@@ -147,7 +147,7 @@ Cliquez sur l'onglet correspondant à votre protocole de réception :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur (entrant)** : pro**?**.mail.ovh.net
+>> - **Serveur (entrant)** : pro?.mail.ovh.net
 >> - **Port** : 993
 >> - **Type de sécurité** : SSL/TLS
 >>
@@ -155,7 +155,7 @@ Cliquez sur l'onglet correspondant à votre protocole de réception :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur (entrant)** : pro**?**.mail.ovh.net
+>> - **Serveur (entrant)** : pro?.mail.ovh.net
 >> - **Port** : 995
 >> - **Type de sécurité** : SSL/TLS
 
@@ -167,7 +167,7 @@ Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres 
 
 - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
-- **Serveur (entrant)** : pro**?**.mail.ovh.net
+- **Serveur (entrant)** : pro?.mail.ovh.net
 - **Port** : 587
 - **Type de sécurité** : SSL/TLS
 

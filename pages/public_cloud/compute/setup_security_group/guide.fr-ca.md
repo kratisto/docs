@@ -13,13 +13,13 @@ Pour des raisons de sécurité, il est possible de configurer et d'utiliser des 
 ## Prérequis
 
 - Un [projet Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/).
-- [Être connecté à l'interface Horizon](/pages/public_cloud/compute/create_and_delete_a_user).
+- [Être connecté à l'interface Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## En pratique
 
 ### Étape 1 : créer un groupe de sécurité
 
-Accédez à l'interface [Horizon](/pages/public_cloud/compute/create_and_delete_a_user). Choisissez alors la région dans laquelle vous voulez créer un groupe de sécurité, via le bouton en haut à gauche.
+Accédez à l'interface [Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Choisissez alors la région dans laquelle vous voulez créer un groupe de sécurité, via le bouton en haut à gauche.
 
 ![définir la région](images/security-group0.png){.thumbnail}
 

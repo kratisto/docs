@@ -10,7 +10,7 @@ This guide will show you how to create a Packer configuration file to create you
 
 ## Requirements
 
-You'll need an [OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) and a terminal.
+You'll need an [OVHcloud Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) and a terminal.
 
 ### Install Packer
 

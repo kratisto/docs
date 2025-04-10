@@ -238,7 +238,7 @@ Ce guide n'a pas répondu à votre question ? Consultez notre [FAQ sur la factur
 
 [Comment résilier des services OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Informations concernant le mode de facturation Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Informations concernant le mode de facturation Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gérer la facturation de vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

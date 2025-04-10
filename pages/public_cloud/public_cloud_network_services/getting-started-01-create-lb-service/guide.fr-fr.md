@@ -30,7 +30,7 @@ Notre Load Balancer Public Cloud est basé sur le service [Openstack Octavia](ht
 - Comprendre les [concepts du Load Balancer](/pages/public_cloud/public_cloud_network_services/concepts-03-loadbalancer)
 - Comprendre les [concepts de réseau Public Cloud](/pages/public_cloud/public_cloud_network_services/concepts-01-public-cloud-networking-concepts)
 - Un Load Balancer nécessite un sous-réseau, lisez [ce guide](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack) pour plus d'informations
-- (Facultatif) : Ce guide explique la configuration du load balancer via l'interface graphique et l'interface en ligne de commande. Si vous souhaitez utiliser cette dernière, installez [l'environnement en ligne de commande OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- (Facultatif) : Ce guide explique la configuration du load balancer via l'interface graphique et l'interface en ligne de commande. Si vous souhaitez utiliser cette dernière, installez [l'environnement en ligne de commande OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 
 ## En pratique
@@ -111,8 +111,8 @@ Notre Load Balancer Public Cloud est basé sur le service [Openstack Octavia](ht
 
 Une autre façon de créer un Load Balance est d'utiliser l'interface de ligne de commande d'Openstack. Avant de commencer, consultez les guides suivants :
 
-[Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).</br>
-[Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables).
+[Preparing an environment for using the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).</br>
+[Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 #### Configurer votre réseau privé
 

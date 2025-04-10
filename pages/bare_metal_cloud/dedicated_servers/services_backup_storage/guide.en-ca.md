@@ -1,7 +1,7 @@
 ---
 title: How to use the backup storage on a dedicated server
 excerpt: 'Find out how to enable and access your additional storage space'
-updated: 2025-02-12
+updated: 2025-03-27
 ---
 
 ## Objective
@@ -42,7 +42,7 @@ Your backup storage will be configured within a few minutes. A confirmation emai
 
 ### Managing access control
 
-Access to the backup storage is restricted by IP address according to an access control list (ACL). Only IPs linked to your OVHcloud customer account will be able to access the storage, once they are whitelisted in the ACL. The access protocols (FTP, NFS and CIFS) are not authorised by default but have to be selected when adding IP addresses.
+Access to the backup storage is restricted by IP address according to an access control list (ACL). Only IPs linked to your OVHcloud customer account will be able to access the storage, once they are whitelisted in the ACL. The access protocols (FTP, NFS and CIFS) are not authorized by default but have to be selected when adding IP addresses.
 
 #### Adding a backup access
 
@@ -50,7 +50,7 @@ Log into your [OVHcloud Control Panel](/links/manager). Switch to the `Bare Meta
 
 ![Add backup access](images/backup-storage03.png){.thumbnail}
 
-You will then need to select the IP block that you want to authorise. After selecting the IP block, select the protocol(s) for the access, and click the `Next`{.action} button.
+You will then need to select the IP block that you want to authorize. After selecting the IP block, select the protocol(s) for the access, and click the `Next`{.action} button.
 
 > [!primary]
 >
@@ -67,9 +67,9 @@ Once the service is enabled, your ACL table will be displayed in the `Backup sto
 
 ![Add backup access](images/backup-storage05.png){.thumbnail}
 
-To change the protocols for an authorised IP block, click on `Modify the access`{.action} and select/deselect protocols in the popup window. Save the changes by clicking on `Confirm`{.action}.
+To change the protocols for an authorized IP block, click on `Modify the access`{.action} and select/deselect protocols in the popup window. Save the changes by clicking on `Confirm`{.action}.
 
-To revoke authorisation for an IP block, click on `Delete the access`{.action} and then on `Confirm`{.action} in the popup window.
+To revoke authorization for an IP block, click on `Delete the access`{.action} and then on `Confirm`{.action} in the popup window.
 
 #### Accessing the backup storage from an IP address outside of your account <a name="accessbackup"></a>
 
@@ -78,34 +78,32 @@ Access to the storage space of your dedicated server is restricted to IP address
 In order to add other IP addresses from which to access, you can use the [OVHcloud API](/pages/manage_and_operate/api/first-steps). This will allow you to retrieve your backup data from a different service.
 
 > [!warning]
-> Only OVHcloud IP addresses can be authorised.
+> Only OVHcloud IP addresses can be authorized.
 >
 
-Log in to [api.ovh.com](/links/api) and use the following call:
+Log in to the [OVHcloud API console](/links/api) with your customer account credentials and use the following call:
 
 > [!api]
 >
 > @api {v1} /dedicated/server POST /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-Fill in the fields as follows:
+Edit the parameters as follows:
 
-- `serviceName`: The service name of your server
-- `cifs`: check if necessary
-- `ftp`: check if necessary
-- `ipBlock`: enter the IP address that will have access in the form `1.2.3.4/32`
-- `nfs`: check if necessary
+- `serviceName`: Enter the internal name of your server (`ns1111111.ip-203-0-113.eu`).
+- `cifs`: Set to `true` if applicable.
+- `ftp`: Set to `true` if applicable.
+- `ipBlock`: Enter the IP address that will have access, in the form `203.0.113.100/32`.
+- `nfs`: Set to `true` if applicable.
 
-![apiacladdress](images/aclapi01.png){.thumbnail}
+Click the button `EXECUTE`{.action}.
 
-To verify that your IP address is authorised, use the following call:
+To verify that your IP address is authorized, use the following call:
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET /dedicated/server/{serviceName}/features/backupFTP/access
 >
-
-![apiacladdress](images/aclapi02.png){.thumbnail}
 
 ### Resetting your password
 
@@ -298,7 +296,7 @@ After installing FileZilla on your server, you can configure it to connect to yo
 
 #### NFS
 
-First make sure that you have authorised your IP blocks to access the storage and use the NFS protocol. Depending on your Linux operating system, you might have to install the **NFS** client and start the NFS/portmap service.
+First make sure that you have authorized your IP blocks to access the storage and use the NFS protocol. Depending on your Linux operating system, you might have to install the **NFS** client and start the NFS/portmap service.
 
 Once you have the NFS client installed and portmap running, you can mount the NFS share like a normal partition as shown below:
 
@@ -309,7 +307,7 @@ mount -t nfs HostName:/export/ftpbackup/ServiceName /FolderMount
 The code example above contains variables, which you will need to substitute with your own values.
 
 * **HostName**: The host name of your backup storage
-* **ServiceName**: The name of your server (e.g. ns0000000.ip-123-123-123.net)
+* **ServiceName**: The name of your server (`ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: The folder where you want to mount the NFS share
 
 Once the share is mounted, you can use commands like **cp** and rsync like on a normal directory.
@@ -327,7 +325,7 @@ net use z: \\HostName\ServiceName
 The code example above contains variables, which you will need to substitute with your own values.
 
 * **HostName**: The host name of your backup storage
-* **ServiceName**: The name of your server (e.g. ns0000000.ip-123-123-123.net)
+* **ServiceName**: The name of your server (`ns1111111.ip-203-0-113.eu`)
 
 You might receive the following error message:
 
@@ -367,7 +365,7 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 The code example above contains variables, which you will need to substitute with your own values.
 
 * **HostName**: The host name of your backup storage
-* **ServiceName**: The name of your server (e.g. ns0000000.ip-123-123-123.net)
+* **ServiceName**: The name of your server (`ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: The folder where you want to mount the share (it must already exist)
 
 ## Go further

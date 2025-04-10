@@ -36,9 +36,9 @@ From here, you can keep reading to learn how to set up Object Storage as your re
 
 Object Storage creation and configuration can be done in the `Public Cloud`{.action} section of the [OVHcloud Control Panel](/links/manager).
 
-If you don't have already a Public Cloud project in your OVHcloud account, read our [Creating your first OVHcloud Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) guide.
+If you don't have already a Public Cloud project in your OVHcloud account, read our [Creating your first OVHcloud Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) guide.
 
-[Create an Object Storage container](/pages/storage_and_backup/object_storage/s3_create_bucket) using one of OVHcloud's **Object Storage solutions (Standard or High Performance)**. Standard is recommended since this backup usually does not require High Performance storage.
+[Create an Object Storage container](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) using one of OVHcloud's **Object Storage solutions (Standard or High Performance)**. Standard is recommended since this backup usually does not require High Performance storage.
 
 > [!primary]
 > When ordering an Object Storage container from OVHcloud, only order **Standard Object Storage** or the **High Performance Object Storage*. These containers support the Amazon S3 protocol fully and are designed for use as backup repositories.

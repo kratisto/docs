@@ -143,7 +143,7 @@ Weitere Informationen zu den notwendigen Schritten finden Sie in unserer Anleitu
 
 [Erste Public Cloud Instanz erstellen und auf dieser einloggen](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Einführung in Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Einführung in Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
 

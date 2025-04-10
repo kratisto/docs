@@ -53,7 +53,7 @@ And then we assign them the subnets using the `POST /cloud/project/{serviceName}
 
 ### Retrieving the Openstack configuration file
 
-Now we need to download the `openrc.sh` configuration file, as explained in the [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables) guide. 
+Now we need to download the `openrc.sh` configuration file, as explained in the [Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables) guide. 
 
 ![Retrieving the Openstack configuration file](images/vrack-example-06.png){.thumbnail}
 
@@ -61,7 +61,7 @@ We will be working on GRA5 region, so we download the *Gravelines (GRA5)* file.
 
 ![Retrieving the Openstack configuration file](images/vrack-example-07.png){.thumbnail}
 
-Following the steps on the [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables) guide to be sure that the Openstack CLI is working on our workstation.
+Following the steps on the [Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables) guide to be sure that the Openstack CLI is working on our workstation.
 
 ```console
 ~$ source openrc.sh

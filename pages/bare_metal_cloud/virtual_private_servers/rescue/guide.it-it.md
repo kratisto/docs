@@ -1,12 +1,8 @@
 ---
 title: Attivare e utilizzare il Rescue mode su un VPS
 excerpt: Scopri come utilizzare il Rescue mode OVHcloud per risolvere i problemi del VPS ed effettuare verifiche di sistema
-updated: 2024-02-19
+updated: 2025-03-27
 ---
-
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
 
 ## Obiettivo
 
@@ -46,11 +42,9 @@ Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanag
 
 Nella scheda `Home`{.action}, clicca su `...`{.action} accanto a "Boot" nella casella **Il tuo VPS**.
 
-![configurazione della modalità rescue](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Seleziona `Riavvia in modalità Rescue`{.action} nel menu.
-
-Se il tuo Spazio Cliente è differente, consulta la nostra guida "[Gestire un VPS legacy](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel)".
 
 ### Utilizzo della modalità Rescue
 
@@ -73,11 +67,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> Il tuo client SSH bloccherà probabilmente la connessione in un primo momento a causa di un'incompatibilità dell'impronta ECDSA. Questo è normale perché la modalità Rescue utilizza il proprio server SSH temporaneo.
+> Il tuo client SSH bloccherà normalmente la connessione all'inizio a causa di un'incompatibilità dell'impronta ECDSA. Questo è normale perché la modalità Rescue utilizza il proprio server SSH temporaneo. Per risolvere il problema, modificare il file `known_hosts` nella cartella locale `.ssh`.  
+> Le opzioni disponibili sono due:
 >
-> Un modo per ovviare a questo problema è "commentare" l’impronta del tuo VPS aggiungendo un `#` davanti alla sua riga nel file `known_hosts`. Ricordarsi di annullare la modifica prima di ripristinare il netboot in modalità "normale".<br>È inoltre possibile eliminare la riga dal file. Una volta stabilita nuovamente la connessione, il client SSH aggiungerà una nuova voce per il VPS. Per maggiori informazioni, consulta la nostra guida "[Introduzione a SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
+> - **Elimina il timbro del file.** Il client SSH aggiungerà una nuova impronta digitale per il server quando non utilizzerai più il Rescue mode. Per una spiegazione dettagliata, consulta la sezione "Login et fingerprint" nella nostra [guida d'introduzione a SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Disattiva temporaneamente l’impronta digitale.** Apri il file `known_hosts` con un editor di testo e identifica la stringa dell’impronta digitale del tuo server con il suo indirizzo IP. Aggiungere il carattere `#` all'inizio della riga. Di conseguenza, questa riga è ora un "commento" e verrà ignorata dalle applicazioni che leggono il file. Ricordati di annullare la modifica prima di riavviare il VPS.
 >
 
 Per effettuare la maggior parte delle modifiche sul tuo server in modalità Rescue via SSH, è necessario montare la partizione di sistema.
@@ -137,7 +134,7 @@ A questo punto è possibile apportare modifiche al sistema, ad esempio [reimpost
 
 Una volta terminata l’operazione, riavvia il VPS in modalità normale dallo Spazio Cliente.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Risolvi i problemi di avvio
 

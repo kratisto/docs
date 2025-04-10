@@ -47,7 +47,7 @@ Esta guía explica cómo configurar una cuenta Exchange en Android utilizando la
 
 > [!primary]
 >
-> En nuestros ejemplos, utilizamos la mención servidor: ex**?**.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor del servicio Email Pro.
+> En nuestros ejemplos, utilizamos la mención servidor: ex?.mail.ovh.net. Deberá sustituir el «?» por el número que designa el servidor del servicio Email Pro.
 >
 > Puede consultar esta cifra en el [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}, y en la sección `Email Pro`{.action}. El nombre del servidor puede verse en el recuadro **«Conexión»** de la pestaña `Información General`{.action}.
 

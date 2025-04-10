@@ -15,7 +15,7 @@ Une fois votre Load Balancer mis en place, vous pouvez le configurer avec un cer
 ## Prérequis
 
 - Un [projet Public Cloud](https://www.ovhcloud.com/fr/public-cloud/)
-- Utiliser l'environnement de commande d'Openstack ([Tutoriel](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- Utiliser l'environnement de commande d'Openstack ([Tutoriel](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
 - Avoir installé le [client Openstack Octavia](https://docs.openstack.org/python-octaviaclient/latest/install/index.html) et [Openstack Barbican](https://docs.openstack.org/python-barbicanclient/latest/install/index.html)
 - Un Load Balancer actif dans votre projet
 

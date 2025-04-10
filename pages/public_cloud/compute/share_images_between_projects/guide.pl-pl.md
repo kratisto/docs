@@ -1,26 +1,25 @@
 ---
 title: "Współdzielenie obrazów między projektami Public Cloud"
 excerpt: "Dowiedz się, jak współdzielić obrazy między projektami Public Cloud za pomocą OpenStack"
-updated: 2023-08-07
+updated: 2025-04-01
 ---
-
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
->
 
 ## Wprowadzenie
 
 Czasami może być konieczne współdzielenie obrazu [Instance Backup](/pages/public_cloud/compute/save_an_instance) lub obrazu [Volume Backup](/pages/public_cloud/compute/volume-backup) między kilkoma projektami Public Cloud.
 
 Dzięki technologii OpenStack możesz współdzielić obrazy między kilkoma projektami, nawet jeśli nie należą one do tego samego konta.
+
 Funkcjonalność ta oferuje wiele możliwości, ale wiąże się również z pewnym ryzykiem. Ważne jest zatem poznanie ich zasad.
 
 Na przykład, jeśli chcesz udostępnić obraz z projektu A dla projektu B (na tym samym lub innym koncie), obowiązują następujące reguły:
 
+- Obrazy mogą być udostępniane tylko w ramach tego samego regionu. Na przykład obraz utworzony w projekcie A w regionie GRA11 będzie dostępny tylko dla projektu B w tym samym regionie GRA11.
 - Obraz pozostaje fizycznie przypisany do projektu A. Projekt B ma tylko "uprawnienie dostępu" do tego obrazu.
 - Jeśli Projekt A usunie dostęp do obrazu (usunie ACL, usunie obraz, usunie projekt z niezapłaconych faktur itp.), instancje uruchomione z tego obrazu w projekcie B mogą przestać działać z powodu problemów z migracją lub rekonstrukcją.
 
 Dlatego ważne jest, aby pamiętać o tym przed rozpoczęciem konfiguracji.
+
 Więcej informacji znajdziesz w oficjalnej [dokumentacji OpenStack](https://docs.openstack.org/image-guide/share-images.html){.external}.
 
 **Z tego przewodnika dowiesz się, jak współdzielić obrazy między jednym lub kilkoma projektami przy jednoczesnym zachowaniu konfiguracji i statusu obrazu.**
@@ -29,12 +28,12 @@ Więcej informacji znajdziesz w oficjalnej [dokumentacji OpenStack](https://docs
 
 Przed wykonaniem tych kroków, należy najpierw zapoznać się z treścią przewodnika:
 
-- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 Będziesz również potrzebował:
 
 - Posiadanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) na koncie OVHcloud;
-- [Utworzenie użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Utworzenie użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 > [!primary]
 >
@@ -59,6 +58,13 @@ $ openstack image list --private
 
 ```bash
 $ openstack image set --shared <Image_UUID>
+```
+
+W celu wyświetlenia obrazów, które mogą być współdzielone z innym projektem, użyj następującego polecenia:
+
+```bash
+$ openstack image list --shared
+9a0fbdc5-****-****-****-8d404a1313ba 	pfsense
 ```
 
 ### Dodaj projekt do obrazu
@@ -132,6 +138,8 @@ $ openstack image show 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Sprawdzanie członków obrazu
 
+Aby zobaczyć wszystkie projekty, które mają dostęp do obrazu, z projektu źródłowego (w tym przypadku projekt A), możesz użyć tego polecenia:
+
 ```bash
 $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 +--------------------------------------+----------------------------------+----------+
@@ -144,6 +152,8 @@ $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Usuń członka z obrazu lub anuluj udostępnianie obrazu
 
+W projekcie źródłowym (projekt A) możesz usunąć część członkowską konta zasobów współdzielonych:
+
 ```bash
 $ openstack image remove project <image> <UUID_Project_To_Delete>
 ```
@@ -152,4 +162,4 @@ $ openstack image remove project <image> <UUID_Project_To_Delete>
 
 [Przeniesienie kopii zapasowej instancji do innego centrum danych](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another).
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

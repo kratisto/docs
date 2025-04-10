@@ -166,7 +166,7 @@ Log in to the [OVHcloud Control Panel](/links/manager) and go to the `Web Cloud`
 
 - **Exchange**: Open `Microsoft`{.action} and then `Exchange`{.action}. Select the service concerned. Click on the `Email accounts`{.action} tab.
 
-- **Email Pro**: Open `Email Pro`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
+- **Email Pro**: Open `Professional emails`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
 
 - **Emails** (MX Plan): Open `Emails`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
 

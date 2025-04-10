@@ -47,10 +47,10 @@ Genauere Informationen zur Vorgehensweise finden Sie in unserer Anleitung "[Die 
 
 ## Weiterführende Informationen
 
-[Informationen zu den Abrechnungsoptionen der Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Informationen zu den Abrechnungsoptionen der Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Die Kontakte Ihrer Dienste verwalten](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Projekte delegieren](/pages/public_cloud/compute/delegate_projects)
+[Projekte delegieren](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

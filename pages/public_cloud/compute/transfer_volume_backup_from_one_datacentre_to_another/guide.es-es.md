@@ -18,7 +18,7 @@ Es posible que necesite mover volúmenes adicionales de una región de OpenStack
 
 Para realizar la transferencia, necesitará un entorno con:
 
-- CLI OpenStack. Consulte nuestra guía «[Cómo preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)».
+- CLI OpenStack. Consulte nuestra guía «[Cómo preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)».
 - Conectividad a la API OpenStack de OVHcloud.
 - Espacio de almacenamiento disponible correspondiente al tamaño del disco del volumen (para el almacenamiento de copia de seguridad temporal).
 

@@ -53,7 +53,7 @@ In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} 
 >>
 > **Email Pro**
 >>
->> Click `Email Pro`{.action}, then choose the name of the service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display all email accounts.<br>
+>> Click `Professional emails`{.action}, then choose the name of the service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display all email accounts.<br>
 >> Click the `...`{.action} button, then click `Edit`{.action}.<br><br>
 >>![email](images/email-password-emailpro01.png){.thumbnail}<br>
 >>

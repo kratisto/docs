@@ -52,8 +52,12 @@ Seleziona il servizio di posta nelle schede seguenti:
 > [!tabs]
 > **Exchange**
 >>
->> Accedi alla sezione `Webcloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Seleziona il tuo servizio cliccando su `Microsoft`{.action} > `Exchange`{.action}.
->> 
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Microsoft`{.action}.
+>> 1. Clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
 >> Clicca sulla scheda `Account email`{.action} della tua piattaforma. Se la colonna “stato” dell’indirizzo email interessato indica “bloccato”, clicca sui tre puntini `...`{.action} a destra in corrispondenza dell’account e poi su `Sblocca`{.action}. Lo sblocco dell'indirizzo email non avviene automaticamente. Per rispondere alle 3 domande poste, contatta il supporto sul ticket di assistenza.<br>
 >> Passare allo [step 3](#step3) della guida.
 >>
@@ -61,7 +65,10 @@ Seleziona il servizio di posta nelle schede seguenti:
 >>
 > **E-mail Pro**
 >>
->> Accedi alla sezione `Webcloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Clicca su `Email Pro`{.action} e seleziona la piattaforma Email Pro.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
 >>
 >> Accedi alla scheda `Account email`{.action} della tua piattaforma. Se la colonna "stato" a destra dell'indirizzo email interessato indica "Spam", clicca su questa voce e poi su `Rispondi al ticket`{.action}. Lo sblocco dell'indirizzo email non avviene automaticamente. È necessario contattare il supporto, sul ticket di assistenza, rispondendo alle 3 domande poste. <br>
 >> Passare allo [step 3](#step3) della guida.
@@ -70,7 +77,10 @@ Seleziona il servizio di posta nelle schede seguenti:
 >>
 > **MX plan - Nuova versione**
 >>
->> Accedi alla sezione `Web Cloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Clicca su `Email`{.action} e seleziona il dominio interessato.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email`{.action}.
+>> 1. Seleziona il dominio.
 >>
 >> Accedi alla scheda `Account email`{.action} della tua piattaforma. Se la colonna "stato" a destra dell'indirizzo email interessato indica "Spam", clicca su questa voce e poi su `Rispondi al ticket`{.action}. Lo sblocco dell'indirizzo email non avviene automaticamente. Per rispondere alle 3 domande poste, contatta il supporto sul ticket di assistenza.<br>
 >> Passare allo [step 3](#step3) della guida.
@@ -81,7 +91,10 @@ Seleziona il servizio di posta nelle schede seguenti:
 >>
 >> Se il blocco riguarda un indirizzo email [MXplan versione storica](#instructions), non ci sono ticket di assistenza. Consulta lo [step 1](#step1) di questa guida prima di seguire queste istruzioni.
 >>
->> Accedi alla sezione `Web Cloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Clicca su `Email`{.action} e seleziona il dominio interessato.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email`{.action}.
+>> 1. Seleziona il dominio.
 >>
 >> Accedi alla scheda `Email`{.action} della tua piattaforma. Se la colonna "Bloccato per SPAM" indica "Sì", clicca su questa voce e poi su `Modifica la password`{.action}. Il tuo indirizzo email è sbloccato, non è necessario seguire lo [step 3](#step3).
 >>

@@ -143,7 +143,7 @@ Para mais informações, consulte o nosso manual "[Criação e conexão a uma pr
 
 [Criação e conexão a uma primeira instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Apresentação do Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Apresentação do Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 

@@ -1,10 +1,112 @@
 ---
-title: Test article for ServiceNow images loading issue
+title: Sandbox article for markdown tests
 flag: hidden
-updated: 2025-01-29
+updated: 2025-03-31
 ---
 
-This article's purpose is to show the main images loading issue currently experienced on the OVHcloud Help Centre.
+This page's objective is to be used as a sandbox for markdown tests.
+
+## Numbered list with code-block - No tabulation
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+```bash
+lsblk
+```
+
+3. This is the third thing to do.
+
+## Numbered list with code-block - 1 tabulation only
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+    ```bash
+    lsblk
+    ```
+
+3. This is the third thing to do.
+
+## Numbered list with code-block - 2 tabulations
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+        ```bash
+        lsblk
+        ```
+
+3. This is the third thing to do.
+
+---
+
+## Numbered list with image - 1 tabulation only
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+
+3. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + Only 1
+
+1. This the first thing to do.
+1. This the second thing to do.
+
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + Only 1 + No skipped lines
+
+1. This the first thing to do.
+1. This the second thing to do.
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + Only 1 + No skipped lines + br
+
+1. This the first thing to do.
+1. This the second thing to do.<br>
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}<br>
+1. This is the third thing to do.
+
+## Numbered list with image - 1 tabulation only + No skipped lines
+
+1. This the first thing to do.
+2. This the second thing to do.<br>
+    ![mot de passe fax](images/motdepassefax.png){.thumbnail}<br>
+3. This is the third thing to do.
+
+
+
+## Numbered list with image - 1 tabulation with no skipped line after the image
+
+1. This the first thing to do.
+2. This the second thing to do.
+
+![mot de passe fax](images/motdepassefax.png){.thumbnail}
+3. This is the third thing to do.
+
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
+
+---
+##### Linux
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
+
+---
+##### **Ubuntu**
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta rutrum eros, a hendrerit dui dapibus in. Maecenas imperdiet enim ut arcu aliquam, non auctor nisi ultricies. Nam sed egestas turpis. Nunc at dapibus erat, in vestibulum nibh. Aenean rhoncus mollis magna, eget maximus risus luctus nec. Aenean pharetra quis neque sed gravida. Curabitur mauris lacus, blandit vel lorem non, tristique gravida est. Ut maximus cursus velit. 
+
+<hr />
 
 ## Image 1
 

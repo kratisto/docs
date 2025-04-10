@@ -85,36 +85,33 @@ Auf diese Weise können Sie Ihre gesicherten Daten von einem anderen Dienst aus 
 > Es können nur IP-Adressen von OVHcloud autorisiert werden.
 >
 
-Loggen Sie sich auf [api.ovh.com](https://api.ovh.com/) ein und verwenden Sie folgenden Aufruf:
+Loggen Sie sich mit den Zugangsdaten Ihres Kunden-Accounts in der [OVHcloud API-Konsole](/links/api) ein und verwenden Sie den folgenden Aufruf:
 
 > [!api]
 >
 > @api {v1} /dedicated/server POST /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-Geben Sie die Felder wie folgt ein:
+Bearbeiten Sie die Parameter wie folgt:
 
-- `serviceName`: Der Name Ihres Dedicated Servers
-- `cifs`: Anhaken, falls erforderlich
-- `ftp`: Anhaken, falls erforderlich
-- `ipBlock`: Geben Sie die zugreifende IP-Adresse ein, in der Form `1.2.3.4/32`
-- `nfs`: Anhaken, falls erforderlich
+- `serviceName`: Geben Sie den internen Namen Ihres Servers ein (`ns1111111.ip-203-0-113.eu`).
+- `cifs`: Auf `true` setzen, wenn zutreffend.
+- `ftp`: Auf `true` setzen, wenn zutreffend.
+- `ipBlock`: Geben Sie die IP-Adresse ein, die Zugriff erhalten soll, in der Form `203.0.113.100/32`.
+- `nfs`: Auf `true` setzen, wenn zutreffend.
 
-![Apiacladdress](images/aclapi01.png){.thumbnail}
+Klicken Sie auf `EXECUTE`{.action}.
 
-Um zu überprüfen, ob Ihre IP-Adresse autorisiert ist, verwenden Sie folgenden Aufruf:
+Verwenden Sie den folgenden Aufruf, um zu überprüfen, ob Ihre IP-Adresse autorisiert ist:
 
 > [!api]
 >
 > @api {v1} /dedicated/server GET /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-![Apiacladdress](images/aclapi02.png){.thumbnail}
-
 ### Passwort zurücksetzen
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) 
-ein. Wechseln Sie zum Bereich `Bare Metal Cloud`{.action} und wählen Sie dann Ihren Server unter `Dedicated Server`{.action} aus. Klicken Sie im Tab `Storage-Backup`{.action} auf den Button `Sie haben Ihr Passwort vergessen?`{.action}.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein. Wechseln Sie zum Bereich `Bare Metal Cloud`{.action} und wählen Sie dann Ihren Server unter `Dedicated Server`{.action} aus. Klicken Sie im Tab `Storage-Backup`{.action} auf den Button `Sie haben Ihr Passwort vergessen?`{.action}.
 
 Nachdem Sie im angezeigten Fenster auf `Bestätigen`{.action} geklickt haben, wird eine E-Mail an die für Ihren Administrator-Kontakt eingetragene E-Mail-Adresse versandt. Folgen Sie den darin enthaltenen Anweisungen, um Ihr Passwort zurückzusetzen.
 
@@ -316,7 +313,7 @@ mount -t nfs HostName:/export/ftpbackup/ServiceName /FolderMount
 Ersetzen Sie die Variablen im obenstehenden Beispielbefehl mit Ihren eigenen Werten.
 
 * **HostName**: Name Ihres Backup Storages
-* **ServiceName**: Name Ihres Servers (z. B.: ns0000000.ip-123-123-123.net)
+* **ServiceName**: Name Ihres Servers (z. B.: `ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: Verzeichnis, in das Sie die NFS-Freigabe mounten möchten
 
 Wenn die Freigabe eingehängt ist, können Sie Befehle wie **cp** oder **rsync** wie bei einem normalen Verzeichnis nutzen.
@@ -334,7 +331,7 @@ net use z: \\HostName\ServiceName
 Ersetzen Sie die Variablen im obenstehenden Beispielbefehl mit Ihren eigenen Werten.
 
 * **HostName**: Name Ihres Backup Storages
-* **ServiceName**: Name Ihres Servers (z. B.: ns0000000.ip-123-123-123.net)
+* **ServiceName**: Name Ihres Servers (z. B.: `ns1111111.ip-203-0-113.eu`)
 
 Möglicherweise wird die folgende Fehlermeldung angezeigt:
 
@@ -374,7 +371,7 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 Ersetzen Sie die Variablen im obenstehenden Beispielbefehl mit Ihren eigenen Werten.
 
 * **HostName**: Name Ihres Backup Storages
-* **ServiceName**: Name Ihres Servers (z. B.: ns0000000.ip-123-123-123.net)
+* **ServiceName**: Name Ihres Servers (z. B.: `ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: Verzeichnis, in das Sie die Freigabe mounten möchten (es muss bereits existieren)
 
 ## Weiterführende Informationen

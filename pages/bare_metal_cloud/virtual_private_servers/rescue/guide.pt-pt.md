@@ -1,12 +1,8 @@
 ---
 title: Ativar e utilizar o modo rescue num VPS
 excerpt: Descubra como utilizar o modo rescue OVHcloud para solucionar problemas com o seu VPS e efetuar verificações do sistema
-updated: 2024-02-19
+updated: 2025-03-27
 ---
-
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
 
 ## Objetivo
 
@@ -46,11 +42,9 @@ Ligue-se à sua [Área de Cliente OVHcloud](/links/manager), vá à secção `Ba
 
 No separador `Acolhimento`{.action}, clique em `...`{.action} junto de "Boot" na zona **O seu VPS**.
 
-![configuração do modo rescue](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Selecione `Reiniciar em modo de rescue`{.action} no menu.
-
-Se a sua Área de Cliente for diferente, consulte o nosso guia [Gerir um VPS legacy](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel).
 
 ### Utilização do modo rescue
 
@@ -73,11 +67,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> O seu cliente SSH poderá bloquear a ligação inicialmente devido a uma incompatibilidade da impressão digital ECDSA. Isto é normal porque o modo rescue utiliza o seu próprio servidor SSH temporário.
+> O seu cliente SSH bloqueará normalmente a ligação no início devido a uma incompatibilidade da impressão digital ECDSA. Isto é normal porque o modo rescue utiliza o seu próprio servidor SSH temporário. Para resolver esta situação, deverá editar o ficheiro `known_hosts` da sua pasta local `.ssh`.  
+> Existem duas possibilidades ao seu dispor:
 >
-> Uma forma de contornar este problema é "comentar" impressão digital do seu VPS adicionando um `#` na frente da linha no ficheiro `known_hosts`. Não se esqueça de cancelar esta alteração antes de passar o netboot de volta ao modo "normal".<br>Pode também eliminar a linha do ficheiro. O cliente SSH adicionará uma nova entrada digital ao VPS quando a ligação for estabelecida. Se precisar de mais instruções, consulte o guia [Introdução ao SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+> - **Eliminar impressão digital do ficheiro.** O cliente SSH adicionará uma nova entrada digital ao servidor quando deixar de utilizar o modo rescue. Para obter uma explicação detalhada, consulte "Login e fingerprint" no nosso [guia de introdução ao SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Desativar temporariamente a impressão digital.** Abra o ficheiro `known_hosts` com um editor de texto e identifique a cadeia de impressão digital do seu servidor pelo seu endereço IP. Adicione o caractere `#` no início da linha. Portanto, esta linha é agora um "comentário" e será ignorada pelos aplicativos que estão lendo o arquivo. Não se esqueça de cancelar esta alteração antes de reiniciar o VPS.
 >
 
 Para efetuar a maior parte das modificações no seu servidor através de SSH em modo rescue, deverá montar a partição do sistema.
@@ -136,7 +133,7 @@ Agora já pode aplicar alterações ao seu sistema, por exemplo [redefinir palav
 
 Depois de concluir as suas ações em modo rescue, reinicie o VPS em modo normal a partir da Área de Cliente.
 
-![rescue mode control panel](images/rescue_exit.png){.thumbnail}
+![rescue mode control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Resolver problemas de arranque
 

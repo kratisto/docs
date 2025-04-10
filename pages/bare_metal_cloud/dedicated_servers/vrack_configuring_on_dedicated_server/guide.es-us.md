@@ -1,12 +1,8 @@
 ---
 title: 'Configurar varios servidores dedicados en el vRack'
 excerpt: 'Cómo configurar varios servidores dedicados en el vRack'
-updated: 2024-10-17
+updated: 2025-03-24
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -60,9 +56,9 @@ Por ejemplo, los siguientes detalles de configuración tendrán la dirección IP
 Puede utilizar cualquier rango de IP privadas de su elección y cualquier dirección dentro de este rango.
 >
 
-#### Configuraciones GNU/Linux
+#### Identificación de la interfaz vRack <a name="vrack-interface"></a>
 
-Los nombres de las interfaces de red de los servidores no son siempre los mismos. En los siguientes ejemplos, sustituya NETWORK_INTERFACE por el nombre de interfaz apropiado.
+Los nombres de las interfaces de red de los servidores no son siempre los mismos.
 
 La mejor forma de comprobar la interfaz del vRack es comprobar la pestaña `Interfaces de red`{.action} del servidor en el [Panel de configuración de OVHcloud](/links/manager). En la tabla inferior, tenga en cuenta la dirección MAC, que es también el **Nombre** de la interfaz **privada**.
 
@@ -80,23 +76,29 @@ En la línea que empieza por ```link ether```, puede comprobar que esta interfaz
 link ether f0:00:00:ef:0e:f0
 ```
 
+#### Configuraciones GNU/Linux
+
 ##### **Debian 12**
 
 Utilice el editor de texto que desee para editar el archivo de configuración de red situado en `/etc/netplan/`. El archivo se llama `50-cloud-init.yaml`.
 
 ```bash
-editor /etc/netplan/50-cloud-init.yaml
+sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 
-Añada la configuración IP a la configuración existente después de la línea `ethernets`:
+Añada las siguientes líneas a la configuración existente después de la línea `version: 2`. Sustituya `NETWORK_INTERFACE` y `IP_ADDRESS/PREFIX` por sus propios valores.
 
 ```yaml
     ethernets:
         NETWORK_INTERFACE:
-            dhcp4: no
+            dhcp4: false
             addresses:
-              - 192.168.0.1/16
+              - IP_ADDRESS/PREFIX
 ```
+
+**Ejemplo:**
+
+![netplan config](images/netplan_configuration.png){.thumbnail}
 
 > [!warning]
 >
@@ -108,7 +110,7 @@ Guarde los cambios en el archivo de configuración y salga del editor.
 Aplique la configuración:
 
 ```bash
-netplan apply
+sudo netplan apply
 ```
 
 Repita este procedimiento para los demás servidores y asígnele a cada uno de ellos una dirección IP no utilizada desde su rango privado. A continuación, los servidores podrán comunicarse entre sí en la red privada.
@@ -118,24 +120,28 @@ Repita este procedimiento para los demás servidores y asígnele a cada uno de e
 En un editor de texto, abra el archivo de configuración de red en `/etc/network/interfaces.d` para cambiarlo. El archivo se llama `50-cloud-init`.
 
 ```bash
-editor /etc/network/interfaces.d/50-cloud-init
+sudo nano /etc/network/interfaces.d/50-cloud-init
 ```
 
-Añada las siguientes líneas:
+Añada las siguientes líneas a la configuración existente, sustituya `NETWORK_INTERFACE`, `IP_ADDRESS` y `NETMASK` por sus propios valores:
 
 ```console
 auto NETWORK_INTERFACE
 iface NETWORK_INTERFACE inet static
-address 192.168.0.1
-netmask 255.255.0.0
+    address IP_ADDRESS
+    netmask NETMASK
 ```
+
+**Ejemplo:**
+
+![debian config](images/debian_configuration.png){.thumbnail}
 
 Guarde los cambios en el archivo de configuración y salga del editor.
 
 Reinicie el servicio de red para aplicar la configuración:
 
 ```bash
-systemctl restart networking
+sudo systemctl restart networking
 ```
 
 Repita este procedimiento para los demás servidores y asígnele a cada uno de ellos una dirección IP no utilizada desde su rango privado. A continuación, los servidores podrán comunicarse entre sí en la red privada.
@@ -145,18 +151,22 @@ Repita este procedimiento para los demás servidores y asígnele a cada uno de e
 Utilice el editor de texto que desee para editar el archivo de configuración de red situado en `/etc/netplan/`. El archivo se llama `50-cloud-init.yaml`.
 
 ```bash
-editor /etc/netplan/50-cloud-init.yaml
+sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 
-Añada la configuración IP a la configuración existente después de la línea `ethernets`:
+Añada las siguientes líneas a la configuración existente después de la línea `version: 2`. Sustituya `NETWORK_INTERFACE` y `IP_ADDRESS/PREFIX` por sus propios valores.
 
 ```yaml
     ethernets:
         NETWORK_INTERFACE:
-            dhcp4: no
+            dhcp4: false
             addresses:
-              - 192.168.0.1/16
+              - IP_ADDRESS/PREFIX
 ```
+
+**Ejemplo:**
+
+![netplan config](images/netplan_configuration.png){.thumbnail}
 
 > [!warning]
 >
@@ -168,45 +178,143 @@ Guarde los cambios en el archivo de configuración y salga del editor.
 Aplique la configuración:
 
 ```bash
-netplan apply
+sudo netplan apply
 ```
 
 Repita este procedimiento para los demás servidores y asígnele a cada uno de ellos una dirección IP no utilizada desde su rango privado. A continuación, los servidores podrán comunicarse entre sí en la red privada.
 
-##### **CentOS**
+##### **CentOS, AlmaLinux y RockyLinux**
 
-Utilice el editor de texto que desee para abrir el archivo `/etc/sysconfig/network-scripts/ifcfg-NETWORK_INTERFACE`.
+Una vez que haya identificado la interfaz de red privada, utilice el editor de texto que desee para crear el siguiente archivo de configuración de red. Sustituya `NETWORK_INTERFACE` por su propio valor.
 
 ```bash
-editor /etc/sysconfig/network-scripts/ifcfg-NETWORK_INTERFACE
+sudo touch /etc/sysconfig/network-scripts/ifcfg-NETWORK_INTERFACE
 ```
 
-Añadir estas líneas:
+Añada estas líneas, sustituyendo `NETWORK_INTERFACE`, `IP_ADDRESS` y `NETMASK` por sus propios valores:
 
 ```console
 DEVICE=NETWORK_INTERFACE
 BOOTPROTO=static
-IPADDR=192.168.0.1
-NETMASK=255.255.0.0
+IPADDR=IP_ADDRESS
+NETMASK=NETMASK
 ONBOOT=yes
 TYPE=Ethernet
 ```
+
+**Ejemplo:**
+
+![centos config](images/centos_alma_configuration.png){.thumbnail}
 
 Guarde los cambios en el archivo de configuración y salga del editor.
 
 Reinicie el servicio de red para aplicar los cambios:
 
 ```bash
-systemctl restart networking
+sudo systemctl restart networking
 ```
 
-En **CentOS 8**, utilice el siguiente comando:
+En **CentOS 8, AlmaLinux y RockyLinux** utilice el siguiente comando:
 
 ```bash
-systemctl restart NetworkManager.service
+sudo systemctl restart NetworkManager.service
 ```
 
 Repita este procedimiento para los demás servidores y asígnele a cada uno de ellos una dirección IP no utilizada desde su rango privado. A continuación, los servidores podrán comunicarse entre sí en la red privada.
+
+##### **Fedora**
+
+Una vez que haya identificado el nombre de su interfaz privada (como se explica [aquí](#vrack-interface)), ejecute el siguiente comando para comprobar que esté conectada. En nuestro ejemplo, nuestra interfaz se denomina `eno2`:
+
+```bash 
+$ nmcli device status
+
+DEVICE           TYPE      STATE                   CONNECTION
+eno1             ethernet  connected               cloud-init eno1
+lo               loopback  connected (externally)  lo
+eno2             ethernet  disconnected            --
+```
+
+Si el `STATE` del `DEVICE` aparece como `disconnected`, es necesario conectarlo antes de configurar la IP.
+
+Al añadir una conexión **ethernet**, es necesario crear un perfil de configuración y asignarlo a un dispositivo.
+
+Ejecute el siguiente comando, sustituyendo `INTERFACE_NAME` y `CONNECTION_NAME` por sus propios valores.
+
+En nuestro ejemplo, hemos denominado nuestro perfil de configuración «private-interface».
+
+```bash
+nmcli connection add type ethernet con-name CONNECTION_NAME ifname INTERFACE_NAME
+```
+
+**Ejemplo:**
+
+```bash
+nmcli connection add type ethernet con-name private-interface ifname eno2
+```
+
+- Compruebe que la interfaz se ha conectado correctamente:
+
+```bash
+$ nmcli device status
+
+DEVICE           TYPE      STATE                   CONNECTION
+eno1             ethernet  connected               cloud-init eno1
+eno2             ethernet  connected               private-interface
+lo               loopback  connected (externally)  lo              
+```
+
+Una vez hecho esto, se creará un nuevo archivo de configuración denominado *xxxxxxxxx.nmconnection* en la carpeta `/etc/NetworkManager/system-connections`.
+
+```bash
+[user@server ~]$ cd /etc/NetworkManager/system-connections
+[user@server system-connections]$ ls
+cloud-init-eno1.nmconnection  private-interface.nmconnection
+```
+
+Puede editar este fichero utilizando el gestor `nmcli`, sustituyendo `IP_ADDRESS`, `PREFIX` y `CONNECTION_NAME` por sus propios valores.
+
+- Añada su IP:
+
+```bash
+nmcli connection modify CONNECTION_NAME IPv4.address IP_ADDRESS/PREFIX
+```
+
+**Ejemplo:**
+
+```bash
+nmcli connection modify private-interface IPv4.address 192.168.0.1/16
+```
+
+- Cambie la configuración de **auto** a **manual**:
+
+```bash
+sudo nmcli connection modify CONNECTION_NAME IPv4.method manual
+```
+
+**Ejemplo:**
+
+```bash
+sudo nmcli connection modify private-interface IPv4.method manual
+```
+
+- Hacer persistente la configuración:
+
+```bash
+sudo nmcli con mod CONNECTION_NAME connection.autoconnect true
+```
+
+**Ejemplo:**
+
+```bash
+sudo nmcli con mod private-interface connection.autoconnect true
+```
+
+- Reinicie su red con el siguiente comando:
+
+```bash
+sudo systemctl restart NetworkManager
+```
 
 #### Configuración Windows
 

@@ -1,7 +1,7 @@
 ---
 title: Configuration du service BGP
 excerpt: En utilisant le service BGP, vous bénéficiez d'un contrôle total sur vos politiques de routage et la résilience du réseau. Suivez ce guide pour configurer et optimiser vos sessions BGP
-updated: 2025-03-07
+updated: 2025-03-31
 ---
 
 ## Objectif
@@ -57,9 +57,9 @@ Vous devez nous fournir les paramètres suivants afin que nous puissions configu
 | :--- | :--- | :--- | :--- |
 | Localisation	| RBX | Emplacement de livraison du service | |
 | ID vRack | 937 | ID du vRack sur lequel les sessions BGP vont s'exécuter | |
-| BYOIP | Y | Bloc d’IP fourni par le client	| |
-| Bloc IP | 198.51.100.0/24 | Le bloc d'IP à annoncer | Netmask: /24 <br> Taille de plage autorisée : <br>&bull; IP OVHcloud (/24 à /30) <br>&bull; plage importée BYOIP (/19 à /24) <br>&bull; IPv6 (/56) |
-| Sous-réseau privé | 10.0.0.0 | Sous-réseau réservé aux les IP des pairs BGP <br> Les 4 dernières adresses seront utilisées par OVHcloud pour les pairs BGP côté OVHcloud | Netmask: /28 |
+| BYOIP | Y | Préfixe IP fourni par le client | |
+| Préfixe IP | 198.51.100.0/24 | Le préfixe IP public à utiliser <br> Des sous-ensembles appartenant à ce préfixe peuvent être annoncés : <br>&bull; Pour l'IPv4, n'importe quel sous-ensemble jusqu'à /32 <br>&bull; Pour l'IPv6, n'importe quel sous-ensemble jusqu'à /64 | Taille de préfixe autorisée : <br>&bull; IP OVHcloud (/24 à /30) <br>&bull; préfixe importé BYOIP (/24 à /30) <br>&bull; IPv6 (/56) |
+| Préfixe privé | 10.0.0.0 | Préfixe réservé aux IP des pairs BGP <br> Les 4 dernières adresses seront utilisées par OVHcloud pour les pairs BGP côté OVHcloud | IPv4 : Netmask /28 <br> IPv6 : Netmask /124 |
 | Peering IP 1 | 10.0.0.1 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVHcloud) | |
 | Peering IP 2 | 10.0.0.2 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVHcloud) | |
 | Peering IP 3 | 10.0.0.3 | L'IP du client doit être spécifiée par ce dernier (pour le monitoring côté OVHcloud) | |

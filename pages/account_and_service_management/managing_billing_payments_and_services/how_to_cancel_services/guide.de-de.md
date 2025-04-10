@@ -123,9 +123,9 @@ Jeder Public Cloud Dienst kann gelöscht werden, indem Sie rechts neben dem betr
 
 ![public cloud instance deletion](images/pci-deletion.png){.thumbnail}
 
-Die OVHcloud Public Cloud basiert auf dem Prinzip *Pay as you go* (weitere Details finden Sie auf unserer Seite zum [Abrechnungsmodus Public Cloud](/pages/public_cloud/compute/analyze_billing)). Sie zahlen am Monatsende nur für die Zeit, in der die Ressourcen tatsächlich genutzt wurden.
+Die OVHcloud Public Cloud basiert auf dem Prinzip *Pay as you go* (weitere Details finden Sie auf unserer Seite zum [Abrechnungsmodus Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)). Sie zahlen am Monatsende nur für die Zeit, in der die Ressourcen tatsächlich genutzt wurden.
 
-Sie können Ihren [aktuellen Verbrauch](/pages/public_cloud/compute/analyze_billing#aktuelle-ressourcennutzung-anzeigen) auch über das OVHcloud Kundencenter einsehen und per E-Mail benachrichtigt werden, wenn die Projektion Ihres Nutzungsvolumens einen bestimmten Grenzwert überschreitet.
+Sie können Ihren [aktuellen Verbrauch](/pages/public_cloud/public_cloud_cross_functional/analyze_billing#aktuelle-ressourcennutzung-anzeigen) auch über das OVHcloud Kundencenter einsehen und per E-Mail benachrichtigt werden, wenn die Projektion Ihres Nutzungsvolumens einen bestimmten Grenzwert überschreitet.
 
 ## Wie kann ich die Kündigung eines Abonnements abbrechen? <a name="cancel"></a>
 

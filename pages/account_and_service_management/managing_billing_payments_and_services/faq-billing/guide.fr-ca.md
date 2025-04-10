@@ -182,7 +182,7 @@ Celle-ci prend en compte, d’une part, les ressources payables à l’avance et
 
 #### Trucs et astuces
 
-Si vous souhaitez en savoir plus, nous vous invitons à consulter ce guide détaillé : [Information concernant le mode de facturation cloud](/pages/public_cloud/compute/analyze_billing).
+Si vous souhaitez en savoir plus, nous vous invitons à consulter ce guide détaillé : [Information concernant le mode de facturation cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### Comment consulter le grand livre des comptes ?
 

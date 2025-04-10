@@ -23,7 +23,7 @@ The first step is to create a container that will hold your files.
 
 If you use Horizon :
 
-- An [OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user){.external}
+- An [OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user){.external}
 
 ## Instructions
 

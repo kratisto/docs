@@ -60,7 +60,7 @@ A state is composed of several files inside a `.pulumi` folder:
 
 ### Creating an Object Storage container/bucket
 
-First, you need to have an Object Storage container. If you don't already have one, please consult the guide [Creating an Object Storage container](/pages/storage_and_backup/object_storage/s3_create_bucket).
+First, you need to have an Object Storage container. If you don't already have one, please consult the guide [Creating an Object Storage container](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 For this guide, our Object Storage container has the following characteristics:
 

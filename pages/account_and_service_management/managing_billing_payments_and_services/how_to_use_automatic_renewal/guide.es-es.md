@@ -228,7 +228,7 @@ El siguiente cuadro explica en detalle cuáles son las acciones que pueden agrup
 
 [Cómo dar de baja servicios de OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Información sobre el tipo de facturación cloud](/pages/public_cloud/compute/analyze_billing)
+[Información sobre el tipo de facturación cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gestionar la facturación de sus cuentas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

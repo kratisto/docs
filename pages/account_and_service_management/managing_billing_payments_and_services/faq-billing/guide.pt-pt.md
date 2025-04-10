@@ -165,7 +165,7 @@ Esta faturação compreende, por um lado, os recursos pagos antecipadamente e, p
 
 #### Truques e dicas:
 
-Se quiser saber mais, pode consultar este manual pormenorizado: [Informação relativa às opções de faturação cloud](/pages/public_cloud/compute/analyze_billing).
+Se quiser saber mais, pode consultar este manual pormenorizado: [Informação relativa às opções de faturação cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### Como consultar o livro razão?
 

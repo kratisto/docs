@@ -37,9 +37,9 @@ Las cuentas Email Pro pueden configurarse en distintos programas de correo compa
 
 > [!warning]
 >
-> En nuestros ejemplos, utilizamos la mención servidor: pro**?**.mail.ovh.net. Deberá sustituir el "?" por el número que designa el servidor del servicio Email Pro.
+> En nuestros ejemplos, utilizamos la mención servidor: pro?.mail.ovh.net. Deberá sustituir el "?" por el número que designa el servidor del servicio Email Pro.
 >
-> Encontrará esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}, y en la columna izquierda, `E-mail Pro`{.action}. El nombre del servidor puede verse en el recuadro **Conexión** de la pestaña `Información general`{.action}.
+> Encontrará esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}, y en la columna izquierda, `Email Pro`{.action}. El nombre del servidor puede verse en el recuadro **Conexión** de la pestaña `Información general`{.action}.
 >
 
 - **Cuando inicie la aplicación por primera vez**, aparecerá un asistente de configuración y pulse `Añadir cuenta`{.action}.
@@ -80,8 +80,8 @@ Siga los pasos de instalación haciendo clic en las fichas siguientes:
 >> - **Dirección de correo electrónico**
 >> - **Nombre completo** : Introduzca su dirección de correo electrónico completa
 >> - **Descripción**
->> - **Servidor de correo electrónico de entrada IMAP**:<br>- **Nombre de host IMAP**: introduzca `pro**?**.mail.ovh.net` (sustituya bien "**?**" por el número de su servidor)<br>- **Puerto IMAP**: 993<br>- **Nombre de usuario IMAP**: su dirección de correo electrónico completa<br>- **Contraseña IMAP**: la de su dirección de correo electrónico<br>- **Seguridad del puerto**: SSL
->> - **Servidor de correo electrónico entrante SMTP**:<br>- **Nombre de host SMTP**: introduzca `pro**?**.mail.ovh.net` (sustituya bien "**?**" por el número de su servidor)<br>- **Puerto SMTP**: 587<br>- **Nombre de usuario SMTP**: su dirección de correo electrónico completa<br>- **Contraseña SMTP**: la de su dirección de correo electrónico<br>- **Seguridad del puerto**: Fallos del comando STARTTLS
+>> - **Servidor de correo electrónico de entrada IMAP**:<br>- **Nombre de host IMAP**: introduzca pro?.mail.ovh.net (sustituya bien "?" por el número de su servidor)<br>- **Puerto IMAP**: 993<br>- **Nombre de usuario IMAP**: su dirección de correo electrónico completa<br>- **Contraseña IMAP**: la de su dirección de correo electrónico<br>- **Seguridad del puerto**: SSL
+>> - **Servidor de correo electrónico entrante SMTP**:<br>- **Nombre de host SMTP**: introduzca pro?.mail.ovh.net (sustituya bien "?" por el número de su servidor)<br>- **Puerto SMTP**: 587<br>- **Nombre de usuario SMTP**: su dirección de correo electrónico completa<br>- **Contraseña SMTP**: la de su dirección de correo electrónico<br>- **Seguridad del puerto**: Fallos del comando STARTTLS
 >>
 >> Para finalizar la configuración, pulse `Conectar`{.action}.
 >>
@@ -133,7 +133,7 @@ Haga clic en la pestaña correspondiente a su protocolo de recepción:
 >>
 >> - **Nombre de usuario**: Introduzca la dirección de correo electrónico **completa**
 >> - **Contraseña**: Introduzca la contraseña de la dirección de correo
->> - **Servidor (entrante)** : pro**?**.mail.ovh.net
+>> - **Servidor (entrante)** : pro?.mail.ovh.net
 >> - **Puerto**: 993
 >> - **Tipo de seguridad**: SSL/TLS
 >>
@@ -141,7 +141,7 @@ Haga clic en la pestaña correspondiente a su protocolo de recepción:
 >>
 >> - **Nombre de usuario**: Introduzca la dirección de correo electrónico **completa**
 >> - **Contraseña**: Introduzca la contraseña de la dirección de correo
->> - **Servidor (entrante)** : pro**?**.mail.ovh.net
+>> - **Servidor (entrante)** : pro?.mail.ovh.net
 >> - **Puerto**: 995
 >> - **Tipo de seguridad**: SSL/TLS
 
@@ -153,7 +153,7 @@ Para el envío de mensajes de correo electrónico, si debe introducir manualment
 
 - **Nombre de usuario**: Introduzca la dirección de correo electrónico **completa**
 - **Contraseña**: Introduzca la contraseña de la dirección de correo
-- **Servidor (entrante)**: pro**?**.mail.ovh.net
+- **Servidor (entrante)**: pro?.mail.ovh.net
 - **Puerto**: 587
 - **Tipo de seguridad**: SSL/TLS
 

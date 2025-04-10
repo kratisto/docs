@@ -19,7 +19,7 @@ Dzięki stale zmieniającej się infrastrukturze możesz zwiększyć przestrzeń
 ## Wymagania
 
 - Posiadanie [instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps#configuration) typu *flex*
-- [Utworzenie dostępu do interfejsu Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Utworzenie dostępu do interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## W praktyce
 

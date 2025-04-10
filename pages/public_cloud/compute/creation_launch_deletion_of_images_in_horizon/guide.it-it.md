@@ -18,7 +18,7 @@ In questo modo è possibile, ad esempio, importare le immagini delle macchine vi
 
 ## Prerequisiti
 
-- [Crea un utente per accedere a Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Crea un utente per accedere a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Accedi al menu Immagini dell'interfaccia OpenStack Horizon
 
 ![public-cloud](images/horizon_menu.png){.thumbnail}

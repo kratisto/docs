@@ -14,7 +14,7 @@ O rClone é um software de sincronização externa. Desta forma, os detalhes de 
 ## Requisitos
 
 - Ter criado o seu container *Object Storage* (na Área de Cliente ou no [Horizon - FR](/pages/storage_and_backup/object_storage/pcs_create_container){.external}).
-- Ter criado um [utilizador OpenStack - FR](/pages/public_cloud/compute/create_and_delete_a_user).
+- Ter criado um [utilizador OpenStack - FR](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## Instruções
 
@@ -22,7 +22,7 @@ Quando tiver criado o container e o utilizador OpenStack, já só precisa de faz
 
 - Obter o arquivo de configuração para o rClone:
 
-Depois de ter criado o seu [utilizador OpenStack - FR](/pages/public_cloud/compute/create_and_delete_a_user){.external}, poderá, na Área de Cliente, obter o arquivo de configuração necessário para o rClone.
+Depois de ter criado o seu [utilizador OpenStack - FR](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user){.external}, poderá, na Área de Cliente, obter o arquivo de configuração necessário para o rClone.
 
 Para isso, na página dos utilizadores OpenStack da Área de Cliente, clique no símbolo da chave inglesa, que se encontra à direita do utilizador, e em `Fazer o download de um arquivo de configuração rClone`{.external}.
 

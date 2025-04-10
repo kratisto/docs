@@ -94,9 +94,9 @@ Select a service on the left, click on the `...`{.action} button to the right of
 
 ![public cloud instance deletion](images/pci-deletion-en.png){.thumbnail}
 
-OVHcloud Public Cloud is based on the principle of *Pay-as-you-go* (you can find more details on our page [information on Public Cloud billing method](/pages/public_cloud/compute/analyze_billing)). At the end of the month, you only pay for the actual resource usage time.
+OVHcloud Public Cloud is based on the principle of *Pay-as-you-go* (you can find more details on our page [information on Public Cloud billing method](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)). At the end of the month, you only pay for the actual resource usage time.
 
-You can also [view your current resource usage](/pages/public_cloud/compute/analyze_billing#view-your-current-resource-usage) in the OVHcloud Control Panel, and receive email alerts if your resource usage is projected to exceed a certain threshold.
+You can also [view your current resource usage](/pages/public_cloud/public_cloud_cross_functional/analyze_billing#view-your-current-resource-usage) in the OVHcloud Control Panel, and receive email alerts if your resource usage is projected to exceed a certain threshold.
 
 ## How do I stop my subscription cancellation? <a name="cancel"></a>
 

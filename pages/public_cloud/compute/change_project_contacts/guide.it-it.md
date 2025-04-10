@@ -47,10 +47,10 @@ Per maggiori informazioni sulla procedura da seguire, consulta la guida [Gestire
 
 ## Per saperne di più
 
-[Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/compute/analyze_billing)
+[Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gestire i contatti dei servizi OVHcloud](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Delega progetti](/pages/public_cloud/compute/delegate_projects)
+[Delega progetti](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.

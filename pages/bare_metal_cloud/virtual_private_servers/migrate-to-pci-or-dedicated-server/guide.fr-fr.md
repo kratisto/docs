@@ -87,7 +87,7 @@ Avant de migrer les fichiers et bases de données de votre site web, préparez v
 
 #### Étape 2.1 - Créer et configurer l'instance Public Cloud <a name="step2.1"></a>
 
-Si vous n'êtes pas familier avec Public Cloud, consultez notre guide « [L'essentiel pour commencer avec Public Cloud](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud) ».
+Si vous n'êtes pas familier avec Public Cloud, consultez notre guide « [L'essentiel pour commencer avec Public Cloud](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud) ».
 
 Pour créer et configurer une instance Public Cloud, suivez les étapes de notre guide « [Comment créer une instance Public Cloud et s'y connecter](/pages/public_cloud/compute/public-cloud-first-steps) ».
 
@@ -374,7 +374,7 @@ Une fois la migration terminée, testez votre site web pour vous assurer qu'il f
 
 Après avoir migré votre site web sur votre serveur dédié ou instance Public Cloud, il est crucial de sécuriser votre serveur afin de protéger vos données et garantir le bon fonctionnement de vos services.
 
-Pour une liste complète des bonnes pratiques de sécurité, consultez nos guides « [Sécuriser un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server) » et « [Bonnes pratiques pour sécuriser et structurer les projets Public Cloud OVHcloud](/pages/public_cloud/compute/securing_and_structuring_projects) ».
+Pour une liste complète des bonnes pratiques de sécurité, consultez nos guides « [Sécuriser un serveur dédié](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server) » et « [Bonnes pratiques pour sécuriser et structurer les projets Public Cloud OVHcloud](/pages/public_cloud/public_cloud_cross_functional/securing_and_structuring_projects) ».
 
 ## Aller plus loin <a name="go-further"></a>
 

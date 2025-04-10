@@ -165,7 +165,7 @@ Fakturowanie obejmuje, z jednej strony, zasoby płatne z góry oraz, z drugiej s
 
 #### Wskazówki i porady
 
-Jeśli chcesz dowiedzieć się więcej na ten temat, zapraszamy do zapoznania się z treścią przewodnika: [Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/compute/analyze_billing).
+Jeśli chcesz dowiedzieć się więcej na ten temat, zapraszamy do zapoznania się z treścią przewodnika: [Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### W jaki sposób uzyskać dostęp do księgi rachunkowej?
 

@@ -143,7 +143,7 @@ Consulte nuestra guía [Crear y conectarse a una instancia de Public Cloud](/pag
 
 [Crear y conectarse a una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Presentación de Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Presentación de Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](/links/professional-services) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
 

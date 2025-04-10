@@ -27,7 +27,7 @@ Il primo step è la creazione di un container che raggrupperà i tuoi file.
 
 Se utilizzi Horizon:
 
-- Aver creato un [utente OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- Aver creato un [utente OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 ## Procedura
 

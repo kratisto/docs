@@ -17,7 +17,7 @@ Uma instância *flex* é uma instância de disco único (50 GB) que oferece um p
 ## Requisitos
 
 - Dispor de uma [instância Public Cloud da OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps#configuration) do tipo *flex*.
-- [Criar um acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon).
+- [Criar um acesso à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 ## Instruções
 

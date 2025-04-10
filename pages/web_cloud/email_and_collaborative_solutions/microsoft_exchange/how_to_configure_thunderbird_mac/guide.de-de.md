@@ -26,7 +26,7 @@ Exchange Accounts können auf verschiedenen kompatiblen E-Mail-Clients eingerich
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir den Servernamen: ex**?**.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir den Servernamen: ex?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
 >
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie im Bereich `Web Cloud`{.action} unter `Microsoft`{.action} und `Exchange`{.action} den Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 
@@ -46,8 +46,8 @@ Für eine **POP** Konfiguration verwenden Sie die folgenden Werte:
 
 |Server-Typ|Servername|Verschlüsselungsmethode|Port|
 |---|---|---|---|
-|Eingangsserver|ex**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|SSL/TLS|995|
-|Ausgangsserver|ex**?**.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|STARTTLS|587|
+|Eingangsserver|ex?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|SSL/TLS|995|
+|Ausgangsserver|ex?.mail.ovh.net (ersetzen Sie "?" mit der Nummer Ihres Servers)|STARTTLS|587|
 
 ### E-Mail-Adresse verwenden
 
@@ -63,7 +63,7 @@ Wenn Sie eine Änderung vornehmen, die den Verlust der Daten Ihres E-Mail-Accoun
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir den Servernamen: ex**?**.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir den Servernamen: ex?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie im Bereich `Web Cloud`{.action} unter `Microsoft`{.action} und `Exchange`{.action} den Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 > 

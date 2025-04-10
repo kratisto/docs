@@ -6,7 +6,7 @@ updated: 2022-02-04
 
 ## Ziel
 
-Mit der Option "Cloud Guthaben" können Sie in Ihrem Public Cloud Projekt einen bestimmten Betrag hinterlegen, der als Standardzahlungsmittel für die [Abrechnung des Projekts](/pages/public_cloud/compute/analyze_billing) zugewiesen wird.<br>
+Mit der Option "Cloud Guthaben" können Sie in Ihrem Public Cloud Projekt einen bestimmten Betrag hinterlegen, der als Standardzahlungsmittel für die [Abrechnung des Projekts](/pages/public_cloud/public_cloud_cross_functional/analyze_billing) zugewiesen wird.<br>
 Das bedeutet, dass dieses Guthabenkonto zuerst belastet wird und dann noch verbleibende Beträge mit anderen verfügbaren Zahlungsmitteln beglichen werden. Weitere Informationen finden Sie in der [Public Cloud Dokumentation zur Abrechnung](/products/account-and-service-management-managing-billing-payments-and-services).
 
 **Diese Anleitung erklärt, wie Sie Guthaben für Ihr Public Cloud-Projekt aufladen können, mit einem Gutschein oder über eine Bestellung.**

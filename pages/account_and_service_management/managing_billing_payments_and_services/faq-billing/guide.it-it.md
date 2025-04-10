@@ -163,7 +163,7 @@ La fatturazione Public Cloud considera, da un lato, i servizi pagabili anticipat
 
 #### Consigli e suggerimenti
 
-Per maggiori informazioni, consulta la guida [Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/compute/analyze_billing).
+Per maggiori informazioni, consulta la guida [Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### Come consultare il registro contabile?
 

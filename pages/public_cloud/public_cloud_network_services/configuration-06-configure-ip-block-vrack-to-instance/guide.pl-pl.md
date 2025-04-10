@@ -16,7 +16,7 @@ As well as private IP addressing, the [vRack](/links/network/vrack) also allows 
 - An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)
 - A [vRack](/links/network/vrack) service activated in your account
 - Access to the [OVHcloud Control Panel](/links/manager)
-- Access to the [Horizon interface](/pages/public_cloud/compute/introducing_horizon)
+- Access to the [Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ### Content overview
 

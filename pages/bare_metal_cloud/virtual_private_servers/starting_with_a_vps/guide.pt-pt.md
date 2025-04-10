@@ -142,7 +142,7 @@ Estas secções apresentam as informações mais importantes sobre a faturação
 
 A reinstalação do VPS pode ser efetuada a partir da Área de Cliente. Clique no botão `...`{.action} à direita de `OS / Distribuição`{.action}, depois em `Reinstalar o meu VPS`{.action}.
 
-![VPSnewreinstallation](images/2023panel_01.png){.thumbnail}
+![Reinstall](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reinst.png){.thumbnail}
 
 Na janela que aparece, escolha um sistema operativo da lista suspensa. As opções são [imagens compatíveis com um VPS OVHcloud](/pages/public_cloud/compute/image-life-cycle) e são imediatamente funcionais após a instalação.
 
@@ -186,7 +186,7 @@ sudo reboot
 
 No entanto, pode efetuar um « de reinício de hardware » a qualquer momento a partir da sua [Área de Cliente OVHcloud](/links/manager). No separador `Página Inicial`{.action}, clique em `...`{.action} junto de `Boot` na secção **O seu VPS**. Selecione `Reiniciar o meu VPS`{.action} e clique em `Validar`{.action} na janela que se abrir.
 
-![Reboot](images/reboot-vps01.png){.thumbnail}
+![Reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 <a name="connect"></a>
 

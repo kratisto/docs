@@ -17,12 +17,24 @@ El área de cliente de OVHcloud le permite crear firmas genéricas (pies de mens
 
 ## Procedimiento
 
-Para acceder a la gestión del servicio, conéctese al [área de cliente de OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Haga clic en la pestaña `Web Cloud`{.action}.
+>> 1. Haga clic en el tema `Microsoft`{.action}.
+>> 1. Haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>>
+> **Email Pro**
+>>
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Haga clic en la pestaña `Web Cloud`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>>
 
-- **Exchange**: Haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. 
-- **Email Pro**: Haga clic en `Email Pro`{.action}.
-
-Haga clic en el nombre del servicio de correo al que pertenezca la cuenta cuyos permisos quiera delegar. Haga clic en la pestaña `Más +`{.action} en la barra horizontal y seleccione `Pies de página`{.action}.
+Haga clic en la pestaña `Más +`{.action} en la barra horizontal y seleccione `Pies de página`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 

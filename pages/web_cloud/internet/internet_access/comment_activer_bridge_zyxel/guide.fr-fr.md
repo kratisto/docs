@@ -8,19 +8,19 @@ updated: 2022-12-08
 
 Le mode bridge est utile si vous souhaitez que votre modem ne se comporte plus comme un routeur. Ce mode n'est utile que dans le cas où vous possédez un équipement agissant en tant que routeur sur votre réseau local. Cet équipement gérera alors entièrement votre connexion, OVHcloud ne pouvant intervenir sur celui-ci.
 
-**Apprenez à activer le bridge sur votre modem Zyxel**
+**Apprenez à activer le mode bridge sur votre modem Zyxel**
 
 ## Prérequis
 
-- Disposer d’un [accès internet xDSL ou fibre OVHcloud](https://www.ovhtelecom.fr/offre-internet/){.external} et d'un modem Zyxel fourni par OVHcloud.
-- Être connecté à l'[espace client OVHcloud](https://www.ovhtelecom.fr/manager/#/){.external} dans la partie `Accès Internet`{.action}.
+- Disposer d’un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet) et d'un modem Zyxel fourni par OVHcloud.
+- Être connecté à l'[espace client OVHcloud](/links/manager) dans la partie `Accès Internet`{.action}.
 - Cette fonctionnalité est disponible uniquement si la configuration à distance est désactivée.
 
 ## En pratique
 
 > [!primary]
 >
-> Ce guide ne concerne que les modems de marque Zyxel. Pour activer le mode bridge sur un modem Thomson ou Technicolor, l'activation se fait depuis l'espace client OVHcloud. Pour cela, vous pouvez consulter le guide [Configurer sa box à partir de l’espace client OVHcloud](/pages/web_cloud/internet/internet_access/configuration_du_modem_a_partir_de_votre_espace_client)
+> Ce guide ne concerne que les modems de marque Zyxel. Pour activer le mode bridge sur un modem Thomson ou Technicolor, l'activation se fait depuis l'espace client OVHcloud. Pour cela, vous pouvez consulter le guide « [Configurer sa box à partir de l’espace client OVHcloud](/pages/web_cloud/internet/internet_access/configuration_du_modem_a_partir_de_votre_espace_client) ».
 >
 
 ### Étape 1 : Accéder à l'outil de configuration à distance
@@ -32,9 +32,9 @@ Le mode bridge est utile si vous souhaitez que votre modem ne se comporte plus c
 
 Dans le cadre « Configuration à distance », vérifiez que la case à côté de `Configuration à distance activée` est bien décochée. Dès lors, deux possibilités :
 
-- **La configuration à distance est désactivée**: Poursuivez la lecture de cette documentation à l'étape 2 « [Connectez-vous à l'interface locale du modem](./#etape-2-connectez-vous-a-linterface-locale-du-modem) » ;
+- **La configuration à distance est désactivée** : poursuivez la lecture de cette documentation à l'étape 2 « [Connectez-vous à l'interface locale du modem](./#etape-2-connectez-vous-a-linterface-locale-du-modem) » ;
 
-- **la configuration à distance est activée**: Vous devez désactiver la configuration à distance si vous souhaitez paramétrer votre modem Zyxel en mode bridge. Pour ce faire, décochez la case à côté de `Configuration à distance activée`, confirmez la manipulation, puis patientez quelques minutes le temps de la désactivation.
+- **la configuration à distance est activée** : vous devez désactiver la configuration à distance si vous souhaitez paramétrer votre modem Zyxel en mode bridge. Pour ce faire, décochez la case à côté de `Configuration à distance activée`, confirmez la manipulation, puis patientez quelques minutes le temps de la désactivation.
 
 ![activerBridge](images/activerBridge-step1-2022.png){.thumbnail}
 
@@ -54,17 +54,17 @@ Un couple user/password vous est alors demandé :
 > L'ensemble des e-mails envoyés par OVHcloud sont accessibles depuis votre espace client. Pour retrouver vos derniers identifiants de connexion reçus par e-mail, connectez-vous à votre [espace client OVHcloud](/links/manager) depuis un autre accès à Internet ou un smartphone. Une fois connecté, cliquez sur votre nom puis sur `E-mails de service`{.action} à droite de l'écran.
 >
 
-### Étape 3 : Accéder aux options de connexion broadbrand
+### Étape 3 : Accéder aux options de connexion broadband
 
-Une fois connecté à l'interface locale du modem, accédez à la page de configuration `Broadband`. Cliquez sur l'icône menu en haut à droite, la page `Broadband` se trouve dans le menu `Network Setting`.
+Une fois connecté à l'interface locale du modem, accédez à la page de configuration `Broadband`. Cliquez sur l'icône du menu à tiroir (`☰`{.action}) en haut à droite, la page `Broadband` se trouve dans le menu `Network Setting`.
 
 ![activerBridge](images/activerBridge-step3-1.png){.thumbnail}
 
 Sur cette page, éditez l'interface correspondant à votre type de connexion :
 
-- **ADSL**: Pour une connexion de type ADSL
-- **VDSL**: Pour une connexion de type VDSL
-- **ETHWAN**: Pour une connexion de type FTTH
+- **ADSL** : Pour une connexion de type ADSL
+- **VDSL** : Pour une connexion de type VDSL
+- **ETHWAN** : Pour une connexion de type FTTH
 
 ![activerBridge](images/activerBridge-step3-2.png){.thumbnail}
 
@@ -84,10 +84,10 @@ Validez le changement, le bridge est désormais activé sur les ports LAN 1, 2 e
 
 ### Étape 5 : Revenir en mode routeur
 
-Pour revenir en mode routeur suivez le guide [Redémarrer ou réinitialiser une box OVHcloud](/pages/web_cloud/internet/internet_access/restart_reboot_modem#reinitialiser-votre-box-ovh) pour réinitialiser votre modem Zyxel et rétablir sa configuration par défaut.
+Pour revenir en mode routeur suivez le guide « [Redémarrer ou réinitialiser une box OVHcloud](/pages/web_cloud/internet/internet_access/restart_reboot_modem#reinitialiser-votre-box-ovh) » pour réinitialiser votre modem Zyxel et rétablir sa configuration par défaut.
 
 ## Aller plus loin
 
-Vous pouvez retrouver plus d'information sur la configuration du modem sur le [guide utilisateur du modem Zyxel](http://files.isp.ovh.net/zyxel/VMG8825-T50K_V5.13_5.50-1.pdf){.external}
+Vous pouvez retrouver plus d'informations sur la configuration du modem dans le [guide utilisateur du modem Zyxel](http://files.isp.ovh.net/zyxel/VMG8825-T50K_V5.13_5.50-1.pdf).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

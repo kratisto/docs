@@ -10,8 +10,8 @@ This guide is designed to help developers use our APIs to create their own appli
 
 ## Requirements
 
-- an active OVHcloud account, and your login details
-- access to the [OVHcloud API webpage](https://api.ovh.com/){.external}
+- An active OVHcloud account, and your login details.
+- Access to the [OVHcloud API webpage](https://api.ovh.com/).
 - Read our [Getting started with OVHcloud APIs guide](/pages/manage_and_operate/api/first-steps) to get started using OVHcloud APIv6.
 
 ## Instructions
@@ -20,12 +20,12 @@ This guide is designed to help developers use our APIs to create their own appli
 
 OVHcloud offers various internet access packages that contain at least one internet access but also VoIP lines, emails and domain names.
 
-You can view offers here: [https://www.ovhtelecom.fr/offre-internet/i](https://www.ovhtelecom.fr/offre-internet/){.external}.
+You can view offers [here](https://www.ovhcloud.com/fr/internet/).
 
 Services can be managed using these API endpoints:
 
-* `/pack/xdsl`: Manage Internet package offerings
-* `/xdsl`: Manage Internet access, sub-services and options
+* `/pack/xdsl`: Manage Internet package offerings.
+* `/xdsl`: Manage Internet access, sub-services and options.
 * `/connectivity`: will replace `/xdsl`. For now it allows to do the eligibility for copper and fiber offers.
 
 ### Eligibility

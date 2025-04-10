@@ -400,7 +400,7 @@ A interação humana é agora necessária para continuar.
 Contacte o administrador do seu servidor.
 ```
 
-Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Esta secção descreve "sessão", o que significa que a sua conta de e-mail já se encontra em curso de utilização aos olhos do servidor de e-mail e que esta sessão anterior deve ser encerrada Certifique-se de que a sua conta de e-mail ainda não foi aberta no roundcube. Esvazie igualmente os dados em cache no seu browser.
+Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Estamos a falar "sessão". Isto significa que a sua conta de e-mail já se encontra em curso de utilização aos olhos do servidor de e-mail e que esta sessão anterior deve ser encerrada Certifique-se de que a sua conta de e-mail não está já aberta no roundcube. Esvazie igualmente os dados em cache no seu browser.
 
 ## Quer saber mais?
 
@@ -413,5 +413,5 @@ Como indicado nesta mensagem, a sua conta de e-mail já se encontra online. Esta
 [Criar filtros para os seus endereços de e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/feature_filters)
 
 [Utilizar os reencaminhamentos de e-mail](/pages/web_cloud/email_and_collaborative_solutions/common_email_features/feature_redirections)
- 
+
 Fale com nossa [comunidade de utilizadores](/links/community).

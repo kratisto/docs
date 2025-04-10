@@ -12,12 +12,12 @@ Vous n'avez actuellement pas accès à Internet ou vous rencontrez des coupures 
 
 > [!primary]
 >
-> Pour vous accompagner au mieux dans le rétablissement de vos services, vous avez également la possibilité d'utiliser notre assistant de dépannage. Pour y accéder, connectez-vous à votre [espace client OVHcloud](/links/manager) dans la section « Télécom ». Une fois positionné sur l'accès internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
+> Pour vous accompagner au mieux dans le rétablissement de vos services, vous avez également la possibilité d'utiliser notre assistant de dépannage. Pour y accéder, connectez-vous à votre [espace client OVHcloud](/links/manager) dans la section « Télécom ». Une fois positionné sur l'accès Internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
 >
 
 ## Prérequis
 
-- Se trouver physiquement près du modem pour effectuer les actions.
+- Être à proximité du modem pour effectuer les actions.
 
 ## En pratique
 
@@ -30,7 +30,7 @@ Avant de débuter, il est essentiel de pouvoir vérifier les voyants lumineux de
 
 Vérifiez d'abord l'alimentation électrique de votre modem en réalisant les manipulations ci-dessous :
 
-- **Branchez l'alimentation de votre modem sur une autre prise électrique.** Ceci vous permettra de vérifier si l'incident provient de la prise actuellement utilisée. N'hésitez pas à débrancher puis rebrancher l'alimentation de votre modem pour écarter un éventuel mauvais contact.
+- **Branchez l'alimentation de votre modem sur une autre prise électrique.** Ceci vous permettra de vérifier si l'incident provient de la prise utilisée. N'hésitez pas à débrancher puis rebrancher l'alimentation de votre modem pour écarter un éventuel mauvais contact.
 
 - **Débranchez puis rebranchez le câble d'alimentation électrique situé à l'arrière de votre modem.** Ceci vous permettra d'écarter une nouvelle fois un mauvais contact éventuel.
 
@@ -56,29 +56,29 @@ Si des voyants sont allumés sur votre modem, cela indique que celui-ci semble f
 
 > [!warning]
 >
-> Avant de poursuivre, vérifiez si votre accès est affecté par un incident en cours en vous rendant sur les liens suivants : <https://www.ovhtelecom.fr/xdsl/incident/#/> et <https://web-cloud.status-ovhcloud.com/>. Si c'est le cas, prenez connaissance des éléments renseignés sur la page, puis patientez le temps de sa résolution.
+> Avant de poursuivre, vérifiez si votre accès est affecté par un incident en cours en vous rendant sur les liens suivants : <https://status.isp.ovh.net/> et <https://web-cloud.status-ovhcloud.com/>. Si c'est le cas, prenez connaissance des éléments renseignés sur la page, puis patientez le temps de sa résolution.
 >
 
 Si aucun incident déclaré n'est en cours, la coupure peut provenir de trois sources :
 
-- **un défaut de configuration** : un élément, souvent lié à la configuration de votre ordinateur ou à vos branchements, pertube le bon fonctionnement de votre connexion ;
+- **un défaut de configuration** : un élément, souvent lié à la configuration de votre ordinateur ou à vos branchements, perturbe le bon fonctionnement de votre connexion ;
 - **un défaut de connexion** : votre modem est correctement synchronisé, mais n'a pas la possibilité de vous connecter à Internet ; 
-- **une perte de synchronisation** : un perturbateur se situant entre votre modem et le noeud de raccordement des abonnés (ou « NRA » ; soit la centrale téléphonique) perturbe le bon fonctionnement de votre accès. Dans la majorité des cas, ce perturbateur se situe à votre domicile. 
+- **une perte de synchronisation** : un perturbateur se situant entre votre modem et le nœud de raccordement des abonnés (ou « NRA » ; soit la centrale téléphonique) perturbe le bon fonctionnement de votre accès. Dans la majorité des cas, ce perturbateur se situe à votre domicile. 
 
 > [!primary]
 >
-> On parle de synchronisation lorsque votre modem réussit à se synchroniser à l'équipement opérateur se trouvant dans le noeud de raccordement des abonnés (ou « NRA »). Cette synchronisation est indispensable pour que votre accès, et donc votre connexion, soit fonctionnelle.
+> On parle de synchronisation lorsque votre modem réussit à se synchroniser à l'équipement opérateur se trouvant dans le nœud de raccordement des abonnés (ou « NRA »). Cette synchronisation est indispensable pour que votre accès, et donc votre connexion, soit fonctionnelle.
 >
 
-L'état des voyants de votre modem vous aidera à déterminer la cause de l'incident que vous rencontrez. Aidez-vous des informations du tableau ci-dessous :
+L'état des voyants de votre modem vous aidera à déterminer la cause de l'incident que vous rencontrez. Aidez-vous des informations contenues dans le tableau ci-dessous :
 
 |Voyant Broadband|Voyant Internet|Signification|Détails|
 |---|---|---|---|
 |Vert fixe|Vert clignotant|Modem synchronisé et connecté|Le modem est synchronisé et la connexion PPPoE est établie. Des données sont envoyées/reçues.|
-|Vert fixe|Vert fixe|Modem synchronisé|Pas de trafic internet et/ou modem en [mode bridge](/pages/web_cloud/internet/internet_access/comment_activer_bridge_zyxel).|
+|Vert fixe|Vert fixe|Modem synchronisé|Pas de trafic Internet et/ou modem en [mode bridge](/pages/web_cloud/internet/internet_access/comment_activer_bridge_zyxel).|
 |Vert clignotant|Éteint|Absence de synchronisation|Le modem est en recherche de signal DSL.|
 |Éteint|Éteint|Absence de synchronisation|Votre modem n'est actuellement pas synchronisé. Vérifiez que le modem est alimenté électriquement et que le câble RJ11 est connecté sur le port DSL. |
-|Vert fixe|Éteint|Modem synchronisé mais pas connecté|Le modem est synchronisé, mais la connexion PPPoE n'est pas établie. L'accès à internet n'est pas possible.|
+|Vert fixe|Éteint|Modem synchronisé mais pas connecté|Le modem est synchronisé, mais la connexion PPPoE n'est pas établie. L'accès à Internet n'est pas possible.|
 |Vert fixe|Rouge fixe|Modem synchronisé mais pas connecté|Le modem est synchronisé mais rencontre un défaut de connexion de PPPoE.|
 
 Dès lors, en fonction des voyants, vous avez plusieurs possibilités :

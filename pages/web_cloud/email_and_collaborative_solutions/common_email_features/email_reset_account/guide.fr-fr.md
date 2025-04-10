@@ -34,29 +34,56 @@ Sélectionnez l'onglet correspondant à votre offre e-mail :
 > [!tabs]
 > **Emails MX Plan historique**
 >>
->> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.<br><br>
+>> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.
 >>
->> Cliquez sur `Emails`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Supprimer le compte`{.action}.<br><br>
->>![email](images/email-mxplan-legacy-reset.png){.thumbnail}<br>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur `E-mails`{.action}.
+>> 1. Sélectionnez le domaine concerné.
+>> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
+>> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Supprimer le compte`{.action}.
+>>
+>> ![email](images/email-mxplan-legacy-reset.png){.thumbnail}
 >>
 > **Emails MX Plan nouvelle version**
 >>
->> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.<br><br>
+>> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.
 >>
->> Cliquez sur `Emails`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.<br><br>
->>![email](images/email-mxplan-new-reset.png){.thumbnail}<br>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur `E-mails`{.action}.
+>> 1. Sélectionnez le domaine concerné.
+>> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
+>> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.
+>>
+>> ![email](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Email Pro**
 >>
->> Cliquez sur `E-mail Pro`{.action}, puis choisissez le nom de la plateforme concernée. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.<br><br>
->> Après la réinitialisation de votre compte, si vous souhaitez le supprimer définitivement, vous devrez le résilier. Pour cela, consultez notre guide [Gérer la facturation de vos comptes Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).<br><br>
->>![email](images/emailpro-reset.png){.thumbnail}<br>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
+>> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
+>> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.
+>>
+>> Après la réinitialisation de votre compte, si vous souhaitez le supprimer définitivement, vous devrez le résilier. Pour cela, consultez notre guide [Gérer la facturation de vos comptes Email-Pro](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro).
+>>
+>> ![email](images/emailpro-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
->> Cliquez sur `Microsoft`{.action} puis `Exchange`{.action} et choisissez le nom de la plateforme concernée. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser`{.action}.<br><br>
->> Après la réinitialisation de votre compte, si vous souhaitez le supprimer définitivement, vous devrez le résilier. Pour cela, consultez notre guide [Gérer la facturation de vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).<br><br>
->>![email](images/exchange-reset.png){.thumbnail}<br>
+>> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+>> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
+>> 1. Cliquez sur la rubrique `Microsoft`{.action}.
+>> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Sélectionnez la plateforme concernée.
+>> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}.
+>> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser`{.action}.
+>>
+>> Après la réinitialisation de votre compte, si vous souhaitez le supprimer définitivement, vous devrez le résilier. Pour cela, consultez notre guide [Gérer la facturation de vos comptes Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange).
+>>
+>> ![email](images/exchange-reset.png){.thumbnail}
 >>
 
 #### Identifiez votre offre MX Plan <a name="whichmxplan"></a>
@@ -66,7 +93,7 @@ Vous trouverez, dans le tableau ci-dessous, les informations nécessaires pour i
 |Version historique de l'offre MX Plan|Nouvelle version de l'offre MX Plan|
 |---|---|
 |![email](images/mxplan-starter-legacy-step1.png){.thumbnail}<br> Repérez l'offre dans le cadre « Abonnement ».|![email](images/mxplan-starter-new-step1.png){.thumbnail}<br>Repérez la « Référence serveur » dans le cadre « Résumé ».|
-|Sélectionnez l'onglet **Emails MX Plan historique** ci-dessus dans ce guide.|Sélectionnez l'onglet **Emails MX Plan nouvelle version** ci-dessus dans ce guide.|<br>
+|Sélectionnez l'onglet **Emails MX Plan historique** ci-dessus dans ce guide.|Sélectionnez l'onglet **Emails MX Plan nouvelle version** ci-dessus dans ce guide.|
 
 ## Aller plus loin
 

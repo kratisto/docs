@@ -87,7 +87,7 @@ Click `Add`{.action} to trigger the listener creation. The new listener is added
 
 #### Create a Prometheus listener via OpenStack GUI (Horizon)
 
-Log in to Horizon using this [guide](/pages/public_cloud/compute/introducing_horizon).
+Log in to Horizon using this [guide](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Click `Network`{.action} then `Load Balancers`{.action}. The Load Balancer list is displayed. 
 

@@ -1,5 +1,5 @@
 ---
-title: FAQ solutions internet OVHcloud 
+title: FAQ solutions Internet OVHcloud
 updated: 2022-10-10
 ---
 
@@ -25,7 +25,7 @@ Pour un accès ADSL, VDSL ou FTTH, aucune installation sur site n'est nécessair
 
 Dans le cadre des offres xDSL, la desserte interne (l'installation qui se trouve chez vous) est sous votre responsabilité. OVHcloud n'intervient pas sur place. Il est cependant possible de demander l'installation d'une prise supplémentaire, auprès d'un électricien agréé télécom.
 
-Dans le cas d'une installatiion de la fibre FTTH, un technicien se déplace chez vous pour brancher l’ONT, autrement dit l'équipement installé après le PTO (Point de Terminaison Optique). En cas d'absence de prise PTO, le technicien la posera et vérifiera le bon fonctionnement de celle-ci.
+Dans le cas d'une installation de la fibre FTTH, un technicien se déplace chez vous pour brancher l’ONT, autrement dit l'équipement installé après le PTO (Point de Terminaison Optique). En cas d'absence de prise PTO, le technicien la posera et vérifiera le bon fonctionnement de celle-ci.
 
 ### Comment puis-je activer mes services inclus ?
 
@@ -39,9 +39,9 @@ Pour plus d'informations, consultez le guide [Comment activer mes lignes télép
 
 ### Pourquoi ai-je une erreur d'authentification lors de ma connexion à Internet ?
 
-Une erreur d'authentification est généralement liée à la mauvaise saisie du couple « identifiant / mot de passe ». Ces derniers vous ont été envoyés par e-mail..
+Une erreur d'authentification est généralement liée à la mauvaise saisie du couple « identifiant / mot de passe ». Ces derniers vous ont été envoyés par e-mail.
 
-Si vous utilisez un modem OVHcloud, sachez que ce dernier est configuré pour se sonnecter automatiquement. Il vous suffit alors de réaliser une réinitialisation de votre modem afin de générer de nouveaux identifiants qui seront automatiquement pris en compte par votre modem.
+Si vous utilisez un modem OVHcloud, sachez que ce dernier est configuré pour se connecter automatiquement. Il vous suffit alors de réaliser une réinitialisation de votre modem afin de générer de nouveaux identifiants qui seront automatiquement pris en compte par votre modem.
 
 Vous trouverez de plus amples informations en vous rendant sur le guide [Rétablir son service suite à une coupure complète ou partielle](/pages/web_cloud/internet/internet_access/interruption_de_service).
 
@@ -51,13 +51,13 @@ L'ensemble des e-mails envoyés par OVHcloud sont accessibles depuis votre espac
 
 ### Mon accès xDSL dysfonctionne. Que dois-je faire ?
 
-Si vous rencontrez un dysfonctionnement sur votre accès internet, commencez par éteindre et rallumer votre modem. 
+Si vous rencontrez un dysfonctionnement sur votre accès Internet, commencez par éteindre et rallumer votre modem. 
 
-Si la liaison ne remonte pas, vous avez la possibilité d’utiliser notre assistant de dépannage. Pour y accéder, connectez-vous, depuis un autre accès à Internet ou un smartphone, à votre [espace client OVHcloud](/links/manager) dans la section `Telecom`{.action}. Une fois positionné sur l’accès internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
+Si la liaison ne remonte pas, vous avez la possibilité d’utiliser notre assistant de dépannage. Pour y accéder, connectez-vous, depuis un autre accès à Internet ou un smartphone, à votre [espace client OVHcloud](/links/manager) dans la section `Telecom`{.action}. Une fois positionné sur l’accès Internet concerné, cliquez sur `Lancer le diagnostic`{.action}. 
 
-Si cela ne fonctionne toujours pas, nous vous invitons à consulter la [carte des incidents en cours](https://www.ovhtelecom.fr/xdsl/incident/#/) pour vérifier les éventuels incidents génériques pouvant affecter votre connexion.
+Si cela ne fonctionne toujours pas, nous vous invitons à consulter la [carte des incidents en cours](https://status.isp.ovh.net/) pour vérifier les éventuels incidents génériques pouvant affecter votre connexion.
 
-Enfin vous pouvez également réaliser les vérifications que vous trouverez dans le guide [Rétablir son service suite à une coupure complète ou partielle](/pages/web_cloud/internet/internet_access/interruption_de_service).
+Enfin, vous pouvez également réaliser les vérifications que vous trouverez dans le guide [Rétablir son service suite à une coupure complète ou partielle](/pages/web_cloud/internet/internet_access/interruption_de_service).
 
 #### Trucs et astuces :
 
@@ -75,7 +75,7 @@ Pensez également à vérifier votre desserte interne à l'aide du guide [Résou
 
 ### Comment rétablir une ligne xDSL écrasée ?
 
-Votre venez de recevoir un e-mail vous informant de l'écrasement de votre ligne. Pour en connaître les raisons précises, OVHcloud doit réaliser un diagnostic complet de votre ligne. Pour cela, nous vous invitons à [nous contacter](https://help.ovhcloud.com/csm?id=csm_get_help).
+Vous venez de recevoir un e-mail vous informant de l'écrasement de votre ligne. Pour en connaître les raisons précises, OVHcloud doit réaliser un diagnostic complet de votre ligne. Pour cela, nous vous invitons à [nous contacter](https://help.ovhcloud.com/csm?id=csm_get_help).
 
 #### Trucs et astuces :
 

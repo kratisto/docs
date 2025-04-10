@@ -18,7 +18,7 @@ Para ello, puede crear instantáneas (snapshot) de sus instancias, que podrá ut
 ## Requisitos
 
 - Haber [creado una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) en su cuenta de OVHcloud
-- [Conectarse a Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Conectarse a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## Procedimiento
 

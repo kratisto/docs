@@ -1,12 +1,22 @@
 ---
 title: "Aumentar o tamanho de um disco adicional"
 excerpt: "Saiba como aumentar o tamanho de um volume adicional e aumentar a sua partição principal"
-updated: 2022-03-29
+updated: 2025-03-21
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objetivo
 
@@ -24,6 +34,68 @@ Se atingiu a capacidade máxima do seu disco suplementar, pode adicionar armazen
 ## Instruções
 
 Os passos seguintes pressupõem que já configurou um disco suplementar de acordo com as intrusões do [nosso guia](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+## Monitorização do consumo dos discos antes do redimensionamento
+
+> [!warning]
+>
+> Recomendamos que mantenha sempre 20% de espaço livre nos seus volumes de armazenamento. Isto assegura um desempenho máximo e evita o risco de degradação ou falha do sistema quando o volume atinge a sua capacidade máxima.
+>
+
+Para garantir que redimensione o disco no momento certo, é essencial monitorizar a utilização do disco regularmente. Seguem-se tutoriais rápidos para Windows e Linux para o ajudar a monitorizar o espaço em disco e antecipar quando é necessário um upgrade.
+
+> [!tabs]
+> Em Windows
+>> /// details | **A utilizar linha de comandos**
+>>
+>> Abrir linha de comandos (Win + R → cmd → Enter).
+>>
+>> Execute o seguinte comando:
+>>
+>> ```bash
+>> wmic logicaldisk get name, size, freespace
+>> ```
+>>
+>> Isso exibirá o espaço livre e o tamanho total de cada disco.
+>>
+>> ///
+>>
+>> /// details | **Utilizar o PowerShell**
+>>
+>> Abra o PowerShell como Administrador.
+>>
+>> Execute o seguinte comando:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> Isso mostrará o espaço de disco utilizado e disponível.
+>>
+>> ///
+>>
+> Em Linux
+>> /// details | **Utilizando o comando "df"**
+>>
+>> Para verificar a utilização geral do disco, execute:
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> Isso exibirá o uso do disco em um formato legível por humanos.
+>>
+>> ///
+>>
+>> /// details | **Utilizando o comando "lsblk"**
+>>
+>> Para visualizar as partições de disco e os respetivos tamanhos:
+>>
+>> ```bash
+>> lsblk
+>> ```
+>>
+>> ///
 
 ### Modificar o tamanho do disco
 
@@ -162,5 +234,6 @@ O volume redimensionado inclui agora o espaço de disco suplementar.
 ## Quer saber mais?
 
 [Criar e configurar um disco suplementar numa instância](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Alterar o tipo de volume do seu Block Storage](/pages/public_cloud/compute/switch_volume_type)
 
 Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.

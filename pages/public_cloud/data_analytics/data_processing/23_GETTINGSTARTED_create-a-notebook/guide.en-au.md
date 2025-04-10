@@ -28,7 +28,7 @@ For the OVHcloud APIv6:
 
 - [OVHcloud API credentials](/pages/public_cloud/data_analytics/data_processing/38_HOWTO_use-with-ovh-api)
 - An OVHcloud account
-- An activated Public Cloud project in your OVHcloud account (see [How to create a project](/pages/public_cloud/compute/create_a_public_cloud_project) and [How to activate the Data Processing service](/pages/public_cloud/data_analytics/data_processing/30_HOWTO_activate_project) for details)
+- An activated Public Cloud project in your OVHcloud account (see [How to create a project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) and [How to activate the Data Processing service](/pages/public_cloud/data_analytics/data_processing/30_HOWTO_activate_project) for details)
 
 ## Definition
 

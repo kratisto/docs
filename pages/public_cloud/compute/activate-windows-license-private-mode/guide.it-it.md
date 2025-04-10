@@ -17,11 +17,11 @@ In questo caso, è necessario attivare manualmente la licenza per avere accesso 
 
 ## Prerequisiti
 
-- Disporre di un [progetto Public Cloud OVHcloud](/pages/public_cloud/compute/create_a_public_cloud_project)
+- Disporre di un [progetto Public Cloud OVHcloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
-- [Aver creato un utente OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Aver creato un utente OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
-Per familiarizzare con Horizon, consulta la guida [Accedere all'interfaccia Horizon](/pages/public_cloud/compute/introducing_horizon).
+Per familiarizzare con Horizon, consulta la guida [Accedere all'interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 ## Procedura
 
@@ -51,8 +51,8 @@ Seleziona la tua interfaccia e conferma:
 
 Prima di proseguire, ti consigliamo di consultare queste guide:
 
-- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
-- [Impostare le variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- [Impostare le variabili d’ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 Per prima cosa, inserisci tutte le informazioni necessarie:
 

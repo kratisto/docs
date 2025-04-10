@@ -12,9 +12,9 @@ Les *logs radius* disponibles via les API OVHcloud permettent de vérifier la st
 
 ## Prérequis
 
-- Disposer d'une [offre xDSL ou FTTH OVHcloud](https://www.ovhtelecom.fr/offre-internet/) active.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet) actif.
 - Être connecté à l'[espace client OVHcloud](/links/manager).
-- Être connecté aux [API OVHcloud](https://api.ovh.com/){.external}.
+- Être connecté aux [API OVHcloud](https://api.ovh.com/).
 - Consulter le guide [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) pour vous familiariser avec l'utilisation des APIv6 OVHcloud.
 
 ## En pratique
@@ -26,10 +26,10 @@ Lors de chaque connexion de votre routeur sur les équipements OVHcloud, une tra
 Lors de chaque reconnexion du lien, une nouvelle trace horodatée de la connexion est créée.<br>
 Une reconnexion peut avoir l'une des causes suivantes :
 
-* un redémarrage de votre modem,
-* une perte de sychronisation,
-* un incident générique,
-* l'envoi manuel de [nouveaux identifiants de connexion](/pages/web_cloud/internet/internet_access/obtenir_id_ppp).
+* Un redémarrage de votre modem;
+* Une perte de synchronisation;
+* Un incident générique;
+* L'envoi manuel de [nouveaux identifiants de connexion](/pages/web_cloud/internet/internet_access/obtenir_id_ppp).
 
 > [!primary]
 >
@@ -59,7 +59,7 @@ Utilisez l'appel API suivant pour récupérer les logs :
 > @api {v1} /xdsl GET /xdsl/{serviceName}/radiusConnectionLogs
 >
 
-Saisissez, dans le champ `serviceName`, la référence de votre accès obtenue à l'étape précédente. Cliquez alors sur `Execute`{.action} 
+Saisissez, dans le champ `serviceName`, la référence de votre accès obtenue à l'étape précédente. Cliquez alors sur `Execute`{.action}.
 
 Voici un exemple de retour :
 
@@ -67,12 +67,12 @@ Voici un exemple de retour :
 
 Vous retrouvez, dans l'encadré orange ci-dessus, les informations d'un log de reconnexion. La première partie détaille les informations suivantes :
 
-- date: la date au format AAAA-MM-JJTHH:mm:ss+GMT,
-- message : lié à l'opérateur de collecte,
-- state : l'état de connexion, ici fonctionnel car `OK`. À noter qu'un refus d'authenfication donnera `KO` ainsi que, le plus souvent, un message `wrong login or password`.
-- login : l'identifiant PPPoE de votre accès.
+- Date: La date au format AAAA-MM-JJTHH:mm:ss+GMT;
+- Message : Lié à l'opérateur de collecte;
+- State : L'état de connexion, ici fonctionnel car `OK`. À noter qu'un refus d'authentification donnera `KO` ainsi que, le plus souvent, un message `wrong login or password`;
+- Login : L'identifiant PPPoE de votre accès.
 
-La seconde partie, telle qu'affichée dans l'encadré orange, est l'effet miroir sur les équipements OVHCloud qui finalisent l'authentification. 
+La seconde partie, telle qu'affichée dans l'encadré orange, est l'effet miroir sur les équipements OVHCloud qui finalisent l'authentification.
 
 Une reconnexion génère donc deux logs. Sont stockés 50 logs au maximum, donc un total de 25 reconnexions.
 
@@ -80,9 +80,9 @@ Une reconnexion génère donc deux logs. Sont stockés 50 logs au maximum, donc 
 
 Grâce aux logs de l'exemple ci-dessus, nous pouvons déduire que si cet accès répond toujours à une requête de *ping* le 28/05/2021 et que la dernière reconnexion sur les équipements OVHCloud est datée du 22/05/2021, alors la session PPPoE est montée depuis 6 jours environ.
 
-Il n'y donc pas eu de coupure sur l'accès concerné pendant cet intervalle. En effet, la moindre reconnexion suite, par exemple, à un redémarrage du modem, aurait généré des logs radius de reconnexion sur nos équipements. 
+Il n'y a donc pas eu de coupure sur l'accès concerné pendant cet intervalle. En effet, la moindre reconnexion suite, par exemple, à un redémarrage du modem, aurait généré des logs radius de reconnexion sur nos équipements.
 
-Si un accès remonte plus de cinq reconnexions sur une même tranche de 24h, sans que celles-ci ne soient consécutives à des actions intentionnelles sur le modem (rédémarrage ou réinitialisation), il est alors légitime de considérer cet accès comme instable. 
+Si un accès remonte plus de cinq reconnexions sur une même tranche de 24h, sans que celles-ci ne soient consécutives à des actions intentionnelles sur le modem (redémarrage ou réinitialisation), il est alors légitime de considérer cet accès comme instable.
 
 Si vous constatez des reconnexions fréquentes sur l'un de vos accès xDSL ou FTTH, nous vous conseillons de faire le point sur votre [desserte interne](/pages/web_cloud/internet/internet_access/la_desserte_interne) et de consulter nos guides de [diagnostic et dépannage](/products/web-cloud-internet-internet-access).
 

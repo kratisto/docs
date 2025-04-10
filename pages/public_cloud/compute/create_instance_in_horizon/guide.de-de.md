@@ -16,8 +16,8 @@ Sie haben die Möglichkeit, Instanzen direkt über das Horizon-Interface zu erst
 
 ## Voraussetzungen
 
-- Sie haben ein [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project), Projekt in Ihrem OVHcloud Kunden-Account erstellt.
-- Sie haben Zugang zum [Horizon-Interface](/pages/public_cloud/compute/introducing_horizon). 
+- Sie haben ein [Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project), Projekt in Ihrem OVHcloud Kunden-Account erstellt.
+- Sie haben Zugang zum [Horizon-Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon). 
 
 ## In der praktischen Anwendung
 
@@ -25,7 +25,7 @@ Sie haben die Möglichkeit, Instanzen direkt über das Horizon-Interface zu erst
 
 Generell empfiehlt es sich, vor der Erstellung einer Instanz ein privates Netzwerk zu erstellen. Sie können dieses Netzwerk später mit Ihrer Instanz verbinden.
 
-Loggen Sie sich zunächst im Horizon-Interface ein. Wenn Sie hierbei Hilfe benötigen, lesen Sie unsere [Anleitung](/pages/public_cloud/compute/introducing_horizon).
+Loggen Sie sich zunächst im Horizon-Interface ein. Wenn Sie hierbei Hilfe benötigen, lesen Sie unsere [Anleitung](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Klicken Sie dann im linken Menü auf `Network`{.action} und anschließend auf `Networks`{.action}.
 

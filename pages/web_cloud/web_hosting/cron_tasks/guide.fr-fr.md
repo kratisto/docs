@@ -1,5 +1,5 @@
 ---
-title: "Créer des tâches automatisées (CRON) sur votre hébergement Web"
+title: "Créer des tâches automatisées (CRON) sur votre hébergement web"
 excerpt: "Découvrez comment créer des tâches CRON pour automatiser vos tâches planifiées sur un hébergement web"
 updated: 2025-02-20
 ---

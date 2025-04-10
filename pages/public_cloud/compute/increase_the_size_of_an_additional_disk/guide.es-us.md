@@ -1,12 +1,22 @@
 ---
 title: "Aumentar el tamaño de un disco adicional"
 excerpt: "Cómo aumentar el tamaño de un volumen adicional y aumentar su partición principal"
-updated: 2022-03-29
+updated: 2025-03-21
 ---
 
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objetivo
 
@@ -18,16 +28,78 @@ Si ha alcanzado la capacidad máxima de su disco adicional, puede añadir almace
 
 - Tener una [instancia Public Cloud](https://www.ovhcloud.com/es/public-cloud/) en su proyecto de Public Cloud.
 - Tener un [disco adicional](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) creado en su proyecto.
-- Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager).
+- Tienes acceso a su [área de cliente de OVHcloud](/links/manager).
 - Tener acceso administrativo (sudo) a su instancia a través de SSH (Linux) o RDP (Windows).
 
 ## Procedimiento
 
 Los siguientes pasos suponen que ya ha configurado un disco adicional según las instrucciones de [nuestra guía](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
 
+## Supervisión del uso del disco antes de cambiar el tamaño
+
+> [!warning]
+>
+> Le recomendamos que mantenga siempre un 20% de espacio libre en sus volúmenes de almacenamiento. Esto garantiza un rendimiento óptimo y evita el riesgo de degradación o fallo del sistema cuando el volumen alcanza su capacidad máxima.
+>
+
+Para asegurarse de que cambia el tamaño del disco en el momento adecuado, es esencial supervisar el uso del disco con regularidad. A continuación, encontrará tutoriales rápidos para Windows y Linux que le ayudarán a realizar un seguimiento del espacio en disco y anticipar cuándo se necesita una actualización.
+
+> [!tabs]
+> En Windows
+>> /// details | **Utilizando El Símbolo Del Sistema**
+>>
+>> Abra el símbolo del sistema (Win + R → cmd → Enter).
+>>
+>> Ejecute el siguiente comando:
+>>
+>> ```bash
+>> wmic logicaldisk get name, size, freespace
+>> ```
+>>
+>> Esto mostrará el espacio libre y el tamaño total de cada disco.
+>>
+>> ///
+>>
+>> /// details | **Uso de PowerShell**
+>>
+>> Abra PowerShell como administrador.
+>>
+>> Ejecute el siguiente comando:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> Esto mostrará el espacio en disco utilizado y disponible.
+>>
+>> ///
+>>
+> En Linux
+>> /// details | **Utilizando el comando 'df'**
+>>
+>> Para comprobar el uso general del disco, ejecute:
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> Esto mostrará el uso del disco en un formato legible por las personas.
+>>
+>> ///
+>>
+>> /// details | **Utilizando el comando 'lsblk'**
+>>
+>> Para ver las particiones de disco y sus tamaños:
+>>
+>> ```bash
+>> lsblk
+>> ```
+>>
+>> ///
+
 ### Cambiar el tamaño del disco
 
-Conéctese al [Panel de configuración de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. A continuación, haga clic en `Block Storage`{.action} en el menú de la izquierda.
+Conéctese al [área de cliente de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. A continuación, haga clic en `Block Storage`{.action} en el menú de la izquierda.
 
 Si el volumen está asociado a una **instancia Windows**, haga clic en el botón `...`{.action} a la derecha del volumen correspondiente y seleccione `Desvincular de la instancia`{.action}.
 
@@ -162,5 +234,6 @@ El volumen redimensionado incluye ahora el espacio en disco adicional.
 ## Más información
 
 [Crear y configurar un disco adicional en una instancia](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Cambie el tipo de volumen en su Block Storage](/pages/public_cloud/compute/switch_volume_type)
 
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

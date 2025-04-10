@@ -17,7 +17,7 @@ Während des Betriebs können Sie jederzeit eine Sicherung Ihrer Daten, der Konf
 ## Voraussetzungen
 
 - Sie haben eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) in Ihrem Kunden-Account.
-- Sie haben Zugriff auf das [Horizon Interface](/pages/public_cloud/compute/introducing_horizon).
+- Sie haben Zugriff auf das [Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 ## In der praktischen Anwendung
 

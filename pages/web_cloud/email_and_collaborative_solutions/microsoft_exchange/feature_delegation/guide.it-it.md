@@ -34,21 +34,30 @@ Prima di iniziare è necessario definire i diritti da delegare. Ti ricordiamo ch
 
 > [!warning]
 >
-> I diritti “Invio come” e “Invio da parte di” non possono essere assegnati contemporaneamente; le altre combinazioni sono invece possibili. 
-> 
+> I diritti “Invio come” e “Invio da parte di” non possono essere assegnati contemporaneamente; le altre combinazioni sono invece possibili.
 
 Una volta individuato l’account per cui vuoi delegare i diritti, definito i permessi da assegnare e gli account che ne usufruiranno, prosegui con il primo step.
 
 ### Step 1: crea la delega
 
-Per effettuare questa operazione, accedi allo [Spazio Cliente OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Microsoft`{.action}.
+>> 1. Clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+> **Email Pro**
+>>
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
 
-- **Exchange**: Clicca su `Microsoft`{.action} > `Exchange`{.action}. 
-- **Email Pro**: Clicca su `Email Pro`{.action}.
-
-Seleziona il nome del servizio in cui si trova l’account per cui vuoi creare la delega e clicca sulla scheda `Account email`{.action}.
-
-Visualizzi una tabella con tutti gli account associati al tuo servizio email. Clicca sui tre puntini in corrispondenza dell’account in questione e seleziona `Gestisci le tue deleghe`{.action}.
+Clicca sui tre puntini in corrispondenza dell’account in questione e seleziona `Gestisci le tue deleghe`{.action}.
 
 ![Delega](images/delegation-step1.png){.thumbnail}
 

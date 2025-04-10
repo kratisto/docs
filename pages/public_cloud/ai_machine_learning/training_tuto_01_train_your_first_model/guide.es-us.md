@@ -12,7 +12,7 @@ AI Training allows you to train your models easily, with just a few clicks or co
 
 AI Training is compatible with leading applications and frameworks such as *Pytorch, Scikit-learn, TensorFlow, Transformers* and others!
 
-More information about AI Training can be found [here](https://www.ovhcloud.com/es/public-cloud/ai-training/).
+More information about AI Training can be found [here](/links/public-cloud/public-cloudai-training/).
 
 ## Objective of this tutorial
 
@@ -21,7 +21,7 @@ At the end of this tutorial, you will have learned to master **OVHcloud AI Train
 We will show you how you can:
 
 - **Upload your data** to the OVHcloud Object Storage. 
-- **Launch your training job and attach your data to its environment**, so your model can access to your data.
+- **Launch your training job and attach your data to its environment**, so your model can access your data.
 - **Monitor** the progress of your job.
 - **Download your model** in the cloud in order to retrieve it, once trained.
 
@@ -35,8 +35,8 @@ This dataset is available on their [GitHub repository](https://github.com/zaland
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws)
-- An AI Training project created inside a [Public Cloud project](https://www.ovhcloud.com/es/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
+- An AI Training project created inside a [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 - A user for AI Training
 - A Python script that trains a model
 
@@ -66,9 +66,9 @@ Once your object container is created, you will see it in the Object Storage lis
 
 > [!primary]
 >
-> Using the manager to upload your data can be very long. We recommend to use the OVHcloud AI CLI.
+> Using the manager to upload your data can be very long. We recommend using the OVHcloud AI CLI.
 >
-> In the OVHcloud Control Panel, you can upload files but not folders. For instance, you can upload a `.zip` file to optimize the bandwidth, then unzip it in your code. But if your dataset is already split in several folders, you must use the AI CLI to upload them.
+> In the OVHcloud Control Panel, you can upload files but not folders. For instance, you can upload a `.zip` file to optimize the bandwidth, then unzip it in your code. But if your dataset is already split into several folders, you must use the AI CLI to upload them.
 >
 
 #### 1.2 - Upload your data via CLI
@@ -124,10 +124,10 @@ Then, in the `Enter the Docker command` step, you can specify the command that a
 
 - Example:
 
-Assuming you have added your `main.py` file and your `requirements.txt` file to a container that you have linked to your job with `my_data` as your mount directory, you can then use: 
+Assuming you have added your `train-first-model.py` file and your `requirements.txt` file to a container that you have linked to your job with `/workspace/my_data` as your mount directory, you can then use: 
 
 ```console
--- bash -c 'pip install -r /workspace/my_data/requirements.txt && python /workspace/my_data/cnn_classification_mode_dataset.py'
+-- bash -c 'pip install -r /workspace/my_data/requirements.txt && python /workspace/my_data/train-first-model.py'
 ```
 
 > [!primary]
@@ -172,12 +172,12 @@ Depending on your needs, you can select the `permission_mode` you want (Read-Onl
 
 Otherwise, you can remove the --volume line, since it will not bring anything to your app.
 
-To give you a real example, here is the command we will use to launch our job, assuming this time that our `dataset.zip` is contained in a `fashion_MNIST_dataset` container, with a `mount_directory` named `my_data`, and that our Python file and our `requirements.txt` file are in the `ovh/ai-training-examples` GitHub repository: 
+To give you a real example, here is the command we will use to launch our job, assuming this time that our `my-dataset.zip` is contained in a `fashion_MNIST_dataset` container, with a `mount_directory` named `/workspace/my_data`, and that our Python file and our `requirements.txt` file are in the `ovh/ai-training-examples` GitHub repository: 
 
 ```console
 ovhai job run ovhcom/ai-training-pytorch \
 	  --gpu 1 \
-	  --volume fashion_to_delete@GRA/:/workspace/my_data:RW \
+	  --volume fashion_MNIST_dataset@GRA/:/workspace/my_data:RW \
 	  --volume https://github.com/ovh/ai-training-examples.git:/workspace/github_repo:RO \
 	  -- bash -c 'pip install -r /workspace/github_repo/jobs/getting-started/train-first-model/requirements.txt && python /workspace/github_repo/jobs/getting-started/train-first-model/train-first-model.py'
 ```
@@ -257,7 +257,7 @@ ovhai bucket object download fashion_MNIST_dataset@GRA model.net
 - If you are interested in **deploying your model** in a Python app, discover AI Deploy by following this [tutorial](/pages/public_cloud/ai_machine_learning/deploy_tuto_01_streamlit).
 - If you want to learn about Docker, check out this [tutorial](/pages/public_cloud/ai_machine_learning/training_tuto_02_build_custom_image).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

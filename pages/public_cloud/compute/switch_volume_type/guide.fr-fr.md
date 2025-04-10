@@ -10,7 +10,7 @@ L'objectif de ce guide est de vous montrer comment changer un type de volume Blo
 
 ## Prérequis
 
-- [Accéder à l'interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Accéder à l'interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Un volume [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) créé dans votre projet [Public Cloud](https://www.ovhcloud.com/fr/public-cloud/)
 
 ## En pratique
@@ -47,7 +47,7 @@ Une fois ces actions effectuées, cliquez sur `Change Volume Type`{.action} pour
 
 Avant de commencer, consultez le guide suivant :
 
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 Tout d'abord, listez les types de volumes disponibles dans votre région avec la commande suivante :
 

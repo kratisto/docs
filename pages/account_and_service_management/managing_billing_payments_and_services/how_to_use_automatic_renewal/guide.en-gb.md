@@ -231,7 +231,7 @@ This guide did not answer your question? View our [Billing and Payment FAQ](/pag
 
 [How to cancel OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Public Cloud billing information](/pages/public_cloud/compute/analyze_billing)
+[Public Cloud billing information](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Manage billing for your Exchange accounts](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

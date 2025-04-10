@@ -43,7 +43,7 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, öffnen Sie 
 
 Klicken Sie im Tab `Allgemeine Informationen`{.action} auf den Button `...`{.action} neben dem Namen Ihres VPS im Bereich **Ihr VPS**.
 
-![Open KVM](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/open-kvm.png){.thumbnail}
+![Open KVM](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_kvm.png){.thumbnail}
 
 ### Zugang zur KVM-Konsole über die OVHcloud API
 

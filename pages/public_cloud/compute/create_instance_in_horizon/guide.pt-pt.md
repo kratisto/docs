@@ -16,8 +16,8 @@ Tem a possibilidade de criar instâncias diretamente a partir da interface Horiz
 
 ## Requisitos
 
-- Dispor de um [projeto Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) na sua conta OVHcloud.
-- [Ter acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon). 
+- Dispor de um [projeto Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) na sua conta OVHcloud.
+- [Ter acesso à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon). 
 
 ## Instruções
 
@@ -25,7 +25,7 @@ Tem a possibilidade de criar instâncias diretamente a partir da interface Horiz
 
 Como regra geral, recomendamos que crie uma rede privada antes de criar uma instância. Poderá mais tarde associar esta rede à sua instância.
 
-Para começar, aceda à interface Horizon. Se precisar de ajuda para realizar esta operação, consulte o [nosso manual](/pages/public_cloud/compute/introducing_horizon).
+Para começar, aceda à interface Horizon. Se precisar de ajuda para realizar esta operação, consulte o [nosso manual](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 A seguir, clique em `Network`{.action} no menu à esquerda e, a seguir, em `Networks`{.action}.
 

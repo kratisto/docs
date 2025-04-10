@@ -21,7 +21,7 @@ Una vez que el MX Plan haya sido creado y esté disponible, puede administrarlo 
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Correo electrónico`{.action}.
+1. Haga clic en `Direcciones de correo`{.action}.
 1. Seleccione el dominio.
 1. Siga leyendo esta guía en función de su versión.
 

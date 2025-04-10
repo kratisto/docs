@@ -120,9 +120,9 @@ Ogni servizio [Public Cloud](https://www.ovhcloud.com/it/public-cloud/) può ess
 
 ![public cloud instance deletion](images/pci-deletion-en.png){.thumbnail}
 
-Il Public Cloud OVHcloud si basa sul principio del *Pay as you go* (per maggiori informazioni, consulta la pagina [relativa alla fatturazione Public Cloud](/pages/public_cloud/compute/analyze_billing)). Alla fine del mese viene fatturato solo il tempo di utilizzo effettivo delle risorse.
+Il Public Cloud OVHcloud si basa sul principio del *Pay as you go* (per maggiori informazioni, consulta la pagina [relativa alla fatturazione Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)). Alla fine del mese viene fatturato solo il tempo di utilizzo effettivo delle risorse.
 
-Accedi allo Spazio Cliente OVHcloud per [consultare i tuoi consumi correnti](/pages/public_cloud/compute/analyze_billing#consulta-lo-stato-dei-tuoi-consumi) e vieni avvisato via email quando la proiezione dei tuoi consumi supera una determinata soglia.
+Accedi allo Spazio Cliente OVHcloud per [consultare i tuoi consumi correnti](/pages/public_cloud/public_cloud_cross_functional/analyze_billing#consulta-lo-stato-dei-tuoi-consumi) e vieni avvisato via email quando la proiezione dei tuoi consumi supera una determinata soglia.
 
 ## Come annullare la rescissione del tuo abbonamento? <a name="cancel"></a>
 

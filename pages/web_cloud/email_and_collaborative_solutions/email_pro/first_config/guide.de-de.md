@@ -25,7 +25,7 @@ Wenn der E-Mail Pro Dienst eingerichtet und verfügbar ist:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails Pro`{.action}.
+1. Klicken Sie auf `E-Mail Pro`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 
 > [!primary]
@@ -163,12 +163,12 @@ Wenn Sie Ihre E-Mail-Adresse auf einem E-Mail-Client oder einem Gerät (beispiel
 
 |Servertyp|Servername|Sicherheitstyp|Port|
 |---|---|---|---|
-|Eingangsserver|pro**?**.mail.ovh.net|SSL/TLS|993|
-|Ausgangsserver|pro**?**.mail.ovh.net|STARTTLS|587|
+|Eingangsserver|pro?.mail.ovh.net|SSL/TLS|993|
+|Ausgangsserver|pro?.mail.ovh.net|STARTTLS|587|
 
 > [!primary]
 >
-> In den Anleitungen verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In den Anleitungen verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >

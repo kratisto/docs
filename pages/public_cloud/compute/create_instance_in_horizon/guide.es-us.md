@@ -16,8 +16,8 @@ Es posible crear instancias directamente en Horizon. Desde esta interfaz podrá,
 
 ## Requisitos
 
-- Tener un proyecto de [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) en su cuenta de OVHcloud.
-- [Estar conectado a Horizon](/pages/public_cloud/compute/introducing_horizon). 
+- Tener un proyecto de [Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) en su cuenta de OVHcloud.
+- [Estar conectado a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon). 
 
 ## Procedimiento
 
@@ -25,7 +25,7 @@ Es posible crear instancias directamente en Horizon. Desde esta interfaz podrá,
 
 Por lo general, le recomendamos que cree una red privada antes de crear una instancia. Más adelante podrá asociar esta red a su instancia.
 
-En primer lugar, conéctese a Horizon. Si necesita ayuda, consulte nuestra [guía](/pages/public_cloud/compute/introducing_horizon).
+En primer lugar, conéctese a Horizon. Si necesita ayuda, consulte nuestra [guía](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 A continuación, haga clic en `Network`{.action} en la columna izquierda y seleccione `Networks`{.action}.
 

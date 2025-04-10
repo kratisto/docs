@@ -15,7 +15,7 @@ Cette documentation a pour objectif d'aider les développeurs à utiliser nos AP
 ## Prérequis
 
 - Disposer d'un compte OVHcloud actif et connaître ses identifiants.
-- Être sur la page web des [API OVHcloud](https://api.ovh.com/){.external}.
+- Être sur la page web des [API OVHcloud](https://api.ovh.com/).
 - Consulter le guide [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) pour vous familiariser avec l'utilisation des APIv6 OVHcloud.
 
 ## En pratique
@@ -24,7 +24,7 @@ Cette documentation a pour objectif d'aider les développeurs à utiliser nos AP
 
 OVHcloud propose différentes offres d'accès à Internet par le biais de packages contenant au moins un accès Internet mais aussi des lignes VoIP, des e-mails, des noms de domaine.
 
-Les offres sont visibles ici : [https://www.ovhtelecom.fr/offre-internet/](https://www.ovhtelecom.fr/offre-internet/){.external}.
+Les offres sont visibles [ici](/links/telecom/offre-internet).
 
 Les services peuvent être gérés à l'aide de ces points de terminaison d'API :
 
@@ -202,7 +202,7 @@ La réponse :
 
 ##### **Pour obtenir les numéros de rue disponibles pour un code de rue donné** <a name="eligibleSearchStreetNumbers"></a>
 
-Exemple: nous voulons les numéros de la rue "RUE DU VERGER", identifiée par le code de rue "9147132200".
+Exemple : nous voulons les numéros de la rue "RUE DU VERGER", identifiée par le code de rue "9147132200".
 
 La requête :
 
@@ -247,7 +247,7 @@ La réponse :
 
 ##### **Pour obtenir tous les bâtiments pour une adresse spécifique** <a name="eligibleSearchBuildings"></a>
 
-Exemple : nous voulons la liste des bâtiments pour l'adresse "2 RUE DU VERGER, 91400 ORSAY", identifiée par code de rue "9147132200" et le numéro "2".
+Exemple : nous voulons la liste des bâtiments pour l'adresse "2 RUE DU VERGER, 91400 ORSAY", identifiée par le code de rue "9147132200" et le numéro "2".
 
 La requête :
 
@@ -323,7 +323,7 @@ Nous avons trouvé un seul bâtiment qui est une maison.
 
 #### Rechercher une éligibilité cuivre (ADSL, VDSL)
 
-Les cas possibles sont:
+Les cas possibles sont :
 
 * [Je connais le numéro de ligne, je vais l'utiliser pour l'éligibilité](#eligibleTestLine)
 * [Je ne connais pas le numéro de ligne, je vais d'abord devoir le chercher](#eligibleSearchLines)
@@ -533,7 +533,7 @@ Voici un retour partiel pour l'exemple :
 
 La réponse est composée de :
 
-* un tableau *result.offers* qui liste toutes les offres et si la ligne donnée est éligible ou non;
+* un tableau *result.offers* listant toutes les offres et indiquant si la ligne donnée est éligible ou non;
 * une structure *result.endpoint* qui donne des informations sur la ligne : adresse et caractéristiques.
 
 Voici une description des codes d'offre:
@@ -747,8 +747,8 @@ La réponse :
 
 Pour une éligibilité fibre, nous avons deux cas de figure :
 
-* J'ai un identifiant fibre OTP (Optical Termination Point), que je vais utiliser pour l'éligibilité;
-* Je n'ai pas d'identifiant OTP fibre et utiliserai un identifiant * bâtiment * pour l'admissibilité.
+* J'ai un identifiant fibre OTP (Optical Termination Point), que je vais utiliser pour tester l'éligibilité;
+* Je n'ai pas d'identifiant OTP fibre et utiliserai un identifiant * bâtiment * pour vérifier l'admissibilité.
 
 Un *building* peut être une maison ou un immeuble à logements multiples. Le *building* peut être trouvé à partir d'une adresse ou d'une ligne de cuivre existante.
 
@@ -767,7 +767,7 @@ Le processus d'éligibilité à partir d'une adresse est le suivant :
 
 Pour un OTP, c'est le plus simple :
 
-1. [Faire le test d'éligibilité pour l'intifiant PTO](#eligibilityTestOtp)
+1. [Faire le test d'éligibilité pour l'identifiant PTO](#eligibilityTestOtp)
 
 Voici les détails de chaque type de demande.
 
