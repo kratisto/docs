@@ -46,7 +46,7 @@ We **strongly recommend** using a **Docker account** (even a free one) to **avoi
 6. Click `Save`{.action}.
 
 > [!primary]
-> By default, Harbor creates a **7 day retention policy** for each new proxy cache project. See more about [Tag Retention Policies](https://goharbor.io/docs/2.1.0/working-with-projects/working-with-images/create-tag-retention-rules/).
+> By default, Harbor creates a **7 day retention policy** for each new proxy cache project. See more about [Tag Retention Policies](https://goharbor.io/docs/2.12.0/working-with-projects/working-with-images/create-tag-retention-rules/).
 
 ![Proxy cache](images/registry-proxy-cache-002.png){.thumbnail width="500"}
 

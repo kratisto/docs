@@ -82,7 +82,7 @@ Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 
 Wenn Ihr E-Mail-Account eingerichtet ist, können Sie ihn verwenden. Sie können ab sofort E-Mails versenden und empfangen.
 
-OVHcloud bietet Ihnen außerdem eine Webanwendung, mit der Sie über einen Webbrowser auf Ihren E-Mail-Account zugreifen können. Diese ist über[Webmail](/links/web/email) verfügbar. Sie können sich mit den Login-Daten Ihres E-Mail-Accounts anmelden.  
+OVHcloud bietet Ihnen außerdem eine Webanwendung, mit der Sie über einen Webbrowser auf Ihren E-Mail-Account zugreifen können. Diese ist über [Webmail](/links/web/email) verfügbar. Sie können sich mit den Login-Daten Ihres E-Mail-Accounts anmelden.  
 Bei Fragen zur Verwendung nutzen Sie unsere Anleitungen zu [OWA Webmail](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) und [RoundCube Webmail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube).
 
 ### Backup Ihres E-Mail-Account erstellen

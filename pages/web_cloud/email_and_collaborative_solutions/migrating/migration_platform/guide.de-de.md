@@ -112,7 +112,7 @@ Um die Konfiguration zu ändern, klicken Sie auf das rote Feld und führen Sie d
 
 ### Migrierte E-Mail-Adressen verwenden
 
-Sie können nun Ihre migrierten E-Mail-Adressen verwenden. OVHcloud stellt dazu einen Web-Client (*Wep App*) zur Verfügung, der über[Webmail](/links/web/email) erreichbar ist. Geben Sie dort die Login-Daten für Ihre E-Mail-Adresse ein.
+Sie können nun Ihre migrierten E-Mail-Adressen verwenden. OVHcloud stellt dazu einen Web-Client (*Wep App*) zur Verfügung, der über [Webmail](/links/web/email) erreichbar ist. Geben Sie dort die Login-Daten für Ihre E-Mail-Adresse ein.
 
 Wenn Sie einen der migrierten Accounts auf einem lokalen E-Mail-Client eingerichtet haben (Outlook, Thunderbird, etc.), muss er erneut konfiguriert werden. Die Verbindungsdaten zum OVHcloud Server haben sich nach der Migration geändert.
 <br>Weitere Informationen finden Sie jeweils in den Anleitungen zu [E-Mail Pro](/products/web-cloud-email-collaborative-solutions-email-pro) und [Hosted Exchange](/products/web-cloud-email-collaborative-solutions-microsoft-exchange). Wenn Sie den Account nicht sofort neu konfigurieren können, gibt es stets die Möglichkeit, den Web-Client zu verwenden.
