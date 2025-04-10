@@ -16,9 +16,11 @@ This guide explains how to configure encrypted backup jobs using the Veeam backu
 
 ## Instructions
 
-### Step 1: Create the certificate using the API
+### Step 1: Create a certificate in OKMS
 
-You can create an access certificate directly via the OKMS API, without using the Manager interface.
+You can create your access certificate in OKMS using either the API or the [OVHcloud Control Panel](/links/manager)
+
+#### Option 1: Using the API
 
 1. Generate the private key using the API (no CSR):
 
@@ -33,7 +35,7 @@ You can create an access certificate directly via the OKMS API, without using th
 > @api {v1} /okms GET /okms/resource/{okmsId}/credential
 
 > [!note]
-> This method is equivalent to selecting `I don't have a private key`{.action} in the Manager interface.
+> This method is equivalent to selecting `I don't have a private key`{.action} in the [OVHcloud Control Panel](/links/manager) interface.
 > You may also submit a CSR if you already have your own private key.
 
 3. Download the private key.
@@ -45,11 +47,9 @@ You can create an access certificate directly via the OKMS API, without using th
 > You don't need to import it manually into Veeam, but it is required to convert the certificate into a compatible format.
 > Make sure to store it securely.
 
-### Step 2: Create the certificate from the Manager
+#### Option 2: Using the [OVHcloud Control Panel](/links/manager)
 
-You can also generate a certificate from the [OVHcloud Control Panel](/links/manager):
-
-1. Click `Hosted Private Cloud`{.action} then `Identity, Security & Operations`{.action} and finally `Key Management Service`{.action}. Select your KMS.
+1. In the [OVHcloud Control Panel](/links/manager), click `Hosted Private Cloud`{.action} then `Identity, Security & Operations`{.action} and finally `Key Management Service`{.action}. Select your KMS.
 
 ![Console Dashboard](images/console_1.png){.thumbnail}
 
@@ -57,36 +57,33 @@ You can also generate a certificate from the [OVHcloud Control Panel](/links/man
 
 ![KMS List](images/console_2.png){.thumbnail}
 
-3. Click the `Access certificates` tab.
+3. Open the `Access certificates` tab.
 
 ![Access certificates tab](images/veeam_okms_1.png){.thumbnail}
 
 4. Click `Generate an access certificate`{.action}.
 
-5. Fill in the required fields and select `I don’t have a private key`{.action}.
+5. fill in the required fields, and select `I don’t have a private key`{.action}.
 
 ![Generate Access Certificate - No Private Key](images/veeam_okms_2.png){.thumbnail}
 
 > [!note]
-> This option corresponds to creating a certificate without a CSR, just like with the API.
+> This is the same as generating a certificate without a CSR, like with the API.
 > You can also choose `I already have a private key` to generate a certificate using your own CSR.
 
-### Add user IDs
-
-Before the certificate can be used, you must associate at least one user ID.
-
-1. In the KMS management interface, click `Add user IDs`{.action}.
-2. Select the users allowed to access the KMS.
-3. Confirm to bind the certificate to these user IDs.
+5. Add user IDs to the certificate:
+    - Click `Add user IDs`{.action}
+    - Select the authorized users
+    - Confirm to associate the certificate
 
 > [!info]
-> This step is required for the certificate to be recognized and usable in Veeam.
+> This step is required for the certificate to work with Veeam.
 
 6. Download the private key and the certificate.
 
 ![Download Certificate](images/veeam_okms_3.png){.thumbnail}
 
-### Step 3: Convert the PEM certificate to PFX format
+### Step 2: Convert the PEM certificate to PFX format
 
 To import the certificate into Veeam, convert it to `.pfx` format using the command below:
 
@@ -94,7 +91,7 @@ To import the certificate into Veeam, convert it to `.pfx` format using the comm
 openssl pkcs12 -export -out cert.pfx -inkey privatekey.pem -in certificate.pem
 ```
 
-### Step 4: Import the certificate into the Veeam Windows Certificate Store
+### Step 3: Import the certificate into the Veeam Windows Certificate Store
 
 - Open the Windows Certificate Store on your Veeam server.
 - Import the `.pfx` file generated in the previous step.
@@ -102,7 +99,7 @@ openssl pkcs12 -export -out cert.pfx -inkey privatekey.pem -in certificate.pem
 
 ![Import Certificate - Exportable](images/veeam_okms_4.png){.thumbnail}
 
-### Step 5: Register the KMS in Veeam
+### Step 4: Register the KMS in Veeam
 
 - Open Veeam Backup & Replication and go to `Credentials & Passwords`{.action}, then click `Key Management Servers`{.action}.
 
@@ -120,7 +117,7 @@ openssl pkcs12 -export -out cert.pfx -inkey privatekey.pem -in certificate.pem
 
 ![Add KMS Server Details](images/veeam_okms_7.png){.thumbnail}
 
-### Step 6: Retrieve the server certificate
+### Step 5: Retrieve the server certificate
 
 To retrieve the server certificate from OKMS, run the following command:
 
@@ -128,7 +125,7 @@ To retrieve the server certificate from OKMS, run the following command:
 openssl s_client -connect eu-west-rbx.okms.ovh.net:443 2>/dev/null </dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
 ```
 
-### Step 7: Configure backup job encryption
+### Step 6: Configure backup job encryption
 
 - Register the KMS server in your Veeam Backup & Replication console.
 - Select the desired backup job and enable encryption using the registered KMS.
