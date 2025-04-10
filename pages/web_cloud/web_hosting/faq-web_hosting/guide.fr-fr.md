@@ -221,7 +221,7 @@ Une fois votre choix fait, suivez ces étapes :
 
 > [!success]
 >
-> Retrouvez tous les détails dans notre guide « [Faire évoluer son offre d’hébergement web »](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
+> Retrouvez tous les détails dans notre guide « [Faire évoluer son offre d’hébergement web](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
 
 ///
 
