@@ -13,8 +13,8 @@ This guide aims to detail how to do so step by step.
 ## Requirements
 
 - Make sure you are investigating a Public Cloud instance since this guide is only working for Public Cloud instances.
-- The [OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ready to be used on your system.
-- An [OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user) has been created with (at least) the _Compute Operator_ and _Backup Operator_ roles.
+- The [OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) ready to be used on your system.
+- An [OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) has been created with (at least) the _Compute Operator_ and _Backup Operator_ roles.
 
 ## Instructions
 
@@ -24,7 +24,7 @@ OVHcloud has no access to your instance and OpenStack has no feature to dump the
 
 ### Recovering the disk of a Public Cloud instance
 
-In order to recover the disk of a Public Cloud instance, the easiest way is to use the [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-overview.html). If the tool is not installed on your system, you can read the [following guide](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) as well as [the guide to create an OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user).
+In order to recover the disk of a Public Cloud instance, the easiest way is to use the [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-overview.html). If the tool is not installed on your system, you can read the [following guide](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) as well as [the guide to create an OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 #### Perform a backup
 
@@ -41,7 +41,7 @@ You need to recover the `openrc.sh` file. In the `Users & Roles`{.action} sectio
 > [!warning]
 > This file cannot be used on Windows. We recommend using WSL on Windows to run the OpenStack CLI since it does solve several issues such as this one.
 >
-> This [documentation](/pages/public_cloud/compute/loading_openstack_environment_variables) can help you deal with the required environment variables on Windows.
+> This [documentation](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables) can help you deal with the required environment variables on Windows.
 
 The `openrc.sh` file can now be loaded using the command `source openrc.sh`. A prompt will ask you for the OpenStack password you configured when creating the user.
 

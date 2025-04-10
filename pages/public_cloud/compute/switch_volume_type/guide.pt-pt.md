@@ -14,7 +14,7 @@ O objetivo deste guia é mostrar-lhe como alterar um tipo de volume Block Storag
 
 ## Requisitos
 
-- [Aceder à interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Aceder à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Um volume [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) criado no seu projeto [Public Cloud](https://www.ovhcloud.com/pt/public-cloud/)
 
 ## Instruções
@@ -51,8 +51,8 @@ Depois de realizar estas ações, clique em `Change Volume Type`{.action} para v
 
 Antes de continuar, recomendamos que consulte os seguintes guias:
 
-- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Em primeiro lugar, liste os tipos de volumes disponíveis na sua região com o seguinte comando:
 

@@ -12,8 +12,8 @@ Vous avez la possibilité de créer des instances directement depuis l'interface
 
 ## Prérequis
 
-- Posséder un [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) créé depuis votre compte OVHcloud.
-- [Être connecté à l'interface Horizon](/pages/public_cloud/compute/introducing_horizon).
+- Posséder un [projet Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) créé depuis votre compte OVHcloud.
+- [Être connecté à l'interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 ## En pratique
 
@@ -21,7 +21,7 @@ Vous avez la possibilité de créer des instances directement depuis l'interface
 
 En règle générale, nous vous recommandons de créer un réseau privé avant de créer une instance. Vous pourrez ultérieurement attacher ce réseau à votre instance.
 
-Pour commencer, connectez-vous à l'interface Horizon. Si vous avez besoin d'aide pour réaliser cette manipulation, reportez-vous à [notre documentation](/pages/public_cloud/compute/introducing_horizon).
+Pour commencer, connectez-vous à l'interface Horizon. Si vous avez besoin d'aide pour réaliser cette manipulation, reportez-vous à [notre documentation](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Cliquez ensuite sur `Network`{.action} dans le menu de gauche, puis sur `Networks`{.action}.
 

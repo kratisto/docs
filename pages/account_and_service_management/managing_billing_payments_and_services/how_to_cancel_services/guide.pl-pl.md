@@ -120,9 +120,9 @@ Każda usługa [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) może z
 
 ![public cloud instance deletion](images/pci-deletion-en.png){.thumbnail}
 
-Public Cloud OVHcloud opiera się na zasadzie *Pay as you go* (więcej szczegółów na naszej stronie [informacyjnej o sposobie rozliczania usługi Public Cloud](/pages/public_cloud/compute/analyze_billing)). Płacisz pod koniec miesiąca tylko za czas rzeczywistego wykorzystania zasobów.
+Public Cloud OVHcloud opiera się na zasadzie *Pay as you go* (więcej szczegółów na naszej stronie [informacyjnej o sposobie rozliczania usługi Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)). Płacisz pod koniec miesiąca tylko za czas rzeczywistego wykorzystania zasobów.
 
-Możesz również [sprawdzić aktualne](/pages/public_cloud/compute/analyze_billing#sprawdzic-obecne-zuzycie) zużycie zasobów w Panelu klienta OVHcloud i otrzymywać powiadomienie e-mailem, jeśli prognoza zużycia zasobów przekroczy określony próg.
+Możesz również [sprawdzić aktualne](/pages/public_cloud/public_cloud_cross_functional/analyze_billing#sprawdzic-obecne-zuzycie) zużycie zasobów w Panelu klienta OVHcloud i otrzymywać powiadomienie e-mailem, jeśli prognoza zużycia zasobów przekroczy określony próg.
 
 ## Jak anulować rezygnację z abonamentu? <a name="cancel"></a>
 

@@ -166,7 +166,7 @@ La facturación de Public Cloud incluye, por un lado, los recursos con pago por 
 
 #### Ideas y consejos
 
-Si desea más información, consulte nuestra guía [Analizar y gestionar la facturación](/pages/public_cloud/compute/analyze_billing).
+Si desea más información, consulte nuestra guía [Analizar y gestionar la facturación](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### ¿Cómo consultar el libro mayor?
 

@@ -12,15 +12,15 @@ Usługa [vRack](/links/network/vrack) to prywatna sieć, która umożliwia klien
 
 ## Wymagania początkowe
 
-- [projekt Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) na koncie OVHcloud
+- [projekt Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) na koncie OVHcloud
 - dostęp do [Panelu klienta OVHcloud](/links/manager)
-- [użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (opcjonalnie)
+- [użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (opcjonalnie)
 - podstawowa wiedza w zakresie sieci komputerowych
 
 Zanim zaczniesz, zapoznaj się z tymi przewodnikami, aby poprawnie skonfigurować środowisko OpenStack:
 
-- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
-- [Zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- [Zmienne środowiskowe OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 ## W praktyce
 

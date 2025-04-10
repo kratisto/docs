@@ -87,7 +87,7 @@ Before you migrate your website’s files and databases, prepare your destinatio
 
 #### Step 2.1 - Create and configure the Public Cloud instance <a name="step2.1"></a>
 
-If you are unfamiliar with Public Cloud, please refer to our guide on "[Getting started with Public Cloud](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud)".
+If you are unfamiliar with Public Cloud, please refer to our guide on "[Getting started with Public Cloud](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud)".
 
 To create and configure a Public Cloud instance, follow the steps in our guide on "[Creating and connecting to a Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps)".
 
@@ -374,7 +374,7 @@ Once the migration is complete, test your website to make sure it works as expec
 
 Once you have migrated your website to a dedicated server or Public Cloud instance, it is vital to secure your server, to protect your data and ensure that your services work properly.
 
-For a full list of security best practices, please refer to our guides "[Securing a dedicated server](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server)" and "[Best practices for securing and structuring OVHcloud Public Cloud projects](/pages/public_cloud/compute/securing_and_structuring_projects)".
+For a full list of security best practices, please refer to our guides "[Securing a dedicated server](/pages/bare_metal_cloud/dedicated_servers/securing-a-dedicated-server)" and "[Best practices for securing and structuring OVHcloud Public Cloud projects](/pages/public_cloud/public_cloud_cross_functional/securing_and_structuring_projects)".
 
 ## Go further <a name="go-further"></a>
 

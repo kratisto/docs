@@ -22,7 +22,7 @@ OVHcloud Backint Agent for SAP HANA has been certified by SAP, you can find cert
 ## Requirements
 
 - Access to the [OVHcloud Control Panel](/links/manager).
-- [A Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account with:
+- [A Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account with:
     - An [Object Storage bucket](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
     - An [Object Storage user](/pages/storage_and_backup/object_storage/s3_identity_and_access_management#creating-a-user) with the read and write rights.
 - A SAP HANA database installed.

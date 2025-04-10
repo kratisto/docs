@@ -21,7 +21,7 @@ This guide explains how to change the size of your Public Cloud Load Balancer us
 
 ### Step 1 - Log in to Horizon
 
-Go to the [OVHcloud Horizon interface](https://horizon.cloud.ovh.net/project/load_balancer) and log in with your credentials. For more information on how to connect to Horizon, read the [Introducing Horizon](/pages/public_cloud/compute/introducing_horizon) guide.
+Go to the [OVHcloud Horizon interface](https://horizon.cloud.ovh.net/project/load_balancer) and log in with your credentials. For more information on how to connect to Horizon, read the [Introducing Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) guide.
 
 ### Step 2 - Locate the Load Balancer
 

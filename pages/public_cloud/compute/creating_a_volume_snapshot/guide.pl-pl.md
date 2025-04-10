@@ -23,7 +23,7 @@ Tworzenie snapshota dodatkowego wolumenu zwykle odpowiada dwóm celom:
 ## Wymagania początkowe
 
 - Dostęp do [Panelu client OVHcloud](/links/manager)
-- Wolumen [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie [Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
+- Wolumen [Block storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie [Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 
 ## W praktyce
 

@@ -17,13 +17,13 @@ Per motivi di sicurezza, è possibile configurare e utilizzare regole di filtrag
 ## Prerequisiti
 
 - Un [progetto Public Cloud](https://www.ovhcloud.com/it/public-cloud/)
-- [Essere connesso all'interfaccia Horizon](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Essere connesso all'interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 ## Procedura
 
 ### Step 1: creare un gruppo di sicurezza
 
-Accedi all'interfaccia [Horizon](/pages/public_cloud/compute/create_and_delete_a_user). Scegli la Region in cui vuoi creare un gruppo di sicurezza, cliccando sul pulsante in alto a sinistra.
+Accedi all'interfaccia [Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Scegli la Region in cui vuoi creare un gruppo di sicurezza, cliccando sul pulsante in alto a sinistra.
 
 ![definire la regione](images/security-group0.png){.thumbnail}
 

@@ -43,9 +43,9 @@ Per saperne di più sul tuo progetto Public Cloud in base alle tue necessità.
 
 > [!primary]
 >
-> Se non hai ancora creato progetti Public Cloud, inizia con la nostra [guida sulla creazione di progetti](/pages/public_cloud/compute/create_a_public_cloud_project).
+> Se non hai ancora creato progetti Public Cloud, inizia con la nostra [guida sulla creazione di progetti](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 >
-> **I dettagli tecnici** importanti relativi al Public Cloud di OVHcloud sono disponibili su [questa pagina](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> **I dettagli tecnici** importanti relativi al Public Cloud di OVHcloud sono disponibili su [questa pagina](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 >
 
 ### Presentazione del contenuto
@@ -194,7 +194,7 @@ I modelli di istanza di tipo `Metal`{.action} forniscono risorse fisiche dedicat
 
 > [!primary]
 >
-> Le risorse Public Cloud inizialmente saranno limitate per motivi di controllo dei costi e di sicurezza. È possibile verificare queste quote cliccando su `Quota and Regions`{.action} nella barra di navigazione a sinistra sotto **Project Management**. Per ulteriori informazioni, consultare [la documentazione dedicata](/pages/public_cloud/compute/increasing_public_cloud_quota).
+> Le risorse Public Cloud inizialmente saranno limitate per motivi di controllo dei costi e di sicurezza. È possibile verificare queste quote cliccando su `Quota and Regions`{.action} nella barra di navigazione a sinistra sotto **Project Management**. Per ulteriori informazioni, consultare [la documentazione dedicata](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).
 >
 > Notare che è possibile **aggiornare** l'istanza dopo la sua creazione per avere più risorse disponibili. Tuttavia, con un'istanza regolare non è possibile passare a un modello più piccolo. Per maggiori informazioni su questo argomento, consulta lo **step 4.4** riportato di seguito.
 >
@@ -286,7 +286,7 @@ Questo step offre diverse opzioni di configurazione. Fare clic sulle schede segu
 > [!tabs]
 > **1: Numero di istanze da creare**
 >>
->> È possibile creare più istanze in base alle selezioni effettuate durante le fasi di creazione, ma [i limiti di quota delle risorse](/pages/public_cloud/compute/increasing_public_cloud_quota) si applicheranno.<br>
+>> È possibile creare più istanze in base alle selezioni effettuate durante le fasi di creazione, ma [i limiti di quota delle risorse](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) si applicheranno.<br>
 >>
 > **2: Istanza flessibile**
 >>
@@ -376,7 +376,7 @@ Clicca su `Avanti`{.action} per passare all’ultimo step.
 
 Per maggiori informazioni, consulta la nostra documentazione dedicata alla fatturazione:
 
-- [Fatturazione del Public Cloud](/pages/public_cloud/compute/analyze_billing)
+- [Fatturazione del Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [FAQ sulla fatturazione mensile](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Una volta terminata la configurazione dell’istanza, clicca sul pulsante `Crea un’istanza`{.action}. La consegna del servizio potrebbe richiedere alcuni minuti.
@@ -666,9 +666,9 @@ Per una spiegazione dettagliata di questi passaggi, consulta la nostra [guida de
 
 [Gestione delle istanze nello Spazio Cliente](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Come iniziare con OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Come iniziare con OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[Come iniziare con Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Come iniziare con Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 

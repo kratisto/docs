@@ -26,7 +26,7 @@ Tal pode ser útil nos seguintes casos:
 - Se deseja aumentar a sua capacidade de armazenamento sem ter de alterar o modelo de instância.
 - Se deseja dispor de um espaço de armazenamento de alta disponibilidade e de alta performance.
 - Se pretender mover o seu armazenamento e os seus dados para outra instância.
-- Se pretender preparar o ambiente para utilizar o [Terraform](/pages/public_cloud/compute/how_to_use_terraform), deverá preparar o ambiente.
+- Se pretender preparar o ambiente para utilizar o [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), deverá preparar o ambiente.
 
 **Saiba como criar um disco adicional e configurá-lo na instância.**
 
@@ -35,7 +35,7 @@ Tal pode ser útil nos seguintes casos:
 - Estar ligado à [Área de Cliente OVHcloud](/links/manager).
 - Dispor de uma instância [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) na sua conta OVHcloud.
 - Ter acesso de administrador (sudo) à sua instância através de SSH.
-- Preparar o ambiente se deseja utilizar [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
+- Preparar o ambiente se deseja utilizar [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform).
 
 > [!warning]
 >

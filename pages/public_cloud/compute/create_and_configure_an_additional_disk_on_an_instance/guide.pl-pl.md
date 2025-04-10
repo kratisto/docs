@@ -26,7 +26,7 @@ Może to być przydatne w następujących przypadkach:
 - Jeśli chcesz zwiększyć przestrzeń dyskową bez konieczności zmiany szablonu instancji.
 - Jeśli chcesz dysponować przestrzenią dyskową o wysokiej dostępności i wysokiej wydajności.
 - Jeśli chcesz przenieść przestrzeń dyskową i dane do innej instancji.
-- Jeśli chcesz przygotować środowisko do korzystania z [Terraform](/pages/public_cloud/compute/how_to_use_terraform), musisz przygotować środowisko.
+- Jeśli chcesz przygotować środowisko do korzystania z [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), musisz przygotować środowisko.
 
 **Dowiedz się, jak utworzyć dodatkowy dysk i skonfigurować go na Twojej instancji.**
 
@@ -35,7 +35,7 @@ Może to być przydatne w następujących przypadkach:
 - Dostęp do [Panelu client OVHcloud](/links/manager)
 - Posiadanie instancji [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) na koncie OVHcloud
 - Dostęp administratora (sudo) do Twojej instancji przez SSH
-- Przygotuj środowisko, jeśli chcesz korzystać z [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- Przygotuj środowisko, jeśli chcesz korzystać z [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 > [!warning]
 >

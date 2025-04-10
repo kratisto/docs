@@ -15,8 +15,8 @@ Vous trouverez ici les configurations d'un Load Balancer:
 
 - Avoir un [projet Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) dans votre compte OVHcloud
 - Avoir un [réseau privé](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack) configuré dans votre projet
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) en installant python-swiftclient.
-- [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) en installant python-swiftclient.
+- [Charger les variables d’environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 - Avoir le client [OpenStack Octavia](https://docs.openstack.org/python-octaviaclient/latest/install/index.html) installé
 
 ## En pratique

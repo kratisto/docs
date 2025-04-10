@@ -15,7 +15,7 @@ Esta guía explica cómo montar un contenedor de objetos como sistema de archivo
 
 ## Requisitos
 
-- [Crear y eliminar un usuario de OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Crear y eliminar un usuario de OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - [Añadir espacios de almacenamiento](/pages/storage_and_backup/object_storage/pcs_create_container)
 
 ## Procedimiento
@@ -39,7 +39,7 @@ storage-url: swiftks://auth.cloud.ovh.net/REGION_NAME:CT_NAME
 fs-passphrase: PASSPHRASE
 ```
 
-Puede consultar los datos TENANT_NAME y USERNAME en el archivo OpenRC. La guía «[Acceso y seguridad en Horizon](/pages/public_cloud/compute/access_and_security_in_horizon)» explica cómo.
+Puede consultar los datos TENANT_NAME y USERNAME en el archivo OpenRC. La guía «[Acceso y seguridad en Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)» explica cómo.
 
 Los argumentos REGION_NAME y CT_NAME deben adaptarse según el nombre y la localización del contenedor de objetos.
 

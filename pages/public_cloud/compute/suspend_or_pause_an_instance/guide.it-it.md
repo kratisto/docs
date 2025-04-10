@@ -16,8 +16,8 @@ Durante la configurazione di un'infrastruttura ad alta disponibilità, potresti 
 ## Prerequisiti
 
 - un'[istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) con la fatturazione **oraria**
-- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external} o all'[interfaccia Horizon](/pages/public_cloud/compute/introducing_horizon)
-- Conoscenza dell'[API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) e delle [variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external} o all'[interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
+- Conoscenza dell'[API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) e delle [variabili d’ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Procedura
 
@@ -71,7 +71,7 @@ Per utilizzare questo metodo, è necessario [connettersi all’interfaccia Horiz
 
 - Per accedere con l’autenticazione unica OVHcloud, clicca sul link `Horizon`{.action} nel menu di sinistra sotto "Management Interfaces" dopo aver aperto il progetto `Public Cloud`{.action} nello [Spazio Cliente OVHcloud](/links/manager).
 
-- Per accedere con un utente OpenStack specifico: apri la pagina di accesso a [Horizon](https://horizon.cloud.ovh.net/auth/login/) e inserisci le [credenziali OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) precedentemente create, poi clicca su `Connect`{.action}.
+- Per accedere con un utente OpenStack specifico: apri la pagina di accesso a [Horizon](https://horizon.cloud.ovh.net/auth/login/) e inserisci le [credenziali OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) precedentemente create, poi clicca su `Connect`{.action}.
 
 Se hai installato istanze in diverse regioni, assicurati di essere nella localizzazione giusta. Puoi verificarlo nell'angolo superiore sinistro dell'interfaccia Horizon.
 
@@ -93,8 +93,8 @@ Per visualizzare lo snapshot, nel menu `Compute`{.action}, clicca su `Images`{.a
 
 Prima di continuare, si raccomanda di consultare le seguenti guide:
 
-- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Impostare le variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Impostare le variabili d’ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Una volta che l'ambiente è pronto, esegui questo comando:
 

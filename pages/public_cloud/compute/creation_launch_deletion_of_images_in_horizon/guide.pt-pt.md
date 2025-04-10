@@ -17,7 +17,7 @@ Esta operação permite-lhe, por exemplo, importar as suas imagens das antigas m
 
 ## Requisitos
 
-- [Criar um acesso ao Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Criar um acesso ao Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Aceder ao menu Imagens da interface OpenStack Horizon
 
 ![public-cloud](images/horizon_menu.png){.thumbnail}

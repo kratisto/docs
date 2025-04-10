@@ -19,7 +19,7 @@ Pulumi offers an intuitive command line interface (CLI), to provision, update or
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - Installing the [Pulumi CLI](https://www.pulumi.com/docs/install/){.external}
 - An account in [Pulumi](https://www.pulumi.com/)
 - A [Pulumi access token](https://app.pulumi.com/account/tokens)

@@ -16,7 +16,7 @@ Poderá ter de migrar volumes adicionais de uma região OpenStack para outra, qu
 
 ## Requisitos
 
-- CLI OpenStack. Consulte o nosso guia « [Como preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ».
+- CLI OpenStack. Consulte o nosso guia « [Como preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) ».
 - A Conectividade às API OVHcloud OpenStack.
 - Do espaço de armazenamento disponível correspondente ao tamanho do disco do volume (para o armazenamento de backup temporário).
 

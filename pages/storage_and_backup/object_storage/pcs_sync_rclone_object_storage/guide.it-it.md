@@ -14,7 +14,7 @@ Rclone è un software di sincronizzazione esterno: per maggiori dettagli sul suo
 ## Prerequisiti
 
 - Aver creato un container *Object Storage* (dallo Spazio Cliente OVH o dall’interfaccia [Horizon](/pages/storage_and_backup/object_storage/pcs_create_container){.external})
-- Aver creato un [utente OpenStack](/pages/public_cloud/compute/create_and_delete_a_user){.external}
+- Aver creato un [utente OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user){.external}
 
 ## Procedura
 

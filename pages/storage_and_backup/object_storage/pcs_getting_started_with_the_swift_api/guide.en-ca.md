@@ -14,8 +14,8 @@ The OpenStack *swiftclient* lets you interact with and manage your containers an
 
 ## Requirements
 
-- Preparing the environment to [use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) by installing *python-swiftclient*
-- Setting the [OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Preparing the environment to [use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) by installing *python-swiftclient*
+- Setting the [OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instructions
 
@@ -137,7 +137,7 @@ If the container is configured as public, you can access the file using a URL:
 https://storage.gra1.cloud.ovh.net/v1/AUTH_b3e26xxxxxxxxxxxxxxxxxxxb0ba29/container1/images/OVHlogo.png
 ```
 
-This URL is made up of an endpoint, available from the [Horizon interface](/pages/public_cloud/compute/access_and_security_in_horizon), the name of your container and the name of your object (including the prefix).
+This URL is made up of an endpoint, available from the [Horizon interface](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon), the name of your container and the name of your object (including the prefix).
 
 ### Downloading files
 

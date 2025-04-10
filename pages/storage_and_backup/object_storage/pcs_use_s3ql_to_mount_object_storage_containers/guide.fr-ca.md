@@ -14,7 +14,7 @@ Vous pouvez trouver plus d'informations directement sur leur [Site Web](http://w
 
 ## Prérequis
 
-- [Configurer l'utilisateur](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Configurer l'utilisateur](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 - [Ajouter de l'espace de stockage](/pages/storage_and_backup/object_storage/pcs_create_container)
 
 > [!primary]

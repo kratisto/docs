@@ -26,7 +26,7 @@ Cela peut être utile dans les cas suivants :
 - Si vous souhaitez augmenter votre capacité de stockage sans avoir à changer le modèle d’instance.
 - Si vous souhaitez disposer d’un espace de stockage hautement disponible et performant.
 - Si vous souhaitez déplacer votre stockage et vos données vers une autre instance.
-- Si vous souhaitez préparer l'environnement pour utiliser [Terraform](/pages/public_cloud/compute/how_to_use_terraform), vous devez préparer l'environnement.
+- Si vous souhaitez préparer l'environnement pour utiliser [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), vous devez préparer l'environnement.
 
 **Découvrez comment créer un disque supplémentaire et le configurer sur votre instance.**
 
@@ -35,7 +35,7 @@ Cela peut être utile dans les cas suivants :
 - Être connecté à votre [espace client OVHcloud](/links/manager)
 - Disposer d'une instance [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps){.external} dans votre compte OVHcloud
 - Avoir un accès administrateur (sudo) à votre instance via SSH
-- Préparer l'environnement si vous souhaitez utiliser [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- Préparer l'environnement si vous souhaitez utiliser [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 > [!warning]
 > Cette fonctionnalité n'est actuellement pas disponible pour les instances Metal.

@@ -41,10 +41,10 @@ For a more detailed explanation of this process, please consult our guide [Manag
 
 ## Go further
 
-[Information regarding Public Cloud billing options](/pages/public_cloud/compute/analyze_billing)
+[Information regarding Public Cloud billing options](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Managing contacts for your services](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Delegating projects](/pages/public_cloud/compute/delegate_projects)
+[Delegating projects](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Join our [community of users](/links/community).

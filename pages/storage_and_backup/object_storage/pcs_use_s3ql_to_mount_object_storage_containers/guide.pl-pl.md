@@ -15,7 +15,7 @@ You can find more information directly on their [website](http://www.rath.org/s3
 
 ## Prerequisites
 
-- [Configure user](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Configure user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - [Add storage space](/pages/storage_and_backup/object_storage/pcs_create_container)
 
 ## Instructions
@@ -41,7 +41,7 @@ fs-passphrase: PASSPHRASE
 ```
 
 OS_PROJECT_ID, OS_USERNAME and OS_PASSWORD parameters can be found in your OpenRC file.
-You can follow this guide below in order to retrieve it: [Access and Security in Horizon](/pages/public_cloud/compute/access_and_security_in_horizon)
+You can follow this guide below in order to retrieve it: [Access and Security in Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)
 
 The REGION_NAME and CT_NAME arguments can be adapted according the name and location of your object container.
 

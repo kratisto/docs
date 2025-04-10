@@ -18,7 +18,7 @@ Para tal, é possível que crie snapshots das suas instâncias, podendo utilizar
 ## Requisitos
 
 - Ter [criado uma instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) na sua conta OVHcloud
-- [Ter acesso à interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Ter acesso à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## Instruções
 

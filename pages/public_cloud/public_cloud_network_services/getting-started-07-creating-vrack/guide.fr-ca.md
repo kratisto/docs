@@ -12,9 +12,9 @@ Le [vRack](/links/network/vrack) est un réseau privé qui vous permet de config
 
 ## Prérequis
 
-- Posséder un [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
+- Posséder un [projet Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 - Être connecté à votre [espace client OVHcloud](/links/manager)
-- Avoir [créé un utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (facultatif)
+- Avoir [créé un utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (facultatif)
 - Connaissances réseaux élémentaires
 
 ## Présentation des interfaces
@@ -39,7 +39,7 @@ Interface visuelle indépendante d'OVHcloud, [Horizon](https://horizon.cloud.ovh
 
 Cette interface complète et technique vous permet de gérer la quasi totalité des actions OpenStack. Ce sera une des interfaces nécessaires si vous souhaitez gérer plus de deux VLAN, ajouter des interfaces réseau privées à vos instances, gérer des images personnalisées, etc.
 
-Consultez le guide [Accéder à l'interface Horizon](/pages/public_cloud/compute/introducing_horizon) pour vous familiariser à Horizon.
+Consultez le guide [Accéder à l'interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) pour vous familiariser à Horizon.
 
 > [!primary]
 > Horizon fonctionnant par zone, pensez bien à choisir votre zone géographique de travail tout en haut à gauche de votre interface (GRA5, SBG3, BHS1, etc.)
@@ -72,8 +72,8 @@ Grâce à l’API OpenStack, vous pouvez aussi facilement automatiser cette gest
 
 Afin de vous familariser avec l'API OpenStack, consultez tout d'abord les guides suivants :
 
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Charger les variables d’environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Vous pourrez alors, suivant votre besoin, utiliser les API dédiées à OpenStack :
 

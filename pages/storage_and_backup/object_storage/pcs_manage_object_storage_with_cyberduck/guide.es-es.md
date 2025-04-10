@@ -28,10 +28,10 @@ Cyberduck es una de esas soluciones, y es fácil de configurar. En internet podr
 ## Requisitos
 
 - Descargar e instalar [Cyberduck](https://cyberduck.io/).
-- Disponer de las claves de usuario (*OS_USERNAME*) y del proyecto (*OS_PROJECT_NAME* o *OS_TENANT_NAME*), que puede obtener descargando el archivo OpenRC en el menú [Users and Roles](/pages/public_cloud/compute/loading_openstack_environment_variables#paso-1-obtener-las-variables) de su [área de cliente Public Cloud de OVHcloud](/links/manager).
+- Disponer de las claves de usuario (*OS_USERNAME*) y del proyecto (*OS_PROJECT_NAME* o *OS_TENANT_NAME*), que puede obtener descargando el archivo OpenRC en el menú [Users and Roles](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables#paso-1-obtener-las-variables) de su [área de cliente Public Cloud de OVHcloud](/links/manager).
 - Disponer de su contraseña de usuario de OpenStack.
 
-Si ya no conoce la contraseña de usuario de OpenStack, puede cambiarla siguiendo [esta guía](/pages/public_cloud/compute/create_and_delete_a_user).
+Si ya no conoce la contraseña de usuario de OpenStack, puede cambiarla siguiendo [esta guía](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## Procedimiento
 

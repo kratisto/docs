@@ -13,7 +13,7 @@ The kubernetes database operator allows you to automaticaly authorize your Kuber
 ## Requirements
 
 - Access to the [OVHcloud API](/links/api). Create your credentials using our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 
 ### Getting your OVHcloud API tokens information
 

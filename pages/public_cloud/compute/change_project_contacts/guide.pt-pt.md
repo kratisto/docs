@@ -47,10 +47,10 @@ Para uma explicação mais detalhada deste procedimento, consulte o nosso guia "
 
 ## Quer saber mais?
 
-[Informações sobre o método de faturação cloud](/pages/public_cloud/compute/analyze_billing)
+[Informações sobre o método de faturação cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Como gerir os contactos dos serviços OVHcloud](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Delegar projetos](/pages/public_cloud/compute/delegate_projects)
+[Delegar projetos](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.

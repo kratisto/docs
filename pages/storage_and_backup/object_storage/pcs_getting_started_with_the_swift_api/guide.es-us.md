@@ -18,8 +18,8 @@ El *swiftclient* de OpenStack permite interactuar y gestionar contenedores y obj
 
 ## Requisitos
 
-- [Preparar el entorno para utilizar la API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) instalando python-swiftclient
-- [Cargar las variables de entorno OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Preparar el entorno para utilizar la API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) instalando python-swiftclient
+- [Cargar las variables de entorno OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Procedimiento
 
@@ -141,7 +141,7 @@ Si el contenedor está configurado como público, puede acceder al archivo media
 https://storage.gra1.cloud.ovh.net/v1/AUTH_b3e26xxxxxxxxxxxxxxxxxxxb0ba29/container1/images/OVHlogo.png
 ```
 
-La URL se compone de un punto de terminación, disponible a partir de la [interfaz Horizon](/pages/public_cloud/compute/access_and_security_in_horizon), el nombre del contenedor y el nombre del objeto (incluido el prefijo).
+La URL se compone de un punto de terminación, disponible a partir de la [interfaz Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon), el nombre del contenedor y el nombre del objeto (incluido el prefijo).
 
 ### Descargando archivos
 

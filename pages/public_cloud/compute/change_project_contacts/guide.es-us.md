@@ -47,10 +47,10 @@ Para más información, consulte nuestra guía [Gestionar los contactos de los s
 
 ## Más información
 
-[Información sobre el tipo de facturación cloud](/pages/public_cloud/compute/analyze_billing)
+[Información sobre el tipo de facturación cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gestionar los contactos de los servicios](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Delegar proyectos](/pages/public_cloud/compute/delegate_projects)
+[Delegar proyectos](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

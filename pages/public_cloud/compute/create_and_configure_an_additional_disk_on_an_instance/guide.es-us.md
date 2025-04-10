@@ -26,7 +26,7 @@ Esto puede ser útil en los siguientes casos:
 - Si quiere aumentar su capacidad de almacenamiento sin tener que cambiar el modelo de instancia.
 - Si quiere disponer de un espacio de almacenamiento de alta disponibilidad y buen rendimiento.
 - Si desea transferir su almacenamiento y sus datos a otra instancia.
-- Si desea preparar el entorno para utilizar [Terraform](/pages/public_cloud/compute/how_to_use_terraform), debe preparar el entorno.
+- Si desea preparar el entorno para utilizar [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), debe preparar el entorno.
 
 **Esta guía explica cómo crear un disco adicional y configurarlo en una instancia.**
 
@@ -35,7 +35,7 @@ Esto puede ser útil en los siguientes casos:
 - Tienes acceso a tu [área de cliente de OVHcloud](/links/manager).
 - Disponer de una instancia de [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) en su cuenta de OVHcloud.
 - Tener acceso de administrador (sudo) a su instancia a través de SSH.
-- Preparar el entorno si desea utilizar [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
+- Preparar el entorno si desea utilizar [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform).
 
 > [!warning]
 >

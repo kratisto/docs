@@ -25,7 +25,7 @@ Es ist möglich, zusätzliche Volumes für Ihre OVHcloud Public Cloud Instanzen 
 - Sie möchten Ihre Speicherkapazität erhöhen, ohne das Instanzmodell zu verändern.
 - Sie benötigen hochverfügbaren und leistungsfähigen Speicherplatz.
 - Sie möchten sowohl Ihren Storage als auch Ihre Daten zu einer anderen Instanz verschieben.
-- Sie bereiten eine Umgebung für die Verwendung von [Terraform](/pages/public_cloud/compute/how_to_use_terraform) vor.
+- Sie bereiten eine Umgebung für die Verwendung von [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform) vor.
 
 **Diese Anleitung erklärt, wie Sie eine zusätzliche Disk erstellen und auf Ihrer Instanz konfigurieren.**
 
@@ -34,7 +34,7 @@ Es ist möglich, zusätzliche Volumes für Ihre OVHcloud Public Cloud Instanzen 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie verfügen über eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps).
 - Sie haben administrativen Zugriff (sudo) auf Ihre Instanz über SSH (Linux) oder RDP (Windows).
-- Vorbereitung der Umgebung für die Verwendung mit [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
+- Vorbereitung der Umgebung für die Verwendung mit [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform).
 
 > [!warning]
 >

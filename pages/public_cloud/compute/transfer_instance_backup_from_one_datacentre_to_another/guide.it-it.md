@@ -14,7 +14,7 @@ In alcuni casi, potrebbe essere necessario spostare un’[istanza Public Cloud](
 
 Per effettuare il trasferimento, avrete bisogno di un ambiente con:
 
-- CLI OpenStack. Consulta la nostra guida "[Come preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)".
+- CLI OpenStack. Consulta la nostra guida "[Come preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)".
 - Connettività con le API OVHcloud OpenStack.
 - Spazio di storage disponibile corrispondente alla dimensione del disco dell’istanza (per lo storage di backup temporaneo).
 

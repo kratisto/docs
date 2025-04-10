@@ -16,7 +16,7 @@ To read an introduction about Data Processing service you can visit [Data Proces
 
 - Access to the [OVHcloud Manager](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie){.external}
 - An OVHcloud account 
-- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/compute/create_a_public_cloud_project){.external} for details.)
+- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project){.external} for details.)
 - Your application must be uploaded into a container in your Object Storage.
 - For the Spark engine, your application can either be :
   - a JAR file, if you're using Java or Scala

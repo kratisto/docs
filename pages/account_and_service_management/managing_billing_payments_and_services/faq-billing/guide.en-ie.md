@@ -166,7 +166,7 @@ You will be invoiced for resources paid in advance, and additional resources use
 
 #### Tips and tricks
 
-For further information, please read this detailed guide: [Information regarding cloud billing options](/pages/public_cloud/compute/analyze_billing).
+For further information, please read this detailed guide: [Information regarding cloud billing options](/pages/public_cloud/public_cloud_cross_functional/analyze_billing).
 
 ### How do I see the accounts ledger?
 

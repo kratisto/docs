@@ -14,7 +14,7 @@ Samples are based on the well-known WordCount. We will first read data from a te
 ## Requirements
 - Access to the [OVHcloud Control Panel](/links/manager).
 - An OVHcloud account.
-- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/compute/create_a_public_cloud_project){.external} for details).
+- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project){.external} for details).
 - Data Processing activated (see [How to activate the Data Processing service](/pages/public_cloud/data_analytics/data_processing/30_HOWTO_activate_project){.external} for details).
 - The input file 'novel.txt' used by the following samples is available [here](https://github.com/ovh/data-processing-samples/tree/master/java_S3WordCount/novel.txt){.external} [[1]](#notes).
 You have to upload it in an Object Storage container. (see [Getting started with the Swift API](/pages/storage_and_backup/object_storage/pcs_getting_started_with_the_swift_api){.external} to read more about how to create an OVHcloud Object Storage container). In this example, we created a container named 'textfile" and uploaded the novel.txt object into that container. 

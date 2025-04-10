@@ -60,7 +60,7 @@ To get more information about the deployment of a LoadBalancer deployment in a M
 
 Our Managed Kubernetes service is based on OpenStack, and your nodes, persistent volumes and load balancers are built on it, using OVHcloud Public Cloud. As such, you can see them in the `Compute` > `Instances` section of your [OVHcloud Public Cloud Control Panel](/links/manager). Though it doesn't mean that you can deal directly with these nodes and persistent volumes the same way you can do it for other Public Cloud instances.
 
-Also, MKS Cluster's quota relies on your project's quota. Consult [this documentation](/pages/public_cloud/compute/increasing_public_cloud_quota) to increase your quota.
+Also, MKS Cluster's quota relies on your project's quota. Consult [this documentation](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) to increase your quota.
 
 The *managed* part of OVHcloud Managed Kubernetes Service means that we have configured those nodes and volumes to be part of our Managed Kubernetes.  
 Please refrain from manipulating them from the *OVHcloud Public Cloud Control Panel* (modifying ports left opened, renaming, resizing volumes...), as you could break them.

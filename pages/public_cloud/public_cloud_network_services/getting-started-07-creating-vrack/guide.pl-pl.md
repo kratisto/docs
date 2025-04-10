@@ -12,9 +12,9 @@ Usługa [vRack](/links/network/vrack) to prywatna sieć, która umożliwia klien
 
 ## Wymagania początkowe
 
-- [projekt Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) na koncie OVHcloud
+- [projekt Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) na koncie OVHcloud
 - dostęp do [Panelu klienta OVHcloud](/links/manager)
-- [użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (opcjonalnie)
+- [użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (opcjonalnie)
 - podstawowa wiedza w zakresie sieci komputerowych
 
 ## Interfejsy
@@ -39,7 +39,7 @@ Interfejs [Horizon](https://horizon.cloud.ovh.net/auth/login/) (niezależny od O
 
 Ten wielofunkcyjny interfejs techniczny pozwala na zarządzanie prawie wszystkimi operacjami OpenStack. Jest to jeden z niezbędnych interfejsów, jeśli potrzebujesz zarządzać więcej niż dwoma sieciami VLAN, dodawać prywatne interfejsy sieciowe do instancji, zarządzać obrazami dostosowanymi do Twoich potrzeb, itp.
 
-Zapoznaj się z następującą [instrukcją](/pages/public_cloud/compute/introducing_horizon), aby zapoznać się z Horizon.
+Zapoznaj się z następującą [instrukcją](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon), aby zapoznać się z Horizon.
 
 > [!primary]
 > Horizon działa w danej strefie. Dlatego też należy pamiętać o wyborze logicznej (geograficznej) strefy roboczej w lewym górnym rogu interfejsu (GRA5, SBG3, BHS1 itp.).
@@ -69,8 +69,8 @@ Dzięki API OpenStack możesz również w prosty sposób zautomatyzować zarząd
 
 Aby uzyskać więcej informacji na temat korzystania z API OpenStack, zapoznaj się z następującymi przewodnikami:
 
-- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Zmienne środowiskowe OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Następnie, w razie potrzeby, będziesz mógł korzystać z API dedykowanych dla OpenStack:
 

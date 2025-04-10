@@ -40,9 +40,9 @@ You can then go further with your Public Cloud project according to your needs.
 
 > [!primary]
 >
-> If you have not created a Public Cloud project yet, start with our [guide on how to create a project](/pages/public_cloud/compute/create_a_public_cloud_project).
+> If you have not created a Public Cloud project yet, start with our [guide on how to create a project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 > 
-> Important **technical details** about the OVHcloud Public Cloud are available on [this guide page](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> Important **technical details** about the OVHcloud Public Cloud are available on [this guide page](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 > 
 
 ### Content overview
@@ -192,7 +192,7 @@ Instance models of the type `Metal`{.action} provide dedicated physical resource
 
 > [!primary]
 >
-Your Public Cloud resources total will initially be limited for cost control and security reasons. You can verify these quotas by clicking `Quota and Regions`{.action} in the left-hand navigation bar under **Project Management**. Please consult [the dedicated documentation](/pages/public_cloud/compute/increasing_public_cloud_quota) for more information.
+Your Public Cloud resources total will initially be limited for cost control and security reasons. You can verify these quotas by clicking `Quota and Regions`{.action} in the left-hand navigation bar under **Project Management**. Please consult [the dedicated documentation](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) for more information.
 >
 Note that you can **upgrade** your instance after creation to have more resources available. Switching to a smaller model however is not possible with a regular instance. You can find more information on this topic in **Step 4.4** below.
 >
@@ -283,7 +283,7 @@ This step offers several configuration options. Click on the tabs below to view 
 > [!tabs]
 > **1: Number of instances to be created**
 >>
->> You can create multiple instances based on the selections in the creation steps but [resource quota limitations](/pages/public_cloud/compute/increasing_public_cloud_quota) will apply.<br>
+>> You can create multiple instances based on the selections in the creation steps but [resource quota limitations](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) will apply.<br>
 >>
 > **2: Flexible instance**
 >>
@@ -373,7 +373,7 @@ Click `Next`{.action} to proceed to the final step.
 
 Find out the details in our dedicated billing documentation:
 
-- [Public Cloud billing](/pages/public_cloud/compute/analyze_billing)
+- [Public Cloud billing](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [Monthly billing FAQ](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Once you have finished your instance configuration, click on the button `Create an instance`{.action}. It may take a few minutes until your service is delivered.
@@ -662,9 +662,9 @@ Use our [dedicated guide](/pages/public_cloud/compute/configuring_additional_ssh
 
 [Instance management in the Control Panel](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[How to get started with OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[How to get started with OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[How to get started with Horizon](/pages/public_cloud/compute/introducing_horizon)
+[How to get started with Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.

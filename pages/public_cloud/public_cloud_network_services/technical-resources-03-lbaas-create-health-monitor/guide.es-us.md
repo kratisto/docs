@@ -12,7 +12,7 @@ Learn how to create and manage a Health Monitor for your OVHcloud Load Balancers
 
 - An [active OVHcloud account](/links/manager)
 - Understanding of the [Load Balancer concepts](/pages/public_cloud/public_cloud_network_services/concepts-03-loadbalancer)
-- An active [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project)
+- An active [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 - A previously configured [Load Balancer](/pages/public_cloud/public_cloud_network_services/getting-started-01-create-lb-service) within your OVHcloud project
 
 ## Instructions
@@ -148,7 +148,7 @@ openstack loadbalancer healthmonitor list
 There are two ways to access the Horizon interface:
 
 - To log in with OVHcloud Single Sign-On: Use the `Horizon`{.action} link in the left-hand menu under "Management Interfaces" after opening your `Public Cloud`{.action} project in the [OVHcloud Control Panel](/links/manager).
-- To log in with a specific OpenStack user: Open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/compute/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
+- To log in with a specific OpenStack user: Open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
 
 In the left menu, click on the `Network`{.action} tab and select `Load Balancers`{.action}.
 

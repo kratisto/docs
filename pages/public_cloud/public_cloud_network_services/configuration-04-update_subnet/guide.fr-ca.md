@@ -28,7 +28,7 @@ It is currently not possible to update a subnet through this interface but you c
 
 ### Using Horizon
 
-Connect to Horizon & choose the region where the subnet is defined as explained in this [guide](/pages/public_cloud/compute/introducing_horizon).
+Connect to Horizon & choose the region where the subnet is defined as explained in this [guide](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Click on `Project > Network > Networks`. The page will display the list of networks available which contain an OVHcloud managed network for public connectivity (`Ext-Net`) as well as your network.
 
@@ -56,7 +56,7 @@ Click on `Save` and your subnet is updated with a gateway IP !
 
 ### Using the OpenStack Command Line Interface
 
-You need to have your [CLI environment set up](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) and your [variables defined](/pages/public_cloud/compute/loading_openstack_environment_variables).
+You need to have your [CLI environment set up](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) and your [variables defined](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 Run the following command (replace `private_network_GRA11` by the name of your private network):
 

@@ -26,7 +26,7 @@ Ciò può essere utile nei seguenti casi:
 - Per aumentare la capacità di storage senza modificare il modello di istanza
 - Per avere uno spazio di storage high availability e performante
 - Spostare lo storage e i dati verso un'altra istanza
-- Se si desidera preparare l'ambiente per l'utilizzo di [Terraform](/pages/public_cloud/compute/how_to_use_terraform), è necessario prepararlo.
+- Se si desidera preparare l'ambiente per l'utilizzo di [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), è necessario prepararlo.
 
 **Questa guida ti mostra come creare un disco aggiuntivo e configurarlo sulla tua istanza.**
 
@@ -35,7 +35,7 @@ Ciò può essere utile nei seguenti casi:
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Disporre di un'istanza [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) nel proprio account OVHcloud
 - Avere un accesso amministratore (sudo) alla tua istanza via SSH
-- Prepara l'ambiente per utilizzare [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- Prepara l'ambiente per utilizzare [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 > [!warning]
 >

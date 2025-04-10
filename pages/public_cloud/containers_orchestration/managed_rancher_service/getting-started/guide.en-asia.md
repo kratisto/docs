@@ -11,7 +11,7 @@ Managed Rancher Service by OVHcloud provides a powerful platform for orchestrati
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 > [!success]
@@ -92,7 +92,7 @@ You need to provide the following parameters:
 | Application Key | Yes | Refer to the guide provided above. Value is provided at the API keys generation step on <https://www.ovh.com/auth/api/createToken>. |
 | Consumer Key | Yes | Refer to the guide provided above. Value is provided at the API keys generation step on <https://www.ovh.com/auth/api/createToken>. |
 | Application Secret | Yes | Refer to the guide provided above. Value is provided at the API keys generation step on <https://www.ovh.com/auth/api/createToken>. |
-| Public Cloud project ID | Yes | The projectID of the OVHcloud project where your MKS cluster will be deployed. You can follow the guide on [How to create your first Project](/pages/public_cloud/compute/create_a_public_cloud_project) or if already existing, you can copy/paste it from the OVHcloud Control Panel or [API](https://ca.api.ovh.com/console-preview/?section=%2Fcloud&branch=v1#get-/cloud/project) |
+| Public Cloud project ID | Yes | The projectID of the OVHcloud project where your MKS cluster will be deployed. You can follow the guide on [How to create your first Project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) or if already existing, you can copy/paste it from the OVHcloud Control Panel or [API](https://ca.api.ovh.com/console-preview/?section=%2Fcloud&branch=v1#get-/cloud/project) |
 | OVH API Endpoint | Yes | Select the OVHcloud subsidiary (EU, US, CA) |
 
 4\. Move to **Cluster Configuration**
@@ -167,8 +167,8 @@ Provide the following parameters:
 
 - **Credential Name** (optional).
 - **OpenStack Authentication URL**, default value can't be changed.
-- Your OpenStack **Username**, please refer to our Documentation for [Managing OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
-- your OpenStack **Password**, please refer to our Documentation for [Managing OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user).
+- Your OpenStack **Username**, please refer to our Documentation for [Creating and deleting OpenStack users](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+- your OpenStack **Password**, please refer to our Documentation for [Creating and deleting OpenStack users](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 Once created, the cloud credentials will be used to provision nodes in your cluster. You can reuse these credentials for other node templates or in other clusters.
 

@@ -26,7 +26,7 @@ This can be useful in cases where:
 - You want to increase your storage capacity without changing the instance model.
 - You want to have a highly available, high-performance storage.
 - You want to move your storage as well as your data to another instance.
-- You want to prepare the environment if you want to use [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
+- You want to prepare the environment if you want to use [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform).
 
 **This guide explains how to create an additional disk and configure it on your instance.**
 

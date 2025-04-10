@@ -14,7 +14,7 @@ Möglicherweise müssen Sie Ihre [Public Cloud Instanz](/links/public-cloud/comp
 
 Um den Transfer durchzuführen benötigen Sie eine Umgebung mit:
 
-- [OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 - Anbindung an die OpenStack API von OVHcloud.
 - Verfügbarer Speicherplatz entsprechend der Größe der Instanz-Disk (für temporären Backup-Speicher).
 

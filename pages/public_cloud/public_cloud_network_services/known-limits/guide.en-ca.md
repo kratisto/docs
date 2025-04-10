@@ -14,8 +14,8 @@ Currently, the Load Balancer details page in the OVHcloud Control Panel doesn't 
 
 You can find this information:
 
-- in [Horizon](/pages/public_cloud/compute/introducing_horizon).
-- using the [OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) by doing `openstack floating ip list` and `openstack loadbalancer list`.
+- in [Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
+- using the [OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) by doing `openstack floating ip list` and `openstack loadbalancer list`.
 - using the OVHcloud API:
 
 > [!api]

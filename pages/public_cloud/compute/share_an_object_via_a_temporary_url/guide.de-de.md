@@ -14,8 +14,8 @@ Wenn Sie eine Datei für einen anderen Benutzer freigeben, möchten Sie dabei na
 
 ## Voraussetzungen
 
-- [Sie haben die Umgebung für die Verwendung der OpenStack-API vorbereitet](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
-- [Sie haben die OpenStack-Umgebungsvariablen eingerichtet](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Sie haben die Umgebung für die Verwendung der OpenStack-API vorbereitet](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- [Sie haben die OpenStack-Umgebungsvariablen eingerichtet](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 - Python ist auf Ihrem System installiert.
 
 ## In der praktischen Anwendung
