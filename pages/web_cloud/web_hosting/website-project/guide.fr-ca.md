@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Objectif
 
-OVHcloud propose [plusieurs offres d'hébergement web](/links/web/hosting). Elles sont conçues pour différents cas d'usage :
+OVHcloud propose plusieurs offres d'[hébergement web](/links/web/hosting). Elles sont conçues pour différents cas d'usage :
 
 - Débuter sur le Web.
 - Créer rapidement un site web (professionnel ou non), un blog, un **C**ontent **M**anagement **S**ystem (**CMS**) tel que *WordPress*, *Joomla!*, *PrestaShop* ou *Drupal* ou encore une boutique en ligne.
@@ -33,7 +33,7 @@ Ces offres vous épargnent de gérer la maintenance, la mise à jour et la sécu
 Elles vous permettent de gagner du temps sur « l'administration serveur » et de vous concentrer uniquement sur :
 
 - Le développement, la mise à jour et la sécurité d'un site web, blog, CMS ou boutique en ligne;
-- La sécurité et l'optimisation d'une ou plusieurs base(s) de données si votre offre en dispose;
+- La sécurité et l'optimisation d'une ou de plusieurs bases de données si votre offre en dispose;
 - La configuration et la gestion de vos adresses e-mail incluses avec votre offre d'hébergement web.
 
 **Découvrez comment mettre en ligne votre site web et créer des adresses e-mail avec votre solution d'hébergement web.**
@@ -47,7 +47,7 @@ Elles vous permettent de gagner du temps sur « l'administration serveur » et d
 
 ## En pratique
 
-L'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting).
+L'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting). 
 Chacune de ces actions sera accompagnée d'un ou plusieurs liens vers des guides spécifiques (en rapport avec l'action en question).
 
 Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possibles dès la souscription de votre offre d'[hébergement web](/links/web/hosting) et tout au long de son utilisation.
@@ -67,7 +67,7 @@ Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possi
 
 ### Étape 1 - Délimiter votre projet <a name="project-delimitation"></a>
 
-Avant de commencer, il est essentiel d'identifier et de délimiter clairement vos besoins en vous posant les questions suivantes : 
+Avant de commencer, il est essentiel d'identifier et de délimiter clairement vos besoins en vous posant les questions suivantes :
 
 - Est-ce que je dois **créer** ou **migrer** (depuis un autre hébergeur) mon site web ?
 - Ai-je besoin d'une ou de plusieurs base(s) de données pour faire fonctionner mon site web ?
@@ -76,7 +76,6 @@ Avant de commencer, il est essentiel d'identifier et de délimiter clairement vo
 En fonction de vos réponses, vérifiez que votre offre d'[hébergement web](/links/web/hosting) correspond bien à tous vos besoins avant de poursuivre.
 
 Si ce n'est pas le cas, consultez notre guide « [Hébergement web: comment faire évoluer son offre ?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
-
 
 ### Étape 2 - Installer votre site web <a name="website-installation"></a>
 
@@ -192,7 +191,7 @@ Pour plus de détails sur les certificats SSL (gratuits ou payants) proposés su
 
 /// details | Les offres CDN
 
-Toutes nos offres CDN permettent de mettre en cache une partie de votre site web. Ainsi, les temps de chargement des pages qui constituent votre site web sont réduits, notamment pour les visiteurs géographiquement éloignés du data centre où votre hébergement web est .
+Toutes nos offres CDN permettent de mettre en cache une partie de votre site web. Ainsi, les temps de chargement des pages qui constituent votre site web sont réduits, notamment pour les visiteurs géographiquement éloignés du data centre où votre hébergement web est situé.
 
 Avec les hébergements web, OVHcloud propose 3 offres CDN :
 

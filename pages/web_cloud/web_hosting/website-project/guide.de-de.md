@@ -93,7 +93,7 @@ Wenn Sie eine Website von einem anderen Hosting-Anbieter migrieren möchten, les
 
 /// details | Erstellen einer neuen Website
 
-In diesem Fall stehen Ihnen mehrere Lösungen zur Verfügung.
+Sie können Ihre Website vollständig selbst erstellen oder ein [CMS (Content Management System)](/links/web/hosting-cms-comparison) wie WordPress, PrestaShop, Joomla! oder Drupal verwenden. Klicken Sie je nach Ihrer Auswahl auf die folgenden Registerkarten:
 
 > [!tabs]
 > **Ein CMS verwenden**

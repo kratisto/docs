@@ -71,7 +71,7 @@ Avant de commencer, il est essentiel d'identifier et de délimiter clairement vo
 
 - Est-ce que je dois **créer** ou **migrer** (depuis un autre hébergeur) mon site web ?
 - Ai-je besoin d'une ou de plusieurs base(s) de données pour faire fonctionner mon site web ?
-- Ai-je besoin d'une ou de plusieurs adresse(s) e-mail personnalisée(s) avec mon nom de domaine ?
+- Ai-je besoin d'une ou de plusieurs adresses(s) e-mail personnalisée(s) avec mon nom de domaine ?
 
 En fonction de vos réponses, vérifiez que votre offre d'[hébergement web](/links/web/hosting) correspond bien à tous vos besoins avant de poursuivre.
 
