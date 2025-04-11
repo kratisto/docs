@@ -43,9 +43,9 @@ A continuación, podrá ir un paso más allá con su proyecto de Public Cloud en
 
 > [!primary]
 >
-> Si todavía no ha creado ningún proyecto de Public Cloud, comience por nuestra [guía sobre la creación de un proyecto](/pages/public_cloud/compute/create_a_public_cloud_project).
+> Si todavía no ha creado ningún proyecto de Public Cloud, comience por nuestra [guía sobre la creación de un proyecto](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 >
-> **Los detalles técnicos** importantes relativos al Public Cloud de OVHcloud están disponibles en [esta página](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> **Los detalles técnicos** importantes relativos al Public Cloud de OVHcloud están disponibles en [esta página](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 >
 
 ### Presentación del contenido
@@ -193,7 +193,7 @@ Los modelos de instancia de tipo `Metal`{.action} proporcionan recursos físicos
 
 > [!primary]
 >
-> El total de recursos de Public Cloud se limitará inicialmente por motivos de control de costes y seguridad. Puede comprobar estas cuotas haciendo clic en `Quota and Regions`{.action} en la barra de navegación de la izquierda debajo de **Project Management**. Consulte [la documentación dedicada](/pages/public_cloud/compute/increasing_public_cloud_quota) para obtener más información.
+> El total de recursos de Public Cloud se limitará inicialmente por motivos de control de costes y seguridad. Puede comprobar estas cuotas haciendo clic en `Quota and Regions`{.action} en la barra de navegación de la izquierda debajo de **Project Management**. Consulte [la documentación dedicada](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) para obtener más información.
 >
 > Tenga en cuenta que puede **actualizar** su instancia una vez creada para tener más recursos disponibles. Sin embargo, no es posible cambiar a un modelo más pequeño con una instancia regular. Encontrará más información sobre este tema en el paso 4.4** a continuación.
 >
@@ -285,7 +285,7 @@ Este paso ofrece varias opciones de configuración. Haga clic en las fichas sigu
 > [!tabs]
 > **1: Número de instancias que quiere crear**
 >>
->> Puede crear varias instancias en función de las selecciones realizadas durante las fases de creación, pero se aplicarán [los límites de cuota de recursos](/pages/public_cloud/compute/increasing_public_cloud_quota).<br>
+>> Puede crear varias instancias en función de las selecciones realizadas durante las fases de creación, pero se aplicarán [los límites de cuota de recursos](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).<br>
 >>
 > **3: Nombre de la instancia**
 >>
@@ -376,7 +376,7 @@ Haga clic en `Siguiente`{.action} para ir al último paso.
 
 Para más información, consulte nuestra guía de facturación dedicada:
 
-- [Facturación del Public Cloud](/pages/public_cloud/compute/analyze_billing)
+- [Facturación del Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [FAQ sobre la facturación mensual](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Una vez que haya configurado su instancia, haga clic en el botón `Crear una instancia`{.action}. La entrega del servicio puede tardar unos minutos.
@@ -666,9 +666,9 @@ Para más información, consulte nuestra [guía dedicada](/pages/public_cloud/co
 
 [Gestión de instancias en el área de cliente](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Cómo empezar con OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Cómo empezar con OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[Cómo empezar con Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Cómo empezar con Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](/links/professional-services) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
 

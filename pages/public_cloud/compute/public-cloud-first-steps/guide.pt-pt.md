@@ -43,9 +43,9 @@ Poderá depois ir mais longe com o seu projeto Public Cloud em função das suas
 
 > [!primary]
 >
-> Se ainda não criou nenhum projeto Public Cloud, comece pelo nosso [guia sobre a criação de um projeto](/pages/public_cloud/compute/create_a_public_cloud_project).
+> Se ainda não criou nenhum projeto Public Cloud, comece pelo nosso [guia sobre a criação de um projeto](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 >
-> **Os detalhes técnicos** importantes relativos ao Public Cloud da OVHcloud estão disponíveis em [esta página](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> **Os detalhes técnicos** importantes relativos ao Public Cloud da OVHcloud estão disponíveis em [esta página](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 >
 
 ### Apresentação do conteúdo
@@ -193,7 +193,7 @@ Os modelos de instâncias do tipo `Metal`{.action} fornecem recursos físicos de
 
 > [!primary]
 >
-> O total dos seus recursos Public Cloud será inicialmente limitado por razões de controlo de custos e de segurança. Pode verificar estas quotas clicando em "Quota and Regions"{.action} na barra de navegação à esquerda em **Project Management**. Consulte [a documentação dedicada](/pages/public_cloud/compute/increasing_public_cloud_quota) para mais informações.
+> O total dos seus recursos Public Cloud será inicialmente limitado por razões de controlo de custos e de segurança. Pode verificar estas quotas clicando em "Quota and Regions"{.action} na barra de navegação à esquerda em **Project Management**. Consulte [a documentação dedicada](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) para mais informações.
 >
 > Tenha em atenção que pode **atualizar** a sua instância após a sua criação para dispor de mais recursos disponíveis. No entanto, a mudança para um modelo mais pequeno não é possível com uma instância regular. Consulte a secção seguinte para obter mais informações sobre este assumpto **Passo 4.4**.
 >
@@ -286,7 +286,7 @@ Esta etapa oferece várias opções de configuração. Clique nos separadores ab
 > [!tabs]
 > **1: Número de instâncias a criar**
 >>
->> Pode criar várias instâncias em função das seleções efetuadas nas etapas de criação, mas [os limites de quota de recursos](/pages/public_cloud/compute/increasing_public_cloud_quota) aplicar-se-ão.<br>
+>> Pode criar várias instâncias em função das seleções efetuadas nas etapas de criação, mas [os limites de quota de recursos](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) aplicar-se-ão.<br>
 >>
 > **2: Instância flexível**
 >>
@@ -376,7 +376,7 @@ Clique em `Seguinte`{.action} para passar à última etapa.
 
 Consulte os detalhes na nossa documentação de faturação dedicada:
 
-- [Faturação do Public Cloud](/pages/public_cloud/compute/analyze_billing)
+- [Faturação do Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [FAQ sobre a faturação mensal](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Uma vez terminada a configuração da instância, clique no botão `Criar uma instância`{.action}. O serviço poderá demorar alguns minutos a ser entregue.
@@ -667,9 +667,9 @@ Consulte o nosso [manual dedicado](/pages/public_cloud/compute/configuring_addit
 
 [Gestão das instâncias na Área de Cliente](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Como iniciar com OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Como iniciar com OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[Como começar com o Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Como começar com o Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 

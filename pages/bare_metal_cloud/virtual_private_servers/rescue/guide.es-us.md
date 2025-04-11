@@ -1,12 +1,8 @@
 ---
 title: Activar y utilizar el modo de rescate en un VPS
 excerpt: Descubra cómo utilizar el modo de rescate de OVHcloud para solucionar los problemas de su VPS y realizar comprobaciones del sistema
-updated: 2024-02-19
+updated: 2025-03-27
 ---
-
-> [!primary]
-> Esta traducción ha sido generada de forma automática por nuestro partner SYSTRAN. En algunos casos puede contener términos imprecisos, como en las etiquetas de los botones o los detalles técnicos. En caso de duda, le recomendamos que consulte la versión inglesa o francesa de la guía. Si quiere ayudarnos a mejorar esta traducción, por favor, utilice el botón «Contribuir» de esta página.
-> 
 
 ## Objetivo
 
@@ -30,12 +26,12 @@ Si experimenta algún problema con el sistema, la realización de comprobaciones
 ## Requisitos
 
 - Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
-- Tener ya configurado su [VPS de OVHcloud](https://www.ovhcloud.com/es/vps/).
+- Tener ya configurado su [VPS de OVHcloud](/links/bare-metal/vps).
 
 > [!warning]
 > OVHcloud ofrece servicios cuya configuración y gestión son responsabilidad suya. Por lo tanto, es su responsabilidad asegurarse de que funcionen correctamente.
 >
-> Esta guía explica las tareas más habituales. No obstante, le recomendamos que se ponga en contacto con un [proveedor de servicios especializado](https://partner.ovhcloud.com/es/directory/) o con [nuestra comunidad](https://community.ovh.com/en/) si tiene problemas o dudas sobre la administración, el uso o la implementación de servicios en un servidor.
+> Esta guía está diseñada para ayudarle en las tareas comunes tanto como sea posible. No obstante, le recomendamos que se ponga en contacto con un [proveedor de servicios especializados](/links/partner) o con [nuestra comunidad](/links/community) si tiene algún problema.
 >
 
 ## Procedimiento
@@ -46,11 +42,9 @@ Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la secc
 
 En la pestaña `Inicio`{.action}, haga clic en `...`{.action} junto al botón derecho en la zona **Su VPS**.
 
-![configuración del modo de rescate](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Seleccione `Reiniciar en modo de rescate`{.action} en el menú.
-
-Si su área de cliente es diferente, consulte nuestra guía [Gestionar un VPS legacy](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel).
 
 ### Uso del modo de rescate
 
@@ -58,7 +52,7 @@ Una vez iniciado el reinicio, aparecerá una barra de progreso que le indicará 
 
 > [!primary]
 >
-> Recibirá un mensaje de correo electrónico automático con las claves SSH para acceder al modo de rescate. Por favor, espere la recepción del email antes de continuar con cualquier acción. Este mensaje de correo electrónico también puede consultarse en el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/es/&ovhSubsidiary=es). Para localizarlo, haga clic en el nombre asociado a su identificador de OVHcloud en la barra de menús situada en la esquina superior derecha y seleccione `Correo electrónico del servicio`{.action}.
+> Recibirá un mensaje de correo electrónico automático con las claves SSH para acceder al modo de rescate. Por favor, espere la recepción del email antes de continuar con cualquier acción. Este mensaje de correo electrónico también puede consultarse en el [área de cliente de OVHcloud](/links/manager). Para localizarlo, haga clic en el nombre asociado a su identificador de OVHcloud en la barra de menús situada en la esquina superior derecha y seleccione `Correo electrónico del servicio`{.action}.
 >
 
 A continuación, deberá [acceder al servidor por SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction), utilizando la contraseña temporal generada para el modo de rescate.
@@ -73,11 +67,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> Es probable que el cliente SSH bloquee la conexión en un primer momento debido a la incompatibilidad de la huella digital ECDSA. Esto es normal porque el modo de rescate utiliza su propio servidor SSH temporal.
+> Su cliente SSH bloqueará normalmente la conexión al principio debido a una incompatibilidad de la huella digital ECDSA. Esto es normal porque el modo de rescate utiliza su propio servidor SSH temporal. Para resolver este problema, edite el archivo `known_hosts` de su carpeta local `.ssh`.  
+> Existen dos posibilidades:
 >
-> Una forma de evitar este problema es «comentar» la huella digital de su VPS añadiendo un `#` delante de su línea en el archivo `known_hosts`. No olvide deshacer este cambio antes de volver a poner el netboot en modo «normal».<br>También puede eliminar la línea del archivo. El cliente SSH añadirá una nueva huella digital para el VPS cuando vuelva a conectarse. Si necesita instrucciones más detalladas, consulte nuestra guía [Introducción al SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+> - **Eliminar la huella digital del archivo.** El cliente SSH añadirá una nueva huella digital al servidor cuando deje de utilizar el modo de rescate. Para más información, consulte «Login y fingerprint» en nuestra [guía de introducción al SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Desactivar temporalmente la huella digital.** Abra el archivo `known_hosts` con un editor de texto e identifique la cadena de huella digital de su servidor por su dirección IP. Agregue el carácter `#` al principio de la línea. Por lo tanto, esta línea ahora es un "comentario" y será ignorada por las aplicaciones que leen el archivo. No olvide deshacer este cambio antes de reiniciar el VPS.
 >
 
 Para realizar la mayoría de los cambios en el servidor por SSH en modo de rescate, deberá montar la partición del sistema.
@@ -138,7 +135,7 @@ Ahora puede aplicar cambios al sistema, por ejemplo, [restablecer contraseñas d
 
 Una vez que haya completado las acciones en modo de rescate, reinicie el VPS en modo normal desde el área de cliente.
 
-![rescue modo control panel](images/rescue_exit.png){.thumbnail}
+![rescue modo control panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Resolver problemas de inicio
 

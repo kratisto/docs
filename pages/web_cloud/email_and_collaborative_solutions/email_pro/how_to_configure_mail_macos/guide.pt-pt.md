@@ -28,7 +28,7 @@ As contas Email Pro podem ser configuradas em vários softwares de e-mail compat
 >
 > No nosso exemplo, utilizamos a menção servidor: pro<b>?</b>.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 >
 
 ### Adicionar a conta
@@ -41,7 +41,7 @@ As contas Email Pro podem ser configuradas em vários softwares de e-mail compat
 |---|---|
 |![mailmac](images/mail-mac-emailpro01.png){.thumbnail}|Selecione `Outra conta Mail`{.action} e clique em `Conta Mail`{.action}.|
 |Introduza na janela "**Adicionar uma conta Mail**" as seguintes informações: <br>- o **Nome** da sua conta de e-mail <br>- O seu **endereço de e-mail** <br>- A **password** do seu endereço de e-mail |![mailmac](images/mail-mac-emailpro02.png){.thumbnail}|
-|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Na janela seguinte, preencha as informações: <br>- Deixe o seu **endereço de e-mail** já introduzido <br>- Introduza o seu endereço de e-mail completo em **Nome de utilizador** <br>- Deixe a sua **password** já introduzida <br>- Selecione `POP` ou `IMAP`(recomendado) no **Tipo de conta**<br>- Introduza `pro?.mail.ovh.net` no **Servidor de receção** (substitua "**?**" pelo número do seu servidor)<br>-Introduza igualmente `pro?.mail.ovh.net` no **Servidor de envio** (substitua "**?**" pelo número do seu servidor)<br><br>Para terminar a configuração, clique em `Ligar-se`{.action}|
+|![mailmac](images/mail-mac-emailpro03.png){.thumbnail}|Na janela seguinte, preencha as informações: <br>- Deixe o seu **endereço de e-mail** já introduzido <br>- Introduza o seu endereço de e-mail completo em **Nome de utilizador** <br>- Deixe a sua **password** já introduzida <br>- Selecione `POP` ou `IMAP`(recomendado) no **Tipo de conta**<br>- Introduza `pro?.mail.ovh.net` no **Servidor de receção** (substitua "?" pelo número do seu servidor)<br>-Introduza igualmente `pro?.mail.ovh.net` no **Servidor de envio** (substitua "?" pelo número do seu servidor)<br><br>Para terminar a configuração, clique em `Ligar-se`{.action}|
 
 ### Utilizar o endereço de e-mail
 

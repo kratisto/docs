@@ -1,7 +1,7 @@
 ---
 title: Managing hardware RAID
 excerpt: Find out how to verify the state of your hardware RAID and the health of your hard drives
-updated: 2023-08-21
+updated: 2025-03-19
 ---
 
 ## Objective
@@ -10,7 +10,7 @@ On a server with a hardware RAID configuration, the RAID array is managed by a p
 
 ## Requirements
 
-- a [dedicated server](https://www.ovh.com.au/dedicated-servers/){.external} with a hardware RAID configuration
+- a [dedicated server](/links/bare-metal/bare-metal){.external} with a hardware RAID configuration
 - administrative (sudo) access to the server via SSH
 
 > [!warning]
@@ -26,7 +26,7 @@ On a server with a hardware RAID configuration, the RAID array is managed by a p
 
 Prior to verifying your RAID state, verify that you have a MegaRaid controller:
 
-```sh
+```console
 lspci | grep -i lsi | grep -i megaraid
 03:00.0 RAID bus controller: LSI Logic / Symbios Logic MegaRAID SAS 2108 [Liberator] (rev 05)
 ```
@@ -35,7 +35,7 @@ This confirms the server has a MegaRaid controller installed.
 
 To gather and list available RAID arrays, you can use the MegaCli command:
 
-```sh
+```console
 MegaCli -LDInfo -Lall -aALL (Or : storcli /c0 /vall show)
 Adapter 0 - Virtual Drive Information:
 Virtual Drive: 0 (Target Id: 0)
@@ -88,7 +88,7 @@ If the RAID status is "Degraded", we recommend that you verify the hard drive's 
 
 First, you must list the device Id for each drive in order to fully test them with smartmontools:
 
-```sh
+```console
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -118,7 +118,7 @@ Inquiry Data:       PN2234P8JYP59YHGST HUS724030ALA640                    MF8OAA
 
 With smartmontools' smartctl command, we will test each hard drive like this:
 
-```sh
+```bash
 smartctl -d megaraid,N -a /dev/sdX
 ```
 
@@ -128,16 +128,17 @@ In this example, **/dev/sda** is the first RAID, and **/dev/sdb** is the second.
 >
 > In some situations, you may receive this output:
 >
-> ```
+> ```console
 > /dev/sda [megaraid_disk_00] [SAT]: Device open changed type from 'megaraid' to 'sat'
 > ```
 >
 > You must then replace megaraid with sat+megaraid:
 >
-> ```
+> ```bash
 > smartctl -d sat+megaraid,N -a /dev/sdX
 > ```
 
+<!-- markdownlint-disable-next-line MD028 -->
 > [!warning]
 >
 > If one of your hard drives is showing SMART errors, you should perform a full backup of your data as soon as possible and contact our support team. Our support team will need the slot number and device ID in order to identify the faulty disk.
@@ -147,13 +148,13 @@ In this example, **/dev/sda** is the first RAID, and **/dev/sdb** is the second.
 
 To make sure, your RAID controller is working correctly, you can list all information with
 
-```sh
+```bash
 MegaCli -AdpAllInfo -aALL
 ```
 
 The most important section of the output is the error counter:
 
-```none
+```console
 Error Counters
                 ================
 Memory Correctable Errors   : 0
@@ -164,7 +165,7 @@ If the counted errors are more than zero, you should create a backup of your dat
 
 For a succinct output of only the error counters, the command can be expanded by a grep:
 
-```sh
+```console
 MegaCli -AdpAllInfo -aALL | grep "Errors"
 Memory Correctable Errors   : 0
 Memory Uncorrectable Errors : 0
@@ -174,7 +175,7 @@ Memory Uncorrectable Errors : 0
 
 If you had one or more hard drives replaced, the RAID will re-synchronise automatically. You can use this command to see which hard drives are currently rebuilding:
 
-```sh
+```console
 MegaCli -PDList -aAll | egrep 'Slot\ Number|Device\ Id|Inquiry\ Data|Raw|Firmware\ state' | sed 's/Slot/\nSlot/g' (Or : storcli /c0 /eall /sall show)
  
 Slot Number: 0
@@ -204,7 +205,7 @@ Inquiry Data:       PN2234P8JYP59YHGST HUS724030ALA640                    MF8OAA
 
 To monitor the progress of the rebuild operation, you can use this command:
 
-```sh
+```bash
 MegaCli -PDRbld -ShowProg -PhysDrv [EncID:SlotID] -aALL (Or : storcli /c0/eEncID/sSlotID show rebuild)
 ```
 
@@ -219,13 +220,13 @@ The command will retrieve the enclosure ID and slot ID, as shown above.
 
 To verify the CacheCade's configuration, use the following command:
 
-```sh
+```bash
 MegaCli -CfgCacheCadeDsply -a0 (Or : storcli /c0 /dall show cachecade)
 ```
 
 To see which RAID array is associated with the CacheCade:
 
-```sh
+```bash
 MegaCli -CfgCacheCadeDsply -a0 | grep "Associated LDs"
 ```
 
@@ -233,7 +234,7 @@ MegaCli -CfgCacheCadeDsply -a0 | grep "Associated LDs"
 
 to receive a full list of status parameters for the BBU, use this command:
 
-```sh
+```bash
 MegaCli -AdpBbuCmd -aALL
 ```
 
@@ -241,11 +242,16 @@ the most important value to check is if `Battery State` is **Optimal**. If there
 
 ### Using the LSI RAID controller
 
+> [!warning]
+>
+> This RAID controller card is deprecated and no longer available for new servers. It is gradually replaced by MegaRaid controllers.
+>
+
 #### Step 1: Retrieve RAID information
 
 Prior to verifying the RAID state, ensure that an LSI RAID controller card is installed with the following command:
 
-```sh
+```console
 lspci | grep -i lsi | grep -v megaraid
 01:00.0 Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire] (rev 03)
 ```
@@ -264,7 +270,7 @@ To gather and list available RAID arrays, you can use the lsiutil command:
 > Caution, the values (1,0 21) may differ depending on the version. Be very careful when handling this type of control.
 >
 
-```sh
+```console
 lsiutil -p1 -a 1,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -302,7 +308,7 @@ If the RAID status is "Degraded", we recommend that you verify the hard drive's 
 
 To take a look at the hard drive's state from the RAID controller, you can use this command:
 
-```sh
+```console
 lsiutil -p1 -a 2,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -335,31 +341,24 @@ Since the LSI card uses sg-map, we must test the /dev/sgX (X being the device nu
 
 Here's how to list them:
 
-```sh
+```console
 cat /proc/scsi/scsi | grep Vendor
   Vendor: LSI      Model: Logical Volume   Rev: 3000
   Vendor: ATA      Model: HGST HUS724020AL Rev: AA70
   Vendor: ATA      Model: HGST HUS724020AL Rev: AA70
 ```
 
-> [!primary]
->
-> Each line represents a sg device, which is mapped according to the order of the device shown
-> here.
->
-> Example:
->
-> ```
-> Vendor: LSI      Model: Logical Volume   Rev: 3000 => /dev/sg0
-> 
-> Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
-> Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
-> ```
->
+Each line represents an sg device, which is mapped according to the order of the device shown here:
+
+```console
+Vendor: LSI      Model: Logical Volume   Rev: 3000 => /dev/sg0
+Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg1
+Vendor: ATA      Model: HGST HUS724020AL Rev: AA70 => /dev/sg2
+```
 
 In order to list the right devices within one command, use the following:
 
-```sh
+```console
 cat /proc/scsi/scsi | grep Vendor | nl -v 0 | sed 's/^/\/dev\/sg/' | grep -v LSI | cut -d ' ' -f1,6 | sed 's/sg\ /sg/' | sed 's/\/dev\/sg.\ /\/dev\/sg/'
 /dev/sg1
 /dev/sg2
@@ -367,7 +366,7 @@ cat /proc/scsi/scsi | grep Vendor | nl -v 0 | sed 's/^/\/dev\/sg/' | grep -v LSI
 
 With smartmontools' smartctl command, we will test each hard drive, as shown below:
 
-```sh
+```bash
 smartctl -a /dev/sgX 
 ```
 
@@ -387,7 +386,7 @@ If you had one or more hard drives replaced, the RAID will re-synchronise automa
 > Caution, the values (3,0 21) may differ depending on the version. Be very careful when handling this type of control.
 >
 
-```sh
+```console
 lsiutil -p1 -a 3,0 21
  
 LSI Logic MPT Configuration Utility, Version 1.63-OVH (27a4f9f54c)
@@ -417,7 +416,7 @@ RAID actions menu, select an option:  [1-99 or e/p/w or 0 to quit] 0
 
 > [!alert]
 >
-> This RAID controller card is deprecated. We highly recommend that you contact OVHcloud Support to schedule an intervention to replace the RAID controller with an LSI, as 3ware RAID controllers are proven to be rather unstable. This type of intervention requires a reinstallation of your server. Be sure to backup your data first.
+> This RAID controller card is deprecated. We highly recommend that you contact [OVHcloud Support teams](https://help.ovhcloud.com/csm?id=csm_get_help) to schedule an intervention to replace the RAID controller with a MegaRaid controller, as 3ware RAID controllers are proven to be rather unstable. This type of intervention requires a reinstallation of your server. Be sure to backup your data first.
 >
 
 ## Go further

@@ -14,7 +14,7 @@ El objetivo de esta guía es mostrarle cómo cambiar un tipo de volumen Block St
 
 ## Requisitos
 
-- [Conectarse a Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Conectarse a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Un volumen [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) creado en su proyecto [Public Cloud](https://www.ovhcloud.com/es-es/public-cloud/)
 
 ## Procedimiento
@@ -51,8 +51,8 @@ Una vez realizadas estas acciones, haga clic en `Change Volume Type`{.action} pa
 
 Antes de continuar, se recomienda consultar las siguientes guías:
 
-- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Cargar las variables de entorno necesarias para OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Cargar las variables de entorno necesarias para OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 En primer lugar, utilice el siguiente comando para ver los tipos de volúmenes disponibles en su región:
 

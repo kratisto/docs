@@ -18,7 +18,7 @@ At the end of the tutorial, you will succeed to read CSV file from OVHcloud Obje
 ## Requirements 
 - Access to the [OVHcloud control panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca){.external}
 - An OVHcloud account 
-- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) for details.)
+- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) for details.)
 - Data Processing activated (see [How to activate the Data Processing](/pages/public_cloud/data_analytics/data_processing/30_HOWTO_activate_project){.external} for details.)
 
 ## Step 1: Download dataset

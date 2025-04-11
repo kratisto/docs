@@ -38,9 +38,9 @@ As contas Email Pro podem ser configuradas em vários softwares de e-mail compat
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 >
 
 | | |
@@ -48,14 +48,14 @@ As contas Email Pro podem ser configuradas em vários softwares de e-mail compat
 |![Outlook](images/config-outlook-emailpro02.png){.thumbnail}|Entre os diferentes tipos de conta, selecione IMAP e POP. <br>Recomendamos uma utilização em IMAP.|
 |Introduza a password do seu endereço de e-mail e clique em `Seguinte`{.action}. |![Outlook](images/config-outlook-emailpro03.png){.thumbnail}|
 |![Outlook](images/config-outlook-emailpro04.png){.thumbnail}|Se o Outlook não conseguir configurar automaticamente o seu endereço, esta janela será apresentada. <br>Clique em `Modificar os parâmetros da conta`{.action} |
-|Introduza no **Correio de entrada**: <br>- o servidor **pro**?**.mail.ovh.net** (substitua "**?**" pelo número do seu servidor) <br>- Porta **993**<br>- Método de encriptação **SSL/TLS**<br><br>Introduza no **Correio de saída**: <br>- o servidor **pro**?**.mail.ovh.net** (substitua "**?**" pelo número do seu servidor)<br>- Porta **587**<br>- Método de encriptação **STARTTLS**<br><br>Clique em `Seguinte`{.action} para validar. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
+|Introduza no **Correio de entrada**: <br>- o servidor **pro?.mail.ovh.net** (substitua "?" pelo número do seu servidor) <br>- Porta **993**<br>- Método de encriptação **SSL/TLS**<br><br>Introduza no **Correio de saída**: <br>- o servidor **pro?.mail.ovh.net** (substitua "?" pelo número do seu servidor)<br>- Porta **587**<br>- Método de encriptação **STARTTLS**<br><br>Clique em `Seguinte`{.action} para validar. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
 
 No âmbito de uma configuração em **POP**, os valores são os seguintes:
 
 |Tipo de servidor|Nome do servidor|Método de encriptação|Porta|
 |---|---|---|---|
-|De entrada|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
-|De saída|pro**?**.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
+|De entrada|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|SSL/TLS|995|
+|De saída|pro?.mail.ovh.net (a menção **"?"** é substituída pelo número do seu servidor)|STARTTLS|587|
 
 ### Utilizar o endereço de e-mail
 
@@ -81,9 +81,9 @@ A janela está dividida em duas partes, **Correio de entrada** e **Correio de sa
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mail Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 >
 
 ![Outlook](images/config-outlook-emailpro07.png){.thumbnail}

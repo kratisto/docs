@@ -1,41 +1,80 @@
 ---
-title: Sign-up to Data Platform
-excerpt: ""
-updated: 2024-07-09
+title: Sign-up to OVHcloud Data Platform
+excerpt: Find out how to sign up and sign in to OVHcloud Data Platform
+updated: 2025-04-03
 ---
 
-## How to access the Data Platform <sup><small>Beta</small></sup>
+## Objective
 
-> [!warning]
->
-> Data Platform is currently only deployed as a beta version. If you experience any difficulties and/or would like to discuss your experience with other users, you can ask for support by reaching out to us on the Data Platform Channel within the [Discord Server](https://discord.gg/ovhcloud). You can also find a step by step guide towards joining our Discord server in the [support](https://docs.forepaas.io/#/en/support/index) section.
-> 
+You can sign up if you are new to Data Platform or sign in if you have an existing Data Platform organization.
 
-### Signin
-
-Click [here](https://eu.dataplatform.ovh.net/) to access the Data Platform.
-
-![Data PLatform Connect](images/data_platform_connect.png)
-
-If you are accessing the Data Platform for the first time, you need:
-
-- either to sign up with an existing or new OVHcloud account.
-- or to sign up wth a local Data Platform account, only if you have received an invitation to join an existing Data Platform Organization by an admin from your company beforehand.
-
-![OVHcloud Connect](images/ovhcloud-connect.png)
+## Sign-up
 
 > [!primary]
->
-> The administration account needs to be linked to an OVHcloud account.
->
+> If you have received an invitation to join an existing Data Platform Organization from an admin, you can alternatively sign up with your email.
 
-- If you are a regular user, fill the Login/Password form [here](https://hq-fp.dataintegration.ovh.net):
+To access OVHcloud Data Platform for the first time, you need an [OVHcloud account](/pages/account_and_service_management/account_information/ovhcloud-account-creation) and a [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project).
 
-![invite connection](images/invite.png)
+You have different options: sign up from the website or from the OVHcloud Control Panel.
+
+### Option 1: Sign-up from the OVHcloud Website Data Platform Product Page
+
+1. Go to the [Data Platform website](/links/public-cloud/data-platform).
+    ![Data Platform website](images/signup-1.png){.thumbnail}
+2. Click the `Get started for free`{.action} button.
+3. If you are not logged in, you will be redirected to the OVHcloud account-creation/login-page.
+    ![Login page](images/signup-2.png){.thumbnail}
+
+#### If you do not have any active Public Cloud project:
+
+1. Accept the Public Cloud service Terms and Conditions.
+    ![Public Cloud terms and conditions](images/signup-3.png){.thumbnail}
+
+2. Wait for your project to be created.
+    ![Wait](images/signup-4.png){.thumbnail}
+
+3. You will then be asked to add a payment method - **You will benefit from a €200 credit to try the service for free during 30 days**
+    ![Payment method](images/signup-5.png){.thumbnail}
+
+4. You are then invited to your Data Platform organization.
+    ![Data Platform landing page](images/signup-6.png){.thumbnail}
+
+
+#### If you have at least one active Public Cloud project:
+
+1. Select your Public Cloud project or create a new one.
+    ![Pic Public Cloud project](images/signup-7.png){.thumbnail}
+
+2. You are then invited to your Data Platform organization
+    ![Data Platform landing page](images/signup-6.png){.thumbnail}
 
 > [!primary]
->
-> Regular users do not need an OVHcloud account to onboard.
->
+> Each Public Cloud project can only have one organization linked to it. Based on your project name, an organization will be automatically created for you when the Data Platform is launched.
 
-To get more information, please click [here](https://docs.forepaas.io/#/en/product/organisations/create-account) to access our complete account creation guide.
+### Option 2: Sign-up from the OVHcloud Control Panel
+
+If you have an existing OVHcloud account and an active Public Cloud project, you can launch the Data Platform service from the [OVHcloud Control Panel](/links/manager).
+
+You can access it via two links:
+
+- From the left-side menu in the `Databases & Analytics section.
+- Directly via the `Create a Data Platform`{.action} card on the right side.
+
+![Public Cloud project landing page](images/signup-8.png){.thumbnail}
+
+## Sign-in
+
+Click [here](https://eu.dataplatform.ovh.net/) to access the Data Platform sign-in page.
+
+Click on `SIGN-IN WITH MY OVH ACCOUNT`{.action}.
+
+![Data Platform sign-in](images/signup-9.png){.thumbnail}
+
+> [!primary]
+> Signing-in with email and password is only available for people who have been previously invited by their admin to an existing organization.
+
+##  Need help?
+
+At any step, you can create a ticket to raise an incident or if you need support at the [OVHcloud Help Centre](https://help.ovhcloud.com/csm?id=csm_get_help).
+
+Additionally, you can ask for support by reaching out to us on the Data Platform Channel within the [Discord Server](https://discord.gg/ovhcloud).

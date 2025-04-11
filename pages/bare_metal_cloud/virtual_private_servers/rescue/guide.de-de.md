@@ -1,12 +1,8 @@
 ---
 title: Rescue-Modus für einen VPS aktivieren und verwenden
 excerpt: Erfahren Sie hier, wie Sie den OVHcloud Rescue-Modus für Ihren VPS zur Fehlerbehebung und zur Durchführung von Systemprüfungen verwenden
-updated: 2024-02-19
+updated: 2025-03-27
 ---
-
-> [!primary]
-> Diese Übersetzung wurde durch unseren Partner SYSTRAN automatisch erstellt. In manchen Fällen können ungenaue Formulierungen verwendet worden sein, z.B. bei der Beschriftung von Schaltflächen oder technischen Details. Bitte ziehen Sie im Zweifelsfall die englische oder französische Fassung der Anleitung zu Rate. Möchten Sie mithelfen, diese Übersetzung zu verbessern? Dann nutzen Sie dazu bitte den Button "Beitragen" auf dieser Seite.
->
 
 ## Ziel
 
@@ -30,7 +26,7 @@ Wenn Sie ein Problem mit Ihrem System feststellen, können Sie mithilfe des Resc
 ## Voraussetzungen
 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
-- Sie haben einen [VPS](https://www.ovhcloud.com/de/vps/) in Ihrem OVHcloud Kunden-Account.
+- Sie haben einen [VPS](/links/bare-metal/vps) in Ihrem OVHcloud Kunden-Account.
 
 > [!warning]
 >
@@ -47,11 +43,9 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in
 
 Klicken Sie im Tab `Start`{.action} auf `...`{.action} neben "Boot" im Bereich **Ihr VPS**.
 
-![Rescue-Modus](images/rescue_new.png){.thumbnail}
+![Rescue](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_rescue.png){.thumbnail}
 
 Wählen Sie Im Menü `Neustart im Rescue-Modus`{.action}.
-
-Wenn Ihr Kundencenter abweichend angezeigt wird, lesen Sie unsere Anleitung "[Legacy VPS verwalten](/pages/bare_metal_cloud/virtual_private_servers/vps_legacy_control_panel)".
 
 ### Verwendung des Rescue-Modus
 
@@ -75,11 +69,14 @@ ssh root@vps-x11x11xyy.vps.ovh.net
 root@vps-x11x11xyy.vps.ovh.net's password:
 ```
 
-> [!warning]
+> [!primary]
 >
-> Ihr SSH-Client wird die Verbindung wahrscheinlich zunächst blockieren, weil der ECDSA *Fingerprint* nicht mehr übereinstimmt. Dies ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet.
+> Ihr SSH-Client wird die Verbindung üblicherweise zunächst blockieren, weil der ECDSA-Fingerprint nicht mehr übereinstimmt. Das ist normal, da der Rescue-Modus seinen eigenen temporären SSH-Server verwendet. Um dies zu beheben, bearbeiten Sie die Datei `known_hosts` in Ihrem lokalen Ordner `.ssh`.  
+> Sie haben zwei Möglichkeiten:
 >
-> Eine Möglichkeit, dieses Problem zu umgehen, besteht im "Auskommentieren" des VPS *Fingerprint*, indem Sie in der Datei `known_hosts` der entsprechenden Zeile ein `#` voranstellen. Vergessen Sie nicht, diese Änderung rückgängig zu machen, bevor Sie den Netboot wieder in den "normalen" Modus versetzen.<br>Sie können auch einfach die Zeile aus der Datei löschen. Ihr SSH-Client fügt dann einen neuen *Fingerprint*-Eintrag für den VPS hinzu, sobald die Verbindung erneut hergestellt wird. Wenn Sie detaillierte Instruktionen benötigen, konsultieren Sie unsere Anleitung "[Einführung in SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction)".
+> - **Den Fingerprint aus der Datei löschen.** Ihr SSH-Client fügt dann einen neuen Fingerprint-Eintrag für den Server hinzu, sobald Sie den Rescue-Modus nicht mehr verwenden. Eine ausführliche Erläuterung finden Sie im Abschnitt "Login und Fingerprint" in unserer [Einführung zu SSH](/pages/bare_metal_cloud/dedicated_servers/ssh_introduction).
+>
+> - **Den Fingerprint vorübergehend deaktivieren.** Öffnen Sie die Datei `known_hosts` mit einem Texteditor und identifizieren Sie die Fingerprint-Zeichenfolge Ihres Servers anhand dessen IP-Adresse. Fügen Sie am Anfang der Zeile das Zeichen `#` ein. Dadurch wird die Zeile zu einem "Kommentar" und von Anwendungen, die die Datei auslesen, ignoriert. Machen Sie diese Änderung rückgängig, bevor Sie den VPS neu starten.
 >
 
 Für die meisten Änderungen an Ihrem Server über SSH im Rescue-Modus muss die Systempartition gemountet werden.
@@ -138,7 +135,7 @@ Sie können jetzt Änderungen auf Ihr System anwenden, zum Beispiel [Benutzerken
 
 Wenn Ihre Aktionen im Rescue-Modus abgeschlossen sind, starten Sie den VPS im "normalen" Modus über Ihr Kundencenter neu.
 
-![Rescue Mode Control Panel](images/rescue_exit.png){.thumbnail}
+![Rescue Mode Control Panel](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 ### Boot-Probleme beheben
 

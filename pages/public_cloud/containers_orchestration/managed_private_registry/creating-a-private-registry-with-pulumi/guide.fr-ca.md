@@ -1,7 +1,7 @@
 ---
 title: Creating a private registry with Pulumi
 excerpt: 'Create an OVHcloud Managed Private Registry (Harbor) with Pulumi'
-updated: 2025-02-25
+updated: 2025-03-13
 ---
 
 ## Objective
@@ -19,7 +19,7 @@ Pulumi offers an intuitive command line interface (CLI), to provision, update or
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - Installing the [Pulumi CLI](https://www.pulumi.com/docs/install/){.external}
 - An account in [Pulumi](https://www.pulumi.com/)
 - A [Pulumi access token](https://app.pulumi.com/account/tokens)
@@ -341,7 +341,7 @@ Outputs:
     registryPassword: [secret]
     registryURL     : "https://034nl9k0.c1.gra9.container-registry.ovh.net"
     registryUser    : "myuser"
-    registryVersion : "2.10.3"
+    registryVersion : "2.12.2"
 
 Resources:
     + 5 created
@@ -439,7 +439,7 @@ Outputs:
   - registryPassword: [secret]
   - registryURL     : "https://034nl9k0.c1.gra9.container-registry.ovh.net"
   - registryUser    : "myuser"
-  - registryVersion : "2.10.3"
+  - registryVersion : "2.12.2"
 
 Resources:
     - 5 to delete
@@ -464,7 +464,7 @@ Outputs:
   - registryPassword: [secret]
   - registryURL     : "https://034nl9k0.c1.gra9.container-registry.ovh.net"
   - registryUser    : "myuser"
-  - registryVersion : "2.10.3"
+  - registryVersion : "2.12.2"
 
 Resources:
     - 5 deleted

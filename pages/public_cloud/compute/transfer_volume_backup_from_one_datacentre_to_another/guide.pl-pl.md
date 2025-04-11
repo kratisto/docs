@@ -18,7 +18,7 @@ Może zaistnieć potrzeba przeniesienia dodatkowych wolumenów z jednego regionu
 
 Do przeniesienia będziesz potrzebował środowiska z:
 
-- CLI OpenStack. Zapoznaj się z przewodnikiem "[Jak przygotować środowisko do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)".
+- CLI OpenStack. Zapoznaj się z przewodnikiem "[Jak przygotować środowisko do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)".
 - Łączność z API OVHcloud OpenStack.
 - Dostępnego miejsca do magazynowania odpowiadającego rozmiarowi dysku woluminu (dla tymczasowego magazynu kopii zapasowych).
 

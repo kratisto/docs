@@ -141,7 +141,7 @@ These sections show the most important information regarding the billing of your
 
 You can carry out reinstallations in your Control Panel. Click the `...`{.action} button to the right of **OS/Distribution**, then `Reinstall my VPS`{.action}.
 
-![VPSnewreinstallation](images/2023panel_01.png){.thumbnail}
+![Reinstall](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reinst.png){.thumbnail}
 
 In the popup window, choose an operating system from the drop-down list. The options offered represent [images compatible with an OVHcloud VPS](/pages/public_cloud/compute/image-life-cycle) and are immediately functional after installation.
 
@@ -185,7 +185,7 @@ sudo reboot
 
 However, you can force a reboot at any time in your [OVHcloud Control Panel](/links/manager). In the `Home`{.action} tab, click the `...`{.action} button next to `Boot` in the **Your VPS** section. Select `Reboot my VPS`{.action} and click `Confirm`{.action} in the window that pops up.
 
-![Reboot](images/reboot-vps01.png){.thumbnail}
+![Reboot](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/vps/cp_reboot.png){.thumbnail}
 
 <a name="connect"></a>
 

@@ -14,7 +14,7 @@ Celem niniejszego przewodnika jest pokazanie, jak zmienić rodzaj wolumenu Block
 
 ## Wymagania początkowe
 
-- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Dostęp do interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Wolumen [Block Storage](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/)
 
 ## W praktyce
@@ -51,8 +51,8 @@ Po zakończeniu tych operacji kliknij przycisk `Change Volume Type`{.action}, ab
 
 Przed kontynuowaniem zalecamy zapoznanie się z następującymi przewodnikami:
 
-- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Ustawianie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Ustawianie zmiennych środowiskowych OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 W pierwszym kroku wyświetl typy wolumenów dostępnych w Twoim regionie przy użyciu następującego polecenia:
 

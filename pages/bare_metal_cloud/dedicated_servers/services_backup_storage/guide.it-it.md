@@ -85,22 +85,23 @@ per recuperare i backup da un servizio di un'altra localizzazione.
 > Possono essere autorizzati solo gli indirizzi IP OVHcloud.
 >
 
-Accedi all'[api.ovh.com](https://api.ovh.com/) e utilizza questa chiamata:
+Accedi alla [console API OVHcloud](/links/api) con le credenziali del tuo account cliente e utilizza la chiamata seguente:
 
 > [!api]
 >
 > @api {v1} /dedicated/server POST /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-Inserisci i campi in questo modo:
 
-- `serviceName`: il nome del tuo server dedicato
-- `cifs`: barrare se necessario
-- `ftp`: barrare se necessario
-- `ipBlock`: inserisci l'IP che avrà accesso nella forma `1.2.3.4/32`
-- `nfs`: barrare se necessario
+Modificare le impostazioni come indicato di seguito:
 
-![apiacladri](images/aclapi01.png){.thumbnail}
+- `serviceName`: inserisci il nome interno del tuo server (`ns1111111.ip-203-0-113.eu`).
+- `cifs`: se utilizzate questo protocollo, impostate questo parametro su `true`.
+- `ftp`: se utilizzate questo protocollo, impostate questo parametro su `true`.
+- `ipBlock`: inserisci l’indirizzo IP che vi avrà accesso, nella forma `203.0.113.100/32`.
+- `nfs`: se utilizzate questo protocollo, impostate questo parametro su `true`.
+
+Clicca sul pulsante `EXECUTE`{.action}.
 
 Per verificare che il tuo indirizzo IP sia autorizzato, utilizza questa chiamata:
 
@@ -109,7 +110,6 @@ Per verificare che il tuo indirizzo IP sia autorizzato, utilizza questa chiamata
 > @api {v1} /dedicated/server GET /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-![apiacladri](images/aclapi02.png){.thumbnail}
 
 ### Reimposta la password
 
@@ -311,7 +311,7 @@ mount -t nfs HostName:/export/ftpbackup/ServiceName /FolderMount
 Sostituisci le variabili dell’esempio con le informazioni dei tuoi servizi.
 
 * **HostName**: nome del Backup Storage
-* **ServiceName**: nome del server (ex:ns0000000.ip-123-123-123.net)
+* **ServiceName**: nome del server (ex:`ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: cartella in cui vuoi eseguire il mount della share NFS
 
 Una volta effettuato il mount della share, è possibile utilizzare comandi come **cp** e **rsync** come in una normale directory.
@@ -329,7 +329,7 @@ net use z: \\HostName\ServiceName
 Sostituisci le variabili dell’esempio con le informazioni dei tuoi servizi.
 
 * **HostName**: nome del Backup Storage
-* **ServiceName**: nome del server (ex:ns0000000.ip-123-123-123.net)
+* **ServiceName**: nome del server (ex:`ns1111111.ip-203-0-113.eu`)
 
 È possibile che venga visualizzato il seguente messaggio di errore:
 
@@ -369,7 +369,7 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 Sostituisci le variabili dell’esempio con le informazioni dei tuoi servizi.
 
 * **HostName**: nome del Backup Storage
-* **ServiceName**: nome del server (ex:ns0000000.ip-123-123-123.net)
+* **ServiceName**: nome del server (ex:`ns1111111.ip-203-0-113.eu`)
 * **FolderMount**: la cartella in cui vuoi effettuare il mount della share (dovrebbe essere già esistente)
 
 ## Per saperne di più

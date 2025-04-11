@@ -12,8 +12,8 @@ En cas de difficultés avec votre accès à Internet, il est parfois nécessaire
 
 ## Prérequis
 
-- Se trouver physiquement près de votre box pour effectuer les actions.
-- Être connecté à l’[espace client OVHcloud](https://www.ovhtelecom.fr/manager/index.html#/){.external}, partie `Accès Internet`{.action}.
+- Être à proximité de votre box pour effectuer les actions.
+- Être connecté à l’[espace client OVHcloud](/links/manager), partie `Accès Internet`{.action}.
 
 ## En pratique
 
@@ -35,8 +35,8 @@ La manipulation est différente selon le modèle de votre box. Rapprochez-vous d
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage TG788vn et TG788vn V2](images/tg788_power.png){.thumbnail}
 
@@ -44,8 +44,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage TG789vn](images/tg789n_power.png){.thumbnail}
 
@@ -53,8 +53,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage TG789vn](images/tg799_power.png){.thumbnail}
 
@@ -62,8 +62,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage Zyxel DX3301-T0](images/zyxeldx3301t0-reboot.png){.thumbnail}
 
@@ -71,8 +71,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage Zyxel VMG8924-B10D](images/zyxelb10d_power.jpg){.thumbnail}
 
@@ -80,8 +80,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage Zyxel VMG8823-B50B](images/zyxelb50b_power.jpg){.thumbnail}
 
@@ -89,8 +89,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage Zyxel VMG8825-T50](images/zyxelVMG8825T50_power.jpg){.thumbnail}
 
@@ -98,8 +98,8 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 
 Le redémarrage électrique de votre box consiste simplement à mettre celle-ci hors tension, puis à l'alimenter de nouveau. Pour cela, deux solutions sont disponibles :
 
-- débrancher puis rebrancher électriquement la box  ;
-- actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
+- Débrancher puis rebrancher électriquement la box;
+- Actionner le bouton ON/OFF à l'arrière comme indiqué ci-dessous.
 
 ![Redémarrage Zyxel VMG8623-T50B](images/zyxelVMG8623T50B_power.jpg){.thumbnail}
 
@@ -110,14 +110,14 @@ Le redémarrage électrique de votre box consiste simplement à mettre celle-ci 
 >
 > - Avant de réinitialiser votre équipement, assurez-vous que celui-ci est et restera allumé (alimenté électriquement) durant la manipulation.
 > - Si vous avez déjà paramétré votre box via son interface locale, sauvegardez ou récupérez les informations de configuration existantes (si vous souhaitez les conserver).
-> - Si une première réinitialisation ne résoud pas les éventuelles difficultés rencontrées, débranchez les câbles LAN (reliant vos équipements locaux à votre modem) puis effectuez une nouvelle réinitialisation de votre box OVHcloud.
+> - Si une première réinitialisation ne résout pas les éventuelles difficultés rencontrées, débranchez les câbles LAN (reliant vos équipements locaux à votre modem) puis effectuez une nouvelle réinitialisation de votre box OVHcloud.
 >
 
 Il existe deux possibilités pour réinitialiser votre box OVHcloud :
 
-- **depuis l'[espace client](https://www.ovhtelecom.fr/manager/index.html#/){.external}** : positionnez-vous sur l'onglet `Mon modem`{.action} de l'accès à Internet concerné, puis utilisez le bouton `Réinitialiser le modem`{.action}. Cette solution est commune à tous les modèles de box. Si nécessaire, reportez-vous à notre guide « [Configurer sa box à partir de l'espace client OVHcloud](/pages/web_cloud/internet/internet_access/configuration_du_modem_a_partir_de_votre_espace_client#22-configuration-generale) » ;
+- **Depuis l'[espace client](/links/manager)** : Positionnez-vous sur l'onglet `Mon modem`{.action} de l'accès à Internet concerné, puis utilisez le bouton `Réinitialiser le modem`{.action}. Cette solution est commune à tous les modèles de box. Si nécessaire, reportez-vous à notre guide « [Configurer sa box à partir de l'espace client OVHcloud](/pages/web_cloud/internet/internet_access/configuration_du_modem_a_partir_de_votre_espace_client#22-configuration-generale) » ;
 
-- **par le biais d'une manipulation manuelle sur votre box** : la marche à suivre est différente selon le modèle de votre box. Rapprochez-vous de celle-ci afin de pouvoir l'identifier, en vous aidant du tableau ci-dessous. Puis poursuivez vers le modèle concerné.
+- **Par le biais d'une manipulation manuelle sur votre box** : La marche à suivre est différente selon le modèle de votre box. Rapprochez-vous de celle-ci afin de pouvoir l'identifier, en vous aidant du tableau ci-dessous. Puis poursuivez vers le modèle concerné.
 
 |[TG788vn/TG788vn V2](./#reinitialiser-un-modele-tg788vn-ou-tg788vn-v2)|[TG789vn](./#reinitialiser-un-modele-tg789vn)|
 |---|---|

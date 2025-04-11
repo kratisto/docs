@@ -14,7 +14,7 @@ It may become necessary to move additional volumes from one OpenStack region to 
 
 In order to do the transfer, you will need an environment with:
 
-- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api){.external}.
+- OpenStack CLI. Use [our guide to know how to prepare the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api){.external}.
 - Connectivity to OVHCloud OpenStack APIs.
 - Available storage that matches the volume's disk size (for temporary backup storage).
 

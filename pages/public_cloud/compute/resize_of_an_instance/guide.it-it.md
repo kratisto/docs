@@ -33,7 +33,7 @@ In seguito allo sviluppo della tua attività o semplicemente all’evoluzione de
 ## Prerequisiti
 
 - [Aver creato un'istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) nel tuo account OVHcloud
-- [Accedere all’interfaccia Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Accedere all’interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## Procedura
 

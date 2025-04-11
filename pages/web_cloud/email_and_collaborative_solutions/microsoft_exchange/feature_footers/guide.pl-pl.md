@@ -17,12 +17,24 @@ W Panelu klienta OVHcloud można utworzyć uniwersalne podpisy (stopki) dla adre
 
 ## W praktyce
 
-Aby rozpocząć operację, zaloguj się do [Panelu klienta](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij rubrykę `Microsoft`{.action}.
+>> 1. Kliknij na `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+> **Email Pro**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
 
-- **Exchange**: Kliknij `Microsoft`{.action}, po czym kliknij `Exchange`{.action}.
-- **Email Pro**: Kliknij `Email Pro`{.action}.
-
-Następnie kliknij nazwę usługi e-mail, w której znajduje się konto, do którego będziesz nadawał uprawnienia. Kliknij kartę `Więcej+`{.action} w menu poziomym i wybierz pozycję `Stopki`{.action}.
+Kliknij kartę `Więcej+`{.action} w menu poziomym i wybierz pozycję `Stopki`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
@@ -35,7 +47,7 @@ Edytor umożliwia wybór zmiennych odpowiadających danym użytkownika w ustawie
 ![exchangesig](images/exchange-footer-step3aag.gif){.thumbnail}
 
 Stopkę tworzy się przy użyciu tagów HTML, które umożliwiają formatowanie. Dostosuj podpis przy użyciu paska narzędzi u góry. Możesz też zweryfikować kod HTML, klikając przycisk `Źródło`{.action}.
- 
+
 ![exchangesig](images/exchange-footer-step4.png){.thumbnail}
 
 Zaznacz pole wyboru „Włącz ten podpis tylko dla poczty wychodzącej”, aby zapobiec dodawaniu stopki do e-maili przesyłanych między użytkownikami w tej samej domenie. Gdy podpis będzie gotowy, kliknij przycisk `Potwierdź`{.action}. Podpis będzie dołączany do e-mali wysyłanych z kont użytkowników tej domeny. Po utworzeniu podpisów można je edytować lub usunąć z poziomu Panelu klienta OVHcloud.

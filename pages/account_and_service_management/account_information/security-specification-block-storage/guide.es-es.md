@@ -22,7 +22,7 @@ In addition to [the responsibility model for Public Cloud Block Storage](/pages/
 
 ### 2. Recommendations once the service is delivered
 
-Once you have subscribed to an Public Cloud Instance service, you can add your Block storage volumes. You can manage users' rights through the `Users & Roles`{.action} section in the [OVHcloud Control Panel](/links/manager) by following this [guide](/pages/public_cloud/compute/create_and_delete_a_user).
+Once you have subscribed to an Public Cloud Instance service, you can add your Block storage volumes. You can manage users' rights through the `Users & Roles`{.action} section in the [OVHcloud Control Panel](/links/manager) by following this [guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ### 3. Service Level Agreement (SLA)
 

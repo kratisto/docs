@@ -1,7 +1,7 @@
 ---
 title: 'Hostname einer Public Cloud Instanz ändern'
-excerpt: 'So ändern Sie den Hostnamen einer Public Cloud Instanz'
-updated: 2018-09-18
+excerpt: 'Erfahren Sie hier, wie Sie den Hostnamen einer Public Cloud Instanz bearbeiten'
+updated: 2025-03-20
 ---
 
 ## Ziel
@@ -14,22 +14,35 @@ Mit dem *cloud-init* Modul können Sie Ihre [Public Cloud Instanz](https://www.o
 > 
 > OVHcloud stellt Ihnen Dienstleistungen zur Verfügung, für die Sie die alleinige Verantwortung tragen. Da wir keinen Zugriff auf diese Maschinen haben, können wir hierfür keinerlei Administrator-Aufgaben übernehmen oder sonstige Hilfeleistung anbieten. Es liegt daher in Ihrer Verantwortung, das Softwaremanagement und die tägliche Sicherheit zu gewährleisten.
 >
-> Wir stellen Ihnen diese Anleitung zur Verfügung, um Ihnen bei der Bewältigung alltäglicher Verwaltungsaufgaben zu helfen. Wir empfehlen Ihnen jedoch, sich an einen [spezialisierten Dienstleister](https://partner.ovhcloud.com/de/directory/) zu wenden, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Sicherheit eines Servers haben. Sie können sich auch jederzeit an unsere [Community](https://community.ovh.com/en/) wenden, um sich mit anderen Benutzern auszutauschen.
+> Wir stellen Ihnen diese Anleitung zur Verfügung, um Ihnen bei der Bewältigung alltäglicher Verwaltungsaufgaben zu helfen. Wir empfehlen Ihnen jedoch, sich an einen [spezialisierten Dienstleister](/links/partner) zu wenden, wenn Sie Schwierigkeiten oder Zweifel hinsichtlich der Verwaltung, Nutzung oder Sicherheit eines Servers haben. Sie können sich auch jederzeit an unsere [Community](https://community.ovh.com/en/) wenden, um sich mit anderen Benutzern auszutauschen.
+>
+> Diese Anleitung betrifft **nur** Instanzen, die auf Linux-Distributionen basieren.
 >
 
 ## Voraussetzungen
 
-- Sie verfügen über eine [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud).
-- Sie haben [administrativen Zugriff](/pages/public_cloud/compute/public-cloud-first-steps) (sudo) auf Ihre Instanz über SSH.
+- Sie verfügen über eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps).
+- Sie haben [administrativen Zugriff](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance) (sudo) auf Ihre Instanz über SSH.
 
 ## In der praktischen Anwendung
 
 ### *cloud-init* Modul deaktivieren
 
+> [!primary]
+>
+> Für diese Anleitung verwenden wir den Dateieditor **vi**, da er standardmäßig auf Linux-Distributionen vorhanden ist. Sie können natürlich auch einen Editor Ihrer Wahl verwenden.
+>
+> Grundlegende Verwendung von vi:
+>
+> - Drücken Sie **i**, um in den Editiermodus zu wechseln.
+> - Drücken Sie **Esc**, um den Editiermodus zu verlassen.
+> - Geben Sie **:wq** gefolgt von **Enter** ein, um zu speichern und zu beenden.
+> - Geben Sie **:q!** gefolgt von **Enter** ein, um ohne zu speichern zu beenden.
+
 Um das *cloud-init* Modul zu deaktivieren, muss zunächst die Konfigurationsdatei bearbeitet werden.
 
 ```sh
-sudo vim /etc/cloud/cloud.cfg
+sudo vi /etc/cloud/cloud.cfg
 ```
 
 Fügen Sie einfach die folgenden beiden Zeilen hinzu oder bearbeiten Sie die vorhandenen:
@@ -41,18 +54,27 @@ manage_etc_hosts: false
 
 ### Hostname ändern
 
-Bearbeiten Sie zunächst den Hostnamen:
+Der erste Schritt besteht darin, den Hostnamen (*hostname*) zu ändern. In diesem Beispiel ändern wir den Hostnamen zu **webserver**. Sie können natürlich einen beliebigen Namen eingeben:
 
 ```sh
-sudo vim /etc/hostname
+sudo vi /etc/hostname
+```
+
+Fügen Sie die Zeile hinzu oder ersetzen Sie sie:
+
+```sh
 webserver
 ```
 
-Bearbeiten Sie dann die Datei `/etc/hosts`:
+Anschließend muss noch die Datei `/etc/hosts` geändert werden:
 
 ```sh
-sudo vim /etc/hosts
+sudo vi /etc/hosts
+```
 
+Fügen Sie die Zeile hinzu oder ersetzen Sie sie:
+
+```sh
 127.0.1.1 webserver.localdomain webserver
 127.0.0.1 localhost
 ```
@@ -74,4 +96,4 @@ sudo cat /etc/hosts
 
 ## Weiterführende Informationen 
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

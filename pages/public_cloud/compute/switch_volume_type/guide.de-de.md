@@ -14,7 +14,7 @@ In dieser Anleitung wird erläutert, wie Sie einen Block Storage Volume vom Typ 
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf das [Horizon Interface](/pages/public_cloud/compute/introducing_horizon).
+- Sie haben Zugriff auf das [Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 - Sie haben ein [Block Storage Volume](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) in Ihrem [Public Cloud Projekt](https://www.ovhcloud.com/de/public-cloud/) erstellt.
 
 ## In der praktischen Anwendung
@@ -51,8 +51,8 @@ Wenn Sie diese Aktionen ausgeführt haben, klicken Sie auf `Change Volume Type`{
 
 Bevor Sie fortfahren, empfehlen wir folgende Anleitungen:
 
-- [Vorbereitung Ihrer Umgebung zur Verwendung der OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Konfigurieren der OpenStack-Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Vorbereitung Ihrer Umgebung zur Verwendung der OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Konfigurieren der OpenStack-Umgebungsvariablen](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Sie können die in Ihrer Region verfügbaren Volume-Typen mit folgendem Befehl auflisten:
 

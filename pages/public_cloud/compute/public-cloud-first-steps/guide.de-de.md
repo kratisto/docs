@@ -43,9 +43,9 @@ Danach können Sie Ihr Public Cloud Projekt weiter spezialisieren, je nach Ihren
 
 > [!primary]
 >
-> Wenn Sie noch kein Public Cloud Projekt erstellt haben, starten Sie mit unserer [Anleitung zum Erstellen eines Projekts](/pages/public_cloud/compute/create_a_public_cloud_project).
+> Wenn Sie noch kein Public Cloud Projekt erstellt haben, starten Sie mit unserer [Anleitung zum Erstellen eines Projekts](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 > 
-> Wichtige **technische Details** zur OVHcloud Public Cloud finden Sie auf [dieser Seite](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud).
+> Wichtige **technische Details** zur OVHcloud Public Cloud finden Sie auf [dieser Seite](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud).
 > 
 
 ### Inhaltsübersicht
@@ -192,7 +192,7 @@ Instanz-Modelle vom Typ `Metal`{.action} stellen dedizierte physische Ressourcen
 
 > [!primary]
 >
-> Die Verfügbarkeit Ihrer Public Cloud Ressourcen wird anfänglich aus Gründen der Kostenkontrolle und Sicherheit begrenzt. Sie können diese Quotas überprüfen, indem Sie in der linken Navigationsleiste unter **Project Management** auf `Quota and Regions`{.action} klicken. Weitere Informationen finden Sie in der [dedizierten Dokumentation](/pages/public_cloud/compute/increasing_public_cloud_quota).
+> Die Verfügbarkeit Ihrer Public Cloud Ressourcen wird anfänglich aus Gründen der Kostenkontrolle und Sicherheit begrenzt. Sie können diese Quotas überprüfen, indem Sie in der linken Navigationsleiste unter **Project Management** auf `Quota and Regions`{.action} klicken. Weitere Informationen finden Sie in der [dedizierten Dokumentation](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).
 >
 > Beachten Sie, dass Sie nach der Erstellung Ihrer Instanz ein **Upgrade** durchführen können, um mehr Ressourcen zur Verfügung zu stellen. Der Wechsel zu einem kleineren Modell ist mit einer regulären Variante jedoch nicht möglich. Weitere Informationen zu diesem Thema finden Sie im folgenden**Schritt 4.4**.
 >
@@ -283,7 +283,7 @@ Dieser Schritt umfasst mehrere Konfigurationsoptionen. Klicken Sie auf die Tabs,
 > [!tabs]
 > **1: Anzahl der zu erstellenden Instanzen**
 >>
->> Sie können mehrere Instanzen auf der Grundlage der in den Erstellungsschritten getroffenen Auswahl erstellen; es gelten jedoch [Ressourcenkontingentsgrenzen](/pages/public_cloud/compute/increasing_public_cloud_quota).<br>
+>> Sie können mehrere Instanzen auf der Grundlage der in den Erstellungsschritten getroffenen Auswahl erstellen; es gelten jedoch [Ressourcenkontingentsgrenzen](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).<br>
 >>
 > **2: Flexible Instanz**
 >>
@@ -373,7 +373,7 @@ Klicken Sie auf `Weiter`{.action}, um zum letzten Schritt zu gelangen.
 
 Details hierzu finden Sie in unserer dedizierten Abrechnungsdokumentation:
 
-- [Public Cloud Abrechnung](/pages/public_cloud/compute/analyze_billing)
+- [Public Cloud Abrechnung](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 - [FAQ zur monatlichen Abrechnung](/pages/public_cloud/compute/faq_change_of_monthly_billing_method)
 
 Wenn die Konfiguration Ihrer Instanz abgeschlossen ist, klicken Sie auf den Button `Instanz erstellen`{.action}. Die Bereitstellung des Dienstes kann einige Minuten in Anspruch nehmen.
@@ -662,9 +662,9 @@ Eine detaillierte Erklärung dieser Schritte finden Sie in unserer [Anleitung](/
 
 [Verwaltung von Instanzen im Kundencenter](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Erste Schritte mit OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Erste Schritte mit OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-[Erste Schritte mit Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Erste Schritte mit Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 
 Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.

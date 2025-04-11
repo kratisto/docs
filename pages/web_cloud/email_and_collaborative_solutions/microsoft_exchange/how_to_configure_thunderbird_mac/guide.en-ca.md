@@ -26,7 +26,7 @@ You can configure Exchange accounts on email clients, if they are compatible. By
 
 > [!primary]
 >
-> In this guide, we use as the hostname: ex**?**.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
+> In this guide, we use as the hostname: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 >
 > You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Microsoft`{.action}. Click on `Exchange`{.action} and then on your service. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 
@@ -47,8 +47,8 @@ For **POP** configuration, the values are:
 
 |Server type|Server name|Security type|Port|
 |---|---|---|---|
-|Incoming|ex**?**.mail.ovh.ca (replace "?" with your server number)|SSL/TLS|995|
-|Outgoing|ex**?**.mail.ovh.ca (replace "?" with your server number)|STARTTLS|587|
+|Incoming|ex?.mail.ovh.ca (replace "?" with your server number)|SSL/TLS|995|
+|Outgoing|ex?.mail.ovh.ca (replace "?" with your server number)|STARTTLS|587|
 
 ### Using your email address
 
@@ -64,7 +64,7 @@ If you need to make a change that could lead to the loss of your email account d
 
 > [!primary]
 >
-> In this guide, we use as the hostname: ex**?**.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
+> In this guide, we use as the hostname: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 > 
 > You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Microsoft`{.action}. Click on `Exchange`{.action} and then on your service. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 

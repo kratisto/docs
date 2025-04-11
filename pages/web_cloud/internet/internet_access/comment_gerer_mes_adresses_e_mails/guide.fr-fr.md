@@ -12,7 +12,7 @@ Vous avez la possibilité de bénéficier d'adresses E-mail avec nos offres FTTH
 
 ## Prérequis
 
-- Disposer d'une [offre xDSL ou FTTH compatible](https://www.ovhtelecom.fr/adsl/){.external}.
+- Disposer d'un [accès Internet xDSL ou FTTH OVHcloud](/links/telecom/offre-internet).
 - Avoir encore la possibilité de créer des adresses e-mail dans le cadre de votre offre.
 - Être connecté à l’[espace client OVHcloud](/links/manager), partie `Télécom` :
 
@@ -49,14 +49,14 @@ Cliquez sur `Valider`{.action} pour lancer la création de l'adresse e-mail. Ré
 >
 > - de renouveler régulièrement vos mots de passe ;
 >
-> - de ne pas noter sur un papier ou de vous envoyer vos mots de passe sur votre adresse e-mail, mais plutôt d'utiliser un logiciel du type « gestionnaire de mots de passe » ;
+> - de ne pas noter sur un papier ni de vous envoyer vos mots de passe sur votre adresse e-mail, mais plutôt d'utiliser un logiciel du type « gestionnaire de mots de passe » ;
 >
-> - de ne pas enregistrer vos mots de passe dans votre navigateur internet, même si ce dernier vous le propose.
+> - de ne pas enregistrer vos mots de passe dans votre navigateur web, même si ce dernier vous le propose.
 >
 
 ### Étape 2 : utiliser votre adresse e-mail
 
-Il ne reste plus qu'à utiliser votre adresse e-mail. Pour cela, OVHcloud met à disposition un applicatif en ligne (webmail). Ce dernier est accessible à l'adresse <https://www.ovh.com/fr/mail/> ; vous devrez y renseigner les identifiants relatifs à votre adresse e-mail nouvellement créée.
+Vous pouvez à présent utiliser votre adresse e-mail. Pour cela, OVHcloud met à disposition une application en ligne (webmail), accessible [ici](/links/web/email). Vous devrez y renseigner les identifiants relatifs à votre adresse e-mail nouvellement créée.
 
 Si vous souhaitez configurer votre adresse e-mail sur un logiciel de messagerie ou un appareil (comme un smartphone ou une tablette), consultez nos tutoriels dédiés sur [cette page](/products/web-cloud-email-collaborative-solutions-email-pro).
 

@@ -1,7 +1,7 @@
 ---
 title: "FAQ Hosting web"
 excerpt: "Domande più frequenti sugli hosting web OVHcloud"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
@@ -270,9 +270,11 @@ contatta uno dei [nostri partner](/links/partner) per verificare il codice infor
 
 Non c'è nulla da fare in questa situazione. Anche se il tuo dominio compare con [rating internazionale (IDN)](https://it.wikipedia.org/wiki/Nome_di_dominio_internazionalizzato){.external} nello Spazio Cliente, funzionerà e verrà visualizzato in modo del tutto normale. L'indirizzo Web del tuo sito verrà visualizzato come richiesto. I tuoi indirizzi email saranno visualizzati come desideri presso i tuoi interlocutori.
 
-> [!warning]
+> [!alert]
 >
-> L'utilizzo di un indirizzo email con un dominio IDN in un client di posta (Outlook, Mail di macOS, ecc...) non è consigliato e può causare incompatibilità.
+> Non è consigliabile utilizzare un indirizzo email con un dominio IDN (Internationalized Domain Name) da un client di posta (Outlook, Mail di macOS, ecc...). Poiché alcuni client di posta non interpretano i domini con caratteri accentati, l'invio delle email è bloccato. Il mittente dell’email riceverà automaticamente un messaggio per informarti che il tuo indirizzo email non esiste.
+>
+> **Si raccomanda di prenotare, in aggiunta al dominio con caratteri accentati, lo stesso dominio senza questi accenti, per evitare qualsiasi incompatibilità a livello di scambi di email.**
 >
 
 ///

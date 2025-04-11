@@ -1,7 +1,7 @@
 ---
-title: 'Installare Plesk su un’istanza'
-excerpt: 'Come installare e configurare Plesk su un’istanza Public Cloud OVH'
-updated: 2018-03-26
+title: 'Come installare Plesk su un'istanza Public Cloud'
+excerpt: 'Come installare Plesk su un’istanza Public Cloud'
+updated: 2025-04-08
 ---
 
 ## Obiettivo
@@ -14,12 +14,13 @@ Plesk è un’interfaccia di gestione server di semplice utilizzo, disponibile a
 > 
 > OVHcloud mette a disposizione i server, ma non è autorizzata ad accedervi e non si occupa quindi della loro amministrazione. Garantire quotidianamente la gestione software e la sicurezza di queste macchine è quindi responsabilità dell’utente.
 >
-> Questa guida ti aiuta a muovere i primi passi nell’utilizzo di Plesk sulle istanze Public Cloud OVHcloud. Tuttavia, in caso di difficoltà o dubbi relativi ad amministrazione e sicurezza, ti consigliamo di contattare un fornitore specializzato o rivolgerti allo [forum comunitario](https://community.ovh.com/en/) per confrontarti con altri utenti.
+> Questa guida ti aiuta a eseguire le operazioni necessarie alla configurazione del tuo account. Tuttavia, in caso di difficoltà o dubbi relativamente ad amministrazione e sicurezza, ti consigliamo di contattare un [provider specializzato](/links/partner). Non esitate a collegarvi alla nostra [community forum](/links/community) per comunicare con altri utenti.
 >
+
 
 ## Prerequisiti
 
-- [Aver creato un’istanza dallo Spazio Cliente OVHcloud](/links/public-cloud/public-cloud)
+- [Aver creato un’istanza dallo Spazio Cliente OVHcloud](/pages/public_cloud/compute/create_a_public_cloud_project)
 - [Avere accesso amministratore](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance)
 
 ## Procedura
@@ -28,69 +29,54 @@ Plesk è un’interfaccia di gestione server di semplice utilizzo, disponibile a
 
 Accedi all’istanza via SSH, scarica e poi esegui lo script di installazione di Plesk utilizzando uno di questi comandi:
 
+> [!primary]
+>
+> In base al sistema operativo della tua istanza, il solo ordine sudo potrebbe non essere sufficiente. In caso di errore, attiva la modalità super-utente prima di avviare l’installazione:
+>
+> ```bash
+> sudo su
+> ```
+>
+
 - **Installazione predefinita non personalizzata**
 
 ```bash
-# sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
+sudo sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
 ```
 
 - **Installazione personalizzata**
 
 ```bash
-# sh <(curl https://autoinstall.plesk.com/plesk-installer || wget -O - https://autoinstall.plesk.com/plesk-installer)
+sudo sh <(curl https://autoinstall.plesk.com/plesk-installer || wget -O - https://autoinstall.plesk.com/plesk-installer)
 ```
 
 Attendi il completamento dell’operazione. 
 
-### Step 2: configura Plesk
+### Step 2: completa la configurazione e aggiungi una licenza
 
-Una volta effettuata l’installazione, è possibile accedere all’interfaccia Plesk per configurarla.  Apri il browser e connettiti all’indirizzo `https://IP.dell.istanza:8443` utilizzando le credenziali di **root**.
+Una volta completata l’installazione, l’interfaccia da riga di comando (CLI) visualizzerà le seguenti informazioni:
 
-![public-cloud](images/3301.png){.thumbnail}
+- Vengono generati due URL:
+    - una con l'indirizzo IP del server (in HTTPS con un certificato SSL autofirmato, che può attivare un alert di sicurezza in alcuni browser).
+    - L'altra con dominio Plesk (in HTTPS con certificato SSL firmato, senza alert di sicurezza).
+    - Entrambi sono sicuri, ma si consiglia di utilizzare il secondo.
+- Un messaggio recita: "Puoi accedere come ‘root’ con la tua password ‘root’." Tuttavia, per impostazione predefinita, non viene generata alcuna password di root. Se necessario, i clienti possono seguire [questa guida](/pages/bare_metal_cloud/dedicated_servers/changing_root_password_linux_ds) per attivare l'utente root e impostare una password.
 
-Compare l’assistente di configurazione guidata, che permette di impostare la visualizzazione dell’interfaccia Plesk in base al tipo di attività svolta.
+Segui le istruzioni visualizzate per completare l'installazione nella pagina Plesk.
 
-![public-cloud](images/3302.png){.thumbnail}
+![plesk configuration](images/plesk_configuration.png){.thumbnail}
 
-Seleziona il tipo di visualizzazione da applicare:
-
-![public-cloud](images/3303.png){.thumbnail}
-
-Inserisci le informazioni di accesso all’istanza nei campi corrispondenti:
-
-- hostname
-- indirizzo IP
-- password root
-
- 
-
-![public-cloud](images/3304.png){.thumbnail}
-
-A questo punto, inserisci le informazioni relative al tuo account **amministratore**:
-
-![public-cloud](images/3305.png){.thumbnail}
-
-### Step 3: aggiungi una licenza
-
-Per aggiungere una licenza Plesk, assicurati per prima cosa di avere a disposizione la chiave ricevuta dal tuo provider.
+Per aggiungere la licenza Plesk, assicurati di avere a disposizione la chiave ricevuta dal provider.
 
 > [!primary]
 >
-> OVHcloud non fornisce licenze Plesk per la soluzione Public Cloud. Per ottenerne una, accedi al sito di [Plesk](https://www.plesk.com/){.external}.
-> 
+> OVHcloud non fornisce licenze Plesk per le soluzioni Public Cloud. È possibile ottenerne una dal sito di [Plesk](https://www.plesk.com/){.external}.
+>
 
-La prima volta che ti connetti all’interfaccia, si apre automaticamente una pagina che propone di installare la licenza:
-
-![public-cloud](images/3306-2.png){.thumbnail}
-
-Per modificare la licenza, ad esempio per sostituire la chiave di licenza di prova o cambiare offerta, accedi all’interfaccia di gestione e, nella sezione `Gestione del server` della colonna a sinistra, clicca su `Strumenti e impostazioni`{.action} > `Gestione di licenza`{.action}.
-
-Una volta aggiunta la nuova chiave, il tipo di licenza visualizzato in alto a destra nella barra del menu si aggiorna.
-
-![public-cloud](images/3322-2.png){.thumbnail}
+Vuoi modificare la tua licenza, ad esempio per sostituire una chiave di test o cambiare offerta? Accedi all’interfaccia Plesk e, nella sezione `Tools & Settings`{.action}. Nella sezione **Plesk**, seleziona `License information`{.action}.
 
 ## Per saperne di più
 
-[Documentazione ufficiale Plesk](https://docs.plesk.com/it-IT/onyx/){.external}
+[Documentazione ufficiale Plesk](https://docs.plesk.com/it-IT/obsidian/){.external}
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

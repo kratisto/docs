@@ -152,7 +152,7 @@ C:\Users\Administrator> DISM.exe /Online /Set-Edition:ServerStandard /ProductKey
 
 > [!primary]
 > 
-> This license (N69G4-B89J2-4G8F4-WWYCC-J464C) belongs to our current KMS validation license repository for Windows Server 2019 Standard. You can grab each of our current license keys from the following guide: [Changing a Windows Server product key](/pages/bare_metal_cloud/dedicated_servers/windows_key)
+> This license belongs to our current KMS validation license repository for Windows Server 2019 Standard. You can find the product keys for supported versions of Windows Server in the table available on the [official Microsoft web page](https://learn.microsoft.com/en-gb/windows-server/get-started/kms-client-activation-keys).
 >
 
 Reboot your VM, then do the following to set the KMS server and activate Windows.

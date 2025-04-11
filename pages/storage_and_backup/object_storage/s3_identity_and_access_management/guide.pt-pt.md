@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Gerenciamento de identidade e acesso (EN)
 excerpt: The purpose of this guide is to show you how to manage your identities and access your Object Storage resources
-updated: 2022-09-27
+updated: 2025-03-21
 ---
 
 ## Objective
@@ -151,15 +151,54 @@ Some examples of JSON configuration files:
 | Action | Scope |
 |------|:------|
 | s3:AbortMultipartUpload | Object |
+| s3:BypassGovernanceRetention | Object |
 | s3:CreateBucket | Bucket |
 | s3:DeleteBucket | Bucket |
 | s3:DeleteObject | Object |
+| s3:DeleteBucketTagging | Bucket |
+| s3:DeleteBucketWebsite | Bucket |
+| s3:DeleteObject | Object |
+| s3:DeleteObjectTagging | Object |
+| s3:GetBucketAcl | Bucket |
+| s3:GetBucketCORS | Bucket |
 | s3:GetBucketLocation | Bucket |
+| s3:GetBucketLogging" | Bucket |
+| s3:GetBucketObjectLockConfiguration | Bucket |
+| s3:GetBucketTagging | Bucket |
+| s3:GetBucketVersioning | Bucket |
+| s3:GetBucketWebsite | Bucket |
+| s3:GetEncryptionConfiguration | Bucket |
+| s3:GetIntelligentTieringConfiguration | Bucket |
+| s3:GetLifecycleConfiguration | Bucket |
 | s3:GetObject | Object |
+| s3:GetObjectAcl | Object |
+| s3:GetObjectLegalHold | Object |
+| s3:GetObjectRetention | Object |
+| s3:GetObjectTagging | Object |
+| s3:GetReplicationConfiguration | Bucket |
 | s3:ListBucket | Bucket |
 | s3:ListBucketMultipartUploads | Bucket |
 | s3:ListMultipartUploadParts | Object |
+| s3:ListBucketMultipartUploads | Bucket |
+| s3:ListBucketVersions | Bucket |
+| s3:ListMultipartUploadParts | Object |
+| s3:PutBucketAcl | Bucket |
+| s3:PutBucketCORS | Bucket |
+| s3:PutBucketLogging | Bucket |
+| s3:PutBucketObjectLockConfiguration | Bucket |
+| s3:PutBucketTagging | Bucket |
+| s3:PutBucketVersioning | Bucket |
+| s3:PutBucketWebsite | Bucket |
+| s3:PutEncryptionConfiguration | Bucket |
+| s3:PutIntelligentTieringConfiguration | Bucket |
+| s3:PutLifecycleConfiguration | Bucket |
 | s3:PutObject | Object |
+| s3:PutObjectAcl | Object |
+| s3:PutObjectLegalHold | Object |
+| s3:PutObjectRetention | Object |
+| s3:PutObjectTagging | Object |
+| s3:PutReplicationConfiguration | Object |
+  
 
 ## Go further
 

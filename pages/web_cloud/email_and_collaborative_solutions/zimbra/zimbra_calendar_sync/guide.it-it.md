@@ -40,7 +40,7 @@ Abbiamo selezionato applicazioni stabili e compatibili con il protocollo CalDAV.
 - **Per Windows**: Segui il capitolo [Aggiungi un calendario su Thunderbird](#thunderbird)
 - **Per macOS**: Segui il capitolo [Aggiungi un calendario su macOS](#apple-macos) o [Aggiungi un calendario su Thunderbird](#thunderbird)
 - **Per Linux**: Segui il capitolo [Aggiungi un calendario su Thunderbird](#thunderbird)
-- **Per iPhone e iPad***: Segui il capitolo [Aggiungi un calendario su iOS e ipadOS](#apple-ios)
+- **Per iPhone e iPad**: Segui il capitolo [Aggiungi un calendario su iOS e ipadOS](#apple-ios)
 - **Per Android**: consulta la guida [Zimbra - Configurare un account email sull’applicazione mobile Zimbra](/pages/web_cloud/email_and_collaborative_solutions/zimbra/mail_app_zimbra_for_android_ios).
 
 > [!warning]

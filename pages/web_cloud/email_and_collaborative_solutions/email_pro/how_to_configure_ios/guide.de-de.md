@@ -28,7 +28,7 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -45,7 +45,7 @@ Klicken Sie vom Homescreen des Geräts aus auf `Einstellungen`{.action} (Zahnrad
 |---|---|
 |![iPhone](images/configuration-mail-ios-step01.gif){.thumbnail}|1. In `Einstellungen` gehen Sie auf `Mail`. <br><br> 2. Tippen Sie auf `Accounts`.<br><br> 3. Tippen Sie auf `Account hinzufügen`.<br><br> 4. Wählen Sie unten `Andere`.|
 |5. Tippen Sie auf `Mail-Account hinzufügen`.<br><br>6. Geben Sie **Name**, **E-Mail-Adresse**, **Passwort** und eine **Beschreibung** Ihres Accounts ein.<br><br>7. Drücken Sie auf `Weiter`.|![iPhone](images/configuration-mailpro-ios-step02.png){.thumbnail}|
-|![iPhone](images/configuration-mailpro-ios-step03.png){.thumbnail}|8. Wählen Sie `IMAP` (empfohlen) oder `POP` aus.<br><br>Geben Sie als `INCOMING` und `OUTGOING` (trotz der Angabe "optional") folgende Werte ein: <br>- Hostname pro**?**.mail.ovh.net (ersetzen Sie **?** durch die Servernummer von E-Mail Pro) <br>- Ihre vollständige **E-Mail-Adresse** als Benutzername <br>- das Passwort Ihres E-Mail-Accounts|
+|![iPhone](images/configuration-mailpro-ios-step03.png){.thumbnail}|8. Wählen Sie `IMAP` (empfohlen) oder `POP` aus.<br><br>Geben Sie als `INCOMING` und `OUTGOING` (trotz der Angabe "optional") folgende Werte ein: <br>- Hostname pro?.mail.ovh.net (ersetzen Sie **?** durch die Servernummer von E-Mail Pro) <br>- Ihre vollständige **E-Mail-Adresse** als Benutzername <br>- das Passwort Ihres E-Mail-Accounts|
 
 Stellen Sie am Ende der Konfiguration sicher, dass Sie `Mail`{.action} aktiviert lassen, damit die Anwendung diesen Account verwenden kann, und klicken Sie dann auf `Speichern`{.action}.
 
@@ -55,8 +55,8 @@ Wenn manuelle Änderungen in den Account-Einstellungen erforderlich sind, verwen
 
 |Servertyp|Servername|SSL|Port|
 |---|---|---|---|
-|Eingangsserver|pro**?**.mail.ovh.net|Ja|993|
-|Ausgangsserver|pro**?**.mail.ovh.net|Ja|587|
+|Eingangsserver|pro?.mail.ovh.net|Ja|993|
+|Ausgangsserver|pro?.mail.ovh.net|Ja|587|
 
 ### E-Mail-Adresse verwenden
 

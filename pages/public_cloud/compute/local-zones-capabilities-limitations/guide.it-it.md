@@ -1,7 +1,7 @@
 ---
 title: Local Zone Compute - Funzionalità, capacità e limiti
 excerpt: Scopri le funzionalità, le capacità e i limiti attuali delle istanze Local Zones
-updated: 2025-02-25
+updated: 2025-03-27
 ---
 
 ## Obiettivo
@@ -29,7 +29,7 @@ Per maggiori informazioni, accedi alla nostra [pagina dedicata alle istanze Loca
 | Instance Backup | Sì |
 | Backup automatici | Sì |
 | Snapshot dei volumi | Sì |
-| Backup dei volumi | No |
+| Backup dei volumi | Sì |
 | Object Storage | Sì |
 | Immagini Windows | No |
 

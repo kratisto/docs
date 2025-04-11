@@ -13,11 +13,11 @@ In this case, you must activate the licence manually to access all Windows servi
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
-- An [OpenStack user account](/pages/public_cloud/compute/create_and_delete_a_user)
+- An [OpenStack user account](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
-We recommend that you read our guide on [Accessing the Horizon](/pages/public_cloud/compute/introducing_horizon) interface to familiarise yourself with Horizon.
+We recommend that you read our guide on [Accessing the Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) interface to familiarise yourself with Horizon.
 
 ## Instructions
 
@@ -47,8 +47,8 @@ Select your interface and confirm.
 
 Before continuing, we recommend reading these guides:
 
-- [Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api). 
-- [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Preparing an environment for using the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api). 
+- [Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 First, retrieve all the necessary information:
 

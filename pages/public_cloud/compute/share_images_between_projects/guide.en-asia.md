@@ -1,7 +1,7 @@
 ---
 title: Sharing images between Public Cloud projects
 excerpt: Find out how to share images between Public Cloud projects using OpenStack
-updated: 2023-07-27
+updated: 2025-04-01
 ---
 
 ## Objective
@@ -14,6 +14,7 @@ This feature offers many possibilities, but it also has its risks. It is therefo
 
 For example, if we want to share an image from Project A with Project B (in the same or different account), the following rules apply:
 
+- Images can only be shared within the same region. For example, an image created in Project A in the GRA11 region will only be available for Project B within the same GRA11 region.
 - The image remains physically attached to Project A. Project B only has "access authorization" to this image.
 - If Project A removes access to the image (like ACL, image deletion or if the project is deleted for unpaid invoices, etc.), the instances running from this image on Project B may not work anymore due to migration or rebuild issues.
 
@@ -27,12 +28,12 @@ For more information, please consult the [Official OpenStack documentation](http
 
 Before following these steps, it is recommended that you first read this guide:
 
-- [Prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Prepare the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 You will also need the following:
 
 - a [Public Cloud Instance](https://www.ovhcloud.com/asia/public-cloud/) in your OVHcloud account
-- an [OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user)
+- an [OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 > [!primary]
 >
@@ -57,6 +58,13 @@ $ openstack image list --private
 
 ```bash
 $ openstack image set --shared <Image_UUID>
+```
+
+You can run the following command to list your images that can be shared with another project:
+
+```bash
+$ openstack image list --shared
+9a0fbdc5-****-****-****-8d404a1313ba 	pfsense
 ```
 
 ### Add a project to an image
@@ -130,6 +138,8 @@ $ openstack image show 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 
 ### Verify all the members of an image
 
+To see all the projects which have access to the image, from the source project (in this case project A), you can run this command:
+
 ```bash
 $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 +--------------------------------------+----------------------------------+----------+
@@ -141,6 +151,8 @@ $ openstack image member list 9a0fbdc5-1f4a-4a1c-ad46-8d404a1313ba
 ```
 
 ### Delete a member of an image or unshare an image
+
+In the source project (project A), you can delete a member of the share:
 
 ```bash
 $ openstack image remove project <image> <UUID_Project_To_Delete>

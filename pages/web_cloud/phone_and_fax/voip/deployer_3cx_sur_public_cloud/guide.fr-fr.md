@@ -12,7 +12,7 @@ A la fin de ce guide, vous aurez les bases pour gérer le déploiement de votre 
 
 ## Prérequis
 
-- Un projet [Public Cloud](/links/public-cloud/public-cloud) dans votre compte OVHcloud. Retrouvez plus d'informations dans notre guide « [Créer votre premier projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) ».
+- Un projet [Public Cloud](/links/public-cloud/public-cloud) dans votre compte OVHcloud. Retrouvez plus d'informations dans notre guide « [Créer votre premier projet Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) ».
 - L'IPBX 3CX requiert une license valide pour être utilisé. Assurez-vous d'avoir une license valide lors du déploiement. Retrouvez toutes les informations sur <https://www.3cx.fr>. 
 
 ## En pratique
@@ -656,11 +656,11 @@ Dans ce JSON, insérez le template dans `userData`. Attention, les sauts de lign
 
 ## Aller plus loin <a name="gofurther"></a>
 
-[L'essentiel pour commencer avec Public Cloud](/pages/public_cloud/compute/00-essential-info-to-get-started-on-public-cloud)
+[L'essentiel pour commencer avec Public Cloud](/pages/public_cloud/public_cloud_cross_functional/00-essential-info-to-get-started-on-public-cloud)
 
-[Se familiariser avec l'interface Public Cloud](/pages/public_cloud/compute/03-public-cloud-interface-walk-me)
+[Se familiariser avec l'interface Public Cloud](/pages/public_cloud/public_cloud_cross_functional/03-public-cloud-interface-walk-me)
 
-[Créer votre premier projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project)
+[Créer votre premier projet Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 
 [Créer une première instance Public Cloud et s'y connecter](/pages/public_cloud/compute/public-cloud-first-steps)
 

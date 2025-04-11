@@ -229,7 +229,7 @@ Questa guida non ha risposto alla tua domanda? Consulta la nostra [FAQ su fattur
 
 [Modalità di disattivazione dei servizi OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/compute/analyze_billing)
+[Sistema di fatturazione dei servizi Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gestire la fatturazione di un account Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

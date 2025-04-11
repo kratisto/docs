@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting FAQ"
 excerpt: "Find the answers to the most frequently asked questions about OVHcloud Web Hosting plans"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
@@ -260,9 +260,11 @@ You can also contact one of our [partners](/links/partner) to check your website
 
 You have no action to take in this situation. Even if your domain appears in [internationalised notation (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name){.external} in your Control Panel, it will work and display in a completely normal way elsewhere. Your website's web address will be displayed as you requested. Your email addresses will also appear as you wish to your contacts.
 
-> [!warning]
+> [!alert]
 >
-> Using an email address with an IDN domain in an email client (Outlook, macOS Mail, etc.) is not recommended and may cause incompatibilities.
+> We do not recommend using an email address with an Internationalized Domain Name (IDN) from an email client (Outlook, macOS Mail, etc.). Some email clients do not interpret domain names with accented characters, which blocks the transmission of emails. A sender sending you an email will receive an automatic message stating that your email address does not exist.
+>
+> **It is recommended that you reserve the same domain name without accents, in addition to your domain name with accented characters, to avoid any incompatibility in email exchanges.**
 >
 
 ///

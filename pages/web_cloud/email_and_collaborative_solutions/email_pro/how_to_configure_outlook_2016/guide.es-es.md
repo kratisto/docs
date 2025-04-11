@@ -39,7 +39,7 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 
 > [!primary]
 >
-> En nuestro ejemplo, hemos utilizado la mención servidor: pro**?**.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
+> En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
 > Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >
@@ -49,14 +49,14 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 |![Outlook](images/config-outlook-emailpro02.png){.thumbnail}|Entre los distintos tipos de cuenta, elija IMAP o POP. <br>Le recomendamos que utilice IMAP.|
 |Introduzca la contraseña de su dirección de correo electrónico y haga clic en `Siguiente`{.action}. |![Outlook](images/config-outlook-emailpro03.png){.thumbnail}|
 |![Outlook](images/config-outlook-emailpro04.png){.thumbnail}|Si Outlook no ha podido configurar su dirección de forma automática, se abrirá esta ventana. <br>Haga clic en `Modificar los parámetros de la cuenta`{.action} |
-|Escriba en el **Correo entrante**: <br>- el servidor **pro**?**.mail.ovh.net** (sustituya "**?**" por el número de su servidor) <br>- Port **993**<br>- Método de cifrado **SSL/TLS**<br><br>Escriba en **Correo saliente**: <br>- el servidor **pro**?**.mail.ovh.net** (sustituya "**?**" por el número de su servidor)<br>- Port **587**<br>- Método de cifrado **STARTTLS**<br><br>Haga clic en `Siguiente`{.action} para aceptar. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
+|Escriba en el **Correo entrante**: <br>- el servidor **pro?.mail.ovh.net** (sustituya "?" por el número de su servidor) <br>- Port **993**<br>- Método de cifrado **SSL/TLS**<br><br>Escriba en **Correo saliente**: <br>- el servidor **pro?.mail.ovh.net** (sustituya "?" por el número de su servidor)<br>- Port **587**<br>- Método de cifrado **STARTTLS**<br><br>Haga clic en `Siguiente`{.action} para aceptar. |![Outlook](images/config-outlook-emailpro05.png){.thumbnail}|
 
 En una configuración en **POP**, los valores son los siguientes:
 
 |Tipo de servidor|Nombre del servidor|Método de cifrado|Puerto|
 |---|---|---|---|
-|Entrante|pro**?***.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|SSL/TLS|995|
-|Saliente|pro**?***.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|STARTTLS|587|
+|Entrante|pro?.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|SSL/TLS|995|
+|Saliente|pro?.mail.ovh.net (la mención **"?"** debe sustituirse por el número de su servidor)|STARTTLS|587|
 
 ### Utilizar la dirección de correo
 
@@ -82,7 +82,7 @@ La ventana está dividida en dos partes, **Correo entrante** y **Correo saliente
 
 > [!primary]
 >
-> En nuestro ejemplo, hemos utilizado la mención servidor: pro**?**.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
+> En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
 > Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >

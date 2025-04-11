@@ -16,7 +16,7 @@ En plus de l’adressage IP privé, le [vRack](/links/network/vrack) vous permet
 - Une [instance Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps)
 - Un service [vRack](/links/network/vrack) activé dans votre compte
 - Être connecté à [l'espace client OVHcloud](/links/manager)
-- Être connecté à [l'interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- Être connecté à [l'interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ### Sommaire
 

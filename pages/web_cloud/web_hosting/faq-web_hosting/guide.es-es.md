@@ -1,7 +1,7 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Encuentre las respuestas a las preguntas más frecuentes sobre alojamiento web"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
@@ -270,9 +270,11 @@ Por último, puede contactar con uno de nuestros partners (/links/partner) para 
 
 No tiene que hacer nada al respecto. Aunque su dominio se muestre en [notación internacionalizada (IDN)](https://es.wikipedia.org/wiki/Nombre_de_dominio_internacionalizado){.external} en su área de cliente, funcionará y se mostrará de forma totalmente normal en otro lugar. La dirección web del sitio web se mostrará tal y como usted lo haya solicitado. Sus direcciones de correo también se mostrarán como desee con sus interlocutores.
 
-> [!warning]
+> [!alert]
 >
-> No es recomendable utilizar una dirección de correo electrónico con un dominio IDN en un cliente de correo (Outlook, Mail de macOS, etc.), ya que puede causar incompatibilidad.
+> No se recomienda utilizar una dirección de correo con un nombre de dominio internacionalizado (IDN) desde un cliente de correo (Outlook, Mail de macOS, etc.). Algunos clientes de correo no interpretan los nombres de dominio con caracteres acentuados, lo que bloquea la transmisión de los mensajes de correo. Un remitente que le envíe un mensaje de correo electrónico recibirá un mensaje automático indicando que su dirección de correo electrónico no existe.
+>
+> **Le recomendamos que, además de su dominio con caracteres acentuados, reserve el mismo dominio sin estos acentos para evitar incompatibilidades en el intercambio de correo electrónico.**
 >
 
 ///

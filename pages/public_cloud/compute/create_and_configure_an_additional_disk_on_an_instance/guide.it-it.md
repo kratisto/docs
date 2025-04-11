@@ -26,7 +26,7 @@ Ciò può essere utile nei seguenti casi:
 - Per aumentare la capacità di storage senza modificare il modello di istanza
 - Per avere uno spazio di storage high availability e performante
 - Spostare lo storage e i dati verso un'altra istanza
-- Se si desidera preparare l'ambiente per l'utilizzo di [Terraform](/pages/public_cloud/compute/how_to_use_terraform), è necessario prepararlo.
+- Se si desidera preparare l'ambiente per l'utilizzo di [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), è necessario prepararlo.
 
 **Questa guida ti mostra come creare un disco aggiuntivo e configurarlo sulla tua istanza.**
 
@@ -35,7 +35,7 @@ Ciò può essere utile nei seguenti casi:
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Disporre di un'istanza [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) nel proprio account OVHcloud
 - Avere un accesso amministratore (sudo) alla tua istanza via SSH
-- Prepara l'ambiente per utilizzare [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- Prepara l'ambiente per utilizzare [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 > [!warning]
 >
@@ -44,6 +44,42 @@ Ciò può essere utile nei seguenti casi:
 
 ## Procedura
 
+### I diversi tipi di volumi
+
+OVHcloud propone tre tipi di volumi Block Storage, ognuno dei quali risponde a esigenze specifiche in termini di performance, capacità e costi. Queste soluzioni ti permettono di associare volumi di storage persistenti alle tue istanze, garantendo un alto livello di affidabilità e disponibilità.
+
+/// details | **Classic - 500 IOPS garantiti**
+
+Il volume Classic è una soluzione di storage affidabile ed economica, ideale per carichi di lavoro che richiedono performance moderate. Offre 500 IOPS garantiti, che lo rendono adatto per i seguenti utilizzi:
+
+- Hosting di applicazioni Web classiche
+- Storage di database di piccole e medie dimensioni
+- Backup e archiviazione dei dati
+
+///
+
+/// details | **High Speed - Fino a 3000 IOPS**
+
+Il volume High-Speed è progettato per applicazioni che richiedono un accesso più rapido ai dati. Con prestazioni fino a 3000 IOPS, l'ideale per i seguenti utilizzi:
+
+- Database transazionali (MySQL, PostgreSQL, ecc...)
+- Ambienti di virtualizzazione e container
+- Applicazioni che richiedono latenza ridotta e throughput elevato
+
+///
+
+/// details | **High-Speed Gen2 - 30 IOPS/GB e fino a 20.000 IOPS**
+
+La generazione 2 dei volumi High Speed è ottimizzata per i workload più esigenti. Con prestazioni di 30 IOPS/GB, fino a 20.000 IOPS, questo tipo di volume è consigliato per:
+
+- Big Data e analisi in tempo reale
+- Intelligenza artificiale e Machine Learning
+- Elaborazione di grandi database e storage ad alte prestazioni
+
+///
+
+![volumi_tipici](images/volume-types.png){.thumbnail}
+
 ### Associa un nuovo volume
 
 > [!tabs]
@@ -51,6 +87,11 @@ Ciò può essere utile nei seguenti casi:
 >> Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto. Poi apri `Block Storage`{.action} nel menu a sinistra.
 >>
 >> In questa sezione clicca sul pulsante `Crea un volume`{.action}.
+>>
+>> > [!warning]
+>> >
+>> > Nota: il volume deve essere creato nella stessa regione dell'istanza a cui si desidera associarlo. Se lo crei in un'altra regione, puoi eliminarlo e ricrearlo nella regione corretta, oppure puoi migrare la regione seguendo [questa guida](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another).
+>> >
 >>
 >> ![seleziona il progetto](images/avolume01.png){.thumbnail}
 >>

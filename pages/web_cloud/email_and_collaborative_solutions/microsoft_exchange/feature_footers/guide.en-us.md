@@ -17,7 +17,12 @@ In the OVHcloud Control Panel, you can create universal signatures (footers) for
 
 ## Instructions
 
-First, log in to your [OVHcloud Control Panel](/links/manager), navigate to the `Webcloud`{.action} section, and select your Exchange service from the column under `Microsoft`{.action} `Exchange`{.action}. Click on the `More+`{.action} tab in the horizontal menu and select `Footers`{.action}.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `Microsoft`{.action}.
+1. Click `Exchange`{.action}.
+1. Select the service concerned.
+1. Click on the `More+`{.action} tab in the horizontal menu and select `Footers`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
@@ -30,7 +35,7 @@ The editor offers a selection of variables that correspond to the user's data in
 ![exchangesig](images/exchange-footer-step3aag.gif){.thumbnail}
 
 The footer is created using HTML tags, which allow for some formatting options. Use the tool bar on the top to customise the signature. You can also verify the HTML code by clicking on `Source`{.action}.
- 
+
 ![exchangesig](images/exchange-footer-step4.png){.thumbnail}
 
 Tick the box "Enable the signature for outgoing mail only" to prevent adding this footer to emails sent between users on the same domain. Click `Confirm`{.action} once the signature is finished. It will now be attached to emails sent from this domain's user accounts. You can edit or delete signatures in the OVHcloud Control Panel after they are created.

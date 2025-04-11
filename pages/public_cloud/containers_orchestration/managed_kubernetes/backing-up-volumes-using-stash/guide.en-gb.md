@@ -29,9 +29,9 @@ In this section you will create your Object Storage bucket on Swift.
 
 Before creating your Object Storage bucket you need to:
 
-- [Prepare your environement to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Prepare your environement to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
-- [Get Openstack RC File v3 from Horizon](/pages/public_cloud/compute/access_and_security_in_horizon)
+- [Get Openstack RC File v3 from Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)
 
 You should now have access to your OpenStack RC file, with a filename like `<user_name>-openrc.sh`, and the username and password for your OpenStack account.
 

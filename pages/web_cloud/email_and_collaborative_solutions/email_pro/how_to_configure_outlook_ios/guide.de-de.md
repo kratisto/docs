@@ -36,7 +36,7 @@ E-Mail Pro Accounts können auf verschiedenen kompatiblen E-Mail-Clients eingeri
 
 > [!primary]
 >
-> In dieser Anleitung verwenden wir als Serverbezeichnung: pro**?**.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
 > 
 > Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Bereich **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
@@ -79,8 +79,8 @@ Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 >> - **E-Mail-Adresse**
 >> - **Anzeigename**: Geben Sie Ihre vollständige E-Mail-Adresse ein.
 >> - **Beschreibung**
->> - **IMAP-Posteingangsserver**:<br>- **IMAP-Hostname**: Geben Sie `pro**?**.mail.ovh.net` ein (ersetzen Sie "**?**" mit der Nummer Ihres Servers).<br>- **IMAP-Port**: 993<br>- **IMAP-Benutzername**: Ihre vollständige E-Mail-Adresse.<br>- **IMAP-Passwort**: Passwort Ihres E-Mail-Accounts.<br>- **Portsicherheit*: SSL
->> - **SMTP-Posteingangsserver**:<br>- **SMTP-Hostname**: Geben Sie `pro**?**.mail.ovh.net` ein (ersetzen Sie "**?**" mit der Nummer Ihres Servers).<br>- **SMTP-Port**: 587<br>- **SMTP-Benutzername**: Ihre vollständige E-Mail-Adresse.<br>- **SMTP-Passwort**: Passwort Ihres E-Mail-Accounts.<br>- **Portsicherheit**: STARTTLS
+>> - **IMAP-Posteingangsserver**:<br>- **IMAP-Hostname**: Geben Sie pro?.mail.ovh.net ein (ersetzen Sie "?" mit der Nummer Ihres Servers).<br>- **IMAP-Port**: 993<br>- **IMAP-Benutzername**: Ihre vollständige E-Mail-Adresse.<br>- **IMAP-Passwort**: Passwort Ihres E-Mail-Accounts.<br>- **Portsicherheit*: SSL
+>> - **SMTP-Posteingangsserver**:<br>- **SMTP-Hostname**: Geben Sie pro?.mail.ovh.net ein (ersetzen Sie "?" mit der Nummer Ihres Servers).<br>- **SMTP-Port**: 587<br>- **SMTP-Benutzername**: Ihre vollständige E-Mail-Adresse.<br>- **SMTP-Passwort**: Passwort Ihres E-Mail-Accounts.<br>- **Portsicherheit**: STARTTLS
 >>
 >> Um die Konfiguration abzuschließen, drücken Sie `Verbinden`{.action}.
 >>
@@ -132,7 +132,7 @@ Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 >>
 >> - **Benutzername**: Geben Sie die **vollständige** E-Mail-Adresse ein.
 >> - **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein.
->> - **Server (eingehend)**: pro**?**.mail.ovh.net
+>> - **Server (eingehend)**: pro?.mail.ovh.net
 >> - **Port**: 993
 >> - **Sicherheitstyp**: SSL/TLS
 >>
@@ -140,7 +140,7 @@ Folgen Sie den Installationsschritten, indem Sie auf die Tabs klicken:
 >>
 >> - **Benutzername**: Geben Sie die **vollständige** E-Mail-Adresse ein.
 >> - **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein.
->> - **Server (eingehend)**: pro**?**.mail.ovh.net
+>> - **Server (eingehend)**: pro?.mail.ovh.net
 >> - **Port**: 995
 >> - **Sicherheitstyp**: SSL/TLS
 
@@ -152,7 +152,7 @@ Wenn Sie zum Senden von E-Mails die **SMTP**-Einstellungen in den Kontoeinstellu
 
 - **Benutzername**: Geben Sie die **vollständige** E-Mail-Adresse ein.
 - **Passwort**: Geben Sie das Passwort des E-Mail-Accounts ein.
-- **Server (eingehend)**: pro**?**.mail.ovh.net
+- **Server (eingehend)**: pro?.mail.ovh.net
 - **Port**: 587
 - **Sicherheitstyp**: SSL/TLS
 

@@ -231,7 +231,7 @@ Diese Anleitung hat Ihre Frage nicht beantwortet? [FAQ zur Abrechnung und Zahlun
 
 [Kündigen von OVHcloud Diensten](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Informationen zu den Abrechnungsoptionen der Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Informationen zu den Abrechnungsoptionen der Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Die Abrechnung für Ihre Exchange Accounts verwalten](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

@@ -34,20 +34,29 @@ Antes de começar, defina o(s) direito(s) que vai delegar. Relembramos que, ao c
 > [!warning]
 >
 > Não tem a possibilidade de acumular o "direito de envio" com o "direito de enviar da parte de". As outras combinações são possíveis.
-> 
 
 Quando identificar a conta que a delegação lhe diz respeito, determinar os direitos que irá delegar, bem como a(s) conta(s) que irá(ão) beneficiar destes direitos adicionais, siga para a primeira etapa.
 
 ### 1 - criar a delegação
 
-Para efetuar esta operação, aceda à [Área de Cliente OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique na rubrica `Microsoft`{.action}.
+>> 1. Clique em `Exchange`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
+> **Email Pro**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
 
-- **Exchange**: Clique em `Microsoft`{.action} na barra à esquerda e, a seguir, em `Exchange`{.action}.. 
-- **Email Pro**: Clique em `Email Pro`{.action}.
-
-A seguir, clique no nome do serviço de e-mail no qual se encontra a conta em que se encontra a criação da delegação. Por fim, clique no separador `Contas de e-mail`{.action}.
-
-A tabela que aparecer apresenta as contas associadas ao seu serviço de e-mail. Clique nos três pontos à direita da conta para a qual deseja criar uma delegação e, a seguir, em `Gerir as delegações`{.action}.
+Clique nos três pontos à direita da conta para a qual deseja criar uma delegação e, a seguir, em `Gerir as delegações`{.action}.
 
 ![delegação](images/delegation-step1.png){.thumbnail}
 

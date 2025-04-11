@@ -1,12 +1,22 @@
 ---
 title: Aumenta la dimensione di un disco aggiuntivo
 excerpt: Come aumentare la dimensione di un volume aggiuntivo e aumentare la sua partizione principale
-updated: 2022-03-29
+updated: 2025-03-21
 ---
 
-> [!primary]
-> Questa traduzione è stata generata automaticamente dal nostro partner SYSTRAN. I contenuti potrebbero presentare imprecisioni, ad esempio la nomenclatura dei pulsanti o alcuni dettagli tecnici. In caso di dubbi consigliamo di fare riferimento alla versione inglese o francese della guida. Per aiutarci a migliorare questa traduzione, utilizza il pulsante "Contribuisci" di questa pagina.
->
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
@@ -24,6 +34,68 @@ Se hai raggiunto la capacità massima del tuo disco aggiuntivo, aggiungi spazio 
 ## Procedura
 
 Per gli step successivi, è necessario aver già configurato un disco aggiuntivo in base alle intrusioni della [nostra guida](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+
+## Monitoraggio dell'utilizzo del disco prima del ridimensionamento
+
+> [!warning]
+>
+> Si consiglia di mantenere sempre il 20% di spazio libero sui volumi di storage. In questo modo è possibile garantire prestazioni ottimali ed evitare il rischio di danneggiamento o guasto del sistema quando il volume raggiunge la capacità massima.
+>
+
+Per permettere di ridimensionare il disco al momento giusto, è fondamentale controllare regolarmente l'utilizzo del disco. Di seguito sono riportate esercitazioni rapide per Windows e Linux che consentono di tenere traccia dello spazio su disco e anticipare quando è necessario un aggiornamento.
+
+> [!tabs]
+> Su Windows
+>> /// details | **Utilizzo del prompt dei comandi**
+>>
+>> Apri prompt dei comandi (Win + R → cmd → Enter).
+>>
+>> Esegui il seguente comando:
+>>
+>> ```bash
+>> wmic logicaldisk get name, size, freespace
+>> ```
+>>
+>> Visualizza lo spazio libero e le dimensioni totali di ciascun disco.
+>>
+>> ///
+>>
+>> /// details | **Utilizzo di PowerShell**
+>>
+>> Aprire PowerShell come amministratore.
+>>
+>> Esegui il seguente comando:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> Mostra lo spazio su disco utilizzato e disponibile.
+>>
+>> ///
+>>
+> Su Linux
+>> /// details | **Utilizzo del comando 'df'**
+>>
+>> Per verificare l'utilizzo complessivo del disco, eseguire:
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> Visualizza l'utilizzo del disco in un formato leggibile.
+>>
+>> ///
+>>
+>> /// details | **Utilizzo del comando 'lsblk'**
+>>
+>> Per visualizzare le partizioni del disco e le relative dimensioni:
+>>
+>> ```bash
+>> lsblk
+>> ```
+>>
+>> ///
 
 ### Modifica la dimensione del disco
 
@@ -162,5 +234,6 @@ Il volume ridimensionato include lo spazio disco aggiuntivo.
 ## Per saperne di più
 
 [Crea e configura un disco aggiuntivo sulla tua istanza](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Modifica il tipo di volume di Block Storage](/pages/public_cloud/compute/switch_volume_type)
 
 Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.

@@ -16,7 +16,7 @@ In dieser Hilfe werden die Erstellung, der Start und die Löschung von Abbildern
 
 ## Voraussetzungen
 
-- [Erstellung eines Zugangs zu Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Erstellung eines Zugangs zu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - Aufruf des Menüs Abbilder im OpenStack Horizon Manager
 
 ![public-cloud](images/horizon_menu.png){.thumbnail}

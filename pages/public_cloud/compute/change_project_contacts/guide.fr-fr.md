@@ -43,10 +43,10 @@ Pour une explication plus détaillée de cette procédure, nous vous invitons à
 
 ## Aller plus loin
 
-[Informations concernant le mode de facturation Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Informations concernant le mode de facturation Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gérer les contacts de ses services](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Déléguer des projets](/pages/public_cloud/compute/delegate_projects)
+[Déléguer des projets](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

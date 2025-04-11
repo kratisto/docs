@@ -1,7 +1,7 @@
 ---
 title: "FAQ Web Hosting"
 excerpt: "Znajdź najczęściej zadawane pytania dotyczące hostingu stron internetowych przez OVHcloud"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
@@ -270,9 +270,11 @@ Możesz również skontaktować się z [naszymi partnerami](/links/partner), aby
 
 Nie musisz podejmować żadnych działań w tej sytuacji. Nawet jeśli Twoja domena wyświetla się w [ratingu międzynarodowym (IDN)](https://pl.wikipedia.org/wiki/Internationalized_Domain_Name){.external} w Panelu klienta, będzie działać i wyświetlać się w sposób całkowicie normalny gdzie indziej. Adres Twojej strony WWW zostanie wyświetlony w żądanym przez Ciebie formacie. Twoje konta e-mail będą się wyświetlały w wybranym przez Ciebie formacie.
 
-> [!warning]
+> [!alert]
 >
-> Korzystanie z konta e-mail z domeną IDN w programie pocztowym (Outlook, Mail macOS, etc.) nie jest zalecane i może powodować niezgodności.
+> Odradzamy używanie adresu e-mail z nazwą domeny IDN (Internationalized Domain Name) z poziomu klienta poczty (Outlook, Mail na macOS, itp.). Wynika to z faktu, że niektórzy klienci poczty nie interpretują nazw domen przy użyciu znaków akcentowanych, co blokuje transmisję wiadomości e-mail. Nadawca, który prześle Ci wiadomość e-mail, otrzyma automatyczną wiadomość informującą, że Twój adres e-mail nie istnieje.
+>
+> **Zalecana jest rezerwacja tej samej domeny bez akcentów jako uzupełnienie nazwy domeny ze znakami akcentowanymi, co pozwoli uniknąć wszelkich niezgodności podczas transmisji wiadomości e-mail.**
 >
 
 ///

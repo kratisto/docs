@@ -17,12 +17,24 @@ Na Área de Cliente OVHcloud, pode criar assinaturas universais (footers) para e
 
 ## Instruções
 
-Para efetuar esta operação, aceda à [Área de Cliente OVHcloud](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique na rubrica `Microsoft`{.action}.
+>> 1. Clique em `Exchange`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
+> **Email Pro**
+>>
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Clique no separador `Web Cloud`{.action}.
+>> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Selecione a plataforma em causa.
+>>
 
-- **Exchange**: Clique em `Microsoft`{.action} na barra à esquerda e, a seguir, em `Exchange`{.action}.. 
-- **Email Pro**: Clique em `Email Pro`{.action}.
-
-A seguir, clique no nome do serviço de e-mail no qual se encontra a conta em que se encontra a criação da delegação. No menu horizontal, clique em `More+`{.action} e selecione `Footers`{.action}.
+No menu horizontal, clique em `Mais +`{.action} e selecione `Footers`{.action}.
 
 ![exchangesig](images/exchange-footer-step1.png){.thumbnail}
 
@@ -35,7 +47,7 @@ O editor oferece uma série de variáveis correspondentes aos dados do utilizado
 ![exchangesig](images/exchange-footer-step3aag.gif){.thumbnail}
 
 A assinatura é criada por meio de tags HTML, o que oferece algumas opções de formatação. Use a barra de ferramentas em cima para personalizar a assinatura. Também pode verificar o código HTML ao clicar em `Source`{.action}.
- 
+
 ![exchangesig](images/exchange-footer-step4.png){.thumbnail}
 
 Selecione a caixa «Enable the signature for outgoing mail only» para evitar que a assinatura seja adicionada a e-mails enviados a utilizadores do mesmo domínio. Clique em `Confirm`{.action} quando tiver concluído a operação. Agora, a assinatura será adicionada a todos os e-mails enviados a partir das contas associadas a este domínio. Depois de criadas, as assinaturas podem ser editadas ou eliminadas na Área de Cliente OVHcloud.

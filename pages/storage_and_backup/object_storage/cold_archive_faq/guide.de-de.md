@@ -24,7 +24,7 @@ Find an overview of the solution on [this page](/pages/storage_and_backup/object
 
 To use the service, you will need to meet the following requirements:
 
-- You must have a [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account. 
+- You must have a [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account. 
 - You must be logged in to your [OVHcloud Control Panel](/links/manager).
 - You must have created an [Object Storage user](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 

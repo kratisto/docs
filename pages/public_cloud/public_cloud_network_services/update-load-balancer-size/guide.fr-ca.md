@@ -21,7 +21,7 @@ updated: 2024-12-10
 
 ### Étape 1 - Se connecter à Horizon
 
-Accédez à [l'interface OVHcloud Horizon](https://horizon.cloud.ovh.net/project/load_balancer) et connectez-vous avec vos identifiants. Pour plus d'informations sur la façon de se connecter à Horizon, consultez le guide « [Présentation de Horizon](/pages/public_cloud/compute/introducing_horizon) ».
+Accédez à [l'interface OVHcloud Horizon](https://horizon.cloud.ovh.net/project/load_balancer) et connectez-vous avec vos identifiants. Pour plus d'informations sur la façon de se connecter à Horizon, consultez le guide « [Présentation de Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon) ».
 
 ### Étape 2 - Localiser le Load Balancer
 

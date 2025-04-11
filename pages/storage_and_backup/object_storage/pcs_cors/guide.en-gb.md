@@ -16,8 +16,8 @@ CORS metadata is only present in the container. The values specified apply to th
 
 ## Requirements
 
-- [Preparing the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) by installing python-swiftclient
-- [Setting the OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Preparing the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) by installing python-swiftclient
+- [Setting the OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instructions
 

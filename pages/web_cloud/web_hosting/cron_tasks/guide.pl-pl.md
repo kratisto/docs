@@ -1,5 +1,5 @@
 ---
-title: "Tworzenie automatycznych zadań (CRON) na Twoim hostingu"
+title: "Tworzenie automatycznych zadań (CRON) na twoim hostingu"
 excerpt: "Dowiedz się, jak utworzyć zadania CRON do automatyzacji zaplanowanych zadań na hostingu"
 updated: 2025-02-20
 ---
@@ -29,7 +29,7 @@ updated: 2025-02-20
 
 ## Wprowadzenie 
 
-Na Twoim hostingu OVHcloud możesz użyć skryptów do automatyzacji niektórych operacji. Utworzenie zaplanowanego zadania ("zadanie CRON") to najprostszy sposób, aby upewnić się, że Twoje skrypty są wykonywane w określonych momentach, bez konieczności podejmowania dalszych działań. 
+Na twoim hostingu OVHcloud możesz użyć skryptów do automatyzacji niektórych operacji. Utworzenie zaplanowanego zadania ("zadanie CRON") to najprostszy sposób, aby upewnić się, że twoje skrypty są wykonywane w określonych momentach, bez konieczności podejmowania dalszych działań. 
 
 **Dowiedz się, jak tworzyć zadania CRON do automatyzacji zaplanowanych zadań na hostingu.**
 
@@ -37,7 +37,7 @@ Na Twoim hostingu OVHcloud możesz użyć skryptów do automatyzacji niektórych
 >
 > OVHcloud udostępnia różnorodne usługi, jednak to Ty odpowiadasz za ich konfigurację i zarządzanie nimi. Jesteś tym samym odpowiedzialny za ich prawidłowe funkcjonowanie.
 >
-> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w wykonywaniu bieżących zadań. W przypadku trudności zalecamy skorzystanie z pomocy wyspecjalizowanego webmastera lub kontakt z producentem oprogramowania. Niestety firma OVHcloud nie będzie mogła udzielić wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji [„Sprawdź również”](#go-further). 
+> Oddajemy w twoje ręce niniejszy przewodnik, którego celem jest pomoc w wykonywaniu bieżących zadań. W przypadku trudności zalecamy skorzystanie z pomocy wyspecjalizowanego webmastera lub kontakt z producentem oprogramowania. Niestety firma OVHcloud nie będzie mogła udzielić wsparcia w tym zakresie. Więcej informacji znajduje się w sekcji [„Sprawdź również”](#go-further). 
 >
 
 ## Wymagania początkowe
@@ -104,7 +104,7 @@ Podsumowanie zawiera informacje o skonfigurowanych parametrach, w tym *o ratingu
 
 ![cron](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/cron/add-scheduling-step-3.png){.thumbnail}
 
-Zadanie będzie gotowe za kilka minut. Możesz zmienić wszystkie parametry lub usunąć zadanie klikając na `...`{.action} w tabeli prezentacji Twojego panelu konfiguracyjnego OVHcloud.
+Zadanie będzie gotowe za kilka minut. Możesz zmienić wszystkie parametry lub usunąć zadanie klikając na `...`{.action} w tabeli prezentacji twojego panelu konfiguracyjnego OVHcloud.
 
 ### Zmień lub usuń zaplanowane zadanie
 
@@ -133,7 +133,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **4** etapy.
 >>
 >> Wybierz przycisk `Zmień`{.action} lub `Usuń`{.action} w zależności od czynności, którą chcesz wykonać w odniesieniu do zaplanowanego zadania.
 
-### Ograniczenia zaplanowanych zadań na Twoim hostingu
+### Ograniczenia zaplanowanych zadań na twoim hostingu
 
 |Funkcjonalność|Opis|
 |---|---|
@@ -156,7 +156,7 @@ Zawsze korzystaj z bezwzględnych ścieżek dostępu do plików skryptów. Stał
  
 #### Weryfikacja logów wykonawczych
 
-W \[logach] Twojego hostingu WWW, które są dostępne w [Panelu klienta OVHcloud](/links/manager){.external}, zobaczysz kategorię logów zatytułowaną "CRON".
+W \[logach] twojego hostingu WWW, które są dostępne w [Panelu klienta OVHcloud](/links/manager){.external}, zobaczysz kategorię logów zatytułowaną "CRON".
 
 Więcej informacji znajdziesz w przewodniku ["Sprawdź statystyki i logi strony zainstalowanej na hostingu"](/pages/web_cloud/web_hosting/logs_and_statistics).
 
@@ -204,6 +204,6 @@ Więcej informacji znajdziesz w przewodniku ["Sprawdź statystyki i logi strony 
 
 W przypadku wyspecjalizowanych usług (pozycjonowanie, rozwój, etc.) skontaktuj się z [partnerami OVHcloud](/links/partner).
 
-Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
+Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
 
 Dołącz do [grona naszych użytkowników](/links/community).

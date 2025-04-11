@@ -28,8 +28,8 @@ También puede implementar un sistema operativo desde y hacia un volumen. La ins
 
 ## Requisitos
 
-- [Acceso a Horizon](/pages/public_cloud/compute/introducing_horizon)
-- [Cargar variables de entorno OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Acceso a Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
+- [Cargar variables de entorno OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instrucciones
 

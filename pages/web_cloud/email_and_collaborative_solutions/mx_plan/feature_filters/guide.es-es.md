@@ -34,7 +34,7 @@ Versión histórica de la solución MX Plan|Nueva versión de la solución MX Pl
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Correo electrónico`{.action}.
+1. Haga clic en `Direcciones de correo`{.action}.
 1. Seleccione el dominio.
 1. En la pestaña `Correo electrónico`{.action} de su servicio MX Plan, encontrará la lista de sus direcciones de correo. En el cuadro de cuentas de correo puede verse una columna `Filtros`. Haga clic en el icono de embudo.
 

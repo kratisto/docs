@@ -231,7 +231,7 @@ Este guia não respondeu à sua pergunta? Consulte [FAQ sobre faturação e paga
 
 [Como rescindir serviços da OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Informações sobre o método de faturação cloud](/pages/public_cloud/compute/analyze_billing)
+[Informações sobre o método de faturação cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Gerir a faturação das contas Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

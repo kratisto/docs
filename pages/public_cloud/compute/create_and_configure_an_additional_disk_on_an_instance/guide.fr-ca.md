@@ -1,7 +1,7 @@
 ---
 title: Créer et configurer un disque supplementaire sur une instance
 excerpt: Découvrez comment attacher un nouveau volume à votre instance Public Cloud
-updated: 2024-12-24
+updated: 2025-03-21
 ---
 
 <style>
@@ -26,7 +26,7 @@ Cela peut être utile dans les cas suivants :
 - Si vous souhaitez augmenter votre capacité de stockage sans avoir à changer le modèle d’instance.
 - Si vous souhaitez disposer d’un espace de stockage hautement disponible et performant.
 - Si vous souhaitez déplacer votre stockage et vos données vers une autre instance.
-- Si vous souhaitez préparer l'environnement pour utiliser [Terraform](/pages/public_cloud/compute/how_to_use_terraform), vous devez préparer l'environnement.
+- Si vous souhaitez préparer l'environnement pour utiliser [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform), vous devez préparer l'environnement.
 
 **Découvrez comment créer un disque supplémentaire et le configurer sur votre instance.**
 
@@ -35,13 +35,49 @@ Cela peut être utile dans les cas suivants :
 - Être connecté à votre [espace client OVHcloud](/links/manager)
 - Disposer d'une instance [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps){.external} dans votre compte OVHcloud
 - Avoir un accès administrateur (sudo) à votre instance via SSH
-- Préparer l'environnement si vous souhaitez utiliser [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- Préparer l'environnement si vous souhaitez utiliser [Terraform](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 > [!warning]
 > Cette fonctionnalité n'est actuellement pas disponible pour les instances Metal.
 >
 
 ## En pratique
+
+### Les différents types de volumes
+
+OVHcloud propose trois types de volumes Block Storage, chacun adapté à des besoins spécifiques en matière de performance, de capacité et de coûts. Ces solutions vous permettent d’attacher des volumes de stockage persistants à vos instances, en garantissant un haut niveau de fiabilité et de disponibilité.
+
+/// details | **Classic – 500 IOPS garantis**
+
+Le volume Classic est une solution de stockage fiable et économique, idéale pour les charges de travail nécessitant des performances modérées. Il offre 500 IOPS garantis, ce qui le rend adapté aux usages suivants :
+
+- Hébergement d’applications web classiques
+- Stockage de bases de données de petite à moyenne taille
+- Sauvegarde et archivage de données
+
+///
+
+/// details | **High-Speed – Jusqu’à 3000 IOPS**
+
+Le volume High-Speed est conçu pour des applications nécessitant un accès plus rapide aux données. Avec une performance pouvant atteindre 3000 IOPS, il convient parfaitement aux cas d’usage suivants :
+
+- Bases de données transactionnelles (MySQL, PostgreSQL, etc.)
+- Environnements de virtualisation et de conteneurs
+- Applications nécessitant une latence réduite et un débit élevé
+
+///
+
+/// details | **High-Speed Gen2 – 30 IOPS/GB et jusqu’à 20 000 IOPS**
+
+La génération 2 des volumes High-Speed est optimisée pour les workloads les plus exigeants. Avec une performance de 30 IOPS/GB, pouvant atteindre 20 000 IOPS, ce type de volume est recommandé pour les usages suivants :
+
+- Big Data et analyses en temps réel
+- Intelligence artificielle et Machine Learning
+- Traitement de grandes bases de données et stockage haute performance
+
+///
+
+![volumes_types](images/volume-types.png){.thumbnail}
 
 ### Attacher un nouveau volume
 
@@ -54,6 +90,11 @@ Cela peut être utile dans les cas suivants :
 >> ![sélectionner le projet](images/avolume01.png){.thumbnail}
 >>
 >> Suivez les étapes de configuration afin de sélectionner les options d'emplacement, de type de disque et de capacité de disque. Renseignez un nom pour le volume et validez en cliquant sur `Créer le volume`{.action}.
+>>
+>> > [!warning]
+>> >
+>> > Remarque : Votre volume doit être créé dans la même région que l'instance à laquelle vous souhaitez l'attacher. Si vous le créez dans une autre région, vous pouvez le supprimer et le recréer dans la bonne région, ou vous pouvez migrer la région en suivant [ce guide](/pages/public_cloud/compute/transfer_volume_backup_from_one_datacentre_to_another).
+>> >
 >>
 >> ![create disk](images/avolume02.png){.thumbnail}
 >>

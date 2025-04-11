@@ -397,7 +397,7 @@ Se vedi questo, probabilmente non ti sei disconnesso prima di uscire dall'applic
 Per continuare, è necessaria l'interazione umana.
 ```
 
-Come indicato nel messaggio, l’account email è considerato già connesso. Si parla di "sessione", ciò significa che il tuo account email è già in uso agli occhi del server di posta e che questa sessione precedente deve essere chiusa. Verifica che il tuo account email non sia già stato aperto su roundcube. Cancella anche i dati in cache sul tuo browser Internet.
+Come indicato nel messaggio, l’account email è considerato già connesso. Parliamo di "sessione". Ciò significa che il tuo account email è già in uso dal server di posta e che la sessione precedente deve essere chiusa. Verifica che il tuo account email non sia già aperto su roundcube. Cancella anche i dati in cache sul tuo browser.
 
 ## Per saperne di più
 

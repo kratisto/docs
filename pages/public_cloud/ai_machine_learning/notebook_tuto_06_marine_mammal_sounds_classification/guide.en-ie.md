@@ -6,14 +6,14 @@ updated: 2023-05-11
 
 ## Objective
 
-The purpose of this tutorial is to show how it is possible to train a model in oder to classify sounds. To do this, we take as an example a dataset of **marine mammals sounds**.
+The purpose of this tutorial is to show how it is possible to train a model in order to classify sounds. To do this, we take as an example a dataset of **marine mammals sounds**.
 
 ![image](images/marine-mammals-categories.png){.thumbnail}
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie)
-- An AI Notebooks project created inside a [Public Cloud project](https://www.ovhcloud.com/en-ie/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
+- An AI Notebooks project created inside a [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 - A user for AI Notebooks
 - Two [Object Storage containers](/pages/storage_and_backup/object_storage/pcs_create_container) to store the data and the model
 - Your own dataset
@@ -22,7 +22,7 @@ The purpose of this tutorial is to show how it is possible to train a model in o
 
 ### Uploading your dataset on Public Cloud Storage
 
-If you want to upload it from the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie), go to the Object Storage section and [create a new object container](/pages/storage_and_backup/object_storage/pcs_create_container) by clicking `Object Storage`{.action} > `Create an object container`{.action}.
+If you want to upload it from the [OVHcloud Control Panel](/links/manager), go to the Object Storage section and [create a new object container](/pages/storage_and_backup/object_storage/pcs_create_container) by clicking `Object Storage`{.action} > `Create an object container`{.action}.
 
 ![image](images/new-object-container.png){.thumbnail}
 
@@ -32,7 +32,7 @@ If you want to upload it from the [OVHcloud Control Panel](https://www.ovh.com/a
 > You can also use the OVHcloud AI CLI to upload files and folders (and be more stable than through your browser).
 >
 
-If you want to run it with the CLI, just follow this [this guide](/pages/public_cloud/ai_machine_learning/cli_17_how_to_cli_data_notebooks). You have to choose the region, the name of your container and the path where your data is located and use the following command:
+If you want to run it with the CLI, just follow [this guide](/pages/public_cloud/ai_machine_learning/cli_17_how_to_cli_data_notebooks). You have to choose the region, the name of your container and the path where your data is located and use the following command:
 
 ```bash
 ovhai bucket object upload <container>@<region> <paths>
@@ -95,7 +95,7 @@ A preview of this notebook can be found on GitHub [here](https://github.com/ovh/
 - If you want to deploy a **Streamlit** app in order to classify marine mammal sounds using your model, please check out this [notebook](/pages/public_cloud/ai_machine_learning/deploy_tuto_03_streamlit_sounds_classification).
 - You can also compare two methods for audio classification task by following this [tutorial](/pages/public_cloud/ai_machine_learning/training_tuto_06_models_comparaison_weights_and_biases).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ie/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

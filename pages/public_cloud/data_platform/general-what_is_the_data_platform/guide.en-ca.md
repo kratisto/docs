@@ -1,7 +1,7 @@
 ---
 title: Data Platform documentation
-excerpt: ""
-updated: 2024-07-09
+excerpt: Learn what is OVHcloud Data Platform
+updated: 2025-03-31
 ---
 
 <style>
@@ -103,11 +103,6 @@ updated: 2024-07-09
 }
 </style>
 
-> [!warning]
->
-> Data Platform is currently only deployed as a beta version. If you experience any difficulties and/or would like to discuss your experience with other users, you can ask for support by reaching out to us on the Data Platform Channel within the [Discord Server](https://discord.gg/ovhcloud). You can also find a step by step guide towards joining our Discord server in the [support](https://docs.forepaas.io/#/en/support/index) section.
-> 
-
 ## Welcome to the Data Platform documentation portal !
 
 By following this documentation, you will discover what **the Data Platform** can do for you, uncover how to master its features and functionality, and learn how to use it to its full potential to **build any Data application** you may desire.
@@ -149,7 +144,7 @@ We’re excited to have you on board ! There are four sections in this documenta
       <h3 style="color:#2199e8 !important;padding-top:5px !important;">GETTING STARTED</h3>
       <p>You’d like to get up and running as quickly as possible? No problem, we’ve got you covered! Check out this awesome Getting Started tutorial, which will help you build a Project using sample datasets.</p>
    </div>
-   <a href="https://docs.forepaas.io/#/en/getting-started/index"></a>
+   <a href="https://docs.dataplatform.ovh.net/#/en/getting-started/index"></a>
 </div>
 
 <div class="block-step">
@@ -158,7 +153,7 @@ We’re excited to have you on board ! There are four sections in this documenta
       <h3 style="color:#2199e8 !important;padding-top:5px !important;">TUTORIALS</h3>
       <p>You can't get enough of the Getting Started guides and want to see hands-on tutorials for more advanced use cases? Check out our Getting Further guide series!</p>
    </div>
-   <a href="https://docs.forepaas.io/#/en/getting-further/index"></a>
+   <a href="https://docs.dataplatform.ovh.net/#/en/getting-further/index"></a>
 </div>
 
 <div class="block-step">
@@ -167,7 +162,7 @@ We’re excited to have you on board ! There are four sections in this documenta
       <h3 style="color:#2199e8 !important;padding-top:5px !important;">PLATFORM DOCUMENTATION</h3>
       <p>Starting out with the Platform? Still unsure of what's called what and figuring out how every feature works? This if for you.</p>
    </div>
-   <a href="https://docs.forepaas.io/#/en/product/index"></a>
+   <a href="https://docs.dataplatform.ovh.net/#/en/product/index"></a>
 </div>
 
 <div class="block-step">
@@ -176,5 +171,5 @@ We’re excited to have you on board ! There are four sections in this documenta
       <h3 style="color:#2199e8 !important;padding-top:5px !important;">DEVELOPER DOCUMENTATION</h3>
       <p>You're an advanced user and are exploring what's under the hood, check out our component's API Reference and SDK functions.</p>
    </div>
-   <a href="https://docs.forepaas.io/#/en/technical/index"></a>
+   <a href="https://docs.dataplatform.ovh.net/#/en/technical/index"></a>
 </div>

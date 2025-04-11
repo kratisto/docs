@@ -27,7 +27,7 @@ El primer paso es crear un contenedor que agrupe sus archivos.
 
 Si utiliza Horizon:
 
-- Haber creado un [usuario de OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
+- Haber creado un [usuario de OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## Procedimiento
 

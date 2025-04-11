@@ -1,7 +1,7 @@
 ---
 title: 'Zmiana hostname instancji Public Cloud'
 excerpt: 'Dowiedz się, jak zmienić hostname instancji Public Cloud'
-updated: 2018-09-18
+updated: 2025-03-20
 ---
 
 > [!primary]
@@ -10,53 +10,78 @@ updated: 2018-09-18
 
 ## Wprowadzenie
 
-Moduł Cloud-Init pozwala na skonfigurowanie [instancji Public Cloud](https://www.ovh.pl/public-cloud/instances/){.external} podczas jej tworzenia oraz podczas każdego restartu.  Jeśli chcesz ponownie skonfigurować hostname, na przykład na skutek błędu podczas tworzenia instancji lub aby zmienić konfigurację serwera mailowego, musisz wyłączyć moduł Cloud-Init, który zajmuje się konfiguracją hostname, aby nie został on przywrócony. 
+Moduł Cloud-init pozwala na skonfigurowanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/){.external} podczas jej tworzenia oraz podczas każdego restartu. Jeśli chcesz ponownie skonfigurować hostname, na przykład na skutek błędu podczas tworzenia instancji lub aby zmienić konfigurację serwera mailowego, musisz wyłączyć moduł Cloud-init, który zajmuje się konfiguracją hostname, aby nie został on przywrócony. 
 
 **Przewodnik ten wyjaśnia, jak skonfigurować Cloud-init, aby móc zmienić hostname instancji.**
 
 > [!warning]
 >
-> OVH oddaje do Twojej dyspozycji usługi, za które przejmujesz odpowiedzialność. Firma OVH nie ma dostępu do Twoich serwerów, nie pełni funkcji administratora i w związku z tym nie będzie mogła udzielić Ci wsparcia. Zarządzanie oprogramowaniem i wdrażanie środków bezpieczeństwa należy do klienta.
+> OVHcloud oddaje do Twojej dyspozycji usługi, za które to Ty przejmujesz odpowiedzialność. Firma OVHcloud nie ma dostępu do Twoich serwerów, nie pełni funkcji administratora i w związku z tym nie będzie mogła udzielić Ci wsparcia. Dlatego to do Ciebie należy codzienne zarządzanie oprogramowaniem i dbanie o bezpieczeństwo.
 >
-> Oddajemy w Twojej ręce niniejszy przewodnik, którego celem jest pomoc w jak najlepszym wykonywaniu bieżących zadań. W przypadku problemów z administrowaniem, użytkowaniem czy zabezpieczeniem serwera rekomendujemy skorzystanie z usług wyspecjalizowanej firmy. Więcej informacji znajduje się w sekcji “Sprawdź również”.
+> Oddajemy w Twoje ręce niniejszy przewodnik, którego celem jest pomoc w jak najbardziej optymalnym wykonywaniu bieżących zadań. Jeśli jednak napotkasz jakiekolwiek trudności lub wątpliwości związane z administrowaniem, użytkowaniem lub dbaniem o bezpieczeństwo serwera, zalecamy skontaktowanie się z [wyspecjalizowanym dostawcą](/links/partner). Więcej informacji znajduje się w sekcji "Sprawdź również".
+>
+> Ten przewodnik jest przeznaczony dla instancji opartych na dystrybucji Linux **tylko**.
 >
 
 ## Wymagania początkowe
 
-* Utworzenie [instancji Public Cloud](https://www.ovh.pl/public-cloud/instances/){.external}
-* [Połączenie przez SSH](/pages/public_cloud/compute/public-cloud-first-steps) (sudo) z instancją
+* Utworzenie [instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps){.external}
+* [Połączenie przez SSH](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance) (sudo) z instancją
 
 ## W praktyce
 
 ### Wyłączenie modułu Cloud-init
 
-Aby wyłączyć moduł Cloud-init, najpierw trzeba zmodyfikować plik konfiguracyjny:
+> [!primary]
+>
+> Dla celów tego przewodnika, będziemy używać edytora plików **vi**, ponieważ jest on domyślnie obecny w dystrybucjach Linuksa. Możesz oczywiście użyć wybranego przez siebie edytora.
+>
+> Podstawowe użycie vi :
+>
+> - Naciśnij **i**, aby przejść do trybu wstawiania tekstu.
+> - Naciśnij **Escape** (Esc), aby wyjść z trybu wstawiania.
+> - Naciśnij **:wq**, a następnie **Enter**, aby zapisać i wyjść.
+> - Naciśnij **:q!**, a następnie **Enter**, aby wyjść bez zapisywania.
+
+Aby dezaktywować cloud-init, należy zacząć od modyfikacji pliku konfiguracyjnego:
 
 ```sh
-sudo vim /etc/cloud/cloud.cfg
+sudo vi /etc/cloud/cloud.cfg
 ```
 
-Wystarczy dodać lub zmodyfikować następujące dwa wiersze:
+Wystarczy dodać dwie poniższe linie lub zmodyfikować je, jeśli już istnieją:
 
 ```sh
 preserve_hostname: true
 manage_etc_hosts: false
 ```
 
-### Zmiana hostname
+### Zmień hostname
+
+Pierwszym krokiem jest zmiana nazwy hosta (*hostname*). W tym przykładzie zmienimy nazwę hosta na **webserver**. Możesz oczywiście zmienić ją zgodnie z własnymi preferencjami:
 
 W pierwszym kroku zmień hostname:
 
 ```sh
-sudo vim /etc/hostname
+sudo vi /etc/hostname
+```
+
+Dodaj lub zamień zawartość na:
+
+```sh
 webserver
 ```
 
 Następnie zmodyfikuj plik `/etc/hosts`:
 
 ```sh
-sudo vim /etc/hosts
+sudo vi /etc/hosts
+```
 
+Dodaj lub zamień zawartość na:
+
+
+```sh
 127.0.1.1 webserver.localdomain webserver
 127.0.0.1 localhost
 ```
@@ -78,4 +103,4 @@ sudo cat /etc/hosts
 
 ## Sprawdź również 
 
-Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

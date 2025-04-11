@@ -47,10 +47,10 @@ Aby uzyskać szczegółowe informacje na temat tej procedury, zapoznaj się z na
 
 ## Sprawdź również
 
-[Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Zarządzanie kontaktami swoich usług](/pages/account_and_service_management/account_information/managing_contacts)
 
-[Delegowanie projektów](/pages/public_cloud/compute/delegate_projects)
+[Delegowanie projektów](/pages/public_cloud/public_cloud_cross_functional/delegate_projects)
 
 Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.

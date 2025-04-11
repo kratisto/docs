@@ -1,7 +1,7 @@
 ---
 title: "Alojamentos web - FAQ"
 excerpt: "Encontre aqui as questões mais comuns sobre os alojamentos web da OVHcloud"
-updated: 2025-02-14
+updated: 2025-03-24
 ---
 
 <style>
@@ -270,9 +270,11 @@ Por fim, pode contactar um dos nossos parceiros (/links/partner), para que este 
 
 Não tem nada a fazer nesta situação. Mesmo que o seu domínio seja apresentado em [notação internacionalizada (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name){.external} na sua Área de Cliente, funcionará e apresentará-se de forma perfeitamente normal noutro local. O endereço Web do seu site será apresentado conforme solicitado. Os seus endereços de e-mail aparecerão também conforme o seu desejo.
 
-> [!warning]
+> [!alert]
 >
-> A utilização de um endereço de e-mail com um domínio IDN num software de correio eletrónico (Outlook, Mail de macOS, etc.) não é recomendada e pode provocar incompatibilidades.
+> É desaconselhado utilizar um endereço de e-mail com um nome de domínio IDN (Internationalized Domain Name) a partir de um cliente de e-mail (Outlook, Mail de macOS, etc.). Alguns clientes de correio eletrónico não interpretam nomes de domínio com caracteres acentuados, o que bloqueia a transmissão de correio eletrónico. Um remetente que lhe envie um e-mail receberá uma mensagem automática indicando que o seu endereço de e-mail não existe.
+>
+> **Recomenda-se a reserva do mesmo domínio sem acentos, em complemento do seu nome de domínio com caracteres acentuados, a fim de evitar incompatibilidades na troca de e-mails.**
 >
 
 ///

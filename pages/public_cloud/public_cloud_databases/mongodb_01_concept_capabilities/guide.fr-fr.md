@@ -1,7 +1,7 @@
 ---
 title: MongoDB - Capacités et limitations (EN)
 excerpt: Find out what are the capabilities and limitations of the Public Cloud Databases for MongoDB offer
-updated: 2025-02-19
+updated: 2025-04-08
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ The Public Cloud Databases offer supports the following MongoDB versions:
 
 - MongoDB 6.0
 - MongoDB 7.0
-- MongoDB 8.0 (Soon)
+- MongoDB 8.0
 
 Please refer to the [DBMS lifecycle policy guide](/pages/public_cloud/public_cloud_databases/information_02_lifecycle_policy) for recommendations on version upgrades and end of life announcements of major versions. Additionally, MongoDB recommends always installing and using the latest stable version of MongoDB. See [MongoDB Versioning](https://docs.mongodb.com/manual/reference/versioning/){.external} for more information.
 

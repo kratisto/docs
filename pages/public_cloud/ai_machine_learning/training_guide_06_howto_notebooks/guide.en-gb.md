@@ -10,7 +10,7 @@ This guide covers the process of starting a simple interactive notebook leveragi
 
 ## Requirements
 
--   access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+-   access to the [OVHcloud Control Panel](/links/manager)
 -   an **AI Training project** created inside a **public cloud** project
 -   a [user for AI Training](/pages/public_cloud/ai_machine_learning/gi_01_manage_users)
 
@@ -114,4 +114,4 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project. 
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project. 

@@ -85,22 +85,22 @@ Isto permitir-lhe-á recuperar os seus backups a partir de um serviço de outra 
 > Apenas os endereços IP OVHcloud podem ser autorizados.
 >
 
-Ligue-se ao [api.ovh.com](https://api.ovh.com/) e utilize a seguinte chamada:
+Aceda à [consola API OVHcloud](/links/api) com os identificadores da sua conta de cliente e utilize a seguinte chamada:
 
 > [!api]
 >
 > @api {v1} /dedicated/server POST /dedicated/server/{serviceName}/features/backupFTP/access
 >
 
-Introduza os campos da seguinte forma:
+Modifique as configurações da seguinte forma:
 
-- `serviceName`: o nome do seu servidor dedicado
-- `cifs`: assinalar se necessário
-- `ftp`: assinalar se necessário
-- `ipBlock`: indique o IP que terá acesso sob a forma `1.2.3.4/32`
-- `nfs`: assinalar se necessário
+- `serviceName`: indique o nome interno do seu servidor (`ns1111111.ip-203-0-113.eu`).
+- `cifs`: defina este parâmetro como `true` se utilizar este protocolo.
+- `ftp`: defina este parâmetro como `true` se utilizar este protocolo.
+- `ipBlock`: indique o endereço IP que terá acesso, sob a forma `203.0.113.100/32`.
+- `nfs`: defina este parâmetro como `true` se utilizar este protocolo.
 
-![apiamendress](images/aclapi01.png){.thumbnail}
+Clique no botão `EXECUTE`{.action}.
 
 Para verificar se o seu endereço IP está corretamente autorizado, utilize a seguinte chamada:
 
@@ -108,8 +108,6 @@ Para verificar se o seu endereço IP está corretamente autorizado, utilize a se
 >
 > @api {v1} /dedicated/server GET /dedicated/server/{serviceName}/features/backupFTP/access
 >
-
-![apiamendress](images/aclapi02.png){.thumbnail}
 
 ### Reinicializar a sua password
 
@@ -313,7 +311,7 @@ mount -t nfs HostName:/export/ftpbackup/ServiceName /FolderMount
 O exemplo de código acima contém variáveis que deverá substituir pelos seus próprios valores.
 
 * **HostName**: o nome do seu Backup Storage.
-* **ServiçoName**: o nome do seu servidor (exemplo: "ns0000000.ip-123-123-123.net").
+* **ServiçoName**: o nome do seu servidor (exemplo: "`ns1111111.ip-203-0-113.eu`").
 * **FolderMount**: o diretório onde pretende montar o NFS.
 
 Depois de montar a partilha, pode utilizar comandos tais como **cp** e \ rsync\`, tal como o faria com um diretório normal.
@@ -331,7 +329,7 @@ net use z: \\HostName\ServiceName
 O exemplo de código acima contém variáveis que deverá substituir pelos seus próprios valores.
 
 * **HostName**: o nome do seu Backup Storage.
-* **ServiçoName**: o nome do seu servidor (exemplo: "ns0000000.ip-123-123-123.net").
+* **ServiçoName**: o nome do seu servidor (exemplo: "`ns1111111.ip-203-0-113.eu`").
 
 Você pode receber a seguinte mensagem de erro:
 
@@ -371,7 +369,7 @@ mount -t cifs -o vers=2.0,uid=root,gid=100,dir_mode=0700,username=root,password=
 O exemplo de código acima contém variáveis que deverá substituir pelos seus próprios valores.
 
 * **HostName**: o nome do seu Backup Storage.
-* **ServiçoName**: o nome do seu servidor (exemplo: "ns0000000.ip-123-123-123.net").
+* **ServiçoName**: o nome do seu servidor (exemplo: "`ns1111111.ip-203-0-113.eu`").
 * **FolderMount**: o diretório onde pretende estabelecer a partilha (já deve existir).
 
 ## Quer saber mais?

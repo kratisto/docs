@@ -15,7 +15,7 @@ Samples are based on the well-known WordCount. We will first read data from a te
 
 - Access to the [OVHcloud Control Panel](/links/manager).
 - An OVHcloud account
-- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/compute/create_a_public_cloud_project){.external} for details).
+- A cloud project in your OVHcloud account (see [How to create a cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project){.external} for details).
 - Data Processing activated (see [How to activate the Data Processing service](/pages/public_cloud/data_analytics/data_processing/30_HOWTO_activate_project){.external} for details).
 - A Conda compatible environment file.
 The following is an example with only dependencies required for this How to: [environment.yml](https://github.com/ovh/data-processing-samples/tree/master/python_objectStorage/environment.yml) [[1]](#notes).

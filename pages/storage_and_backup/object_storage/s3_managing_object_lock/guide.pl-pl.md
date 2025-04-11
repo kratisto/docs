@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Zarządzanie niezmiennością obiektów za pomocą Object Lock (WORM) (EN)
 excerpt: Object Lock is a feature that allows you to store objects using a Write Once, Read Many (WORM) model
-updated: 2023-08-09
+updated: 2025-03-25
 ---
 
 ## Objective
@@ -152,6 +152,11 @@ The result should look like this:
 
 ### How to configure an Object Lock retention period on an object
 
+> [!primary]
+>
+> Before configuring an Object Lock retention period on an object, ensure that the appropriate permissions are granted. Specifically, the user must have the `s3:PutObjectRetention` action allowed in their IAM policy to set the retention period successfully.
+>
+
 To set an object retention configuration on an object:
 
 ```bash
@@ -203,6 +208,11 @@ aws s3api delete-object \
 ```
 
 ### How to configure an Object Lock Legal hold on an object
+
+> [!primary]
+>
+> Before placing an object under Legal Hold, ensure that the necessary permissions are granted. The user must have the `s3:PutObjectLegalHold` permission to apply or remove a Legal Hold.
+>
 
 To set a Legal hold configuration to the specified object:
 

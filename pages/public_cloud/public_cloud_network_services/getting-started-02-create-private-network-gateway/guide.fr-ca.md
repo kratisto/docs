@@ -8,14 +8,14 @@ updated: 2024-12-24
 
 Une [Gateway](/links/public-cloud/gateway) offre une méthode de connexion sortante sécurisée depuis vos instances en réseau privé, ou bien encore la possibilité d’utiliser des adresses Floating IP avec votre instance ou votre Load Balancer pour l’exposition de services.
 
-Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/links/manager), l’[API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ou l’[API OVHcloud](/links/api).
+Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/links/manager), l’[API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) ou l’[API OVHcloud](/links/api).
 
 **Apprenez à créer un réseau privé avec une Gateway**
 
 ## Prérequis
 
 - Posséder un [projet Public Cloud](/links/public-cloud/public-cloud) dans votre compte OVHcloud
-- Avoir accès à l’[API OVHcloud](/links/api), à l’[espace client OVHcloud](/links/manager) ou à l’environnement OpenStack ([Tutoriel](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- Avoir accès à l’[API OVHcloud](/links/api), à l’[espace client OVHcloud](/links/manager) ou à l’environnement OpenStack ([Tutoriel](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
 - Pour OpenStack, il est nécessaire de mettre en place le client OpenStack
 
 ## En pratique
@@ -97,7 +97,7 @@ Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/l
 
 Avant de commencer, il est recommandé de consulter ce guide :
 
-- [Comment utiliser Terraform sur le Public Cloud OVHcloud](/pages/public_cloud/compute/how_to_use_terraform)
+- [Comment utiliser Terraform sur le Public Cloud OVHcloud](/pages/public_cloud/public_cloud_cross_functional/how_to_use_terraform)
 
 Une fois que votre environnement est prêt, vous pouvez créer un fichier Terraform appelé 'private_network_simple.tf' et écrire ce qui suit :
 
@@ -141,8 +141,8 @@ terraform apply
 
 Avant de poursuivre, il est recommandé de consulter ces guides :
 
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
-- [Définir les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Définir les variables d'environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 > [!tabs]
 > **Étape 1**

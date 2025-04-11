@@ -14,8 +14,8 @@ When sharing a file with someone, you will of course want to avoid sharing your 
 
 ## Requirements
 
-- An [environment that is ready to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
-- [The OpenStack environment variables set up](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- An [environment that is ready to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- [The OpenStack environment variables set up](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 - Python installed on your system.
 
 ## Instructions

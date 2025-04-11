@@ -166,7 +166,7 @@ Für die Abrechnung der Public Cloud werden sowohl die im Voraus zu bezahlenden 
 
 #### Tipps und Tricks
 
-Lesen Sie dazu die folgende Anleitung: [Informationen zur Cloud-Abrechnung](/pages/public_cloud/compute/analyze_billing)
+Lesen Sie dazu die folgende Anleitung: [Informationen zur Cloud-Abrechnung](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 ### Wo kann ich einen Gesamtüberblick über meine Rechnungen erhalten?
 

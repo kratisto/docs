@@ -12,8 +12,8 @@ You can create multiple Instances directly in the Horizon interface, and also co
 
 ## Requirements
 
-- A [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account
-- [Access to the Horizon interface](/pages/public_cloud/compute/introducing_horizon)
+- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
+- [Access to the Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## Instructions
 
@@ -21,7 +21,7 @@ You can create multiple Instances directly in the Horizon interface, and also co
 
 As a general rule, we recommend creating a private network before creating an instance. You can later attach this network to your instance.
 
-To begin, log in to the Horizon interface. If you are unsure about how to do this, please refer to [our guide](/pages/public_cloud/compute/introducing_horizon).
+To begin, log in to the Horizon interface. If you are unsure about how to do this, please refer to [our guide](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 
 Next, click on `Network`{.action} in the left-hand menu, then `Networks`{.action}.
 

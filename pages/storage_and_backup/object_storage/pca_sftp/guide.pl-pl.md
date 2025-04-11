@@ -18,7 +18,7 @@ Jeśli nie chcesz zarządzać przestrzenią dyskową z poziomu linii poleceń, s
 W tym przewodniku korzystamy z programu WinSCP, ale możesz używać wybranego programu SFTP. Konfiguracja programów SFTP jest podobna.
 
 ## ID OpenStack
-Login i hasło OpenStack możesz wygenerować postępując zgodnie z informacjami zawartymi w tym [przewodniku](/pages/public_cloud/compute/create_and_delete_a_user).
+Login i hasło OpenStack możesz wygenerować postępując zgodnie z informacjami zawartymi w tym [przewodniku](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ## TenantName
 TenantName to nazwa Twojego projektu Horizon. Aby pobrać tę informację, należy zalogować się do interfejsu OpenStack: [https://horizon.cloud.ovh.net/](https://horizon.cloud.ovh.net/){.external}. Po zalogowaniu informacja ta będzie widoczna w górnej części strony.

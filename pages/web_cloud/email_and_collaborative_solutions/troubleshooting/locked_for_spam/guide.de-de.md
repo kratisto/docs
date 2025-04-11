@@ -52,25 +52,35 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 > [!tabs]
 > **Exchange**
 >>
->> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}. Klicken Sie auf `Microsoft`{.action} und dann auf `Exchange`{.action}, und wählen Sie die entsprechende Plattform aus.
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `Microsoft`{.action}.
+>> 1. Klicken Sie auf `Exchange`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
 >>
 >> Gehen Sie auf den Tab `E-Mail-Accounts`{.action} Ihrer Plattform. Wenn in der Spalte „Status“ des betroffenen E-Mail-Accounts „Spam“ angegeben ist, klicken Sie auf `...`{.action} rechts und danach auf `Entsperren`{.action}. Das Entsperren des E-Mail-Accounts erfolgt nicht automatisch. Der Support muss über das Support-Ticket kontaktiert werden. Hierbei müssen die drei gestellten Fragen beantwortet werden.<br>
 >> Fahren Sie mit [Schritt 3](#step3) der Anleitung fort.
->> 
+>>
 >> ![spam](images/blocked-for-SPAM-01-01.png){.thumbnail}
 >>
 > **E-Mail Pro**
 >>
->> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}. Klicken Sie auf `E-Mail Pro`{.action} und wählen Sie die entsprechende Plattform aus.
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mail Pro`{.action}.
+>> 1. Wählen Sie den gewünschten Dienst aus.
 >>
 >> Gehen Sie auf den Tab `E-Mail-Accounts`{.action} Ihrer Plattform. Wenn in der Spalte „Status“ des betroffenen E-Mail-Accounts „Spam“ angegeben ist, klicken Sie auf dieses Feld und dann auf `Ticket beantworten`{.action}. Das Entsperren des E-Mail-Accounts erfolgt nicht automatisch. Der Support muss über das Support-Ticket kontaktiert werden. Hierbei müssen die drei gestellten Fragen beantwortet werden. <br>
 >> Fahren Sie mit [Schritt 3](#step3) der Anleitung fort.
->> 
+>>
 >> ![spam](images/blocked-for-SPAM-01-02.png){.thumbnail}
 >>
 > **MX Plan - Neue Version**
 >>
->> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}. Klicken Sie auf `E-Mails`{.action} und wählen Sie den Domainnamen aus.
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Wählen Sie die betreffende Domain aus.
 >>
 >> Gehen Sie auf den Tab `E-Mail-Accounts`{.action} Ihrer Plattform. Wenn in der Spalte „Status“ des betroffenen E-Mail-Accounts „Spam“ angegeben ist, klicken Sie auf dieses Feld und dann auf Das `Ticket beantworten`{.action}. Das Entsperren des E-Mail-Accounts erfolgt nicht automatisch. Der Support muss über das Support-Ticket kontaktiert werden. Hierbei müssen die drei gestellten Fragen beantwortet werden.<br>
 >> Fahren Sie mit [Schritt 3](#step3) der Anleitung fort.
@@ -81,7 +91,10 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 >>
 >> Wenn die Sperrung einen Account des Legacy [MX Plan](#instructions) betrifft, gibt es kein Support-Ticket. Bitte lesen Sie [Schritt 1](#step1) dieser Anleitung, bevor Sie den Anweisungen folgen.
 >>
->> Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie in den Bereich `Web Cloud`{.action}. Klicken Sie auf `E-Mails`{.action} und wählen Sie den Domainnamen aus.
+>> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+>> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+>> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Wählen Sie die betreffende Domain aus.
 >>
 >> Gehen Sie auf den Tab `E-Mails`{.action}. Wenn „Ja“ in der Spalte „Blockiert wegen SPAM“ angezeigt wird, klicken Sie auf diesen Hinweis und dann auf `Passwort ändern`{.action}. Ihr E-Mail-Account ist jetzt freigegeben. Sie müssen [Schritt 3](#step3) nicht ausführen.
 >>
@@ -101,7 +114,7 @@ Sie finden hier die an Sie versendete E-Mail, die gleichzeitig ein Support-Ticke
 
 Das erstellte Support-Ticket sieht wie folgt aus:
 
-> 
+>
 > Sehr geehrter Kunde,
 >
 > Unser System hat festgestellt, dass die Adresse **Ihre.Adresse@example.com**, die auf unseren Systemen unter **Dienstreferenz** gehostet wird, eine Quelle für den Versand von Spam (Junk-E-Mails) darstellt.

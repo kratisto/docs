@@ -41,14 +41,24 @@ Po określeniu konta, dla którego będziesz nadawał uprawnienia, wybraniu praw
 
 ### Etap 1: nadanie uprawnień
 
-Aby rozpocząć operację, zaloguj się do [Panelu klienta](/links/manager):
+> [!tabs]
+> **Exchange**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij rubrykę `Microsoft`{.action}.
+>> 1. Kliknij na `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+> **Email Pro**
+>>
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Kliknij zakładkę `Web Cloud`{.action}.
+>> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
 
-- **Exchange**: Kliknij `Microsoft`{.action}, po czym kliknij `Exchange`{.action}.
-- **Email Pro**: Kliknij `Email Pro`{.action}.
-
-Następnie kliknij nazwę usługi e-mail, w której znajduje się konto, do którego będziesz nadawał uprawnienia. Teraz przejdź do zakładki `Konta e-mail`{.action}.
-
-Pojawi się tabela, w której wyświetlają się konta powiązane z Twoją usługą e-mail. Kliknij trzy kropki po prawej stronie nazwy konta, do którego chcesz utworzyć uprawnienie, następnie kliknij `Zarządzaj uprawnieniami`{.action}.
+Kliknij trzy kropki po prawej stronie nazwy konta, do którego chcesz utworzyć uprawnienie, następnie kliknij `Zarządzaj uprawnieniami`{.action}.
 
 ![delegacja uprawnień exchange](images/delegation-step1.png){.thumbnail}
 
@@ -58,7 +68,7 @@ Na stronie, która się wyświetla zaznacz prawa, które chcesz przydzielić. Po
 
 Sprawdź dokładnie podsumowanie zmian. Jeśli są poprawne, kliknij `Zatwierdź`{.action}. W ciągu kilku minut uprawnienia zostaną utworzone na serwerach OVHcloud.
 
-Po skonfigurowaniu uprawnienia konto*test@mypersonaldomain.ovh* będzie mogło wykonać zaznaczone operacje na koncie *test2@mypersonaldomain.ovh*.
+Po skonfigurowaniu uprawnienia konto *test@mypersonaldomain.ovh* będzie mogło wykonać zaznaczone operacje na koncie *test2@mypersonaldomain.ovh*.
 
 ### Etap 2: używanie udostępnionej skrzynki
 

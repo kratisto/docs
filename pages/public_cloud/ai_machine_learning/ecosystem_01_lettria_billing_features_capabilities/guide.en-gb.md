@@ -128,7 +128,7 @@ In this example, we will rely on the **emotions extraction** from a text.
 
 ### Launch a Lettria app
 
-To launch an AI Deploy app, there are several possibilities. You can do it from the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) or the CLI `ovhai`.
+To launch an AI Deploy app, there are several possibilities. You can do it from the [OVHcloud Control Panel](/links/manager) or the CLI `ovhai`.
 
 #### Launch an app from the OVHcloud Control Panel
 
@@ -152,7 +152,7 @@ To launch your Lettria app from the UI, you have to fill in some information:
 
 > [!primary]
 >
-> To know how to launch an app from the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB), refer to this [guide](/pages/public_cloud/ai_machine_learning/deploy_guide_02_getting_started).
+> To know how to launch an app from the [OVHcloud Control Panel](/links/manager), refer to this [guide](/pages/public_cloud/ai_machine_learning/deploy_guide_02_getting_started).
 >
 
 #### Launch an app with ovhai CLI
@@ -300,7 +300,7 @@ Total price = Resources price + Lettria model licencing price
 >
 > To learn more about the basic cost (resource price) of an app launched with AI Deploy, please refer to this [documentation](/pages/public_cloud/ai_machine_learning/deploy_guide_06_billing_concept).
 >
-> Please refer to the [OVHcloud Public Cloud website](https://www.ovhcloud.com/en-gb/public-cloud/prices/) for all information about resources and partners models prices.
+> Please refer to the [OVHcloud Public Cloud website](/links/public-cloud/public-cloudprices/) for all information about resources and partners models prices.
 >
 
 ### Examples

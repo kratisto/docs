@@ -139,7 +139,7 @@ Consultez notre guide « [Créer une première instance Public Cloud et s'y conn
 
 [Créer une première instance Public Cloud et s’y connecter](/pages/public_cloud/compute/public-cloud-first-steps)
 
-[Présentation d'Horizon](/pages/public_cloud/compute/introducing_horizon)
+[Présentation d'Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 

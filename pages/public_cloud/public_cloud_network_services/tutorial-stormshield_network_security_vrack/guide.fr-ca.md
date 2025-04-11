@@ -20,9 +20,9 @@ Ce guide fournit des instructions pas à pas pour déployer et configurer SNS EV
 
 ## Prérequis
 
-- Un [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) dans votre compte OVHcloud.
+- Un [projet Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) dans votre compte OVHcloud.
 - Être connecté à l'[espace client OVHcloud](/links/manager).
-- Un [utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (facultatif).
+- Un [utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (facultatif).
 - Des connaissances de base en réseau.
 - Un compte Stormshield créé via le [site Stormshield](https://documentation.stormshield.eu/SNS/v4/fr/Content/Installation_and_first_time_configuration/Firewall_license_installation.htm){.external}.
 - S'assurer que le vRack est activé et configuré pour permettre une communication sécurisée entre les composants de l'infrastructure.

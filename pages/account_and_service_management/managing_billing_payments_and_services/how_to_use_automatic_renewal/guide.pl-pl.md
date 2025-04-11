@@ -229,7 +229,7 @@ Ten przewodnik nie odpowiedział na Twoje pytanie? Sprawdź nasze [FAQ dotycząc
 
 [Jak zrezygnować z usług OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services)
 
-[Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/compute/analyze_billing)
+[Rozliczanie należności za usługę Public Cloud](/pages/public_cloud/public_cloud_cross_functional/analyze_billing)
 
 [Zarządzanie fakturowaniem kont Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange)
 

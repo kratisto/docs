@@ -40,7 +40,7 @@ Email accounts of the Exchange solution can be configured on various compatible 
 
 > [!primary]
 >
-> In our examples, we use the server name "ex**?**.mail.ovh.net". You will need to replace the “?” with the number designating the server of your Exchange service.
+> In our examples, we use the server name "ex?.mail.ovh.net". You will need to replace the “?” with the number designating the server of your Exchange service.
 >
 > You can find this number in the [OVHcloud Control Panel](/links/manager). In the `Web Cloud`{.action} section, open `Microsoft`{.action} and then `Exchange`{.action}. The server name is visible in the **Connection** box in the `General Information`{.action} tab.
 

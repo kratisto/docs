@@ -27,7 +27,7 @@ La configuración, la gestión y la responsabilidad de los servicios que OVHclou
 
 ### Etapa 1: recuperar los datos de la cuenta Email Pro <a name="step1"></a>
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `E-mail Pro`{.action} y seleccione la plataforma Email Pro en la que se encuentra la dirección de correo electrónico que desea configurar.
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. En la columna izquierda, haga clic en `Email Pro`{.action} y seleccione la plataforma Email Pro en la que se encuentra la dirección de correo electrónico que desea configurar.
 
 En la nueva página, abra la pestaña `Cuentas de correo`{.action}.
 

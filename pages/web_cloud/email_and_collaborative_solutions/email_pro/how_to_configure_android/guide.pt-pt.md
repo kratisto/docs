@@ -41,9 +41,9 @@ Os endereços de e-mail do serviço E-mail Pro podem ser configurados em vários
 
 > [!primary]
 >
-> Nos nossos exemplos, utilizamos a menção servidor: pro**?**.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
+> Nos nossos exemplos, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o «? » pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
-> Encontre este algarismo na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e `E-mail Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador ‘Informações gerais`{.action}.
+> Encontre este algarismo na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e `E-mails Pro`{.action}. O nome do servidor está visível na tabela **Ligação** do separador ‘Informações gerais`{.action}.
 >
 
 No ecrã inicial do seu dispositivo, aceda à aplicação `Gmail`{.action}.
@@ -83,11 +83,11 @@ Siga as etapas sucessivas de configuração, navegando nos separadores abaixo:
 >> ![emailpro](images/emailpro-android-04.png){.thumbnail .h-600}
 >>
 > **Etapa 5**
->> Complete as « **Configurações de servidor de entrada** »<br><br>- **Nome de utilizador**: O seu endereço de correio eletrónico completo<br>- **Palavra-passe**: A palavra-passe do seu endereço de correio eletrónico<br>- **Servidor**: Introduza **pro**?*.mail.ovh.net** (substitua bem «***?**» pelo número do seu servidor). <br><br>
+>> Complete as « **Configurações de servidor de entrada** »<br><br>- **Nome de utilizador**: O seu endereço de correio eletrónico completo<br>- **Palavra-passe**: A palavra-passe do seu endereço de correio eletrónico<br>- **Servidor**: Introduza pro?.mail.ovh.net (substitua bem «?» pelo número do seu servidor). <br><br>
 >> ![emailpro](images/emailpro-android-05.png){.thumbnail .h-600}
 >>
 > **Fase 6**
->> Complete as « **Configurações do servidor de saída** »<br><br>- **Nome de utilizador**: O seu endereço de correio eletrónico completo<br>- **Palavra-passe**: A palavra-passe do seu endereço de correio eletrónico<br>- **Servidor SMTP**: Introduza **pro**?*.mail.ovh.net** (substitua bem «**?**» pelo número do seu servidor). <br><br>
+>> Complete as « **Configurações do servidor de saída** »<br><br>- **Nome de utilizador**: O seu endereço de correio eletrónico completo<br>- **Palavra-passe**: A palavra-passe do seu endereço de correio eletrónico<br>- **Servidor SMTP**: Introduza pro?.mail.ovh.net (substitua bem «?» pelo número do seu servidor). <br><br>
 >> ![emailpro](images/emailpro-android-06.png){.thumbnail .h-600}
 >>
 > **Etapa 7**
@@ -95,7 +95,7 @@ Siga as etapas sucessivas de configuração, navegando nos separadores abaixo:
 >>![emailpro](images/emailpro-android-07.png){.thumbnail .h-600}
 >>
 > **Etapa 8**
->> Determine o nome a ser apresentado do seu endereço de e-mail na aplicação Gmail e prima a tecla "Seguinte" {.action}.<br><br>
+>> Determine o nome a ser apresentado do seu endereço de e-mail na aplicação Gmail e prima a tecla `Seguinte`{.action}.<br><br>
 >> ![emailpro](images/emailpro-android-08.png){.thumbnail .h-600}
 >>
 
@@ -115,7 +115,7 @@ Para a receção dos e-mails, ao escolher o tipo de conta, recomendamos uma util
 |---|---|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
-|Servidor|pro***?*.mail.ovh.net (substitua bem «**?**» pelo número do seu servidor)|
+|Servidor|pro?.mail.ovh.net (substitua bem «?» pelo número do seu servidor)|
 |Porta|995|
 |Tipo de segurança|SSL/TLS|
 
@@ -125,7 +125,7 @@ Para a receção dos e-mails, ao escolher o tipo de conta, recomendamos uma util
 |---|---|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
-|Servidor|pro***?*.mail.ovh.net (substitua bem «**?**» pelo número do seu servidor)|
+|Servidor|pro?.mail.ovh.net (substitua bem «?» pelo número do seu servidor)|
 |Porta|993|
 |Tipo de segurança|SSL/TLS|
 
@@ -137,7 +137,7 @@ Se necessitar de inserir manualmente as definições **SMTP** nas preferências 
 |---|---|
 |Nome de utilizador|Introduza o endereço de e-mail **completo**|
 |Palavra-passe|Introduza a palavra-passe do endereço de e-mail|
-|Servidor|pro***?*.mail.ovh.net (substitua bem «**?**» pelo número do seu servidor)|
+|Servidor|pro?.mail.ovh.net (substitua bem «?» pelo número do seu servidor)|
 |Porta|587|
 |Tipo de segurança|STARTTLS|
 

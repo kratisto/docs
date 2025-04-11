@@ -34,7 +34,7 @@ No seguimento de um crescimento da sua atividade, ou simplesmente porque tem nov
 ## Requisitos
 
 - Ter [criado uma instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) na sua conta OVHcloud
-- [Aceder à interface Horizon](/pages/public_cloud/compute/introducing_horizon)
+- [Aceder à interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 
 ## Instruções
 

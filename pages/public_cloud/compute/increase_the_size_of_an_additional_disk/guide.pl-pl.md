@@ -1,12 +1,22 @@
 ---
 title: "Zwiększ rozmiar dodatkowego dysku"
 excerpt: "Dowiedz się, jak zwiększyć rozmiar dodatkowego wolumenu i powiększyć jego partycję główną"
-updated: 2022-03-29
+updated: 2025-03-21
 ---
 
-> [!primary]
-> Tłumaczenie zostało wygenerowane automatycznie przez system naszego partnera SYSTRAN. W niektórych przypadkach mogą wystąpić nieprecyzyjne sformułowania, na przykład w tłumaczeniu nazw przycisków lub szczegółów technicznych. W przypadku jakichkolwiek wątpliwości zalecamy zapoznanie się z angielską/francuską wersją przewodnika. Jeśli chcesz przyczynić się do ulepszenia tłumaczenia, kliknij przycisk "Zgłóś propozycję modyfikacji" na tej stronie.
-> 
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Wprowadzenie
 
@@ -18,16 +28,78 @@ Jeśli osiągniesz maksymalną pojemność dodatkowego dysku, możesz dodać prz
 
 - Instancja [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) w Twoim projekcie Public Cloud
 - [Dodatkowy dysk](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance) utworzony w Twoim projekcie
-- Dostęp do [Panelu client OVHcloud](/links/manager)
+- Dostęp do [Panelu klienta OVHcloud](/links/manager)
 - Dostęp administracyjny (sudo) do Twojej instancji przez SSH (Linux) lub RDP (Windows)
 
 ## W praktyce
 
 Kolejne etapy zakładają, że skonfigurowałeś już dodatkowy dysk zgodnie z instrukcjami zawartymi w [naszym przewodniku](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
 
+## Monitorowanie wykorzystania dysku przed zmianą rozmiaru
+
+> [!warning]
+>
+> Zalecamy utrzymanie 20% darmowej przestrzeni dyskowej. Dzięki temu zyskujesz optymalną wydajność i unikasz ryzyka uszkodzenia systemu, gdy wolumen osiągnie swoją maksymalną pojemność.
+>
+
+Aby mieć pewność, że rozmiar dysku zostanie zwiększony we właściwym momencie, należy regularnie monitorować wykorzystanie zasobów. Poniżej znajdują się krótkie tutoriale dla systemu Windows i Linux, które pomogą Ci śledzić przestrzeń dyskową i przewidzieć, kiedy aktualizacja będzie konieczna.
+
+> [!tabs]
+> W systemie Windows
+>> /// details | **Za Pomocą Wiersza Polecenia**
+>>
+>> Otwórz wiersz polecenia (Win + R → cmd → Enter).
+>>
+>> Uruchom następujące polecenie:
+>>
+>> ```bash
+>> WMIC Logical Disk Get Name, Size, FreeSpace
+>> ```
+>>
+>> Zostanie wyświetlona wolna przestrzeń i całkowity rozmiar każdego dysku.
+>>
+>> ///
+>>
+>> /// details | **Używanie programu PowerShell**
+>>
+>> Otwórz program PowerShell jako administrator.
+>>
+>> Uruchom następujące polecenie:
+>>
+>> ```bash
+>> Get-PSDrive | Where-Object {$_.Free -ne $null} | Select-Object Name, Used, Free
+>> ```
+>>
+>> Zostanie wyświetlona wykorzystana i dostępna przestrzeń dyskowa.
+>>
+>> ///
+>>
+> W Systemie Linux
+>> /// details | **Używanie polecenia 'df'**
+>>
+>> Aby sprawdzić wykorzystanie dysku, uruchom:
+>>
+>> ```bash
+>> df -h
+>> ```
+>>
+>> Zostanie wyświetlone użycie dysku w formacie czytelnym dla człowieka.
+>>
+>> ///
+>>
+>> /// details | **Używanie polecenia 'lsblk'**
+>>
+>> Aby sprawdzić partycje dysków i ich rozmiar:
+>>
+>> ```bash
+>> Lsblk
+>> ```
+>>
+>> ///
+
 ### Zmień rozmiar dysku
 
-Zaloguj się do [Panelu client OVHcloud](/links/manager) i otwórz swój projekt `Public Cloud`{.action}. Następnie w menu po lewej stronie kliknij `Block Storage`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i otwórz swój projekt `Public Cloud`{.action}. Następnie w menu po lewej stronie kliknij `Block Storage`{.action}.
 
 Jeśli wolumen jest przypisany do **instancji Windows**, kliknij przycisk `...`{.action} z prawej strony odpowiedniego wolumenu i wybierz opcję `Odłącz instancję`{.action}.
 
@@ -162,5 +234,6 @@ Zmieniony rozmiar przestrzeni dyskowej zawiera teraz dodatkową przestrzeń dysk
 ## Sprawdź również
 
 [Zarządzanie wolumenem instancji Public Cloud](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance)
+[Zmień typ wolumenu Block Storage](/pages/public_cloud/compute/switch_volume_type)
 
 Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
