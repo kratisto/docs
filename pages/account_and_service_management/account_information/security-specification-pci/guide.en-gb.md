@@ -64,7 +64,7 @@ As a part of our reslience plan in the Control Plane, we perform backups to main
 
 | **Name** | **Capacity** | **Documentation** |
 | --- | --- | --- |
-| Control Panel and service | Manage customer accounts and services on which each account has access rights. | [Preparing an environment for using the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)<br>[Getting started with the OpenStack API](/pages/public_cloud/compute/starting_with_nova)<br>[API Rate Limits](/pages/public_cloud/public_cloud_cross_functional/api_rate_limits) |
+| Control Panel and service | Manage customer accounts and services on which each account has access rights. | [Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)<br>[Getting started with the OpenStack API](/pages/public_cloud/compute/starting_with_nova)<br>[API Rate Limits](/pages/public_cloud/public_cloud_cross_functional/api_rate_limits) |
 
 ### 7. Accounts - User
 
@@ -75,9 +75,9 @@ OVHcloud uses another account with an internal NIC to refer a customer having su
 
 To enforce security access to your account on the Control Panel, we recommend activating a [two-factor authentication mechanism](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) or [SSO (Single Sign-On) authentication](/pages/account_and_service_management/account_information/ovhcloud-account-connect-saml-adfs).
 
-You can create your OpenStack users and define several roles following [this guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) according to your access management policy.
+You can create your OpenStack users and define several roles following [this guide](/pages/public_cloud/compute/create_and_delete_a_user) according to your access management policy.
 
-You have to activate and manage your tokens in order to access the Keystone API by following this [guide](/pages/public_cloud/public_cloud_cross_functional/managing_tokens).
+You have to activate and manage your tokens in order to access the Keystone API by following this [guide](/pages/public_cloud/compute/managing_tokens).
 
 #### 7.2 Data plane
 
@@ -105,7 +105,7 @@ You should filter and allow necessary connections by using IPtables according to
 
 You can consult these guides to setup your configurations:
 
-[Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
+[Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
 [Access and security settings in Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon).
 [Network guides](/products/public-cloud-network).
 

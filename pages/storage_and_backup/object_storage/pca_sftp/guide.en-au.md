@@ -18,7 +18,7 @@ Object Storage is a storage solution that is managed primarily through the OpenS
 In this example, we use WinSCP but you can use any SFTP client. Configurations of SFTP clients are similar as explained here, regardless of the client.
 
 ### OpenStack ID
-You can generate your OpenStack login & password using this [guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+You can generate your OpenStack login & password using this [guide](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ### TenantName
 The TenantName corresponds to the name of your Horizon Project. To get the TenantName, you need to connect to the OpenStack web interface: [https://horizon.cloud.ovh.net/](https://horizon.cloud.ovh.net/){.external}. Once logged in, the TenantName is visible at the top of page.

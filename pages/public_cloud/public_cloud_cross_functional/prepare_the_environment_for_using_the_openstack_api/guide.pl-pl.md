@@ -165,7 +165,7 @@ openstack --help
 
 ## Sprawdź również
 
-[Zmienne środowiskowe OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+[Zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 Przyłącz się do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
 

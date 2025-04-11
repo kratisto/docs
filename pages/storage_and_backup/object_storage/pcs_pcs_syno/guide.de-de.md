@@ -24,7 +24,7 @@ Es ist mit dem Object Storage der OVHcloud Public Cloud kompatibel und kann somi
 ## Voraussetzungen
 
 - [Erstellung von Object Storage Containern](/pages/storage_and_backup/object_storage/pcs_create_container)
-- [Einen Zugang zu Horizon einrichten](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user#erstellung-eines-openstack-benutzers)
+- [Einen Zugang zu Horizon einrichten](/pages/public_cloud/compute/create_and_delete_a_user#erstellung-eines-openstack-benutzers)
 
 ## In der praktischen Anwendung
 
@@ -41,7 +41,7 @@ Um die Synchronisierung Ihres Synology NAS zu konfigurieren müssen Sie über di
 
 Diese können Sie anhand der folgenden Anleitung im Kundencenter herunterladen:
 
-- [OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 #### Konfiguration des Synchronisationspunkts mit Cloud Sync
 

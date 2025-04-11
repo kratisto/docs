@@ -16,7 +16,7 @@ Public Cloud Archive (PCA) è una soluzione di archiviazione gestibile tramite l
 Nel nostro esempio, il client SFTP utilizzato è WinSCP. Ne esistono molti altri, con una configurazione simile a quella presentata in questa guida.
 
 ## Identificativo OpenStack
-Per generare il tuo login e password OpenStack, consulta questa [guida](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Per generare il tuo login e password OpenStack, consulta questa [guida](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ## TenantName
 Il TenantName corrisponde al nome del tuo progetto su Horizon. Per recuperarlo, accedi all’interfaccia Web OpenStack utilizzando le credenziali generate precedentemente: [https://horizon.cloud.ovh.net/](https://horizon.cloud.ovh.net/){.external}. Una volta effettuato il login, il TenantName è visibile in alto nella pagina.

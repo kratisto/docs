@@ -22,7 +22,7 @@ En complément du [modèle de responsabilité du service Block Storage entre le 
 
 ### 2. Recommandations une fois le service livré
 
-Une fois que vous disposez d'une instance Public Cloud, vous pouvez ajouter vos volumes Block Storage. Vous pouvez gérer les droits des utilisateurs via la section `Users & Roles`{.action} de [l'espace client OVHcloud](/links/manager) en suivant ce [guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Une fois que vous disposez d'une instance Public Cloud, vous pouvez ajouter vos volumes Block Storage. Vous pouvez gérer les droits des utilisateurs via la section `Users & Roles`{.action} de [l'espace client OVHcloud](/links/manager) en suivant ce [guide](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ### 3. Niveaux de service (SLA)
 

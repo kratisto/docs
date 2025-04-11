@@ -15,8 +15,8 @@ This tutorial explains the following Load Balancer configurations:
 
 - A [Public Cloud project](https://www.ovhcloud.com/it/public-cloud/) in your OVHcloud account
 - A [private network](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack) configured in your project
-- [Prepare the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Set OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [Prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Set OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 - [OpenStack Octavia client](https://docs.openstack.org/python-octaviaclient/latest/install/index.html) installed
 
 ## Instructions

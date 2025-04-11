@@ -22,7 +22,7 @@ This guide provides step-by-step instructions for deploying and configuring SNS 
 
 - A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - Access to the [OVHcloud Control Panel](/links/manager)
-- An [OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (optional)
+- An [OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user) (optional)
 - Basic networking knowledge
 - A Stormshield account on the [Stormshield website](https://documentation.stormshield.eu/SNS/v4/en/Content/Installation_and_first_time_configuration/Firewall_license_installation.htm){.external}
 - Ensure that the vRack is enabled and configured to allow secure communication between the components of the infrastructure.

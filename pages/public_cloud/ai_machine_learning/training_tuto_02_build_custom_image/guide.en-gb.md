@@ -130,7 +130,7 @@ ADD . /workspace
 
 > [!warning]
 >
->This command could allow you to load your dataset within your Docker image. However, this would increase its size considerably. A best practice is to put data outside, such as [Object Storage](/links/public-cloud/public-cloudobject-storage/) then link it to the AI Training job during its launch.
+>This command could allow you to load your dataset within your Docker image. However, this would increase its size considerably. A best practice is to put data outside, such as [Object Storage](/links/public-cloud/object-storage/) then link it to the AI Training job during its launch.
 >
 
 ### Give the OVHcloud user access to the home directory

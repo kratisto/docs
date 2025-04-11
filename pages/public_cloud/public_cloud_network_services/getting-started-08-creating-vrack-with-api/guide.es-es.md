@@ -13,7 +13,7 @@ The [vRack](https://www.ovh.es/soluciones/vrack/) is a private network that allo
 ## Requirements
 
 - A [Public Cloud project](https://www.ovhcloud.com/es-es/public-cloud/) in your OVHcloud account
-- An [OpenStack user account](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
+- An [OpenStack user account](/pages/public_cloud/compute/create_and_delete_a_user)
 - Basic networking knowledge
 - Consulting the guide [Configuring the vRack on Public Cloud](/pages/public_cloud/public_cloud_network_services/getting-started-07-creating-vrack) (to understand the different methods to manage the vRack with the Public Cloud)
 - Consulting the guide [First steps to use the OVHcloud API](/pages/manage_and_operate/api/first-steps) (to familiarise yourself with the OVHcloud API)

@@ -88,7 +88,7 @@ Zapoznaj się z przewodnikiem [Zmiana klucza SSH w przypadku utraty](/pages/publ
 
 Aby móc korzystać z interfejsów API Horizon lub OpenStack, należy utworzyć użytkownika OpenStack. Możesz utworzyć nieograniczoną liczbę.
 
-Zapoznaj się z przewodnikiem [Tworzenie i usuwanie użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Zapoznaj się z przewodnikiem [Tworzenie i usuwanie użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ///
 
@@ -147,7 +147,7 @@ Prywatna sieć domyślnie dysponuje natywnymi zabezpieczeniami sieciowymi Openst
 Po stronie instancji może to prowadzić do blokowania pakietów sieciowych w zależności od ich zastosowania (pfSense, router, protokół CARP, itp...).
 
 W zależności od Twoich potrzeb będziesz musiał wyłączyć funkcję `Port Security` w porcie lub sieci prywatnej.
-Zapraszamy do zapoznania się z przewodnikiem [zarządzanie regułami firewalla i portu security w sieciach wykorzystujących OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
+Zapraszamy do zapoznania się z przewodnikiem [zarządzanie regułami firewalla i portu security w sieciach wykorzystujących OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
 
 Szczegóły znajdziesz również na stronie [dokumentacja OpenStack](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) lub na stronie [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

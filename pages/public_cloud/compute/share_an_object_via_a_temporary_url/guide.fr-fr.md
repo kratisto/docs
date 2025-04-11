@@ -14,8 +14,8 @@ Lorsque vous souhaitez partager un fichier avec quelqu'un d'autre, vous ne souha
 
 ## Prérequis
 
-- [Avoir préparé l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
-- [Charger les variables d'environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+- [Avoir préparé l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Charger les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 - Disposer de Python installé sur votre système.
 
 ## En pratique

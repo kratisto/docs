@@ -14,8 +14,8 @@ Jeśli chcesz współdzielić plik z innym użytkownikiem, ze zrozumiałych wzgl
 
 ## Wymagania początkowe
 
-- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
-- [Pobranie zmiennych środowiskowych OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Pobranie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 - Python zainstalowany na stacji roboczej.
 
 ## W praktyce

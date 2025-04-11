@@ -14,7 +14,7 @@ Może być konieczne przeniesienie [instancji Public Cloud](/links/public-cloud/
 
 Do przeniesienia będziesz potrzebował środowiska z:
 
-- CLI OpenStack. Zapoznaj się z przewodnikiem "[Jak przygotować środowisko do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)".
+- CLI OpenStack. Zapoznaj się z przewodnikiem "[Jak przygotować środowisko do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)".
 - Łączność z API OVHcloud OpenStack.
 - Dostępna przestrzeń dyskowa odpowiadająca rozmiarowi dysku instancji (do tymczasowego przechowywania kopii zapasowych).
 

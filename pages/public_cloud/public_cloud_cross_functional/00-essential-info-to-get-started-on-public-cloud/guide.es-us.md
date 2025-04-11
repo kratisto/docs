@@ -115,7 +115,7 @@ Es posible que tenga que ocuparse de los límites.
 Es posible que necesite gestionar varios usuarios que intervengan en su proyecto.
 <br>Podrá elegir entre dos opciones:
 
-- Si quiere utilizar las API de OpenStack o Amazon S3, o la interfaz Horizon, deberá [crear usuarios](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) para ello. Los usuarios pueden tener derechos limitados para proteger los perímetros de acción.
+- Si quiere utilizar las API de OpenStack o Amazon S3, o la interfaz Horizon, deberá [crear usuarios](/pages/public_cloud/compute/create_and_delete_a_user) para ello. Los usuarios pueden tener derechos limitados para proteger los perímetros de acción.
 - Si no necesita acceder a las API o a Horizon, puede [asociar otra cuenta de cliente de OVHcloud](/pages/public_cloud/public_cloud_cross_functional/delegate_projects) a su proyecto.
 
 ## Más información <a name="gofurther"></a>
@@ -140,7 +140,7 @@ En la práctica, a continuación le ofrecemos algunas guías que le ayudarán en
 |[Crear un cluster Kubernetes](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster) (EN)|Esta guía le ayudará paso a paso a la creación de su primer cluster Kubernetes.|
 |[Configurar una Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Las Additional IP permiten cambiar el tráfico de una instancia a otra. Esta guía explica cómo configurar esta opción.|
 |[Uso de la interfaz Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|Horizon es la interfaz clásica de OpenStack, y esta guía explicará cómo acceder a ella.|
-|[Instalación de la CLI OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack también puede utilizarse en línea de comandos. Así es como instalar las herramientas.|
+|[Instalación de la CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack también puede utilizarse en línea de comandos. Así es como instalar las herramientas.|
 
 Una de las grandes ventajas de utilizar tecnologías estándares y abiertas, como OpenStack o Kubernetes, es disfrutar de toda la documentación ya disponible.
 

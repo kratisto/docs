@@ -18,8 +18,8 @@ Der OpenStack *swiftclient* ermöglicht Ihnen dabei die Verwaltung Ihrer Contain
 
 ## Voraussetzungen
 
-- [Vorbereitung der Umgebung für die Verwendung der OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) durch Installation des *python-swiftclient*
-- [Laden der OpenStack Umgebungsvariablen](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [Vorbereitung der Umgebung für die Verwendung der OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) durch Installation des *python-swiftclient*
+- [Laden der OpenStack Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## In der praktischen Anwendung
 

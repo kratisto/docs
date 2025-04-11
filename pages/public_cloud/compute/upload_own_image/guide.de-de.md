@@ -18,8 +18,8 @@ OVHcloud bietet Public Cloud Nutzern gebrauchsfertige Images, aber auch die Mög
 
 - Sie haben eine [Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) Instanz in Ihrem OVHcloud Kundencenter.
 - Sie haben Ihr eigenes RAW/QCOW2 Image (empfohlene Formate).
-- Sie haben einen OpenStack [Benutzer](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
-- Ihre Umgebung ist bereit zur [CLI-Verwendung](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) (wenn Sie CLI nutzen).
+- Sie haben einen OpenStack [Benutzer](/pages/public_cloud/compute/create_and_delete_a_user).
+- Ihre Umgebung ist bereit zur [CLI-Verwendung](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) (wenn Sie CLI nutzen).
 
 ## In der praktischen Anwendung
 

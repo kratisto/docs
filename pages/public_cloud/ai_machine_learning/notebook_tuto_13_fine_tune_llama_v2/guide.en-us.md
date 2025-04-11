@@ -10,7 +10,7 @@ Trained between January 2023 and July 2023 on 2 trillion tokens, LLaMA 2 outperf
 
 ## Objective
 
-The purpose of this tutorial is to show you how it is possible to fine-tune LLaMA 2 models using [OVHcloud AI Notebooks](https://www.ovhcloud.com/en/public-cloud/ai-notebooks/) and a single GPU. This allows you to retrain the model to suit your needs, using your own dataset. We will use [QLoRA](https://arxiv.org/abs/2305.14314), a highly efficient LLM fine-tuning technique.
+The purpose of this tutorial is to show you how it is possible to fine-tune LLaMA 2 models using [OVHcloud AI Notebooks](https://www.ovhcloud.com/en-ie/public-cloud/ai-notebooks/) and a single GPU. This allows you to retrain the model to suit your needs, using your own dataset. We will use [QLoRA](https://arxiv.org/abs/2305.14314), a highly efficient LLM fine-tuning technique.
 
 ## Requirements
 

@@ -11,8 +11,8 @@ Das Konfigurieren der OpenStack Umgebungsvariablen auf Ihrem lokalen Ger채t erm�
 ## Voraussetzungen
 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
-- Sie haben einen [OpenStack User erstellt](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
-- OpenStack ist bereits [auf Ihrem System installiert](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- Sie haben einen [OpenStack User erstellt](/pages/public_cloud/compute/create_and_delete_a_user).
+- OpenStack ist bereits [auf Ihrem System installiert](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 
 ## In der praktischen Anwendung
 
@@ -40,7 +40,7 @@ admin@vpsxxxxxx:~$ source openrc.sh
 Please enter your OpenStack Password:
 ```
 
-Wie in [dieser Anleitung](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) erkl채rt, ist das Passwort ist nur eimalig w채hrend der Erstellung sichtbar.
+Wie in [dieser Anleitung](/pages/public_cloud/compute/create_and_delete_a_user) erkl채rt, ist das Passwort ist nur eimalig w채hrend der Erstellung sichtbar.
 
 Wenn Sie das Passwort nicht zur Verf체gung haben, muss es neu erstellt werden.
 

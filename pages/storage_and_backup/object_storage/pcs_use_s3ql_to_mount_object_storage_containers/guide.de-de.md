@@ -15,7 +15,7 @@ In dieser Hilfe erfahren Sie, wie Sie einen Object Container als dateisystem mou
 
 ## Voraussetzungen
 
-- [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
+- [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/compute/create_and_delete_a_user)
 - [Hinzufügen von Storage-Bereichen](/pages/storage_and_backup/object_storage/pcs_create_container)
 
 ## In der praktischen Anwendung

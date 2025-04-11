@@ -89,7 +89,7 @@ Please read our guide on [Replacing your lost SSH key pair](/pages/public_cloud/
 
 To use the Horizon or OpenStack APIs, you will need to create an OpenStack user. You can create an unlimited number of OpenStack users.
 
-Please read our guide on [Creating and deleting an OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Please read our guide on [Creating and deleting an OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ///
 
@@ -149,7 +149,7 @@ On the instance side, this can result in blocking network packets depending on y
 
 Depending on your needs, you will need to disable the `Port Security` feature on the port or private network.
 
-Please refer to our guide on [Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
+Please refer to our guide on [Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
 
 You can also find all the details in the [OpenStack documentation](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) or on [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

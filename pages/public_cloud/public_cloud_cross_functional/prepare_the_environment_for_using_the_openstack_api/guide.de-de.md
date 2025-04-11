@@ -167,6 +167,6 @@ openstack --help
 
 ## Weiterführende Informationen
 
-[OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+[OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.

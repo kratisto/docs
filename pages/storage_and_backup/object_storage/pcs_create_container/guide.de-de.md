@@ -27,7 +27,7 @@ Der erste Schritt ist die Erstellung eines Containers, der Ihre Dateien zusammen
 
 Wenn Sie Horizon verwenden:
 
-- Sie haben einen [OpenStack User erstellt](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+- Sie haben einen [OpenStack User erstellt](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ## In der praktischen Anwendungy    
 

@@ -17,7 +17,7 @@ As part of the configuration of a high-availability infrastructure, you may enco
 
 - An [OVHcloud Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps) on **hourly** billing
 - Access to the [OVHcloud Control Panel](/links/manager){.external} or [Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Knowledge of [Openstack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) and [Openstack variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- Knowledge of [Openstack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) and [Openstack variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instructions
 
@@ -70,7 +70,7 @@ To proceed, you need to [log in to the Horizon interface](https://horizon.cloud.
 
 - To log in with OVHcloud Single Sign-On: use the `Horizon`{.action} link in the left-hand menu under "Management Interfaces" after opening your `Public Cloud`{.action} project in the [OVHcloud Control Panel](/links/manager).
 
-- To log in with a specific OpenStack user: open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
+- To log in with a specific OpenStack user: open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/compute/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
 
 If you have deployed instances in different regions, make sure you are in the correct region. You can verify this on the top left corner in the Horizon interface.
 
@@ -92,8 +92,8 @@ To view the snapshot, in the `Compute`{.action} menu, click on `Images`{.action}
 
 Before proceeding, it is recommended that you consult these guides:
 
-- [Prepare the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Set OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [Prepare the environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Set OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Once your environment is ready, type the following at the command line:
 

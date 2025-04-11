@@ -666,7 +666,7 @@ Para más información, consulte nuestra [guía dedicada](/pages/public_cloud/co
 
 [Gestión de instancias en el área de cliente](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Cómo empezar con OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+[Cómo empezar con OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
 
 [Cómo empezar con Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 

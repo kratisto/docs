@@ -23,7 +23,7 @@ Pliki binarne są dostępne w większości najnowszych dystrybucji systemów ope
 
 ### ID OpenStack
 
-Za pomocą tego [przewodnika](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) możesz wygenerować identyfikator klienta i hasło OpenStack.
+Za pomocą tego [przewodnika](/pages/public_cloud/compute/create_and_delete_a_user) możesz wygenerować identyfikator klienta i hasło OpenStack.
 
 ### TenantName
 
