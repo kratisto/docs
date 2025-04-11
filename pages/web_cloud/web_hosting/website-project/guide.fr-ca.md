@@ -99,8 +99,6 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 > [!tabs]
 > **Utiliser un CMS**
 >>
->>
->>
 >> OVHcloud vous met à disposition l'option « Modules en 1 clic ».
 >> Une fois connecté à votre [espace client OVHcloud](/links/manager) et via votre hébergement web, cette option vous permet d'installer rapidement les CMS WordPress, Joomla!, PrestaShop et Drupal.
 >>
@@ -112,7 +110,6 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 >>
 > **Publier un site web développé en local**
 >>
->
 >> Pour ce cas de figure, nous vous invitons à suivre directement notre guide « [Mettre en ligne un site web sur son hébergement web](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online) ». Vous y retrouverez toutes les étapes à réaliser pour :
 >>
 >> - Placer votre site web sur l'espace de stockage FTP de votre hébergement web;
@@ -210,6 +207,8 @@ Retrouvez plus d'informations sur nos différentes offres CDN dans notre guide �
 > L'offre **CDN Basic** est incluse gratuitement sur les hébergements web **Performance** uniquement.
 >
 > Vous ne pouvez pas cumuler plusieurs offres CDN sur un même hébergement web.
+
+///
 
 /// details | Les serveurs de base de données Web Cloud Databases
 
