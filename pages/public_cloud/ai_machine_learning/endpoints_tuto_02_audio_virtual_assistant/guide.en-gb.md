@@ -247,7 +247,7 @@ streamlit run audio-virtual-assistant.py
 
 ![app-overview](images/app_overview.png)
 
-### Conclusion
+## Conclusion
 
 You’ve just created an Audio Virtual Assistant capable of natural conversation using voice, powered by ASR, LLM, and TTS endpoints.
 

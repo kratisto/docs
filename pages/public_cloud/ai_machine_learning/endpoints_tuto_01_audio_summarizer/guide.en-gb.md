@@ -288,7 +288,7 @@ python audio-summarizer-app.py
 
 You can upload your audio files, get a transcript and then a summary!
 
-### Conclusion
+## Conclusion
 
 Well done 🎉! You have learned how to build your own Audio Summarizer app in a few lines of code. You’ve also seen how easy it is to use AI Endpoints to create innovative turnkey solutions.
 

@@ -248,7 +248,7 @@ Answer: «OVHcloud is a global, integrated cloud hosting platform, offering Infr
 This answer describes OVHcloud as a global integrated cloud hosting platform offering IaaS and PaaS with optimal and secure services. Emojis were added to the response to make it more fun and engaging.
 ```
 
-### Conclusion
+## Conclusion
 
 In just a few steps, you have created your own AI chatbot powered by [LangChain4j](https://github.com/langchain4j/langchain4j), [Quarkus](https://github.com/quarkusio/quarkus), and [OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/).
 

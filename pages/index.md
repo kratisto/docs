@@ -1082,6 +1082,7 @@
                 + [AI Endpoints - Create your own audio summarizer](public_cloud/ai_machine_learning/endpoints_guide_01_getting_started)
                 + [AI Endpoints - Create your own audio assistant](public_cloud/ai_machine_learning/endpoints_guide_02_capabilities)
                 + [AI Endpoints - Enable conversational memory in your chatbot using LangChain](public_cloud/ai_machine_learning/endpoints_guide_02_capabilities)
+                + [AI Endpoints - Create your own AI chatbot using LangChain4j and Quarkus](public_cloud/ai_machine_learning/endpoints_tuto_04_chatbot_langchain4j_quarkus)
         + [AI Partners Ecosystem](products/public-cloud-ai-and-machine-learning-ai-ecosystem)
             + [AI Partners - Guides](public-cloud-ai-and-machine-learning-ai-ecosystem-guides)
                 + [AI Partners Ecosystem - Lettria - Models features, capabilities and billing](public_cloud/ai_machine_learning/ecosystem_01_lettria_billing_features_capabilities)
