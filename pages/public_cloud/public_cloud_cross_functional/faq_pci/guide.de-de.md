@@ -90,7 +90,7 @@ Lesen Sie die Anleitung zum [Ändern des SSH-Schlüssels](/pages/public_cloud/co
 
 Um die Horizon- oder OpenStack-APIs verwenden zu können, müssen Sie zunächst einen OpenStack-Benutzer anlegen. Sie können eine unbegrenzte Anzahl erstellen.
 
-Lesen Sie die Anleitung [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Lesen Sie die Anleitung [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ///
 
@@ -150,7 +150,7 @@ Das private Netzwerk verfügt standardmäßig über den nativen Schutz von OpenS
 Auf der Instanzen-Seite kann dies zu Blockaden von Netzwerkpaketen führen, je nach Ihren Bedürfnissen (pfSense, Router, CARP Protokoll, etc.).
 
 Je nach Bedarf müssen Sie die Funktion `Port Security` im privaten Port oder Netzwerk deaktivieren.
-Bitte lesen Sie die Anleitung zur [Verwaltung der Firewall- und Port-Security-Regeln über Netzwerke mit OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
+Bitte lesen Sie die Anleitung zur [Verwaltung der Firewall- und Port-Security-Regeln über Netzwerke mit OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
 
 Weitere Informationen finden Sie in der [OpenStack Dokumentation](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) oder auf [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

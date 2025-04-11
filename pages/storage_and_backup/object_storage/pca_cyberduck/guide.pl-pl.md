@@ -28,10 +28,10 @@ W Internecie można odnaleźć inne interfejsy. Konfiguracja jest podobna do tej
 ## Wymagania początkowe
 
 - Pobierz i zainstaluj [Cyberduck](https://cyberduck.io/).
-- Posiadanie identyfikatorów użytkowników (*OS_USERNAME*) i projektów (*OS_PROJECT_NAME* lub *OS_ANT_NAME*), które można uzyskać, pobierając plik "OpenRC" z menu [Users and Roles](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables#etap-1-zgromadzenie-zmiennych) w Twoim [Panelu klienta Public Cloud OVHcloud](/links/manager).
+- Posiadanie identyfikatorów użytkowników (*OS_USERNAME*) i projektów (*OS_PROJECT_NAME* lub *OS_ANT_NAME*), które można uzyskać, pobierając plik "OpenRC" z menu [Users and Roles](/pages/public_cloud/compute/loading_openstack_environment_variables#etap-1-zgromadzenie-zmiennych) w Twoim [Panelu klienta Public Cloud OVHcloud](/links/manager).
 - Posiadanie hasła użytkownika OpenStack
 
-Jeśli nie znasz hasła użytkownika OpenStack, możesz je zmienić zgodnie z [tym przewodnikiem](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Jeśli nie znasz hasła użytkownika OpenStack, możesz je zmienić zgodnie z [tym przewodnikiem](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ## W praktyce
 

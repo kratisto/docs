@@ -29,7 +29,7 @@ Sie können auch ein Betriebssystem von einem Volume aus oder auf einem Volume b
 ## Voraussetzungen
 
 - Sie haben Zugang zum [Horizon-Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon). 
-- Sie haben [OpenStack Umgebungsvariablen](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables) eingerichtet.
+- Sie haben [OpenStack Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables) eingerichtet.
 
 ## In der praktischen Anwendung
 

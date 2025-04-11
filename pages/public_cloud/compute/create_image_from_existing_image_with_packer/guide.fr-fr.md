@@ -48,7 +48,7 @@ apt-get install jq
 
 Vous pouvez le retrouver via le menu OpenStack dans le panneau latéral gauche puis sous le bouton `...`{.action} sur la droite, vous trouverez le bouton `Télécharger un fichier de configuration OpenStack`{.action} 
 
-La [création d'un utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) peut s'avérer nécessaire au préalable.
+La [création d'un utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) peut s'avérer nécessaire au préalable.
 
 ### Installer le client de ligne de commande OpenStack
 

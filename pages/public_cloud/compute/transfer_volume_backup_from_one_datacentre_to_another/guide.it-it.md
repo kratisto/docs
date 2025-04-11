@@ -16,7 +16,7 @@ In alcuni casi potrebbe essere necessario spostare volumi aggiuntivi da una Regi
 
 ## Prerequisiti
 
-- CLI OpenStack. Consulta la nostra guida "[Come preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)".
+- CLI OpenStack. Consulta la nostra guida "[Come preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)".
 - Connettività con le API OVHcloud OpenStack.
 - Spazio di storage disponibile corrispondente alla dimensione del disco del volume (per lo storage di backup temporaneo).
 

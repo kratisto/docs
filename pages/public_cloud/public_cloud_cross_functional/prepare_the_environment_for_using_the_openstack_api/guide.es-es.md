@@ -162,6 +162,6 @@ nova help
 
 ## Más información
 
-[Cargar las variables de entorno necesarias para OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+[Cargar las variables de entorno necesarias para OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 Únase a nuestra comunidad de usuarios en <https://community.ovh.com/en/>.

@@ -165,6 +165,6 @@ openstack --help
 
 ## Quer saber mais?
 
-[Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+[Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 Fale com a nossa comunidade de utilizadores em <https://community.ovh.com/en/>.

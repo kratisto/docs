@@ -11,8 +11,8 @@ L’impostazione delle variabili d’ambiente OpenStack ti consente di utilizzar
 ## Prerequisiti
 
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
-- Aver creato un utente OpenStack. A questo proposito, consulta [l’apposita guida](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
-- Aver preparato l’ambiente di sviluppo per utilizzare l’API OpenStack. A questo proposito, consulta questa guida: [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- Aver creato un utente OpenStack. A questo proposito, consulta [l’apposita guida](/pages/public_cloud/compute/create_and_delete_a_user)
+- Aver preparato l’ambiente di sviluppo per utilizzare l’API OpenStack. A questo proposito, consulta questa guida: [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
 
 ## Procedura
 
@@ -39,7 +39,7 @@ admin@vpsxxxxxx:~$ source openrc.sh
 Please enter your OpenStack Password:
 ```
 
-Come indicato in [questa guida](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user), la password è visibile una sola volta, cioè al momento della sua creazione.
+Come indicato in [questa guida](/pages/public_cloud/compute/create_and_delete_a_user), la password è visibile una sola volta, cioè al momento della sua creazione.
 
 Se l’hai dimenticata, dovrai reimpostarla.
 

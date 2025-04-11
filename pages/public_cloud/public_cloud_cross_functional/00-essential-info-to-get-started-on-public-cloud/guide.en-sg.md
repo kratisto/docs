@@ -110,7 +110,7 @@ You may have to deal with the quota issue.
 You may need to manage several users who will be involved in your project.
 <br>You then have two options:
 
-- If you would like to use the OpenStack or Amazon S3 APIs, or the Horizon interface, you will need to [create users](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) to do this. Users may have limited permissions to secure the action perimeters.
+- If you would like to use the OpenStack or Amazon S3 APIs, or the Horizon interface, you will need to [create users](/pages/public_cloud/compute/create_and_delete_a_user) to do this. Users may have limited permissions to secure the action perimeters.
 - If you do not need access to the APIs or Horizon, you can [link another OVHcloud](/pages/public_cloud/public_cloud_cross_functional/delegate_projects) customer account as an add-on to your project.
 
 ## Go further <a name="gofurther"></a>
@@ -134,7 +134,7 @@ Here are some guides to help you with the first steps:
 |[Accessing the Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|The Horizon interface of OpenStack allows some advanced actions, here is how to connect to it.|
 |[Creating a Kubernetes cluster](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster)|This guide will help you step by step in creating your first Kubernetes cluster.|
 |[Configuring an Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Additional IPs can allow you to switch traffic from one instance to another. This guide will explain how to configure this.|
-|[Installing the OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack can also be used in the command line. Here is how to install the tools.|
+|[Installing the OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack can also be used in the command line. Here is how to install the tools.|
 
 One of the big advantages of using standard and open technologies, like OpenStack or Kubernetes, is that you can use all the documentation already available.
 

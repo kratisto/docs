@@ -31,9 +31,9 @@ Les éléments peuvent être séparés par des espaces, comme dans l'exemple sui
 ## Prérequis
 
 - Avoir créé un container Public Cloud Archive.
-- [Avoir créé des utilisateurs OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) en installant python-swiftclient.
-- [Charger les variables d’environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
+- [Avoir créé des utilisateurs OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) en installant python-swiftclient.
+- [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 ## En pratique
 

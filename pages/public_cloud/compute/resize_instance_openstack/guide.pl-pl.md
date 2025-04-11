@@ -25,9 +25,9 @@ Ze względu na zwiększoną aktywność lub po prostu w celu zaspokojenia nowych
 ## Wymagania początkowe
 
 - Utworzenie [instancji Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) na Twoim koncie OVHcloud
-- [Użytkownik OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
-- Przygotuj [środowisko OpenStack dla CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- Zdefiniowano [zmienne środowiskowe OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [Użytkownik OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- Przygotuj [środowisko OpenStack dla CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Zdefiniowano [zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## W praktyce
 

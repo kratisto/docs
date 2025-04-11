@@ -26,7 +26,7 @@ In diesem Beispiel verwenden wir WinSCP als SFTP-Client. Es gibt auch andere Lö
 
 ### OpenStack-Kennung
 
-Sie können OpenStack Login und Passwort anhand [dieser Anleitung](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) generieren.
+Sie können OpenStack Login und Passwort anhand [dieser Anleitung](/pages/public_cloud/compute/create_and_delete_a_user) generieren.
 
 ### TenantName
 

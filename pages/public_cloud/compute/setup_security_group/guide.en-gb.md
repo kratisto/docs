@@ -13,13 +13,13 @@ For security reasons, you can configure and use filtering rules that will define
 ## Requirements
 
 - A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/).
-- Access to the [Horizon interface](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
+- Access to the [Horizon interface](/pages/public_cloud/compute/create_and_delete_a_user)
 
 ## Instructions
 
 ### Step 1: creating a security group
 
-Access the [Horizon interface](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Then choose the region in which you want to create a security group, via the button in the top left-hand corner.
+Access the [Horizon interface](/pages/public_cloud/compute/create_and_delete_a_user). Then choose the region in which you want to create a security group, via the button in the top left-hand corner.
 
 ![define region](images/security-group0.png){.thumbnail}
 

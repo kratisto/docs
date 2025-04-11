@@ -28,12 +28,12 @@ Para mais informações, consulte a [documentação oficial OpenStack](https://d
 
 Antes de seguir estes passos, recomendamos que consulte primeiro este guia:
 
-- [Preparar o ambiente para a utilização da API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- [Preparar o ambiente para a utilização da API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
 
 Necessitará igualmente de:
 
 - Dispor de uma [Instância Public Cloud](https://www.ovhcloud.com/pt/public-cloud/) na sua conta OVHcloud
-- [Ter criado um utilizador OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
+- [Ter criado um utilizador OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
 
 > [!primary]
 >

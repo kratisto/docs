@@ -22,10 +22,10 @@ If you're not familiar with managing storage through command lines, there are so
 ## Requirements
 
 - [Cyberduck](https://cyberduck.io/) installed on your computer.
-- your username (*OS_USERNAME*) and project credentials (*OS_PROJECT_NAME* or *OS_TENANT_NAME*). Retrieve them by downloading the OpenRC file from the [Users and Roles](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables#step-1-retrieve-the-variables) menu in the [OVHcloud Control Panel](/links/manager).
+- your username (*OS_USERNAME*) and project credentials (*OS_PROJECT_NAME* or *OS_TENANT_NAME*). Retrieve them by downloading the OpenRC file from the [Users and Roles](/pages/public_cloud/compute/loading_openstack_environment_variables#step-1-retrieve-the-variables) menu in the [OVHcloud Control Panel](/links/manager).
 - your OpenStack user password.
 
-In case you have forgotten your OpenStack user password, you can change it by following [this guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+In case you have forgotten your OpenStack user password, you can change it by following [this guide](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ## Instructions
 

@@ -26,7 +26,7 @@ En este ejemplo utilizamos WinSCP como cliente SFTP. Existen otras soluciones, c
 
 ### Identificador OpenStack
 
-Puede generar su login y password OpenStack siguiendo esta [guía](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+Puede generar su login y password OpenStack siguiendo esta [guía](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ### El tenantName
 

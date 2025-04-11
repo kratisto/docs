@@ -23,7 +23,7 @@ La première étape est la création d’un conteneur qui regroupera vos fichier
 
 Si vous utilisez Horizon :
 
-- Avoir créé un [utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
+- Avoir créé un [utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
 
 ## En pratique
 

@@ -214,7 +214,7 @@ curl --request POST \
 
 ## Voxist billing concept
 
-The pricing of Voxist differs slightly from the usual AI Deploy offer. In order for you to better understand your invoice, please find more details below about the [price calculation](/links/public-cloud/public-cloudprices/).
+The pricing of Voxist differs slightly from the usual AI Deploy offer. In order for you to better understand your invoice, please find more details below about the [price calculation](/links/public-cloud/prices/).
 
 > [!primary]
 >
@@ -275,7 +275,7 @@ Total price = Resources price + Voxist model licencing price
 >
 > To learn more about the basic cost (resource price) of an app launched with AI Deploy, please refer to this [documentation](/pages/public_cloud/ai_machine_learning/deploy_guide_06_billing_concept).
 >
-> Please refer to the [OVHcloud Public Cloud website](/links/public-cloud/public-cloudprices/) for all information about resources and partners models prices.
+> Please refer to the [OVHcloud Public Cloud website](/links/public-cloud/prices/) for all information about resources and partners models prices.
 >
 
 ### Examples

@@ -15,8 +15,8 @@ Cambiar las variables de entorno necesarias para OpenStack en su equipo le permi
 ## Requisitos
 
 - Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
-- Haber creado un usuario de OpenStack. Consulte [la guía dedicada a este tema](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
-- Haber preparado el entorno para utilizar OpenStack. Para ello, consulte la siguiente guía: [«Preparar el entorno para utilizar la API de OpenStack»](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- Haber creado un usuario de OpenStack. Consulte [la guía dedicada a este tema](/pages/public_cloud/compute/create_and_delete_a_user).
+- Haber preparado el entorno para utilizar OpenStack. Para ello, consulte la siguiente guía: [«Preparar el entorno para utilizar la API de OpenStack»](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 
 ## Procedimiento
 
@@ -44,7 +44,7 @@ admin@vpsxxxxxx:~$ source openrc.sh
 Please enter your OpenStack Password:
 ```
 
-Como indicamos en [esta guía](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user), la contraseña solo se ve una vez, en el momento de su creación.
+Como indicamos en [esta guía](/pages/public_cloud/compute/create_and_delete_a_user), la contraseña solo se ve una vez, en el momento de su creación.
 
 Si la ha olvidado, deberá crearla nuevamente.
 

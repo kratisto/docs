@@ -14,7 +14,7 @@ Vous pourriez être amené à déplacer votre [instance Public Cloud](/links/pub
 
 Pour effectuer le transfert, vous aurez besoin d'un environnement avec :
 
-- CLI OpenStack. Consultez notre guide « [Comment préparer l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) ».
+- CLI OpenStack. Consultez notre guide « [Comment préparer l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ».
 - La Connectivité aux API OVHcloud OpenStack.
 - De l'espace de stockage disponible correspondant à la taille du disque de l'instance (pour le stockage de sauvegarde temporaire).
 

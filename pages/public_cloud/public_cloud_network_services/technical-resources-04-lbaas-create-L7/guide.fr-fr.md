@@ -77,7 +77,7 @@ Cet exemple montre comment rediriger le trafic de `/oldpath` vers `https://examp
 Plusieurs options de gestion sont disponibles pour configurer votre load balancer chez OVHcloud. Vous n'avez pas besoin de toutes les utiliser, mais il est nécessaire d'en choisir au moins une selon vos préférences :
 
 - **Espace client OVHcloud :** permet la gestion via l'interface graphique, idéal pour ceux qui préfèrent une approche visuelle et intuitive.
-- **CLI OpenStack :** pour la gestion via la ligne de commande. Retrouvez plus d'informations pour préparer votre environnement API OpenStack sur [ce guide](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
+- **CLI OpenStack :** pour la gestion via la ligne de commande. Retrouvez plus d'informations pour préparer votre environnement API OpenStack sur [ce guide](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
 - **Interface Horizon :** offre une gestion graphique via OpenStack pour les utilisateurs familiarisés avec cette plateforme. Retrouvez plus de détails supplémentaires sur [cette page](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
 - **Terraform :** permet la gestion via Infrastructure as Code, utile pour automatiser et reproduire des environnements via des fichiers de code. Retrouvez plus d'informations sur le provider OVH pour Terraform sur [cette page](https://registry.terraform.io/providers/ovh/ovh/latest/docs).
 
@@ -273,7 +273,7 @@ Il existe deux façons d'accéder à l'interface Horizon :
 
 - Pour vous connecter avec l'authentification unique OVHcloud : utilisez le lien `Horizon`{.action} dans le menu de gauche sous « Interfaces de gestion » après avoir ouvert votre projet `Public Cloud`{.action} dans l'[espace client OVHcloud](/links/manager).
 
-- Pour vous connecter avec un utilisateur OpenStack spécifique : ouvrez la [page de connexion à Horizon](https://horizon.cloud.ovh.net/auth/login/) et entrez les [identifiants de l'utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) précédemment créées, puis cliquez sur `Se connecter`{.action}.
+- Pour vous connecter avec un utilisateur OpenStack spécifique : ouvrez la [page de connexion à Horizon](https://horizon.cloud.ovh.net/auth/login/) et entrez les [identifiants de l'utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) précédemment créées, puis cliquez sur `Se connecter`{.action}.
 
 Dans le tableau de bord d'Horizon, sélectionnez votre `Projet`{.action}.<br>
 Dans le menu de gauche, cliquez sur l'onglet `Network`{.action} et sélectionnez `Load Balancers`{.action}.<br>

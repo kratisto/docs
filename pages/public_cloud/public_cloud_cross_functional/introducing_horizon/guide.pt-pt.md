@@ -17,7 +17,7 @@ A interface Horizon, que foi originalmente proposta com OpenStack, foi adaptada 
 ## Requisitos
 
 - Um [projeto Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) na sua conta OVHcloud.
-- **[Opcional desde setembro de 2023]** Um utilizador [OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) criado no seu projeto. Esta etapa é facultativa, pois implementámos uma autenticação única (SSO: *Single Sign-On*) entre a Área de Cliente OVHcloud e Horizon.
+- **[Opcional desde setembro de 2023]** Um utilizador [OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) criado no seu projeto. Esta etapa é facultativa, pois implementámos uma autenticação única (SSO: *Single Sign-On*) entre a Área de Cliente OVHcloud e Horizon.
 
 ## Instruções
 
@@ -25,7 +25,7 @@ A interface Horizon, que foi originalmente proposta com OpenStack, foi adaptada 
 
 * Para se ligar com a autenticação única OVHcloud: utilize a ligação `Horizon`{.action} no menu à esquerda em "Management Interfaces" depois de ter aberto o seu projeto `Public Cloud`{.action} na sua [Área de Cliente OVHcloud](/links/manager).
 
-* Para se ligar a um utilizador OpenStack específico: abra a página de ligação ao [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduza os [identificadores OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) previamente criados, depois clique em `Connect`{.action}.
+* Para se ligar a um utilizador OpenStack específico: abra a página de ligação ao [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduza os [identificadores OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) previamente criados, depois clique em `Connect`{.action}.
 
 ### Seleção da região do centro de dados
 

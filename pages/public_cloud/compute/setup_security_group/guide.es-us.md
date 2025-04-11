@@ -17,13 +17,13 @@ Por motivos de seguridad, es posible configurar y utilizar reglas de filtrado qu
 ## Requisitos
 
 - Un [proyecto de Public Cloud](https://www.ovhcloud.com/es/public-cloud/)
-- [Estar conectado a Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
+- [Estar conectado a Horizon](/pages/public_cloud/compute/create_and_delete_a_user)
 
 ## Procedimiento
 
 ### 1\. crear un grupo de seguridad
 
-Acceda a la interfaz [Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Seleccione la región en la que desea crear un grupo de seguridad utilizando el botón superior izquierdo.
+Acceda a la interfaz [Horizon](/pages/public_cloud/compute/create_and_delete_a_user). Seleccione la región en la que desea crear un grupo de seguridad utilizando el botón superior izquierdo.
 
 ![definir la región](images/security-group0.png){.thumbnail}
 

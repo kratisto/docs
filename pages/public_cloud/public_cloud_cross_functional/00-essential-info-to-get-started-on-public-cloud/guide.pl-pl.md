@@ -111,7 +111,7 @@ Może będziecie musieli poradzić sobie z kwestią limitów.
 Może zaistnieć potrzeba zarządzania kilkoma użytkownikami, którzy będą interweniować w ramach Twojego projektu.
 <br>Masz wówczas dwie możliwości:
 
-- Jeśli chcesz korzystać z interfejsu API OpenStack lub Amazon S3 lub interfejsu Horizon, musisz [utworzyć w tym celu użytkowników](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Użytkownicy mogą ewentualnie mieć ograniczone prawa, aby zabezpieczyć zakres działania.
+- Jeśli chcesz korzystać z interfejsu API OpenStack lub Amazon S3 lub interfejsu Horizon, musisz [utworzyć w tym celu użytkowników](/pages/public_cloud/compute/create_and_delete_a_user). Użytkownicy mogą ewentualnie mieć ograniczone prawa, aby zabezpieczyć zakres działania.
 - Jeśli nie potrzebujesz dostępu do API lub interfejsu Horizon, możesz [dołączyć do Twojego projektu inne konto klienta OVHcloud](/pages/public_cloud/public_cloud_cross_functional/delegate_projects).
 
 ## Sprawdź również <a name="gofurther"></a>
@@ -136,7 +136,7 @@ W praktyce znajdziesz tutaj również przewodniki, które pomogą Ci zacząć:
 |[Utwórz klaster Kubernetes](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster) (EN)|Niniejszy przewodnik ułatwi Ci realizację pierwszego klastra Kubernetes.|
 |[Konfiguracja Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Adresy Additional IP pozwalają na przełączanie ruchu z jednej instancji na inną. Niniejszy przewodnik wyjaśnia, jak to skonfigurować.|
 |[Korzystanie z interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|Horizon to klasyczny interfejs OpenStack, a ten przewodnik wyjaśni, jak uzyskać do niego dostęp.|
-|[Instalacja CLI OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack może być również używany w wierszu poleceń. Oto jak zainstalować narzędzia.|
+|[Instalacja CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack może być również używany w wierszu poleceń. Oto jak zainstalować narzędzia.|
 
 Jedną z największych zalet korzystania ze standardowych i otwartych technologii, takich jak OpenStack lub Kubernetes, jest dostęp do całej dostępnej dokumentacji.
 

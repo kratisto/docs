@@ -658,7 +658,7 @@ Consultez notre [guide dédié](/pages/public_cloud/compute/configuring_addition
 
 [Gestion des instances dans l’espace client](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Comment démarrer avec OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+[Comment démarrer avec OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
 
 [Comment démarrer avec Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 

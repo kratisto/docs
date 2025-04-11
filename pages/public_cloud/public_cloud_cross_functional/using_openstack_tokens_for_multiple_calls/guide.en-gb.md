@@ -34,7 +34,7 @@ This guide will show you how to create an OpenStack token, use it for the action
 ## Requirements 
 
 - Access to the [OVHcloud Control Panel](/links/manager){.external} 
-- An [OpenStack CLI ready environment](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
+- An [OpenStack CLI ready environment](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
 
 > [!primary]
 >
@@ -55,7 +55,7 @@ sudo yum install python3-openstackclient
 
 Windows users can follow this guide to export environment variables: 
 
-[Set OpenStack Environment Variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+[Set OpenStack Environment Variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instructions
 

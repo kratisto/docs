@@ -115,7 +115,7 @@ Es kann sein, dass Sie sich mit einer Begrenzung der Kontingente für Public Clo
 Sie können mehrere Benutzer verwalten, die an Ihrem Projekt beteiligt sind.
 <br>Sie haben dann zwei Möglichkeiten:
 
-- Wenn Sie die OpenStack- oder Amazon S3-APIs oder das Horizon-Interface verwenden möchten, müssen dafür [Benutzer erstellt werden](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Die Benutzer können gegebenenfalls eingeschränkte Rechte haben, um die Verwaltungsbereiche abzusichern.
+- Wenn Sie die OpenStack- oder Amazon S3-APIs oder das Horizon-Interface verwenden möchten, müssen dafür [Benutzer erstellt werden](/pages/public_cloud/compute/create_and_delete_a_user). Die Benutzer können gegebenenfalls eingeschränkte Rechte haben, um die Verwaltungsbereiche abzusichern.
 - Wenn der Zugriff nicht die APIs oder Horizon beinhalten muss, können Sie dem Projekt auch [einen weiteren OVHcloud Kunden-Account hinzufügen](/pages/public_cloud/public_cloud_cross_functional/delegate_projects).
 
 ## Weiterführende Informationen <a name="gofurther"></a>
@@ -140,7 +140,7 @@ Verwenden Sie folgende Anleitungen, um Informationen zum praktischen Vorgehen zu
 |[Kubernetes-Cluster erstellen](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster) (EN) |Diese Anleitung begleitet Sie bei der Erstellung Ihres ersten Kubernetes-Clusters.|
 |[Eine Additional IP konfigurieren](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Mit Additional IPs können Sie den Traffic von einer Instanz auf eine andere umstellen. In dieser Anleitung erfahren Sie, wie Sie diesen konfigurieren.|
 |[Verwendung von Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|Horizon ist das klassische Interface von OpenStack. Diese Anleitung erklärt, wie Sie darauf zugreifen können.|
-|[OpenStack CLI installieren](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack kann auch über die Kommandozeile verwendet werden. Hier können Sie die Tools installieren.|
+|[OpenStack CLI installieren](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack kann auch über die Kommandozeile verwendet werden. Hier können Sie die Tools installieren.|
 
 Einer der großen Vorteile der Verwendung von Standard- und Open-Source-Technologien wie OpenStack oder Kubernetes besteht darin, dass alle bereits verfügbaren Dokumentationen herangezogen werden können.
 
