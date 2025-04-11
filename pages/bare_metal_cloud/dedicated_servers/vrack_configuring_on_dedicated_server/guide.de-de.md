@@ -1,6 +1,6 @@
 ---
-title: 'vRack auf Ihren Dedicated Servern konfigurieren'
-excerpt: 'Erfahren Sie hier, wie Sie ein vRack auf zwei oder mehr Servern einrichten'
+title: "vRack für Dedicated Server konfigurieren"
+excerpt: "rfahren Sie hier, wie Sie ein vRack auf zwei oder mehr Servern einrichten"
 updated: 2025-03-24
 ---
 
@@ -285,7 +285,7 @@ link ether f0:00:00:ef:0e:f0
 
 Die folgenden Konfigurationen verwenden beispielhaft den IP-Adressbereich `192.168.0.0/16` (**Subnetzmaske**: `255.255.0.0`).
 
-Loggen Sie sich über Remote-Desktopverbindung auf Ihrem Windows-Server ein und gehen Sie zur **Systemsteurung**.
+Loggen Sie sich über Remote-Desktopverbindung auf Ihrem Windows-Server ein und öffnen Sie die **Systemsteuerung**.
 
 ![Windows Control Panel](images/windows_control_panel.png){.thumbnail}
 
