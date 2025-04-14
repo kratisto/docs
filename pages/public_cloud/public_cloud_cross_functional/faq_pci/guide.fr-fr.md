@@ -148,7 +148,7 @@ Le réseau privé dispose par défaut des protections réseau natives d'Openstac
 Du côté des instances, cela peut se traduire par des blocages de paquets réseau selon votre usage (pfSense, routeur, protocole CARP, etc...).
 
 Selon votre besoin, vous aurez besoin de désactiver la fonction de `Port Security` sur le port ou le réseau privé.
-Nous vous invitons à consulter le guide de [gestion des règles de firewall et port security sur les réseaux utilisant OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
+Nous vous invitons à consulter le guide de [gestion des règles de firewall et port security sur les réseaux utilisant OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
 
 Vous trouverez aussi tous les détails sur la [documentation OpenStack](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) ou sur [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

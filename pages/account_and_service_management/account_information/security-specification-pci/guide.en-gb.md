@@ -105,7 +105,7 @@ You should filter and allow necessary connections by using IPtables according to
 
 You can consult these guides to setup your configurations:
 
-[Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
+[Managing firewall rules and port security on networks using OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
 [Access and security settings in Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon).
 [Network guides](/products/public-cloud-network).
 

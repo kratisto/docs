@@ -148,7 +148,7 @@ La rete privata dispone di default delle protezioni di rete native di Openstack.
 Per quanto riguarda le istanze, è possibile bloccare pacchetti di rete in base al tipo di utilizzo (pfSense, router, protocollo CARP, ecc...).
 
 In caso di necessità, sarà necessario disattivare la funzione di `Port Security` sulla porta o rete privata.
-Per maggiori informazioni, consulta la guida di [gestione delle regole di firewall e porta security sulle reti OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
+Per maggiori informazioni, consulta la guida di [gestione delle regole di firewall e porta security sulle reti OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
 
 Ulteriori informazioni sono disponibili alla pagina [documentazione OpenStack](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) o alla pagina [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

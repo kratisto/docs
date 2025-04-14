@@ -147,7 +147,7 @@ La red privada dispone por defecto de las protecciones de red nativas de OpenSta
 En cuanto a las instancias, esto puede traducirse en bloques de paquetes de red según el uso (pfSense, router, protocolo CARP, etc.).
 
 Si lo necesita, deberá desactivar la función de `Port Security` en el puerto o la red privada.
-Para más información, consulte la guía [gestión de las reglas de firewall y port security en las redes que utilizan OpenStack CLI](/pages/public_cloud/compute/security_group_private_network).
+Para más información, consulte la guía [gestión de las reglas de firewall y port security en las redes que utilizan OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/security_group_private_network).
 
 También encontrará más información sobre [documentación de OpenStack](https://docs.openstack.org/developer/dragonflow/specs/mac_spoofing.html) o sobre [superuser.openstack.org](https://superuser.openstack.org/articles/managing-port-level-security-openstack/).
 

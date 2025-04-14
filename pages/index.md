@@ -596,7 +596,7 @@
                 + [Managing tokens](public_cloud/compute/managing_tokens)
                 + [Authenticate on Openstack API with service account](manage_and_operate/iam/authenticate-api-openstack-with-service-account)
                 + [Managing OpenStack users](public_cloud/compute/create_and_delete_a_user)
-                + [Managing firewall rules and port security on networks using OpenStack CLI](public_cloud/compute/security_group_private_network)
+                + [Managing firewall rules and port security on networks using OpenStack CLI](public_cloud/public_cloud_cross_functional/security_group_private_network)
         + [Infrastructure](public-cloud-cross-functional-infrastructure)
             + [Comparison and resilience of Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones](public_cloud/public_cloud_cross_functional/deployment_modes_comparison_resilience_details)
             + [3-AZ resilience - Mechanisms and reference architectures](public_cloud/public_cloud_cross_functional/3az_ref_architecture)
