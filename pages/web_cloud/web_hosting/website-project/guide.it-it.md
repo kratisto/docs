@@ -1,12 +1,26 @@
 ---
-title: "Hosting Web - Come iniziare in pochi step"
-excerpt: "Inizia a collegare il tuo dominio, pubblicare il tuo sito Web e creare indirizzi email con il tuo hosting Web"
-updated: 2024-02-08
+title: "Come creare un sito Web - Realizzare il tuo progetto in 5 step"
+excerpt: "Questa guida ti mostra come definire il tuo progetto, pubblicare il tuo sito Internet e creare indirizzi email con la tua soluzione di hosting Web"
+updated: 2025-04-14
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Obiettivo
 
-OVHcloud propone [diverse soluzioni di hosting Web](/links/web/hosting). Sono concepite per diversi casi d’uso:
+OVHcloud propone diverse soluzioni di [hosting Web](/links/web/hosting). Sono concepite per diversi casi d’uso:
 
 - Iniziare a utilizzare il Web.
 - creare rapidamente un sito Web (professionale o meno), un blog, un **C**ontent **M**anagement **S**ystem (**CMS**) come *WordPress*, *Joomla!*, *PrestaShop* o *Drupal* o ancora un negozio online.
@@ -22,7 +36,7 @@ che permettono di risparmiare tempo sull’"amministrazione server" e di concent
 - La sicurezza e l'ottimizzazione di uno o più database, se disponibili;
 - La configurazione e la gestione degli indirizzi email inclusi nel piano di hosting Web.
 
-**Questa guida ti mostra come collegare il dominio, pubblicare il sito Web e creare uno o più indirizzi email con l’hosting Web.**
+**Questa guida ti mostra come pubblicare online un sito Web e creare indirizzi email con la tua soluzione di hosting Web.**
 
 ## Prerequisiti
 
@@ -69,34 +83,40 @@ Una volta definito il progetto è possibile avviare l’installazione del sito W
 
 Sono possibili due scenari: **migrare** un sito Web esistente oppure **creare** un nuovo sito Web.
 
-#### Migrare il tuo sito Web
+**Selezionare una delle opzioni riportate di seguito per visualizzare la spiegazione.**
+
+/// details | Migrare il tuo sito Web
 
 Per migrare un sito Web da un altro provider, consulta la nostra guida "[Migrare un sito e un servizio di posta in OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". In questa interfaccia sono disponibili tutti gli step chiave per migrare senza interruzione tutti i servizi (domini, siti Web, indirizzi email, ecc.).
 
-#### Crea il tuo nuovo sito Web
+///
 
-In questo caso, sono disponibili diverse soluzioni.
+/// details | Crea il tuo nuovo sito Web
 
-##### Caso n°1 - Mettere online un sito sviluppato localmente
+È possibile scegliere di creare in autonomia il sito Web per intero o di utilizzare un [CMS (Content Management System)](/links/web/hosting-cms-comparison) come WordPress, PrestaShop, Joomla! o Drupal. Clicca sulle schede qui sotto in base alla tua scelta:
 
-In questo caso, è possibile consultare la guida "[Mettere online un sito Internet su un hosting Web](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". In questa interfaccia sono disponibili tutti gli step necessari per:
+> [!tabs]
+> **Utilizza un CMS**
+>>
+>> OVHcloud mette a disposizione l’opzione "Moduli in 1 click".
+>> Una volta connesso allo [Spazio Cliente OVHcloud](/links/manager) e tramite il tuo hosting Web, questa opzione permette di installare rapidamente i CMS *WordPress*, *Joomla!*, *PrestaShop* e *Drupal*.
+>>
+>> Per utilizzare questa opzione, consulta la nostra guida "[Installare il tuo sito Web con un 'CMS in 1 click'](/pages/web_cloud/web_hosting/cms_install_1_click_modules)".
+>>
+>> > [!primary]
+>> >
+>> > Se preferisci installare manualmente il CMS senza utilizzare l’opzione "CMS in 1 click", consulta la nostra guida intitolata "[Installare manualmente un CMS sul tuo hosting](/pages/web_cloud/web_hosting/cms_manual_installation)".
+>>
+> **Mettere online un sito sviluppato localmente**
+>>
+>> In questo caso, è possibile consultare la guida "[Mettere online un sito Internet su un hosting Web](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". In questa interfaccia sono disponibili tutti gli step necessari per:
+>>
+>> - Collocare il sito Web sullo spazio di storage FTP dell’hosting Web;
+>> - Creare un database associato all’hosting Web;
+>> - Posizionare il database locale sul database associato all’hosting Web;
+>> - Associare il database al sito web presente sul tuo hosting web.
 
-- Collocare il sito Web sullo spazio di storage FTP dell’hosting Web;
-- Creare un database associato all’hosting Web;
-- Posizionare il database locale sul database associato all’hosting Web;
-- Associare il database al sito web presente sul tuo hosting web.
-
-##### Caso n°2 - Creare un sito Web utilizzando un CMS
-
-OVHcloud mette a disposizione l’opzione "Moduli in 1 click".<br>
-Una volta connesso allo [Spazio Cliente OVHcloud](/links/manager) e tramite il tuo hosting Web, questa opzione permette di installare rapidamente i CMS *WordPress*, *Joomla!*, *PrestaShop* e *Drupal*.
-
-Per utilizzare questa opzione, consulta la nostra guida "[Installare il tuo sito Web con un 'CMS in 1 click'](/pages/web_cloud/web_hosting/cms_install_1_click_modules)".
-
-> [!primary]
->
-> Se preferisci installare manualmente il CMS senza utilizzare l’opzione "CMS in 1 click", consulta la nostra guida intitolata "[Installare manualmente un CMS sul tuo hosting](/pages/web_cloud/web_hosting/cms_manual_installation)".
->
+///
 
 ### Step 3 - Crea i tuoi indirizzi email (facoltativo) <a name="email-creation"></a>
 
@@ -106,11 +126,15 @@ Per prima cosa consulta la nostra guida "[Attivare gli indirizzi email inclusi i
 
 Una volta attivata l’opzione, consulta la nostra guida "[Creare un account email con MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)" per personalizzare uno o più indirizzi email con il tuo dominio.
 
-> **Casi Speciali:**
->
+**Fare clic sul collegamento seguente per visualizzare la spiegazione.**
+
+/// details | Casi Speciali:
+
 > - In caso di migrazione di un sito Web e/o di indirizzi email associati al dominio del sito Web, consulta la nostra guida "[Migrare un sito e un servizio di posta in OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". In questa interfaccia sono disponibili tutti gli step chiave per migrare senza interruzione tutti i servizi (domini, siti Web, indirizzi email, ecc.).
 >
 > - Se non hai associato un dominio al momento dell’ordine del tuo hosting Web e vuoi usufruire dell’opzione "indirizzo/i email incluso/i con il tuo hosting Web", è necessario effettuare l’operazione manualmente dallo [Spazio Cliente OVHcloud](/links/manager).
+
+///
 
 ### Step 4 - Verifica e/o modifica la configurazione del dominio <a name="domain-configuration"></a>
 
@@ -123,9 +147,13 @@ Infatti, il collegamento tra il dominio e i servizi (hosting Web, server di post
 > Ti ricordiamo che la propagazione delle modifiche in una zona DNS può richiedere da 4 a 24 ore.
 >
 
-> **Casi Speciali:**
->
+**Fare clic sul collegamento seguente per visualizzare la spiegazione.**
+
+/// details | Casi Speciali:
+
 > In caso di migrazione di un sito Web e/o di indirizzi email associati al dominio del sito Web, consulta la nostra guida "[Migrare un sito e un servizio di posta in OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". In questa interfaccia sono disponibili tutti gli step chiave per migrare senza interruzione tutti i servizi (domini, siti Web, indirizzi email, ecc.).
+
+///
 
 Per verificare o modificare il collegamento tra il tuo dominio e il tuo hosting Web, **consulta le seguenti guide nell'ordine:**
 
@@ -148,7 +176,9 @@ Per verificare e/o modificare il collegamento tra il dominio e il servizio di po
 
 In base alla tua [offerta di hosting Web](/links/web/hosting), opzioni / offerte / funzionalità aggiuntive sono disponibili gratuitamente.
 
-#### I certificati SSL
+**Fare clic sulle opzioni seguenti per visualizzare la spiegazione.**
+
+/// details | I certificati SSL
 
 I certificati SSL permettono di rendere accessibile il sito Web utilizzando il protocollo HTTPS. Questo protocollo cripta gli scambi tra il vostro hosting Web e le persone che consultano il vostro sito Web.
 
@@ -156,7 +186,9 @@ Qualunque sia l'[hosting Web](/links/web/hosting), è possibile attivare gratuit
 
 Per maggiori informazioni sui certificati SSL (gratuiti o a pagamento) proposti sugli hosting Web, consulta la nostra guida "[Gestire un certificato SSL su un hosting Web](/pages/web_cloud/web_hosting/ssl_on_webhosting)".
 
-#### Le offerte CDN
+///
+
+/// details | Le offerte CDN
 
 Tutte le nostre offerte CDN permettono di mettere in cache una parte del tuo sito Web. In questo modo, i tempi di caricamento delle pagine che compongono il sito Web si riducono, in particolare per i visitatori geograficamente distanti dal datacenter in cui è localizzato l’hosting Web.
 
@@ -174,23 +206,31 @@ Per maggiori informazioni sulle nostre offerte CDN, consulta la nostra guida "[A
 >
 > Non è possibile cumulare diverse offerte CDN su uno stesso hosting Web.
 
-#### I server di database Web Cloud Databases
+///
+
+/// details | I server di database Web Cloud Databases
 
 Se hai attivato un hosting Web **Performance**, puoi attivare gratuitamente un server di database [Web Cloud Databases](/links/web/databases).
 
 Per maggiori informazioni sul suo utilizzo, consulta la nostra documentazione "[Inziare a utilizzare Web Cloud Databases](/pages/web_cloud/web_cloud_databases/starting_with_clouddb)".
 
-#### Invia email dal tuo sito Web
+///
+
+/// details | Invia email dal tuo sito Web
 
 Tutti i nostri [hosting Web](/links/web/hosting) permettono di inviare gratuitamente email a partire dal tuo sito Web o da uno script specifico.
 
 Per maggiori informazioni su questa funzionalità, consulta la nostra guida "[Gestire l’invio delle email automatiche](/pages/web_cloud/web_hosting/mail_function_script_records)".
 
-#### I task pianificati "CRON"
+///
+
+/// details | I task pianificati "CRON"
 
 Le operazioni "CRON" permettono di eseguire automaticamente script ospitati su un hosting Web.
 
 Se il tuo piano di [hosting Web](/links/web/hosting) dispone di questa opzione, consulta la nostra guida "[Crea task automatizzati (CRON) sul tuo hosting Web](/pages/web_cloud/web_hosting/cron_tasks)" per maggiori dettagli.
+
+///
 
 ## Per saperne di più
 

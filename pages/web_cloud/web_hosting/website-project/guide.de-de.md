@@ -1,7 +1,7 @@
 ---
 title: "So erstellen Sie eine Website - Ihr Projekt in 5 Schritten umsetzen"
 excerpt: "Hier erfahren Sie, wie Sie Ihr Projekt definieren, Ihre Website veröffentlichen und E-Mail-Adressen mit Ihrer Webhosting-Lösung erstellen"
-updated: 2025-04-07
+updated: 2025-04-14
 ---
 
 <style>
