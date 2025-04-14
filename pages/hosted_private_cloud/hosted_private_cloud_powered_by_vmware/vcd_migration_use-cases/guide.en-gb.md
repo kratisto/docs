@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Migrate from VMware vSphere on OVHcloud"
 excerpt: "Find out how to prepare a migration from managed VMware vSphere on OVHcloud to a solution based on a managed VMware Cloud Director (VCD) on OVHcloud environnement"
-updated: 2025-01-16
+updated: 2025-04-14
 ---
 
 > [!primary]
@@ -132,6 +132,23 @@ You can now reset the **Admin** password for a Managed VMware Cloud Director org
 > [!api]
 >
 > @api {v2} /vmwareCloudDirector POST /vmwareCloudDirector/organization/{organizationId}/password
+
+### Accessing datastores after migration
+
+After migrating your Managed vSphere service to your Managed VCD organization, you can still access your datastores via the legacy Managed vSphere interface.
+
+![Datastores dashboard](images/datastores_01.png){.thumbnail}
+
+This interface allows you to view and download the files still stored on your datastores.
+
+![Datastores dashboard](images/datastores_02.png){.thumbnail}
+
+For security reasons, only users who existed before the migration can log in.
+
+Passwords for these users may have been reset during the migration process. If needed, you can update them using the [dedicated OVHcloud API](https://eu.api.ovh.com/console/?section=%2FdedicatedCloud&branch=v1#post-/dedicatedCloud/-serviceName-/user/-userId-/changePassword).
+
+> [!warning]
+> Virtual machines cannot be recovered from this interface. To export your VMs, use your Managed VCD organization.
 
 ## Go further
 
