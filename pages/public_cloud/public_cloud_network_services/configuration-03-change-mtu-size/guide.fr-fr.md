@@ -15,12 +15,12 @@ La taille de MTU sera la même pour tous les services utilisant des IPs sur le m
 ## Prérequis
 
 - Un [projet Public Cloud](https://www.ovhcloud.com/fr/public-cloud/) dans votre compte OVHcloud
-- Utiliser l'[environnement de ligne de commande OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Utiliser l'[environnement de ligne de commande OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - L’outil [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html) installé sur votre environnement de travail
 
 Avant de poursuivre, il est recommandé de consulter ces guides :
 
-- [Préparer un environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Préparer un environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Charger les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 - [Gestion des tokens](/pages/public_cloud/compute/managing_tokens)
 

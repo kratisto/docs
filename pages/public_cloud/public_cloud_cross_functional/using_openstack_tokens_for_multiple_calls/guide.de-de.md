@@ -38,7 +38,7 @@ Diese Anleitung erklärt, wie Sie einen OpenStack-Token anfordern, für Aktionen
 ## Voraussetzungen 
 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
-- [Vorbereitung der Umgebung für die Verwendung der OpenStack-API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Vorbereitung der Umgebung für die Verwendung der OpenStack-API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 > [!primary]
 >

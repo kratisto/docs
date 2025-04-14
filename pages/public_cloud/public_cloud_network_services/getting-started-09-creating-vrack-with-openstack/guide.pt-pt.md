@@ -19,7 +19,7 @@ O [vRack](/links/network/vrack) é uma rede privada que lhe permite configurar o
 
 Antes de começar, certifique-se de que lê estes guias para configurar corretamente o seu ambiente OpenStack:
 
-- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 ## Instruções

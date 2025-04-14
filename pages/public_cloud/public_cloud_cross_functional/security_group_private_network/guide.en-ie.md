@@ -14,7 +14,7 @@ A **port** in the context of [OpenStack Neutron](https://docs.openstack.org/neut
 
 ## Requirements
 
-- Preparing the environment to [use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Preparing the environment to [use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - Setting the [OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instructions

@@ -12,7 +12,7 @@ L’impostazione delle variabili d’ambiente OpenStack ti consente di utilizzar
 
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Aver creato un utente OpenStack. A questo proposito, consulta [l’apposita guida](/pages/public_cloud/compute/create_and_delete_a_user)
-- Aver preparato l’ambiente di sviluppo per utilizzare l’API OpenStack. A questo proposito, consulta questa guida: [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Aver preparato l’ambiente di sviluppo per utilizzare l’API OpenStack. A questo proposito, consulta questa guida: [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 ## Procedura
 

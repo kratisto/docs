@@ -662,7 +662,7 @@ Use our [dedicated guide](/pages/public_cloud/compute/configuring_additional_ssh
 
 [Instance management in the Control Panel](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[How to get started with OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[How to get started with OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 [How to get started with Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 

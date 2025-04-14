@@ -72,7 +72,7 @@ Dank der OpenStack API können Sie diese Verwaltung auch ganz einfach über Ihre
 
 Um sich mit der OpenStack API vertraut zu machen, lesen Sie zuerst folgende Anleitungen:
 
-- [Umgebung für die Verwendung der OpenStack API vorbereiten](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Umgebung für die Verwendung der OpenStack API vorbereiten](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Sie können dann bei Bedarf die dedizierten OpenStack APIs verwenden:

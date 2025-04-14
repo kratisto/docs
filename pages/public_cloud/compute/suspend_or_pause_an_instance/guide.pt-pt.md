@@ -17,7 +17,7 @@ No âmbito da configuração de uma infraestrutura de alta disponibilidade, é p
 
 - uma [instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) sobre faturação à **hora**
 - acesso à [Área de Cliente OVHcloud](/links/manager) o à [interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Conhecimento da [API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) e das [variáveis OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Conhecimento da [API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) e das [variáveis OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Instruções
 
@@ -92,7 +92,7 @@ Para ver o snapshot, no menu `Compute`{.action}, clique em `Images`{.action}.
 
 Antes de continuar, recomendamos que consulte os seguintes guias:
 
-- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Quando o ambiente estiver pronto, utilize o seguinte comando:

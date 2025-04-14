@@ -51,7 +51,7 @@ Wybierz interfejs i zatwierdź:
 
 Przed kontynuowaniem prac zalecamy zapoznanie się z następującymi przewodnikami:
 
-- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 - [Zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 Najpierw należy zgromadzić wszystkie niezbędne informacje:

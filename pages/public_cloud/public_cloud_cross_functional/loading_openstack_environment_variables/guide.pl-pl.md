@@ -16,7 +16,7 @@ Pobranie zmiennych środowiskowych OpenStack na Twoje stanowisko umożliwi Ci ko
 
 - Zalogowanie do [Panelu klienta OVHcloud](/links/manager).
 - Utworzenie użytkownika OpenStack. Informacje na ten temat znajdziesz [w tym przewodniku](/pages/public_cloud/compute/create_and_delete_a_user).
-- Przygotowanie środowiska do korzystania z OpenStack. Informacje na ten temat znajdziesz w tym przewodniku: [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- Przygotowanie środowiska do korzystania z OpenStack. Informacje na ten temat znajdziesz w tym przewodniku: [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 ## W praktyce
 

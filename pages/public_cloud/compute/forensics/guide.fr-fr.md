@@ -11,7 +11,7 @@ Dans le cas d'un incident de sécurité, réaliser des investigations numérique
 ## Prérequis
 
 - S'assurer que vos investigations portent sur une instance Public Cloud car ce guide ne s'appliquera que pour les instances Public Cloud.
-- Avoir la [OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) prête à être utilisée sur votre système.
+- Avoir la [OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) prête à être utilisée sur votre système.
 - Un [utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) a été créé avec (a minima) les rôles _Compute Operator_ et _Backup Operator_.
 
 ## En pratique
@@ -22,7 +22,7 @@ OVHcloud n'a aucun accès à votre instance et OpenStack ne propose aucune fonct
 
 ### Récupérer le disque d'une instance Public Cloud
 
-Afin de récupérer le disque d'une instance Public Cloud, le moyen le plus simple est d'utiliser [l'utilitaire en ligne de commande OpenStack](https://docs.openstack.org/newton/user-guide/common/cli-overview.html). Si l'outil n'a pas été installé sur votre système, vous pouvez lire [notre guide](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) ainsi que [notre guide pour créer un utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
+Afin de récupérer le disque d'une instance Public Cloud, le moyen le plus simple est d'utiliser [l'utilitaire en ligne de commande OpenStack](https://docs.openstack.org/newton/user-guide/common/cli-overview.html). Si l'outil n'a pas été installé sur votre système, vous pouvez lire [notre guide](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) ainsi que [notre guide pour créer un utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
 
 #### Réaliser une copie de sauvegarde
 

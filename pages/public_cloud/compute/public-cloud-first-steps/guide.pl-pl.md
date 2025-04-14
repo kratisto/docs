@@ -666,7 +666,7 @@ Aby uzyskać szczegółowe informacje na temat tych kroków, zapoznaj się z [pr
 
 [Zarządzanie instancjami w Panelu klienta](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Jak rozpocząć pracę z OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Jak rozpocząć pracę z OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 [Jak rozpocząć pracę z Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 

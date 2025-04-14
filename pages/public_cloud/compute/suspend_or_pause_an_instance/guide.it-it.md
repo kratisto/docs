@@ -17,7 +17,7 @@ Durante la configurazione di un'infrastruttura ad alta disponibilità, potresti 
 
 - un'[istanza Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) con la fatturazione **oraria**
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external} o all'[interfaccia Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Conoscenza dell'[API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) e delle [variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Conoscenza dell'[API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) e delle [variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Procedura
 
@@ -93,7 +93,7 @@ Per visualizzare lo snapshot, nel menu `Compute`{.action}, clicca su `Images`{.a
 
 Prima di continuare, si raccomanda di consultare le seguenti guide:
 
-- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparare l’ambiente per utilizzare l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Impostare le variabili d’ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Una volta che l'ambiente è pronto, esegui questo comando:

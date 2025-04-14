@@ -134,7 +134,7 @@ Here are some guides to help you with the first steps:
 |[Accessing the Horizon interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|The Horizon interface of OpenStack allows some advanced actions, here is how to connect to it.|
 |[Creating a Kubernetes cluster](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster)|This guide will help you step by step in creating your first Kubernetes cluster.|
 |[Configuring an Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Additional IPs can allow you to switch traffic from one instance to another. This guide will explain how to configure this.|
-|[Installing the OpenStack CLI](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack can also be used in the command line. Here is how to install the tools.|
+|[Installing the OpenStack CLI](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack can also be used in the command line. Here is how to install the tools.|
 
 One of the big advantages of using standard and open technologies, like OpenStack or Kubernetes, is that you can use all the documentation already available.
 

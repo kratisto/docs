@@ -15,12 +15,12 @@ The MTU size will be the same for all services using IPs in the same network.
 ## Requirements
 
 - A [Public Cloud project](https://www.ovhcloud.com/es/public-cloud/) in your OVHcloud account
-- Using the [OpenStack command line environment](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Using the [OpenStack command line environment](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - The [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html) tool installed on your working environment
 
 Before proceeding, it is recommended that you read these guides:
 
-- [Preparing an environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparing an environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 - [Managing tokens](/pages/public_cloud/compute/managing_tokens)
 

@@ -17,7 +17,7 @@ Bei der Konfiguration einer hochverfügbaren Infrastruktur müssen Sie mögliche
 
 - Sie verfügen über eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) mit **stündlicher** Abrechnung.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager) oder das [Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
-- Sie haben Kenntnisse der [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) und der [OpenStack Variablen](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- Sie haben Kenntnisse der [OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) und der [OpenStack Variablen](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 ## In der praktischen Anwendung
 
@@ -92,7 +92,7 @@ Um den Snapshot anzuzeigen, klicken Sie im Menü `Compute`{.action} auf `Images`
 
 Bevor Sie fortfahren, empfehlen wir Ihnen folgende Anleitungen:
 
-- [Vorbereitung Ihrer Umgebung zur Verwendung der OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Vorbereitung Ihrer Umgebung zur Verwendung der OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Konfigurieren der OpenStack-Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Sobald Ihre Umgebung bereit ist, geben Sie in der Kommandozeile Folgendes ein:

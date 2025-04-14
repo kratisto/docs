@@ -28,7 +28,7 @@ Velero needs a S3 compatible bucket as storage backend to store the data from yo
 
 Before creating your Object Storage bucket you need to:
 
-- [Prepare your environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Prepare your environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 - [Get Openstack RC File v3 from Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)
 

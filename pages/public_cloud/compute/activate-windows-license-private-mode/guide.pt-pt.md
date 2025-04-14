@@ -51,7 +51,7 @@ Selecione a sua interface e valide:
 
 Antes de prosseguir, recomendamos que consulte os seguintes guias:
 
-- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 Compile todas as informações necessárias:

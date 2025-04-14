@@ -18,7 +18,7 @@ Platforma OpenStack zarządza bezpieczeństwem zapory sieciowej, łącząc regu�
 
 ## Wymagania początkowe
 
-- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Pobieranie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## W praktyce

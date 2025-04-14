@@ -19,7 +19,7 @@ Das OVHcloud [vRack](/links/network/vrack) ist ein privates Netzwerk, mit dem Si
 
 Bevor Sie beginnen, sollten Sie unbedingt diese Leitfäden lesen, um Ihre OpenStack-Umgebung richtig einzurichten:
 
-- [System für die Verwendung der OpenStack API vorbereiten](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [System für die Verwendung der OpenStack API vorbereiten](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## In der praktischen Anwendung

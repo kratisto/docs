@@ -16,7 +16,7 @@ Carregar as variáveis de ambiente OpenStack no seu computador permitirá usar a
 
 - Estar ligado à [Área de Cliente OVHcloud](/links/manager).
 - Ter criado um utilizador OpenStack. Consulte [o respetivo guia](/pages/public_cloud/compute/create_and_delete_a_user).
-- Ter preparado o ambiente para usar o OpenStack. Para isso, consulte o seguinte guia: [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- Ter preparado o ambiente para usar o OpenStack. Para isso, consulte o seguinte guia: [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 ## Instruções
 

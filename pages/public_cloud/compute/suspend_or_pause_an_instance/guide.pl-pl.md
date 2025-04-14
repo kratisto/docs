@@ -17,7 +17,7 @@ Częścią konfiguracji infrastruktury o wysokiej dostępności może być konie
 
 - Utworzenie [instancji Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps) w abonamencie **godzina**
 - Dostęp do [Panelu klienta OVHcloud](/links/manager) lub [interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Znajomość [API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) i [Zmienne OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Znajomość [API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) i [Zmienne OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## W praktyce
 
@@ -92,7 +92,7 @@ Aby wyświetlić migawkę, w menu `Compute`{.action} kliknij pozycję `Images`{.
 
 Przed kontynuowaniem zalecamy zapoznanie się z następującymi przewodnikami:
 
-- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Ustawianie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Kiedy Twoje środowisko jest gotowe, wpisz w wierszu poleceń:

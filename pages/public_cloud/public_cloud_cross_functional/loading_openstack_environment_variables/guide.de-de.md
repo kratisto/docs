@@ -12,7 +12,7 @@ Das Konfigurieren der OpenStack Umgebungsvariablen auf Ihrem lokalen Ger√§t erm√
 
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben einen [OpenStack User erstellt](/pages/public_cloud/compute/create_and_delete_a_user).
-- OpenStack ist bereits [auf Ihrem System installiert](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- OpenStack ist bereits [auf Ihrem System installiert](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 ## In der praktischen Anwendung
 

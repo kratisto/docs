@@ -19,7 +19,7 @@ The OVHcloud [vRack](/links/network/vrack) is a private network solution that en
 
 Before you get started, make sure you read these guides to properly setup your OpenStack environment:
 
-- [Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api).
+- [Preparing an environment for using the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables).
 
 

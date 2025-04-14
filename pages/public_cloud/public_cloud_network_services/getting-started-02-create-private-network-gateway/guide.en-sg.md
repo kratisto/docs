@@ -8,14 +8,14 @@ updated: 2024-12-24
 
 A [Gateway](/links/public-cloud/gateway) offers a secure outbound connection method from your private network instances or the ability to use Floating IPs with your instance or Load Balancer for service exposition.
 
-This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](/links/api).
+This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](/links/api).
 
 **Learn how to create a private network with a gateway.**
 
 ## Requirements
 
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
-- Access to the [OVHcloud API](/links/api), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- Access to the [OVHcloud API](/links/api), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
 - The [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html){.external} tool installed on your working environment (optional)
 
 ## Instructions
@@ -140,7 +140,7 @@ terraform apply
 
 Before proceeding, it is recommended that you consult these guides:
 
-- [Preparing an environment to use the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparing an environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 > [!tabs]

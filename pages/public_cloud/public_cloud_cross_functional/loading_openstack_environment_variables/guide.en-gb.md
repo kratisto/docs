@@ -12,7 +12,7 @@ By setting OpenStack environment variables on your desktop, you can use the Open
 
 - Access to the [OVHcloud Control Panel](/links/manager)
 - An [OpenStack user account](/pages/public_cloud/compute/create_and_delete_a_user)
-- OpenStack [installed on your system](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- OpenStack [installed on your system](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 ## Instructions
 

@@ -16,7 +16,7 @@ Um Ihre Operationen für die Public Cloud zu automatisieren, können Sie die Ope
 
 ## Voraussetzungen
 
-- [Vorbereitung der Umgebung für die Verwendung der OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) durch Installation des *python-cinderclient* und des *python-novaclient*
+- [Vorbereitung der Umgebung für die Verwendung der OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) durch Installation des *python-cinderclient* und des *python-novaclient*
 - [Laden der OpenStack Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## In der praktischen Anwendung

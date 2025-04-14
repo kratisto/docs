@@ -51,7 +51,7 @@ Po zakończeniu tych operacji kliknij przycisk `Change Volume Type`{.action}, ab
 
 Przed kontynuowaniem zalecamy zapoznanie się z następującymi przewodnikami:
 
-- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Przygotowanie środowiska dla API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Ustawianie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 W pierwszym kroku wyświetl typy wolumenów dostępnych w Twoim regionie przy użyciu następującego polecenia:

@@ -12,7 +12,7 @@ Le middleware Swift s3api qui assure la compatibilité de l'API S3 a été activ
 
 ## Prérequis
 
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Obtenir le fichier Openstack RC v3 d'Horizon](/pages/public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)
 
 ## En pratique

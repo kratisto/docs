@@ -17,7 +17,7 @@ Dans le cadre de la configuration d’une infrastructure hautement disponible, v
 
 - Avoir créé une [instance Public Cloud OVHcloud](/pages/public_cloud/compute/public-cloud-first-steps) au forfait **horaire**.
 - Être connecté à l’[espace client OVHcloud](/links/manager){.external} ou à l’interface [Horizon.](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Avoir des connaissances de l’[API Openstack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) et des [variables Openstack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Avoir des connaissances de l’[API Openstack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) et des [variables Openstack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## En pratique
 
@@ -91,7 +91,7 @@ Pour visualiser le snapshot, dans le menu `Compute`{.action}, cliquez sur `Image
 
 Avant de poursuivre, Il est recommandé de consulter ces guides :
 
-- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 Une fois votre environnement prêt, saisissez ce qui suit dans la ligne de commande :

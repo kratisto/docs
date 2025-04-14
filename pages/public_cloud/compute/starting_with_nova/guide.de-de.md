@@ -23,7 +23,7 @@ Sie können zum Beispiel die Erstellung zusätzlicher Instanzen starten, wenn Ih
 
 ## Voraussetzungen
 
-- [Umgebung für die Verwendung der OpenStack-API vorbereiten](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Umgebung für die Verwendung der OpenStack-API vorbereiten](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [OpenStack Umgebungsvariablen einrichten](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## In der praktischen Anwendung

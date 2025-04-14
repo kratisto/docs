@@ -662,7 +662,7 @@ Eine detaillierte Erklärung dieser Schritte finden Sie in unserer [Anleitung](/
 
 [Verwaltung von Instanzen im Kundencenter](/pages/public_cloud/compute/first_steps_with_public_cloud_instance)
 
-[Erste Schritte mit OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+[Erste Schritte mit OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 [Erste Schritte mit Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 

@@ -28,7 +28,7 @@ Para más informaciónes, consulte la [documentación oficial de OpenStack](http
 
 Antes de seguir estos pasos, le recomendamos que consulte esta guía:
 
-- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 También necesitará:
 

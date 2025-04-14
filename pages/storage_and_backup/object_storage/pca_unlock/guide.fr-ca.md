@@ -17,7 +17,7 @@ Destinée aux données rarement consultées, une requête de déblocage est néc
 - Dégel via l'espace client OVHcloud :
     - Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
 - Dégel via python-swiftclient :
-    - [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api){.external} en installant python-swiftclient.
+    - [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api){.external} en installant python-swiftclient.
     - [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables){.external}.
 
 ## En pratique

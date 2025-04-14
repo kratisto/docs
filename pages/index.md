@@ -590,7 +590,7 @@
                 + [Introducing Horizon](public_cloud/public_cloud_cross_functional/introducing_horizon)
                 + [Access and security settings in Horizon](public_cloud/public_cloud_cross_functional/access_and_security_in_horizon)
             + [Managing from OpenStack](public-cloud-cross-functional-openstack)
-                + [Preparing an environment for using the OpenStack API](public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+                + [Preparing an environment for using the OpenStack API](public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
                 + [Setting OpenStack environment variables](public_cloud/compute/loading_openstack_environment_variables)
                 + [Using OpenStack Tokens](public_cloud/compute/using_openstack_tokens_for_multiple_calls)
                 + [Managing tokens](public_cloud/compute/managing_tokens)

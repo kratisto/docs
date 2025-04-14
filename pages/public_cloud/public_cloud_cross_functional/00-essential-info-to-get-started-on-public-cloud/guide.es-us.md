@@ -140,7 +140,7 @@ En la práctica, a continuación le ofrecemos algunas guías que le ayudarán en
 |[Crear un cluster Kubernetes](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster) (EN)|Esta guía le ayudará paso a paso a la creación de su primer cluster Kubernetes.|
 |[Configurar una Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)|Las Additional IP permiten cambiar el tráfico de una instancia a otra. Esta guía explica cómo configurar esta opción.|
 |[Uso de la interfaz Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)|Horizon es la interfaz clásica de OpenStack, y esta guía explicará cómo acceder a ella.|
-|[Instalación de la CLI OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)|OpenStack también puede utilizarse en línea de comandos. Así es como instalar las herramientas.|
+|[Instalación de la CLI OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)|OpenStack también puede utilizarse en línea de comandos. Así es como instalar las herramientas.|
 
 Una de las grandes ventajas de utilizar tecnologías estándares y abiertas, como OpenStack o Kubernetes, es disfrutar de toda la documentación ya disponible.
 

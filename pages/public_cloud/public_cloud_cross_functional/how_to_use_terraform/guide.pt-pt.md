@@ -21,7 +21,7 @@ As an example, this video shows how to easily scale the number of instances whil
 ### Requirements
 
 - [Configuring user access to Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- [Preparing an environment for using the OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparing an environment for using the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
 - [Your OVHcloud API identifiers and authorisation key](/pages/manage_and_operate/api/first-steps)
 - [An SSH key](/pages/public_cloud/compute/public-cloud-first-steps)

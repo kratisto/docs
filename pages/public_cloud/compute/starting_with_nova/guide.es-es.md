@@ -23,7 +23,7 @@ Esta guía explica cómo utilizar las API de OpenStack para gestionar sus instan
 
 ## Requisitos
 
-- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Preparar el entorno para utilizar la API de OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Cargar las variables de entorno necesarias para OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## Procedimiento

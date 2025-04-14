@@ -12,7 +12,7 @@ Pour gérer facilement votre Object Storage, vous pouvez avoir besoin de défini
 
 ## Prérequis
 
-- [Préparer l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- [Préparer l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 - [Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
 
 ## En pratique

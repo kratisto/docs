@@ -12,7 +12,7 @@ Charger les variables d'environnement OpenStack sur votre poste vous permettra d
 
 - Être connecté à votre [espace client OVHcloud](/links/manager)
 - Avoir créé un utilisateur OpenStack. Consultez [le guide qui y est dédié](/pages/public_cloud/compute/create_and_delete_a_user)
-- Avoir préparé l'environnement pour utiliser OpenStack. Consultez pour cela le guide suivant : [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api)
+- Avoir préparé l'environnement pour utiliser OpenStack. Consultez pour cela le guide suivant : [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 ## En pratique
 
