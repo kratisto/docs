@@ -41,8 +41,6 @@ A serverless platform by OVHcloud providing easy access to a variety of world-re
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 - An access token for **OVHcloud AI Endpoints**. To create an API token, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 - Quarkus CLI installed
-- Java Development Kit (JDK) version 17 or higher
-- Internet access to retrieve dependencies
 
 ## Instructions
 
