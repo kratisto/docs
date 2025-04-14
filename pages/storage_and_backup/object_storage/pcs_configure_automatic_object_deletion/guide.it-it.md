@@ -13,7 +13,7 @@ Questa guida ti mostra come impostare la cancellazione automatica dei tuoi file,
 ## Requisiti necessari
 
 - [Prepara il tuo ambiente di sviluppo per utilizzare l'API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Imposta le variabili d'ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Imposta le variabili d'ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Procedura
 

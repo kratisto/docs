@@ -75,9 +75,9 @@ OVHcloud uses another account with an internal NIC to refer a customer having su
 
 To enforce security access to your account on the Control Panel, we recommend activating a [two-factor authentication mechanism](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) or [SSO (Single Sign-On) authentication](/pages/account_and_service_management/account_information/ovhcloud-account-connect-saml-adfs).
 
-You can create your OpenStack users and define several roles following [this guide](/pages/public_cloud/compute/create_and_delete_a_user) according to your access management policy.
+You can create your OpenStack users and define several roles following [this guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) according to your access management policy.
 
-You have to activate and manage your tokens in order to access the Keystone API by following this [guide](/pages/public_cloud/compute/managing_tokens).
+You have to activate and manage your tokens in order to access the Keystone API by following this [guide](/pages/public_cloud/public_cloud_cross_functional/managing_tokens).
 
 #### 7.2 Data plane
 

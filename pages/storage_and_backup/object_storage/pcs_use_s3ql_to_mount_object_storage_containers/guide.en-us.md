@@ -14,7 +14,7 @@ You can find more information directly on their [website](http://www.rath.org/s3
 
 ## Prerequisites
 
-- [Configure user](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Configure user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - [Add storage space](/pages/storage_and_backup/object_storage/pcs_create_container)
 
 ## Instructions

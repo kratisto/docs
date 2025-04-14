@@ -88,7 +88,7 @@ Zapoznaj się z przewodnikiem [Zmiana klucza SSH w przypadku utraty](/pages/publ
 
 Aby móc korzystać z interfejsów API Horizon lub OpenStack, należy utworzyć użytkownika OpenStack. Możesz utworzyć nieograniczoną liczbę.
 
-Zapoznaj się z przewodnikiem [Tworzenie i usuwanie użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
+Zapoznaj się z przewodnikiem [Tworzenie i usuwanie użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ///
 

@@ -90,7 +90,7 @@ Lesen Sie die Anleitung zum [Ändern des SSH-Schlüssels](/pages/public_cloud/co
 
 Um die Horizon- oder OpenStack-APIs verwenden zu können, müssen Sie zunächst einen OpenStack-Benutzer anlegen. Sie können eine unbegrenzte Anzahl erstellen.
 
-Lesen Sie die Anleitung [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/compute/create_and_delete_a_user).
+Lesen Sie die Anleitung [Einen OpenStack User erstellen oder löschen](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ///
 

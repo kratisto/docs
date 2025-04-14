@@ -17,7 +17,7 @@ No âmbito da configuração de uma infraestrutura de alta disponibilidade, é p
 
 - uma [instância Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) sobre faturação à **hora**
 - acesso à [Área de Cliente OVHcloud](/links/manager) o à [interface Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
-- Conhecimento da [API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) e das [variáveis OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- Conhecimento da [API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) e das [variáveis OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instruções
 
@@ -70,7 +70,7 @@ Para utilizar este método, é necessário [ligar à interface Horizon](https://
 
 - Para se ligar com a autenticação única OVHcloud: utilize o link `Horizon`{.action} no menu à esquerda, sob « Management Interfaces » depois de ter aberto o seu projeto `Public Cloud`{.action} na sua [Área de Cliente OVHcloud](/links/manager).
 
-- Para se ligar a um utilizador OpenStack específico: abra a página de ligação ao [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduza os [identificadores OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) previamente criados, depois clique em `Connect`{.action}.
+- Para se ligar a um utilizador OpenStack específico: abra a página de ligação ao [Horizon](https://horizon.cloud.ovh.net/auth/login/) e introduza os [identificadores OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) previamente criados, depois clique em `Connect`{.action}.
 
 Se criou instâncias em regiões diferentes, certifique-se de que se encontra na região apropriada. Pode verificá-lo no canto superior esquerdo da interface Horizon.
 
@@ -93,7 +93,7 @@ Para ver o snapshot, no menu `Compute`{.action}, clique em `Images`{.action}.
 Antes de continuar, recomendamos que consulte os seguintes guias:
 
 - [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Quando o ambiente estiver pronto, utilize o seguinte comando:
 

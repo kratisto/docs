@@ -31,9 +31,9 @@ Elements can be separated by spaces, as in the following example:
 ## Requirements
 
 - an Object Storage container
-- [OpenStack users](/pages/public_cloud/compute/create_and_delete_a_user)
+- [OpenStack users](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - [Preparing the environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) by installing python-swiftclient
-- [Loading the OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Loading the OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instructions
 

@@ -55,7 +55,7 @@ sudo yum install python3-openstackclient
 
 Windows users can follow this guide to export environment variables: 
 
-[Set OpenStack Environment Variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+[Set OpenStack Environment Variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instructions
 

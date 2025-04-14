@@ -13,7 +13,7 @@ Cette solution offre plusieurs fonctionnalités, dont la synchronisation entre p
 
 ## Requirements
 
-- Le fichier OpenRC, obtenu depuis l'[espace client OVHcloud](/pages/public_cloud/compute/create_and_delete_a_user) ou [Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
+- Le fichier OpenRC, obtenu depuis l'[espace client OVHcloud](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) ou [Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - [Espace de stockage](/pages/storage_and_backup/object_storage/pcs_create_container) dédié à ownCloud
 
 ## Instructions

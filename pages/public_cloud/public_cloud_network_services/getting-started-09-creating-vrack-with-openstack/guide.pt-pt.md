@@ -14,13 +14,13 @@ O [vRack](/links/network/vrack) é uma rede privada que lhe permite configurar o
 
 - Dispor de um [projeto Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 - Ter acesso à [Área de Cliente OVHcloud](/links/manager)
-- Um [utilizador OpenStack](/pages/public_cloud/compute/create_and_delete_a_user) (opcional)
+- Um [utilizador OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) (opcional)
 - Conhecimentos básicos de rede
 
 Antes de começar, certifique-se de que lê estes guias para configurar corretamente o seu ambiente OpenStack:
 
 - [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
-- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 ## Instruções
 

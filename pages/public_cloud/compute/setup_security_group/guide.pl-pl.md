@@ -17,13 +17,13 @@ Ze względów bezpieczeństwa możesz konfigurować i używać reguł filtrowani
 ## Wymagania początkowe
 
 - Projekt [Public Cloud](https://www.ovhcloud.com/pl/public-cloud/)
-- [Dostęp do interfejsu Horizon](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Dostęp do interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 ## W praktyce
 
 ### Etap 1: utworzyć grupę zabezpieczeń
 
-Dostęp do interfejsu [Horizon](/pages/public_cloud/compute/create_and_delete_a_user). Wybierz region, w którym chcesz utworzyć grupę zabezpieczeń, klikając przycisk w lewym górnym rogu.
+Dostęp do interfejsu [Horizon](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Wybierz region, w którym chcesz utworzyć grupę zabezpieczeń, klikając przycisk w lewym górnym rogu.
 
 ![określenie regionu](images/security-group0.png){.thumbnail}
 

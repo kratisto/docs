@@ -17,7 +17,7 @@ Para automatizar las operaciones en el Public Cloud, es posible utilizar las API
 ## Requisitos
 
 - [Preparar el entorno para utilizar la API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) instalando python-cinderclient y python-novaclient
-- [Cargar las variables de entorno OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Cargar las variables de entorno OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Procedimiento
 

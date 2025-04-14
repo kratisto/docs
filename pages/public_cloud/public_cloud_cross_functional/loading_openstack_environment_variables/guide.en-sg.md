@@ -11,7 +11,7 @@ By setting OpenStack environment variables on your desktop, you can use the Open
 ## Requirements
 
 - Access to the [OVHcloud Control Panel](/links/manager)
-- An [OpenStack user account](/pages/public_cloud/compute/create_and_delete_a_user)
+- An [OpenStack user account](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - OpenStack [installed on your system](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
 
 ## Instructions
@@ -40,7 +40,7 @@ admin@vpsxxxxxx:~$ source openrc.sh
 Please enter your OpenStack Password:
 ```
 
-As outlined in [this guide](/pages/public_cloud/compute/create_and_delete_a_user), the password is only visible once — when it is created.
+As outlined in [this guide](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user), the password is only visible once — when it is created.
 
 If you forget your password, you will need to reset it.
 

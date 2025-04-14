@@ -22,7 +22,7 @@ L'outil Open Source Terraform a été développé pour faciliter la création d'
 
 * [Configurer un accès utilisateur à Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 * [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-* [Charger les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+* [Charger les variables d'environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 * [Disposer de vos identifiants API et de votre clé d'autorisation OVHcloud](/pages/manage_and_operate/api/first-steps)
 * [Une clé SSH](/pages/public_cloud/compute/public-cloud-first-steps)
 * [Le provider Terraform OpenStack](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs){.external}
@@ -114,7 +114,7 @@ provider "ovh" {
 
 Un « alias » est un identifiant unique pour un type de fournisseur. Par exemple, si vous avez deux fournisseurs OpenStack avec des informations d'identification différentes, vous devez spécifier chaque fournisseur dans la ressource.
 
-Il faut maintenant [créer un nouvel utilisateur OpenStack](/pages/public_cloud/compute/create_and_delete_a_user), puis [générer le fichier OpenRC ](/pages/public_cloud/compute/loading_openstack_environment_variables#etape-1-recuperer-les-variables) contenant tous les identifiants que vous souhaitez exporter en tant qu'environnement variables.
+Il faut maintenant [créer un nouvel utilisateur OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user), puis [générer le fichier OpenRC ](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables#etape-1-recuperer-les-variables) contenant tous les identifiants que vous souhaitez exporter en tant qu'environnement variables.
 
 Chargez ce fichier, puis entrez le mot de passe de l'utilisateur que vous avez créé précédemment :
 

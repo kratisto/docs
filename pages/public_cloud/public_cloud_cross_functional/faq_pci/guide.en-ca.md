@@ -89,7 +89,7 @@ Please read our guide on [Replacing your lost SSH key pair](/pages/public_cloud/
 
 To use the Horizon or OpenStack APIs, you will need to create an OpenStack user. You can create an unlimited number of OpenStack users.
 
-Please read our guide on [Creating and deleting an OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user).
+Please read our guide on [Creating and deleting an OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ///
 

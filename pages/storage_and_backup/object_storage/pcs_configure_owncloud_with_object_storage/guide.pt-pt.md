@@ -13,7 +13,7 @@ This solution offers several features, including synchronisation between multipl
 
 ## Requirements
 
-- The OpenRC file, obtained from the [OVHcloud Control Panel](/pages/public_cloud/compute/create_and_delete_a_user) or [Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
+- The OpenRC file, obtained from the [OVHcloud Control Panel](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) or [Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)
 - [Storage space](/pages/storage_and_backup/object_storage/pcs_create_container) dedicated to ownCloud
 
 ## Instructions

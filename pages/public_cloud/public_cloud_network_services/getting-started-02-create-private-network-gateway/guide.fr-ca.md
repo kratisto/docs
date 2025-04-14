@@ -142,7 +142,7 @@ terraform apply
 Avant de poursuivre, il est recommandé de consulter ces guides :
 
 - [Préparer l’environnement pour utiliser l’API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Définir les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Définir les variables d'environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 > [!tabs]
 > **Étape 1**

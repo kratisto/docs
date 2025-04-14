@@ -20,7 +20,7 @@ Destinado aos dados raramente consultados, é necessário um pedido de desbloque
     - Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 - Degel através de python-swiftclient:
     - [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) instalando python-swiftclient.
-    - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+    - [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 ## Instruções
 

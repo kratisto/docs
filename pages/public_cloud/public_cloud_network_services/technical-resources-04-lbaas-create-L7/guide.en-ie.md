@@ -270,7 +270,7 @@ There are two ways to access the Horizon interface:
 
 - To log in with OVHcloud Single Sign-On: Use the `Horizon`{.action} link in the left-hand menu under "Management Interfaces" after opening your `Public Cloud`{.action} project in the [OVHcloud Control Panel](/links/manager).
 
-- To log in with a specific OpenStack user: Open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/compute/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
+- To log in with a specific OpenStack user: Open the [Horizon login page](https://horizon.cloud.ovh.net/auth/login/) and enter the [OpenStack user credentials](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) previously created, then click on `Connect`{.action}.
 
 In the Horizon dashboard, select your `Project`{.action}<br>
 In the left menu, click on the `Network`{.action} tab and select `Load Balancers`{.action}.

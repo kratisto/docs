@@ -17,7 +17,7 @@ Bei der Konfiguration einer hochverfügbaren Infrastruktur müssen Sie mögliche
 
 - Sie verfügen über eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) mit **stündlicher** Abrechnung.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager) oder das [Horizon Interface](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon).
-- Sie haben Kenntnisse der [OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) und der [OpenStack Variablen](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- Sie haben Kenntnisse der [OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) und der [OpenStack Variablen](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 ## In der praktischen Anwendung
 
@@ -70,7 +70,7 @@ Um diese Methode zu verwenden, müssen Sie sich [in das Horizon-interface einlog
 
 - Um sich über OVHcloud SSO zu verbinden: Verwenden Sie den Link `Horizon`{.action} im Menü links unter "Management Interfaces", nachdem Sie Ihr `Public Cloud`{.action} Projekt in Ihrem [OVHcloud Kundencenter](/links/manager) geöffnet haben.
 
-- Um sich mit einem bestimmten OpenStack-Benutzer anzumelden: Öffnen Sie die Login-Seite für [Horizon](https://horizon.cloud.ovh.net/auth/login/) und geben Sie die zuvor erstellten [OpenStack-Zugangsdaten](/pages/public_cloud/compute/create_and_delete_a_user) ein. Klicken Sie anschließend auf `Connect`{.action}.
+- Um sich mit einem bestimmten OpenStack-Benutzer anzumelden: Öffnen Sie die Login-Seite für [Horizon](https://horizon.cloud.ovh.net/auth/login/) und geben Sie die zuvor erstellten [OpenStack-Zugangsdaten](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) ein. Klicken Sie anschließend auf `Connect`{.action}.
 
 Wenn Sie Instanzen in verschiedenen Regionen eingerichtet haben, stellen Sie sicher, dass Sie sich in der korrekten Region befinden. Überprüfen Sie es in der oberen linken Ecke des Horizon-Interface.
 
@@ -93,7 +93,7 @@ Um den Snapshot anzuzeigen, klicken Sie im Menü `Compute`{.action} auf `Images`
 Bevor Sie fortfahren, empfehlen wir Ihnen folgende Anleitungen:
 
 - [Vorbereitung Ihrer Umgebung zur Verwendung der OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Konfigurieren der OpenStack-Umgebungsvariablen](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Konfigurieren der OpenStack-Umgebungsvariablen](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Sobald Ihre Umgebung bereit ist, geben Sie in der Kommandozeile Folgendes ein:
 

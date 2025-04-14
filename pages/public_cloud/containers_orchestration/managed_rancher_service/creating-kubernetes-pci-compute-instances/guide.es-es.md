@@ -26,14 +26,14 @@ In this guide we will explore how to **use OVHcloud as an Infrastructure Provide
 - A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project) in your OVHcloud account
 - An OVHcloud Managed Rancher Service (see the [creating a Managed Rancher Service](/pages/public_cloud/containers_orchestration/managed_rancher_service/create-update-rancher) guide for more information)
 - An access to the Rancher UI to operate it (see the [connecting to the Rancher UI](/pages/public_cloud/containers_orchestration/managed_rancher_service/create-update-rancher) guide for more information)
-- An [OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user)
+- An [OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 - A [private network with a Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway)
 
 ## Instructions
 
 ### Creating OVHcloud Public Cloud credentials
 
-To create OVHcloud Public Cloud credential, you need to have an existing **OpenStack user** with the `Compute Operator` role as a minimum. Read this guide on how to [create an OpenStack user](/pages/public_cloud/compute/create_and_delete_a_user) if you don't have one yet.
+To create OVHcloud Public Cloud credential, you need to have an existing **OpenStack user** with the `Compute Operator` role as a minimum. Read this guide on how to [create an OpenStack user](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) if you don't have one yet.
 
 Log in to your Managed Rancher Service UI.
 

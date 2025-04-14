@@ -162,6 +162,6 @@ openstack --help
 
 ## Aller plus loin
 
-[Charger les variables d’environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+[Charger les variables d’environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

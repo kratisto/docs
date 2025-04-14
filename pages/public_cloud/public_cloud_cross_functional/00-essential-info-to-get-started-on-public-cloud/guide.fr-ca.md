@@ -110,7 +110,7 @@ Vous serez peut être amené à gérer la question des quotas.
 Vous pouvez avoir besoin de gérer plusieurs utilisateurs qui vont intervenir sur votre projet.
 <br>Vous avez alors deux possibilités :
 
-- Si vous souhaitez utiliser les APIs OpenStack ou Amazon S3, ou l'interface Horizon, vous aurez à [créer des utilisateurs](/pages/public_cloud/compute/create_and_delete_a_user) pour cela. Les utilisateurs peuvent éventuellement avoir des droits limités afin de sécuriser les périmètres d'action.
+- Si vous souhaitez utiliser les APIs OpenStack ou Amazon S3, ou l'interface Horizon, vous aurez à [créer des utilisateurs](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user) pour cela. Les utilisateurs peuvent éventuellement avoir des droits limités afin de sécuriser les périmètres d'action.
 - Si vous n'avez pas besoin d'accéder aux APIs ou à Horizon, vous pouvez [associer un autre compte client OVHcloud](/pages/public_cloud/public_cloud_cross_functional/delegate_projects) en complément sur votre projet.
 
 ## Aller plus loin <a name="gofurther"></a>

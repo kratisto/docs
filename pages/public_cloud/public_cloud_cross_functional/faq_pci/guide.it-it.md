@@ -89,7 +89,7 @@ In caso di perdita, consulta la guida [Sostituisci la tua chiave SSH in caso di 
 
 Per utilizzare le API Horizon o OpenStack, è necessario creare un utente OpenStack. È possibile crearne un numero illimitato.
 
-Per effettuare questa operazione, consulta la guida [Creare e rimuovere un utente OpenStack](/pages/public_cloud/compute/create_and_delete_a_user).
+Per effettuare questa operazione, consulta la guida [Creare e rimuovere un utente OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 
 ///
 

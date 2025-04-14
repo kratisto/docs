@@ -115,7 +115,7 @@ Es kann sein, dass Sie sich mit einer Begrenzung der Kontingente für Public Clo
 Sie können mehrere Benutzer verwalten, die an Ihrem Projekt beteiligt sind.
 <br>Sie haben dann zwei Möglichkeiten:
 
-- Wenn Sie die OpenStack- oder Amazon S3-APIs oder das Horizon-Interface verwenden möchten, müssen dafür [Benutzer erstellt werden](/pages/public_cloud/compute/create_and_delete_a_user). Die Benutzer können gegebenenfalls eingeschränkte Rechte haben, um die Verwaltungsbereiche abzusichern.
+- Wenn Sie die OpenStack- oder Amazon S3-APIs oder das Horizon-Interface verwenden möchten, müssen dafür [Benutzer erstellt werden](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Die Benutzer können gegebenenfalls eingeschränkte Rechte haben, um die Verwaltungsbereiche abzusichern.
 - Wenn der Zugriff nicht die APIs oder Horizon beinhalten muss, können Sie dem Projekt auch [einen weiteren OVHcloud Kunden-Account hinzufügen](/pages/public_cloud/public_cloud_cross_functional/delegate_projects).
 
 ## Weiterführende Informationen <a name="gofurther"></a>

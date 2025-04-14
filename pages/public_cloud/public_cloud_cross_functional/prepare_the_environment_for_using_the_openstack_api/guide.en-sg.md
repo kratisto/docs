@@ -162,6 +162,6 @@ openstack --help
 
 ## Go further
 
-[Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
+[Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 Join our [community of users](/links/community).

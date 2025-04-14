@@ -21,8 +21,8 @@ The MTU size will be the same for all services using IPs in the same network.
 Before proceeding, it is recommended that you read these guides:
 
 - [Preparing an environment to use the OpenStack API](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api)
-- [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables)
-- [Managing tokens](/pages/public_cloud/compute/managing_tokens)
+- [Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
+- [Managing tokens](/pages/public_cloud/public_cloud_cross_functional/managing_tokens)
 
 ## Instructions
 

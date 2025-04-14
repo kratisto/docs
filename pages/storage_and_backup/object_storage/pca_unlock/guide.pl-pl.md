@@ -20,7 +20,7 @@ W przypadku rzadko używanych danych wymagane jest odblokowanie, co oznacza koni
     - Dostęp do [Panelu client OVHcloud](/links/manager).
 - Odblokowanie za pomocą python-swiftclient:
     - [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) poprzez instalację python-swiftclient.
-    - [Pobranie zmiennych środowiskowych OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+    - [Pobranie zmiennych środowiskowych OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 ## W praktyce
 

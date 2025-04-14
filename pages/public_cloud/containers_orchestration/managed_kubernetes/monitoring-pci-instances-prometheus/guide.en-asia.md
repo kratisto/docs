@@ -109,7 +109,7 @@ Apply this secret to your Prometheus namespace inside your Kubernetes cluster wi
 kubectl apply -f openstack_user_password.yaml -n prometheus
 ```
 
-Retrieve your OpenStack user info from the command-line tool (refer to the [Setting OpenStack environment variables](/pages/public_cloud/compute/loading_openstack_environment_variables) guide) for the region you want to scrape.
+Retrieve your OpenStack user info from the command-line tool (refer to the [Setting OpenStack environment variables](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables) guide) for the region you want to scrape.
 
 This example uses the GRA11 region.
 

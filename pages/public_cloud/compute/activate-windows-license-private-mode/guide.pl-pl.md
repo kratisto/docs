@@ -19,7 +19,7 @@ W tym przypadku należy aktywować licencję ręcznie, aby uzyskać dostęp do w
 
 - Posiadanie [projektu Public Cloud](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
 - Dostęp do Panelu [klienta OVHcloud](/links/manager)
-- [Utworzenie użytkownika OpenStack](/pages/public_cloud/compute/create_and_delete_a_user)
+- [Utworzenie użytkownika OpenStack](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user)
 
 Zalecamy zapoznanie się z przewodnikiem  "[Dostęp do interfejsu Horizon](/pages/public_cloud/public_cloud_cross_functional/introducing_horizon)" w celu zapoznania się z programem Horizon.
 
@@ -52,7 +52,7 @@ Wybierz interfejs i zatwierdź:
 Przed kontynuowaniem prac zalecamy zapoznanie się z następującymi przewodnikami:
 
 - [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
-- [Zmienne środowiskowe OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables).
+- [Zmienne środowiskowe OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables).
 
 Najpierw należy zgromadzić wszystkie niezbędne informacje:
 

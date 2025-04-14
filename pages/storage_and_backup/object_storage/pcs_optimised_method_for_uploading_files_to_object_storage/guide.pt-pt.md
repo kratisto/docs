@@ -13,7 +13,7 @@ Aquando do envio de ficheiros volumosos para o Object Storage (como vídeos ou i
 ## Pré-requisitos
 
 - [Preparar o ambiente para utilizar a API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api) com o cliente python-swiftclient
-- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables)
+- [Carregar as variáveis de ambiente OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables)
 
 ## Instruções
 

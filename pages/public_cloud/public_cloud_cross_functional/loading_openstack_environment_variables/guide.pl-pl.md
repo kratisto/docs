@@ -15,7 +15,7 @@ Pobranie zmiennych środowiskowych OpenStack na Twoje stanowisko umożliwi Ci ko
 ## Wymagania początkowe
 
 - Zalogowanie do [Panelu klienta OVHcloud](/links/manager).
-- Utworzenie użytkownika OpenStack. Informacje na ten temat znajdziesz [w tym przewodniku](/pages/public_cloud/compute/create_and_delete_a_user).
+- Utworzenie użytkownika OpenStack. Informacje na ten temat znajdziesz [w tym przewodniku](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user).
 - Przygotowanie środowiska do korzystania z OpenStack. Informacje na ten temat znajdziesz w tym przewodniku: [Przygotowanie środowiska do korzystania z API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api).
 
 ## W praktyce
@@ -43,7 +43,7 @@ admin@vpsxxxxxx:~$ source openrc.sh
 Please enter your OpenStack Password:
 ```
 
-Jak wskazano w [tym przewodniku](/pages/public_cloud/compute/create_and_delete_a_user), hasło jest widoczne tylko raz, podczas jego tworzenia.
+Jak wskazano w [tym przewodniku](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user), hasło jest widoczne tylko raz, podczas jego tworzenia.
 
 Jeśli zapomnisz hasła, konieczne będzie jego ponowne utworzenie.
 

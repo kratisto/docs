@@ -111,7 +111,7 @@ Może będziecie musieli poradzić sobie z kwestią limitów.
 Może zaistnieć potrzeba zarządzania kilkoma użytkownikami, którzy będą interweniować w ramach Twojego projektu.
 <br>Masz wówczas dwie możliwości:
 
-- Jeśli chcesz korzystać z interfejsu API OpenStack lub Amazon S3 lub interfejsu Horizon, musisz [utworzyć w tym celu użytkowników](/pages/public_cloud/compute/create_and_delete_a_user). Użytkownicy mogą ewentualnie mieć ograniczone prawa, aby zabezpieczyć zakres działania.
+- Jeśli chcesz korzystać z interfejsu API OpenStack lub Amazon S3 lub interfejsu Horizon, musisz [utworzyć w tym celu użytkowników](/pages/public_cloud/public_cloud_cross_functional/create_and_delete_a_user). Użytkownicy mogą ewentualnie mieć ograniczone prawa, aby zabezpieczyć zakres działania.
 - Jeśli nie potrzebujesz dostępu do API lub interfejsu Horizon, możesz [dołączyć do Twojego projektu inne konto klienta OVHcloud](/pages/public_cloud/public_cloud_cross_functional/delegate_projects).
 
 ## Sprawdź również <a name="gofurther"></a>

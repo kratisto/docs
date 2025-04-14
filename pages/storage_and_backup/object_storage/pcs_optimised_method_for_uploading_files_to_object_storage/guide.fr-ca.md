@@ -12,7 +12,7 @@ Lorsque vous souhaitez télécharger des fichiers volumineux vers Object Storage
 ## Prérequis
 
 - [Préparer l'environnement pour utiliser l'API OpenStack](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api){.ref} avec le client python-swiftclient.
-- [Charger les variables d'environnement OpenStack](/pages/public_cloud/compute/loading_openstack_environment_variables){.ref}
+- [Charger les variables d'environnement OpenStack](/pages/public_cloud/public_cloud_cross_functional/loading_openstack_environment_variables){.ref}
 
 ## En pratique
 
