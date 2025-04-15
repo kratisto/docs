@@ -145,7 +145,12 @@ Cette interface permet de visualiser et de télécharger les fichiers encore pr�
 
 Pour des raisons de sécurité, seuls les utilisateurs existants avant la migration peuvent s’authentifier.
 
-Le mot de passe associé à ces utilisateurs peut avoir été réinitialisé pendant la migration. Si besoin, vous pouvez le modifier via l’[API OVHcloud dédiée](https://eu.api.ovh.com/console/?section=%2FdedicatedCloud&branch=v1#post-/dedicatedCloud/-serviceName-/user/-userId-/changePassword).
+Le mot de passe associé à ces utilisateurs peut avoir été réinitialisé pendant la migration. Si besoin, vous pouvez le modifier via l’[API OVHcloud dédiée](https://eu.api.ovh.com/console/) avec l'appel suivant :
+
+> [!api]
+>
+> @api {v1} /dedicatedCloud/ POST /dedicatedCloud/{serviceName}/user/{userId}/changePassword
+>
 
 > [!warning]
 > Les machines virtuelles ne peuvent pas être restaurées à partir de cette interface. Pour exporter vos VMs, utilisez votre organisation Managed VCD.

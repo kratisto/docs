@@ -145,7 +145,12 @@ This interface allows you to view and download the files still stored on your da
 
 For security reasons, only users who existed before the migration can log in.
 
-Passwords for these users may have been reset during the migration process. If needed, you can update them using the [dedicated OVHcloud API](https://eu.api.ovh.com/console/?section=%2FdedicatedCloud&branch=v1#post-/dedicatedCloud/-serviceName-/user/-userId-/changePassword).
+Passwords for these users may have been reset during the migration process. If needed, you can update them using the [dedicated OVHcloud API](https://ca.api.ovh.com/console/) with the following call:
+
+> [!api]
+>
+> @api {v1} /dedicatedCloud/ POST /dedicatedCloud/{serviceName}/user/{userId}/changePassword
+>
 
 > [!warning]
 > Virtual machines cannot be recovered from this interface. To export your VMs, use your Managed VCD organization.
