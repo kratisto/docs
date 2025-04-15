@@ -202,7 +202,12 @@ Vous pouvez également utiliser la fonction de réplication asynchrone disponibl
 
 ### Est-il possible de gérer les cycles de vie de la donnée ?
 
-Les options de cycle de vie ne sont pas encore disponibles. Nous vous invitons à suivre notre [roadmap GitHub publique](https://github.com/orgs/ovh/projects/16/?card_filter_query=label%3A%22object+storage%22) pour être informé de leur sortie.
+Vous pouvez utiliser la fonctionnalité de "lifecycle management" qui permet : 
+
+- d'automatiser la suppression d'objets en fonction de règles d'expiration.
+- d'automatiser la transition d'objets d'une classe à une autre.
+
+Pour obtenir plus de détails sur cette fonctionnalité et sa disponibilité, [suivez ce guide](/pages/storage_and_backup/object_storage/s3_bucket_lifecycle).
 
 ## Performances
 
