@@ -32,7 +32,9 @@ This guide aims at providing a clear and detailed method for creating and updati
 - Modify a Savings Plan.
 - Automate the management of Savings Plans via the API or Terraform for greater efficiency and flexibility.
 
-### Requirements
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dd7P7CUN21M?si=OvK6Gec1BLFFB25O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Requirements
 
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account.
 - Access to the [OVHcloud Control Panel](/links/manager) or to the [OVHcloud API](https://api.ovh.com/) (create your credentials using [this guide](/pages/manage_and_operate/api/first-steps))
