@@ -1,7 +1,7 @@
 ---
 title: User creation
 excerpt: This guide shows you how to create a new user
-updated: 2018-03-26
+updated: 2025-04-16
 ---
 
 ## Using web interface
@@ -11,7 +11,7 @@ updated: 2018-03-26
 > Using web interface is the easiest way to create a user.
 >
 
-First, connect to the [Cloud Disk Array manager](https://www.ovh.com/manager/cloud/index.html){.external}. Under 'Platforms and services' select your Ceph cluster. On the bottom left, you will find the **user list**. No user is created by default (except *admin* that you can't use and that is hidden).
+First, log into your [OVHcloud customer area](/links/manager) and go to the [Bare Metal Cloud](https://www.ovh.com/manager/#/dedicated/configuration){.external} section at the top. Once on the page, click on the `Platforms and services`{.action} heading and then on the `ceph-cluster`{.action} service.
 
 ![Ceph users](images/create_a_user_1.png){.thumbnail}
 
@@ -24,19 +24,22 @@ Enter a username.
 
 ![Ceph user creation](images/create_a_user_2.png){.thumbnail}
 
-After user creation, you are back to manager. You can see that cluster status has changed because the user is being created.
+Once the user has been created, you're returned to the manager, and the user has been created.
 
 ![Ceph user creation](images/create_a_user_3.png){.thumbnail}
 
 ## Using API
 
+You can create a user using this API route:
+
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/user
 >
+
 serviceName is the fsid of your cluster.
 
-You can check user creation by listing users.
+You can also check user creation by creating a list of users.
 
 ```bash
 GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user

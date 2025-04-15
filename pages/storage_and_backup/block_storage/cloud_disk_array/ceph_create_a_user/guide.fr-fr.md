@@ -1,7 +1,7 @@
 ---
 title: Création d'utilisateurs
 excerpt: Ce qui vous présente comment créer un nouvel utilisateur.
-updated: 2018-03-26
+updated: 2025-04-16
 ---
 
 ## Utiliser l'interface web
@@ -11,7 +11,7 @@ updated: 2018-03-26
 > L'utilisation d'une interface web est le moyen le plus simple de créer un utilisateur.
 >
 
-Tout d'abord, connectez-vous au [l’espace client](https://www.ovh.com/manager/dedicated/#/configuration){.external} et dans la rubrique Plates-formes et services vous trouverez le service Ceph.
+Tout d'abord, connectez-vous à votre [espace client OVHcloud](/links/manager) et rendez vous dans la section [Bare Metal Cloud](https://www.ovh.com/manager/#/dedicated/configuration){.external} en haut. Une fois sur la page, cliquez sur la rubrique `Plates-formes et services`{.action} puis sur le service `ceph-cluster`{.action}.
 
 Dans l'onglet "Utilisateurs", vous trouverez la liste des **utilisateurs**. Aucun utilisateur n'est créé par défaut (sauf *admin* que vous ne pouvez pas utiliser et qui est caché).
 
@@ -26,19 +26,22 @@ Entrez un nom d'utilisateur.
 
 ![Ceph user creation](images/create_a_user_2.png){.thumbnail}
 
-Après la création de l'utilisateur, vous revenez au gestionnaire. Vous pouvez voir que le statut du cluster a changé parce que l'utilisateur est en cours de création.
+Après la création de l'utilisateur, vous revenez au gestionnaire, l'utilisateur à bien été créé.
 
 ![Ceph user creation](images/create_a_user_3.png){.thumbnail}
 
 ## Utiliser l'API
 
+Vous pouvez créé un utilisateur en utilisant cette route API :
+
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/user
 >
+
 serviceName est le fsid de votre cluster.
 
-Vous pouvez vérifier la création des utilisateurs en dressant une liste des utilisateurs.
+Vous pouvez également vérifier la création des utilisateurs en dressant une liste des utilisateurs.
 
 ```bash
 GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user
