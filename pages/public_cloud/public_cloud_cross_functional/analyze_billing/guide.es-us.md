@@ -14,6 +14,8 @@ Este mecanismo es similar al de algunos operadores telefónicos que facturan a f
 
 **Esta guía analiza los distintos elementos de la facturación de la solución Public Cloud.**
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Requisitos
 
 * Tener un proyecto de [Public Cloud](/links/public-cloud/public-cloud) en su cuenta de OVHcloud.

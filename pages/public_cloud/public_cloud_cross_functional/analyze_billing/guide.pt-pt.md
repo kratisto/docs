@@ -14,6 +14,8 @@ Este sistema é semelhante ao de certas operadoras que faturam ao final do mês 
 
 **Este documento explica os conceitos de faturação da oferta Public Cloud.**
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Requisitos
 
 * um projeto [Public Cloud](/links/public-cloud/public-cloud) criado na sua conta OVHcloud
