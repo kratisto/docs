@@ -1,7 +1,7 @@
 ---
 title: Run Serverless containers on OVHcloud Managed Kubernetes with Knative
 excerpt: Find out how to install Knative on OVHcloud Managed Kubernetes and deploy your first serverless containers
-updated: 2023-01-02
+updated: 2025-04-15
 ---
 
 ## Objective
@@ -60,15 +60,15 @@ Here is an example of the result:
 
 ```console
 $ kn version
-Version:      v0.26.0
-Build Date:   2021-09-22T09:11:17Z
-Git Revision: 61b8a754
+Version:      v1.17.0
+Build Date:   2025-01-22 16:25:15
+Git Revision: f7347245
 Supported APIs:
 * Serving
-  - serving.knative.dev/v1 (knative-serving v0.26.0)
+  - serving.knative.dev/v1 (knative-serving v1.17.0)
 * Eventing
-  - sources.knative.dev/v1 (knative-eventing v0.26.0)
-  - eventing.knative.dev/v1 (knative-eventing v0.26.0)
+  - sources.knative.dev/v1 (knative-eventing v1.17.0)
+  - eventing.knative.dev/v1 (knative-eventing v1.17.0)
 ```
 
 ### Installing Knative
@@ -79,7 +79,7 @@ The first thing to do is to install the Knative Serving component:
 
 - Install the required custom resources by running the command:
 
-```
+```console
 kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-crds.yaml
 ```
 
@@ -103,7 +103,7 @@ customresourcedefinition.apiextensions.k8s.io/images.caching.internal.knative.de
 
 - Install the core components of Knative Serving by running the command:
 
-```
+```console
 kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-core.yaml
 ```
 
@@ -112,6 +112,8 @@ Here is an example of the result:
 ```console
 $ kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-core.yaml
 namespace/knative-serving created
+role.rbac.authorization.k8s.io/knative-serving-activator created
+clusterrole.rbac.authorization.k8s.io/knative-serving-activator-cluster created
 clusterrole.rbac.authorization.k8s.io/knative-serving-aggregated-addressable-resolver created
 clusterrole.rbac.authorization.k8s.io/knative-serving-addressable-resolver created
 clusterrole.rbac.authorization.k8s.io/knative-serving-namespaced-admin created
@@ -123,7 +125,11 @@ serviceaccount/controller created
 clusterrole.rbac.authorization.k8s.io/knative-serving-admin created
 clusterrolebinding.rbac.authorization.k8s.io/knative-serving-controller-admin created
 clusterrolebinding.rbac.authorization.k8s.io/knative-serving-controller-addressable-resolver created
+serviceaccount/activator created
+rolebinding.rbac.authorization.k8s.io/knative-serving-activator created
+clusterrolebinding.rbac.authorization.k8s.io/knative-serving-activator-cluster created
 customresourcedefinition.apiextensions.k8s.io/images.caching.internal.knative.dev unchanged
+certificate.networking.internal.knative.dev/routing-serving-certs created
 customresourcedefinition.apiextensions.k8s.io/certificates.networking.internal.knative.dev unchanged
 customresourcedefinition.apiextensions.k8s.io/configurations.serving.knative.dev unchanged
 customresourcedefinition.apiextensions.k8s.io/clusterdomainclaims.networking.internal.knative.dev unchanged
@@ -135,10 +141,9 @@ customresourcedefinition.apiextensions.k8s.io/revisions.serving.knative.dev unch
 customresourcedefinition.apiextensions.k8s.io/routes.serving.knative.dev unchanged
 customresourcedefinition.apiextensions.k8s.io/serverlessservices.networking.internal.knative.dev unchanged
 customresourcedefinition.apiextensions.k8s.io/services.serving.knative.dev unchanged
-secret/serving-certs-ctrl-ca created
-secret/knative-serving-certs created
 image.caching.internal.knative.dev/queue-proxy created
 configmap/config-autoscaler created
+configmap/config-certmanager created
 configmap/config-defaults created
 configmap/config-deployment created
 configmap/config-domain created
@@ -157,18 +162,12 @@ deployment.apps/autoscaler created
 service/autoscaler created
 deployment.apps/controller created
 service/controller created
-deployment.apps/domain-mapping created
-deployment.apps/domainmapping-webhook created
-service/domainmapping-webhook created
 horizontalpodautoscaler.autoscaling/webhook created
 poddisruptionbudget.policy/webhook-pdb created
 deployment.apps/webhook created
 service/webhook created
 validatingwebhookconfiguration.admissionregistration.k8s.io/config.webhook.serving.knative.dev created
 mutatingwebhookconfiguration.admissionregistration.k8s.io/webhook.serving.knative.dev created
-mutatingwebhookconfiguration.admissionregistration.k8s.io/webhook.domainmapping.serving.knative.dev created
-secret/domainmapping-webhook-certs created
-validatingwebhookconfiguration.admissionregistration.k8s.io/validation.webhook.domainmapping.serving.knative.dev created
 validatingwebhookconfiguration.admissionregistration.k8s.io/validation.webhook.serving.knative.dev created
 secret/webhook-certs created
 ```
@@ -179,13 +178,27 @@ As the networking layer, you can [install the one you want](https://knative.dev/
 
 Install the Knative Kourier controller by running the command:
 
-```
+```console
 kubectl apply -f https://github.com/knative/net-kourier/releases/latest/download/kourier.yaml
+
+namespace/kourier-system created
+configmap/kourier-bootstrap created
+configmap/config-kourier created
+serviceaccount/net-kourier created
+clusterrole.rbac.authorization.k8s.io/net-kourier created
+clusterrolebinding.rbac.authorization.k8s.io/net-kourier created
+deployment.apps/net-kourier-controller created
+service/net-kourier-controller created
+deployment.apps/3scale-kourier-gateway created
+service/kourier created
+service/kourier-internal created
+horizontalpodautoscaler.autoscaling/3scale-kourier-gateway created
+poddisruptionbudget.policy/3scale-kourier-gateway-pdb created
 ```
 
 Configure Knative Serving to use Kourier by default by running the command:
 
-```
+```console
 kubectl patch configmap/config-network \
   --namespace knative-serving \
   --type merge \
@@ -202,7 +215,7 @@ NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
 
 Fetch the External IP address or CNAME by running the command:
 
-```
+```console
 kubectl get service kourier -n kourier-system
 ```
 
@@ -211,10 +224,10 @@ Here is an example of the result:
 ```console
 $ kubectl get service kourier -n kourier-system 
 NAME      TYPE           CLUSTER-IP    EXTERNAL-IP      PORT(S)                      AGE
-kourier   LoadBalancer   10.3.65.167   135.125.83.166   80:31357/TCP,443:31782/TCP   2m19s
+kourier   LoadBalancer   10.3.15.239   135.125.83.166   80:31357/TCP,443:31782/TCP   2m19s
 ```
 
-    Warning: As the `LoadBalancer` creation is asynchronous, and the provisioning of the load balancer can take several minutes, you will surely get a `pending` state for the `EXTERNAL-IP` field. Please try again in a few minutes to get the external IP. 
+    Warning: As the `LoadBalancer` creation is asynchronous, and the provisioning of the load balancer can take several minutes, you will surely get a `<pending>` state for the `EXTERNAL-IP` field. Please try again in a few minutes to get the external IP. 
 
 Save this to use in the following Configure DNS section.
 
@@ -222,7 +235,7 @@ Save this to use in the following Configure DNS section.
 
 A new `knative-serving` namespace has been created on your Kubernetes cluster with knative serving components, so let's check if Knative Serving components are correctly running:
 
-```
+```console
 kubectl get pods -n knative-serving
 ```
 
@@ -230,14 +243,12 @@ Here is an example of the result:
 
 ```console
 $ kubectl get pods -n knative-serving
-NAME                                      READY   STATUS    RESTARTS   AGE
-activator-68b7698d74-hwrj6                1/1     Running   0          33m
-autoscaler-6c8884d6ff-6g6pv               1/1     Running   0          33m
-controller-76cf997d95-5b4l4               1/1     Running   0          33m
-domain-mapping-57fdbf97b-6vdft            1/1     Running   0          33m
-domainmapping-webhook-66c5f7d596-l97d9    1/1     Running   0          33m
-net-kourier-controller-6f68cbb74f-cgqvx   1/1     Running   0          107s
-webhook-7df8fd847b-rm9q2                  1/1     Running   0          33m
+NAME                                     READY   STATUS    RESTARTS   AGE
+activator-7c48c6944d-rk6mz               1/1     Running   0          20m
+autoscaler-775c659bc6-vnljf              1/1     Running   0          20m
+controller-7cf4fbd94-vl8tc               1/1     Running   0          20m
+net-kourier-controller-568fb445b-f8kwl   1/1     Running   0          19m
+webhook-57ccdb4884-md5jq                 1/1     Running   0          20m
 ```
 
 And we can check the Knative Serving installed version:
@@ -250,34 +261,35 @@ Here is an example of the result:
 
 ```console
 $ kubectl get namespace knative-serving -o 'go-template={{index .metadata.labels "app.kubernetes.io/version"}}'
-v1.8.3
+1.17.0
 ```
 
-Knative Serving version 1.8.3 is correctly deployed in our cluster, Cool!
+Knative Serving version 1.17.0 is correctly deployed in our cluster, Cool!
 
 #### Configuring DNS
 
-By default, Knative Serving uses `example.com` as the default domain.
-
 For this tutorial, though it is not mandatory, you can configure DNS to prevent the need to run `curl` commands with a host header.
 
-To configure DNS for Knative, take the External IP from setting up networking, and configure it with your DNS provider as follows:
+To configure DNS for Knative, take the External IP from setting up networking (`135.125.83.166` in this example), and configure it with your DNS provider as follows:
 
 Configure a wildcard A record for the domain:
 
+```console
+# Here knative.example.com is the domain suffix for your cluster
+*.knative.example.com == A 135.125.83.166
 ```
-# Here knative.my-website.com is the domain suffix for your cluster
-*.knative.my-website.com == A 135.125.83.166
-```
+
+On OVHcloud you can create a new entry to an existant DNS zone, like this:
+![OVHcloud New entry in DNS zone for Knative](images/ovhcloud-entry-dns.png)
 
 Once your DNS provider has been configured, direct Knative to use that domain:
 
-```
-# Replace knative.example.com with your domain suffix
+```console
+# Replace example.com with your domain suffix
 kubectl patch configmap/config-domain \
   --namespace knative-serving \
   --type merge \
-  --patch '{"data":{"knative.my-website.com":""}}'
+  --patch '{"data":{"knative.example.com":""}}'
 ```
 
 For more information about DNS on OVHcloud, please read our guide on [how to configure a DNS zone](/pages/web_cloud/domains/dns_zone_edit).
@@ -361,16 +373,16 @@ And also Knative service, route and revision:
 
 ```console
 $ kn service list -n knative-apps
-NAME          URL                                           LATEST              AGE   CONDITIONS   READY   REASON
-hello-world   http://hello-world.knative-apps.example.com   hello-world-00001   26m   3 OK / 3     True
+NAME          URL                                                        LATEST              AGE   CONDITIONS   READY   REASON
+hello-world   http://hello-world.knative-apps.knative.example.com   hello-world-00001   51s   3 OK / 3     True
 
 $ kn route list -n knative-apps
-NAME          URL                                           READY
-hello-world   http://hello-world.knative-apps.example.com   True
+NAME          URL                                                        READY
+hello-world   http://hello-world.knative-apps.knative.example.com   True
 
 $ kn revision list -n knative-apps
 NAME                SERVICE       TRAFFIC   TAGS   GENERATION   AGE   CONDITIONS   READY   REASON
-hello-world-00001   hello-world   100%             1            26m   3 OK / 4     True
+hello-world-00001   hello-world   100%             1            58s   4 OK / 4     True
 ```
 
 As we can see, by default, 100% of the traffic goes to the `hello-world-00001` revision.
@@ -382,16 +394,23 @@ $ kn service describe hello-world -n knative-apps -o url
 http://hello-world.knative-apps.example.com
 ```
 
-With this information, and with the Load Balancer external IP, we can test to call our app:
+With this information, we can test to call our app:
 
 ```
-$ curl -H "Host: hello-world.knative-apps.example.com" http://135.125.83.166:80
+$ curl http://hello-world.knative-apps.knative.example.com
 <!doctype html>
 
 <html>
 <head>
 <title>OVH K8S</title>
 </head>
+<style>
+.title {
+font-size: 3em;
+padding: 2em;
+text-align: center;
+}
+</style>
 <body>
 <div class="title">
 <p>Hello from Kubernetes!</p>
@@ -426,26 +445,26 @@ If you want, you can uninstall Knative apps, serving and core components.
 
 First, delete our Hello World app:
 
-```
+```console
 kubectl delete -f service.yaml -n knative-apps
 ```
 
 Then, delete Knative CRDs:
 
-```
+```console
 kubectl api-resources -o name | grep knative | xargs kubectl delete crd
 ```
 
 Then, delete Knative resources:
 
-```
+```console
 kubectl -n knative-serving delete po,svc,daemonsets,replicasets,deployments,rc,secrets --all
 kubectl -n kourier-system delete po,svc,daemonsets,replicasets,deployments,rc,secrets --all
 ```
 
 Finally, delete namespaces:
 
-```
+```console
 kubectl delete namespace knative-serving
 kubectl delete namespace kourier-system
 kubectl delete namespace knative-apps
