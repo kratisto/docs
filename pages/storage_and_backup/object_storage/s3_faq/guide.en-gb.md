@@ -210,7 +210,7 @@ You can use Object Storage lifeycle management feature for:
 - automating object deletion based on object expiration rules.
 - automating object transition from one class to another.
 
-To get details about the feature and its availability, [follow this guide](https://help.ovhcloud.com/csm/en-gb-public-cloud-storage-s3-bucket-lifecycle?id=kb_article_view&sysparm_article=KB0066006).
+To get details about the feature and its availability, [follow this guide](/pages/storage_and_backup/object_storage/s3_bucket_lifecycle).
 
 ## Performance
 

@@ -207,7 +207,7 @@ Vous pouvez utiliser la fonctionnalité de "lifecycle management" qui permet :
 - d'automatiser la suppression d'objets en fonction de règles d'expiration.
 - d'automatiser la transition d'objets d'une classe à une autre.
 
-Pour obtenir plus de détails sur cette fonctionnalité et sa disponibilité, [suivez ce guide](https://help.ovhcloud.com/csm/fr-public-cloud-storage-s3-bucket-lifecycle?id=kb_article_view&sysparm_article=KB0066010).
+Pour obtenir plus de détails sur cette fonctionnalité et sa disponibilité, [suivez ce guide](/pages/storage_and_backup/object_storage/s3_bucket_lifecycle).
 
 ## Performances
 

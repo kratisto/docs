@@ -1,7 +1,7 @@
 ---
 title: Object Storage - FAQ (EN)
 excerpt: "Frequently Asked Questions on the Object Storage solution"
-updated: 2025-02-05
+updated: 2024-02-05
 ---
 
 ## General questions
@@ -206,7 +206,11 @@ You can also use the asynchronous replication feature available on Object Storag
 
 ### Is it possible to manage data lifecycles?
 
-Lifecycle options are not yet available. Please follow our [public GitHub roadmap](https://github.com/orgs/ovh/projects/16/?card_filter_query=label%3A%22object+storage%22) to be informed of their release.
+You can use Object Storage lifeycle management feature for:
+- automating object deletion based on object expiration rules.
+- automating object transition from one class to another.
+
+To get details about the feature and its availability, [follow this guide](/pages/storage_and_backup/object_storage/s3_bucket_lifecycle).
 
 ## Performance
 
