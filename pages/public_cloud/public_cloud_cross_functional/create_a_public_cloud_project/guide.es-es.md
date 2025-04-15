@@ -48,6 +48,8 @@ Ya puede acceder a todo el ecosistema Public Cloud de OVHcloud y consultar nuest
 >
 >![activar proyecto](images/activate-project.png){.thumbnail width="400"}
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N7r_VCB7nmI?si=fcyToz1wK8Tw7skw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Más información
 
 - [Crear y conectarse a una instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps)
