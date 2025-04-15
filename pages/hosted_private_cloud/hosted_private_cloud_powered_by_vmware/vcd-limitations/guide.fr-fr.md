@@ -1,7 +1,7 @@
 ---
 title: "Capacités techniques et limites de Public VCF aaS (alias Managed VCD)"
 excerpt: "Découvrez les capacités techniques et les limites de Public VCF aaS (alias Managed VCD)"
-updated: 2025-04-04
+updated: 2025-04-15
 ---
 
 ## Objectif
@@ -25,7 +25,7 @@ Avant de commencer, consultez les guides suivants pour mieux comprendre VMware C
 |-----------|---------|----------|---------|--------------|
 | vCPU (par VM) | 32 | 32 | 32 | Nombre de vCPUs disponibles par VM. |
 | RAM (par VM) | 128 Go | 128 Go | 128 Go | Quantité maximale de RAM par VM (min. 0,5 Go). |
-| Cartes réseau (par VM) | 5 | 10 | 10 | Nombre maximal d'adaptateurs réseau par VM. |
+| Cartes réseau (par VM) | 10 | 10 | 10 | Nombre maximal d'adaptateurs réseau par VM. |
 | Edge Gateway (par organisation) | N/A | 5 | 5 | Nombre maximal d'Edge Gateways par organisation. |
 | IP publiques (par vDC) | N/A | 2 | 2 | Nombre d’IP publiques disponibles par vDC. |
 | Snapshots (par VM) | 3 | 3 | 3 | Nombre maximal de snapshots par VM. |
