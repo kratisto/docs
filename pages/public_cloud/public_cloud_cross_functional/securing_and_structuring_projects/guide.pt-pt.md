@@ -10,6 +10,8 @@ updated: 2024-09-23
 
 This may be useful if you are part of a platform team and your goal is to build a Landing Zone for your organization.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N7r_VCB7nmI?si=fcyToz1wK8Tw7skw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Requirements
 
 - An active OVHcloud account
