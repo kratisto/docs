@@ -32,9 +32,7 @@ Plesk can be installed easily via an SSH connection. To do this, download and la
 >
 > Depending on your instance's OS, the sudo command alone may not be sufficient. If you encounter an error, switch to superuser mode before starting the installation:
 >
-> ```bash
-> sudo su
-> ```
+> <pre class="highlight language-console"><code class="language-console">sudo su</code></pre>
 >
 
 - **For a default, non-custom Plesk installation**:

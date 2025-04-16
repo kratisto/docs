@@ -32,9 +32,7 @@ A instalação do Plesk é realizada facilmente a partir de uma ligação SSH. P
 >
 > Dependendo do SO da sua instância, o comando sudo só por si pode não ser suficiente. Se encontrar um erro, altere para o modo de "superutilizador" antes de iniciar a instalação:
 >
-> ```bash
-> sudo su
-> ```
+> <pre class="highlight language-console"><code class="language-console">sudo su</code></pre>
 >
 
 - **Para uma instalação predefinida não personalizada do Plesk**:

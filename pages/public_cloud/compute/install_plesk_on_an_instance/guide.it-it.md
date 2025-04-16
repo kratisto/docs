@@ -1,6 +1,6 @@
 ---
-title: 'Come installare Plesk su un'istanza Public Cloud'
-excerpt: 'Come installare Plesk su un’istanza Public Cloud'
+title: "Come installare Plesk su un’istanza Public Cloud"
+excerpt: "Come installare Plesk su un’istanza Public Cloud"
 updated: 2025-04-08
 ---
 
@@ -33,9 +33,7 @@ Accedi all’istanza via SSH, scarica e poi esegui lo script di installazione di
 >
 > In base al sistema operativo della tua istanza, il solo ordine sudo potrebbe non essere sufficiente. In caso di errore, attiva la modalità super-utente prima di avviare l’installazione:
 >
-> ```bash
-> sudo su
-> ```
+> <pre class="highlight language-console"><code class="language-console">sudo su</code></pre>
 >
 
 - **Installazione predefinita non personalizzata**

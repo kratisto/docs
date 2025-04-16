@@ -1,6 +1,6 @@
 ---
-title: 'Jak zainstalować Plesk na instancji Public Cloud'
-excerpt: 'Dowiedz się, jak wdrożyć Plesk na instancji Public Cloud'
+title: "Jak zainstalować Plesk na instancji Public Cloud"
+excerpt: "Dowiedz się, jak wdrożyć Plesk na instancji Public Cloud"
 updated: 2025-04-08
 --- 
 
@@ -32,9 +32,7 @@ Interfejs Plesk można zainstalować za pomocą połączenia SSH. W tym celu pob
 >
 > W zależności od systemu operacyjnego instancji, samo polecenie sudo może nie być wystarczające. Jeśli pojawi się błąd, przed rozpoczęciem instalacji przełącz się w tryb super-użytkownika:
 >
-> ```bash
-> sudo su
-> ```
+> <pre class="highlight language-console"><code class="language-console">sudo su</code></pre>
 >
 
 - **Domyślna, niespersonalizowana instalacja Pleska**:

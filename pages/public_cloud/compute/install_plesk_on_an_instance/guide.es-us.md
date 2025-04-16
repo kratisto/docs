@@ -1,6 +1,6 @@
 ---
-title: 'Cómo instalar Plesk en una instancia de Public Cloud'
-excerpt: 'Cómo instalar Plesk en una instancia de Public Cloud'
+title: "Cómo instalar Plesk en una instancia de Public Cloud"
+excerpt: "Cómo instalar Plesk en una instancia de Public Cloud"
 updated: 2025-04-08
 ---
 
@@ -32,9 +32,7 @@ Instalar Plesk desde una conexión SSH es bastante sencillo. Para ello, descargu
 >
 > En función del SO de su instancia, el comando sudo solo puede no ser suficiente. Si encuentra un error, cambie al modo de superusuario antes de iniciar la instalación:
 >
-> ```bash
-> sudo su
-> ```
+> <pre class="highlight language-console"><code class="language-console">sudo su</code></pre>
 >
 
 - **Instalación por defecto**
