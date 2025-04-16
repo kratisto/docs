@@ -1,6 +1,6 @@
 ---
 title: Suspender ou colocar em pausa uma instância
-updated: 2024-11-12
+updated: 2024-04-16
 ---
 
 ## Objetivo
@@ -22,6 +22,8 @@ No âmbito da configuração de uma infraestrutura de alta disponibilidade, é p
 ## Instruções
 
 > [!alert]
+>
+> Este guia só se aplica às instâncias com uma **faturação à hora**. Se as suas instâncias tiverem uma **faturação mensal**, a faturação clássica continuará a ser aplicada independentemente do estado do serviço.
 >
 > Estas manipulações não interrompem a faturação da instância, ela será faturada até que a **eliminada**.
 >

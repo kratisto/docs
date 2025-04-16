@@ -1,6 +1,6 @@
 ---
 title: Wstrzymanie lub uśpienie instancji
-updated: 2024-11-12
+updated: 2024-04-16
 ---
 
 ## Wprowadzenie
@@ -22,6 +22,8 @@ Częścią konfiguracji infrastruktury o wysokiej dostępności może być konie
 ## W praktyce
 
 > [!alert]
+>
+> Niniejszy przewodnik dotyczy tylko instancji z płatnością **godzinową**. Jeśli w Twoich instancjach stosowana jest opłata **miesięczna**, płatność będzie kontynuowana niezależnie od statusu usługi.
 >
 > Po wykonaniu tych działań instancja nadal jest odpłatna.
 >

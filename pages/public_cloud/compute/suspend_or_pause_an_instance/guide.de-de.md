@@ -1,6 +1,6 @@
 ---
 title: Aussetzen oder Pausieren einer Instanz
-updated: 2024-11-12
+updated: 2024-04-16
 ---
 
 ## Ziel
@@ -23,7 +23,9 @@ Bei der Konfiguration einer hochverfügbaren Infrastruktur müssen Sie mögliche
 
 > [!alert]
 >
-> Diese Manipulationen führen dazu, dass die Instanz weiterhin abgerechnet wird, solange sie nicht gelöscht wird.
+> Diese Anleitung gilt nur für Instanzen mit **stündlicher Abrechnung**. Wenn Ihre Instanzen über eine **monatliche Abrechnung** verfügen, wird die Abrechnung ungeachtet des Status der Dienstleistung fortgesetzt.
+>
+> Instanzen werden weiterhin abgerechnet, solange sie nicht gelöscht werden.
 >
 
 In der folgenden Tabelle finden Sie die auf Ihren Instanzen verfügbaren Optionen in der Übersicht. Klicken Sie auf die Option Ihrer Wahl, um zum entsprechenden Teil der Anleitung zu gelangen. Wir setzen die in der Horizon-Interface verwendete Terminologie in Klammern.

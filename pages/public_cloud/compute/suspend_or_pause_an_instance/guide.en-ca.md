@@ -1,6 +1,6 @@
 ---
 title: Shelve or pause an instance
-updated: 2024-11-05
+updated: 2024-04-16
 ---
 
 ## Objective
@@ -23,7 +23,9 @@ As part of the configuration of a high-availability infrastructure, you may enco
 
 > [!alert]
 >
-> These manipulations still result in the instance being billed as long as the instance is not deleted.
+> This guide only applies to instances on **hourly billing**. If your instances are on **monthly billing**, standard billing will continue regardless of the status of the service.
+> 
+> Whether your instance is shelved, paused or suspended, you will still be billed for it. If you do not wish to be billed, you must delete the instance.
 >
 
 The table below allows you to differentiate the options available on your instances. Continue reading this guide by clicking on the option of your choice. We put the terminology used in the Horizon interface in brackets.

@@ -1,6 +1,6 @@
 ---
 title: Suspendre ou mettre en pause une instance
-updated: 2024-11-06
+updated: 2024-04-16
 ---
 
 ## Objectif
@@ -22,6 +22,8 @@ Dans le cadre de la configuration d’une infrastructure hautement disponible, v
 ## En pratique
 
 > [!alert]
+>
+> Ce guide ne s'applique qu'aux instances avec une **facturation horaire**. Si vos instances sont ont une **facturation mensuelle**, la facturation classique continuera tout de même, quelque soit le statut du service.
 >
 > Ces manipulations entrainent toujours une facturation de l’instance tant que celle-ci n’est pas **supprimée**.
 >

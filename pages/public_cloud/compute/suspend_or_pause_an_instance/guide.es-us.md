@@ -1,6 +1,6 @@
 ---
 title: Suspender o poner en pausa una instancia
-updated: 2024-11-12
+updated: 2024-04-16
 ---
 
 ## Objetivo
@@ -22,6 +22,8 @@ Como parte de la configuración de una infraestructura de alta disponibilidad, p
 ## Procedimiento
 
 > [!alert]
+>
+> Esta guía solo se aplica a las instancias con **facturación por horas**. Si sus instancias tienen una **facturación mensual**, la facturación clásica seguirá aplicándose independientemente del estado del servicio.
 >
 > Estas operaciones no interrumpen la facturación de la instancia, que seguirá facturándose mientras no haya sido **terminada**.
 >

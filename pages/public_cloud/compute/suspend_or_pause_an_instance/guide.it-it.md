@@ -1,6 +1,6 @@
 ---
 title: Sospendi o metti in pausa un’istanza
-updated: 2024-11-12
+updated: 2024-04-16
 ---
 
 ## Obiettivo
@@ -22,6 +22,8 @@ Durante la configurazione di un'infrastruttura ad alta disponibilità, potresti 
 ## Procedura
 
 > [!alert]
+>
+> Questa guida si applica solo alle istanze con **fatturazione oraria**. Se le tue istanze hanno una **fatturazione mensile**, la fatturazione classica continuerà a essere applicata indipendentemente dallo stato del servizio.
 >
 > Queste manipolazioni comportano sempre la fatturazione dell'istanza finché non viene **eliminata**.
 >
