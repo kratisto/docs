@@ -29,7 +29,7 @@ Le Softphone est une solution qui transforme votre ordinateur, smartphone ou tab
 - Disposer d'une [ligne SIP OVHcloud](/links/telecom/telephonie-voip).
 - Être connecté à l'[espace client OVHcloud](/links/manager), partie `Télécom`{.action}.
 - Si votre ligne est rattachée à un téléphone fourni par OVHcloud, celui-ci ne pourra plus être utilisé dès lors que Softcall est activé.
-- Si votre connexion est derrière un pare-feu, vous devez y autoriser les adresses IP suivantes : `57.128.38.204/32`, `57.128.38.156/32` et `5.196.180.0/27`.
+- Si votre connexion est derrière un pare-feu, vous devez y autoriser la plage d'adresses IP suivante : `5.196.180.0/27`.
 
 > [!primary]
 > Si Softcall est désactivé et que vous souhaitez réutiliser votre téléphone OVHcloud, vous devez procéder à un dépannage Plug & Phone (pour plus de détails, consultez notre guide [Dépanner son téléphone OVHcloud](/pages/web_cloud/phone_and_fax/voip/troubleshoot-02-fix-control-panel)). Pour les autres types d'appareils, il est nécessaire de réinitialiser le mot de passe SIP et de le renseigner à nouveau dans les paramètres de l'appareil.
