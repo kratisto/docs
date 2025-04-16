@@ -8,7 +8,7 @@ updated: 2025-04-16
 
 Ce guide explique comment mettre à jour vos hôtes ESXi avec vSphere Lifecycle Management (vLCM), directement depuis l’interface vSphere.
 
-vLCM permet de détecter facilement les mises à jour nécessaires et de maintenir vos hôtes à jour rapidement et en toute sécurité, en appliquant une image complète.
+/;p0vLCM permet de détecter facilement les mises à jour nécessaires et de maintenir vos hôtes à jour rapidement et en toute sécurité, en appliquant une image complète.
 
 Contrairement à VMware Update Manager, vLCM adopte une approche globale du cycle de vie, en intégrant non seulement les mises à jour logicielles, mais aussi les pilotes, le firmware et les composants matériels. 
 
@@ -26,7 +26,7 @@ Vous bénéficiez ainsi d’une vue centralisée de l’état de vos hôtes et p
 
 Connectez-vous à votre interface vSphere, puis sélectionnez le **cluster d’hôtes** à mettre à jour.
 
-### Étape 2 : Choisir une nouvelle image
+### Étape 2 : 
 
 Accédez au menu `Updates > Hosts > Image`{.action} pour consulter l’image actuelle.
 
@@ -55,10 +55,10 @@ Cliquez sur `Remediate All`{.action} pour appliquer l’image à l’ensemble de
 
 Cette action déclenche la mise en maintenance des hôtes concernés. Les machines virtuelles sont automatiquement déplacées via **vMotion**.
 
-> Avant de lancer la mise à jour, assurez-vous que :
-> - La fonction **DRS** est activée en mode automatique ;
-> - Aucune règle d’anti-affinité n’empêche le déplacement des machines virtuelles ;
-> - Aucun fichier `.iso` ou `.vmdk` n’est stocké localement sur les hôtes.
+Avant de lancer la mise à jour, assurez-vous que :
+  - La fonction **DRS** est activée en mode automatique ;
+  - Aucune règle d’anti-affinité n’empêche le déplacement des machines virtuelles ;
+  - Aucun fichier `.iso` ou `.vmdk` n’est stocké localement sur les hôtes.
 
 Cliquez sur `Start Remediation`{.action} pour démarrer le processus.
 
