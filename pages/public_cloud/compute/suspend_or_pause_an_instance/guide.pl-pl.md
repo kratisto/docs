@@ -1,6 +1,6 @@
 ---
 title: Wstrzymanie lub uśpienie instancji
-updated: 2024-04-14
+updated: 2024-04-16
 ---
 
 ## Wprowadzenie

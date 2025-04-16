@@ -1,6 +1,6 @@
 ---
 title: Suspender o poner en pausa una instancia
-updated: 2024-04-14
+updated: 2024-04-16
 ---
 
 ## Objetivo
