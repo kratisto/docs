@@ -162,10 +162,6 @@ public-cloud-data-analytics-kafka-mirrormaker: Kafka MirrorMaker
 public-cloud-data-analytics-kafka-mirrormaker-guides: Kafka MirrorMaker - Guides
 public-cloud-databases-cassandra: Cassandra
 public-cloud-databases-cassandra-guides: Cassandra - Guides
-public-cloud-databases-m3db: M3db
-public-cloud-databases-m3db-guides: M3db - Guides
-public-cloud-databases-m3-aggregator: M3 Aggregator
-public-cloud-databases-m3-aggregator-guides: M3 Aggregator - Guides
 public-cloud-data-analytics-opensearch: OpenSearch
 public-cloud-data-analytics-opensearch-guides: OpenSearch - Guides
 public-cloud-compute: Compute

@@ -29,7 +29,6 @@ MongoDB Enterprise | PITR on object storage | Off-site | Continuous | Few minute
 PostgreSQL | PITR on object storage | On-Site, Off-Site | Continuous | Few minutes | Yes
 MySQL | PITR on object storage | On-Site, Off-Site | Continuous | Few minutes | Yes
 Caching | Backup on object storage | On-Site, Off-Site | 2 times a day | 12h | Yes
-M3 | Backup on object storage | On-Site, Off-Site | Daily | 24h | Yes
 Cassandra | Backup on object storage | On-Site, Off-Site | Daily | 24h | Yes
 
 ## Off-site backup
