@@ -98,7 +98,7 @@ Si votre système ne démarre plus et que vous devez le restaurer :
 >
 > Si le réseau n’est pas détecté, vous devrez peut-être le configurer manuellement. Cliquez sur `Configure network settings`{.action} et chargez les pilotes manquants.
 
-![Sélectionnez Network Storage](images/step2_02.png){.thumbnail}
+![Sélectionner Network Storage](images/step2_02.png){.thumbnail}
 
 4\. Sélectionnez `Veeam Cloud Connect repository`{.action}.
 
