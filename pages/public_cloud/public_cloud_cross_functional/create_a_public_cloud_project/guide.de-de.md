@@ -35,20 +35,18 @@ Sobald der Erstellungsprozess abgeschlossen ist, wird Ihr neues Public Cloud Pro
 
 ![Neues Projekt erstellt](images/public-cloud-interface.png){.thumbnail width="400"}
 
-Sie haben ab sofort Zugriff auf das gesamte OVHcloud Public Cloud Ökosystem. Entdecken Sie mehr über dieses Interface in Ihrem Kundencenter in unserer Anleitung "[Einführung in das Public Cloud Interface](/pages/public_cloud/public_cloud_cross_functional/03-public-cloud-interface-walk-me)".
+Sie haben ab sofort Zugriff auf das gesamte OVHcloud Public Cloud Ökosystem. Entdecken Sie dieses neue Interface in Ihrem Kundencenter in unserer Anleitung "[Einführung in das Public Cloud Interface](/pages/public_cloud/public_cloud_cross_functional/03-public-cloud-interface-walk-me)".
 
 <a name="discovery"></a>
 
 > [!primary]
 > **Discovery-Modus**
 >
-> Wenn es sich um Ihr erstes Public Cloud Projekt handelt und Sie keine Zahlungsart in Ihrem Account angegeben haben, ist Ihr Public Cloud Projekt auf den Discovery-Modus des OVHcloud Kundencenters beschränkt. Das bedeutet, dass Sie Zugang zur Public Cloud Oberfläche haben und die verfügbaren Dienste sehen können, aber noch keine Ressourcen wie etwa Instanzen erstellen können.
+> Wenn es sich um Ihr erstes Public Cloud Projekt handelt und Sie keine Zahlungsart in Ihrem Account angegeben haben, ist Ihr Public Cloud Projekt auf den Discovery-Modus des OVHcloud Kundencenters beschränkt. Das bedeutet, dass Sie die Public Cloud Produkte durchsuchen und entdecken können, aber noch keine Ressourcen wie etwa Instanzen erstellen können.
 >
 > Um das volle Potenzial der Public Cloud auszuschöpfen und Ihre ersten Ressourcen zu verwenden, klicken Sie auf der Startseite Ihres Projekts auf `Projekt aktivieren`{.action}.
 >
 >![Projekt aktivieren](images/activate-project.png){.thumbnail width="400"}
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/N7r_VCB7nmI?si=fcyToz1wK8Tw7skw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Weiterführende Informationen
 

@@ -84,8 +84,6 @@ In Ihrem Public Cloud Projekt sind mehrere Management-Tools verfügbar, die sich
 
 ### Verwaltung von Dienstleistungen
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > [!primary]
 >
 > Dieser Abschnitt bietet einen Überblick über die Optionen zur Verwaltung Ihrer OVHcloud Dienste, wofür drei Tools zur Verfügung stehen: das OVHcloud Kundencenter, Horizon und die OpenStack API. Jedes dieser Tools ist auf spezifische Nutzeranforderungen zugeschnitten und bietet Verwaltungsoptionenn für alle Anforderungen je nach Ihrem Fachwissen, bevorzugten Verwaltungstypen sowie Ihren Leistungs- und Anpassungsbedürfnissen.

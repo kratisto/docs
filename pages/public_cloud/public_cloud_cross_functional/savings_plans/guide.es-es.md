@@ -26,8 +26,6 @@ This guide will also detail the use of the Savings Plans dashboard, which will a
 
 ## How do Savings Plans work?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dd7P7CUN21M?si=OvK6Gec1BLFFB25O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ### What is a Savings Plan?
 
 [Savings Plans](/links/public-cloud/savings-plan) are a flexible pricing model that offers lower rates than pay-as-you-go pricing, in exchange for a commitment to use the service for a given period (1, 6, 12, 24 or 36 months).
@@ -52,7 +50,7 @@ Here are a few scenarios to help you understand how this works:
 > A Savings Plan covers a number of simultaneously active resources. For example, for a Savings Plan of 1 resource, if a customer starts a resource at 10:05 AM and deletes it at 10:10 AM, then creates another resource at 10:17 AM and deletes it at 10:30 AM, even though he has started and deleted two resources, only the resources that were switched on at the same time are counted. In this case, only one resource is active at the same time, so the Savings Plan covers both resources without additional billing. This also applies if the resources are used at different times during the month (for example, from the 1st to the 10th and then from the 15th to the 30th), as long as they are not active at the same time.
 >
 
-### How do Savings Plans work for instances?
+### How do Savins Plans work for instances?
 
 Savings Plans for instances are based on the commitment of a quantity of instances for a given duration, offering advantageous invoicing for these.
 

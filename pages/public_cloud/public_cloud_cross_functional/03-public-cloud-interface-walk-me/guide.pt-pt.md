@@ -84,8 +84,6 @@ Encontram-se disponíveis várias ferramentas de gestão no seu projeto Public C
 
 ### Gestão dos serviços
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > [!primary]
 >
 > Nesta secção, apresentamos uma visão geral das diferentes opções de gestão dos serviços propostas pela OVHcloud, através de três ferramentas principais: a Área de Cliente OVHcloud, o Horizon e a API OpenStack. Cada uma destas ferramentas foi concebida para responder a necessidades específicas em função do seu nível de especialização, das suas preferências em termos de gestão, bem como das suas exigências de desempenho e de personalização.

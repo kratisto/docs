@@ -84,8 +84,6 @@ W projekcie Public Cloud dostępnych jest kilka narzędzi do zarządzania. Są o
 
 ### Zarządzanie usługami
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > [!primary]
 >
 > W tej sekcji przedstawiamy przegląd różnych opcji zarządzania usługami proponowanymi przez OVHcloud, z wykorzystaniem trzech głównych narzędzi: Panelu klienta OVHcloud, Horizon i API OpenStack. Każde z tych narzędzi zostało zaprojektowane z myślą o specyficznych potrzebach w zależności od poziomu wiedzy, preferencji w zakresie zarządzania, a także wymagań dotyczących wydajności i personalizacji.

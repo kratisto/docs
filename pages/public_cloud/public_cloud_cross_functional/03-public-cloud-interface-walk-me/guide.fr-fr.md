@@ -84,8 +84,6 @@ Plusieurs outils de gestion sont disponibles dans votre projet Public Cloud, ils
 
 ### Gestion des services
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nJtrrGhqYrQ?si=xE0hEJxI8G2RSVio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > [!primary]
 >
 > Dans cette section, nous vous présentons un aperçu des différentes options de gestion des services proposées par OVHcloud, à travers trois outils principaux : l'espace client OVHcloud, Horizon et l'API OpenStack. Chacun de ces outils a été conçu pour répondre à des besoins spécifiques en fonction de votre niveau d'expertise, de vos préférences en termes de gestion, ainsi que de vos exigences de performance et de personnalisation.

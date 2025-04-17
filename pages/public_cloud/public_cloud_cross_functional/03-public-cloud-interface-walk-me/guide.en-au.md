@@ -12,8 +12,8 @@ You have just created your Public Cloud project, and you would like to find out 
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](/links/manager)
-- A [Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project)
+- access to the [OVHcloud Control Panel](/links/manager){.external}.
+- You need to have created your [first Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/create_a_public_cloud_project).
 
 ## Instructions
 
@@ -83,8 +83,6 @@ There are several management tools available in your Public Cloud project, they 
 |**Project settings**|With this tool, you can configure the project’s general settings, such as its name, its configuration as a "default project for the account", HDS compatibility, or [delete your Public Cloud project](/pages/public_cloud/public_cloud_cross_functional/delete_a_project).|
 
 ### Services management
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > [!primary]
 >

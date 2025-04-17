@@ -32,9 +32,7 @@ Ce guide a pour objectif de fournir une méthode claire et détaillée pour la c
 - Modifier un Savings Plan.
 - Automatiser la gestion des Savings Plans via l'API OVHcloud ou Terraform pour une plus grande efficacité et flexibilité.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mjllp_3rkOA?si=nsuEH33N4Q7xEHmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Prérequis
+### Prérequis
 
 - Un [projet Public Cloud OVHcloud](https://www.ovhcloud.com/fr/public-cloud/) dans votre compte OVHcloud.
 - Être connecté à l'[espace client OVHcloud](/links/manager) ou à l'[API OVHcloud](/links/api) (créez vos identifiants en consultant [ce guide](/pages/manage_and_operate/api/first-steps)).
