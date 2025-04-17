@@ -1,25 +1,27 @@
 ---
 title: Bare Metal recovery with Veeam Backup Agent
-excerpt: Learn how to restore your entire system using a recovery ISO and Veeam backups stored on OVHcloud, whether hosted or on-premise
+excerpt: Learn how to restore your entire system using a recovery ISO and Veeam backups stored at OVHcloud, whether hosted or on-premise
 updated: 2025-04-08
 ---
 
 ## Objective
 
-**This guide explains how to recover your entire system using Veeam's Bare Metal Recovery, with your backups stored on OVHcloud’s Cloud Connect service.**
+**This guide explains how to recover your entire system using Veeam's Bare Metal Recovery, with your backups stored in a Veeam Cloud Connect repository hosted by OVHcloud.**
 
 You’ll learn how to:
-    - Create a recovery ISO (a file that helps you start your machine when it doesn’t boot)
-    - Use it to access and restore your latest backup stored on the OVHcloud infrastructure
+
+- Create a recovery ISO (a file that helps you start your machine when it doesn’t boot)
+- Use it to access and restore your latest backup stored on the OVHcloud infrastructure
 
 This guide is designed for all OVHcloud customers using Veeam backup, whether your infrastructure is hosted by us or on your own premises.
 
 You can use it if you're running:
-    - A Windows-based VPS
-    - A Public Cloud Compute instance with Windows
-    - A Bare Metal server using the Veeam Agent
-    - A Hosted Private Cloud (PCC) VM running Windows
-    - A physical or virtual machine on your premises with Windows or Linux
+
+- A Windows-based VPS
+- A Public Cloud Compute instance with Windows
+- A Bare Metal server using the Veeam Agent
+- A Hosted Private Cloud (PCC) VM running Windows
+- A physical or virtual machine on your premises with Windows or Linux
 
 > [!warning]
 > This guide focuses on the Veeam Agent for Windows. If you're using the Veeam Agent for Linux, the process is similar, although the interface is text-based.
