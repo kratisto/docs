@@ -1,7 +1,7 @@
 ---
 title: "Scopri l’interfaccia Public Cloud"
 excerpt: "Visita guidata dell'interfaccia Public Cloud per scoprire le diverse sezioni"
-updated: 2025-02-06
+updated: 2025-04-17
 ---
 
 ## Obiettivo
@@ -83,6 +83,8 @@ Nel tuo progetto Public Cloud sono disponibili diversi tool di gestione, in fond
 |**Project settings**|Questo tool ti permette di configurare i parametri generali del progetto come nome, configurazione come "progetto predefinito dell'account", compatibilità HDS o [eliminare il tuo progetto Public Cloud](/pages/public_cloud/public_cloud_cross_functional/delete_a_project).|
 
 ### Gestione dei servizi
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > [!primary]
 >

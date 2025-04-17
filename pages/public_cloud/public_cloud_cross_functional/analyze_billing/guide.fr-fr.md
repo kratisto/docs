@@ -1,7 +1,7 @@
 ---
 title: 'Informations concernant le mode de facturation Public Cloud'
 excerpt: 'Comprenez le mode de facturation des produits Public Cloud'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Objectif
@@ -13,6 +13,8 @@ Alors que le mode de facturation classique de la location de ressources informat
 Ce fonctionnement ressemble à celui de certains opérateurs téléphoniques qui facturent en fin de mois les minutes de communication consommées. Ici OVHcloud facture les heures d'utilisation d'un serveur, d'un espace de stockage ou d'un autre élément du service.
 
 **Ce document détaille les concepts de facturation de l'offre Public Cloud.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/XJE2bOZ9MJo?si=mmVOwxo4jemMvf12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prérequis
 

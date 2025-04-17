@@ -1,7 +1,7 @@
 ---
 title: 'Bonnes pratiques pour sécuriser et structurer les projets Public Cloud OVHcloud'
 excerpt: 'Apprenez à sécuriser votre compte OVHcloud, à gérer les identités, à structurer vos projets Public Cloud et à utiliser les politiques IAM pour restreindre les droits d’accès'
-updated: 2024-09-23
+updated: 2025-04-17
 ---
 
 ## Objectif
@@ -9,6 +9,8 @@ updated: 2024-09-23
 **Ce guide explique comment sécuriser votre compte OVHcloud, gérer les identités, structurer vos projets Public Cloud et utiliser les politiques IAM pour restreindre les droits d'accès.**
 
 Cela peut être utile si vous faites partie d'une équipe plateforme et que votre objectif est de construire une Landing Zone pour votre organisation.
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/xTG4mAaGqN4?si=RtSEte_rV3Babwm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Prérequis
 

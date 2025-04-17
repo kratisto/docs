@@ -1,7 +1,7 @@
 ---
 title: 'Comment fonctionnent les Savings Plans ?'
 excerpt: 'Savings Plans - Tout ce que vous devez savoir pour optimiser vos coûts'
-updated: 2025-02-13
+updated: 2025-04-17
 ---
 
 <style>
@@ -25,6 +25,8 @@ Ce guide a pour objectif de vous fournir une compréhension claire et pratique d
 Le guide détaillera également l'utilisation du tableau de bord associé aux Savings Plans, qui vous permettra de suivre vos coûts, le nombre de ressources utilisées et couvertes, ainsi que les économies générées. Enfin, nous vous aiderons à comprendre les aspects liés à la facturation afin que vous puissiez analyser et maximiser les bénéfices de vos choix en matière de Savings Plans.
 
 ## Fonctionnement des Savings Plans
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mjllp_3rkOA?si=nsuEH33N4Q7xEHmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Qu'est ce qu'un Savings Plan ?
 

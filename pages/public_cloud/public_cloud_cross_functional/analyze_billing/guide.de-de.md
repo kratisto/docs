@@ -1,7 +1,7 @@
 ---
 title: 'Informationen zu den Abrechnungsoptionen der Public Cloud'
 excerpt: 'Erfahren Sie mehr über die verschiedenen Abrechnungsoptionen für Public Cloud-Produkte'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Ziel
@@ -13,6 +13,8 @@ Die Standardabrechnungsoption für die Anmietung von Computing-Ressourcen basier
 Dieses System ähnelt dem einiger Telefonieanbieter, wobei am Monatsende die Anzahl der genutzten Minuten abgerechnet wird. OVHcloud stellt die Stunden in Rechnung, für die der Server, der Speicherplatz oder eine andere Komponente der Dienstleistung verwendet wurde.
 
 **In dieser Anleitung wird die Abrechnungsgestaltung der OVHcloud Public Cloud Lösungen erläutert.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Voraussetzungen
 

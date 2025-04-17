@@ -1,7 +1,7 @@
 ---
 title: "Familiarizar-se com a interface Public Cloud"
 excerpt: "Visita guiada da interface Public Cloud para descobrir as diferentes secções"
-updated: 2025-02-06
+updated: 2025-04-17
 ---
 
 ## Objetivo
@@ -83,6 +83,8 @@ Encontram-se disponíveis várias ferramentas de gestão no seu projeto Public C
 |**Project settings**|Esta última ferramenta permite-lhe configurar os parâmetros gerais do projeto como o seu nome, a sua configuração enquanto "projeto predefinido da conta", a compatibilidade HDS, ou ainda [eliminar o seu projeto Public Cloud](/pages/public_cloud/public_cloud_cross_functional/delete_a_project).|
 
 ### Gestão dos serviços
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > [!primary]
 >

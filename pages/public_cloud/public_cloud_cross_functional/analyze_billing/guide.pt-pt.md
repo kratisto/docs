@@ -1,7 +1,7 @@
 ---
 title: 'Informações sobre o método de faturação Public Cloud'
 excerpt: 'Saiba mais sobre o método de faturação dos produtos Public Cloud'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Introdução
@@ -13,6 +13,8 @@ O método de faturação standard para alugar recursos informáticos baseia-se g
 Este sistema é semelhante ao de certas operadoras que faturam ao final do mês o número de minutos de comunicação consumidos. Aqui, a OVHcloud fatura as horas durante as quais o servidor, o espaço de armazenamento ou outro serviço foi utilizado.
 
 **Este documento explica os conceitos de faturação da oferta Public Cloud.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 

@@ -1,7 +1,7 @@
 ---
 title: 'Créer votre premier projet Public Cloud'
 excerpt: 'Découvrez comment créer votre premier projet Public Cloud depuis l’espace client OVHcloud'
-updated: 2024-02-22
+updated: 2025-04-17
 ---
 
 ## Objectif
@@ -43,6 +43,8 @@ Vous avez dorénavant accès à tout l'ecosystème Public Cloud OVHcloud, décou
 > Pour exploiter pleinement le potentiel du Public Cloud et démarrer vos premières ressources, cliquez sur `Activer le projet`{.action} dans la page d'accueil de votre projet.
 >
 > ![activer le projet](images/activate-project.png){.thumbnail width="400"}
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/xTG4mAaGqN4?si=RtSEte_rV3Babwm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Aller plus loin
 

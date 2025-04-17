@@ -1,7 +1,7 @@
 ---
 title: 'Rozliczanie należności za usługę Public Cloud'
 excerpt: 'Zasady i modele naliczania opłat'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Wstęp
@@ -13,6 +13,8 @@ Tradycyjna metoda rozliczenia zasobów opiera się zazwyczaj na zobowiązaniu um
 Przypomina to model rozliczenia stosowany przez niektórych operatorów telefonii, którzy wystawiają faktury za wykorzystane minuty pod koniec miesiąca. OVHcloud wystawia faktury za godziny wykorzystania serwera, przestrzeni dyskowej lub innego elementu usługi.  
 
 **Ten przewodnik opisuje metody rozliczania należności za usługę Public Cloud.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Wymagania początkowe
 

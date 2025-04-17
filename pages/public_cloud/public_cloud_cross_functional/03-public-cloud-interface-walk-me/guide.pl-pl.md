@@ -1,7 +1,7 @@
 ---
 title: "Poznaj interfejs Public Cloud"
 excerpt: "Przewodnik po interfejsie Public Cloud do znajdowania poszczególnych sekcji"
-updated: 2025-02-06
+updated: 2025-04-17
 ---
 
 ## Wprowadzenie
@@ -83,6 +83,8 @@ W projekcie Public Cloud dostępnych jest kilka narzędzi do zarządzania. Są o
 |**Project settings**|To ostatnie narzędzie pozwala na skonfigurowanie ogólnych parametrów projektu, takich jak nazwa, konfiguracja jako "domyślny projekt konta", kompatybilność HDS, czy też na [usunięcie projektu Public Cloud](/pages/public_cloud/public_cloud_cross_functional/delete_a_project).|
 
 ### Zarządzanie usługami
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > [!primary]
 >

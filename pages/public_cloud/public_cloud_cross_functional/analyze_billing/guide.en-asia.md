@@ -1,7 +1,7 @@
 ---
 title: 'Information regarding Public Cloud billing options'
 excerpt: 'Find out more about the different billing options for Public Cloud products'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Objective
@@ -13,6 +13,8 @@ The standard billing option for renting computing resources is generally based o
 This system is similar to the one used by certain telephone operators, where they bill at the end of the month for the number of minutes used. Here, OVHcloud bills the hours for which the server, storage space or another element of the service is used.
 
 **This guide details the billing design of OVHcloud Public Cloud solutions.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requirements
 

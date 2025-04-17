@@ -1,7 +1,7 @@
 ---
 title: "Einführung in das Public Cloud Interface"
 excerpt: "Erfahren Sie hier, wie Sie das Public Cloud Interface verwenden"
-updated: 2025-02-06
+updated: 2025-04-17
 ---
 
 ## Ziel
@@ -83,6 +83,8 @@ In Ihrem Public Cloud Projekt sind mehrere Management-Tools verfügbar, die sich
 |**Project settings**|Dieses Tool erlaubt es Ihnen, die allgemeinen Einstellungen des Projekts wie den Namen, die Konfiguration als "Standardprojekt Ihres Accounts" sowie HDS-Kompatibilität zu konfigurieren oder Ihr [Public Cloud Projekt zu entfernen](/pages/public_cloud/public_cloud_cross_functional/delete_a_project).|
 
 ### Verwaltung von Dienstleistungen
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2mHcXQC6mTM?si=8_0aQCfBtmumGRbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > [!primary]
 >

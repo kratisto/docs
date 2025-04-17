@@ -1,7 +1,7 @@
 ---
 title: 'Información sobre el tipo de facturación Public Cloud'
 excerpt: 'Cómo interpretar la facturación de las soluciones Public Cloud'
-updated: 2025-01-07
+updated: 2025-04-17
 ---
 
 ## Introducción
@@ -13,6 +13,8 @@ El modo de facturación clásico para el alquiler de recursos informáticos se b
 Este mecanismo es similar al de algunos operadores telefónicos que facturan a final de mes los minutos de comunicación consumidos. En nuestro caso, OVHcloud factura las horas de uso de un servidor, un espacio de almacenamiento o cualquier otro elemento del servicio.
 
 **Esta guía analiza los distintos elementos de la facturación de la solución Public Cloud.**
+
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/L2OyLFoa77Q?si=1zRR7qaGXZGD-mBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Requisitos
 
