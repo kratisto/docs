@@ -131,19 +131,19 @@ To get the details of each robot, run the following API call:
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| Operating system upgrade on control plane virtual machines managed by OVHcloud. | OVHcloud Security Patches lifecycle. | None | Control plane unavailable\* (management) during maintenance timeout.  | 02H00 | Monthly (standard) |
+| Operating system upgrade on control plane virtual machines managed by OVHcloud. | OVHcloud Security Patches lifecycle. | None | Control plane unavailable<sup>1</sup> (management) during maintenance timeout.  | 02H00 | Monthly (standard) |
 
 #### **maintenanceRenewAndDeploySslCertificate**
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| Checking, ordering and renewing SSL certificates on control plane virtual machines managed by OVHcloud. | Renewal of SSL certificates before the expiry date. | None | Control plane unavailable\* (management) during the maintenance timeout\*. | 01H00 | Quarterly (typical) |
+| Checking, ordering and renewing SSL certificates on control plane virtual machines managed by OVHcloud. | Renewal of SSL certificates before the expiry date. | None | Control plane unavailable<sup>1</sup> (management) during the maintenance timeout<sup>1</sup>. | 01H00 | Quarterly (typical) |
 
 #### **redeployVmToLatestVersion**
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|--------------------------|--------|---------------------|-----------|
-| Major upgrade of the operating system on control plane virtual machines managed by OVHcloud | OVHcloud security patch lifecycle | None | Control plane unavailable\* (management) during the maintenance window | 02h00 | Based on the publisher lifecycle |
+| Major upgrade of the operating system on control plane virtual machines managed by OVHcloud | OVHcloud security patch lifecycle | None | Control plane unavailable<sup>1</sup> (management) during the maintenance window | 02h00 | Based on the publisher lifecycle |
 
 > [!primary]
 > The estimated duration applies to most customers. For large infrastructures, the duration can be significantly longer. It depends on each case and should be evaluated individually.
@@ -152,13 +152,13 @@ To get the details of each robot, run the following API call:
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| ESXi software upgrade to the latest version offered by OVHcloud. This maintenance can install minor or major versions. | - OVHcloud lifecycle.<br><br> - Security patches. | During this maintenance, all hosts can be put into maintenance mode and all VMs can be evacuated automatically.<br><br> The customer must ensure that none of the following configurations prevent these actions: <br><br>- No ISO media or mounted devices.<br> - Anti-affinity rules.<br> - Any other element that may prevent a virtual machine to move or from being moved.<br> - Third-party products are compliant and compatible with the new ESXi version. | Hosts are set into maintenance mode : all virtual machines are automatically evacuated with vMotion.<br><br> - Hosts are rebooted.<br><br> - Before entering maintenance mode and rebooting each host, Control Plane is unavailable\*. It becomes available after host reboots. | 00H30 per host | Based on the publisher lifecycle |
+| ESXi software upgrade to the latest version offered by OVHcloud. This maintenance can install minor or major versions. | - OVHcloud lifecycle.<br><br> - Security patches. | During this maintenance, all hosts can be put into maintenance mode and all VMs can be evacuated automatically.<br><br> The customer must ensure that none of the following configurations prevent these actions: <br><br>- No ISO media or mounted devices.<br> - Anti-affinity rules.<br> - Any other element that may prevent a virtual machine to move or from being moved.<br> - Third-party products are compliant and compatible with the new ESXi version. | Hosts are set into maintenance mode : all virtual machines are automatically evacuated with vMotion.<br><br> - Hosts are rebooted.<br><br> - Before entering maintenance mode and rebooting each host, Control Plane is unavailable<sup>1</sup>. It becomes available after host reboots. | 00H30 per host | Based on the publisher lifecycle |
 
 #### **maintenanceUpgradeVcenter**
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| Upgrade the vCenter Server Appliance software to the latest version offered by OVHcloud.<br> This maintenance can install minor or major versions.<br> Option upgrades can also be triggered (Veeam Managed, zerto) to ensure the compatibility matrix is consistent. | - OVHcloud lifecycle.<br><br> - Security patches. | Third-party software is compliant with the new version of **VCSA**. | Control Plane unavailable\* (management) during maintenance timeout | 02H00 (may vary depending on the number of users and time required to apply permissions) | Based on the publisher lifecycle |
+| Upgrade the vCenter Server Appliance software to the latest version offered by OVHcloud.<br> This maintenance can install minor or major versions.<br> Option upgrades can also be triggered (Veeam Managed, zerto) to ensure the compatibility matrix is consistent. | - OVHcloud lifecycle.<br><br> - Security patches. | Third-party software is compliant with the new version of **VCSA**. | Control Plane unavailable<sup>1</sup> (management) during maintenance timeout | 02H00 (may vary depending on the number of users and time required to apply permissions) | Based on the publisher lifecycle |
 
 #### **maintenanceUpgradeVrops**
 
@@ -170,7 +170,7 @@ To get the details of each robot, run the following API call:
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| Upgrade from the NSX-T version to the latest version offered by OVHcloud. | OVHcloud lifecycle from VMware Security upgrade. | Sufficient resources (compute and storage) available on the customer’s infrastructure to host an NSX Edge (see prerequisites: [official VMware NSX documentation](https://docs.vmware.com/en/VMware-NSX/4.1/installation/GUID-22F87CA8-01A9-4F2E-B7DB-9350CA60EA4E.html)).<br><br> Resilience is ensured on the customer’s infrastructure to host the NSX-T Edge Gateways. | NSX-T control plane unavailable\* during the upgrade operation.<br><br> Edges vMotion can experience a slight disruption of flows (reconnection required for statefull applications). | 02H30 | Based on the publisher lifecycle |
+| Upgrade from the NSX-T version to the latest version offered by OVHcloud. | OVHcloud lifecycle from VMware Security upgrade. | Sufficient resources (compute and storage) available on the customer’s infrastructure to host an NSX Edge (see prerequisites: [official VMware NSX documentation](https://docs.vmware.com/en/VMware-NSX/4.1/installation/GUID-22F87CA8-01A9-4F2E-B7DB-9350CA60EA4E.html)).<br><br> Resilience is ensured on the customer’s infrastructure to host the NSX-T Edge Gateways. | NSX-T control plane unavailable<sup>1</sup> during the upgrade operation.<br><br> Edges vMotion can experience a slight disruption of flows (reconnection required for statefull applications). | 02H30 | Based on the publisher lifecycle |
 
 #### **maintenanceUpgradeVeeamManaged**
 
@@ -192,7 +192,7 @@ To get the details of each robot, run the following API call:
 
 ### Glossary
 
-**Control Plane Unavailable**: Indicates that the vCenter Server Appliance (VCSA) cannot be contacted. Therefore, not all products that need to reach VCSA will work.
+<sup>1</sup>**Control Plane Unavailable**: Indicates that the vCenter Server Appliance (VCSA) cannot be contacted. Therefore, not all products that need to reach VCSA will work.
 
 This represents the following products/options in Hosted Private Cloud VMware on OVHcloud :
 

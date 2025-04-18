@@ -91,7 +91,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 > @api {v1} /dedicatedCloud GET /dedicatedCloud/{serviceName}/robot/{name}
 >
 
-> **Paramèters:**
+> **Paramètres:**
 >
 > - `serviceName` : La référence de votre PCC sous la forme `pcc-XXX-XXX-XXX-XXX`.
 > - `name` : Le nom du robot, par exemple `maintenanceUpdateAntivirusConfiguration`.
@@ -120,7 +120,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Mise à jour (update) Windows sur les machines virtuelles du control plane gérées par OVHcloud | Mise à jour de sécurité | Aucune | - Maintenance effectuée seulement si Veeam et/ou les options Zerto sont souscrites. <br> - Control Plane indisponible\* durant la fenêtre de maintenance. | 00h30 pour Veeam<br> 00h30 pour Zerto | Mensuelle |
+| Mise à jour (update) Windows sur les machines virtuelles du control plane gérées par OVHcloud | Mise à jour de sécurité | Aucune | - Maintenance effectuée seulement si Veeam et/ou les options Zerto sont souscrites. <br> - Control Plane indisponible<sup>1</sup> durant la fenêtre de maintenance. | 00h30 pour Veeam<br> 00h30 pour Zerto | Mensuelle |
 
 #### **upgradeSwitch**
 
@@ -138,28 +138,28 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Vérification, commande et renouvellement des certificats SSL sur les machines virtuelles du control plane gérées par OVHcloud | Renouvellement des certificats SSL avant la date d'expiration | Aucune | Control plane indisponible\* (management) durant la fenêtre de maintenance | 01h00  | Trimestriellement (standard) |
+| Vérification, commande et renouvellement des certificats SSL sur les machines virtuelles du control plane gérées par OVHcloud | Renouvellement des certificats SSL avant la date d'expiration | Aucune | Control plane indisponible<sup>1</sup> (management) durant la fenêtre de maintenance | 01h00  | Trimestriellement (standard) |
 
 #### **redeployVmToLatestVersion**
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Mise à niveau majeure du système d’exploitation sur les machines virtuelles du control plane gérées par OVHcloud | Cycle de vie des correctifs de sécurité OVHcloud | Aucune | Control plane indisponible\* (management) durant la fenêtre de maintenance | 02h00 | Basée sur le cycle de vie de l’éditeur |
+| Mise à niveau majeure du système d’exploitation sur les machines virtuelles du control plane gérées par OVHcloud | Cycle de vie des correctifs de sécurité OVHcloud | Aucune | Control plane indisponible<sup>1</sup> (management) durant la fenêtre de maintenance | 02h00 | Basée sur le cycle de vie de l’éditeur |
 
 > [!primary]
-> L’estimation de durée concerne la majorité des clients. Sur les grandes infrastructures, la durée peut être significativement plus longue. Cela dépend des cas et doit être évalué individuellement.
+> L’estimation de durée concerne la majorité des clients. Pour les grandes infrastructures, la durée peut être significativement plus longue. Cela dépend des cas et doit être évalué individuellement.
 
 #### **maintenanceUpgradeHosts**
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Mise à niveau logicielle (upgrade) d'ESXi à la dernière version proposée par OVHcloud. Cette maintenance peut installer des versions mineures ou majeures | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Pendant cette maintenance, tous les hosts peuvent être mis en mode maintenance et toutes les machines virtuelles peuvent être évacuées automatiquement.<br> Le client doit s'assurer qu'aucune des configurations suivantes n'empêche cette action :<br><br> - Aucun media ISO ou périphérique monté.<br> - Règles d'anti-affinité.<br> - Tout autre élément susceptible d’empêcher le déplacement d’une machine virtuelle.<br> - Les produits tiers sont conformes et compatibles avec la nouvelle version ESXi. | - Une fois que les hosts sont en mode maintenance : toutes les machines virtuelles sont automatiquement évacuées avec vMotion.<br><br> - Les hosts sont redémarrés.<br><br>- Avant de passer en mode maintenance et de redémarrer chaque host, le Control Plane n'est pas disponible\*. Il devient disponible après le redémarrage du host.| 00H30 par host | Basée sur le cycle de vie de l'éditeur |
+| Mise à niveau logicielle (upgrade) d'ESXi à la dernière version proposée par OVHcloud. Cette maintenance peut installer des versions mineures ou majeures | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Pendant cette maintenance, tous les hosts peuvent être mis en mode maintenance et toutes les machines virtuelles peuvent être évacuées automatiquement.<br> Le client doit s'assurer qu'aucune des configurations suivantes n'empêche cette action :<br><br> - Aucun media ISO ou périphérique monté.<br> - Règles d'anti-affinité.<br> - Tout autre élément susceptible d’empêcher le déplacement d’une machine virtuelle.<br> - Les produits tiers sont conformes et compatibles avec la nouvelle version ESXi. | - Une fois que les hosts sont en mode maintenance : toutes les machines virtuelles sont automatiquement évacuées avec vMotion.<br><br> - Les hosts sont redémarrés.<br><br>- Avant de passer en mode maintenance et de redémarrer chaque host, le Control Plane n'est pas disponible<sup>1</sup>. Il devient disponible après le redémarrage du host.| 00H30 par host | Basée sur le cycle de vie de l'éditeur |
 
 #### **maintenanceUpgradeVcenter**
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Mise à niveau (upgrade) logicielle de vCenter Server Appliance à la dernière version proposée par OVHcloud.<br><br> Cette maintenance peut installer des versions mineures ou majeures.<br><br> Les mises à niveau (upgrade) des options peuvent également être déclenchées (Veeam Managed, Zerto) pour s'assurer que la matrice de compatibilité est cohérente. | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Les logiciels tiers sont conformes à la nouvelle version de VCSA | - Control Plane indisponible\* (management) durant la fenêtre de maintenance\* | 02h00 (peut varier en fonction du nombre d'utilisateurs et du temps nécessaire à appliquer les autorisations) | Basée sur le cycle de vie de l'éditeur |
+| Mise à niveau (upgrade) logicielle de vCenter Server Appliance à la dernière version proposée par OVHcloud.<br><br> Cette maintenance peut installer des versions mineures ou majeures.<br><br> Les mises à niveau (upgrade) des options peuvent également être déclenchées (Veeam Managed, Zerto) pour s'assurer que la matrice de compatibilité est cohérente. | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Les logiciels tiers sont conformes à la nouvelle version de VCSA | - Control Plane indisponible<sup>1</sup> (management) durant la fenêtre de maintenance | 02h00 (peut varier en fonction du nombre d'utilisateurs et du temps nécessaire à appliquer les autorisations) | Basée sur le cycle de vie de l'éditeur |
 
 #### **maintenanceUpgradeVrops**
 
@@ -185,7 +185,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 |----------|--------|--------------------------|--------|---------------|-----------|
 | Mettre à jour ou migrer les machines virtuelles Zerto (Zerto Virtual Manager, VRA) vers la dernière version proposée par OVHcloud. | Gestion du cycle de vie de Zerto par OVHcloud. | Un **rapport de contrôle d’intégrité** peut être envoyé si des problèmes sont détectés avant la maintenance. Ces problèmes devront être résolus avant de procéder. | - **Mises à jour (Upgrades)** : Impact minimal, indisponibilité temporaire de la réplication et du failover.<br>- **Migrations** : Arrêt complet du service, nécessitant une réinstallation sur une nouvelle plateforme. | **Upgrades** : ~1h par instance.<br>**Migrations** : Jusqu’à 12h par instance. | Basé sur le cycle de vie de l’éditeur |
 
-> [!primary]  
+> [!primary]
 > **Différence entre les mises à jour et les migrations :**
 >
 > - Les **mises à jour (Upgrades)** consistent à mettre à jour les composants existants de Zerto (par exemple, de Zerto 9.5 à 9.7) avec une interruption minimale du service (~1 heure).  
@@ -193,7 +193,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 
 ### Glossaire
 
-**Control Plane indisponible** : signifie que le VCSA (vCenter Server Appliance) ne peut pas être contacté. Par conséquent, tous les produits qui doivent atteindre VCSA ne fonctionneront pas.
+<sup>1</sup>**Control Plane indisponible** : signifie que le VCSA (vCenter Server Appliance) ne peut pas être contacté. Par conséquent, tous les produits qui doivent atteindre VCSA ne fonctionneront pas.
 
 Cela représente les produits/options suivants dans Hosted Private Cloud VMware on OVHcloud :
 
