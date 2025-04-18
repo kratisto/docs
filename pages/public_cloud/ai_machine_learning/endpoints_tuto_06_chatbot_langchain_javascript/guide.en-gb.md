@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Build a JavaScript Chatbot with LangChain
 excerpt: Learn how to build a chatbot using JavaScript, LangChain, and AI Endpoints
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -15,11 +15,11 @@ updated: 2025-04-15
 
 **[LangChain](https://github.com/langchain-ai/langchain)** is a leading framework for building applications powered by Large Language Models (LLMs). While it's well-known for Python, LangChain also provides support for JavaScript/TypeScript—ideal for frontend and fullstack applications.
 
-In this guide, we'll show you how to build a simple command-line chatbot using LangChain and OVHcloud **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**, first in **blocking mode**, and then with **streaming** for real-time responses.
+In this tutorial, we'll show you how to build a simple command-line chatbot using LangChain and OVHcloud **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**, first in **blocking mode**, and then with **streaming** for real-time responses.
 
 ## Objective
 
-This guide demonstrates how to:
+This tutorial demonstrates how to:
 
 - Set up a Node.js chatbot using LangChain JS
 - Connect to OVHcloud AI Endpoints to access LLMs
@@ -45,7 +45,7 @@ _OVH_AI_ENDPOINTS_MODEL_URL=https://mistral-7b-instruct-v0-3.endpoints.kepler.ai
 
 **Make sure to replace the token value (`OVH_AI_ENDPOINTS_ACCESS_TOKEN`) by yours.** If you do not have one yet, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 
-You will also have to set two other environements variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environement variables will be:
+You will also have to set two other environments variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environment variables will be:
 
 - `OVH_AI_ENDPOINTS_MODEL_NAME`: Mistral-7B-Instruct-v0.3
 - `OVH_AI_ENDPOINTS_MODEL_URL`: https://mistral-7b-instruct-v0-3.endpoints.kepler.ai.cloud.ovh.net/api/openai_compat/v1
@@ -138,11 +138,9 @@ You can test your new assistant with the following command:
 node chatbot.js --question "What is OVHcloud?"
 ```
 
+Which will give you an output similar to:
 
-
-Which will give you an output similar to: 
-
-```
+```console
 OVHcloud is a global cloud computing company that offers a wide range of services including web hosting, 
 virtual private servers, cloud storage, and dedicated servers. 
 It was founded in 1999 and is headquartered in Roubaix, France. 
@@ -154,7 +152,7 @@ OVHcloud is known for its high-performance, scalable, and secure cloud infrastru
 
 ### Enable streaming mode
 
-As usual, you certainly want a real chatbot with conversational style. To do that let’s add streaming feature with the following code:
+As usual, you certainly want a real chatbot with conversational style. To do that, let’s add a streaming feature with the following code:
 
 ```js
 import { ChatMistralAI } from "@langchain/mistralai";

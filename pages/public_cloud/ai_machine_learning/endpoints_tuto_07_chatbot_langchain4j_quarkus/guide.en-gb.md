@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create your own AI chatbot using LangChain4j and Quarkus
 excerpt: Learn how to build an AI-powered chatbot using LangChain4j, Quarkus, and OVHcloud AI Endpoints
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -13,11 +13,11 @@ updated: 2025-04-15
 
 ## Introduction
 
-Looking to build an AI-powered chatbot with Java? In this guide, you will learn how to create a chatbot using **[LangChain4j](https://github.com/langchain4j/langchain4j)**, **[Quarkus](https://github.com/quarkusio/quarkus)**, and **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**.
+Looking to build an AI-powered chatbot with Java? In this tutorial, you will learn how to create a chatbot using **[LangChain4j](https://github.com/langchain4j/langchain4j)**, **[Quarkus](https://github.com/quarkusio/quarkus)**, and **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**.
 
 ## Objective
 
-In this tutorial, you will learn how:
+This tutorial demonstrates how to:
 
 - Set up a Quarkus application using LangChain4j
 - Connect your chatbot to AI Endpoints
@@ -27,14 +27,9 @@ In this tutorial, you will learn how:
 
 ## Definitions
 
-**[LangChain4j](https://github.com/langchain4j/langchain4j)**
-Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. It offers abstractions and annotations for building intelligent agents and chatbots. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
-
-**[Quarkus](https://quarkus.io/)**
-A Kubernetes-native Java framework designed to optimize Java applications for containers and the cloud. In this tutorial we will use the [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j/) extension.
-
-**[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**
-A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
+- **[LangChain4j](https://github.com/langchain4j/langchain4j)**: Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. It offers abstractions and annotations for building intelligent agents and chatbots. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
+- **[Quarkus](https://quarkus.io/)**: A Kubernetes-native Java framework designed to optimize Java applications for containers and the cloud. In this tutorial we will use the [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j/) extension.
+- **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**: A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
 
 ## Requirements
 
@@ -55,7 +50,7 @@ $ quarkus create app com.ovhcloud.examples.aiendpoints:quarkus-langchain4j \
 
 Here is the tree structure after running the previous command:
 
-```
+```console
 .
 ├── .dockerignore
 ├── .gitignore
@@ -139,7 +134,7 @@ public interface ChatBotService {
 
 Adapt and add the following configuration to your application.properties, to enable AI Endpoints access:
 
-```
+```console
 ### Global configurations
 # Base URL for Mistral AI endpoints
 quarkus.langchain4j.mistralai.base-url=${OVH_AI_ENDPOINTS_MODEL_URL}
@@ -166,7 +161,7 @@ quarkus.langchain4j.mistralai.chat-model.max-tokens=1024
 
 **Make sure to replace the token value (`OVH_AI_ENDPOINTS_ACCESS_TOKEN`) by yours.** If you do not have one yet, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 
-You will also have to replace two other environements variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environement variables will be:
+You will also have to replace two other environments variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environment variables will be:
 
 - `OVH_AI_ENDPOINTS_MODEL_NAME`: Mistral-7B-Instruct-v0.3
 - `OVH_AI_ENDPOINTS_MODEL_URL`: https://mistral-7b-instruct-v0-3.endpoints.kepler.ai.cloud.ovh.net/api/openai_compat/v1
@@ -213,7 +208,7 @@ Now it is time to test the AI chatbot API!
 
 To start your application and run your API, just use the [Quarkus dev mode](https://quarkus.io/guides/dev-mode-differences), by executing `quarkus dev`:
 
-```
+```console
 $ quarkus dev
  
  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
@@ -240,7 +235,7 @@ $ curl --header "Content-Type: application/json" \
 
 For the previous prompt example, here is the result:
 
-```
+```console
 Answer: «OVHcloud is a global, integrated cloud hosting platform, offering Infrastructure as a Service (IaaS) and Platform as a Service (PaaS). »
  
 This answer describes OVHcloud as a global integrated cloud hosting platform offering IaaS and PaaS with optimal and secure services. Emojis were added to the response to make it more fun and engaging.

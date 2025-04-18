@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create your own audio summarizer
 excerpt: Summarize hours of meetings ASR and LLM AI endpoints
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -21,23 +21,14 @@ In this tutorial, you will create an Audio Summarizer assistant that can not onl
 
 Indeed, thanks to [AI Endpoints](https://endpoints.ai.cloud.ovh.net/), it’s never been easier to create a virtual assistant that can help you stay on top of your meetings and keep track of important information.
 
-This guide will explore how AI APIs can be connected to create an advanced virtual assistant capable of transcribing and summarizing any audio file using **ASR (Automatic Speech Recognition)** technologies and popular **LLMs (Large Language Models)**. We will also build an app to use our assistant!
+This tutorial will explore how AI APIs can be connected to create an advanced virtual assistant capable of transcribing and summarizing any audio file using **ASR (Automatic Speech Recognition)** technologies and popular **LLMs (Large Language Models)**. We will also build an app to use our assistant!
 
 ![connect-ai-apis](images/ai-endpoint-puzzles-connexion.png)
 
 ## Definitions
 
-**Automatic Speech Recognition (ASR)**
-
-Technology that converts spoken language into written text. 
-
-ASR will be used in this context to transcribe long audio recordings into text, which will then be summarized using LLMs.
-
-**Large Language Models (LLMs)**
-
-Advanced models trained to understand context and generate human-like responses. 
-
-In this use case, the LLM prompt will be designed to generate a summary of the input text based on the output from the ASR endpoint.
+- **Automatic Speech Recognition (ASR)**: Technology that converts spoken language into written text. ASR will be used in this context to transcribe long audio recordings into text, which will then be summarized using LLMs.
+- **Large Language Models (LLMs)**: Advanced models trained to understand context and generate human-like responses. In this use case, the LLM prompt will be designed to generate a summary of the input text based on the output from the ASR endpoint.
 
 ## Requirements
 
@@ -69,7 +60,7 @@ python-dotenv==1.0.1
 
 Then, launch the installation of these dependencies:
 
-```
+```console
 pip install -r requirements.txt
 ```
 
@@ -77,7 +68,7 @@ pip install -r requirements.txt
 
 ### Importing necessary libraries and variables
 
-Once this is done, you can create a Python file named `audio-summarizer-app.py`, where you will first import Python librairies as follow:
+Once this is done, you can create a Python file named `audio-summarizer-app.py`, where you will first import Python librairies as follows:
 
 ```python
 import gradio as gr
@@ -153,7 +144,7 @@ def asr_transcription(audio):
 
 **In this function:**
 
-- The audio file is preprocessed as follow: `.wav` format, `1` channel, `16000` frame rate
+- The audio file is preprocessed as follows: `.wav` format, `1` channel, `16000` frame rate
 - The transformed audio `processed_audio` is read
 - An API call is made to the ASR endpoint named `nvr-asr-en-gb`
 - The full response is stored in `resp` variable and returned by the function
@@ -278,7 +269,7 @@ if __name__ == '__main__':
 
 ### Launch Gradio web app locally
 
-🚀 That’s it! Now, your web app is ready to be used! You can you can start this Gradio app locally by launching the following command:
+🚀 That’s it! Now, your web app is ready to be used! You can start this Gradio app locally by launching the following command:
 
 ```python
 python audio-summarizer-app.py

@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create your own voice assistant
 excerpt: Create a voice-enabled chatbot using ASR, LLM, and TTS endpoints in under 100 lines of code
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -17,7 +17,7 @@ Imagine having a virtual assistant that listens to your voice, understands your 
 
 ## Objective
 
-In this guide, you will learn how to create a fully functional Audio Virtual Assistant that:
+In this tutorial, you will learn how to create a fully functional Audio Virtual Assistant that:
 
 - Accepts voice input from a microphone
 - Transcribes it using ASR (Automatic Speech Recognition)
@@ -30,23 +30,9 @@ All of this is done by connecting **AI Endpoints** like puzzle pieces—allowing
 
 ## Definitions
 
-**Automatic Speech Recognition (ASR)**
-
-Technology that converts spoken language into text.
-
-ASR makes it possible in this context for your assistant to understand voice input.
-
-**Large Language Models (LLMs)**
-
-Advanced models trained to understand context and generate human-like responses. 
-
-Here, LLMs will handle the logic and answer your questions intelligently.
-
-**Text-To-Speech (TTS)**
-
-Technology that converts written text into spoken audio. 
-
-With TTS, your assistant will respond with natural-sounding speech, completing the conversation loop.
+- **Automatic Speech Recognition (ASR)**: Technology that converts spoken language into text. ASR makes it possible in this context for your assistant to understand voice input.
+- **Large Language Models (LLMs)**: Advanced models trained to understand context and generate human-like responses. Here, LLMs will handle the logic and answer your questions intelligently.
+- **Text-To-Speech (TTS)**: Technology that converts written text into spoken audio. With TTS, your assistant will respond with natural-sounding speech, completing the conversation loop.
 
 ## Requirements
 
@@ -80,7 +66,7 @@ python-dotenv==1.0.1
 
 Then, launch the installation of these dependencies:
 
-```
+```console
 pip install -r requirements.txt
 ```
 
@@ -88,7 +74,7 @@ pip install -r requirements.txt
 
 ### Importing necessary libraries and variables
 
-Once this is done, you can create a Python file named `audio-virtual-assistant-app.py`, where you will first import Python librairies as follow:
+Once this is done, you can create a Python file named `audio-virtual-assistant-app.py`, where you will first import Python librairies as follows:
 
 ```python
 import os
@@ -239,7 +225,7 @@ if __name__ == '__main__':
 
 ### Launch Streamlit web app locally
 
-🚀 That’s it! Now, your web app is ready to be used! You can you can start this Streamlit app locally by launching the following command:
+🚀 That’s it! Now your web app is ready to be used! You can start this Streamlit app locally by launching the following command:
 
 ```python
 streamlit run audio-virtual-assistant.py

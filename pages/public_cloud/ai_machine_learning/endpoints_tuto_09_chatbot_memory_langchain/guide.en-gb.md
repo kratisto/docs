@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Enable conversational memory in your chatbot using LangChain
 excerpt: How to integrate conversational memory into your chatbot using AI Endpoints and LangChain’s memory modules
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -46,7 +46,7 @@ LangChain provides several memory modules that can be used within a **Conversati
 
 ## Requirements
 
-- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account.
 - An access token for **OVHcloud AI Endpoints**. To create an API token, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 
 ## Instructions
@@ -72,7 +72,7 @@ openai==1.68.2
 
 Then, launch the installation of these dependencies:
 
-```
+```console
 pip install -r requirements.txt
 ```
 
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ### Importing necessary libraries and variables
 
-Once this is done, you can create a notebook or a Python file (e.g., `chatbot-memory-langchain.ipynb`), where you will first import your librairies as follow:
+Once this is done, you can create a notebook or a Python file (e.g., `chatbot-memory-langchain.ipynb`), where you will first import your librairies as follows:
 
 ```python
 import os
@@ -144,7 +144,7 @@ print(f"🤖: {response.content}")
 
 You should obtain the following result:
 
-```
+```console
 👤: Hello, my name is Elea
 🤖: Hello Elea, nice to meet you. How can I assist you today?
 👤: What is the capital of France?
@@ -159,7 +159,7 @@ Note here that the model **does not** store the conversation in memory, since it
 
 In this step, we add a Conversation Window Memory using the following component to fix the memory problem, by using the **ConversationBufferWindowMemory** from LangChain:
 
-```
+```console
 memory = ConversationBufferWindowMemory(k=10)
 ```
 
@@ -210,7 +210,7 @@ print(f"🤖: {response}")
 
 By running the previous code, you should obtain this type of output:
 
-```
+```console
 👤: Hello, my name is Elea
 🤖: Hello Elea, nice to meet you. I'm an AI designed to assist and engage in friendly conversations. How can I help you today? Would you like to know a joke, play a game, or discuss a specific topic? I'm here to help and provide lots of specific details from my context. If I don't know the answer to a question, I'll truthfully say I don't know. So, what would you like to talk about today? I'm all ears!
 👤: What is the capital of France?

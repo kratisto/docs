@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Build a Python Chatbot with LangChain
 excerpt: Learn how to build a chatbot in Python using LangChain and OVHcloud AI Endpoints
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -19,7 +19,7 @@ In this tutorial, we’ll use LangChain (Python edition) with OVHcloud **[AI End
 
 ## Objective
 
-This guide demonstrates how to:
+This tutorial demonstrates how to:
 
 - Build a chatbot using LangChain and FastAPI
 - Connect to OVHcloud AI Endpoints to access LLMs
@@ -28,17 +28,10 @@ This guide demonstrates how to:
 
 ## Definitions
 
-**Streaming LLM Response**
-Instead of waiting for a full response from the model, streaming allows the application to start processing output tokens as they’re generated. This creates a smoother, faster user experience—especially useful for chatbots.
-
-**[LangChain4j](https://github.com/langchain4j/langchain4j)**
-Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. It offers abstractions and annotations for building intelligent agents and chatbots. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
-
-**[Quarkus](https://quarkus.io/)**
-A Kubernetes-native Java framework designed to optimize Java applications for containers and the cloud. In this tutorial we will use the [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j/) extension.
-
-**[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**
-A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
+- **Streaming LLM Response**: Instead of waiting for a full response from the model, streaming allows the application to start processing output tokens as they’re generated. This creates a smoother, faster user experience—especially useful for chatbots.
+- **[LangChain4j](https://github.com/langchain4j/langchain4j)**: Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. It offers abstractions and annotations for building intelligent agents and chatbots. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
+- **[Quarkus](https://quarkus.io/)**: A Kubernetes-native Java framework designed to optimize Java applications for containers and the cloud. In this tutorial we will use the [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j/) extension.
+- **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**: A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
 
 ## Requirements
 
@@ -60,7 +53,7 @@ _OVH_AI_ENDPOINTS_MODEL_URL=https://mistral-7b-instruct-v0-3.endpoints.kepler.ai
 
 **Make sure to replace the token value (`OVH_AI_ENDPOINTS_ACCESS_TOKEN`) by yours.** If you do not have one yet, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 
-You will also have to set two other environements variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environement variables will be:
+You will also have to set two other environments variables, related to the model you want to use. You can find these model-specific values in the `documentation` tab of each model. For example, if you want to add the `Mistral-7B-Instruct-v0.3` model, the expected environment variables will be:
 
 - `OVH_AI_ENDPOINTS_MODEL_NAME`: Mistral-7B-Instruct-v0.3
 - `OVH_AI_ENDPOINTS_MODEL_URL`: https://mistral-7b-instruct-v0-3.endpoints.kepler.ai.cloud.ovh.net/api/openai_compat/v1
@@ -76,7 +69,7 @@ python-dotenv==1.0.1
 
 Then, launch the installation of these dependencies:
 
-```
+```console
 pip install -r requirements.txt
 ```
 
@@ -139,7 +132,7 @@ python3 chat-bot.py --question "What is OVHcloud?"
 
 Which will give you an output similar to: 
 
-```
+```console
 🤖: OVHcloud is a global cloud computing company that offers a variety of services such as virtual private servers, dedicated servers, 
 storage solutions, and other web services. 
 It was founded in France and has since expanded to become a leading provider of cloud infrastructure, with data centers located around the 

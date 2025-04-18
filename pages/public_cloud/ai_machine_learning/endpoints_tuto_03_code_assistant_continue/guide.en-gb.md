@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a code assistant with Continue
 excerpt: Build your own code assistant directly in VSCode or JetBrains IDEs using the Continue plugin
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -15,7 +15,7 @@ updated: 2025-04-15
 
 Want more control over your code assistant? Looking to integrate your own LLM configuration and use models hosted on **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**?
 
-This guide shows you how to build your own developer assistant using **[Continue](https://www.continue.dev/)**, an open-source IDE plugin that works with both VSCode and JetBrains IDEs, in combination with OVHcloud.
+This tutorial shows you how to build your own developer assistant using **[Continue](https://www.continue.dev/)**, an open-source IDE plugin that works with both VSCode and JetBrains IDEs, in combination with OVHcloud.
 
 Continue lets you plug in your own LLMs, enabling full control over which models you use and how they interact with your code.
 

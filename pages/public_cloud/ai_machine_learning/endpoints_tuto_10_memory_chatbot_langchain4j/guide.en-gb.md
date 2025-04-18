@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a Memory Chatbot with LangChain4j
 excerpt: Learn how to implement memory in a Java-based chatbot using LangChain4j and AI Endpoints
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -13,11 +13,11 @@ updated: 2025-04-15
 
 ## Introduction
 
-In other tutorials, chatbots answered one question at a time without remembering anything from the conversation. That’s fine for simple Q&A, but not ideal for real-world interactions.
+In our other tutorials, chatbots answered one question at a time without remembering anything from the conversation. That’s fine for simple Q&A, but not ideal for real-world interactions.
 
 Indeed, here’s a simple conversation with no memory:
 
-```
+```console
 💬: My name is Stéphane.
 🤖: Hello Stéphane, how can I assist you today?
 💬: What is my name?
@@ -26,19 +26,16 @@ Indeed, here’s a simple conversation with no memory:
 
 That’s not very helpful.
 
-In this guide, we’ll use **[LangChain4j](https://github.com/langchain4j/langchain4j)** to build a chatbot with **memory support**, allowing it to **remember previous messages** and provide more natural, contextual answers.
+In this tutorial, we’ll use **[LangChain4j](https://github.com/langchain4j/langchain4j)** to build a chatbot with **memory support**, allowing it to **remember previous messages** and provide more natural, contextual answers.
 
 ## Definitions
 
-**[LangChain4j](https://github.com/langchain4j/langchain4j)**
-Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
-
-**[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**
-A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
+- **[LangChain4j](https://github.com/langchain4j/langchain4j)**: Java-based framework inspired by [LangChain](https://github.com/langchain-ai/langchain), designed to simplify the integration of LLMs (Large Language Models) into applications. Note that LangChain4j is not officially maintained by the LangChain team, despite the similar name.
+- **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)**: A serverless platform by OVHcloud providing easy access to a variety of world-renowned AI models including Mistral, LLaMA, and more. This platform is designed to be simple, secure, and intuitive, with data privacy as a top priority.
 
 ## Requirements
 
-- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account.
 - An access token for **OVHcloud AI Endpoints**. To create an API token, follow the instructions in the [AI Endpoints - Getting Started](/pages/public_cloud/ai_machine_learning/endpoints_guide_01_getting_started) guide.
 
 ## Instructions
@@ -146,7 +143,7 @@ export OVH_AI_ENDPOINTS_ACCESS_TOKEN=<your-access-token>
 
 Then run your Java application:
 
-```
+```console
 💬: My name is Stéphane.
 🤖: Hello Stéphane, how can I assist you today?
 

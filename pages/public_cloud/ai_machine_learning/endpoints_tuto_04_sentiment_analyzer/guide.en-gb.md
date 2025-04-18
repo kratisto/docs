@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a sentiment analyzer
 excerpt: Build a sentiment analyzer with AI Endpoints and Java using Quarkus
-updated: 2025-04-15
+updated: 2025-04-18
 ---
 
 > [!primary]
@@ -13,13 +13,13 @@ updated: 2025-04-15
 
 ## Introduction
 
-In this guide, we’ll show you how to create a sentiment analyzer using **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)** and Java with **[Quarkus](https://github.com/quarkusio/quarkus)**.
+In this tutorial, we’ll show you how to create a sentiment analyzer using **[AI Endpoints](https://endpoints.ai.cloud.ovh.net/)** and Java with **[Quarkus](https://github.com/quarkusio/quarkus)**.
 
 We'll use a model from the `Natural Language Processing (NLP)` category, specifically the `roberta-base-go_emotions` model. This model can analyze text and return emotions in response.
 
 ### Project setup
 
-To simplify the project, we'll use **[Quarkus](https://github.com/quarkusio/quarkus)**. for fast development and REST exposure.
+To simplify the project, we'll use **[Quarkus](https://github.com/quarkusio/quarkus)** for fast development and REST exposure.
 
 Start by adding the necessary dependencies in your `pom.xml`:
 
