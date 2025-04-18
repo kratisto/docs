@@ -1,7 +1,7 @@
 ---
 title: "How to obtain the carbon footprint of your OVHcloud services"
 excerpt: "Find out how to retrieve the monthly carbon footprint of your OVHcloud services using our carbon calculator"
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objective

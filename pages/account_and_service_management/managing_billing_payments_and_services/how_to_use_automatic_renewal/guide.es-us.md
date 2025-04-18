@@ -71,7 +71,7 @@ Antes de continuar leyendo esta guía, debe cumplir los siguientes requisitos:
 Conéctese a su [área de cliente de OVHcloud](/links/manager).<br>
 Haga clic en su nombre en la esquina superior derecha y seleccione `Mis soluciones y servicios`{.action}.
 
-![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Mostrar el tipo de renovación <a name="renewal-type"></a>
 

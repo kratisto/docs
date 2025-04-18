@@ -1,7 +1,7 @@
 ---
 title: 'Concepto de número de pedido o Purchase Order (PO)'
 excerpt: 'Entender el concepto de número de pedido o orden de purchase y aplicarlo en el marco del pago de las facturas de OVHcloud'
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo

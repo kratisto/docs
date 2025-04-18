@@ -71,7 +71,7 @@ This guide will help you to:
 Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/en/&ovhSubsidiary=en).<br>
 Click your name in the top right-hand corner, then choose `My solutions & services`{.action}.
 
-![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![products and services](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Display renewal type <a name="renewal-type"></a>
 

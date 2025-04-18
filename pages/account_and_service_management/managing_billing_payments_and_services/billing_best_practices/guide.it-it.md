@@ -1,7 +1,7 @@
 ---
 title: Best practice per la gestione dei tuoi servizi e del tuo account OVHcloud
 excerpt: Trovi qui gli elementi indispensabili per una corretta gestione delle tue fatture, ordini, modalità di pagamento e account cliente
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Obiettivo
@@ -48,7 +48,7 @@ Assicurati che il tuo indirizzo email sia sempre **aggiornato, sicuro e accessib
 Le email inviate da OVHcloud sono accessibili anche dallo [Spazio Cliente OVHcloud](/links/manager).<br>
 Clicca sul tuo nome in alto a destra e poi su `Le mie comunicazioni`{.action} nel menu di destra.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Attiva il rinnovo automatico
 

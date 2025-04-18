@@ -1,7 +1,7 @@
 ---
 title: Best Practices für die Verwaltung Ihrer Dienstleistungen und Ihres OVHcloud Accounts
 excerpt: Erfahren Sie hier alles zur Verwaltung Ihrer Rechnungen, Bestellungen, Zahlungsmittel und Kunden-Accounts
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Ziel
@@ -48,7 +48,7 @@ Vergewissern Sie sich, dass Ihre E-Mail-Adresse stets **aktuell, gesichert und e
 Die von OVHcloud versendeten E-Mails sind auch über Ihr [OVHcloud Kundencenter](/links/manager) einsehbar.<br>
 Klicken Sie oben rechts auf Ihren Bildschirm auf Ihren Namen und dann im rechten Menü auf `Meine Kommunikation`{.action}.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Automatische Verlängerung aktivieren
 

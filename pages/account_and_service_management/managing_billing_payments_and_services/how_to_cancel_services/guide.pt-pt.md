@@ -1,7 +1,7 @@
 ---
 title: Como cancelar os meus serviços OVHcloud
 excerpt: Descubra como interromper as suas subscrições OVHcloud a partir da Área de Cliente
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo
@@ -49,7 +49,7 @@ No entanto, existem **casos especiais** que são detalhados [mais abaixo](#speci
 
 Para rescindir a subscrição do seu serviço, aceda a [Área de Cliente OVHcloud](/links/manager), clique no seu nome em cima à direita e, a seguir, em `As minhas ofertas e serviços`{.action}.
 
-![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 Clique então no botão `...`{.action} à direita do serviço a rescindir, e depois em `Rescindir o meu serviço`{.action}.
 

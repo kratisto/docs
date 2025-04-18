@@ -1,7 +1,7 @@
 ---
 title: Gerir os meus métodos de pagamento
 excerpt: Aprenda a adicionar e gerir os seus métodos de pagamento dentro da Área de Cliente OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo
@@ -17,7 +17,7 @@ A Área de Cliente OVHcloud permite-lhe guardar e gerir vários métodos de paga
 
 Na [Área de Cliente OVHcloud](/links/manager), clique no seu nome (canto superior direito) e selecione `Os meus métodos de pagamento`{.action}.
 
-![hubpayment](images/hubpayment.png){.thumbnail}
+![hubpayment](/pages/assets/screens/control_panel/product-selection/right-menu/my-payment-methods.png){.thumbnail}
 
 Aparecerá uma página com um quadro que indica os métodos de pagamento registados na sua conta de cliente. Nela pode:
 

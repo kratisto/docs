@@ -1,7 +1,7 @@
 ---
 title: FAQ dotyczący śledzenia zamówień OVHcloud
 excerpt: Najczęściej zadawane pytania dotyczące śledzenia zamówień OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Wprowadzenie

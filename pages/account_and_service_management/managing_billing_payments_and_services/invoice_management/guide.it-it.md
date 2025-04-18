@@ -1,7 +1,7 @@
 ---
 title: Gestire le fatture OVHcloud
 excerpt: Come amministrare fatture e pagamenti dallo Spazio Cliente
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Obiettivo
@@ -50,7 +50,7 @@ La fattura del tuo servizio OVHcloud ti viene inviata in seguito al pagamento di
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager) Clicca sul tuo nome in alto a destra e poi sul nuovo menu che appare su `Le mie fatture`{.action}.
 
-![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 Visualizzi una tabella con tutte le fatture associate al tuo identificativo:
 

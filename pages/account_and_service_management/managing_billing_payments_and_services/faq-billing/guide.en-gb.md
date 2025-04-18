@@ -1,7 +1,7 @@
 ---
 title: Billing and payment FAQ
 excerpt: Find the most frequently asked questions about billing and payment
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objective

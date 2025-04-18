@@ -1,7 +1,7 @@
 ---
 title: Buenas prácticas para la gestión de sus servicios y de su cuenta de OVHcloud
 excerpt: Aquí encontrará los elementos imprescindibles para la correcta gestión de sus facturas, pedidos, formas de pago y cuenta de cliente.
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo
@@ -48,7 +48,7 @@ Asegúrese de que su dirección de correo electrónico esté siempre **actualiza
 También puede acceder a los mensajes de correo enviados por OVHcloud desde su [área de cliente de OVHcloud](/links/manager).<br>
 Haga clic en su nombre en la esquina superior derecha de su pantalla y, seguidamente, en el menú de la derecha, haga clic en `Mis mensajes`{.action}.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Active la renovación automática
 

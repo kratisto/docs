@@ -1,7 +1,7 @@
 ---
 title: 'Conceito de Número de Comando ou Purchase Order (PO)'
 excerpt: 'Compreender a noção de número de encomenda ou purchase order e aplicá-la no âmbito do pagamento das faturas OVHcloud'
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo

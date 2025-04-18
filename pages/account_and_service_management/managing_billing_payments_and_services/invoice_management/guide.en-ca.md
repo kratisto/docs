@@ -1,7 +1,7 @@
 ---
 title: Managing OVHcloud bills
 excerpt: Find out how to manage your bills and the payments associated with them
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objective
@@ -50,7 +50,7 @@ Your OVHcloud service bill is sent to you following the payment of an order or a
 
 To view your invoices, go to your [OVHcloud Control Panel](/links/manager). Click on your name in the top right-hand corner of your screen, then in the new menu that appears, click on `My bills`{.action}.
 
-![Billing](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Billing](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 You will then land on a page summarising your bills:
 

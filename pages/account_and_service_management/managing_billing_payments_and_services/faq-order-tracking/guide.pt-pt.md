@@ -1,7 +1,7 @@
 ---
 title: FAQ sobre o seguimento da encomenda OVHcloud
 excerpt: Encontre as questões mais frequentes sobre o seguimento da encomenda OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo

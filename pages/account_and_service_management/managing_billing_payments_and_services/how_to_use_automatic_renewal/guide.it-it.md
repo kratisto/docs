@@ -71,7 +71,7 @@ Questa guida ti mostra come:
 Accedi allo [Spazio Cliente OVHcloud](/links/manager).<br>
 Clicca sul tuo nome nell’angolo in alto a destra e seleziona `Le mie offerte e servizi`{.action}.
 
-![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Visualizza il tipo di rinnovo <a name="renewal-type"></a>
 

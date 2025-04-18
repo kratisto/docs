@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Bestellungen verwalten
 excerpt: Erfahren Sie hier, wie Sie Ihre Bestellungen bei OVHcloud verwalten
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Ziel

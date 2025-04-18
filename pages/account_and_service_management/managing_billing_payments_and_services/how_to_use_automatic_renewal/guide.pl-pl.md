@@ -71,7 +71,7 @@ Z tego przewodnika dowiesz się:
 Zaloguj się do [Panelu klienta OVHcloud](/links/manager).<br>
 Kliknij swoją nazwę w prawym górnym rogu i wybierz `Moje rozwiązania i usługi`{.action}.
 
-![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Wyświetl typ odnowienia <a name="renewal-type"></a>
 

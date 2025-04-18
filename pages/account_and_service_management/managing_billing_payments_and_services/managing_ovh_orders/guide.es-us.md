@@ -1,7 +1,7 @@
 ---
 title: Gestionar los pedidos en OVHcloud
 excerpt: Cómo gestionar los pedidos en OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo

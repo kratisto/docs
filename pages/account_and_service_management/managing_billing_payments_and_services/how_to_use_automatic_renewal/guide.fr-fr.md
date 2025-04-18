@@ -74,7 +74,7 @@ Avant de poursuivre la lecture de ce guide, vous devez remplir les conditions su
 Connectez-vous à votre [espace client OVHcloud](/links/manager).<br>
 Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Mes offres & services`{.action}.
 
-![produits et services](/pages/assets/screens/control_panel/product-selection/right-column/products-services-fr.png){.thumbnail}
+![produits et services](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Afficher le type de renouvellement <a name="renewal-type"></a>
 

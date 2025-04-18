@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Rechnungen verwalten
 excerpt: Erfahren Sie hier, wie Sie Ihre Rechnungen und deren Bezahlung verwalten
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Ziel
@@ -50,7 +50,7 @@ Die Rechnung zu Ihrer OVHcloud Dienstleistung wird Ihnen nach einer Bezahlung od
 
 Um Ihre Rechnungen einzusehen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein. Klicken Sie auf Ihren Namen oben rechts neben Ihrem Bildschirm und dann im neu geöffneten Menü auf `Meine Rechnungen`{.action}.
 
-![Rechnungsstellung](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Rechnungsstellung](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 Sie gelangen dann auf eine Übersichtsseite, auf der alle Ihre Rechnungen aufgelistet werden:
 

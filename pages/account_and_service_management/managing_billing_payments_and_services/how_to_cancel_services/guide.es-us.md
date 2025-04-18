@@ -1,7 +1,7 @@
 ---
 title: Cómo dar de baja sus servicios de OVHcloud
 excerpt: Cómo interrumpir las suscripciones a OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo
@@ -49,7 +49,7 @@ No obstante, existen **casos especiales**, que se explican en detalle [más adel
 
 Para cancelar la suscripción al servicio, conéctese al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/es/&ovhSubsidiary=es), haga clic en su nombre en la esquina superior derecha y seleccione `Mis soluciones y servicios`{.action}.
 
-![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 A continuación, haga clic en el botón `...`{.action} a la derecha del servicio que desea dar de baja y, seguidamente, en `Dar de baja mi servicio`{.action}.
 

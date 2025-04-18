@@ -1,7 +1,7 @@
 ---
 title: FAQ dotyczący płatności i fakturowania
 excerpt: Znajdziesz najczęściej zadawane pytania dotyczące płatności i fakturowania
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Wprowadzenie

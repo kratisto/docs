@@ -1,7 +1,7 @@
 ---
 title: How to cancel my OVHcloud services
 excerpt: Find out how to cancel your OVHcloud subscriptions via the OVHcloud Control Panel
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objective
@@ -49,7 +49,7 @@ However, there are **special cases** that are detailed [below](#specific-cases) 
 
 To cancel your service subscription, log in to your [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then on `My solutions & services`{.action}.
 
-![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![products and services](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 Next, click the `...`{.action} button to the right of the service you want to cancel, then `Cancel my subscription`{.action}.
 

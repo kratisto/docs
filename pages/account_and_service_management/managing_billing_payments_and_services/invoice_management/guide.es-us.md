@@ -1,7 +1,7 @@
 ---
 title: Gestionar las facturas de OVHcloud
 excerpt: Cómo gestionar sus facturas y pagos en OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo
@@ -50,7 +50,7 @@ La factura del servicio de OVHcloud se enviará una vez realizado el pago de un 
 
 Para consultar sus facturas, acceda al [área de cliente de OVHcloud](/links/manager). Haga clic en su nombre en la esquina superior derecha de su pantalla y, en el nuevo menú que aparecerá, haga clic en `Mis facturas`{.action}.
 
-![Facturación](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Facturación](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 Será redirigido a una página en la que podrá consultar todas sus facturas.
 

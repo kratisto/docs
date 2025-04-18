@@ -1,7 +1,7 @@
 ---
 title: Gerir as encomendas da OVHcloud
 excerpt: Saiba como gerir as suas encomendas da OVHcloud
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objetivo

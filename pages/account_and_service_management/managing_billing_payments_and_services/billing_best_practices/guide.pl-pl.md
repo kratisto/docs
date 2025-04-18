@@ -1,7 +1,7 @@
 ---
 title: Dobre praktyki zarządzania usługami i kontem OVHcloud
 excerpt: Znajdziesz tutaj elementy niezbędne do prawidłowego zarządzania fakturami, zamówieniami, sposobami płatności i kontem klienta.
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Wprowadzenie
@@ -48,7 +48,7 @@ Upewnij się, czy Twoje konto e-mail jest zawsze **aktualne, bezpieczne i dostę
 E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](/links/manager)<br>
 Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `Połączenia`{.action} w prawym menu.
 
-![service_email](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_email](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Włącz automatyczne odnowienie
 

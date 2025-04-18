@@ -1,7 +1,7 @@
 ---
 title: Best practices for managing your OVHcloud services and account
 excerpt: Find out about the best ways to manage your invoices, orders, payment methods and account
-updated: 2025-03-04
+updated: 2025-04-22
 ---
 
 ## Objective
@@ -48,7 +48,7 @@ Ensure your email address is always **up to date, accessible and secured**. Emai
 Emails sent by OVHcloud will be also visible in your [OVHcloud Control Panel](/links/manager).<br>
 Click on your name at the top right of your screen, then on `My messages`{.action} in the right-hand menu.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 #### Automatic renewal
 

@@ -71,7 +71,7 @@ Folgende Themen werden erläutert:
 Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager).<br>
 Klicken Sie oben rechts auf Ihren Namen und wählen Sie `Meine Angebote und Dienste`{.action}.
 
-![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Verlängerungstyp anzeigen <a name="renewal-type"></a>
 
