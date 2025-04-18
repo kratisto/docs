@@ -27,7 +27,7 @@ Please note the following information:
 
 - You cannot generate a carbon footprint report for the current month.
 - When using the OVHcloud API, whether you enter a date at the beginning, middle or end of the month for the month chosen, the carbon footprint report will be generated for the full month.
-- No carbon footprint report can be generated for more than the last 24 months. 
+- No carbon footprint report can be generated for more than the last 24 months.
 - No carbon footprint can be generated before the date of implementation of the feature for each OVHcloud service (see table below).
 
 | Service                | Date of commissioning of the carbon footprint calculator |
