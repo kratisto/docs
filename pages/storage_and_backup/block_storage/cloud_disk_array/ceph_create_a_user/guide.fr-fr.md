@@ -1,19 +1,28 @@
 ---
-title: Création d'utilisateurs
-excerpt: Ce qui vous présente comment créer un nouvel utilisateur.
-updated: 2018-03-26
+title: Cloud Disk Array - Comment créer des utilisateurs
+excerpt: Découvrez comment créer un nouvel utilisateur Cloud Disk Array
+updated: 2025-04-18
 ---
 
-## Utiliser l'interface web
+## Objectif
+
+Ce guide vous montre comment créer un nouvel utilisateur Cloud Disk Array, en utilisant l'espace client OVHcloud ou l'API OVHcloud.
+
+## Prérequis
+
+- Une solution [Cloud Disk Array](/links/storage/cloud-disk-array)
+- Être connecté à l’[espace client OVHcloud](/links/manager) ou à l’[API OVHcloud](/links/api)
+
+## En pratique
+
+### Depuis l'espace client OVHcloud
 
 > [!primary]
 >
-> L'utilisation d'une interface web est le moyen le plus simple de créer un utilisateur.
+> L'utilisation de l'espace client OVHcloud est le moyen le plus simple de créer un utilisateur.
 >
 
-Tout d'abord, connectez-vous au [l’espace client](https://www.ovh.com/manager/dedicated/#/configuration){.external} et dans la rubrique Plates-formes et services vous trouverez le service Ceph.
-
-Dans l'onglet "Utilisateurs", vous trouverez la liste des **utilisateurs**. Aucun utilisateur n'est créé par défaut (sauf *admin* que vous ne pouvez pas utiliser et qui est caché).
+Tout d'abord, connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Bare Metal Cloud`{.action}. Cliquez ensuite sur `Plateformes et services`{.action}, puis sur le service `ceph-cluster`{.action}.
 
 ![Ceph users](images/create_a_user_1.png){.thumbnail}
 
@@ -21,24 +30,35 @@ Entrez un nom d'utilisateur.
 
 > [!warning]
 >
-> Votre nom d'utilisateur doit comporter au moins trois caractères.
+> Votre nom d'utilisateur doit contenir au moins trois caractères.
 >
 
 ![Ceph user creation](images/create_a_user_2.png){.thumbnail}
 
-Après la création de l'utilisateur, vous revenez au gestionnaire. Vous pouvez voir que le statut du cluster a changé parce que l'utilisateur est en cours de création.
+L'utilisateur est alors créé.
 
 ![Ceph user creation](images/create_a_user_3.png){.thumbnail}
 
-## Utiliser l'API
+### Depuis l'API OVHcloud
+
+> [!success]
+> Si vous n'êtes pas familier avec l'utilisation de l'API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) ».
+
+Vous pouvez créer un utilisateur en utilisant cette route API :
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/user
 >
-serviceName est le fsid de votre cluster.
 
-Vous pouvez vérifier la création des utilisateurs en dressant une liste des utilisateurs.
+`serviceName` est le fsid de votre cluster.
+
+Vous pouvez également vérifier la création des utilisateurs en dressant une liste des utilisateurs :
+
+> [!api]
+>
+> @api {v1} /dedicated/ceph GET /dedicated/ceph/{serviceName}/user
+>
 
 ```bash
 GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user
@@ -58,6 +78,6 @@ GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user
 
 Rendez-vous sur notre chaîne Discord dédiée : <https://discord.gg/ovhcloud>. Posez des questions, fournissez des commentaires et interagissez directement avec l'équipe qui construit nos services de stockage et de sauvegarde.
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

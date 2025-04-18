@@ -4,14 +4,25 @@ excerpt: This guide shows you how to create a new user
 updated: 2018-03-26
 ---
 
-## Using web interface
+## Objective
+
+This guide shows you how to create a new Cloud Disk Array user, using the OVHcloud Control Panel or the OVHcloud API.
+
+## Requirements
+
+- A [Cloud Disk Array](/links/storage/cloud-disk-array) solution
+- Access to the [OVHcloud Control Panel](/links/manager) or to the [OVHcloud API](/links/api)
+
+## Instructions
+
+### Using the OVHcloud Control Panel
 
 > [!primary]
 >
-> Using web interface is the easiest way to create a user.
+> Using the OVHcloud Control Panel is the easiest way to create a user.
 >
 
-First, connect to the [Cloud Disk Array manager](https://www.ovh.com/manager/cloud/index.html){.external}. Under 'Platforms and services' select your Ceph cluster. On the bottom left, you will find the **user list**. No user is created by default (except *admin* that you can't use and that is hidden).
+First, log into your [OVHcloud Control Panel](/links/manager) and go to the `Bare Metal Cloud`{.action} section. Click the `Platforms and services`{.action} header then on the `ceph-cluster`{.action} service.
 
 ![Ceph users](images/create_a_user_1.png){.thumbnail}
 
@@ -19,24 +30,35 @@ Enter a username.
 
 > [!warning]
 >
-> Your username needs at least three characters.
+> Your username needs to contain at least three characters.
 >
 
 ![Ceph user creation](images/create_a_user_2.png){.thumbnail}
 
-After user creation, you are back to manager. You can see that cluster status has changed because the user is being created.
+The user is then created.
 
 ![Ceph user creation](images/create_a_user_3.png){.thumbnail}
 
-## Using API
+### Using the API
+
+> [!success]
+> If you are not familiar with the OVHcloud API, read our [First Steps with the OVHcloud API](/pages/manage_and_operate/api/first-steps) guide.
+
+You can create a user using this API route:
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/user
 >
-serviceName is the fsid of your cluster.
 
-You can check user creation by listing users.
+`serviceName` is the fsid of your cluster.
+
+You can also check the user creation by creating a list of users:
+
+> [!api]
+>
+> @api {v1} /dedicated/ceph GET /dedicated/ceph/{serviceName}/user
+>
 
 ```bash
 GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user
@@ -56,6 +78,6 @@ GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/user
 
 Visit our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide feedback and interact directly with the team that builds our Storage and Backup services.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pt/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
