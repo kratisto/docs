@@ -1,7 +1,7 @@
 ---
 title: Move2Cloud - Migrating VMware Workloads to OVHcloud SecNumCloud with Veeam Replication
 excerpt: Learn how to migrate your on-prem VMware workloads to an OVHcloud Hosted Private Cloud SecNumCloud environment using Veeam Replication
-updated: 2025-04-09
+updated: 2025-04-18
 ---
 
 ## Objective
