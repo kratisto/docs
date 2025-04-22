@@ -31,7 +31,7 @@ Dies kann in folgenden Fällen nützlich sein:
 
 ### Festplatte aus einem Backup erstellen
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie im Bereich `Public Cloud`{.action}  das betreffende Public Cloud Projekt aus. Klicken Sie dann im linken Menü auf `Volume Snapshot`{.action} unter `Storage and Backup`.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie im Bereich `Public Cloud`{.action} das betreffende Public Cloud Projekt aus. Klicken Sie dann im linken Menü auf `Volume Snapshot`{.action} unter **Storage and Backup**.
 
 Klicken Sie rechts neben dem Backup Ihrer Wahl auf den Button `...`{.action} und dann auf `Volume erstellen`{.action}.
 
@@ -45,7 +45,7 @@ Die Erstellung der Festplatte kann abhängig von deren Größe einige Minuten in
 
 ### Festplatte mit einer Instanz verbinden
 
-Sobald die Festplatte erstellt ist, können Sie sie mit einer Instanz verbinden. Klicken Sie hierzu auf `Block Storage`{.action} in der linken Navigationsleiste unter `Storage and Backup`.
+Sobald die Festplatte erstellt ist, können Sie sie mit einer Instanz verbinden. Klicken Sie hierzu auf `Block Storage`{.action} in der linken Navigationsleiste unter **Storage and Backup**.
 
 Klicken Sie rechts neben dem Volume Ihrer Wahl auf den Button `...`{.action} und dann auf `Mit der Instanz verbinden`{.action}.
 

@@ -33,11 +33,11 @@ Renseignez un nom pour la sauvegarde sur la page suivante. Prenez connaissance d
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-Il n'est pas possible de suivre la progression de la sauvegarde en temps réel. Cependant, dans la section `Instance Backup`{.action} sous la rubrique `Compute`{.action} dans le menu de gauche, le statut `Backup en cours` sera affiché pendant le processus.
+Il n'est pas possible de suivre la progression de la sauvegarde en temps réel. Cependant, dans la section `Instance Backup`{.action} sous la rubrique **Compute** dans le menu de gauche, le statut `Backup en cours` sera affiché pendant le processus.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Une fois la sauvegarde terminée, celle-ci sera disponible dans la section `Instance Backup`{.action} sous la rubrique `Compute`{.action} dans le menu de gauche.
+Une fois la sauvegarde terminée, celle-ci sera disponible dans la section `Instance Backup`{.action} sous la rubrique **Compute** dans le menu de gauche.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -78,11 +78,11 @@ Entrez un nom pour la planification de la sauvegarde automatique. Prenez connais
 
 ### Gestion des sauvegardes et des plannings
 
-Les planifications peuvent être créées et supprimées dans la section `Workflow Management`{.action} qui se trouve sous la rubrique `Compute`{.action} dans le menu de gauche.
+Les planifications peuvent être créées et supprimées dans la section `Workflow Management`{.action} qui se trouve sous la rubrique **Compute** dans le menu de gauche.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Les sauvegardes de vos instances sont gérées dans la section `Instance Backup`{.action} qui se trouve sous la rubrique `Compute`{.action} dans le menu de gauche.
+Les sauvegardes de vos instances sont gérées dans la section `Instance Backup`{.action} qui se trouve sous la rubrique **Compute** dans le menu de gauche.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

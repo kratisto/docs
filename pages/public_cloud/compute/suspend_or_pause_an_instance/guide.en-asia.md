@@ -62,7 +62,7 @@ Once the process is completed, your instance will now appear as *Suspended*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-To view the snapshot, click on `Instance Backup`{.action} underneath the `Compute` tab in the left side menu. A snapshot named *xxxxx-shelved* will now be visible:
+To view the snapshot, click on `Instance Backup`{.action} underneath the **Compute** tab in the left side menu. A snapshot named *xxxxx-shelved* will now be visible:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 

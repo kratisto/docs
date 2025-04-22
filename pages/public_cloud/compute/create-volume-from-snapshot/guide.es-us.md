@@ -31,7 +31,7 @@ Esto puede ser útil en los siguientes casos:
 
 ### Crear el disco a partir de un snapshot
 
-Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. En la barra de navegación izquierda, haga clic en `Volume Snapshot`{.action} y seleccione `Storage and Backup`.
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. En la barra de navegación izquierda, haga clic en `Volume Snapshot`{.action} y seleccione **Storage and Backup**.
 
 A la derecha de la copia de seguridad que desee, haga clic en el botón `...`{.action} y, seguidamente, en `Crear un volumen`{.action}.
 
@@ -45,7 +45,7 @@ La creación del disco puede tardar unos minutos, en función del tamaño del mi
 
 ### Asociar el disco a una instancia
 
-Una vez creado el disco, puede asociarlo a una instancia. Para ello, haga clic en `Block Storage`{.action} en la barra de navegación de la izquierda en `Storage and Backup`.
+Una vez creado el disco, puede asociarlo a una instancia. Para ello, haga clic en `Block Storage`{.action} en la barra de navegación de la izquierda en **Storage and Backup**.
 
 A la derecha del volumen que desee, haga clic en el botón `...`{.action} y, seguidamente, en `Asociar a la instancia`{.action}.
 

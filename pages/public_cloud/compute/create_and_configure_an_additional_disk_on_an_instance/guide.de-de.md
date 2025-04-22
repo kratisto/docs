@@ -530,18 +530,6 @@ Wählen Sie das verwendete OS aus, um **das Volume** zu entfernen:
 >> sudo nano /etc/fstab
 >> ```
 >>
->> Speichern Sie die Änderungen und verlassen Sie den Editor.
->>
->> Gehen Sie in den Bereich `Public Cloud`{.action} in Ihrem OVHcloud Kundencenter und klicken Sie auf  im linken Menü unter **Storage and Backup**.
->>
->> Klicken Sie auf den Button `...`{.action} neben dem entsprechenden Volume und wählen Sie `Instanz trennen`{.action}.
->>
->> ![detach disk](images/detachinstance.png){.thumbnail}
->>
->> Klicken Sie in neuen Fenster auf `Bestätigen`{.action}, um den Vorgang zu starten.
->>
->> ![Disk Detach](images/confirminstancedetach.png){.thumbnail}
->>
 > **Unter Windows** <a name="windows"></a>
 >>
 >> Stellen Sie eine Remotedesktop-Verbindung (RDP) mit Ihrer Windows-Instanz her.

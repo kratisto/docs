@@ -62,7 +62,7 @@ Po ukończeniu procesu Twoja instancja będzie wyświetlana jako *Zawieszona*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-Migawka będzie wówczas dostępna w sekcji `Instance Backup`{.action} w menu `Compute` po lewej stronie przestrzeni Public Cloud. Migawka o nazwie *xxxxx-shelved* będzie wtedy widoczna:
+Migawka będzie wówczas dostępna w sekcji `Instance Backup`{.action} w menu **Compute** po lewej stronie przestrzeni Public Cloud. Migawka o nazwie *xxxxx-shelved* będzie wtedy widoczna:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 

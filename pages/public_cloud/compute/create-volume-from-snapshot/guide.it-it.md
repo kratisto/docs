@@ -31,7 +31,7 @@ Ciò può essere utile nei seguenti casi:
 
 ### Crea il disco a partire da un backup
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto. Clicca su `Volume Snapshot`{.action} nella barra di navigazione di sinistra sotto `Storage e Backup`.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto. Clicca su `Volume Snapshot`{.action} nella barra di navigazione di sinistra sotto **Storage e Backup**.
 
 A destra del backup che preferisci, clicca sul pulsante `...`{.action} e poi su `Crea un volume`{.action}.
 
@@ -45,7 +45,7 @@ La creazione del disco potrebbe richiedere alcuni minuti, a seconda della sua di
 
 ### Associa il disco a un'istanza
 
-Una volta creato il disco, puoi decidere di associarlo a un'istanza. clicca su `Block Storage`{.action} nella barra di navigazione di sinistra su `Storage e Backup`.
+Una volta creato il disco, puoi decidere di associarlo a un'istanza. clicca su `Block Storage`{.action} nella barra di navigazione di sinistra su **Storage e Backup**.
 
 A destra del volume scelto, clicca sul pulsante `...`{.action} e poi su `Associa all'istanza`{.action}.
 

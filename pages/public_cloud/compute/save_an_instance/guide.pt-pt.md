@@ -37,11 +37,11 @@ Introduza um nome para o backup na página seguinte. Consulte as informações t
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-Não é possível monitorizar o progresso da cópia de segurança em tempo real. No entanto, na secção `Instance Backup`{.action} em `Compute`{.action} no menu do lado esquerdo, o estado `Backup em curso` será apresentado durante o processo.
+Não é possível monitorizar o progresso da cópia de segurança em tempo real. No entanto, na secção `Instance Backup`{.action} em **Compute** no menu do lado esquerdo, o estado `Backup em curso` será apresentado durante o processo.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Uma vez terminado o backup, este estará disponível na secção `Instance Backup`{.action} na rubrica `Compute`{.action} no menu à esquerda.
+Uma vez terminado o backup, este estará disponível na secção `Instance Backup`{.action} na rubrica **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Introduza um nome para o planeamento do backup automático. Leia as informaçõe
 
 ### Gestão dos backups e dos planos
 
-As planificações podem ser criadas e eliminadas na secção `Workflow Management`{.action} que se encontra na rubrica `Compute`{.action} no menu à esquerda.
+As planificações podem ser criadas e eliminadas na secção `Workflow Management`{.action} que se encontra na rubrica **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Os backups das suas instâncias são geridos na secção `Instance Backup`{.action}, que se encontra na secção `Compute`{.action} no menu à esquerda.
+Os backups das suas instâncias são geridos na secção `Instance Backup`{.action}, que se encontra na secção **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

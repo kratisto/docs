@@ -99,7 +99,7 @@ Pour vous assurer de redimensionner votre disque au bon moment, il est essentiel
 
 ### Modifier la taille du disque
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager) et ouvrez votre projet `Public Cloud`{.action}. Cliquez ensuite sur `Block Storage`{.action} dans le menu de gauche sous **Storage & Backup**.
+Connectez-vous à [l’espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Cliquez ensuite sur `Block Storage`{.action} dans le menu de gauche sous **Storage & Backup**.
 
 Si le volume est attaché à une **instance Windows**, cliquez sur le bouton `...`{.action} à droite du volume concerné et sélectionnez `Détacher de l'instance`{.action}.
 

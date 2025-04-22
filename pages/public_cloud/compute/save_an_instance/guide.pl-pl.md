@@ -37,11 +37,11 @@ Wpisz nazwę kopii zapasowej na następnej stronie. Zapoznaj się z informacjami
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-Nie jest możliwe monitorowanie postępu tworzenia kopii zapasowej w czasie rzeczywistym. Jednak w sekcji `Instance Backup`{.action} pod `Compute`{.action} w menu po lewej stronie, status `Trwa tworzenie kopii` będzie wyświetlany podczas procesu.
+Nie jest możliwe monitorowanie postępu tworzenia kopii zapasowej w czasie rzeczywistym. Jednak w sekcji `Instance Backup`{.action} pod **Compute** w menu po lewej stronie, status `Trwa tworzenie kopii` będzie wyświetlany podczas procesu.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Po utworzeniu kopii zapasowej będzie ona dostępna w sekcji `Instance Backup`{.action} pod `Compute`{.action} w menu po lewej stronie.
+Po utworzeniu kopii zapasowej będzie ona dostępna w sekcji `Instance Backup`{.action} pod **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Wprowadź nazwę do automatycznego planowania tworzenia kopii zapasowych. Zapozn
 
 ### Zarządzanie kopiami zapasowymi i planami
 
-Planowanie może zostać utworzone i usunięte w sekcji `Workflow Management`{.action}, która znajduje się pod `Compute`{.action} w menu po lewej stronie.
+Planowanie może zostać utworzone i usunięte w sekcji `Workflow Management`{.action}, która znajduje się pod **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Kopie zapasowe instancji są zarządzane w sekcji `Instance Backup`{.action}, która znajduje się pod rubryką `Compute`{.action} w menu po lewej stronie.
+Kopie zapasowe instancji są zarządzane w sekcji `Instance Backup`{.action}, która znajduje się pod rubryką **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

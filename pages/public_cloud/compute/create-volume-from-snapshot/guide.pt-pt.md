@@ -31,7 +31,7 @@ Tal pode ser útil nos seguintes casos:
 
 ### Criar o disco a partir de um backup
 
-Aceda à [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em questão. A seguir, clique em `Volume Snapshot`{.action} na barra de navegação da esquerda, na secção `Backup Storage`.
+Aceda à [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em questão. A seguir, clique em `Volume Snapshot`{.action} na barra de navegação da esquerda, na secção **Backup Storage**.
 
 À direita do backup à sua escolha, clique no botão `...`{.action} e em `Criar um volume`{.action}.
 
@@ -45,7 +45,7 @@ A criação do disco pode levar alguns minutos, dependendo do seu tamanho.
 
 ### Associar o disco a uma instância
 
-Depois de criar o disco, pode decidir associá-lo a uma instância. Para isso, clique em `Block Storage`{.action} na barra de navegação à esquerda, abaixo de `Backup Storage`.
+Depois de criar o disco, pode decidir associá-lo a uma instância. Para isso, clique em `Block Storage`{.action} na barra de navegação à esquerda, abaixo de **Backup Storage**.
 
 À direita do volume à sua escolha, clique no botão `...`{.action} e em `Associar a instância`{.action}.
 

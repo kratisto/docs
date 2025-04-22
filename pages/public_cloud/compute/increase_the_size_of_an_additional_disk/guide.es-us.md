@@ -99,7 +99,7 @@ Para asegurarse de que cambia el tamaño del disco en el momento adecuado, es es
 
 ### Cambiar el tamaño del disco
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. A continuación, haga clic en `Block Storage`{.action} en el menú de la izquierda, en **Storage and Backup**
+Conéctese al [área de cliente de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. A continuación, haga clic en `Block Storage`{.action} en el menú de la izquierda en **Storage and Backup**
 
 Si el volumen está asociado a una **instancia Windows**, haga clic en el botón `...`{.action} a la derecha del volumen correspondiente y seleccione `Desvincular de la instancia`{.action}.
 

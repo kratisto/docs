@@ -37,11 +37,11 @@ Introduzca un nombre para la copia de seguridad en la página siguiente. Lea la 
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-No es posible supervisar el progreso de la copia de seguridad en tiempo real. Sin embargo, en la sección `Instance Backup`{.action} de `Compute`{.action} del menú de la izquierda, se mostrará el estado `Realizando el backup...` durante el proceso.
+No es posible supervisar el progreso de la copia de seguridad en tiempo real. Sin embargo, en la sección `Instance Backup`{.action} de **Compute** del menú de la izquierda, se mostrará el estado `Realizando el backup...` durante el proceso.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Una vez terminada la copia de seguridad, estará disponible en la sección `Instance Backup`{.action} en la sección `Compute`{.action} del menú de la izquierda.
+Una vez terminada la copia de seguridad, estará disponible en la sección `Instance Backup`{.action} en la sección **Compute** del menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Escriba un nombre para la planificación de la copia de seguridad automática. L
 
 ### Gestión de las copias de seguridad y los planes
 
-Las planificaciones se pueden crear y eliminar en la sección `Workflow Management`{.action}, que se encuentra bajo `Compute`{.action} en el menú de la izquierda.
+Las planificaciones se pueden crear y eliminar en la sección `Workflow Management`{.action}, que se encuentra bajo **Compute** en el menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Las copias de seguridad de sus instancias se gestionan en la sección `Instance Backup`{.action} de la sección `Compute`{.action} del menú de la izquierda.
+Las copias de seguridad de sus instancias se gestionan en la sección `Instance Backup`{.action} de la sección **Compute** del menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

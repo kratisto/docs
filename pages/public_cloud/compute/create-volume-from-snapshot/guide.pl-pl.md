@@ -31,7 +31,7 @@ Może to być przydatne w następujących przypadkach:
 
 ### Utwórz dysk z kopii zapasowej
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Snapshoty wolumenów`{.action} na pasku nawigacji po lewej stronie w `Storage i Backup`.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Snapshoty wolumenów`{.action} na pasku nawigacji po lewej stronie w **Storage i Backup**.
 
 Po prawej stronie wybranej kopii zapasowej kliknij przycisk `...`{.action} a następnie `Utwórz wolumen`{.action}.
 
@@ -45,7 +45,7 @@ Utworzenie dysku może zająć kilka minut, w zależności od jego rozmiaru.
 
 ### Przypisz dysk do instancji
 
-Po utworzeniu dysku możesz zadecydować o przypisaniu go do instancji. W tym celu kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie `Storage i Backup`.
+Po utworzeniu dysku możesz zadecydować o przypisaniu go do instancji. W tym celu kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie **Storage i Backup**.
 
 Po prawej stronie wybranego wolumenu kliknij przycisk `...`{.action}, a następnie `Przypisz do instancji`{.action}.
 

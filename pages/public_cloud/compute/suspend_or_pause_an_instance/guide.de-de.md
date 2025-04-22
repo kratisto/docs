@@ -62,7 +62,7 @@ Sobald der Vorgang abgeschlossen ist, erscheint die Instanz als *Ausgesetzt*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.action} im Bereich `Compute`. Ein Snapshot mit dem Namen *xxxxx-shelved* wird dann angezeigt.
+Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.action} im Bereich **Compute**. Ein Snapshot mit dem Namen *xxxxx-shelved* wird dann angezeigt.
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 

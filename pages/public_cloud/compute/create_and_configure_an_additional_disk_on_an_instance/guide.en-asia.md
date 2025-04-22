@@ -84,7 +84,7 @@ Generation 2 High-Speed volumes are optimized for the most demanding workloads. 
 > [!tabs]
 > **Via the OVHcloud Control Panel**
 >>
->> Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then open `Block Storage`{.action} in the left-hand menu under **Storage and Backup**.
+>> Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then open `Block Storage`{.action} in the left-hand menu under **Storage and Backup**.
 >>
 >> In this section, click on the button `Create a volume`{.action}.
 >>

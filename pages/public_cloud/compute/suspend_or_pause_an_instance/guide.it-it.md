@@ -63,7 +63,7 @@ Una volta completata la procedura, l'istanza si presenta come *Sospesa*.
 
 ![sospeso](images/instance_suspended.png){.thumbnail}
 
-Lo snapshot sarà quindi disponibile nella sezione `Instance Backup`{.action} del menu `Compute` a sinistra dello spazio Public Cloud. Sarà quindi visibile uno snapshot denominato *xxxxx-shelved*:
+Lo snapshot sarà quindi disponibile nella sezione `Instance Backup`{.action} del menu **Compute** a sinistra dello spazio Public Cloud. Sarà quindi visibile uno snapshot denominato *xxxxx-shelved*:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 

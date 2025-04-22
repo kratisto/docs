@@ -18,7 +18,7 @@ Vous pouvez gérer vos instances Public Cloud dans votre [espace client OVHcloud
 
 ## En pratique
 
-Connectez-vous à [l’espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
+Connectez-vous à l'[espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 
 ### Utiliser l'interface de gestion des instances
 

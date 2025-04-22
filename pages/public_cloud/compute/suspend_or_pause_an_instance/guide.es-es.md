@@ -62,7 +62,7 @@ Una vez finalizado el proceso, su instancia se mostrará como *Suspendida*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-El snapshot estará entonces disponible en la sección `Instance Backup`{.action} del menú `Compute` a la izquierda del espacio Public Cloud. Aparecerá un snapshot llamado *xxxxx-shelved*:
+El snapshot estará entonces disponible en la sección `Instance Backup`{.action} del menú **Compute** a la izquierda del espacio Public Cloud. Aparecerá un snapshot llamado *xxxxx-shelved*:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 

@@ -23,7 +23,7 @@ Vous pouvez être amenés à vouloir restaurer votre instance grâce à une sauv
 
 ### Créer une instance a partir d'une sauvegarde
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external} et sélectionnez `Public Cloud`{.action}. Sélectionnez le projet Public Cloud concerné puis cliquez sur `Instance backup`{.action} sous la section `Compute`.
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et sélectionnez `Public Cloud`{.action}. Sélectionnez le projet Public Cloud concerné puis cliquez sur `Instance backup`{.action} sous la section **Compute**.
 
 ![public-cloud-instance-backup](images/restorebackup01.png){.thumbnail}
 
@@ -52,7 +52,7 @@ Pour plus d'informations sur la création d'une instance, consultez [ce guide](/
 
 ### Restaurer une instance à partir d’une sauvegarde
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager){.external} et sélectionnez `Public Cloud`{.action}. Cliquez ensuite sur  `Instances`{.action} dans le menu à gauche.
+onnectez-vous à votre [espace client OVHcloud](/links/manager) et sélectionnez `Public Cloud`{.action}. Sélectionnez le projet Public Cloud concerné puis cliquez sur `Instances`{.action} sous la section **Compute**.
 
 ![public-cloud-instance-backup](images/restorebackup04.png){.thumbnail}
 

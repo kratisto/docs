@@ -24,7 +24,7 @@ Konfiguracja **rewersu DNS** instancji jest szczególnie przydatna przy wysyłan
 
 ## W praktyce
 
-Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Network`{.action} i kliknij przycisk `Publiczne adresy IP`{.action}.
+Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Sieć`{.action} i kliknij przycisk `Publiczne adresy IP`{.action}.
 
 W rozwijanym menu **Moje publiczne adresy IP i usługi powiązane** możesz podzielić Twoje usługi na kategorie.
 
