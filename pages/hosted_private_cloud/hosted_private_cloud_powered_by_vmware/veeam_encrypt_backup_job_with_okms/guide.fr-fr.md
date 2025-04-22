@@ -1,13 +1,15 @@
 ---
 title: "Chiffrement des tâches de sauvegarde avec Veeam et OKMS"
-excerpt: "Découvrez comment configurer des tâches de sauvegarde chiffrées en utilisant Veeam et le service KMS d’OVHcloud (OKMS) pour renforcer la protection des données."
-updated: 2025-04-10
+excerpt: "Découvrez comment configurer des tâches de sauvegarde chiffrées en utilisant Veeam et le service KMS d’OVHcloud (OKMS) pour renforcer la protection des données"
+updated: 2025-04-22
 ---
 
 ## Objectif
+
 Ce guide explique comment configurer des tâches de sauvegarde chiffrées en utilisant la solution de sauvegarde Veeam et le service KMS d’OVHcloud (OKMS).
 
 ## Prérequis
+
 - Être connecté à [l'espace client OVHcloud](/links/manager).
 - Disposer d'une offre [VMware on OVHcloud](/links/hosted-private-cloud/vmware).
 - Avoir lu les guides : 
@@ -18,7 +20,7 @@ Ce guide explique comment configurer des tâches de sauvegarde chiffrées en uti
 
 ### Étape 1 : Créer un certificat dans OKMS
 
-Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’API, soit [l'espace client OVHcloud](/links/manager).
+Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’[API OVHcloud](/links/api), soit [l'espace client OVHcloud](/links/manager).
 
 #### Option 1 : Utiliser l’API
 
@@ -34,15 +36,15 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’A
 >
 > @api {v1} /okms GET /okms/resource/{okmsId}/credential
 
-> [!note]
-> Cette méthode est équivalente au choix de l’option `I don't have a private key`{.action}dans [l'espace client OVHcloud](/links/manager).
+> [!primary]
+> Cette méthode est équivalente au choix de l’option `I don't have a private key`{.action} dans [l'espace client OVHcloud](/links/manager).
 > Vous pouvez également soumettre un CSR si vous avez déjà votre propre clé privée.
 
 3. Téléchargez la clé privée.
 
 4. Téléchargez le certificat.
 
-> [!info]
+> [!primary]
 > La clé privée téléchargée est utilisée pour générer le fichier `.pfx` à l’étape suivante.
 > Vous n’avez pas besoin de l’importer manuellement dans Veeam, mais elle est requise pour convertir le certificat dans un format compatible.
 > Veillez à la conserver en lieu sûr.
@@ -51,13 +53,13 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’A
 
 1. Dans [l’espace client OVHcloud](/links/manager), cliquez sur `Hosted Private Cloud`{.action} puis sur `Identity, Security & Operations`{.action} et enfin sur `Key Management Service`{.action}. Sélectionnez votre KMS.
 
-![Console Dashboard](images/console_1.png){.thumbnail}
+    ![Console Dashboard](images/console_1.png){.thumbnail}
 
 2. Sélectionnez votre KMS.
 
-![KMS List](images/console_2.png){.thumbnail}
+    ![KMS List](images/console_2.png){.thumbnail}
 
-3. Ouvrez l’onglet `Certificats d’accès`.
+3. Ouvrez l’onglet `Certificats d’accès`{.action}.
 
 ![Access certificates tab](images/veeam_okms_1.png){.thumbnail}
 
@@ -65,25 +67,25 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’A
 
 5. Renseignez les champs requis, puis sélectionnez `Je n’ai pas de clé privée`{.action}.
 
-![Generate Access Certificate - No Private Key](images/veeam_okms_2.png){.thumbnail}
+    ![Generate Access Certificate - No Private Key](images/veeam_okms_2.png){.thumbnail}
 
-> [!note]
+> [!primary]
 > Cela revient à générer un certificat sans CSR, comme avec l’API.
 > Vous pouvez également choisir `J’ai déjà une clé privée` pour générer un certificat à partir de votre propre CSR.
 
-5. Ajoutez des identifiants utilisateur au certificat :
+6. Ajoutez des identifiants utilisateur au certificat :
     - Cliquez sur `Ajouter des identifiants`{.action}
     - Sélectionnez les utilisateurs autorisés
     - Validez l’association au certificat
 
-> [!info]
+> [!primary]
 > Cette étape est indispensable pour que le certificat fonctionne avec Veeam.
 
-6. Téléchargez la clé privée et le certificat.
+7. Téléchargez la clé privée et le certificat.
 
-![Download Certificate](images/veeam_okms_3.png){.thumbnail}
+    ![Download Certificate](images/veeam_okms_3.png){.thumbnail}
 
-### Étape 2 : Conversion du certificat PEM en format PFX
+### Étape 2 : Conversion du certificat PEM au format PFX
 
 Pour importer le certificat dans Veeam, vous devez le convertir au format `.pfx` en utilisant la commande suivante :
 
@@ -124,6 +126,7 @@ Pour récupérer le certificat depuis le serveur OKMS, utilisez la commande suiv
 ```bash
 openssl s_client -connect eu-west-rbx.okms.ovh.net:443 2>/dev/null </dev/null |  sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
 ```
+
 ### Étape 6 : Configuration du chiffrement des tâches de sauvegarde
 
 - Enregistrez le serveur KMS dans votre console Veeam Backup & Replication.
