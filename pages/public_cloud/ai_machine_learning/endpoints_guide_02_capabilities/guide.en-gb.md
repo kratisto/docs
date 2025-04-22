@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Features, Capabilities and Limitations
 excerpt: Find out about current features, capabilities and limitations of AI Endpoints
-updated: 2024-12-03
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -69,7 +69,7 @@ However, we are considering introducing a usage limit feature in the future. Thi
 
 Browse the full [AI Endpoints documentation](/products/public-cloud-ai-and-machine-learning-ai-endpoints) to further understand the main concepts and get started.
 
-To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated [AI Endpoints blog page](https://blog.ovhcloud.com/tag/ai-endpoints/).
+To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated [AI Endpoints guides](/products/public-cloud-ai-and-machine-learning-ai-endpoints).
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 

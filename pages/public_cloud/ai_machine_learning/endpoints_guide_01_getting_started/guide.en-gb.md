@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Getting started
 excerpt: Discover AI Endpoints, the secure serverless platform by OVHcloud for developers to access top AI models with easy-to-use APIs. No AI expertise needed.
-updated: 2025-02-10
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -154,11 +154,11 @@ For your convenience, you can monitor your estimated consumption and resource us
 
 ## Going further
 
-To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated [AI Endpoints blog page](https://blog.ovhcloud.com/tag/ai-endpoints/). This blog offers a wealth of knowledge and inspiration, including the following articles:
+To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated AI Endpoints guides which offer a wealth of knowledge and inspiration, including the following subjects:
 
-- [Create your own Audio Summarizer assistant with AI Endpoints](https://blog.ovhcloud.com/create-audio-summarizer-assistant-with-ai-endpoints/)
-- [Implement chatbot memory management with LangChain and AI Endpoints](https://blog.ovhcloud.com/chatbot-memory-management-with-langchain-and-ai-endpoints/)
-- [Discover how to create a Retrieval Augmented Generation (RAG) system](https://blog.ovhcloud.com/reference-architecture-retrieval-augmented-generation-rag/)
+- [Create your own Audio Summarizer assistant with AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_01_audio_summarizer)
+- [Implement chatbot memory management with LangChain and AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_09_chatbot_memory_langchain)
+- [Discover how to create a Retrieval Augmented Generation (RAG) system](/pages/public_cloud/ai_machine_learning/endpoints_tuto_11_rag_chatbot_langchain)
 - [Discover more about AI Endpoints features and limitations](/pages/public_cloud/ai_machine_learning/endpoints_guide_02_capabilities)
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.

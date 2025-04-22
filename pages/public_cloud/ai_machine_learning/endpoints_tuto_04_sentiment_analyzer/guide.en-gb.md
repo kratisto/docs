@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a sentiment analyzer
 excerpt: Build a sentiment analyzer with AI Endpoints and Java using Quarkus
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

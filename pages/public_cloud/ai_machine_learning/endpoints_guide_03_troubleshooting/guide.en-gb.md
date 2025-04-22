@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Troubleshooting
 excerpt: Find out how to resolve issues when using AI Endpoints
-updated: 2025-03-14
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -34,7 +34,7 @@ When making a request to the LLMs endpoints in AI Endpoints, you can customize s
 
 ### I am interested in creating a code assistant with Continue and AI Endpoints. Do you have any documentation on how to set this up?
 
-Yes, we have [a guide that explains how to configure Continue to work with AI Endpoints](https://blog.ovhcloud.com/create-a-code-assistant-with-continue-and-ai-endpoints/). Continue is an IDE plugin that allows you to build your own code assistant by using a custom LLM endpoint. This guide will walk you through the steps to configure Continue to work with AI Endpoints, including how to specify the endpoint URL and how to authenticate your requests.
+Yes, we have [a guide that explains how to configure Continue to work with AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_03_code_assistant_continue). Continue is an IDE plugin that allows you to build your own code assistant by using a custom LLM endpoint. This guide will walk you through the steps to configure Continue to work with AI Endpoints, including how to specify the endpoint URL and how to authenticate your requests.
 
 ## Errors codes and unexpected behaviours
 

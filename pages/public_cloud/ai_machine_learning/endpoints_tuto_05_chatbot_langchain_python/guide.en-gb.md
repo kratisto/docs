@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Build a Python Chatbot with LangChain
 excerpt: Learn how to build a chatbot in Python using LangChain and OVHcloud AI Endpoints
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

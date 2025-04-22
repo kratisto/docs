@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create your own voice assistant
 excerpt: Create a voice-enabled chatbot using ASR, LLM, and TTS endpoints in under 100 lines of code
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

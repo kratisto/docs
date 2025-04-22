@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Build a JavaScript Chatbot with LangChain
 excerpt: Learn how to build a chatbot using JavaScript, LangChain, and AI Endpoints
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

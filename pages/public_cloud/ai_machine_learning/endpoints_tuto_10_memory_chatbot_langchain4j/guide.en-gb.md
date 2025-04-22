@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a Memory Chatbot with LangChain4j
 excerpt: Learn how to implement memory in a Java-based chatbot using LangChain4j and AI Endpoints
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

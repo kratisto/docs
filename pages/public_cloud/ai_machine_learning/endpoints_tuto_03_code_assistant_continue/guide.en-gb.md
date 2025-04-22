@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Create a code assistant with Continue
 excerpt: Build your own code assistant directly in VSCode or JetBrains IDEs using the Continue plugin
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]

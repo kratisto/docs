@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Billing and lifecycle
 excerpt: Learn how we bill AI Endpoints
-updated: 2025-03-13
+updated: 2025-04-28
 ---
 
 > [!primary]
