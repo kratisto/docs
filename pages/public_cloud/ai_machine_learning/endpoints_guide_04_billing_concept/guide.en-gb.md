@@ -31,12 +31,7 @@ By following this model lifecycle process, OVHcloud ensures that customers are w
 
 ## Billing principles
 
-Here is the model billing overview for AI Endpoints.
-
-> [!primary]
->
-> Please note that, as we are currently in the beta phase, the product is free during this period. Once the product is officially launched, the pricing will be determined and communicated accordingly in the table below, which presents the categories, models, and their respective pricing information:
->
+Here is the model billing overview for AI Endpoints:
 
 | Category        | Model            | Price ($)  | Price (€)  | Unit Price |
 | -------------- | --------------- | ------ | ------ | ---------- |
