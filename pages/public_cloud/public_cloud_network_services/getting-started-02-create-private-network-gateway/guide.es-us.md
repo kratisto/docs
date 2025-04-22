@@ -1,7 +1,7 @@
 ---
 title: Creating a private network with Gateway (EN)
 excerpt: Discover how to create a Private network with a Gateway
-updated: 2024-03-08
+updated: 2025-04-22
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenS
 > [!tabs]
 > **Step 1**
 >>
->> Log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project.
+>> Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and open your Public Cloud project.
 >>
 >> Click on `Gateway`{.action} in the left-hand menu under **Network**.
 >>
@@ -40,26 +40,30 @@ This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenS
 >>
 > **Step 2**
 >>
->> First, select your gateway size.
->> 
->> ![gateway size selection](images/gatewaysize.png){.thumbnail}
+>> First, select a location. It is best to create a Public Gateway in the region where you intend to deploy your private instances.
+>>
+>> ![select location](images/select_region_ca.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> In the next step, select your gateway size.
+>>
+>> ![gateway size selection](images/select_size.png){.thumbnail}
 >>
 >> |Size|Bandwith|Cost|
 >> |---|---|---|
 >> |S|up to 200Mbps|2€/month, excluding tax|
 >> |M|up to 500Mbps|8€/month, excluding tax|
 >> |L|up to 2Gbps|35€/month, excluding tax|
->>
-> **Step 3**
->>
->> In the next step, select a location. It is best to create a Public Gateway in the region where you intend to deploy your private instances.
->>
->> ![select location](images/selectregion.png){.thumbnail}
+>> |XL|up to 4Gbps|121€/month, excluding tax|
+>> |2XL|up to 8Gbps|304€/month, excluding tax|
 >>
 > **Step 4**
 >>
->> The next step allows you to edit the default name of your gateway and attach a private network to it. You can use the drop down list to select an existing private network. Be aware that only single-region private networks are supported by Gateway.
+>> The next step allows you to edit the default name of your gateway and attach a private network to it. You can use the drop down list to select an existing private network or click on `Add private network`{.action} to create a new one. 
 >>
+>> Be aware that only single-region private networks are supported by Gateway.
+
 >> ![dropdownlist](images/gatewayandprivatenetwork.png){.thumbnail}
 >>
 >> Otherwise, click on `Add a private network`{.action} to create a new one (in simplified dialog box with predefined values).

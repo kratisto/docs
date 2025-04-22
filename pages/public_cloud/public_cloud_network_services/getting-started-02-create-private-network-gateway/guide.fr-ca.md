@@ -1,7 +1,7 @@
 ---
 title: Créer un réseau privé avec une Gateway
 excerpt: "Découvrez comment créer un réseau Privé avec une Gateway via l'espace client OVHcloud, l'API Openstack ou l'API OVHcloud"
-updated: 2024-12-24
+updated: 2025-04-22
 ---
 
 ## Objectif
@@ -28,7 +28,7 @@ Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/l
 > [!tabs]
 > **Etape 1**
 >>
->> Connectez-vous à votre [espace client OVHcloud](/links/manager) et ouvrez votre projet `Public Cloud`{.action}.
+>> Connectez-vous à [l’espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 >>
 >> Cliquez sur `Gateway`{.action} dans le menu de gauche sous l'onglet **Network**.
 >>
@@ -40,25 +40,29 @@ Ces opérations peuvent être réalisées depuis l’[espace client OVHcloud](/l
 >>
 > **Etape 2**
 >>
->> Sélectionnez tout d'abord la taille de votre Public Gateway.
+>> Sélectionnez tout d'abord une localisation pour votre Gateway. Il est préférable de créer une Public Gateway dans la région dans laquelle vous avez l'intention de déployer vos instances privées.
 >> 
->> ![sélection d'une taille de gateway](images/gatewaysize.png){.thumbnail}
+>> ![sélection de la région](images/select_region.png){.thumbnail}
 >>
 >> |Dimension|Bande passante|Tarif|
 >> |---|---|---|
 >> |S|jusqu’à 200Mbps|2€/mois, hors taxes|
 >> |M|jusqu’à 500Mbps|8€/mois, hors taxes|
 >> |L|jusqu’à 2Gbps|35€/mois, hors taxes|
+>> |XL|jusqu’à 4gbps|121€/mois, hors taxes|
+>> |2XL|jusqu’à 8Gbps|304€/mois, hors taxes|
 >>
 > **Etape 3**
 >>
->> Sélectionnez ensuite une localisation pour votre Gateway. Il est préférable de créer une Public Gateway dans la région dans laquelle vous avez l'intention de déployer vos instances privées.
+>> Sélectionnez ensuite la taille de votre Public Gateway.
 >>
->> ![sélection de la région](images/selectregion.png){.thumbnail}
+>> ![sélection d'une taille de gateway](images/select_size.png){.thumbnail}
 >>
 > **Etape 4**
 >>
->> La prochaine étape permet d'éditer le nom par défaut de votre Public Gateway et d'y associer un réseau privé. Vous pouvez utiliser la flèche déroulante pour sélectionner un réseau privé existant. Attention, seuls les réseaux privés à région unique sont pris en charge par Gateway.
+>> La prochaine étape permet d'éditer le nom par défaut de votre Public Gateway et d'y associer un réseau privé. Vous pouvez utiliser la flèche déroulante pour sélectionner un réseau privé existant ou cliquez sur `Ajouter un réseau privé`{.action} pour en créer un nouveau. 
+>>
+>> Attention, seuls les réseaux privés à région unique sont pris en charge par Gateway.
 >>
 >> ![menu déroulant](images/gatewayandprivatenetwork.png){.thumbnail}
 >>
