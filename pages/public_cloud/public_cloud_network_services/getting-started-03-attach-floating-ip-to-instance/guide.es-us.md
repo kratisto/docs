@@ -1,5 +1,5 @@
 ---
-title: Attaching a Floating IP to a Public Cloud instance (EN)
+title: Attaching a Floating IP to a Public Cloud instance
 excerpt: Find out how a Floating IP address functions and how to configure it
 updated: 2024-03-26
 ---
@@ -12,8 +12,8 @@ Floating IPs are public IP addresses for [Public Cloud](https://www.ovhcloud.com
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/es/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud API](https://ca.api.ovh.com/), the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- Access to the [OVHcloud API](/links/api), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
 - The [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html){.external} tool installed on your working environment (optional)
 
 ## Understanding the Floating IP service
@@ -34,9 +34,9 @@ Next, we will use this Floating IP to connect to the instance (VM) from the outs
 
 ## Instructions
 
-### Via the OVHcloud Control Panel
+### Attaching a Floating IP to an instance
 
-#### Attaching a Floating IP to an instance
+#### Via the OVHcloud Control Panel
 
 > [!success]
 > Click one of the two tabs below depending on whether you want to attach a Floating IP to a new instance (**Option 1**) or an existing instance (**Option 2**).
@@ -48,7 +48,7 @@ Next, we will use this Floating IP to connect to the instance (VM) from the outs
 >>
 >> If you wish to attach a Floating IP to an existing instance, please skip to **Option 2** (second tab above).
 >>
->> Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
+>> Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
 >> 
 >> Before creating your instance, make sure you have created a [private network with Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway).
 >>
@@ -56,7 +56,7 @@ Next, we will use this Floating IP to connect to the instance (VM) from the outs
 >>
 >>
 >> > [!warning]
->> > As of today, all regions do not support this feature. Make sure to create an instance in a valid region. For more information, please refer to our [regions availability](https://www.ovhcloud.com/es/public-cloud/regions-availability/) page. 
+>> > As of today, all regions do not support this feature. Make sure to create an instance in a valid region. For more information, please refer to our [regions availability](/links/public-cloud/regions-pci) page. 
 >> > 
 >>
 >> In Step 5, you have the option to choose a mode for your instance: Public mode or Private mode to be used for your instance networking. 
@@ -139,9 +139,9 @@ In the `Floating IP`{.action} tab, click on the `...`{.action} next to the corre
 
 In the pop-up window, proceed with the deletion of the IP by clicking on `Confirm`{.action}.
 
-### Via the OpenStack API
+/// details | Unfold this section
 
-#### Attaching a Floating IP to an instance
+#### Via the OpenStack API
 
 > [!success]
 > Click on the tabs below to view each of the 9 steps in turn.
@@ -383,9 +383,11 @@ $ openstack floating ip delete 169.254.10.25
 $ openstack floating ip list
 ```
 
-### Via the OVHcloud API
+///
 
-#### Attaching a Floating IP to an instance
+#### Via the OVHcloud API
+
+/// details | Unfold this section
 
 With the OVHcloud API, you can only attach a Floating IP to an existing instance.
 
@@ -508,8 +510,10 @@ Once the information has been retrieved, use the following call to delete the Fl
 > - **regionName**: The name of the region in which the floating is located
 > - **floatingIpId**: The ID of the Floating IP
 
+///
+
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/es/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

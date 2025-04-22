@@ -12,8 +12,8 @@ Les Floating IP sont des adresses IP publiques sur [Public Cloud](https://www.ov
 
 ## Prérequis
 
-- Un projet [Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) existant sur votre compte OVHcloud
-- Avoir accès à [l’API OVHcloud](https://ca.api.ovh.com/) ou à [l’espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc) ou à l’environnement OpenStack en ligne de commande (si besoin, consultez notre [tutoriel](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
+- Un projet [Public Cloud](/links/public-cloud/public-cloud) existant sur votre compte OVHcloud
+- Avoir accès à [l’API OVHcloud](/links/api) ou à [l’espace client OVHcloud](/links/manager) ou à l’environnement OpenStack en ligne de commande (si besoin, consultez notre [tutoriel](/pages/public_cloud/public_cloud_cross_functional/prepare_the_environment_for_using_the_openstack_api))
 - L’outil [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html){.external} installé sur votre environnement de travail (facultatif)
 
 ## Comprendre le service Floating IP
@@ -34,9 +34,9 @@ Ensuite, nous utiliserons cette Floating IP pour nous connecter à l'instance (V
 
 ## En pratique
 
-### Depuis l’espace client OVHcloud
+### Attacher une Floating IP à une instance
 
-#### Attacher une Floating IP à une instance
+#### Depuis l’espace client OVHcloud
 
 > [!success]
 > Cliquez sur l'un des deux onglets ci-dessous selon que vous souhaitez associer une Floating IP à une nouvelle instance (**Option 1**) ou à une instance déjà existante (**Option 2**).
@@ -48,7 +48,7 @@ Ensuite, nous utiliserons cette Floating IP pour nous connecter à l'instance (V
 >>
 >> Si vous souhaitez associer une Floating IP à une instance existante, passez à **l'Option 2** (deuxième onglet ci-dessus).
 >>
->> Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
+>> Connectez-vous à votre [espace client OVHcloud](/links/manager), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 >> 
 >> Avant de créer votre instance, assurez-vous d'avoir créé un [réseau privé avec Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway).
 >>
@@ -56,7 +56,7 @@ Ensuite, nous utiliserons cette Floating IP pour nous connecter à l'instance (V
 >>
 >>
 >> > [!warning]
->> > A ce jour, toutes les régions ne sont pas compatibles avec cette fonctionnalité. Veillez à créer une instance dans une région qui le permet. Pour plus d'informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](https://www.ovhcloud.com/fr-ca/public-cloud/regions-availability/).
+>> > A ce jour, toutes les régions ne sont pas compatibles avec cette fonctionnalité. Veillez à créer une instance dans une région qui le permet. Pour plus d'informations, veuillez vous référer à notre page sur la [disponibilité des produits Public Cloud pour chaque région](/links/public-cloud/regions-pci).
 >> >
 >>
 >> À l'étape 5 de la création d'une instance, vous est proposé le choix du « mode public » ou « mode privé » pour la mise en réseau de votre instance. 
@@ -133,9 +133,10 @@ Dans l'onglet `Floating IP`{.action}, cliquez sur le bouton `...`{.action} à c�
 
 Dans la fenêtre qui s'affiche, cliquez sur `Confirmer`{.action}. L'opération peut prendre quelques minutes.
 
-### Depuis l'API OpenStack
+/// details | Dépliez cette section
 
-#### Attacher une Floating IP à une instance
+#### Depuis l'API OpenStack
+
 
 > [!success]
 > Cliquez sur les onglets ci-dessous pour afficher et suivre successivement chacune des 9 étapes.
@@ -378,9 +379,11 @@ $ openstack floating ip list
 $
 ```
 
+///
+
 ### Depuis l'API OVHcloud
 
-#### Attacher une Floating IP à une instance
+/// details | Dépliez cette section
 
 L'API OVHcloud vous permet d'associer une Floating IP uniquement à une instance existante.
 
@@ -501,8 +504,10 @@ Une fois les informations récupérées, utilisez l'appel suivant pour supprimer
 > - **regionName** : le nom de la région où se trouve l'IP
 > - **floatingIpId** : ID de l'adresse Floating IP
 
+///
+
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
