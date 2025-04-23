@@ -20,7 +20,7 @@ details[open]>summary::before {
 
 ## Ziel
 
-Seit April 2025 haben die Teams von OVHcloud eine neue Navigation in Ihrem Kundencenter eingeführt, um die Verwaltung Ihres Accounts und Ihrer Dienste zu vereinfachen.
+Seit April 2025 haben die Teams von OVHcloud eine neue Navigation in Ihrem Kundencenter eingerichtet, um die Verwaltung Ihres Accounts und Ihrer Dienste zu vereinfachen.
 
 **In dieser Anleitung erhalten Sie eine kurze Einführung in die Navigation im OVHcloud Kundencenter.**
 
@@ -40,7 +40,7 @@ Greifen Sie jederzeit auf die Verwaltung Ihres Accounts zu, indem Sie oben recht
 
 Klicken Sie auf Ihren Namen, um Ihr Profil, Ihre Zahlungsarten und Ihren Support zu aktualisieren.<br>
 Über das gleiche Menü haben Sie schnellen Zugriff auf Ihre Rechnungen, Bestellungen und die Verwaltung Ihrer Dienstleistungen.<br>
-Sie finden dort auch Links zu den von OVHcloud versandten E-Mails (`Meine Anrufe`{.action}) und den verschiedenen Kontakten, die mit Ihren Diensten verbunden sind.
+Sie finden dort auch Links zu den von OVHcloud versandten E-Mails (`Meine Kommunikation`{.action}) und den verschiedenen Kontakten, die mit Ihren Diensten verbunden sind.
 
 ![Kundencenter - Meinen Account verwalten](images/02-account-menu.png){.thumbnail width="1000"}
 
@@ -60,7 +60,7 @@ Sie finden dort auch Links zu den von OVHcloud versandten E-Mails (`Meine Anrufe
 
 Das Menü für den Zugriff auf die OVHcloud Dienste befindet sich nun links im Kundencenter. Sie haben Zugriff auf sämtliche OVHcloud Dienste, sodass Sie Ihr Angebot problemlos mit zusätzlichen und angepassten Diensten ergänzen können.
 
-Ihre Dienste sind mit einem blauen Kästchen gekennzeichnet<sup>1</sup>.
+Ihre Dienste sind mit einem blauen Kreis gekennzeichnet<sup>1</sup>.
 
 ![Kundencenter - Meine Dienste](images/03-services.png){.thumbnail width="1000"}
 
@@ -75,7 +75,7 @@ Unten links im Kundencenter finden Sie die Shortcuts, um unsere Partner auf unse
 /// details | Nützliche Links
 
 - [Das Help Center von OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help)
-- [OVHcloud Marketplace](https://marketplace.ovhcloud.com/en)
+- [OVHcloud Partner-Suche](/links/partner)
 - [OVHcloud Status](https://www.status-ovhcloud.com/en)
 - [How to get the carbon footprint of your OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/carbon_footprint) (EN)
 
@@ -85,4 +85,4 @@ Unten links im Kundencenter finden Sie die Shortcuts, um unsere Partner auf unse
 
 Treten Sie unserer [User Community](/links/community) bei.
 
-<sup>1</sup>: Nicht verfügbar für Public Cloud-Dienste.
+<sup>1</sup>: Nicht verfügbar für Public Cloud Dienste.

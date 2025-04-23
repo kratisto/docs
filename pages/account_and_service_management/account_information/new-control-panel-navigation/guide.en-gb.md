@@ -26,7 +26,7 @@ Since April 2025, OVHcloud teams have introduced a new navigation in your Contro
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](/links/manager).
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -40,7 +40,7 @@ Access your account management at any time by clicking on your name in the top r
 
 Click your name to update your profile, payment methods, and support level.<br>
 The same menu gives you quick access to your invoices, orders and management of your services.<br>
-You will also find links to service emails sent by OVHcloud (`My communications`{.action}) and the different contacts linked to your services.
+You will also find links to service emails sent by OVHcloud (`My messages`{.action}) and the different contacts linked to your services.
 
 ![Control Panel - Manage my account](images/02-account-menu.png){.thumbnail width="1000"}
 
@@ -75,7 +75,7 @@ In the bottom left-hand corner of the OVHcloud Control Panel, there are shortcut
 /// details | Useful links
 
 - [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help)
-- [OVHcloud Marketplace](https://marketplace.ovhcloud.com/)
+- [OVHcloud partner directory](/links/partner)
 - [OVHcloud Status](https://www.status-ovhcloud.com/)
 - [How to get the carbon footprint of your OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/carbon_footprint)
 
