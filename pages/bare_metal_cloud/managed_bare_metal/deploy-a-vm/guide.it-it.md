@@ -27,7 +27,7 @@ Per effettuare l’operazione clicca con il tasto destro sul cluster in question
 
 Per creare una macchina virtuale è possibile scegliere tra diverse opzioni:
 
-- Da un file ISO, disponibile nel datastore (per importarlo, consulta la [guida di connessione in SFTP](/pages/bare_metal_cloud/managed_bare_metal/sftp-connexion)).
+- Da un file ISO, disponibile nel datastore.
 - Da un template personale o [fornito da OVHcloud](/pages/bare_metal_cloud/managed_bare_metal/ovf_template).
 - Clonare una VM già esistente, prestando particolare attenzione agli eventuali conflitti di indirizzi IP.
 - Clonare una VM in un template per un’implementazione più rapida delle future macchine virtuali.

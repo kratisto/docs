@@ -27,7 +27,7 @@ Klicken Sie mit der rechten Maustaste auf den Cluster Ihrer Wahl und dann auf `N
 
 Sie haben mehrere Optionen, um eine virtuelle Maschine zu erstellen:
 
-- Per ISO-Datei, verfügbar in Ihrem Datastore (um die Datei zu importieren, befolgen Sie die [Anleitung zur Verbindung via SFTP](/pages/bare_metal_cloud/managed_bare_metal/sftp-connexion)).
+- Per ISO-Datei, verfügbar in Ihrem Datastore.
 - über ein eigenes oder ein [von OVHcloud bereitgestelltes](/pages/bare_metal_cloud/managed_bare_metal/ovf_template) Template.
 - Durch Klonen einer bereits vorhandenen virtuellen Maschine (achten Sie darauf, mögliche Konflikte in der IP-Adressierung zu vermeiden).
 - Durch Klonen einer virtuellen Maschine als Template, für ein schnelleres Deployment der nächsten virtuellen Maschinen.

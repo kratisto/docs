@@ -27,7 +27,7 @@ Faites un clic-droit sur le cluster de votre choix et cliquez sur `Nouvelle mach
 
 Vous avez plusieurs possibilité lors de la création d’une machine virtuelle :
 
-- La création depuis un ISO, qui sera dans votre datastore et que vous aurez pu importer en suivant [le guide de connexion en SFTP](/pages/bare_metal_cloud/managed_bare_metal/sftp-connexion)
+- La création depuis un ISO, qui sera dans votre datastore
 - Vous pouvez également déployer une machine virtuelle depuis un template que vous pouvez avoir ou un [template OVHcloud](/pages/bare_metal_cloud/managed_bare_metal/ovf_template)
 - Vous pouvez cloner une machine virtuelle déjà existante (attention toutefois au risque de conflit d’adresses IP).
 - Vous pouvez cloner une machine virtuelle en template, en vue d’un déploiement plus rapide de vos prochaines machines virtuelles.
