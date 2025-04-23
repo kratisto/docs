@@ -64,7 +64,7 @@ Windows-Benutzer können dieser Anleitung folgen, um die Umgebungsvariablen zu e
 
 Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus.
 
-Klicken Sie auf `Users & Roles`{.action} im Bereich `Project Management` und dann auf `...`{.action} rechts neben Ihrem OpenStack-Benutzer.<br>
+Klicken Sie auf `Users & Roles`{.action} im Bereich `Project Management` und dann auf `...`{.action} rechts neben Ihrem OpenStack-Benutzer.  
 Laden Sie die OpenRC-Datei dieses Benutzers herunter und geben Sie die Region an, in der Sie Aktionen durchführen möchten.
 
 ![OpenRC Datei herunterladen](images/openrc.png){.thumbnail}
@@ -163,4 +163,4 @@ openstack --os-auth-type token token revoke $OS_TOKEN
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.
