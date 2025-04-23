@@ -1,6 +1,6 @@
 ---
 title: "Présentation de la nouvelle navigation dans l'espace client OVHcloud"
-excerpt: "Découvrez comment accéder à votre compte et vos services dans la nouvelle version de l'espace client OVHcloud"
+excerpt: "Découvrez comment accéder à votre compte et à vos services dans la nouvelle version de l'espace client OVHcloud"
 updated: 2025-04-24
 ---
 
@@ -66,7 +66,7 @@ Les services que vous possédez sont signalés par une pastille bleue<sup>1</sup
 
 ### Raccourcis supplémentaires
 
-En bas à gauche de l'espace client, des raccourcis vous permettent de découvrir nos vendeurs partenaires sur notre Marketplace, de rester informé de l'état de vos services en temps réél et d'estimer votre empreinte carbone.
+En bas à gauche de l'espace client, des raccourcis vous permettent de découvrir nos vendeurs partenaires sur notre Marketplace, de rester informé de l'état de vos services en temps réel et d'estimer votre empreinte carbone.
 
 **Besoin d'aide ?** Accédez au centre d'aide, à vos demandes d'assistance ainsi qu'au Live Chat pour obtenir des réponses à vos questions.
 
