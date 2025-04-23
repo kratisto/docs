@@ -26,28 +26,28 @@ You can create your access certificate in OKMS using either the [OVHcloud  API](
 
 1. Generate the private key using the API (no CSR):
 
-> [!api]
->
-> @api {v1} /okms POST / /okms/resource/{okmsId}/credential
+    > [!api]
+    >
+    > @api {v1} /okms POST / /okms/resource/{okmsId}/credential
 
 2. Retrieve the certificate using a GET request:
 
-> [!api]
->
-> @api {v1} /okms GET /okms/resource/{okmsId}/credential
+    > [!api]
+    >
+    > @api {v1} /okms GET /okms/resource/{okmsId}/credential
 
-> [!primary]
-> This method is equivalent to selecting `I don't have a private key`{.action} in the [OVHcloud Control Panel](/links/manager) interface.
-> You may also submit a CSR if you already have your own private key.
+    > [!primary]
+    > This method is equivalent to selecting `I don't have a private key`{.action} in the [OVHcloud Control Panel](/links/manager) interface.
+    > You may also submit a CSR if you already have your own private key.
 
 3. Download the private key.
 
 4. Download the certificate.
 
-> [!primary]
-> The downloaded private key is used to generate the `.pfx` file in the next step.
-> You don't need to import it manually into Veeam, but it is required to convert the certificate into a compatible format.
-> Make sure to store it securely.
+    > [!primary]
+    > The downloaded private key is used to generate the `.pfx` file in the next step.
+    > You don't need to import it manually into Veeam, but it is required to convert the certificate into a compatible format.
+    > Make sure to store it securely.
 
 #### Option 2: Using the [OVHcloud Control Panel](/links/manager)
 
@@ -69,17 +69,17 @@ You can create your access certificate in OKMS using either the [OVHcloud  API](
 
     ![Generate Access Certificate - No Private Key](images/veeam_okms_2.png){.thumbnail}
 
-> [!primary]
-> This is the same as generating a certificate without a CSR, like with the API.
-> You can also choose `I already have a private key` to generate a certificate using your own CSR.
+    > [!primary]
+    > This is the same as generating a certificate without a CSR, like with the API.
+    > You can also choose `I already have a private key` to generate a certificate using your own CSR.
 
 6. Add user IDs to the certificate:
     - Click `Add user IDs`{.action}
     - Select the authorized users
     - Confirm to associate the certificate
 
-> [!primary]
-> This step is required for the certificate to work with Veeam.
+    > [!primary]
+    > This step is required for the certificate to work with Veeam.
 
 7. Download the private key and the certificate.
 

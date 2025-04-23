@@ -26,28 +26,28 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’[
 
 1. Générez la clé privée avec l’API (sans CSR) :
 
-> [!api]
->
-> @api {v1} /okms POST / /okms/resource/{okmsId}/credential
+    > [!api]
+    >
+    > @api {v1} /okms POST / /okms/resource/{okmsId}/credential
 
 2. Récupérez le certificat avec une requête GET :
 
-> [!api]
->
-> @api {v1} /okms GET /okms/resource/{okmsId}/credential
+    > [!api]
+    >
+    > @api {v1} /okms GET /okms/resource/{okmsId}/credential
 
-> [!primary]
-> Cette méthode est équivalente au choix de l’option `I don't have a private key`{.action} dans [l'espace client OVHcloud](/links/manager).
-> Vous pouvez également soumettre un CSR si vous avez déjà votre propre clé privée.
+    > [!primary]
+    > Cette méthode est équivalente au choix de l’option `I don't have a private key`{.action} dans [l'espace client OVHcloud](/links/manager).
+    > Vous pouvez également soumettre un CSR si vous avez déjà votre propre clé privée.
 
 3. Téléchargez la clé privée.
 
 4. Téléchargez le certificat.
 
-> [!primary]
-> La clé privée téléchargée est utilisée pour générer le fichier `.pfx` à l’étape suivante.
-> Vous n’avez pas besoin de l’importer manuellement dans Veeam, mais elle est requise pour convertir le certificat dans un format compatible.
-> Veillez à la conserver en lieu sûr.
+    > [!primary]
+    > La clé privée téléchargée est utilisée pour générer le fichier `.pfx` à l’étape suivante.
+    > Vous n’avez pas besoin de l’importer manuellement dans Veeam, mais elle est requise pour convertir le certificat dans un format compatible.
+    > Veillez à la conserver en lieu sûr.
 
 #### Option 2 : Utiliser [l'espace client OVHcloud](/links/manager).
 
@@ -61,7 +61,7 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’[
 
 3. Ouvrez l’onglet `Certificats d’accès`{.action}.
 
-![Access certificates tab](images/veeam_okms_1.png){.thumbnail}
+    ![Access certificates tab](images/veeam_okms_1.png){.thumbnail}
 
 4. Cliquez sur `Générer un certificat d’accès`{.action}.
 
@@ -69,17 +69,17 @@ Vous pouvez créer votre certificat d’accès dans OKMS en utilisant soit l’[
 
     ![Generate Access Certificate - No Private Key](images/veeam_okms_2.png){.thumbnail}
 
-> [!primary]
-> Cela revient à générer un certificat sans CSR, comme avec l’API.
-> Vous pouvez également choisir `J’ai déjà une clé privée` pour générer un certificat à partir de votre propre CSR.
+    > [!primary]
+    > Cela revient à générer un certificat sans CSR, comme avec l’API.
+    > Vous pouvez également choisir `J’ai déjà une clé privée` pour générer un certificat à partir de votre propre CSR.
 
 6. Ajoutez des identifiants utilisateur au certificat :
     - Cliquez sur `Ajouter des identifiants`{.action}
     - Sélectionnez les utilisateurs autorisés
     - Validez l’association au certificat
 
-> [!primary]
-> Cette étape est indispensable pour que le certificat fonctionne avec Veeam.
+    > [!primary]
+    > Cette étape est indispensable pour que le certificat fonctionne avec Veeam.
 
 7. Téléchargez la clé privée et le certificat.
 
