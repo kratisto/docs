@@ -1,7 +1,7 @@
 ---
 title: "Jak konfigurować IPv6 w instancji Public Cloud"
 excerpt: "Dowiedz się, jak skonfigurować protokół IPv6 w instancji Public Cloud"
-updated: 2024-03-05
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Domyślnie skonfigurowany jest tylko adres IPv4.
 * Dowolny model instancji Public Cloud.
 * Dostęp administracyjny (sudo) przez SSH lub zdalny pulpit (Windows) do Twojego serwera
 * Posiadanie podstawowej wiedzy w zakresie sieci informatycznych.
-* Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)
+* Dostęp do [Panelu klienta OVHcloud](/links/manager)
 
 ## W praktyce
 
@@ -51,7 +51,7 @@ Oto krótki słowniczek terminów stosowanych w tym tutorialu:
 
 ### Pobranie danych sieciowych
 
-Zaloguj się do panelu klienta, kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instances`{.action} w menu bocznym po lewej stronie. Następnie kliknij na `...`{.action} obok odpowiadającej instancji i kliknij na `Szczegóły instancji`{.action}.
+Zaloguj się do panelu klienta, kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instancje`{.action} w menu bocznym po lewej stronie. Następnie kliknij na `...`{.action} obok odpowiadającej instancji i kliknij na `Szczegóły instancji`{.action}.
 
 ![public-cloud ipv6](images/pci2022.png){.thumbnail}
 
@@ -64,9 +64,9 @@ Wszystkie niezbędne informacje będą widoczne w sekcji **Sieci**.
 > [!primary] 
 > **Przykłady**
 > 
->Poniższe przykłady mają jedynie charakter poglądowy.
+> Poniższe przykłady mają jedynie charakter poglądowy.
 >
->Twoim obowiązkiem jako administratora usługi jest dostosowanie ich do posiadanej dystrybucji.
+> Twoim obowiązkiem jako administratora usługi jest dostosowanie ich do posiadanej dystrybucji.
 >
 
 > [!warning]

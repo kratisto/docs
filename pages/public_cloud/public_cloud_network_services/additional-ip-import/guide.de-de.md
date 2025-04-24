@@ -1,7 +1,7 @@
 ---
 title: Additional IP importieren
 excerpt: "Erfahren Sie hier, wie Sie eine Additional IP-Adresse in ein Public Cloud Projekt importieren"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ Im OVHcloud Kundencenter können Sie eine Additional IP-Adresse, die mit einem a
 ## Voraussetzungen
 
 - Sie haben ein [Public Cloud Projekt](https://www.ovhcloud.com/de/public-cloud) in Ihrem Kunden-Account.
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie verfügen über eine [Additional IP-Adresse](https://www.ovhcloud.com/de/bare-metal/ip/).
 
 > [!warning]
@@ -33,9 +33,9 @@ Im OVHcloud Kundencenter können Sie eine Additional IP-Adresse, die mit einem a
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und wählen Sie im Bereich `Public Cloud`{.action} Ihr Projekt aus.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus.
 
-Öffnen Sie im linken Menü `Public IPs`{.action} unter `Network`.
+Öffnen Sie im linken Menü `Öffentliche IPs`{.action} unter **Network**.
 
 Öffnen Sie den Tab `Additional IP`{.action} und klicken Sie auf den Button `Aktionen`{.action}. Wählen Sie `Eine Additional IP importieren`{.action}, um alle IP-Adressen anzuzeigen, die in Ihr Public Cloud Projekt importiert werden können.
 
@@ -74,6 +74,6 @@ Im nächsten Schritt muss die IP-Adresse in Ihrem Betriebssystem konfiguriert we
 
 ## Weiterführende Informationen
 
-Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](https://www.ovhcloud.com/de/professional-services/), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
+Wenn Sie Schulungen oder technische Unterstützung bei der Implementierung unserer Lösungen benötigen, wenden Sie sich an Ihren Vertriebsmitarbeiter oder klicken Sie auf [diesen Link](/links/professional-services), um einen Kostenvoranschlag zu erhalten und eine persönliche Analyse Ihres Projekts durch unsere Experten des Professional Services Teams anzufordern.
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Treten Sie unserer [User Community](/links/community) bei.

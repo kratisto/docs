@@ -1,7 +1,7 @@
 ---
 title: Eine Additional IP erwerben
 excerpt: "Erfahren Sie hier, wie Sie für Ihre Instanzen Additional IP-Adressen bestellen können"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Diese Additional IPs können nur für Instanzen desselben Projekts migriert werd
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben mindestens eine [Public Cloud Instanz](/pages/public_cloud/compute/public-cloud-first-steps) in Ihrem Kunden-Account.
 
 > [!warning]
@@ -37,9 +37,9 @@ Diese Additional IPs können nur für Instanzen desselben Projekts migriert werd
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und wählen Sie im Bereich `Public Cloud`{.action} Ihr Projekt aus.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus.
 
-Öffnen Sie im linken Menü `Public IPs`{.action} unter `Network`.
+Öffnen Sie im linken Menü `Öffentliche IPs`{.action} unter **Network**.
 
 Öffnen Sie den Tab `Additional IP`{.action} und klicken Sie auf den Button `Aktionen`{.action}. Wählen Sie `Eine neue IP hinzufügen`{.action}.
 

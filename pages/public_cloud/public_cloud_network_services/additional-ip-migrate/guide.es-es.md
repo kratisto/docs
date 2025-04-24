@@ -1,7 +1,7 @@
 ---
 title: Migrar una Additional IP
 excerpt: "Migrar una Additional IP"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -23,7 +23,7 @@ Esta guía explica cómo migrar una Additional IP de una instancia a otra. Por l
 
 - Tener al menos dos instancias de Public Cloud ejecutándose
 - Tener una Additional IP
-- Estar conectado al [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es){.external}.
+- Estar conectado al [área de cliente de OVHcloud](/links/manager).
 
 > [!warning]
 > Esta funcionalidad no está actualmente disponible para instancias Metal.
@@ -36,9 +36,9 @@ Esta guía explica cómo migrar una Additional IP de una instancia a otra. Por l
 > No es posible mover una Additional IP entre diferentes zonas. Por ejemplo, una IP localizada en el datacenter de SBG puede moverse hacia GRA o RBX, pero no hacia BHS.
 >
 
-En el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es), seleccione su proyecto en la sección `Public Cloud`{.action}.
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección de `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-En la columna izquierda, haga clic en `Network` y abra la sección `Public IPs`{.action}. Haga clic en la pestaña `Aditional IP`{.action}.
+En la columna izquierda, haga clic en **Network** y abra la sección `IP públicas`{.action}. Haga clic en la pestaña `Additional IP`{.action}.
 
 En este ejemplo, la dirección Additional IP enrutada a "Instancia_A" será migrada a "Instancia_B".
 

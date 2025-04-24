@@ -1,7 +1,7 @@
 ---
 title: 'Configuration du vRack Public Cloud'
 excerpt: 'Découvrez comment configurer un vRack Public Cloud'
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -105,18 +105,18 @@ Pour cela, vous devez choisir le bon fournisseur et la bonne ressource Terraform
 #### Depuis l'espace client OVHcloud
 
 > [!primary]
-> Ceci ne s'applique pas aux projets nouvellement créés qui sont désormais automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, rendez-vous dans le menu `Bare Metal Cloud`{.action} et cliquez sur `Network`{.action} dans l’onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour voir le(s) vRack(s).
+> Ceci ne s'applique pas aux projets nouvellement créés qui sont désormais automatiquement livrés avec un vRack. Pour visualiser le vRack une fois le projet créé, rendez-vous dans le section `Network`{.action} dans l’onglet de gauche. Cliquez sur `Réseau Privé vRack`{.action} pour voir le(s) vRack(s).
 >
 
 Si vous avez un projet plus ancien et que vous n'avez pas de vRack, vous devez en commander un. Ce produit est gratuit et la mise à disposition ne prend que quelques minutes.
 
-Allez dans le menu `Bare Metal Cloud`{.action} et cliquez sur le bouton `Commander`{.action}. Sous ce menu, cliquez sur l'option `vRack`{.action}.
+Dans le menu situé à gauche de l'écran, cliquez sur le bouton `Ajouter un service`{.action} (icône de panier d'achat). Utilisez le filtre en haut de la page ou faites défiler vers le bas pour trouver le service `vRack`{.action}.
 
-![Commander le vrack](images/ordering_vrack_2024.png){.thumbnail}
+![Commander le vrack](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/network/orderingvrack25.png){.thumbnail}
 
 Vous serez redirigé vers une autre page pour valider la commande, l'opération prendra quelques minutes.
 
-Une fois le service actif, vous le retrouverez dans votre espace client dans la section `Bare Metal Cloud`{.action} > `Network`{.action} > `Réseau Privé vRack`{.action}. Sous l’appellation « pn-xxxxxx ».
+Une fois le service actif, vous le retrouverez dans votre espace client dans la section `Network`{.action} > `Réseau Privé vRack`{.action}. Sous l’appellation « pn-xxxxxx ».
 
 Dans la liste des services éligibles, sélectionnez le projet que vous souhaitez ajouter au vRack et cliquez sur le bouton `Ajouter`{.action}.
 

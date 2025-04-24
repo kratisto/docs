@@ -88,7 +88,7 @@ Ensuite, nous utiliserons cette Floating IP pour nous connecter à l'instance (V
 >>
 >> Veuillez noter que le réseau privé doit être relié à une Gateway. Pour plus d'informations, consultez ce guide : [Créer un réseau privé avec une Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway).
 >>
->> Depuis l'onglet `Public Cloud`{.action}, cliquez sur `Public IPs`{.action} dans le menu de gauche sous **Network**.
+>> Depuis l'onglet `Public Cloud`{.action}, cliquez sur `IP Publiques`{.action} dans le menu de gauche sous **Network**.
 >>
 >> Cliquez sur `Floating IPs`{.action} puis sur `Ajouter une nouvelle IP`{.action}.
 >>
@@ -125,7 +125,7 @@ Cette fonctionnalité est actuellement disponible uniquement via [l’API OpenSt
 
 #### Supprimer une Floating IP
 
-Depuis l'onglet `Public Cloud`{.action}, cliquez sur `Public IPs`{.action} dans le menu de gauche sous **Network**.
+Depuis l'onglet `Public Cloud`{.action}, cliquez sur `IP Publiques`{.action} dans le menu de gauche sous **Network**.
 
 Dans l'onglet `Floating IP`{.action}, cliquez sur le bouton `...`{.action} à côté de l'IP correspondante et sélectionnez `Supprimer`{.action}.
 

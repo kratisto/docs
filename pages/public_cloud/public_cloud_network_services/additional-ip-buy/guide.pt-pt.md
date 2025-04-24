@@ -1,7 +1,7 @@
 ---
 title: Adicionar um Additional IP
 excerpt: "Descubra como encomendar endereços Additional IP para as suas instâncias"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Estes endereços Additional IP só poderão ser migrados para as instâncias de 
 
 ## Requisitos
 
-- Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}.
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 - Dispor de pelo menos uma instância. Para isso, consulte [o guia para criar uma instância a partir da Área de Cliente](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
@@ -37,11 +37,11 @@ Estes endereços Additional IP só poderão ser migrados para as instâncias de 
 
 ## Instruções
 
-Aceda à Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em questão.
+Aceda à [Área de Cliente OVHcloud](/links/manager), vá à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa.
 
-No menu à esquerda, abra o `Public IPs`{.action} em `Network`.
+No menu à esquerda, abra o `IP públicos`{.action} em **Network**.
 
-Abra o separador `Aditional IP`{.action} e clique no botão `Ações`{.action}. Selecione `Adicionar um novo IP`{.action}.
+Abra o separador `Additional IP`{.action} e clique no botão `Ações`{.action}. Selecione `Adicionar um novo IP`{.action}.
 
 ![Adicionar IP](images/buyaddIP_01.png){.thumbnail}
 

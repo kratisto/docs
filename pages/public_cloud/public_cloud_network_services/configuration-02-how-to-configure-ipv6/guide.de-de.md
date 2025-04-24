@@ -1,7 +1,7 @@
 ---
 title: "IPv6 auf einer Public Cloud Instanz konfigurieren"
 excerpt: "Erfahren Sie hier, wie Sie das IPv6-Protokoll auf einer Public Cloud-Instanz konfigurieren"
-updated: 2024-03-05
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -25,7 +25,7 @@ Standardmäßig ist nur die IPv4-Adresse eingerichtet.
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie verfügen über eine Public Cloud Instanz, wobei das Modell keine Rolle spielt.
 - Sie haben Kenntnisse zu SSH.
 - Sie haben Grundkenntnisse zu Netzwerken.
@@ -51,7 +51,7 @@ Hier ein kurzes Glossar der in dieser Anleitung verwendeten Begriffe:
 
 ### Netzwerk-Informationen abrufen
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Wählen Sie das Menü `Instances`{.action} und klicken Sie dann auf `...`{.action} und `Instanz-Details`{.action} neben der gewünschten Instanz.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus. Wählen Sie das Menü `Instanzen`{.action} und klicken Sie dann auf `...`{.action} und `Instanz-Details`{.action} neben der gewünschten Instanz.
 
 ![Public-Cloud-IPv6](images/pci2022.png){.thumbnail}
 

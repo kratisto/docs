@@ -92,7 +92,7 @@ Next, we will use this Floating IP to connect to the instance (VM) from the outs
 >>
 >> Please note that the private network must be linked to a gateway. For more information, consult this guide: [Creating a private network with Gateway](/pages/public_cloud/public_cloud_network_services/getting-started-02-create-private-network-gateway).
 >>
->> In the public cloud section, click on `Public IPs`{.action} in the left-hand menu under **Network**.
+>> In the public cloud section, click on `Öffentliche IPs`{.action} in the left-hand menu under **Network**.
 >>
 >> Click on `Floating IPs`{.action}, then on `Add a new IP`{.action}.
 >>
@@ -131,7 +131,7 @@ This feature is currently only available via the [OpenStack API](#detachip).
 
 #### Deleting a Floating IP
 
-In the public cloud section, click on `Public IPs`{.action} in the left-hand menu under **Network**.
+In the public cloud section, click on `Öffentliche IPs`{.action} in the left-hand menu under **Network**.
 
 In the `Floating IP`{.action} tab, click on the `...`{.action} next to the corresponding IP and select `Delete`{.action}.
 

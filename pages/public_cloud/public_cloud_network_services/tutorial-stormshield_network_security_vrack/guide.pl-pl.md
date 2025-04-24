@@ -129,7 +129,7 @@ openstack server create --flavor b3-32 --image stormshield-SNS-EVA-4.7.6 --netwo
 
 #### Configure the SNS EVA instances
 
-Log into the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the relevant Public Cloud project. In the left menu, click on `Instances`{.action} under the **Compute** tab, then find your two SNS EVA instances.
+Log into the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the relevant Public Cloud project. In the left menu, click on `Instancje`{.action} under the **Compute** tab, then find your two SNS EVA instances.
 
 Access the VNC console for both SNS EVA instances and configure the keyboard layout and the password.
 

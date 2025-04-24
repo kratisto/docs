@@ -1,7 +1,7 @@
 ---
 title: "Configurare IPv6 su un’istanza Public Cloud"
 excerpt: "Come configurare il protocollo IPv6 su un'istanza Public Cloud"
-updated: 2024-03-05
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Di default è configurato soltanto l’IPv4 perciò.
 * Disporre di un qualsiasi modello di istanza Public Cloud
 * *Avere accesso amministrativo (sudo) via SSH o desktop remoto (Windows) al server
 * Possedere conoscenze base di rete
-* Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
+* Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
@@ -51,7 +51,7 @@ Ecco una lista di termini impiegati in questa guida:
 
 ### Recupera le informazioni di rete
 
-Accedi al tuo Spazio Cliente, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Instances`{.action} nella barra di navigazione a sinistra. Poi clicca su `...`{.action} accanto all'istanza corrispondente e clicca su `Dettagli dell’istanza`{.action}.
+Accedi al tuo Spazio Cliente, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Istanze`{.action} nella barra di navigazione a sinistra. Poi clicca su `...`{.action} accanto all'istanza corrispondente e clicca su `Dettagli dell’istanza`{.action}.
 
 ![public-cloud ipv6](images/pci2022.png){.thumbnail}
 
@@ -64,9 +64,9 @@ Tutte le informazioni necessarie saranno visibili nella sezione **Reti**.
 > [!primary]
 > **Esempi**
 > 
->Le informazioni fornite qui di seguito sono a titolo di esempio.
+> Le informazioni fornite qui di seguito sono a titolo di esempio.
 >
->In qualità di amministratore dei tuoi servizi, spetta a te adeguarli alla tua distribuzione.
+> In qualità di amministratore dei tuoi servizi, spetta a te adeguarli alla tua distribuzione.
 >
 
 > [!warning]

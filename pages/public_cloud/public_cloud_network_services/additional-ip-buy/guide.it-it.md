@@ -1,7 +1,7 @@
 ---
 title: Acquista un Additional IP
 excerpt: "Acquista un Additional IP"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Questi indirizzi possono essere trasferiti esclusivamente verso le istanze di un
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}.
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager).
 - Disporre di almeno un’istanza. A questo proposito, consulta [la guida per creare un’istanza dallo Spazio Cliente](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
@@ -37,9 +37,9 @@ Questi indirizzi possono essere trasferiti esclusivamente verso le istanze di un
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-Nel menu a sinistra, apri `Public IP`{.action} in `Network`.
+Nel menu a sinistra, apri `IP pubblici`{.action} in **Network**.
 
 Apri la scheda `Additional IP`{.action} e clicca sul pulsante `Azioni`{.action}. Seleziona `Aggiungi un nuovo IP`{.action}.
 

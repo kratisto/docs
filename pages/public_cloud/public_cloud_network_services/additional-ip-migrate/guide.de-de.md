@@ -1,7 +1,7 @@
 ---
 title: Additional IP migrieren
 excerpt: "Erfahren Sie hier, wie Sie eine Additional IP-Adresse zu einer anderen Instanz migrieren"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -23,7 +23,7 @@ IP-Adressen migrieren zu können bedeutet, die Möglichkeit eines Dienstausfalls
 
 - Sie verfügen über mindestens zwei [Public Cloud Instanzen](https://www.ovhcloud.com/de/public-cloud) in Ihrem Kunden-Account.
 - Sie verfügen über eine Additional IP.
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 > [!warning]
 > Diese Funktion ist derzeit für Metal Instanzen nicht verfügbar.
@@ -36,9 +36,9 @@ IP-Adressen migrieren zu können bedeutet, die Möglichkeit eines Dienstausfalls
 > Eine Additional IP kann nicht von einer Länderzone zur anderen umgezogen werden. So kann beispielsweise eine IP-Adresse von SBG nach GRA oder RBX umgezogen werden, aber nicht nach BHS. 
 >
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und wählen Sie im Bereich `Public Cloud`{.action} Ihr Projekt aus.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus.
 
-Öffnen Sie im linken Menü `Public IPs`{.action} unter `Network`.
+Öffnen Sie im linken Menü `Öffentliche IPs`{.action} unter **Network**.
 
 Klicken Sie auf den Tab `Additional IP`{.action}.
 

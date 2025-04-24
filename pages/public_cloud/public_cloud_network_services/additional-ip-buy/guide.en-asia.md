@@ -1,7 +1,7 @@
 ---
 title: Buying an Additional IP
 excerpt: "Find out how to order Additional IP addresses for your instances"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -24,14 +24,14 @@ These Additional IP addresses can only be migrated to instances in the same proj
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia){.external}
+- Access to the [OVHcloud Control Panel](/links/manager)
 - A [Public Cloud instance](/pages/public_cloud/compute/public-cloud-first-steps) in your Public Cloud project
 
 ## Instructions
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia) and open your `Public Cloud`{.action} project.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned.
 
-In the left-hand menu, open `Public IPs`{.action} under `Network`.
+In the left-hand menu, open `Public IPs`{.action} under **Network**.
 
 Open the `Additional IP`{.action} tab and click on the `Actions`{.action} button. Select `Add a new IP`{.action}.
 
@@ -79,10 +79,11 @@ See our guide on [managing OVHcloud orders](/pages/account_and_service_managemen
 You can also find the purchase order in your Control Panel, by going to the `Dashboard`{.action} section and clicking on `View my orders`{.action}.
 
 The next step will be the IP configuration in your OS; please refer to our [guide](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance).
+
 ## Go further
 
 [Configuring an Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: Importowanie adresu Additional IP
 excerpt: "Dowiedz się, jak zaimportować adres Additional IP do projektu OVHcloud Public Cloud"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -24,8 +24,8 @@ Można zaimportować adres Additional IP powiązany z inną usługą OVHcloud.
 ## Wymagania początkowe
 
 - [Projekt Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) na koncie OVHcloud
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}
-- [Adres Additional IP](https://www.ovhcloud.com/pl/bare-metal/ip/){.external}
+- Dostęp do [Panelu klienta OVHcloud](/links/manager)
+- [Adres Additional IP](https://www.ovhcloud.com/pl/bare-metal/ip/)
 
 > [!warning]
 > Ta funkcja nie jest aktualnie dostępna dla instancji Metal.
@@ -33,9 +33,9 @@ Można zaimportować adres Additional IP powiązany z inną usługą OVHcloud.
 
 ## W praktyce
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) i wybierz Twój projekt w sekcji `Public Cloud `{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-W menu po lewej stronie otwórz `Public IPs`{.action} w `Network`.
+W menu po lewej stronie otwórz `Publiczne adresy IP`{.action} w **Sieć**.
 
 Otwórz kartę `Additional IP`{.action} i kliknij przycisk `Operacje`{.action}. Wybierz `Importuj Additional IP`{.action}, aby wyświetlić wszystkie adresy IP, które mogą być importowane do Twojego projektu Public Cloud.
 
@@ -74,6 +74,6 @@ Następnym krokiem jest konfiguracja IP w systemie operacyjnym. Zapoznaj się [z
 
 ## Sprawdź również
 
-Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](https://www.ovhcloud.com/pl/professional-services/), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
+Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 
-Dołącz do społeczności naszych użytkowników na stronie <https://community.ovh.com/en/>.
+Dołącz do [grona naszych użytkowników](/links/community).

@@ -1,7 +1,7 @@
 ---
 title: Acheter une Additional IP
 excerpt: "Découvrez comment commander des adresses Additional IP pour vos instances"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -23,7 +23,7 @@ Ces adresses Additional IP ne pourront être migrées que vers les instances d'u
 
 ## Prérequis
 
-- Être connecté à l’[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external}.
+- Être connecté à l’[espace client OVHcloud](/links/manager).
 - Disposer d'au moins une instance. Consultez à cet effet [le guide pour créer une instance depuis l'espace client](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
@@ -32,9 +32,9 @@ Ces adresses Additional IP ne pourront être migrées que vers les instances d'u
 
 ## En pratique
 
-Connectez-vous à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
+Connectez-vous à l’[espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 
-Dans le menu de gauche, ouvrez `Public IPs`{.action} dans `Network`.
+Dans le menu de gauche, ouvrez `IP Publiques`{.action} dans **Network**.
 
 Ouvrez l'onglet `Additional IP`{.action} et cliquez sur le bouton `Actions`{.action}. Sélectionnez `Ajouter une nouvelle IP`{.action}.
 

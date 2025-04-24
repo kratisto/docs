@@ -1,7 +1,7 @@
 ---
 title: Wykupienie adresu Additional IP
 excerpt: "Dowiedz się, jak zamawiać adresy Additional IP dla swoich instancji"
-updated: 2023-01-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -28,7 +28,7 @@ Te adresy Additional IP można migrować tylko do instancji tego samego projektu
 
 ## Wymagania początkowe
 
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}.
+- Dostęp do [Panelu klienta OVHcloud](/links/manager).
 - Posiadanie co najmniej jednej instancji. W tym celu zapoznaj się z [przewodnikiem dotyczącym tworzenia instancji w Panelu klienta](/pages/public_cloud/compute/public-cloud-first-steps).
 
 > [!warning]
@@ -37,9 +37,9 @@ Te adresy Additional IP można migrować tylko do instancji tego samego projektu
 
 ## W praktyce
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-W menu po lewej stronie otwórz `Public IPs`{.action} w `Network`.
+W menu po lewej stronie otwórz `Publiczne adresy IP`{.action} w **Sieć**.
 
 Otwórz kartę `Additional IP`{.action} i kliknij przycisk `Operacje`{.action}. Wybierz `Dodaj nowy adres IP`{.action}.
 

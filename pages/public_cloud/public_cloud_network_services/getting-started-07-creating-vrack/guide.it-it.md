@@ -1,7 +1,7 @@
 ---
 title: Configurazione della vRack sul Public Cloud
 excerpt: Scopri come configurare la vRack per le tue istanze Public Cloud
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -103,18 +103,18 @@ Per farlo, devi scegliere il provider giusto e la risorsa Terraform giusta. Per 
 #### Dallo Spazio Cliente OVHcloud
 
 > [!primary]
-> Questo non si applica ai progetti appena creati che vengono consegnati automaticamente con una vRack. Per visualizzare la vRack dopo aver creato il progetto, accedi al menu `Bare Metal Cloud`{.action} e clicca su `Network`{.action} nella scheda a sinistra. Clicca su `Rete Privata vRack`{.action} per visualizzare le vRack.
+> Questo non si applica ai progetti appena creati che vengono consegnati automaticamente con una vRack. Per visualizzare la vRack dopo aver creato il progetto, accedi al menu `Network`{.action} nella scheda a sinistra e clicca su `Rete Privata vRack`{.action} per visualizzare le vRack.
 >
 
 Se hai un progetto più datato e non hai una vRack, è necessario ordinarne una. Questo prodotto è gratuito e la consegna richiede solo pochi minuti.
 
-Accedi al menu `Bare Metal Cloud`{.action} e clicca sul pulsante `Ordina`{.action}. Clicca sull’opzione `vRack`{.action}.
+Nel menu a sinistra dello schermo, clicca sul pulsante `Aggiungi un servizio`{.action} (icona del carrello degli acquisti). Utilizza il filtro in alto o scorri verso il basso per trovare il servizio `vRack`{.action}.
 
-![Ordina la vrack](images/ordering_vrack_2024.png){.thumbnail}
+![Order vrack](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/network/orderingvrack25.png){.thumbnail}
 
 Sarai reindirizzato verso un'altra pagina per convalidare l'ordine, l'operazione richiederà alcuni minuti.
 
-Una volta attivato il servizio, è disponibile nello Spazio Cliente, sezione `Bare Metal Cloud`{.action} > `Network`{.action} > `Rete Privata vRack`{.action}. Con la denominazione "pn-xxxxxx".
+Una volta attivato il servizio, è disponibile nello Spazio Cliente, sezione `Network`{.action} > `Rete Privata vRack`{.action}. Con la denominazione "pn-xxxxxx".
 
 Nella lista dei servizi compatibili, seleziona il progetto che vuoi aggiungere alla vRack e clicca sul pulsante `Aggiungi`{.action}.
 
@@ -265,7 +265,7 @@ Ad esempio, se hai un'interfaccia pubblica *eth0*, avrai anche un'interfaccia *e
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager) poi clicca sul `Public Cloud`{.action} e seleziona il tuo progetto in alto a sinistra.
 
-Clicca su `Instances`{.action} nel menu a sinistra e poi su `...`{.action} a destra dell'istanza corrispondente. Seleziona `Dettagli dell'istanza`{.action}.
+Clicca su `Istanze`{.action} nel menu a sinistra e poi su `...`{.action} a destra dell'istanza corrispondente. Seleziona `Dettagli dell'istanza`{.action}.
 
 ![detail instance](images/vrack2021.png){.thumbnail}
 
