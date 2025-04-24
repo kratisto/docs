@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Einrichten von Auto-Antworten für E-Mails'
 excerpt: 'Erfahren Sie hier, wie Sie E-Mail-Responder für E-Mail-Adressen einrichten'
-updated: 2024-05-24
+updated: 2025-04-24
 ---
 
 ## Ziel

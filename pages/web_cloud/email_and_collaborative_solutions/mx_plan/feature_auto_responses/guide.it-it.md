@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Crea risposta automatica su un indirizzo email'
 excerpt: 'Come impostare una risposta automatica su un indirizzo email'
-updated: 2024-05-24
+updated: 2025-04-24
 ---
 
 ## Obiettivo
