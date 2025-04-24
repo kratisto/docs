@@ -1,6 +1,6 @@
 ---
 title: Dedicated input - Logstash
-updated: 2023-06-20
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -115,7 +115,7 @@ To host this collector in the Logs Data Platform, you will need to configure it 
 
 - Check the **Data-gathering tools** tab and click on the button `Add a new data-gathering tool`{.action}.
 - The Manager will then ask you to provide an elegant name and a wonderful description.
-- Select your Software: Select **Logstash 7.x**.
+- Select your Software: Select **Logstash 9.x**.
 - Fill the main port of your input. We need to know which port you will use in your input configuration. We will put **4000** for now. This is also a setting you can change later.
 - If you want to restrict the Logstash to specific IP Adresses, you can use the **Trusted Networks** field to firewall your instances. Add every IP Adress or subnet you want to allow, separated by comma. Leave it empty to allow any IP to contact it. Your collector will have a public IP Adress, you can use this feature to prevent people to send you false information in it.
 - Select one of the streams you have to attached this collector to the stream you have. That means that every message that goes out of this collector is automatically routed to the stream.
@@ -153,21 +153,21 @@ If we take the configuration example above and if we enable the SSL encryption, 
  tcp {
      port => 4000
      type => syslog
-     ssl_enable => true
-     ssl_verify => false
-     ssl_cert => "/etc/ssl/private/server.crt"
+     ssl_enabled => true
+     ssl_client_authentication => "none"
+     ssl_certificate => "/etc/ssl/private/server.crt"
      ssl_key => "/etc/ssl/private/server.key"
      ssl_extra_chain_certs => ["/etc/ssl/private/ca.crt"]
- }
+ } 
 ```
 
 ![logstash_creation](images/input_section.png){.thumbnail}
 
 As you can see, this is roughly the same configuration that before. The SSL configuration needs 5 extra parameters:
 
-- **ssl_enable**: that allows to enable SSL. Must be set to `true`.
-- **ssl_verify**: this deactivates the client certificate verification process that needs a trusted certificate on client side.
-- **ssl_cert**: the location of the auto-generated server certificate.
+- **ssl_enabled**: that allows to enable SSL. Must be set to `true`.
+- **ssl_client_authentication**: this deactivates the client certificate verification process that needs a trusted certificate on client side.
+- **ssl_certificate**: the location of the auto-generated server certificate.
 - **ssl_key**: the location of the associated key.
 - **ssl_extra_chain_certs**: the array contains the path to the CA certificate.
 
@@ -217,31 +217,34 @@ For your information, here is the list of Logstash plugins we support. Of course
 ##### Inputs plugins
 
 ```
- logstash-input-azure_event_hubs
- logstash-input-beats
- logstash-input-couchdb_changes
- logstash-input-dead_letter_queue
- logstash-input-elasticsearch
- logstash-input-ganglia
- logstash-input-gelf
- logstash-input-generator
- logstash-input-graphite
- logstash-input-heartbeat
- logstash-input-http
- logstash-input-http_poller
- logstash-input-imap
- logstash-input-jdbc
- logstash-input-jms
- logstash-input-rabbitmq
- logstash-input-redis
- logstash-input-s3
- logstash-input-snmp
- logstash-input-snmptrap
- logstash-input-sqs
- logstash-input-stdin
- logstash-input-syslog
- logstash-input-tcp
- logstash-input-twitter
+logstash-input-beats
+logstash-input-couchdb_changes   
+logstash-input-dead_letter_queue 
+logstash-input-elastic_serverless_forwarder
+logstash-input-elasticsearch
+logstash-input-ganglia
+logstash-input-gelf
+logstash-input-generator
+logstash-input-graphite
+logstash-input-heartbeat
+logstash-input-http
+logstash-input-http_poller
+logstash-input-jms
+logstash-input-opensearch
+logstash-input-redis
+logstash-input-relp
+logstash-input-stdin
+logstash-input-syslog
+logstash-input-tcp
+logstash-input-twitter
+logstash-input-cloudwatch
+logstash-input-s3
+logstash-input-sqs
+logstash-input-jdbc
+logstash-input-logstash
+logstash-input-rabbitmq
+logstash-input-snmp
+logstash-input-snmptrap 
 ```
 
 ##### Input gelf plugin
@@ -252,9 +255,9 @@ We patched the gelf input to support TCP+TLS. Example of Input section:
  tcp {
      port => 12202
      type => gelf
-     ssl_enable => true
-     ssl_verify => false
-     ssl_cert => "/etc/ssl/private/server.crt"
+     ssl_enabled => true
+     ssl_client_authentication => "none"
+     ssl_certificate => "/etc/ssl/private/server.crt"
      ssl_key => "/etc/ssl/private/server.key"
      ssl_extra_chain_certs => ["/etc/ssl/private/ca.crt"]
      codec => gelf { delimiter => "\x00" }
@@ -264,64 +267,68 @@ We patched the gelf input to support TCP+TLS. Example of Input section:
 #### filter plugins
 
 ```
- logstash-filter-aggregate
- logstash-filter-anonymize
- logstash-filter-cidr
- logstash-filter-clone
- logstash-filter-csv
- logstash-filter-date
- logstash-filter-de_dot
- logstash-filter-dissect
- logstash-filter-dns
- logstash-filter-drop
- logstash-filter-elasticsearch
- logstash-filter-fingerprint
- logstash-filter-geoip
- logstash-filter-grok
- logstash-filter-hex
- logstash-filter-http
- logstash-filter-jdbc_static
- logstash-filter-jdbc_streaming
- logstash-filter-json
- logstash-filter-kv
- logstash-filter-math
- logstash-filter-memcached
- logstash-filter-metrics
- logstash-filter-mutate
- logstash-filter-prune
- logstash-filter-sleep
- logstash-filter-split
- logstash-filter-syslog_pri
- logstash-filter-throttle
- logstash-filter-translate
- logstash-filter-truncate
- logstash-filter-urldecode
- logstash-filter-useragent
- logstash-filter-uuid
- logstash-filter-xml
+logstash-filter-age
+logstash-filter-aggregate
+logstash-filter-anonymize
+logstash-filter-cidr
+logstash-filter-clone
+logstash-filter-csv
+logstash-filter-date
+logstash-filter-de_dot
+logstash-filter-dissect
+logstash-filter-dns
+logstash-filter-drop
+logstash-filter-fingerprint
+logstash-filter-geoip
+logstash-filter-grok
+logstash-filter-hex
+logstash-filter-http
+logstash-filter-json
+logstash-filter-kv
+logstash-filter-math
+logstash-filter-memcached
+logstash-filter-metrics
+logstash-filter-mutate
+logstash-filter-opensearch
+logstash-filter-prune
+logstash-filter-sleep
+logstash-filter-split
+logstash-filter-syslog_pri
+logstash-filter-throttle
+logstash-filter-translate
+logstash-filter-truncate
+logstash-filter-urldecode
+logstash-filter-useragent
+logstash-filter-uuid
+logstash-filter-xml
+logstash-filter-jdbc_streaming
+logstash-filter-jdbc_static
 ```
 
 #### codec plugins
 
 ```
- logstash-codec-avro
- logstash-codec-cef
- logstash-codec-collectd
- logstash-codec-dots
- logstash-codec-edn
- logstash-codec-edn_lines
- logstash-codec-es_bulk
- logstash-codec-fluent
- logstash-codec-gelf
- logstash-codec-graphite
- logstash-codec-json
- logstash-codec-json_lines
- logstash-codec-line
- logstash-codec-msgpack
- logstash-codec-multiline
- logstash-codec-netflow
- logstash-codec-plain
- logstash-codec-rubydebug
+logstash-codec-avro
+logstash-codec-cef
+logstash-codec-collectd
+logstash-codec-dots
+logstash-codec-edn
+logstash-codec-edn_lines
+logstash-codec-es_bulk
+logstash-codec-fluent
+logstash-codec-gelf
+logstash-codec-graphite
+logstash-codec-json
+logstash-codec-json_lines
+logstash-codec-line
+logstash-codec-msgpack
+logstash-codec-multiline
+logstash-codec-netflow
+logstash-codec-plain
+logstash-codec-rfc6587
+logstash-codec-rubydebug
+logstash-codec-cloudfront
+logstash-codec-cloudtrail
 ```
 
 The following plugins are disabled for security reasons:
