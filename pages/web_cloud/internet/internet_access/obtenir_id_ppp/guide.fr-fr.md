@@ -1,7 +1,7 @@
 ---
 title: 'Obtenir les identifiants PPPoE'
 excerpt: 'Découvrez comment récupérer les identifiants PPPoE de votre accès à Internet OVHcloud via les API'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Vérifier la stabilité de son accès OVHcloud via les logs radius'
 excerpt: 'Découvrez comment vérifier la stabilité de votre accès xDSL ou FTTH en utilisant les API OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

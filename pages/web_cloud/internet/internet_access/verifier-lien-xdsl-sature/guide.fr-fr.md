@@ -1,7 +1,7 @@
 ---
 title: 'Vérifier si son lien xDSL est saturé'
 excerpt: 'Apprenez à contrôler la saturation de votre connexion Internet'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

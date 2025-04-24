@@ -1,7 +1,7 @@
 ---
 title: "Valider votre identité pour l'exploitation d'un numéro spécial SVA"
 excerpt: "Découvrez comment valider votre identité depuis l'espace client OVHcloud afin d'exploiter un numéro spécial SVA"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Filtrer et renvoyer ses appels'
 excerpt: 'Découvrez comment filtrer et renvoyer les appels entrants et sortants de votre ligne SIP OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

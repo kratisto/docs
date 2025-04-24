@@ -1,7 +1,7 @@
 ---
 title: 'Configurer des plages horaires et des fermetures exceptionnelles sur une ligne'
 excerpt: 'Découvrez comment configurer des plages horaires et des fermetures exceptionnelles sur votre ligne OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

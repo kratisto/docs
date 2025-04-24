@@ -1,7 +1,7 @@
 ---
 title: 'Demander et suivre une portabilité de numéro belge'
 excerpt: 'Découvrez comment porter un ou plusieurs numéros belges chez OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

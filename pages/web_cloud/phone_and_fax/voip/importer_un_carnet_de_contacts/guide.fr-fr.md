@@ -1,7 +1,7 @@
 ---
 title: 'Gérer un carnet de contacts sur une ligne SIP'
 excerpt: 'Apprenez à gérer un carnet de contacts sur une ligne SIP OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

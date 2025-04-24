@@ -1,7 +1,7 @@
 ---
 title: 'Configurer la présentation de son numéro'
 excerpt: 'Découvrez comment configurer la présentation du numéro de votre ligne OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

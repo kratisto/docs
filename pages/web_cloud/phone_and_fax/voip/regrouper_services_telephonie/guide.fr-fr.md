@@ -1,7 +1,7 @@
 ---
 title: 'Gérer vos groupes de téléphonie'
 excerpt: 'Découvrez comment gérer vos groupes de téléphonie et déplacer vos services entre ces groupes'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

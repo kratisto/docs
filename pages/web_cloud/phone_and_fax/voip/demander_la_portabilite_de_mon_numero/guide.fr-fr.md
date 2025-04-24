@@ -1,7 +1,7 @@
 ---
 title: 'Demander et suivre une portabilité de numéro'
 excerpt: "Apprenez à porter un ou plusieurs numéros chez OVHcloud et à suivre l'avancement du processus"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

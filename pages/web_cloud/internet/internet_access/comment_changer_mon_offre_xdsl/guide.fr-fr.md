@@ -1,7 +1,7 @@
 ---
 title: Comment changer mon offre xDSL/Fibre
 excerpt: "Découvrez comment modifier votre offre d'accès Internet depuis votre espace client OVHcloud"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

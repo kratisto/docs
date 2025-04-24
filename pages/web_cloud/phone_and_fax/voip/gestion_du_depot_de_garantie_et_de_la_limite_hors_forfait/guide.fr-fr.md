@@ -1,7 +1,7 @@
 ---
 title: 'Gestion du dépôt de garantie et de la limite hors-forfait'
 excerpt: 'Découvrez comment gérer les consommations hors-forfait de vos services VoIP OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: "Valider votre identité pour l'utilisation des services VoIP"
 excerpt: 'Découvrez comment valider votre compte OVHcloud suite à votre première commande de services VoIP'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 > [!warning]

@@ -1,7 +1,7 @@
 ---
 title: Activer une alerte de monitoring
 excerpt: Découvrez comment activer des notifications par e-mail ou SMS pour vous alerter en cas d'injoignabilité d'un accès à Internet
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

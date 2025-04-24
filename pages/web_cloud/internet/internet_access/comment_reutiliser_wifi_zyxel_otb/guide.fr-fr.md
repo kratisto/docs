@@ -1,7 +1,7 @@
 ---
 title: "Comment réutiliser le WiFi d'un modem Zyxel avec OverTheBox"
 excerpt: "Découvrez comment réutiliser le WiFi d'un modem Zyxel avec votre OverTheBox"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

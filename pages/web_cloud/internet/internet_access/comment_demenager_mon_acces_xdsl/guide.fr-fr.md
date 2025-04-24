@@ -1,7 +1,7 @@
 ---
 title: Comment déménager mon accès xDSL/Fibre
 excerpt: "Découvrez comment demander le déménagement de votre offre d'accès à Internet OVHcloud depuis votre espace client"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

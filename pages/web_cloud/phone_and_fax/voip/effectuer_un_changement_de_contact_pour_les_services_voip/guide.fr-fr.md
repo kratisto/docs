@@ -1,7 +1,7 @@
 ---
 title: 'Effectuer un changement de contacts pour vos groupes de téléphonie'
 excerpt: "Découvrez comment déléguer la gestion d'un groupe de téléphonie à un autre compte OVHcloud."
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

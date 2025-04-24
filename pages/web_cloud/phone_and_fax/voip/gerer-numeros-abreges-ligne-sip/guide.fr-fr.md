@@ -1,7 +1,7 @@
 ---
 title: 'Créer des numéros abrégés'
 excerpt: 'Apprenez à créer des numéros abrégés pour vos lignes SIP OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

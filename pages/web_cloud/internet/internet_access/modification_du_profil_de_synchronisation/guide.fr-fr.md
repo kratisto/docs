@@ -1,7 +1,7 @@
 ---
 title: Modification du profil de synchronisation
 excerpt: Découvrez comment modifier le profil de synchronisation de votre accès xDSL/FTTH
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

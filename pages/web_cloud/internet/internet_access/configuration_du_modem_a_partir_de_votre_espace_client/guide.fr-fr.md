@@ -1,7 +1,7 @@
 ---
 title: "Configurer sa box à partir de l'espace client OVHcloud"
 excerpt: "Découvrez comment paramétrer à distance votre box OVHcloud depuis l'espace client"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

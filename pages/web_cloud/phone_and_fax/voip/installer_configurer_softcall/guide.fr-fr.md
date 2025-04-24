@@ -1,7 +1,7 @@
 ---
 title: 'Installer et configurer Softcall'
 excerpt: 'Découvrez comment installer et configurer Softcall afin de profiter de la solution Softphone'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

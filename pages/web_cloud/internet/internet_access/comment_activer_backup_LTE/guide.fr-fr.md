@@ -1,7 +1,7 @@
 ---
 title: 'Comment activer un lien de secours LTE'
 excerpt: 'Découvrez comment activer un lien de secours LTE'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

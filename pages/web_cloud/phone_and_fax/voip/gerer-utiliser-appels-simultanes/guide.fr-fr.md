@@ -1,7 +1,7 @@
 ---
 title: 'Gérer et utiliser les appels simultanés'
 excerpt: 'Apprenez à gérer et utiliser les appels simultanés avec une ligne téléphonique OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

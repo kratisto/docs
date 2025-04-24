@@ -1,7 +1,7 @@
 ---
 title: 'Configurer un routeur manuellement'
 excerpt: 'Découvrez comment configurer votre accès Internet OVHcloud sur votre propre routeur'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

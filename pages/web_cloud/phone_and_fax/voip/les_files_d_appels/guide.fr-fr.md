@@ -1,7 +1,7 @@
 ---
 title: "Configurer une file d'appels"
 excerpt: "Découvrez comment configurer une file d'appels sur un numéro alias"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

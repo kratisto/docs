@@ -1,7 +1,7 @@
 ---
 title: 'Configurer un Contact Center Solution'
 excerpt: 'Découvrez comment configurer un Contact Center Solution sur votre numéro alias'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Configurer les touches programmables de votre téléphone OVHcloud'
 excerpt: 'Découvrez comment programmer vos touches personnalisées sur un téléphone OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

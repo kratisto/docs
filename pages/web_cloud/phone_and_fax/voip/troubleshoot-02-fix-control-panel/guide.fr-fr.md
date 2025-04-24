@@ -1,7 +1,7 @@
 ---
 title: 'Dépanner son téléphone OVHcloud'
 excerpt: 'Apprenez à dépanner votre téléphone OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

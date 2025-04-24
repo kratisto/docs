@@ -1,7 +1,7 @@
 ---
 title: 'Résoudre une interruption ou des lenteurs de navigation'
 excerpt: 'Découvrez comment rétablir votre accès à Internet ou identifier un élément perturbateur'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

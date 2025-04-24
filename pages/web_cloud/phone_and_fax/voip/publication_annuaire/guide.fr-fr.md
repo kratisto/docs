@@ -1,7 +1,7 @@
 ---
 title: "Renseigner les coordonnées d'une ligne ou d'un numéro et les faire paraître en ligne"
 excerpt: 'Découvrez comment rattacher des informations à votre ligne ou numéro OVHcloud et les publier dans les annuaires'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 > [!warning]

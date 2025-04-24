@@ -1,6 +1,6 @@
 ---
 title: Comment activer mes lignes téléphoniques ? (Offres ADSL/VDSL/FTTH)
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

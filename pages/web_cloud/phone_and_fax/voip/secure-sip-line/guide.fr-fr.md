@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser sa ligne SIP OVHcloud'
 excerpt: 'Apprenez à sécuriser votre ligne SIP OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: "Activer l'adresse IPv6 d'une connexion Internet OVHcloud"
 excerpt: "Découvrez comment activer l'adresse IPv6 de votre connexion OVHcloud depuis l'espace client"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Choisir et appliquer une configuration pour un numéro'
 excerpt: 'Découvrez comment choisir et appliquer une configuration sur votre numéro'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

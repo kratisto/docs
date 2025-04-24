@@ -1,7 +1,7 @@
 ---
 title: 'Dépanner son accès Internet fibre'
 excerpt: 'Découvrez comment dépanner et remettre en service votre accès Internet fibre OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif
