@@ -1,7 +1,7 @@
 ---
 title: Exchange - Configura il tuo account di posta elettronica su Thunderbird per Windows
 excerpt: Come configurare il tuo indirizzo Exchange su Thunderbird per Windows
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

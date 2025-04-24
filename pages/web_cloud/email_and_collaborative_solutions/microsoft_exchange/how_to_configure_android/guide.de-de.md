@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Konfiguration von E-Mail-Accounts in Google Mail für Android"
 excerpt: "Erfahren Sie hier, wie Sie Ihren Exchange Account in Android über die Gmail-App einrichten"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

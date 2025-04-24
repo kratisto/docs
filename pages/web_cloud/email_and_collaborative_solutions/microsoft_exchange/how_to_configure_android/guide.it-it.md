@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Configurare un indirizzo email in Gmail per Android"
 excerpt: "Questa guida ti mostra come configurare un account Exchange su Android tramite l’applicazione Gmail"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

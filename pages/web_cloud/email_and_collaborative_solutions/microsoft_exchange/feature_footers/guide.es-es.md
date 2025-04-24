@@ -1,7 +1,7 @@
 ---
 title: 'Crear firmas automáticas'
 excerpt: 'Cómo agregar firmas automáticas a sus cuentas de correo electrónico'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

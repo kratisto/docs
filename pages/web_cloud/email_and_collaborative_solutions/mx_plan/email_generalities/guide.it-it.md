@@ -1,7 +1,7 @@
 ---
 title: 'Iniziare a utilizzare la soluzione MX Plan'
 excerpt: 'Come eseguire le prime operazioni sul servizio MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

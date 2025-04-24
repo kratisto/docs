@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configure your email account on Courrier for Windows'
 excerpt: 'Find out how to configure an Email Pro account on the Mail application for Windows'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

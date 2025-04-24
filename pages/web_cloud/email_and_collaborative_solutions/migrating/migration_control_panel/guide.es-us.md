@@ -2,7 +2,7 @@
 title: 'Migrar una cuenta MX Plan a una cuenta Exchange'
 excerpt: 'Cómo migrar una dirección MX Plan a una cuenta Exchange'
 hidden: true
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

@@ -1,7 +1,7 @@
 ---
 title: 'Creare un account email con MX Plan'
 excerpt: 'Questa guide ti mostra come aggiungere una casella di posta elettronica sulla soluzione MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

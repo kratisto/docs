@@ -1,7 +1,7 @@
 ---
 title: 'Korzystanie z kont zasobów'
 excerpt: 'Przewodnik opisuje, w jaki sposób korzystać z kont zasobów.'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

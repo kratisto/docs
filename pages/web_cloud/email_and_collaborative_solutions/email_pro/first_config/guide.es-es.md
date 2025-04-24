@@ -1,7 +1,7 @@
 ---
 title: 'Primeros pasos con la solución Email Pro'
 excerpt: 'Descubra cómo configurar por primera vez la solución Email Pro'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

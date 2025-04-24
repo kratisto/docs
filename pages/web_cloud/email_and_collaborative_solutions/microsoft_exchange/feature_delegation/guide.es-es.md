@@ -1,7 +1,7 @@
 ---
 title: 'Delegar permisos en una cuenta de correo'
 excerpt: 'Cómo delegar permisos de su cuenta de correo en otra cuenta'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

@@ -1,7 +1,7 @@
 ---
 title: "Löschen eines E-Mail-Accounts"
 excerpt: "Erfahren Sie hier, wie Sie einen Account Ihrer E-Mail-Lösung löschen oder zurücksetzen"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

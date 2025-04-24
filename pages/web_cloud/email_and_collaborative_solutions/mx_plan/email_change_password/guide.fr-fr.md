@@ -1,7 +1,7 @@
 ---
 title: "Modifier le mot de passe d'une adresse e-mail"
 excerpt: "Découvrez comment modifier le mot de passe d'une adresse e-mail OVHcloud"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

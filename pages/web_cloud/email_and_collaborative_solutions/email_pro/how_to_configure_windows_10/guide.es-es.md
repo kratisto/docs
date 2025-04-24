@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configure su cuenta de correo electrónico en Correo para Windows'
 excerpt: 'Cómo configurar una cuenta Email Pro en la aplicación Correo de Windows'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

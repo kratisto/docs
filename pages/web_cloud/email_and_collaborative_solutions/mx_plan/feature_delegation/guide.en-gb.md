@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Delegating the management of your email accounts to another person'
 excerpt: 'Find out how to delegate the management of email accounts for your MX Plan solution'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective <a name="objective"></a>

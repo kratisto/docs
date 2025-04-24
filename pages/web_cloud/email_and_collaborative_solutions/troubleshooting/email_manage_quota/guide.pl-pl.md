@@ -1,7 +1,7 @@
 ---
 title: "Zarządzanie przestrzenią dyskową konta e-mail"
 excerpt: "Dowiedz się, jak zarządzać przestrzenią dyskową konta e-mail i jej optymalizować"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

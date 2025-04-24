@@ -1,7 +1,7 @@
 ---
 title: Creating and using a shared account
 excerpt: Find out how to add and use a shared account on your Exchange email solution
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

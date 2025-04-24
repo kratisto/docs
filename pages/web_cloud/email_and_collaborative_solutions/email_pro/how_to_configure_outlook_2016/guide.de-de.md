@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Richten Sie ein E-Mail-Konto in Outlook für Windows ein'
 excerpt: 'Erfahren Sie hier, wie Sie Ihren E-Mail Pro Account in Outlook für Windows einrichten'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

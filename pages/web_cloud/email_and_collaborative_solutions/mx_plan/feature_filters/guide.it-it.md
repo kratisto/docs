@@ -1,7 +1,7 @@
 ---
 title: Creare filtri per i tuoi indirizzi email
 excerpt: Come creare e configurare un filtro sul tuo indirizzo email
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

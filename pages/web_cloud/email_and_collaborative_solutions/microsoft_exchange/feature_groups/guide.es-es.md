@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Crear grupos de contactos'
 excerpt: 'Aprenda a gestionar listas de correo en Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

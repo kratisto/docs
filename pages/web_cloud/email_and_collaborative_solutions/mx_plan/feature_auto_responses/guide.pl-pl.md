@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Tworzenie automatycznej odpowiedzi na adres e-mail'
 excerpt: 'Dowiedz się, jak skonfigurować automatyczną odpowiedź na adres e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

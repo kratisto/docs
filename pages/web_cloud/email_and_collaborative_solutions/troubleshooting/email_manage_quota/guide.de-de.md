@@ -1,7 +1,7 @@
 ---
 title: "Speicherplatz eines E-Mail-Accounts verwalten"
 excerpt: "Erfahren Sie hier, wie Sie den Speicherplatz von E-Mail-Accounts verwalten und optimieren"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: 'Iniziare a utilizzare la soluzione Email Pro'
 excerpt: 'Questa guida ti mostra come eseguire le prime operazioni sul servizio Email Pro'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

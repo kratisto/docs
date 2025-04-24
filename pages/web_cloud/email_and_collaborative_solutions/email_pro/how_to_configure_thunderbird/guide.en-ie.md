@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configuring an email address on Thunderbird for Windows'
 excerpt: 'Find out how to configure your Email Pro address in Thunderbird for Windows'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

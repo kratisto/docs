@@ -1,7 +1,7 @@
 ---
 title: "Gérer l'espace de stockage d'un compte e-mail"
 excerpt: "Découvrez comment gérer et optimiser l'espace de stockage d'une adresse e-mail "
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

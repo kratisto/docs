@@ -1,7 +1,7 @@
 ---
 title: 'Creating an email address with an MX Plan solution'
 excerpt: 'Find out how to create an email address with an MX Plan solution'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

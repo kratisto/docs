@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Konfigurieren Sie Ihr E-Mail-Konto in Outlook für macOS'
 excerpt: 'So konfigurieren Sie Ihren E-Mail Pro Account auf Outlook für Mac'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

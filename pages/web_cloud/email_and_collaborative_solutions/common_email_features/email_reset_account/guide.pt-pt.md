@@ -1,7 +1,7 @@
 ---
 title: "Eliminar uma conta de e-mail"
 excerpt: "Saiba como eliminar ou reinicializar um endereço de e-mail na sua oferta de e-mail"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

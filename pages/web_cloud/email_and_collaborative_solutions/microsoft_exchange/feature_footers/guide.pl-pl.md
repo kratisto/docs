@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie automatycznych podpisów'
 excerpt: 'Dowiedz się, jak dodać automatyczne podpisy do swoich kont e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

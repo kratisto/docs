@@ -1,7 +1,7 @@
 ---
 title: 'Gestionar la facturación de sus cuentas Exchange'
 excerpt: 'Cómo gestionar la facturación de un servicio Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

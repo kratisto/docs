@@ -1,7 +1,7 @@
 ---
 title: Crea e utilizza un account condiviso
 excerpt: Aggiungi e utilizza un account condiviso sulla tua soluzione Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

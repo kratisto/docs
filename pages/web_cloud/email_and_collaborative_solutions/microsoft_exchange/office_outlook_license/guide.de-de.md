@@ -1,7 +1,7 @@
 ---
 title: Eine Outlook-Lizenz für Exchange beziehen
 excerpt: Erfahren Sie hier, wie Sie eine Outlook-Lizenz für Ihr OVHcloud Exchange bestellen und aktivieren
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

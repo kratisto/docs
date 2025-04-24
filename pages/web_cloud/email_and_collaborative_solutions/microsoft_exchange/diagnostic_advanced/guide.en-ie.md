@@ -1,7 +1,7 @@
 ---
 title: 'Using Exchange error diagnostics'
 excerpt: 'Find out how to run automated error checks on Exchange accounts'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

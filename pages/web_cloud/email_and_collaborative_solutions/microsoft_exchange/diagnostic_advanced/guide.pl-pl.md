@@ -1,7 +1,7 @@
 ---
 title: Wykorzystanie diagnostyki błędów Exchange
 excerpt: 'Dowiedz się, jak przeprowadzić automatyczną diagnostykę błędów na kontach Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

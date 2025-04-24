@@ -1,7 +1,7 @@
 ---
 title: "E-Mail Pro - Konfiguration Ihrer E-Mail-Adresse in Mail für iPhone und iPad"
 excerpt: 'Erfahren Sie hier, wie Sie einen E-Mail Pro Account via Mail App auf einem iPhone oder iPad einrichten'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: 'Delegare i diritti su un account email'
 excerpt: 'Come assegnare i diritti del tuo email a un altro account'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

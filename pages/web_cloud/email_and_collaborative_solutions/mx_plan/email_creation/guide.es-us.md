@@ -1,7 +1,7 @@
 ---
 title: 'Crear una dirección de correo electrónico en un MX Plan'
 excerpt: 'Cómo crear una dirección de correo electrónico en la solución MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

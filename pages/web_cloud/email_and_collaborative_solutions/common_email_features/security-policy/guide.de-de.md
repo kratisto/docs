@@ -1,7 +1,7 @@
 ---
 title: 'Sicherheitseinstellungen eines E-Mail-Dienstes verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Sicherheitseinstellungen Ihres E-Mail-Dienstes verwalten'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: 'Criar assinaturas automáticas'
 excerpt: 'Saiba como criar assinaturas automáticas nas suas contas de e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Sumário

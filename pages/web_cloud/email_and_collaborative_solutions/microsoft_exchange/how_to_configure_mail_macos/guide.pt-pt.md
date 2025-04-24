@@ -1,7 +1,7 @@
 ---
 title: Exchange - Configurar uma conta de e-mail no Mail do macOS
 excerpt: Aprenda a configurar a sua conta Exchange no Mail do macOS
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

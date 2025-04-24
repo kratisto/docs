@@ -1,7 +1,7 @@
 ---
 title: 'E-Mail-Accounts mit MX Plan erstellen'
 excerpt: 'Erfahren Sie hier, wie Sie einen MX Plan E-Mail-Account erstellen'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

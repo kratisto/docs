@@ -1,7 +1,7 @@
 ---
 title: Was tun, wenn ein Account aufgrund Spamversands gesperrt wurde?
 excerpt: Erfahren Sie hier, wie Sie vorgehen, wenn Ihr E-Mail-Acount wegen Spamverdachts blockiert ist 
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

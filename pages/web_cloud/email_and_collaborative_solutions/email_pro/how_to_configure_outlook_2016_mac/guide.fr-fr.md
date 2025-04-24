@@ -1,7 +1,7 @@
 ---
 title: 'E-mail Pro - Configurer son compte e-mail sur Outlook pour macOS'
 excerpt: 'Apprenez à configurer un compte E-mail Pro sur Outlook pour Mac'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

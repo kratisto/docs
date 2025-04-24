@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configuring an email address on Thunderbird for Windows'
 excerpt: 'Find out how to configure your Exchange account in Thunderbird'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

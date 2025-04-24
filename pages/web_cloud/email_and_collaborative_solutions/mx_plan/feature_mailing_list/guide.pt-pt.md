@@ -1,7 +1,7 @@
 ---
 title: 'Gerir e utilizar as mailing lists'
 excerpt: 'Neste guia, fique a saber como usar as mailing lists'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

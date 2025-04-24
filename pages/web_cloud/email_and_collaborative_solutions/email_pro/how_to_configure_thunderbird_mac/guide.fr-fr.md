@@ -1,7 +1,7 @@
 ---
 title: 'E-mail Pro - Configurer son compte e-mail sur Thunderbird pour macOS'
 excerpt: 'Retrouvez ici comment configurer votre adresse E-mail Pro sur Thunderbird pour Mac OS '
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

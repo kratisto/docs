@@ -1,7 +1,7 @@
 ---
 title: 'Delegowanie uprawnień do konta e-mail'
 excerpt: 'Dowiedz się, jak zezwolić innym osobom na zarządzanie skrzynką e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

@@ -1,7 +1,7 @@
 ---
 title: 'Configurar la política de seguridad de un servicio de correo'
 excerpt: 'Esta guía explica cómo configurar la política de seguridad de un servicio de correo'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

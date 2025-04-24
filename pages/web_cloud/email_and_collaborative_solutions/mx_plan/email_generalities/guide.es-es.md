@@ -1,7 +1,7 @@
 ---
 title: 'Primeros pasos con la solución MX Plan'
 excerpt: 'Cómo empezar a utilizar la solución de correo electrónico MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

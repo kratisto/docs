@@ -1,7 +1,7 @@
 ---
 title: Gestire la fatturazione dei tuoi account Email Pro
 excerpt: Come gestire la fatturazione del tuo servizio Email Pro
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

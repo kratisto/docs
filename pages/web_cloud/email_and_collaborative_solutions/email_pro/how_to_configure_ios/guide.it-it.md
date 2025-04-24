@@ -1,7 +1,7 @@
 ---
 title: "Email Pro - Configura il tuo account di posta elettronica su Mail per iPhone e iPad"
 excerpt: 'Come configurare un account Email Pro su un iPhone o un iPad tramite l’applicazione Mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

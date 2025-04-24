@@ -1,7 +1,7 @@
 ---
 title: "Changing the password of an email account"
 excerpt: "Find out how to change the password for an OVHcloud email account"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

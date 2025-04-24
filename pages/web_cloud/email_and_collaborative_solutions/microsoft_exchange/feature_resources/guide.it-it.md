@@ -1,7 +1,7 @@
 ---
 title: 'Crea e utilizza account di risorsa'
 excerpt: In questa guida ti mostriamo come configurare degli account di risorsa
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

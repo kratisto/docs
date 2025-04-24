@@ -1,7 +1,7 @@
 ---
 title: 'E-mail Pro - Skonfiguruj swoje konto e-mail w programie Poczta dla systemu Windows'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro w aplikacji Poczta na urządzeniu z systemem Windows'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

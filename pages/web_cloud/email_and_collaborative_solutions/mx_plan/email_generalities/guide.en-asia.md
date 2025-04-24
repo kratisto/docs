@@ -1,7 +1,7 @@
 ---
 title: 'Getting started with an OVHcloud email solution'
 excerpt: 'Find out how to get started with an OVHcloud email solution'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

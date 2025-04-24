@@ -1,7 +1,7 @@
 ---
 title: Tworzenie i korzystanie z konta współdzielonego
 excerpt: Dodaj i użyj konta współdzielonego w Twojej usłudze E-mail Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

@@ -1,7 +1,7 @@
 ---
 title: 'Gerir a faturação das contas E-mail Pro'
 excerpt: 'Saiba como gerir a faturação do serviço E-mail Pro.'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

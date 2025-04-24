@@ -1,7 +1,7 @@
 ---
 title: Freigegebenes Postfach erstellen und verwenden
 excerpt: Erfahren Sie hier, wie Sie ein freigegebenes Postfach zu Ihrem Exchange-Dienst hinzufügen und verwenden
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

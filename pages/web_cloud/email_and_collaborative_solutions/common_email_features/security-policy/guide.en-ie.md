@@ -1,7 +1,7 @@
 ---
 title: 'Managing the security policy of an email service'
 excerpt: 'Find out how to manage the security policy of your email service'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

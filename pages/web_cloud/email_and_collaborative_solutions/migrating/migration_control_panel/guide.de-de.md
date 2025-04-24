@@ -1,7 +1,7 @@
 ---
 title: 'E-Mail-Accounts von MX Plan zu E-Mail Pro oder Exchange migrieren'
 excerpt: 'Erfahren Sie hier, wie Sie einen MX Plan E-Mail-Account zu E-Mail Pro oder Exchange umziehen'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

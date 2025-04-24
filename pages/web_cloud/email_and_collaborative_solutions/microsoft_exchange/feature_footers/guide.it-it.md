@@ -1,7 +1,7 @@
 ---
 title: Creare firme automatiche
 excerpt: Come aggiungere firme automatiche ai tuoi account email
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

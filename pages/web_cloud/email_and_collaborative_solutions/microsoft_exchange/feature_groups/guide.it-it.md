@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Utilizzo dei gruppi (mailing list)'
 excerpt: 'Come gestire la mailing list di Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

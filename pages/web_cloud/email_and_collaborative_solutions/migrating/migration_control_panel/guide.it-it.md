@@ -1,7 +1,7 @@
 ---
 title: Migrare un indirizzo email MX Plan verso un account Email Pro o Exchange
 excerpt: Come migrare un indirizzo email MX Plan verso un account Email Pro o Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

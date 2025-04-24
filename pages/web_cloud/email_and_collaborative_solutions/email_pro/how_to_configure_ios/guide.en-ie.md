@@ -1,7 +1,7 @@
 ---
 title: "Email Pro - Configure your email account on Mail for iPhone and iPad"
 excerpt: 'Find out how to configure an Email Pro account on iPhone and iPad, via the Mail app'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

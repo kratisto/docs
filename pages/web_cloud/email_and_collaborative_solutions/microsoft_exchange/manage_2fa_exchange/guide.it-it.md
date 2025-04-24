@@ -1,7 +1,7 @@
 ---
 title: 'Attivare la doppia autenticazione su un account Exchange'
 excerpt: 'Come attivare la doppia autenticazione su un account Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

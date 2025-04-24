@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Skonfiguruj swoje konto e-mail w interfejsie online programu pocztowego Gmail'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro w interfejsie online programu pocztowego Gmail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

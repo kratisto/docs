@@ -1,7 +1,7 @@
 ---
 title: 'Configuring two-factor authentication on an Exchange account'
 excerpt: 'Find out how to configure two-factor authentication on an Exchange account'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

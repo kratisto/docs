@@ -1,7 +1,7 @@
 ---
 title: Obter uma licença Outlook para Exchange
 excerpt: Saiba como subscrever uma licença Outlook a partir da plataforma Exchange OVHcloud e instalar
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

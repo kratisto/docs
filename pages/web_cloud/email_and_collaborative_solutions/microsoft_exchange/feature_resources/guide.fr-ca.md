@@ -1,7 +1,7 @@
 ---
 title: Créer et utiliser des comptes de ressource
 excerpt: Ajouter et utiliser les comptes de ressource avec l’offre Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configurer son compte e-mail sur Thunderbird pour Windows'
 excerpt: 'Retrouvez ici la procédure d’ajout d’un compte Exchange pour Thunderbird'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

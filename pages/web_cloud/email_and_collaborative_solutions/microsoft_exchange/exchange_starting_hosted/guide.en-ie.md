@@ -1,7 +1,7 @@
 ---
 title: 'Getting started with the Hosted Exchange service'
 excerpt: 'Get started with a Hosted Exchange service'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

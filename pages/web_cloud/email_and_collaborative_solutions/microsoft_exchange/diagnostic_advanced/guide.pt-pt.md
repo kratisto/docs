@@ -1,7 +1,7 @@
 ---
 title: 'Utilização do diagnóstico de erros Exchange'
 excerpt: 'Saiba como realizar um diagnóstico automatizado dos erros nas contas Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

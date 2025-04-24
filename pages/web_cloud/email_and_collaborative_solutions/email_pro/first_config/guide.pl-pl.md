@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja konta E-mail Pro'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

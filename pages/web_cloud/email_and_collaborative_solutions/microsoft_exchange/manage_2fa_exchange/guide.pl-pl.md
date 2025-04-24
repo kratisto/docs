@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja weryfikacji dwuetapowej na koncie Exchange'
 excerpt: 'Dowiedz się, jak skonfigurować weryfikację dwuetapową na koncie Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

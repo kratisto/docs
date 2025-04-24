@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure your email account on Mail for macOS'
 excerpt: Find out how to configure your Exchange account on macOS Mail
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

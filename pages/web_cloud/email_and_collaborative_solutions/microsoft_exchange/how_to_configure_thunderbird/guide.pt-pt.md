@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure sua conta de e-mail no Thunderbird para macOS'
 excerpt: 'Encontre aqui o procedimento para adicionar uma conta Exchange para Thunderbird'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

@@ -1,7 +1,7 @@
 ---
 title: 'Managing the billing for Exchange accounts'
 excerpt: 'Find out how to manage the billing for your Exchange service'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

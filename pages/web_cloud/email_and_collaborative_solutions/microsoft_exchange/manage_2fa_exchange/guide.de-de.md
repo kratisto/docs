@@ -1,7 +1,7 @@
 ---
 title: 'Die Zwei-Faktor-Authentifizierung für einen Exchange Account konfigurieren'
 excerpt: 'Erfahren Sie hier, wie Sie die Zwei-Faktor-Authentifizierung für einen Exchange Account einrichten'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: 'Delegating permissions on an email account'
 excerpt: 'Find out how to delegate permissions on your email account to another user'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

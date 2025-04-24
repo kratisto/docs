@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configura il tuo account di posta elettronica su Gmail'
 excerpt: 'Come configurare un account Email Pro dall’interfaccia Web di Gmail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

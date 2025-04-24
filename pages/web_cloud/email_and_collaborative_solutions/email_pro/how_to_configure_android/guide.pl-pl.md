@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Konfiguracja konta e-mail w programie Gmail na urządzeniu z systemem Android"
 excerpt: "Dowiedz się, jak skonfigurować konto E-mail Pro na urządzeniu z systemem Android poprzez aplikację Gmail"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 title: Manually migrate your email address
 excerpt: How to migrate your email address manually to another email address
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

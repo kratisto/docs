@@ -1,7 +1,7 @@
 ---
 title: "Gérer la politique de sécurité d'un service e-mail"
 excerpt: 'Découvrez comment gérer la politique de sécurité de votre service e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

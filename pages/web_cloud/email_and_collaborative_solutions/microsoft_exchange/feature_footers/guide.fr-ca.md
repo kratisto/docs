@@ -1,7 +1,7 @@
 ---
 title: Ajouter un pied de page pour vos comptes E-mail
 excerpt: Découvrez comment créer une signature automatique depuis l’espace client OVHcloud
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

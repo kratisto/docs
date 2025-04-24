@@ -1,7 +1,7 @@
 ---
 title: 'Déléguer des droits sur un compte e-mail'
 excerpt: 'Découvrez comment déléguer des droits de votre compte e-mail à un autre'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

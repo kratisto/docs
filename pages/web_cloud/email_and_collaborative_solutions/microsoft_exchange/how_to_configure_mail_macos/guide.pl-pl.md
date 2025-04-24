@@ -1,7 +1,7 @@
 ---
 title: Exchange - Konfiguracja konta e-mail w aplikacji Mail na macOS
 excerpt: Dowiedz się, jak skonfigurować konto Exchange w aplikacji Mail na macOS
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

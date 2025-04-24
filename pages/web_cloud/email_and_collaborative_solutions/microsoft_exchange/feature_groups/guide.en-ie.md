@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - How to create contact groups'
 excerpt: 'Find out how to manage mailing lists in Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

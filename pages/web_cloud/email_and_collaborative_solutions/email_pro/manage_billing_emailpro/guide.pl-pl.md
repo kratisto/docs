@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie płatnościami za Twoje konta E-mail Pro'
 excerpt: 'Dowiedz się, jak zarządzać fakturowaniem usługi E-mail Pro'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

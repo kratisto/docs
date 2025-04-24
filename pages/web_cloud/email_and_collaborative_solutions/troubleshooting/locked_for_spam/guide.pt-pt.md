@@ -1,7 +1,7 @@
 ---
 title: 'O que fazer no caso de uma conta bloqueada por spam?'
 excerpt: 'Descubra como proceder se o seu endereço tiver sido bloqueado por spam'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

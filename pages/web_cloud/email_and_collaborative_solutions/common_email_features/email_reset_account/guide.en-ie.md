@@ -1,7 +1,7 @@
 ---
 title: Deleting an email account
 excerpt: Find out how to delete or reset an email account of your email solution
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

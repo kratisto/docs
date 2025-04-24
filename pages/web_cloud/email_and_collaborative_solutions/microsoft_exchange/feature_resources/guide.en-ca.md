@@ -1,7 +1,7 @@
 ---
 title: 'Using resource accounts'
 excerpt: 'Find out how to create and manage resource accounts'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

@@ -1,6 +1,6 @@
 ---
 title: 'E-mail Pro - Configure sua conta de e-mail no Mail para macOS'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

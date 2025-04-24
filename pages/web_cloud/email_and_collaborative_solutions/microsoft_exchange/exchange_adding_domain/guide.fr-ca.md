@@ -1,7 +1,7 @@
 ---
 title: Ajouter et gérer un nom de domaine sur une plateforme e-mail
 excerpt: Découvrez comment ajouter un nom de domaine à votre plateforme Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 title: "Email Pro - Configurare un indirizzo email su Outlook per Android"
 excerpt: "Questa guida ti mostra come configurare un account Email Pro su Adroid con l'applicazione Microsoft Outlook"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

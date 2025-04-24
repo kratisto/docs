@@ -1,7 +1,7 @@
 ---
 title: 'Pierwsze kroki z usługą Hosted Exchange'
 excerpt: 'Rozpocznij pracę z usługą Hosted Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Skonfiguruj swoje konto e-mail w programie Mail dla systemu iPhone i iPad"
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro na urządzeniu iPhone lub iPad przy użyciu aplikacji Mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

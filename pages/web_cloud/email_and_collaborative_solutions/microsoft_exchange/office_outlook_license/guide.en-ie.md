@@ -1,7 +1,7 @@
 ---
 title: How to obtain an Outlook licence for Exchange
 excerpt: Find out how to subscribe to an Outlook licence from your OVHcloud Exchange platform and how to activate it
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

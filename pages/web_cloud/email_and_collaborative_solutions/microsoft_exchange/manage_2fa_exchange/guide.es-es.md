@@ -1,7 +1,7 @@
 ---
 title: 'Configurar la doble autenticación en una cuenta Exchange'
 excerpt: 'Cómo configurar la doble autenticación en una cuenta Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

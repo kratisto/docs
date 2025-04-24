@@ -1,7 +1,7 @@
 ---
 title: "Usuń konto e-mail"
 excerpt: "Dowiedz się, jak usunąć lub zresetować konto e-mail w Twojej usłudze e-mail"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: 'Gérer et utiliser les mailing lists'
 excerpt: 'Decouvrez dans ce guide comment utiliser les listes de diffusion.'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

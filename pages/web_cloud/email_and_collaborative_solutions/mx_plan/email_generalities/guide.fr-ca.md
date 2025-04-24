@@ -1,7 +1,7 @@
 ---
 title: 'Premiers pas avec les e-mails de votre hébergement web'
 excerpt: 'Découvrez comment bien débuter avec les e-mails de votre hébergement web'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

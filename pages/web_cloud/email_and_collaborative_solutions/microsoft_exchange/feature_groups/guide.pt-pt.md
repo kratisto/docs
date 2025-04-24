@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Utilização de grupos de difusão (mailing lists)'
 excerpt: 'Saiba como gerir grupos de difusão (mailing lists) no Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

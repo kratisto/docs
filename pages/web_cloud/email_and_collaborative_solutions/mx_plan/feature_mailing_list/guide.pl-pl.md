@@ -1,7 +1,7 @@
 ---
 title: 'Korzystanie z list mailingowych i zarządzanie nimi'
 excerpt: 'Z tego przewodnika dowiesz się, jak korzystać z list mailingowych'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

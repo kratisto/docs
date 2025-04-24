@@ -1,7 +1,7 @@
 ---
 title: 'E-mail Pro - Skonfiguruj swoje konto e-mail w programie Thunderbird dla systemu Windows'
 excerpt: 'Dowiedz się, jak skonfigurować Twoje konto E-mail Pro w programie Thunderbird na urządzeniu z systemem Windows'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

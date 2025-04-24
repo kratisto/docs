@@ -1,7 +1,7 @@
 ---
 title: 'Iniziare a utilizzare Hosted Exchange'
 excerpt: 'Scopri come configurare un Hosted Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

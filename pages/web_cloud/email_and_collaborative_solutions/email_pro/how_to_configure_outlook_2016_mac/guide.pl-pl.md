@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Skonfiguruj swoje konto e-mail w programie Outlook dla systemu macOS'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro w programie Outlook na urządzeniu Mac'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

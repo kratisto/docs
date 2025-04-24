@@ -1,7 +1,7 @@
 ---
 title: "Email Pro - Configurare un account email su Outlook per iOS"
 excerpt: "Scopri come configurare il tuo indirizzo Email Pro sull’applicazione mobile Outlook per iOS"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

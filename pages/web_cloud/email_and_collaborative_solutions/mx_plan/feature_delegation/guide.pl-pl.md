@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Delegowanie zarządzania kontami e-mail innej osobie'
 excerpt: 'Dowiedz się, jak delegować uprawnienia do zarządzania kontami e-mail w ramach usługi MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

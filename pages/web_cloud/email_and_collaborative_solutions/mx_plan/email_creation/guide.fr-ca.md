@@ -1,7 +1,7 @@
 ---
 title: 'Créer une adresse e-mail avec son offre MX Plan'
 excerpt: 'Découvrez comment créer une adresse e-mail avec votre offre MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

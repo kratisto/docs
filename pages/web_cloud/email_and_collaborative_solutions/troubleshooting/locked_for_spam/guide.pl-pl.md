@@ -1,7 +1,7 @@
 ---
 title: 'Co zrobić, jeśli moje konto zostało zablokowane z powodu rozsyłania spamu?'
 excerpt: 'Dowiedz się, jak należy zareagować, jeśli Twój adres e-mail zostanie zablokowany z powodu spamu'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

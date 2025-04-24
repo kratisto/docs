@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie polityką bezpieczeństwa usługi e-mail'
 excerpt: 'Dowiedz się, jak zarządzać polityką bezpieczeństwa usługi e-mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

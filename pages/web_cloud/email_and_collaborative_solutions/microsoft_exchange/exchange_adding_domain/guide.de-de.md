@@ -1,7 +1,7 @@
 ---
 title: "Domainnamen zu Ihrem Exchange Dienst hinzufügen"
 excerpt: "Erfahren Sie hier, wie Sie einen Domainnamen zu Exchange oder E-Mail Pro hinzufügen"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

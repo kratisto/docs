@@ -1,7 +1,7 @@
 ---
 title: 'Berechtigungen für einen E-Mail Account übertragen'
 excerpt: 'Hier erfahren Sie, wie Sie einem anderen Account Berechtigungen für Ihren E-Mail Account zuweisen.'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Einleitung

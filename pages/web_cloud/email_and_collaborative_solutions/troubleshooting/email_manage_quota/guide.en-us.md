@@ -1,7 +1,7 @@
 ---
 title: "Managing the storage space for an email account"
 excerpt: "Find out how to manage and optimise an email address storage space"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

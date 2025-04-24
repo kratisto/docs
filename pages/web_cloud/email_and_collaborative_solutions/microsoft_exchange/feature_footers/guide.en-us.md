@@ -1,7 +1,7 @@
 ---
 title: 'Creating automatic signatures'
 excerpt: 'Find out how to add automatic signatures to your email accounts'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

@@ -1,7 +1,7 @@
 ---
 title: "Passwort eines E-Mail-Accounts ändern"
 excerpt: "Erfahren Sie hier, wie Sie das Passwort eines OVHcloud E-Mail-Accounts ändern"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: Criar e utilizar uma conta partilhada
 excerpt: Adicionar e utilizar uma conta partilhada na sua oferta E-mail Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

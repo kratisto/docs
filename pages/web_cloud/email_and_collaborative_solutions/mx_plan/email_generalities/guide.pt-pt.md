@@ -1,7 +1,7 @@
 ---
 title: 'Introdução à oferta MX Plan'
 excerpt: 'Saiba como começar a usar a oferta MX Plan'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

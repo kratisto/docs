@@ -1,7 +1,7 @@
 ---
 title: 'Alterar a palavra-passe de um endereço de e-mail'
 excerpt: 'Saiba como alterar a palavra-passe de um endereço de e-mail da OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

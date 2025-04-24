@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Configure su cuenta de correo electrónico en Mail para iPhone y iPad"
 excerpt: 'Cómo configurar una cuenta Exchange en un iPhone o iPad utilizando la aplicación Mail'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

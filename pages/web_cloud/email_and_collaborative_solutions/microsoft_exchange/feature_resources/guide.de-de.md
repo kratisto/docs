@@ -1,7 +1,7 @@
 ---
 title: Verwendung von Ressourcen-Accounts
 excerpt: In dieser Hilfe wird die Verwendung der Ressourcen-Accounts Ihres Exchange Angebots beschrieben
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

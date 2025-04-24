@@ -1,7 +1,7 @@
 ---
 title: Crear y utilizar una cuenta compartida
 excerpt: Añadir y utilizar una cuenta compartida en su solución Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
  
 

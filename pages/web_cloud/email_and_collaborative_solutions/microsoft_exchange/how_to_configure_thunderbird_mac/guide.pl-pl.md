@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Skonfiguruj swoje konto e-mail w programie Thunderbird dla systemu macOS'
 excerpt: 'Tutaj znajdziesz procedurę dodawania konta Exchange w programie Thunderbird'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 

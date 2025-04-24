@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Konfiguration Ihrer E-Mail-Adresse in Mail für macOS"
 excerpt: Erfahren Sie hier, wie Sie Ihren Exchange Account in macOS Mail einrichten
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

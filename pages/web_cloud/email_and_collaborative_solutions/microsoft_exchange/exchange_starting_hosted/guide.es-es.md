@@ -1,7 +1,7 @@
 ---
 title: 'Primeros pasos con el servicio Hosted Exchange'
 excerpt: 'Cómo configurar por primera vez el servicio Hosted Exchange'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

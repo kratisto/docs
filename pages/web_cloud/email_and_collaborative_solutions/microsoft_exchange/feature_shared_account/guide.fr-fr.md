@@ -1,7 +1,7 @@
 ---
 title: Créer et utiliser un compte partagé
 excerpt: Ajouter et utiliser un compte partagé sur votre offre E-mail Exchange
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

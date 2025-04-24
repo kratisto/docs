@@ -1,7 +1,7 @@
 ---
 title: "Elimina un account email"
 excerpt: Come eliminare o reimpostare un indirizzo email sul servizio di posta
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 
