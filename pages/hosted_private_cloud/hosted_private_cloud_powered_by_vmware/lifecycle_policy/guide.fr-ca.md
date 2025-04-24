@@ -1,12 +1,12 @@
 ---
 title: "Cycle de vie de la solution VMware on OVHcloud"
 excerpt: "VMware on OVHcloud"
-updated: 2024-08-09
+updated: 2025-04-24
 ---
 
 > [!warning]
 >
-> Cette page est uniquement à des fins d'information générale et OVHcloud ne garantit pas que les informations sont complètes ou à jour. Les contrats régissant ce produit (notamment les conditions générales et spécifiques d'utilisation, consultables dans le compte client) et les communications adressées par OVHcloud aux clients prévalent sur toute information affichée sur cette page.
+> Cette page est uniquement à des fins d'information générale et  OVHcloud ne garantit pas l'exhaustivité ni l'actualité des informations. Les contrats régissant ce produit (notamment les conditions générales et spécifiques d'utilisation, consultables dans le compte client) et les communications adressées par OVHcloud aux clients prévalent sur toute information affichée sur cette page.
 >
 
 ## Objectif
@@ -15,7 +15,7 @@ updated: 2024-08-09
 
 Le service Hosted Private Cloud VMware on OVHcloud propose une infrastructure dédiée basée sur les technologies VMware SDDC ainsi que sur les technologies d'autres partenaires (Veeam, Zerto...).
 
-OVHcloud a une politique de cycle de vie du service afin de prendre en compte plusieurs facteurs, tels que :
+OVHcloud a une politique de cycle de vie du service afin de prendre en compte un certain nombres de facteurs, tels que :
 
 * le cycle de vie des composants logiciels intégrés, tel que déterminé par leurs éditeurs (VMware, Veeam, Zerto, etc.) ;
 * le cycle de vie des composants matériels ;
@@ -91,16 +91,17 @@ Le tableau suivant présente un résumé des différentes phases du cycle de vie
 
 ### Hôtes (calcul)
 
-|                   Commercial Range                    | Disponibilité générale | End of Sales | End of Growth | End of Life |
+|                   Commercial Range                    | General Availability | End of Sales | End of Growth | End of Life |
 |:-----------------------------------------------------:|:----------------------:|:------------:|:-------------:|:-----------:|
-|                 DC2011 (AMD Opteron)                  |          2011          |  28/02/2015  |  28/02/2022   | 30/09/2022  |
-|                DC2013 (AMD Bulldozer)                 |          2013          |  28/02/2015  |  28/02/2022   | 30/09/2022  |
-|                DC2014 (AMD PileDriver)                |          2014          |  31/08/2017  |  28/02/2022   | 30/09/2022  |
-|                DC2016 (AMD PileDriver)                |          2016          |  30/11/2018  |  28/02/2022   | 30/09/2022  |
-| SDDC2014 & SDDC2016 (Intel Ivy Bridge, Intel Haswell) |          2016          |  30/04/2017  |  30/03/2026   | 31/07/2026  |
-|              SDDC2018 (Intel Broadwell)               |          2018          |  30/11/2018  |  30/03/2026   | 31/07/2026  |
-|             Essentials (Intel Broadwell)              |          2020          |  30/09/2025  |  30/03/2026   | 31/07/2026  |
-|               Premier (Intel Xeon Gold)               |          2020          |              |               |             |
+|                 DC2011 (AMD Opteron)                  |          2011          |  2015-02-28  |  2022-02-28   | 2022-09-30  |
+|                DC2013 (AMD Bulldozer)                 |          2013          |  2015-02-28  |  2022-02-28   | 2022-09-30  |
+|                DC2014 (AMD PileDriver)                |          2014          |  2017-08-31  |  2022-02-28   | 2022-09-30  |
+|                DC2016 (AMD PileDriver)                |          2016          |  2018-11-30  |  2022-02-28   | 2022-09-30  |
+| SDDC2014 & SDDC2016 (Intel Ivy Bridge, Intel Haswell) |          2016          |  2017-04-30  |  2026-03-30   | 2027-07-31  |
+|              SDDC2018 (Intel Broadwell)               |          2018          |  2018-11-30  |  2026-03-30   | 2027-07-31  |
+|             Essentials (Intel Broadwell)              |          2020          |  2025-09-30  |  2026-03-30   | 2027-07-31  |
+|               Premier (Intel Xeon Gold)               |          2020          |  2025-11-30  |              |               |
+|                Premier v2 (Intel Emerald Rapids)               |          2025          |              |               |             |
 
 ## Logiciels intégrés
 

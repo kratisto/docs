@@ -1,7 +1,7 @@
 ---
 title: "Hosted Private Cloud VMware Lifecycle Policy"
 excerpt: "Lifecycle policy for VMware on OVHcloud"
-updated: 2024-08-09
+updated: 2025-04-24
 ---
 
 > [!warning]
@@ -45,7 +45,7 @@ This refers to the date when the sales of new service for a commercial range or 
 
 After the End of Sales for a specific commercial range, the Client will still be able to use and grow existing instances of the Service and add additional individual Host Servers. The Packs from that previous commercial range or any other commercial range before it will not be available anymore for ordering new instances of the Service. The Packs will be sold for the new commercial range launched on the market only.
 
-The End of Sales are usually announced with a thirty (30) days minimum warning.
+The End of Sales is usually announced with a thirty (30) days minimum warning.
 
 A commercial range or version will typically reach its End of Sales three (3) years after the beginning of the General Availability phase.
 
@@ -53,7 +53,7 @@ A commercial range or version will typically reach its End of Sales three (3) ye
 
 This refers to the date when the growth for a commercial range or version is discontinued. Past this date, clients will not be able to order the discontinued commercial range or version anymore.
 
-The End of Sales are usually announced with a thirty (30) days minimum warning.
+The End of Sales is usually announced with a thirty (30) days minimum warning.
 
 A commercial range or version will typically reach its End of Growth five (5) years after the beginning of the General Availability phase.
 
@@ -75,7 +75,7 @@ Clients should anticipate the range change by testing in advance and making sure
 
 This table presents a summary of the different phases of the lifecycle of the service. The impact for each commercial range may differ.
 
-|              Phases              | General Availability | General Support | Grace Period / Decommissionning |
+|              Phases              | General Availability | General Support | Grace Period / Decommissioning |
 |:--------------------------------:|:--------------------:|:---------------:|:-------------------------------:|
 |    Sales (start new services)    |          X           |                 |                                 |
 |    Growth (existing services)    |          X           |        X        |                                 |
@@ -97,10 +97,12 @@ This table presents a summary of the different phases of the lifecycle of the se
 |                DC2013 (AMD Bulldozer)                 |          2013          |  2015-02-28  |  2022-02-28   | 2022-09-30  |
 |                DC2014 (AMD PileDriver)                |          2014          |  2017-08-31  |  2022-02-28   | 2022-09-30  |
 |                DC2016 (AMD PileDriver)                |          2016          |  2018-11-30  |  2022-02-28   | 2022-09-30  |
-| SDDC2014 & SDDC2016 (Intel Ivy Bridge, Intel Haswell) |          2016          |  2017-04-30  |  2026-03-30   | 2026-07-31  |
-|              SDDC2018 (Intel Broadwell)               |          2018          |  2018-11-30  |  2026-03-30   | 2026-07-31  |
-|             Essentials (Intel Broadwell)              |          2020          |  2025-09-30  |  2026-03-30   | 2026-07-31  |
-|               Premier (Intel Xeon Gold)               |          2020          |              |               |             |
+| SDDC2014 & SDDC2016 (Intel Ivy Bridge, Intel Haswell) |          2016          |  2017-04-30  |  2026-03-30   | 2027-07-31  |
+|              SDDC2018 (Intel Broadwell)               |          2018          |  2018-11-30  |  2026-03-30   | 2027-07-31  |
+|             Essentials (Intel Broadwell)              |          2020          |  2025-09-30  |  2026-03-30   | 2027-07-31  |
+|               Premier (Intel Xeon Gold)               |          2020          |  2025-11-30  |              |               |
+|                Premier v2 (Intel Emerald Rapids)               |          2025          |              |               |             |
+
 
 ## Integrated Software
 
