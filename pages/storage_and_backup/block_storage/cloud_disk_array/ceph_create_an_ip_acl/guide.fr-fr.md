@@ -15,12 +15,12 @@ Ce guide vous montre comment créer une ACL IP pour autoriser l'accès à votre 
 
 ## En pratique
 
-### Utiliser l'interface web
-
 > [!primary]
 >
-> L'utilisation d'une interface web est le moyen le plus simple de créer un ACL IP.
+> L'utilisation de l'espace client OVHcloud est le moyen le plus simple de créer un ACL IP.
 >
+
+### Depuis l'espace client OVHcloud
 
 Tout d'abord, connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Bare Metal Cloud`{.action}. Dans la section nommée `STOCKAGE ET SAUVEGARDE`, puis sur le service `Cloud Disk Array`{.action}.
 
@@ -45,7 +45,7 @@ Et créer l'IP ACL.
 
 Après la création de la pool d'adresses IP, vous êtes de retour au gestionnaire. Vous pouvez voir que le statut du pool a changé car l'ACL est en cours de création.
 
-### Utiliser l'API
+### Depuis l'API OVHcloud
 
 > [!api]
 >
