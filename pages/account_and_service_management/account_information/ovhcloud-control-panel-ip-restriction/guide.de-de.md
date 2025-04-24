@@ -1,7 +1,7 @@
 ---
 title: "Zugriff auf Ihr OVHcloud Kundencenter nach IP beschränken"
 excerpt: "Erfahren Sie hier, wie Sie Ihren OVHcloud Kunden-Account absichern, indem Sie Zugriffsberechtigungen für IP-Adressen einrichten"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

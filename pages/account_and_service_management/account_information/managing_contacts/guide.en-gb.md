@@ -1,7 +1,7 @@
 ---
 title: 'Managing contacts for your services'
 excerpt: 'Find out how to manage contacts for your OVHcloud services'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

@@ -1,7 +1,7 @@
 ---
 title: 'Crear y gestionar usuarios locales en una cuenta de OVHcloud'
 excerpt: 'Cómo añadir usuarios locales desde su cuenta de OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

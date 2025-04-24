@@ -1,7 +1,7 @@
 ---
 title: "Limitar o acesso por IP à Área de Cliente OVHcloud"
 excerpt: "Saiba como proteger a sua conta OVHcloud limitando os endereços IP autorizados a aceder à mesma"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
   
 ## Objetivo

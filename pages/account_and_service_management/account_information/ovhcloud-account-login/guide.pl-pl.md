@@ -1,7 +1,7 @@
 ---
 title: Logowanie do Panelu klienta OVHcloud
 excerpt: 'Dowiedz się, jak zalogować się do Twojego konta OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

@@ -1,7 +1,7 @@
 ---
 title: 'OVHcloud Kunden-Account absichern und persönliche Informationen verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Account-Sicherheit optimieren, Ihre persönlichen Informationen verwalten und den Zugriff auf Ihren Account delegieren'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

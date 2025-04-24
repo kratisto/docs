@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre la gestión de la cuenta de OVHcloud
 excerpt: Consulte las preguntas más frecuentes sobre la gestión de la cuenta de OVHcloud
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objetivo

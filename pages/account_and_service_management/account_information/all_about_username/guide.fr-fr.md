@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser mon compte OVHcloud et gérer mes informations personnelles'
 excerpt: "Découvrez comment optimiser la sécurité de votre compte OVHcloud, gérer vos informations personnelles et déléguer l'accès à votre compte."
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

@@ -1,7 +1,7 @@
 ---
 title: 'Setting and managing an account password'
 excerpt: 'Find out how to set, change and manage your password for the OVHcloud Control Panel'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objective

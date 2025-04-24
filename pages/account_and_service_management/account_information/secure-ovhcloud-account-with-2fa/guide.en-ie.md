@@ -1,7 +1,7 @@
 ---
 title: 'Securing your OVHcloud account with two-factor authentication'
 excerpt: 'Find out how to improve security for your OVHcloud account by enabling two-factor authentication (2FA)'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 <style>

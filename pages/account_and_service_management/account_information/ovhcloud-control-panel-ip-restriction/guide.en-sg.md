@@ -1,7 +1,7 @@
 ---
 title: "Restrict IP access to the OVHcloud Control Panel"
 excerpt: "Find out how to secure your OVHcloud account by limiting the IP addresses authorised to access it"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
   

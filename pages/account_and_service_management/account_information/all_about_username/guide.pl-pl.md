@@ -1,7 +1,7 @@
 ---
 title: 'Zabezpieczenie konta OVHcloud i zarządzanie danymi osobowymi'
 excerpt: 'Dowiedz się, jak zoptymalizować bezpieczeństwo konta OVHcloud, zarządzać danymi osobowymi i delegować dostęp do konta.'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

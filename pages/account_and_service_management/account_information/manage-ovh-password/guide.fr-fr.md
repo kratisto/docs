@@ -1,7 +1,7 @@
 ---
 title: 'Modifier le mot de passe de votre compte'
 excerpt: 'Apprenez à définir, modifier et gérer le mot de passe de votre espace client OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Objectif

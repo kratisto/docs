@@ -1,7 +1,7 @@
 ---
 title: 'Impostare e gestire la password di un account OVHcloud'
 excerpt: 'Come definire, modificare e gestire la tua password dallo Spazio Cliente'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

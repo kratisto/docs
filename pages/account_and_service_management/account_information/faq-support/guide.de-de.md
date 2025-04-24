@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Hier finden Sie die häufigsten Fragen zum OVHcloud Support
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Ziel

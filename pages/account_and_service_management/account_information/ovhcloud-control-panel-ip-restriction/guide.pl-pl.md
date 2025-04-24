@@ -1,7 +1,7 @@
 ---
 title: "Ogranicz dostęp przez IP do Panelu klienta OVHcloud"
 excerpt: "Dowiedz się, jak zabezpieczyć Twoje konto OVHcloud ograniczając dostęp do adresów IP"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

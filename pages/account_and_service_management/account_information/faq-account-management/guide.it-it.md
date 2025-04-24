@@ -1,7 +1,7 @@
 ---
 title: "FAQ sulla gestione dell'account OVHcloud"
 excerpt: "Trovi le domande più frequenti sulla gestione dell'account OVHcloud"
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo

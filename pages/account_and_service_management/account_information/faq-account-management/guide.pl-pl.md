@@ -1,7 +1,7 @@
 ---
 title: FAQ dotyczący zarządzania kontem OVHcloud
 excerpt: Najczęściej zadawane pytania dotyczące zarządzania kontem OVHcloud
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie

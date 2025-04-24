@@ -1,7 +1,7 @@
 ---
 title: 'Definir e gerir a palavra-passe da sua conta'
 excerpt: 'Aprenda a definir, alterar e gerir a palavra-passe da sua Área de Cliente OVHcloud'
-updated: 2025-04-24
+updated: 2025-04-28
 ---
 
 ## Sumário
