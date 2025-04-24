@@ -8,6 +8,7 @@
             + [Setting and managing an account password](account_and_service_management/account_information/manage-ovh-password)
             + [Securing my OVHcloud account and managing my personal information](account_and_service_management/account_information/all_about_username)
             + [Managing contacts for your services](account_and_service_management/account_information/managing_contacts)
+            + [Presentation of the new OVHcloud Control Panel navigation](account_and_service_management/account_information/new-control-panel-navigation)
             + [Sharing files with the Plik tool](account_and_service_management/account_information/use-plik)
         + [Users creation and management](account-and-service-management-account-information-users)
             + [Presentation of identities that can interact within an OVHcloud account](manage_and_operate/iam/identities-management)
