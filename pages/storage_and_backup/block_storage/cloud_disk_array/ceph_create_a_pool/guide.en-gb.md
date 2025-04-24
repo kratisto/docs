@@ -1,12 +1,12 @@
 ---
 title: Pool creation
-excerpt: This guide shows you how to create a pool using the web interface.
+excerpt: This guide shows you how to create a pool using the the OVHcloud Control Panel and the API.
 updated: 2025-04-26
 ---
 
 ## Objective
 
-This guide shows you how to create a pool using the web interface, using the OVHcloud Control Panel or the OVHcloud API.
+This guide shows you how to create a pool, using the OVHcloud Control Panel or the OVHcloud API.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ This guide shows you how to create a pool using the web interface, using the OVH
 
 > [!primary]
 >
-> Using web interface is the easiest way to create a pool.
+> Using the OVHcloud Control Panel is the easiest way to create a pool.
 >
 
 ### Using the OVHcloud Control Panel
