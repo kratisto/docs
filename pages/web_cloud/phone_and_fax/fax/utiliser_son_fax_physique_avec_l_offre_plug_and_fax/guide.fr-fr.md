@@ -1,7 +1,7 @@
 ---
 title: Utiliser son fax physique avec l’offre Plug & Fax
 excerpt: Découvrez comment configurer l’offre Plug & Fax pour utiliser un fax physique
-updated: 2021-03-11
+updated: 2025-04-28
 ---
 
 ## Objectif
