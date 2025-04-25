@@ -1,6 +1,6 @@
 ---
 title: Dedicated input - Logstash
-updated: 2025-04-24
+updated: 2025-04-25
 ---
 
 ## Objective
@@ -216,10 +216,10 @@ For your information, here is the list of Logstash plugins we support. Of course
 
 ##### Inputs plugins
 
-```
+```text
 logstash-input-beats
-logstash-input-couchdb_changes   
-logstash-input-dead_letter_queue 
+logstash-input-couchdb_changes
+logstash-input-dead_letter_queue
 logstash-input-elastic_serverless_forwarder
 logstash-input-elasticsearch
 logstash-input-ganglia
@@ -244,7 +244,7 @@ logstash-input-jdbc
 logstash-input-logstash
 logstash-input-rabbitmq
 logstash-input-snmp
-logstash-input-snmptrap 
+logstash-input-snmptrap
 ```
 
 ##### Input gelf plugin
@@ -266,7 +266,7 @@ We patched the gelf input to support TCP+TLS. Example of Input section:
 
 #### filter plugins
 
-```
+```text
 logstash-filter-age
 logstash-filter-aggregate
 logstash-filter-anonymize
@@ -307,7 +307,7 @@ logstash-filter-jdbc_static
 
 #### codec plugins
 
-```
+```text
 logstash-codec-avro
 logstash-codec-cef
 logstash-codec-collectd
@@ -333,13 +333,13 @@ logstash-codec-cloudtrail
 
 The following plugins are disabled for security reasons:
 
-```
- logstash-input-exec
- logstash-input-file
- logstash-input-kafka
- logstash-input-pipe
- logstash-input-unix
- logstash-filter-ruby
+```text
+logstash-input-exec
+logstash-input-file
+logstash-input-kafka
+logstash-input-pipe
+logstash-input-unix
+logstash-filter-ruby
 ```
 
 ##### SSL CA certificate
