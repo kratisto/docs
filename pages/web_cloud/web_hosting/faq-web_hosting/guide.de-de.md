@@ -1,6 +1,6 @@
 ---
 title: "FAQ Webhosting"
-excerpt: "Hier finden Sie die wichtigsten Fragen zu den OVHcloud Webhostings"
+excerpt: "Hier finden Sie Antworten zu den am häufigsten gestellten Fragen zu den OVHcloud Webhostings"
 updated: 2025-04-10
 ---
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus:
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 2. Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 
-Dort können Sie Ihre SSL Zertifikate, die auf Ihrem Webhosting angewendete PHP Version, die CDN Option, eventuelle Multisites, Datenbanken usw. verwalten.
+Dort können Sie Ihre SSL Zertifikate, die auf Ihrem Webhosting angewendete PHP Version, die CDN Option, Multisites, Datenbanken, etc. verwalten.
 
 > [!success]
 >
@@ -50,7 +50,7 @@ Der Reset-Vorgang wird dann an Ihre Kontakt-E-Mail-Adresse versandt.
 
 > [!success]
 >
-> Alle details finden Sie in unserer Anleitung „[Passwort Ihres OVHcloud Accounts ändern](/pages/account_and_service_management/account_information/manage-ovh-password)“.
+> Alle Details finden Sie in unserer Anleitung „[Passwort Ihres OVHcloud Accounts ändern](/pages/account_and_service_management/account_information/manage-ovh-password)“.
 
 ///
 
@@ -74,7 +74,7 @@ Dort können Sie das FTP-Passwort Ihres Webhostings ändern.
 
 > [!warning]
 >
-> Wenn Sie das Passwort einer Datenbank ändern, die von einer Ihrer Websites verwendet wird, aktualisieren Sie es ebenfalls in der Konfigurationsdatei der betreffenden Website. Ohne dieses Update wird Ihre Website von ihrer Datenbank abgemeldet und funktioniert nicht mehr.
+> Wenn Sie das Passwort einer Datenbank ändern, die von einer Ihrer Websites verwendet wird, aktualisieren Sie es ebenfalls in der Konfigurationsdatei der betreffenden Website. Ohne dieses Update wird Ihre Website von ihrer Datenbank separiert und funktioniert nicht mehr.
 
 Führen Sie die folgenden Schritte aus:
 
@@ -90,7 +90,7 @@ Dort können Sie die Passwörter Ihrer Datenbanken ändern, die mit Ihrem Webhos
 
 ///
 
-/// details | Wie ändere ich das Passwort einer E-Mail-Adresse, die mit meinem Webhosting verbunden ist?
+/// details | Wie ändere ich das Passwort eines E-Mail-Accounts, die mit meinem Webhosting verbunden ist?
 
 Führen Sie die folgenden Schritte aus:
 
@@ -99,13 +99,13 @@ Führen Sie die folgenden Schritte aus:
 3. Klicken Sie auf der angezeigten Seite auf den Tab `E-Mails`{.action}.
 4. Klicken Sie in der angezeigten Tabelle auf den Button `...`{.action} rechts neben der betreffenden E-Mail-Adresse und dann auf `Passwort ändern`{.action}.
 
-Dort können Sie das Passwort Ihrer E-Mail-Adresse ändern (achten Sie darauf, die im Eingabefenster angezeigten Passwortrichtlinien einzuhalten).
+Dort können Sie das Passwort Ihres E-Mail-Accounts ändern (achten Sie darauf, die im Eingabefenster angezeigten Passwortrichtlinien einzuhalten).
 
 > [!success]
 >
-> Alle details finden Sie in unserer Anleitung „[Passwort einer E-Mail-Adresse ändern](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)“
+> Alle details finden Sie in unserer Anleitung „[Passwort eines E-Mail-Accounts ändern](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)“
 >
-> Wenn Sie ein E-Mail-Programm verwenden (Outlook, macOS Mail, Thunderbird usw.), aktualisieren Sie das Passwort für Ihre E-Mail-Adresse, wenn das E-Mail-Programm Sie dazu auffordert, wenn es geöffnet oder synchronisiert wird.
+> Wenn Sie ein E-Mail-Programm verwenden (Outlook, macOS Mail, Thunderbird, etc.), aktualisieren Sie das Passwort für Ihre E-Mail-Adresse, wenn das E-Mail-Programm Sie dazu auffordert, wenn es geöffnet oder synchronisiert wird.
 >
 > Wenn Sie weitere Fragen zur E-Mail-Lösung *MX Plan* haben, lesen Sie unsere [FAQ - E-Mails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
 
@@ -115,12 +115,12 @@ Dort können Sie das Passwort Ihrer E-Mail-Adresse ändern (achten Sie darauf, d
 
 Um Ihre Website online zu stellen, benötigen Sie zunächst Folgendes:
 
-- Eine [Domainname](/links/web/domains), die der Webadresse entspricht, von der aus über einen Internetbrowser auf Ihre Website zugegriffen werden kann (Beispiel: *domain.tld*). Dieser Domainname muss auch mit Ihrem Webhosting verbunden sein, um die Website anzeigen zu können.
+- Eine [Domainname](/links/web/domains), die der Webadresse entspricht, von der aus über einen Webbrowser auf Ihre Website zugegriffen werden kann (Beispiel: *domain.tld*). Dieser Domainname muss auch mit Ihrem Webhosting verbunden sein, um die Website anzeigen zu können.
 - Ein [Webhosting](/links/web/hosting), auf dem Sie Ihre Website installieren können.
 
 Im Folgenden sind die wichtigsten Schritte aufgeführt:
 
-1. Definieren Sie Ihr Projekt (schlüsselfertige Website (CMS), die manuell oder mithilfe der 1-Klick-Module von OVHcloud oder von Ihnen oder einem Dienstleister erstellte Website etc. installiert wird).
+1. Definieren Sie Ihr Projekt (fertige Website (CMS), die manuell oder mithilfe der 1-Klick-Module von OVHcloud oder von Ihnen oder einem Dienstleister erstellte Website etc. installiert wird).
 2. Stellen Sie die Dateien der Website auf dem FTP-Speicherplatz Ihres Webhostings online.
 3. Verknüpfen Sie die Website mit einer Datenbank (falls die Website eine Datenbank verwendet).
 4. Wechseln Sie zu Ihrer Website.
@@ -133,7 +133,7 @@ Im Folgenden sind die wichtigsten Schritte aufgeführt:
 >
 > Wenn Ihre Website bereits bei einem anderen Anbieter vorhanden ist und Sie sie zu OVHcloud migrieren möchten, lesen Sie unsere detaillierte Anleitung „[Website und zugehörige Dienste zu OVHcloud migrieren](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)“.
 >
-> Um Ihnen bei der Konfiguration Ihres Webhostings zu helfen, können Sie sich über alle [Anleitungen zu unseren Webhosting-Lösungen](/products/web-cloud-hosting) informieren.
+> Um Ihnen bei der Konfiguration Ihres Webhostings zu helfen, können Sie [hier alle Anleitungen zu unseren Webhosting-Lösungen finden](/products/web-cloud-hosting).
 
 ///
 
@@ -147,7 +147,7 @@ Im Folgenden sind die wichtigsten Schritte aufgeführt:
 4. Import des Backups Ihrer Website auf Ihr OVHcloud Hosting-Angebot
 5. E-Mail-Adressen bei OVHcloud neu erstellen
 6. Die OVHcloud E-Mail-Server in der aktiven DNS-Zone Ihrer Domain deklarieren
-7. Transfer des Inhalts Ihrer alten E-Mail-Adressen an Ihre neuen Adressen bei OVHcloud
+7. Transfer des Inhalts Ihrer alten E-Mail-Accounts an Ihre neuen Accounts bei OVHcloud
 8. E-Mail-Software neu konfigurieren
 9. Die aktiven DNS-Server Ihrer Domain durch die DNS-Server von OVHcloud ersetzen
 10. Transfer Ihrer Domain zu OVHcloud
@@ -174,12 +174,12 @@ Dort können Sie die auf Ihrem Webhosting als Multisite deklarierten Domains/Sub
 
 ///
 
-/// details | Wie zeige ich meine Website mit einer URL in „HTTPS“ an?
+/// details | Wie zeige ich meine Website mit einer URL in HTTPS an?
 
-Damit Ihre Website über eine „HTTPS“-URL erreichbar ist (Beispiel: `https://domain.tld`), sind zwei Voraussetzungen erforderlich:
+Damit Ihre Website über eine HTTPS-URL erreichbar ist (Beispiel: `https://domain.tld`), sind zwei Voraussetzungen erforderlich:
 
 - Sie benötigen ein aktives SSL-Zertifikat für Ihre Domain (oder auf Ihrem Webhosting installiert)
-- Im Quellcode Ihrer Website muss diese das Umschreiben der URLs in „HTTPS“ erzwingen.
+- Im Quellcode Ihrer Website muss diese das Umschreiben der URLs in HTTPS erzwingen.
 
 OVHcloud bietet [mehrere SSL-Zertifikate](/links/web/hosting-options) für Webhostings an.
 
@@ -196,21 +196,21 @@ So aktivieren Sie ein SSL-Zertifikat auf Ihrem Webhosting für Ihre Website:
 >
 > - [Webhosting - SSL-Zertifikat verwalten](/pages/web_cloud/web_hosting/ssl_on_webhosting).
 > - [Webhosting - Ein kostenloses SSL-Zertifikat von Let's Encrypt aktivieren](/pages/web_cloud/web_hosting/ssl_letsencrypt).
-> - [Webhosting - SSL Sectigo DV Zertifikat aktivieren](/pages/web_cloud/web_hosting/ssl_dv).
+> - [Webhosting - SSL-Zertifikat für Sectigo DV aktivieren](/pages/web_cloud/web_hosting/ssl_dv).
 > - [Webhosting - SSL-Zertifikat für Sectigo EV aktivieren](/pages/web_cloud/web_hosting/ssl_ev).
 > - [Webhosting - Benutzerdefiniertes SSL-Zertifikat installieren](/pages/web_cloud/web_hosting/ssl_custom).
 
-Sobald das SSL-Zertifikat Ihrer Wahl installiert und bei OVHcloud eingerichtet ist, überprüfen Sie, dass der Quellcode Ihrer Website die Zugriffs-URLs Ihrer Website in „HTTPS“ umschreibt. Sollten Sie diesbezüglich Schwierigkeiten haben, wenden Sie sich bitte an Ihren Webmaster oder einen unserer [Partner](/links/partner).
+Sobald das SSL-Zertifikat Ihrer Wahl installiert und bei OVHcloud eingerichtet ist, überprüfen Sie, dass der Quellcode Ihrer Website die Zugriff-URLs Ihrer Website in HTTPS umschreibt. Sollten Sie diesbezüglich Schwierigkeiten haben, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
 
 ///
 
 /// details | Wie ändere ich mein Webhosting-Angebot?
 
-Um das Webhosting zu bestellen, das am besten zu Ihren Bedürfnissen passt, besuchen Sie unsere Angebote auf [dieser Seite](/links/web/hosting).
+Um das Webhosting zu bestellen, das am besten zu Ihren Bedürfnissen passt, erfahren Sie alles zu unseren Angeboten auf [dieser Seite](/links/web/hosting).
 
-> [!PRIMARY]
+[!primary]
 >
-> Abhängig von Ihrem aktuellen Webhosting-Angebot werden Ihnen möglicherweise nicht alle Angebote angeboten. Weitere Informationen hierzu finden Sie in unserer Anleitung „[Webhosting-Angebot skalieren](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)“.
+> Abhängig von Ihrem aktuellen Webhosting werden Ihnen möglicherweise nicht alle Angebote gezeigt. Weitere Informationen hierzu finden Sie in unserer Anleitung „[Webhosting-Angebot skalieren](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)“.
 
 Nachdem Sie Ihre Auswahl getroffen haben, folgen Sie diesen Schritten:
 
@@ -225,7 +225,7 @@ Nachdem Sie Ihre Auswahl getroffen haben, folgen Sie diesen Schritten:
 
 ///
 
-/// details | Wie kann ich nach einer Kündigung das mit meinem Webhosting verbundene E-Mail-Angebot beibehalten?
+/// details | Wie kann ich bei einer Kündigung das mit meinem Webhosting verbundene E-Mail-Angebot beibehalten?
 
 Wenn Sie Ihr Webhosting kündigen oder löschen, wird auch das dazugehörige E-Mail-Angebot gekündigt. Um Ihre E-Mail-Adressen beizubehalten, müssen Sie das E-Mail-Angebot **vor** Kündigung des betreffenden Webhostings trennen.
 
@@ -234,34 +234,34 @@ Führen Sie die folgenden Schritte aus:
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 2. Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 3. Klicken Sie auf der angezeigten Seite und in der Randleiste **Konfiguration** auf die Schaltfläche `...`{.action} rechts neben dem Text `E-Mail-Adressen` und dann auf `Meine E-Mail-Option abtrennen`{.action}.
-4. Befolgen Sie die Anweisungen, um ein unabhängiges E-Mail-Angebot zu bestellen, mit dem Sie Ihre bereits erstellten E-Mail-Adressen beibehalten können.
+4. Befolgen Sie die Anweisungen, um ein unabhängiges E-Mail-Angebot zu bestellen, mit dem Sie Ihre bereits erstellten E-Mail-Accounts beibehalten können.
 
 ///
 
 /// details | Wie kann ich bei einer Kündigung eines „Performance“ Webhostings das dazugehörige Angebot „Web Cloud Databases“ beibehalten?
 
-Die Webhosting-Pakete **Performance** enthalten ein kostenlos aktivierbares Angebot Web Cloud Databases.<br>
-Wenn Sie Ihr Webhosting kündigen oder löschen **Performance**, wird auch das eventuell damit verbundene Angebot Web Cloud Databases gekündigt. Um Ihre Web Cloud Databases Lösung zu behalten, müssen Sie diese trennen **vor** Kündigung des Hostings.
+Die Webhosting-Pakete **Performance** enthalten kostenlos aktivierbare Web Cloud Databases.  
+Wenn Sie Ihr Webhosting kündigen oder löschen **Performance**, wird auch das eventuell damit verbundene Angebot Web Cloud Databases gekündigt. Um Ihre Web Cloud Databases Lösung zu behalten, müssen Sie diese **vor** Kündigung des Hostings abtrennen.
 
 Führen Sie die folgenden Schritte aus:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 2. Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 3. Klicken Sie auf der angezeigten Seite und in der Randleiste **Konfiguration** auf die Schaltfläche `...`{.action} rechts neben `Web Cloud Databases` und dann auf `Abrennen`{.action}.
-4. Befolgen Sie die Anweisungen, um ein unabhängiges Angebot für Web Cloud Databases zu bestellen, damit Ihre bereits erstellte Lösung für Web Cloud Databases erhalten bleibt.
+4. Befolgen Sie die Anweisungen, um einen unabhängigen Web Cloud Databases Dienst zu bestellen, damit Ihre bereits erstellte Lösung für Web Cloud Databases erhalten bleibt.
 
 **Diese Aktion kann nicht rückgängig gemacht werden. Das Angebot Web Cloud Databases wird dann unabhängig von Ihrem Performance Webhosting abgerechnet.**
 
 ///
 
-/// details | Wie kann ich den RAM eines „Web Cloud Databases“ Angebots im Zusammenhang mit einem „Performance“ Webhosting erhöhen?
+/// details | Wie kann ich den RAM eines Web Cloud Databases Angebots im Zusammenhang mit einem Performance Webhosting erhöhen?
 
 Führen Sie die folgenden Schritte aus:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 2. Klicken Sie auf das Menü `Web Cloud Databases`{.action} und wählen Sie die betreffende Web Cloud Databases Lösung aus.
 3. Klicken Sie auf der angezeigten Seite und in der Randleiste **Allgemeine Informationen** auf den Button `...`{.action} rechts neben `RAM` und dann auf `RAM-Menge ändern`{.action}.
-4. Befolgen Sie die Anweisungen, um die gewünschte RAM-Menge zu bestellen, und fahren Sie dann mit der Validierung der Bestellung fort.
+4. Befolgen Sie die Anweisungen, um den gewünschten RAM zu bestellen, und fahren Sie dann mit der Validierung der Bestellung fort.
 
 > [!success]
 >
@@ -277,8 +277,8 @@ Führen Sie die folgenden Schritte aus:
 
 /// details | Was kann ich tun, wenn meine Website nicht funktioniert?
 
-Es gibt mehrere Gründe, warum Ihre Website nicht funktioniert.<br>
-Um die Ursache zu ermitteln, überprüfen Sie zunächst, dass keines Ihrer Abonnements erneuert werden muss **Erneuert**.
+Es gibt mehrere Gründe, warum Ihre Website nicht funktioniert.  
+Um die Ursache zu ermitteln, überprüfen Sie zunächst, dass keines Ihrer Abonnements erneuert werden muss.
 
 Führen Sie die folgenden Schritte aus:
 
@@ -291,7 +291,7 @@ Führen Sie die folgenden Schritte aus:
 
 Sehen Sie sich anschließend die [laufenden Events auf unserer Infrastruktur](https://www.status-ovhcloud.com/) an.
 
-Wenn alle Ihre Dienstleistungen aktiv sind und von keinerlei Störungen oder Wartungsarbeiten betroffen sind, nehmen Sie bitte eine gründlichere Diagnose vor.
+Wenn alle Ihre Dienstleistungen aktiv sind und von keinerlei Störungen oder Wartungsarbeiten betroffen sind, nehmen Sie eine gründlichere Diagnose vor.
 
 > [!success]
 >
@@ -301,26 +301,26 @@ Wenn alle Ihre Dienstleistungen aktiv sind und von keinerlei Störungen oder War
 
 /// details | Was tun, wenn die Seite „Seite im Aufbau“ von OVHcloud nach dem Onlinestellen meiner Website weiterhin angezeigt wird?
 
-![im Bau befindliche Website](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
+![construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
 
-Bei der Installation Ihres Webhostings legt OVHcloud diese Warteseite in Form einer **index.html** Datei im Ordner `www` auf dem FTP-Speicherplatz Ihres Webhostings ab.
+Bei der Installation Ihres Webhostings legt OVHcloud diese Seite in Form einer **index.html** Datei im Ordner `www` auf dem FTP-Speicherplatz Ihres Webhostings ab.
 
 Es gibt zwei mögliche Szenarien:
 
-- Wenn Sie ein „[1-Klick-Module](/pages/web_cloud/web_hosting/cms_install_1_click_modules)“ installiert haben: Diese Datei wird automatisch von unseren Installationsrobotern gelöscht.
-- Wenn Sie Ihre Website manuell installiert haben, führen Sie die folgenden Schritte aus:
-- [Verbinden Sie sich mit dem FTP-Speicherplatz Ihres Webhostings](/pages/web_cloud/web_hosting/ftp_connection).
-- Gehen Sie nach dem Login im FTP-Speicherplatz in das Verzeichnis `www`.
-- Benennen Sie die Datei **index.html** in **index.html.old** um. Dadurch wird die Seite nach einigen Minuten deaktiviert.
+- Wenn Sie ein [1-Klick-Modul](/pages/web_cloud/web_hosting/cms_install_1_click_modules) installieren: Diese Datei wird automatisch von unseren Installationsrobotern gelöscht.
+- Wenn Sie Ihre Website manuell installieren, führen Sie die folgenden Schritte aus:
+    - [Verbinden Sie sich mit dem FTP-Speicherplatz Ihres Webhostings](/pages/web_cloud/web_hosting/ftp_connection).
+    - Gehen Sie nach dem Login im FTP-Speicherplatz in das Verzeichnis `www`.
+    - Benennen Sie die Datei **index.html** in **index.html.old** um. Dadurch wird die Seite nach einigen Minuten deaktiviert.
 
 > [!success]
 >
 > Weitere Informationen finden Sie in den folgenden Anleitungen:
 >
-> - [Webhosting - Mit FTP verbinden](/pages/web_cloud/web_hosting/ftp_connection).
-> - [Webhosting - Passwort eines FTP-Benutzers ändern](/pages/web_cloud/web_hosting/ftp_change_password).
-> - [Anleitung - FileZilla mit Ihrem Webhosting verwenden](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide).
-> - [Anleitung - Cyberduck mit Ihrem Webhosting verwenden](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac).
+> - [Webhosting - Mit FTP verbinden](/pages/web_cloud/web_hosting/ftp_connection)
+> - [Webhosting - Passwort eines FTP-Benutzers ändern](/pages/web_cloud/web_hosting/ftp_change_password)
+> - [Anleitung - FileZilla mit Ihrem Webhosting verwenden](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide)
+> - [Anleitung - Cyberduck mit Ihrem Webhosting verwenden](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)
 
 ///
 
@@ -334,19 +334,19 @@ In diesem Fall müssen Sie Ihr 1-Klick-Modul entfernen und anschließend neu ins
 
 > [!warning]
 >
-> Die Löschung eines [1-Klick-Moduls](/pages/web_cloud/web_hosting/cms_install_1_click_modules) sowie einer Datenbank ist endgültig. Außerdem werden die **Backups der betreffenden Daten gelöscht**. Bevor Sie Ihre Website löschen, stellen Sie sicher, dass **Sie sie genau wie zuvor erstellen können**. Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
+> Die Löschung eines [1-Klick-Moduls](/pages/web_cloud/web_hosting/cms_install_1_click_modules) sowie einer Datenbank ist endgültig. Außerdem werden die **Backups der betreffenden Daten gelöscht**. Bevor Sie Ihre Website löschen, stellen Sie sicher, dass **Sie sie wiederherstellen können**. Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
 >
 > Lesen Sie bei Bedarf auch diese detaillierten Anleitungen:
 >
 > - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup).
 > - [Webhosting - Datenbankinhalte exportieren](/pages/web_cloud/web_hosting/sql_database_export).
 
-**Nur** Nachdem Sie alle erforderlichen Backups durchgeführt haben, löschen Sie Ihr [1-Klick-Module](/pages/web_cloud/web_hosting/cms_install_1_click_modules) mit folgenden Aktionen:
+**Erst nachdem** Sie alle erforderlichen Backups durchgeführt haben, löschen Sie Ihr [1-Klick-Modul](/pages/web_cloud/web_hosting/cms_install_1_click_modules) mit folgenden Aktionen:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 2. Klicken Sie auf das Menü `Hosting-Pakete`{.action} und wählen Sie das betreffende Webhosting aus.
 3. Klicken Sie auf der angezeigten Seite auf den Tab `1-Klick-Module`{.action}.
-4. Klicken Sie in der angezeigten Tabelle auf den Button `...`{.action} rechts in der Zeile des betreffenden *1-Klick*-Moduls und dann auf `Modul löschen`{.action}.
+4. Klicken Sie in der angezeigten Tabelle auf den Button `...`{.action} rechts in der Zeile des betreffenden 1-Klick-Moduls und dann auf `Modul löschen`{.action}.
 
 Das Löschen des *1-Klick-Module* kann **mehrere Minuten** dauern.
 
@@ -363,7 +363,7 @@ Sobald die Löschung abgeschlossen ist, installieren Sie Ihr *1-Klick-Module* ne
 
 > [!success]
 >
-> Weitere Informationen finden Sie in unserer Anleitung „[Webhosting - Installation eines 1-Klick-Module](/pages/web_cloud/web_hosting/cms_install_1_click_modules)“.
+> Weitere Informationen finden Sie in unserer Anleitung „[Webhosting - Installation eines 1-Klick-Moduls](/pages/web_cloud/web_hosting/cms_install_1_click_modules)“.
 
 ///
 
@@ -371,9 +371,9 @@ Sobald die Löschung abgeschlossen ist, installieren Sie Ihr *1-Klick-Module* ne
 
 ![cluster-url](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
-Ihre Website wird mit der Standardwebadresse Ihres Webhostings vom Typ „xxxxx.clusterXXX.hosting.ovh.net“ angezeigt, nachdem Sie Ihr [1-Klick-Module](/pages/web_cloud/web_hosting/cms_install_1_click_modules) geändert haben.
+Ihre Website wird mit der Standardwebadresse Ihres Webhostings vom Typ „xxxxx.clusterXXX.hosting.ovh.net“ angezeigt, nachdem Sie Ihr [1-Klick-Modul](/pages/web_cloud/web_hosting/cms_install_1_click_modules) geändert haben.
 
-Wenn Ihre Website nach einer Änderung mit diesem URL angezeigt wird, ist die schnellste Lösung, sie in einen früheren Zustand zurückzuversetzen, in dem sie ordnungsgemäß funktioniert hat.
+Wenn Ihre Website nach einer Änderung mit dieser URL angezeigt wird, ist die schnellste Lösung, sie in einen früheren Zustand zurückzuversetzen, in dem sie ordnungsgemäß funktioniert hat.
 
 > [!alert]
 >
@@ -383,8 +383,8 @@ Wenn Ihre Website nach einer Änderung mit diesem URL angezeigt wird, ist die sc
 >
 > Lesen Sie bei Bedarf auch diese detaillierten Anleitungen:
 >
-> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Webhosting - Datenbankinhalte exportieren](/pages/web_cloud/web_hosting/sql_database_export).
+> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Webhosting - Datenbankinhalte exportieren](/pages/web_cloud/web_hosting/sql_database_export)
 
 Führen Sie die folgenden Schritte aus, um den Quellcode der Website wiederherzustellen:
 
@@ -411,8 +411,8 @@ Die Wiederherstellung eines Datenbank-Backups kann **mehrere Minuten** dauern.
 >
 > Weitere Informationen finden Sie in den folgenden Anleitungen:
 >
-> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Backup Ihrer Datenbank wiederherstellen](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Backup Ihrer Datenbank wiederherstellen](/pages/web_cloud/web_hosting/sql_importing_mysql_database)
 
 ///
 
@@ -433,18 +433,18 @@ Um dies zu korrigieren, folgen Sie diesen Schritten:
 5. Vergleichen Sie in der angezeigten Tabelle (die die DNS-Zone der Domain darstellt) die `Ziele` der Einträge vom Typ `NS` in der DNS-Zone mit den zuvor abgerufenen DNS-Servernamen. Drei Fälle können auftreten. Klicken Sie auf die Registerkarten unten, um die einzelnen **3** Fälle anzuzeigen.
 
 > [!tabs]
-> **Fall Nr. 1**
+> **Fall 1**
 >>
 >> Die `Ziele` (DNS-Server) der Einträge vom Typ `NS`, die in der DNS-Zone der Domain **deklariert sind, sind mit den Zielen** identisch, die unter dem Tab `DNS-Server`{.action} abgerufen wurden.
 >>
 >> In diesem Fall bedeutet dies, dass Ihr Domainname (oder seine Subdomain mit der Endung *www*) auf die IP-Adresse unseres Weiterleitungsservers (213.186.33.5) verweist.
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
->> 2. Klicken Sie auf das Menü `Domainnamen`{.action} (oder auf das Menü `DNS-Zone`{.action}, wenn Sie die Betaversion des OVHcloud Kundencenters verwenden) und wählen Sie dann die betreffende Domain aus.
+>> 2. Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie dann die betreffende Domain aus.
 >> 3. Klicken Sie auf der angezeigten Seite auf den Tab `DNS-Zone`{.action}.
 >> 4. Geben Sie in der angezeigten Tabelle (die die DNS-Zone Ihrer Domain darstellt) den Eintrag vom Typ `A` an, dessen `Ziel` auf die IP-Adresse `213.186.33.5` festgelegt ist.
 >> 5. Klicken Sie rechts in der Zeile auf den Button `...`{.action} und dann auf `Eintrag bearbeiten`{.action}.
->> 6. Ersetzen Sie im angezeigten Fenster im Formular `Ziel*` die IP-Adresse `213.186.33.5` durch die IP-Adresse des Webhostings, auf dem sich Ihre Website befindet.
+>> 6. Ersetzen Sie im angezeigten Fenster im Formular `Ziel` die IP-Adresse `213.186.33.5` durch die IP-Adresse des Webhostings, auf dem sich Ihre Website befindet.
 >>
 >> > [!success]
 >> >
@@ -453,9 +453,9 @@ Um dies zu korrigieren, folgen Sie diesen Schritten:
 >> > - [OVHcloud DNS-Zone bearbeiten](/pages/web_cloud/domains/dns_zone_edit).
 >> > - [Webhosting - Liste der IP-Adressen pro Cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP).
 >>
-> **Fall Nr. 2**
+> **Fall 2**
 >>
->> Die `Ziele` (DNS-Server) der Einträge vom Typ `NS`, die in der DNS-Zone der Domain **deklariert sind, sind nicht mit den Zielen** identisch, die unter dem Tab `DNS-Server`{.action} abgerufen wurden. Die `Ziele` (DNS-Server) haben jedoch eine der folgenden Formen:
+>> Die `Ziele` (DNS-Server) der Einträge vom Typ `NS`, die in der DNS-Zone der Domain **deklariert sind, sind nicht mit den Zielen** identisch, die unter dem Tab `DNS-Server`{.action} abgerufen wurden. Die `Ziele` (DNS-Server) haben jedoch eine der folgenden Formate:
 >>
 >> - `nsXX.ovh.net` und `dnsXX.ovh.net` **oder** `nsXXX.ovh.net` und `dnsXXX.ovh.net` (wobei jedes `X` eine Ziffer zwischen **0** und **9** bezeichnet);
 >> - `nsXX.ovh.ca` und `dnsXX.ovh.ca` **oder** `nsXXX.ovh.ca` und `dnsXXX.ovh.ca` (wobei jedes `X` eine Ziffer zwischen **0** und **9** bezeichnet);
@@ -463,17 +463,17 @@ Um dies zu korrigieren, folgen Sie diesen Schritten:
 >>
 >> > [!primary]
 >> >
->> > Wenn einer Ihrer DNS-Server, die im Tab `DNS-Server`{.action} deklariert sind, folgende Form hat: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` oder `vpsXXXXXX.ovh.ca` (wobei `X` eine Ziffer zwischen **0** und **9** bezeichnet), lesen Sie bitte direkt den **Fall Nr. 3**.
-Es handelt sich dabei um von OVHcloud bereitgestellte DNS-Servernamen, die es unseren Kunden nur ermöglichen, ihre DNS-Konfiguration direkt auf ihren eigenen Servern (Dedicated Server, VPS usw.) zu hosten.
+>> > Wenn einer Ihrer DNS-Server, die im Tab `DNS-Server`{.action} deklariert sind, folgende Form hat: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` oder `vpsXXXXXX.ovh.ca` (wobei `X` eine Ziffer zwischen **0** und **9** ist), gehen Sie zu **Fall 3**.  
+Es handelt sich dabei um von OVHcloud bereitgestellte DNS-Servernamen, die es unseren Kunden ermöglichen, ihre DNS-Konfiguration direkt auf ihren eigenen Servern (Dedicated Server, VPS, etc.) zu hosten.
 >>
->> In diesem Fall bedeutet dies, dass Ihre Domain nicht die richtigen OVHcloud DNS-Server verwendet, um die Konfiguration der DNS-Zone in der Registerkarte `DNS-Zone`{.action} anzuwenden.
+>> In diesem Fall bedeutet dies, dass Ihre Domain nicht die richtigen OVHcloud DNS-Server verwendet, um die Konfiguration der DNS-Zone im Tab `DNS-Zone`{.action} anzuwenden.
 >>
 >> Um dies zu korrigieren, folgen Sie diesen Schritten:
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}.
 >> 2. Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie die betreffende Domain aus.
 >> 3. Klicken Sie auf der angezeigten Seite auf den Tab `DNS-Server`{.action}.
->> 4. Klicken Sie auf der neu geöffneten Seite auf den Button `DNS Server ändern`{.action}.
+>> 4. Klicken Sie auf der neu geöffneten Seite auf den Button `DNS-Server ändern`{.action}.
 >> 5. Wählen Sie auf der angezeigten Seite die Option `Die standardmäßigen DNS von OVHcloud verwenden`{.action} aus und klicken Sie dann auf `Konfiguration anwenden`{.action}.
 >>
 >> Die Propagation der Aktualisierung der DNS-Server, die auf eine Domain angewendet werden, kann bis zu **48** Stunden dauern.
@@ -482,9 +482,9 @@ Es handelt sich dabei um von OVHcloud bereitgestellte DNS-Servernamen, die es un
 >> >
 >> > Weitere Informationen finden Sie in unserer Anleitung „[DNS-Server einer OVHcloud Domain bearbeiten](/pages/web_cloud/domains/dns_server_edit)“.
 >>
-> **Fall Nr. 3**
+> **Fall 3**
 >>
->> Die `Ziele` (DNS-Server) der Einträge vom Typ `NS`, die in der DNS-Zone der Domain **deklariert sind, sind nicht mit den Zielen** identisch, die unter dem Tab `DNS-Server`{.action} abgerufen wurden. Außerdem haben die Namen der DNS Server, die Sie aus dem Tab `DNS-Server`{.action} abrufen, keine der in **Fall Nr. 2** beschriebenen Formen, mit Ausnahme der folgenden: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` oder `vpsXXXXXX.ovh.ca` (wobei `X` eine Ziffer zwischen **0** und **9** darstellt).
+>> Die `Ziele` (DNS-Server) der Einträge vom Typ `NS`, die in der DNS-Zone der Domain **deklariert sind, sind nicht mit den Zielen** identisch, die unter dem Tab `DNS-Server`{.action} abgerufen wurden. Außerdem haben die Namen der DNS-Server, die Sie aus dem Tab `DNS-Server`{.action} abrufen, keine der in **Fall 2** beschriebenen Formen, mit Ausnahme der folgenden: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` oder `vpsXXXXXX.ovh.ca` (wobei `X` eine Ziffer zwischen **0** und **9** darstellt).
 >>
 >> In diesem Fall bedeutet dies, dass die auf Ihre Domain angewendete aktive DNS-Zone nicht direkt von OVHcloud verwaltet wird. Kontaktieren Sie Ihren Webmaster, Domain-Anbieter, DNS-Anbieter oder einen unserer [Partner](/links/partner).
 
@@ -504,8 +504,8 @@ In diesem Fall ist es am schnellsten, das System in einen früheren Zustand zur�
 >
 > Weitere Informationen finden Sie in den folgenden detaillierten Anleitungen:
 >
-> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Webhosting - Datenbankinhalte exportieren](/pages/web_cloud/web_hosting/sql_database_export).
+> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Webhosting - Datenbankinhalte exportieren](/pages/web_cloud/web_hosting/sql_database_export)
 
 Führen Sie die folgenden Schritte aus, um den Quellcode der Website wiederherzustellen:
 
@@ -532,8 +532,8 @@ Die Wiederherstellung eines Datenbank-Backups kann **mehrere Minuten** dauern.
 >
 > Weitere Informationen finden Sie in den folgenden Anleitungen:
 >
-> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup).
-> - [Backup Ihrer Datenbank wiederherstellen](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+> - [Webhosting - Wiederherstellung des FTP-Speicherplatzes](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Backup Ihrer Datenbank wiederherstellen](/pages/web_cloud/web_hosting/sql_importing_mysql_database)
 
 Wenn die Wiederherstellungen es nicht erlauben, den Zugriff auf Ihre Website wiederherzustellen, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
 
@@ -553,8 +553,8 @@ Dieser Fehler kann auch auftreten, wenn eine HTTP-Anfrage auf Ihrer Website zu *
 >
 > Lesen Sie bei Bedarf auch diese detaillierten Anleitungen:
 >
-> - [Meine Website mithilfe des CDN beschleunigen](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn).
-> - [Die häufigsten Fehler im Zusammenhang mit 1-Klick-Modulen beheben](/pages/web_cloud/web_hosting/diagnostic_errors_module1click).
+> - [Meine Website mithilfe des CDN beschleunigen](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)
+> - [Die häufigsten Fehler im Zusammenhang mit 1-Klick-Modulen beheben](/pages/web_cloud/web_hosting/diagnostic_errors_module1click)
 
 ///
 
@@ -567,8 +567,8 @@ Diese Meldung weist darauf hin, dass die Art der HTTP-Anforderung, die Sie auf I
 In diesem Fall sind mehrere Aktionen erforderlich:
 
 - [Überprüfen Sie die Logs](/pages/web_cloud/web_hosting/logs_and_statistics) Ihrer Website, um festzustellen, welche Anfragen zu dieser Blockierung geführt haben.
-- Überprüfen Sie mithilfe von Antiviren- oder Antispyware-Software, dass Ihre Geräte (Computer, Smartphones usw.) nicht mit Spyware oder Malware infiziert sind.
-- Überprüfen Sie den Quellcode Ihrer Website (FTP-Speicherplatz und Datenbank(en)).
+- Überprüfen Sie mithilfe von Antiviren- oder Antispyware-Software, dass Ihre Geräte (Computer, Smartphones, etc.) nicht mit Spyware oder Malware infiziert sind.
+- Überprüfen Sie den Quellcode Ihrer Website (FTP-Speicherplatz und Datenbanken).
 
 Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
 
@@ -576,8 +576,8 @@ Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden S
 >
 > Lesen Sie auch unsere detaillierten Anleitungen:
 >
-> - [Webhosting - Statistiken und Logs einer Website einsehen](/pages/web_cloud/web_hosting/logs_and_statistics).
-> - [Use Case - Tipps nach dem Hacken Ihrer Website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
+> - [Webhosting - Statistiken und Logs einer Website einsehen](/pages/web_cloud/web_hosting/logs_and_statistics)
+> - [Use Case - Tipps nach dem Hacken Ihrer Website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked)
 
 ///
 
@@ -590,8 +590,8 @@ Diese Meldung weist darauf hin, dass die IP-Adresse, die Sie für die Verbindung
 In diesem Fall sind mehrere Aktionen erforderlich:
 
 - [Überprüfen Sie die Logs](/pages/web_cloud/web_hosting/logs_and_statistics) Ihrer Website, um festzustellen, welche Anfragen zu dieser Blockierung geführt haben.
-- Stellen Sie mithilfe von Antiviren- oder Antispyware-Software sicher, dass Ihre Geräte (Computer, Smartphones usw.) nicht mit Spyware oder Malware infiziert sind.
-- Überprüfen Sie den Quellcode Ihrer Website (FTP-Speicherplatz und Datenbank(en)).
+- Stellen Sie mithilfe von Antiviren- oder Antispyware-Software sicher, dass Ihre Geräte (Computer, Smartphones, etc.) nicht mit Spyware oder Malware infiziert sind.
+- Überprüfen Sie den Quellcode Ihrer Website (FTP-Speicherplatz und Datenbanken).
 
 Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden Sie sich an Ihren Webmaster oder einen unserer [Partner](/links/partner).
 
@@ -599,8 +599,8 @@ Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden S
 >
 > Lesen Sie auch unsere detaillierten Anleitungen:
 >
-> - [Webhosting - Statistiken und Logs einer Website einsehen](/pages/web_cloud/web_hosting/logs_and_statistics).
-> - [Use Case - Tipps nach dem Hacken Ihrer Website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
+> - [Webhosting - Statistiken und Logs einer Website einsehen](/pages/web_cloud/web_hosting/logs_and_statistics)
+> - [Use Case - Tipps nach dem Hacken Ihrer Website](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked)
 
 ///
 
@@ -608,7 +608,7 @@ Wenn Sie sich nicht sicher sind, welche Schritte Sie ausführen sollen, wenden S
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
-Sie müssen in dieser Situation nichts unternehmen. Selbst wenn Ihre Domain in Ihrem Kundencenter mit [internationaler Notation (IDN)](https://de.wikipedia.org/wiki/Internationalisierter_Domainname){.external} angezeigt wird, funktioniert sie und wird andernorts normal angezeigt. Die Webadresse Ihrer Website wird wie von Ihnen gewünscht angezeigt. Ihre E-Mail-Adressen werden auch bei Ihren Kontakten wie gewünscht angezeigt.
+Sie müssen in dieser Situation nichts unternehmen. Selbst wenn Ihre Domain in Ihrem Kundencenter mit [internationaler Notation (IDN)](https://de.wikipedia.org/wiki/Internationalisierter_Domainname){.external} angezeigt wird, funktioniert sie und wird andernorts normal angezeigt. Die Webadresse Ihrer Website wird wie gewünscht angezeigt. Ihre E-Mail-Adressen werden auch bei Ihren Kontakten wie gewünscht angezeigt.
 
 > [!alert]
 >
