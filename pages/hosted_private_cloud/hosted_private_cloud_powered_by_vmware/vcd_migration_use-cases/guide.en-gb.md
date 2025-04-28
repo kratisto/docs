@@ -67,7 +67,7 @@ Migrations will be carried out in 4 waves, from november 2024, depending on the 
 
 The planned schedule, which is compatible with these environments during the migration, is as follows:
 
-| **Waves**&nbsp;&nbsp;&nbsp;&nbsp; |             **A partir de**              | **Target<br/>Offers** |  **NSX**   |  **vRack**  | **Microsoft<br/>(SPLA)** | **Summary of migration compatible environments**                                                                                                         |
+| **Waves**&nbsp;&nbsp;&nbsp;&nbsp; |             **From**              | **Target<br/>Offers** |  **NSX**   |  **vRack**  | **Microsoft<br/>(SPLA)** | **Summary of migration compatible environments**                                                                                                         |
 |:---------------------------------:|:----------------------------------:|:---------------------:|:----------:|:-----------:|:-------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 |             `Wave 1`              |         **January 2025<br/>February 2025**          |      `Standard`       |     ❌      |      ❌      |          ❌          | - **Without** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN)           |
 |             `Wave 2`              | **Mid-May 2025** |      `Standard`       |     ❌      |      ❌      |          ✅          | - **With** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN)              |
