@@ -1846,6 +1846,7 @@
             + [Installation of OVHcloud Connect Provider from the OVHcloud Control Panel](network/ovhcloud_connect/occ-provider-control-panel)
             + [FAQ](network/ovhcloud_connect/occdedicated-faq)
             + [Troubleshooting common errors setting up OVHcloud Connect](network/ovhcloud_connect/occ-setup-diagnostics)
+            + [How to initiate a diagnostic for OVHcloud Connect from the OVHcloud Control Panel](network/ovhcloud_connect/occ-diagnostics)
         + [Technical resources](network-ovhcloud-connect-technical-resources)
             + [Technical capabilities and limitations](network/ovhcloud_connect/occ-limits)
         + [Configuration](network-ovhcloud-connect-configuration)
