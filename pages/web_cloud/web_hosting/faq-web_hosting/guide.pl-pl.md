@@ -295,7 +295,7 @@ Jeśli wszystkie twoje usługi są aktywne i nie mają wpływu na żaden incyden
 
 > [!success]
 >
-> Zapoznaj się z naszą [przewodnikiem dotyczącym rozwiązań hostingowych](/products/web-cloud-hosting]), sekcja "*Rozwiązywanie problemów*".
+> Zapoznaj się z naszą [przewodnikiem dotyczącym rozwiązań hostingowych](/products/web-cloud-hosting), sekcja "*Rozwiązywanie problemów*".
 
 ///
 

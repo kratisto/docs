@@ -554,7 +554,7 @@ Dieser Fehler kann auch auftreten, wenn eine HTTP-Anfrage auf Ihrer Website zu *
 > Lesen Sie bei Bedarf auch diese detaillierten Anleitungen:
 >
 > - [Meine Website mithilfe des CDN beschleunigen](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)
-> - [Die häufigsten Fehler im Zusammenhang mit 1-Klick-Modulen beheben](/pages/web_cloud/web_hosting/diagnostic_errors_module1click)
+> - [Die häufigsten Fehler im Zusammenhang mit 1-Klick-Modulen beheben](/pages/web_cloud/web_hosting/diagnostic_errors_module1clic)
 
 ///
 
