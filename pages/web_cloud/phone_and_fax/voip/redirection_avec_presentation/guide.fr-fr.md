@@ -1,7 +1,7 @@
 ---
 title: "Configurer une redirection d'appels"
 excerpt: "Découvrez comment configurer une redirection d'appels sur votre numéro alias OVHcloud"
-1. Cliquez sur `VoIP & Fax`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+updated: 2025-04-28
 ---
 
 ## Objectif

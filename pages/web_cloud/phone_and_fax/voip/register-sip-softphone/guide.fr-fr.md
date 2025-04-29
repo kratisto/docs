@@ -1,7 +1,7 @@
 ---
 title: 'Tutoriel - Utiliser une ligne SIP OVHcloud sur un softphone'
 excerpt: 'Découvrez comment enregistrer une ligne SIP OVHcloud sur un softphone tel que Linphone ou Zoiper'
-1. Cliquez sur `VoIP & Fax`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+updated: 2025-04-28
 ---
 
 ## Objectif
