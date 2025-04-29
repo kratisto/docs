@@ -25,7 +25,7 @@ It will walk you through the first steps to get started with VSPC, including:
 > [!warning]
 > OVHcloud provides services for which you are responsible, with regard to their configuration and management. It is therefore your responsibility to ensure that they work properly.
 > This guide is designed to assist you as much as possible with common tasks. However, we recommend contacting a specialist provider if you experience any difficulties or doubts when it comes to managing, using, or setting up a service on a server.
->
+
 ## Requirements
 
 - Administrative permissions for the [OVHcloud Control Panel](/links/manager) to manage resources.
