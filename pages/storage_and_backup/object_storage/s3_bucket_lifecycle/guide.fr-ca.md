@@ -198,7 +198,7 @@ Supposons que vous avez un objet B avec 5 versions :
 - B v2 (version non-courante, date de création: 2024-10-15).
 - B v1 (version non-courante, date de création: 2024-10-14).
 
-Si la date actuelle est 2024-10-29 et **NoncurrentDays**=5, la règle de lifecycle supprimera les versions non-courantes de plus de 5 days : uniquement v1 et v2, car :
+Si la date actuelle est 2024-10-29 et **NoncurrentDays**=5, la règle de lifecycle supprimera les versions non-courantes de plus de 5 jours : uniquement v1 et v2, car :
 
 - B v1 est non-courante depuis 2024-10-15 (quand B v2 a été créée) : son âge en tant que version non-courante est 14 jours.
 - B v2 est non-courante depuis 2024-10-20 (quand B v3 a été créée) : son âge en tant que version non-courante est 9 jours.
