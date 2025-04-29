@@ -1,7 +1,7 @@
 ---
 title: "Monitorización de los ataques DDoS con el Network Security Dashboard"
 excerpt: "Aprenda a navegar por el panel de control de seguridad de red"
-updated: 2023-12-19
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -47,7 +47,7 @@ Durante un ataque, una acción de mitigación activa se indica mediante un icono
 
 ![red-line-attack](images/nsd_04_blur.PNG){.thumbnail}
 
-En el área de cliente de OVHcloud, acceda a la sección «Bare Metal Cloud» {.action}. A continuación, acceda a `Network`{.action} en el menú de la izquierda y haga clic en `IP`{.action}. Asegúrese de que la opción `Modo avanzado` esté activada para ver el estado de la infraestructura anti-DDoS y la configuración de sus componentes.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en `Network`{.action} en el menú situado a la izquierda de la pantalla y seleccione `Direcciones IP públicas`{.action}. Asegúrese de que la opción `Modo avanzado` esté activada para ver el estado de la infraestructura anti-DDoS y la configuración de sus componentes.
 
 Las columnas corresponden al estado de limpieza anti-DDoS (**Mitigación**), la disponibilidad de las funciones de Edge Network **Firewall** y **Firewall GAME** y sus estados.
 
@@ -70,11 +70,7 @@ Las columnas corresponden al estado de limpieza anti-DDoS (**Mitigación**), la 
 
 ### Network Security Dashboard
 
-En el área de cliente de OVHcloud, puede acceder al panel de control desde la página de lista de IP (para una IP concreta) o directamente desde el panel de control de seguridad de red en el menú `Network`{.action}.
-
-Acceda a la pestaña `Bare Metal Cloud`{.action}, luego a `Network`{.action} y seleccione `Network Security Dashboard`{.action}.
-
-Alternativamente, en la lista de IP (esta opción solo está disponible cuando el centro de limpieza está en acción): Acceda a la pestaña `Bare Metal Cloud`{.action}, vaya a `Network`{.action} y haga clic en `Direcciones IP públicas`{.action}. Haga clic en el botón `...`{.action} y acceda a `Network Security Dashboard`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en `Network`{.action} en el menú situado a la izquierda de la pantalla y seleccione `Network Security Dashboard`{.action}.
 
 En la pestaña **registro del centro de limpieza**, puede recuperar toda la información sobre los ataques detectados en el pasado (o que están en curso).
 

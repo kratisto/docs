@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja sieci vRack między Public Cloud a serwerem dedykowanym'
 excerpt: 'Dowiedz się, jak skonfigurować prywatną sieć między instancją Public Cloud a serwerem dedykowanym'
-updated: 2024-11-08
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -29,7 +29,7 @@ updated: 2024-11-08
 ### Dodaj projekt Public Cloud do sieci vRack
 
 > [!primary]
-> Nie dotyczy to nowo utworzonych projektów, które są automatycznie dostarczane z siecią vRack. Aby wyświetlić sieć vRack po utworzeniu projektu, przejdź do menu `Bare Metal Cloud`{.action} i kliknij `Network`{.action} w zakładce po lewej stronie. Kliknij opcję `Prywatna sieć vRack`{.action}, aby wyświetlić sieć(e) vRack(s).
+> Nie dotyczy to nowo utworzonych projektów, które są automatycznie dostarczane z siecią vRack. Aby wyświetlić usługę vRack po utworzeniu projektu, otwórz menu `Network`{.action} na lewym pasku bocznym i kliknij na `Rete Privata vRack`{.action}.
 >
 > Możesz również usunąć przypisany projekt z sieci vRack i przypisać go do innej sieci vRack, jeśli chcesz, zwłaszcza jeśli posiadasz już istniejący vRack na swoim (swoich) serwerze(ach) dedykowanym(ych).
 

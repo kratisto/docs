@@ -1,7 +1,7 @@
 ---
 title: Eine Additional IP umziehen
 excerpt: Erfahren Sie hier, wie Sie eine Additional IP über Ihr Kundencenter oder die OVHcloud API umziehen
-updated: 2024-12-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -66,7 +66,7 @@ Beispielsweise kann ein in Polen geolokalisierter Additional IP Block (eu-centra
 > Nur ein Block mit einer einzigen Adresse (/32) kann von einem dedizierten Server auf einen VPS verschoben werden.
 >
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Bare Metal Cloud`{.action} und öffnen Sie `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager), klicken Sie im Menü links auf `Network`{.action} und dann auf `Öffentliche IP-Adressen`{.action}.
 
 Klicken Sie auf den Tab `Additional IP`{.action}.
 

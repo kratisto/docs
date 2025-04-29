@@ -1,7 +1,7 @@
 ---
 title: "Bare Metal 3-AZ Region - Apresentação da oferta"
 excerpt: 'Descubra o serviço Bare Metal 3-AZ, que oferece uma alta disponibilidade e uma redundância inigualáveis entre três datacenters'
-updated: 2024-05-30
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -24,19 +24,22 @@ A OVHcloud está presente em todo o mundo, nomeadamente na Europa, nos Estados U
 
 Para obter o máximo desempenho, é necessário que a seleção de uma região esteja mais próxima dos utilizadores. Para uma disponibilidade mundial, os serviços devem ser repartidos por várias regiões. A região 3-AZ é ideal para os clientes que procuram a maior resiliência e deve ser utilizada para criar projetos de aplicações multi-AZ.
 
-Pode listar aqui os seus clusters com um novo separador na interface (os servidores são representados na lista subjacente a um cluster com 3 nós):
+Na [Área de Cliente OVHcloud](/links/manager), poderá consultar os seus clusters na lista de `Servidores dedicados`{.action} do menu `Bare Metal Cloud`{.action} ao passar para o separador `Clusters 3-AZ`{.action}.
 
-![left_menu](images/01-20240513-blur.png){.thumbnail}
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters1.png){.thumbnail}
 
-![list_clusters](images/02-20240513-blur.png){.thumbnail}
+Clique no nome do cluster na tabela para ver os detalhes.
 
-Aquando da seleção do seu cluster, terá a lista dos 3 servidores que ele contém:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters2.png){.thumbnail}
 
-![list_servers](images/03-20240513-blur.png){.thumbnail}
+Clique no separador `Nós`{.action} para abrir a lista de servidores do cluster.
 
-A interface é sempre a mesma, não havendo outras alterações a este nível:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters3.png){.thumbnail}
 
-![detail_server](images/04-20240513-blur.png){.thumbnail}
+Ao clicar no nome de um servidor/nó desta lista, abre-se o separador `Informações gerais`{.action} do servidor. Pode encontrar mais informações na secção Área de Cliente no nosso manual:
+
+[Como começar com um servidor dedicado](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
+
 
 ## Quer saber mais? <a name="go-further"></a>
 

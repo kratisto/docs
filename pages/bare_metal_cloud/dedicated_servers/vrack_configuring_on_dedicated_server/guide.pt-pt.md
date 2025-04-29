@@ -1,7 +1,7 @@
 ---
 title: 'Configurar vários servidores dedicados no vRack'
 excerpt: 'Aprenda a configurar vários servidores dedicados graças ao vRack'
-updated: 2025-03-24
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -29,7 +29,11 @@ O vRack (rack virtual) da OVHcloud permite agrupar virtualmente vários servidor
 
 ### Etapa 1: encomendar o vrack
 
-Depois de ter entrado na sua área de cliente OVHcloud, vá ao menu `Bare Metal Cloud`{.action} e clique no botão `Encomendar`{.action}. Sob este menu, clique em `vRack`{.action}.
+Aceda à Área de Cliente OVHcloud e clique no botão `Adicionar um serviço`{.action} (ícone de um carrinho de compras) no menu à esquerda. Utilize o filtro na parte superior da página ou percorra a página até encontrar o serviço `vRack`{.action}.
+
+![Encomendar vrack](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/network/orderingvrack25.png){.thumbnail}
+
+Clique na caixa `vRack`{.action} para ser redirecionado para a página a partir da qual poderá validar a encomenda. A configuração do vRack na sua conta demora alguns minutos.
 
 ### Etapa 2: adicionar os seus servidores ao vRack
 

@@ -1,7 +1,7 @@
 ---
 title: OVHcloud AntiSpam - Best Practices and Unblocking an IP
 excerpt: Find out about our antispam best practices and how to unblock an IP blocked for SPAM
-updated: 2022-10-17
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -62,7 +62,7 @@ Once the issue has been resolved, you can unblock your IP by performing the foll
 
 #### Unblocking your IP from the OVHcloud Control Panel
 
-In your [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cloud`{.action} section and click on `Network`{.action}. Then click on `IP`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), open the `Network`{.action} menu in the left-hand sidebar and click `Public IP Addresses`{.action}.
 
 In the yellow window for IP alerts, click on the `View all alerts`{.action} drop-down arrow to view all alerts on your IP(s).
 

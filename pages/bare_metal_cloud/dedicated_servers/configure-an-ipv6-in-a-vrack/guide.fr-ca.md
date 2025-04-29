@@ -1,7 +1,7 @@
 ---
 title: Configurer un bloc IPv6 dans un vRack
 excerpt: "Ce guide vous montrera comment configurer un bloc d'adresses IPv6 publiques à utiliser dans un vRack"
-updated: 2025-03-17
+updated: 2025-04-28
 ---
 
 <style>
@@ -75,7 +75,9 @@ L'exemple ci-dessus montre deux hôtes avec leurs interfaces côté vRack config
 
 /// details | Via l'espace client OVHcloud
 
-Allez dans `Network`{.action} et cliquez sur la section `vRack private network`{.action}. Sélectionnez ensuite le vRack que vous souhaitez gérer :
+- Cliquez sur `Network`{.action} dans le menu situé à gauche de l'écran.
+- Cliquez sur `réseau Privé vRack`{.action}.
+- Sélectionnez le vRack concerné.
 
 ![vrack management](images/700.png){.thumbnail}
 

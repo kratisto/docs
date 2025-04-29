@@ -1,7 +1,7 @@
 ---
 title: OVHcloud AntiSpam - Buenas prácticas y desbloqueo de una dirección IP
 excerpt: Descubra nuestras buenas prácticas antispam y cómo desbloquear una dirección IP bloqueada para spam.
-updated: 2022-10-17
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -65,7 +65,7 @@ Una vez resuelto el problema, puede desbloquear la dirección IP realizando las 
 
 #### Desbloquear la dirección IP desde el área de cliente
 
-En el [área de cliente de OVHcloud](/links/manager), acceda a la sección `Bare Metal Cloud`{.action} y haga clic en `Network`{.action}. A continuación, haga clic en `IP`{.action}.
+Conéctese al [área de cliente de OVHcloud](/links/manager), abra el menú `Network`{.action} en la columna izquierda y haga clic en `Direcciones IP públicas`{.action}.
 
 En el marco amarillo dedicado a las alertas, haga clic en la flecha desplegable `Ver todas mis alertas`{.action} para mostrar todas las alertas en su o sus direcciones IP.
 

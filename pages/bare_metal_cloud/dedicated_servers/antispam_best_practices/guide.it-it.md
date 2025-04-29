@@ -1,7 +1,7 @@
 ---
 title: OVHcloud AntiSpam - Migliori pratiche e sblocco di un indirizzo IP
 excerpt: Come sbloccare un indirizzo IP bloccato per SPAM
-updated: 2022-10-17
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -66,7 +66,7 @@ Una volta risolto il problema, puoi sbloccare il tuo indirizzo IP seguendo gli s
 
 #### Sblocca il tuo indirizzo IP dallo Spazio Cliente
 
-Nello [Spazio Cliente OVHcloud](/links/manager), accedi al menu `Bare Metal Cloud`{.action} e clicca su `Network`{.action}. Clicca su `IP`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Network`{.action} nel menu a sinistra e poi su `Indirizzi IP Pubblici`{.action}.
 
 Nel riquadro giallo dedicato agli alert, clicca sulla freccia a tendina `Visualizza tutti i tuoi alert`{.action} per visualizzare tutti gli alert sul tuo o sui tuoi indirizzi IP.
 

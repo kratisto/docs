@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial - Configuring pfSense network bridge'
 excerpt: 'This guide will show you how to do IP bridging on a pfSense virtual machine'
-updated: 2022-12-20
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -39,7 +39,7 @@ For the pfSense virtual machines network configuration, we will use the followin
 
 #### Assigning a virtual MAC address
 
-In the [OVHcloud Control Panel](/links/manager){.external}, go to the `Bare Metal Cloud`{.action} section and click on `Network`{.action}. Next, open the `IP`{.action} menu. 
+Log in to the [OVHcloud Control Panel](/links/manager), open the `Network`{.action} menu in the left-hand sidebar and click `Public IP Addresses`{.action}.
 
 Click the `Additional IP`{.action} tab.
 

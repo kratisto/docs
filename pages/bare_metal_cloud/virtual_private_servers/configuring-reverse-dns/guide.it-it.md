@@ -1,7 +1,7 @@
 ---
 title: "Come configurare il reverse DNS del tuo server (record PTR)"
 excerpt: Copri come impostare la risoluzione reverse DNS del tuo indirizzo IP dal tuo Spazio Cliente OVHcloud
-updated: 2024-11-05
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ La configurazione del reverse DNS di un server è particolarmente utile durante 
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Bare Metal Cloud`{.action} e apri `Network`{.action}. Clicca su `IP`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Network`{.action} nel menu a sinistra dello schermo e poi su `Indirizzi IP Pubblici`{.action}.
 
 I menu a tendina della sezione **I miei indirizzi IP pubblici e i servizi associati** ti permettono di filtrare gli elementi della tabella per i servizi e trovare rapidamente l'indirizzo IP desiderato.
 

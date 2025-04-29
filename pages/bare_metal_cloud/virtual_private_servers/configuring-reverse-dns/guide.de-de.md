@@ -1,7 +1,7 @@
 ---
 title: Reverse DNS Ihres Servers konfigurieren (PTR record)
 excerpt: Erfahren Sie hier, wie Sie die Reverse DNS-Auflösung Ihrer IP-Adresse über Ihr Kundencenter einrichten
-updated: 2024-11-05
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ Die Konfiguration der umgekehrten DNS-Auflösung eines Servers ist besonders bei
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein. Wechseln Sie zum Bereich `Bare Metal Cloud`{.action} und öffnen Sie `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie auf `Network`{.action} in der linken Seitenleiste und dann auf `Öffentliche IP-Adressen`{.action}.
 
 Mithilfe der Dropdown-Menüs im Bereich **Meine öffentlichen IP-Adressen und dazugehörigen Dienste** können Sie die Tabelleneinträge nach Diensten filtern und so die gewünschte IP-Adresse schnell finden.
 

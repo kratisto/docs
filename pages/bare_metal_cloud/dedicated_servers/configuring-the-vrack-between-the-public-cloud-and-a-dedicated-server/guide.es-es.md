@@ -1,7 +1,7 @@
 ---
 title: 'Configurar el vRack entre Public Cloud y un servidor dedicado'
 excerpt: 'Cómo configurar una red privada entre una instancia de Public Cloud y un servidor dedicado'
-updated: 2024-11-08
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -28,7 +28,7 @@ El [vRack](/links/network/vrack) de OVHcloud es una red privada que permite conf
 ### Añadir un proyecto de Public Cloud al vRack
 
 > [!primary]
-> No se aplicará a los proyectos recién creados que se entreguen automáticamente con un vRack. Para ver el vRack una vez creado el proyecto, vaya al menú `Bare Metal Cloud`{.action} y haga clic en `Network`{.action} en la pestaña de la izquierda. Haga clic en `Red privada vRack`{.action} para ver el vRack(s).
+> No se aplicará a los proyectos recién creados que se entreguen automáticamente con un vRack. Para ver el vRack una vez creado el proyecto, abra el menú `Network`{.action} en la columna izquierda y haga clic en `Red privada vRack`{.action}.
 >
 > También puede retirar el proyecto del vRack que le haya sido atribuido y asociarlo a otro vRack si lo desea, especialmente si ya tenía un vRack existente con su servidor o servidores dedicados.
 

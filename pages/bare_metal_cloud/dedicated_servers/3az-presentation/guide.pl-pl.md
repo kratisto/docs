@@ -1,7 +1,7 @@
 ---
 title: "Bare Metal 3-AZ Region - Prezentacja oferty"
 excerpt: 'Odkryj usługę Bare Metal 3-AZ, która oferuje niezrównaną wysoką dostępność i redundancję między trzema centrami danych'
-updated: 2024-05-30
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -24,19 +24,21 @@ OVHcloud jest obecna na całym świecie, w tym w Europie, Stanach Zjednoczonych,
 
 Aby zapewnić optymalną wydajność, region musi być wybrany jak najbliżej użytkowników. Aby usługi były dostępne globalnie, muszą być rozproszone w kilku regionach. Region 3-AZ jest idealny dla klientów poszukujących najwyższej odporności i musi być używany do tworzenia projektów aplikacji multi-AZ.
 
-W interfejsie możesz wyświetlić klastry z nową zakładką (serwery są przedstawione na liście klastrów składającej się z 3 węzłów):
+W [Panelu klienta OVHcloud](/links/manager) możesz wyświetlić klastry na liście `Serwerów dedykowanych`{.action} menu `Bare Metal Cloud`{.action} przechodząc do zakładki `3-AZ Clusters`{.action}.
 
-![left_menu](images/01-20240513-blur.png){.thumbnail}
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters1.png){.thumbnail}
 
-![list_clusters](images/02-20240513-blur.png){.thumbnail}
+Kliknij nazwę klastra w tabeli, aby wyświetlić szczegóły.
 
-Wybierając klaster, masz listę 3 serwerów, które zawiera:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters2.png){.thumbnail}
 
-![list_servers](images/03-20240513-blur.png){.thumbnail}
+Kliknij zakładkę `Węzły`{.action}, aby otworzyć listę serwerów klastra.
 
-Interfejs jest zawsze taki sam, nie ma żadnych innych zmian na tym poziomie:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters3.png){.thumbnail}
 
-![detail_server](images/04-20240513-blur.png){.thumbnail}
+Kliknięcie nazwy serwera/węzła na tej liście spowoduje otwarcie zakładki `Informacje ogólne`{.action} serwera. Więcej informacji znajduje się w tym Panelu klienta w naszym przewodniku:
+
+[Jak rozpocząć pracę z serwerem dedykowanym](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 
 ## Sprawdź również <a name="go-further"></a>
 

@@ -1,7 +1,7 @@
 ---
 title: OVHcloud AntySpam - Dobre praktyki i odblokowanie adresu IP
 excerpt: Poznaj nasze dobre praktyki antyspamowe i sposoby odblokowania adresu IP zablokowanego przez SPAM
-updated: 2022-10-17
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -66,9 +66,7 @@ Po rozwiązaniu problemu możesz odblokować Destination IP wykonując następuj
 
 #### Odblokuj adres IP w Panelu klienta
 
-W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Bare Metal Cloud`{.action} i kliknij `Network`{.action}. Następnie kliknij przycisk `IP`{.action}.
-
-W żółtym ramce dla alertów kliknij rozwijaną strzałkę `Wyświetl wszystkie moje alerty`{.action}, aby wyświetlić wszystkie alerty na Twoim adresie IP.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Network`{.action} w menu po lewej stronie ekranu, a następnie `Publiczne adresy IP`{.action}.
 
 Jeśli jeden z Twoich adresów IP dotyczy alertu, informacje zostaną wyświetlone poniżej:
 

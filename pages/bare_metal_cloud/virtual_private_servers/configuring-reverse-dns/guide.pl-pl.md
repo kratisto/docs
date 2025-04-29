@@ -1,7 +1,7 @@
 ---
 title: "Jak skonfigurować rewers DNS Twojego serwera (rekord PTR)"
 excerpt: Dowiedz się, jak skonfigurować rewers DNS dla adresu IP z poziomu Panelu klienta OVHcloud
-updated: 2024-11-05
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ Konfiguracja rewersu DNS serwera jest szczególnie użyteczna podczas wysyłania
 
 ## W praktyce
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Bare Metal Cloud`{.action} i otwórz `Network`{.action}. Następnie kliknij przycisk `IP`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Network`{.action} w menu po lewej stronie ekranu, a następnie `Publiczne adresy IP`{.action}.
 
 Menu rozwijane w sekcji **Moje publiczne adresy IP i usługi powiązane** umożliwiają filtrowanie elementów tabeli dla usług i szybkie znajdowanie wybranego adresu IP.
 

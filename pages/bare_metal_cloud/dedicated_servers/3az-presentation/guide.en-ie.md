@@ -1,7 +1,7 @@
 ---
 title: 'Bare Metal 3-AZ Region - Service presentation'
 excerpt: 'Discover Bare Metal 3-AZ service, offering unparalleled high availability and redundancy across three data centers'
-updated: 2024-05-30
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -24,19 +24,21 @@ OVHcloud's global presence includes several regions across the world, such as Eu
 
 For optimal performance, a region should be selected closest to its users. For global availability, services should be spread across multiple regions. The 3-AZ Region is ideal for customers seeking the highest resilience and should be used to build multi-AZ application designs.
 
-You can list your clusters here with a new tab in the interface (the servers are represented in the list underlying a cluster comprising 3 nodes):
+In the [OVHcloud Control Panel](/links/manager), you can see your clusters in the list of `Dedicated servers`{.action} of the `Bare Metal Cloud`{.action} menu by switching to the tab `3-AZ clusters`{.action}.
 
-![left_menu](images/01-20240513-blur.png){.thumbnail}
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters1.png){.thumbnail}
 
-![list_clusters](images/02-20240513-blur.png){.thumbnail}
+Click the cluster name in the table to see the details.
 
-When you select your cluster you have the list of the 3 servers inside this one:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters2.png){.thumbnail}
 
-![list_servers](images/03-20240513-blur.png){.thumbnail}
+Click the tab `Nodes`{.action} to open the server list of the cluster.
 
-The interface is still the same, there aren't any other changes at this level:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters3.png){.thumbnail}
 
-![detail_server](images/04-20240513-blur.png){.thumbnail}
+Clicking on a server/node name in this list opens the `General information`{.action} tab of the server. You can find the details on this Control Panel section in our guide:
+
+[How to get started with a dedicated server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 
 ## Go further
 

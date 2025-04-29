@@ -1,7 +1,7 @@
 ---
 title: 'Habilitar e configurar o Edge Network Firewall'
 excerpt: 'Saiba como configurar a Edge Network Firewall para os seus serviços'
-updated: 2025-01-24
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -47,7 +47,7 @@ O Edge Network Firewall reduz a exposição a ataques DDoS na rede, permitindo q
 > O Edge Network Firewall protege um IP específico associado a um servidor (ou serviço). Assim, se tiver um servidor com vários endereços IP, cada IP deve ser configurado separadamente.
 > 
 
-Na Área de Cliente OVHcloud, clique na secção `Bare Metal Cloud`{.action}, clique no menu `Network`{.action} e abra `Endereços IP Públicos`{.action}. Pode utilizar o menu pendente situado por baixo de **"Os meus endereços IP públicos e os serviços associados"** para filtrar os seus serviços por categoria.
+Aceda à [Área de Cliente OVHcloud](/links/manager), clique em `Network`{.action} na barra lateral à esquerda e, a seguir, clique em `Endereços IP Públicos`{.action}. Pode utilizar o menu pendente situado por baixo de **"Os meus endereços IP públicos e os serviços associados"** para filtrar os seus serviços por categoria.
 
 ![filter service](images/selectservice_cut.png){.thumbnail}
 

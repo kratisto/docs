@@ -1,7 +1,7 @@
 ---
 title: OVHcloud AntiSpam - Best Practices und Entsperren einer IP-Adresse
 excerpt: Erfahren Sie hier unsere AntiSpam-Maßnahmen und wie Sie eine gesperrte IP-Adresse freigeben können
-updated: 2022-10-17
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -66,7 +66,7 @@ Wenn das Problem gelöst ist, können Sie Ihre IP-Adresse entsperren, indem Sie 
 
 #### Ihre IP-Adresse über das Kundencenter entsperren
 
-Gehen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) in den Bereich `Bare Metal Cloud`{.action} und klicken Sie auf `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+Loggen Sie sich im [OVHcloud Kundencenter](/links/manager) ein, öffnen Sie das Menü `Network`{.action} in der linken Seitenleiste und klicken Sie auf `Öffentliche IP-Adressen`{.action}.
 
 Klicken Sie im gelben Hinweisfeld auf den Drop-down-Pfeil `Alle Benachrichtigungen anzeigen`{.action}, um alle Alarme bezüglich Ihrer IP-Adresse(n) anzuzeigen.
 

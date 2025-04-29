@@ -1,7 +1,7 @@
 ---
 title: Überprüfen ob Ihr Dedicated Server virtuelle MAC-Adressen unterstützt
 excerpt: Erfahren Sie hier, wie Sie mit der OVHcloud API feststellen, ob virtuelle MAC-Adressen auf einem dedizierten Server unterstützt werden
-updated: 2021-12-09
+updated: 2025-04-28
 ---
 
 > [!primary]

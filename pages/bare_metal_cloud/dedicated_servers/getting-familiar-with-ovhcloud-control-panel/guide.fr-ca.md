@@ -1,7 +1,7 @@
 ---
 title: "Clients Kimsufi et So you Start - Se familiariser avec l'espace client OVHcloud"
 excerpt: "Apprenez à naviguer dans l'espace client OVHcloud"
-updated: 2024-04-04
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -29,8 +29,7 @@ Elle propose également un ensemble de raccourcis et de liens utiles.
 ![acces serveur](images/listserversOVHcloud.png){.thumbnail}
 
 Dans les interfaces Kimsufi et So you Start, le tableau de bord vous permet de voir votre serveur/liste de serveurs.<br>
-Depuis l'espace client OVHcloud, cliquez d’abord sur le menu `Bare Metal Cloud`{.action} et ensuite sur `Serveurs dédiés`{.action} pour afficher vos serveurs.<br>
-Si vous possédez plusieurs serveurs, le bouton `Tous mes serveurs`{.action} vous permet de les lister pour un accès facile.
+Depuis l'espace client OVHcloud, cliquez sur `Bare Metal Cloud`{.action} dans le menu situé à gauche de l'écran, puis sur `Serveurs dédiés`{.action} pour afficher vos serveurs.
 
 ### Interface Serveur
 
@@ -70,7 +69,7 @@ Pour plus d'informations sur la gestion de votre serveur dédié via l'espace cl
 
 ### Section IP
 
-Pour accéder à la section « IP » de votre espace client OVHcloud, cliquez sur le menu `Bare Metal Cloud`{.action} et ouvrez `Network`{.action}. Cliquez ensuite sur `IP`{.action} :
+Pour accéder à la partie IP de votre espace client, cliquez sur `Network`{.action} dans le menu situé à gauche de l'écran, puis sur `Adresses IP Publiques`{.action}.
 
 ![section ip](images/manageIP2023.png){.thumbnail}
 
@@ -83,7 +82,7 @@ Pour accéder à l'onglet « Licences » dans l'espace client OVHcloud, cliquez 
 ### Support, facturation et gestion de compte
 
 Dans l’espace client Kimsufi ou So you Start, ces options sont disponibles en haut à droite sous des onglets individuels.<br>
-Dans l’espace client OVHcloud, ces options sont regroupées dans un espace commun. Cliquez sur votre nom en haut à droite et cliquez sur vos initiales pour accéder à la rubrique `Gérer mon compte`.
+Cliquez sur le nom de votre compte en haut à droite, puis sur `Accéder à mon compte`{.action}.
 
 ![factu](images/accountOVHcloud.png){.thumbnail}
 
