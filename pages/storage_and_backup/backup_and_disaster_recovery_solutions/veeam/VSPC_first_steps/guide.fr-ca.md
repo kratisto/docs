@@ -76,10 +76,23 @@ Options disponibles :
 
 ### Dépannage
 
-- **Blocage par le pare-feu** : Si l’agent ne parvient pas à se télécharger, vérifiez que les ports TCP 443 et 6183 sont ouverts pour la communication sortante.
-- **Compatibilité navigateur** : Assurez-vous d’utiliser un navigateur pris en charge (ex. Chrome, Edge). Les anciens navigateurs peuvent bloquer ou restreindre les téléchargements.
+- **Blocage par le pare-feu** : En cas de blocage sur le téléchargement de l'agent, vérifiez que les ports TCP 443 et 6183 sont ouverts pour la communication sortante.
+- **Compatibilité navigateur** : Assurez-vous d’utiliser un navigateur pris en charge (par exemple Chrome ou Edge). Les anciens navigateurs peuvent bloquer ou restreindre les téléchargements.
 - **Lien de téléchargement expiré** : Si vous avez partagé le lien et qu’il a expiré, générez-en un nouveau depuis la section `Discovered Computers`{.action}.
 - **Problèmes de proxy** : Si votre réseau utilise un serveur proxy, assurez-vous qu’il autorise le trafic vers et depuis VSPC.
+- **Avertissement « Backup job won't be able to wake your computer up from sleep »** : Si vous voyez apparaître cet avertissement dans VSPC ou dans votre système, cela signifie que la tâche de sauvegarde planifiée ne pourra pas réveiller automatiquement l’ordinateur depuis l’état de veille.
+
+![Backup Policy Warning](images/backup-warning.png){.thumbnail}
+
+Voici comment corriger ce problème :«»
+
+1. **Activer les options de réveil dans le BIOS/UEFI** : Vérifiez que les fonctionnalités de type « Wake on LAN » ou « Wake on RTC » sont activées.
+1. **Modifier les paramètres d'alimentation de Windows** : Ouvrez les Options d'alimentation > Paramètres avancés > Veille, et autorisez les périphériques à réveiller l'ordinateur.
+1. **Configurer la tâche de sauvegarde dans Windows** : Dans le Planificateur de tâches, cochez l'option `Réveiller l'ordinateur pour exécuter cette tâche`{.action} dans l'onglet `Conditions`{.action}.
+1. **Mettre à jour les pilotes et le BIOS** : Assurez-vous que votre BIOS et vos pilotes matériels sont à jour pour garantir la compatibilité du réveil automatique.
+
+> [!primary]
+> Cet avertissement n'empêche pas l'exécution de la sauvegarde si l’ordinateur est allumé au moment prévu.
 
 ### Étape 3 : Installer l’agent de gestion
 
