@@ -153,7 +153,7 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 | Windows | `\\efi\microsoft\\boot\\bootmgfw.efi` |
 | FreeBSD | `\\efi\\FreeBSD\\loader.efi` |
 | Alma | `\\efi\\almalinux\\shimx64.efi` |
-| Gentoo | `\efi\\boot\\bootx64.efi` |
+| Gentoo | `\\efi\\boot\\bootx64.efi` |
 
 > [!primary]
 >
