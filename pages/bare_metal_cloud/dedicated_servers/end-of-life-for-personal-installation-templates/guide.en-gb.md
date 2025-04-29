@@ -4,19 +4,20 @@ excerpt: Information about removal of your personal installation templates & wor
 updated: 2025-04-29
 ---
 
-**This is an important piece of information, please read the entire message carefully as you might be impacted in the future if you request an OS installation on a new dedicated server or an OS reinstallation on a dedicated server you already have.**
+**This is an important documentation, please read it carefully as you might be impacted in the future if you request an OS installation on a new dedicated server or an OS reinstallation on a dedicated server you already have.**
 
 ## Context<a name="context"></a>
 
-OVHcloud is constantly evolving and must adapt its offerings to the increasingly resilient and regulated cloud market. In order to meet those new challenges, **personal templates for dedicated servers OS installation** will be fully decommissioned on the **7th of October 2025**.
+OVHcloud is constantly evolving and must adapt its offers to the increasingly resilient and regulated cloud market. In order to meet those new challenges, **personal templates for dedicated servers OS installation** will be fully decommissioned on the **7th of October 2025**.
 
-This feature allowed requesting an OS installation on a dedicated server by using a personal template containing with following elements:
-- operating system to be installed
-- partitioning layout,
-- hardware RAID configuration,
-- hostname,
-- SSH public key,
-- post-installation script.
+This feature allowed requesting an OS installation on a dedicated server by using a personal template containing the following elements:
+
+- Operating System to be installed
+- partitioning layout
+- hardware RAID configuration
+- hostname
+- SSH public key
+- post-installation script
 
 In order to simplify the OS installation on dedicated servers as well as the migration communication, a new API call was created: `POST /dedicated/server/{serviceName}/reinstall`{.action}. This API call is the successor of the old route: `POST /dedicated/server/{serviceName}/install/start`{.action}. The old route had the ability to target an OS installation from an OVHcloud template **or a personal template**.
 
@@ -36,23 +37,25 @@ Personal templates decommissioning will be done in 2 steps:
 
 Please note that customers will still have the email from the 17th of June 2025 with technical documentation based on their personal templates data to help them migrate to the new API call.
 
-## Instructions<a name="instructions"></a>
+## Instructions <a name="instructions"></a>
 
-The following section contains specific information depending on whether you have an OVHcloud, SoYouStart or Kimsufi account and whether you are currently using the control panel or the API to install OSes on your dedicated server.
+The following section contains specific information depending on whether you have an OVHcloud, SoYouStart or Kimsufi account and whether you are currently using the OVHcloud Control panel or the API to install OSes on your dedicated server.
 
 ### Using OVHcloud, SoYouStart or Kimsufi Control Panel<a name="ux"></a>
 
 The `Install one of your templates`{.action} wizard to install an operating system on a dedicated server has already been removed since mid-April 2025. If you were using that wizard you have 3 long-term possibilities:
-- keep using the Web interface (not recommended if you plan on automating your OS installations): manually apply all customizations in the OS install wizard (former `Install from an OVHcloud template`{.action} wizard) every time you need to perform an installation,
-- write a script that uses the API (best for automation, but requires programming skills): see section [Using OVHcloud, SoYouStart or Kimsufi API](#api) below,
-- use the API console (good tradeoff): use old API call until the 17th of June 2025 and then use new API call with the provided payloads.
+
+- Keep using the Web interface (not recommended if you plan on automating your OS installations): manually apply all customizations in the OS install wizard (former `Install from an OVHcloud template`{.action} wizard) every time you need to perform an installation.
+- Write a script that uses the API (best for automation, but requires programming skills): see the section [Using OVHcloud, SoYouStart or Kimsufi API](#api) below.
+- Use the API console (good tradeoff): use old API call until the 17th of June 2025 and then use new API call with the provided payloads.
 
 Although you could start exploring the examples and schemes of the [new /reinstall API call in the API console](https://eu.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/reinstall) and look at its [public documentation](/pages/bare_metal_cloud/dedicated_servers/api-os-installation), here is the temporary workaround you can follow until your receive the payloads for the new API route in the email of the 17th of June 2025.
 
-#### OVHcloud workaround<a name="ux-ovh"></a>
+#### OVHcloud workaround <a name="ux-ovh"></a>
 
-As mentioned in the [OVHcloud APIs documentation](/pages/manage_and_operate/api/first-steps#sign-in-to-ovhcloud-apis), on the [OVHcloud console API](https://eu.api.ovh.com/console/) page:
-- Click `Authentication`{.action} in the upper left.
+As mentioned in the [OVHcloud API documentation](/pages/manage_and_operate/api/first-steps#sign-in-to-ovhcloud-apis), on the [OVHcloud console API](https://eu.api.ovh.com/console/) page:
+
+- Click `Authentication`{.action} in the upper left corner.
 - Select `Login with OVHcloud SSO`{.action}.
 - Enter your OVHcloud credentials.
 - Click `Authorize`{.action} to allow performing API calls through the console.
@@ -60,11 +63,13 @@ As mentioned in the [OVHcloud APIs documentation](/pages/manage_and_operate/api/
 ![API](/pages/manage_and_operate/api/first-steps/images/login.png){.thumbnail}
 
 Then run the API call to trigger an OS installation from your personal template:
+
 - Select `v1`{.action}.
-- Choose `/dedicated/server`{.action} section.
-- Find `POST /dedicated/server/{serviceName}/install/start`{.action} API call (you can use the filter).
+- Choose the `/dedicated/server`{.action} section.
+- Find the `POST /dedicated/server/{serviceName}/install/start`{.action} API call (you can use the filter).
 - In the `serviceName` field, enter the name of the dedicated server you want to install.
 - In the `REQUEST BODY` field (aka. API payload), put the following JSON value (in this example we assume that "my-amazing-template" is the name of the personal template you want to install):
+
 ```json
 {
   "templateName": "my-amazing-template"
@@ -73,7 +78,7 @@ Then run the API call to trigger an OS installation from your personal template:
 
 If you need to list your personal templates and their details, please go to the `/me`{.action} section and look at all the `GET` API calls under `/me/installationTemplate`{.action}.
 
-> [!warning]
+> [!alert]
 > **Performing a [POST /dedicated/server/{serviceName}/install/start](https://eu.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/install/start) to a dedicated server will erase all the data in that server. PLEASE BE CAREFUL WHILE USING THIS API CALL.**
 >
 
@@ -83,7 +88,7 @@ Then click the `Execute`{.action} button to start the OS installation.
 
 You can go back to the [OVHcloud Control Panel](/links/manager) on the dedicated server dashboard page to track the installation progress.
 
-#### SoYouStart or Kimsufi workarounds<a name="ux-sys-ks"></a>
+#### SoYouStart or Kimsufi workarounds <a name="ux-sys-ks"></a>
 
 Open the [SoYouStart console API](https://eu.api.soyoustart.com/console/) or the [Kimsufi console API](https://eu.api.kimsufi.com/console/).
 
@@ -96,7 +101,7 @@ Click `Login`{.action} on the top right corner and enter your credentials. Then 
 
 If you need to list your personal templates and their details, please go to the `/me`{.action} section and look at all the `GET` API calls under `/me/installationTemplate`{.action}.
 
-> [!warning]
+> [!alert]
 > **Performing a [POST /dedicated/server/{serviceName}/install/start](https://eu.api.soyoustart.com/console/#/dedicated/server/%7BserviceName%7D/install/start~POST) (or [here](https://eu.api.kimsufi.com/console/#/dedicated/server/%7BserviceName%7D/install/start~POST) for Kimsufi) to a dedicated server will erase all the data in that server. PLEASE BE CAREFUL WHILE USING THIS API CALL.**
 >
 
@@ -104,7 +109,7 @@ Then click the `Execute`{.action} button to start the OS installation.
 
 You can go back to the [SoYouStart](https://eu.soyoustart.com/manager) or [Kimsufi Control Panel](https://www.kimsufi.com/fr/manager) on the dedicated server dashboard page to track the installation progress.
 
-### Using OVHcloud, SoYouStart or Kimsufi APIs<a name="api"></a>
+### Using OVHcloud, SoYouStart or Kimsufi APIs <a name="api"></a>
 
 If you are using the OVHcloud, SoYouStart or Kimsufi APIs to trigger OS installations from a personal template, you can continue using the `POST /dedicated/server/{serviceName}/install/start`{.action} API call until **the 7th of October 2025**.
 But please note that starting from **the 17th of June 2025**, you will no longer be able to add or edit personal templates.
