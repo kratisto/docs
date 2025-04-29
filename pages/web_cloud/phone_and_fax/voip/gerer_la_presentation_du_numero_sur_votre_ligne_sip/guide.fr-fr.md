@@ -1,7 +1,7 @@
 ---
 title: 'Configurer la présentation de son numéro'
 excerpt: 'Découvrez comment configurer la présentation du numéro de votre ligne OVHcloud'
-updated: 2022-06-21
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -30,8 +30,8 @@ Même si le principe de la présentation du numéro reste le même, la manipulat
 ### Configurer la présentation du numéro d'une ligne SIP <a name="sip"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation du numéro`{.action}.
 
 ![configurer-presentation-numero](images/display-incoming-call-step1.png){.thumbnail}
@@ -68,7 +68,7 @@ Dès que vous êtes prêt, poursuivez la lecture de cette documentation en fonct
 #### Rester anonyme <a name="rester-anonyme"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Trunk.
 1. Cliquez sur la ligne Trunk concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation du numéro`{.action}.
 
@@ -81,7 +81,7 @@ La page qui s'affiche vous indique la configuration actuelle de la présentation
 #### Présenter de manière unique un numéro OVHcloud <a name="presenter-numero-unique"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Trunk.
 1. Cliquez sur la ligne Trunk concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation du numéro`{.action}.
 
@@ -107,7 +107,7 @@ Une fois votre choix fait, cliquez sur le bouton `Appliquer les modifications`{.
 **Le mode anonyme doit être désactivé sur la ligne Trunk depuis l'espace client OVHcloud, sinon il sera prioritaire sur la présentation de votre IPBX.**
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Trunk.
 1. Cliquez sur la ligne Trunk concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation du numéro`{.action}.
 
@@ -131,7 +131,7 @@ Vous pouvez à présent configurer la présentation du numéro sur votre équipe
 La présentation d'un numéro externe depuis votre IPBX nécessite la validation du numéro souhaité.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Trunk.
 1. Cliquez sur la ligne Trunk concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation d'un numéro externe`{.action}.
 
@@ -150,7 +150,7 @@ Sous quelques minutes, le numéro renseigné recevra un appel. Décrochez et ind
 **Le mode anonyme doit être désactivé sur la ligne Trunk depuis l'espace client OVHcloud. Dans le cas contraire, il sera prioritaire sur la présentation de votre IPBX.**
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Trunk.
 1. Cliquez sur la ligne Trunk concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Présentation du numéro`{.action}.
 

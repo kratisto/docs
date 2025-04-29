@@ -1,7 +1,7 @@
 ---
 title: 'Créer et gérer des conférences téléphoniques'
 excerpt: 'Apprenez à gérer des conférences téléphoniques avec votre numéro OVHcloud'
-updated: 2022-08-05
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -33,7 +33,7 @@ Une interface spécifique vous propose également de suivre en temps réel les d
 ### Étape 1 : accéder à la configuration du numéro
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre numéro Alias.
 1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 1. Dans l'onglet `Configuration`{.action}, cliquez sur `Conférence`{.action} puis sur `Paramétrer`{.action}.<br>
 

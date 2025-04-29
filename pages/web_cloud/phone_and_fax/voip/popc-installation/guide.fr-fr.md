@@ -1,7 +1,7 @@
 ---
 title: 'Installer le logiciel POPC'
 excerpt: "Découvrez comment installer et configurer le logiciel POPC pour l'utiliser avec une ligne SIP OVHcloud"
-updated: 2022-08-04
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -38,8 +38,8 @@ Vous devez disposer des trois informations suivantes afin de pouvoir enregistrer
 Afin de retrouver votre **login** et votre **domain**, suivez les étapes ci-dessous :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Dans l'onglet `Gestion`{.action}, cliquez sur `Informations générales`{.action}.
 
 ![ligne sip - Login et Domain](images/login-domain1.png){.thumbnail}

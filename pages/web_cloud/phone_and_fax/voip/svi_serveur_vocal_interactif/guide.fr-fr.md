@@ -1,7 +1,7 @@
 ---
 title: 'Configurer un serveur vocal interactif (SVI)'
 excerpt: "Découvrez comment configurer un serveur vocal interactif depuis l'espace client OVHcloud"
-updated: 2022-08-04
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -28,7 +28,7 @@ L'exemple le plus courant consiste à orienter un appelant entre plusieurs servi
 ### Étape 1 : accéder à la configuration du serveur vocal interactif
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre numéro Alias.
 1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 
 Assurez-vous que le numéro est bien configuré en tant que « Serveur Vocal Interactif », en vérifiant son `Type de configuration` dans le cadre « Configuration ». Dès lors, deux possibilités :

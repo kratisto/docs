@@ -1,7 +1,7 @@
 ---
 title: 'Comment activer un lien de secours LTE'
 excerpt: 'Découvrez comment activer un lien de secours LTE'
-updated: 2021-02-05
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -61,8 +61,8 @@ Pour que le lien de secours LTE fonctionne, le modem doit être sur le firmware 
 Afin de mettre à jour le modem, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon Modem`{.action}.
 
 Dans le cadre « Configurations avancées », sélectionnez le firmware « 17.1.7960.01 » dans la liste déroulante de la section `Firmware`.

@@ -1,7 +1,7 @@
 ---
 title: Utiliser son fax physique avec l’offre Plug & Fax
 excerpt: Découvrez comment configurer l’offre Plug & Fax pour utiliser un fax physique
-updated: 2021-03-11
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -16,9 +16,13 @@ Vous pouvez configurer la réception de vos fax via votre espace client OVHcloud
 - Disposer d'un télécopieur
 - Être connecté à votre [espace client OVHcloud](/links/manager-telecom)
 
+![espace client Telecom Fax](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-02-fr-voip.png){.thumbnail}
+
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom) puis sélectionnez `Télécom`{.action}. Cliquez ensuite sur `Téléphonie`{.action} puis sur le groupe où se trouve votre ligne Plug & Fax. Sélectionnez la ligne Plug & Fax.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Plug & Fax.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne Plug & Fax concernée.
 
 ## En pratique
 

@@ -1,7 +1,7 @@
 ---
 title: "Activer l'adresse IPv6 d'une connexion Internet OVHcloud"
 excerpt: "Découvrez comment activer l'adresse IPv6 de votre connexion OVHcloud depuis l'espace client"
-updated: 2024-08-28
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -26,9 +26,10 @@ La pénurie d'IPv4 avançant de plus en plus, l'utilisation d'une IPv6 en parall
 >
 > Par défaut, nous activons une IPv6 sur chacun de nos accès Internet livrés. Aucune manipulation n'est nécessaire si celle-ci est déjà activée.
 >
+
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
 
 Dans le cadre « Caractéristiques », reportez-vous aux éléments de la partie `IPs`. Vous retrouverez dans cette dernière les adresses IP associées à votre accès à Internet. Vérifiez l'état de l'adresse IPv6 afin de savoir si celle-ci est activée ou non :

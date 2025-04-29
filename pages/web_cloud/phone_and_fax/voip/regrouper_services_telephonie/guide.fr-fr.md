@@ -1,7 +1,7 @@
 ---
 title: 'Gérer vos groupes de téléphonie'
 excerpt: 'Découvrez comment gérer vos groupes de téléphonie et déplacer vos services entre ces groupes'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -24,11 +24,11 @@ Rattacher plusieurs lignes au sein d'un seul groupe permet aussi la supervision 
 Afin d'accéder à la gestion des groupes de téléphonie, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action}.
 
 Les différents groupes apparaissent alors. Cliquez sur un groupe pour afficher la liste des services qu'il contient.
 
-![groupes de téléphonie](images/00-groupes.png){.thumbnail}
+![groupes de téléphonie](images/groupes01.png){.thumbnail}
 
 ### Renommer un groupe de téléphonie
 
@@ -36,7 +36,7 @@ Il peut être utile de bien nommer vos groupes de téléphones dès lors que vou
 
 Chaque groupe possède un nom interne unique (1 ci-dessous) que vous ne pouvez pas modifier. Vous pouvez par contre modifier le nom personnalisé du groupe en cliquant sur le crayon (2 ci-dessous) à droite du nom du groupe.
 
-![renommer groupe](images/01-renommer.png){.thumbnail}
+![renommer groupe](images/groupes02.png){.thumbnail}
 
 ### Ajouter un groupe de téléphonie
 

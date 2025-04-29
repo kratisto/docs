@@ -1,7 +1,7 @@
 ---
 title: "Modifier le mot de passe d'une ligne SIP"
 excerpt: "Apprenez à changer le mot de passe d’une ligne SIP OVHcloud ne disposant pas d'un téléphone Plug & Phone OVHcloud"
-updated: 2022-06-13
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -22,8 +22,8 @@ Votre ligne SIP OVHcloud vous permet de recevoir et d’émettre des appels depu
 ### Étape 1 : accéder à la gestion du mot de passe de la ligne SIP
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous ensuite sur l'onglet `Gestion`{.action}, puis cliquez sur le bouton `Mot de passe SIP`{.action}.
 
 > [!primary]

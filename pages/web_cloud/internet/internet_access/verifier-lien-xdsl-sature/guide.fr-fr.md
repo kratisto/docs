@@ -1,7 +1,7 @@
 ---
 title: 'Vérifier si son lien xDSL est saturé'
 excerpt: 'Apprenez à contrôler la saturation de votre connexion Internet'
-updated: 2022-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -33,8 +33,8 @@ Poursuivez la lecture de cette documentation selon la vérification que vous sou
 Cette opération se réalise en plusieurs étapes. L'objectif est de vérifier si votre connexion est saturée ou non.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous alors d'être positionné sur l'onglet `Mon accès`{.action}.
 
 ![xdslsaturation](images/monacces-2022.png){.thumbnail}

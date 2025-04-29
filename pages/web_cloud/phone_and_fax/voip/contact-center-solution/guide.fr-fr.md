@@ -1,7 +1,7 @@
 ---
 title: 'Configurer un Contact Center Solution'
 excerpt: 'Découvrez comment configurer un Contact Center Solution sur votre numéro alias'
-updated: 2023-12-21
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -38,7 +38,7 @@ Vous pouvez par exemple proposer à vos appelants, via la seule composition de v
 ### Étape 1 : Appliquer la configuration Contact Center Solution <a name="appliquer-CCS"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre numéro Alias.
 1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 1. Dans l'onglet `Configuration`{.action}, cliquez sur `Passer en mode expert`{.action} pour sélectionner **Contact Center Solution**.
 1. Validez en cliquant sur `Paramétrer`{.action}. L'application de la configuration prend quelques secondes.

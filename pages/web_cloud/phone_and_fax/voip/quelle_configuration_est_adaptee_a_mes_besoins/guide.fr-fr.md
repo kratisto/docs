@@ -1,7 +1,7 @@
 ---
 title: 'Choisir et appliquer une configuration pour un numéro'
 excerpt: 'Découvrez comment choisir et appliquer une configuration sur votre numéro'
-updated: 2022-07-07
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -27,7 +27,7 @@ Lorsque vous disposez d'un numéro alias chez OVHcloud, qu'il soit nouvellement 
 ### Étape 1 : accéder à la gestion de votre numéro
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre numéro Alias.
 1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 
 Dès lors, deux possibilités existent selon le numéro concerné :

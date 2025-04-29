@@ -1,7 +1,7 @@
 ---
 title: "Gérer les reversements ou les coûts de vos numéros spéciaux"
 excerpt: "Découvrez comment gérer les reversements et les coûts de vos numéros spéciaux SVA depuis l'espace client OVHcloud"
-updated: 2025-04-04
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -22,7 +22,7 @@ L'espace client OVHcloud vous permet de consulter et modifier votre palier tarif
 ## En pratique
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre numéro Alias.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre numéro Alias.
 1. Cliquez sur l'onglet `Services`{.action} puis sur le numéro alias concerné.
 
 > [!success]
@@ -53,9 +53,13 @@ Validez ensuite votre choix en cliquant sur `Confirmer`{.action}.
 
 ### Reversements des numéros surtaxés
 
-Les reversements de tous vos numéros surtaxés sont visibles dans le menu `Gérer mes reversements`{.action} situé juste en dessous de `Téléphonie`{.action} dans le volet de gauche.
+Pour consulter vos reversements, effectuez ces actions :
 
-![reversements](images/reversements.png){.thumbnail width="800"}
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action}.
+1. Cliquez sur le bouton `Actions`{.action} puis sur `Gérer mes reversements`{.action}.
+
+![reversements](images/gerer-reversements.png){.thumbnail}
 
 Vous pouvez y consulter l'historique des appels sur vos numéros ainsi que les reversements correspondants.
 

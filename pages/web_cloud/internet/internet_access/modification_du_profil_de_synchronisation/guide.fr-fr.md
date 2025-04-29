@@ -1,7 +1,7 @@
 ---
 title: Modification du profil de synchronisation
 excerpt: Découvrez comment modifier le profil de synchronisation de votre accès xDSL/FTTH
-updated: 2022-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -20,8 +20,8 @@ Votre espace client OVHcloud Télécom regroupe un certain nombre de fonctionnal
 ### Comment accéder au changement de profil
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 
 Par défaut, l'onglet affiché est `Mon accès`.
 

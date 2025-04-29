@@ -1,7 +1,7 @@
 ---
 title: 'Déroulement d’un RMA'
 excerpt: 'Découvrez les étapes de restitution d’un téléphone fourni par OVHcloud'
-updated: 2024-10-30
+updated: 2025-04-28
 ---
 
 <style>
@@ -97,8 +97,8 @@ Lorsque vous recevez cet e-mail, le lien du PDF est disponible dans le corps de 
 > [!success]
 >
 > 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-> 1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-> 1. Cliquez sur la ligne SIP concernée (vous pouvez rechercher le numéro dans le champ prévu à cet effet).
+> 1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+> 1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée (vous pouvez rechercher le numéro dans le champ prévu à cet effet).
 > 1. Cliquez alors sur l'onglet `Assistance`{.action} puis sur `Suivi RMA`{.action}.
 >
 > Les informations relatives au RMA sont alors visibles, ainsi qu'un bouton pour `Télécharger le bon de retour`{.action}.
@@ -171,7 +171,7 @@ Si une caution est restituée, elle sera disponible sur votre compte OVHcloud et
 <br>Si vous le souhaitez , vous pouvez en demander le versement sur votre compte bancaire via ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation souhaité.
 1. Cliquez sur l'onglet `Facturation`{.action} puis sur `Virement vers un compte bancaire`{.action}
 
 Entrez le compte bancaire à créditer et validez. Le virement sera effectué sous 48 heures ouvrées.

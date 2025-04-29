@@ -1,7 +1,7 @@
 ---
 title: Activer une alerte de monitoring
 excerpt: Découvrez comment activer des notifications par e-mail ou SMS pour vous alerter en cas d'injoignabilité d'un accès à Internet
-updated: 2022-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -23,8 +23,8 @@ Les notifications sont envoyées par e-mail ou par SMS (il est alors nécessaire
 Pour pouvoir gérer vos alertes, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Dans l'onglet `Mon accès`{.action}, cliquez sur `Afficher les alertes`{.action} dans le cadre `Informations générales`.
 
 ![espace client](images/espace-client-2022.png){.thumbnail}

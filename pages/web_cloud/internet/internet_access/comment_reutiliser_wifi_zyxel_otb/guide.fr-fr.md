@@ -1,7 +1,7 @@
 ---
 title: "Comment réutiliser le WiFi d'un modem Zyxel avec OverTheBox"
 excerpt: "Découvrez comment réutiliser le WiFi d'un modem Zyxel avec votre OverTheBox"
-updated: 2021-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -33,8 +33,8 @@ Dans ce guide, vous verrez comment tirer parti de l'interface du modem Zyxel pou
 ### Étape 1 : désactiver la configuration à distance <a name="desactiver-configuration-distance"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon modem`{.action}.
 
 Dans le cadre « Configuration à distance », vérifiez que la case à côté de `Configuration à distance activée` est bien décochée. Dès lors, deux possibilités :

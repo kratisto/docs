@@ -1,7 +1,7 @@
 ---
 title: 'Gérer et utiliser les appels simultanés'
 excerpt: 'Apprenez à gérer et utiliser les appels simultanés avec une ligne téléphonique OVHcloud'
-updated: 2022-06-21
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -23,8 +23,8 @@ Votre ligne téléphonique chez OVHcloud vous permet de recevoir et d'émettre d
 ### Gérer les appels simultanés
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} puis cliquez sur `Appels simultanés`{.action}.
 
 ![appels-simultanes](images/simultaneous-call-step1.png){.thumbnail}

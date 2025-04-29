@@ -1,7 +1,7 @@
 ---
 title: 'Configurer des plages horaires et des fermetures exceptionnelles sur une ligne'
 excerpt: 'Découvrez comment configurer des plages horaires et des fermetures exceptionnelles sur votre ligne OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -36,8 +36,8 @@ Poursuivez la lecture de cette documentation en fonction de la configuration que
 #### Étape 1 : accéder à la gestion des plages horaires
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Gérer les plages horaires`{.action}.
 
 ![gerer-plages-horaires](images/manage-time-slot-step1.png){.thumbnail}
@@ -100,8 +100,8 @@ Pour compléter vos plages horaires, vous avez la possibilité de créer des fer
 >
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Gérer les fermetures exceptionnelles`{.action}.
 
 ![gerer-fermetures-exceptionnelles](images/manage-closing-time-step1.png){.thumbnail}

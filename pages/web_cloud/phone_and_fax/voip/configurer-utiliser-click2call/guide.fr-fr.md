@@ -1,7 +1,7 @@
 ---
 title: 'Configurer et utiliser le Click2Call sur une ligne SIP'
 excerpt: 'Apprenez à configurer et utiliser la fonctionnalité Click2Call avec une ligne SIP OVHcloud'
-updated: 2022-06-21
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -33,8 +33,8 @@ Vous avez la possibilité de configurer la fonctionnalité Click2Call depuis vot
 #### Configurer le Click2Call depuis l'espace client
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Appel en 1 clic (Click2Call)`{.action}.
 
 ![modeintercom](images/click2call-step1.png){.thumbnail}

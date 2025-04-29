@@ -1,7 +1,7 @@
 ---
 title: 'Demander et suivre une portabilité de numéro'
 excerpt: "Apprenez à porter un ou plusieurs numéros chez OVHcloud et à suivre l'avancement du processus"
-updated: 2023-01-23
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -43,7 +43,7 @@ Selon le type du ou des numéros que vous souhaitez porter chez OVHcloud, le pro
 ### Étape 2 : demander la portabilité
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation dans lequel le ou les numéros portés seront intégrés.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation dans lequel le ou les numéros portés seront intégrés.
 1. Assurez-vous d'être positionné sur l'onglet `Tableau de bord`{.action} et cliquez sur `Demander une portabilité`{.action}.
 
 ![numberport](images/porta-request.png){.thumbnail}
@@ -148,7 +148,7 @@ Une fois le numéro spécial à porter renseigné (au format international) dans
 ### Étape 3 : suivre une demande de portabilité
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation dans lequel a été demandée la portabilité.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation dans lequel a été demandée la portabilité.
 1. Positionnez-vous sur l'onglet `Tableau de bord`{.action} et cliquez sur `Consulter mes portabilités en cours`{.action}.
 
 ![numberport](images/porting-number-step8-2021.png){.thumbnail}

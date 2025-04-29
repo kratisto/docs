@@ -1,7 +1,7 @@
 ---
 title: Comment configurer le reverse DNS de ma connexion Internet OVHcloud
 excerpt: "Découvrez comment configurer et vérifier le reverse DNS d'un domaine redirigeant vers l'adresse IP de votre acccès FTTH ou xDSL OVHcloud"
-updated: 2024-05-29
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -108,8 +108,8 @@ Nous pouvons maintenant passer à l'étape suivante qui est la configuration de 
 La configuration du Reverse DNS s'effectue dans l'espace client OVHcloud :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 
 Dans les caractéristiques sur la droite, vous verrez apparaître votre IPv4 publique sous cette forme : `109.190.xxx.xxx` ou `151.127.xxx.xxx` et votre préfixe IPv6 public sous cette forme : `2001:41d0:xxxx:xxxx::`.
 

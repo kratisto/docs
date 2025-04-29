@@ -1,7 +1,7 @@
 ---
 title: "Valider votre identité pour l'utilisation des services VoIP"
 excerpt: 'Découvrez comment valider votre compte OVHcloud suite à votre première commande de services VoIP'
-updated: 2024-03-11
+updated: 2025-04-28
 ---
 
 > [!warning]
@@ -32,11 +32,11 @@ L'objet de l'e-mail reçu est :
 >[**OVH - IMPORTANT**] Nous attendons votre procédure VoIP pour finaliser votre commande.
 >
 
-Vous pouvez également retrouver cet e-mail dans votre espace client. Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur votre nom en haut à droite puis sur `E-mails de service`{.action}
+Vous pouvez également retrouver cet e-mail dans votre espace client. Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, cliquez sur votre nom en haut à droite puis sur `Mes communications`{.action}.
 
-![procédure email](images/email.png){.thumbnail}
+![Mes communications](/pages/assets/screens/control_panel/product-selection/telecom/mes-communications.png){.thumbnail}
 
-Si vous souhaitez générer la procédure manuellement (dans le cadre d'un changement de NIC Facturation) ou anticiper et valider votre compte OVHcloud pour la téléphonie en vue d'une prochaine commande de services VoIP, connectez-vous à votre [espace client OVHcloud](/links/manager){.external} puis cliquez sur `Telecom`{.action}.
+Si vous souhaitez générer la procédure manuellement (dans le cadre d'un changement de NIC Facturation) ou anticiper et valider votre compte OVHcloud pour la téléphonie en vue d'une prochaine commande de services VoIP, connectez-vous à votre [espace client OVHcloud](/links/manager){.external} puis cliquez sur `Télécom`{.action}.
 
 Un message d'information vous invitera à cliquer sur le lien du formulaire de validation.
 

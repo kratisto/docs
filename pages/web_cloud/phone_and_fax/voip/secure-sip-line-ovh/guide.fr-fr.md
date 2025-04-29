@@ -1,7 +1,7 @@
 ---
 title: 'Restreindre sa ligne SIP OVHcloud par IP'
 excerpt: 'Découvrez comment restreindre l’accès à vos lignes SIP grâce à une restriction par IP'
-updated: 2022-06-22
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -24,7 +24,9 @@ Une solution fiable pour sécuriser votre téléphonie sur IP est de restreindre
 
 ### Étape 1 : configurer la restriction par IP
 
-Pour démarrer la manipulation, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie Télécom. Cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne SIP concernée.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 
 Si vous souhaitez appliquer la configuration à plusieurs lignes SIP, vous serez prévenu du choix dans la suite de ce guide. Pour le moment, sélectionnez-en une pour laquelle vous voulez appliquer la modification.
 
@@ -72,9 +74,12 @@ Lorsqu'un téléphone utilisant une ligne SIP souhaite s'identifier par exemple,
 
 Pour diverses raisons, l'authentification peut être refusée par le serveur et l'enregistrement de la ligne sera donc refusé (comme en cas d'utilisation d'IP non autorisée ou mot de passe erroné). Il est possible de visionner pour vos lignes SIP OVHcloud les enregistrements refusés par notre serveur.
 
-Pour y accéder, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}, partie Télécom. Cliquez sur `Téléphonie`{.action} puis sélectionnez la ligne SIP pour laquelle vous souhaitez récupérer les logs.
+Pour y accéder, suivez ces étapes :
 
-Positionnez-vous ensuite sur l'onglet `Assistance`{.action} puis cliquez sur le bouton `Consultation des notifications`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
+1. Positionnez-vous ensuite sur l'onglet `Assistance`{.action} puis cliquez sur le bouton `Consultation des notifications`{.action}.
 
 ![securiser-sip](images/restriction04.png){.thumbnail}
 

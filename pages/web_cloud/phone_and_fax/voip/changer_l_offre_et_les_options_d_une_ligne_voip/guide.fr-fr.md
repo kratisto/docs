@@ -1,7 +1,7 @@
 ---
 title: 'Gérer vos services VoIP'
 excerpt: "Découvrez comment gérer vos services VoIP depuis l'espace client OVHcloud"
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -34,8 +34,8 @@ Afin d'adapter votre téléphonie à votre activité professionnelle, vous pouve
 Un changement dans votre activité peut vous amener à vouloir modifier le forfait de votre ligne VoIP, pour le passer en Offre VoIP Entreprise ou ajouter des heures de communication vers les téléphones mobiles. Ce changement peut être effectué depuis votre espace client.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 
 Dans l'onglet `Gestion`{.action}, cliquez sur `Changer d'offre`{.action}. L'offre actuelle de votre ligne VoIP vous sera alors présentée. Cliquez sur `Modifier l'offre`{.action} pour accéder aux offres disponibles.
 

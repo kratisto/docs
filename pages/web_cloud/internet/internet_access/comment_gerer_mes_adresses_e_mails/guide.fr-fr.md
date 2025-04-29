@@ -1,7 +1,7 @@
 ---
 title: 'Activer les adresses e-mail incluses dans votre offre FTTH/xDSL'
 excerpt: 'Découvrez comment activer les adresses e-mail incluses dans votre offre FTTH/xDSL et comment y accéder'
-updated: 2022-10-10
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -25,7 +25,7 @@ Vous avez la possibilité de bénéficier d'adresses E-mail avec nos offres FTTH
 Pour démarrer la manipulation, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 1. Cliquez sur le bouton `Activer un service`{.action} se trouvant dans la rubrique « xDSL E-mail ».
 
 Sur la nouvelle page qui s'affiche, remplissez les informations demandées :
