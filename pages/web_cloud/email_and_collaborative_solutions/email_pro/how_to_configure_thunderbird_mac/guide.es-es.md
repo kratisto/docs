@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configure su cuenta de correo electrónico en Thunderbird para macOS'
 excerpt: 'Cómo configurar una cuenta Email Pro en Thunderbird para macOS'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 
@@ -30,7 +30,11 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 >
 > En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
-> Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
+> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+> 1. Acceda al apartado `Web Cloud`{.action}.
+> 1. Haga clic en `Email Pro`{.action}.
+> 1. Seleccione la plataforma correspondiente.
+> 1. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >
 
 ### Añadir la cuenta
@@ -68,7 +72,11 @@ Si necesita realizar alguna operación que pueda provocar la pérdida de los dat
 >
 > En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
-> Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
+> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+> 1. Acceda al apartado `Web Cloud`{.action}.
+> 1. Haga clic en `Email Pro`{.action}.
+> 1. Seleccione la plataforma correspondiente.
+> 1. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >
 
 Si su cuenta de correo ya está configurada y debe acceder a los parámetros de la cuenta para modificarlos:

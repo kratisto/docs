@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Delegowanie zarządzania kontami e-mail innej osobie'
 excerpt: 'Dowiedz się, jak delegować uprawnienia do zarządzania kontami e-mail w ramach usługi MX Plan'
-updated: 2021-10-08
+updated: 2025-04-28
 ---
 
 
@@ -38,8 +38,8 @@ Delegacja uprawnień daje użytkownikowi konta e-mail możliwość samodzielnego
 >
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
 1. Wybierz odpowiednią domenę.
 1. Aby wyświetlić listę kont e-mail w Twojej usłudze MX Plan, kliknij zakładkę `E-maile`{.action}.
 

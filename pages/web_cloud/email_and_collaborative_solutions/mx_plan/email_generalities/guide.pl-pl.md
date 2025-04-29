@@ -1,7 +1,7 @@
 ---
 title: 'Pierwsze kroki z usługą MX Plan'
 excerpt: 'Dowiedz się, jak rozpocząć korzystanie z usługi MX Plan'
-updated: 2023-11-15
+updated: 2025-04-28
 ---
 
 
@@ -21,8 +21,8 @@ Właśnie zakupiłeś usługę MX Plan. Pozwala ona na korzystanie z kont e-mail
 Po utworzeniu i udostępnieniu usługi MX Plan możesz zarządzać nią w [Panelu klienta OVHcloud](/links/manager). W zależności od daty aktywacji usługi lub jeśli usługa została niedawno migrowana, możliwe jest, że dysponujesz jej poprzednią lub nową wersją. Zanim przejdziesz dalej, ustal, jaką wersję posiadasz.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
 1. Wybierz odpowiednią domenę.
 1. Kontynuuj w zależności od wersji, którą posiadasz.
 

@@ -1,7 +1,7 @@
 ---
 title: Premiers pas avec le service Hosted Exchange
 excerpt: Débutez avec un service Hosted Exchange
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 <style>
@@ -27,9 +27,12 @@ Le service Hosted Exchange permet de bénéficier d’adresses e-mail profession
 
 ### Accéder à la gestion de votre service
 
-Une fois votre service Hosted Exchange créé et disponible, vous pouvez le gérer depuis votre [espace client OVHcloud](/links/manager).
+Une fois votre service Hosted Exchange créé et disponible :
 
-Pour cela, connectez-vous à ce dernier, cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}. Cliquez enfin sur le nom du service Hosted Exchange concerné.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
 
 > [!primary]
 >

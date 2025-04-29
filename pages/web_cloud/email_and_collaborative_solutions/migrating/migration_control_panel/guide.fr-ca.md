@@ -2,7 +2,7 @@
 title: 'Migrer une adresse e-mail MX Plan vers un compte Exchange'
 excerpt: 'Découvrez comment migrer une adresse e-mail MX Plan vers un compte Exchange'
 hidden: true
-updated: 2022-11-22
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -42,8 +42,8 @@ Dans le cas contraire, connectez-vous à votre [espace client OVHcloud](/links/m
 Avant de débuter votre migration, il vous faudra identifier la version du MX Plan depuis lequel vous migrez.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur `E-mails`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Cliquez sur `MX Plan`{.action}.
 1. Sélectionnez le domaine concerné.
 
 Poursuivez selon la version que vous possédez en vous référant au tableau ci-dessous.

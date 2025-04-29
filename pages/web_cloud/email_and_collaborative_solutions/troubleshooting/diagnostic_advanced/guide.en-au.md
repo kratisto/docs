@@ -1,7 +1,7 @@
 ---
 title: Unable to send or receive emails
 excerpt: Find out what to do if your emails are not sent or received correctly by OVHcloud
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -35,7 +35,7 @@ Follow these steps to ensure that your relevant services are up and running:
 
 - For your **domain name**, go to the `Web Cloud`{.action} section, click `Domain names`{.action}, then select your domain name. If your domain name has expired, this will be listed at the top of the page.
 - For your **Web Hosting plan**, go to the `Web Cloud`{.action} section, click `Hosting plans`{.action}, then select your Web Hosting plan. The date of expiry or automatic renewal of your hosting will be indicated at the top of the page.
-- For your **MXplan email** solution, go to the `Web Cloud`{.action} section, click `Emails`{.action}, then select the domain name concerned. Click the `Email`{.action} accounts tab. Check the status of the email account in the `Status` column.
+- For your **MXplan email** solution, go to the `Web Cloud`{.action} section, click `MX Plan`{.action}, then select the domain name concerned. Click the `Email`{.action} accounts tab. Check the status of the email account in the `Status` column.
 
 ### I am unable to send emails from my email software (**sending** and/or **receiving**)
  

@@ -59,7 +59,7 @@ Udostępniony kalendarz będzie dostępny w interfejsie „Kalendarz” w sekcji
 
 > [!primary]
 >
-W zasadzie jest możliwe udostępnianie kalendarzy użytkownikom zewnętrznym, ale mogą wystąpić problemy z ich zgodnością w zależności od używanych klientów poczty lub usług WWW. Więcej informacji na ten temat zawiera oficjalna [dokumentacja firmy Microsoft](https://support.microsoft.com/pl-pl/help/10106/how-to-open-a-shared-calendar-from-an-outlook-sharing-invitation).
+> W zasadzie jest możliwe udostępnianie kalendarzy użytkownikom zewnętrznym, ale mogą wystąpić problemy z ich zgodnością w zależności od używanych klientów poczty lub usług WWW. Więcej informacji na ten temat zawiera oficjalna [dokumentacja firmy Microsoft](https://support.microsoft.com/pl-pl/help/10106/how-to-open-a-shared-calendar-from-an-outlook-sharing-invitation).
 >
 
 ### Zmiana uprawnień do kalendarza

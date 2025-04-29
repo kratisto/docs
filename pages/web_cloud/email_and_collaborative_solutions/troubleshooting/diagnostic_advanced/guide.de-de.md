@@ -1,7 +1,7 @@
 ---
 title: 'E-Mails können nicht gesendet oder empfangen werden'
 excerpt: 'Erfahren Sie hier die Vorgehensweise, wenn Sende- oder Empfangsprobleme über OVHcloud auftreten'
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -35,7 +35,7 @@ Befolgen Sie diese Schritte, um sicherzustellen, dass Ihre relevanten Dienste in
 
 - Gehen Sie für Ihre **Domain** in den Bereich `Web Cloud`{.action}, klicken Sie auf `Domainnamen`{.action} und wählen Sie Ihre Domain aus. Wenn Ihre Domain abgelaufen ist, wird dies am oberen Ende der Seite angezeigt.
 - Für ein **Webhosting** gehen Sie in den Bereich `Web Cloud`{.action}, klicken Sie auf `Hosting-Pakete`{.action} und wählen Sie Ihr Hosting aus. Das Ablaufdatum oder das Datum der automatischen Verlängerung Ihres Webhostings wird oben angegeben.
-- Für ein **MXplan** Angebot gehen Sie in den Bereich `Web Cloud`{.action}, klicken Sie auf `E-Mails`{.action} und wählen Sie die betreffende Domain aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}. Überprüfen Sie in der Spalte `Status` den Status des betreffenden E-Mail-Accounts.
+- Für ein **MXplan** Angebot gehen Sie in den Bereich `Web Cloud`{.action}, klicken Sie auf `MX Plan`{.action} und wählen Sie die betreffende Domain aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}. Überprüfen Sie in der Spalte `Status` den Status des betreffenden E-Mail-Accounts.
 - Für ein **E-Mail Pro** Angebot gehen Sie in den Bereich `Web Cloud`{.action}, klicken Sie auf `E-Mail Pro`{.action} und wählen Sie Ihre Plattform aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}. Überprüfen Sie in der Spalte `Status` den Status des betreffenden E-Mail-Accounts.
 - Für ein **Exchange** Angebot gehen Sie in den Bereich `Web Cloud`{.action}, klicken Sie auf `Microsoft`{.action}, klicken Sie dann auf `Exchange`{.action} und wählen Sie Ihren Dienst aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}. Überprüfen Sie in der Spalte `Status` den Status des betreffenden E-Mail-Accounts.
 

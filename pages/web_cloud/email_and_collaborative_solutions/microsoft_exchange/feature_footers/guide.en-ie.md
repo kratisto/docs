@@ -1,7 +1,7 @@
 ---
 title: 'Creating automatic signatures'
 excerpt: 'Find out how to add automatic signatures to your email accounts'
-updated: 2020-03-26
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -22,15 +22,14 @@ In the OVHcloud Control Panel, you can create universal signatures (footers) for
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Microsoft`{.action}.
->> 1. Click `Exchange`{.action}.
+>> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
 >> 1. Select the service concerned.
 >>
 > **Email Pro**
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Professional emails`{.action}.
+>> 1. Click `Email Pro`{.action}.
 >> 1. Select the service concerned.
 >>
 

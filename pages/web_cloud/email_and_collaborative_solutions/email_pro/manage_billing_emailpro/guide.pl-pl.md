@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie płatnościami za Twoje konta E-mail Pro'
 excerpt: 'Dowiedz się, jak zarządzać fakturowaniem usługi E-mail Pro'
-updated: 2022-02-23
+updated: 2025-04-28
 ---
 
 
@@ -22,7 +22,7 @@ Oferta E-mail Pro umożliwia elastyczne zarządzanie płatnościami. Niniejszy p
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile Pro`{.action}.
+1. Kliknij `Email Pro`{.action}.
 1. Wybierz odpowiednią platformę.
 
 Przejdź do karty `Konta e-mail`{.action}, a następnie kliknij przycisk `Zamówienie kont`{.action} w prawym górnym rogu.

@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure su cuenta de correo electrónico en Thunderbird para Windows'
 excerpt: 'Cómo configurar una cuenta Exchange en Thunderbird para Windows'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 
@@ -23,15 +23,19 @@ Es posible configurar sus cuentas Exchange en el cliente de correo que usted uti
 - Disponer de una cuenta [Exchange](/links/web/emails-hosted-exchange).
 - Tener Thunderbird instalado en su Windows.
 - Disponer del nombre de usuario y la contraseña de la cuenta de correo electrónico que quiera configurar.
- 
+
 ## Procedimiento
 
 > [!warning]
 >
-> En nuestro ejemplo, utilizamos el nombre del servidor: ex?.mail.ovh.ca. Debe reemplazar el "? " por el número que designa el servidor del servicio Exchange.
-> 
-> Encontrará esta cifra en el [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y, seguidamente, en el apartado `Microsoft`{.action}/`Exchange`{.action}. El nombre del servidor puede verse en el recuadro **Conexión** de la pestaña `Información General`{.action}.
-> 
+> En nuestro ejemplo, utilizamos el nombre del servidor: ex?.mail.ovh.ca. Debe reemplazar el "?" por el número que designa el servidor del servicio Exchange.
+>
+> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+> 1. Acceda al apartado `Web Cloud`{.action}.
+> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+> 1. Seleccione la plataforma correspondiente.
+> 1. El nombre del servidor puede verse en el recuadro **Conexión** de la pestaña `Información General`{.action}.
+>
 
 ### Añadir la cuenta
 

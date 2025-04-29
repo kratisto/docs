@@ -1,7 +1,7 @@
 ---
 title: 'Gérer la facturation de vos comptes E-mail Pro'
 excerpt: 'Découvrez comment gérer la facturation de votre service E-mail Pro'
-updated: 2022-02-23
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ L'offre E-mail Pro dispose d'une gestion flexible de la facturation des comptes.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 1. Cliquez sur l'onglet `Web Cloud`{.action}.
-1. Cliquez sur `E-mails Pro`{.action}.
+1. Cliquez sur `Email Pro`{.action}.
 1. Sélectionnez la plateforme concernée.
 
 Depuis l'onglet `Comptes e-mail`{.action}, cliquez sur le bouton `Commander des comptes`{.action} en haut à droite.
@@ -30,11 +30,11 @@ Depuis l'onglet `Comptes e-mail`{.action}, cliquez sur le bouton `Commander des 
 
 ### Modifier la périodicité de vos comptes <a name="periodicity"></a>
 
-Depuis la fenêtre de gestion de votre plateforme E-mail Pro, cliquez sur le bouton `Actions`{.action} en haut à droite puis sur `Mode de facturation`{.action}. 
+Depuis la fenêtre de gestion de votre plateforme E-mail Pro, cliquez sur le bouton `Actions`{.action} en haut à droite puis sur `Mode de facturation`{.action}.
 
 ![billing_emailpro](images/billing-emailpro-02.png){.thumbnail}
 
-Dans la fenêtre qui apparait, le tableau vous permet de gérer la période de renouvellement de chaque compte. Vous pouvez faire un choix global en cliquant sur les mentions **Mensuel**,  **Annuel** ou **Aucune**. 
+Dans la fenêtre qui apparait, le tableau vous permet de gérer la période de renouvellement de chaque compte. Vous pouvez faire un choix global en cliquant sur les mentions **Mensuel**,  **Annuel** ou **Aucune**.
 Vous pouvez aussi le faire individuellement devant chaque compte.
 
 - **Mensuel** : le compte vous est facturé chaque mois à la date mentionnée dans la colonne **Expiration**.
@@ -63,7 +63,7 @@ Depuis l'onglet `Comptes e-mail`{.action} de votre plateforme, cliquez sur le bo
 
 ### Résilier la plateforme
 
-Depuis la fenêtre de gestion de votre plateforme E-mail Pro, cliquez sur le bouton `Actions`{.action} en haut à droite puis sur `Résilier`{.action}. 
+Depuis la fenêtre de gestion de votre plateforme E-mail Pro, cliquez sur le bouton `Actions`{.action} en haut à droite puis sur `Résilier`{.action}.
 
 ![billing_emailpro](images/billing-emailpro-05.png){.thumbnail}
 

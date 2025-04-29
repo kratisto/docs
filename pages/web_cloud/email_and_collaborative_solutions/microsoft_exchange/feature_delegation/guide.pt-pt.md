@@ -1,7 +1,7 @@
 ---
 title: 'Delegar permissões numa conta de e-mail'
 excerpt: 'Saiba como delegar os direitos da sua conta de e-mail noutro'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -43,16 +43,15 @@ Quando identificar a conta que a delegação lhe diz respeito, determinar os dir
 > **Exchange**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique na rubrica `Microsoft`{.action}.
->> 1. Clique em `Exchange`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
 >> 1. Selecione a plataforma em causa.
 >>
 > **Email Pro**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
 >> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Clique em `Email Pro`{.action}.
 >> 1. Selecione a plataforma em causa.
 >>
 

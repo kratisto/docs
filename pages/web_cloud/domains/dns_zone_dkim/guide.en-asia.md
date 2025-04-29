@@ -1,7 +1,7 @@
 ---
 title: How to improve email security with a DKIM record
 excerpt: Find out how to configure a DKIM record on your OVHcloud domain name and email platform
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -153,7 +153,11 @@ The automatic configuration of DKIM is accessible for an email solution MX Plan 
 
 By default, the DKIM is not activated when you add a domain name to your platform. You will need to launch the automatic configuration process via the OVHcloud Control Panel.
 
-In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Emails`{.action} , then click on the domain name concerned. Finally, go to the `General information`{.action} tab.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `MX Plan`{.action}.
+1. Select the domain concerned.
+1. Finally, go to the `General information`{.action} tab.
 
 In the **General informations** box, you can see that the `DKIM` box is red with the **Diagnostic**.
 

@@ -1,7 +1,7 @@
 ---
 title: "E-Mail Pro - Konfiguration Ihrer E-Mail-Adresse in Mail für iPhone und iPad"
 excerpt: 'Erfahren Sie hier, wie Sie einen E-Mail Pro Account via Mail App auf einem iPhone oder iPad einrichten'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -29,8 +29,12 @@ E-Mail Pro Accounts können auf verschiedenen, kompatiblen E-Mail-Clients einger
 > [!primary]
 >
 > In dieser Anleitung verwenden wir als Serverbezeichnung: pro?.mail.ovh.net. Das „?“ muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Email Pro Dienst ersetzt werden.
-> 
-> Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie den betreffenden `E-Mail Pro`{.action} Dienst auswählen. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
+>
+> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+> 1. Klicken Sie auf `E-Mail Pro`{.action}.
+> 1. Wählen Sie den gewünschten Dienst aus.
+> 1. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
 
 Klicken Sie vom Homescreen des Geräts aus auf `Einstellungen`{.action} (Zahnradsymbol). Je nach Ihrer iOS-Version erfolgt das Hinzufügen eines Accounts auf verschiedene Weise:

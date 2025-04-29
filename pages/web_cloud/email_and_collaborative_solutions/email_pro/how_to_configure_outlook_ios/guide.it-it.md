@@ -1,7 +1,7 @@
 ---
 title: "Email Pro - Configurare un account email su Outlook per iOS"
 excerpt: "Scopri come configurare il tuo indirizzo Email Pro sull’applicazione mobile Outlook per iOS"
-updated: 2025-02-13
+updated: 2025-04-28
 ---
 
 <style>
@@ -35,11 +35,15 @@ Gli account Email Pro possono essere configurati su client di posta compatibili.
 
 ### Aggiungi l'account <a name="add-account"></a>
 
-> [!warning]
+> [!primary]
 >
-> Nei nostri esempi, utilizziamo la dicitura server: pro?.mail.ovh.net. Sostituisci "?" con il numero che indica il server del tuo servizio Email Pro.
+> Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
-> Ritrova questa cifra nel tuo [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} poi `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Clicca su `Email Pro`{.action}.
+> 1. Seleziona la piattaforma interessata. 
+> 1. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 >
 
 - **Al primo avvio dell’applicazione** : compare l’assistente di configurazione, clicca su `Aggiungi account`{.action}.

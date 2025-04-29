@@ -1,7 +1,7 @@
 ---
 title: 'Modifica la password di un indirizzo email'
 excerpt: 'Come modificare la password di un indirizzo email OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -40,14 +40,14 @@ Dallo [Spazio Cliente OVHcloud](/links/manager), seleziona la sezione `Web Cloud
 > **Email MX Plan (versione storica)**
 >>
 >> Se non ricordi il tipo di offerta MX Plan, consulta il paragrafo [Identifica la tua offerta MX Plan](#whichmxplan).<br>
->> Clicca su `Email`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. <br>
+>> Clicca su `MX Plan`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. <br>
 >> Clicca sul pulsante `...`{.action} e poi su `Modifica la password`{.action}.<br><br>
 >>![email](images/email-password-mxplan-legacy01.png){.thumbnail}<br>
 >>
 > **Email MX Plan (nuova versione)**
 >>
 >> Se non ricordi il tipo di offerta MX Plan, consulta il paragrafo [Identifica la tua offerta MX Plan](#whichmxplan).<br>
->> Clicca su `Email`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. <br>
+>> Clicca su `MX Plan`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. <br>
 >> Clicca sul pulsante `...`{.action} e poi su `Modifica`{.action}.<br><br>
 >>![email](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>

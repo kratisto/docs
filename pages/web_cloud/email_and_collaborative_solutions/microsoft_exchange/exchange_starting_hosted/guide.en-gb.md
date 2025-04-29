@@ -1,7 +1,7 @@
 ---
 title: 'Getting started with the Hosted Exchange service'
 excerpt: 'Get started with a Hosted Exchange service'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 <style>
@@ -31,8 +31,7 @@ Once your Hosted Exchange service has been created and is available:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Microsoft`{.action}.
-1. Click `Exchange`{.action}.
+1. In the `MICROSOFT` section, click `Exchange`{.action}.
 1. Select the service concerned.
 
 > [!primary]

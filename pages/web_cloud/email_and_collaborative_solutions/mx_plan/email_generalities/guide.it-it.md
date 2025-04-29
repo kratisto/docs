@@ -1,7 +1,7 @@
 ---
 title: 'Iniziare a utilizzare la soluzione MX Plan'
 excerpt: 'Come eseguire le prime operazioni sul servizio MX Plan'
-updated: 2023-11-15
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -20,8 +20,8 @@ La soluzione MX Plan di OVHcloud con cui potrai inviare e ricevere messaggi dal 
 Una volta creata e disponibile la soluzione MX Plan, è possibile gestirla dallo [Spazio Cliente OVHcloud](/links/manager). In base alla data di attivazione o in caso di recente migrazione del servizio, la versione disponibile sarà differente. Per verificare quella attiva
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Email`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
 1. Seleziona il dominio.
 1. Prosegui nella lettura di questa guida in base alla versione di cui disponi.
 

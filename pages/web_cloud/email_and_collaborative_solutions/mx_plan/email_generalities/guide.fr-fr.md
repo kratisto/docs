@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec l'offre MX Plan"
 excerpt: 'Découvrez comment bien débuter avec votre offre MX Plan'
-updated: 2023-11-15
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -20,8 +20,8 @@ Vous venez d'acquérir une solution MX Plan. Celle-ci vous permet de bénéficie
 Une fois l'offre MX Plan créée et disponible, vous avez la possibilité de la gérer depuis votre [espace client OVHcloud](/links/manager). Selon sa date d'activation ou si celle-ci a été récemment migrée, il est possible que vous disposiez de la version historique ou de la nouvelle version de l'offre. Avant de poursuivre, vous devez identifier celle-ci.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur `E-mails`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Cliquez sur `MX Plan`{.action}.
 1. Sélectionnez le domaine concerné.
 1. Poursuivez selon la version que vous possédez.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure your email account on Mail for macOS'
 excerpt: Find out how to configure your Exchange account on macOS Mail
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 <style>
@@ -38,9 +38,13 @@ You can configure Exchange accounts on email clients, if they are compatible. By
 
 > [!primary]
 >
-> In this guide, we will use as the server name: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Exchange service.
-> 
-> You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Microsoft`{.action}, `Exchange`{.action} and then the desired Exchange service. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
+> In this guide, we use as the hostname: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
+>
+> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+> 1. Open the `Web Cloud`{.action} section.
+> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
+> 1. Select the service concerned.
+> 1. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >
 
 - **When you start the application for the first time**: A configuration wizard will appear, prompting you to choose your account type.

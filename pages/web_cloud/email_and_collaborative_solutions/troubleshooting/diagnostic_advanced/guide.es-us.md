@@ -1,7 +1,7 @@
 ---
 title: 'No se puede enviar o recibir mensajes'
 excerpt: Cómo reaccionar ante un fallo de funcionamiento en el envío o recepción de los mensajes de correo electrónico a OVHcloud
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -35,7 +35,7 @@ Compruebe que los servicios están correctamente operativos:
 
 - Para su **dominio**, acceda a la sección `Web Cloud`{.action}, haga clic en `Dominios`{.action} y seleccione su dominio. Si su dominio ha caducado, se le indicará en la parte superior de la página.
 - Para su **alojamiento web**, acceda a la sección `Web Cloud`{.action}, haga clic en `Alojamientos`{.action} y seleccione el alojamiento. La fecha de expiración o de renovación automática del alojamiento se indica en la parte superior de la página.
-- Para un servicio **MXplan**, acceda a la sección `Web Cloud`{.action}, haga clic en `Correo electrónico`{.action} y seleccione el dominio correspondiente. Haga clic en la pestaña `Cuentas de correo`{.action}. Compruebe el estado de la cuenta de correo en la columna `Estado`.
+- Para un servicio **MXplan**, acceda a la sección `Web Cloud`{.action}, haga clic en `MX Plan`{.action} y seleccione el dominio correspondiente. Haga clic en la pestaña `Cuentas de correo`{.action}. Compruebe el estado de la cuenta de correo en la columna `Estado`.
 - Para un servicio **Exchange**, acceda a la sección `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Haga clic en la pestaña `Cuentas de correo`{.action}. Compruebe el estado de la cuenta de correo en la columna `Estado`.
 
 ### No consigo enviar correos desde mi cliente de correo (**envío** y/o **recepción**)

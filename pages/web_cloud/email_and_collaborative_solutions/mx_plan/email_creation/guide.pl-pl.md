@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie konta e-mail w ramach usługi MX Plan'
 excerpt: 'Dowiedz się, jak utworzyć konto e-mail w ramach pakietu MX Plan'
-updated: 2024-06-13
+updated: 2025-04-28
 ---
 
 
@@ -28,8 +28,8 @@ Właśnie zakupiłeś usługę e-mail MX Plan. Umożliwia ona korzystanie z kont
 W zależności od daty aktywacji usługi lub jeśli usługa została niedawno przeniesiona, możliwe, że dysponujesz jej starszą lub nową wersją. Zanim przejdziesz dalej, zidentyfikuj tą opcję.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
 1. Wybierz odpowiednią domenę.
 
 Następnie postępuj zgodnie z instrukcjami odnoszącymi się do wersji, którą posiadasz.

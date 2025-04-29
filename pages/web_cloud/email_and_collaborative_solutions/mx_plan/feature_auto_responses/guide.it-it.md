@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Crea risposta automatica su un indirizzo email'
 excerpt: 'Come impostare una risposta automatica su un indirizzo email'
-updated: 2024-05-24
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -23,7 +23,11 @@ Quando sei assente e non sei in grado di consultare il tuo indirizzo email, puoi
 
 ### Crea la risposta automatica
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager). Seleziona il dominio nella sezione `Email`{.action}. Clicca sulla scheda `Email`{.action} in alto e poi su `Gestione delle risposte automatiche`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
+1. Seleziona il dominio.
+1. Clicca sulla scheda `Email`{.action} in alto e poi su `Gestione delle risposte automatiche`{.action}.
 
 Verrai reindirizzato alla finestra `Gestione delle risposte automatiche`, nella quale sono visualizzate tutte le risposte automatiche alle email attive sul tuo servizio di posta.
 

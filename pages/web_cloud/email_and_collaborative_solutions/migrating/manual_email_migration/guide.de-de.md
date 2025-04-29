@@ -1,7 +1,7 @@
 ---
 title: Ihre E-Mail-Adresse manuell migrieren
 excerpt: Erfahren Sie hier, wie Sie Ihre E-Mail-Adresse manuell auf eine andere E-Mail-Adresse migrieren.
-updated: 2021-01-05
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -41,8 +41,7 @@ Wenn Sie einen OVHcloud [Exchange E-Mail-Account](/links/web/emails-hosted-excha
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Klicken Sie rechts neben dem zu exportierenden E-Mail-Account auf `...`{.action} und dann auf `In PST-Format exportieren`{.action}.
 

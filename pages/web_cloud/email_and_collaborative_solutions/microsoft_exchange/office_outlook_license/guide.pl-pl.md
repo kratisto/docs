@@ -1,7 +1,7 @@
 ---
 title: Zamów licencję Outlook dla usługi Exchange
 excerpt: Dowiedz się, jak zamówić licencję Outlook z platformy Exchange OVHcloud i zainstalować ją
-updated: 2022-10-05
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -25,9 +25,8 @@ Po zamówieniu programu Outlook możesz pobrać jedną z 3 wersji:
 #### W przypadku konta Hosted Exchange
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Kliknij ikonę `...`{.action} po prawej stronie wybranego konta, a następnie `Zamów licencję Outlook`{.action}.
 
@@ -44,9 +43,8 @@ Odczekaj kilka chwil, aż licencja Outlook zostanie udostępniona w Panelu klien
 #### W przypadku konta Private Exchange
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Kliknij ikonę `...`{.action} po prawej stronie wybranego konta, a następnie `Aktywuj licencję Outlook`{.action}.
 
@@ -82,9 +80,8 @@ Pobrany plik ma format .ISO, czyli obraz dysku. Uruchom instalację i wprowadź 
 ### Usuń licencję Outlook z konta
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Kliknij ikonę `...`{.action} po prawej stronie wybranego konta, a następnie `Usuń licencję Outlook`{.action}
 

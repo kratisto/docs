@@ -1,7 +1,7 @@
 ---
 title: 'Using email aliases and redirections'
 excerpt: 'Find out how to manage aliases and email redirections'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -146,7 +146,7 @@ Log in to the [OVHcloud Control Panel](/links/manager) and go to the `Web Cloud`
 
 - **Exchange**: Open `Microsoft`{.action} and then `Exchange`{.action}. Select the service concerned. Click on the `Email accounts`{.action} tab.
 
-- **Emails** (MX Plan): Open `Emails`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
+- **MX Plan**: Open `MX Plan`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
 
 To add an alias to your email account, follow the instruction steps by clicking successively on each tab below:
 
@@ -173,7 +173,6 @@ In the `Email accounts`{.action} tab, click on the `...`{.action} button to the 
 Click on the button `...`{.action} in the row of the alias in question and select `Delete alias`{.action}.
 
 ![emails](images/email-alias04.png){.thumbnail}
-
 
 ## Go further <a name="go-further"></a>
 

@@ -1,7 +1,7 @@
 ---
 title: 'Iniziare a utilizzare Hosted Exchange'
 excerpt: 'Scopri come configurare un Hosted Exchange'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 <style>
@@ -30,9 +30,8 @@ Con Hosted Exchange puoi usufruire di account email professionali che semplifica
 Una volta che il tuo Hosted Exchange è pronto per l’utilizzo :
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 
 > [!primary]

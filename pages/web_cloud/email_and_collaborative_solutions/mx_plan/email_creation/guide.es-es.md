@@ -1,7 +1,7 @@
 ---
 title: 'Crear una dirección de correo electrónico en un MX Plan'
 excerpt: 'Cómo crear una dirección de correo electrónico en la solución MX Plan'
-updated: 2024-06-13
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -27,8 +27,8 @@ La solución MX Plan le permite disfrutar de direcciones de correo asociadas a u
 En función de cuándo haya activado su MX Plan o de si el servicio ha sido migrado recientemente, tendrá una versión diferente. Antes de continuar, compruebe de qué versión dispone.
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Direcciones de correo`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. Haga clic en `MX Plan`{.action}.
 1. Seleccione el dominio.
 
 Siga leyendo esta guía en función de su versión:

@@ -1,7 +1,7 @@
 ---
 title: Créer et utiliser des comptes de ressource
 excerpt: Ajouter et utiliser les comptes de ressource avec l’offre Exchange
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -18,7 +18,11 @@ Cette fonction collaborative de Exchange permet de créer des adresses de messag
 
 ## En pratique
 
-Connectez-vous à votre  [espace client OVHcloud](/links/manager) et sélectionnez `Web Cloud`{.action} dans la barre de navigation supérieure. Cliquez sur `Microsoft`{.action} , puis sur `Exchange`{.action}. Sélectionnez ensuite le service Exchange concerné. Cliquez sur l'onglet `Plus +`{.action} , puis sur `Ressources`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
+1. Cliquez sur l'onglet `Plus +`{.action} , puis sur `Ressources`{.action}.
 
 ### Étape 1 : créer une ressource
 
@@ -48,7 +52,7 @@ Vos ressources peuvent être gérées à partir du tableau de l'onglet « Ressou
 
 > [!primary]
 >
-Consultez également notre guide sur le [Partage de calendriers depuis l'interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing).
+> Consultez également notre guide sur le [Partage de calendriers depuis l'interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing).
 >
 
 Connectez-vous à votre compte Exchange via le [webmail OVHcloud](/links/web/email). Basculez vers l'interface « Calendrier » en cliquant sur le « lanceur d'application » dans le coin supérieur gauche, puis en sélectionnant l'icône `Calendrier`{.action}.

@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Korzystanie z grup (mailing listy) dostępnych z kontem Exchange'
 excerpt: 'Dowiedz się, jak zarządzać listami wysyłkowymi w programie Exchange'
-updated: 2024-11-12
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -20,9 +20,8 @@ Grupy w programie Exchange umożliwiają komunikację wielu uczestników naraz p
 ### Krok 1: utworzenie nowej grupy
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Kliknij kartę `Grupy`{.action} w menu poziomym.
 

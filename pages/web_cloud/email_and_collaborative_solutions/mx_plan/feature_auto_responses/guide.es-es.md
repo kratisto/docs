@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Crear una respuesta automática en una dirección de correo electrónico'
 excerpt: 'Cómo configurar una respuesta automática en una dirección de correo electrónico'
-updated: 2024-05-24
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -23,7 +23,11 @@ Si está ausente y no puede consultar su dirección de correo, puede implementar
 
 ### Creación de una respuesta automática
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager). Seleccione el dominio correspondiente en la sección `Correo electrónico`{.action} de la columna. Haga clic en la pestaña `Correo electrónico`{.action} en la parte superior y, seguidamente, en `Gestión de los contestadores`{.action}.
+1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+1. Acceda al apartado `Web Cloud`{.action}.
+1. Haga clic en `MX Plan`{.action}.
+1. Seleccione el dominio.
+1. Haga clic en la pestaña `Correo electrónico`{.action} en la parte superior y, seguidamente, en `Gestión de los contestadores`{.action}.
 
 Será redirigido a la ventana `Gestión de los contestadores`, en la que podrá consultar todas las respuestas automáticas de correo que tiene instaladas en su servicio de correo.
 

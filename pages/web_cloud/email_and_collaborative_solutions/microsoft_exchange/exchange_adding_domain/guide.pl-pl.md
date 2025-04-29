@@ -1,7 +1,7 @@
 ---
 title: Dodaj domenę do platformy e-mail
 excerpt: Dowiedz się, jak dodać domenę do platformy Exchange lub E-mail Pro
-updated: 2025-04-01
+updated: 2025-04-28
 ---
 
 <style>
@@ -34,16 +34,15 @@ Dodanie domeny do usługi Exchange jest niezbędne, abyś mógł korzystać z ko
 > **Exchange**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij rubrykę `Microsoft`{.action}.
->> 1. Kliknij na `Exchange`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >>
 > **Email Pro**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 >> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >>
 

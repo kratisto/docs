@@ -1,7 +1,7 @@
 ---
 title: 'E-mail Pro - Configure sua conta de e-mail no Correio para Windows'
 excerpt: "Saiba como configurar uma conta E-mail Pro na aplicação Correio para Windows"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -31,7 +31,7 @@ As contas E-mail Pro podem ser configuradas em vários softwares de e-mail compa
 >
 > No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
 > 
-> Encontre este número no seu [Área de Cliente OVHcloud](/links/manager) , na rubrica `Web Cloud`{.action} depois `E-mails Pro`{.action}. O nome do servidor é visível no quadro **Ligação** do separador `Information Générale`{.action}.
+> Encontre este número no seu [Área de Cliente OVHcloud](/links/manager) , na rubrica `Web Cloud`{.action} depois `Email Pro`{.action}. O nome do servidor é visível no quadro **Ligação** do separador `Information Générale`{.action}.
 > 
 
 Uma vez lançada a aplicação Correio no seu dispositivo, a adição de uma conta pode ser efetuada de duas formas diferentes.

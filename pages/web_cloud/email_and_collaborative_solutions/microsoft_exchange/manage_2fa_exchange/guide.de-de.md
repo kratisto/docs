@@ -1,7 +1,7 @@
 ---
 title: 'Die Zwei-Faktor-Authentifizierung für einen Exchange Account konfigurieren'
 excerpt: 'Erfahren Sie hier, wie Sie die Zwei-Faktor-Authentifizierung für einen Exchange Account einrichten'
-updated: 2020-03-11
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -35,8 +35,7 @@ Bei der ersten Einrichtung muss die Zwei-Faktor-Authentifizierung zunächst für
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Gehen Sie dann auf den Tab `Sicherheit`{.action}.
 1. Klicken Sie unter „Zwei-Faktor-Authentifizierung“ auf `Aktiviert`{.action}.
@@ -66,8 +65,7 @@ Die Zwei-Faktor-Authentifizierung Ihres Exchange Accounts kann auf drei Arten de
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Vom Tab `E-Mail-Accounts`{.action} aus, klicken Sie auf `...`{.action} rechts des Accounts, auf dem die Zwei-Faktor-Authentifizierung bereits aktiv ist.
 

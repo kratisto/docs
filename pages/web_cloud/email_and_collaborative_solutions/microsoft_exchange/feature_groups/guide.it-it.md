@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Utilizzo dei gruppi (mailing list)'
 excerpt: 'Come gestire la mailing list di Exchange'
-updated: 2024-11-12
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -20,9 +20,8 @@ I gruppi Exchange consentono agli utenti di comunicare inviando email a un unico
 ### Step 1: crea un nuovo gruppo
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 1. Clicca sulla scheda `Gruppi`{.action} nel menu orizzontale.
 

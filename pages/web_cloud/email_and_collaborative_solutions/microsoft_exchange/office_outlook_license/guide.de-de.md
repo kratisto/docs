@@ -1,7 +1,7 @@
 ---
 title: Eine Outlook-Lizenz für Exchange beziehen
 excerpt: Erfahren Sie hier, wie Sie eine Outlook-Lizenz für Ihr OVHcloud Exchange bestellen und aktivieren
-updated: 2022-10-05
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -26,8 +26,7 @@ Nach Ihrer Bestellung können Sie Outlook als eine der 3 folgenden Versionen her
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Klicken Sie auf den Button `...`{.action} rechts neben dem betreffenden Account und dann auf `Outlook-Lizenz bestellen`{.action}.
 
@@ -45,8 +44,7 @@ Es dauert einige Minuten, bis Ihre Outlook-Lizenz in Ihrem Kundencenter verfügb
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Klicken Sie auf den Button `...`{.action} rechts neben dem betreffenden Account und dann auf `Outlook-Lizenz aktivieren`{.action}.
 
@@ -83,8 +81,7 @@ Die heruntergeladene Datei ist im Format .ISO, also ein Disk Image. Starten Sie 
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 1. Klicken Sie auf den Button `...`{.action} rechts neben dem betreffenden Account und dann auf `Outlook-Lizenz löschen`{.action}
 

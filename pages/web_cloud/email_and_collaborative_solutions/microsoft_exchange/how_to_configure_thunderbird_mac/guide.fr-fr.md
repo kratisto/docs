@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configurer son compte e-mail sur Thunderbird pour macOS'
 excerpt: 'Découvrez comment configurer votre adresse e-mail Exchange sur Thunderbird pour Mac OS'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -13,24 +13,28 @@ Les comptes Exchange peuvent être configurés sur différents logiciels de mess
 > [!warning]
 >
 > OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
-> 
+>
 > Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [partenaire spécialisé](https://marketplace.ovhcloud.com/c/support-collaboration) et/ou de contacter l'éditeur du service si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section « Aller plus loin » de ce guide.
-> 
+>
 
 ## Prérequis
 
 - Disposer d’une adresse e-mail [Exchange](/links/web/emails-hosted-exchange).
 - Disposer du logiciel Thunderbird installé sur votre Mac.
 - Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
- 
+
 ## En pratique
 
 > [!warning]
 >
 > Dans notre exemple, nous utilisons la mention serveur : ex?.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service Exchange.
-> 
-> Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `Exchange`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
-> 
+>
+> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
+> 1. Sélectionnez la plateforme concernée.
+> 1. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
+>
 
 ### Ajouter le compte
 

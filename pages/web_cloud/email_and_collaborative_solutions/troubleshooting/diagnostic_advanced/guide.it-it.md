@@ -1,7 +1,7 @@
 ---
 title: Invio o ricezione delle email impossibile
 excerpt: Come reagire in caso di malfunzionamenti durante l'invio o la ricezione delle email in OVHcloud
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -35,7 +35,7 @@ Come verificare che i tuoi servizi siano operativi:
 
 - Per il tuo **dominio**, accedi alla sezione `Web Cloud`{.action}, clicca su `Domini`{.action} e seleziona il tuo dominio. Se il tuo dominio è scaduto, ti verrà indicato in alto.
 - Per il tuo **hosting Web**, vai alla sezione `Web Cloud`{.action}, clicca su `Hosting`{.action} e seleziona il tuo hosting. La data di scadenza o di rinnovo automatico del tuo hosting verrà indicata in alto.
-- Per un'offerta **MX Plan**, vai alla sezione `Web Cloud`{.action}, clicca su `Email`{.action} e seleziona il dominio interessato. Clicca sulla scheda `Account email`{.action}. Verifica lo stato dell'account email nella colonna `Stato`.
+- Per un'offerta **MX Plan**, vai alla sezione `Web Cloud`{.action}, clicca su `MX Plan`{.action} e seleziona il dominio interessato. Clicca sulla scheda `Account email`{.action}. Verifica lo stato dell'account email nella colonna `Stato`.
 - Per un'offerta **Email Pro**, seleziona la sezione `Web Cloud`{.action}, clicca su `Email Pro`{.action} e seleziona la tua piattaforma. Clicca sulla scheda `Account email`{.action}. Verifica lo stato dell'account email nella colonna `Stato`.
 - Per un'offerta **Exchange**, accedi alla sezione `Web Cloud`{.action}, clicca su `Microsoft`{.action}, clicca su `Exchange`{.action} e seleziona la tua piattaforma. Clicca sulla scheda `Account email`{.action}. Verifica lo stato dell'account email nella colonna `Stato`.
 

@@ -1,7 +1,7 @@
 ---
 title: Criar e utilizar uma conta partilhada
 excerpt: Adicionar e utilizar uma conta partilhada na sua oferta E-mail Exchange
-updated: 2023-09-15
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -21,9 +21,8 @@ Uma **conta partilhada** é uma caixa de e-mail partilhada entre várias contas 
 ### Adicionar uma conta partilhada
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-1. Clique no separador `Web Cloud`{.action}.
-1. Clique na rubrica `Microsoft`{.action}.
-1. Clique em `Exchange`{.action}.
+1. Aceda à secção `Web Cloud`{.action}.
+1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
 1. Selecione a plataforma em causa.
 
 Selecione o separador `Contas partilhadas`{.action} no menu horizontal e clique em `Adicionar uma conta partilhada`{.action}.

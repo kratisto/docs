@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Skonfiguruj swoje konto e-mail w programie Thunderbird dla systemu Windows'
 excerpt: 'Tutaj znajdziesz procedurę dodawania konta Exchange w programie Thunderbird'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 
@@ -28,10 +28,14 @@ Konta Exchange mogą być skonfigurowane w jednym z kompatybilnych programów po
 
 > [!warning]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
-> 
-> Zapoznaj się z tą cyfrą w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w sekcji `Microsoft`{.action}/`Exchange`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
-> 
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "?" cyfrą wskazującą serwer Twojej usługi Exchange.
+>
+> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+> 1. Przejdź do sekcji `Web Cloud`{.action}.
+> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+> 1. Wybierz odpowiednią platformę.
+> 1. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+>
 
 ### Dodaj konto
 

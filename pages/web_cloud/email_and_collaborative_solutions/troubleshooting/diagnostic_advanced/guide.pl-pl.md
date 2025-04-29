@@ -1,7 +1,7 @@
 ---
 title: 'Wysyłanie lub otrzymywanie e-maili niemożliwe'
 excerpt: "Dowiedz się, jak należy zareagować w przypadku problemów z wysyłaniem lub odbieraniem wiadomości e-mail do OVHcloud"
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -35,8 +35,8 @@ Sprawdź, czy Twoje usługi działają poprawnie:
 
 - W przypadku **domeny** przejdź do sekcji `Web Cloud`{.action}, kliknij `Domeny`{.action} i wybierz Twoją domenę. Jeśli Twoja domena wygasła, zostanie to wyświetlone na górze strony.
 - W przypadku **hostingu WWW** przejdź do sekcji `Web Cloud`{.action}, kliknij `Hosting`{.action}, a następnie wybierz Twój hosting. Data wygaśnięcia lub automatycznego odnowienia hostingu zostanie pokazana na górze strony.
-- W przypadku oferty **MXplan** przejdź do sekcji `Web Cloud`{.action}, kliknij `E-maile`{.action}, a następnie wybierz odpowiednią nazwę domeny. Kliknij kartę `Konta e-mail`{.action}. Sprawdź status odpowiedniego konta e-mail w kolumnie `Status`.
-- W przypadku oferty **E-mail Pro** przejdź do sekcji `Web Cloud`{.action} i kliknij `E-maile Pro`{.action}, a następnie wybierz Twoją platformę. Kliknij kartę `Konta e-mail`{.action}. Sprawdź status odpowiedniego konta e-mail w kolumnie `Status`.
+- W przypadku oferty **MXplan** przejdź do sekcji `Web Cloud`{.action}, kliknij `MX Plan`{.action}, a następnie wybierz odpowiednią nazwę domeny. Kliknij kartę `Konta e-mail`{.action}. Sprawdź status odpowiedniego konta e-mail w kolumnie `Status`.
+- W przypadku oferty **E-mail Pro** przejdź do sekcji `Web Cloud`{.action} i kliknij `Email Pro`{.action}, a następnie wybierz Twoją platformę. Kliknij kartę `Konta e-mail`{.action}. Sprawdź status odpowiedniego konta e-mail w kolumnie `Status`.
 - W przypadku oferty **Exchange** przejdź do sekcji `Web Cloud`{.action}, kliknij `Microsoft`{.action}, następnie kliknij `Exchange`{.action} i wybierz Twoją platformę. Kliknij kartę `Konta e-mail`{.action}. Sprawdź status odpowiedniego konta e-mail w kolumnie `Status`.
 
 ### Nie mogę wysyłać e-maili z programu pocztowego (**wysyłka** i/lub **odbiór**)
@@ -69,7 +69,7 @@ W jaki sposób zmienić hasło do konta e-mail:
 
 - W przypadku oferty **MXplan** zapoznaj się z naszym przewodnikiem [Zmiana hasła do konta e-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)
 
-- W przypadku oferty **E-mail Pro** przejdź do sekcji `Web Cloud`{.action} i kliknij `E-maile Pro`{.action}, a następnie wybierz Twoją platformę. W zakładce `Konta e-mail`{.action} kliknij przycisk `...`{.action} a następnie `Zmień`{.action}, aby zmienić hasło.
+- W przypadku oferty **E-mail Pro** przejdź do sekcji `Web Cloud`{.action} i kliknij `Email Pro`{.action}, a następnie wybierz Twoją platformę. W zakładce `Konta e-mail`{.action} kliknij przycisk `...`{.action} a następnie `Zmień`{.action}, aby zmienić hasło.
 
 - W przypadku oferty **Exchange** przejdź do sekcji `Web Cloud`{.action}, kliknij `Microsoft`{.action}, następnie kliknij `Exchange`{.action} i wybierz Twoją platformę. W zakładce `Konta e-mail`{.action} kliknij przycisk `...`{.action} a następnie `Zmień`{.action}, aby zmienić hasło. <br> Sprawdź, czy weryfikacja dwuetapowa jest włączona, sprawdzając nasz przewodnik [Konfiguracja weryfikacji dwuetapowej na koncie Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_2fa_exchange).
 

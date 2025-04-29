@@ -1,7 +1,7 @@
 ---
 title: 'Delegare i diritti su un account email'
 excerpt: 'Come assegnare i diritti del tuo email a un altro account'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -44,9 +44,8 @@ Una volta individuato l’account per cui vuoi delegare i diritti, definito i pe
 > **Exchange**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Microsoft`{.action}.
->> 1. Clicca su `Exchange`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >>
 > **Email Pro**

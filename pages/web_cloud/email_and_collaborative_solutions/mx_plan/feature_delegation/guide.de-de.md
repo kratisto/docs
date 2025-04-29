@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Die Verwaltung Ihrer E-Mail-Accounts einer anderen Person übertragen'
 excerpt: Erfahren Sie hier, wie Sie die Verwaltung der E-Mail-Accounts Ihres MX Plan Angebots delegieren
-updated: 2021-10-08
+updated: 2025-04-28
 ---
 
 ## Ziel <a name="objective"></a>
@@ -38,7 +38,7 @@ Die Delegation gibt dem Benutzer eines E-Mail-Accounts die Möglichkeit, verschi
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails`{.action}.
+1. Klicken Sie auf `MX Plan`{.action}.
 1. Wählen Sie die betreffende Domain aus.
 1. Gehen Sie auf den Tab `E-Mails`{.action}, um die Liste der E-Mail-Accounts Ihres MX Plan Angebots anzuzeigen.
 

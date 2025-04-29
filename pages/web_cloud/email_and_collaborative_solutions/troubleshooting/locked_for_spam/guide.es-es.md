@@ -1,7 +1,7 @@
 ---
 title: '¿Qué hacer con una cuenta bloqueada debido a correo no deseado?'
 excerpt: 'Cómo proceder cuando su dirección ha sido bloqueada debido a correo no deseado'
-updated: 2024-05-23
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -53,9 +53,8 @@ Seleccione el servicio de correo en las siguientes pestañas:
 > **Exchange**
 >>
 >> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
->> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en el tema `Microsoft`{.action}.
->> 1. Haga clic en `Exchange`{.action}.
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >>
 >> Acceda a la pestaña `Cuentas de correo`{.action} de su plataforma. Si la columna «Estado» de la dirección de correo electrónico correspondiente indica «bloqueado», haga clic en `...`{.action} a la derecha de la cuenta y, seguidamente, en `Desbloquear`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
@@ -79,7 +78,7 @@ Seleccione el servicio de correo en las siguientes pestañas:
 >>
 >> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 >> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Haga clic en `MX Plan`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >>
 >> Acceda a la pestaña `Cuentas de correo`{.action} de su plataforma. Si la columna «Estado» —a la derecha de la dirección de correo electrónico correspondiente— indica «Correo no deseado», haga clic en esa opción y, seguidamente, en `Responder al tiquet`{.action}. El desbloqueo de la dirección de correo electrónico no se realiza automáticamente. Es necesario contactar con el soporte en el tíquet de asistencia respondiendo a las 3 preguntas formuladas.
@@ -93,7 +92,7 @@ Seleccione el servicio de correo en las siguientes pestañas:
 >>
 >> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
 >> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Haga clic en `MX Plan`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >>
 >> Acceda a la pestaña `Emails`{.action} de su plataforma. Si la columna "Bloqueado por spam" indica "Sí", haga clic en esta opción y, seguidamente, en `Cambiar la contraseña`{.action}. Su dirección de correo electrónico se ha desbloqueado. No necesita seguir el [paso 3](#step3).

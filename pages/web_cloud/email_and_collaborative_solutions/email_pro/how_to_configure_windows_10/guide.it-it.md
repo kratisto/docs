@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configura il tuo account di posta elettronica su Posta per Windows'
 excerpt: 'Scopri come configurare un account Email Pro sull’applicazione Posta per Windows'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -31,8 +31,12 @@ Gli account Email Pro possono essere configurati su diversi client di posta elet
 >
 > Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
-> Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
-> 
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Clicca su `Email Pro`{.action}.
+> 1. Seleziona la piattaforma interessata.
+> 1. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
+>
 
 Una volta avviata l’applicazione Posta sul tuo dispositivo, puoi aggiungere un nuovo account in due modi diversi.
 

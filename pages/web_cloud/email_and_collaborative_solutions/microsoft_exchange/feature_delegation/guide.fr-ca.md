@@ -1,7 +1,7 @@
 ---
 title: 'Déléguer des droits sur un compte Exchange'
 excerpt: 'Découvrez comment déléguer des droits de votre compte Exchange à un autre'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -37,9 +37,8 @@ Lorsque vous avez identifié le compte concerné par la délégation, détermin�
 ### Étape 1 : mettre en place la délégation
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur la rubrique `Microsoft`{.action}.
-1. Cliquez sur `Exchange`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 
 Le tableau qui apparaît affiche les comptes liés à votre service Exchange. Cliquez sur les trois points à droite du compte pour lequel vous souhaitez créer une délégation, puis sur `Gérer les délégations`{.action}.

@@ -59,7 +59,7 @@ Der freigegebene Kalender ist dann in der Benutzeroberfläche „Kalender“ in 
 
 > [!primary]
 >
-Es ist im Allgemeinen möglich, Kalender für externe Benutzer freizugeben. Je nach verwendetem E-Mail-Client oder Webdienst können jedoch Kompatibilitätsprobleme auftreten. Weitere Informationen zu diesem Thema finden Sie in der offiziellen [Microsoft Dokumentation](http://go.microsoft.com/fwlink/?LinkId=57561).
+> Es ist im Allgemeinen möglich, Kalender für externe Benutzer freizugeben. Je nach verwendetem E-Mail-Client oder Webdienst können jedoch Kompatibilitätsprobleme auftreten. Weitere Informationen zu diesem Thema finden Sie in der offiziellen [Microsoft Dokumentation](http://go.microsoft.com/fwlink/?LinkId=57561).
 >
 
 ### Kalenderberechtigungen ändern

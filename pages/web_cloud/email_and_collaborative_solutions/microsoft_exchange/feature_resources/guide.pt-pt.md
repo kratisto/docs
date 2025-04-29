@@ -1,7 +1,7 @@
 ---
 title: 'Utilização das contas de recurso'
 excerpt: Insert Here A Short Desc
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -18,7 +18,11 @@ Esta função colaborativa do Exchange permite criar endereços de e-mail dedica
 
 ## Instruções
 
-Ligue-se à sua Área de [Cliente OVHcloud](/links/manager) e selecione `Web Cloud`{.action} na barra de navegação superior. Clique em `Microsoft`{.action} e, a seguir, em `Exchange`{.action}. De seguida, selecione o serviço Exchange em causa. Clique no separador `Plus +`{.action} e, a seguir, em `Recursos`{.action}.
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Aceda à secção `Web Cloud`{.action}.
+1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
+1. Selecione a plataforma em causa.
+1. Clique no separador `Mais +`{.action} e, a seguir, em `Recursos`{.action}.
 
 ### 1 - criar um recurso
 

@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - How to create contact groups'
 excerpt: 'Find out how to manage mailing lists in Exchange'
-updated: 2024-11-12
+updated: 2025-04-28
 ---
 
 <style>
@@ -30,8 +30,7 @@ Exchange groups enable multiple participants to communicate by sending emails to
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Microsoft`{.action}.
-1. Click `Exchange`{.action}.
+1. In the `MICROSOFT` section, click `Exchange`{.action}.
 1. Select the service concerned.
 1. Click on the `Groups`{.action} tab in the horizontal menu.
 

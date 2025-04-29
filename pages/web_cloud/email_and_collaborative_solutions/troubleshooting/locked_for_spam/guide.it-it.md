@@ -1,7 +1,7 @@
 ---
 title: 'Che fare in caso di account bloccato per invio di Spam ?'
 excerpt: 'Cosa fare se il tuo indirizzo email è bloccato per invio di Spam'
-updated: 2024-05-23
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -53,9 +53,8 @@ Seleziona il servizio di posta nelle schede seguenti:
 > **Exchange**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Microsoft`{.action}.
->> 1. Clicca su `Exchange`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >>
 >> Clicca sulla scheda `Account email`{.action} della tua piattaforma. Se la colonna “stato” dell’indirizzo email interessato indica “bloccato”, clicca sui tre puntini `...`{.action} a destra in corrispondenza dell’account e poi su `Sblocca`{.action}. Lo sblocco dell'indirizzo email non avviene automaticamente. Per rispondere alle 3 domande poste, contatta il supporto sul ticket di assistenza.<br>
@@ -79,7 +78,7 @@ Seleziona il servizio di posta nelle schede seguenti:
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
 >> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Email`{.action}.
+>> 1. Clicca su `MX Plan`{.action}.
 >> 1. Seleziona il dominio.
 >>
 >> Accedi alla scheda `Account email`{.action} della tua piattaforma. Se la colonna "stato" a destra dell'indirizzo email interessato indica "Spam", clicca su questa voce e poi su `Rispondi al ticket`{.action}. Lo sblocco dell'indirizzo email non avviene automaticamente. Per rispondere alle 3 domande poste, contatta il supporto sul ticket di assistenza.<br>
@@ -93,7 +92,7 @@ Seleziona il servizio di posta nelle schede seguenti:
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
 >> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Email`{.action}.
+>> 1. Clicca su `MX Plan`{.action}.
 >> 1. Seleziona il dominio.
 >>
 >> Accedi alla scheda `Email`{.action} della tua piattaforma. Se la colonna "Bloccato per SPAM" indica "Sì", clicca su questa voce e poi su `Modifica la password`{.action}. Il tuo indirizzo email è sbloccato, non è necessario seguire lo [step 3](#step3).

@@ -1,7 +1,7 @@
 ---
 title: Ajouter et gérer un nom de domaine sur une plateforme e-mail
 excerpt: Découvrez comment ajouter un nom de domaine à votre plateforme Exchange ou E-mail Pro
-updated: 2025-04-01
+updated: 2025-04-28
 ---
 
 <style>
@@ -34,16 +34,15 @@ Ajouter un nom de domaine sur un service Exchange ou E-mail Pro est indispensabl
 > **Exchange**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur la rubrique `Microsoft`{.action}.
->> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 > **Email Pro**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 >> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
->> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Cliquez sur `Email Pro`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 

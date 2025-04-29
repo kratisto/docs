@@ -1,7 +1,7 @@
 ---
 title: "Managing the storage space for an email account"
 excerpt: "Find out how to manage and optimise an email address storage space"
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -30,9 +30,12 @@ You can do this via the OVHcloud Control Panel if you are managing the email ser
 
 #### From the Control Panel <a name="quotacontrolpanel"></a>
 
-In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} section, then follow the instructions for your solution:
-
-Click `Emails`{.action}, then choose the name of the MX Plan service concerned. Go to the `Email`{.action} accounts tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email address’s current storage consumption.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `MX Plan`{.action}.
+1. Select the domain concerned.
+1. Go to the `Email`{.action} accounts tab. The window that appears will display the existing email accounts.
+1. In the `Size` column, you can see your email address’s current storage consumption.
 
 ![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}
 

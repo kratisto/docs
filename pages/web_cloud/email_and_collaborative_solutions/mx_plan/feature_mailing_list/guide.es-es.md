@@ -1,7 +1,7 @@
 ---
 title: 'Gestionar y utilizar las listas de difusión'
 excerpt: 'Cómo utilizar las listas de difusión'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -48,8 +48,8 @@ El remitente (<i>sender</i>) transmite el correo electrónico a la lista de difu
 Para crear una lista de difusión:
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Direcciones de correo`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. Haga clic en `MX Plan`{.action}.
 1. Seleccione el dominio.
 1. Acceda a la pestaña `Listas de difusión`{.action} de su servicio de correo electrónico.
 

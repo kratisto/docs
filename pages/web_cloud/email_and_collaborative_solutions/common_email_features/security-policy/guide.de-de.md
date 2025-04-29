@@ -1,7 +1,7 @@
 ---
 title: 'Sicherheitseinstellungen eines E-Mail-Dienstes verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Sicherheitseinstellungen Ihres E-Mail-Dienstes verwalten'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -26,14 +26,14 @@ Mit den E-Mail-Diensten von OVHcloud können Sie professionelle E-Mail-Adressen 
 
 Um auf die Sicherheitseinstellungen Ihres E-Mail-Accounts zuzugreifen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und begeben Sie sich in den Bereich `Web Cloud`{.action}. 
 
-|E-Mails und E-Mail Pro|Exchange| 
-|---|---| 
-|Klicken Sie auf `E-Mails`{.action} bzw. `E-Mail Pro`{.action} und wählen Sie die betreffende Lösung aus. Klicken Sie auf den Tab `Mehr`, dann auf `Verwaltung der Sicherheitseinstellungen`{.action}.|Klicken Sie auf `Microsoft`{.action}, dann auf `Exchange`{.action} und wählen Sie die betreffende Lösung aus. Klicken Sie auf `Sicherheit`{.action}.|
+|E-Mails und E-Mail Pro|Exchange|
+|---|---|
+|Klicken Sie auf `MX Plan`{.action} bzw. `E-Mail Pro`{.action} und wählen Sie die betreffende Lösung aus. Klicken Sie auf den Tab `Mehr`, dann auf `Verwaltung der Sicherheitseinstellungen`{.action}.|Klicken Sie auf `Microsoft`{.action}, dann auf `Exchange`{.action} und wählen Sie die betreffende Lösung aus. Klicken Sie auf `Sicherheit`{.action}.|
 |![Exchange Sicherheit](images/manage-security01.png){.thumbnail}|![Exchange Sicherheit](images/manage-security02.png){.thumbnail}|
 
 > [!primary]
 >
-> Wenn der Tab `Mehr`{.action} nicht im Verwaltungsbereich von `E-Mails`{.action} zu sehen ist, bedeutet das, dass Sie einen MX Plan "Legacy" verwenden. Bei diesen MX Plan Diensten gibt es keine spezielle Sicherheitsverwaltung.
+> Wenn der Tab `Mehr`{.action} nicht im Verwaltungsbereich von `MX Plan`{.action} zu sehen ist, bedeutet das, dass Sie einen MX Plan "Legacy" verwenden. Bei diesen MX Plan Diensten gibt es keine spezielle Sicherheitsverwaltung.
 
 Befolgen Sie nun die Anleitung entsprechend den von Ihnen gewünschten Aktionen.
 

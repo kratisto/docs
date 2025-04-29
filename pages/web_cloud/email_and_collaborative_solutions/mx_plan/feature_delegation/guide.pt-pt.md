@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Delegue a gestão das suas contas de e-mail a outra pessoa'
 excerpt: 'Saiba como delegar a gestão das contas de e-mail da sua oferta MX Plan'
-updated: 2021-10-08
+updated: 2025-04-28
 ---
 
 ## Objetivo <a name="objective"></a>
@@ -37,8 +37,8 @@ A delegação dá ao utilizador de uma conta de e-mail a possibilidade de gerir 
 >
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-1. Clique no separador `Web Cloud`{.action}.
-1. Clique em `E-mails`{.action}.
+1. Aceda à secção `Web Cloud`{.action}.
+1. Clique em `MX Plan`{.action}.
 1. Selecione o domínio em questão.
 1. Para apresentar a lista das contas de e-mail da sua oferta MX Plan, clique no separador `Emails`{.action}.
 

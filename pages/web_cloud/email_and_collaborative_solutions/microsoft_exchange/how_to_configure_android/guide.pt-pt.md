@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Configurar um endereço de e-mail no Gmail para Android"
 excerpt: "Aprenda a configurar uma conta Exchange no Android através da aplicação Gmail"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 <style>
@@ -39,12 +39,16 @@ Os endereços de e-mail da oferta Exchange podem ser configurados em diferentes 
 
 ### Como adicionar a sua conta de e-mail
 
-> [!primary]
+> [!warning]
 >
-> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
+> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "?" pelo número que designa o servidor do seu serviço Exchange.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `Microsoft`{.action}.
-> Clique em `Exchange`{.action} e, a seguir, na plataforma Exchange pretendida. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+> 1. Aceda à secção `Web Cloud`{.action}.
+> 1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
+> 1. Selecione a plataforma em causa.
+> 1. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+>
 
 No ecrã principal do dispositivo, aceda à aplicação `Gmail`{.action}.
 

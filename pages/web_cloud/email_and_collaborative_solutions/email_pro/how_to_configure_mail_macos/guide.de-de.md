@@ -1,6 +1,6 @@
 ---
 title: "E-Mail Pro - Konfiguration Ihrer E-Mail-Adresse in Mail für macOS"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Ziel

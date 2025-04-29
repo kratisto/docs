@@ -1,7 +1,7 @@
 ---
 title: 'Korzystanie z kont zasobów'
 excerpt: 'Przewodnik opisuje, w jaki sposób korzystać z kont zasobów.'
-updated: 2020-06-05
+updated: 2025-04-28
 ---
  
 
@@ -19,7 +19,11 @@ Funkcja Exchange pozwala na tworzenie kont e-mail dedykowanych do zasobów Twoje
 
 ## W praktyce
 
-Zaloguj się do swojego [panelu klienta OVHcloud](/links/manager) i na górnym pasku nawigacji wybierz `Web Cloud`{.action}. Kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. Następnie wybierz odpowiednią usługę Exchange. Kliknij kartę `Plus +`{.action}, a następnie `Zasoby`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+1. Wybierz odpowiednią platformę.
+1. Kliknij kartę `Więcej +`{.action}, a następnie `Zasoby`{.action}.
 
 ### Etap 1: tworzenie zasobów
 

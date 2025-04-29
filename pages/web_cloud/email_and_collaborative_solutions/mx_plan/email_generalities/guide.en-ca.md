@@ -1,7 +1,7 @@
 ---
 title: 'Getting started with an OVHcloud email solution'
 excerpt: 'Find out how to get started with an OVHcloud email solution'
-updated: 2023-11-15
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -21,7 +21,7 @@ Once the MX Plan solution is created and available, you can manage it from the [
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Emails`{.action}.
+1. Click `MX Plan`{.action}.
 1. Select the domain concerned.
 1. Then you can proceed in accordance with the version you are using.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Utilizar os alias e reencaminhamentos de e-mail'
 excerpt: 'Saiba como gerir os seus alias e reencaminhamentos de e-mail'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -82,7 +82,12 @@ Clique nos separadores seguintes para obter explicações ilustradas sobre o fun
 > Consoante a data de ativação da sua oferta MX Plan ou se esta foi migrada recentemente, é possível que disponha da versão histórica ou da nova versão da oferta. Antes de prosseguir, deve identificar esta última.<br> 
 >
 >
-> Para isso, aceda à [Área de Cliente OVHcloud](/links/manager), na parte `Web Cloud`{.action}. Clique em `Emails`{.action} e escolha o nome do serviço MX Plan em causa. Continue a ler em função da versão que possui:<br>
+> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+> 1. Aceda à secção `Web Cloud`{.action}.
+> 1. Clique em `MX Plan`{.action}.
+> 1. Selecione o domínio em questão.
+>
+> Continue a ler em função da versão que possui:<br>
 >
 > |Versão antiga da oferta MX Plan|Nova versão da oferta MX Plan|
 > |---|---|
@@ -165,9 +170,9 @@ Aceda à [Área de Cliente OVHcloud](/links/manager) e dirija-se à secção `We
 
 - **Exchange**: na `Microsoft`{.action}, depois em `Exchange`{.action} e selecione a plataforma em causa. Clique no separador `Contas de e-mail`{.action}.
 
-- **E-mail Pro**: No `E-mails Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
+- **E-mail Pro**: No `Email Pro`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 
-- **E-mails** (MXplan): em `E-mails`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
+- **MX Plan** : em `MX Plan`{.action}, selecione a plataforma em causa e clique no separador `Contas de e-mail`{.action}.
 
 Para adicionar um alias à sua conta de e-mail, siga os passos descritos clicando sucessivamente em cada separador abaixo:
 
@@ -202,7 +207,10 @@ Clique no botão `...`{.action} à direita do alias em causa, no menu de gestão
 
 ### Criar um reencaminhamento ou um alias numa oferta MX Plan histórica ou num nome de domínio sem oferta de e-mail <a name="mxplanlegacy"></a>
 
-Aceda à Área de [Cliente OVHcloud](/links/manager) e dirija-se à secção `Web Cloud`. Dirija-se à secção `Emails`{.action}:
+1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+1. Aceda à secção `Web Cloud`{.action}.
+1. Clique em `MX Plan`{.action}.
+1. Selecione o domínio em questão.
 
 > [!warning]
 >

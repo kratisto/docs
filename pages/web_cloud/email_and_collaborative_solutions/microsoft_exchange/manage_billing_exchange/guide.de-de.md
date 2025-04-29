@@ -1,7 +1,7 @@
 ---
 title: 'Die Abrechnung für Ihre Exchange Accounts verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Abrechnung für OVHcloud Exchange im Kundencenter verwalten'
-updated: 2024-08-27
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -19,8 +19,7 @@ Die Dienste Hosted Exchange und Private Exchange bieten hinsichtlich der Abrechn
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 
 ### Hosted Exchange

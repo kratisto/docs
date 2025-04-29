@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Skonfiguruj swoje konto e-mail w programie Mail dla systemu iPhone i iPad"
 excerpt: 'Dowiedz się, jak skonfigurować konto Exchange na urządzeniu iPhone lub iPad przy użyciu aplikacji Mail'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
  
 
@@ -28,12 +28,15 @@ Konta Exchange mogą być skonfigurowane w jednym z kompatybilnych programów po
 
 ### Dodaj konto <a name="addaccount"></a>
 
-> [!primary]
+> [!warning]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "?" cyfrą wskazującą serwer Twojej usługi Exchange.
 >
-> Liczbę tę odnajdziesz w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w wersji `Microsoft`{.action}.
-> Kliknij `Exchange`{.action}, a następnie wybraną platformę Exchange. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+> 1. Przejdź do sekcji `Web Cloud`{.action}.
+> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+> 1. Wybierz odpowiednią platformę.
+> 1. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
 >
 
 Na ekranie Twojego urządzenia wybierz `Ustawienia`{.action} (ikona koła zębatego). Konto można dodawać na różne sposoby, w zależności od wersji iOS:

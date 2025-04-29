@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configure sua conta de e-mail no Thunderbird para macOS'
 excerpt: 'Encontre aqui o procedimento para adicionar uma conta Exchange para Thunderbird'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -27,10 +27,14 @@ As contas Exchange podem ser configuradas em vários softwares de e-mail compat�
 
 > [!warning]
 >
-> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço Exchange.
-> 
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e depois `Microsoft`{.action}/`Exchange`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
-> 
+> No nosso exemplo, utilizamos a menção servidor: ex?.mail.ovh.net. Deverá substituir o "?" pelo número que designa o servidor do seu serviço Exchange.
+>
+> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+> 1. Aceda à secção `Web Cloud`{.action}.
+> 1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
+> 1. Selecione a plataforma em causa.
+> 1. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+>
 
 ### Adicionar a conta
 

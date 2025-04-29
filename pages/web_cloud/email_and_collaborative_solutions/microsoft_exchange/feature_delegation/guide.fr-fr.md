@@ -1,7 +1,7 @@
 ---
 title: 'Déléguer des droits sur un compte e-mail'
 excerpt: 'Découvrez comment déléguer des droits de votre compte e-mail à un autre'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -44,16 +44,15 @@ Lorsque vous avez identifié le compte concerné par la délégation, détermin�
 > **Exchange**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur la rubrique `Microsoft`{.action}.
->> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 > **Email Pro**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 >> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
->> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Cliquez sur `Email Pro`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 

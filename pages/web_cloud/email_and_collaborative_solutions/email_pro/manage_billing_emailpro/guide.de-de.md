@@ -1,7 +1,7 @@
 ---
 title: 'Die Abrechnung Ihrer E-Mail Pro Accounts verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Abrechnung Ihrer E-Mail Pro Dienstleistung verwalten'
-updated: 2022-02-23
+updated: 2025-04-28
 ---
 
 ## Ziel

@@ -1,7 +1,7 @@
 ---
 title: 'Delegowanie uprawnień do konta e-mail'
 excerpt: 'Dowiedz się, jak zezwolić innym osobom na zarządzanie skrzynką e-mail'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -45,16 +45,15 @@ Po określeniu konta, dla którego będziesz nadawał uprawnienia, wybraniu praw
 > **Exchange**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij rubrykę `Microsoft`{.action}.
->> 1. Kliknij na `Exchange`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >>
 > **Email Pro**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 >> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >>
 

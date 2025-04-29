@@ -1,7 +1,7 @@
 ---
 title: "Gérer l'espace de stockage d'un compte e-mail"
 excerpt: "Découvrez comment gérer et optimiser l'espace de stockage d'une adresse e-mail "
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -37,7 +37,7 @@ Depuis votre [espace client OVHcloud](/links/manager), dirigez-vous dans la part
 > [!tabs]
 > **Emails (MXplan)**
 >>
->> Cliquez sur `Emails`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. Vous pouvez observer, dans la colonne `Taille`, la consommation en cours du stockage de votre adresse e-mail.<br><br>
+>> Cliquez sur `MX Plan`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. Vous pouvez observer, dans la colonne `Taille`, la consommation en cours du stockage de votre adresse e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Exchange**

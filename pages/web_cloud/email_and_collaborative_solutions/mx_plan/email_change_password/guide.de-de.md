@@ -1,7 +1,7 @@
 ---
 title: "Passwort eines E-Mail-Accounts ändern"
 excerpt: "Erfahren Sie hier, wie Sie das Passwort eines OVHcloud E-Mail-Accounts ändern"
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -40,14 +40,14 @@ Gehen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) in den Bereich `Web C
 > **MX Plan E-Mail (Legacy)**
 >>
 >> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).<br>
->> Klicken Sie auf `E-Mails`{.action} und wählen Sie den Namen des betreffenden Dienstes aus. Gehen Sie zum Tab `E-Mails`{.action}. In diesem Fenster werden die bestehenden E-Mail-Accounts angezeigt. <br>
+>> Klicken Sie auf `MX Plan`{.action} und wählen Sie den Namen des betreffenden Dienstes aus. Gehen Sie zum Tab `E-Mails`{.action}. In diesem Fenster werden die bestehenden E-Mail-Accounts angezeigt. <br>
 >> Klicken Sie auf den Button `...`{.action} und dann auf `Passwort ändern`{.action}.<br><br>
 >>![E-Mail](images/email-password-mxplan-legacy01.png){.thumbnail}<br>
 >>
 > **MX Plan E-Mail (neue Version)**
 >>
 >> Wenn Sie den Typ Ihres MX Plan Angebots nicht kennen, lesen Sie den Abschnitt zur [Identifikation Ihres MX Plans](#whichmxplan).<br>
->> Klicken Sie auf `E-Mails`{.action} und wählen Sie den Namen des betreffenden Dienstes aus. Gehen Sie zum Tab `E-Mails`{.action}. In diesem Fenster werden die bestehenden E-Mail-Accounts angezeigt. <br>
+>> Klicken Sie auf `MX Plan`{.action} und wählen Sie den Namen des betreffenden Dienstes aus. Gehen Sie zum Tab `E-Mails`{.action}. In diesem Fenster werden die bestehenden E-Mail-Accounts angezeigt. <br>
 >> Klicken Sie auf den Button `...`{.action} und dann auf `Ändern`{.action}.<br><br>
 >>![E-Mail](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>

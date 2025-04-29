@@ -1,7 +1,7 @@
 ---
 title: 'Korzystanie z list mailingowych i zarządzanie nimi'
 excerpt: 'Z tego przewodnika dowiesz się, jak korzystać z list mailingowych'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -48,8 +48,8 @@ Nadawca (sender) przesyła wiadomość e-mail do odbiorców z listy mailingowej.
 Aby utworzyć listę mailingową:
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
 1. Wybierz odpowiednią domenę.
 1. Przejdź do karty `Listy mailingowe`{.action} w Twojej usłudze e-mail.
 

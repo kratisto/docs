@@ -1,7 +1,7 @@
 ---
 title: 'Co zrobić, jeśli moje konto zostało zablokowane z powodu rozsyłania spamu?'
 excerpt: 'Dowiedz się, jak należy zareagować, jeśli Twój adres e-mail zostanie zablokowany z powodu spamu'
-updated: 2024-05-23
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -53,9 +53,8 @@ Wybierz ofertę e-mail w następujących zakładkach:
 > **Exchange**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij rubrykę `Microsoft`{.action}.
->> 1. Kliknij na `Exchange`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >>
 >> Przejdź do karty `Konta e-mail`{.action} w Twojej platformie. Jeśli w kolumnie „status” adresu e-mail widnieje „zablokowany”, kliknij `...`{.action} z prawej strony konta i wybierz opcję `Odblokuj`{.action}. Odblokowanie adresu e-mail nie odbywa się automatycznie. Należy skontaktować się z pomocą techniczną, klikając zgłoszenie serwisowe i odpowiadając na 3 pytania.<br>
@@ -67,7 +66,7 @@ Wybierz ofertę e-mail w następujących zakładkach:
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 >> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >> 
 >> Przejdź do karty `Konta e-mail`{.action} w Twojej platformie. Jeśli kolumna „status” po prawej stronie danego adresu e-mail zawiera słowo „Spam”, kliknij je i wybierz opcję `Odpowiedz na zgłoszenie`{.action}. Odblokowanie adresu e-mail nie odbywa się automatycznie. Należy skontaktować się z pomocą techniczną, klikając zgłoszenie serwisowe i odpowiadając na 3 pytania.<br>
@@ -79,7 +78,7 @@ Wybierz ofertę e-mail w następujących zakładkach:
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 >> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile`{.action}.
+>> 1. Kliknij `MX Plan`{.action}.
 >> 1. Wybierz odpowiednią domenę.
 >>
 >> Przejdź do karty `Konta e-mail`{.action} w Twojej platformie. Jeśli kolumna „status” po prawej stronie danego adresu e-mail zawiera słowo „Spam”, kliknij je i wybierz opcję `Odpowiedz na zgłoszenie`{.action}. Odblokowanie adresu e-mail nie odbywa się automatycznie. Należy skontaktować się z pomocą techniczną, klikając zgłoszenie serwisowe i odpowiadając na 3 pytania.<br>
@@ -93,7 +92,7 @@ Wybierz ofertę e-mail w następujących zakładkach:
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 >> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile`{.action}.
+>> 1. Kliknij `MX Plan`{.action}.
 >> 1. Wybierz odpowiednią domenę.
 >>
 >> Przejdź do zakładki `E-maile`{.action} Twojej platformy. Jeśli w kolumnie "Zablokowane ze względu na SPAM" widnieje "Tak", kliknij na to hasło, a następnie kliknij przycisk `Zmień hasło`{.action}. Twoje konto e-mail zostało odblokowane. Nie musisz postępować zgodnie z instrukcjami [etapu 3](#step3).

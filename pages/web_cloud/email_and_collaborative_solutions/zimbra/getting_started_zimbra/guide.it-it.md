@@ -32,7 +32,7 @@ Con l'offerta Zimbra, OVHcloud ti propone una piattaforma di messaggeria collabo
 ### Accedi alla gestione del servizio
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
 1. Clicca su `Zimbra Mail`{.action}.
 
 ![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}

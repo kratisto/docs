@@ -1,7 +1,7 @@
 ---
 title: 'Cambiar la contraseña de una dirección de correo'
 excerpt: 'Cómo cambiar la contraseña de una dirección de correo de OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -40,14 +40,14 @@ Desde el [área de cliente de OVHcloud](/links/manager), acceda al apartado `Web
 > **MXplan (versión histórica)**
 >>
 >> Si no conoce el tipo de producto MX Plan que posee, consulte el apartado [Identifique su producto MX Plan](#whichmxplan).<br>
->> Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Correo electrónico`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. <br>
+>> Haga clic en `MX Plan`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Correo electrónico`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. <br>
 >> Haga clic en el botón `...`{.action} y seleccione `Cambiar la contraseña`{.action}.<br><br>
 >>![email](images/email-password-mxplan-legacy01.png){.thumbnail}<br>
 >>
 > **Emails MX Plan (nueva versión)**
 >>
 >> Si no conoce el tipo de producto MX Plan que posee, consulte el apartado [Identifique su producto MX Plan](#whichmxplan).<br>
->> Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Correo electrónico`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. <br>
+>> Haga clic en `MX Plan`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Correo electrónico`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. <br>
 >> Haga clic en el botón `...`{.action} y seleccione `Editar`{.action}.<br><br>
 >>![email](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>

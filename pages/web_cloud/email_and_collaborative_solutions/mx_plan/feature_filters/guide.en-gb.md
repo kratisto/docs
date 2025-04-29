@@ -1,7 +1,7 @@
 ---
 title: 'Creating filters for your email addresses'
 excerpt: 'Find out how to create and configure filter rules on your email address'
-updated: 2024-03-26
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -34,7 +34,7 @@ MX Plan legacy version|MX Plan new version|
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Emails`{.action}.
+1. Click `MX Plan`{.action}.
 1. Select the domain concerned.
 1. In the table listing your email addresses, click on the `Filter`{.action} icon in the row of the email address concerned.
 

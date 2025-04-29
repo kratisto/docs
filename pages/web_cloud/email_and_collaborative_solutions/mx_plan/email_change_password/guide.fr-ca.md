@@ -1,7 +1,7 @@
 ---
 title: "Modifier le mot de passe d'une adresse e-mail"
 excerpt: "Découvrez comment modifier le mot de passe d'une adresse e-mail OVHcloud"
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -38,7 +38,7 @@ Depuis votre [espace client OVHcloud](/links/manager), dirigez-vous dans la part
 > [!tabs]
 > **Emails MX Plan**
 >>
->> Cliquez sur `Emails`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Emails`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. <br>
+>> Cliquez sur `MX Plan`{.action} puis choisissez le nom du service MX Plan concerné. Positionnez-vous sur l'onglet `Emails`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants. <br>
 >> Cliquez sur le bouton `...`{.action} puis sur `Modifier`{.action}.<br><br>
 >>![email](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>

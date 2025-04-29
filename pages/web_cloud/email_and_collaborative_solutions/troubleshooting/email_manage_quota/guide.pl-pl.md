@@ -1,7 +1,7 @@
 ---
 title: "Zarządzanie przestrzenią dyskową konta e-mail"
 excerpt: "Dowiedz się, jak zarządzać przestrzenią dyskową konta e-mail i jej optymalizować"
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 
@@ -45,12 +45,12 @@ W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.acti
 > [!tabs]
 > **E-maile (MXplan)**
 >>
->> Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
+>> Kliknij `MX Plan`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Email Pro**
 >>
->> Kliknij `E-maile Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
+>> Kliknij `Email Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. W kolumnie `Rozmiar` możesz sprawdzić zużycie przestrzeni dyskowej Twojego konta e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**

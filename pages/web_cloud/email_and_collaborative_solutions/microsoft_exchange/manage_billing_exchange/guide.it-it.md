@@ -1,7 +1,7 @@
 ---
 title: 'Gestire la fatturazione di un account Exchange'
 excerpt: 'Come effettuare le diverse azioni relative alla fatturazione del tuo servizio Exchange'
-updated: 2024-08-27
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -18,9 +18,8 @@ I servizi Hosted Exchange e Private Exchange offrono una gestione flessibile del
 ## Procedura
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 
 ### Hosted Exchange

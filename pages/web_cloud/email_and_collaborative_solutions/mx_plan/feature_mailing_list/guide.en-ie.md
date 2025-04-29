@@ -1,7 +1,7 @@
 ---
 title: 'Managing and using mailing lists'
 excerpt: 'Find out how to use mailing lists'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -49,7 +49,7 @@ To create a mailing list:
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Emails`{.action}.
+1. Click `MX Plan`{.action}.
 1. Select the domain concerned.
 1. Go to the `Mailing lists`{.action} tab for your email service.
 
