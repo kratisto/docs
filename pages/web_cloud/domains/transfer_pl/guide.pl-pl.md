@@ -1,7 +1,7 @@
 ---
 title: 'Transfer domeny .pl do OVHcloud'
 excerpt: "Dowiedz się, jak wykonać transfer domeny .pl do OVHcloud"
-updated: 2024-06-28
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -105,7 +105,7 @@ Możesz również zakończyć zamówienie [hostingiem www](/links/web/hosting){.
 
 ![domena](/pages/assets/screens/website/order/order-summary.png){.thumbnail}
 
-Po zatwierdzeniu zamówienia otrzymasz bezpłatne zamówienie. Transfer rozpocznie się po zatwierdzeniu tego darmowego zamówienia. Po przeprowadzeniu tej operacji możesz śledzić postęp transferu w [Panelu klienta OVHcloud](/links/manager){.external}. Aby śledzić postęp procesu, kliknij `Domeny`{.action}, następnie `Operacje w toku`{.action}.
+Po zatwierdzeniu zamówienia otrzymasz bezpłatne zamówienie. Transfer rozpocznie się po zatwierdzeniu tego darmowego zamówienia. Po przeprowadzeniu tej operacji możesz śledzić postęp transferu w [Panelu klienta OVHcloud](/links/manager). Po zalogowaniu przejdź do sekcji `Web Cloud`{.action}, a następnie kliknij na `Operacje w toku`{.action}.
 
 ### Etap 4: Zatwierdzenie transferu
 
@@ -114,7 +114,7 @@ Transfer domeny wiąże się z potwierdzeniem przez e-mail. Etap ten może zosta
 - Właściciel domeny otrzymuje e-mail na adres, który podał w bazie (jeśli nie jest ukryty).
 - E-mail ten pochodzi z rejestru domen ".pl" - "automat@dns.pl".
 - Kliknij link potwierdzający zawarty w tym e-mailu, aby sfinalizować transfer.
-- Po zatwierdzeniu domena będzie dostępna w [Panelu klienta OVHcloud](/links/manager){.external} w ciągu 24 godzin.
+- Po zatwierdzeniu domena będzie dostępna w [Panelu klienta OVHcloud](/links/manager) w ciągu 24 godzin.
 
 > [!warning]
 >
@@ -131,7 +131,7 @@ Po zmianie adresu e-mail wykonaj [nowy wniosek o transfer](#step3).
 
 ### Etap 5: zarządzaj domeną za pomocą OVHcloud
 
-Po zakończeniu operacji transferu możesz zarządzać domeną w [Panelu klienta OVHcloud](/links/manager){.external}. W tym celu wybierz `Web Cloud`{.action}, kliknij `Domeny`{.action}, po czym kliknij wybraną nazwę domeny.
+Po zakończeniu operacji transferu możesz zarządzać domeną w [Panelu klienta OVHcloud](/links/manager). W tym celu wybierz `Web Cloud`{.action}, kliknij `Domeny`{.action}, po czym kliknij wybraną nazwę domeny.
 
 ## Sprawdź również
 

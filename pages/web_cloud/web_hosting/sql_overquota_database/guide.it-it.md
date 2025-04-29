@@ -69,7 +69,7 @@ Per accedere al database tramite phpMyAdmin, clicca sulle schede qui sotto per v
 >>
 >> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Step 3**
 >>
@@ -244,7 +244,7 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** pa
 >>
 >> Clicca sul menu `Hosting`{.action} e seleziona l’hosting Web interessato.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Step 3**
 >>
@@ -283,7 +283,7 @@ Clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** pa
 >>
 >> Clicca sul menu `Web Cloud Databases`{.action} e seleziona la soluzione Web Cloud Databases interessata.
 >>
->> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases.png){.thumbnail}
 >>
 > **Step 3**
 >>

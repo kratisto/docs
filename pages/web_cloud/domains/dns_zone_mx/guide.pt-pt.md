@@ -1,7 +1,7 @@
 ---
 title: "Configurar um registo MX para a gestão dos e-mails"
 excerpt: Saiba como configurar um registo MX no seu domínio da OVHcloud
-updated: 2024-09-02
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -65,7 +65,7 @@ Estes registos MX devem ser configurados na zona DNS do seu domínio.
 
 ### Configurar um registo MX numa zona DNS da OVHcloud
 
-Para criar ou alterar os registos MX na configuração da OVHcloud do seu domínio, aceda à [Área de Cliente OVHcloud](/links/manager). Aceda à secção `Nomes de domínio`{.action}, clique no domínio que pretende e aceda ao separador `Zona DNS`{.action}.
+Para criar ou alterar os registos MX na configuração da OVHcloud do seu domínio, aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}. Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 
 A tabela apresenta a configuração da OVHcloud do seu domínio. Cada linha corresponde a um registo DNS.
 

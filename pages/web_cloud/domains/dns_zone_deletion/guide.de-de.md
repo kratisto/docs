@@ -1,7 +1,7 @@
 ---
 title: "Wie lösche ich eine OVHcloud DNS-Zone?"
 excerpt: "Diese Anleitung erklärt, wie Sie eine DNS-Zone für Ihre Domain über Ihr OVHcloud Kundencenter"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -53,7 +53,7 @@ So kann es beispielsweise vorkommen, dass Sie eine DNS-Zone für Ihren Domainnam
 
 ### 1 - Löschen einer OVHcloud DNS-Zone initiieren
 
-Um eine OVHcloud DNS-Zone zu löschen, klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
+Um eine OVHcloud DNS-Zone zu löschen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -64,21 +64,17 @@ Um eine OVHcloud DNS-Zone zu löschen, klicken Sie jeweils auf die Tabs, um die 
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus,.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie auf der rechten Seite (oder unter der Tabelle je nach Bildschirmauflösung) auf die Schaltfläche `Die DNS-Zone löschen`{.action}.
 >>
 >> ![delete the DNS zone](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/delete-the-dns-zone.png){.thumbnail}
 >>
-> **Schritt 5**
+> **Schritt 4**
 >>
 >> Überprüfen Sie im angezeigten Fenster die darin enthaltenen Meldungen.
 >>

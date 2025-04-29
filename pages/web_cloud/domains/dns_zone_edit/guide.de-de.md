@@ -1,7 +1,7 @@
 ---
 title: 'Bearbeiten der OVHcloud DNS-Zone'
 excerpt: 'Erfahren Sie hier, wie Sie eine DNS-Zone über Ihr Kundencenter bearbeiten'
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 <style>
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie in unseren Anleitungen „[Alle Informationen z
 >
 > Im Gegensatz zum Domainnamen gibt es für eine DNS-Zone keinen Inhaber, lediglich die Kontaktverwaltung bei OVHcloud. Wenn Sie die Verwaltung Ihrer DNS-Zone auf einen anderen OVHcloud Kunden-Account übertragen möchten, folgen Sie unserer Anleitung [Die Kontakte Ihrer Dienste verwalten](/pages/account_and_service_management/account_information/managing_contacts).
 
-Um auf die Verwaltung der OVHcloud DNS-Zone zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um auf die Verwaltung der OVHcloud DNS-Zone zugreifen, klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -63,15 +63,11 @@ Um auf die Verwaltung der OVHcloud DNS-Zone zugreifen, klicken Sie jeweils auf d
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Die Tabelle zeigt für jede Zeile einen DNS-Eintrag zu Ihrer Domain bei OVHCloud an. Sie können die Einträge nach dem Eintragstyp oder der zugehörigen Domain filtern.
 >>
@@ -100,7 +96,7 @@ Dazu können Sie entweder die Zone im Textmodus manuell bearbeiten oder unsere K
 > Nur für erfahrene Benutzer. Achten Sie auch sehr auf die Syntax, wenn Sie Änderungen vornehmen.
 >
 
-Um auf die Verwaltung der OVHcloud DNS-Zonim Textmodus zugreifen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um auf die Verwaltung der OVHcloud DNS-Zonim Textmodus zugreifen, klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -111,15 +107,11 @@ Um auf die Verwaltung der OVHcloud DNS-Zonim Textmodus zugreifen, klicken Sie je
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus, nachdem Sie sich in der betreffenden Domain befinden.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie rechts oder unterhalb der Tabelle auf `Im Textmodus bearbeiten`{.action}, und folgen Sie den angezeigten Schritten.
 >>
@@ -140,7 +132,7 @@ Im Folgenden werden nur noch die Konfigurationen über unsere Assistenten beschr
 
 /// details | Neuen DNS-Eintrag hinzufügen
 
-Um einen neuen DNS-Eintrag hinzuzufügen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um einen neuen DNS-Eintrag hinzuzufügen, klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -151,15 +143,11 @@ Um einen neuen DNS-Eintrag hinzuzufügen, klicken Sie jeweils auf die Tabs, um d
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie rechts oder unterhalb der Tabelle auf `Eintrag hinzufügen`{.action} und folgen Sie den angezeigten Schritten.
 >>
@@ -178,7 +166,7 @@ Um einen neuen DNS-Eintrag hinzuzufügen, klicken Sie jeweils auf die Tabs, um d
 
 /// details | Existierenden DNS-Eintrag bearbeiten
 
-Um einen DNS-Eintrag zu bearbeiten, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um einen DNS-Eintrag zu bearbeiten, klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -189,15 +177,11 @@ Um einen DNS-Eintrag zu bearbeiten, klicken Sie jeweils auf die Tabs, um die **4
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie in der Tabelle auf `...`{.action} rechts neben dem betreffenden Eintrag.
 >>
@@ -210,7 +194,7 @@ Um einen DNS-Eintrag zu bearbeiten, klicken Sie jeweils auf die Tabs, um die **4
 
 /// details | DNS-Eintrag löschen
 
-Um einen DNS-Eintrag zu löschen, klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Um einen DNS-Eintrag zu löschen, klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -221,15 +205,11 @@ Um einen DNS-Eintrag zu löschen, klicken Sie jeweils auf die Tabs, um die **4**
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus, nachdem Sie sich in der betreffenden Domain befinden.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie in der Tabelle auf das Symbol `...`{.action} rechts neben dem betreffenden Eintrag.
 >>
@@ -251,7 +231,7 @@ Durch das Zurücksetzen Ihrer DNS-Zone können Sie zu einer minimalen Konfigurat
 > Bevor Sie Ihre DNS-Zone zurücksetzen, vergewissern Sie sich, dass Ihr Domainname nicht mit anderen Diensten wie Websites oder E-Mail-Adressen verbunden ist.
 >
 
-Um Ihre DNS-Zone zurückzusetzen, klicken Sie jeweils auf die Tabs, um die **6** Schritte anzuzeigen.
+Um Ihre DNS-Zone zurückzusetzen, klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -262,28 +242,24 @@ Um Ihre DNS-Zone zurückzusetzen, klicken Sie jeweils auf die Tabs, um die **6**
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie rechts oder unterhalb der Tabelle auf `Meine DNS-Zone zurücksetzen`{.action} und folgen Sie den 2 angezeigten Schritten.
 >>
 >> ![dnszone](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/reset-my-dns-zone.png){.thumbnail}
 >>
-> **Schritt 5**
+> **Schritt 4**
 >>
 >> Beantworten Sie die Frage `Möchten Sie die minimalen Einträge beim Zurücksetzen Ihrer DNS-Zone aktivieren?`. Die Festlegung von Minimaleinträgen in einer DNS-Zone verhindert Fehlerantworten bei der Abfrage des Domainnamens.
 >>
 >> - `Ja, ich möchte meine DNS Zone mit den minimalen Einträgen zurücksetzen`
 >> - `Nein, aber ich möchte meine DNS Zone zurücksetzen`
 >>
-> **Schritt 6**
+> **Schritt 5**
 >>
 >> Unabhängig davon, welche Option Sie im vorherigen Schritt ausgewählt haben, müssen Werte für Abfragen an Ihren Domainnamen gesetzt werden, um fehlerhafte DNS-Antworten zu verhindern.
 >>
@@ -312,7 +288,7 @@ Nach der Änderung der DNS-Zone Ihrer Domain ist eine Propagationszeit von maxim
 
 Wenn Sie die Verzögerung für die nächste Bearbeitung Ihrer OVHcloud DNS-Zone verkürzen möchten, können Sie diese bis zu einem gewissen Grad beeinflussen, indem Sie die TTL (*Time To Live*) anpassen, die für alle Einträge in der DNS-Zone gilt.
 
-Klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
+Klicken Sie jeweils auf die Tabs, um die **3** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -323,15 +299,11 @@ Klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Klicken Sie rechts oder unterhalb der Tabelle auf die Schaltfläche `Standardmäßige TTL ändern`{.action}, und folgen Sie den angezeigten Schritten.
 >>

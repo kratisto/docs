@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting a domain name error
-updated: 2022-09-01
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -17,7 +17,7 @@ Creating a domain name, transfering it, or changing its owner are technical oper
 
 ## Instructions
 
-In your [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} section, then `Domain names`{.action}. Click on `Ongoing operations`{.action} above the list of domain names.
+Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click on `Ongoing operations`{.action}.
 
 The table on this page displays all currrent domain name operations in your Control Panel.
 

@@ -259,7 +259,7 @@ Para aceder às estatísticas do CDN, efetue as seguintes ações:
 >>
 >> Clique no menu `Alojamentos`{.action} e escolha o alojamento web em causa.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Etapa 3**
 >>

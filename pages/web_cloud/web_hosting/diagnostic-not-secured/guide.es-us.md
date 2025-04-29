@@ -1,7 +1,7 @@
 ---
 title: "¿Qué hacer en caso de error « La conexión no es privada »?"
 excerpt: "Responder en caso de que aparezca un mensaje de error relacionado con la seguridad de su sitio web"
-updated: 2021-07-08
+updated: 2025-04-28
 ---
 
 ## Objetivo <a name="objective"></a>
@@ -52,9 +52,9 @@ En la pestaña `Información general`{.action}, indique la dirección IPV4 y/o I
 
 Compruebe que la dirección IP indicada en [zona DNS](/pages/web_cloud/domains/dns_zone_edit) corresponde a la de su [Web Cloud hosting](/links/web/hosting).
 
-Haga clic en `Dominios`{.action} de su [área de cliente de OVHcloud](/links/manager) y seleccione el dominio de su sitio web.
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 
-Seleccione la pestaña `Zona DNS`{.action} y anote el destino del registro de tipo `A` para su dominio:
+Anote el destino del registro de tipo `A` para su dominio:
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 
@@ -90,10 +90,7 @@ Si ha contratado uno de los **certificados SSL de pago** de nuestro partner [SEC
 
 > [!primary]
 >
-> Para consultar todos los mensajes enviados por nuestros servicios, haga clic en el botón superior derecha de su [área de cliente de OVHcloud](/links/manager) y seleccione `Emails de servicio`{.action}.
->
->![right-menu-email-button](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
->
+> Para consultar todos los mensajes enviados por nuestros servicios, haga clic en el botón superior derecha de su [área de cliente de OVHcloud](/links/manager) y seleccione `Mis mensajes`{.action}.
 
 ## Más información <a name="go-further"></a>
 

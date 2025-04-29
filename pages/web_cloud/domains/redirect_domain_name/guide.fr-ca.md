@@ -1,7 +1,7 @@
 ---
 title: "Rediriger un nom de domaine géré par OVHcloud"
 excerpt: "Découvrez les différents types de redirections et comment en créer une pour un nom de domaine géré par OVHcloud"
-updated: 2024-03-08
+updated: 2025-04-28
 ---
 
 ## Objectif 
@@ -13,7 +13,7 @@ La redirection d'un nom de domaine consiste à rediriger celui-ci vers une nouve
 ## Prérequis
 
 - Disposer d'un [nom de domaine](/links/web/domains)
-- Être connecté à votre [espace client OVHcloud](/links/manager){.external}.
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 - Être connecté à votre hébergement web (pour une redirection via un fichier [.htaccess](#htaccess_rewrite)).
 
 ## En pratique
@@ -43,7 +43,7 @@ Ces actions peuvent être réalisées de plusieurs manières :
 
 ### Rediriger un nom de domaine depuis l'espace client
 
-Connectez-vous à l'[espace client OVHcloud](/links/manager){.external}, rendez-vous dans la partie `Web Cloud`{.action}, sélectionnez le domaine à rediriger dans la section `Noms de domaine`{.action} puis cliquez sur l'onglet `Redirection`{.action}.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur le menu `Zones DNS`{.action}, puis choisissez le nom de domaine concerné. Cliquez sur l'onglet `Redirection`{.action}.
 
 Le tableau affiche les redirections actives pour votre nom de domaine. Vous pouvez y gérer vos redirections existantes à l'aide du bouton `...`{.action} situé à droite de chaque ligne.
 

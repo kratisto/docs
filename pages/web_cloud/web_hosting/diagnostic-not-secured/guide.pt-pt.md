@@ -1,7 +1,7 @@
 ---
 title: "O que fazer em caso de erro « Sua conexão não é particular »?"
 excerpt: "Reagir em caso de mensagem de erro relacionado com a segurança do seu site"
-updated: 2021-07-08
+updated: 2025-04-28
 ---
 
 ## Objetivo <a name="objective"></a>
@@ -53,9 +53,9 @@ No separador `Informações gerais`{.action}, tome nota do endereço IPV4 e/ou I
 
 Agora tem de verificar que o endereço IP indicado na [Zona DNS](/pages/web_cloud/domains/dns_zone_edit) corresponde ao do seu [alojamento Web Cloud](/links/web/hosting).
 
-Clique em `Noms de domínio`{.action} do seu [Área de Cliente OVHcloud](/links/manager) e selecione o nome de domínio do seu site.
+Aceda à [Área de Cliente OVHcloud](/links/manager) e aceda à secção `Web Cloud`{.action}. Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 
-Selecione o separador `Zone DNS`{.action} e tome nota do destino do tipo `A` para o seu domínio:
+Nota do destino do tipo `A` para o seu domínio:
 
 ![zone-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 
@@ -91,10 +91,7 @@ Se encomendou um dos **certificados SSL pagos** do nosso parceiro [SECTIGO](http
 
 > [!primary]
 >
-> Para encontrar o conjunto dos e-mails enviados pelos nossos serviços, clique no canto superior direito do seu [Área de Cliente OVHcloud](/links/manager), depois em `E-mails de serviço`{.action}:
->
->![right-menu-email-button](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
->
+> Para encontrar o conjunto dos e-mails enviados pelos nossos serviços, clique no canto superior direito do seu [Área de Cliente OVHcloud](/links/manager), depois em `As minhas comunicações`{.action}.
 
 ## Quer saber mais? <a name="go-further"></a>
 

@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja rekordu MX dla emaili"
 excerpt: "Dowiedz się, jak skonfigurować rekord MX dla Twojej domeny w OVHcloud"
-updated: 2024-09-02
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -65,7 +65,7 @@ Rekordy MX muszą być skonfigurowane w strefie DNS Twojej domeny.
 
 ### Konfiguracja rekordu MX w strefie DNS OVHcloud
 
-Aby utworzyć lub zmodyfikować rekordy MX w konfiguracji OVHcloud Twojej domeny, zaloguj się do [Panelu klienta OVHcloud](/links/manager). Przejdź do sekcji `Nazwy domen`{.action}, kliknij odpowiednią domenę, następnie przejdź do zakładki `Strefa DNS`{.action}.
+Aby utworzyć lub zmodyfikować rekordy MX w konfiguracji OVHcloud Twojej domeny, zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę.
 
 W tabeli, która się wyświetli znajdziesz konfigurację Twojej domeny OVHcloud. Każdy wiersz odpowiada jednemu rekordowi DNS.
 

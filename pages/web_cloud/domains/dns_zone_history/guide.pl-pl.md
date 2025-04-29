@@ -1,7 +1,7 @@
 ---
 title: "Zarządzanie historią strefy DNS"
 excerpt: "Dowiedz się, jak sprawdzać, porównywać, pobierać i przywracać kopie zapasowe strefy DNS"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -28,7 +28,7 @@ Dzięki historii stref DNS zarządzanie serwerami DNS stało się łatwiejsze.
 
 ## W praktyce
 
-Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **5** etapy.
+Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **4** etapy.
 
 > [!tabs]
 > **Etap 1**
@@ -39,15 +39,11 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **5** etapy.
 >>
 > **Etap 2**
 >>
->> Kliknij menu `Domeny`{.action}, następnie wybierz odpowiednią domenę.
+>> Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etap 3**
->>
->> Wybierz zakładkę `Strefa DNS`{.action} po wybraniu domeny.
->>
-> **Etap 4**
 >>
 >> Pojawi się tabela, która przedstawia strefę DNS Twojej domeny. Znajduje się na niej lista rekordów DNS. Po prawej stronie tabeli znajduje się kilka przycisków umożliwiających wykonywanie operacji w strefie DNS. 
 >>
@@ -55,7 +51,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **5** etapy.
 >>
 >> Kliknij przycisk `Wyświetl historię strefy DNS`{.action}. 
 >>
-> **Etap 5**
+> **Etap 4**
 >>
 >> Na nowej stronie, która się wyświetli, pojawi się tabela z historią kopii zapasowych strefy DNS, posortowana od najnowszej do najstarszej daty. Na górze tej tabeli znajduje się aktualna wersja Twojej strefy DNS. Na tej stronie możesz wykonać następujące czynności:
 >>

@@ -261,7 +261,7 @@ Haga clic en las fichas siguientes para ver cada una de las **6** etapas.
 >>
 >> Haga clic en el menú `Alojamientos`{.action} y seleccione el alojamiento web correspondiente.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Etapa 3**
 >>

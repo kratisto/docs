@@ -1,7 +1,7 @@
 ---
 title: "Den Versionsverlauf einer DNS-Zone verwalten"
 excerpt: "Erfahren Sie hier, wie Sie Backups der DNS-Zone mithilfe der History-Funktion einsehen, vergleichen, herunterladen und wiederherstellen können"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -28,7 +28,7 @@ Die Verwaltung von DNS wird mit dem Zugriff auf den Verlauf Ihrer DNS-Zonen vere
 
 ## In der praktischen Anwendung
 
-Klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
+Klicken Sie jeweils auf die Tabs, um die **4** Schritte anzuzeigen.
 
 > [!tabs]
 > **Schritt 1**
@@ -39,15 +39,11 @@ Klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
 >>
 > **Schritt 2**
 >>
->> Klicken Sie auf das Menü `Domainnamen`{.action} und wählen Sie den Domainnamen aus.
+>> Klicken Sie auf das Menü `DNS-Zone`{.action} und wählen Sie den Domainnamen aus.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Schritt 3**
->>
->> Wählen Sie den Tab `DNS-Zone`{.action} aus.
->>
-> **Schritt 4**
 >>
 >> Die Tabelle stellt die DNS-Zone Ihrer Domain dar. Dort finden Sie die Liste der darin enthaltenen DNS-Einträge. Rechts in der Tabelle finden Sie mehrere Schaltflächen, mit denen Sie Aktionen in Ihrer DNS-Zone durchführen können. 
 >>
@@ -55,7 +51,7 @@ Klicken Sie jeweils auf die Tabs, um die **5** Schritte anzuzeigen.
 >>
 >> Klicken Sie auf `Den Verlauf meiner DNS-Zone einsehen`{.action}. 
 >>
-> **Schritt 5**
+> **Schritt 4**
 >>
 >> Auf der neuen Seite wird eine Tabelle mit dem Versionsverlauf Ihrer DNS-Zone angezeigt. Er wird absteigend von der jüngsten Version sortiert. Am Anfang der Tabelle befindet sich die aktuelle Version Ihrer DNS-Zone. Auf dieser Seite können Sie folgende Aktionen ausführen:
 >>

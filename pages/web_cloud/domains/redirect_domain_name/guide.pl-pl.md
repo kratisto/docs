@@ -1,7 +1,7 @@
 ---
 title: "Przekierowanie domeny zarządzanej w OVHcloud"
 excerpt: "Poznaj rodzaje przekierowań i dowiedz się, jak utworzyć przekierowanie dla domeny zarządzanej w OVHcloud"
-updated: 2024-03-08
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -13,7 +13,7 @@ Przekierowanie domeny polega na przekierowaniu jej na nową docelową stronę. I
 ## Wymagania początkowe
 
 - Posiadanie [domeny](/links/web/domains)
-- Dostęp do [Panelu klienta OVHcloud](/links/manager){.external}.
+- Dostęp do [Panelu klienta OVHcloud](/links/manager).
 - Połączenie z hostingiem (przekierowanie za pomocą pliku [.htaccess](#htaccess_rewrite))
 
 ## W praktyce
@@ -42,7 +42,7 @@ Działania te mogą być przeprowadzane na kilka sposobów:
 
 ### Przekieruj domenę w Panelu klienta
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external}, przejdź do sekcji `Web Cloud`{.action}, wybierz domenę, którą chcesz przekierować do sekcji `Domeny`{.action}, następnie kliknij zakładkę `Przekierowanie`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę. Kliknij zakładkę `Przekierowanie`{.action}.
 
 Tabela wyświetla aktywne przekierowania dla Twojej domeny. Możesz zarządzać istniejącymi przekierowaniami za pomocą przycisku `...`{.action} znajduje się po prawej stronie każdej linii.
 

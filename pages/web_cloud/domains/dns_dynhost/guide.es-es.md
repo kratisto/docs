@@ -1,7 +1,7 @@
 ---
 title: "Configurar un DNS dinámico (DynHost/DynDNS) para un dominio"
 excerpt: "Descubra cómo configurar un registro DNS dinámico para un dominio de OVHcloud"
-updated: 2025-03-07
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -85,9 +85,9 @@ Para crear un usuario DynHost, haga clic en las fichas siguientes para ver cada 
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >>
@@ -142,9 +142,9 @@ Para crear el registro DynHost, haga clic en las fichas siguientes para ver cada
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >>
@@ -221,9 +221,9 @@ Puede comprobar si la dirección IP de destino se ha actualizado correctamente. 
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >>

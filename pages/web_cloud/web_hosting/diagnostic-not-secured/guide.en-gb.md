@@ -1,7 +1,7 @@
 ---
 title: What to do if you get a "Your connection is not private" error?
 excerpt: How to react to a security error message on your website
-updated: 2021-07-08
+updated: 2025-04-28
 ---
 
 ## Objective <a name="objective"></a>
@@ -51,9 +51,9 @@ In the `General information`{.action} tab, note the IPv4 and/or IPv6 address of 
 
 You now need to check that the IP address listed in the [DNS zone](/pages/web_cloud/domains/dns_zone_edit) corresponds to the one of your [OVHcloud Web Hosting plan](/links/web/hosting).
 
-Click on `Domain names`{.action} of your [OVHcloud Control Panel](/links/manager) and select your website’s domain name.
+Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click the `DNS zones`{.action} menu, then choose the domain name concerned.
 
-Select the `DNS zone`{.action} tab and note the target of the `A` record for your domain name:
+Note the target of the `A` record for your domain name:
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 
@@ -89,10 +89,7 @@ If you have **imported a SSL certificate** from another provider, contact the ap
 
 > [!primary]
 >
-> To check all the emails sent by OVHcloud teams, click on the top right-hand corner of your [OVHcloud Control Panel](/links/manager), then on `Service emails`{.action}:
->
->![right-menu-email-button](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
->
+> To check all the emails sent by OVHcloud teams, click on the top right-hand corner of your [OVHcloud Control Panel](/links/manager), then on `My messages`{.action}.
 
 ## Go further <a name="go-further"></a>
 

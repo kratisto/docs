@@ -1,7 +1,7 @@
 ---
 title: "Redirigir un dominio gestionado por OVHcloud"
 excerpt: "Distintos tipos de redirecciones y cómo crear una redirección para un dominio gestionado por OVHcloud"
-updated: 2024-03-08
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -13,7 +13,7 @@ La redirección de un dominio consiste en redirigir el dominio hacia un nuevo de
 ## Requisitos
 
 - Disponer de un [dominio](/links/web/domains)
-- Estar conectado a su [área de cliente de OVHcloud](/links/manager){.external}.
+- Estar conectado a su [área de cliente de OVHcloud](/links/manager).
 - Estar conectado al alojamiento web (para una redirección a través de un archivo [.htaccess](#htaccess_rewrite)).
 
 ## Procedimiento
@@ -43,7 +43,7 @@ Existen diversas formas de realizar estas acciones:
 
 ### Redirigir un dominio desde el área de cliente
 
-Conéctese al [área de cliente de OVHcloud](/links/manager){.external}, acceda al apartado `Web Cloud`{.action}, seleccione el dominio que quiere redirigir en la sección `Dominios`{.action} y haga clic en la pestaña `Redirección`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente. Clic en la pestaña `Redirección`{.action}.
 
 Se mostrará una tabla con las redirecciones activas para el dominio. Puede gestionar las redirecciones existentes utilizando el botón `...`{.action} situado a la derecha de cada línea.
 

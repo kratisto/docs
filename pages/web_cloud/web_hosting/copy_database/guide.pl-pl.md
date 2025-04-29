@@ -53,7 +53,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **4** etapy.
 >>
 >> Kliknij menu `Hosting`{.action}, następnie wybierz odpowiedni hosting.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Etap 3**
 >>
@@ -82,7 +82,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **3** etapy.
 >>
 >> Kliknij menu `Web Cloud Databases`{.action}, następnie wybierz odpowiednie rozwiązanie Web Cloud Databases.
 >>
->> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases.png){.thumbnail}
 >>
 > **Etap 3**
 >>

@@ -1,7 +1,7 @@
 ---
 title: "Modificar los servidores DNS de un dominio de OVHcloud"
 excerpt: "Descubra cómo modificar los servidores DNS de un dominio registrado en OVHcloud"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -214,7 +214,7 @@ Los antiguos servidores DNS declarados y la configuración DNS que aplicaban se 
 
 Una vez realizados los cambios, deberá tener en cuenta dos períodos de tiempo:
 
-- El *registro* que gestione su extensión de dominio (por ejemplo, el registro de extensiones en *.fr*) debe ser informado de la modificación DNS efectuada por OVHcloud. Siga el progreso en su [área de cliente de OVHcloud](/links/manager). Para ello, acceda a la sección `Web Cloud`{.action}, acceda a la sección `Dominios`{.action} en la columna de la izquierda y haga clic en `Operaciones en curso`{.action}.
+- El *registro* que gestione su extensión de dominio (por ejemplo, el registro de extensiones en *.fr*) debe ser informado de la modificación DNS efectuada por OVHcloud. Siga el progreso en su [área de cliente de OVHcloud](/links/manager). Para ello, acceda a la sección `Web Cloud`{.action} y haga clic en `Operaciones en curso`{.action}.
 - Una vez que haya actualizado la información del *registro*, espere un máximo de **48 horas** para que los cambios realizados se propaguen y sean efectivos.
 
 ## Más información

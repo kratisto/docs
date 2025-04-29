@@ -1,7 +1,7 @@
 ---
 title: 'Editar una zona DNS de OVHcloud'
 excerpt: 'Descubra cómo editar una zona DNS desde el área de cliente de OVHcloud'
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 <style>
@@ -30,8 +30,8 @@ Para más información, consulte nuestras guías "[Todo sobre los servidores DNS
 
 ## Requisitos
 
-- Tener acceso a la gestión del dominio desde el [área de cliente de OVHcloud](/links/manager){.external}.
-- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager){.external}.
+- Tener acceso a la gestión del dominio desde el [área de cliente de OVHcloud](/links/manager).
+- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
 - Utilizar la configuración de OVHcloud (es decir, sus servidores DNS) para el dominio en cuestión. 
 
 > [!warning]
@@ -52,7 +52,7 @@ Para más información, consulte nuestras guías "[Todo sobre los servidores DNS
 >
 > A diferencia del nombre de dominio, para una zona DNS no existe el concepto de propietario, sino de gestión de contactos para una zona DNS de OVHcloud. Si desea cambiar la gestión de su zona DNS a otra cuenta de OVHcloud, siga nuestra guía [Gestionar contactos de servicio](/pages/account_and_service_management/account_information/managing_contacts).
 
-Para acceder a la gestión de una zona DNS de OVHcloud, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Para acceder a la gestión de una zona DNS de OVHcloud, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -63,15 +63,11 @@ Para acceder a la gestión de una zona DNS de OVHcloud, haga clic en las fichas 
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> Se mostrará una tabla con un registro DNS asociado a su dominio en OVHcloud para cada línea. Puede filtrar su contenido por tipo de registro o por dominio.
 >>
@@ -100,7 +96,7 @@ Para ello, puede editar manualmente la zona en modo de texto o utilizar nuestros
 > Solo para usuarios expertos. También debe prestar especial atención a la sintaxis al realizar los cambios.
 > 
 
-Para modificar una zona DNS de OVHcloud en modo de texto, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Para modificar una zona DNS de OVHcloud en modo de texto, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -111,15 +107,11 @@ Para modificar una zona DNS de OVHcloud en modo de texto, haga clic en las ficha
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> A la derecha o debajo de la tabla, haga clic en `Editar en modo de texto`{.action} y siga los pasos que se indican.
 >>
@@ -140,7 +132,7 @@ Esta guía solo hace referencia a la configuración a través de nuestros asiste
 
 /// details | Añadir un nuevo registro DNS
 
-Para agregar un nuevo registro DNS, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Para agregar un nuevo registro DNS, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -151,15 +143,11 @@ Para agregar un nuevo registro DNS, haga clic en las fichas siguientes para ver 
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> A la derecha o debajo de la tabla, haga clic en `Añadir un registro`{.action} y siga los pasos que se indican.
 >>
@@ -178,7 +166,7 @@ Para agregar un nuevo registro DNS, haga clic en las fichas siguientes para ver 
 
 /// details | Modificar un registro DNS existente
 
-Para editar un registro DNS, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Para editar un registro DNS, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -189,15 +177,11 @@ Para editar un registro DNS, haga clic en las fichas siguientes para ver cada un
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> En la tabla que aparece, haga clic en el icono con forma de `...`{.action} a la derecha de la entrada correspondiente.
 >>
@@ -210,7 +194,7 @@ Para editar un registro DNS, haga clic en las fichas siguientes para ver cada un
 
 /// details | Eliminar un registro DNS
 
-Para eliminar un registro DNS, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Para eliminar un registro DNS, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -221,15 +205,11 @@ Para eliminar un registro DNS, haga clic en las fichas siguientes para ver cada 
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> En la tabla que aparece, haga clic en el icono con forma de `...`{.action} a la derecha de la entrada correspondiente.
 >>
@@ -251,7 +231,7 @@ Restaurar la zona DNS permite retornar a una configuración mínima, con las ent
 > Antes de reiniciar la zona DNS, asegúrese de que el dominio no está asociado a servicios que esté utilizando, como un sitio web o direcciones de correo electrónico.
 >
 
-Para restaurar la zona DNS, haga clic en las fichas siguientes para ver cada una de las **6** etapas.
+Para restaurar la zona DNS, haga clic en las fichas siguientes para ver cada una de las **5** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -262,28 +242,24 @@ Para restaurar la zona DNS, haga clic en las fichas siguientes para ver cada una
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> A la derecha o debajo de la tabla, haga clic en `Restaurar mi zona DNS`{.action} y siga los dos pasos que se indican.
 >>
 >> ![dnszone](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/reset-my-dns-zone.png){.thumbnail}
 >>
-> **Etapa 5**
+> **Etapa 4**
 >>
 >> Responda a la pregunta `¿Quiere activar los registros mínimos al restaurar la zona DNS?`. Establecer los registros mínimos en una zona DNS evita que una consulta al nombre de dominio provoque un error.
 >>
 >> - `Sí, quiero restaurar mi zona DNS con los registros mínimos`
 >> - `No, pero quiero restaurar mi zona DNS`
 >>
-> **Etapa 6**
+> **Etapa 5**
 >>
 >> Cualquiera que sea su elección en la etapa anterior, es necesario definir una respuesta cuando se pregunta a su nombre de dominio para evitar una respuesta DNS en error.
 >>
@@ -310,7 +286,7 @@ Para restaurar la zona DNS, haga clic en las fichas siguientes para ver cada una
 
 Una vez que haya editado la zona DNS del dominio, los cambios tardarán un máximo de 24 horas en propagarse y ser efectivos.
 
-Si quiere reducir este plazo en las próximas ediciones de la zona DNS de OVHcloud, puede hacerlo, hasta cierto punto, ajustando el TTL (*Time To Live*) aplicable a todos los registros de la zona DNS. Para ello, haga clic en las fichas siguientes para ver cada una de las **4** etapas.
+Si quiere reducir este plazo en las próximas ediciones de la zona DNS de OVHcloud, puede hacerlo, hasta cierto punto, ajustando el TTL (*Time To Live*) aplicable a todos los registros de la zona DNS. Para ello, haga clic en las fichas siguientes para ver cada una de las **3** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -321,15 +297,11 @@ Si quiere reducir este plazo en las próximas ediciones de la zona DNS de OVHclo
 >>
 > **Etapa 2**
 >>
->> Haga clic en el menú `Dominios`{.action} y seleccione el dominio correspondiente.
+>> Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->>
->> Abra la pestaña `Zona DNS`{.action} y seleccione el dominio correspondiente.
->>
-> **Etapa 4**
 >>
 >> A la derecha o debajo de la tabla, haga clic en el botón `TTL por defecto`{.action} y siga los pasos que se indican.
 >>

@@ -260,7 +260,7 @@ Kliknij poniższe zakładki, aby wyświetlić kolejno poszczególne **6** etapy.
 >>
 >> Kliknij menu `Hosting`{.action}, następnie wybierz odpowiedni hosting.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Etap 3**
 >>

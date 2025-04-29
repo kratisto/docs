@@ -1,7 +1,7 @@
 ---
 title: "DNS-Server eines OVHcloud Domainnamens ändern"
 excerpt: "Erfahren Sie hier, wie Sie die DNS-Server Ihres bei OVHcloud registrierten Domainnamens ändern können"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -212,7 +212,7 @@ Die bisher deklarierten DNS-Server und deren DNS-Konfiguration werden für Ihren
 
 Nachdem Sie Ihre Änderungen vorgenommen haben, müssen zwei aufeinanderfolgende Zeiträume berücksichtigt werden:
 
-- Die Registry, die Ihre Domainendung verwaltet (zum Beispiel die für *.fr* zuständige Registry) muss über die bei OVHcloud vorgenommene DNS-Änderung informiert werden. Verfolgen Sie den Fortschritt in Ihrem [OVHcloud Kundencenter](/links/manager). Gehen Sie hierzu in den Bereich `Web Cloud`{.action}, gehen Sie in der linken Spalte in den Bereich `Domainnamen`{.action} und klicken Sie dann auf `Laufende Vorgänge`{.action}.
+- Die Registry, die Ihre Domainendung verwaltet (zum Beispiel die für *.fr* zuständige Registry) muss über die bei OVHcloud vorgenommene DNS-Änderung informiert werden. Verfolgen Sie den Fortschritt in Ihrem [OVHcloud Kundencenter](/links/manager). Gehen Sie hierzu in den Bereich `Web Cloud`{.action} und klicken Sie dann auf `Laufende Vorgänge`{.action}.
 - Warten Sie **48 Stunden** ab, nachdem die **Registry*-Informationen aktualisiert wurden, damit die Änderungen vollständig propagiert und wirksam werden.
 
 ## Weiterführende Informationen

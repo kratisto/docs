@@ -39,7 +39,7 @@ To find out on which web hosting cluster your service is located, click on the t
 >>
 >> Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Step 3**
 >>

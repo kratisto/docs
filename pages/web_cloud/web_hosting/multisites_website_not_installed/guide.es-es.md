@@ -1,7 +1,7 @@
 ---
 title: 'Solucionar el error "Sitio no instalado"'
 excerpt: 'Descubra cómo solucionar el error "Sitio no instalado"'
-updated: 2023-11-24
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -80,7 +80,7 @@ A continuación, compruebe que la dirección IP del alojamiento web aparece en l
 > Si modifica directamente los **servidores DNS** asociados a su dominio, este plazo puede llegar hasta **48 horas** como máximo.
 >
 
-Para ello, conéctese al [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action} de la parte superior de la página. Acceda a la sección `Dominios`{.action} de la columna izquierda, seleccione su dominio y acceda a la pestaña `Zona DNS`{.action}.
+Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager) y acceda a la sección `Web Cloud`{.action}. Haga clic en el menú `Zonas DNS`{.action} y seleccione el dominio correspondiente.
 
 Aparecerá una tabla con distintos registros DNS.
 
@@ -88,7 +88,7 @@ Aparecerá una tabla con distintos registros DNS.
 |---|---|
 |En la zona DNS activa, su dominio o subdominio apunta a la dirección IP de su alojamiento web con un registro de tipo A (para una IPv4) o AAAA (para una IPv6).<br><br>![zonaDNS_IP2](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}|Esto indica que la configuración de su dominio es correcta.<br><br> Espere el tiempo de propagación DNS si el cambio es reciente.<br><br> No olvide reiniciar sus dispositivos (PC, smartphone, box, etc.) y vaciar la caché de su navegador. La razón es que la antigua configuración del dominio puede almacenarse en caché, lo que puede ralentizar la visualización de la actualización.|
 |La zona DNS activa no tiene registros de tipo A o AAAA que vinculen el dominio o subdominio a la dirección IP de su alojamiento web. O bien, el registro existente apunta a otra dirección IP.|Agregue el nuevo registro de tipo A o AAAA o corrija el registro existente siguiendo [esta guía](/pages/web_cloud/domains/dns_zone_edit).|
-|Su dominio no aparece en la sección `Dominios`{.action} del área de cliente de OVHcloud.<br><br>O bien, la pestaña `Zona DNS`{.action} de su nombre de dominio se muestra de la siguiente manera:<br><br>![zone-without-domain-top-of-the-page](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/zone-without-domain-top-of-the-page.png){.thumbnail}|Esto significa que su nombre de dominio no se gestiona desde el área de cliente de OVHcloud.<br><br><br>Determine su "registro" a través de nuestra herramienta [WHOIS](/links/web/domains-whois) y los servidores DNS a los que está asociado. <br><br>Encuentre y modifique la zona DNS en cuestión siguiendo la sección dedicada de la guía "[Alojar varios sitios web en un mismo hosting - añadir un dominio externo](/pages/web_cloud/web_hosting/multisites_configure_multisite)".|
+|Su dominio no aparece en la sección `Zonas DNS`{.action} del área de cliente de OVHcloud.<br><br>O bien, la pestaña `Zona DNS`{.action} de su nombre de dominio se muestra de la siguiente manera:<br><br>![zone-without-domain-top-of-the-page](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/zone-without-domain-top-of-the-page.png){.thumbnail}|Esto significa que su nombre de dominio no se gestiona desde el área de cliente de OVHcloud.<br><br><br>Determine su "registro" a través de nuestra herramienta [WHOIS](/links/web/domains-whois) y los servidores DNS a los que está asociado. <br><br>Encuentre y modifique la zona DNS en cuestión siguiendo la sección dedicada de la guía "[Alojar varios sitios web en un mismo hosting - añadir un dominio externo](/pages/web_cloud/web_hosting/multisites_configure_multisite)".|
 |Esta advertencia aparece en la pestaña `Zona DNS`{.action}:<br><br>![advertencia_zonedns_pas_sur_srv_dns](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/message-other-ovh-dns-servers.png){.thumbnail}|Por lo tanto, deberá modificar los servidores DNS de su dominio siguiendo nuestra guía "[Modificar los servidores DNS de un dominio de OVHcloud](/pages/web_cloud/domains/dns_server_edit)."|
 
 ## Más información <a name="go-further"></a>
