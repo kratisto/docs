@@ -1,7 +1,7 @@
 ---
 title: 'VMware on OVHcloud maintenance operations (EN)' 
 excerpt: 'Find out more about the operations carried out to ensure the reliability and performance of your Hosted Private Cloud VMware on OVHcloud equipment' 
-updated: 2025-04-18
+updated: 2025-04-29
 ---
 
 > [!success]
@@ -152,7 +152,7 @@ To get the details of each robot, run the following API call:
 
 | Purpose | Reason | Preventive instructions | Impact | Estimated duration | Frequency |
 |---------|--------|-------------------------|--------|--------------------|-----------|
-| ESXi software upgrade to the latest version offered by OVHcloud. This maintenance can install minor or major versions. | - OVHcloud lifecycle.<br><br> - Security patches. | During this maintenance, all hosts can be put into maintenance mode and all VMs can be evacuated automatically.<br><br> The customer must ensure that none of the following configurations prevent these actions: <br><br>- No ISO media or mounted devices.<br> - Anti-affinity rules.<br> - Any other element that may prevent a virtual machine to move or from being moved.<br> - Third-party products are compliant and compatible with the new ESXi version. | Hosts are set into maintenance mode : all virtual machines are automatically evacuated with vMotion.<br><br> - Hosts are rebooted.<br><br> - Before entering maintenance mode and rebooting each host, Control Plane is unavailable<sup>1</sup>. It becomes available after host reboots. | 00H30 per host | Based on the publisher lifecycle |
+| ESXi software upgrade to the latest version offered by OVHcloud. This maintenance can install minor or major versions. | - OVHcloud lifecycle.<br><br> - Security patches. | During this maintenance, all hosts can be put into maintenance mode and all VMs can be evacuated automatically.<br><br> The customer must ensure that none of the following configurations prevent these actions: <br><br>- No ISO media or mounted devices.<br> - Anti-affinity rules.<br> - Any other element that may prevent a virtual machine to move or from being moved.<br> - Third-party products are compliant and compatible with the new ESXi version. | Hosts are set into maintenance mode : all virtual machines are automatically evacuated with vMotion.<br><br> - Hosts are rebooted.<br><br> - Before entering maintenance mode and rebooting each host, Control Plane is unavailable<sup>1</sup>. It becomes available after host reboots. | 00H45 per host | Based on the publisher lifecycle |
 
 #### **maintenanceUpgradeVcenter**
 

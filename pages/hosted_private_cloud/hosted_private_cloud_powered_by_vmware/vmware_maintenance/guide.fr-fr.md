@@ -1,7 +1,7 @@
 ---
 title: 'VMware on OVHcloud - Les opérations de maintenance'
 excerpt: 'Apprenez-en plus sur les opérations effectuées pour assurer la fiabilité et la performance de vos équipements Hosted Private Cloud VMware on OVHcloud'
-updated: 2025-04-18
+updated: 2025-04-29
 ---
 
 > [!success]
@@ -153,7 +153,7 @@ Pour avoir le détail de chaque robot, exécutez l'appel API suivant :
 
 | Objectif | Raison | Instructions préventives | Impact | Durée approximative | Fréquence |
 |----------|--------|--------------------------|--------|---------------------|-----------|
-| Mise à niveau logicielle (upgrade) d'ESXi à la dernière version proposée par OVHcloud. Cette maintenance peut installer des versions mineures ou majeures | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Pendant cette maintenance, tous les hosts peuvent être mis en mode maintenance et toutes les machines virtuelles peuvent être évacuées automatiquement.<br> Le client doit s'assurer qu'aucune des configurations suivantes n'empêche cette action :<br><br> - Aucun media ISO ou périphérique monté.<br> - Règles d'anti-affinité.<br> - Tout autre élément susceptible d’empêcher le déplacement d’une machine virtuelle.<br> - Les produits tiers sont conformes et compatibles avec la nouvelle version ESXi. | - Une fois que les hosts sont en mode maintenance : toutes les machines virtuelles sont automatiquement évacuées avec vMotion.<br><br> - Les hosts sont redémarrés.<br><br>- Avant de passer en mode maintenance et de redémarrer chaque host, le Control Plane n'est pas disponible<sup>1</sup>. Il devient disponible après le redémarrage du host.| 00H30 par host | Basée sur le cycle de vie de l'éditeur |
+| Mise à niveau logicielle (upgrade) d'ESXi à la dernière version proposée par OVHcloud. Cette maintenance peut installer des versions mineures ou majeures | - Cycle de vie OVHcloud<br><br> - Patchs de sécurité | Pendant cette maintenance, tous les hosts peuvent être mis en mode maintenance et toutes les machines virtuelles peuvent être évacuées automatiquement.<br> Le client doit s'assurer qu'aucune des configurations suivantes n'empêche cette action :<br><br> - Aucun media ISO ou périphérique monté.<br> - Règles d'anti-affinité.<br> - Tout autre élément susceptible d’empêcher le déplacement d’une machine virtuelle.<br> - Les produits tiers sont conformes et compatibles avec la nouvelle version ESXi. | - Une fois que les hosts sont en mode maintenance : toutes les machines virtuelles sont automatiquement évacuées avec vMotion.<br><br> - Les hosts sont redémarrés.<br><br>- Avant de passer en mode maintenance et de redémarrer chaque host, le Control Plane n'est pas disponible<sup>1</sup>. Il devient disponible après le redémarrage du host.| 00H45 par host | Basée sur le cycle de vie de l'éditeur |
 
 #### **maintenanceUpgradeVcenter**
 
