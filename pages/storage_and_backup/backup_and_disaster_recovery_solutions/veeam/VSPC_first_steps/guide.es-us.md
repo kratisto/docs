@@ -1,7 +1,7 @@
 ---
 title: Getting started with VSPC
 excerpt: Discover Veeam Service Provider Console (VSPC), a cloud-enabled platform provided by Veeam that helps you manage backups and data protection
-updated: 2025-02-27
+updated: 2025-02-29
 ---
 
 > [!primary]
