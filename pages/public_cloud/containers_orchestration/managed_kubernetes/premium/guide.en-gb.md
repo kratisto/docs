@@ -101,7 +101,7 @@ openstack security group rule list default
 +--------------------------------------+-------------+-----------+-----------+------------+-----------+-----------------------+----------------------+
 ```
 
-For now it is recommended to leave these security rules as-is or the nodes could be disconnected from the cluster.
+For now it is recommended to leave these security rules in their "default" configuration or the nodes could be disconnected from the cluster.
 
 ### Reserved IP ranges
 
