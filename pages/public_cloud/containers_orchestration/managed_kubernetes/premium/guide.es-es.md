@@ -239,7 +239,7 @@ The following methods are supported to create an MKS Premium cluster:
 >>   private_network_id = "<OpenStack Network Id>"
 >>   nodes_subnet_id = "<Openstack Subnet Id>"
 >> }
->> resource "ovh_cloud_project_kube_nodepool" "node_pool" {
+>> resource "ovh_cloud_project_kube_nodepool" "node_pool_a" {
 >>   service_name  = var.service_name
 >>   kube_id       = ovh_cloud_project_kube.my_kube_cluster.id
 >>   name          = "my-pool-a-1"
