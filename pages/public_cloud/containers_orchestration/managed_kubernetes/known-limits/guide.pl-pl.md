@@ -1,7 +1,7 @@
 ---
 title: Known limits
 excerpt: 'Requirements and limits to respect'
-updated: 2025-02-17
+updated: 2025-04-30
 ---
 
 <style>
@@ -24,6 +24,9 @@ updated: 2025-02-17
      font-size: 0.75em;
  }
 </style>
+
+> [!primary]
+> This documentation covers the limitations of the Managed Kubernetes Service Standard Plan. For additional details on the Managed Kubernetes Service Premium plan, refer to the [following documentation](/pages/public_cloud/containers_orchestration/managed_kubernetes/premium).
 
 ## Nodes and pods
 
