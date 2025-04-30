@@ -1,7 +1,7 @@
 ---
 title: 'Deploying a GPU instance'
 excerpt: 'Find out how to deploy a GPU instance on Linux or Windows'
-updated: 2024-07-17
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -33,7 +33,7 @@ All the images we offer can be used on a GPU instance.
 > If you don’t feel comfortable with manually compiling a kernel module, we recommend using a distribution that is officially supported by Nvidia and for which they provide *turnkey* drivers: <https://developer.nvidia.com/cuda-downloads>.
 > 
 
-Once you have logged in to [your OVHcloud Control Panel](/links/manager), go to your Public Cloud project and click on `Instances`{.action} in the left-hand menu under the **Compute** tab. Next, click on `Create an instance`{.action} and choose a compatible GPU instance:
+Once you have logged in to [your OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Click on `Instances`{.action} in the left-hand menu under the **Compute** tab. Next, click on `Create an instance`{.action} and choose a compatible GPU instance:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 
@@ -103,7 +103,7 @@ We offer special images, based on a virtual UEFI BIOS, which allow the driver to
 > We only offer the possiblity to install the special images on a few selected models (T1-45, T1-90, T1-180, T2-45, T2-90, T2-180). Additionally, depending on the region selected, these special images may not be available.
 >
 
-Once you have logged in to [your OVHcloud Control Panel](/links/manager), go to your Public Cloud project and click on `Instances`{.action} in the left-hand menu under the **Compute** tab. Next, click on `Create an instance`{.action} and choose a compatible GPU instance:
+Once you have logged in to [your OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Click on `Instances`{.action} in the left-hand menu under the **Compute** tab. Next, click on `Create an instance`{.action} and choose a compatible GPU instance:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 

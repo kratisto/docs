@@ -1,7 +1,7 @@
 ---
 title: 'Utilizar los alias y redirecciones de correo'
 excerpt: 'Cómo gestionar los alias y redirecciones de correo'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -145,7 +145,7 @@ Inicie sesión en el [área de cliente de OVHcloud](/links/manager) y acceda al 
 
 - **Exchange**: en `Microsoft`{.action}, luego en `Exchange`{.action} y seleccione la plataforma correspondiente. Haga clic en la pestaña `Cuentas de correo`{.action}.
 
-- **Emails** (MX plan): en `Correo electrónico`{.action}, seleccione la plataforma correspondiente y haga clic en la pestaña `Cuentas de correo`{.action}.
+- **MX Plan**: en `MX Plan`{.action}, seleccione la plataforma correspondiente y haga clic en la pestaña `Cuentas de correo`{.action}.
 
 Para añadir un alias a su cuenta de correo, siga los pasos descritos haciendo clic en cada pestaña:
 

@@ -1,7 +1,7 @@
 ---
 title: "Ogranicz dostęp przez IP do Panelu klienta OVHcloud"
 excerpt: "Dowiedz się, jak zabezpieczyć Twoje konto OVHcloud ograniczając dostęp do adresów IP"
-updated: 2022-12-12
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -51,9 +51,7 @@ Jeśli używasz sieci 4G/5G jako uzupełnienie, pamiętaj o pobraniu również a
 
 ### Etap 2 - Wprowadzenie ograniczenia dostępu dla adresu IP
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl). Kliknij na Twoje `nazwisko i imię` w prawym górnym rogu **następnie** na Twoje `tim` w niebieskiej kolumnie, która pojawi się po prawej stronie.
-
-![Access from Manager](images/ip1.png){.thumbnail}
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Dostęp do konta`{.action}.
 
 Następnie kliknij zakładkę `Bezpieczeństwo`{.action}, aby przejść na następującą stronę:
 

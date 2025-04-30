@@ -1,7 +1,7 @@
 ---
 title: Ridimensiona un'istanza dallo Spazio Cliente OVHcloud
 excerpt: Ridimensiona un'istanza dallo Spazio Cliente OVHcloud
-updated: 2022-08-24
+updated: 2025-04-24
 ---
 
 > [!primary]

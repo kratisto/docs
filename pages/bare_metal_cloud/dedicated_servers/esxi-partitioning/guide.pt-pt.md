@@ -1,7 +1,7 @@
 ---
 title: Dedicated Servers - ESXi Partitioning
 excerpt: Use the OVHcloud Control Panel or the OVHcloud API to customise ESXi system partitions
-updated: 2025-02-25
+updated: 2025-04-29
 ---
 
 > [!warning]
@@ -70,12 +70,6 @@ The `default` partitioning scheme will be used unless another one is selected.
 Log in to the [OVHcloud Control Panel](/links/manager). From the `General information`{.action} tab, click the `...`{.action} button next to the operating system and then click `Install`{.action}.
 
 ![Reinstall button](images/reinstalling-your-server-00.png){.thumbnail}
-
-In the popup window, select `Install from an OVHcloud template`{.action}
-
-Click `Next`{.action} to continue.
-
-![Template selection](images/reinstalling-your-server-01.png){.thumbnail}
 
 Then choose `Virtualisation`{.action}, `UNIX`{.action} and select the version of ESXi you want to install on your dedicated server.
 

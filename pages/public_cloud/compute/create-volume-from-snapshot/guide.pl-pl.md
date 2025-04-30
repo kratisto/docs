@@ -1,7 +1,7 @@
 ---
 title: Tworzenie wolumenu z kopii zapasowej
 excerpt: Dowiedz się, jak utworzyć dodatkowe dyski na podstawie kopii zapasowej dodatkowego dysku
-updated: 2021-04-06
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -31,7 +31,7 @@ Może to być przydatne w następujących przypadkach:
 
 ### Utwórz dysk z kopii zapasowej
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Volume Snapshot`{.action} na pasku nawigacji po lewej stronie w `Storage`.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Snapshoty wolumenów`{.action} na pasku nawigacji po lewej stronie w **Storage i Backup**.
 
 Po prawej stronie wybranej kopii zapasowej kliknij przycisk `...`{.action} a następnie `Utwórz wolumen`{.action}.
 
@@ -45,7 +45,7 @@ Utworzenie dysku może zająć kilka minut, w zależności od jego rozmiaru.
 
 ### Przypisz dysk do instancji
 
-Po utworzeniu dysku możesz zadecydować o przypisaniu go do instancji. W tym celu kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie `Storage`.
+Po utworzeniu dysku możesz zadecydować o przypisaniu go do instancji. W tym celu kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie **Storage i Backup**.
 
 Po prawej stronie wybranego wolumenu kliknij przycisk `...`{.action}, a następnie `Przypisz do instancji`{.action}.
 

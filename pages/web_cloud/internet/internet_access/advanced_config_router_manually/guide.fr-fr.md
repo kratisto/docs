@@ -1,7 +1,7 @@
 ---
 title: 'Configurer un routeur manuellement'
 excerpt: 'Découvrez comment configurer votre accès Internet OVHcloud sur votre propre routeur'
-updated: 2024-01-10
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -40,8 +40,8 @@ Si vous utilisez votre propre modem/routeur, vous pouvez utiliser les API OVHclo
 Le profil de votre accès est disponible sur l'espace client. Pour le retrouver, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 
 ![serviceName dans espace client](images/servicename-2022.png){.thumbnail}
 

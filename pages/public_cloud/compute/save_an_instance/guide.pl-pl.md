@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie kopii zapasowej instancji'
 excerpt: 'Dowiedz się, jak utworzyć kopię zapasową instancji Public Cloud w Panelu klienta OVHcloud'
-updated: 2024-07-03
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -27,7 +27,7 @@ Możesz utworzyć kopię zapasową instancji lub skonfigurować harmonogram, aby
 > Ta opcja jest dostępna tylko przez **Cold Snapshot** dla instancji Metal. Instancja Metal przejdzie do trybu Rescue. Po wykonaniu kopii zapasowej instancja zostanie zrestartowana w trybie normalnym.
 >
 
-Zaloguj się do [Panelu client OVHcloud](/links/manager) i otwórz swój projekt `Public Cloud`{.action}. Następnie kliknij `Instances`{.action} w menu po lewej stronie.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Instancje`{.action} w menu po lewej stronie.
 
 Kliknij przycisk `...`{.action} po prawej stronie instancji i wybierz `Utwórz kopię zapasową`{.action}.
 
@@ -37,11 +37,11 @@ Wpisz nazwę kopii zapasowej na następnej stronie. Zapoznaj się z informacjami
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-Nie jest możliwe monitorowanie postępu tworzenia kopii zapasowej w czasie rzeczywistym. Jednak w sekcji `Instance Backup`{.action} pod `Storage`{.action} w menu po lewej stronie, status `Trwa tworzenie kopii` będzie wyświetlany podczas procesu.
+Nie jest możliwe monitorowanie postępu tworzenia kopii zapasowej w czasie rzeczywistym. Jednak w sekcji `Instance Backup`{.action} pod **Compute** w menu po lewej stronie, status `Trwa tworzenie kopii` będzie wyświetlany podczas procesu.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Po utworzeniu kopii zapasowej będzie ona dostępna w sekcji `Instance Backup`{.action} pod `Storage`{.action} w menu po lewej stronie.
+Po utworzeniu kopii zapasowej będzie ona dostępna w sekcji `Instance Backup`{.action} pod **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Wprowadź nazwę do automatycznego planowania tworzenia kopii zapasowych. Zapozn
 
 ### Zarządzanie kopiami zapasowymi i planami
 
-Planowanie może zostać utworzone i usunięte w sekcji `Workflow Management`{.action}, która znajduje się pod `Storage`{.action} w menu po lewej stronie.
+Planowanie może zostać utworzone i usunięte w sekcji `Workflow Management`{.action}, która znajduje się pod **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Kopie zapasowe instancji są zarządzane w sekcji `Instance Backup`{.action}, która znajduje się pod rubryką `Storage`{.action} w menu po lewej stronie.
+Kopie zapasowe instancji są zarządzane w sekcji `Instance Backup`{.action}, która znajduje się pod rubryką **Compute** w menu po lewej stronie.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

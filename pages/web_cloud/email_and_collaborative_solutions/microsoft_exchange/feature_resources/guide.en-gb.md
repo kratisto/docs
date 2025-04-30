@@ -1,7 +1,7 @@
 ---
 title: 'Using resource accounts'
 excerpt: 'Find out how to create and manage resource accounts'
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -18,7 +18,11 @@ This Exchange collaborative feature enables the creation of email addresses dedi
 
 ## Instructions
 
-Log in to your [OVHcloud Control Panel](/links/manager) and select `Web Cloud`{.action} in the top navigation bar. Click `Microsoft`{.action}, then `Exchange`{.action}. Next, select the Exchange service concerned. Click on `More +`{.action} in the horizontal menu, then on `Resources`{.action}.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. In the `MICROSOFT` section, click `Exchange`{.action}.
+1. Select the service concerned.
+1. Click on `More +`{.action} in the horizontal menu, then on `Resources`{.action}.
 
 ### Step 1: Creating a resource
 

@@ -1,7 +1,7 @@
 ---
 title: Reverse DNS einer Public Cloud Instanz konfigurieren
 excerpt: Erfahren Sie hier, wie Sie die Reverse DNS-Auflösung Ihrer Public Cloud Instanz bearbeiten
-updated: 2024-06-10
+updated: 2025-04-24
 ---
 
 ## Ziel
@@ -14,13 +14,13 @@ Die Konfiguration der umgekehrten DNS-Auflösung für eine Public Cloud Instanz 
 
 ## Voraussetzungen
 
-- Sie haben eine [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/) in Ihrem Kunden-Account.
+- Sie haben eine [Public Cloud Instanz](/links/public-cloud/public-cloud) in Ihrem Kunden-Account.
 - Sie verfügen über einen Domainnamen, dessen `A`-Eintrag die Instanz als Ziel hat.
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein. Wechseln Sie zum Bereich `Bare Metal Cloud`{.action} und öffnen Sie `Network`{.action}. Klicken Sie dann auf `IP`{.action}.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein. Wechseln Sie zum Bereich `Network`{.action} und klicken Sie dann auf `Öffentlichen IP-Adressen`{.action}.
 
 Im Dropdown-Menü unter **Meine öffentlichen IP-Adressen und dazugehörigen Dienste** können Sie Ihre Dienste nach Kategorien filtern.
 

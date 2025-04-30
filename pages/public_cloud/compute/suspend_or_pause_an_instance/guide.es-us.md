@@ -1,6 +1,6 @@
 ---
 title: Suspender o poner en pausa una instancia
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Objetivo
@@ -48,7 +48,7 @@ Esta opción le permitirá liberar los recursos dedicados a su instancia de Publ
 
 #### Desde al área de cliente de OVHcloud.
 
-Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instances`{.action} en el menú de la izquierda.
+Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instancias`{.action} en el menú de la izquierda.
 
 Haga clic en el botón `...`{.action} a la derecha de la instancia que desea suspender, y luego haga clic en `Suspender`{.action}.
 
@@ -62,7 +62,7 @@ Una vez finalizado el proceso, su instancia se mostrará como *Suspendida*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-El snapshot estará entonces disponible en la sección `Instance Backup`{.action} del menú `Storage` a la izquierda del espacio Public Cloud. Aparecerá un snapshot llamado *xxxxx-shelved*:
+El snapshot estará entonces disponible en la sección `Instance Backup`{.action} del menú **Compute** a la izquierda del espacio Public Cloud. Aparecerá un snapshot llamado *xxxxx-shelved*:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 
@@ -120,7 +120,7 @@ Esta opción le permite reiniciar su instancia para poder seguir utilizándola. 
 
 #### Desde al área de cliente de OVHcloud.
 
-Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instances`{.action} en el menú de la izquierda.
+Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instancias`{.action} en el menú de la izquierda.
 
 Haga clic en el botón `...`{.action} a la derecha de la instancia, y luego haga clic en `Reactivar`{.action}.
 
@@ -156,7 +156,7 @@ Esta opción le permitirá detener su instancia y almacenar el estado de la máq
 
 #### Desde al área de cliente de OVHcloud.
 
-Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instances`{.action} en el menú de la izquierda.
+Conéctese al área de cliente de OVHcloud, acceda a la sección Public Cloud y seleccione el proyecto correspondiente. Clic en `Instancias`{.action} en el menú de la izquierda.
 
 Haga clic en el botón `...`{.action} a la derecha de la instancia, y luego haga clic en `Detener`{.action}.
 

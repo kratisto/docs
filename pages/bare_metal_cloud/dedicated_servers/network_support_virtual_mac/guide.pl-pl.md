@@ -1,7 +1,7 @@
 ---
 title: Ustalenie, czy funkcja wirtualnych adresów MAC jest obsługiwana na serwerze dedykowanym
 excerpt: Dowiedz się, jak sprawdzić, czy działanie wirtualnych adresów MAC jest obsługiwane na serwerze dedykowanym przez API OVHcloud
-updated: 2021-12-09
+updated: 2025-04-28
 ---
 
 > [!primary]

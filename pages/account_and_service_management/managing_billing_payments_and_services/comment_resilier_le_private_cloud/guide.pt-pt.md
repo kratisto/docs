@@ -6,13 +6,13 @@ updated: 2020-07-08
 
 ## Objetivo
 
-Se a sua oferta de Hosted Private Cloud já não lhe convier, ou se encomendou uma nova infraestrutura para substituir a antiga, pode solicitar a rescisão da infraestrutura depois de recuperar todos os seus dados.
+Se à sua oferta de Hosted Private Cloud já não lhe convier, ou se encomendou uma nova infraestrutura para substituir a antiga, pode solicitar a rescisão da infraestrutura depois de recuperar todos os seus dados.
 
 **Saiba como solicitar a rescisão de uma oferta Hosted Private Cloud** 
 
 ## Requisitos
 
-- Estar ligado à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external} e aceder à secção `Hosted Private Cloud`{.action} e, depois, `Private Cloud`{.action}.
+- Estar ligado à [Área de Cliente OVHcloud](/links/manager){.external} e aceder à secção `Hosted Private Cloud`{.action} e, depois, `Private Cloud`{.action}.
 - Ter um produto [Hosted Private Cloud](https://www.ovhcloud.com/pt/enterprise/products/hosted-private-cloud/){.external}.
 
 ## Instruções
@@ -21,12 +21,12 @@ A oferta Hosted Private Cloud não tem compromisso. No entanto, tal como indicad
 
 >[!warning]
 >
-> Antes de rescindir a sua oferta, não se esqueça de recuperar todos os dados que pretende conservar. De facto, a rescisão provocará a supressão integral do seu Hosted Private Cloud e de todos os dados lá armazenados.
+> Antes de rescindir à sua oferta, não se esqueça de recuperar todos os dados que pretende conservar. De facto, a rescisão provocará a supressão integral do seu Hosted Private Cloud e de todos os dados lá armazenados.
 >
 
 ### 1 - Solicitar a rescisão através da Área de Cliente OVHcloud
 
-Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, dirija-se à secção `Hosted Private Cloud`{.action} (1), clique em `Private Cloud`{.action} (2) e selecione a sua oferta na lista (3).
+Aceda à [Área de Cliente OVHcloud](/links/manager){.external}, dirija-se à secção `Hosted Private Cloud`{.action} (1), clique em `Private Cloud`{.action} (2) e selecione à sua oferta na lista (3).
 
 Na tabela «Gestão do serviço» do separador «Informações gerais», clique no botão `...`{.action} (4) à direita da data de renovação. Clique em `Eliminar o serviço`{.action} (5).
 
@@ -46,9 +46,9 @@ Ser-lhe-á apresentada uma notificação de confirmação do seu pedido. O proce
 
 No seguimento do seu pedido, ser-lhe-á enviado um e-mail de confirmação para o endereço associado à conta OVHcloud. 
 
-Também poderá encontrar este e-mail na sua Área de Cliente OVHcloud. Clique no seu nome na parte superior à direita > `E-mails de serviço`{.action}.
+Também poderá encontrar este e-mail na sua Área de Cliente OVHcloud. Clique no seu nome na parte superior à direita > `As minhas comunicações`{.action}.
 
-![validação rescisão](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![validação rescisão](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 O assunto do e-mail será:
 

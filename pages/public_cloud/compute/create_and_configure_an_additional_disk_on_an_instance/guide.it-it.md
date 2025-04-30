@@ -1,7 +1,7 @@
 ---
 title: 'Crea e configura un disco aggiuntivo sulla tua istanza'
 excerpt: 'Come associare un nuovo volume alla tua istanza Public Cloud'
-updated: 2024-12-24
+updated: 2025-04-24
 ---
 
 <style>
@@ -84,7 +84,7 @@ La generazione 2 dei volumi High Speed è ottimizzata per i workload più esigen
 
 > [!tabs]
 > **Dallo Spazio Cliente OVHcloud**
->> Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto. Poi apri `Block Storage`{.action} nel menu a sinistra.
+>> Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Public Cloud`{.action} e seleziona il tuo progetto. Poi apri `Block Storage`{.action} nel menu a sinistra sotto **Storage e Backup**.
 >>
 >> In questa sezione clicca sul pulsante `Crea un volume`{.action}.
 >>
@@ -558,7 +558,7 @@ Infine, scollegheremo il volume dell’istanza:
 
 > [!tabs]
 > **Dallo Spazio Cliente OVHcloud**
->> Accedi alla sezione `Public Cloud`{.action} dello Spazio Cliente e clicca su `Block Storage`{.action} nel menu a sinistra **Storage**.
+>> Accedi alla sezione `Public Cloud`{.action} dello Spazio Cliente e clicca su `Block Storage`{.action} nel menu a sinistra sotto **Storage e Backup**.
 >>
 >> Clicca sui `...`{.action} in corrispondenza del volume corrispondente e seleziona `Scollega dall'istanza`{.action}.
 >>

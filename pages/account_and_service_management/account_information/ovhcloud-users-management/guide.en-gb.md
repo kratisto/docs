@@ -1,7 +1,7 @@
 ---
 title: 'Creating and managing local users on an OVHcloud account'
 excerpt: 'Find out how to add local users from your OVHcloud account'
-updated: 2024-06-25
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -20,7 +20,7 @@ With OVHcloud, you can create additional local users with read or write access t
 ## Requirements
 
 - An active OVHcloud account
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -32,13 +32,9 @@ Local users are one of the types of identities that can be set up on your OVHclo
 
 #### Add a user
 
-Click your account name in the top-right corner, then on your name again in the sidebar.
+Log in to your [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `Access my account`{.action}.
 
-![Access to the IAM menu](images/access_to_the_IAM_menu_01.png){.thumbnail}
-
-You can access the IAM menu via the dedicated entry in your Control Panel.
-
-![Access to the IAM menu](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
+In the **Shortcuts** box, click on the `Manage my users`{.action} tab.
 
 Then click on the `Identities`{.action} tab to access local users management.
 
@@ -72,7 +68,7 @@ Example: **1234-567-89/johnsmith**.
 
 ![users-management](images/usersmanagement3.png){.thumbnail}
 
-The user you have created can then log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) using this ID. 
+The user you have created can then log in to the [OVHcloud Control Panel](/links/manager) using this ID. 
 
 They can also change their password and secure their own access to your account by enabling two-factor authentication (this is only for their access as a user). To find out how to enable two-factor authentication, you can refer to [this guide](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa).
 

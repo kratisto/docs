@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Utilização de grupos de difusão (mailing lists)'
 excerpt: 'Saiba como gerir grupos de difusão (mailing lists) no Exchange'
-updated: 2024-11-12
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -20,9 +20,8 @@ Os grupos Exchange permitem que vários participantes comuniquem ao enviarem ema
 ### Passo 1: Criar um novo grupo
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
-1. Clique no separador `Web Cloud`{.action}.
-1. Clique na rubrica `Microsoft`{.action}.
-1. Clique em `Exchange`{.action}.
+1. Aceda à secção `Web Cloud`{.action}.
+1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
 1. Selecione a plataforma em causa.
 1. De seguida clique em `Grupos`{.action}, no menu horizontal.
 

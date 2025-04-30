@@ -1,7 +1,7 @@
 ---
 title: "Limitar o acesso por IP à Área de Cliente OVHcloud"
 excerpt: "Saiba como proteger a sua conta OVHcloud limitando os endereços IP autorizados a aceder à mesma"
-updated: 2022-12-12
+updated: 2025-04-28
 ---
   
 ## Objetivo
@@ -51,9 +51,7 @@ Se utilizar uma rede 4G/5G em complemento, não se esqueça de recuperar também
 
 ### Etapa 2 - Implementar uma restrição de acesso por IP
 
-Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt). Clique no seu `nome e apelido` no canto superior direito **e** nos seus `iniciais` na coluna azul que aparece à direita.
-
-![Access from Manager](images/ip1.png){.thumbnail}
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Aceder à minha conta`{.action}.
 
 A seguir, clique no separador `Segurança`{.action} para chegar à seguinte página:
 

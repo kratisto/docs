@@ -33,7 +33,7 @@ Utilize esta chamada para criar o carrinho:
 > @api {v1} /order POST /order/cart
 >
 
-Queira escolher a sua filial da API OVHcloud. Na resposta, tome nota do número do carrinho ("cartId"); será necessário identificar este carrinho.
+Queira escolher à sua filial da API OVHcloud. Na resposta, tome nota do número do carrinho ("cartId"); será necessário identificar este carrinho.
 
 De seguida, deverá adicionar um projeto Public Cloud como um artigo. Utilize esta chamada com o seu "cartId" para verificar a disponibilidade do serviço:
 
@@ -115,7 +115,7 @@ Pode verificar o conteúdo do seu carrinho através do "CartId":
 > @api {v1} /order GET /order/cart/{cartId}/checkout
 >
 
-A seguinte chamada permite-lhe criar um link para a sua encomenda. A casa correspondente deve ser assinalada em primeiro lugar, a fim de renunciar ao direito de retratação.
+A seguinte chamada permite-lhe criar um link para à sua encomenda. A casa correspondente deve ser assinalada em primeiro lugar, a fim de renunciar ao direito de retratação.
 
 > [!api]
 >

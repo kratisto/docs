@@ -1,7 +1,7 @@
 ---
 title: "Come creare un’istanza Public Cloud e connettersi"
 excerpt: "Scopri come configurare le istanze Public Cloud nello Spazio Cliente OVHcloud e come iniziare a utilizzare le istanze"
-updated: 2024-10-07
+updated: 2025-04-24
 ---
 
 <style>
@@ -118,9 +118,9 @@ Le chiavi SSH pubbliche possono essere archiviate nella sezione `Public Cloud`{.
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
-Apri `SSH Keys`{.action} nel menu a sinistra sotto **Project Management**. Clicca sul pulsante `Aggiungi una chiave SSH`{.action}.
+Apri `Chiavi SSH`{.action} nel menu a sinistra sotto **Impostazioni**. Clicca sul pulsante `Aggiungi una chiave SSH`{.action}.
 
 ![ssh keys](/pages/assets/screens/control_panel/product-selection/public-cloud/cp_pci_sshkeys.png){.thumbnail}
 
@@ -174,7 +174,7 @@ Per maggiori informazioni, consulta la [pagina Web des Local Zones](/links/publi
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 Nella pagina "**Home**", clicca su `Crea un’istanza`{.action}.
 
@@ -194,7 +194,7 @@ I modelli di istanza di tipo `Metal`{.action} forniscono risorse fisiche dedicat
 
 > [!primary]
 >
-> Le risorse Public Cloud inizialmente saranno limitate per motivi di controllo dei costi e di sicurezza. È possibile verificare queste quote cliccando su `Quota and Regions`{.action} nella barra di navigazione a sinistra sotto **Project Management**. Per ulteriori informazioni, consultare [la documentazione dedicata](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).
+> Le risorse Public Cloud inizialmente saranno limitate per motivi di controllo dei costi e di sicurezza. È possibile verificare queste quote cliccando su `Quota e Region`{.action} nella barra di navigazione a sinistra sotto **Impostazioni**. Per ulteriori informazioni, consultare [la documentazione dedicata](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota).
 >
 > Notare che è possibile **aggiornare** l'istanza dopo la sua creazione per avere più risorse disponibili. Tuttavia, con un'istanza regolare non è possibile passare a un modello più piccolo. Per maggiori informazioni su questo argomento, consulta lo **step 4.4** riportato di seguito.
 >
@@ -403,7 +403,7 @@ Ti ricordiamo che in OVHcloud sono disponibili metodi di accesso alternativi (ut
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-![spazio cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![spazio cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 Seleziona `Istanze`{.action} nella barra di navigazione a sinistra sotto **Compute**. La tua istanza è pronta quando lo stato è impostato su `Attivato` nella tabella. Se l’istanza è stata creata di recente e ha uno stato diverso, clicca sul pulsante "Aggiorna" accanto al filtro di ricerca.
 
@@ -541,7 +541,7 @@ La console VNC ti permette di connetterti alle tue istanze anche quando non sono
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-![spazio cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![spazio cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 Seleziona `Istanze`{.action} nella barra di navigazione a sinistra sotto **Compute**. Clicca sul nome dell’istanza e apri la scheda `Console VNC`{.action}.
 

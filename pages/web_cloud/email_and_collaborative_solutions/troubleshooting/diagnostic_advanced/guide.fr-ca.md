@@ -1,7 +1,7 @@
 ---
 title: 'Envoi ou réception des e-mails impossible'
 excerpt: "Découvrez comment réagir en cas de dysfonctionnement à l'envoi ou la réception des e-mails chez OVHcloud"
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -36,7 +36,7 @@ Voici comment vérifier que vos services sont bien opérationnels :
 
 - Pour votre **nom de domaine**, dirigez-vous dans la section `Web Cloud`{.action}, cliquez sur `Noms de domaine`{.action}, puis sélectionnez votre nom de domaine. Si votre nom de domaine est expiré, cela vous sera indiqué en haut de la page.
 - Pour votre **Hébergement Web**, dirigez-vous dans la section `Web Cloud`{.action}, cliquez sur `Hébergements`{.action}, puis sélectionnez votre hébergement. La date d'expiration ou de renouvellement automatique de votre hébergement sera indiquée en haut de la page.
-- Pour une offre **E-mail**, dirigez-vous dans la section `Web Cloud`{.action}, cliquez sur `E-mails`{.action}, puis sélectionnez le nom de domaine concerné. Cliquez sur l'onglet `Comptes e-mail`{.action}. Vérifiez l'état du compte e-mail concerné dans la colonne `Statut`.
+- Pour une offre **E-mail**, dirigez-vous dans la section `Web Cloud`{.action}, cliquez sur `MX Plan`{.action}, puis sélectionnez le nom de domaine concerné. Cliquez sur l'onglet `Comptes e-mail`{.action}. Vérifiez l'état du compte e-mail concerné dans la colonne `Statut`.
 - Pour une offre **Exchange**, dirigez-vous dans la section `Web Cloud`{.action}, cliquez sur `Microsoft`{.action}, puis cliquez sur `Exchange`{.action} et sélectionnez votre plateforme. Cliquez sur l'onglet `Comptes e-mail`{.action}. Vérifiez l'état du compte e-mail concerné dans la colonne `Statut`.
 
 ### Je ne parviens pas à envoyer d'e-mails depuis mon logiciel de messagerie (**envoi** et/ou **réception**)

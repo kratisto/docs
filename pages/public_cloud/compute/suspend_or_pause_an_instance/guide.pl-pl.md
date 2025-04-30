@@ -1,6 +1,6 @@
 ---
 title: Wstrzymanie lub uśpienie instancji
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Wprowadzenie
@@ -48,7 +48,7 @@ Ta opcja pozwoli Ci zwolnić zasoby dedykowane Twojej instancji Public Cloud, al
 
 #### W Panelu klienta OVHcloud
 
-W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instances`{.action} w menu bocznym po lewej stronie.
+W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instancje`{.action} w menu bocznym po lewej stronie.
 
 Kliknij przycisk `...`{.action} po prawej stronie instancji, którą chcesz zawiesić, a następnie `Zawieś`{.action}.
 
@@ -62,7 +62,7 @@ Po ukończeniu procesu Twoja instancja będzie wyświetlana jako *Zawieszona*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-Migawka będzie wówczas dostępna w sekcji `Instance Backup`{.action} w menu `Storage` po lewej stronie przestrzeni Public Cloud. Migawka o nazwie *xxxxx-shelved* będzie wtedy widoczna:
+Migawka będzie wówczas dostępna w sekcji `Instance Backup`{.action} w menu **Compute** po lewej stronie przestrzeni Public Cloud. Migawka o nazwie *xxxxx-shelved* będzie wtedy widoczna:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 
@@ -120,7 +120,7 @@ Ta opcja pozwoli Ci na ponowne utworzenie instancji, abyś mógł z niej nadal k
 
 #### W Panelu klienta OVHcloud
 
-W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instances`{.action} w menu bocznym po lewej stronie.
+W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instancje`{.action} w menu bocznym po lewej stronie.
 
 Kliknij przycisk `...`{.action} po prawej stronie instancji, a następnie wybierz opcję `Przywróć`{.action}.
 
@@ -156,7 +156,7 @@ Ta opcja pozwoli na zamknięcie instancji i zapisanie stanu VM na dysku, a pami�
 
 #### W Panelu klienta OVHcloud
 
-W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instances`{.action} w menu bocznym po lewej stronie.
+W Panelu klienta OVHcloud kliknij menu sekcji `Public Cloud`{.action}, wybierz projekt Public Cloud i kliknij pozycję `Instancje`{.action} w menu bocznym po lewej stronie.
 
 Kliknij przycisk `...`{.action} po prawej stronie instancji, którą chcesz zatrzymać, a następnie `Zatrzymaj`{.action}.
 

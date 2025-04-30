@@ -1,7 +1,7 @@
 ---
 title: 'Primeiros passos com a solução E-mail Pro'
 excerpt: 'Saiba como configurar o serviço E-mail Pro.'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 ## Sumário
@@ -25,7 +25,7 @@ Assim que o serviço E-mail Pro for criado e estiver disponível:
 
 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
 1. Clique no separador `Web Cloud`{.action}.
-1. Clique em `E-mails Pro`{.action}.
+1. Clique em `Email Pro`{.action}.
 1. Selecione a plataforma em causa.
 
 > [!primary]
@@ -170,7 +170,7 @@ Se desejar associar o seu endereço de e-mail a um software de correio eletróni
 >
 > No nosso exemplo, utilizamos a referência servidor: pro?.mail.ovh.net. Deve substituir o "?" pelo algarismo que designa o servidor do seu serviço E-mail Pro.
 >
-> Encontre esse algarismo na [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action}, em `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> Encontre esse algarismo na [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action}, em `Email Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
 >
 
 ## Quer saber mais?

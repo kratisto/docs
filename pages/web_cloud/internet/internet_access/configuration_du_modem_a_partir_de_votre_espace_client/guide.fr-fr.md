@@ -1,7 +1,7 @@
 ---
 title: "Configurer sa box à partir de l'espace client OVHcloud"
 excerpt: "Découvrez comment paramétrer à distance votre box OVHcloud depuis l'espace client"
-updated: 2024-11-20
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -23,8 +23,8 @@ Afin de faciliter la gestion de votre accès à Internet, vous avez la possibili
 ### Étape 1 : modifier la gestion de votre box
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet Fibre ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Positionnez-vous alors sur l'onglet `Mon modem`{.action}.
 
 > [!warning]

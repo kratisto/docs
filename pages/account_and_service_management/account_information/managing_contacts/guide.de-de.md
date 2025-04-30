@@ -1,7 +1,7 @@
 ---
 title: 'Die Kontakte Ihrer Dienste verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Kontakte Ihrer OVHcloud Dienste verwalten'
-updated: 2024-02-16
+updated: 2025-04-28
 ---
 
 > [!warning]
@@ -24,13 +24,13 @@ Es gibt drei Arten von Kontakten:
 - **Der technische Kontakt** verwaltet ausschließlich die technischen Aspekte eines Dienstes.
 - **Der Rechnungskontakt** verwaltet lediglich die mit der Abrechnung eines Dienstes zusammenhängenden Aspekte. Dieser Kontakt erhält die Benachrichtigungen zur Dienstverlängerung. 
 
-Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E-Mail erhalten, nachdem Ihr Account bei OVHcloud erstellt wurde. Sie besteht in der Regel aus zwei Buchstaben gefolgt von Ziffern. Zum Beispiel: **xx11111-ovh**. Wenn Sie Dienste bestellen, wird ihnen diese Kennung als Kontakt zugewiesen.
+Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E-Mail erhalten, nachdem Ihr Account bei OVHcloud erstellt wurde. Sie besteht in der Regel aus zwei Buchstaben gefolgt von Ziffern. Zum Beispiel: **aa00000-ovh**. Wenn Sie Dienste bestellen, wird ihnen diese Kennung als Kontakt zugewiesen.
 
 ![Kontaktverwaltung](images/managing_contacts_scheme.png){.thumbnail}
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben Zugriff auf die E-Mail-Adresse Ihres Kunden-Accounts.
 - Sie verfügen über ausreichende Zugriffsrechte für den betreffenden Dienst.
 - Sie haben die Kundenkennung des neuen Kontakts (der Kontakt, für den Sie die Änderung durchführen möchten).
@@ -45,9 +45,9 @@ Die Kundenkennung (auch NIC-Handle) ist eine persönliche Kennung, die Sie per E
 
 ### Auf die Kontaktverwaltung zugreifen <a name="gestion_des_contacts"></a>
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein, klicken Sie oben rechts auf den zu Ihrer Kundenkennung gehörigen Namen und wählen Sie dann `Verwaltung der Kontakte`{.action} aus.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}.
 
-![Kontaktverwaltung](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
+![Kontaktverwaltung](/pages/assets/screens/control_panel/product-selection/right-menu/my-contacts.png){.thumbnail}
 
 In der angezeigten Tabelle können Sie die verschiedenen Dienste einsehen, für die Ihre Kundenkennung als Kontakt eingetragen ist.
 
@@ -86,7 +86,7 @@ Sie können lediglich eine andere Person an Ihrer Stelle als Rechnungskontakt er
 
 ### Bestätigung, Ablehnung oder Nachverfolgung einer Kontaktänderung
 
-Um aktuelle Änderungsanfragen zu verfolgen und zu verwalten, klicken Sie auf den Tab `Meine Anfragen`{.action}. Hier können Sie eine Anfrage annehmen oder ablehnen.
+Um aktuelle Änderungsanfragen zu verfolgen und zu verwalten, loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}. Klicken Sie auf den Tab `Meine Anfragen`{.action}. Hier können Sie eine Anfrage annehmen oder ablehnen.
 
 ![Kontaktverwaltung](images/managing_contacts_05.png){.thumbnail}
 
@@ -101,7 +101,7 @@ Sollte einer der Kontakte die E-Mail nicht erhalten haben, kann es sein, dass di
 
 ![Kontaktverwaltung](images/managing_contacts_06.png){.thumbnail}
 
-Wenn nur ein Kontakt die Änderung bestätigt hat, wird eine Meldung angezeigt, die Sie darüber informiert, dass die Bestätigung der Änderungsanfrage durch den anderen Kontakt noch nicht erfolgt ist. Wenn einer der Kontakte die Anfrage gerade erst bestätigt hat, dauert es ein paar Minuten, bis die Anzeige im [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) aktualisiert wird.
+Wenn nur ein Kontakt die Änderung bestätigt hat, wird eine Meldung angezeigt, die Sie darüber informiert, dass die Bestätigung der Änderungsanfrage durch den anderen Kontakt noch nicht erfolgt ist. Wenn einer der Kontakte die Anfrage gerade erst bestätigt hat, dauert es ein paar Minuten, bis die Anzeige im [OVHcloud Kundencenter](/links/manager) aktualisiert wird.
 
 ![Kontaktverwaltung](images/managing_contacts_007.png){.thumbnail}
 
@@ -113,7 +113,7 @@ Sie haben gerade einen OVHcloud Dienst abonniert, um Ihren eigenen [Onlineshop z
 
 > [!warning]
 >
-> Wir empfehlen, Dritten niemals die Zugangsdaten zu Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) zu überlassen.
+> Wir empfehlen, Dritten niemals die Zugangsdaten zu Ihrem [OVHcloud Kundencenter](/links/manager) zu überlassen.
 >
 
 Geben Sie in diesem Fall Ihrem Dienstleister die Rolle ["technischer Kontakt"](#gestion_des_contacts) für Ihr OVHcloud Webhosting. Dieser Zugang ermöglicht es, die für das Bereitstellen Ihrer Website notwendigen Änderungen vorzunehmen (Hinzufügen von Domain oder Subdomain zur Multisite, Installation eines 1-Klick-Moduls, Änderung von FTP- und Datenbank-Passwörtern, Erstellung von SSL-Zertifikaten, etc.).

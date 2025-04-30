@@ -1,7 +1,7 @@
 ---
 title: 'Crea/ripristina il tuo server virtuale da un backup'
 excerpt: 'Crea/ripristina il tuo server virtuale da un backup'
-updated: 2021-03-19
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -27,7 +27,7 @@ Ripristinare un’istanza utilizzando un backup è necessario, ad esempio, se ha
 
 ### Crea un’istanza a partire da un backup
 
-Accedi allo [Spazio Cliente](/links/manager) e seleziona `Public Cloud`{.action}. Seleziona il progetto Public Cloud in questione e clicca su `Instance Backup`{.action} nella sezione `Storage`.
+Accedi allo [Spazio Cliente](/links/manager) e seleziona `Public Cloud`{.action}. Seleziona il progetto Public Cloud in questione e clicca su `Instance Backup`{.action} nella sezione **Compute**.
 
 ![public-cloud-instance-backup](images/restorebackup01.png){.thumbnail}
 
@@ -56,7 +56,7 @@ Per maggiori informazioni sulla creazione di un’istanza, consulta [questa guid
 
 ### Ripristinare un’istanza a partire da un backup
 
-Accedi allo [Spazio Cliente[e seleziona `Public Cloud`{.action}. Clicca sulle `istanze`{.action} nel menu a sinistra.
+Accedi allo [Spazio Cliente](/links/manager) e seleziona `Public Cloud`{.action}. Seleziona il progetto Public Cloud in questione e clicca su `Istanze`{.action} nel menu a sinistra.
 
 ![public-cloud-instance-backup](images/restorebackup04.png){.thumbnail}
 

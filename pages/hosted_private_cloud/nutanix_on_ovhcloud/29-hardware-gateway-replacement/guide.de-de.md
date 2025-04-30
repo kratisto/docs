@@ -1,7 +1,7 @@
 ---
 title: Ersetzen des OVHgateway durch einen dedizierten Server (EN)
 excerpt: "How to replace your gateway integrated in Nutanix with a dedicated server to increase bandwidth"
-updated: 2024-11-26
+updated: 2025-04-29
 ---
 
   
@@ -98,10 +98,6 @@ We will now install a Linux Ubuntu 22 operating system from the OVH Control Pane
 Go to the menu of your dedicated server, click on the `General information`{.action} tab, then on the `...`{.action} to the right of the field 'Last operating system (OS) installed by OVHcloud'. Click `Install`{.action}
 
 ![05 install OS 01](images/05-install-os01.png){.thumbnail}
-
-Leave the selection on `Install from an OVHcloud template`{.action} and click `Next`{.action}.
-
-![05 install OS 02](images/05-install-os02.png){.thumbnail}
 
 Click the OS selection drop-down menu.
 

@@ -1,7 +1,7 @@
 ---
 title: Snapshot wolumenu instancji Public Cloud
 excerpt: Dowiedz się, jak utworzyć snapshot dodatkowego dysku Public Cloud
-updated: 2024-12-03
+updated: 2025-04-24
 ---
 
 ## Wprowadzenie
@@ -27,11 +27,11 @@ Tworzenie snapshota dodatkowego wolumenu zwykle odpowiada dwóm celom:
 
 ## W praktyce
 
-Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie w **Storage**.
+Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud. Następnie kliknij `Block Storage`{.action} na pasku nawigacji po lewej stronie w **Storage i Backup**.
 
 ![Snapshoty wolumenów](images/volume_snapshot01.png){.thumbnail}
 
-Po prawej stronie wybranego wolumenu kliknij przycisk`...`{.action}, a następnie `Utwórz kopię zapasową`{.action} (nie ma potrzeby odłączania najpierw wolumenu od instancji). Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z sekcją "Odłącz wolumen" w [tym przewodniku](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
+Po prawej stronie wybranego wolumenu kliknij przycisk `...`{.action}, a następnie `Utwórz kopię zapasową`{.action} (nie ma potrzeby odłączania najpierw wolumenu od instancji). Jeśli jednak chcesz odłączyć wolumen, zapoznaj się z sekcją "Odłącz wolumen" w [tym przewodniku](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance).
 
 Następnie wybierz opcję `Volume Snapshot`{.action}, nadaj jej nazwę i kliknij przycisk `Utwórz kopię zapasową`{.action}.
 
@@ -53,7 +53,7 @@ Ponieważ snapshot wolumenu jest klonem całego dysku, będzie miał maksymalny 
 
 ![Snapshoty wolumenów](images/volume_snapshot03.png){.thumbnail}
 
-Otwórz sekcję `Volume Snapshot`{.action} na pasku nawigacyjnym po lewej stronie. Po utworzeniu snapshota zostanie on dodany do tej tabeli.
+Otwórz sekcję `Snapshoty wolumenów`{.action} na pasku nawigacyjnym po lewej stronie. Po utworzeniu snapshota zostanie on dodany do tej tabeli.
 
 Kliknij przycisk `...`{.action}, aby usunąć snapshot lub Utwórz wolumen z odpowiedniego snapshota. Więcej informacji znajdziesz w [tym przewodniku](/pages/public_cloud/compute/create-volume-from-snapshot).
 

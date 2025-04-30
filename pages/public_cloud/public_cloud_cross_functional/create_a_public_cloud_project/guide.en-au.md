@@ -1,7 +1,7 @@
 ---
 title: 'Creating your first OVHcloud Public Cloud project'
 excerpt: 'Find out how to create your first Public Cloud project via the OVHcloud Control Panel'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -29,7 +29,7 @@ Once you have read and understood the terms of the contracts, tick the correspon
 
 Once the creation process is complete, your new Public Cloud project will be visible in the top left-hand corner of the `Public Cloud`{.action} section of the OVHcloud Control Panel:
 
-![new project created](images/public-cloud-interface.png){.thumbnail width="400"}
+![new project created](images/pci-interface-2025.png){.thumbnail width="400"}
 
 You now have access to the entire OVHcloud Public Cloud ecosystem. To discover this new interface, read our guide [How to use the Public Cloud interface ](/pages/public_cloud/public_cloud_cross_functional/03-public-cloud-interface-walk-me).
 

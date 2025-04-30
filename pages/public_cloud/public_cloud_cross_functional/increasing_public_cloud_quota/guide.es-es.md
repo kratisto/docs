@@ -1,7 +1,7 @@
 ---
 title: 'Aumentar las cuotas de Public Cloud'
 excerpt: 'Cómo aumentar el límite en Public Cloud'
-updated: 2024-05-21
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -33,7 +33,7 @@ Puede aumentar la cuota de recursos de forma manual o automática.
 
 Este procedimiento le permite solicitar manualmente un aumento de cuota y validarlo con un pago inicial (crédito Public Cloud).
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione su proyecto de Public Cloud. En el apartado `Project Management`, haga clic en `Quota and Regions`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione su proyecto de Public Cloud. En el apartado **Ajustes**, haga clic en `Cuotas y regiones`{.action}.
 
 ![access quota](images/raisepciquota1-2023.png){.thumbnail}
 
@@ -71,7 +71,7 @@ Esta opción le permite solicitar un aumento automático y gradual de su cuota d
 
 Este no es un proceso instantáneo y la cuota de recursos aumenta a lo largo del tiempo.
 
-Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione su proyecto de Public Cloud. En el apartado `Project Management`, haga clic en `Quota and Regions`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione su proyecto de Public Cloud. En el apartado **Ajustes**, haga clic en `Cuotas y regiones`{.action}.
 
 En la barra lateral izquierda, haga clic en `Cuota y regiones`{.action}.
 

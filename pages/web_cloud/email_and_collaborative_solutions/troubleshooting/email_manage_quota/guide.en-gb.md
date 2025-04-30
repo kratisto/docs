@@ -1,7 +1,7 @@
 ---
 title: "Managing the storage space for an email account"
 excerpt: "Find out how to manage and optimise an email account storage space"
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -44,12 +44,12 @@ In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} 
 > [!tabs]
 > **Emails (MX Plan)**
 >>
->> Click `Emails`{.action}, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
+>> Click `MX Plan`{.action}, then choose the name of the MX Plan service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
 >>![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Email Pro**
 >>
->> Click `Professional emails`{.action}, then choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
+>> Click `Email Pro`{.action}, then choose the name of the platform concerned. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts. In the `Size` column, you can see your email account’s current storage consumption.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**

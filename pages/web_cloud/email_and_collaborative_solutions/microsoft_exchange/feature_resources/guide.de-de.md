@@ -1,7 +1,7 @@
 ---
 title: Verwendung von Ressourcen-Accounts
 excerpt: In dieser Hilfe wird die Verwendung der Ressourcen-Accounts Ihres Exchange Angebots beschrieben
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -18,8 +18,11 @@ Diese kollaborative Exchange-Funktion erlaubt die Erstellung von E-Mail-Adressen
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie unter `Microsoft`{.action} und `Exchange`{.action} Ihren Exchange Dienst aus.
-Klicken Sie auf den Tab `Mehr +`{.action} und dann auf `Ressourcen`{.action}.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
+1. Wählen Sie den gewünschten Dienst aus.
+1. Klicken Sie auf den Tab `Mehr +`{.action} und dann auf `Ressourcen`{.action}.
 
 ### Schritt 1: eine Ressource erstellen
 
@@ -49,7 +52,7 @@ Ihre Ressourcen können in der Tabelle im Tab "Ressourcen" verwaltet werden. Kli
 
 > [!primary]
 >
-Nutzen Sie auch unsere Anleitung zur [Kalenderfreigabe über OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing).
+> Nutzen Sie auch unsere Anleitung zur [Kalenderfreigabe über OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/owa_calendar_sharing).
 >
 
 Verbinden Sie sich mit Ihrem Exchange Account über das [OVHcloud Webmail](/links/web/email). Wechseln Sie zum "Kalender"-Interface, indem Sie in der oberen linken Ecke auf den "Launcher"-Button klicken und anschließend den `Kalender`{.action} auswählen.

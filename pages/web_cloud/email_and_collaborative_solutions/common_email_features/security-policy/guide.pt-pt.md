@@ -1,7 +1,7 @@
 ---
 title: 'Gerir a política de segurança de um serviço de e-mail'
 excerpt: 'Saiba como gerir a política de segurança do seu serviço de e-mail.'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -21,19 +21,19 @@ A gestão da política de segurança do seu serviço de e-mail pode interagir co
 
 - reforçar a segurança das contas de e-mail quando os utilizadores tentam conectar-se;
 - reforçar a segurança das palavras-passe das contas do serviço de e-mail;
-- reforçar a verificação das mensagens de entrada nos nossos servidores e com destino aos seus endereços de e-mail (exclusivamente para contas [Exchange](/links/web/emails-hosted-exchange);
-- definir a forma como as mensagens «indesejadas» são apresentadas nas caixas de entrada (exclusivamente para contas [Exchange](/links/web/emails-hosted-exchange).
+- reforçar a verificação das mensagens de entrada nos nossos servidores e com destino aos seus endereços de e-mail (exclusivamente para contas [Exchange](/links/web/emails-hosted-exchange));
+- definir a forma como as mensagens «indesejadas» são apresentadas nas caixas de entrada (exclusivamente para contas [Exchange](/links/web/emails-hosted-exchange)).
 
 Para aceder à política do seu serviço de e-mail, aceda à [Área de Cliente OVHcloud](/links/manager) e certifique-se de que está na secção `Web Cloud`{.action}. 
 
-|E-mails e E-mail Pro|Exchange| 
-|---|---| 
-|Clique em `E-mails`{.action} ou `E-mails Pro`{.action}, e selecione o serviço em causa. Clique no separador `Mais` e selecione `Gerir a política de segurança`{.action}.|Clique em `Microsoft`{.action}, depois em `Exchange`{.action}, e selecione o serviço em causa. Clique no separador `Mais` e selecione `Gerir a política de segurança`{.action}.|
+|MX Plan e E-mail Pro|Exchange|
+|---|---|
+|Clique em `MX Plan`{.action} ou `Email Pro`{.action}, e selecione o serviço em causa. Clique no separador `Mais` e selecione `Gerir a política de segurança`{.action}.|Clique em `Microsoft`{.action}, depois em `Exchange`{.action}, e selecione o serviço em causa. Clique no separador `Mais` e selecione `Gerir a política de segurança`{.action}.|
 |![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
 > [!primary]
 >
-> Se não vê o separador `Plus`{.action} no painel de gestão da sua oferta `E-mails`{.action}, isso significa que está numa oferta MX Plan histórico. Não existe gestão da política de segurança na oferta MX Plan histórico.
+> Se não vê o separador `Plus`{.action} no painel de gestão da sua oferta `MX Plan`{.action}, isso significa que está numa oferta MX Plan histórico. Não existe gestão da política de segurança na oferta MX Plan histórico.
 
 Continue a ler este manual na secção correspondente à ação que pretende realizar:
 
@@ -52,7 +52,7 @@ Para o fazer, preencha as informações abaixo:
 - **Prazo de reinicialização**: Este campo aparece apenas se um limite de bloqueio tiver sido definido. Especifique o tempo necessário, em minutos, para que o contador de tentativas de ligações sem efeito volte a zero.
 - **Duração do bloqueio**: Este campo aparece apenas se um limite de bloqueio tiver sido definido. Especifique o tempo em minutos durante o qual a conta de e-mail ficará bloqueada se o limite de bloqueio for atingido.
 
-Depois de preencher estas informações, valide estas alterações clicando em `Seguinte`{.action} e, a seguir, em `Validar`{.action}, relativamente às ofertas «E-mails» e «E-mail Pro». Clique em `Registar as modificações`{.action}, relativamente à oferta Exchange.
+Depois de preencher estas informações, valide estas alterações clicando em `Seguinte`{.action} e, a seguir, em `Validar`{.action}, relativamente às ofertas «MX Plan» e «E-mail Pro». Clique em `Registar as modificações`{.action}, relativamente à oferta Exchange.
 
 ### Tornar a segurança das palavras-passe mais complexa <a name="password-complexity"></a>
 
@@ -66,7 +66,7 @@ Para o fazer, preencha as informações abaixo:
 - **Manter o histórico da palavra-passe (exclusivamente Exchange)**: Este campo aparece apenas se um período de validade máximo tiver sido definido. Especificar o período de validade, em dias, das palavras-passe anteriores que poderão ser utilizadas novamente.
 - **Dimensão mínima da palavra-passe**: Permite aplicar um tamanho mínimo para as palavras-passe que um utilizador pretende alterar.
 
-Depois de preencher estas informações, valide estas alterações clicando em `Seguinte`{.action} e, a seguir, em `Validar`{.action}, relativamente às ofertas «E-mails» e «E-mail Pro». Clique em `Registar as modificações`{.action}, relativamente à oferta Exchange.
+Depois de preencher estas informações, valide estas alterações clicando em `Seguinte`{.action} e, a seguir, em `Validar`{.action}, relativamente às ofertas «MX Plan» e «E-mail Pro». Clique em `Registar as modificações`{.action}, relativamente à oferta Exchange.
 
 ### Reforçar a verificação das mensagens de entrada (exclusivamente para Exchange) <a name="incoming-messages-verification"></a>	
 

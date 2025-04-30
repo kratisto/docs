@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie polityką bezpieczeństwa usługi e-mail'
 excerpt: 'Dowiedz się, jak zarządzać polityką bezpieczeństwa usługi e-mail'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -26,14 +26,14 @@ Zarządzanie polityką bezpieczeństwa usługi e-mail może wiązać się z czt
 
 Aby przejść do polityki bezpieczeństwa usługi e-mail, zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. 
 
-|E-maile i E-mail Pro|Exchange| 
-|---|---| 
-|kliknij pozycję `E-maile`{.action} lub `E-maile Pro`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|kliknij pozycję `Microsoft`{.action}, następnie `Exchange`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|
+|MX Plan i E-mail Pro|Exchange|
+|---|---|
+|kliknij pozycję `MX Plan`{.action} lub `Email Pro`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|kliknij pozycję `Microsoft`{.action}, następnie `Exchange`{.action} i wybierz odpowiednią ofertę. Kliknij kartę `Plus`, a następnie `Zarządzaj polityką bezpieczeństwa`{.action}.|
 |![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
 > [!primary]
 >
-> Jeśli nie wyświetla się zakładka `Więcej`{.action} w panelu zarządzania usługą `Emaile`{.action}, oznacza to, że jesteś na historycznej ofercie MX Plan. Nie ma zarządzania polityką bezpieczeństwa w odniesieniu do oferty MX Plan historyczny.
+> Jeśli nie wyświetla się zakładka `Więcej`{.action} w panelu zarządzania usługą `MX Plan`{.action}, oznacza to, że jesteś na historycznej ofercie MX Plan. Nie ma zarządzania polityką bezpieczeństwa w odniesieniu do oferty MX Plan historyczny.
 
 Następnie przejdź do aspektów, które chcesz zmodyfikować.
 
@@ -52,7 +52,7 @@ Aby to zrobić, wypełnij poniższe informacje:
 - **Czas resetu**: Pole to pojawia się tylko wtedy, gdy został określony próg blokady. Określ czas potrzebny na przywrócenie licznika nieudanych prób logowania.
 - **Czas blokady**: Pole to pojawia się tylko wtedy, gdy został określony próg blokady. Określ czas, przez jaki konto e-mail pozostanie zablokowane, jeśli osiągnięty zostanie próg blokady.
 
-Po uzupełnieniu tych informacji możesz zatwierdzić zmiany, klikając `Dalej`{.action}, a następnie `Zatwierdź`{.action} w przypadku ofert „E-maile” i „E-mail Pro”. W przypadku oferty Exchange kliknij `Zapisz zmiany`{.action}.
+Po uzupełnieniu tych informacji możesz zatwierdzić zmiany, klikając `Dalej`{.action}, a następnie `Zatwierdź`{.action} w przypadku ofert „MX Plan” i „E-mail Pro”. W przypadku oferty Exchange kliknij `Zapisz zmiany`{.action}.
 
 ### Ustanowienie bardziej złożonego hasła <a name="password-complexity"></a>
 
@@ -66,7 +66,7 @@ Aby to zrobić, wypełnij poniższe informacje:
 - **Zachowanie historii hasła (dotyczy wyłącznie usługi Exchange)**: Pole to pojawia się tylko wtedy, gdy określony został maksymalny czas ważności hasła. Określ okres, wyrażony w dniach, po upływie którego można ponownie użyć poprzednich haseł.
 - **Minimalna długość hasłaUmożliwia ustawienie minimalnej długości haseł, jeśli użytkownik chce je zmieniać.
 
-Po uzupełnieniu tych informacji możesz zatwierdzić zmiany, klikając `Dalej`{.action}, a następnie `Zatwierdź`{.action} w przypadku ofert „E-maile” i „E-mail Pro”. W przypadku oferty Exchange kliknij `Zapisz zmiany`{.action}.
+Po uzupełnieniu tych informacji możesz zatwierdzić zmiany, klikając `Dalej`{.action}, a następnie `Zatwierdź`{.action} w przypadku ofert „MX Plan” i „E-mail Pro”. W przypadku oferty Exchange kliknij `Zapisz zmiany`{.action}.
 
 ### Wzmocnienie weryfikacji wiadomości przychodzących (dotyczy wyłącznie usługi Exchange) <a name="incoming-messages-verification"></a>	
 

@@ -1,7 +1,7 @@
 ---
 title: "Serveurs Dédiés - Partitionnement d'ESXi"
 excerpt: "Utilisez l'espace client OVHcloud ou l'API OVHcloud pour personnaliser la taille de la partition système d'ESXi"
-updated: 2025-02-25
+updated: 2025-04-29
 ---
 
 > [!warning]
@@ -70,12 +70,6 @@ Comme vous pouvez le deviner, si le schéma n'est pas spécifié, le schéma de 
 Dans l'[espace client OVHcloud](/links/manager), sous l'onglet `Informations générales`{.action}, cliquez sur `...`{.action} en face du système d'exploitation puis cliquez sur `Installer`{.action}.
 
 ![Bouton Réinstaller](images/reinstalling-your-server-00.png){.thumbnail}
-
-Dans la fenêtre qui apparaît, sélectionnez l'une des options d'installation : `Installer à partir d'un template OVHcloud`{.action}.
-
-Cliquez sur `Suivant`{.action} pour continuer.
-
-![Sélection de template](images/reinstalling-your-server-01.png){.thumbnail}
 
 Ensuite, choisissez `Virtualisation`{.action}, `UNIX`{.action} et sélectionnez la version d'ESXi que vous souhaitez installer sur votre serveur dédié.
 

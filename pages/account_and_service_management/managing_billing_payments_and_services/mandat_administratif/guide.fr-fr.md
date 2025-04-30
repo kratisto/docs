@@ -14,7 +14,7 @@ Le but de cet outil est de simplifier les démarches en ligne en limitant les en
 ## Prérequis
 
 - Avoir créé son compte sur [Chorus Pro](https://chorus-pro.gouv.fr/cpp/utilisateur?execution=e1s1&lang=fr_FR){.external}.
-- Être une administration publique et l'avoir déclaré comme tel dans l'[espace client OVH](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr){.external}.
+- Être une administration publique et l'avoir déclaré comme tel dans l'[espace client OVHcloud](/links/manager).
 
 ## En pratique
 
@@ -32,7 +32,7 @@ Les étapes suivantes seront :
 
 1. La réception d'un e-mail : au moment de la sélection du paiement par mandat administratif, vous recevrez un e-mail avec les informations nécessaires.
 2. Le [document](https://www.ovh.com/fr/documents/paiement_administration_publique_pour_ovh.pdf){.external} devra être complété et nous être retourné signé.
-3. Une fois la validation effectuée côté OVH, votre facture sera générée.
+3. Une fois la validation effectuée côté OVHcloud, votre facture sera générée.
 
 #### Renouvellement automatique
 
@@ -40,13 +40,13 @@ Vous n'avez aucune action particulière à effectuer dans le cadre d'un renouvel
 
 ### Valider les factures sur Chorus Pro
 
-Il n'est plus nécessaire d'effectuer le paiement par mandat administratif. OVH se charge d'envoyer la facture directement sur l'interface Chorus Pro sous quelques jours.
+Il n'est plus nécessaire d'effectuer le paiement par mandat administratif. OVHcloud se charge d'envoyer la facture directement sur l'interface Chorus Pro sous quelques jours.
  
 À votre niveau, il sera ensuite nécessaire de valider la mise en paiement de cette facture sur la plateforme. Suite à votre validation, le Trésor public devra effectuer le paiement.
 
 ### Cas des conventions tripartites
 
-Pour mettre en place une convention tripartite avec OVH, nous vous invitons à contacter notre [service commercial](https://www.ovh.com/fr/support/nous-contacter/){.external}.
+Pour mettre en place une convention tripartite avec OVHcloud, nous vous invitons à contacter notre [service commercial](https://www.ovh.com/fr/support/nous-contacter/){.external}.
 
 ## Aller plus loin
 

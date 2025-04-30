@@ -1,7 +1,7 @@
 ---
 title: "How to activate rescue mode on a Public Cloud instance"
 excerpt: "Find out how to enable and use the OVHcloud rescue mode for your Public Cloud instance"
-updated: 2024-06-03
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -25,7 +25,7 @@ In such circumstances, you can use the rescue mode to reconfigure your instance 
 
 ### Step 1: Activating rescue mode
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then click on `Instances`{.action} in the left-hand menu.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click on `Instances`{.action} in the left-hand menu.
 
 Click on `...`{.action} in the row of the instance concerned and select `Reboot in rescue mode`{.action}.
 

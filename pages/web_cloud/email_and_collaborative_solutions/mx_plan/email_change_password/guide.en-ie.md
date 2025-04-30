@@ -1,7 +1,7 @@
 ---
 title: "Changing the password of an email account"
 excerpt: "Find out how to change the password for an OVHcloud email account"
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -40,20 +40,20 @@ In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} 
 > **MX Plan email (legacy version)**
 >>
 >> If you do not know which type of MX Plan solution you have, please read the section [Identify your MX Plan solution](#whichmxplan).<br>
->> Click `Emails`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
+>> Click `MX Plan`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
 >> Click the `...`{.action} button, then click `Change password`{.action}.<br><br>
 >>![email](images/email-password-mxplan-legacy01.png){.thumbnail}<br>
 >>
 > **MX Plan email (new version)**
 >>
 >> If you do not know which type of MX Plan solution you have, please read the section [Identify your MX Plan solution](#whichmxplan).<br>
->> Click `Emails`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
+>> Click `MX Plan`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
 >> Click the `...`{.action} button, then click `Edit`{.action}.<br><br>
 >>![email](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>
 > **Email Pro**
 >>
->> Click `Professional emails`{.action}, then choose the name of the service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display all email accounts.<br>
+>> Click `Email Pro`{.action}, then choose the name of the service concerned. Go to the `Email accounts`{.action} tab. The window that appears will display all email accounts.<br>
 >> Click the `...`{.action} button, then click `Edit`{.action}.<br><br>
 >>![email](images/email-password-emailpro01.png){.thumbnail}<br>
 >>

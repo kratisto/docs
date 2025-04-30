@@ -13,7 +13,7 @@ Unser Hosted Private Cloud Angebot entspricht nicht mehr Ihren Anforderungen? Od
 ## Voraussetzungen
 
 - Sie verfügen über eine [Hosted Private Cloud](https://www.ovhcloud.com/de/enterprise/products/hosted-private-cloud/) Infrastruktur.
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung
 
@@ -26,7 +26,7 @@ Bei Hosted Private Cloud gibt es keine Mindestvertragslaufzeit. Wie jedoch in de
 
 ### Schritt 1: Beantragen Sie die Kündigung in Ihrem OVHcloud Kundencenter
 
-Melden Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de){.external} an, gehen Sie in den Bereich `Hosted Private Cloud`{.action} (1), klicken Sie auf `Private Cloud`{.action} (2) und wählen Sie die Private Cloud aus der Liste aus (3), die Sie kündigen möchten.
+Melden Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager){.external} an, gehen Sie in den Bereich `Hosted Private Cloud`{.action} (1), klicken Sie auf `Private Cloud`{.action} (2) und wählen Sie die Private Cloud aus der Liste aus (3), die Sie kündigen möchten.
 
 Klicken Sie im Reiter „Allgemeine Informationen“ in der Tabelle  „Dienstverwaltung“ auf den Button `...`{.action} (4) rechts neben dem Datum der Verlängerung. Klicken Sie dann auf `Dienst löschen`{.action} (5).
 
@@ -48,7 +48,7 @@ Aufgrund Ihrer Anfrage wird Ihnen eine Bestätigung der Kündigung per E-Mail an
 
 Diese E-Mail können Sie auch in Ihrem OVHcloud Kundencenter einsehen. Klicken Sie auf Ihren Namen oben rechts, dann auf `E-Mails vom Support`{.action}.
 
-![Bestätigung der Kündigung](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![Bestätigung der Kündigung](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 Der Betreff der E-Mail ist:
 

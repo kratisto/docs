@@ -1,7 +1,7 @@
 ---
 title: "Gerir o espaço de armazenamento de uma conta de e-mail"
 excerpt: "Saiba como gerir e otimizar o espaço de armazenamento de um endereço de e-mail "
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -44,12 +44,12 @@ Na [Área de Cliente OVHcloud](/links/manager), aceda à secção `Web Cloud`{.a
 > [!tabs]
 > **E-mails (MXplan)**
 >>
->> Clique em `E-mails`{.action} e escolha o nome do serviço MX Plan em causa. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
+>> Clique em `MX Plan`{.action} e escolha o nome do serviço MX Plan em causa. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Email Pro**
 >>
->> Clique em `E-mails Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
+>> Clique em `Email Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes. Na coluna `Tamanho`, pode ver o consumo em curso do armazenamento do seu endereço de e-mail.<br><br>
 >>![email](images/email-quota-quotacontrolpanel02.png){.thumbnail}<br>
 >>
 > **Exchange**
@@ -121,7 +121,7 @@ Antes de efetuar qualquer operação na sua conta de e-mail, é necessário toma
 #### Arquivar os seus e-mails localmente no seu computador
 
 > [!warning]
-> 
+>
 > As informações que se seguem baseiam-se numa configuração IMAP da sua conta de e-mail, sendo esta a configuração mais comum. A configuração POP baseia-se num princípio de armazenamento dos e-mails em local. Neste contexto, não é pertinente arquivar os e-mails que já estão armazenados localmente no seu computador.
 
 Quando configurou o seu endereço de e-mail no seu cliente de e-mail em IMAP, **por predefinição**, o conteúdo visível corresponde ao que está **sincronizado no servidor de e-mail**. Isto significa que os e-mails são carregados no seu computador mas desaparecem se forem eliminados do servidor. Para os **arquivar no seu computador**, deve configurar o seu software de mensagens.

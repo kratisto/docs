@@ -1,7 +1,7 @@
 ---
 title: 'Guardar uma instância'
 excerpt: 'Saiba como efetuar o backup de uma instância Public Cloud a partir da Área de Cliente OVHcloud'
-updated: 2024-07-03
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -27,7 +27,7 @@ Pode criar um backup único de uma instância ou configurar um planeamento para 
 > Esta opção só está disponível através de um **Cold Snapshot** para as instâncias Metal. A instância Metal passará para o modo rescue e, uma vez efetuado o backup, a instância será reiniciada em modo normal.
 >
 
-Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e abra o seu projeto `Public Cloud`{.action}. A seguir, clique em `Instances`{.action} no menu à esquerda.
+Aceda à [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa. A seguir, clique em `Instâncias`{.action} no menu à esquerda.
 
 Clique no botão `...`{.action} à direita da instância e selecione `Criar um backup`{.action}.
 
@@ -37,11 +37,11 @@ Introduza um nome para o backup na página seguinte. Consulte as informações t
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-Não é possível monitorizar o progresso da cópia de segurança em tempo real. No entanto, na secção `Instance Backup`{.action} em `Storage`{.action} no menu do lado esquerdo, o estado `Backup em curso` será apresentado durante o processo.
+Não é possível monitorizar o progresso da cópia de segurança em tempo real. No entanto, na secção `Instance Backup`{.action} em **Compute** no menu do lado esquerdo, o estado `Backup em curso` será apresentado durante o processo.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Uma vez terminado o backup, este estará disponível na secção `Instance Backup`{.action} na rubrica `Storage`{.action} no menu à esquerda.
+Uma vez terminado o backup, este estará disponível na secção `Instance Backup`{.action} na rubrica **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Introduza um nome para o planeamento do backup automático. Leia as informaçõe
 
 ### Gestão dos backups e dos planos
 
-As planificações podem ser criadas e eliminadas na secção `Workflow Management`{.action} que se encontra na rubrica `Storage`{.action} no menu à esquerda.
+As planificações podem ser criadas e eliminadas na secção `Workflow Management`{.action} que se encontra na rubrica **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Os backups das suas instâncias são geridos na secção `Instance Backup`{.action}, que se encontra na secção `Storage`{.action} no menu à esquerda.
+Os backups das suas instâncias são geridos na secção `Instance Backup`{.action}, que se encontra na secção **Compute** no menu à esquerda.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

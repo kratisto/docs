@@ -1,7 +1,7 @@
 ---
 title: "Monitoring DDoS attacks with the Network Security Dashboard"
 excerpt: "Learn how to navigate through the Network Security Dashboard"
-updated: 2023-12-19
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -43,7 +43,7 @@ During an attack, an active mitigation action will be indicated by a warning ico
 
 ![red-line-attack](images/nsd_04_blur.PNG){.thumbnail}
 
-In the OVHcloud Control Panel, access the `Bare Metal Cloud`{.action} section. Then go to `Network`{.action} in the left-hand sidebar and click `IP`{.action}. Ensure that `Advanced mode` is enabled to see the Anti-DDoS infrastructure status and its components configuration.
+Log in to the [OVHcloud Control Panel](/links/manager), open the `Network`{.action} menu in the left-hand sidebar and click `Public IP Addresses`{.action}. Ensure that `Advanced mode` is enabled to see the Anti-DDoS infrastructure status and its components configuration.
 
 The columns correspond to the Anti-DDoS scrubbing (**Mitigation**) status, the Edge Network **Firewall** and **GAME firewall** features availability and their statuses.
 
@@ -66,11 +66,7 @@ The columns correspond to the Anti-DDoS scrubbing (**Mitigation**) status, the E
 
 ### Network Security Dashboard
 
-In the OVHcloud Control Panel, accessing the dashboard can be done either from the IP listing page (for a particular IP) or going directly to the Network Security Dashboard in the `Network`{.action} menu.
-
-Go to the `Bare Metal Cloud`{.action} tab, then to `Network`{.action} and select `Network Security Dashboard`{.action}.
-
-Alternatively, from the IP listing (this option is only available when the scrubbing centre is in action): Access the `Bare Metal Cloud`{.action} tab then go to `Network`{.action} and click `IP`{.action}. Click the `...`{.action} button and access `Network Security Dashboard`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), open the `Network`{.action} menu in the left-hand sidebar and click `Network Security Dashboard`{.action}. 
 
 In the **scrubbing centre log** tab, you can retrieve all the information about attacks that were detected in the past (or that are ongoing).
 

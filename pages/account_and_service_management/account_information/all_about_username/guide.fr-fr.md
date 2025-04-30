@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser mon compte OVHcloud et gérer mes informations personnelles'
 excerpt: "Découvrez comment optimiser la sécurité de votre compte OVHcloud, gérer vos informations personnelles et déléguer l'accès à votre compte."
-updated: 2024-09-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -55,7 +55,7 @@ Si vous ne l'avez pas encore fait, sauvegardez votre mot de passe dans un [gesti
 En cas de difficulté d'accès à votre adresse e-mail principale, une adresse e-mail de secours permet de conserver l'accès à votre compte et donc à la gestion de vos services.
 <br>Cette seconde adresse **doit être différente** de la première, notamment pour faciliter vos démarches en cas de récupération de mot de passe.
 
-Pour renseigner cette adresse e-mail de secours, cliquez sur votre nom en haut à droite de votre compte puis cliquez sur vos initiales.
+Pour renseigner cette adresse e-mail de secours, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
 Cliquez alors sur `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
 
@@ -80,11 +80,9 @@ Vous trouverez tous les détails pour l'activer sur notre guide « [Sécuriser s
 
 #### Modifier mes informations personnelles
 
-Vous pouvez modifier les informations de votre compte depuis votre [espace client OVHcloud](/links/manager). Pour cela, cliquez sur votre nom en haut à droite dans votre espace client, puis sur vos initiales.
+Vous pouvez modifier les informations de votre compte depuis votre [espace client OVHcloud](/links/manager). Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-Cliquez alors sur le bouton `...`{.action} dans le cadre `Mon profil`, puis sur `Éditer mon profil`{.action}.
-
-![identifiant client](images/edit-profile.png){.thumbnail}
+Cliquez alors sur `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
 
 Modifiez vos informations, puis cliquez sur le bouton `Valider`{.action} .
 

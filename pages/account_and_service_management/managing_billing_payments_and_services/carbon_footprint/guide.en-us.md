@@ -1,7 +1,7 @@
 ---
 title: "How to obtain the carbon footprint of your OVHcloud services"
 excerpt: "Find out how to retrieve the monthly carbon footprint of your OVHcloud services using our carbon calculator"
-updated: 2025-02-28
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -11,6 +11,7 @@ As part of your professional activities or out of interest on the subject, you m
 **Find out how to retrieve the monthly carbon footprint of your OVHcloud services.**
 
 ## Requirements
+
 - Being the billing contact for the service(s) you would like to create a carbon footprint for. For more information, see [our guide to managing contacts](/pages/account_and_service_management/account_information/managing_contacts).
 
 **The carbon footprint calculation is available for the following services:**
@@ -26,7 +27,7 @@ Please note the following information:
 
 - You cannot generate a carbon footprint report for the current month.
 - When using the OVHcloud API, whether you enter a date at the beginning, middle or end of the month for the month chosen, the carbon footprint report will be generated for the full month.
-- No carbon footprint report can be generated for more than the last 24 months. 
+- No carbon footprint report can be generated for more than the last 24 months.
 - No carbon footprint can be generated before the date of implementation of the feature for each OVHcloud service (see table below).
 
 | Service                | Date of commissioning of the carbon footprint calculator |
@@ -39,9 +40,8 @@ Please note the following information:
 ### Retrieving the monthly carbon footprint report for the previous month via the OVHcloud Control Panel
 
 1. Log in to the [OVHcloud Control Panel](/links/manager).
-1. Click on your account name in the top right-hand corner, then click on your name again in the sidebar that appears on the right-hand side.
-1. On the new page that opens, click on the `My Carbon Footprint`{.action} tab in the left-hand column.
-1. On the page that appears, click `Download my [Month] [Year] footprint`{.action}.
+1. On the page that opens, scroll down to the **Useful links** section in the left-hand column, then click on the `My carbon footprint`{.action} tab.
+1. On the new page that appears, click `Download my [Month] [Year] footprint`{.action}.
 
 ![Carbon footprint](/pages/assets/screens/control_panel/product-selection/right-column/carbon-footprint/my-carbon-footprint.png){.thumbnail}
 

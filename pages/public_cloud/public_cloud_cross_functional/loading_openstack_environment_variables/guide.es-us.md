@@ -26,7 +26,7 @@ Para obtener sus variables de entorno, puede descargar el archivo OpenRC de su u
 
 Conéctese a su [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione su proyecto de Public Cloud.
 
-En el apartado `Project Management`, haga clic en `Users & roles`{.action}, haga clic en `«...»`{.action} a la derecha de su usuario y seleccione `«Descargar el archivo RC de OpenStack»`{.action}.
+En el apartado **Ajustes**, haga clic en `Usuarios y roles`{.action}, haga clic en `«...»`{.action} a la derecha de su usuario y seleccione `«Descargar el archivo RC de OpenStack»`{.action}.
 
 ![openstack-variables](images/pciopenstackvariables1e.png){.thumbnail}
 

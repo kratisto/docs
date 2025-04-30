@@ -1,7 +1,7 @@
 ---
 title: "Aumentar o tamanho de um disco adicional"
 excerpt: "Saiba como aumentar o tamanho de um volume adicional e aumentar a sua partição principal"
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -99,7 +99,7 @@ Para garantir que redimensione o disco no momento certo, é essencial monitoriza
 
 ### Modificar o tamanho do disco
 
-Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e abra o seu projeto `Public Cloud`{.action}. A seguir, clique em `Block Storage`{.action} no menu à esquerda.
+Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e abra o seu projeto `Public Cloud`{.action}. A seguir, clique em `Block Storage`{.action} no menu à esquerda em **Backup Storage**.
 
 Se o volume está associado a uma **instância Windows**, clique no botão `...`{.action} à direita do volume em causa e selecione `Desassociar a instância`{.action}.
 

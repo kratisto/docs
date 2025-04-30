@@ -1,7 +1,7 @@
 ---
 title: Créer et utiliser des comptes de ressource
 excerpt: Ajouter et utiliser les comptes de ressource avec l’offre Exchange
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -18,7 +18,11 @@ Cette fonction collaborative de Exchange permet de créer des adresses de messag
 
 ## En pratique
 
-Connectez-vous à votre  [espace client OVHcloud](/links/manager) et sélectionnez `Web Cloud`{.action} dans la barre de navigation supérieure. Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action}. Sélectionnez ensuite le service Exchange concerné. Cliquez sur l'onglet `Plus +`{.action} , puis sur `Ressources`{.action}.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
+1. Sélectionnez la plateforme concernée.
+1. Cliquez sur l'onglet `Plus +`{.action} , puis sur `Ressources`{.action}.
 
 ### Étape 1 : créer une ressource
 

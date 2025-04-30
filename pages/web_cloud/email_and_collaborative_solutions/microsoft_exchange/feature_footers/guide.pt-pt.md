@@ -1,7 +1,7 @@
 ---
 title: 'Criar assinaturas automáticas'
 excerpt: 'Saiba como criar assinaturas automáticas nas suas contas de e-mail'
-updated: 2020-03-26
+updated: 2025-04-28
 ---
 
 ## Sumário
@@ -21,16 +21,15 @@ Na Área de Cliente OVHcloud, pode criar assinaturas universais (footers) para e
 > **Exchange**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique na rubrica `Microsoft`{.action}.
->> 1. Clique em `Exchange`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
 >> 1. Selecione a plataforma em causa.
 >>
 > **Email Pro**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
 >> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Clique em `Email Pro`{.action}.
 >> 1. Selecione a plataforma em causa.
 >>
 

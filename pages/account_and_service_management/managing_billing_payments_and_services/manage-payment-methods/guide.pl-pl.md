@@ -1,7 +1,7 @@
 ---
 title: Zarządzanie sposobami płatności
 excerpt: Dowiedz się, jak dodawać sposoby płatności do Panelu klienta OVHcloud i zarządzać nimi
-updated: 2022-05-18
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -10,14 +10,14 @@ W Panelu klienta OVHcloud możesz dodać różne sposoby płatności i zarządza
 
 ## Wymagania początkowe
 
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).
+- Dostęp do [Panelu klienta OVHcloud](/links/manager).
 - Posiadanie ważnego sposobu płatności.
 
 ## W praktyce <a name="payment_methods"></a>
 
-W [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) kliknij Twoją nazwę w prawym górnym rogu i wybierz `Sposób płatności`{.action}.
+W [Panelu klienta OVHcloud](/links/manager) kliknij Twoją nazwę w prawym górnym rogu i wybierz `Moje sposoby płatności`{.action}.
 
-![hubpayment](images/hubpayment.png){.thumbnail}
+![hubpayment](/pages/assets/screens/control_panel/product-selection/right-menu/my-payment-methods.png){.thumbnail}
 
 Wyświetli się strona z tabelą wyszczególniającą sposoby płatności zapisane na Twoim koncie klienta. W Panelu klienta można:
 
@@ -109,20 +109,20 @@ Następnie usuń sposób płatności, używając identyfikatora uzyskanego na po
 >
 > Aby uzyskać więcej informacji, zapoznaj się z przewodnikiem Pierwsze kroki z [API OVHcloud](/pages/manage_and_operate/api/first-steps).
 >
-> W przypadku trudności w identyfikacji sposobów płatności przy użyciu interfejsu API OVHcloud, skorzystaj z funkcji `Zmień opis`{.action} (przycisk `...`{.action} po prawej stronie ekranu) w części [Sposoby płatności](#payment_methods) w Twoim [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).
+> W przypadku trudności w identyfikacji sposobów płatności przy użyciu interfejsu API OVHcloud, skorzystaj z funkcji `Zmień opis`{.action} (przycisk `...`{.action} po prawej stronie ekranu) w części [Sposoby płatności](#payment_methods) w Twoim [Panelu klienta OVHcloud](/links/manager).
 >
 
 ### Konto prepaid
 
 #### Czym jest konto przedpłacone?
 
-*Konto prepaid* jest widoczne w Twoim [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) od chwili jego utworzenia. Umożliwia zasilenie konta klienta z wyprzedzeniem i wykorzystanie tych środków do opłacania zamówień oraz faktur za odnowienie.
+*Konto prepaid* jest widoczne w Twoim [Panelu klienta OVHcloud](/links/manager) od chwili jego utworzenia. Umożliwia zasilenie konta klienta z wyprzedzeniem i wykorzystanie tych środków do opłacania zamówień oraz faktur za odnowienie.
 
 Tworząc regularnie konto, będziesz mógł sprawdzić, czy [automatyczne odnawianie](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#odnowienie-automatyczne) usług nie zostanie przerwane z powodu braku płatności.
 
 W tym celu przejdź do sekcji `Sposoby płatności` w Panelu klienta:
 
-- kliknij Twoje imię w prawym górnym rogu, a następnie `Sposób płatności`{.action} w menu po prawej stronie;
+- kliknij Twoje imię w prawym górnym rogu, a następnie `Moje sposoby płatności`{.action} w menu po prawej stronie.
 - wybierz kartę `Moje konto prezdplacone`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

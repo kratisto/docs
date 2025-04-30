@@ -1,7 +1,7 @@
 ---
 title: 'Crea e utilizza account di risorsa'
 excerpt: In questa guida ti mostriamo come configurare degli account di risorsa
-updated: 2020-06-05
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -18,7 +18,11 @@ Questa funzione collaborativa di Exchange permette di creare indirizzi di posta 
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona `Web Cloud`{.action} nella barra di navigazione superiore. Clicca su `Microsoft`{.action} e poi su `Exchange`{.action}. Seleziona il servizio Exchange interessato. Clicca sulla scheda `Plus +`{.action} e poi su `Risorse`{.action}.
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
+1. Seleziona la piattaforma interessata.
+1. Seleziona il servizio Exchange interessato. Clicca sulla scheda `Altre opzioni +`{.action} e poi su `Risorse`{.action}.
 
 ### Step 1: creare una risorsa
 

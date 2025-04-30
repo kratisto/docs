@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z hostingiem Cloud Web"
 excerpt: "Dowiedz się, jak rozpocząć korzystanie z hostingu Cloud Web"
-updated: 2022-05-04
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -42,7 +42,7 @@ Aktualnie dostępne języki to:
 - Python
 - Ruby
 
-Aby uzyskać dostęp do frameworków Twojego hostingu Cloud Web, zaloguj się do [Panelu klienta](/links/manager){.external}, kliknij `Hosting`{.action} na pasku usług po lewej stronie, a następnie wybierz nazwę odpowiedniego hostingu Cloud Web. Teraz przejdź do zakładki `Framework`{.action}.
+Aby uzyskać dostęp do frameworków Twojego hostingu Cloud Web, zaloguj się do [Panelu klienta](/links/manager), kliknij `Hosting`{.action} na pasku usług po lewej stronie, a następnie wybierz nazwę odpowiedniego hostingu Cloud Web. Teraz przejdź do zakładki `Framework`{.action}.
 
 Framework jest automatycznie tworzony podczas instalacji hostingu. Oznaczony jest jako `Wybór domyślny` w tabeli, która się wyświetli. Aby zmodyfikować wcześniej skonfigurowany framework, kliknij trzy kropki po jego prawej stronie, a następnie `Modyfikuj`{.action}. 
 
@@ -146,8 +146,8 @@ Istnieje kilka rodzajów rekordów DNS w OVHcloud. Będą Cię dotyczyły szczeg
 
 |Rekordy DNS|Powiązana usługa|Gdzie sprawdzić rekordy?|
 |---|---|---|
-|A|Dla strony WWW|W [Panelu klienta](/links/manager){.external}, w sekcji `Hosting`{.action} zaznacz odpowiedni hosting Cloud Web. Pobierz adres IP, który wyświetla się obok „IPv4” w zakładce `Informacje ogólne`{.action}.|
-|MX|Dla wiadomości e-mail|W [Panelu klienta](/links/manager){.external}, w sekcji `E-maile`{.action} zaznacz odpowiednią domenę. Pobierz informacje, które wyświetlają się obok „Pola MX” w zakładce `Informacje ogólne`{.action}.|
+|A|Dla strony WWW|W [Panelu klienta](/links/manager), w sekcji `Hosting`{.action} zaznacz odpowiedni hosting Cloud Web. Pobierz adres IP, który wyświetla się obok „IPv4” w zakładce `Informacje ogólne`{.action}.|
+|MX|Dla wiadomości e-mail|W [Panelu klienta](/links/manager), w sekcji `E-maile`{.action} zaznacz odpowiednią domenę. Pobierz informacje, które wyświetlają się obok „Pola MX” w zakładce `Informacje ogólne`{.action}.|
 
 #### 2. Sprawdź i/lub zmodyfikuj rekordy DNS
 
@@ -157,14 +157,14 @@ Teraz sprawdź, czy rekordy DNS przypisane do Twojego hostingu Cloud Web i kont 
 >
 > - Jeśli Twoja domena nie używa konfiguracji DNS OVHcloud, przeprowadź zmianę w interfejsie dostawcy zarządzającego konfiguracją Twojej domeny.
 > 
-> - Jeśli domena jest zarejestrowana w OVHcloud, możesz sprawdzić, czy używa konfiguracji DNS OVHcloud. W tym celu przejdź do [Panelu klienta](/links/manager){.external}, zaznacz nazwę odpowiedniej domeny i kliknij zakładkę `Serwery DNS`{.action}.
+> - Jeśli domena jest zarejestrowana w OVHcloud, możesz sprawdzić, czy używa konfiguracji DNS OVHcloud. W tym celu przejdź do [Panelu klienta](/links/manager), zaznacz nazwę odpowiedniej domeny i kliknij zakładkę `Serwery DNS`{.action}.
 >
 
 Zapoznaj się z poniższymi wskazówkami, aby dowiedzieć się, gdzie przeprowadzić operacje:
 
 |Używana konfiguracja DNS|Gdzie przeprowadzić operacje?|
 |---|---|
-|OVHcloud|W [Panelu klienta](/links/manager){.external}, w sekcji `Domeny`{.action} zaznacz odpowiednią domenę. W zakładce `Strefa DNS`{.action} sprawdź i zmodyfikuj niezbędne informacje. W razie potrzeby skorzystaj z naszej dokumentacji [Modyfikacja strefy DNS](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.action}. Kliknij menu `Strefy DNS`{.action}, następnie wybierz odpowiednią domenę. Zapoznaj się z naszą dokumentacją "[Modyfikacja strefy DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit)", jeśli to konieczne.|
 |Inne|W interfejsie dostawcy zarządzającego konfiguracją DNS Twojej domeny. W przypadku trudności w przeprowadzeniu tych operacji zachęcamy do kontaktu z dostawcą zarządzającym konfiguracją DNS Twojej domeny.|
 
 Czas propagacji wprowadzonych w strefie DNS zmian wynosi maksymalnie 24 godziny. Jeśli dodałeś kilka domen do Twojego hostingu Cloud Web w opcji MultiSite, przeprowadź obydwie operacje dla każdej z domen. 

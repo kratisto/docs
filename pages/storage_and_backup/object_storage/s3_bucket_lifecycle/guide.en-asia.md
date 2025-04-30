@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Smart Storage Management with Lifecycle Rules
 excerpt: Learn how to optimise your storage costs with OVHcloud lifecycle rules
-updated: 2025-04-03
+updated: 2025-04-29
 ---
 
 <style>
@@ -155,12 +155,53 @@ In a versioning-enabled bucket, each object has one current version and zero or 
 | Expiration.Days                                     | yes*     | Indicates the duration in days after which the objects are to be deleted. The value must be an integer equal to or greater than 1. </br></br> ⚠️ This attribute is mandatory if Date is not present. </br> ⚠️ this attribute is mutually exclusive with Date i.e you either have Date or Days but you cannot specify both. |
 | Expiration.ExpiredObjectDeleteMarker                | no       | Tells if OVHcloud Object Storage should immediately remove delete markers with no noncurrent versions aka expired delete markers. </br></br> ⚠️ You cannot specify Days or Date with ExpiredObjectDeleteMarker in the same rule. When you specify the Days/Date, expired delete markers are automatically deleted like normal objects when they satisfy the age criteria. ExpiredObjectDeleteMarker is used to clean up delete markers as soon as they become the only version, you have to create a separate rule with only ExpiredObjectDeleteMarker attribute in Expiration. </br> ⚠️ When you use the ExpiredObjectDeleteMarker lifecycle action, the rule cannot specify a tag-based filter. |
 | NoncurrentVersionExpiration                         | no       | A lifecycle action that indicates when noncurrent object versions should be deleted. This action does not affect the current versions. It only deletes the versions that are not current. |
-| NoncurrentVersionExpiration.NoncurrentDays          | no       | Indicates the number of days before a noncurrent version is eligible to deletion after they became noncurrent i.e the minimum age of a noncurrent version. </br> Example: </br></br> Suppose you have an object A with 10 versions: </br> - A v10 (current version, creation date: 2024-10-23) </br> - A v9 (noncurrent version, creation date: 2024-10-22) </br> - A v8 (noncurrent version, creation date: 2024-10-21) </br> - A v7 (noncurrent version, creation date: 2024-10-20) </br> - A v6 (noncurrent version, creation date: 2024-10-19) </br> - A v5 (noncurrent version, creation date: 2024-10-18) </br> - A v4 (noncurrent version, creation date: 2024-10-17) </br> - A v3 (noncurrent version, creation date: 2024-10-16) </br> - A v2 (noncurrent version, creation date: 2024-10-15) </br> - A v1 (noncurrent version, creation date: 2024-10-14) </br></br> If current date is 2024-10-23 and **NoncurrentDays**=5, the lifecycle rule will delete the noncurrent versions older than 5 days i.e v1, v2, v3, v4 and v5. |
+| NoncurrentVersionExpiration.NoncurrentDays          | no       | Indicates the number of days before a noncurrent version is eligible to deletion after they became noncurrent i.e the minimum age of a noncurrent version. |
 | NoncurrentVersionExpiration.NewerNoncurrentVersions | no       | Indicates the number of most recent noncurrent versions to retain. Maximum is 100. </br></br> Example: </br> Suppose you have an object B with 10 versions: </br> - B v10 (current version, creation date: 2024-10-23) </br> - B v9 (noncurrent version, creation date: 2024-10-22) </br> - B v8 (noncurrent version, creation date: 2024-10-21) </br> - B v7 (noncurrent version, creation date: 2024-10-20) </br> - B v6 (noncurrent version, creation date: 2024-10-19) </br> - B v5 (noncurrent version, creation date: 2024-10-18) </br> - B v4 (noncurrent version, creation date: 2024-10-17) </br> - B v3 (noncurrent version, creation date: 2024-10-16) </br> - B v2 (noncurrent version, creation date: 2024-10-15) </br> - B v1 (noncurrent version, creation date: 2024-10-14) </br></br> If **NewerNoncurrentVersions**=3, the lifecycle rule will delete all the noncurrent versions except the 3 most recent i.e v9, v8 and v7. |
 | AbortIncompleteMultipartUpload                      | no       | A lifecycle action that applies a delete operation on parts of an incomplete multipart upload. |
 | AbortIncompleteMultipartUpload.DaysAfterInitiation  | no       | Indicates the number of days after which all the parts of all incomplete multipart uploads are deleted and aborts the underlying multipart uploads. |
 
 ///
+
+### Understanding the NoncurrentDays parameter
+
+The NoncurrentDays parameter defines the minimum number of days since a version is no longer current. This paramater must not be confused with the age of the object but rather indicates the minimum age of a non-current version.
+
+**Example 1:**
+
+Suppose you have an object A with 10 versions:
+
+- A v10 (current version, creation date: 2024-10-23).
+- A v9 (noncurrent version, creation date: 2024-10-22).
+- A v8 (noncurrent version, creation date: 2024-10-21).
+- A v7 (noncurrent version, creation date: 2024-10-20).
+- A v6 (noncurrent version, creation date: 2024-10-19).
+- A v5 (noncurrent version, creation date: 2024-10-18).
+- A v4 (noncurrent version, creation date: 2024-10-17).
+- A v3 (noncurrent version, creation date: 2024-10-16).
+- A v2 (noncurrent version, creation date: 2024-10-15).
+- A v1 (noncurrent version, creation date: 2024-10-14).
+
+If current date is 2024-10-23 and **NoncurrentDays**=5, the lifecycle rule will delete the noncurrent versions older than 5 days i.e v1, v2, v3 and v4 because:
+
+- A v1 is non-current since 2024-10-15 (when A v2 was created) i.e its age as a non-current version is 8 days.
+- A v2 is non-current since 2024-10-16 (when A v3 was created) i.e its age as a non-current version is 7 days.
+- A v3 is non-current since 2024-10-17 (when A v4 was created) i.e its age as a non-current version is 6 days.
+- A v4 is non-current since 2024-10-18 (when A v5 was created) i.e its age as a non-current version is 5 days.
+
+**Example 2:**
+
+Suppose you have an object B with 5 versions:
+
+- B v5 (current version, creation date: 2024-10-28).
+- B v4 (noncurrent version, creation date: 2024-10-27).
+- B v3 (noncurrent version, creation date: 2024-10-20).
+- B v2 (noncurrent version, creation date: 2024-10-15).
+- B v1 (noncurrent version, creation date: 2024-10-14).
+
+If current date is 2024-10-29 and **NoncurrentDays**=5, the lifecycle rule will delete the noncurrent versions older than 5 days i.e only v1 and v2 because:
+
+- B v1 is non-current since 2024-10-15 (when B v2 was created) i.e its age as a non-current version is 14 days.
+- B v2 is non-current since 2024-10-20 (when B v3 was created) i.e its age as a non-current version is 9 days.
 
 ### Get the scheduled expiration date
 

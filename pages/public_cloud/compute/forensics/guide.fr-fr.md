@@ -32,7 +32,7 @@ Tout d'abord, nous allons réaliser une copie de sauvegarde de l'instance Public
 >
 > En dehors des instances Metal, cette action est transparente et ne redémarrera pas votre instance.
 
-Vous devez commencer par récupérer le fichier `openrc.sh`. Dans le menu de gauche de l'univers Public Cloud, sous la catégorie "Project Management", rendez-vous dans la section `Utilisateurs & Roles`{.action}, puis, à droite de votre utilisateur OpenStack, cliquez sur le bouton `...`{.action} et sélectionnez `Télécharger le fichier OpenStack RC`{.action}. Une boîte de dialogue vous demandera de choisir la _Region_ afin de vous permettre de télécharger le bon fichier de configuration. Sélectionnez la même _Region_ que l'instance Public Cloud que vous souhaitez investiguer.
+Vous devez commencer par récupérer le fichier `openrc.sh`. Dans le menu de gauche de l'univers Public Cloud, sous la catégorie "Paramètres", rendez-vous dans la section `Utilisateurs & Roles`{.action}, puis, à droite de votre utilisateur OpenStack, cliquez sur le bouton `...`{.action} et sélectionnez `Télécharger le fichier OpenStack RC`{.action}. Une boîte de dialogue vous demandera de choisir la _Region_ afin de vous permettre de télécharger le bon fichier de configuration. Sélectionnez la même _Region_ que l'instance Public Cloud que vous souhaitez investiguer.
 
 ![rc-file](images/rc-file.png){.thumbnail}
 

@@ -1,7 +1,7 @@
 ---
 title: Kimsufi and So you Start customers - Get to know the OVHcloud Control Panel
 excerpt: Find out how to navigate the OVHcloud Control Panel
-updated: 2024-04-04
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -20,7 +20,7 @@ OVHcloud has combined all of its Kimsufi, So you Start and Rise dedicated server
 
 ![dashboard](images/OVHclouddashboard.png){.thumbnail}
 
-If you have pruchased servers from the Eco product line, your dashboard will now be the one in the OVHcloud Control Panel. The OVHcloud dashboard provides a summary of all your services. This interface has several sections that allow you to access a service instantly.<br>
+If you have purchased servers from the Eco product line, your dashboard will now be the one in the OVHcloud Control Panel. The OVHcloud dashboard provides a summary of all your services. This interface has several sections that allow you to access a service instantly.<br>
 The right-hand column gives you access to your personal information, NIC handle and support level (if applicable). It also provides a set of shortcuts and useful links.
 
 ### Accessing a server
@@ -28,8 +28,7 @@ The right-hand column gives you access to your personal information, NIC handle 
 ![acces server](images/listserversOVHcloud.png){.thumbnail}
 
 In the Kimsufi and So you Start interfaces, the dashboard allows you to see your server/list of servers.<br>
-In the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu, then on `Dedicated Servers`{.action} to display your servers.<br>
-If you have several servers, the `All my servers`{.action} button allows you to list them for easy access.
+In the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu, then on `Dedicated Servers`{.action} to display your servers.
 
 ### Server interface
 
@@ -69,7 +68,7 @@ For more information on managing your dedicated server via the OVHcloud Control 
 
 ### Section IP
 
-To access the IP section of the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu, open `Network`{.action} and then `IP`{.action}.
+To access the IP section of the OVHcloud Control Panel, open `Network`{.action} in the left-hand menu and then `Public IP Addresses`{.action}.
 
 ![ip section](images/manageIP2023.png){.thumbnail}
 
@@ -82,7 +81,7 @@ To access the Licences tab in the OVHcloud Control Panel, click on the `Bare Met
 ### Support, Billing and Account Management
 
 In the Kimsufi or So you Start Control Panel, these options are available in the top right-hand corner, under individual tabs.<br>
-In the OVHcloud Control Panel, these options are grouped into a common space. Click on your name in the top right-hand corner and click on your initials to go to the `Manage my account` section.
+In the OVHcloud Control Panel, these options are grouped into a common space. Click on your account name in the top right-hand corner, then click `Access my account`{.action}.
 
 ![billing](images/accountOVHcloud.png){.thumbnail}
 

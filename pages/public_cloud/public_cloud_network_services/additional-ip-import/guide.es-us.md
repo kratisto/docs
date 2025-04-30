@@ -1,7 +1,7 @@
 ---
 title: Importar una Additional IP
 excerpt: "Importar una Additional IP"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ Puede importar una dirección Additional IP que esté asociada a otro servicio d
 ## Requisitos
 
 - Tener un [proyecto de Public Cloud](https://www.ovhcloud.com/es/public-cloud/) en su cuenta de OVHcloud
-- Tener acceso al [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}
+- Tener acceso al [área de cliente de OVHcloud](/links/manager)
 - Tener una [dirección Additional IP](https://www.ovhcloud.com/es/bare-metal/ip/)
 
 > [!warning]
@@ -33,9 +33,9 @@ Puede importar una dirección Additional IP que esté asociada a otro servicio d
 
 ## Procedimiento
 
-Conéctese al [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws) y seleccione su proyecto en la sección `Public Cloud `{.action}.
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección de  `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-En el menú de la izquierda, abra `Public IPs`{.action} en `Network`.
+En el menú de la izquierda, abra `IP públicas`{.action} en **Network**.
 
 Abra la pestaña `Additional IP`{.action} y haga clic en el botón `Acciones`{.action}. Seleccione `Importar una IP`{.action} para mostrar todas las direcciones IP que puedan importarse a su proyecto de Public Cloud.
 
@@ -74,6 +74,6 @@ El siguiente paso es configurar la IP en el sistema operativo. Consulte [nuestra
 
 ## Más información
 
-Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](https://www.ovhcloud.com/es/professional-services/) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
+Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](/links/professional-services) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
 
-Interactúe con nuestra comunidad de usuarios en <https://community.ovh.com/en/>.
+Interactúe con nuestra [comunidad de usuarios](/links/community).

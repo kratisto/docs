@@ -1,7 +1,7 @@
 ---
 title: Premiers pas avec le service Load Balancer pour Public Cloud
 excerpt: Découvrez comment débuter avec un Load Balancer Public Cloud
-updated: 2024-02-15
+updated: 2025-04-28
 ---
 
 <style>
@@ -44,7 +44,7 @@ Notre Load Balancer Public Cloud est basé sur le service [Openstack Octavia](ht
 
 > [!tabs]
 >>
->> Ouvrez votre projet Public Cloud et cliquez sur `Load Balancer`{.action} (sous `Network`) dans le menu de gauche, puis cliquez sur le bouton `Créer un Load Balancer`{.action}.
+>> Connectez-vous à l’[espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Cliquez sur `Load Balancer`{.action} (sous **Network**) dans le menu de gauche, puis cliquez sur le bouton `Créer un Load Balancer`{.action}.
 >>
 >> La page de configuration s'ouvre.
 >>

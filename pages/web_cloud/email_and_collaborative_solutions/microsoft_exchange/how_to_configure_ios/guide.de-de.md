@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Konfiguration Ihrer E-Mail-Adresse in Mail für iPhone und iPad"
 excerpt: 'Erfahren Sie hier, wie Sie Ihren Exchange Account via Mail App auf einem iPhone oder iPad einrichten'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -28,9 +28,13 @@ Exchange Accounts können auf verschiedenen, kompatiblen E-Mail-Clients eingeric
 
 > [!primary]
 >
-> In unserem Beispiel verwenden wir als Serverbezeichnung: ex?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
+> In dieser Anleitung verwenden wir den Servernamen: ex?.mail.ovh.net. Das "?" muss mit der jeweils passenden Nummer Ihres zuständigen Servers für den einzurichtenden Exchange Dienst ersetzt werden.
 >
-> Sie finden diese Information im [OVHcloud Kundencenter](/links/manager), wenn Sie unter `Microsoft`{.action} und `Exchange`{.action} den Dienst auswählen: Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
+> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+> 1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
+> 1. Wählen Sie den gewünschten Dienst aus.
+> 1. Der Servername wird im Kasten **Verbindung** auf der Seite `Allgemeine Informationen`{.action} angezeigt.
 >
 
 Klicken Sie vom Homescreen des Geräts aus auf `Einstellungen`{.action} (Zahnradsymbol). Je nach Ihrer iOS-Version erfolgt das Hinzufügen eines Accounts auf verschiedene Weise:

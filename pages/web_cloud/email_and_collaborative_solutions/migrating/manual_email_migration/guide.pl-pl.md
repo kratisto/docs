@@ -1,7 +1,7 @@
 ---
 title: Ręczna migracja Twojego konta e-mail
 excerpt: Dowiedz się, jak ręcznie przenieść Twoje konto e-mail na inny adres e-mail
-updated: 2021-01-05
+updated: 2025-04-28
 ---
  
 
@@ -42,9 +42,8 @@ Poniższe instrukcje są podzielone na dwie części:
 Jeśli posiadasz konto e-mail [Exchange OVHcloud](/links/web/emails-hosted-exchange), możesz je wyeksportować bezpośrednio w formacie PST w Panelu klienta.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. W karcie `Konta e-mail`{.action} kliknij przycisk `...`{.action} po prawej stronie konta e-mail, które chcesz wyeksportować, a następnie wybierz opcję `Eksportuj w formacie PST`{.action}.
 

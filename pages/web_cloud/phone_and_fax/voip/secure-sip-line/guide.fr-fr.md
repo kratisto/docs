@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser sa ligne SIP OVHcloud'
 excerpt: 'Apprenez à sécuriser votre ligne SIP OVHcloud'
-updated: 2022-06-22
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -76,8 +76,8 @@ Pour cela, vous devrez gérer le filtrage d'appels depuis votre espace client OV
 Maintenant que vous avez appris à sécuriser votre ligne SIP OVHcloud ou que vous venez de le faire, il est intéressant de savoir où suivre en temps réel la consommation inhérente à votre ligne.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Consommation`{.action} et cliquez sur `Appels émis`{.action}.
 
 ![securisersip](images/secure-sip-line-step1.png){.thumbnail}

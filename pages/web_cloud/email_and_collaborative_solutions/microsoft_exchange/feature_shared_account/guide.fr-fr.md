@@ -1,7 +1,7 @@
 ---
 title: Créer et utiliser un compte partagé
 excerpt: Ajouter et utiliser un compte partagé sur votre offre E-mail Exchange
-updated: 2023-09-15
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -21,9 +21,8 @@ Un **compte partagé** est une boîte e-mail partagée entre plusieurs comptes E
 ### Ajouter un compte partagé
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur la rubrique `Microsoft`{.action}.
-1. Cliquez sur `Exchange`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 1. Sélectionnez la plateforme concernée.
 
 Sélectionnez l’onglet `Comptes partagés`{.action} dans le menu horizontal et cliquez sur `Ajouter un compte partagé`{.action}.

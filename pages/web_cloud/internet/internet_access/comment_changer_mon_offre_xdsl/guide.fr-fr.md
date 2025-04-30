@@ -1,7 +1,7 @@
 ---
 title: Comment changer mon offre xDSL/Fibre
 excerpt: "Découvrez comment modifier votre offre d'accès Internet depuis votre espace client OVHcloud"
-updated: 2025-03-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -40,7 +40,7 @@ Lors d'un changement d'offre vers les nouvelles offres Fibre Pro et xDSL Pro, vo
 Pour changer d'offre, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 1. Cliquez ensuite sur `Changer d'offre`{.action} dans le cadre « Informations Générales ».
 
 ![changement d'offre](images/changement-offre.png){.thumbnail}

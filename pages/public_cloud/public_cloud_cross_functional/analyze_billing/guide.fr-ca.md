@@ -1,7 +1,7 @@
 ---
 title: 'Informations concernant le mode de facturation Public Cloud'
 excerpt: 'Comprenez le mode de facturation des produits Public Cloud'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -63,7 +63,7 @@ Soit 23,63 euros.
 
 ### Consulter ses factures
 
-Pour consulter les factures d'un projet, dans l'onglet `Public Cloud`{.action} de l'espace client OVHcloud, sélectionnez le projet cloud concerné dans le menu de gauche. Cliquez ensuite sur `Billing Control`{.action} (dans la section `Project Management`) et enfin sur `Historique`{.action}.
+Pour consulter les factures d'un projet, dans l'onglet `Public Cloud`{.action} de l'espace client OVHcloud, sélectionnez le projet cloud concerné dans le menu de gauche. Cliquez ensuite sur `Facturation`{.action} (dans la section `Paramètres`) et enfin sur `Historique`{.action}.
 
 ![public-cloud](images/pci-billing-information1-2021.png){.thumbnail}
 

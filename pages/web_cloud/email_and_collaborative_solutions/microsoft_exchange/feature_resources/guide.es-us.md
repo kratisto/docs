@@ -1,7 +1,7 @@
 ---
 title: Exchange Uso de las cuentas de recursos
 excerpt: Esta guía describe cómo añadir y utilizar las cuentas de recursos con el servicio Exchange
-updated: 2020-06-05
+updated: 2025-04-28
 ---
  
 
@@ -19,7 +19,11 @@ Esta función colaborativa de Exchange permite crear direcciones de correo dedic
 
 ## Procedimiento
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) y seleccione `Web Cloud`{.action} en la barra de navegación superior. Haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. A continuación, seleccione el servicio Exchange correspondiente. Abra la pestaña `Plus +`{.action} y haga clic en `Recursos`{.action}.
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
+1. Abra la pestaña `Más +`{.action} y haga clic en `Recursos`{.action}.
 
 ### 1\. crear un recurso
 

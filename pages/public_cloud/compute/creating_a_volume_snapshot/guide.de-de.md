@@ -1,7 +1,7 @@
 ---
 title: "Volume Snapshot erstellen"
 excerpt: Erfahren Sie hier, wie Sie einen Snapshot einer Public Cloud Disk erstellen
-updated: 2024-12-03
+updated: 2025-04-24
 ---
 
 ## Ziel
@@ -27,7 +27,7 @@ Ein Snapshot eines zusätzlichen Volumes dient zwei allgemeinen Zwecken:
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie Ihr Projekt aus. Öffnen Sie dann `Block Storage`{.action} im linken Menü unter **Storage**.
+Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie Ihr Projekt aus. Öffnen Sie dann `Block Storage`{.action} im linken Menü unter **Storage and Backup**.
 
 ![Volume Snapshot](images/volume_snapshot01.png){.thumbnail}
 

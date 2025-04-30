@@ -1,7 +1,7 @@
 ---
 title: 'Criar e configurar um disco suplementar numa instância'
 excerpt: 'Saiba como associar um novo volume à sua instância Public Cloud'
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -84,7 +84,7 @@ A geração 2 dos volumes High-Speed é otimizada para as cargas de trabalho mai
 
 > [!tabs]
 > **Através da Área de Cliente OVHcloud**
->> Ligue-se à sua [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa. A seguir, abra o `Block Storage`{.action} no menu à esquerda.
+>> Ligue-se à sua [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa. A seguir, abra o `Block Storage`{.action} no menu à esquerda em **Backup Storage**.
 >>
 >> Nesta parte, clique no botão `Criar um volume`{.action}.
 >>
@@ -557,7 +557,7 @@ Por fim, vamos desassociar o volume da instância:
 
 > [!tabs]
 > **Através da Área de Cliente OVHcloud**
->> Aceda à secção `Public Cloud`{.action} da Área de Cliente OVHcloud e clique em `Block Storage`{.action} no menu à esquerda em **Storage**.
+>> Aceda à secção `Public Cloud`{.action} da Área de Cliente OVHcloud e clique em `Block Storage`{.action} no menu à esquerda em **Backup Storage**.
 >>
 >> Clique no botão `...`{.action} junto do volume correspondente e selecione `Desassociar a instância`{.action}.
 >>

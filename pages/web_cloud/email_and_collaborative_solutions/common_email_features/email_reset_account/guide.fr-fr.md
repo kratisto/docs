@@ -1,7 +1,7 @@
 ---
 title: "Supprimer un compte e-mail"
 excerpt: "Découvrez comment supprimer ou réinitialiser une adresse e-mail sur votre offre e-mail"
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -37,8 +37,8 @@ Sélectionnez l'onglet correspondant à votre offre e-mail :
 >> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur `E-mails`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Cliquez sur `MX Plan`{.action}.
 >> 1. Sélectionnez le domaine concerné.
 >> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
 >> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Supprimer le compte`{.action}.
@@ -50,8 +50,8 @@ Sélectionnez l'onglet correspondant à votre offre e-mail :
 >> Pour vérifier si votre offre MX Plan est une version historique ou nouvelle, référez-vous au tableau de la partie « [Identifiez votre offre MX Plan](#whichmxplan) » de ce guide.
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur `E-mails`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Cliquez sur `MX Plan`{.action}.
 >> 1. Sélectionnez le domaine concerné.
 >> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
 >> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.
@@ -61,8 +61,8 @@ Sélectionnez l'onglet correspondant à votre offre e-mail :
 > **Email Pro**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
->> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Cliquez sur `Email Pro`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}. La fenêtre qui apparaît affiche les comptes e-mail existants.
 >> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser ce compte`{.action}.
@@ -74,9 +74,8 @@ Sélectionnez l'onglet correspondant à votre offre e-mail :
 > **Exchange**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur la rubrique `Microsoft`{.action}.
->> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >> 1. Positionnez-vous sur l'onglet `Comptes e-mail`{.action}.
 >> 1. Cliquez sur le bouton `...`{.action} à droite du compte à modifier puis cliquez sur `Réinitialiser`{.action}.

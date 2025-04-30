@@ -1,7 +1,7 @@
 ---
 title: 'Managing the security policy of an email service'
 excerpt: 'Find out how to manage the security policy of your email service'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -28,12 +28,12 @@ To access the security policy of your email service, log in to your [OVHcloud Co
 
 |Emails and Email Pro|Exchange| 
 |---|---| 
-|Click on `Emails`{.action} or `Professional emails`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.|Click on `Microsoft`{.action}, then on `Exchange`{.action}, and select the solution you want to manage. Click on `Security`{.action}.|
+|Click on `MX Plan`{.action} or `Email Pro`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.|Click on `Microsoft`{.action}, then on `Exchange`{.action}, and select the solution you want to manage. Click on `Security`{.action}.|
 |![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
 > [!primary]
 >
-> If you do not see the `More`{.action} tab appear in the control panel of your `Emails`{.action} service, this means that you are on a legacy MX Plan offer. There is no security policy management on the legacy MX Plan solution.
+> If you do not see the `More`{.action} tab appear in the control panel of your `MX Plan`{.action} service, this means that you are on a legacy MX Plan offer. There is no security policy management on the legacy MX Plan solution.
 
 Continue to the aspect(s) you want to modify.
 

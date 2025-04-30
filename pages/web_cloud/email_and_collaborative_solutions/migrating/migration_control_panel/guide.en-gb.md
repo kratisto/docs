@@ -1,7 +1,7 @@
 ---
 title: 'Migrating an MX Plan email account to an Email Pro or Exchange account'
 excerpt: 'Find out how to migrate an MX Plan email account to an Email Pro or Exchange account'
-updated: 2022-11-22
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -40,7 +40,10 @@ Log in to your [OVHcloud Control Panel](/links/manager), then order the Email Pr
 
 Before starting your migration, you will need to identify the version of the MX Plan you are migrating from.
 
-To do this, log in to the [OVHcloud Control Panel](/links/manager), and open the `Web Cloud`{.action} section. Click `Emails`{.action}, then choose the name of the concerned plan. Please refer to the table below.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `MX Plan`{.action}.
+1. Select the domain concerned.
 
 |MX Plan legacy version|MX Plan new version|
 |---|---|

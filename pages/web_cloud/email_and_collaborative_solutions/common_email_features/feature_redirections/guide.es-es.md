@@ -1,7 +1,7 @@
 ---
 title: 'Utilizar los alias y redirecciones de correo'
 excerpt: 'Cómo gestionar los alias y redirecciones de correo'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -81,7 +81,12 @@ Haga clic en las fichas siguientes para obtener una explicación ilustrada del f
 >
 > En función de la fecha de activación de su MX plan o si esta ha sido migrada recientemente, es posible que disponga de la versión histórica o de la nueva versión del producto. Antes de continuar, es necesario identificarla.<br>
 >
-> Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action}. Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente. Siga leyendo esta guía en función de su versión:<br>
+> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+> 1. Acceda al apartado `Web Cloud`{.action}.
+> 1. Haga clic en `MX Plan`{.action}.
+> 1. Seleccione el dominio.
+>
+> Siga leyendo esta guía en función de su versión:<br>
 >
 > |Versión histórica de la solución MX Plan|Nueva versión de la solución MX Plan|
 > |---|---|
@@ -167,7 +172,7 @@ Inicie sesión en el [área de cliente de OVHcloud](/links/manager) y acceda al 
 
 - **Email Pro**: en `Email Pro`{.action}, seleccione la plataforma correspondiente y haga clic en la pestaña `Cuentas de correo`{.action}.
 
-- **Emails** (MX plan): en `Correo electrónico`{.action}, seleccione la plataforma correspondiente y haga clic en la pestaña `Cuentas de correo`{.action}.
+- **MX Plan**: en `MX Plan`{.action}, seleccione la plataforma correspondiente y haga clic en la pestaña `Cuentas de correo`{.action}.
 
 Para añadir un alias a su cuenta de correo, siga los pasos descritos haciendo clic en cada pestaña:
 

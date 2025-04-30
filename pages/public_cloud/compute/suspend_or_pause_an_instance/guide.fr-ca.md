@@ -1,6 +1,6 @@
 ---
 title: Suspendre ou mettre en pause une instance
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Objectif
@@ -61,7 +61,7 @@ Une fois la procédure terminée, votre instance aura le statut « Suspendue ».
 
 ![statut suspendu](images/instance_suspended.png){.thumbnail}
 
-Le snapshot sera ensuite disponible dans la rubrique `Instance Backup`{.action} de la section `Storage` du menu gauche de l'espace Public Cloud. Un snapshot nommé *xxxxx-shelved* est alors visible :
+Le snapshot sera ensuite disponible dans la rubrique `Instance Backup`{.action} de la section **Compute** du menu gauche de l'espace Public Cloud. Un snapshot nommé *xxxxx-shelved* est alors visible :
 
 ![onglet snapshot](images/shelved_backup.png){.thumbnail}
 

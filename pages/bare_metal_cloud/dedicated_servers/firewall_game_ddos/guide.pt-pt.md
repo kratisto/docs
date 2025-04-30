@@ -1,7 +1,7 @@
 ---
 title: "Proteger um servidor de jogos com a firewall aplicacional"
 excerpt: "Descubra como configurar o OVHcloud Game DDoS Protection firewall"
-updated: 2024-10-31
+updated: 2025-04-28
 ---
 
 <style>
@@ -62,9 +62,8 @@ A infraestrutura anti-DDoS, associada à firewall Edge Network, protege a rede c
 
 Para configurar as regras de proteção de jogos do seu servidor Bare Metal Game, aceda à Área de Cliente OVHcloud e siga estas etapas:
 
-- Clique no separador `Bare Metal Cloud`{.action}.
-- Aceda ao `Network`{.action} na barra lateral à esquerda.
-- Abrir `IP`{.action}.
+- Clique em `Network`{.action} no menu à esquerda do ecrã.
+- Clique em `Endereços IP Públicos`{.action}.
 
 Pode filtrar os endereços IP utilizando o menu pendente `Todos os serviços`{.action}. Introduza o nome ou a categoria do servidor correspondente:
 

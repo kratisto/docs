@@ -1,7 +1,7 @@
 ---
 title: Gerir os meus métodos de pagamento
 excerpt: Aprenda a adicionar e gerir os seus métodos de pagamento dentro da Área de Cliente OVHcloud
-updated: 2022-05-18
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -10,14 +10,14 @@ A Área de Cliente OVHcloud permite-lhe guardar e gerir vários métodos de paga
 
 ## Requisitos
 
-- Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 - Dispor de um método de pagamento válido.
 
 ## Instruções <a name="payment_methods"></a>
 
-Na [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), clique no seu nome (canto superior direito) e selecione `Método de pagamento`{.action}.
+Na [Área de Cliente OVHcloud](/links/manager), clique no seu nome (canto superior direito) e selecione `Os meus métodos de pagamento`{.action}.
 
-![hubpayment](images/hubpayment.png){.thumbnail}
+![hubpayment](/pages/assets/screens/control_panel/product-selection/right-menu/my-payment-methods.png){.thumbnail}
 
 Aparecerá uma página com um quadro que indica os métodos de pagamento registados na sua conta de cliente. Nela pode:
 
@@ -47,7 +47,7 @@ Escolha o método de pagamento que deseja utilizar:
 
 ![choose-payment-method-no-sepa](images/choose-payment-method-no-sepa.png){.thumbnail}
 
-Siga as etapas sucessivas de registo do método de pagamento. Na primeira etapa, é-lhe proposto que selecione a opção `Pretendo selecionar este método de pagamento predefinido após a sua validação.`{.action}, de forma a que ele seja utilizado para as suas futuras compras ou débitos automáticos.
+Siga as etapas sucessivas de registo do método de pagamento. Na primeira etapa, é-lhe proposto que selecione a opção `Pretendo selecionar este método de pagamento predefinido após à sua validação.`{.action}, de forma a que ele seja utilizado para as suas futuras compras ou débitos automáticos.
 
 #### Cartão bancário
 
@@ -109,20 +109,20 @@ De seguida, elimine o método de pagamento utilizando o ID que obteve na etapa a
 >
 > Para mais informações, consulte o guia [Primeiros passos com as API OVHcloud](/pages/manage_and_operate/api/first-steps).
 >
-> Em caso de dificuldades para identificar os seus métodos de pagamento através das API OVHcloud, utilize a função `Alterar a descrição`{.action} (botão `...`{.action} à direita do ecrã) na parte relativa aos [Métodos de pagamento](#payment_methods) da sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).
+> Em caso de dificuldades para identificar os seus métodos de pagamento através das API OVHcloud, utilize a função `Alterar a descrição`{.action} (botão `...`{.action} à direita do ecrã) na parte relativa aos [Métodos de pagamento](#payment_methods) da sua [Área de Cliente OVHcloud](/links/manager).
 >
 
 ### Conta pré-paga
 
 #### O que é a conta pré-paga?
 
-A *conta pré-paga* está presente na sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) assim que for criada. Permite-lhe creditar antecipadamente a sua conta de cliente e utilizar estes fundos para o pagamento das suas encomendas e das suas faturas de renovação.
+A *conta pré-paga* está presente na sua [Área de Cliente OVHcloud](/links/manager) assim que for criada. Permite-lhe creditar antecipadamente à sua conta de cliente e utilizar estes fundos para o pagamento das suas encomendas e das suas faturas de renovação.
 
-Ao creditar regularmente a sua conta, certificar-se-á de que a [renovação automática](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#a-renovacao-automatica) dos seus serviços nunca será interrompida por falta de pagamento.
+Ao creditar regularmente à sua conta, certificar-se-á de que a [renovação automática](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#a-renovacao-automatica) dos seus serviços nunca será interrompida por falta de pagamento.
 
-Para isso, aceda à secção `Métodos de pagamento` na Área de Cliente:
+Para isso, aceda a secção `Métodos de pagamento` na Área de Cliente:
 
-- clique no canto superior direito e, em seguida, em `Métodos de pagamento`{.action}, no menu da direita;
+- clique no canto superior direito e, em seguida, em `Os meus métodos de pagamento`{.action}, no menu da direita;
 - selecione o separador `Conta pré-paga`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}
@@ -143,7 +143,7 @@ Se não possui nenhum método de pagamento registado, recomendamos que parametri
 
 Se o crédito disponível na sua conta pré-paga desce abaixo do limite definido, ser-lhe-á imediatamente enviado um e-mail de notificação.
 
-#### Como creditar a sua conta pré-paga?
+#### Como creditar à sua conta pré-paga?
 
 No separador `A minha conta pré-paga`{.action}, clique no botão `Creditar`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: Freigegebenes Postfach erstellen und verwenden
 excerpt: Erfahren Sie hier, wie Sie ein freigegebenes Postfach zu Ihrem Exchange-Dienst hinzufügen und verwenden
-updated: 2023-09-15
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -22,8 +22,7 @@ Ein **freigegebenes Postfach** ist eine Mailbox, die zwischen mehreren Exchange 
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 
 Wählen Sie den Tab `Freigegebene Postfächer`{.action} aus und klicken Sie auf `Freigegebenes Postfach hinzufügen`{.action}.

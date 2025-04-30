@@ -1,7 +1,7 @@
 ---
 title: "Web Hosting FAQ"
 excerpt: "Find the answers to the most frequently asked questions about OVHcloud Web Hosting plans"
-updated: 2025-03-24
+updated: 2025-04-25
 ---
 
 <style>
@@ -20,245 +20,595 @@ details[open]>summary::before {
 
 **Click on the questions below to see the explanations.**
 
-## Manage your solution
+## Management of your solution
 
-/// details | How do I configure my hosting space?
+/// details | How do I configure my web hosting plan?
 
-To configure your hosting, first log in to the [OVHcloud Control Panel](/links/manager). In the `Hosting plans` section, you can manage your SSL certificates, the PHP version, the CDN option, the multisite, databases, etc.
+Follow these steps:
 
-**Tips and tricks**: To help you configure your hosting, please check the `Getting started` section [here](/pages/web_cloud/web_hosting/hosting_first_steps_with_web_hosting).
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
 
-///
+You can manage your SSL certificates, the PHP version applied to your web hosting plan, the CDN option, multisites, databases, etc.
 
-
-/// details | How do I manage my passwords?
-
-To manage your passwords, first log in to the [OVHcloud Control Panel](/links/manager). If you have forgotten your username or password, click on `Forgotten your username or password`{.action} in the login window. You will be sent an email with the reset procedure.
-
-You can also refer to our guide [Setting and managing an account password](/pages/account_and_service_management/account_information/manage-ovh-password).
-
-Once you have logged in to your Control Panel:
-
-- To change the password on your FTP space, follow the instructions in this [guide](/pages/web_cloud/web_hosting/ftp_change_password).
-- To change your database password, follow the instructions in this [guide](/pages/web_cloud/web_hosting/sql_change_password).
-- To change the password for your MX Plan email address, follow the instructions in this [guide](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password).
+> [!success]
+>
+> To help you configure your web hosting plan, please refer to the sections *Getting started* and *Configuring a Personal, Professional or Performance web hosting plan* of [this page](/products/web-cloud-hosting).
 
 ///
 
+/// details | I forgot the password for accessing the account my web hosting plan is on. What should I do?
 
-/// details | How do I put my website online? 
+To retrieve your OVHcloud NIC handle or the password associated with it, follow these steps:
 
-To put your website online, you need to have a [domain name](/links/web/domains) corresponding to the web address from which your website will be accessible (e.g.: *mydomain.com*). You will also need a [Web Hosting](/links/web/hosting) plan to set up your website on.
+1. Go to the [interface for connecting to the OVHcloud Control Panel](/links/manager).
+2. Click on the `Forgotten your username or password?`{.action} link under the `Login`{.action} button.
+3. Enter your OVHcloud NIC handle (e.g. **aa00000-ovh**) or contact email address associated with your OVHcloud NIC handle.
+4. Then click the `Send`{.action} button.
 
-To follow the steps required to build your website, go to this [page](/links/web/hosting-website), then follow the instructions in our guide on [Publishing a website on your Web Hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online).
+The reset procedure will then be sent to your contact email address.
 
-**Tips and tricks**: To help you create your website, OVHcloud allows you to install website creation support software (WordPress, PrestaShop, Joomla! and Drupal) on your hosting plan, with the [1-click modules](/pages/web_cloud/web_hosting/cms_install_1_click_modules) feature.
-
-///
-
-
-/// details | How do I change my hosting plan?
-
-To order the web hosting plan that best suits your needs, you can view our web hosting plans at [this page](/links/web/hosting).
-
-Once you have made your choice, follow the instructions in our guide [Changing your web hosting plan offer](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer).
+> [!success]
+>
+> Find all the details in our guide “[Setting and managing an account password](/pages/account_and_service_management/account_information/manage-ovh-password)”.
 
 ///
 
+/// details | How do I manage the password for my web hosting plan’s FTP storage space?
 
-/// details | How do I transfer my website, database, domain name and emails to OVHcloud servers without any service interruptions?
+Follow these steps:
 
-Refer to our guide on [Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh), for the full set of steps to follow.
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `FTP - SSH`{.action} tab.
 
-///
+Here, you can change your web hosting plan’s FTP password.
 
-
-/// details | How do I host multiple websites on my Web Hosting plan? 
-
-See our guide [Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite).
-
-///
-
-
-/// details | How do I keep the email offer linked to my hosting plan when cancelling?
-
-When you cancel or delete your hosting plan, the email solution attached to it will also be cancelled. To keep your email addresses, you will need to detach the email solution before cancelling the hosting plan.<br>
-
-To do this, go to your Web Hosting plan’s `General information`{.action} tab. In the **Configuration** section, click on the `...`{.action} button to the right of **Email addresses**. Click `Detach my email option`{.action} and follow the instructions to order an independent email solution that lets you keep your email addresses you have already created.
+> [!success]
+>
+> Find all the details in our guide “[Web Hosting - Changing an FTP user password](/pages/web_cloud/web_hosting/ftp_change_password)”.
 
 ///
 
-
-/// details | How do I increase the RAM of Web Cloud Databases linked to a Performance web hosting plan?
-
-To increase the RAM for a Web Cloud Databases service linked to a **Performance** hosting plan, you will need detach it from your **Performance** web hosting plan beforehand in order to switch to a higher plan.
-
-To do this, log in to your [OVHcloud Control Panel](/links/manager). Go to the `Web Cloud`{.action} section. Click on the `Hosting plans`{.action} section in the left-hand column. Select the name of the web hosting plan concerned.
-
-On the new `General information`{.action} page that appears, you will see a box labelled `Configuration`{.action} in the centre of the page. To the right of `Web Cloud Databases`{.action}, click on the `...`{.action} button then `Detach`{.action}. Select the shortest renewal duration, then continue until you confirm your order.
-
-You can find more information in our guide on [Configuring a Web Cloud Databases solution](/pages/web_cloud/web_cloud_databases/configure-database-server#modify-ram-web-cloud-db)
-
-**This action cannot be undone, and the Cloud Databases Web hosting plan will then be billed separately from your Performance Web Hosting plan.**
-
-///
-
-
-## Diagnostics 
+/// details | How do I change the password for my database linked to my web hosting plan?
 
 > [!warning]
 >
-> If you experience any issues that are not listed in this FAQ, please refer to the [Troubleshooting](/products/web-cloud-hosting) section of our guides.
+> If you change the password for a database used by one of your websites, you can also update it in the configuration file for the website concerned. Without this update, your website will be disconnected from its database and will not work properly.
+
+Follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `Databases`{.action} tab.
+
+Here, you can change the passwords for your databases associated with your Web Hosting plan.
+
+> [!success]
 >
-
-/// details | What do I do if my website isn't working properly? 
-
-There are several reasons why your website might not be working properly. To identify the cause, start by verifying that none of your subscriptions need to be **renewed** by logging into your [OVHcloud Control Panel](/links/manager).
-
-Then check out the [current events on our infrastructure](https://www.status-ovhcloud.com/). If all of your services are active and are not affected by any incidents or maintenance, please carry out a more in-depth diagnostic.
+> Find all the details in our guide “[Changing the password for a Web Hosting plan’s database](/pages/web_cloud/web_hosting/sql_change_password)”.
 
 ///
 
+/// details | How do I change the password for an email account linked to my web hosting plan?
 
-/// details | What do I do if, after my website has been put online, the OVHcloud "Website under construction" page remains displayed?
+Follow these steps:
 
-![site-en-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Emails`{.action} menu (or on the `MX Plan`{.action} menu if you are using the beta version of the OVHcloud Control Panel), then choose the domain name concerned.
+3. On the page that appears, click on the `Emails`{.action} tab.
+4. In the table that pops up, click the `...`{.action} button to the right of the email account concerned, then click `Change password`{.action}.
 
-When you install a Web Hosting plan, OVHcloud implements this page as an **index.html** file, contained in your FTP server’s root folder `www`.
+Here, you can change your email password (please ensure that you follow the password policy listed in the login window).
 
-This file is automatically disabled when you create your [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
-
-If you have chosen [to install your website manually](/pages/web_cloud/web_hosting/cms_manual_installation), [log in to your FTP space](/pages/web_cloud/web_hosting/ftp_connection) and rename it to `index.html.old`.
+> [!success]
+>
+> Find all the details in our guide “[Changing an email password](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)”.
+>
+> If you use an email client (Outlook, macOS Mail, Thunderbird, etc.), update the password for your email account when the email client prompts you to do so, when it is opened, or when it is synchronized.
+>
+> If you have any further questions on the *MX Plan* email solution, please refer to our [FAQ - Emails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails).
 
 ///
 
+/// details | How do I get my website online?
 
-/// details | What do I do if my website appears on a xxxxx.cluster0xx.hosting.ovh.net-type website?
+To put your website online, you will need the following information:
+
+- A [domain name](/links/web/domains) that will correspond to the web address from which your website will be accessible via a web browser (example: *domain.tld*). This domain name must also be associated with your web hosting plan to view the website.
+- A [web hosting plan](/links/web/hosting) on which to install your website.
+
+Here are the main steps to follow:
+
+1. Define your project (turn-key website (CMS) installed manually or with OVHcloud 1-click modules/website created by you or a provider, etc.).
+2. Put the website files online in your web hosting plan’s FTP storage space.
+3. Link the website to a database (if the website uses one).
+4. Go to your website.
+
+> [!success]
+>
+> For more details on putting a website online on a web hosting plan, please read our detailed guide on [Publishing a website on your Web Hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online).
+>
+> If you choose to install a CMS (WordPress, Joomla!, PrestaShop, Drupal) with our 1-click modules solution, please read our detailed guide “[Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)”.
+>
+> If your website already exists with another provider, and you would like to migrate it to OVHcloud, please read our detailed guide on "[Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)".
+>
+> To help you configure your web hosting plan, you can refer to the full set of [guides for our web hosting solutions](/products/web-cloud-hosting).
+
+///
+
+/// details | How do I transfer my website, database, domain name and emails to OVHcloud without any service interruptions?
+
+Here are the main steps to follow:
+
+1. Order hosting and email accounts from OVHcloud.
+2. Create and pre-configure a DNS zone for your domain name at OVHcloud.
+3. Retrieve a full backup of your website.
+4. Import your website backup onto your OVHcloud hosting plan.
+5. Recreate your email addresses identically at OVHcloud.
+6. Declare OVHcloud email servers in your domain name’s active DNS zone.
+7. Transfer the content of your old email accounts to your new ones at OVHcloud.
+8. Reconfigure your email software.
+9. Replace your domain name’s active DNS servers with OVHcloud DNS servers.
+10. Transfer your domain name to OVHcloud.
+
+> [!success]
+>
+> Find all the details in our guide "[Migrating your website and associated services to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)".
+
+///
+
+/// details | How do I host multiple websites on a single web hosting plan?
+
+If your [web hosting plan is compatible](/links/web/hosting), follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `Multisite`{.action} tab.
+
+Here, you can manage the multi-site domain names/sub-domains declared on your Web Hosting plan.
+
+> [!success]
+>
+> You can find all the details in our guide "[Hosting multiple websites on your Web Hosting plan](/pages/web_cloud/web_hosting/multisites_configure_multisite)".
+
+///
+
+/// details | How do I display my website with a URL in HTTPS?
+
+In order for your website to be accessible with a URL in “HTTPS” (e.g.: `https://domain.tld`), you will need two prerequisites:
+
+- You must have an active SSL certificate for your domain name (or installed on your Web Hosting plan).
+- In your website’s source code, it must force URLs to be rewritten to HTTPS.
+
+OVHcloud offers [several SSL certificates](/links/web/hosting-options) on web hosting plans.
+
+To activate an SSL certificate on your Web Hosting plan for your website, follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that pops up, in the **Configuration** box, click the `...`{.action} button to the right of the **SSL certificate** comment, then `Order an SSL certificate`{.action}.
+4. [Choose the certificate you want from the list of available certificates](/pages/web_cloud/web_hosting/ssl_on_webhosting), then continue until the purchase order is finalized.
+
+> [!success]
+>
+> Find all the details in the following guides:
+>
+> - [Web Hosting - Manage an SSL certificate](/pages/web_cloud/web_hosting/ssl_on_webhosting)
+> - [Web Hosting - How to activate a free Let's Encrypt SSL certificate](/pages/web_cloud/web_hosting/ssl_letsencrypt)
+> - [Web Hosting - How to activate a Sectigo DV SSL certificate](/pages/web_cloud/web_hosting/ssl_dv)
+> - [Web Hosting - How to activate a Sectigo EV SSL certificate](/pages/web_cloud/web_hosting/ssl_ev)
+> - [Web Hosting - How to install a custom SSL certificate](/pages/web_cloud/web_hosting/ssl_custom)
+
+Once you have installed and set up an SSL certificate of your choice on the OVHcloud side, check that the source code of your website rewrites the URLs for accessing your website in HTTPS. If you experience any difficulties with this, please contact your webmaster or one of our [partners](/links/partner).
+
+///
+
+/// details | How do I change my web hosting plan?
+
+To order the web hosting plan that best suits your needs, check out our offers on [this page](/links/web/hosting).
+
+> [!primary]
+>
+> Depending on your current web hosting plan, some plans may not be available. Read our guide on [Upgrading a web hosting plan](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) for more information on this topic.
+
+Once you have made your choice, follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that pops up, in the box **Plan**, click on the `...`{.action} button to the right of the word `Service plan`, then on `Change plan`{.action}.
+4. Then select your new subscription and its duration. Confirm the corresponding contracts, then click `Send`{.action}.
+
+> [!success]
+>
+> Find all the details in our guide on "[Web Hosting - How to change your solution](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer)".
+
+///
+
+/// details | When I cancel a web hosting plan, how do I keep the email solution attached to my web hosting plan?
+
+When you cancel or delete your web hosting plan, the email solution attached to it is also cancelled. To keep your email addresses, you will need to detach the **email solution before** canceling the web hosting plan concerned.
+
+Follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that pops up, in the **Configuration** box, click on the `...`{.action} button to the right of the `Email addresses` comment, then on `Detach my email option`{.action}.
+4. Follow the instructions to order an independent email solution that will allow you to keep your email addresses already created.
+
+///
+
+/// details | When I cancel a Performance web hosting plan, how do I keep the attached Web Cloud Databases solution?
+
+**Performance** web hosting plans include a Web Cloud Databases solution that can be activated for free.<br>
+When you cancel or delete your **Performance** web hosting plan, any attached Web Cloud Databases solution will also be cancelled. To keep your Web Cloud Databases solution, you will need to detach it **before** the hosting plan is cancelled.
+
+Follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that pops up, in the **Configuration** box, click the `...`{.action} button to the right of the `Web Cloud Databases` comment, then `Detach`{.action}.
+4. Follow the instructions to order an independent Web Cloud Databases solution in order to keep your Web Cloud Databases solution already created.
+
+**This action cannot be undone, and the Web Cloud Databases solution will then be billed separately from your Performance web hosting plan.**
+
+///
+
+/// details | How do I increase the RAM of a "Web Cloud Databases" solution linked to a "Performance" web hosting plan?
+
+Follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click on the `Web Cloud Databases`{.action} menu, then choose the Web Cloud Databases solution concerned.
+3. On the page that pops up, in the box **General information**, click on the `...`{.action} button to the right of `RAM`, then on `Change the ammount of RAM`{.action}.
+4. Follow the instructions to order the amount of RAM you want, then proceed until the order is confirmed.
+
+> [!success]
+>
+> If necessary, please also refer to the “*Modifying your Web Cloud Databases* solution” section of our guide “[Configuring your database server](/pages/web_cloud/web_cloud_databases/configure-database-server)”.
+
+///
+
+## Diagnostic
+
+> [!success]
+>
+> If you encounter any issues that are not listed in this FAQ, please refer to the “*Troubleshooting*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
+
+/// details | What should I do if my website stops working?
+
+There are several reasons why your website might not work.<br>
+To identify the cause, start by ensuring that none of your subscriptions need to be **renewed**.
+
+Follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. On the page that pops up, click on your name in the top right-hand corner, then choose `My solutions & services`{.action}.
+
+> [!success]
+>
+> Find all the details in our guide “[How to renew OVHcloud services](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal)”.
+
+Then check out the [current events on our infrastructure](https://www.status-ovhcloud.com/).
+
+If all your services are active and are not affected by any incidents or maintenance, please carry out a more in-depth diagnostic.
+
+> [!success]
+>
+> See the “*Troubleshooting*” section of our [guides on web hosting solutions](/products/web-cloud-hosting).
+
+///
+
+/// details | What do I do if the OVHcloud “Website under construction” page remains displayed once my website is online?
+
+![site-in-construction](/pages/assets/screens/other/browsers/errors/site-en-construction.png){.thumbnail}
+
+When your web hosting plan is set up, OVHcloud sets up this holding page in the form of a **index.html** file, which is contained in the `www` folder in your web hosting plan’s FTP storage space.
+
+There are two possible scenarios:
+
+- If you have installed a [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules): This file is automatically deleted by our installation robots.
+- If you have set up your website manually, then follow the steps below:
+- [Log in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection).
+- Once you have logged in to the FTP storage space, go down to the `www` directory.
+- Rename the file **index.html** to **index.html.old**. This will disable the page after a few minutes.
+
+> [!success]
+>
+> Find more details in the following guides:
+>
+> - [Logging in to your web hosting plan’s FTP storage space](/pages/web_cloud/web_hosting/ftp_connection)
+> - [Web Hosting - Changing an FTP user password](/pages/web_cloud/web_hosting/ftp_change_password)
+> - [Tutorial - Using FileZilla with your OVHcloud hosting](/pages/web_cloud/web_hosting/ftp_filezilla_user_guide)
+> - [Tutorial - Using Cyberduck with a web hosting plan](/pages/web_cloud/web_hosting/ftp_cyberduck_user_guide_on_mac)
+
+///
+
+/// details | My website appears with an address like xxxxx.clusterXXX.hosting.ovh.net. What should I do?
 
 ![url-cluster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
 
-There are two scenarios. Either your website was created with this web address or it appeared following a modification.
+Your website has been created with a [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules), using your web hosting plan’s default web address “xxxxx.clusterXXX.hosting.ovh.net” when you set it up.
 
-- **Scenario 1:** Your website has been created with a xxxxx.cluster0xx.hosting.ovh.net URL
+You will then need to delete your 1-click module, then reinstall it.
 
 > [!warning]
 >
-> Deleting a database, like deleting a 1-click module, is permanent. It also **deletes backups** of the data concerned. Before deleting your website on the OVHcloud hosting plan, **ensure that you are able to recreate it identically**. If you are unsure about the changes to be made, contact your webmaster or one of our [partners](/links/partner) about it.
+> Deleting a [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules), just like deleting a database, is permanent. It also **deletes backups** of the data concerned. Before deleting your website on the web hosting plan, **make sure you can recreate it identically**. If you are unsure about the changes you need to make, contact your Webmaster or one of our [partners](/links/partner).
 >
-
-In the first case, after you have completed all the necessary backups, delete your module in the `Hosting plans` section of the OVHcloud Control Panel:
-
-![delete-a-module](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/1-click-modules/delete-a-module.png){.thumbnail}
-
-Then delete its database from the database tab on the right-hand side of your screen, in the section `Hosting plans`:
-
-![delete_a_database](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/sharedsql-deletion.png){.thumbnail}
- 
-Finally, retry the installation on the domain name you want, using the [1-click module](/pages/web_cloud/web_hosting/cms_manage_1_click_module) feature.
-
-- **Scenario 2:** Your website is displayed with a xxxxx.cluster0xx.hosting.ovh.net web address because it was modified
-
-If your website appears with this URL following a change, restore it to its previous state.
-
-> [!alert]
+> If necessary, also refer to these detailed guides:
 >
-> Restoring your OVHcloud hosting plan will restore **all of the websites** it contains.
->
-> During a restore, the contents of your FTP space or database are replaced by a backup. As a result, you will not be able to retrieve any data stored on the FTP server or  database before the restoration date.
->
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Retrieving the backup of a Web Hosting plan’s databas](/pages/web_cloud/web_hosting/sql_database_export)
 
-To restore your website’s source code, please refer to our guide on [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+**Only** after you have carried out all the necessary backups, delete your [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules) by doing the following:
 
-If your website has a database, please refer to our guide on [Restoring a backup of your database](/pages/web_cloud/web_hosting/sql_importing_mysql_database#restore-a-backup-from-the-control-panel).
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `1-click modules`{.action} tab.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the *1-click module* concerned, then click `Delete the module`{.action}.
+
+Deleting the *1-click module* may take **several minutes**.
+
+Then delete the database associated with it by doing the following:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `Databases`{.action} tab.
+4. In the table that pops up, click the `...`{.action} button in the row of the database concerned, then `Delete a database`{.action}.
+
+It may take **several minutes** to delete the associated database.
+
+Once the deletions are complete, reinstall your *1-click module*, taking care to select the domain name you want.
+
+> [!success]
+>
+> Find all the details in our guide on [Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules) .
 
 ///
 
+/// details | Following a change, my website appears with a web address like “xxxxx.clusterXXX.hosting.ovh.net”. What should I do?
 
-/// details | What do I do if my website redirects to the OVHcloud webmail-login-interface?
+![url-cluster](/pages/assets/screens/other/browsers/urls/url-cluster.png){.thumbnail}
+
+Your website will be displayed with your web hosting plan’s default web address, like ‘xxxxx.clusterXXX.hosting.ovh.net’, after you have modified your [1-click module](/pages/web_cloud/web_hosting/cms_install_1_click_modules).
+
+If your website appears with this URL after you have made a change, the quickest way to do this is to restore it to a previous state, where it worked properly.
+
+> [!alert]
+>
+> Restoring a web hosting plan restores **all of the websites** it contains.
+>
+> When you restore, the contents of your FTP storage space or the contents of your database are irreversibly replaced by a backup. Any data that was present **before the restoration** was launched on the FTP storage space or database to be restored will be overwritten and permanently lost. If necessary, be sure to retrieve a backup of this content beforehand. If you are unsure about the changes you need to make, contact your webmaster or one of our [partners](/links/partner).
+>
+> If necessary, also refer to these detailed guides:
+>
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Retrieving the backup of a Web Hosting plan’s database](/pages/web_cloud/web_hosting/sql_database_export)
+
+To restore your website’s source code, follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `FTP - SSH`{.action} tab.
+4. On the new page that appears, click the `Restore backup`{.action} button.
+5. In the window that pops up, choose the date of the backup you want to restore, and then continue until the process begins.
+
+Restoring the FTP storage space may take **several minutes**.
+
+To restore a backup of your database, follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `Databases`{.action} tab.
+4. In the table that pops up, click the `...`{.action} button in the row of the database concerned, then `Restore backup`{.action}.
+5. On the new page that pops up, choose the backup to restore (**ideally the backup corresponding to the date you have chosen for restoring your website’s source code (see above)**).
+6. Once you have chosen the backup, click the `...`{.action} button to the right of the backup you want to restore, then `Restore the backup`{.action}.
+
+Restoring a database backup may take **several minutes**.
+
+> [!success]
+>
+> Find all the details in the following guides:
+>
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Importing a backup into a Web Hosting plan database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+
+///
+
+/// details | My website redirects to the OVHcloud Webmail interface. What should I do?
 
 ![webmail-login-interface](/pages/assets/screens/website/webmail/webmail-login-interface.png){.thumbnail}
 
-This anomaly indicates an incorrect configuration in the [DNS servers](/pages/web_cloud/domains/dns_server_edit) or the [DNS zone](/pages/web_cloud/domains/dns_zone_edit) associated with your domain name.
+This situation indicates an incorrect configuration in the [DNS servers](/pages/web_cloud/domains/dns_server_edit) or [DNS zone](/pages/web_cloud/domains/dns_zone_edit) associated with your domain name.
 
-The most common case is: If you have ordered your domain name and Web Hosting plan separately, they will not be linked via their DNS zone.
+The most common case is that you have ordered your domain name and web hosting plan separately, so they are not automatically linked to each other via your domain name’s DNS zone.
 
-Go to the `Domain names`{.action} section of the [OVHcloud Control Panel](/links/manager). Click on the domain name concerned, then on the `DNS servers`{.action} tab.
+To correct this, follow these steps:
 
-Then note down the DNS servers listed and go to the `DNS zone`{.action} tab.
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click on the `Domain names`{.action} menu, then choose the domain name concerned.
+3. On the page that appears, click on the `DNS servers`{.action} tab.
+4. Then note down the names of the DNS servers listed, and go to the `DNS Zone`{.action} tab (to the right of the `DNS Servers`{.action} tab).
+5. In the table (representing the DNS zone of the domain name) that appears, compare the `Targets` of the `NS` type entries present in the DNS zone with the names of the DNS servers retrieved earlier. There are three possible scenarios. Click on the tabs below to view the solution to each case.
 
-Compare the `Target` of the `NS` type records listed in the `DNS zone`{.action} tab with the servers listed in the `DNS servers`{.action} tab:
-
-- If the elements are identical, replace target `213.186.33.5` with the four-number code noted in the `General information` tab under `IPv4` (for more details on how to make changes, follow the instructions in [this guide](/pages/web_cloud/domains/dns_zone_edit)).
-
-- If the elements are not identical, but the servers listed in the `DNS servers` tab appear in [this list](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), perform a reset as described in [this guide](/pages/web_cloud/domains/dns_server_edit).
-
-- If the elements are not identical and the servers listed in the `DNS server`{.action} tab do not appear in [this list](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP), contact your webmaster or search for a [specialist service provider](/links/partner) via the [OVHcloud partners](/links/partner) page.
+> [!tabs]
+> **Case 1**
+>>
+>> The `Targets` (DNS servers) of the entries of type `NS` declared in the DNS zone of the domain name **are identical** to those retrieved in the `DNS servers`{.action} tab.
+>>
+>> In this case, this means that your domain name (or its *www* sub-domain) points to the IP address of our redirection server (213.186.33.5).
+>>
+>> 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>> 2. Click on the `Domain names`{.action} menu (or on the `DNS zones`{.action} menu if you are using the beta version of the OVHcloud Control Panel), then select the domain name concerned.
+>> 3. On the page that opens, click on the `DNS Zone`{.action} tab.
+>> 4. In the table that appears (representing your domain name’s DNS zone), identify the entry of type `A` whose `Target` is set to the IP address `213.186.33.5`.
+>> 5 Click the `...`{.action} button to the right of the line, then `Modify record`{.action}.
+>> 6. In the window that opens, replace the IP address `213.186.33.5` in the `Target*` form with the IP address of the web hosting plan where your website is located.
+>>
+>> > [!success]
+>> >
+>> > If necessary, also refer to the following detailed guides:
+>> >
+>> > - [Editing an OVHcloud DNS zone](/pages/web_cloud/domains/dns_zone_edit)
+>> > - [Web Hosting - List of IP addresses by cluster](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_IP)
+>>
+> **Case 2**
+>>
+>> The `Targets` (DNS servers) of the entries of type `NS` declared in the DNS zone of the domain name **are not identical** to those retrieved in the `DNS servers`{.action} tab. However, the `Targets` (DNS servers) have one of the following forms:
+>>
+>> - `nsXX.ovh.net` and `dnsXX.ovh.net` **or** `nsXXX.ovh.net` and `dnsXXX.ovh.net` (where each `X` designates a number between **0** and **9**)
+>> - `nsXX.ovh.ca` and `dnsXX.ovh.ca` **or** `nsXXX.ovh.ca` and `dnsXXX.ovh.ca` (where each `X` denotes a number between **0** and **9**)
+>> - `ns200.anycast.me` and `dns200.anycast.me` (if you have subscribed to the [DNS anycast](/links/web/domains-options) option)
+>>
+>> > [!primary]
+>> >
+>> > If one of your DNS servers declared in the `DNS servers`{.action} tab has the following form: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` or `vpsXXXXXX.ovh.ca` (where each `X` designates a number between **0** and **9**), please refer to the **Case 3**.
+>> > These are the names of DNS servers provided by OVHcloud, which only allow our customers to host their DNS configuration directly on their own servers (Dedicated Servers, VPS, etc.).
+>>
+>> In this case, this means that your domain name is not using the correct OVHcloud DNS servers to apply the DNS zone configuration listed in the `DNS zone`{.action} tab.
+>>
+>> To correct this, follow these steps:
+>>
+>> 1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>> 2. Click on the `Domain names`{.action} menu, then choose the domain name concerned.
+>> 3. On the page that opens, click on the `DNS servers`{.action} tab.
+>> 4. On the new page that appears, click the `Modify DNS servers`{.action} button.
+>> 5. On the page that pops up, select the option `Use OVHcloud default DNS`{.action}, then click the `Apply configuration`{.action} button.
+>>
+>> It can take up to **48** hours to propagate the DNS server update applied to a domain name.
+>>
+>> > [!success]
+>> >
+>> > Find all the details in our guide “[How to modify the DNS servers of an OVHcloud domain name](/pages/web_cloud/domains/dns_server_edit)”.
+>>
+> **Case 3**
+>>
+>> The `Targets` (DNS servers) of the entries of type `NS` declared in the DNS zone of the domain name **are not identical** to those retrieved in the `DNS servers`{.action} tab. In addition, the names of the DNS servers retrieved in the `DNS servers`{.action} tab do not have any of the forms described in the **Case 2**, with the exception of the following forms: `sdnsX.ovh.net`, `sdnsX.ovh.ca`, `vpsXXXXXX.ovh.net` or `vpsXXXXXX.ovh.ca` (where each `X` designates a number between **0** and **9**).
+>>
+>> In this case, the active DNS zone applied to your domain name is not managed directly by OVHcloud. Contact your Webmaster, domain name provider, DNS provider or one of our [partners](/links/partner).
 
 ///
 
-
-/// details | What do I do if my website displays a page does not redirect correctly error?
+/// details | What do I do if my website displays a "Page is not redirecting properly" error?
 
 ![the-page-isnt-redirecting-properly](/pages/assets/screens/other/browsers/errors/the-page-isnt-redirecting-properly.png){.thumbnail}
 
+In this case, the quickest solution will be to restore it to a previous state where it worked correctly.
+
 > [!alert]
 >
-> Restoring your OVHcloud hosting plan will restore all of the websites it contains.
+> Restoring a web hosting plan restores **all of the websites** it contains.
 >
-> During a restore, the contents of your FTP space, or that of your database, are replaced by a backup. As a result, you will not be able to retrieve the data stored on the FTP server or the database just before the restore.
+> When you restore an instance, the contents of your FTP storage space or the contents of your database are irreversibly replaced by a backup. Any data that was present **before the restoration** was launched on the FTP storage space or database to be restored will be overwritten and permanently lost. Please ensure that you have backed up this content beforehand. If you are unsure about the changes you need to make, contact your Webmaster or one of our [partners](/links/partner).
 >
+> See also these detailed guides:
+>
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup)
+> - [Retrieving the backup of a Web Hosting plan’s database](/pages/web_cloud/web_hosting/sql_database_export)
 
-Restore your website to its previous state:
+To restore your website’s source code, follow these steps:
 
-- To restore your website’s source code, please refer to our guide [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `FTP - SSH`{.action} tab.
+4. On the new page that appears, click the `Restore backup`{.action} button.
+5. In the window that pops up, choose the date of the backup you want to restore, and then continue until the process begins.
 
-- If your website has a database, please refer to our guide [Importing a backup into a Web Hosting plan database](/pages/web_cloud/web_hosting/sql_importing_mysql_database#restore-a-backup-from-the-control-panel).
+Restoring the FTP storage space may take **several minutes**.
 
-If the restores do not allow you to restore access to your site, contact your webmaster or search for a [specialist service provider](/links/partner) on the [OVHcloud partners](/links/partner) website.
+To restore a backup of your database, follow these steps:
+
+1. Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+2. Click the `Hosting plans`{.action} menu, then select the web hosting plan concerned.
+3. On the page that appears, click on the `Databases`{.action} tab.
+4. In the table that pops up, click the `...`{.action} button on the right-hand side of the row for the database concerned, then `Restore backup`{.action}.
+5. On the new page that pops up, choose the backup to restore (**ideally the backup corresponding to the date you have chosen for restoring your website’s source code (see above)**).
+6. Once you have chosen the backup, click the `...`{.action} button to the right of the backup you want to restore, then `Restore the backup`{.action}.
+
+Restoring a database backup may take **several minutes**.
+
+> [!success]
+>
+> Find all the details in the following guides:
+>
+> - [Restoring your Web Hosting plan’s storage space](/pages/web_cloud/web_hosting/ftp_save_and_backup).
+> - [Importing a backup into a Web Hosting plan database](/pages/web_cloud/web_hosting/sql_importing_mysql_database).
+
+If this does not restore access to your website, contact your Webmaster or one of our [partners](/links/partner).
 
 ///
 
-
-/// details | What do I do if my website displays a "503 error Backend fetch failed (Varnish cache)" error?
+/// details | What do I do if my website displays the error "503 error Backend fetch failed (Varnish cache)"?
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
-If you have enabled the [CDN option](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn) on your Web Hosting plan, disable *Maintenance* mode on your WordPress or PrestaShop website.
+If you have enabled [the CDN option](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn) on your web hosting plan, disable *Maintenance* mode on your WordPress or PrestaShop website.
 
-If you have not enabled this option or used *Maintenance* mode, please contact your webmaster or search for a [specialist service provider](/links/partner) via the [OVHcloud partners](/links/partner) website.
+If you have not enabled this option or used *Maintenance* mode, please contact your webmaster or one of our [partners](/links/partner).
+
+This error can also appear if an HTTP request ends in *timeout* on your website.
+
+> [!success]
+>
+> If necessary, also refer to these detailed guides:
+>
+> - [Speed up my website using the CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn)
+> - [Troubleshooting common 1-click module errors](/pages/web_cloud/web_hosting/diagnostic_errors_module1clic)
 
 ///
 
-
-/// details | What do I do if my website displays a "Your request has been blocked" error?
+/// details | What should I do if my website displays a “Your request has been blocked” error?
 
 ![your-request-has-been-blocked](/pages/assets/screens/other/browsers/errors/your-request-has-been-blocked.png){.thumbnail}
 
-This message indicates that the type of HTTP request you are trying to make on your website is prohibited for a limited time. In this situation, [examine your website’s logs](/pages/web_cloud/web_hosting/logs_and_statistics) to determine which requests caused this block.
+This message indicates that the type of HTTP request you are trying to make on your website is forbidden for a limited time, usually for security reasons.
 
-To help you correct these anomalies, contact your webmaster or one of our [partners](/links/partner).
+In this situation, several actions are required:
+
+- [Examine the logs](/pages/web_cloud/web_hosting/logs_and_statistics) of your website, in order to determine which requests caused this block.
+- Using anti-virus or anti-spyware software, check that your devices (computers, smartphones, etc.) are not infected by spyware or malicious software.
+- Check the source code of your website (FTP storage space and database(s)).
+
+If you are unsure about the changes you need to make, contact your webmaster or one of our [partners](/links/partner).
+
+> [!success]
+>
+> See also our detailed guides:
+>
+> - [Web hosting - View website statistics and logs](/pages/web_cloud/web_hosting/logs_and_statistics).
+> - [Use cases - What to do if your  Website is hacked](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
 
 ///
 
-
-/// details | What should I do if my website has a "Your IP has been banned" error?
+/// details | What should I do if my website displays a “Your IP has been banned” error?
 
 ![your-ip-has-been-banned](/pages/assets/screens/other/browsers/errors/your-ip-has-been-banned.png){.thumbnail}
 
-This message indicates that the IP address you use to log on to your website is blocked for a limited time. 
+This message indicates that the IP address you use to connect to your website is blocked for a limited time, usually for security reasons.
 
-In this situation, [review the logs](/pages/web_cloud/web_hosting/logs_and_statistics) of your site, to determine which queries caused this block.<br>
-Also, make sure your computer is not infected with a virus.<br>
-You can also contact one of our [partners](/links/partner) to check your website’s source code.
+In this situation, several actions are required:
+
+- [Examine the logs](/pages/web_cloud/web_hosting/logs_and_statistics) of your website, in order to determine which requests caused this block.
+- Using anti-virus or anti-spyware software, check that your devices (computers, smartphones, etc.) are not infected by spyware or malicious software.
+- Check the source code of your website (FTP storage space and database(s)).
+
+If you are unsure about the changes you need to make, contact your webmaster or one of our [partners](/links/partner).
+
+> [!success]
+>
+> See also our detailed guides:
+>
+> - [Web hosting - View website statistics and logs](/pages/web_cloud/web_hosting/logs_and_statistics).
+> - [Use cases - What to do if your  Website is hacked](/pages/web_cloud/web_hosting/cms_what_to_do_if_your_site_is_hacked).
 
 ///
-
 
 /// details | I have ordered a domain name with special characters, and it appears written in a strange way in my Control Panel. What should I do?
 
 ![idn-notation](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/general-information/idn-notation.png){.thumbnail}
 
-You have no action to take in this situation. Even if your domain appears in [internationalised notation (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name){.external} in your Control Panel, it will work and display in a completely normal way elsewhere. Your website's web address will be displayed as you requested. Your email addresses will also appear as you wish to your contacts.
+You have no action to take in this situation. Even if your domain appears in [internationalized notation (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name){.external} in your Control Panel, it will work and display in a normal way elsewhere. Your website's web address will be displayed as you requested. Your email addresses will also appear as you wish to your contacts.
 
 > [!alert]
 >
@@ -268,7 +618,6 @@ You have no action to take in this situation. Even if your domain appears in [in
 >
 
 ///
-
 
 ## Go further <a name="go-further"></a>
 

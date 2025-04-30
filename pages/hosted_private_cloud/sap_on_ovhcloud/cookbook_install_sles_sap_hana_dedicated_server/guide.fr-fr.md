@@ -1,7 +1,7 @@
 ---
 title: Installation de SAP HANA sur Bare Metal avec SLES 15 for SAP
 excerpt: "Ce guide fournit des instructions pour le déploiement de l'image SLES 15 for SAP sur un serveur dédié OVHcloud et sa préparation pour SAP HANA"
-updated: 2023-03-20
+updated: 2025-04-29
 ---
 
 ## Objectif
@@ -20,10 +20,6 @@ Ce guide fournit des instructions pour le déploiement de l'image SUSE Linux Ent
 Depuis l'espace client OVHcloud, vous pouvez lancer le déploiement de l'image SLES 15 for SAP que OVHcloud met à disposition en cliquant sur le bouton `Installer`{.action}.
 
 ![install-manager](images/install-manager.png){.thumbnail}
-
-Sélectionnez l'option `Installer à partir d'un template OVHcloud`{.action}.
-
-![select-template](images/select-template.png){.thumbnail width=592 height=420}
 
 La première étape consiste à renseigner des informations sur le système d'exploitation que vous souhaitez installer.<br>
 &ensp;&thinsp;a. Dans le menu déroulant `Type de système d'exploitation`{.action}, sélectionnez `ERP`{.action}.<br>

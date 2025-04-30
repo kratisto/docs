@@ -1,7 +1,7 @@
 ---
 title: 'Trasferire un dominio in OVHcloud'
 excerpt: 'Questa guida ti mostra come avviare la procedura di trasferimento di un dominio generico verso OVHcloud'
-updated: 2024-06-28
+updated: 2025-04-28
 ---
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/MILAnKdjHns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -123,7 +123,7 @@ Quando ti viene chiesto di fornire il codice di trasferimento, digitalo nella ca
 
 #### Stato del trasferimento dopo l'ordine
 
-Una volta confermato l'ordine, riceverai un buono d'ordine. La procedura di trasferimento inizierà solo dopo aver ricevuto il pagamento. Una volta completata l'operazione, è possibile seguire lo stato di avanzamento del processo dallo [Spazio Cliente OVHcloud](/links/manager){.external}. Per monitorare lo stato di avanzamento dell'operazione, clicca su `Domini`{.action} e poi `Operazioni in corso`{.action}.
+Una volta confermato l'ordine, riceverai un buono d'ordine. La procedura di trasferimento inizierà solo dopo aver ricevuto il pagamento. Una volta completata l'operazione, è possibile seguire lo stato di avanzamento del processo dallo [Spazio Cliente OVHcloud](/links/manager). Una volta connesso, clicca su `Web Cloud`{.action} e poi su `Operazioni in corso`{.action}.
 
 > [!primary]
 >
@@ -141,7 +141,7 @@ Una volta convalidato l'ordine e il codice di trasferimento, il Registrar attual
 
 Se il provider attuale emette un rifiuto, contatta il provider per sapere perché l'ha rifiutata.
 
-Il trasferimento può essere riavviato dallo [Spazio Cliente OVHcloud](/links/manager){.external}. Seleziona `Web Cloud`{.action} e accedi alla sezione `Domini`{.action}, poi clicca su `Operazioni in corso`{.action}.
+Il trasferimento può essere riavviato dallo [Spazio Cliente OVHcloud](/links/manager). Una volta connesso, clicca su `Web Cloud`{.action} e poi su `Operazioni in corso`{.action}.
 
 > [!primary]
 >
@@ -155,7 +155,7 @@ Il trasferimento può essere riavviato dallo [Spazio Cliente OVHcloud](/links/ma
 
 ### Step 5: gestire il dominio con OVHcloud
 
-Una volta completata la procedura, è possibile gestire il dominio dallo [Spazio Cliente OVHcloud](/links/manager){.external}. Seleziona `Web Cloud`{.action}, clicca su `Domini`{.action} nel menu a sinistra e poi clicca sul dominio interessato.
+Una volta completata la procedura, è possibile gestire il dominio dallo [Spazio Cliente OVHcloud](/links/manager). Seleziona `Web Cloud`{.action}, clicca su `Domini`{.action} nel menu a sinistra e poi clicca sul dominio interessato.
 
 > [!warning]
 >

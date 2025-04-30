@@ -1,7 +1,7 @@
 ---
 title: Crear una copia de seguridad de un volumen
 excerpt: Cómo crear una copia de seguridad de su volumen Block Storage desde el área de cliente
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -36,7 +36,7 @@ El volumen de snapshot y el volumen de backup le permiten:
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-Abra el menú `Block Storage`{.action} en la barra de navegación a la izquierda con **Storage**.
+Abra el menú `Block Storage`{.action} en la barra de navegación a la izquierda con **Storage and Backup**.
 
 A la derecha del volumen correspondiente, haga clic en el botón `...`{.action} y, seguidamente, en `Crear una copia de seguridad`{.action}. No es necesario desvincular en primer lugar el volumen de su instancia. No obstante, si desea desvincular su volumen de su instancia, consulte esta [sección](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#en-linux) de la guía correspondiente para Linux y esta [sección](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#en-windows) para Windows.
 

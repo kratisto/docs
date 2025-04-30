@@ -1,7 +1,7 @@
 ---
 title: Ajouter un pied de page pour vos comptes E-mail 
 excerpt: Découvrez comment créer une signature automatique depuis l’espace client OVHcloud
-updated: 2020-03-26
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -21,16 +21,15 @@ Dans votre espace client OVHcloud, vous pouvez créer des signatures universelle
 > **Exchange**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
->> 1. Cliquez sur l'onglet `Web Cloud`{.action} .
->> 1. Cliquez sur la rubrique `Microsoft`{.action}.
->> 1. Cliquez sur `Exchange`{.action}.
+>> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+>> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 > **Email Pro**
 >>
 >> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
 >> 1. Cliquez sur l'onglet `Web Cloud`{.action}.
->> 1. Cliquez sur `E-mails Pro`{.action}.
+>> 1. Cliquez sur `Email Pro`{.action}.
 >> 1. Sélectionnez la plateforme concernée.
 >>
 

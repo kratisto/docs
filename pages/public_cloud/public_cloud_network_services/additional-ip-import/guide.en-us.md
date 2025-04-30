@@ -1,7 +1,7 @@
 ---
 title: Importing an Additional IP
 excerpt: "Find out how to import an Additional IP address into your Public Cloud project"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,8 +24,8 @@ Instead of buying additional ones, you can import an Additional IP address that 
 ## Requirements
 
 - A [Public Cloud project](https://www.ovhcloud.com/en/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we){.external}
-- An [Additional IP address](https://www.ovhcloud.com/en/bare-metal/ip/){.external}
+- Access to the [OVHcloud Control Panel](/links/manager)
+- An [Additional IP address](https://www.ovhcloud.com/en/bare-metal/ip/)
 
 > [!warning]
 > This feature is not currently available for Metal instances.
@@ -33,9 +33,9 @@ Instead of buying additional ones, you can import an Additional IP address that 
 
 ## Instructions
 
-In the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), select your project from the `Public Cloud`{.action} section. 
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned.
 
-In the left-hand menu, open `Public IPs`{.action} under `Network`.
+In the left-hand menu, open `Public IPs`{.action} under **Network**.
 
 Open the `Additional IP`{.action} tab and click on the `Actions`{.action} button. Select `Import an Additional IP`{.action} to display all the IP addresses that can be imported into your Public Cloud project.
 
@@ -75,6 +75,6 @@ The next step will be the IP configuration in your OS; please refer to our [guid
 
 [Configuring an Additional IP](/pages/public_cloud/public_cloud_network_services/getting-started-04-configure-additional-ip-to-instance)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

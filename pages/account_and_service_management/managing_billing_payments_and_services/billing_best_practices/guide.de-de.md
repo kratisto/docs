@@ -1,7 +1,7 @@
 ---
 title: Best Practices für die Verwaltung Ihrer Dienstleistungen und Ihres OVHcloud Accounts
 excerpt: Erfahren Sie hier alles zur Verwaltung Ihrer Rechnungen, Bestellungen, Zahlungsmittel und Kunden-Accounts
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -12,7 +12,7 @@ Diese Anleitung enthält die wichtigsten Punkte, die für eine ordnungsgemäße 
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben aktive OVHcloud Dienste.
 
 ## In der praktischen Anwendung
@@ -31,7 +31,7 @@ Damit die Sicherheitsmaßnahmen greifen, überprüfen Sie, ob Ihre E-Mail-Adress
 
 Die persönlichen Angaben (Postanschrift, E-Mail etc.) Ihres Kunden-Accounts müssen auf dem aktuellen Stand sein, um die Sicherheit und das reibungslose Funktionieren Ihrer Dienstleistungen zu gewährleisten.
 
-Überprüfen Sie Ihre persönlichen Angaben, indem Sie oben rechts in Ihrem OVHcloud Kundencenter auf Ihren Namen und anschließend auf Ihre Initialen klicken (`Meinen Account verwalten`{.action}).<br>
+Überprüfen Sie Ihre persönlichen Informationen, indem Sie rechts oben in Ihrem [OVHcloud Kundencenter](/links/manager) auf Ihren Namen und dann auf `Zu meinem Account`{.action} klicken.<br>
 Im Bereich `Mein Profil`{.action} rechts auf Ihrem Bildschirm (klicken Sie erneut auf Ihren Namen, um das rechte Menü zu schließen) klicken Sie auf `...`{.action} und dann auf `Mein Profil bearbeiten`{.action}.
 
 ![Myprofil](images/myprofile.png){.thumbnail}
@@ -45,16 +45,16 @@ Vergewissern Sie sich, dass Ihre E-Mail-Adresse stets **aktuell, gesichert und e
 > Fügen Sie Ihren persönlichen Angaben auch eine **Backup-E-Mail** hinzu, um Sie vor Zugriffsverlusten auf Ihren OVHcloud Kunden-Account zu schützen.
 >
 
-Die von OVHcloud versendeten E-Mails sind auch über Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) einsehbar.<br>
-Klicken Sie oben rechts auf Ihren Bildschirm auf Ihren Namen und dann im rechten Menü auf `E-Mails von OVHcloud`{.action}.
+Die von OVHcloud versendeten E-Mails sind auch über Ihr [OVHcloud Kundencenter](/links/manager) einsehbar.<br>
+Klicken Sie oben rechts auf Ihren Bildschirm auf Ihren Namen und dann im rechten Menü auf `Meine Kommunikation`{.action}.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Automatische Verlängerung aktivieren
 
 > [!primary]
 >
-> Um Dienstunterbrechungen zu vermeiden und die automatische Verlängerung zu aktivieren, [hinterlegen Sie ein Zahlungsmittel](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+> Um Dienstunterbrechungen zu vermeiden und die automatische Verlängerung zu aktivieren, [hinterlegen Sie ein Zahlungsmittel](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) in Ihrem [OVHcloud Kundencenter](/links/manager).
 >
 > Vergewissern Sie sich regelmäßig, dass Ihr Zahlungsmittel **gültig** ist.
 >
@@ -68,16 +68,14 @@ Wenn Sie sich entscheiden, die automatische Verlängerung nicht zu aktivieren, e
 
 ### Übersicht Ihrer Bestellungen
 
-Wussten Sie, dass Sie [Ihre Bestellungen](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) nachverfolgen können?<br>
-Gehen Sie zum Tab `Dashboard`{.action} Ihres Kundencenters und klicken Sie dann auf den Tab `Meine Bestellungen anzeigen`{.action}.
-
-![viewmyorders](images/viewmyorders.png){.thumbnail}
+Wussten Sie, dass Sie [Ihre Bestellungen](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) in Ihrem [OVHcloud Kundencenter](/links/manager) nachverfolgen können?<br>
+Klicken Sie einfach auf das OVHcloud Logo oben links auf Ihrem Bildschirm und dann auf `Meine Bestellungen anzeigen`{.action}.
 
 Sie werden über die Schritte der Ausführung informiert und erfahren, ob auf Ihrer Seite Aktionen notwendig sind.
 
 ### Kündigung von Dienstleistungen
 
-Wenn Sie einen Ihrer Dienste nicht mehr nutzen möchten, können Sie ihn kündigen, die Verlängerung auf den manuellen Modus umstellen oder ihn sofort aus Ihrem [OVHcloud-Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) löschen.
+Wenn Sie einen Ihrer Dienste nicht mehr nutzen möchten, können Sie ihn kündigen, die Verlängerung auf den manuellen Modus umstellen oder ihn sofort aus Ihrem [OVHcloud-Kundencenter](/links/manager) löschen.
 
 Klicken Sie zunächst auf Ihren Namen oben rechts neben Ihrem Bildschirm und dann auf `Meine Angebote und Dienste`{.action}. Klicken Sie auf der rechten Seite auf den Button `...`{.action} der dem Dienst entspricht, den Sie bearbeiten möchten, und klicken Sie dann auf einen der folgenden Buttons:
 

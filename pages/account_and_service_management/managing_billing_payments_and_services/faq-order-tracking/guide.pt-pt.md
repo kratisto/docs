@@ -1,7 +1,7 @@
 ---
 title: FAQ sobre o seguimento da encomenda OVHcloud
 excerpt: Encontre as questões mais frequentes sobre o seguimento da encomenda OVHcloud
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -10,25 +10,23 @@ Encontre as questões mais frequentes sobre o seguimento da encomenda OVHcloud.
 
 ### Como pagar uma nova encomenda?
 
-Só pode efetuar o pagamento depois de identificar a sua encomenda através da sua conta de cliente. Para isso, só precisa de selecionar um método de pagamento já registado na sua conta de cliente, ou adicionar um novo. Se pagar por cartão de crédito, é possível que o seu organismo bancário lhe envie um código de confirmação por SMS, que terá de indicar durante as etapas de pagamento da sua encomenda. Uma vez que a OVHcloud receber o pagamento, será notificado de que foi tido em conta assim como sobre o estado de progresso da encomenda.
+Só pode efetuar o pagamento depois de identificar à sua encomenda através da sua conta de cliente. Para isso, só precisa de selecionar um método de pagamento já registado na sua conta de cliente, ou adicionar um novo. Se pagar por cartão de crédito, é possível que o seu organismo bancário lhe envie um código de confirmação por SMS, que terá de indicar durante as etapas de pagamento da sua encomenda. Uma vez que a OVHcloud receber o pagamento, será notificado de que foi tido em conta assim como sobre o estado de progresso da encomenda.
 
 #### Truques e dicas
 
-Saiu da página da encomenda? Pode visualizá-la e pagá-la a partir da [Área de Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), na rubrica `Encomendas`{.action}.
+Saiu da página da encomenda? Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome em cima à direita e, a seguir, clique em `Encomendas`{.action}. Poderá depois visualizar à sua encomenda e pagá-la.
 
 ### Como consultar o estado do pagamento?
 
-Aceda à sua [Área de Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) e, na parte direita do painel de controlo, clique no atalho `Faturas`{.action}. Se existir uma fatura com pagamento pendente, ser-lhe-á sugerido que regularize a situação diretamente a partir do painel de controlo.
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `As minhas faturas`{.action}. Se uma fatura está a aguardar pagamento, diretamente no seu painel de controlo, ser-lhe-á proposta a possibilidade de pagar o seu saldo.
 
 #### Truques e dicas
 
-Pode registar o seu método de pagamento na secção `Métodos de pagamento`{.action}. Assim, as suas faturas serão automaticamente regularizadas.
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome em cima à direita e, a seguir, clique em `Os meus métodos de pagamento`{.action}. Poderá então registar o seu método de pagamento. Desta forma, as suas faturas serão automaticamente regularizadas.
 
 ### Como acompanhar o estado da encomenda?
 
-Aceda à sua [Área de Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) e, uma vez no painel de controlo, terá visibilidade sobre o estado das suas últimas encomendas na parte central da página. Se pretender aceder ao conjunto das suas encomendas, clique em `Ver as minhas encomendas`{.action}.
-
-![estado da encomenda](images/order_final-min.gif){.thumbnail}
+Aceda à [Área de Cliente OVHcloud](/links/manager) e clique em `Ver as minhas encomendas`{.action}.
 
 ### Truques e dicas
 
@@ -44,7 +42,7 @@ Se já fez o pagamento, sugerimos que contacte o [nosso Apoio ao Cliente](https:
 
 ### Como anular a minha encomenda?
 
-Se não realizar o pagamento, a sua encomenda será anulada automaticamente dentro de um prazo que poderá variar dependendo do tipo de serviço.
+Se não realizar o pagamento, à sua encomenda será anulada automaticamente dentro de um prazo que poderá variar dependendo do tipo de serviço.
 Enquanto particular, se já pagou a encomenda e esta não estiver associada a um serviço personalizado (como um domínio) ou a uma licença (Office 365, por exemplo), pode retratar-se num período de 14 dias. A este respeito, disponibilizamos-lhe [um manual pormenorizado](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders#direito-de-retratacao).
 
 #### Truques e dicas:
@@ -62,7 +60,7 @@ Uma fatura com pagamento pendente também pode causar este atraso. Se for o seu 
 
 #### Truques e dicas:
 
-Pode registar o seu método de pagamento na secção `Métodos de pagamento`{.action}. Assim, as suas faturas serão automaticamente regularizadas.
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome em cima à direita e, a seguir, clique em `Os meus métodos de pagamento`{.action}. Poderá então registar o seu método de pagamento. Desta forma, as suas faturas serão automaticamente regularizadas.
 
 ## Quer saber mais?
 

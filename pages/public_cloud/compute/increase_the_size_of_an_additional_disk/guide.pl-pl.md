@@ -1,7 +1,7 @@
 ---
 title: "Zwiększ rozmiar dodatkowego dysku"
 excerpt: "Dowiedz się, jak zwiększyć rozmiar dodatkowego wolumenu i powiększyć jego partycję główną"
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -99,7 +99,7 @@ Aby mieć pewność, że rozmiar dysku zostanie zwiększony we właściwym momen
 
 ### Zmień rozmiar dysku
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i otwórz swój projekt `Public Cloud`{.action}. Następnie w menu po lewej stronie kliknij `Block Storage`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i otwórz swój projekt `Public Cloud`{.action}. Następnie w menu po lewej stronie kliknij `Block Storage`{.action} pod **Storage i Backup**
 
 Jeśli wolumen jest przypisany do **instancji Windows**, kliknij przycisk `...`{.action} z prawej strony odpowiedniego wolumenu i wybierz opcję `Odłącz instancję`{.action}.
 

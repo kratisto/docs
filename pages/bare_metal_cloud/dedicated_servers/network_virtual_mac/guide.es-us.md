@@ -38,7 +38,7 @@ OVHcloud permite asociar una dirección MAC virtual a una dirección IP para pod
 
 #### Desde el área de cliente de OVHcloud
 
-En el [área de cliente de OVHcloud](/links/manager), acceda al menú `Bare Metal Cloud`{.action} y abra la sección `Network`{.action}. Haga clic en `IP`{.action}.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en `Network`{.action} en el menú situado a la izquierda de la pantalla y seleccione `Direcciones IP públicas`{.action}.
 
 Haga clic en la pestaña `Additional IP`{.action}.
 
@@ -77,7 +77,7 @@ Utilice la siguiente llamada a la API:
 
 #### Desde el área de cliente de OVHcloud
 
-Para eliminar una dirección MAC virtual asociada a una Additional IP, en el [área de cliente de OVHcloud](/links/manager) acceda al menú `Bare Metal Cloud`{.action} y abra la sección `Network`{.action}. Haga clic en `IP`{.action}. Seleccione el servidor para ver las Additional IP o bloques de IP asociados.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en `Network`{.action} en el menú situado a la izquierda de la pantalla y seleccione `Direcciones IP públicas`{.action}. Seleccione el servidor para ver las Additional IP o bloques de IP asociados.
 
 Por último, haga clic en el botón `···`{.action} situado al final de la línea correspondiente y seleccione `Eliminar la MAC virtual`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Creare e gestire utenti locali su un account OVHcloud'
 excerpt: 'Scopri come aggiungere utenti locali dal tuo account OVHcloud'
-updated: 2024-06-25
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -20,7 +20,7 @@ OVHcloud ti offre la possibilità di creare utenti locali che possano eseguire o
 ## Prerequisiti
 
 - Disporre di un account OVHcloud attivo
-- Avere accesso allo Spazio Cliente OVHcloud
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
@@ -32,13 +32,9 @@ Gli utenti locali sono uno dei tipi di identità che possono essere associati al
 
 #### Aggiungi un utente
 
-Clicca sul nome del tuo account in alto a destra e poi di nuovo sul tuo nome nella barra laterale.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
 
-![Accesso al menu IAM](images/access_to_the_IAM_menu_01.png){.thumbnail}
-
-Accedi al menu IAM tramite la voce dedicata dello Spazio Cliente.
-
-![Accesso al menu IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
+Nel riquadro **Scelta rapida** clicca sulla scheda `Gestisci i tuoi utenti`{.action}.
 
 Clicca sulla scheda `Identità`{.action} per accedere alla gestione degli utenti locali.
 
@@ -72,7 +68,7 @@ Esempio: **1234-567-89/johnsmith**.
 
 ![users-management](images/usersmanagement3.png){.thumbnail}
 
-A questo punto l’utente appena creato potrà accedere allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}usando questo identificativo. 
+A questo punto l’utente appena creato potrà accedere allo [Spazio Cliente OVHcloud](/links/manager) usando questo identificativo. 
 
 Inoltre potrà modificare password e proteggere l’accesso al tuo account attivando la doppia autenticazione (solo ed esclusivamente per il suo accesso in qualità di utente). A questo proposito consulta [la guida relativa all’attivazione della doppia autenticazione](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa){.external}.
 

@@ -1,7 +1,7 @@
 ---
 title: "Criar uma cópia de segurança de um volume"
 excerpt: "Saiba como criar um backup do volume Block Storage a partir da Área de Cliente"
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -36,7 +36,7 @@ O Volume Snapshot e o Volume Backup permitem-lhe:
 
 Ligue-se à sua [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa.
 
-A seguir, abra o menu `Block Storage`{.action} na barra de navegação à esquerda, abaixo de **Storage**.
+A seguir, abra o menu `Block Storage`{.action} na barra de navegação à esquerda, abaixo de **Backup Storage**.
 
 À direita do volume em questão, clique no botão `...`{.action} e em `Criar uma cópia de segurança`{.action}. Não é necessário desassociar primeiro o volume da sua instância. No entanto, se pretender desassociar o seu volume da sua instância, consulte esta [secção](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#em-linux) do guia correspondente para Linux e esta [secção](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#em-windows) para Windows.
 

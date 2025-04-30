@@ -1,7 +1,7 @@
 ---
 title: 'Gérer un carnet de contacts sur une ligne SIP'
 excerpt: 'Apprenez à gérer un carnet de contacts sur une ligne SIP OVHcloud'
-updated: 2022-06-21
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -29,8 +29,8 @@ Vous avez la possibilité de gérer le carnet de contacts d'une seule ligne ou d
 - **Pour accéder à la gestion du carnet de contacts d'une seule ligne** :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée. 
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée. 
 1. Cliquez sur l'onglet `Téléphone`{.action} puis sur `Carnets de contacts`{.action}.
  
 ![carnet de contacts](images/carnetligne.png){.thumbnail}
@@ -38,7 +38,7 @@ Vous avez la possibilité de gérer le carnet de contacts d'une seule ligne ou d
 - **Pour accéder à la gestion du carnet de contacts d'un groupe de lignes** :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation souhaité.
 1. Cliquez alors sur l'onglet `Carnet de contacts`{.action}.
 
 ![carnet de contacts](images/carnetgroupe.png){.thumbnail}

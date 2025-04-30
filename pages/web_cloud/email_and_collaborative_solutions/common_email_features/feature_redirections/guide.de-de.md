@@ -1,7 +1,7 @@
 ---
 title: 'E-Mail Alias und Weiterleitung verwenden'
 excerpt: 'Erfahren Sie hier, wie Sie E-Mail Aliase und Weiterleitungen verwalten'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -66,7 +66,12 @@ Klicken Sie auf die Tabs, um die Funktionsweise von Aliasnamen und Weiterleitung
 >
 > Je nach Aktivierungsdatum Ihres MX Plans oder falls Ihr Dienst kürzlich migriert wurde, haben Sie entweder die historische oder die neue Version dieses Dienstes. Bevor Sie fortfahren, identifizieren Sie Ihre Dienstversion.<br>
 >
-> Loggen Sie sich hierfür in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie zum Bereich `Web Cloud`{.action}. Öffnen Sie `E-Mails`{.action} in der Seitenleiste und wählen Sie den Namen des betreffenden MX Plans aus. Identifizieren Sie Ihre Version gemäß der folgenden Tabelle:<br>
+> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+> 1. Klicken Sie auf `MX Plan`{.action}.
+> 1. Wählen Sie die betreffende Domain aus.
+>
+> Identifizieren Sie Ihre Version gemäß der folgenden Tabelle:<br>
 >
 > |MX Plan Legacy|Neue MX Plan Version|
 > |---|---|
@@ -153,7 +158,7 @@ Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und gehen Sie
 
 - **E-Mail Pro**: Öffnen Sie `E-Mail Pro`{.action} und wählen Sie den Dienst aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}.
 
-- **E-Mails** (MX Plan): Öffnen Sie `E-Mails`{.action} und wählen Sie den Dienst aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}.
+- **E-Mails** (MX Plan): Öffnen Sie `MX Plan`{.action} und wählen Sie den Dienst aus. Klicken Sie auf den Tab `E-Mail-Accounts`{.action}.
 
 Um einen Alias zu Ihrem E-Mail-Account hinzuzufügen, folgen Sie den Anleitungsschritten indem Sie nacheinander die Tabs öffnen:
 
@@ -183,7 +188,10 @@ Klicken Sie in der Zeile des betreffenden Alias auf den Button `...`{.action} un
 
 ### Weiterleitung oder Alias mit MX Plan Legacy oder für einen Domainnamen ohne E-Mail-Dienst konfigurieren <a name="mxplanlegacy"></a>
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter ein](/links/manager) und gehen Sie in den Bereich `Web Cloud`. Öffnen Sie links im Menü `E-Mails`{.action}.
+1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
+1. Öffnen Sie den Bereich `Web Cloud`{.action}.
+1. Klicken Sie auf `MX Plan`{.action}.
+1. Wählen Sie die betreffende Domain aus.
 
 > [!warning]
 >

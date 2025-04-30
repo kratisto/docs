@@ -1,7 +1,7 @@
 ---
 title: Obtener una licencia Outlook para Exchange
 excerpt: Cómo contratar una licencia Outlook desde una plataforma Exchange de OVHcloud e instalarla
-updated: 2022-10-05
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -25,9 +25,8 @@ Una vez contratada, puede descargar Outlook de una de las 3 versiones siguientes
 #### Para una cuenta Hosted Exchange
 
 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en el tema `Microsoft`{.action}.
-1. Haga clic en `Exchange`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 1. Seleccione la plataforma correspondiente.
 1. Haga clic en el icono `...`{.action} a la derecha de la cuenta correspondiente y, seguidamente, en `Contratar una licencia Outlook`{.action}.
 
@@ -44,9 +43,8 @@ Espere a que se ponga a su disposición la licencia Outlook en el área de clien
 #### Para una cuenta Private Exchange
 
 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en el tema `Microsoft`{.action}.
-1. Haga clic en `Exchange`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 1. Seleccione la plataforma correspondiente.
 1. Haga clic en el icono `...`{.action} a la derecha de la cuenta correspondiente y, seguidamente, en `Activar la licencia Outlook`{.action}.
 
@@ -82,9 +80,8 @@ El archivo descargado tiene el formato .ISO, es decir, una imagen de disco. Ejec
 ### Eliminar la licencia Outlook de su cuenta
 
 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en el tema `Microsoft`{.action}.
-1. Haga clic en `Exchange`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 1. Seleccione la plataforma correspondiente.
 1. Haga clic en el icono `...`{.action} a la derecha de la cuenta correspondiente y, seguidamente, en `Eliminar la licencia Outlook.`{.action}
 

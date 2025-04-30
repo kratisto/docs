@@ -1,7 +1,7 @@
 ---
 title: Conectarse al área de cliente de OVHcloud
 excerpt: 'Cómo autenticarse en su cuenta de OVHcloud'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -19,7 +19,7 @@ La gestión de sus servicios se realiza principalmente desde el área de cliente
 
 ### Conectarse al área de cliente de OVHcloud
 
-Acceda a [la página de autenticación de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external} e introduzca su dirección de correo electrónico principal y su contraseña.
+Acceda a [la página de autenticación de OVHcloud](/links/manager) e introduzca su dirección de correo electrónico principal y su contraseña.
 
 ![identifiant client](images/log-in.png){.thumbnail}
 

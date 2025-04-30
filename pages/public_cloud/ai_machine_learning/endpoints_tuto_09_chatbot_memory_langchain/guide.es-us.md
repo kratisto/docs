@@ -1,12 +1,10 @@
 ---
 title: AI Endpoints - Enable conversational memory in your chatbot using LangChain
 excerpt: How to integrate conversational memory into your chatbot using AI Endpoints and LangChain’s memory modules
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]
->
-> AI Endpoints is currently in **Beta**. Although we aim to offer a production-ready product even in this testing phase, service availability may not be guaranteed. Please be careful if you use endpoints for production, as the Beta phase is not yet complete.
 >
 > AI Endpoints is covered by the **[OVHcloud AI Endpoints Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf)** and the **[OVHcloud Public Cloud Special Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/d2a208c-Conditions_particulieres_OVH_Stack-WE-9.0.pdf)**.
 >
@@ -233,7 +231,7 @@ You’ve also seen how easy it is to use AI Endpoints to create innovative turnk
 
 ## Going further
 
-If you would like to find out more, take a look at the following article on [memory chatbot with LangChain4j](https://blog.ovhcloud.com/memory-chatbot-using-ai-endpoints-and-langchain4j/).
+If you would like to find out more, take a look at the following article on [memory chatbot with LangChain4j](/pages/public_cloud/ai_machine_learning/endpoints_tuto_10_memory_chatbot_langchain4j).
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 

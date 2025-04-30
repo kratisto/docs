@@ -24,11 +24,11 @@ Beachten Sie, dass das Löschen eines Projekts nicht dem Deaktivieren Ihrer Publ
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus.
 
-Öffnen Sie `Project Settings`{.action} unterhalb von **Project Management** im linken Menü.
+Öffnen Sie `Projektparameter`{.action} unterhalb von **Einstellungen** im linken Menü.
 
-![Public Cloud Menu](images/deleteproject.png){.thumbnail}
+![Public Cloud Menu](images/delete-project-2025.png){.thumbnail}
 
 Klicken Sie auf den Button `Projekt löschen`{.action}.
 

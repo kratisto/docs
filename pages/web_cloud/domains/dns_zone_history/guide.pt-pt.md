@@ -1,7 +1,7 @@
 ---
 title: "Gerir o histórico de uma zona DNS"
 excerpt: "Saiba como consultar, comparar, descarregar e restaurar os seus backups de zona DNS"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -28,7 +28,7 @@ Agora, a gestão dos DNS é facilitada graças ao histórico das suas zonas DNS.
 
 ## Instruções
 
-Clique nas guias abaixo para exibir sucessivamente cada um dos **5** etapas.
+Clique nas guias abaixo para exibir sucessivamente cada um dos **4** etapas.
 
 > [!tabs]
 > **Etapa 1**
@@ -39,15 +39,11 @@ Clique nas guias abaixo para exibir sucessivamente cada um dos **5** etapas.
 >>
 > **Etapa 2**
 >>>
->> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>> Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
->> 
->> Selecione o separador `Zona DNS`{.action} quando posicionado no domínio em questão.
->>
-> **Etapa 4**
 >>
 >> A tabela que aparece representa a zona DNS do seu domínio. Poderá consultar a lista dos registos DNS que contém. À direita da tabela, vários botões permitem-lhe efetuar ações na sua zona DNS. 
 >>
@@ -55,7 +51,7 @@ Clique nas guias abaixo para exibir sucessivamente cada um dos **5** etapas.
 >>
 >> Clique em `Ver o histórico da minha zona DNS`{.action}. 
 >>
-> **Etapa 5**
+> **Etapa 4**
 >>
 >> Na nova página que vai aparecer, aparecerá uma tabela com o histórico dos backups da sua zona DNS, classificada da data mais recente à mais antiga. No topo desta tabela encontra-se a versão atual da sua zona DNS. Nessa página, você pode executar as seguintes ações:
 >>

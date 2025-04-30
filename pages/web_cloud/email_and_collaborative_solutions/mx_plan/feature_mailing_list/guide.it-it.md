@@ -1,7 +1,7 @@
 ---
 title: 'Gestire e utilizzare una mailing list'
 excerpt: 'Come gestire e utilizzare una mailing list'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -49,8 +49,8 @@ Il mittente (sender) trasmette l’email alla mailing list. Il moderatore (moder
 Per creare la tua mailing list:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Email`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
 1. Seleziona il dominio.
 1. Vai alla scheda `Mailing list`{.action}del tuo servizio di posta elettronica.
 

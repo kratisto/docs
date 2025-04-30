@@ -1,7 +1,7 @@
 ---
 title: 'E-Mail-Accounts mit MX Plan erstellen'
 excerpt: 'Erfahren Sie hier, wie Sie einen MX Plan E-Mail-Account erstellen'
-updated: 2024-06-13
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -28,7 +28,7 @@ Je nach Aktivierungsdatum Ihres Dienstes und je nachdem, ob Ihr Dienst vor Kurze
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails`{.action}.
+1. Klicken Sie auf `MX Plan`{.action}.
 1. Wählen Sie die betreffende Domain aus.
 
 Fahren Sie entsprechend Ihrer MX Plan Version fort.

@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Konfiguracja konta e-mail w Gmailu na Androida"
 excerpt: "Dowiedz się, jak skonfigurować konto Exchange na urządzeniu z systemem Android poprzez aplikację Gmail"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 <style>
@@ -41,12 +41,16 @@ Konta e-mail Exchange mogą być skonfigurowane w jednym z kompatybilnych progra
 
 ### Jak dodać konto e-mail
 
-> [!primary]
+> [!warning]
 >
-> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "? "cyfrą wskazującą serwer Twojej usługi Exchange.
+> Poniżej stosujemy przykładową nazwę serwera: ex?.mail.ovh.net. Chcesz zastąpić "?" cyfrą wskazującą serwer Twojej usługi Exchange.
 >
-> Liczbę tę odnajdziesz w [Panelu klienta OVHcloud](/links/manager), w sekcji `Web Cloud`{.action}, a następnie w wersji `Microsoft`{.action}.
-> Kliknij `Exchange`{.action}, a następnie wybraną platformę Exchange. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+> 1. Przejdź do sekcji `Web Cloud`{.action}.
+> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+> 1. Wybierz odpowiednią platformę.
+> 1. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+>
 
 Na ekranie Twojego urządzenia wybierz aplikację `Gmail`{.action}.
 

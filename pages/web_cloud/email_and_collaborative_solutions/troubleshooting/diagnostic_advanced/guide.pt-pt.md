@@ -1,7 +1,7 @@
 ---
 title: 'Envio ou receção de e-mails impossível'
 excerpt: "Saiba como reagir em caso de problemas de envio ou receção de e-mails na OVHcloud"
-updated: 2024-04-11
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -35,8 +35,8 @@ Eis como verificar que os seus serviços estão corretamente operacionais:
 
 - Para o seu **domínio**, aceda à secção `Web Cloud`{.action}, clique em `Nomes de domínio`{.action} e selecione o seu domínio. Se o domínio expirar, isto ser-lhe-á indicado no topo da página.
 - Para o seu **Alojamento Web**, dirija-se à secção `Web Cloud`{.action}, clique em `Alojamentos`{.action} e selecione o seu alojamento. A data de expiração ou de renovação automática do seu alojamento será indicada no topo da página.
-- Para uma oferta **MXplan**, aceda à secção `Web Cloud`{.action}, clique em `E-mails`{.action} e selecione o domínio em causa. Clique no separador `Contas de e-mail`{.action}. Verifique o estado da conta de e-mail na coluna `Estado`.
-- Para uma oferta **E-mail Pro**, aceda à secção `Web Cloud`{.action}, clique em `E-mails Pro`{.action} e selecione a sua plataforma. Clique no separador `Contas de e-mail`{.action}. Verifique o estado da conta de e-mail na coluna `Estado`.
+- Para uma oferta **MXplan**, aceda à secção `Web Cloud`{.action}, clique em `MX Plan`{.action} e selecione o domínio em causa. Clique no separador `Contas de e-mail`{.action}. Verifique o estado da conta de e-mail na coluna `Estado`.
+- Para uma oferta **E-mail Pro**, aceda à secção `Web Cloud`{.action}, clique em `Email Pro`{.action} e selecione a sua plataforma. Clique no separador `Contas de e-mail`{.action}. Verifique o estado da conta de e-mail na coluna `Estado`.
 - Para uma oferta **Exchange**, dirija-se à secção `Web Cloud`{.action}, clique em `Microsoft`{.action}, e depois clique em `Exchange`{.action} e selecione a sua plataforma. Clique no separador `Contas de e-mail`{.action}. Verifique o estado da conta de e-mail na coluna `Estado`.
 
 ### Não consigo enviar e-mails a partir do meu software de e-mail (**envio** e/ou **receção**)
@@ -69,7 +69,7 @@ Como alterar a palavra-passe de um endereço de e-mail:
 
 - Para uma oferta **MXplan**, consulte o nosso guia [Alterar a palavra-passe de um endereço de e-mail MX Plan](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password)
 
-- Para uma oferta **E-mail Pro**, aceda à secção `Web Cloud`{.action}, clique em `E-mails Pro`{.action} e selecione a sua plataforma. No separador `Contas de e-mail`{.action}, clique no botão `...`{.action} e em `Alterar`{.action} para alterar a palavra-passe.
+- Para uma oferta **E-mail Pro**, aceda à secção `Web Cloud`{.action}, clique em `Email Pro`{.action} e selecione a sua plataforma. No separador `Contas de e-mail`{.action}, clique no botão `...`{.action} e em `Alterar`{.action} para alterar a palavra-passe.
 
 - Para uma oferta **Exchange**, dirija-se à secção `Web Cloud`{.action}, clique em `Microsoft`{.action}, e depois clique em `Exchange`{.action} e selecione a sua plataforma. No separador `Contas de e-mail`{.action}, clique no botão `...`{.action} e em `Alterar`{.action} para alterar a palavra-passe. <br> Verifique se a dupla autenticação está ativada ao consultar o nosso guia [Configurar a dupla autenticação numa conta Exchange](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_2fa_exchange).
 

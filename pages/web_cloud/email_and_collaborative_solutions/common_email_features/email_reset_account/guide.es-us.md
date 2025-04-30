@@ -1,7 +1,7 @@
 ---
 title: "Eliminar una cuenta de correo"
 excerpt: "Cómo eliminar o restaurar una dirección de correo electrónico en un servicio de correo"
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 
@@ -38,20 +38,19 @@ Seleccione la pestaña correspondiente a su servicio de correo:
 >> Para comprobar si su MX Plan es una versión histórica o nueva, consulte el cuadro de la sección "[Identifique su solución MX Plan](#whichmxplan)" de esta guía.
 >>
 >> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
->> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en `Direcciones de correo`{.action}.
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `MX Plan`{.action}.
 >> 1. Seleccione el dominio.
 >> 1. Abra la pestaña `Cuentas de correo`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes.
->> 1. Haga clic en el botón `...`{.action} situado al final de la línea correspondiente a la cuenta que quiera modificar y seleccione `Restaurar la cuenta`{.action}.
+>> 1. Haga clic en el botón `...`{.action} situado a la derecha de la cuenta que desea modificar y, seguidamente, en `Eliminar la cuenta`{.action}.
 >>
 >> ![Correo electrónico](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Exchange**
 >>
 >> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
->> 1. Haga clic en la pestaña `Web Cloud`{.action}.
->> 1. Haga clic en el tema `Microsoft`{.action}.
->> 1. Haga clic en `Exchange`{.action}.
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 >> 1. Seleccione la plataforma correspondiente.
 >> 1. Abra la pestaña `Cuentas de correo`{.action}.
 >> 1. Haga clic en el botón `...`{.action} situado al final de la línea correspondiente a la cuenta que desea modificar y, seguidamente, en `Reiniciar`{.action}.

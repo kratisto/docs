@@ -1,7 +1,7 @@
 ---
 title: 'Securing your OVHcloud account with two-factor authentication'
 excerpt: 'Find out how to improve security for your OVHcloud account by enabling two-factor authentication (2FA)'
-updated: 2024-08-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -78,9 +78,9 @@ We offer three different methods (click on the tabs below to view their explanat
 
 ### Step 1 - Enable your first two-factor authentication method <a name="enabling-2fa"></a>
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we){.external}, click your name in the top right-hand corner (1), then click your initials (2). Then click `Security`{.action} (3) and finally `Enable two-factor authentication`{.action} (4).
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `Access my account`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Next, click `Security`{.action}, and finally `Enable two-factor authentication`{.action}.
 
 **Click on the tab corresponding to the method of your choice:**
 
@@ -131,7 +131,7 @@ You can regenerate or delete backup codes from your Control Panel:
 
 ### Step 3 - Log in to the OVHcloud Control Panel with two-factor authentication <a name="login-2fa"></a>
 
-Go to the [login page for the OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we){.external} and enter your ID (or primary email address) and password.
+Go to the [login page for the OVHcloud Control Panel](/links/manager){.external} and enter your ID (or primary email address) and password.
 
 The login screen displays the last two-factor authentication method used or entered. If you would like to use another method, click the `Try another method`{.action} button.
 
@@ -176,7 +176,7 @@ If your device (mobile phone/smartphone/security key) is lost, stolen or no long
 > - Valid backup codes
 >
 
-To remove a device, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we){.external}. Click your name in the top right-hand corner, then click your initials.
+To remove a device, log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `Access my account`{.action}.
 
 Next, click `Security`{.action} then the `...`{.action} button to the right of the device you want to delete, then click `Delete`{.action}.
 

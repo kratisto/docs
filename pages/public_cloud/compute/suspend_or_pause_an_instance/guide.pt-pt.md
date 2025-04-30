@@ -1,6 +1,6 @@
 ---
 title: Suspender ou colocar em pausa uma instância
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Objetivo
@@ -48,7 +48,7 @@ Esta opção permite libertar os recursos dedicados à sua instância de Public 
 
 #### Da Área de Cliente OVHcloud
 
-Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instances`{.action} no menu à esquerda.
+Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instâncias`{.action} no menu à esquerda.
 
 Clique então nas `...`{.action} à direita da instância a suspender, e clique em `Suspender`{.action}.
 
@@ -62,7 +62,7 @@ Uma vez terminado o processo, a instância parece *Suspensa*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-O snapshot estará então disponível na secção `Instance Backup`{.action} do menu `Storage` à esquerda do espaço Public Cloud. Um snapshot chamado *xxxxx-shelved* estará então visível:
+O snapshot estará então disponível na secção `Instance Backup`{.action} do menu **Compute** à esquerda do espaço Public Cloud. Um snapshot chamado *xxxxx-shelved* estará então visível:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 
@@ -120,7 +120,7 @@ Esta opção permite-lhe reativar a sua instância para que a possa continuar a 
 
 #### Da Área de Cliente OVHcloud
 
-Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instances`{.action} no menu à esquerda.
+Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instâncias`{.action} no menu à esquerda.
 
 Clique então nas `...`{.action} à direita da instância, clique em `Reativar`{.action}.
 
@@ -156,7 +156,7 @@ Esta opção permite-lhe parar a sua instância e armazenar o estado da máquina
 
 #### Da Área de Cliente OVHcloud
 
-Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instances`{.action} no menu à esquerda.
+Na Área de Cliente OVHcloud, clique no menu da secção `Public Cloud`{.action}, selecione o seu projeto Public Cloud e clique em `Instâncias`{.action} no menu à esquerda.
 
 Clique então nas `...`{.action} à direita da instância a parar, e clique em `Parar`{.action}.
 

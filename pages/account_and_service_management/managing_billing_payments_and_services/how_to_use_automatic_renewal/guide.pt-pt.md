@@ -1,6 +1,6 @@
 ---
 title: Como renovar os meus serviços OVHcloud
-excerpt: Saiba como gerir os seus serviços e a sua renovação na sua Área de Cliente
+excerpt: Saiba como gerir os seus serviços e à sua renovação na sua Área de Cliente
 updated: 2025-01-28
 ---
 
@@ -15,11 +15,11 @@ Este manual permitir-lhe-á:
 - [Conhecer as diferentes ações possíveis para cada um dos seus serviços](#actions)
 - [Descobrir quais as ações que podem ser agrupadas em vários serviços](#group-actions)
 
-**Saiba como gerir os seus serviços e a sua renovação na Área de Cliente OVHcloud.**
+**Saiba como gerir os seus serviços e à sua renovação na Área de Cliente OVHcloud.**
 
 > [!primary]
 >
-> Em função do seu local de residência, da legislação local, assim como das soluções em questão, alguns pormenores deste guia podem variar ou não se aplicar à sua situação. Para mais informações, consulte os contratos da OVHcloud a partir da sua [Área de Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt): clique no seu nome no canto superior direito do seu ecrã, na `As minhas ofertas e serviços`{.action} e, a seguir, no separador `Contratos`{.action}.
+> Em função do seu local de residência, da legislação local, assim como das soluções em questão, alguns pormenores deste guia podem variar ou não se aplicar à sua situação. Para mais informações, consulte os contratos da OVHcloud a partir da sua [Área de Cliente](/links/manager): clique no seu nome no canto superior direito do seu ecrã, na `As minhas ofertas e serviços`{.action} e, a seguir, no separador `Contratos`{.action}.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dfpPCa0mUyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ Este manual permitir-lhe-á:
 
 Antes de continuar a ler este guia, deve preencher as seguintes condições:
 
-- Ter acesso à Área de [Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt);
+- Ter acesso à Área de [Cliente OVHcloud](/links/manager);
 - Dispor de serviços ativos da OVHcloud;
 - Ter [contacto de faturação](/pages/account_and_service_management/account_information/managing_contacts#definicao) dos seus serviços OVHcloud.
 - Dispor de um método de pagamento válido na sua conta OVHcloud. Consulte o guia "[Gerir os métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)".
@@ -66,14 +66,14 @@ Antes de continuar a ler este guia, deve preencher as seguintes condições:
 >> Poderá também simplesmente efetuar o pagamento a partir da sua Área de Cliente.
 >>
 >> **Atenção**, se não pagar um serviço que se encontra em renovação manual, será **suspenso** na sua data de expiração e **eliminado** dentro de alguns dias.
->> No entanto, se não pretender manter este serviço, não será necessário pedir a sua rescisão.
+>> No entanto, se não pretender manter este serviço, não será necessário pedir à sua rescisão.
 
 ## Instruções
 
-Aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).<br>
+Aceda à [Área de Cliente OVHcloud](/links/manager).<br>
 Clique no seu nome no canto superior direito e escolha `As minhas ofertas e serviços`{.action}.
 
-![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Apresentar o tipo de renovação <a name="renewal-type"></a>
 

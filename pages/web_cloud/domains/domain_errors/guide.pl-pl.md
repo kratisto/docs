@@ -1,6 +1,6 @@
 ---
 title: 'Usunięcie błędu dla domeny'
-updated: 2022-09-01
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -16,7 +16,7 @@ Rejestracja domeny, jej transfer, zmiana właściciela to operacje, w których m
 - Aktualizacja w [płatności](/pages/account_and_service_management/managing_billing_payments_and_services/invoice_management#pay-bills) i [odnowienie](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#renewal-management) powiązanych usług (domena i hosting)
 ## W praktyce
 
-W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.action}, a następnie nazwy `Domeny`{.action}. Kliknij `Operacje w toku`{.action} nad listą domen.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`{.action}. Kliknij `Operacje w toku`{.action}.
 
 W tabeli możesz sprawdzić operacje związane z domenami w Twoim Panelu klienta.
 

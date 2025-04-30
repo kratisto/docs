@@ -1,7 +1,7 @@
 ---
 title: "Attivare il Rescue mode su un’istanza Public Cloud"
 excerpt: "Come attivare e utilizzare il Rescue mode OVHcloud su un’istanza Public Cloud"
-updated: 2024-06-03
+updated: 2025-04-24
 ---
 
 ## Obiettivo
@@ -23,9 +23,9 @@ Se non riesci ad accedere alla tua istanza a causa di una configurazione non cor
 
 ### Attiva la modalità di ripristino
 
-Per prima cosa, accedi al tuo [Spazio Cliente OVHcloud](/links/manager){.external} e clicca sul menu `Public Cloud`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-Poi, seleziona il tuo progetto Public Cloud dal menu a sinistra e vai su Istanze.
+Clicca sulla scheda `Istanze`{.action} nella barra di navigazione a sinistra.
 
 Quindi, clicca sui tre puntini a destra dell’istanza e seleziona `Riavvia in modalità Rescue`{.action}.
 

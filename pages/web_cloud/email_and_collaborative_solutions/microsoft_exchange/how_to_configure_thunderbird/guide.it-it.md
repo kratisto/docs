@@ -1,7 +1,7 @@
 ---
 title: Exchange - Configura il tuo account di posta elettronica su Thunderbird per Windows
 excerpt: Come configurare il tuo indirizzo Exchange su Thunderbird per Windows
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -27,10 +27,14 @@ Gli account Exchange possono essere configurati su client di posta compatibili, 
 
 > [!warning]
 >
-> Nel nostro esempio, usiamo il nome del server: ex?.mail.ovh.net. Dovrai sostituire il "? " dalla cifra che indica il server del tuo servizio Exchange.
-> 
-> Questa cifra è disponibile nello [Spazio Cliente OVHcloud](/links/manager), nella sezione `Web Cloud`{.action} e poi nella sezione `Microsoft`{.action}/`Exchange`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
-> 
+> Nel nostro esempio, usiamo il nome del server: ex?.mail.ovh.net. Dovrai sostituire il "?" dalla cifra che indica il server del tuo servizio Exchange.
+>
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
+> 1. Seleziona la piattaforma interessata.
+> 1. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
+>
 
 ### Aggiungi l'account
 

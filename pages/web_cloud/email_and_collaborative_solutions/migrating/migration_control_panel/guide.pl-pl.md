@@ -1,7 +1,7 @@
 ---
 title: 'Migracja konta e-mail MX Plan na konto E-mail Pro lub Exchange'
 excerpt: 'Dowiedz się, jak przenieść konto e-mail MX Plan na konto E-mail Pro lub Exchange'
-updated: 2022-11-22
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -41,8 +41,8 @@ W przeciwnym razie zaloguj się do [Panelu klienta OVHcloud](/links/manager) i z
 Przed rozpoczęciem migracji określ wersję programu MX Plan, z której chcesz wykonać migrację.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
 1. Wybierz odpowiednią domenę.
 
 Przejdź do wersji, którą posiadasz, odnosząc się do poniższej tabeli.

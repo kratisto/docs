@@ -1,6 +1,6 @@
 ---
 title: Comment activer mes lignes téléphoniques ? (Offres ADSL/VDSL/FTTH)
-updated: 2024-01-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -28,7 +28,7 @@ Lorsque vous activez une ligne, celle-ci va occuper un emplacement.
 Pour connaître le nombre d'emplacements libres restants, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 
 Vous obtenez alors une vue globale des services associés à ce dernier. Vous pourrez alors retrouver le nombre d'emplacements encore disponibles.
 
@@ -48,7 +48,7 @@ S'il vous reste des emplacements libres, vous pouvez activer vos lignes téléph
 Pour cela, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 1. Cliquez sur `Activer un service`{.action} dans le cadre « Téléphonie »
 
 ![activer une ligne](images/Activation02-edit.png){.thumbnail}

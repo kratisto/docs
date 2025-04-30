@@ -1,7 +1,7 @@
 ---
 title: 'Configuring the vRack on your dedicated servers'
 excerpt: 'Find out how to configure the vRack on two or more dedicated servers'
-updated: 2025-03-24
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -29,11 +29,11 @@ The OVHcloud vRack (virtual rack) allows multiple servers to be grouped together
 
 ### Step 1: Ordering the vRack
 
-Once you are connected to your OVHcloud Control Panel, go to the `Bare Metal Cloud`{.action} menu and click on the `Order`{.action} button. In this menu, click on `vRack`{.action}.
+Log in to your OVHcloud Control Panel and click the button `Add a service`{.action} (shopping cart icon) in the left-hand menu. Use the filter at the top of the page or scroll down to find the service `vRack`{.action}. 
 
-![Order vrack](images/orderingvrack.png){.thumbnail}
+![Order vrack](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/network/orderingvrack25.png){.thumbnail}
 
-You will be redirected to another page to validate the order, it will take a few minutes for the vRack to be set up in your account.
+Click on the `vRack`{.action} box to be redirected to the page where you can validate the order. It will take a few minutes for the vRack to be set up in your account.
 
 ### Step 2: Adding your servers to the vRack
 

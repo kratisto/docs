@@ -1,7 +1,7 @@
 ---
 title: 'Korzystanie z aliasów i przekierowań e-mail'
 excerpt: 'Dowiedz się, jak zarządzać aliasami i przekierowaniami e-mail'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -82,7 +82,12 @@ Kliknij poniższe zakładki, aby uzyskać ilustrowane wyjaśnienia dotyczące dz
 >
 > W zależności od daty aktywacji oferty MX Plan lub jeśli oferta została niedawno przeniesiona, możliwe jest, że dysponujesz jej starszą lub nową wersją. Zanim przejdziesz dalej, musisz ją zidentyfikować.<br> 
 >
-> W tym celu zaloguj się do [Panelu klienta OVHcloud](/links/manager), części `Web Cloud`{.action}. Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę MX Plan. Kontynuuj w zależności od wersji, którą posiadasz:<br>
+> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+> 1. Przejdź do sekcji `Web Cloud`{.action}.
+> 1. Kliknij `MX Plan`{.action}.
+> 1. Wybierz odpowiednią domenę.
+>
+> Kontynuuj w zależności od wersji, którą posiadasz:<br>
 >
 > |Poprzednia wersja usługi MX Plan|Nowa wersja usługi MX Plan|
 > |---|---|
@@ -165,9 +170,9 @@ Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `
 
 - **Exchange**: w `Microsoft`{.action}, następnie w `Exchange`{.action} i wybierz odpowiednią platformę. Kliknij kartę `Konta e-mail`{.action}.
 
-- **E-mail Pro**: w `E-maile Pro`{.action} wybierz odpowiednią platformę i kliknij zakładkę `Konta e-mail`{.action}.
+- **E-mail Pro**: w `Email Pro`{.action} wybierz odpowiednią platformę i kliknij zakładkę `Konta e-mail`{.action}.
 
-- **E-maile** (MXplan): w `e-mailach`{.action} wybierz odpowiednią platformę, a następnie kliknij zakładkę `Konta e-mail`{.action}.
+- **MX Plan**: w `MX Plan`{.action} wybierz odpowiednią platformę, a następnie kliknij zakładkę `Konta e-mail`{.action}.
 
 Aby dodać alias do konta e-mail, postępuj zgodnie z instrukcjami podanymi poniżej, klikając kolejno na każdą zakładkę:
 
@@ -197,7 +202,10 @@ Kliknij przycisk `...`{.action} po prawej stronie odpowiedniego aliasu w menu za
 
 ### Utwórz przekierowanie lub alias dla usługi MX Plan lub domeny bez oferty e-mail <a name="mxplanlegacy"></a>
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager) i przejdź do sekcji `Web Cloud`. Przejdź do sekcji `E-mail`{.action}:
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
+1. Wybierz odpowiednią domenę.
 
 > [!warning]
 >

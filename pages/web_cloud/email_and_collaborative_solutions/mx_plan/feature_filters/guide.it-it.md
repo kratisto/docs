@@ -1,7 +1,7 @@
 ---
 title: Creare filtri per i tuoi indirizzi email
 excerpt: Come creare e configurare un filtro sul tuo indirizzo email
-updated: 2024-03-26
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -33,8 +33,8 @@ Vecchia versione della soluzione MX Plan|Nuova versione della soluzione MX Plan|
 ## In pratica <a name="oldmxplan"></a>
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Email`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
 1. Seleziona il dominio.
 1. Nella scheda `Email`{.action} del tuo servizio MX Plan, visualizzi la lista dei tuoi indirizzi email. Una colonna `Filtri` è visibile nella tabella degli account email. Clicca sull'icona dell'imbuto.
 

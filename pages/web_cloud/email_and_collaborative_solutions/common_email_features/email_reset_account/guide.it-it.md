@@ -1,7 +1,7 @@
 ---
 title: "Elimina un account email"
 excerpt: Come eliminare o reimpostare un indirizzo email sul servizio di posta
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 
@@ -38,8 +38,8 @@ Seleziona la scheda corrispondente al tuo servizio di posta:
 >> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Email`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `MX Plan`{.action}.
 >> 1. Seleziona il dominio.
 >> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
 >> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Elimina l'account`{.action}.
@@ -51,18 +51,18 @@ Seleziona la scheda corrispondente al tuo servizio di posta:
 >> Per verificare se la tua offerta MX Plan è una versione storica o nuova, fai riferimento alla tabella nella sezione [Identifica la tua offerta MX Plan](#whichmxplan)" di questa guida.
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Email`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `MX Plan`{.action}.
 >> 1. Seleziona il dominio.
 >> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
->> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta questo account`{.action}.
+>> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Elimina l'account`{.action}.
 >>
 >> ![email](images/email-mxplan-new-reset.png){.thumbnail}
 >>
 > **Email Pro**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
 >> 1. Clicca su `Email Pro`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >> 1. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti.
@@ -75,9 +75,8 @@ Seleziona la scheda corrispondente al tuo servizio di posta:
 > **Exchange**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Microsoft`{.action}.
->> 1. Clicca su `Exchange`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >> 1. Clicca sulla scheda `Account email`{.action}.
 >> 1. Clicca sul pulsante `...`{.action} a destra dell'account da modificare e poi clicca su `Reimposta`{.action}.

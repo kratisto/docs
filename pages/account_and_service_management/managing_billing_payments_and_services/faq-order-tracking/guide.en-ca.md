@@ -1,7 +1,7 @@
 ---
 title: OVHcloud order tracking FAQ
 excerpt: Find the most frequently asked questions about OVHcloud order tracking
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -14,21 +14,19 @@ You can only pay for your order once you have logged in to your customer account
 
 #### Tips and tricks
 
-Have you left the order page? You can view your order and pay for it in the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca), via the `My orders`{.action} section.
+Have you left the order page? Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then click `My orders`{.action}. You can then view and pay for your order.
 
 ### How do I check my payment status?
 
-First of all, log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca). Next, go to your dashboard and click on the `Invoices`{.action}  shortcut in the banner on the right. If an invoice is due, you will be offered the option to pay the balance directly in the dashboard.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My bills`{.action}. If a bill is pending payment, directly on your dashboard, you will be asked to pay the balance.
 
 #### Tips and tricks
 
-You can save your payment method in the `Payment methods`{.action} section. This way, your invoices will be paid for automatically.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then click `My payment methods`{.action}. You can then save your payment method there. This way, your bills will be automatically settled.
 
 ### How do I track the status of my order?
 
-Log in to the OVHcloud Control Panel, then look at the dashboard in the centre of the page to see the status of your most recent orders. If you would like to access all of your orders, click `View orders`{.action}.
-
-![track order](images/order_final-min.gif){.thumbnail}
+Log in to the [OVHcloud Control Panel](/links/manager) and click `View my orders`{.action}.
 
 #### Tips and tricks
 
@@ -64,7 +62,7 @@ Another potential reason may be that you have a bill pending payment. If this is
 
 #### Tips and tricks
 
-You can save your payment method in the `Payment methods`{.action} section, so that it is used for future orders and automatic payments.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then click `My payment methods`{.action}. You can then save your payment method there. This way, your bills will be automatically settled.
 
 ## Go further
 

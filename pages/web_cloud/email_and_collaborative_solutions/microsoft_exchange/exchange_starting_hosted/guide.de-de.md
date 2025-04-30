@@ -1,7 +1,7 @@
 ---
 title: 'Erste Schritte mit Hosted Exchange'
 excerpt: 'Erfahren Sie hier, wie Sie Ihren Hosted Exchange Dienst konfigurieren'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 <style>
@@ -31,8 +31,7 @@ Wenn Ihr Hosted Exchange eingerichtet und verfügbar ist:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `Microsoft`{.action}.
-1. Klicken Sie auf `Exchange`{.action}.
+1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 1. Wählen Sie den gewünschten Dienst aus.
 
 > [!primary]

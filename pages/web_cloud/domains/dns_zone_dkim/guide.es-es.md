@@ -1,7 +1,7 @@
 ---
 title: Mejorar la seguridad del correo electrónico mediante un registro DKIM
 excerpt: Cómo configurar un registro DKIM en un dominio y una plataforma de correo electrónico de OVHcloud
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -163,7 +163,11 @@ Haga clic en la pestaña que corresponde a su producto.
 > [!tabs]
 > **Correo electrónico (MX Plan)**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Dirrecciones de correo`{.action} y seleccione el dominio correspondiente. Por último, acceda a la pestaña `Información general`{.action}.
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `MX Plan`{.action}.
+>> 1. Seleccione el dominio.
+>> 1. Por último, acceda a la pestaña `Información general`{.action}.
 >>
 >> En el cuadro **Información general**, puede observar que la etiqueta `DKIM`es roja con el texto **Diagnóstico**.
 >>
@@ -171,7 +175,11 @@ Haga clic en la pestaña que corresponde a su producto.
 >>
 > **Exchange**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Haga clic en el nombre del servicio Exchange correspondiente. Por último, abra la pestaña `Dominios asociados`{.action}.
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>> 1. Por último, abra la pestaña `Dominios asociados`{.action}.
 >>
 >> A la derecha del dominio en cuestión, puede observar que la etiqueta `DKIM` es rojo.
 >>
@@ -179,7 +187,11 @@ Haga clic en la pestaña que corresponde a su producto.
 >>
 > **Email Pro**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Emails Pro`{.action} y seleccione el servicio Email Pro correspondiente. Por último, abra la pestaña `Dominios asociados`{.action}.
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>> 1. Por último, abra la pestaña `Dominios asociados`{.action}.
 >>
 >> A la derecha del dominio en cuestión, puede observar que la etiqueta `DKIM` es rojo.
 >>
@@ -215,13 +227,25 @@ Haga clic en la pestaña de abajo correspondiente a su producto.
 > [!tabs]
 > **Exchange**
 >>
->> En el [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. y seleccione el servicio Exchange correspondiente. Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>> 1. Por último, abra la pestaña `Dominios asociados`{.action}.
+>>
+>> Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
 >>
 >> ![Correo electrónico](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 >>
 > **Email Pro**
 >>
->> En el [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Emails Pro`{.action} y seleccione el servicio Email Pro correspondiente. Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>> 1. Por último, abra la pestaña `Dominios asociados`{.action}.
+>>
+>> Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
 >>
 >> ![Correo electrónico](/pages/assets/screens/control_panel/product-selection/web-cloud/email-pro/general-information/dns-dkim-platform-emailpro.png){.thumbnail .w-400 .h-600}
 
@@ -1122,13 +1146,23 @@ Haga clic en la pestaña que corresponde a su producto para comprobar el estado 
 > [!tabs]
 > **Exchange**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Por último, haga clic en el nombre del servicio Exchange correspondiente.<br><br> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio correspondiente (ver la imagen a continuación).
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>>
+>> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio correspondiente (ver la imagen a continuación).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>
 > **Email Pro**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `E-mails Pro`{.action} y seleccione el servicio E-mail Pro correspondiente.<br><br> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio en cuestión (ver la imagen siguiente).
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `Email Pro`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>>
+>> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio en cuestión (ver la imagen siguiente).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>

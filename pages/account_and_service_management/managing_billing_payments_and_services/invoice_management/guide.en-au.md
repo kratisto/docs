@@ -1,7 +1,7 @@
 ---
 title: Managing OVHcloud bills
 excerpt: Find out how to manage your bills and the payments associated with them
-updated: 2022-05-12
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -12,20 +12,20 @@ OVHcloud provides a space for you to view, manage and pay your various bills.
 
 > [!primary]
 >
-> Depending on your place of residence and its local legislation, as well as the products concerned, some parts of this guide may vary from the information provided in the guide, and some may not apply to your situation. If you have any doubts, please refer to your OVHcloud contracts, which you can access from the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au). (Click on your name in the top right-hand corner of the screen, then in the context menu, click on `Service management`{.action}, then on the `Contracts`{.action} tab.)
+> Depending on your place of residence and its local legislation, as well as the products concerned, some details may vary from the information provided in this guide, and some information may not apply to your situation. If you have any doubts, please refer to the OVHcloud contracts available in your [OVHcloud Control Panel](/links/manager) (click on your name in the top right-hand corner of the screen, then `My solutionss & services`{.action} . Finally, click on the `Contracts`{.action}) tab.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au) as the [Billing contact](/pages/account_and_service_management/account_information/managing_contacts) of your service
+- Access to the [OVHcloud Control Panel](/links/manager) as the [Billing contact](/pages/account_and_service_management/account_information/managing_contacts) of your service
 
 ## Instructions
 
 > [!primary]
 >
-> Each invoice is sent to you by email and accessible via a clickable link. You can then access it by logging in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au). All invoices are also available via the `Dashboard`{.action} tab in the OVHcloud Control Panel.
+> Each invoice is sent to you by email and accessible via a clickable link. You can then access it by logging in to your [OVHcloud Control Panel](/links/manager). All invoices are also available from the homepage of your Control Panel.
 >
 
 ### Understanding your bill
@@ -48,9 +48,9 @@ Your OVHcloud service bill is sent to you following the payment of an order or a
 
 #### View and manage bills
 
-To view your invoices, go to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au). Click on your name in the top right-hand corner of your screen, then in the new menu that appears, click on `Invoices`{.action}.
+To view your invoices, go to your [OVHcloud Control Panel](/links/manager). Click on your name in the top right-hand corner of your screen, then in the new menu that appears, click on `My bills`{.action}.
 
-![Billing](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Billing](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 You will then land on a page summarising your bills:
 

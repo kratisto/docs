@@ -1,7 +1,7 @@
 ---
 title: "Gérer la politique de sécurité d'un service e-mail"
 excerpt: 'Découvrez comment gérer la politique de sécurité de votre service e-mail'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -12,7 +12,7 @@ Les services e-mail d'OVHcloud permettent de bénéficier d’adresses e-mail pr
 
 ## Prérequis
 
-- Disposer d'une [offre Exchange OVHcloud](/links/web/emails-hosted-exchange).
+- Disposer d'une [offre e-mail OVHcloud](/links/web/emails).
 - Être connecté à [l'espace client OVHcloud](/links/manager), partie `Web Cloud`{.action}.
 
 ## En pratique
@@ -26,9 +26,14 @@ La gestion de la politique de sécurité de votre service e-mail peut interagir 
 
 Pour accéder à la politique de sécurité de votre service e-mail, connectez-vous à votre [espace client OVHcloud](/links/manager) et assurez-vous de vous situer dans la section `Web Cloud`{.action}.
 
-Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action} et sélectionnez l'offre concernée. Cliquez sur l'onglet `Sécurité`, puis sur `Gérer la politique de sécurité`{.action}
+|MX Plan|Exchange|
+|---|---|
+|Cliquez sur `MX Plan`{.action} et sélectionnez l'offre concernée. Cliquez sur l'onglet `Plus` puis sur `Gérer la politique de sécurité`{.action}|Cliquez sur `Microsoft`{.action}, puis sur `Exchange`{.action} et sélectionnez l'offre concernée. Cliquez sur l'onglet `Sécurité`{.action}|
+|![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
-![exchangesecurity](images/manage-security02.png){.thumbnail}
+> [!primary]
+>
+> Si vous ne voyez pas apparaitre l'onglet `Plus`{.action} dans le panneau de gestion de votre offre `MX Plan`{.action}, cela signifie que vous êtes sur une offre MX Plan historique. Il n'y a pas de gestion de la politique de sécurité sur l'offre MX Plan historique.
 
 Poursuivez ensuite vers le ou les aspects que vous souhaitez modifier.
 
@@ -47,7 +52,7 @@ Pour cela, complétez les informations mentionnées ci-dessous :
 - **Délai de réinitialisation**: Ce champ apparaît uniquement si un seuil de verrouillage a été défini. Précisez le délai nécessaire en minutes pour que le compteur de tentatives de connexion infructueuses se remette à zéro.
 - **Durée de verrouillage**: Ce champ apparaît uniquement si un seuil de verrouillage a été défini. Précisez le délai en minutes durant lequel le compte e-mail restera verrouillé si le seuil de verrouillage a été atteint.
 
-Une fois ces informations complétées, validez ces changements en cliquant sur `Suivant`{.action}, puis sur `Valider`{.action} pour les offres « E-mails » et « E-mail Pro ». Cliquez sur `Enregistrer les modifications`{.action} pour l'offre Exchange.
+Une fois ces informations complétées, validez ces changements en cliquant sur `Suivant`{.action}, puis sur `Valider`{.action} pour les offres « MX Plan » . Cliquez sur `Enregistrer les modifications`{.action} pour l'offre Exchange.
 
 ### Complexifier la sécurité des mots de passe <a name="password-complexity"></a>
 
@@ -61,7 +66,7 @@ Pour cela, complétez les informations mentionnées ci-dessous :
 - **Conserver l'historique du mot de passe (Exchange uniquement)**: Ce champ apparaît uniquement si une durée de vie maximale a été définie. Précisez la durée de vie, en jours, des précédents mots de passe qui peuvent être de nouveau utilisés.
 - **Longueur minimale du mot de passe**: Permet d'imposer une taille minimale concernant la longueur des mots de passe lorsqu'un utilisateur souhaite le modifier.
 
-Une fois ces informations complétées, validez ces changements en cliquant sur `Suivant`{.action}, puis sur `Valider`{.action} pour les offres « E-mails » et « E-mail Pro ». Cliquez sur `Enregistrer les modifications`{.action} pour l'offre Exchange.
+Une fois ces informations complétées, validez ces changements en cliquant sur `Suivant`{.action}, puis sur `Valider`{.action} pour les offres « MX Plan ». Cliquez sur `Enregistrer les modifications`{.action} pour l'offre Exchange.
 
 ### Renforcer la vérification des messages entrants (Exchange uniquement) <a name="incoming-messages-verification"></a>
 
@@ -78,7 +83,7 @@ Une fois votre choix effectué, validez ces changements en cliquant sur `Enregis
 
 Ceci vous permet de définir si les messages indésirables que vous recevez sur vos comptes e-mail doivent comporter un tag permettant de les identifier ou de les déplacer automatiquement vers la corbeille.
 
-Pour cela, cochez les cases souhaitées dans le tableau :
+Pour cela, cochez les cases souhaitées :
 
 - **Identifier les messages indésirables.**: Précisez si nos serveurs doivent ajouter un tag permettant d'identifier les messages reçus dits « indésirables » en tant que spam.
 - **Déplacer les messages indésirables dans la corbeille**: Définissez si nos serveurs doivent automatiquement déplacer les messages reçus dits « indésirables » dans la corbeille.

@@ -1,7 +1,7 @@
 ---
 title: Gestionar las formas de pago
 excerpt: Cómo añadir y gestionar las formas de pago en el área de cliente de OVHcloud
-updated: 2022-05-18
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -10,14 +10,14 @@ En el área de cliente de OVHcloud, puede registrar y gestionar diferentes forma
 
 ## Requisitos
 
-- Haber iniciado sesión en el [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws).
+- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager).
 - Disponer de un medio de pago válido.
 
 ## Procedimiento <a name="payment_methods"></a>
 
-En el [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws), haga clic en su nombre en la esquina superior derecha y seleccione `Forma de pago`{.action}.
+En el [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la esquina superior derecha y seleccione `Mis forma de pago`{.action}.
 
-![hubpayment](images/hubpayment.png){.thumbnail}
+![hubpayment](/pages/assets/screens/control_panel/product-selection/right-menu/my-payment-methods.png){.thumbnail}
 
 Se abrirá una página en la que podrá consultar la forma de pago registrada en su cuenta de cliente. Allí, podrá:
 
@@ -109,20 +109,20 @@ A continuación, elimine la forma de pago utilizando el ID obtenido en el paso a
 >
 > Para más información, consulte la guía [Primeros pasos con la API OVHcloud](/pages/manage_and_operate/api/first-steps).
 >
-> Si necesita ayuda para identificar sus formas de pago a través de las API de OVHcloud, utilice la función `Modificar la descripción`{.action} (botón `...`{.action} a la derecha de su pantalla) en la sección [Formas de pago](#payment_methods) del [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws).
+> Si necesita ayuda para identificar sus formas de pago a través de las API de OVHcloud, utilice la función `Modificar la descripción`{.action} (botón `...`{.action} a la derecha de su pantalla) en la sección [Formas de pago](#payment_methods) del [área de cliente de OVHcloud](/links/manager).
 >
 
 ### Cuenta de prepago
 
 #### ¿Qué es la cuenta de prepago?
 
-Una vez que haya creado, la *cuenta de prepago* aparecerá en el [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws). Le permite recargar con antelación su cuenta de cliente y utilizar estos fondos para abonar sus pedidos y sus facturas de renovación.
+Una vez que haya creado, la *cuenta de prepago* aparecerá en el [área de cliente de OVHcloud](/links/manager). Le permite recargar con antelación su cuenta de cliente y utilizar estos fondos para abonar sus pedidos y sus facturas de renovación.
 
 Recargando su cuenta con regularidad, se asegurará de que la [renovación automática](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal) de sus servicios no se interrumpa nunca por defecto de pago.
 
 Para ello, acceda a la sección `Formas de pago` del área de cliente:
 
-- haga clic en su nombre en la esquina superior derecha y seleccione `Forma de pago`{.action} en el menú de la derecha.
+- haga clic en su nombre en la esquina superior derecha y seleccione `Mis forma de pago`{.action} en el menú de la derecha.
 - seleccione la pestaña `Mi cuenta de prepago`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}

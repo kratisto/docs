@@ -1,7 +1,7 @@
 ---
 title: 'Managing the security policy of an email service'
 excerpt: 'Find out how to manage the security policy of your email service'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -12,7 +12,7 @@ With OVHcloud email services, you can set up professional email addresses. To ma
 
 ## Requirements
 
-- A preconfigured OVHcloud email solution **MX Plan** (available with a [web hosting plan](/links/web/hosting)
+- A preconfigured OVHcloud email solution **MX Plan** (available with a [web hosting plan](/links/web/hosting))
 - Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
@@ -22,13 +22,13 @@ The security policy management of your E-mail service has 2 aspects:
 - enhancing E-mail account security when users try to log in
 - adding complexity to the security of your E-mail service account passwords
 
-Click on `Emails`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.
+Click on `MX Plan`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.
+
+On the page that appears, click on the `Security`{.action} tab.
 
 ![email security](images/manage-security01.png)
 
 ![email security](images/manage-security02.png)
-
-Continue to the aspect(s) you want to modify.
 
 - [Enhance connection security](#enhanced-security): Define whether accounts should lock after a number of unsuccessful log-in attempts.
 - [Add complexity to the security of passwords](#password-complexity): Define a complexity requirement, as well as rules for changing passwords.

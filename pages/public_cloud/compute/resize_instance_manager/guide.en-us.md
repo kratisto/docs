@@ -1,7 +1,7 @@
 ---
 title: Resize an instance via the OVHcloud Control Panel
 excerpt: "Find out how to resize an instance in the OVHcloud Manager"
-updated: 2022-08-24
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ As a result of increased activity, or simply new needs, your instance may not be
 
 ## Instructions
 
-Log into the [OVHcloud Control Panel](/links/manager), and open your `Public Cloud`{.action} project. Then click on `Instances`{.action} in the left-hand menu. Click on `...`{.action} in the row of the instance concerned and select `Edit`{.action}.
+Log into the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click on `Instances`{.action} in the left-hand menu. Click on `...`{.action} in the row of the instance concerned and select `Edit`{.action}.
 
 ![public-cloud](images/editinstance.png){.thumbnail}
 

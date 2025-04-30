@@ -1,7 +1,7 @@
 ---
 title: "Redirecting a domain name managed by OVHcloud"
 excerpt: "Find out about the various redirection types, and how to create one for a domain name managed by OVHcloud"
-updated: 2024-03-08
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -43,7 +43,7 @@ There are several ways of doing this:
 
 ### Redirecting a domain name from the Control Panel
 
-Log in to the [OVHcloud Control Panel](/links/manager){.external}, go to the `Web Cloud`{.action} section, select the domain to redirect from `Domain names`{.action}, then click on the `Redirection`{.action} tab.
+Log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click the `DNS zones`{.action} menu, then choose the domain name concerned. Click on the `Redirection`{.action} tab.
 
 The table displays active redirections for your domain name. You can manage your existing redirections using the `...`{.action} button to the right of each line.
 

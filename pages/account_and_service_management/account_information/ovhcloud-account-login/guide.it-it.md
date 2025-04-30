@@ -1,7 +1,7 @@
 ---
 title: Accedi allo Spazio Cliente OVHcloud
 excerpt: Come autenticarsi al tuo account OVHcloud
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -19,7 +19,7 @@ Per gestire i tuoi servizi accedi allo Spazio Cliente OVHcloud,
 
 ### Accedi allo Spazio Cliente OVHcloud
 
-Accedi alla [pagina di autenticazione OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}, inserisci il tuo identificativo cliente (o il tuo indirizzo email principale) e la password.
+Accedi alla [pagina di autenticazione OVHcloud](/links/manager), inserisci il tuo identificativo cliente (o il tuo indirizzo email principale) e la password.
 
 ![identificativo cliente](images/log-in.png){.thumbnail}
 
@@ -31,7 +31,7 @@ Per risolvere i casi frequenti di problemi di connessione allo Spazio Cliente OV
 
 #### Non conosco il mio identificativo cliente, come trovarlo?
 
-L'identificativo cliente OVHcloud, presente nella forma **xx11111-ovh**, ti verrà richiesto sistematicamente quando ti connetti al tuo account o contatterai l'assistenza tecnica di OVHcloud. e, proprio per questo, può essere recuperato con diverse modalità.
+L'identificativo cliente OVHcloud, presente nella forma **aa00000-ovh**, ti verrà richiesto sistematicamente quando ti connetti al tuo account o contatterai l'assistenza tecnica di OVHcloud. e, proprio per questo, può essere recuperato con diverse modalità.
 
 ##### **Nelle email inviate da OVHcloud**
 

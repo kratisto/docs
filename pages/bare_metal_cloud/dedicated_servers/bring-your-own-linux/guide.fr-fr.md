@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Linux (BYOLinux)
 excerpt: Découvrez comment déployer facilement vos propres images Linux sur des serveurs dédiés
-updated: 2025-02-25
+updated: 2025-04-29
 ---
 
 ## Objectif
@@ -51,10 +51,6 @@ Connectez-vous à l'[espace client OVHcloud](/links/manager) et rendez-vous dans
 Dans l'onglet `Informations générales`{.action}, cliquez sur le bouton `...`{.action} à côté de « Système (OS) » puis cliquez sur `Installer`{.action}.
 
 ![BringYourOwnLinux Control Panel 01](images/byolinux-controlpanel01.png){.thumbnail}
-
-Dans la fenêtre qui apparaît, sélectionnez `Installer à partir d'un template OVHcloud`{.action} et cliquez sur `Suivant`{.action}.
-
-![BringYourOwnLinux Control Panel 02](images/byolinux-controlpanel02.png){.thumbnail}
 
 A l'étape suivante, sélectionnez `Personnalisé` dans le menu puis `Bring Your Own Linux - byolinux` et cliquez sur `Suivant`{.action}.
 
@@ -157,7 +153,7 @@ Une fois les champs complétés, démarrez le déploiement en cliquant sur `Exec
 | Windows | `\\efi\microsoft\\boot\\bootmgfw.efi` |
 | FreeBSD | `\\efi\\FreeBSD\\loader.efi` |
 | Alma | `\\efi\\almalinux\\shimx64.efi` |
-| Gentoo | `\efi\\boot\\bootx64.efi` |
+| Gentoo | `\\efi\\boot\\bootx64.efi` |
 
 > [!primary]
 >

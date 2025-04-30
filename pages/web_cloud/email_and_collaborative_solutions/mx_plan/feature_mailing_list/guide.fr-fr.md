@@ -1,7 +1,7 @@
 ---
 title: 'Gérer et utiliser les mailing lists'
 excerpt: 'Decouvrez dans ce guide comment utiliser les listes de diffusion.'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -48,8 +48,8 @@ L'expéditeur (sender) transmet l'e-mail à la mailing list. Le modérateur (mod
 Afin de créer votre mailing list :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action} .
-1. Cliquez sur `E-mails`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Cliquez sur `MX Plan`{.action}.
 1. Sélectionnez le domaine concerné.
 1. Dirigez-vous sur l'onglet `mailing lists`{.action} de votre service e-mail.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Establecer y gestionar la contraseña de su cuenta'
 excerpt: 'Cómo establecer, cambiar y gestionar la contraseña de acceso al área de cliente de OVHcloud'
-updated: 2020-06-23
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -67,33 +67,31 @@ Si estuviese comprometida, le recomendamos encarecidamente [que la cambie de inm
 
 #### Desde el área de cliente de OVHcloud
 
-- Conéctese al [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws){.external}, haga clic en su nombre en la esquina superior derecha y haga clic en sus iniciales.
+- Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
 
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Luego, haga clic en `Seguridad`{.action} y, seguidamente, en `Editar`{.action} (a la derecha de "Contraseña").
 
-- Luego, haga clic en `«Seguridad»`{.action} y, seguidamente, en `«Cambiar»`{.action} (a la derecha de «Contraseña»).
-
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Confirme el cambio de la contraseña.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - Recibirá un mensaje de correo electrónico en la dirección de contacto de la cuenta para confirmar el cambio de contraseña. Lea atentamente las indicaciones y haga clic en el enlace que contiene dicho mensaje de correo electrónico. El sistema le redirigirá a la página de cambio de contraseña. Una vez ahí, introduzca su identificador en el primer campo, la nueva contraseña en el segundo y confirme la nueva contraseña en el tercero.
 
 ![manage-ovh-password](images/account-password-modif-manager-step4.png){.thumbnail}
 
-- A continuación, aparece un mensaje indicando que la operación se ha realizado satisfactoriamente. Haga clic en el botón `«Continuar»`{.action} debajo de este mensaje para ser redirigido a la página de identificación. A continuación, introduzca su usuario y su nueva contraseña.
+- A continuación, aparece un mensaje indicando que la operación se ha realizado satisfactoriamente. Haga clic en el botón `Continuar`{.action} debajo de este mensaje para ser redirigido a la página de identificación. A continuación, introduzca su usuario y su nueva contraseña.
 
 <a name="lost-password"></a>
 
 #### En caso de haber olvidado la contraseña actual
 
-- Haga clic en `«¿Ha olvidado el identificador o la contraseña?»`{.action} cuando acceda a la ventana de identificación del área de cliente de OVHcloud.
+- Haga clic en `¿Ha olvidado el identificador o la contraseña?`{.action} cuando acceda a la ventana de identificación del área de cliente de OVHcloud.
 
 ![manage-ovh-password](images/account-password-modif-forgotten-step1.png){.thumbnail}
 
-- Introduzca su identificador o la dirección de correo electrónico principal asociada a su cuenta de OVHcloud y haga clic en `«Enviar»`{.action}.
+- Introduzca su identificador o la dirección de correo electrónico principal asociada a su cuenta de OVHcloud y haga clic en `Enviar`{.action}.
 
 ![manage-ovh-password](images/account-password-modif-forgotten-step2.png){.thumbnail}
 
@@ -105,7 +103,7 @@ Si estuviese comprometida, le recomendamos encarecidamente [que la cambie de inm
 
 ![manage-ovh-password](images/account-password-modif-manager-step4.png){.thumbnail}
 
-- A continuación, aparece un mensaje indicando que la operación se ha realizado satisfactoriamente. Haga clic en el botón `«Continuar»`{.action} debajo de este mensaje para ser redirigido a la página de identificación. A continuación, introduzca su identificador y su nueva contraseña.
+- A continuación, aparece un mensaje indicando que la operación se ha realizado satisfactoriamente. Haga clic en el botón `Continuar`{.action} debajo de este mensaje para ser redirigido a la página de identificación. A continuación, introduzca su identificador y su nueva contraseña.
 
 > [!primary]
 > 

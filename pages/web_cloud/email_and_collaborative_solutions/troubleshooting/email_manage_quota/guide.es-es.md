@@ -1,7 +1,7 @@
 ---
 title: Gestionar el espacio de almacenamiento de una cuenta de correo
 excerpt: "Cómo gestionar y optimizar el espacio de almacenamiento de una dirección de correo"
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 
@@ -45,7 +45,7 @@ Desde el [área de cliente de OVHcloud](/links/manager), acceda al apartado `Web
 > [!tabs]
 > **Emails (MXplan)**
 >>
->> Haga clic en `Correo electrónico`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Cuentas de correo`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. En la columna `Tamaño`, puede consultar el consumo en curso de almacenamiento de su dirección de correo electrónico.<br><br>
+>> Haga clic en `MX Plan`{.action} y seleccione el servicio MX Plan correspondiente. Abra la pestaña `Cuentas de correo`{.action}. Se abrirá una ventana en la que se mostrarán las cuentas de correo existentes. En la columna `Tamaño`, puede consultar el consumo en curso de almacenamiento de su dirección de correo electrónico.<br><br>
 >>![Correo electrónico](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Exchange**

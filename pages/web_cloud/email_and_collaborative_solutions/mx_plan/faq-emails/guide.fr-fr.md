@@ -87,8 +87,8 @@ Ci-dessous, vous trouverez un tableau récapitulatif des principales fonctionnal
 La technologie e-mail utilisée pour votre offre MX Plan est caractérisée par l'interface de son webmail. Pour l'identifier depuis votre espace client suivez le chemin suivant :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
-1. Cliquez sur l'onglet `Web Cloud`{.action}.
-1. Cliquez sur `E-mails`{.action}.
+1. Rendez-vous dans la partie `Web Cloud`{.action}.
+1. Cliquez sur `MX Plan`{.action}.
 1. Sélectionnez le domaine concerné.
 1. Depuis l'onglet `Informations Générales`{.action}, sélectionnez par défaut.
 1. Relevez la technologie utilisée sous la mention **Webmail**.

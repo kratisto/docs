@@ -1,14 +1,14 @@
 ---
 title: "Zugriff auf Ihr OVHcloud Kundencenter nach IP beschränken"
 excerpt: "Erfahren Sie hier, wie Sie Ihren OVHcloud Kunden-Account absichern, indem Sie Zugriffsberechtigungen für IP-Adressen einrichten"
-updated: 2022-12-12
+updated: 2025-04-28
 ---
 
 ## Ziel
 
 OVHcloud stellt Ihnen Optionen zur Verfügung, um die Sicherheit Ihres OVHcloud Kundencenters und Ihrer Dienste zu erhöhen.
 
-Sie können den Zugang zu Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) auf bestimmte IP-Adressen beschränken.
+Sie können den Zugang zu Ihrem [OVHcloud Kundencenter](/links/manager) auf bestimmte IP-Adressen beschränken.
 Die Einrichtung dieser Option, kombiniert mit der [Zwei-Faktor-Authentifizierung](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa), ermöglicht die optimale Absicherung Ihres OVHcloud Kundencenters gegen unbefugte Zugriffe.
 
 **Diese Anleitung erklärt, wie Sie Ihren OVHcloud Kunden-Account absichern, indem Sie den Zugang über IP-Adressen einschränken.**
@@ -20,7 +20,7 @@ Die Einrichtung dieser Option, kombiniert mit der [Zwei-Faktor-Authentifizierung
 
 ## Voraussetzungen
 
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben die [Empfehlungen zur Verwaltung des Account-Passworts](/pages/account_and_service_management/account_information/manage-ovh-password) zur Kenntnis genommen.
 
 ## In der praktischen Anwendung
@@ -51,9 +51,7 @@ Wenn Sie zusätzlich ein 4G/5G-Netzwerk verwenden, vergessen Sie nicht, auch die
 
 ### Schritt 2: Einschränkung des Zugangs nach IP einrichten
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein und. Klicken Sie auf Ihren `Namen und Vornamen` oben rechts **und dann** auf Ihre `Initialen` in der blauen Spalte.
-
-![Access from Manager](images/ip1.png){.thumbnail}
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
 Klicken Sie anschließend auf den Tab `Sicherheit`{.action}, um auf folgende Seite zu gelangen:
 
@@ -80,7 +78,7 @@ Es gibt zwei Abschnitte zur Umsetzung der IP-Beschränkungen:
 >
 > `Bestätigen`{.action} Sie **niemals** die `Standardregel`{.action} im Status: `Abgelehnt`{.action} ***ohne vorherige Autorisierung** einer Ihrer öffentlichen IP-Adressen in `Konfigurierte IP`. 
 >
-> Andernfalls blockieren Sie **alle öffentlichen IPs (einschließlich Ihrer eigenen)** ohne Ausnahmeregelung. Der Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) wird dadurch gesperrt und Sie müssen einen Verwaltungsvorgang durchführen, um den Zugang wieder zu entsperren.
+> Andernfalls blockieren Sie **alle öffentlichen IPs (einschließlich Ihrer eigenen)** ohne Ausnahmeregelung. Der Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager) wird dadurch gesperrt und Sie müssen einen Verwaltungsvorgang durchführen, um den Zugang wieder zu entsperren.
 >
 > Widmen Sie daher diesem Punkt besondere Aufmerksamkeit.
 >

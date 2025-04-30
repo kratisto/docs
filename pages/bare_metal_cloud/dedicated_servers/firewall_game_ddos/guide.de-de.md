@@ -1,7 +1,7 @@
 ---
 title: Game Server mit der Application Firewall schützen
 excerpt: Erfahren Sie hier, wie Sie die OVHcloud Game DDoS Protection Firewall konfigurieren
-updated: 2024-10-31
+updated: 2025-04-28
 ---
 
 <style>
@@ -63,9 +63,8 @@ Die Hauptvorteile:
 
 Melden Sie sich im OVHcloud Kundencenter an und befolgen Sie die folgenden Schritte, um die Spielschutzregeln für Ihren Game Dedicated Server zu konfigurieren:
 
-- Öffnen Sie den Bereich `Bare Metal Cloud`{.action}.
-- Gehen Sie zu `Netzwerk`{.action} in der linken Seitenleiste.
-- Öffnen Sie `IP`{.action}.
+- Klicken Sie im Menü links auf `Network`{.action}.
+- Klicken Sie auf `Öffentliche IP-Adressen`{.action}.
 
 Sie können IP-Adressen mit dem Dropdown-Menü `Alle Dienste`{.action} filtern. Geben Sie den Namen oder die Kategorie des Servers ein:
 

@@ -59,7 +59,7 @@ The shared calendar will then be available in the "Calendar" interface in this a
 
 > [!primary]
 >
-It's generally possible to share calendars with external users but there may be compatibility issues depending on the email client or web service used. Please find further information about this in the official [Microsoft documentation](http://go.microsoft.com/fwlink/?LinkId=57561).
+> It's generally possible to share calendars with external users but there may be compatibility issues depending on the email client or web service used. Please find further information about this in the official [Microsoft documentation](http://go.microsoft.com/fwlink/?LinkId=57561).
 >
 
 ### Changing calendar permissions

@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte mit einem Kimsufi, So You Start oder Rise Dedicated Server"
 excerpt: "Erfahren Sie hier, wie Sie einen Kimsufi, So You Start oder Rise Dedicated Server in Ihrem OVHcloud Kundencenter verwalten und wie Sie mit der Konfiguration und Sicherung eines Servers starten"
-updated: 2024-11-26
+updated: 2025-04-29
 ---
 
 ## Ziel
@@ -43,12 +43,6 @@ Sie können Ihren Server in wenigen Schritten in Ihrem [OVHcloud Kundencenter](/
 
 ![Button Reinstallieren](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
-Wählen Sie im Popup-Fenster eine der Installationsoptionen aus:
-
-- `Installation mit einem OVHcloud Template`{.action}: Sie können das Betriebssystem auswählen und die Konfiguration Ihres Servers anpassen.
-- `Installation mit einem Ihrer Templates`{.action}: Um eine personalisierte Vorlage verwenden zu können, müssen Sie zuvor mindestens eine Serverkonfiguration gespeichert haben. Aktivieren Sie dazu in Schritt 4 des Installationsprozesses die Option "Diese Installation speichern".
-- `Installation auf Basis eines personalisierten Images`{.action}: Mit dieser Option können Sie ein externes Image auf dem Server installieren. Weitere Informationen zu dieser Option finden Sie in der Anleitung ["Bring Your Own Image verwenden"](/pages/bare_metal_cloud/dedicated_servers/bring-your-own-image)".
-
 > [!primary]
 >
 > Einige proprietäre Betriebssysteme und Plattformen wie Plesk oder Windows benötigen Lizenzen, die zusätzliche Kosten verursachen. Sie können Lizenzen [bei OVHcloud](/links/bare-metal/os) oder einem externen Reseller beziehen. Danach müssen Sie Ihre Lizenz im Betriebssystem selbst oder über Ihr [OVHcloud Kundencenter](/links/manager) hinzufügen.
@@ -56,11 +50,7 @@ Wählen Sie im Popup-Fenster eine der Installationsoptionen aus:
 > Sie können alle Ihre Lizenzen im Bereich `Bare Metal Cloud`{.action} unter `Lizenzen`{.action} verwalten. In diesem Abschnitt können Sie auch über den Button `Aktionen`{.action} Lizenzen bestellen oder bestehende Lizenzen hinzufügen.
 >
 
-Klicken Sie auf `Weiter`{.action}, um fortzufahren.
-
-![Template-Auswahl](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
-
-Nachdem Sie `Installation mit einem OVHcloud Template`{.action} ausgewählt haben, können Sie das gewünschte Betriebssystem in den Menüs auswählen.
+Klicken Sie auf `Weiter`{.action}, um fortzufahren. Wählen Sie dann das gewünschte Betriebssystem in den Menüs aus.
 
 ![Operationelle Auswahl](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 

@@ -1,7 +1,7 @@
 ---
 title: Modificare i contatti di un progetto
 excerpt: Come gestire i contatti di un progetto Public Cloud
-updated: 2022-04-04
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -25,7 +25,7 @@ La modifica di questi contatti permette di dissociare la gestione tecnica dalla 
 
 ### Modifica i contatti
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e apri il tuo progetto `Public Cloud`{.action}. Clicca su `Contacts and Rights`{.action} nella sezione **Project Management**.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato. Clicca su `Contatti e diritti`{.action} nella sezione **Impostazioni**.
 
 Questa pagina ti permette di visualizzare i contatti amministratore e di fatturazione associati al tuo progetto.
 

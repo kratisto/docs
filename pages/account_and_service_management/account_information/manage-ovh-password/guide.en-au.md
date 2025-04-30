@@ -1,7 +1,7 @@
 ---
 title: 'Setting and managing an account password'
 excerpt: 'Find out how to set, change and manage your password for the OVHcloud Control Panel'
-updated: 2020-06-24
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -68,17 +68,15 @@ If your password has been compromised, we strongly recommend [changing it as soo
 
 #### Via the OVHcloud Control Panel
 
-- Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au){.external}, click your name in the top right-hand corner, then click on your initials.
+- Log in to your [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `Access my account`{.action}.
 
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Next, click `Security`{.action}, then `Edit`{.action} to the right of “Password”.
 
-- Next, click `Security`{.action}, then `Modify`{.action} to the right of “Password”.
-
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Confirm that you want to change the password.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - An email is then sent to the account’s contact email address, to confirm the password change. Please read the instructions in the email carefully, then click on the link. The link will redirect you to the page for changing your password. Enter your NIC handle in the first field, enter your new password into the second field, and re-enter your new password in the third field.
 

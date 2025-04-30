@@ -1,7 +1,7 @@
 ---
 title: 'Managing contacts for your services'
 excerpt: 'Find out how to manage contacts for your OVHcloud services'
-updated: 2024-02-16
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -22,7 +22,7 @@ There are three different contact types:
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca){.external}
+- Access to the [OVHcloud Control Panel](/links/manager){.external}
 - Access to the email address linked to any relevant customer account
 - Appropriate rights for the service concerned
 - The new contact’s email address
@@ -36,9 +36,9 @@ There are three different contact types:
 
 ### Access contact management
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca){.external}, click on the name linked to your customer account in the menu bar in the top right-hand corner, then click `Contact management`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}.
 
-![Contact management](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
+![Contact management](/pages/assets/screens/control_panel/product-selection/right-menu/my-contacts.png){.thumbnail}
 
 The table that appears will show all of the services your account is registered with as a contact.
 
@@ -77,7 +77,7 @@ You can only add another billing contact to replace you. Confirmation is require
 
 ### Confirm, decline or track a contact change.
 
-To track and manage ongoing requests, click on the `My requests`{.action} tab. Here, you can accept or decline a request.
+To track and manage ongoing requests, log in to the [OVHcloud Control Panel](/links/manager), click on your name in the top right-hand corner, then `My contacts`{.action}. Click on the `My requests`{.action} tab. Here, you can accept or decline a request.
 
 ![Contact management](images/managing_contacts_05.png){.thumbnail}
 
@@ -92,7 +92,7 @@ If one of the contacts has not received this email, the contact email address li
 
 ![Contact management](images/managing_contacts_06.png){.thumbnail}
 
-If only one contact has confirmed the change, a message will appear confirming that the request is still pending validation from the other contact. If one of the contacts has just confirmed the request, it will take a few minutes for the information to be updated and appear correctly in the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/en/&ovhSubsidiary=ca){.external}.
+If only one contact has confirmed the change, a message will appear confirming that the request is still pending validation from the other contact. If one of the contacts has just confirmed the request, it will take a few minutes for the information to be updated and appear correctly in the [OVHcloud Control Panel](/links/manager){.external}.
 
 ![Contact management](images/managing_contacts_007.png){.thumbnail}
 

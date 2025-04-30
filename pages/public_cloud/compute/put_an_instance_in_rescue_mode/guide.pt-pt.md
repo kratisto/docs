@@ -1,7 +1,7 @@
 ---
 title: "Como ativar o modo rescue numa instância Public Cloud"
 excerpt: "Descubra como ativar e utilizar o modo rescue OVHcloud para a sua instância Public Cloud"
-updated: 2024-06-03
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -29,9 +29,9 @@ Nestas circunstâncias, poderá utilizar o modo de resgate (rescue) para reconfi
 
 ### Ativar o modo rescue
 
-Primeiro, inicie sessão na [Área de Cliente OVHcloud](/links/manager){.external} e clique no menu `Public Cloud`{.action}.
+Em primeiro lugar, aceda a [Área de Cliente OVHcloud](/links/manager), aceda à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa.
 
-Em seguida, selecione o seu projeto Public Cloud no menu lateral situado à esquerda do ecrã e vá até Instâncias.
+A seguir, clique no separador `Instâncias`{.action} na barra de navegação à esquerda.
 
 Clique nos três pontos situados à direita da instância e selecione a opção `Reiniciar em modo rescue`{.action}.
 

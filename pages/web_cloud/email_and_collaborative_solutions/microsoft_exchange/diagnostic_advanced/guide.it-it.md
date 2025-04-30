@@ -1,7 +1,7 @@
 ---
 title: Utilizzo della diagnostica di errori Exchange
 excerpt: Come eseguire la diagnostica automatizzata degli errori sugli account Exchange
-updated: 2022-10-19
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -22,9 +22,8 @@ Gli errori sugli account email Exchange possono avere diverse cause. Una diagnos
 ### Realizza una diagnostica
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 
 ![Diagnostica Exchange](images/img_4450.png){.thumbnail}

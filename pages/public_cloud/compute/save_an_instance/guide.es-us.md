@@ -1,7 +1,7 @@
 ---
 title: 'Guardar una instancia'
 excerpt: 'Cómo realizar el backup de una instancia de Public Cloud desde el área de cliente de OVHcloud'
-updated: 2024-07-03
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -27,7 +27,7 @@ Puede crear una copia de seguridad única de una instancia o configurar una plan
 > Esta opción solo está disponible a través de un **Cold Snapshot** para las instancias Metal. La instancia Metal pasará a modo de rescate y, una vez realizada la copia de seguridad, la instancia se reiniciará en modo normal.
 >
 
-Conéctese al [área de cliente de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. En el menú de la izquierda, haga clic en `Instances`{.action}.
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. En el menú de la izquierda, haga clic en `Instancias`{.action}.
 
 Haga clic en el botón `...`{.action} a la derecha de la instancia y seleccione `Crear un backup`{.action}.
 
@@ -37,11 +37,11 @@ Introduzca un nombre para la copia de seguridad en la página siguiente. Lea la 
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-No es posible supervisar el progreso de la copia de seguridad en tiempo real. Sin embargo, en la sección `Instance Backup`{.action} de `Storage`{.action} del menú de la izquierda, se mostrará el estado `Realizando el backup...` durante el proceso.
+No es posible supervisar el progreso de la copia de seguridad en tiempo real. Sin embargo, en la sección `Instance Backup`{.action} de **Compute** del menú de la izquierda, se mostrará el estado `Realizando el backup...` durante el proceso.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Una vez terminada la copia de seguridad, estará disponible en la sección `Instance Backup`{.action} en la sección `Storage`{.action} del menú de la izquierda.
+Una vez terminada la copia de seguridad, estará disponible en la sección `Instance Backup`{.action} en la sección **Compute** del menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -82,11 +82,11 @@ Escriba un nombre para la planificación de la copia de seguridad automática. L
 
 ### Gestión de las copias de seguridad y los planes
 
-Las planificaciones se pueden crear y eliminar en la sección `Workflow Management`{.action}, que se encuentra bajo `Storage`{.action} en el menú de la izquierda.
+Las planificaciones se pueden crear y eliminar en la sección `Workflow Management`{.action}, que se encuentra bajo **Compute** en el menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Las copias de seguridad de sus instancias se gestionan en la sección `Instance Backup`{.action} de la sección `Storage`{.action} del menú de la izquierda.
+Las copias de seguridad de sus instancias se gestionan en la sección `Instance Backup`{.action} de la sección **Compute** del menú de la izquierda.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

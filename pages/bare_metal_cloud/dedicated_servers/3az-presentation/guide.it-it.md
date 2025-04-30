@@ -1,7 +1,7 @@
 ---
 title: "Bare Metal 3-AZ Region - Presentazione dell'offerta"
 excerpt: 'Scopri il servizio Bare Metal 3-AZ, che offre massima disponibilità e ridondanza tra tre datacenter'
-updated: 2024-05-30
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -24,19 +24,21 @@ OVHcloud è presente in tutto il mondo, in particolare in Europa, Stati Uniti, C
 
 Per ottenere prestazioni ottimali, è necessario che una regione sia selezionata il più vicino possibile agli utenti. Per garantire una disponibilità mondiale, i servizi devono essere distribuiti su più regioni. La Region 3-AZ è ideale per i clienti che cercano la massima resilienza e deve essere utilizzata per creare progetti di applicazioni multi-AZ.
 
-In questa sezione è possibile visualizzare la lista dei cluster con una nuova scheda nell’interfaccia (i server sono rappresentati nella lista sottostante un cluster che include 3 nodi):
+Nella sezione [Spazio Cliente OVHcloud](/links/manager), puoi visualizzare i tuoi cluster nella lista `Server dedicati`{.action} del menu `Bare Metal Cloud`{.action} cliccando sulla scheda `3-AZ Clusters`{.action}.
 
-![left_menu](images/01-20240513-blur.png){.thumbnail}
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters1.png){.thumbnail}
 
-![list_clusters](images/02-20240513-blur.png){.thumbnail}
+Fare clic sul nome del cluster nella tabella per visualizzare i dettagli.
 
-Durante la selezione del cluster, visualizzi l’elenco dei 3 server in esso contenuti:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters2.png){.thumbnail}
 
-![list_servers](images/03-20240513-blur.png){.thumbnail}
+Clicca sulla scheda `Nodi`{.action} per aprire la lista dei server del cluster.
 
-L'interfaccia è sempre la stessa, non ci sono altri cambiamenti a questo livello:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters3.png){.thumbnail}
 
-![detail_server](images/04-20240513-blur.png){.thumbnail}
+Cliccando sul nome di un server/nodo in questa lista si apre la scheda `Informazioni generali`{.action} del server. Per maggiori informazioni, consulta la nostra guida:
+
+[Come iniziare con un server dedicato](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 
 ## Per saperne di più
 

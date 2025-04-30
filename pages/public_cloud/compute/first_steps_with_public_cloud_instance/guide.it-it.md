@@ -1,7 +1,7 @@
 ---
 title: Gestire le istanze Public Cloud
 excerpt: Come gestire le istanze Public Cloud dallo Spazio Cliente OVHcloud
-updated: 2024-02-20
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -10,7 +10,7 @@ updated: 2024-02-20
 
 ## Obiettivo
 
-Le istanze Public Cloud possono essere gestite direttamente dallo [Spazio Cliente](/links/manager).
+Le istanze Public Cloud possono essere gestite direttamente dallo [Spazio Cliente OVHcloud](/links/manager).
 
 **Questa guida ti mostra le operazioni disponibili nello Spazio Cliente OVHcloud per un'istanza Public Cloud.**
 
@@ -22,11 +22,11 @@ Le istanze Public Cloud possono essere gestite direttamente dallo [Spazio Client
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e apri il tuo progetto `Public Cloud`{.action}. 
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
 ### Utilizza l'interfaccia di gestione delle istanze
 
-Clicca sulle `Instances`{.action} nel menu a sinistra. 
+Clicca sulle `Istanze`{.action} nel menu a sinistra. 
 
 ![public-cloud](images/compute-2024.png){.thumbnail}
 
@@ -129,7 +129,7 @@ Nella nuova finestra, conferma l'operazione.
 
 ### Accedi alla console VNC <a name="accessvnc"></a>
 
-Clicca sulle `Instances`{.action} nel menu a sinistra. Nella pagina di gestione delle istanze, clicca sul nome dell'istanza nella tabella.
+Clicca sulle `Istanze`{.action} nel menu a sinistra. Nella pagina di gestione delle istanze, clicca sul nome dell'istanza nella tabella.
 
 Clicca sulla scheda `Console VNC`{.action}.
 

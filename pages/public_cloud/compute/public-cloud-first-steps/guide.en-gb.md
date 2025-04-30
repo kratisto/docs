@@ -1,7 +1,7 @@
 ---
 title: How to create a Public Cloud instance and connect to it
 excerpt: Find out how to configure Public Cloud instances in the OVHcloud Control Panel and the first steps with your instances
-updated: 2024-10-07
+updated: 2025-04-24
 ---
 
 <style>
@@ -114,9 +114,9 @@ You can store your public SSH keys in the `Public Cloud`{.action} section of the
 
 Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
-Open `SSH Keys`{.action} in the left-hand menu under **Project Management**. Click on the button `Add an SSH key`{.action}.
+Open `SSH Keys`{.action} in the left-hand menu under **Settings**. Click on the button `Add an SSH key`{.action}.
 
 ![ssh keys](/pages/assets/screens/control_panel/product-selection/public-cloud/cp_pci_sshkeys.png){.thumbnail}
 
@@ -171,7 +171,7 @@ Find out more on the [Local Zones web page](/links/public-cloud/local-zones).
 
 Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 On the "**Home**" page, click on `Create an instance`{.action}.
 
@@ -191,7 +191,7 @@ Instance models of the type `Metal`{.action} provide dedicated physical resource
 
 > [!primary]
 >
-Your Public Cloud resources total will initially be limited for cost control and security reasons. You can verify these quotas by clicking `Quota and Regions`{.action} in the left-hand navigation bar under **Project Management**. Please consult [the dedicated documentation](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) for more information.
+Your Public Cloud resources total will initially be limited for cost control and security reasons. You can verify these quotas by clicking `Quota and Regions`{.action} in the left-hand navigation bar under **Settings**. Please consult [the dedicated documentation](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) for more information.
 >
 Note that you can **upgrade** your instance after creation to have more resources available. Switching to a smaller model however is not possible with a regular instance. You can find more information on this topic in **Step 4.4** below.
 >
@@ -399,7 +399,7 @@ Note that we provide alternative ways of access (mainly used for troubleshoootin
 
 Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 Select `Instances`{.action} in the left-hand navigation bar under **Compute**. Your instance is ready when the status is set to `Enabled` in the table. If the instance was recently created and has a different status, click on the "Refresh" button located next to the search filter.
 
@@ -536,7 +536,7 @@ The VNC console allows you to connect to your instances even when other means of
 
 Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 Select `Instances`{.action} in the left-hand navigation bar under **Compute**. Click on the instance name and open the tab `VNC console`{.action}.
 

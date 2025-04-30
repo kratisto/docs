@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Tworzenie automatycznej odpowiedzi na adres e-mail'
 excerpt: 'Dowiedz się, jak skonfigurować automatyczną odpowiedź na adres e-mail'
-updated: 2024-05-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -23,7 +23,11 @@ Jeśli jesteś nieobecny i nie możesz sprawdzić Twojego adresu e-mail, możesz
 
 ### Utworzenie automatycznej odpowiedzi
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager). Wybierz nazwę domeny w sekcji `Emaile`{.action}. Kliknij na zakładkę `Emaile`{.action} u góry, następnie `Zarządzanie autoresponderami`{.action}.
+1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. Kliknij `MX Plan`{.action}.
+1. Wybierz odpowiednią domenę.
+1. Kliknij na zakładkę `Emaile`{.action} u góry, następnie `Zarządzanie autoresponderami`{.action}.
 
 Zostaniesz przekierowany do okna `Zarządzanie autoresponderami`, w którym wyświetlony zostanie zestaw automatycznych odpowiedzi e-mail wprowadzonych w Twojej ofercie e-mail.
 

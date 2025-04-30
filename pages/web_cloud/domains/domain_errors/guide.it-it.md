@@ -1,6 +1,6 @@
 ---
 title: Risolvere un errore su un dominio
-updated: 2022-09-01
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -17,7 +17,7 @@ La creazione di un dominio, il suo trasferimento e la modifica del proprietario 
 
 ## Procedura
 
-Dallo [Spazio Cliente OVHcloud](/links/manager), seleziona la sezione `Web Cloud`{.action} e poi i `domini`{.action}. Clicca su `Operazioni in corso`{.action} sopra la lista dei domini.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Web Cloud`{.action}. Clicca su `Operazioni in corso`{.action}.
 
 Una tabella ti permette di consultare tutte le operazioni relative ai domini del tuo Spazio Cliente.
 

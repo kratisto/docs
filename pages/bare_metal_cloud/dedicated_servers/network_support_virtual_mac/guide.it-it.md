@@ -1,7 +1,7 @@
 ---
 title: Determinare se la funzionalità dei MAC virtuali è supportata su un server dedicato
 excerpt: "Scopri come determinare se la funzionalità dei MAC virtuali è supportata su un server dedicato tramite l'API OVHcloud"
-updated: 2021-12-09
+updated: 2025-04-28
 ---
 
 > [!primary]

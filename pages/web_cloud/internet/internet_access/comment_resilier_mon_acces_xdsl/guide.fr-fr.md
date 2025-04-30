@@ -1,7 +1,7 @@
 ---
 title: Comment résilier un accès xDSL/Fibre
 excerpt: Découvrez comment demander la résiliation de votre accès Internet
-updated: 2024-01-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -28,7 +28,7 @@ La résiliation sera effective à la prochaine facturation de votre accès à In
 ### Demander la résiliation
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 1. Cliquez alors sur le bouton `Résilier`{.action} dans le cadre « Informations Générales ».
 
 ![Resiliation acces](images/Resiliation01-edit-2022.png){.thumbnail}
@@ -60,7 +60,7 @@ Cette action n'est possible que si la demande de résiliation a été effectuée
 Cette annulation peut être réalisée jusqu'à la veille de la date de résiliation.
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
 1. Dans le cadre « Informations Générales », cliquez sur le bouton `Annuler`{.action} à droite de la date de résiliation.
 
 ![Annulation resiliation](images/Resiliation05-edit-2022.png){.thumbnail}

@@ -1,7 +1,7 @@
 ---
 title: "Configurer un enregistrement MX pour la gestion des emails"
 excerpt: "Découvrez comment configurer un enregistrement MX sur votre nom de domaine chez OVHcloud"
-updated: 2024-09-02
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -65,7 +65,7 @@ Ces enregistrements MX doivent être configurés dans la zone DNS de votre nom d
 
 ### Configurer un enregistrement MX dans une zone DNS OVHcloud
 
-Pour créer ou modifier les enregistrements MX dans la configuration OVHcloud de votre nom de domaine, connectez-vous à votre [espace client OVHcloud](/links/manager). Rendez-vous dans la section `Noms de domaine`{.action}, cliquez sur le domaine concerné puis rendez-vous dans l'onglet `Zone DNS`{.action}.
+Pour créer ou modifier les enregistrements MX dans la configuration OVHcloud de votre nom de domaine, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur le menu `Zones DNS`{.action}, puis choisissez le nom de domaine concerné.
 
 Le tableau affiche la configuration OVHcloud de votre nom de domaine. Chaque ligne correspond à un enregistrement DNS.
 

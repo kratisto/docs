@@ -1,7 +1,7 @@
 ---
 title: "Alojamento Cloud Web: primeira utilização"
 excerpt: "Saiba como começar num plano de alojamento Cloud Web"
-updated: 2022-05-04
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -15,7 +15,7 @@ A nossa oferta de alojamento [Cloud Web](/links/web/hosting-cloud-web-offer){.ex
 - Ter um serviço de [alojamento Cloud Web](/links/web/hosting-cloud-web-offer){.external}.
 - Ter recebido o e-mail com a confirmação da instalação do alojamento Cloud Web.
 - Ter um [domínio](/links/web/domains){.external} (endereço que permite identificar e aceder ao seu site).
-- Aceder à [Área de Cliente OVHcloud](/links/manager){.external}.
+- Aceder à [Área de Cliente OVHcloud](/links/manager).
 
 ## Instruções
 
@@ -42,7 +42,7 @@ As linguagens atualmente disponíveis são:
 - Python
 - Ruby
 
-Para aceder aos motores de execução do seu alojamento [Cloud Web](/links/web/hosting-cloud-web-offer){.external} vá à [Área de Cliente OVHcloud](/links/manager){.external}, clique em `Alojamentos`{.action} na barra à esquerda e escolha o nome do alojamento Cloud Web em causa. Por fim, clique no separador `Motores de execução`{.action}.
+Para aceder aos motores de execução do seu alojamento [Cloud Web](/links/web/hosting-cloud-web-offer){.external} vá à [Área de Cliente OVHcloud](/links/manager), clique em `Alojamentos`{.action} na barra à esquerda e escolha o nome do alojamento Cloud Web em causa. Por fim, clique no separador `Motores de execução`{.action}.
 
 Será automaticamente criado um motor durante a instalação do alojamento. É indicado como `Escolha padrão` no quadro que se apresenta. Para modificar um motor já parametrizado, clique nos três pontos à direita deste último e, a seguir, em `Modificar`{.action}. 
 
@@ -146,8 +146,8 @@ Há vários registos DNS inerentes à OVHcloud. Vamos referir-nos a dois deles e
 
 |Registo DNS|Serviço associado|Onde encontrá-lo?|
 |---|---|---|
-|A|Para o site|Na sua [Área de Cliente OVHcloud](/links/manager){.external}, posicionado na secção `Alojamentos`{.action}, no alojamento Cloud Web em causa. De seguida, em `Informações gerais`{.action}, tome nota do endereço IP indicado para «IPv4».|
-|MX|Para os e-mails|Na sua [Área de Cliente OVHcloud](/links/manager){.external}, posicionado na secção `E-mails`{.action}, no domínio em causa. De seguida, clique em `Informações gerais`{.action} e tome nota das informações indicadas para os «Campos MX».|
+|A|Para o site|Na sua [Área de Cliente OVHcloud](/links/manager), posicionado na secção `Alojamentos`{.action}, no alojamento Cloud Web em causa. De seguida, em `Informações gerais`{.action}, tome nota do endereço IP indicado para «IPv4».|
+|MX|Para os e-mails|Na sua [Área de Cliente OVHcloud](/links/manager), posicionado na secção `E-mails`{.action}, no domínio em causa. De seguida, clique em `Informações gerais`{.action} e tome nota das informações indicadas para os «Campos MX».|
 
 #### 6.2. Verificar e/ou alterar os registos DNS
 
@@ -157,14 +157,14 @@ Agora que conhece os registos DNS inerentes ao seu alojamento [Cloud Web](/links
 >
 > - Se o domínio não usar a configuração DNS da OVHcloud, a configuração deverá ser efetuada no sistema do agente responsável pela gestão do seu domínio.
 > 
-> - Se o domínio estiver registado na OVHcloud, pode verificar se este último utiliza a nossa configuração DNS. Para isso, vá à [Área de Cliente](/links/manager){.external}, clique no separador`Servidores DNS`{.action} e posicione-se sobre o domínio em questão.
+> - Se o domínio estiver registado na OVHcloud, pode verificar se este último utiliza a nossa configuração DNS. Para isso, vá à [Área de Cliente](/links/manager), clique no separador`Servidores DNS`{.action} e posicione-se sobre o domínio em questão.
 >
 
 Siga as indicações abaixo para saber onde efetuar estas manipulações:
 
 |Configuração DNS utilizada|Onde realizar as manipulações?|
 |---|---|
-|OVHcloud|Na [Área de Cliente OVHcloud](/links/manager){.external}, posicionado na secção `Domínios`{.action}, no domínio em causa. No separador `Zona DNS`{.action}, verifique e altere as informações necessárias. Se necessário, pode recorrer ao guia [Alojamento Partilhado: como editar a minha zona DNS?](/pages/web_cloud/domains/dns_zone_edit){.external}.|
+|OVHcloud|A partir do seu [Área de Cliente OVHcloud](/links/manager), aceda à parte `Web Cloud`{.action}. Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa. Consulte a nossa documentação "[Editar uma zona DNS OVHcloud](/pages/web_cloud/domains/dns_zone_edit)", se necessário.|
 |Outra|No sistema do agente responsável pela gestão do seu domínio. Sugerimos que o contacte se sentir dificuldades durante as manipulações.|
 
 Uma vez modificada a configuração DNS do domínio, é necessário um tempo máximo de propagação de 24 horas até as alterações serem efetivas. Se adicionou vários domínios ao seu alojamento Cloud Web enquanto Multisite, deverá realizar estas duas manipulações para cada um deles. 

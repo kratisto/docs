@@ -1,7 +1,7 @@
 ---
 title: Projekte delegieren
 excerpt: Erfahren Sie hier, wie Sie Zugriffsrechte auf ein Public Cloud Projekt anderen Kunden-Accounts übertragen
-updated: 2022-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -18,12 +18,11 @@ Zu diesem Zweck können Sie anderen OVHcloud Kunden-Accounts Lese- oder Schreibr
 ## Voraussetzungen
 
 - Sie haben eine [Public Cloud](https://www.ovhcloud.com/de/public-cloud/) Instanz in Ihrem OVHcloud Account.
-- Sie verfügen über ein Backup einer [Public Cloud Instanz](https://www.ovhcloud.com/de/public-cloud/instance-backup/).
 - Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 
 ## In der praktischen Anwendung 
 
-Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und öffnen Sie Ihr `Public Cloud`{.action} Projekt. Klicken Sie auf `Contacts and Rights`{.action} im Bereich **Project Management**.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus. Klicken Sie auf `Kontakt & Rechte`{.action} im Bereich **Einstellungen**.
 
 Auf dieser Seite können Sie die zu Ihrem Projekt gehörenden Kontakte einsehen.
 

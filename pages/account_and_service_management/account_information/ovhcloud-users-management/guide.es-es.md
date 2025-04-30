@@ -1,7 +1,7 @@
 ---
 title: 'Crear y gestionar usuarios locales en una cuenta de OVHcloud'
 excerpt: 'Cómo añadir usuarios locales desde su cuenta de OVHcloud'
-updated: 2024-06-25
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -20,7 +20,7 @@ OVHcloud le ofrece la posibilidad de crear usuarios locales con permisos de lect
 ## Requisitos
 
 - Tener una cuenta de OVHcloud activa.
-- Haber iniciado sesión en el área de cliente.
+- Haber iniciado sesión en su [área de cliente de OVHcloud](/links/manager).
 
 ## Procedimiento
 
@@ -32,13 +32,9 @@ Los usuarios locales son uno de los tipos de identidad que pueden configurarse e
 
 #### Añadir un usuario
 
-Haga clic en el nombre de su cuenta en la esquina superior derecha y, a continuación, vuelva a hacer clic en su nombre en la barra lateral.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
 
-![Acceso al menú IAM](images/access_to_the_IAM_menu_01.png){.thumbnail}
-
-Puede acceder al menú IAM desde la entrada dedicada del área de cliente.
-
-![Acceso al menú IAM](/pages/assets/screens/control_panel/product-selection/right-column/initials/identity-and-access-management-iam.png){.thumbnail}
+En el recuadro **Atajos**, haga clic en la pestaña `Gestionar mis usuarios`{.action}.
 
 A continuación, haga clic en la pestaña `Identidades`{.action} para acceder a la gestión de los usuarios locales.
 
@@ -72,7 +68,7 @@ Por ejemplo: **1234-567-89/johnsmith**.
 
 ![users-management](images/usersmanagement3.png){.thumbnail}
 
-A partir de ese momento, el usuario creado podrá iniciar sesión en el [área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es){.external} con este identificador. 
+A partir de ese momento, el usuario creado podrá iniciar sesión en el [área de cliente de OVHcloud](/links/manager) con este identificador. 
 
 También podrá cambiar su contraseña y proteger el acceso a su cuenta activando la doble autenticación (esta última medida solo se aplicará a su acceso como usuario). A tal fin, puede consultar [la guía sobre la instrumentación de la doble autenticación](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa){.external}.
 

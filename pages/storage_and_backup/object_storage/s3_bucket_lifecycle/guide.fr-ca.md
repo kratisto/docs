@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Gestion intelligente du stockage avec des règles lifecycle
 excerpt: "Découvrez comment optimiser vos coûts de stockage avec les règles lifecycle d'OVHcloud"
-updated: 2025-04-03
+updated: 2025-04-29
 ---
 
 <style>
@@ -71,8 +71,8 @@ En règle générale, la fonction lifecycle est conçue pour vous aider à optim
 
 En règle générale, lorsque plusieurs règles s'appliquent au même ensemble d'objets dans une configuration de bucket lifecycle :
 
-- La suppression permanente a la priorité sur la transition
-- La transition a la priorité sur la création de marqueurs de suppression
+- La suppression permanente a la priorité sur la transition.
+- La transition a la priorité sur la création de marqueurs de suppression.
 - La date d'expiration/de transition la plus courte a la priorité sur la plus longue.
 
 ### Versions courantes et versions non courantes
@@ -155,14 +155,56 @@ Dans un bucket versionné, chaque objet a une version courante et zéro ou plusi
 | Expiration.Days                                     | oui*     | Indique la durée en jours après laquelle les objets doivent être supprimés. La valeur doit être un nombre entier égal ou supérieur à 1. </br></br> ⚠️ Cet attribut est obligatoire si Date n'est pas présent. </br> ⚠️ Cet attribut s'exclut mutuellement avec Date, c'est-à-dire que vous avez soit Date, soit Days, mais vous ne pouvez pas spécifier les deux. |
 | Expiration.ExpiredObjectDeleteMarker                | non       | Indique si OVHcloud Object Storage doit immédiatement supprimer les marqueurs de suppression qui n'ont pas de versions non courantes (marqueurs de suppression expirés). </br></br> ⚠️ Vous ne pouvez pas spécifier Days ou Date avec ExpiredObjectDeleteMarker dans la même règle. Lorsque vous spécifiez Days/Date, les marqueurs de suppression expirés sont automatiquement supprimés comme des objets normaux lorsqu'ils satisfont aux critères d'âge. ExpiredObjectDeleteMarker est utilisé pour nettoyer les marqueurs de suppression dès qu'ils deviennent la seule version. Vous devez créer une règle séparée avec uniquement l'attribut ExpiredObjectDeleteMarker dans Expiration. </br> ⚠️ Lorsque vous utilisez l'action de lifecycle ExpiredObjectDeleteMarker, la règle ne peut pas spécifier un filtre basé sur un tag. |
 | NoncurrentVersionExpiration                         | non       | Une Action de lifecycle qui indique quand les versions d'objets non courantes doivent être supprimées. Cette action n'affecte pas les versions courantes. Elle supprime uniquement les versions qui ne sont pas à jour. |
-| NoncurrentVersionExpiration.NoncurrentDays          | non       | Indique le nombre de jours avant qu'une version non courante soit éligible à la suppression après qu'elle soit devenue non courante, c'est-à-dire l'âge minimum d'une version non courante. </br> Exemple : </br></br>  Supposons que vous ayez un objet A avec 10 versions : </br> - A v10 (current version, creation date: 2024-10-23) </br> - A v9 (non-current version, creation date: 2024-10-22) </br> - A v8 (non-current version, creation date: 2024-10-21) </br> - A v7 (non-current version, creation date: 2024-10-20) </br> - A v6 (non-current version, creation date: 2024-10-19) </br> - A v5 (non-current version, creation date: 2024-10-18) </br> - A v4 (non-current version, creation date: 2024-10-17) </br> - A v3 (non-current version, creation date: 2024-10-16) </br> - A v2 (non-current version, creation date: 2024-10-15) </br> - A v1 (non-current version, creation date: 2024-10-14) </br></br> Si la date actuelle est 2024-10-23 et **NoncurrentDays**=5, la règle de lifecycle supprimera les versions non courantes datant de plus de 5 jours, c'est-à-dire v1, v2, v3, v4 et v5. |
+| NoncurrentVersionExpiration.NoncurrentDays          | non       | Indique le nombre de jours avant qu'une version non courante soit éligible à la suppression après qu'elle soit devenue non courante, c'est-à-dire l'âge minimum d'une version non courante. |
 | NoncurrentVersionExpiration.NewerNoncurrentVersions | non       | Indique le nombre de versions non courantes les plus récentes à conserver. Le maximum est de 100. </br></br> Exemple: </br> Supposons que vous ayez un objet B avec 10 versions : </br> - B v10 (current version, creation date: 2024-10-23) </br> - B v9 (non-current version, creation date: 2024-10-22) </br> - B v8 (non-current version, creation date: 2024-10-21) </br> - B v7 (non-current version, creation date: 2024-10-20) </br> - B v6 (non-current version, creation date: 2024-10-19) </br> - B v5 (non-current version, creation date: 2024-10-18) </br> - B v4 (non-current version, creation date: 2024-10-17) </br> - B v3 (non-current version, creation date: 2024-10-16) </br> - B v2 (non-current version, creation date: 2024-10-15) </br> - B v1 (non-current version, creation date: 2024-10-14) </br></br> Si **NewerNoncurrentVersions**=3, la règle de lifecycle supprimera toutes les versions non courantes à l'exception des trois plus récentes, à savoir v9, v8 et v7. |
 | AbortIncompleteMultipartUpload                      | non       | Une action de lifecycle qui applique une opération de suppression sur les parties d'un téléchargement multi-parties incomplet. |
 | AbortIncompleteMultipartUpload.DaysAfterInitiation  | non       | Indique le nombre de jours après lequel toutes les parties de tous les téléchargements multi-parties incomplets sont supprimées et interrompt les téléchargements multi-parties sous-jacents. |
 
 ///
 
+### Comprendre le paramètre NoncurrentDays
+
+Le paramètre NoncurrentDays définit le nombre minimum de jours écoulés depuis qu'une version n'est plus la version courante. Ce paramètre ne doit pas être confondu avec l'âge de l'objet mais indique plutôt l'âge minimum d'une version non-courante.
+
+**Exemple 1:**
+
+Supposons que vous avez un objet A avec 10 versions :
+
+- A v10 (version courante, date de création: 2024-10-23).
+- A v9 (version non-courante, date de création: 2024-10-22).
+- A v8 (version non-courante, date de création: 2024-10-21).
+- A v7 (version non-courante, date de création: 2024-10-20).
+- A v6 (version non-courante, date de création: 2024-10-19).
+- A v5 (version non-courante, date de création: 2024-10-18).
+- A v4 (version non-courante, date de création: 2024-10-17).
+- A v3 (version non-courante, date de création: 2024-10-16).
+- A v2 (version non-courante, date de création: 2024-10-15).
+- A v1 (version non-courante, date de création: 2024-10-14).
+
+Si la date actuelle est 2024-10-23 et **NoncurrentDays**=5, la règle de lifecycle supprimera les versions non-courantes de plus de 5 jours : v1, v2, v3 et v4, car :
+
+- A v1 est non-courante depuis 2024-10-15 (quand A v2 a été créée) : son âge en tant que version non-courante est 8 jours.
+- A v2 est non-courante depuis 2024-10-16 (quand A v3 a été créée) : son âge en tant que version non-courante est 7 jours.
+- A v3 est non-courante depuis 2024-10-17 (quand A v4 a été créée) : son âge en tant que version non-courante est 6 jours.
+- A v4 est non-courante depuis 2024-10-18 (quand A v5 a été créée) : son âge en tant que version non-courante est 5 jours.
+
+**Exemple 2:**
+
+Supposons que vous avez un objet B avec 5 versions :
+
+- B v5 (version courante, date de création: 2024-10-28).
+- B v4 (version non-courante, date de création: 2024-10-27).
+- B v3 (version non-courante, date de création: 2024-10-20).
+- B v2 (version non-courante, date de création: 2024-10-15).
+- B v1 (version non-courante, date de création: 2024-10-14).
+
+Si la date actuelle est 2024-10-29 et **NoncurrentDays**=5, la règle de lifecycle supprimera les versions non-courantes de plus de 5 jours : uniquement v1 et v2, car :
+
+- B v1 est non-courante depuis 2024-10-15 (quand B v2 a été créée) : son âge en tant que version non-courante est 14 jours.
+- B v2 est non-courante depuis 2024-10-20 (quand B v3 a été créée) : son âge en tant que version non-courante est 9 jours.
+
 ### Obtenir la date d'expiration programmée
+
 
 Si un objet est programmé pour être supprimé, un appel HEAD-OBJECT renvoie un en-tête de réponse http spécial x-amz-expiration qui contient un timestamp indiquant sa date d'expiration et un identifiant de la règle du lifecycle qui a été appliquée.
 

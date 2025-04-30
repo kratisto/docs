@@ -1,7 +1,7 @@
 ---
 title: "Configura il reverse DNS di un'istanza Public Cloud"
 excerpt: Come impostare la risoluzione reverse DNS
-updated: 2024-06-10
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -18,13 +18,13 @@ Configurare la risoluzione **Reverse DNS** di un'istanza è particolarmente util
 
 ## Prerequisiti
 
-- Disporre di un'[istanza Public Cloud](https://www.ovhcloud.com/it/public-cloud/) sul proprio account OVHcloud
+- Disporre di un'[istanza Public Cloud](/links/public-cloud/public-cloud) sul proprio account OVHcloud
 - Un dominio con il suo record `A` che punta verso l'istanza
 - Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Bare Metal Cloud`{.action} e apri `Network`{.action}. Clicca su `IP`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), accedi alla sezione `Network`{.action} e clicca su `Indirizzi IP pubblici`{.action}.
 
 Il menu a tendina sotto **I miei indirizzi IP pubblici e servizi associati** permette di filtrare i tuoi servizi per categoria.
 

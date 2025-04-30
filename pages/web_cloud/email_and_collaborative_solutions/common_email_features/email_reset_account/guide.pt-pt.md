@@ -1,7 +1,7 @@
 ---
 title: "Eliminar uma conta de e-mail"
 excerpt: "Saiba como eliminar ou reinicializar um endereço de e-mail na sua oferta de e-mail"
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -37,8 +37,8 @@ Selecione o separador correspondente à sua oferta de e-mail:
 >> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique em `E-mails`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Clique em `MX Plan`{.action}.
 >> 1. Selecione o domínio em questão.
 >> 1. Aceda ao separador `Contas de e-mail`{.action}.
 >> 1. Na nova janela, podem ver-se as contas de e-mail existentes. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Eliminar conta`{.action}.
@@ -50,8 +50,8 @@ Selecione o separador correspondente à sua oferta de e-mail:
 >> Para verificar se a sua oferta MX plan é uma versão histórica ou nova, consulte a tabela da parte "[Identifique a sua oferta MX Plan](#whichmxplan)" deste manual.
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique em `E-mails`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Clique em `MX Plan`{.action}.
 >> 1. Selecione o domínio em questão.
 >> 1. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.
 >> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.
@@ -61,8 +61,8 @@ Selecione o separador correspondente à sua oferta de e-mail:
 > **Email Pro**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique em `E-mails Pro`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Clique em `Email Pro`{.action}.
 >> 1. Selecione a plataforma em causa.
 >> 1. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.
 >> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar esta conta`{.action}.
@@ -74,9 +74,8 @@ Selecione o separador correspondente à sua oferta de e-mail:
 > **Exchange**
 >>
 >> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
->> 1. Clique no separador `Web Cloud`{.action}.
->> 1. Clique na rubrica `Microsoft`{.action}.
->> 1. Clique em `Exchange`{.action}.
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Na rubrica `MICROSOFT`, clique em `Exchange`{.action}.
 >> 1. Selecione a plataforma em causa.
 >> 1. Aceda ao separador `Contas de e-mail`{.action}.
 >> 1. Clique no botão `...`{.action} à direita da conta a modificar e, a seguir, em `Reinicializar`{.action}.

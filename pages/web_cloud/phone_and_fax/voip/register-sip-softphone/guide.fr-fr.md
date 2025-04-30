@@ -1,7 +1,7 @@
 ---
 title: 'Tutoriel - Utiliser une ligne SIP OVHcloud sur un softphone'
 excerpt: 'Découvrez comment enregistrer une ligne SIP OVHcloud sur un softphone tel que Linphone ou Zoiper'
-updated: 2022-03-31
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -49,8 +49,8 @@ Vous devez **impérativement** disposer des trois informations suivantes afin de
 Afin de retrouver votre **Login** et votre **Domain**, suivez les étapes ci-dessous :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Dans l'onglet `Gestion`{.action}, cliquez sur `Informations générales`{.action}.
 
 ![informations générales](images/general-information.png){.thumbnail}

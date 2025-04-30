@@ -1,7 +1,7 @@
 ---
 title: Dobre praktyki zarządzania usługami i kontem OVHcloud
 excerpt: Znajdziesz tutaj elementy niezbędne do prawidłowego zarządzania fakturami, zamówieniami, sposobami płatności i kontem klienta.
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -13,7 +13,7 @@ Niniejszy przewodnik zawiera elementy niezbędne do prawidłowego zarządzania k
 ## Wymagania początkowe
 
 - Posiadanie jednej lub kilku aktywnych usług OVHcloud
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)
+- Dostęp do [Panelu klienta OVHcloud](/links/manager)
 
 ## W praktyce
 
@@ -31,7 +31,7 @@ Aby środki bezpieczeństwa były skuteczne, upewnij się, że Twoje konta e-mai
 
 Twoje dane osobowe (adres pocztowy, e-mail, itp.) muszą być aktualne na Twoim koncie klienta, aby zapewnić bezpieczeństwo i prawidłowe działanie usług.
 
-Sprawdź Twoje dane osobowe klikając w prawym górnym rogu Panelu klienta OVHcloud, na Twoje nazwisko, a następnie na Twoje inicjały (`Zarządzaj kontem`{.action}).<br>
+Sprawdź dane osobowe, klikając w prawym górnym rogu [Panelu klienta OVHcloud](/links/manager) Twoje nazwisko, a następnie wybierając `Dostęp do konta`{.action}.<br>
 W sekcji `Mój profil`{.action} po prawej stronie ekranu (kliknij ponownie nazwę, aby usunąć menu po lewej stronie), kliknij `...`{.action}, a następnie `Edytuj moj profil`{.action}.
 
 ![miprofile](images/myprofile.png){.thumbnail}
@@ -45,16 +45,16 @@ Upewnij się, czy Twoje konto e-mail jest zawsze **aktualne, bezpieczne i dostę
 > Dodaj również **e-mail zapasowy** do Twoich danych osobowych, aby zapobiec utracie dostępu do Twojego konta klienta OVHcloud.
 >
 
-E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)<br>
-Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `E-maile od OVHcloud`{.action} w prawym menu.
+E-maile wysłane przez OVHcloud są również dostępne w [Panelu klienta OVHcloud](/links/manager)<br>
+Kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie kliknij `Połączenia`{.action} w prawym menu.
 
-![service_email](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_email](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Włącz automatyczne odnowienie
 
 > [!primary]
 >
-> Aby uniknąć przerw w świadczeniu usług oraz zapewnić prawidłowe funkcjonowanie automatycznego odnowienia, [Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) w Twoim [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).
+> Aby uniknąć przerw w świadczeniu usług oraz zapewnić prawidłowe funkcjonowanie automatycznego odnowienia, [Zarządzanie sposobami płatności](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) w Twoim [Panelu klienta OVHcloud](/links/manager).
 >
 > Upewnij się regularnie, czy Twój sposób płatności jest **prawidłowy**.
 >
@@ -68,16 +68,14 @@ Jeśli zdecydujesz się nie aktywować automatycznego odnowienia, otrzymasz e-ma
 
 ### Informacje o zamówieniach
 
-Czy wiesz, że możesz [śledzić zamówienia](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) w [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)?<br>
-Wystarczy przejść do zakładki `Dashboard`{.action} w górnym menu ekranu, a następnie kliknąć `Wyswietl moje zamówienia`{.action}.
-
-![starsi](images/viewmyorders.png){.thumbnail}
+Czy wiesz, że możesz [śledzić zamówienia](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) w [Panelu klienta OVHcloud](/links/manager)?<br>
+Kliknij logo OVHcloud w lewym górnym rogu ekranu, a następnie kliknij `Wyswietl moje zamówienia`{.action}.
 
 Będziesz informowany o etapach dostawy i będziesz wiedzieć, czy konieczne są działania po Twojej stronie.
 
 ### Rezygnacja z usług
 
-Jeśli chcesz przestać korzystać z którejkolwiek z Twoich usług, możesz je anulować, przełączyć na tryb ręczny lub usunąć natychmiast w [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl).
+Jeśli chcesz przestać korzystać z którejkolwiek z Twoich usług, możesz je anulować, przełączyć na tryb ręczny lub usunąć natychmiast w [Panelu klienta OVHcloud](/links/manager).
 
 Najpierw kliknij Twoją nazwę w prawym górnym rogu ekranu, a następnie `Moje rozwiązania i usługi`{.action}. Po prawej stronie ekranu kliknij przycisk `...`{.action} odnoszący się do usługi, na którą chcesz działać, po czym kliknij jeden z poniższych przycisków:
 

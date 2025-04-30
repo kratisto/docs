@@ -1,7 +1,7 @@
 ---
 title: 'Logging in to the OVHcloud Control Panel'
 excerpt: 'Find out how to log in to your OVHcloud account'
-updated: 2021-07-01
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -19,7 +19,7 @@ Your services are managed mainly via the OVHcloud Control Panel.
 
 ### Logging in to the OVHcloud Control Panel
 
-Go to the [OVHcloud login page](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.ie/&ovhSubsidiary=ie){.external}, enter your customer ID (NIC handle) or primary email address, and password.
+Go to the [OVHcloud login page](/links/manager), enter your customer ID (NIC handle) or primary email address, and password.
 
 ![NIC handle](images/log-in.png){.thumbnail}
 
@@ -31,7 +31,7 @@ The rest of this guide will give you methods for resolving common cases of faile
 
 #### I don’t know my NIC handle. How do I find it?
 
-The OVHcloud NIC handle, in the form **xx111111-ovh**, will always be requested when you log in to your account or contact OVHcloud technical support. There are different ways of finding it.
+The OVHcloud NIC handle, in the form **aa00000-ovh**, will always be requested when you log in to your account or contact OVHcloud technical support. There are different ways of finding it.
 
 ##### **In OVHcloud emails**
 

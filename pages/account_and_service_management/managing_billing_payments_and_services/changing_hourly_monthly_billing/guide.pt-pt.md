@@ -23,14 +23,14 @@ Ao criar uma instância Public Cloud, é possível escolher entre uma faturaçã
 
 ## Requisitos
 
-- Ter criado uma [instância Public Cloud](https://www.ovh.pt/public-cloud/instances/){.external}.
-- Aceder à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}.
+- Ter criado uma [instância Public Cloud](/links/public-cloud/public-cloud).
+- Aceder à [Área de Cliente OVHcloud](/links/manager){.external}.
 
 ## Instruções
 
 ### Desde à Área de Cliente OVHcloud
 
-Na [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, escolha a instância para a qual deseja mudar o modo de faturação e abra o respetivo menu de opções clicando nos 3 pontos do lado direito da Instância. Terá então acesso ao botão `Passar para o plano mensal`{.action}:
+Na [Área de Cliente OVHcloud](/links/manager){.external}, escolha a instância para a qual deseja mudar o modo de faturação e abra o respetivo menu de opções clicando nos 3 pontos do lado direito da Instância. Terá então acesso ao botão `Passar para o plano mensal`{.action}:
 
 ![Change billing calculation](images/switch_to_monthly_updated.png){.thumbnail}
 
@@ -38,7 +38,7 @@ Em seguida, tem de confirmar que pretende mudar o modo de faturação:
 
 ![Confirm billing calculation change](images/confirm_to_monthly_updated.png){.thumbnail}
 
-Depois de confirmar a sua escolha, receberá imediatamente uma factura mensal rateada. A factura seguinte incluirá a parte do mês com a taxa horária (1º do mês até à mudança) e a nova taxa mensal.
+Depois de confirmar à sua escolha, receberá imediatamente uma factura mensal rateada. A factura seguinte incluirá a parte do mês com a taxa horária (1º do mês até à mudança) e a nova taxa mensal.
 
 ### Desde a API OpenStack
 

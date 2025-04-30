@@ -1,7 +1,7 @@
 ---
 title: Was tun, wenn ein Account aufgrund Spamversands gesperrt wurde?
 excerpt: Erfahren Sie hier, wie Sie vorgehen, wenn Ihr E-Mail-Acount wegen Spamverdachts blockiert ist 
-updated: 2024-05-23
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -54,8 +54,7 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 >> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
->> 1. Klicken Sie auf `Microsoft`{.action}.
->> 1. Klicken Sie auf `Exchange`{.action}.
+>> 1. In der Rubrik `MICROSOFT`{.action}, klicken Sie auf `Exchange`{.action}.
 >> 1. Wählen Sie den gewünschten Dienst aus.
 >>
 >> Gehen Sie auf den Tab `E-Mail-Accounts`{.action} Ihrer Plattform. Wenn in der Spalte „Status“ des betroffenen E-Mail-Accounts „Spam“ angegeben ist, klicken Sie auf `...`{.action} rechts und danach auf `Entsperren`{.action}. Das Entsperren des E-Mail-Accounts erfolgt nicht automatisch. Der Support muss über das Support-Ticket kontaktiert werden. Hierbei müssen die drei gestellten Fragen beantwortet werden.<br>
@@ -79,7 +78,7 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 >> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
->> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Klicken Sie auf `MX Plan`{.action}.
 >> 1. Wählen Sie die betreffende Domain aus.
 >>
 >> Gehen Sie auf den Tab `E-Mail-Accounts`{.action} Ihrer Plattform. Wenn in der Spalte „Status“ des betroffenen E-Mail-Accounts „Spam“ angegeben ist, klicken Sie auf dieses Feld und dann auf Das `Ticket beantworten`{.action}. Das Entsperren des E-Mail-Accounts erfolgt nicht automatisch. Der Support muss über das Support-Ticket kontaktiert werden. Hierbei müssen die drei gestellten Fragen beantwortet werden.<br>
@@ -93,7 +92,7 @@ Wählen Sie den Tab für Ihren E-Mail-Dienst aus:
 >>
 >> 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 >> 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
->> 1. Klicken Sie auf `E-Mails`{.action}.
+>> 1. Klicken Sie auf `MX Plan`{.action}.
 >> 1. Wählen Sie die betreffende Domain aus.
 >>
 >> Gehen Sie auf den Tab `E-Mails`{.action}. Wenn „Ja“ in der Spalte „Blockiert wegen SPAM“ angezeigt wird, klicken Sie auf diesen Hinweis und dann auf `Passwort ändern`{.action}. Ihr E-Mail-Account ist jetzt freigegeben. Sie müssen [Schritt 3](#step3) nicht ausführen.

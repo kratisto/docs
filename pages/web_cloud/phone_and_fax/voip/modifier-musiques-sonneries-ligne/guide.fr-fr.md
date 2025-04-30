@@ -1,7 +1,7 @@
 ---
 title: 'Modifier les musiques et sonneries de votre ligne'
 excerpt: 'Découvrez comment modifier les musiques et les sonneries de votre ligne OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -23,8 +23,8 @@ Votre ligne SIP OVHcloud vous permet de recevoir et d’émettre des appels. Afi
 ### Étape 1 : accéder à la gestion des musiques et sonneries
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous ensuite sur l'onglet `Gestion des musiques`{.action}.
 
 ![sonneriesetmusiques](images/gestion-musiques.png){.thumbnail width="600"}

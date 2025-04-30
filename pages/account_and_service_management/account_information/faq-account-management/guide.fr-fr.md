@@ -1,7 +1,7 @@
 ---
 title: FAQ sur la gestion du compte OVHcloud
 excerpt: Retrouvez les questions les plus fréquemment posées sur la gestion du compte OVHcloud
-updated: 2024-09-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -17,23 +17,23 @@ La création d'un compte est gratuite. Cet espace facilite l'accès à vos infor
 
 ### Où trouver mon identifiant OVHcloud ?
 
-Votre identifiant client, parfois également appelé « NIC-handle », est présent en haut à droite de votre dernière facture. Il ressemble à ceci : « xx99999-ovh » (les premières lettres sont généralement les initiales de la personne qui a créé le compte). Cet identifiant est aussi indiqué dans tous les e-mails envoyés par OVHcloud (e-mail de confirmation de création du compte, e-mails de confirmation ou de renouvellement de commande, etc.).
+Votre identifiant client, parfois également appelé « NIC-handle », est présent en haut à droite de votre dernière facture. Il ressemble à ceci : « aa00000-ovh » (les premières lettres sont généralement les initiales de la personne qui a créé le compte). Cet identifiant est aussi indiqué dans tous les e-mails envoyés par OVHcloud (e-mail de confirmation de création du compte, e-mails de confirmation ou de renouvellement de commande, etc.).
 
 Si vous n’avez toujours pas retrouvé votre identifiant, vous avez la possibilité de cliquer sur le lien « Identifiant ou mot de passe oubliés » présent sur la page de [connexion au compte OVHcloud](/links/manager) et renseignez l’adresse e-mail associée à votre compte.
 
 > [!success]
->À tout moment, lorsque vous êtes connecté à votre espace client, vous pouvez retrouver votre identifiant en haut à droite, en cliquant sur votre nom.
+> À tout moment, lorsque vous êtes connecté à votre espace client, vous pouvez retrouver votre identifiant en haut à droite, en cliquant sur votre nom.
 
 ### Que faire si je ne parviens pas à me connecter à mon compte client ?
 
-Vous avez oublié votre mot de passe ? Vous n'avez plus accès à votre adresse e-mail ? Vous avez configuré une double authentication mais votre téléphone est cassé/perdu/volé ?
+Vous avez oublié votre mot de passe ? Vous n'avez plus accès à votre adresse e-mail ? Vous avez configuré une double authentification mais votre téléphone est cassé/perdu/volé ?
 Pour tous ces cas de figure, consultez [cette documentation](/pages/account_and_service_management/account_information/ovhcloud-account-login#login-failure) qui vous permettra de connaître les démarches appropriées.
 
 ### Comment modifier mes informations personnelles ?
 
-Pour visualiser ou modifier vos coordonnées, connectez-vous à votre [espace client](/links/manager) grâce à vos identifiants. Vous accéderez à vos informations personnelles en cliquant directement sur les initiales de vos nom et prénom, en haut à droite de votre tableau de bord dans l'espace client. Accédez ensuite à la rubrique « Mon profil » de cette page.
+Pour visualiser ou modifier vos coordonnées, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-![infos](images/infos-modif_final_comp-min.gif){.thumbnail}
+Cliquez alors sur `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
 
 > [!success]
 > **Vous voulez modifier l'adresse e-mail de votre compte OVHcloud ?**
@@ -51,9 +51,9 @@ Vous devez entrer votre numéro de téléphone au format international.
 
 ### Où dois-je renseigner mon numéro SIRET ?
 
-Connectez-vous à votre [espace client](/links/manager), cliquez sur votre nom en haut à droite de votre compte puis cliquez sur vos initiales.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-Cliquez alors sur le bouton `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
+Cliquez alors sur `Éditer mon profil`{.action}, dans le cadre `Mon profil`.
 
 Vous aurez ainsi accès aux informations personnelles de votre compte. Faites défiler l'écran jusqu'à la rubrique `Votre activité` pour trouver le champ `N° SIRET`. Une fois votre numéro renseigné, cliquez sur le bouton `Enregistrer les modifications`{.action}.
 
@@ -71,7 +71,9 @@ Pour mieux connaître les impacts du règlement général sur la protection des 
 
 ### Comment modifier mon mot de passe OVHcloud ?
 
-Lorsque vous vous connectez à votre [espace client](/links/manager), rendez-vous sur votre tableau de bord. Cliquez ensuite sur vos initiales en haut à droite. Dans la rubrique `Mon compte`{.action}, cliquez sur l'onglet `Sécurité`{.action}. Vous pouvez alors modifier votre mot-de-passe actuel. Un message de sécurité apparaît alors pour vous informer que vous êtes sur le point d'effectuer un changement de mot de passe. A la suite de votre confirmation, vous allez recevoir (à l'adresse mail principale renseignée dans le compte)  un e-mail contenant la procédure à suivre. 
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
+
+Cliquez sur l'onglet `Sécurité`{.action}, puis sur le bouton `Modifier`{.action} situé à droite de la mention **Mot de passe**. Vous pouvez alors modifier votre mot de passe actuel. Un message de sécurité apparaît alors pour vous informer que vous êtes sur le point d'effectuer un changement de mot de passe. A la suite de votre confirmation, vous allez recevoir (à l'adresse mail principale renseignée dans le compte) un e-mail contenant la procédure à suivre. 
 
 Retrouvez plus d'informations dans notre guide [Modifier le mot de passe de votre compte](/pages/account_and_service_management/account_information/manage-ovh-password).
 
@@ -84,11 +86,11 @@ Si vous n'avez plus accès à cette adresse mais que vous avez accès votre adre
 
 Si vous n'avez accès ni à votre adresse e-mail, ni à votre espace client, ou que vous n'avez pas d'adresse e-mail de secours, il vous faudra suivre [cette procédure](https://www.ovh.com/fr/cgi-bin/fr/procedure/procedureChangeEmail.cgi).
 
-Si vous avez oublié votre identifiant client, vous pouvez le retrouver en haut à droite de votre dernière facture. Il ressemble à ceci : « xx99999-ovh » (les premières lettres sont généralement les initiales de la personne qui a créé le compte). Cet identifiant est aussi indiqué dans l’e-mail de confirmation de création du compte, ainsi que dans les e-mails de confirmation ou de renouvellement de commande.
+Si vous avez oublié votre identifiant client, vous pouvez le retrouver en haut à droite de votre dernière facture. Il ressemble à ceci : « aa00000-ovh » (les premières lettres sont généralement les initiales de la personne qui a créé le compte). Cet identifiant est aussi indiqué dans l’e-mail de confirmation de création du compte, ainsi que dans les e-mails de confirmation ou de renouvellement de commande.
 
 ### Comment changer les contacts ?
 
-Vous avez la possibilité de déléguer à d’autres comptes clients OVHcloud la gestion administrative, technique et facturation de vos services depuis votre espace client. Rendez-vous pour cela dans la rubrique "Gestion des contacts", accessible depuis le bandeau de droite.
+Vous avez la possibilité de déléguer à d’autres comptes clients OVHcloud la gestion administrative, technique et facturation de vos services depuis votre espace client. Pour cela, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mes contacts`{.action}.
 
 La délégation de service devra être validée par e-mail à la fois par l’administrateur du service et le nouveau contact.
 
@@ -101,7 +103,7 @@ Si vous souhaitez récupérer un nom de domaine dont vous êtes le propriétaire
 
 ### Comment paramétrer ou modifier un contact de facturation ?
 
-Connectez-vous à votre espace client grâce à vos identifiants. Une fois sur votre tableau de bord, cliquez ensuite sur le raccourci `Gestion de contacts`{.action}, situé dans le bandeau de droite.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mes contacts`{.action}.
 
 > [!success]
 > Si vous souhaitez en savoir plus sur la gestion des contacts, nous vous invitons à consulter ce guide détaillé : [« Gérer les contacts de ses services »](/pages/account_and_service_management/account_information/managing_contacts).
@@ -114,7 +116,9 @@ Plusieurs solutions s'offrent à vous pour sécuriser votre compte telles que :
 - l'ajout d'une [double authentification](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa) ;
 - la configuration d'une [restriction par IP](/pages/account_and_service_management/account_information/ovhcloud-control-panel-ip-restriction).
 
-Ces options sont toutes disponibles dans l'onglet `Sécurité`{.action}, après avoir cliqué sur vos initiales en haut à droite du `Tableau de bord`{.action} de votre [espace client](/links/manager).
+Pour accéder à toutes ces options, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
+
+Cliquez sur l'onglet `Sécurité`{.action} pour les afficher.
 
 ### Comment activer la double authentification (2FA) sur mon compte OVHcloud ?
 
@@ -181,7 +185,7 @@ Un membre de notre équipe vous répondra alors dès que possible.
 
 ### J’ai répondu au service abuse OVHcloud mais mon service est toujours bloqué. Que puis-je faire ?
 
-Vous pouvez, depuis votre espace client OVHcloud, ouvrir une demande d’assistance auprès du Service Clients d'OVHcloud afin d’obtenir des informations complémentaires sur le traitement de votre ticket Abuse. Pour faciliter le traitement de votre demande, veillez à bien mentionner la référence de ce ticket Abuse dans votre demande d’assistance.
+Vous pouvez, depuis votre espace client OVHcloud, ouvrir une demande d’assistance auprès du [Centre d'aide OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help) afin d’obtenir des informations complémentaires sur le traitement de votre ticket Abuse. Pour faciliter le traitement de votre demande, veillez à bien mentionner la référence de ce ticket Abuse dans votre demande d’assistance.
 
 ### Comment supprimer mon compte OVHcloud ?
 

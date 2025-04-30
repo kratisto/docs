@@ -1,7 +1,7 @@
 ---
 title: 'Informationen zu den Abrechnungsoptionen der Public Cloud'
 excerpt: 'Erfahren Sie mehr über die verschiedenen Abrechnungsoptionen für Public Cloud-Produkte'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -65,7 +65,7 @@ Ergebnis: 23,63€
 
 ### Ihre Rechnungen einsehen
 
-Um die Rechnungen eines Projekts anzuzeigen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie links auf `Billing Control`{.action} (im Abschnitt `Project Management`) und dann auf den Tab `History`{.action}.
+Um die Rechnungen eines Projekts anzuzeigen, loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie links auf `Abrechnung`{.action} (im Abschnitt `Einstellungen`) und dann auf den Tab `History`{.action}.
 
 ![public-cloud](images/pci-billing-information1-2021.png){.thumbnail}
 

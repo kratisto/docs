@@ -1,7 +1,7 @@
 ---
 title: Importer une Additional IP
 excerpt: "Ce guide explique comment importer une Additional IP dans votre projet Public Cloud OVHcloud"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,8 +24,8 @@ Il est possible d’importer une adresse Additional IP liée à un autre service
 ## Prérequis
 
 - Un [projet Public Cloud](https://www.ovhcloud.com/fr-ca/public-cloud/) dans votre compte OVHcloud.
-- Être connecté à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external}.
-- Avoir [une Additional IP](https://www.ovhcloud.com/fr-ca/bare-metal/ip/){.external}.
+- Être connecté à votre [espace client OVHcloud](/links/manager).
+- Avoir [une Additional IP](https://www.ovhcloud.com/fr-ca/bare-metal/ip/).
 
 > [!warning]
 > Cette fonctionnalité n'est actuellement pas disponible pour les instances Metal.
@@ -33,9 +33,9 @@ Il est possible d’importer une adresse Additional IP liée à un autre service
 
 ## En pratique
 
-Tout d’abord, connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external} et sélectionnez votre projet dans la section `Public Cloud `{.action}.
+Connectez-vous à l’[espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 
-Dans le menu de gauche, ouvrez `Public IPs`{.action} dans `Network`.
+Dans le menu de gauche, ouvrez `IP Publiques`{.action} dans **Network**.
 
 Ouvrez l'onglet `Additional IP`{.action} et cliquez sur le bouton `Actions`{.action}. Sélectionnez `Importer une Additional IP`{.action} pour afficher toutes les adresses IP pouvant être importées dans votre projet Public Cloud.
 
@@ -74,6 +74,6 @@ La prochaine étape portera sur la configuration de l’IP dans votre système d
 
 ## Aller plus loin
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

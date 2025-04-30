@@ -1,7 +1,7 @@
 ---
 title: 'Definir e gerir a palavra-passe da sua conta'
 excerpt: 'Aprenda a definir, alterar e gerir a palavra-passe da sua Área de Cliente OVHcloud'
-updated: 2021-07-21
+updated: 2025-04-28
 ---
 
 ## Sumário
@@ -68,17 +68,15 @@ Se a sua palavra-passe estiver comprometida, recomendamos vivamente que a [alter
 
 #### A partir da sua Área de Cliente OVHcloud
 
-- Ligue-se à sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, clique no seu nome (canto superior direito) e clicar nas suas iniciais.
-
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Aceder à minha conta`{.action}.
 
 - Clique então em `Segurança`{.action} e em `Alterar`{.action} à direita de "Palavra-passe".
 
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Confirmar a alteração da palavra-passe.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - Um e-mail é, então, enviado para o endereço de contacto da conta, para confirmar a alteração de palavra-passe. Leia atentamente as instruções e clique na ligação que nele está incluída. Esta ligação encaminha para a página de alteração da palavra-passe. Introduza a sua ID de utilizador no primeiro campo, a nova palavra-passe no segundo campo e confirme esta nova palavra-passe no terceiro campo.
 

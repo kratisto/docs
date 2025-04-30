@@ -1,7 +1,7 @@
 ---
 title: Deleting an email account
 excerpt: Find out how to delete or reset an email account of your email solution
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -37,7 +37,7 @@ Select the tab corresponding to your email solution:
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Emails`{.action}.
+>> 1. Click `MX Plan`{.action}.
 >> 1. Select the domain concerned.
 >> 1. Go to the `Email accounts`{.action}  tab. The window that appears will display the existing email accounts.
 >> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Disable account`{.action}.
@@ -50,7 +50,7 @@ Select the tab corresponding to your email solution:
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Emails`{.action}.
+>> 1. Click `MX Plan`{.action}.
 >> 1. Select the domain concerned.
 >> 1. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts.
 >> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
@@ -61,7 +61,7 @@ Select the tab corresponding to your email solution:
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Professional emails`{.action}.
+>> 1. Click `Email Pro`{.action}.
 >> 1. Select the service concerned.
 >> 1. Go to the `Email accounts`{.action} tab. The window that appears will display the existing email accounts.
 >> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset this account`{.action}.
@@ -74,8 +74,7 @@ Select the tab corresponding to your email solution:
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Microsoft`{.action}.
->> 1. Click `Exchange`{.action}.
+>> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
 >> 1. Select the service concerned.
 >> 1. Go to the `Email accounts`{.action} tab.
 >> 1. Click the `...`{.action} button to the right of the account you want to modify, then click `Reset`{.action}.

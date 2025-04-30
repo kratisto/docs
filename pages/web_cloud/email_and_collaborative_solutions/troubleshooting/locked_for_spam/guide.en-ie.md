@@ -1,7 +1,7 @@
 ---
 title: 'What to do if your account is blocked for spam'
 excerpt: 'Find out what to do if your email account has been blocked for spam'
-updated: 2024-05-23
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -52,8 +52,7 @@ If the suspicious activity detected by the antispam system was not initiated by 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Microsoft`{.action}.
->> 1. Click `Exchange`{.action}.
+>> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
 >> 1. Select the service concerned.
 >>
 >> Go to the `Email accounts`{.action} section of your platform. If the "Status" column for your email account displays "Blocked", click `...`{.action} to the right of the account concerned, then `Unblock`{.action}. Email accounts are not unblocked automatically. You will need to contact the support team by answering the 3 questions in the support ticket.<br>
@@ -66,7 +65,7 @@ If the suspicious activity detected by the antispam system was not initiated by 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Professional emails`{.action}.
+>> 1. Click `Email Pro`{.action}.
 >> 1. Select the service concerned.
 >> 
 >> Go to the `Email accounts`{.action} section of your platform. If the "Status" column to the right of the email account concerned displays "Spam", click on it, then `Reply to the ticket`{.action}. Email accounts are not unblocked automatically. You will need to contact the support team by answering the 3 questions in the support ticket.<br>
@@ -79,7 +78,7 @@ If the suspicious activity detected by the antispam system was not initiated by 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Emails`{.action}.
+>> 1. Click `MX Plan`{.action}.
 >> 1. Select the domain concerned.
 >>
 >> Go to the `Email accounts`{.action} section of your platform. If the "Status" column to the right of the email account concerned displays "Spam", click on it, then `Reply to the ticket`{.action}. Email accounts are not unblocked automatically. You will need to contact the support team by answering the 3 questions in the support ticket.<br>
@@ -94,7 +93,7 @@ If the suspicious activity detected by the antispam system was not initiated by 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Emails`{.action}.
+>> 1. Click `MX Plan`{.action}.
 >> 1. Select the domain concerned.
 >>
 >> Go to the `Emails`{.action} tab on your platform. If the “Blocked for SPAM” column shows “Yes”, click on it and then on `Change password`{.action}. Your email account is now unblocked, you do not need to follow [step 3](#step3).

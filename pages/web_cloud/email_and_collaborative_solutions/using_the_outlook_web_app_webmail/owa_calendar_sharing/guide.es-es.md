@@ -59,7 +59,7 @@ El calendario compartido estará disponible en la interfaz «Calendario» de la 
 
 > [!primary]
 >
-Por lo general, es posible compartir calendarios con usuarios externos, pero puede haber problemas de compatibilidad en función del cliente de correo electrónico o el servicio web utilizado. Para obtener más información, consulte la [documentación oficial de Microsoft](http://go.microsoft.com/fwlink/?LinkId=57561).
+> Por lo general, es posible compartir calendarios con usuarios externos, pero puede haber problemas de compatibilidad en función del cliente de correo electrónico o el servicio web utilizado. Para obtener más información, consulte la [documentación oficial de Microsoft](http://go.microsoft.com/fwlink/?LinkId=57561).
 >
 
 ### Cambiar los permisos de calendario

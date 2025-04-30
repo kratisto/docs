@@ -1,7 +1,7 @@
 ---
 title: 'Zwiększenie limitów Public Cloud'
 excerpt: 'Dowiedz się, jak zwiększyć limity Public Cloud'
-updated: 2024-05-21
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -33,9 +33,9 @@ Możesz zwiększyć limit zasobów ręcznie lub automatycznie.
 
 Procedura ta pozwala na ręczne zażądanie zwiększenia rozmiaru projektu i jego zatwierdzenie z góry (zasilenie Public Cloud).
 
-Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz Twój projekt Public Cloud.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-Na lewym pasku bocznym kliknij pozycję `Quota and Regions`{.action}.
+W rubryce **Ustawienia** kliknij `Limity i regiony`{.action}.
 
 ![access quota](images/raisepciquota1-2023.png){.thumbnail}
 
@@ -75,7 +75,7 @@ Nie jest to proces natychmiastowy, a przydział zasobów jest zwiększany z czas
 
 Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz Twój projekt Public Cloud.
 
-Na lewym pasku bocznym kliknij pozycję `Quota and Regions`{.action}.
+Na lewym pasku bocznym kliknij pozycję `Limity i regiony`{.action}.
 
 Kliknij na `?`{.action} aby uzyskać więcej informacji na temat tej funkcji, kliknij `ikonę przełącznika`{.action}, aby przełączyć stan na "**Aktywny**".
 

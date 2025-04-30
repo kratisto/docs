@@ -1,7 +1,7 @@
 ---
 title: 'Rozliczanie należności za usługę Public Cloud'
 excerpt: 'Zasady i modele naliczania opłat'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Wstęp
@@ -66,7 +66,7 @@ czyli 23,63 EUR.
 
 ### Wyświetlanie faktur
 
-Aby wyświetlić faktury za dany projekt, przejdź do Panelu klienta OVHcloud zakładka `Public Cloud`{.action}, następnie wybierz odpowiedni projekt z menu po lewej stronie, po czym kliknij `Billing Control`{.action} (w sekcji `Project Management`), a następnie `Historia`{.action}.
+Aby wyświetlić faktury za dany projekt, przejdź do Panelu klienta OVHcloud zakładka `Public Cloud`{.action}, następnie wybierz odpowiedni projekt z menu po lewej stronie, po czym kliknij `Płatności`{.action} (w sekcji `Ustawienia`), a następnie `Historia`{.action}.
 
 ![public-cloud](images/pci-billing-information1-2021.png){.thumbnail}
 

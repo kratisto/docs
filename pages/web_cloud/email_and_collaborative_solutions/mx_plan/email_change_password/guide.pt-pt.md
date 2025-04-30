@@ -1,7 +1,7 @@
 ---
 title: 'Alterar a palavra-passe de um endereço de e-mail'
 excerpt: 'Saiba como alterar a palavra-passe de um endereço de e-mail da OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -53,7 +53,7 @@ Na [Área de Cliente OVHcloud](/links/manager), aceda à secção `Web Cloud`{.a
 >>
 > **Email Pro**
 >>
->> Clique em `E-mails Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.<br>
+>> Clique em `Email Pro`{.action} e escolha o nome da plataforma em questão. Aceda ao separador `Contas de e-mail`{.action}. Na nova janela, podem ver-se as contas de e-mail existentes.<br>
 >> Clique no botão `...`{.action} e, a seguir, em `Alterar`{.action}.<br><br>
 >>![email](images/email-password-emailpro01.png){.thumbnail}<br>
 >>

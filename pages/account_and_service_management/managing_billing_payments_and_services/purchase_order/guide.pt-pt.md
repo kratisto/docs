@@ -1,7 +1,7 @@
 ---
 title: 'Conceito de Número de Comando ou Purchase Order (PO)'
 excerpt: 'Compreender a noção de número de encomenda ou purchase order e aplicá-la no âmbito do pagamento das faturas OVHcloud'
-updated: 2022-07-22
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -49,16 +49,16 @@ Para a OVHcloud, o documento deve conter, no mínimo, as seguintes informações
 
 ### Como inserir um Número de Purchase Order (PO) na Área de Cliente OVHcloud
 
-Ligue-se ao seu [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) e, no separador `Panel de controlo`{.action}, clique em `Ver as minhas encomendas`{.action}.
+Ligue-se ao seu [Área de Cliente OVHcloud](/links/manager) e, a seguir, diretamente na página que é apresentada, clique em `Ver as minhas encomendas`{.action}.
 
-![Espaço cliente](images/internalreference00.png){.thumbnail}
+![Espaço cliente](images/huborders.png){.thumbnail}
 
 Clique no separador `As minhas referências internas`{.action} e, a seguir, no botão `+ Adicionar uma referência interna`{.action}.
 
 ![Espaço cliente](images/internalreference01.png){.thumbnail}
 
 Tem à sua disposição duas terminologias, consoante deseje afixar nas suas faturas a `referência interna` **ou**, a menção `Purchase Order`.<br>
-Selecione `Criar a sua referência interna`{.action} ou `Criar o seu purchase order`{.action}.
+Selecione `Criar à sua referência interna`{.action} ou `Criar o seu purchase order`{.action}.
 
 Atribua um nome à referência interna / Purchase Order no campo previsto para o efeito, introduza uma **data de início** e uma **data de fim** (a data de fim está excluída) e clique em `Validar`{.action}.
 

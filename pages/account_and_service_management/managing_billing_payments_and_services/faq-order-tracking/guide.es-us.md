@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre el seguimiento del pedido de OVHcloud
 excerpt: Encuentre las preguntas más frecuentes sobre el seguimiento de pedidos de OVHcloud
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -14,21 +14,19 @@ Para abonar un pedido deberá identificarse utilizando su cuenta de cliente. A c
 
 #### Ideas y consejos
 
-¿Ha cerrado la página de la orden de pedido? Puede volver a abrirla para abonar el pedido desde el [área de cliente OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws), en `Mis pedidos`{.action}.
+¿Ha cerrado la página de la orden de pedido? Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Mis pedidos`{.action}. A continuación, podrá ver el pedido y abonarlo.
 
 ### ¿Cómo consultar el estado de un pago?
 
-Acceda a la sección `Facturas`{.action} disponible en la columna derecha del panel de control de su [área de cliente de OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws). Si tiene alguna factura pendiente de pago, podrá gestionar el pago directamente desde el panel de control.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Mis facturas`{.action}. Si una factura está pendiente de pago, directamente en su panel de control, se le propondrá abonar el saldo.
 
 #### Ideas y consejos
 
-Puede configurar su forma de pago en la sección `Formas de pago`{.action}. Así sus facturas se abonarán de forma automática.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Mis formas de pago`{.action}. A continuación, puede registrar su forma de pago. De este modo, sus facturas se abonarán automáticamente.
 
 ### ¿Cómo realizar el seguimiento de un pedido?
 
-Puede consultar el estado de sus últimos pedidos directamente desde el panel de control de su área de cliente de OVHcloud. Si quiere acceder a todos sus pedidos, haga clic en `Ver mis pedidos`{.action}.
-
-![pedidos](images/order_final-min.gif){.thumbnail}
+Conéctese a su [área de cliente de OVHcloud](/links/manager) y haga clic en `Ver mis pedidos`{.action}.
 
 #### Ideas y consejos
 
@@ -64,7 +62,7 @@ Otra posible causa del retraso puede ser que la factura se encuentre pendiente d
 
 #### Ideas y consejos
 
-En la sección «Formas de pago» puede guardar una forma de pago para que sus facturas se abonen de forma automática.
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Mis formas de pago`{.action}. A continuación, puede registrar su forma de pago. De este modo, sus facturas se abonarán automáticamente.
 
 ## Más información
 

@@ -1,7 +1,7 @@
 ---
 title: 'Managing the security policy of an email service'
 excerpt: 'Find out how to manage the security policy of your email service'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -22,7 +22,7 @@ The security policy management of your E-mail service has 2 aspects:
 - enhancing E-mail account security when users try to log in
 - adding complexity to the security of your E-mail service account passwords
 
-Click on `Emails`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.
+Click on `MX Plan`{.action} , then click on the solution you want to manage. Click on the `More` tab, then on `Manage security policy`{.action}.
 
 On the page that appears, click on the `Security`{.action} tab.
 

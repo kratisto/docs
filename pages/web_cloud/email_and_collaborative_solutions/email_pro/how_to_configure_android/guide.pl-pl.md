@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Konfiguracja konta e-mail w programie Gmail na urządzeniu z systemem Android"
 excerpt: "Dowiedz się, jak skonfigurować konto E-mail Pro na urządzeniu z systemem Android poprzez aplikację Gmail"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 <style>
@@ -41,9 +41,13 @@ Konta e-mail usługi E-mail Pro mogą być skonfigurowane w jednym z kompatybiln
 
 > [!primary]
 >
-> W naszych przykładach używamy określenia serwer: pro?.mail.ovh.net. Należy zastąpić "?" cyfrą wskazującą serwer Twojej usługi E-mail Pro.
+> W przewodniku używamy oznaczenia serwera: pro?.mail.ovh.net. Zastąp “?” cyfrą oznaczającą serwer powiązany z Twoją usługą E-mail Pro.
 >
-> Znajdziesz tę cyfrę w Twoim [Panelu klienta OVHcloud](/links/manager), w rubryce `Web Cloud`{.action} następnie `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w zakładce `Informacje ogólne`{.action}.
+> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+> 1. Przejdź do sekcji `Web Cloud`{.action}.
+> 1. Kliknij `Email Pro`{.action}.
+> 1. Wybierz odpowiednią platformę.
+> 1. Nazwa serwera jest widoczna w ramce **Logowanie** w zakładce `Informacje ogólne`{.action}.
 >
 
 Na ekranie Twojego urządzenia wybierz aplikację `Gmail`{.action}.

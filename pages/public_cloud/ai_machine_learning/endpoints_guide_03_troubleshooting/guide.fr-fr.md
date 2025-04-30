@@ -1,12 +1,10 @@
 ---
 title: AI Endpoints - Dépannage (EN)
 excerpt: "Résoudre les problèmes rencontrés lors de l'utilisation d'AI Endpoints"
-updated: 2025-03-14
+updated: 2025-04-28
 ---
 
 > [!primary]
->
-> AI Endpoints is currently in **Beta**. Although we aim to offer a production-ready product even in this testing phase, service availability may not be guaranteed. Please be careful if you use endpoints for production, as the Beta phase is not yet complete.
 >
 > AI Endpoints is covered by the **[OVHcloud AI Endpoints Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf)** and the **[OVHcloud Public Cloud Special Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/d2a208c-Conditions_particulieres_OVH_Stack-WE-9.0.pdf)**.
 >
@@ -36,9 +34,9 @@ When making a request to the LLMs endpoints in AI Endpoints, you can customize s
 
 ### I am interested in creating a code assistant with Continue and AI Endpoints. Do you have any documentation on how to set this up?
 
-Yes, we have [a guide that explains how to configure Continue to work with AI Endpoints](https://blog.ovhcloud.com/create-a-code-assistant-with-continue-and-ai-endpoints/). Continue is an IDE plugin that allows you to build your own code assistant by using a custom LLM endpoint. This guide will walk you through the steps to configure Continue to work with AI Endpoints, including how to specify the endpoint URL and how to authenticate your requests.
+Yes, we have [a guide that explains how to configure Continue to work with AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_03_code_assistant_continue). Continue is an IDE plugin that allows you to build your own code assistant by using a custom LLM endpoint. This guide will walk you through the steps to configure Continue to work with AI Endpoints, including how to specify the endpoint URL and how to authenticate your requests.
 
-## Errors codes and unexpected behaviours
+## Error codes and unexpected behaviours
 
 ### I'm trying to use the AI Endpoints models, but I keep getting a 401 error code. Why?
 
@@ -50,12 +48,14 @@ A **404** error typically indicates that the model you're trying to access canno
 
 ### I am trying to use the AI Endpoints models, but I keep getting a 429 error code. What does it mean?
 
-A 429 error code typically indicates that you have exceeded the rate limit for the AI Endpoints models. When authenticated, the following rate limits apply:
+A 429 error code typically indicates that you have exceeded the rate limit for the AI Endpoints models. When using AI Endpoints, the **following rate limits apply**: 
 
-- 4 requests per second per PCI project/model
-- 250 requests per minute per PCI Project/model
+- **Anonymous**: 2 requests per minute, per IP and per model.
+- **Authenticated with an API access key**: 400 requests per minute, per Public Cloud project and per model.
 
-If you exceed these rate limits, you will receive a 429 error code. In this case, you may consider optimizing your application's usage of the AI Endpoints or spreading out your requests over a longer period. Alternatively, please reach out to us to discuss increasing your limits if you require higher usage.
+If you exceed these rate limits, you will receive a 429 error code. In this case, you may consider optimizing your application's usage of the AI Endpoints or spreading out your requests over a longer period. 
+
+Alternatively, please **[reach out to us to discuss increasing your limits](https://help.ovhcloud.com/csm?id=csm_get_help )** if you require higher usage.
 
 ### I am experiencing slow response times when using some of the AI Endpoints models. What is causing this delay?
 

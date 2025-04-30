@@ -1,7 +1,7 @@
 ---
 title: 'Logging in to the OVHcloud Control Panel'
 excerpt: 'Find out how to log in to your OVHcloud account'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -19,7 +19,7 @@ Your services are managed mainly via the OVHcloud Control Panel.
 
 ### Logging in to the OVHcloud Control Panel
 
-Go to the [OVHcloud login page](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg){.external}, enter your primary email address and password.
+Go to the [OVHcloud login page](/links/manager), enter your primary email address and password.
 
 ![NIC handle](images/log-in.png){.thumbnail}
 

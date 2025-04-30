@@ -1,7 +1,7 @@
 ---
 title: Migrating an Additional IP
 excerpt: "Find out how to migrate an Additional IP address to another instance"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -19,7 +19,7 @@ Being able to migrate IP addresses generally limits or removes the possibility t
 
 - At least two [Public Cloud instances](https://www.ovhcloud.com/asia/public-cloud/) in your OVHcloud account
 - An Additional IP address
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -28,9 +28,9 @@ Being able to migrate IP addresses generally limits or removes the possibility t
 > An Additional IP cannot be moved between different zones. For example, an IP located in the SBG data centre can be moved to GRA or RBX, but cannot be moved to BHS.
 >
 
-In the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia), select your project from the `Public Cloud`{.action} section.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned.
 
-In the left-hand menu, open `Public IPs`{.action} under `Network`. Click on the `Additional IP`{.action} tab.
+In the left-hand menu, open `Public IPs`{.action} under **Network**. Click on the `Additional IP`{.action} tab.
 
 In this example, the Additional IP address routed to "Instance_A" will be migrated to "Instance_B".
 
@@ -59,6 +59,6 @@ The Additional IP can be configured on the destination server before or after ca
 
 [Importing an Additional IP](/pages/public_cloud/public_cloud_network_services/additional-ip-import)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our community of users on <https://community.ovh.com/en/>.

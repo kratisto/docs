@@ -1,7 +1,7 @@
 ---
 title: 'Desplegar una instancia GPU'
 excerpt: 'Cómo desplegar una instancia GPU en Linux o Windows'
-updated: 2024-07-17
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -39,7 +39,7 @@ Todas las imágenes que ofrecemos pueden utilizarse en una instancia de GPU.
 > Si no se siente a gusto con la compilación manual de un módulo kernel, le recomendamos usar una distribución con soporte oficial de Nvidia y para la que se proporcionen controladores *listos para usar*: <https://developer.nvidia.com/cuda-downloads>.
 > 
 
-Una vez conectado a su [área de cliente de OVHcloud](/links/manager), haga clic en la pestaña `Public Cloud`{.action}. Seleccione su proyecto de Public Cloud y haga clic en `Instances`{.action} en el menú de la izquierda de la pestaña **Compute**. A continuación, haga clic en `Crear una instancia`{.action} y seleccione una instancia GPU compatible:
+Una vez conectado a su [área de cliente de OVHcloud](/links/manager), haga clic en la pestaña `Public Cloud`{.action}. Seleccione su proyecto de Public Cloud y haga clic en `Instancias`{.action} en el menú de la izquierda de la pestaña **Compute**. A continuación, haga clic en `Crear una instancia`{.action} y seleccione una instancia GPU compatible:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 
@@ -108,7 +108,7 @@ Proporcionamos imágenes especiales, basadas en una BIOS virtual UEFI, que permi
 > Ofrecemos la posibilidad de instalar imágenes especiales en algunos modelos seleccionados (T1-45, T1-90, T1-180, T2-45, T2-90, T2-180). Además, en función de la región seleccionada, es posible que estas imágenes especiales no estén disponibles.
 >
 
-Una vez conectado a [su área de cliente de OVHcloud](/links/manager), acceda a su proyecto Public Cloud y haga clic en `Instances`{.action} en el menú de la izquierda de la pestaña **Compute**. A continuación, haga clic en `Crear una instancia`{.action} y seleccione una instancia GPU compatible :
+Una vez conectado a [su área de cliente de OVHcloud](/links/manager), acceda a su proyecto Public Cloud y haga clic en `Instancias`{.action} en el menú de la izquierda de la pestaña **Compute**. A continuación, haga clic en `Crear una instancia`{.action} y seleccione una instancia GPU compatible :
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 

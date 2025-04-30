@@ -1,7 +1,7 @@
 ---
 title: "Konfiguracja rewersu DNS instancji Public Cloud"
 excerpt: Dowiedz się, jak wdrożyć rewers DNS
-updated: 2024-06-10
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -18,13 +18,13 @@ Konfiguracja **rewersu DNS** instancji jest szczególnie przydatna przy wysyłan
 
 ## Wymagania początkowe
 
-- Posiadanie [instancji Public Cloud](https://www.ovhcloud.com/pl/public-cloud/) na koncie OVHcloud
+- Posiadanie [instancji Public Cloud](/links/public-cloud/public-cloud) na koncie OVHcloud
 - Nazwa domeny z polem `A` wskazującym na instancję
 - Dostęp do [Panelu client OVHcloud](/links/manager)
 
 ## W praktyce
 
-Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Bare Metal Cloud`{.action} i otwórz `Network`{.action}. Następnie kliknij przycisk `IP`{.action}.
+Zaloguj się do [Panelu client OVHcloud](/links/manager), przejdź do sekcji `Sieć`{.action} i kliknij przycisk `Publiczne adresy IP`{.action}.
 
 W rozwijanym menu **Moje publiczne adresy IP i usługi powiązane** możesz podzielić Twoje usługi na kategorie.
 

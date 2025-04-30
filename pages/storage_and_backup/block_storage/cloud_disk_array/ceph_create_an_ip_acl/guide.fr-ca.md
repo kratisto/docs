@@ -1,23 +1,34 @@
 ---
-title: "Création d'une ACL IP"
-excerpt: "Ce guide vous montre comment créer une ACL IP pour autoriser l'accès à votre cluster Ceph."
-updated: 2018-03-26
+title: "Cloud Disk Array - Création d'une ACL IP"
+excerpt: "Ce guide vous montre comment créer une ACL IP pour autoriser l'accès à votre cluster Ceph"
+updated: 2025-04-28
 ---
 
-## Utiliser l'interface web
+## Objectif
+
+Ce guide vous montre comment créer une ACL IP pour autoriser l'accès à votre cluster Ceph, en utilisant l'espace client OVHcloud ou l'API OVHcloud.
+
+## Prérequis
+
+- Une solution [Cloud Disk Array](/links/storage/cloud-disk-array)
+- Être connecté à l’[espace client OVHcloud](/links/manager) ou à l’[API OVHcloud](/links/api)
+
+## En pratique
 
 > [!primary]
 >
-> L'utilisation d'une interface web est le moyen le plus simple de créer un IP LCAs.
+> L'utilisation de l'espace client OVHcloud est le moyen le plus simple de créer une ACL IP.
 >
 
-Tout d'abord, connectez-vous au [l’espace client](https://ca.ovh.com/manager/dedicated/#/configuration){.external} et dans la rubrique Plates-formes et services vous trouverez le service Ceph.
+### Depuis l'espace client OVHcloud
 
-Vous trouverez ici la LCA existante, par défaut il n'y a pas de LCA.
+Tout d'abord, connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Bare Metal Cloud`{.action}. Dans la section nommée `STOCKAGE ET SAUVEGARDE`, cliquez sur le service `Cloud Disk Array`{.action}.
 
-![Ceph pools](images/create_an_ip_acl_1.png){.thumbnail}
+Vous trouverez ici l'ACL existante dans `Contrôle d'accès IP`{.action}. Par défaut, il n'y a pas d'ACL.
 
-Obtenir votre adresse IP.
+![Ceph pools](images/ceph-add-ip-1.png){.thumbnail}
+
+Obtenez votre adresse IP :
 
 ```bash
 admin@server:~$ ip -4 a
@@ -26,28 +37,35 @@ admin@server:~$ ip -4 a
       valid_lft forever preferred_lft forever
 ```
 
-Ajouter votre IP.
+Ajoutez ensuite votre IP.
 
-![Ceph pools](images/create_an_ip_acl_2.png){.thumbnail}
+![Ceph pools](images/ceph-add-ip-2.png){.thumbnail}
 
-Et créer l'IP ACL.
+Enfin, créez l'ACL IP.
 
-Après la création de la pool d'adresses IP, vous êtes de retour au gestionnaire. Vous pouvez voir que le statut du pool a changé car la LCA est en cours de création.
+Après la création du pool d'adresses IP, vous pouvez voir que le statut du pool a changé car l'ACL est en cours de création.
 
-## Utiliser l'API
+### Depuis l'API OVHcloud
+
+> [!success]
+> Si vous n'êtes pas familier avec l'utilisation de l'API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) ».
+
+Utilisez l'appel API suivant :
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/acl
 >
-serviceName est le fsid de votre cluster.
 
-Vous pouvez vérifier la création d'une LCA en consultant la liste des LCA.
+`serviceName` est le fsid de votre cluster.
+
+Vous pouvez vérifier la création d'une ACL en consultant la liste des ACL.
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph GET /dedicated/ceph/{serviceName}/acl
 >
+
 Example:
 
 ```bash
@@ -66,6 +84,6 @@ GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/acl
 
 Rendez-vous sur notre chaîne Discord dédiée : <https://discord.gg/ovhcloud>. Posez des questions, fournissez des commentaires et interagissez directement avec l'équipe qui construit nos services de stockage et de sauvegarde.
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

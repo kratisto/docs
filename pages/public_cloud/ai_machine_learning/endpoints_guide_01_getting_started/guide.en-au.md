@@ -1,12 +1,10 @@
 ---
 title: AI Endpoints - Getting started
 excerpt: Discover AI Endpoints, the secure serverless platform by OVHcloud for developers to access top AI models with easy-to-use APIs. No AI expertise needed.
-updated: 2025-02-10
+updated: 2025-04-28
 ---
 
 > [!primary]
->
-> AI Endpoints is currently in **Beta**. Although we aim to offer a production-ready product even in this testing phase, service availability may not be guaranteed. Please be careful if you use endpoints for production, as the Beta phase is not yet complete.
 >
 > AI Endpoints is covered by the **[OVHcloud AI Endpoints Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf)** and the **[OVHcloud Public Cloud Special Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/d2a208c-Conditions_particulieres_OVH_Stack-WE-9.0.pdf)**.
 >
@@ -21,7 +19,7 @@ With no extensive AI expertise required, AI Endpoints is an ideal choice for dev
 
 The objective of this guide is to help developers interested in AI quickly and easily get started with [AI Endpoints](https://endpoints.ai.cloud.ovh.net/).
 
-It explains how to obtain an access token, access AI models, and interact with AI APIs on the [AI Endpoints](https://endpoints.ai.cloud.ovh.net/) platform. By following this guide, you will learn how to integrate AI capabilities into your applications with ease.
+It explains how to obtain an access key, access AI models, and interact with AI APIs on the [AI Endpoints](https://endpoints.ai.cloud.ovh.net/) platform. By following this guide, you will learn how to integrate AI capabilities into your applications with ease.
 
 ## Requirements
 
@@ -29,65 +27,52 @@ It explains how to obtain an access token, access AI models, and interact with A
 
 ## Instructions
 
-### Getting an access token
+### Generating your first API access key
 
-Getting a token enables you to use the models available in our [catalog](https://endpoints.ai.cloud.ovh.net/catalog) and test their integration into your solutions. To obtain an access token, please follow the steps below:
+Getting an API key enables you to use the models available in our [catalog](https://endpoints.ai.cloud.ovh.net/catalog) and test their integration into your solutions. To obtain an API access key, please follow the steps below:
 
-**1\. Visit the AI Endpoints access token page**
+**1\. Access the AI Endpoints section**
 
-Click [here](https://endpoints.ai.cloud.ovh.net/) to access AI Endpoints. You can also find the product from the [OVHcloud Control Panel](/links/manager), in the `AI & Machine Learning` category, from the left-hand vertical menu.
+Log in to the [OVHcloud Control Panel](/links/manager), navigate to the `Public Cloud`{.action} section, select your desired Public Cloud project, then go to the `AI & Machine Learning`{.action} category in the left menu and choose `AI Endpoints`{.action}.
 
-**2\. Generate an access token**
+![AI Endpoints section](images/api-access-key-creation-1.png){.thumbnail}
 
-Once on the site page, click the `Get it`{.action} button. You will be asked to confirm that you accept the [terms of service](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf) of the product.
+**2\. Generate an API access key**
 
-![AI Endpoints token terms](images/getting_access_token.png){.thumbnail}
+From there, click the `Generate my first access Key`{.action} blue button to create your API access key. Next, click the `+ Create a new API key`{.action} button. You will be asked to provide a **name** for the key and an optional **description**. You can also set an **expiration date** for the key if desired.
 
-**3\. Scope created token to one of your Public Cloud Projects**
+Once you have filled in the required information, click the `Create`{.action} button to confirm the creation of your API key.
 
-This will redirect you to the **Public Cloud**. If you haven't already done so, log in to your account, and confirm the following AI OVH OAUTH authorization:
+![API access key creation](images/api-access-key-creation-2.png){.thumbnail}
 
-![AI Endpoints token OAUTH authorization](images/authorize_oauth.png){.thumbnail}
+*Note that this access key can be [revoked](#revoke-your-api-access-key) at any time.*
 
-You will then need to choose the lifetime of your token, and also select one of the Public Cloud projects of your account to which you want to attach the token. 
+**3\. Store the created API access key**
 
-> [!warning]
->
-> If you don't have any projects created in your Public Cloud account, you will receive an error message telling you to create one, with a link to follow.
->
+Once created, the key will be displayed in the API keys table. You will see your new access key in this table, with its information (name, description, expiry date). 
 
-Once the authorization process is completed, confirm the token creation by clicking the `Generate token`{.action} button.
-
-*Note that this token can be [revoked](#revoke-your-token) at any time.*
-
-![AI Endpoints scope token project](images/scope_access_token.png){.thumbnail}
-
-**4\. Save created token**
-
-This will redirect you to the AI Endpoints site, where you will find your new token in the token field. You will be reminded of the expiry date of your token, and you will be able to copy it.
-
-![AI Endpoints created token](images/created_token.png){.thumbnail}
+Your key value will be displayed and you can copy it by clicking the copy icon.
 
 > [!primary]
 >
-> It is essential that you **keep your API token private and confidential**.
+> It is essential that you **keep your API key private and confidential**.
 >
-> Moreover, the token displayed will not be stored in the website's memory, so please **make sure to save it securely on your side** for future usage.
+> Moreover, the API key displayed will not be stored in the website's memory, so please **make sure to store it securely on your side** for future usage.
 >
 
-With your access token in hand, you are now ready to access the AI models and their easy-to-use APIs.
+With your access API key in hand, you are now ready to access the AI models and their easy-to-use APIs.
 
 ### Accessing AI models
 
-Once your token has been generated, you can navigate to the [Catalog page](https://endpoints.ai.cloud.ovh.net/catalog) to choose the AI model you want to interact with.
+Once your API key has been generated, you can navigate to the [Catalog page](https://endpoints.ai.cloud.ovh.net/catalog) to choose the AI model you want to interact with.
 
 AI Endpoints offers a variety of world-renowned AI models to choose from, including:
 
 - **Large Language Models (LLM)**: Use models like LLaMa 3, Mistral and more, for conversations and RAG use cases.
 - **Reasoning LLM**: Use reasoning models like DeepSeek-R1 distillations for maths, coding or complex tasks.
-- **Code LLM**: Code generation and code completion from an IDE with models like Codestral or CodeLLaMa.
+- **Code LLM**: Code generation and code completion from an IDE with models like Qwen Coder or Codestral.
 - **Visual LLM**: Multimodal models such as LLaVa-Next, that are able to process images and text inputs, for image understanding or OCR use cases.
-- **Embeddings**: Generate embeddings for use in machine learning applications (BGE base, Multilingual E5).
+- **Embeddings**: Generate embeddings for use in machine learning applications (BGE Base, BGE Multilingual Gemma2, ...).
 - **Natural Language Processing**: Use models like RoBERTa, Bert, and T5 for NLP tasks like sentiment analysis, entity recognition, and text summarization.
 - **Image Generation**: Generate images using Stable Diffusion XL.
 - **Audio Analysis**: Automatic Speech Recognition and Text to Speech using NVIDIA models.
@@ -107,27 +92,27 @@ This will take you to a dedicated page with several options for interacting with
 >>
 >> This option allows you to quickly try out the model by playing with it to see if it meets your needs. This is a great way to get a feel for the model without having to code.
 >>
->> ![AI Endpoints token terms](images/playground_demo.png){.thumbnail}
+>> ![AI Endpoints playground overview](images/playground_demo.png){.thumbnail}
 >>
 > **Documentation**
 >>
 >> The section provides detailed documentation for the model, including example Python code that demonstrates how to interact with the model using its API. The documentation also includes the OpenAI specification codes, as our **LLM APIs are compatible with the OpenAI specifications**.
 >>
->> To ensure that these code examples work as intended, you should replace the placeholder value `(os.getenv('OVH_AI_ENDPOINTS_ACCESS_TOKEN'))` with your own API token and set it as an environment variable.
+>> To ensure that these code examples work as intended, you should replace the placeholder value `(os.getenv('OVH_AI_ENDPOINTS_ACCESS_TOKEN'))` with your own API key and set it as an environment variable.
 >>
->> ![AI Endpoints documentation](images/documentation_demo.png){.thumbnail}
+>> ![AI Endpoints documentation overview](images/documentation_demo.png){.thumbnail}
 >>
 > **Tutorials**
 >>
->> There, you will find blog articles related to AI Endpoints that you may find helpful in learning how to use the model more effectively. Whether you're building a chatbot with Langchain and JavaScript or creating a video translator app, we provide step-by-step guidance to support your AI projects.
+>> There, you will find guides related to AI Endpoints that you may find helpful in learning how to use the model more effectively. Whether you're building a chatbot with Langchain and JavaScript or creating a video translator app, we provide step-by-step guidance to support your AI projects.
 >>
->> ![AI Endpoints tutorials](images/tutorials_demo.png){.thumbnail}
+>> ![AI Endpoints tutorials overview](images/tutorials_demo.png){.thumbnail}
 >>
 > **API**
 >>
 >> The API section provides access to POST routes that you can use to send a request to the model and receive an output.
 >>
->> ![AI Endpoints API](images/api_demo.png){.thumbnail}
+>> ![AI Endpoints API overview](images/api_demo.png){.thumbnail}
 >>
 >> For LLMs, two POST routes are available: `Chat Completions` and `Completions`. Here's an example of how to use the `Chat Completions` API:
 >>
@@ -139,41 +124,52 @@ This will take you to a dedicated page with several options for interacting with
 >>
 >> You can follow similar steps for using the `Completions` API.
 
-### Revoke your token
+### Revoke your API access key
 
-To revoke one of your API tokens, you can use the following commands in your terminal:
+To revoke one of your API keys, you can use the following commands in your terminal:
 
-Set a shell variable with the token you want to revoke:
-
-```bash
-TOKEN=<YOUR_TOKEN_HERE>
-```
-
-Then you can use the following command to call the API Token revoke endpoint:
+Set a shell variable with the key you want to revoke:
 
 ```bash
-curl -vvv 'https://kepler.ai.cloud.ovh.net/v1/oauth/ovh/revoke' -H 'Content-Type: application/json' -X POST --data "{\"oauth2Token\": \"${TOKEN}\"}"
+ACCESS_KEY=<YOUR_KEY_HERE>
 ```
 
-This will revoke the specified token.
+Then you can use the following command to call the API Key revoke endpoint:
 
-Alternatively, you can also revoke your API token using the `Revoke API token`{.action} button from the [AI Endpoints](https://endpoints.ai.cloud.ovh.net/) website. However, please note that this button will only allow you to revoke the most recently created token.
+```bash
+curl -vvv 'https://kepler.ai.cloud.ovh.net/v1/oauth/ovh/revoke' -H 'Content-Type: application/json' -X POST --data "{\"oauth2Token\": \"${ACCESS_KEY}\"}"
+```
 
-Once done, you can confirm its deletion by trying to send a request using your revoked token.
+This will revoke the specified access key.
+
+Alternatively, you can also revoke your API key using the `Revoke API key`{.action} button from the [AI Endpoints](https://endpoints.ai.cloud.ovh.net/) website. However, please note that this button will only allow you to revoke the most recently created API key.
+
+Once done, you can confirm its deletion by trying to send a request using your revoked API key.
+
+### Model rate limit
+
+When using AI Endpoints, the **following rate limits apply**:
+
+- **Anonymous**: 2 requests per minute, per IP and per model.
+- **Authenticated with an API access key**: 400 requests per minute, per PCI project and per model.
+
+If you exceed this limit, a **429 error code** will be returned.
+
+If you require higher usage, please **[get in touch with us](https://help.ovhcloud.com/csm?id=csm_get_help)** to discuss increasing your rate limits.
 
 ### Billing and usage
 
-AI Endpoints remains **free** during its beta phase.
+For information on pricing and the models lifecycle of the platform, please refer to the [AI Endpoints - Billing and lifecycle](/pages/public_cloud/ai_machine_learning/endpoints_guide_04_billing_concept) documentation.
 
-In the interest of transparency towards our customers, you will soon be able to monitor your estimated consumption and resource usage via the [OVHcloud Control Panel](/links/manager), in the `AI Endpoints`{.action} section of the `AI & Machine Learning` category, in the left-hand vertical menu.
+For your convenience, you can monitor your estimated consumption and resource usage through the [OVHcloud Control Panel](/links/manager). To do so, navigate to the `AI Endpoints`{.action} section of the `AI & Machine Learning` category, in the left-hand vertical menu.
 
 ## Going further
 
-To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated [AI Endpoints blog page](https://blog.ovhcloud.com/tag/ai-endpoints/). This blog offers a wealth of knowledge and inspiration, including the following articles:
+To discover how to build complete and powerful applications using AI Endpoints, explore our dedicated AI Endpoints guides which offer a wealth of knowledge and inspiration, including the following subjects:
 
-- [Create your own Audio Summarizer assistant with AI Endpoints](https://blog.ovhcloud.com/create-audio-summarizer-assistant-with-ai-endpoints/)
-- [Implement chatbot memory management with LangChain and AI Endpoints](https://blog.ovhcloud.com/chatbot-memory-management-with-langchain-and-ai-endpoints/)
-- [Discover how to create a Retrieval Augmented Generation (RAG) system](https://blog.ovhcloud.com/reference-architecture-retrieval-augmented-generation-rag/)
+- [Create your own Audio Summarizer assistant with AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_01_audio_summarizer)
+- [Implement chatbot memory management with LangChain and AI Endpoints](/pages/public_cloud/ai_machine_learning/endpoints_tuto_09_chatbot_memory_langchain)
+- [Discover how to create a Retrieval Augmented Generation (RAG) system](/pages/public_cloud/ai_machine_learning/endpoints_tuto_11_rag_chatbot_langchain)
 - [Discover more about AI Endpoints features and limitations](/pages/public_cloud/ai_machine_learning/endpoints_guide_02_capabilities)
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.

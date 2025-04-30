@@ -1,7 +1,7 @@
 ---
 title: "Configurar um DNS dinâmico (DynHost/DynDNS) para o seu nome de domínio"
 excerpt: "Saiba como configurar um registo DNS dinâmico para o seu nome de domínio OVHcloud"
-updated: 2025-03-07
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -85,9 +85,9 @@ Para isso, clique nas guias abaixo para exibir sucessivamente cada um dos **6** 
 >>
 > **Etapa 2**
 >>>
->> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>> Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >> 
@@ -142,9 +142,9 @@ Quando estiver pronto para criar o registo DynHost, clique nas guias abaixo para
 >>
 > **Etapa 2**
 >>>
->> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>> Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >> 
@@ -221,9 +221,9 @@ Pode verificar se o endereço IP de destino foi atualizado. Para isso, clique na
 >>
 > **Etapa 2**
 >>>
->> Clique no menu `Nomes de domínios`{.action} e escolha o domínio em causa.
+>> Clique no menu `Zonas DNS`{.action} e escolha o domínio em causa.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Etapa 3**
 >> 

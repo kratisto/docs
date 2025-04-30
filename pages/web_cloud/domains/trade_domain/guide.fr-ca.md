@@ -1,7 +1,7 @@
 ---
 title: "Nom de domaine - Comment changer le titulaire ?"
 excerpt: "Découvrez comment changer le titulaire d'un nom de domaine ou mettre à jour les informations qui lui sont associées"
-updated: 2025-02-05
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -42,9 +42,9 @@ En dehors de la [gestion des contacts](/pages/account_and_service_management/acc
 >
 > Nous vous recommandons de consulter les ressources suivantes en cas de doute :
 >
-> - le site Web du registre **TLD** correspondant ;
-> - la [liste des TLD disponibles sur le site OVHcloud](/links/web/domains-tld) ;
-> - les mises à jour d'état du nom de domaine. Pour vérifier cela, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Dans la colonne de gauche, cliquez sur `Noms de domaine`{.action}, puis sur  `Opérations en cours`{.action}.
+> - Le site Web du registre **TLD** correspondant ;
+> - La [liste des TLD disponibles sur le site OVHcloud](/links/web/domains-tld) ;
+> - Les mises à jour d'état du nom de domaine. Pour vérifier cela, connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez ensuite sur `Opérations en cours`{.action}.
 >
 
 ### Lancer la procédure de changement de titulaire ou modifier les informations qui lui sont associées

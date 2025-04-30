@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser son compte OVHcloud avec la double authentification'
 excerpt: 'Découvrez comment améliorer la sécurité de votre compte OVHcloud en activant la double authentification (2FA)'
-updated: 2024-08-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -88,9 +88,9 @@ Nous vous proposons quatre méthodes différentes (cliquez sur les onglets ci-d
 
 ### Étape 1 - Activer votre première méthode de double authentification <a name="enabling-2fa"></a>
 
-Connectez-vous à l'[espace client OVHcloud](/links/manager){.external}, cliquez sur votre nom en haut à droite (1) puis sur vos initiales (2). Cliquez ensuite sur `Sécurité`{.action} (3) et enfin sur `Activer la double authentification`{.action} (4).
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-![Enabling 2FA](images/2024-001-enabling-2fa.png){.thumbnail}
+Cliquez sur l'onglet `Sécurité`{.action}, puis sur `Activer la double authentification`{.action}.
 
 **Cliquez sur l'onglet correspondant à la méthode de votre choix :**
 
@@ -195,9 +195,9 @@ Si votre périphérique (téléphone mobile/smartphone/clé de sécurité) est p
 > - de codes de secours valides.
 >
 
-Pour supprimer un périphérique, connectez-vous à votre [espace client OVHcloud](/links/manager){.external}. Cliquez sur votre nom en haut à droite, puis sur vos initiales.
+Pour supprimer un périphérique, connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
-Cliquez ensuite sur `Sécurité`{.action} puis sur les `...`{.action} à droite de votre périphérique à supprimer et enfin sur `Supprimer`{.action}.
+Cliquez sur l'onglet `Sécurité`{.action}, puis sur les `...`{.action} à droite de votre périphérique à supprimer et enfin sur `Supprimer`{.action}.
 
 ![2FA](images/2024-006-delete-device.png){.thumbnail}
 

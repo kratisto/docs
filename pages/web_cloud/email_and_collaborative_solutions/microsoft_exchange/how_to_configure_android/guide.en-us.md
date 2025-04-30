@@ -1,7 +1,7 @@
 ---
 title: "Exchange - Configure an email address in Gmail for Android"
 excerpt: "Find out how to configure an Exchange account on Android, via the Gmail app"
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 <style>
@@ -40,9 +40,14 @@ Email accounts of the Exchange solution can be configured on various compatible 
 
 > [!primary]
 >
-> In our examples, we use the server name "ex?.mail.ovh.ca". You will need to replace the “?” with the number designating the server of your Exchange service.
+> In this guide, we use as the hostname: ex?.mail.ovh.ca. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 >
-> You can find this number in the [OVHcloud Control Panel](/links/manager). In the `Web Cloud`{.action} section, open `Microsoft`{.action} and then `Exchange`{.action}. The server name is visible in the **Connection** box in the `General Information`{.action} tab.
+> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+> 1. Open the `Web Cloud`{.action} section.
+> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
+> 1. Select the service concerned.
+> 1. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
+>
 
 On your device’s homepage, open the `Gmail`{.action} app.
 

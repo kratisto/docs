@@ -1,7 +1,7 @@
 ---
 title: 'Pierwsze kroki z usługą Hosted Exchange'
 excerpt: 'Rozpocznij pracę z usługą Hosted Exchange'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 <style>
@@ -30,9 +30,8 @@ Usługa Hosted Exchange pozwala na korzystanie z profesjonalnej poczty elektroni
 Po utworzeniu i udostępnieniu usługi Hosted Exchange :
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 
 > [!primary]

@@ -1,7 +1,7 @@
 ---
 title: 'Crear una cuenta de OVHcloud'
 excerpt: 'Cómo crear una cuenta de OVHcloud'
-updated: 2024-09-09
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -52,17 +52,13 @@ Su cuenta creada, se conectará automáticamente a la página de inicio de su cu
 Cada cuenta de cliente de OVHcloud está asociada a un ID único, también llamado *NIC-handle*.<br>
 Para la mayoría de las cuentas fuera de Europa, a menudo se sustituye por la dirección de correo electrónico principal indicada en la cuenta de OVHcloud.
 
-Suele componerse de dos letras seguidas de números. Por ejemplo, **xx11111-ovh**.
+Suele componerse de dos letras seguidas de números. Por ejemplo, **aa00000-ovh**.
 
 Este ID de cliente le permite:
 
 - Realizar pedidos en línea.
 - Conectarse al área de cliente para gestionar todos sus servicios.
 - Identificarse cuando contacte con el soporte de OVHcloud, facilitando así el tratamiento de sus preguntas.
-
-Su ID de cliente se muestra en la parte superior derecha con su nombre y dirección de correo electrónico.
-
-![ID cliente](images/nic-handle.png){.thumbnail}
 
 > [!warning]
 > Tome nota de su ID de cliente, ya que lo necesitará para cada conexión a su cuenta.

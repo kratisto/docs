@@ -29,11 +29,11 @@ Una volta eliminato un progetto, le risorse in esso contenute vengono definitiva
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e seleziona `Public Cloud`{.action} nella barra del menu superiore.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-Seleziona il tuo progetto e clicca su `Project settings`{.action} nella sezione `Project Management` in basso nel menu a sinistra.
+Clicca su `Parametri del progetto`{.action} nella sezione **Impostazioni** in basso nel menu a sinistra.
 
-![menu](images/deleteproject.png){.thumbnail}
+![menu](images/delete-project-2025.png){.thumbnail}
 
 Clicca sul pulsante `Elimina il progetto`{.action}.
 

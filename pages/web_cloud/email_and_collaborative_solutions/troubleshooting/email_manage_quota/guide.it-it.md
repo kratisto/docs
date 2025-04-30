@@ -1,7 +1,7 @@
 ---
 title: Gestire lo spazio di storage di un account email
 excerpt: Come gestire e ottimizzare lo spazio di storage di un indirizzo email
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -44,7 +44,7 @@ Dallo [Spazio Cliente OVHcloud](/links/manager), seleziona la sezione `Web Cloud
 > [!tabs]
 > **Email (MXplan)**
 >>
->> Clicca su `Email`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. Nella colonna `Dimensione` del tuo account puoi visualizzare i consumi in corso di storage del tuo indirizzo email.<br><br>
+>> Clicca su `MX Plan`{.action} e poi seleziona il nome del servizio MX Plan. Clicca sulla scheda `Account email`{.action}. Visualizzi una finestra con tutti gli account email esistenti. Nella colonna `Dimensione` del tuo account puoi visualizzare i consumi in corso di storage del tuo indirizzo email.<br><br>
 >>![email](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **Email Pro**

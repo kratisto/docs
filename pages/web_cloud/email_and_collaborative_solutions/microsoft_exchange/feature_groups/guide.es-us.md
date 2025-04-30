@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Crear grupos de contactos'
 excerpt: 'Aprenda a gestionar listas de correo en Exchange'
-updated: 2024-11-12
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -20,9 +20,8 @@ Los grupos de Exchange permiten que varios participantes puedan comunicarse a tr
 ### Crear un grupo nuevo
 
 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en el tema `Microsoft`{.action}.
-1. Haga clic en `Exchange`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
 1. Seleccione la plataforma correspondiente.
 1. Haga clic en la pestaña `Grupos`{.action} del menú horizontal.
 

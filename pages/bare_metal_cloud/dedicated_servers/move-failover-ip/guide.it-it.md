@@ -1,7 +1,7 @@
 ---
 title:  Trasferisci un Additional IP
 excerpt: Questa guida ti mostra come spostare un Additional IP dallo Spazio Cliente OVHcloud o via API OVHcloud
-updated: 2024-12-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -65,7 +65,7 @@ Se ordini un blocco IP aggiuntivo su un server ma scegli una localizzazione dive
 > Solo un blocco di dimensioni singole (/32) potrà essere spostato da un server dedicato a un VPS.
 >
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul menu `Bare Metal Cloud`{.action} e apri la sezione `Network`{.action}. Clicca su `IP`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Network`{.action} nel menu a sinistra dello schermo e poi su `Indirizzi IP Pubblici`{.action}.
 
 Clicca sulla scheda `Additional IP`{.action}.
 

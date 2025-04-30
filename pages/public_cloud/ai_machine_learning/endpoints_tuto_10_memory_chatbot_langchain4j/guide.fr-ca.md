@@ -1,12 +1,10 @@
 ---
 title: AI Endpoints - Développer un chatbot avec mémoire en utilisant LangChain4j (EN)
 excerpt: "Apprenez à mettre en œuvre la mémoire dans un chatbot de discussion Java à l'aide de LangChain4j"
-updated: 2025-04-18
+updated: 2025-04-28
 ---
 
 > [!primary]
->
-> AI Endpoints is currently in **Beta**. Although we aim to offer a production-ready product even in this testing phase, service availability may not be guaranteed. Please be careful if you use endpoints for production, as the Beta phase is not yet complete.
 >
 > AI Endpoints is covered by the **[OVHcloud AI Endpoints Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/48743bf-AI_Endpoints-ALL-1.1.pdf)** and the **[OVHcloud Public Cloud Special Conditions](https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/d2a208c-Conditions_particulieres_OVH_Stack-WE-9.0.pdf)**.
 >

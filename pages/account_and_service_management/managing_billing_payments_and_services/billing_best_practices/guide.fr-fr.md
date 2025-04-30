@@ -1,7 +1,7 @@
 ---
 title: Les bonnes pratiques pour la gestion de vos services et de votre compte OVHcloud
 excerpt: Retrouvez ici les éléments indispensables pour la bonne gestion de vos factures, commandes, moyens de paiement et compte client
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -31,7 +31,7 @@ Pour que les mesures de sécurité soient efficaces, assurez-vous que vos adress
 
 Vos informations personnelles (adresse postale, e-mail, etc.) doivent être à jour sur votre compte client afin de garantir la sécurité et le bon fonctionnement de vos services.
 
-Vérifiez vos informations personnelles en cliquant, en haut à droite de votre espace client OVHcloud, sur votre nom puis sur vos initiales (`Gérer mon compte`{.action}).<br>
+Vérifiez vos informations personnelles en cliquant, en haut à droite de votre [espace client OVHcloud](/links/manager), sur votre nom, puis sur `Mon compte`{.action}.<br>
 Dans la section `Mon profil`{.action} à droite de votre écran (cliquez à nouveau sur votre nom pour faire disparaître le menu de gauche), cliquez sur `...`{.action}, puis sur `Modifier mon profil`{.action}.
 
 ![myprofile](images/myprofile.png){.thumbnail}
@@ -46,9 +46,9 @@ Assurez-vous que votre adresse e-mail est toujours **à jour, sécurisée et acc
 >
 
 Les e-mails envoyés par OVHcloud sont également accessibles depuis votre [espace client OVHcloud](/links/manager).<br>
-Cliquez sur votre nom en haut à droite de votre écran puis sur `E-mails de service`{.action} dans le menu de droite.
+Cliquez sur votre nom en haut à droite de votre écran puis sur `Mes communications`{.action} dans le menu de droite.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Activez le renouvellement automatique
 
@@ -72,9 +72,7 @@ Si vous décidez de ne pas activer le renouvellement automatique, vous recevrez 
 ### Suivi de vos commandes
 
 Saviez-vous que vous pouviez [suivre vos commandes](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) dans votre [espace client OVHcloud](/links/manager) ?<br>
-Il vous suffit de vous rendre dans l'onglet `Tableau de bord`{.action} du menu supérieur de votre écran puis de cliquer sur `Voir mes commandes`{.action}.
-
-![viewmyorders](images/viewmyorders.png){.thumbnail}
+Il vous suffit de cliquer sur le logo d'OVHcloud en haut à gauche de votre écran puis de cliquer sur `Voir mes commandes`{.action}.
 
 Vous serez informé des étapes de la livraison et vous saurez si des actions sont nécessaires de votre côté.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Using Exchange error diagnostics'
 excerpt: 'Find out how to run automated error checks on Exchange accounts'
-updated: 2022-10-19
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -23,8 +23,7 @@ Since there is a multitude of reasons why errors might occur on Exchange email a
 
 1. Log in to your [OVHcloud Control Panel](/links/manager).
 1. Open the `Web Cloud`{.action} section.
-1. Click `Microsoft`{.action}.
-1. Click `Exchange`{.action}.
+1. In the `MICROSOFT` section, click `Exchange`{.action}.
 1. Select the service concerned.
 
 ![Exchange Diagnostic](images/img_4450.png){.thumbnail}

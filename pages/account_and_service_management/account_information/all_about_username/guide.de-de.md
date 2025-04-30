@@ -1,7 +1,7 @@
 ---
 title: 'OVHcloud Kunden-Account absichern und persönliche Informationen verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie die Account-Sicherheit optimieren, Ihre persönlichen Informationen verwalten und den Zugriff auf Ihren Account delegieren'
-updated: 2021-07-01
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -53,11 +53,9 @@ Wenn Sie das noch nicht getan haben, speichern Sie Ihr Passwort in einem [Passwo
 Bei Schwierigkeiten beim Zugriff auf Ihre Haupt-E-Mail-Adresse können Sie über eine Backup-E-Mail-Adresse den Zugang zu Ihrem Account und damit zur Verwaltung Ihrer Dienstleistungen behalten.
 <br>Diese zweite Adresse **muss sich von der ersten unterscheiden**, insbesondere zur Erleichterung der Prozedur im Falle einer Passwortwiederherstellung.
 
-Um diese Backup-E-Mail-Adresse zu hinterlegen, klicken Sie oben rechts neben Ihrem Account auf Ihren Namen und anschließend auf Ihre Initialen.
+Um diese Backup-E-Mail-Adresse zu hinterlegen, indem Sie rechts oben in Ihrem [OVHcloud Kundencenter](/links/manager) auf Ihren Namen und dann auf `Zu meinem Account`{.action} klicken.
 
-Klicken Sie dann im Rahmen `Mein Profil` auf den Button `...`{.action} und dann auf `Profil bearbeiten`{.action}.
-
-![Alternative E-Mail-Adresse](images/edit-profile.png){.thumbnail}
+Im Bereich `Mein Profil`{.action} rechts auf Ihrem Bildschirm (klicken Sie erneut auf Ihren Namen, um das rechte Menü zu schließen) klicken Sie auf `Mein Profil bearbeiten`{.action}.
 
 > [!warning]
 > Zur Erinnerung: Es ist sehr wichtig, dass sich die **Backup-E-Mail-Adresse** von der **Haupt-E-Mail-Adresse** des Accounts **unterscheidet**.
@@ -78,11 +76,9 @@ Weitere Informationen zur Aktivierung finden Sie in unserer Anleitung "[Den OVHc
 
 #### Meine persönlichen Angaben ändern
 
-Sie können die Daten Ihres Kunden-Accounts über Ihr [OVHcloud Kundencenter](/links/manager) ändern. Klicken Sie hierzu in Ihrem Kundencenter oben rechts auf Ihren Namen und anschließend auf Ihre Initialen.
+Sie können die Daten Ihres Kunden-Accounts über Ihr [OVHcloud Kundencenter](/links/manager) ändern. Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager), klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
-Klicken Sie dann auf den Button `...`{.action} im Rahmen `Mein Profil` und dann auf `Profil bearbeiten`{.action}.
-
-![Kundenkennung](images/edit-profile.png){.thumbnail}
+Im Bereich `Mein Profil`{.action} rechts auf Ihrem Bildschirm (klicken Sie erneut auf Ihren Namen, um das rechte Menü zu schließen) klicken Sie auf `Mein Profil bearbeiten`{.action}.
 
 Bearbeiten Sie Ihre Angaben und klicken sie danach auf den Button `Bestätigen`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: "Changing the password of an email account"
 excerpt: "Find out how to change the password for an OVHcloud email account"
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -38,7 +38,7 @@ In the [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} 
 > [!tabs]
 > **MX Plan email**
 >>
->> Click `Emails`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
+>> Click `MX Plan`{.action}, then choose the name of the MX Plan service concerned. Go to the `Emails`{.action} tab. The window that appears will display all email accounts. <br>
 >> Click the `...`{.action} button, then click `Edit`{.action}.<br><br>
 >>![email](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>

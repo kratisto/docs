@@ -1,7 +1,7 @@
 ---
 title: Gestire la politica di sicurezza di un servizio di posta elettronica
 excerpt: Come configurare la politica di sicurezza del tuo servizio di posta elettronica
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -13,7 +13,7 @@ I servizi di posta elettronica di OVHcloud permette di usufruire di indirizzi em
 ## Prerequisiti
 
 - Disporre di un [servizio di posta elettronica OVHcloud](/links/web/emails).
-- Avere accesso alla sezione [Web](/links/manager) dello [Spazio Cliente OVHcloud](/links/manager)
+- Avere accesso alla sezione `Web Cloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager)
 
 ## Procedura
 
@@ -24,16 +24,16 @@ Il servizio di posta permette di configurare la politica di sicurezza in modo da
 - rafforzare la verifica dei messaggi in entrata sui nostri server e destinati ai tuoi indirizzi email (esclusivamente per gli account [Exchange](/links/web/emails-hosted-exchange));
 - definire la modalità di visualizzazione dei messaggi indesiderati nei tuoi account di posta elettronica (esclusivamente per gli account [Exchange](/links/web/emails-hosted-exchange)).
 
-Per accedere alla politica di sicurezza del tuo servizio Exchange accedi allo [Spazio Cliente OVHcloud](/links/manager), sezione “Web”. 
+Per accedere alla politica di sicurezza del tuo servizio Exchange accedi allo [Spazio Cliente OVHcloud](/links/manager), sezione “Web”.
 
-|Emails e Email Pro|Exchange| 
-|---|---| 
-|Clicca su `Emails`{.action} o `Email Pro`{.action} e seleziona la tua offerta. Clicca sulla scheda `Altre opzioni` e seleziona `Gestisci la politica di sicurezza`{.action}.|Clicca su `Microsoft`{.action} e poi su `Exchange`{.action}, quindi seleziona la tua offerta. Clicca sulla scheda `Altre opzioni` e seleziona`Gestisci la politica di sicurezza`{.action}.|
+|MX Plan e Email Pro|Exchange|
+|---|---|
+|Clicca su `MX Plan`{.action} o `Email Pro`{.action} e seleziona la tua offerta. Clicca sulla scheda `Altre opzioni` e seleziona `Gestisci la politica di sicurezza`{.action}.|Clicca su `Microsoft`{.action} e poi su `Exchange`{.action}, quindi seleziona la tua offerta. Clicca sulla scheda `Altre opzioni` e seleziona`Gestisci la politica di sicurezza`{.action}.|
 |![exchangesecurity](images/manage-security01.png){.thumbnail}|![exchangesecurity](images/manage-security02.png){.thumbnail}|
 
-> !primary]
+> ![primary]
 >
-> Se non vedi l'elemento `Plus`{.action} nel pannello di gestione della tua offerta `Email`{.action}, significa che sei su un'offerta MX Plan storica. La politica di sicurezza non è gestita sulla soluzione MX Plan storica.
+> Se non vedi l'elemento `Plus`{.action} nel pannello di gestione della tua offerta `MX Plan`{.action}, significa che sei su un'offerta MX Plan storica. La politica di sicurezza non è gestita sulla soluzione MX Plan storica.
 
 Prosegui nella lettura di questa guida consultando la sezione corrispondente all’azione che vuoi effettuare:
 
@@ -52,7 +52,7 @@ A tal fine, compilare le informazioni riportate di seguito:
 - **Termine per la reinizializzazione**: Questo campo compare solo se è stato definito un limite di blocco. Indica il tempo necessario in minuti affinché il contatore dei tentativi di connessione non riusciti si rimetta a zero.
 - **Durata del blocco**: Questo campo compare solo se è stato definito un limite di blocco. Indica il tempo in minuti durante il quale l'account email resterà bloccato se il limite di blocco è stato raggiunto.
 
-Una volta completate le informazioni, clicca su `Seguente`{.action} > `Conferma`{.action} per applicare le modifiche relativamente alle soluzioni “Emails” e “Email Pro”. Clicca su `Salva le modifiche`{.action}per la soluzione Exchange. 
+Una volta completate le informazioni, clicca su `Seguente`{.action} > `Conferma`{.action} per applicare le modifiche relativamente alle soluzioni “MX Plan” e “Email Pro”. Clicca su `Salva le modifiche`{.action}per la soluzione Exchange. 
 
 ### Rendere la password più complessa <a name="password-complexity"></a>
 
@@ -66,7 +66,7 @@ A tal fine, compilare le informazioni riportate di seguito:
 - **Conserva lo storico delle password (esclusivamente per Exchange)**: Questo campo compare soltanto se è stata impostata una durata di vita massima. Indica la durata di vita massima, in giorni, delle password precedenti che possono essere nuovamente utilizzate.
 - **Lunghezza minima della password**: Consente di impostare un numero minimo di caratteri per la password.
 
-Una volta completate le informazioni, clicca su `Seguente`{.action} > `Conferma`{.action} per applicare le modifiche relativamente alle soluzioni “Emails” e “Email Pro”. Clicca su `Salva le modifiche`{.action}per la soluzione Exchange. 
+Una volta completate le informazioni, clicca su `Seguente`{.action} > `Conferma`{.action} per applicare le modifiche relativamente alle soluzioni “MX Plan” e “Email Pro”. Clicca su `Salva le modifiche`{.action}per la soluzione Exchange.
 
 ### Aumentare il controllo dei messaggi in entrata (esclusivamente per Exchange) <a name="incoming-messages-verification"></a>
 
@@ -77,7 +77,7 @@ A tal fine, spuntare le caselle appropriate:
 - **Attiva la verifica della firma DKIM**: Indica se i server OVHcloud devono verificare la firma DKIM dei messaggi ricevuti sugli account Exchange. Questa azione garantisce l’autenticità del dominio del mittente e l’integrità del messaggio. Consente inoltre di identificare invii non legittimi, che verranno contrassegnati come Spam.
 - **Attiva la verifica della protezione SPF**: Indica se i server OVHcloud devono verificare che la sorgente dei messaggi ricevuti sia presente nel record SPF del dominio mittente. Questa verifica consente di identificare invii non legittimi, che verranno contrassegnati come Spam.
 
-Una volta effettuata la scelta, clicca su `Salva le modifiche`{.action} per confermare l’operazione. 
+Una volta effettuata la scelta, clicca su `Salva le modifiche`{.action} per confermare l’operazione.
 
 ### Definire la visualizzazione dei messaggi indesiderati (esclusivamente per Exchange) <a name="unwanted-messages-management"></a>
 

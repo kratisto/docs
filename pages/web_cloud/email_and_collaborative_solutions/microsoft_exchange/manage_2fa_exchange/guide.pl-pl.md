@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja weryfikacji dwuetapowej na koncie Exchange'
 excerpt: 'Dowiedz się, jak skonfigurować weryfikację dwuetapową na koncie Exchange'
-updated: 2020-03-11
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -34,9 +34,8 @@ Możesz wzmocnić bezpieczeństwo swojego konta Exchange za pomocą weryfikacji 
 Przy pierwszej konfiguracji należy aktywować weryfikację dwuetapową w platformie, aby móc ją włączyć w koncie.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Wybierz kartę `Bezpieczeństwo`{.action} w platformie.
 1. Naciśnij przycisk `Aktywuj`{.action} Który znajduje się pod opcją „Weryfikacja dwuetapowa”.
@@ -65,9 +64,8 @@ Podczas następnych logowań wymagany będzie jedynie kod wygenerowany przez apl
 Weryfikację dwuetapową Twojego konta można wyłączyć na trzy sposoby.
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 1. Z poziomu karty `Konta e-mail`{.action} Twojej platformy Exchange kliknij `...`{.action} po prawej stronie konta z aktywną weryfikacją dwuetapową.
 

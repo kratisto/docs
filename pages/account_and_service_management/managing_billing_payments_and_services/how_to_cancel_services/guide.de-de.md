@@ -1,7 +1,7 @@
 ---
 title: Kündigen von OVHcloud Diensten
 excerpt: Erfahren Sie hier, wie Sie OVHcloud Abonnements über das Kundencenter beenden können
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie in den [FAQ](/pages/account_and_service_managem
 ## Voraussetzungen
 
 - Sie sind der "Administrator-Kontakt" des Dienstes, den Sie kündigen möchten (weitere Informationen finden Sie in [dieser Anleitung](/pages/account_and_service_management/account_information/managing_contacts#definition)).
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager).
 - Sie haben aktive OVHcloud Dienste (die nicht wegen eines Zahlungsverzugs gesperrt sind).
 
 ## In der praktischen Anwendung
@@ -56,9 +56,9 @@ Es gibt jedoch auch **Sonderfälle**, die [weiter unten](#specific-cases) in die
 
 ## Wie kann ich ein Abonnement kündigen? <a name="terminate"></a>
 
-Um das Abonnement Ihres Dienstes zu kündigen, loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein, klicken Sie oben rechts auf den Account-Namen und dann auf den Button `Meine Angebote und Dienste`{.action}.
+Um das Abonnement Ihres Dienstes zu kündigen, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf den Account-Namen und dann auf `Meine Angebote und Dienste`{.action}.
 
-![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 Klicken Sie dann rechts neben dem Dienst, den Sie kündigen möchten, auf den Button `...`{.action} und dann auf `Meinen Dienst kündigen`{.action}.
 
@@ -134,7 +134,7 @@ Sie können Ihren [aktuellen Verbrauch](/pages/public_cloud/public_cloud_cross_f
 > Sie können eine Kündigungsanfrage nur bis zu 24 Stunden vor dem Kündigungsdatum stornieren.
 >
 
-Um eine Kündigungsanfrage zurückzunehmen, loggen Sie sich in Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ein, klicken Sie oben rechts auf Ihren Account-Namen und dann auf den Button `Meine Angebote und Dienste`{.action}.
+Um eine Kündigungsanfrage zurückzunehmen, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Account-Namen und dann auf `Meine Angebote und Dienste`{.action}.
 
 Klicken Sie dann auf den Button `...`{.action} rechts neben der Dienstleistung, für die eine Kündigung beantragt wurde, und dann auf `Kündigung der Dienstes stornieren`{.action} 
 

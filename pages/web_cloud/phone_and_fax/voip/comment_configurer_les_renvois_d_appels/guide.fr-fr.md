@@ -1,7 +1,7 @@
 ---
 title: 'Filtrer et renvoyer ses appels'
 excerpt: 'Découvrez comment filtrer et renvoyer les appels entrants et sortants de votre ligne SIP OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -36,8 +36,8 @@ Poursuivez la lecture de cette documentation en fonction de la solution que vous
 ### Activer le verrouillage des appels sortants <a name="verrouillage"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Verrouillage des appels sortants`{.action}.
 
 ![gerer-appels-verrouillage](images/manage-calls-locking-step1.png){.thumbnail}
@@ -59,8 +59,8 @@ Vous avez la possibilité d'appliquer ce verrouillage à plusieurs lignes grâce
 >
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Renvoi d'appel`{.action}.
 
 ![gerer-appels-renvoi](images/manage-calls-fowarding-step1.png){.thumbnail}
@@ -107,8 +107,8 @@ Vous avez la possibilité d'appliquer vos choix de configuration à plusieurs li
 ### Activer le filtrage d'appels <a name="filtrage"></a>
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action}  puis sur le groupe de facturation contenant votre ligne SIP.
-1. Cliquez sur la ligne SIP concernée.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne SIP.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne SIP concernée.
 1. Positionnez-vous sur l'onglet `Gestion des appels`{.action} et cliquez sur `Filtrage d'appels`{.action}.
 
 ![gerer-appels-filtrage](images/manage-calls-filtering-step1.png){.thumbnail}

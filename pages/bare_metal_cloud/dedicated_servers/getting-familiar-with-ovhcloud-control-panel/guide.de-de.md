@@ -1,7 +1,7 @@
 ---
 title: "Kimsufi und So you Start Kunden - Einführung in das OVHcloud Kundencenter"
 excerpt: "Navigationshilfe für Ihr OVHcloud Kundencenter"
-updated: 2024-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -33,8 +33,7 @@ Sie bietet auch nützliche Links zum Schnellzugriff.
 ![server list](images/listserversOVHcloud.png){.thumbnail}
 
 In den Kimsufi und So you Start Interfaces können Sie über das Dashboard Ihren Server/die Liste der Server einsehen.<br>
-Klicken Sie im OVHcloud Kundencenter zunächst auf das Menü `Bare Metal Cloud`{.action} und dann auf `Dedicated Server`{.action}, um Ihre Server anzuzeigen.<br>
-Wenn Sie mehrere Server haben, können Sie diese über den Button `Alle meine Server`{.action} für einen einfachen Zugriff auflisten.
+Klicken Sie im OVHcloud Kundencenter zunächst auf das Menü `Bare Metal Cloud`{.action} und dann auf `Dedicated Server`{.action}, um Ihre Server anzuzeigen.
 
 ### Server-Interface
 
@@ -87,7 +86,7 @@ Um im OVHcloud Kundencenter auf den Bereich **Lizenzen** zuzugreifen, klicken Si
 ### Support, Abrechnung und Accountverwaltung
 
 Im Kimsufi oder So you Start Kundencenter sind diese Optionen oben rechts unter den einzelnen Tabs verfügbar.<br>
-Im OVHcloud Kundencenter werden diese Optionen in einem gemeinsamen Kundencenter zusammengefasst. Klicken Sie oben rechts auf Ihren Namen und klicken Sie auf Ihre Initialen, um auf die Rubrik `Meinen Account verwalten zu können`.
+Im OVHcloud Kundencenter werden diese Optionen in einem gemeinsamen Kundencenter zusammengefasst. Klicken Sie oben rechts auf Ihren Account-Namen und danach auf `Zu meinem Account`{.action}.
 
 ![factu](images/accountOVHcloud.png){.thumbnail}
 

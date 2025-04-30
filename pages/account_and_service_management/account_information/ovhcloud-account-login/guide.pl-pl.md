@@ -1,7 +1,7 @@
 ---
 title: Logowanie do Panelu klienta OVHcloud
 excerpt: 'Dowiedz się, jak zalogować się do Twojego konta OVHcloud'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -19,7 +19,7 @@ Zarządzanie usługami odbywa się głównie w Panelu klienta OVHcloud.
 
 ### Zaloguj się do Panelu klienta OVHcloud
 
-Przejdź [do strony uwierzytelniania OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}, podaj identyfikator klienta (lub główny adres e-mail) i hasło.
+Przejdź [do strony uwierzytelniania OVHcloud](/links/manager), podaj identyfikator klienta (lub główny adres e-mail) i hasło.
 
 ![identyfikator klienta](images/log-in.png){.thumbnail}
 
@@ -31,7 +31,7 @@ W dalszej części niniejszego przewodnika znajdziesz metody rozwiązywania czę
 
 #### Nie znam mojego identyfikatora klienta. Jak go odnaleźć?
 
-Identyfikator klienta OVHcloud, dostępny w formacie **xx11111-ovh**, będzie Cię niezmiennie proszony o logowanie do konta lub o kontakt z pomocą techniczną OVHcloud. Twój identyfikator znajdziesz w różnych miejscach.
+Identyfikator klienta OVHcloud, dostępny w formacie **aa00000-ovh**, będzie Cię niezmiennie proszony o logowanie do konta lub o kontakt z pomocą techniczną OVHcloud. Twój identyfikator znajdziesz w różnych miejscach.
 
 ##### **W e-mailach wysyłanych przez OVHcloud**
 

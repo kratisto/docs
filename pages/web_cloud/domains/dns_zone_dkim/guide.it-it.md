@@ -1,7 +1,7 @@
 ---
 title: Migliora la sicurezza delle email con un record DKIM
 excerpt: Come configurare un record DKIM sul tuo dominio e sulla tua piattaforma email OVHcloud
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -163,7 +163,11 @@ Clicca sulla scheda qui sotto corrispondente alla tua offerta.
 > [!tabs]
 > **Email (MX Plan)**
 >>
->> Dal tuo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Email`{.action} e poi sul dominio interessato. Infine, clicca sulla scheda `Informazioni generali`{.action}.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `MX Plan`{.action}.
+>> 1. Seleziona il dominio.
+>> 1. Infine, clicca sulla scheda `Informazioni generali`{.action}.
 >>
 >> Nel riquadro **Informazioni generali**, si può osservare che la casellina `DKIM`è rossa sotto la dicitura **Diagnostica**.
 >>
@@ -171,7 +175,11 @@ Clicca sulla scheda qui sotto corrispondente alla tua offerta.
 >>
 > **Exchange**
 >>
->> Dal tuo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Microsoft`{.action}, poi su `Exchange`{.action}. Clicca sul nome del servizio Exchange interessato. Infine, clicca sulla scheda `Domini associati`{.action}.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>> 1. Infine, clicca sulla scheda `Domini associati`{.action}.
 >>
 >> A destra del dominio in questione, la casellina `DKIM` è rosso.
 >>
@@ -179,7 +187,11 @@ Clicca sulla scheda qui sotto corrispondente alla tua offerta.
 >>
 > **Email Pro**
 >>
->> Dal tuo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Email Pro`{.action}, poi sul nome del servizio Email Pro interessato. Infine, clicca sulla scheda `Domini associati`{.action}.
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>> 1. Infine, clicca sulla scheda `Domini associati`{.action}.
 >>
 >> A destra del dominio in questione, la casellina `DKIM` è rosso.
 >>
@@ -215,13 +227,23 @@ Clicca sulla scheda qui sotto corrispondente alla tua offerta.
 > [!tabs]
 > **Exchange**
 >>
->> Dallo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Microsoft`{.action} e poi su `Exchange`{.action}. Infine clicca sul nome del servizio Exchange interessato. Di default, il nome della tua piattaforma corrisponde al suo riferimento o sarà visibile con il nome che le hai assegnato (vedi l'immagine qui sotto).
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+>> Di default, il nome della tua piattaforma corrisponde al suo riferimento o sarà visibile con il nome che le hai assegnato (vedi l'immagine qui sotto).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 >>
 > **Email Pro**
 >>
->> Dallo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Email Pro`{.action} e poi sul nome del servizio Email Pro interessato. Di default, il nome della tua piattaforma corrisponde al suo riferimento o sarà visibile con il nome che le hai assegnato (vedi l'immagine qui sotto).
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+>> Di default, il nome della tua piattaforma corrisponde al suo riferimento o sarà visibile con il nome che le hai assegnato (vedi l'immagine qui sotto).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/email-pro/general-information/dns-dkim-platform-emailpro.png){.thumbnail .w-400 .h-600}
 
@@ -1122,13 +1144,23 @@ Clicca sulla scheda qui sotto corrispondente alla tua offerta per verificare lo 
 > [!tabs]
 > **Exchange**
 >>
->> Dal tuo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Microsoft`{.action} e poi su `Exchange`{.action}. Infine clicca sul nome del servizio Exchange interessato.<br><br> Nella sezione `Domini associati`{.action}, verifica il colore dell’icona `DKIM` a destra del dominio interessato (vedi l’immagine qui sotto).
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>>
+>> Nella sezione `Domini associati`{.action}, verifica il colore dell’icona `DKIM` a destra del dominio interessato (vedi l’immagine qui sotto).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>
 > **Email Pro**
 >>
->> Dal tuo [Spazio Cliente OVHcloud](/links/manager), nella scheda `Web Cloud`{.action}, clicca su `Email Pro`{.action} e poi sul nome del servizio Email Pro in questione.<br><br> Nella sezione `Domini associati`{.action}, verifica il colore dell’icona `DKIM` a destra del nome di dominio interessato (vedi l’immagine qui sotto).
+>> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Clicca su `Email Pro`{.action}.
+>> 1. Seleziona la piattaforma interessata.
+>> 
+>> Nella sezione `Domini associati`{.action}, verifica il colore dell’icona `DKIM` a destra del nome di dominio interessato (vedi l’immagine qui sotto).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>

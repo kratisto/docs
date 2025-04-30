@@ -1,7 +1,7 @@
 ---
 title: "Email Pro  - Configure your email account on Mail for iPhone and iPad"
 excerpt: 'Find out how to configure an Email Pro account on iPhone and iPad, via the Mail app'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -31,7 +31,11 @@ You can configure Email Pro accounts on email clients, if they are compatible. B
 >
 > In this guide, we will use as the server name: pro?.mail.ovh.net. You will need to replace the "?" with the actual number indicating the appropriate server for your Email Pro service.
 >
-> You can find this information in the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} section, if you select `Professional Email`{.action}. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
+> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+> 1. Open the `Web Cloud`{.action} section.
+> 1. Click `Email Pro`{.action}.
+> 1. Select the service concerned.
+> 1. The server name is displayed in the **Connection** box in the `General Information`{.action} tab.
 >
 
 On your device’s home screen, go to `Settings`{.action} (cogwheel icon). There are several ways you can add an account, depending on your iOS version:

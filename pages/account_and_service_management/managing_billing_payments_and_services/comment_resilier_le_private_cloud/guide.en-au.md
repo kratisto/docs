@@ -12,8 +12,8 @@ If your Private Cloud offer no longer suits you, or if you have ordered a new in
 
 ## Requirements
 
-- a [Hosted Private Cloud infrastructure](https://www.ovhcloud.com/en-au/enterprise/products/hosted-private-cloud/)
-- access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au)
+- A [Hosted Private Cloud infrastructure](/links/hosted-private-cloud/vmware)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -26,7 +26,7 @@ The Private Cloud offer is without obligation. However, as laid out in the [Spec
 
 ### Step 1: Request termination from the OVHcloud Control Panel
 
-Log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com.au/&ovhSubsidiary=au){.external}, go to `Hosted Private Cloud`{.action} (1), click on `Private Cloud`{.action} (2) and select your offer from the list (3).
+Log in to your [OVHcloud Control Panel](/links/manager){.external}, go to `Hosted Private Cloud`{.action} (1), click on `Private Cloud`{.action} (2) and select your offer from the list (3).
 
 In the "Service management" section of the "General Information" tab, click the button `...`{.action} (4) to the right of the renewal date. Finally, click on `Delete the service`{.action} (5).
 
@@ -46,9 +46,9 @@ You will then receive a confirmation notice of your request. The procedure for c
 
 Following your request, a termination confirmation email is sent to you at the address linked to the OVHcloud account.
 
-You can also find this email in your OVHcloud Control Panel. Click on your name at the top right and then on `Service emails`{.action}.
+You can also find this email in your OVHcloud Control Panel. Click on your name at the top right and then on `My messages`{.action}.
 
-![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![Cancellation validation](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 The subject of the email is:
 

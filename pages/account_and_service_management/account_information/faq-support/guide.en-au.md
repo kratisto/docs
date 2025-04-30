@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Find the most frequently asked questions about the OVHcloud support
-updated: 2024-11-15
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -59,7 +59,7 @@ Create a support request in the [OVHcloud Help Centre](https://help.ovhcloud.com
 
 ### Where can I find my support level?
 
-The level of support linked to your NIC handle is listed on the dashboard in the OVHcloud Control Panel, below your initials. If you have not signed up to a paid support service, you will have the Standard level by default.
+To find out the level of support associated with your NIC handle, log in to your [OVHcloud Control Panel](/links/manager), then click on your name in the top right-hand corner. The support level appears to the right of **Support**. If you have not subscribed to a paid support service, you will receive the Standard level by default.
 
 Explore and compare the different support levels available [here](/links/support).
 

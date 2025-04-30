@@ -1,7 +1,7 @@
 ---
 title: 'Crear y configurar un disco adicional en una instancia'
 excerpt: 'Cómo asociar un nuevo volumen a una instancia de Public Cloud'
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -85,7 +85,7 @@ La generación 2 de los volúmenes High-Speed está optimizada para las cargas d
 > [!tabs]
 > **Desde el área de cliente de OVHcloud**
 >>
->> Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. A continuación, abra `Block Storage`{.action} en el menú de la izquierda.
+>> Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. A continuación, abra `Block Storage`{.action} en el menú de la izquierda bajo **Storage and Backup**
 >>
 >> En esta sección, haga clic en el botón `Crear un volumen`{.action}.
 >>
@@ -559,7 +559,7 @@ Por último, vamos a desvincular el volumen de la instancia:
 
 > [!tabs]
 > **Desde el área de cliente de OVHcloud**
->> Acceda a la sección `Public Cloud`{.action} de su área de cliente de OVHcloud y haga clic en `Block Storage`{.action} en el menú de la izquierda, en **Storage**.
+>> Acceda a la sección `Public Cloud`{.action} de su área de cliente de OVHcloud y haga clic en `Block Storage`{.action} en el menú de la izquierda bajo **Storage and Backup**.
 >>
 >> Haga clic en el botón `...`{.action} junto al volumen correspondiente y seleccione `Desvincular de la instancia`{.action}.
 >>

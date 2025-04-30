@@ -1,7 +1,7 @@
 ---
 title: Configurar o seu MegaRAID em RAID 0
 excerpt: "Descubra como configurar os discos do seu servidor em RAID 0, de forma a explorar o máximo de espaço utilizável"
-updated: 2022-07-08
+updated: 2025-04-29
 ---
 
 > [!primary]
@@ -34,10 +34,6 @@ O nível de RAID predefinido dos servidores OVHcloud é o RAID 1. que duplica o 
 Na sua [Área de Cliente OVHcloud](/links/manager), selecione o seu servidor indo à secção `Bare Metal Cloud`{.action} e, a seguir, `Servidores dedicados`{.action}. 
 
 No separador `Informações gerais`{.action}, clique em `...`{.action} em frente do sistema operativo e, a seguir, em `Instalar`{.action}.
-
-Selecione **Instalar a partir de um template OVHcloud** e clique em `Seguinte`{.action}.
-
-![MegaRAID](images/server_installation_raid0_1.png){.thumbnail}
 
 Selecione o sistema operativo que deseja instalar e clique em `Seguinte`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: "Weiterleitung von bei OVHcloud verwalteten Domainnamen"
 excerpt: "Erfahren Sie hier, wie Sie verschiedene Weiterleitungsarten für einen von OVHcloud verwalteten Domainnamen erstellen"
-updated: 2024-03-08
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -43,7 +43,7 @@ Diese Weiterleitungen können auf mehrere Arten erreicht werden:
 
 ### Eine Domain über das Kundencenter weiterleiten
 
-Loggen Sie sich in das [OVHcloud Kundencenter](/links/manager){.external} ein, gehen Sie in den Bereich `Web Cloud`{.action}, wählen Sie die umzuleitende Domain unter `Domainnamen`{.action} aus, und klicken Sie dann auf den Tab `Weiterleitung`{.action}.
+Loggen Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}. Klicken Sie auf das Menü `DNS-zone`{.action} und wählen Sie den Domainnamen aus. Klicken Sie dann auf den Tab `Weiterleitung`{.action}.
 
 Die Tabelle zeigt die für Ihre Domain aktiven Weiterleitungen an. Sie können Ihre existierenden Weiterleitungen mit dem Button `...`{.action} rechts in den Zeilen verwalten.
 

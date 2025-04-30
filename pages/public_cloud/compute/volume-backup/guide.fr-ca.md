@@ -1,7 +1,7 @@
 ---
 title: "Créer une sauvegarde d'un volume"
 excerpt: Découvrez comment créer une sauvegarde de votre volume Block Storage depuis votre espace client
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 ## Objectif
@@ -32,7 +32,7 @@ Le Volume Snapshot et le Volume Backup vous permettent de :
 
 Connectez-vous à votre [espace client OVHcloud](/links/manager), rendez-vous dans la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné.
 
-Ouvrez ensuite le menu `Block Storage`{.action} dans la barre de navigation à gauche sous **Storage**.
+Ouvrez ensuite le menu `Block Storage`{.action} dans la barre de navigation à gauche sous **Storage & Backup**.
 
 A droite du volume concerné, cliquez sur le bouton `...`{.action} puis sur `Créer une sauvegarde`{.action}. Il n'est pas nécessaire de détacher d'abord le volume de son instance. Cependant, si vous souhaitez détacher votre volume de son instance, consultez cette [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-linux) du guide correspondant pout Linux, et cette [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#sous-windows) pour Windows.
 

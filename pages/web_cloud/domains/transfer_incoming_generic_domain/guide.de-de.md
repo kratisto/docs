@@ -1,7 +1,7 @@
 ---
 title: "Domainnamen zu OVHcloud transferieren"
 excerpt: "Erfahren Sie hier, wie Sie Ihren Domainnamen zu OVHcloud transferieren"
-updated: 2024-06-28
+updated: 2025-04-28
 ---
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/MILAnKdjHns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -122,7 +122,7 @@ Sie können Ihre Bestellung auch mit einem [Webhosting](/links/web/hosting){.ext
 
 #### Weiterverfolgung des Transfers nach der Bestellung
 
-Sobald die Bestellung bestätigt wurde, erhalten Sie einen Bestellschein. Der Transferprozess wird erst nach Erhalt der Zahlung gestartet. Ab dann können Sie den Fortschritt des Transfers über das [OVHcloud Kundencenter](/links/manager) nachverfolgen: Öffnen Sie `Domainnamen`{.action} und klicken Sie auf `Laufende Operationen`{.action}.
+Sobald die Bestellung bestätigt wurde, erhalten Sie einen Bestellschein. Der Transferprozess wird erst nach Erhalt der Zahlung gestartet. Ab dann können Sie den Fortschritt des Transfers über das [OVHcloud Kundencenter](/links/manager) nachverfolgen. Sobald Sie sich angemeldet haben, gehen Sie zum Abschnitt `Web Cloud`{.action} und klicken Sie dann auf `Laufende Operationen`{.action}.
 
 > [!primary]
 >
@@ -140,7 +140,7 @@ Sobald die Bestellung und der Transfer-Code bestätigt sind, wird der aktuelle R
 
 Wird eine Ablehnung vom aktuellen Registrar ausgesprochen, kontaktieren Sie den Registrar, um die Gründe dafür zu erfahren.
 
-Der Transferprozess kann über das [OVHcloud Kundencenter](/links/manager) neu gestartet werden. Wählen Sie `Web Cloud`{.action} aus und gehen Sie in den Bereich `Domainnamen`{.action}. Klicken Sie dann auf `Laufende Operationen`{.action}.
+Der Transferprozess kann über das [OVHcloud Kundencenter](/links/manager) neu gestartet werden. Sobald Sie sich angemeldet haben, gehen Sie zum Abschnitt `Web Cloud`{.action} und klicken Sie dann auf `Laufende Operationen`{.action}.
 
 > [!primary]
 >

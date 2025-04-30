@@ -1,7 +1,7 @@
 ---
 title: "Usuń konto e-mail"
 excerpt: "Dowiedz się, jak usunąć lub zresetować konto e-mail w Twojej usłudze e-mail"
-updated: 2023-01-27
+updated: 2025-04-28
 ---
 
 
@@ -38,8 +38,8 @@ Wybierz kartę odpowiadającą Twojej usłudze e-mail:
 >> Aby sprawdzić, czy Twoja oferta MX Plan jest wersją historyczną czy nową, zapoznaj się z tabelą w części "[Sprawdź ofertę MX Plan](#whichmxplan)" tego przewodnika.
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `MX Plan`{.action}.
 >> 1. Wybierz odpowiednią domenę.
 >> 1. Przejdź do zakładki `Konta e-mail`{.action}.
 >> 1. Pojawi się okno, w którym widoczne są istniejące konta e-mail. Kliknij przycisk `...` po prawej stronie konta, które ma zostać zmienione, a następnie kliknij polecenie `Usuń konto`{.action}.
@@ -51,8 +51,8 @@ Wybierz kartę odpowiadającą Twojej usłudze e-mail:
 >> Aby sprawdzić, czy Twoja oferta MX Plan jest wersją historyczną czy nową, zapoznaj się z tabelą w części "[Sprawdź ofertę MX Plan](#whichmxplan)" tego przewodnika.
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `MX Plan`{.action}.
 >> 1. Wybierz odpowiednią domenę.
 >> 1. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail.
 >> 1. Kliknij na przycisk `...` po prawej stronie konta, które chcesz zmienić, po czym kliknij przycisk `Zresetuj to konto`{.action}.
@@ -62,8 +62,8 @@ Wybierz kartę odpowiadającą Twojej usłudze e-mail:
 > **Email Pro**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij `E-maile Pro`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >> 1. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail.
 >> 1. Kliknij na przycisk `...` po prawej stronie konta, które chcesz zmienić, po czym kliknij przycisk `Zresetuj to konto`{.action}.
@@ -75,9 +75,8 @@ Wybierz kartę odpowiadającą Twojej usłudze e-mail:
 > **Exchange**
 >>
 >> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
->> 1. Kliknij zakładkę `Web Cloud`{.action}.
->> 1. Kliknij rubrykę `Microsoft`{.action}.
->> 1. Kliknij na `Exchange`{.action}.
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 >> 1. Wybierz odpowiednią platformę.
 >> 1. Przejdź do zakładki `Konta e-mail`{.action}.
 >> 1. Kliknij na przycisk `...` po prawej stronie konta, które ma zostać zmienione, a następnie kliknij na `Zresetuj`{.action}.

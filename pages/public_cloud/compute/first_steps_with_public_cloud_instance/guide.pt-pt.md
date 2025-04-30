@@ -1,7 +1,7 @@
 ---
 title: 'Gerir as suas instâncias Public Cloud'
 excerpt: 'Saiba como gerir as suas instâncias Public Cloud na Área de Cliente OVHcloud'
-updated: 2024-02-20
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -10,7 +10,7 @@ updated: 2024-02-20
 
 ## Objetivo
 
-Pode gerir as suas instâncias Public Cloud na sua [Área de Cliente](/links/manager).
+Pode gerir as suas instâncias Public Cloud na sua [Área de Cliente OVHcloud](/links/manager).
 
 **Este guia explica em pormenor as ações disponíveis na Área de Cliente OVHcloud para uma instância Public Cloud.**
 
@@ -22,11 +22,11 @@ Pode gerir as suas instâncias Public Cloud na sua [Área de Cliente](/links/man
 
 ## Instruções
 
-Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e abra o seu projeto `Public Cloud`{.action}. 
+Aceda à [Área de Cliente OVHcloud](/links/manager), vá à secção `Public Cloud`{.action} e selecione o projeto Public Cloud em causa.
 
 ### Utilizar a interface de gestão das instâncias
 
-Clique em `Instances`{.action} no menu à esquerda. 
+Clique em `Instâncias`{.action} no menu à esquerda. 
 
 ![public-cloud](images/compute-2024.png){.thumbnail}
 
@@ -129,7 +129,7 @@ Confirme o pedido de eliminação na janela que aparecer.
 
 ### Aceder à consola VNC <a name="accessvnc"></a>
 
-Clique em `Instances`{.action} no menu à esquerda. Na página de gestão das instâncias, clique no nome da instância.
+Clique em `Instâncias`{.action} no menu à esquerda. Na página de gestão das instâncias, clique no nome da instância.
 
 A seguir, clique no separador `Console VNC`{.action}.
 

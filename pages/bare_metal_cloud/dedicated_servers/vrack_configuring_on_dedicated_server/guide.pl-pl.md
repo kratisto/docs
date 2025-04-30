@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja kilku serwerów dedykowanych w sieci vRack'
 excerpt: 'Dowiedz się, jak połączyć kilka serwerów w ramach rozwiązania vRack'
-updated: 2025-03-24
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -29,11 +29,11 @@ vRack (wirtualna szafa) OVHcloud pozwala na wirtualne zebranie kilku serwerów (
 
 ### Etap 1: zamów vRack
 
-Po zalogowaniu się do Panelu klienta OVHcloud przejdź do menu `Bare Metal Cloud`{.action} i kliknij przycisk `Zamów`{.action}. W tym menu kliknij `vRack`{.action}.
+Zaloguj się do Panelu klienta OVHcloud i kliknij przycisk `Dodaj usługę`{.action} (ikonka koszyka) w lewym menu. Użyj filtra na górze strony lub przewiń w dół, aby znaleźć usługę `vRack`{.action}.
 
-![Zamów vrack](images/orderingvrack.png){.thumbnail}
+![Zamów usługę vrack](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/network/orderingvrack25.png){.thumbnail}
 
-Zostaniesz przekierowany na inną stronę, aby zatwierdzić zamówienie. Operacja zajmie kilka minut.
+Kliknij na zakładkę `vRack`{.action}, aby zostać przekierowanym na stronę, na której możesz zatwierdzić zamówienie. Aktywacja usługi vRack na Twoim koncie zajmie kilka minut.
 
 ### Etap 2: dodaj serwery do usługi vRack
 

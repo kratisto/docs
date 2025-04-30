@@ -1,7 +1,7 @@
 ---
 title: "Que faire en cas d'erreur « Votre connexion n'est pas privée » ?"
 excerpt: "Réagir en cas de message d'erreur lié à la sécurité de votre site"
-updated: 2021-07-08
+updated: 2025-04-28
 ---
 
 ## Objectif <a name="objectif"></a>
@@ -52,9 +52,9 @@ Dans l'onglet `Informations générales`{.action}, notez l'adresse IPV4 et/ou IP
 
 Il vous faut maintenant vérifier que l'adresse IP indiquée dans la [Zone DNS](/pages/web_cloud/domains/dns_zone_edit) correspond bien à celle de votre [hébergement Web Cloud](/links/web/hosting).
 
-Cliquez sur `Noms de domaine`{.action} dans votre [espace client OVHcloud](/links/manager) et sélectionnez le nom de domaine de votre site.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}. Cliquez sur le menu `Zones DNS`{.action}, puis choisissez le nom de domaine concerné. 
 
-Sélectionnez l'onglet `Zone DNS`{.action} et notez la cible de l'entrée de type `A` pour votre domaine :
+Notez la cible de l'entrée de type `A` pour votre domaine :
 
 ![zone-dns-ip](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/dashboard-entry-a.png){.thumbnail}
 
@@ -90,10 +90,7 @@ Si vous avez commandé l'un des **certificats SSL payants** de notre partenaire 
 
 > [!primary]
 >
-> Pour retrouver l'ensemble des e-mails envoyés par nos services, cliquez en haut à droite de votre [espace client OVHcloud](/links/manager), puis sur `E-mails de service`{.action}) :
->
->![right-menu-email-button](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
->
+> Pour retrouver l'ensemble des e-mails envoyés par nos services, cliquez en haut à droite de votre [espace client OVHcloud](/links/manager), puis sur `Mes communications`{.action}.
 
 ## Aller plus loin <a name="go-further"></a>
 

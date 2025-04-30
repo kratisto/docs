@@ -1,7 +1,7 @@
 ---
 title: "Poprawa bezpieczeństwa e-maili dzięki rejestracji DKIM"
 excerpt: "Dowiedz się, jak skonfigurować rekord DKIM w Twojej domenie i platformie e-mail OVHcloud"
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -163,7 +163,11 @@ Kliknij na zakładkę odnoszącą się do Twojej oferty.
 > [!tabs]
 > **E-maile (MX Plan)**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij `E-maile`{.action}, a następnie nazwę wybranej domeny. Następnie przejdź do zakładki `Informacje ogólne`{.action}.
+>> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+>> 1. Aceda à secção `Web Cloud`{.action}.
+>> 1. Clique em `MX Plan`{.action}.
+>> 1. Selecione o domínio em questão.
+>> 1. Następnie przejdź do zakładki `Informacje ogólne`{.action}.
 >>
 >> W polu **Informacje ogólne** można zauważyć, że przycisk `DKIM`jest czerwony pod napisem **Diagnostyka**.
 >>
@@ -171,7 +175,11 @@ Kliknij na zakładkę odnoszącą się do Twojej oferty.
 >>
 > **Exchange**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij na `Microsoft`{.action}, a następnie na `Exchange`{.action}. Kliknij wybraną nazwę usługi Exchange. Na koniec przejdź do zakładki `Przypisane domeny`{.action}.
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>> 1. Na koniec przejdź do zakładki `Przypisane domeny`{.action}.
 >>
 >> Po prawej stronie wybranej domeny, możesz zauważyć, że przycisk `DKIM` jest czerwony.
 >>
@@ -179,7 +187,11 @@ Kliknij na zakładkę odnoszącą się do Twojej oferty.
 >>
 > **E-mail Pro**
 >>
->> W [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/pl/&ovhSubsidiary=pl) w zakładce `Web Cloud`{.action} kliknij `E-mails Pro`{.action}, a następnie nazwę danej usługi E-mail Pro. Na koniec przejdź do zakładki `Przypisane domeny`{.action}.
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>> 1. Na koniec przejdź do zakładki `Przypisane domeny`{.action}.
 >>
 >> Po prawej stronie wybranej domeny, możesz zauważyć, że przycisk `DKIM` jest czerwony.
 >>
@@ -215,13 +227,23 @@ Kliknij kartę poniżej odnoszącą się do Twojej oferty.
 > [!tabs]
 > **Exchange**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij `Microsoft`{.action}, a następnie `Exchange`{.action}. Następnie kliknij nazwę odpowiedniej usługi Exchange. Domyślnie nazwa Twojej platformy odpowiada jej nazwie lub będzie widoczna pod przypisaną jej nazwą (patrz obrazek poniżej).
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+>> Domyślnie nazwa Twojej platformy odpowiada jej nazwie lub będzie widoczna pod przypisaną jej nazwą (patrz obrazek poniżej).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 >>
 > **E-mail Pro**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij `E-mail Pro`{.action}, a następnie nazwę odpowiedniej usługi E-mail Pro. Domyślnie nazwa Twojej platformy odpowiada jej nazwie lub będzie widoczna pod przypisaną jej nazwą (patrz obrazek poniżej).
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+>> Domyślnie nazwa Twojej platformy odpowiada jej nazwie lub będzie widoczna pod przypisaną jej nazwą (patrz obrazek poniżej).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/email-pro/general-information/dns-dkim-platform-emailpro.png){.thumbnail .w-400 .h-600}
 
@@ -1122,13 +1144,23 @@ Kliknij na poniższą zakładkę odnoszącą się do Twojej oferty, aby sprawdzi
 > [!tabs]
 > **Exchange**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij na `Microsoft`{.action}, a następnie na `Exchange`{.action}. W kolejnym kroku kliknij na wybraną nazwę usługi Exchange.<br><br> W rubryce `Przypisane domeny`{.action}, sprawdź kolor ikony `DKIM` po prawej stronie odpowiedniej domeny (patrz obrazek poniżej).
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+>> W rubryce `Przypisane domeny`{.action}, sprawdź kolor ikony `DKIM` po prawej stronie odpowiedniej domeny (patrz obrazek poniżej).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>
 > **E-mail Pro**
 >>
->> W [Panelu klienta OVHcloud](/links/manager) w zakładce `Web Cloud`{.action} kliknij `E-mail Pro`{.action}, a następnie nazwę danej usługi E-mail Pro.<br><br> W rubryce `Przypisane domeny`{.action} sprawdź kolor ikony `DKIM` po prawej stronie odpowiedniej domeny (patrz obrazek poniżej).
+>> 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
+>> 1. Przejdź do sekcji `Web Cloud`{.action}.
+>> 1. Kliknij `Email Pro`{.action}.
+>> 1. Wybierz odpowiednią platformę.
+>>
+>> W rubryce `Przypisane domeny`{.action} sprawdź kolor ikony `DKIM` po prawej stronie odpowiedniej domeny (patrz obrazek poniżej).
 >>
 >> ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 >>

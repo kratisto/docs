@@ -1,7 +1,7 @@
 ---
 title: "Comment créer un site web - Réaliser votre projet en 5 étapes"
 excerpt: "Découvrez comment définir votre projet, publier votre site internet et créer des adresses e-mail avec votre solution d'hébergement web"
-updated: 2025-04-07
+updated: 2025-04-25
 ---
 
 <style>
@@ -26,7 +26,7 @@ OVHcloud propose plusieurs offres d'[hébergement web](/links/web/hosting). Elle
 - Créer rapidement un site web (professionnel ou non), un blog, un **C**ontent **M**anagement **S**ystem (**CMS**) tel que *WordPress*, *Joomla!*, *PrestaShop* ou *Drupal* ou encore une boutique en ligne.
 - Personnaliser une ou plusieurs adresses e-mail avec le nom de domaine que vous souhaitez utiliser pour votre site web.
 - Gérer plusieurs sites web sur une seule offre d'hébergement web.
-- Disposer d'une ou de plusieurs base(s) de données (incluses avec certaines de nos [offres d'hébergement web](/links/web/hosting)).
+- Disposer d'une ou de plusieurs bases de données (incluses avec certaines de nos offres d'[hébergement web](/links/web/hosting)).
 - Etc.
 
 Ces offres vous épargnent de gérer la maintenance, la mise à jour et la sécurité d'une infrastructure d'hébergement web.<br>
@@ -47,7 +47,7 @@ Elles vous permettent de gagner du temps sur « l'administration serveur » et d
 
 ## En pratique
 
-L'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting). 
+L'objectif de ce guide est de vous indiquer les principales actions réalisables avec nos solutions d'[hébergement web](/links/web/hosting).
 Chacune de ces actions sera accompagnée d'un ou plusieurs liens vers des guides spécifiques (en rapport avec l'action en question).
 
 Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possibles dès la souscription de votre offre d'[hébergement web](/links/web/hosting) et tout au long de son utilisation.
@@ -70,13 +70,12 @@ Vous pouvez ainsi utiliser ce guide comme un « référentiel » d'actions possi
 Avant de commencer, il est essentiel d'identifier et de délimiter clairement vos besoins en vous posant les questions suivantes :
 
 - Est-ce que je dois **créer** ou **migrer** (depuis un autre hébergeur) mon site web ?
-- Ai-je besoin d'une ou de plusieurs base(s) de données pour faire fonctionner mon site web ?
-- Ai-je besoin d'une ou de plusieurs adresse(s) e-mail personnalisée(s) avec mon nom de domaine ?
+- Ai-je besoin d'une ou de plusieurs bases de données pour faire fonctionner mon site web ?
+- Ai-je besoin d'une ou de plusieurs adresses e-mail personnalisées avec mon nom de domaine ?
 
 En fonction de vos réponses, vérifiez que votre offre d'[hébergement web](/links/web/hosting) correspond bien à tous vos besoins avant de poursuivre.
 
 Si ce n'est pas le cas, consultez notre guide « [Hébergement web: comment faire évoluer son offre ?](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
-
 
 ### Étape 2 - Installer votre site web <a name="website-installation"></a>
 
@@ -99,8 +98,6 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 > [!tabs]
 > **Utiliser un CMS**
 >>
->>
->>
 >> OVHcloud vous met à disposition l'option « Modules en 1 clic ».
 >> Une fois connecté à votre [espace client OVHcloud](/links/manager) et via votre hébergement web, cette option vous permet d'installer rapidement les CMS WordPress, Joomla!, PrestaShop et Drupal.
 >>
@@ -112,14 +109,12 @@ Vous pouvez choisir de créer vous-même intégralement votre site web ou d'util
 >>
 > **Publier un site web développé en local**
 >>
->
 >> Pour ce cas de figure, nous vous invitons à suivre directement notre guide « [Mettre en ligne un site web sur son hébergement web](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online) ». Vous y retrouverez toutes les étapes à réaliser pour :
 >>
 >> - Placer votre site web sur l'espace de stockage FTP de votre hébergement web;
 >> - Créer une base de données associée à votre hébergement web;
 >> - Placer votre base de données locale sur la base de données liée à votre hébergement web;
 >> - Lier votre base de données au site web présent sur votre hébergement web.
->>
 
 ///
 
@@ -129,7 +124,7 @@ Votre offre d'[hébergement web](/links/web/hosting) inclut une ou plusieurs adr
 
 Consultez tout d'abord notre guide « [Activer les adresses e-mails incluses dans votre hébergement web](/pages/web_cloud/web_hosting/activate-email-hosting) ».
 
-Une fois l'option activée, consultez notre guide « [Créer une adresse e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) » pour personnaliser une ou plusieurs adresse(s) e-mail avec votre nom de domaine.
+Une fois l'option activée, consultez notre guide « [Créer une adresse e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation) » pour personnaliser une ou plusieurs adresses e-mail avec votre nom de domaine.
 
 **Cliquez sur le lien ci-dessous pour afficher les explications.**
 
@@ -195,7 +190,7 @@ Pour plus de détails sur les certificats SSL (gratuits ou payants) proposés su
 
 /// details | Les offres CDN
 
-Toutes nos offres CDN permettent de mettre en cache une partie de votre site web. Ainsi, les temps de chargement des pages qui constituent votre site web sont réduits, notamment pour les visiteurs géographiquement éloignés du data centre où votre hébergement web est situé.
+Toutes nos offres CDN permettent de mettre en cache une partie de votre site web. Ainsi, le temps de chargement des pages qui constituent votre site web est réduit, notamment pour les visiteurs géographiquement éloignés du data centre où votre hébergement web est situé.
 
 Avec les hébergements web, OVHcloud propose 3 offres CDN :
 
@@ -210,6 +205,8 @@ Retrouvez plus d'informations sur nos différentes offres CDN dans notre guide �
 > L'offre **CDN Basic** est incluse gratuitement sur les hébergements web **Performance** uniquement.
 >
 > Vous ne pouvez pas cumuler plusieurs offres CDN sur un même hébergement web.
+
+///
 
 /// details | Les serveurs de base de données Web Cloud Databases
 

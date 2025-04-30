@@ -1,7 +1,7 @@
 ---
 title: 'Creating an OVHcloud account'
 excerpt: 'Find out how to create your OVHcloud account'
-updated: 2024-09-09
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -19,7 +19,7 @@ You can create an account before or during the order process for your first OVHc
 
 ### How do I create my OVHcloud account?
 
-To create an OVHcloud account, simply go to [this page](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB){.external} and fill in the online form.
+To create an OVHcloud account, simply go to [this page](/links/manager) and fill in the online form.
 
 ![account creation form](images/account-creation.png){.thumbnail}
 
@@ -51,7 +51,7 @@ Once you have created your account, you will automatically be logged in to your 
 
 Each OVHcloud customer account is associated with a unique ID, also called a NIC handle.
 
-It is usually made up of two letters followed by numbers, for example: **xx11111-ovh**.<br>
+It is usually made up of two letters followed by numbers, for example: **aa00000-ovh**.<br>
 For most accounts outside Europe, it is often replaced by the primary email address entered into the OVHcloud account.
 
 Your NIC-handle is what you will need to use in order to:
@@ -59,10 +59,6 @@ Your NIC-handle is what you will need to use in order to:
 - place orders online
 - manage all of your services easily via the OVHcloud Control Panel
 - identify your customer account when you contact OVHcloud support, so that they can answer your queries.
-
-Your NIC handle is displayed in the top right-hand corner under your name and email address.
-
-![NIC handle](images/nic-handle.png){.thumbnail}
 
 > [!warning]
 > Make a note of your NIC handle, as you will need it for each time you log in to your account.

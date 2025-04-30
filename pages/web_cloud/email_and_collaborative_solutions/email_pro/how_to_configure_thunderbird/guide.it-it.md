@@ -1,7 +1,7 @@
 ---
 title: Email Pro - Configura il tuo account di posta elettronica su Thunderbird per Windows
 excerpt: Come configurare il tuo indirizzo Email Pro su Thunderbird per Windows
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -29,7 +29,11 @@ Gli account Email Pro possono essere configurati su client di posta compatibili,
 >
 > Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
-> Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Clicca su `Email Pro`{.action}.
+> 1. Seleziona la piattaforma interessata. 
+> 1. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 > 
 
 ### Aggiungi l'account
@@ -67,7 +71,11 @@ Se è necessario effettuare un'operazione che potrebbe comportare la perdita dei
 >
 > Nel nostro esempio abbiamo utilizzato come nome del server "pro?.mail.ovh.net", dove "?" dovrà essere sostituito con il numero che indica il server del servizio Email Pro.
 >
-> Questa informazione è disponibile nello [Spazio Cliente OVHcloud](/links/manager), sezione `Web Cloud`{.action}, selezionando `Email Pro`{.action}. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Clicca su `Email Pro`{.action}.
+> 1. Seleziona la piattaforma interessata. 
+> 1. Il nome del server è visibile nel riquadro **Connessione** della scheda `Informazioni generali`{.action}.
 > 
 
 Se il tuo account email è già configurato e devi accedere alle impostazioni dell'account per modificarle:

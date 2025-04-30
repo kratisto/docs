@@ -1,7 +1,7 @@
 ---
 title: 'Transferring a domain name to OVHcloud'
 excerpt: 'Find out how to transfer a generic domain name to OVHcloud'
-updated: 2024-06-28
+updated: 2025-04-28
 ---
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/MILAnKdjHns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -122,7 +122,7 @@ Domains can also be ordered in addition to a [Web Hosting plan](/links/web/hosti
 
 #### Tracking a transfer after the order
 
-Once the order has been confirmed, you will receive a purchase order. The transfer process will not start until payment has been received. Once this is done, you can track the transfer progress via the [OVHcloud Control Panel](/links/manager){.external}. To track the progress, open `Domain names`{.action}, then click on `Ongoing operations`{.action}.
+When your order is confirmed, you receive a purchase order. The transfer process does not start until payment has been received. As soon as this step is done, you can track the transfer progress via the [OVHcloud Control Panel](/links/manager). Once you have logged in, go to the `Web Cloud`{.action} section, then click on `Ongoing operations`{.action}.
 
 > [!primary]
 >
@@ -140,7 +140,7 @@ Once the order and transfer code have been confirmed, the domain name registrar 
 
 If a refusal is issued by the current registrar, contact them to find out why they refused it.
 
-The transfer process can be restarted from the [OVHcloud Control Panel](/links/manager){.external}. Select `Web Cloud`{.action} and go to the `Domain names`{.action}, then click on `Ongoing operations`{.action}.
+The transfer process can be restarted from the [OVHcloud Control Panel](/links/manager). Once you have logged in, go to the `Web Cloud`{.action} section, then click on `Ongoing operations`{.action}.
 
 > [!primary]
 >
@@ -154,7 +154,7 @@ The transfer process can be restarted from the [OVHcloud Control Panel](/links/m
 
 ### Step 5: Manage your domain at OVHcloud
 
-Once the transfer procedure is complete, you can manage your domain from the [OVHcloud Control Panel](/links/manager){.external}.
+Once the transfer procedure is complete, you can manage your domain from the [OVHcloud Control Panel](/links/manager).
 
 To do this, go to `Web Cloud`{.action} and open `Domain names`{.action} in the services bar, then click on the domain name concerned.
 

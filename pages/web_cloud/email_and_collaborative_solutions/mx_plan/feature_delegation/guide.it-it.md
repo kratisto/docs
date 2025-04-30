@@ -1,7 +1,7 @@
 ---
 title: "MX Plan - Delegare la gestione dei tuoi account email a un'altra persona"
 excerpt: Come delegare la gestione degli account email della tua soluzione MX Plan
-updated: 2021-10-08
+updated: 2025-04-28
 ---
 
 ## Obiettivo <a name="objective"></a>
@@ -37,8 +37,8 @@ La delega offre all'utente di un account email la possibilità di gestire autono
 >
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Email`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
 1. Seleziona il dominio.
 1. Per visualizzare la lista degli account email della tua offerta MX Plan, clicca sulla scheda `Email`{.action}.
 

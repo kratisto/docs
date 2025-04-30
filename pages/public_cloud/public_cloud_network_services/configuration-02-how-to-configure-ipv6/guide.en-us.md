@@ -24,7 +24,7 @@ By default, only the IPv4 address is configured.
 - A Public Cloud instance (any model)
 - Administrative access (sudo) via SSH or remote desktop (Windows) to your server
 - A basic understanding of networking
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -47,7 +47,7 @@ Here is a short glossary of the terms used in this tutorial:
 
 ### Retrieve your network information.
 
-Log in to the OVHcloud Control Panel and open your `Public Cloud`{.action} project. Then click on `Instances`{.action} in the left-hand menu. 
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned. Then click on `Instances`{.action} in the left-hand menu. 
 
 Click on `...`{.action} next to the corresponding instance and click on `Instance details`{.action}.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Gestionar las instancias de Public Cloud'
 excerpt: 'Cómo gestionar las instancias de Public Cloud desde el Panel de configuración de OVHcloud'
-updated: 2024-02-20
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -10,7 +10,7 @@ updated: 2024-02-20
 
 ## Objetivo
 
-Puede gestionar sus instancias de Public Cloud desde el [Panel de configuración](/links/manager).
+Puede gestionar sus instancias de Public Cloud desde el [área de cliente de OVHcloud](/links/manager).
 
 **Esta guía explica las acciones disponibles en el área de cliente de OVHcloud para una instancia de Public Cloud.**
 
@@ -18,15 +18,15 @@ Puede gestionar sus instancias de Public Cloud desde el [Panel de configuración
 
 - Un [proyecto de Public Cloud](https://www.ovhcloud.com/es/public-cloud/) en su cuenta de OVHcloud
 - Una [instancia de Public Cloud](/pages/public_cloud/compute/public-cloud-first-steps) en su proyecto
-- Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager)
+- Tienes acceso a tu [área de cliente de OVHcloud](/links/manager)
 
 ## Procedimiento
 
-Conéctese al [Panel de configuración de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. 
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
 ### Utilizar la interfaz de gestión de instancias
 
-En el menú de la izquierda, haga clic en `Instances`{.action}. 
+En el menú de la izquierda, haga clic en `Instancias`{.action}. 
 
 ![public-cloud](images/compute-2024.png){.thumbnail}
 
@@ -129,7 +129,7 @@ Confirme la solicitud de eliminación en la nueva ventana.
 
 ### Acceder a la consola VNC <a name="accessvnc"></a>
 
-En el menú de la izquierda, haga clic en `Instances`{.action}. En la página de gestión de las instancias, haga clic en el nombre de la instancia en la tabla.
+En el menú de la izquierda, haga clic en `Instancias`{.action}. En la página de gestión de las instancias, haga clic en el nombre de la instancia en la tabla.
 
 A continuación, abra la pestaña `Consola VNC`{.action}.
 

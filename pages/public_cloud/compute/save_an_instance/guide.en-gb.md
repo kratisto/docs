@@ -1,7 +1,7 @@
 ---
 title: Backing up an instance
 excerpt: Find out how to back up a Public Cloud instance in the OVHcloud Control Panel
-updated: 2024-07-03
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -23,7 +23,7 @@ You can create a single backup of an instance or configure a schedule in order t
 > This option is only available through a **Cold Snapshot** for Metal instances. During this process, the Metal instance will be switched to rescue-mode, and once the backup is performed, the instance will reboot back to normal mode.
 >
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then click on `Instances`{.action} in the left-hand menu.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click on `Instances`{.action} in the left-hand menu.
 
 Click on the `...`{.action} button to the right of the instance and select `Create a backup`{.action}.
 
@@ -33,11 +33,11 @@ Enter a name for the backup on the next page. Take note of the pricing informati
 
 ![public-cloud-instance-backup](images/createbackup2.png){.thumbnail}
 
-It is not possible to track the progress of the backup in real time, however, in the `Instance Backup`{.action} section under `Storage`{.action} in the left-hand menu, the status will be displayed as "Backup in progress" during the process.
+It is not possible to track the progress of the backup in real time, however, in the `Instance Backup`{.action} section under **Compute** in the left-hand menu, the status will be displayed as "Backup in progress" during the process.
 
 ![public-cloud-instance-backup](images/backup_in_progress.png){.thumbnail}
 
-Once the backup is complete, it will be available in the `Instance Backup`{.action} section under `Storage`{.action} in the left-hand menu.
+Once the backup is complete, it will be available in the `Instance Backup`{.action} section under **Compute** in the left-hand menu.
 
 ![public-cloud-instance-backup](images/createbackup3.png){.thumbnail}
 
@@ -78,11 +78,11 @@ Enter a name for the automatic backup schedule. Take note of the pricing informa
 
 ### Managing backups and schedules
 
-Schedules can be created and deleted in the `Workflow Management`{.action} section, which is located under `Storage`{.action} in the left-hand menu.
+Schedules can be created and deleted in the `Workflow Management`{.action} section, which is located under **Compute** in the left-hand menu.
 
 ![public-cloud-instance-backup](images/createbackup9.png){.thumbnail}
 
-Your instance backups are managed in the Public Cloud `Instance Backup`{.action} section, which can be found under `Storage`{.action} in the left-hand menu.
+Your instance backups are managed in the Public Cloud `Instance Backup`{.action} section, which can be found under **Compute** in the left-hand menu.
 
 ![public-cloud-instance-backup](images/createbackup10.png){.thumbnail}
 

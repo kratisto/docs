@@ -1,7 +1,7 @@
 ---
 title: 'Attivare la doppia autenticazione su un account Exchange'
 excerpt: 'Come attivare la doppia autenticazione su un account Exchange'
-updated: 2020-03-11
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -34,9 +34,8 @@ Per rafforzare la sicurezza del tuo account Exchange, puoi attivare l’autentic
 Al momento della prima configurazione, è necessario attivare la doppia autenticazione sulla piattaforma prima di attivarla su un account.
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 1. Quindi seleziona la scheda `Sicurezza`{.action} della tua piattaforma
 1. Clicca su `Attiva`{.action}, sotto alla voce “Doppia autenticazione”.
@@ -65,9 +64,8 @@ Per le connessioni successive, sarà necessario inserire solo il codice generato
 La doppia autenticazione può essere disattivata in tre modi diversi:
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Microsoft`{.action}.
-1. Clicca su `Exchange`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 1. Seleziona la piattaforma interessata.
 1. Dalla scheda `Account email`{.action} della piattaforma Exchange, clicca sui tre puntini `...`{.action} a destra dell’account su cui la doppia autenticazione è già attiva.
 

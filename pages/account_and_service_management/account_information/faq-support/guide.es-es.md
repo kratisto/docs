@@ -1,7 +1,7 @@
 ---
 title: FAQ en el soporte de OVHcloud
 excerpt: Encuentre las preguntas más frecuentes en el soporte de OVHcloud
-updated: 2024-11-15
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -59,7 +59,7 @@ Cree una solicitud de asistencia en el [Centro de ayuda de OVHcloud](https://hel
 
 ### ¿Qué nivel de soporte tengo?
 
-Puede consultar el nivel de soporte asociado a su ID de cliente en la columna derecha del panel de gestión de su área de cliente, justo debajo de las iniciales de su nombre y apellido. Si no ha contratado ningún servicio de soporte de pago, tiene el nivel Standard.
+Para conocer el nivel de soporte asociado a su ID de cliente, conéctese a su [área de cliente de OVHcloud](/links/manager) y haga clic en su nombre en la parte superior derecha. El nivel de soporte aparece a la derecha de **Soporte**. Si no ha contratado un servicio de soporte de pago, se beneficia por defecto del nivel Standard.
 
 Descubra y compare los diferentes niveles de soporte disponibles [aquí](/links/support).
 

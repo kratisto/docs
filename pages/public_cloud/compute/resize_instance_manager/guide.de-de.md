@@ -1,7 +1,7 @@
 ---
 title: Änderung der Größe einer Instanz im Kundencenter
 excerpt: Erfahren Sie hier, wie Sie die Größe einer Instanz in OVHcloud Kundencenter ändern
-updated: 2022-08-24
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -32,7 +32,7 @@ Durch einen Anstieg der Last oder aufgrund neuer Anforderungen kann es mit der Z
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie im linken Menü auf `Instances`{.action}.
+Loggen Sie sich im [OVHcloud Kundencenter](/links/manager) ein, gehen Sie in den Bereich `Public Cloud`{.action} und wählen Sie das betreffende Public Cloud Projekt aus. Klicken Sie im linken Menü auf `Instanzen`{.action}.
 
 Klicken Sie in der Instanzenverwaltung auf `...`{.action} rechts neben der Instanz und wählen Sie `Bearbeiten`{.action}.
 

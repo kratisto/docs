@@ -1,7 +1,7 @@
 ---
 title: OVHcloud Support FAQ
 excerpt: Hier finden Sie die häufigsten Fragen zum OVHcloud Support
-updated: 2024-11-15
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -59,7 +59,7 @@ Erstellen Sie eine Support-Anfrage im [OVHcloud Help Center](https://help.ovhclo
 
 ### Wo kann ich mein Support-Level finden?
 
-Das mit Ihrer Kundenkennung verbundene Support-Level wird auf dem Dashboard Ihres Kundencenters angezeigt: Es steht unter Ihren Initialen. Wenn Sie sich für keinen zahlungspflichtigen Support registriert haben, ist Ihnen automatisch der Standard Support zugeordnet.
+Um den Support-Level für Ihre Kundenkennung zu ermitteln, loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und klicken Sie oben rechts auf Ihren Namen. Der Support-Level wird rechts neben **Support** angezeigt. Wenn Sie keinen kostenpflichtigen Support abonniert haben, erhalten Sie standardmäßig den Standard-Support-Level.
 
 Entdecken und vergleichen Sie [hier](/links/support) die verfügbaren Support-Level.
 

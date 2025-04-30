@@ -1,7 +1,7 @@
 ---
 title: "Envoyer une campagne de fax depuis l'espace client OVHcloud"
 excerpt: 'Découvrez comment préparer et envoyer une campagne de fax depuis votre espace client OVHcloud'
-updated: 2022-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -15,11 +15,15 @@ Vous pouvez envoyer une campagne de fax depuis votre espace client OVHcloud. Cel
 - Disposer d’une [ligne Fax OVHcloud](/links/telecom/fax).
 - Être connecté à votre [espace client OVHcloud](/links/manager-telecom).
 
+![espace client Telecom Fax](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-02-fr-voip.png){.thumbnail}
+
 ## En pratique
 
 ### Configurer et déclencher une campagne de fax
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom) puis sélectionnez `Télécom`{.action}. Cliquez sur `Téléphonie`{.action} puis sur le groupe ou se trouve votre ligne Fax.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Fax.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne Fax concernée.
 
 Cliquez sur l'onglet `Fax`{.action} puis sur `Campagnes de fax`{.action}.
 

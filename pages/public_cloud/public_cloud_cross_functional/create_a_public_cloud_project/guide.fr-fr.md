@@ -1,7 +1,7 @@
 ---
 title: 'Créer votre premier projet Public Cloud'
 excerpt: 'Découvrez comment créer votre premier projet Public Cloud depuis l’espace client OVHcloud'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -29,7 +29,7 @@ Après en avoir pris connaissance, validez les termes des contrats en cochant la
 
 Une fois le processus de création terminé, votre nouveau projet Public Cloud sera visible en haut à gauche de la section `Public Cloud`{.action} de votre espace client OVHcloud :
 
-![nouveau projet créé](images/public-cloud-interface.png){.thumbnail width="400"}
+![nouveau projet créé](images/pci-interface-2025.png){.thumbnail width="400"}
 
 Vous avez dorénavant accès à tout l'ecosystème Public Cloud OVHcloud, découvrez cette nouvelle interface de votre espace client en parcourant notre guide « [Se familiariser avec l'interface Public Cloud](/pages/public_cloud/public_cloud_cross_functional/03-public-cloud-interface-walk-me) ».
 

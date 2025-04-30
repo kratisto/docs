@@ -1,7 +1,7 @@
 ---
 title: 'Déployer une instance GPU'
 excerpt: 'Découvrez comment déployer une instance GPU sous Linux ou Windows'
-updated: 2024-07-17
+updated: 2025-04-24
 ---
 
 ## Objectif

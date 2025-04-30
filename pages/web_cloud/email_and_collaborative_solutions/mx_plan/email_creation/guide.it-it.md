@@ -1,7 +1,7 @@
 ---
 title: 'Creare un account email con MX Plan'
 excerpt: 'Questa guide ti mostra come aggiungere una casella di posta elettronica sulla soluzione MX Plan'
-updated: 2024-06-13
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -27,8 +27,8 @@ Una soluzione email MX Plan è stata appena creata per usufruire di indirizzi em
 In base alla data di attivazione o in caso di recente migrazione del servizio, la versione disponibile sarà differente. Prima di procedere, è necessario identificarla.
 
 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
-1. Clicca sulla scheda `Web Cloud`{.action}.
-1. Clicca su `Email`{.action}.
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
 1. Seleziona il dominio.
 
 Prosegui nella lettura di questa guida in base alla versione di cui disponi.

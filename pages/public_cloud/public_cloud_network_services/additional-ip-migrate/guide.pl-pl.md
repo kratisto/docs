@@ -1,7 +1,7 @@
 ---
 title: Przeniesienie adresu Additional IP
 excerpt: "Przeniesienie adresu Additional IP"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,7 +24,7 @@ W tym przewodniku wyjaśniono, jak przenieść adres Additional IP (używany w p
 
 - Co najmniej dwie działające instancje Public Cloud
 - Adres Additional IP
-- Dostęp do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl)
+- Dostęp do [Panelu klienta OVHcloud](/links/manager)
 
 > [!warning]
 > Ta funkcja nie jest aktualnie dostępna dla instancji Metal.
@@ -37,9 +37,9 @@ W tym przewodniku wyjaśniono, jak przenieść adres Additional IP (używany w p
 > Dodatkowy adres IP nie może być przenoszony między różnymi strefami. Na przykład adres IP zlokalizowany w centrum danych SBG może zostać przeniesiony do GRA lub RBX, ale nie do BHS.
 >
 
-W [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl) wybierz Twój projekt w sekcji `Public Cloud`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-W menu po lewej stronie przejdź do sekcji `Network`, a następnie otwórz część `Public IPs`{.action}. Kliknij kartę `Additional IP`{.action}.
+W menu po lewej stronie przejdź do sekcji **Sieć**, a następnie otwórz część `Publiczne adresy IP`{.action}. Kliknij kartę `Additional IP`{.action}.
 
 W tym przykładzie adres Additional IP przekierowany na "Instance_A" zostanie przeniesiony na "Instance_B".
 

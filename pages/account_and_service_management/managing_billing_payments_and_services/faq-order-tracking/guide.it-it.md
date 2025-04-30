@@ -1,7 +1,7 @@
 ---
 title: "FAQ sullo stato dell'ordine OVHcloud"
 excerpt: "Scopri le domande più frequenti sul monitoraggio degli ordini OVHcloud"
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -14,21 +14,19 @@ Il pagamento dell'ordine può essere effettuato solo dopo l'identificazione tram
 
 #### Consigli e suggerimenti
 
-Se hai chiuso la pagina del tuo ordine, è possibile visualizzarla ed effettuare il pagamento dallo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), sezione `I tuoi ordini`{.action}.
+Sei uscito dalla pagina dell'ordine? Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I tuoi ordini`{.action}. A questo punto è possibile visualizzare l’ordine e saldarlo.
 
 ### Come verificare lo stato di un pagamento?
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) e, nel menu di scelta rapida nella parte destra dell’interfaccia, clicca su `Fatture`{.action}. Per le fatture in attesa di pagamento, verrà richiesto di provvedere al saldo direttamente nella dashboard.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Le mie fatture`{.action}. Se una fattura è in attesa di pagamento, direttamente sul pannello di controllo, ti verrà proposto di saldare il saldo.
 
 #### Consigli e suggerimenti
 
-Per pagare in modo automatico le fatture è possibile impostare una modalità di pagamento predefinita nella sezione `Metodi di pagamento`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei metodi di pagamento`{.action}. Potrete allora registrare il vostro metodo di pagamento. In questo modo le fatture vengono saldate automaticamente.
 
 ### Come verificare lo stato di un ordine?
 
-Accedendo allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), nella parte centrale della dashboard viene mostrato lo stato dell’ultimo ordine effettuato. Per visualizzare la lista completa, clicca su `Visualizza i tuoi ordini`{.action}.
-
-![stato di un ordine](images/order_final-min.gif){.thumbnail}
+Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca su `Visualizza i tuoi ordini`{.action}.
 
 #### Consigli e suggerimenti
 
@@ -62,7 +60,7 @@ Un’altra possibile causa potrebbe essere il mancato pagamento di una fattura. 
 
 #### Consigli e suggerimenti
 
-Nella sezione `Metodi di pagamento`{.action} dello Spazio Cliente è possibile salvare un metodo di pagamento predefinito per saldare automaticamente le proprie fatture.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `I miei metodi di pagamento`{.action}. Potrete allora registrare il vostro metodo di pagamento. In questo modo le fatture vengono saldate automaticamente.
 
 ## Per saperne di più
 

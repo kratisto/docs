@@ -21,7 +21,7 @@ Das Konfigurieren der OpenStack Umgebungsvariablen auf Ihrem lokalen Gerät erm�
 Um die Umgebungsvariablen zu erhalten, können Sie die *OpenRC*-Datei von Ihrem zuvor erstellten OpenStack User-Account herunterladen.
 
 Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wechseln Sie zum Bereich `Public Cloud`{.action}. Wählen Sie Ihr Public Cloud Projekt oben links aus.
-<br>Öffnen Sie `Users & Roles`{.action} unter `Project Management` im linken Menü. klicken Sie auf `...`{.action} rechts von Ihrem Benutzer und wählen Sie dann `RC-Datei von OpenStack herunterladen`{.action}.
+<br>Öffnen Sie `User und Rollen`{.action} unter **Einstellungen** im linken Menü. klicken Sie auf `...`{.action} rechts von Ihrem Benutzer und wählen Sie dann `RC-Datei von OpenStack herunterladen`{.action}.
 
 ![openstack-variables](images/pciopenstackvariables1e.png){.thumbnail}
 

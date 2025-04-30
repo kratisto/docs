@@ -1,7 +1,7 @@
 ---
 title: Conectarse al área de cliente de OVHcloud
 excerpt: 'Cómo autenticarse en su cuenta de OVHcloud'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -19,7 +19,7 @@ La gestión de sus servicios se realiza principalmente desde el área de cliente
 
 ### Conectarse al área de cliente de OVHcloud
 
-Acceda a [la página de autenticación de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es){.external} e introduzca su identificador de cliente (o su dirección de correo electrónico principal) y su contraseña.
+Acceda a [la página de autenticación de OVHcloud](/links/manager) e introduzca su identificador de cliente (o su dirección de correo electrónico principal) y su contraseña.
 
 ![identifiant client](images/log-in.png){.thumbnail}
 
@@ -31,7 +31,7 @@ Esta guía explica cómo solucionar los casos frecuentes de fallo de conexión a
 
 #### No conozco mi identificador de cliente, ¿cómo encontrarlo?
 
-El ID de cliente de OVHcloud, que se presenta como **xx1111-ovh**, se le solicitará invariablemente cuando se conecte a su cuenta o se ponga en contacto con el soporte técnico de OVHcloud. Existen varias maneras de encontrarlo.
+El ID de cliente de OVHcloud, que se presenta como **aa00000-ovh**, se le solicitará invariablemente cuando se conecte a su cuenta o se ponga en contacto con el soporte técnico de OVHcloud. Existen varias maneras de encontrarlo.
 
 ##### **En los mensajes de correo electrónicos enviados por OVHcloud**
 

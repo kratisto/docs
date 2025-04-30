@@ -1,7 +1,7 @@
 ---
 title: 'Mailinglisten verwalten und nutzen'
 excerpt: 'Erfahren Sie hier, wie Sie Mailinglisten verwenden'
-updated: 2024-08-07
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -49,7 +49,7 @@ Um Ihre Mailingliste zu erstellen:
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails`{.action}.
+1. Klicken Sie auf `MX Plan`{.action}.
 1. Wählen Sie die betreffende Domain aus.
 1. Wechseln Sie zur Registerkarte `Mailinglisten`{.action} Ihres E-Mail-Dienstes.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Utilizzare gli alias e i reindirizzamenti email'
 excerpt: 'Come gestire gli alias e i reindirizzamenti email'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -81,7 +81,12 @@ Fare clic sulle schede seguenti per illustrare il funzionamento di alias e reind
 >
 > In base alla data di attivazione della tua offerta MX Plan o in caso di recente migrazione della soluzione, è possibile che tu disponga della versione storica o della nuova versione dell'offerta. Prima di proseguire, è necessario identificarla.<br>
 >
-> Accedi alla sezione `Web Cloud`{.action} dello [Spazio Cliente OVHcloud](/links/manager). Clicca su `Email`{.action} e seleziona il servizio MX Plan interessato. Prosegui nella lettura di questa guida in base alla versione di cui disponi:<br>
+> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+> 1. Accedi alla sezione `Web Cloud`{.action}.
+> 1. Clicca su `MX Plan`{.action}.
+> 1. Seleziona il dominio.
+>
+> Prosegui nella lettura di questa guida in base alla versione di cui disponi:<br>
 >
 > |Vecchia versione della soluzione MX Plan|Nuova versione della soluzione MX Plan|
 > |---|---|
@@ -164,7 +169,7 @@ Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca sulla sezione `We
 
 - **Email Pro**: in `Email Pro`{.action}, seleziona la piattaforma e clicca sulla scheda `Account email`{.action}.
 
-- **Email** (MXplan): in `Email`{.action}, seleziona la piattaforma e clicca sulla scheda `Account email`{.action}.
+- **MXplan**: in `MX Plan`{.action}, seleziona la piattaforma e clicca sulla scheda `Account email`{.action}.
 
 Per aggiungere un alias al tuo account email, segui gli step descritti cliccando poi su ogni scheda qui sotto:
 
@@ -194,7 +199,10 @@ Clicca sui tre puntini `...`{.action} a destra dell'alias in questione nel menu 
 
 ### Creare un reindirizzamento o un alias su una soluzione MX Plan storica o un dominio senza offerta email <a name="mxplanlegacy"></a>
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e clicca sulla sezione `Web Cloud`. Clicca sulla sezione `Email`{.action}:
+1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
+1. Accedi alla sezione `Web Cloud`{.action}.
+1. Clicca su `MX Plan`{.action}.
+1. Seleziona il dominio.
 
 > [!warning]
 >

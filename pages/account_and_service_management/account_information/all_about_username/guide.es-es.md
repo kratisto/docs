@@ -1,7 +1,7 @@
 ---
 title: 'Proteger mi cuenta de OVHcloud y gestionar mis datos personales'
 excerpt: 'Esta guía explica cómo optimizar la seguridad de su cuenta de OVHcloud, gestionar sus datos personales y delegar el acceso a su cuenta'
-updated: 2021-07-01
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -53,11 +53,9 @@ Si todavía no lo ha hecho, guarde su contraseña en un [gestor de contraseñas]
 En caso de dificultad de acceso a su dirección de correo electrónico principal, una dirección de correo electrónico alternativa permite conservar el acceso a su cuenta y, por tanto, a la gestión de sus servicios.
 <br>Esta segunda dirección **debe ser diferente** de la primera, especialmente para facilitar sus trámites en caso de recuperación de contraseña.
 
-Para introducir esta dirección de correo electrónico alternativa, haga clic en su nombre en la parte superior derecha de su cuenta y, seguidamente, en sus iniciales.
+Para introducir esta dirección de correo electrónico alternativa, haga clic en su nombre en la esquina superior derecha de su [área de cliente de OVHcloud](/links/manager) y seleccione en `Acceder a mi cuenta`{.action}.
 
-Haga clic en el cuadro `Mi perfil` en el botón `...`{.action} y luego en `Editar mi perfil`{.action}.
-
-![dirección de correo electrónico alternativa](images/edit-profile.png){.thumbnail}
+Haga clic en el cuadro `Mi perfil` y luego en `Editar mi perfil`{.action}.
 
 > [!warning]
 > Le recordamos que es **fundamental** que la dirección de correo electrónico alternativa sea **diferente** de la dirección de correo electrónico principal de la cuenta.
@@ -78,11 +76,9 @@ Para más información, consulte nuestra guía [Proteger su cuenta de OVHcloud c
 
 #### Editar mis datos personales
 
-Puede modificar la información de su cuenta desde el [área de cliente de OVHcloud](/links/manager). Para ello, haga clic en su nombre en la esquina superior derecha del área de cliente y seleccione sus iniciales.
+Puede modificar la información de su cuenta desde el [área de cliente de OVHcloud](/links/manager). Para ello, haga clic en su nombre en la esquina superior derecha de su [área de cliente de OVHcloud](/links/manager) y seleccione en `Acceder a mi cuenta`{.action}.
 
-Haga clic en el botón `...`{.action} en el recuadro `Mi perfil` y seleccione `Editar mi perfil`{.action}.
-
-![ID cliente](images/edit-profile.png){.thumbnail}
+Haga clic en el cuadro `Mi perfil` y luego en `Editar mi perfil`{.action}.
 
 Modifique sus datos y haga clic en el botón `«Aceptar»`{.action}.
 

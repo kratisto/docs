@@ -1,7 +1,7 @@
 ---
 title: "Comment obtenir l'empreinte carbone de vos services OVHcloud"
 excerpt: "Découvrez comment récupérer l'empreinte carbone mensuelle des services OVHcloud grâce à notre calculatrice carbone"
-updated: 2025-02-28
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -40,9 +40,8 @@ Plusieurs points sont à prendre en compte :
 ### Récupérer le bilan mensuel du mois précédent via l'espace client OVHcloud
 
 1. Connectez-vous à l'[espace client OVHcloud](/links/manager).
-1. Cliquez sur le nom de votre compte en haut à droite, puis de nouveau sur votre nom dans la barre latérale qui apparaît à droite.
-1. Sur la nouvelle page qui s'affiche et dans la colonne de gauche, cliquez sur l'onglet `Mon empreinte Carbone`{.action}.
-1. Sur la page qui apparaît, cliquez sur `Télécharger mon empreinte de [Mois] [Année]`{.action}.
+1. Sur la page qui s'affiche et dans la colonne de gauche, descendez jusqu'à la section **Liens utiles**, puis cliquez sur l'onglet `Mon bilan carbone`{.action}.
+1. Sur la nouvelle page qui apparaît, cliquez sur `Télécharger mon empreinte de [Mois] [Année]`{.action}.
 
 ![Carbon footprint](/pages/assets/screens/control_panel/product-selection/right-column/carbon-footprint/my-carbon-footprint.png){.thumbnail}
 

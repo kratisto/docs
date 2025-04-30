@@ -1,7 +1,7 @@
 ---
 title: 'Configurar la política de seguridad de un servicio de correo'
 excerpt: 'Esta guía explica cómo configurar la política de seguridad de un servicio de correo'
-updated: 2021-08-31
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -13,7 +13,7 @@ El servicio de correo de OVHcloud permite disfrutar de direcciones de correo pro
 ## Requisitos
 
 - Tener un [plan de correo en OVHcloud](/links/web/emails).
-- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager) y accedido a la sección `«Web»`{.action}.
+- Haber iniciado sesión en el [área de cliente de OVHcloud](/links/manager) y accedido a la sección `Web Cloud`{.action}.
 
 ## Procedimiento
 
@@ -24,16 +24,16 @@ En un servicio de correo, es posible configurar la política de seguridad para a
 - reforzar la comprobación de los mensajes entrantes en nuestros servidores destinados a sus direcciones de correo (solo para las cuentas [Exchange](/links/web/emails-hosted-exchange));
 - determinar cómo se mostrarán los mensajes no deseados en sus buzones de correo (solo para las cuentas [Exchange](/links/web/emails-hosted-exchange)).
 
-Para acceder a la política de seguridad de su servicio de correo, conéctese al [área de cliente de OVHcloud](/links/manager), y diríjase a la sección `Web Cloud`{.action}. 
+Para acceder a la política de seguridad de su servicio de correo, conéctese al [área de cliente de OVHcloud](/links/manager), y diríjase a la sección `Web Cloud`{.action}.
 
-|Correo electrónico y Email Pro|Exchange| 
-|---|---| 
-|Haga clic en `Correo electrónico`{.action} o `Email Pro`{.action} y seleccione el servicio correspondiente. Haga clic en `Más`{.action} y seleccione `Editar la política de seguridad`{.action}.| Haga clic en `Microsoft`{.action}, después en `Exchange`{.action}, y seleccione el servicio correspondiente. Haga clic en `Más` y seleccione `Editar la política de seguridad`{.action}|
+|Correo electrónico y Email Pro|Exchange|
+|---|---|
+|Haga clic en `MX Plan`{.action} o `Email Pro`{.action} y seleccione el servicio correspondiente. Haga clic en `Más`{.action} y seleccione `Editar la política de seguridad`{.action}.| Haga clic en `Microsoft`{.action}, después en `Exchange`{.action}, y seleccione el servicio correspondiente. Haga clic en `Más` y seleccione `Editar la política de seguridad`{.action}|
 |![Política de seguridad Exchange](images/manage-security01.png){.thumbnail}|![Política de seguridad Exchange](images/manage-security02.png){.thumbnail}|
 
 > [!primary]
 >
-> Si no encuentra la pestaña `Más`{.action} en el panel de control de su solución de correo, significa que está en una solución MX Plan histórica. No hay gestión de la política de seguridad en la solución MX Plan histórica.
+> Si no encuentra la pestaña `Más`{.action} en el panel de control de su solución `MX Plan`{.action}, significa que está en una solución MX Plan histórica. No hay gestión de la política de seguridad en la solución MX Plan histórica.
 
 Continúe leyendo esta guía en el apartado correspondiente a la acción que desee realizar:
 

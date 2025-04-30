@@ -1,7 +1,7 @@
 ---
 title: Using instance backups to create or restore an instance
 excerpt: Find out how to restore an instance or create a new one from a backup
-updated: 2021-03-19
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -23,7 +23,7 @@ You can make use of these instance backups for two basic purposes:
 
 ### Creating an instance from a backup
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then Click `Instance backup`{.action} under the `Storage` section.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click `Instance backup`{.action} under the **Compute** section.
 
 ![public-cloud-instance-backup](images/restorebackup01.png){.thumbnail}
 
@@ -47,12 +47,12 @@ For further information on creating an instance, please refer to [this guide](/p
 
 > [!primary]
 >
->In order to create the instance in a different data centre, you will first need to transfer the backup to the appropriate region. Please refer to our guide to [transferring an instance backup](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another).
+> In order to create the instance in a different data centre, you will first need to transfer the backup to the appropriate region. Please refer to our guide to [transferring an instance backup](/pages/public_cloud/compute/transfer_instance_backup_from_one_datacentre_to_another).
 >
 
 ### Restoring an instance from a backup
 
-Log in to the [OVHcloud Control Panel](/links/manager) and switch to the `Public Cloud`{.action} section. Click on `Instances`{.action} in the left-hand sidebar.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Click on `Instances`{.action} in the left-hand sidebar.
 
 ![public-cloud-instance-backup](images/restorebackup04.png){.thumbnail}
 
@@ -75,7 +75,7 @@ The instance will have the status `Re-installation` until the process is complet
 
 > [!warning]
 >
->As stated in the warning message, any data added after the backup creation will be lost.
+> As stated in the warning message, any data added after the backup creation will be lost.
 >
 
 ## Go further

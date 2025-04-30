@@ -1,7 +1,7 @@
 ---
 title: 'Creare un’istanza GPU'
 excerpt: 'Scopri come creare un’istanza GPU con Linux o Windows'
-updated: 2024-07-17
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -38,7 +38,7 @@ Tutte le immagini proposte da OVHcloud sono compatibili con le istanze GPU.
 > Se preferisci non compilare manualmente il modulo del kernel, ti consigliamo di utilizzare una distribuzione ufficialmente supportata da Nvidia e per la quale esistono dei driver *pronti all’uso*: <https://developer.nvidia.com/cuda-downloads>
 > 
 
-Una volta connesso allo [Spazio Cliente OVHcloud](/links/manager), clicca sulla scheda `Public Cloud`{.action}. Seleziona il tuo progetto Public Cloud e clicca su `Instances`{.action} nel menu a sinistra sotto la scheda **Compute**. Clicca su `Crea un’istanza`{.action} e seleziona un’istanza GPU compatibile:
+Una volta connesso allo [Spazio Cliente OVHcloud](/links/manager), clicca sulla scheda `Public Cloud`{.action}. Seleziona il tuo progetto Public Cloud e clicca su `Istanze`{.action} nel menu a sinistra sotto la scheda **Compute**. Clicca su `Crea un’istanza`{.action} e seleziona un’istanza GPU compatibile:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 
@@ -106,7 +106,7 @@ OVHcloud fornisce immagini speciali, basate su un BIOS virtuale UEFI, che permet
 > Offriamo la possibilità di installare le immagini speciali su alcuni modelli selezionati (T1-45, T1-90, T1-180, T2-45, T2-90, T2-180). Inoltre, a seconda della regione selezionata, queste immagini speciali potrebbero non essere disponibili.
 >
 
-Una volta connesso al [tuo Spazio Cliente OVHcloud](/links/manager), accedi al tuo progetto Public Cloud e clicca su `Instances`{.action} nel menu a sinistra sotto la scheda **Compute**. Clicca su `Crea un’istanza`{.action} e seleziona un’istanza GPU compatibile:
+Una volta connesso al [tuo Spazio Cliente OVHcloud](/links/manager), accedi al tuo progetto Public Cloud e clicca su `Istanze`{.action} nel menu a sinistra sotto la scheda **Compute**. Clicca su `Crea un’istanza`{.action} e seleziona un’istanza GPU compatibile:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 

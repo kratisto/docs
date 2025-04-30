@@ -1,7 +1,7 @@
 ---
 title: "Se connecter à l'espace client OVHcloud"
 excerpt: 'Découvrez comment vous authentifier sur votre compte OVHcloud'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ La gestion de vos services s'effectue principalement via l'espace client OVHclou
 
 ### Se connecter à l'espace client OVHcloud
 
-Rendez-vous sur [la page d'authentification OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr){.external}, renseignez votre identifiant client (ou votre adresse e-mail principale) et votre mot de passe.
+Rendez-vous sur [la page d'authentification OVHcloud](/links/manager), renseignez votre identifiant client (ou votre adresse e-mail principale) et votre mot de passe.
 
 ![identifiant client](images/log-in-fr.png){.thumbnail}
 
@@ -33,7 +33,7 @@ La suite de ce guide vous donne des méthodes pour résoudre les cas fréquents 
 
 #### Je ne connais pas mon identifiant client, comment le retrouver ?
 
-L'identifiant client OVHcloud, qui se présente sous la forme **xx11111-ovh**, vous sera invariablement demandé lorsque vous vous connecterez à votre compte ou que vous contacterez l'assistance technique d'OVHcloud. Vous pouvez le retrouver de différentes manières.
+L'identifiant client OVHcloud, qui se présente sous la forme **aa00000-ovh**, vous sera invariablement demandé lorsque vous vous connecterez à votre compte ou que vous contacterez l'assistance technique d'OVHcloud. Vous pouvez le retrouver de différentes manières.
 
 ##### **Dans les e-mails envoyés par OVHcloud**
 
@@ -52,7 +52,7 @@ Si vous ne retrouvez pas votre identifiant, sachez que vous pouvez vous connecte
 Une fois connecté, vous pourrez prendre note de votre identifiant qui est affiché dans votre espace client, en cliquant sur votre nom en haut à droite.
 <br>Il apparaît sous votre adresse e-mail principale.
 
-![identifiant client](images/customer-id-manager-fr.png){.thumbnail}
+![identifiant client](/pages/assets/screens/control_panel/product-selection/right-menu/id.png){.thumbnail}
 
 ### J'ai perdu mon mot de passe
 

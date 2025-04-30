@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configurar una cuenta en la interfaz web de Gmail'
 excerpt: 'Cómo configurar una cuenta Email Pro en la interfaz web de Gmail'
-updated: 2025-02-17
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -36,7 +36,11 @@ Es posible configurar sus cuentas Email Pro en el cliente de correo que usted ut
 >
 > En nuestro ejemplo, hemos utilizado la mención servidor: pro?.mail.ovh.net. Sustituya la «?» por la cifra que designa al servidor de su servicio Email Pro.
 >
-> Puede consultar esta cifra en su [área de cliente de OVHcloud](/links/manager), en la sección `Web Cloud`{.action} y `Email Pro`{.action}. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
+> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+> 1. Acceda al apartado `Web Cloud`{.action}.
+> 1. Haga clic en `Email Pro`{.action}.
+> 1. Seleccione la plataforma correspondiente.
+> 1. El nombre del servidor aparece en el marco **Conexión** de la pestaña `Información general`{.action}.
 >
 
 En primer lugar, acceda a la interfaz web de Gmail desde su navegador de internet. Introduzca la información de su cuenta Gmail y conéctese.

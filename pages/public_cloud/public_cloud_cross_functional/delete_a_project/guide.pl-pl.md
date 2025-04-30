@@ -29,11 +29,11 @@ Po usunięciu projektu, zasoby, które on zawiera są nieodwracalnie utracone. O
 
 ## W praktyce
 
-Zaloguj się do Twojego [Panelu client OVHcloud](/links/manager) i wybierz `Public Cloud`{.action} na górnym pasku menu.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-Wybierz Twój projekt, a następnie kliknij `Project settings`{.action} w części `Project Management` w dolnej części menu po lewej stronie.
+Kliknij `Parametry projektu`{.action} w części **Ustawienia** w dolnej części menu po lewej stronie.
 
-![menu](images/deleteproject.png){.thumbnail}
+![menu](images/delete-project-2025.png){.thumbnail}
 
 Kliknij przycisk `Usuń projekt`{.action}.
 

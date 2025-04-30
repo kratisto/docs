@@ -1,7 +1,7 @@
 ---
 title: 'Effectuer un changement de contacts pour vos groupes de téléphonie'
 excerpt: "Découvrez comment déléguer la gestion d'un groupe de téléphonie à un autre compte OVHcloud."
-updated: 2023-12-22
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -47,7 +47,7 @@ OVHcloud vous permet de différencier la gestion administrative, technique et de
 >
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Téléphonie`{.action} puis sur le groupe de facturation souhaité.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation souhaité.
 1. Cliquez sur l'onglet `Gestion des contacts`{.action}.
 
 ![gestion des contacts](images/gestion-contacts01.png){.thumbnail}

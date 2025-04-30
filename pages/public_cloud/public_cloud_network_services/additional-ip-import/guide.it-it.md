@@ -1,7 +1,7 @@
 ---
 title: Importa un Additional IP
 excerpt: "Come importare un Additional IP nel tuo progetto Public Cloud"
-updated: 2023-01-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -24,8 +24,8 @@ Per configurare un indirizzo Additional IP sulle tue istanze Public Cloud, ad es
 ## Prerequisiti
 
 - Un [progetto Public Cloud](https://www.ovhcloud.com/it/public-cloud/) nel tuo account OVHcloud
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}
-- Un [indirizzo Additional IP](https://www.ovhcloud.com/it/bare-metal/ip/){.external}
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
+- Un [indirizzo Additional IP](https://www.ovhcloud.com/it/bare-metal/ip/)
 
 > [!warning]
 > Questa funzionalità al momento non è disponibile per le istanze Metal.
@@ -33,9 +33,9 @@ Per configurare un indirizzo Additional IP sulle tue istanze Public Cloud, ad es
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) e seleziona il tuo progetto nella sezione `Public Cloud `{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato.
 
-Nel menu a sinistra, apri `Public IP`{.action} in `Network`.
+Nel menu a sinistra, apri `IP pubblici`{.action} in **Network**.
 
 Apri la scheda `Additional IP`{.action} e clicca sul pulsante `Azioni`{.action}. Seleziona `Importa un Additional IP`{.action} per visualizzare tutti gli indirizzi IP che possono essere importati nel tuo progetto Public Cloud.
 
@@ -74,6 +74,6 @@ Il prossimo step consiste nel configurare l'IP nel tuo sistema operativo. Consul
 
 ## Per saperne di più 
 
-Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](https://www.ovhcloud.com/it/professional-services/) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
+Se avete bisogno di formazione o di assistenza tecnica per implementare le nostre soluzioni, contattate il vostro rappresentante o cliccate su [questo link](/links/professional-services) per ottenere un preventivo e richiedere un'analisi personalizzata del vostro progetto da parte dei nostri esperti del team Professional Services.
 
-Contatta la nostra Community di utenti all’indirizzo <https://community.ovh.com/en/>.
+Contatta la nostra [Community di utenti](/links/community).

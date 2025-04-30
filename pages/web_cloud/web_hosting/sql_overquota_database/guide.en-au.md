@@ -68,7 +68,7 @@ To connect to the database via phpMyAdmin, click on the tabs below to view each 
 >>
 >> Click the `Hosting plans`{.action} menu, then select the Web Hosting plan concerned.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Step 3**
 >>
@@ -243,7 +243,7 @@ Click on the tabs below to view each of the **5** steps.
 >>
 >> Click the `Hosting plans`{.action} menu, then select the Web Hosting plan concerned.
 >>
->> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>> ![Web Hosting](/pages/assets/screens/control_panel/product-selection/web-cloud/hosting-plans.png){.thumbnail}
 >>
 > **Step 3**
 >>
@@ -282,7 +282,7 @@ Click on the tabs below to view each of the **3** steps in turn.
 >>
 >> Click the `Web Cloud Databases`{.action} menu, then choose the Web Cloud Databases solution concerned.
 >>
->> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>> ![Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases.png){.thumbnail}
 >>
 > **Step 3**
 >>

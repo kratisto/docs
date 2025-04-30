@@ -1,7 +1,7 @@
 ---
 title: Delegar proyectos
 excerpt: Cómo transferir permisos de acceso a un proyecto de Public Cloud a otras cuentas de OVHcloud
-updated: 2022-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -22,7 +22,7 @@ Para ello, puede delegar en otras cuentas de cliente de OVHcloud permisos de lec
 
 ## Procedimiento 
 
-Conéctese al [Panel de configuración de OVHcloud](/links/manager) y abra su proyecto de `Public Cloud`{.action}. Haga clic en `Contacts and Rights`{.action} en la sección **Project Management**.
+Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección de `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente. Haga clic en `Contactos y permisos`{.action} en la sección **Ajustes**.
 
 Esta página le permite ver los contactos asociados a su proyecto.
 

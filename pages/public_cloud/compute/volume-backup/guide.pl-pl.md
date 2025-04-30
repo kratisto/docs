@@ -1,7 +1,7 @@
 ---
 title: "Tworzenie kopii zapasowej wolumenu"
 excerpt: "Dowiedz się, jak utworzyć kopię zapasową wolumenu Block Storage w Panelu klienta"
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -36,7 +36,7 @@ Wolumen Snapshot oraz Backup Wolumenu pozwalają na:
 
 Zaloguj się do Panelu [klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-Następnie otwórz menu `Block Storage`{.action} na pasku nawigacji po lewej stronie w **usłudze Storage**.
+Następnie otwórz menu `Block Storage`{.action} na pasku nawigacji po lewej stronie w **Storage i Backup**.
 
 Po prawej stronie wybranego wolumenu kliknij przycisk `...`{.action} a następnie `Utwórz kopię zapasową`{.action}. Nie ma potrzeby odłączania najpierw wolumenu od instancji. Jeśli jednak chcesz odłączyć wolumen od instancji, sprawdź tę [sekcję](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#linux) odpowiedniego przewodnika dla systemu Linux i tę [sekcję](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#windows) dla systemu Windows.
 
@@ -67,7 +67,7 @@ Czas tworzenia kopii zapasowej, niezależnie od tego, czy jest to wolumen Snapsh
 
 Snapshot wolumenu lub Backup wolumen to klon całego dysku. Będzie on miał maksymalny rozmiar oryginalnego wolumenu, bez względu na rzeczywistą alokację przestrzeni dyskowej.
 
-Listę kopii zapasowych wolumenu Snapshot znajdziesz w sekcji `Volume Snapshot`{.action} na pasku po lewej stronie.
+Listę kopii zapasowych wolumenu Snapshot znajdziesz w sekcji `Snapshoty wolumenów`{.action} na pasku po lewej stronie.
 Po utworzeniu wolumenu Snapshot zostanie wyświetlony na tej liście.
 
 ![Snapshot - lista](images/volumebackup03.png){.thumbnail}

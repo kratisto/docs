@@ -34,7 +34,7 @@ First, we are going to perform a backup of the Public Cloud instance. The operat
 >
 > Except for Metal instances, this action is transparent and won't reboot your instance.
 
-You need to recover the `openrc.sh` file. In the `Users & Roles`{.action} section of the left-hand menu under "Project Management", click the `...`{.action} button and then `Download OpenStack's RC file`{.action}. A popup will ask you to choose the _Region_ the configuration file should be configured with. Pick the same _Region_ as the Public Cloud instance you want to investigate.
+You need to recover the `openrc.sh` file. In the `Users & Roles`{.action} section of the left-hand menu under "Settings", click the `...`{.action} button and then `Download OpenStack's RC file`{.action}. A popup will ask you to choose the _Region_ the configuration file should be configured with. Pick the same _Region_ as the Public Cloud instance you want to investigate.
 
 ![rc-file](images/rc-file.png){.thumbnail}
 

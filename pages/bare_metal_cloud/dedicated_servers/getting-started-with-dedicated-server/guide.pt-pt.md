@@ -1,7 +1,7 @@
 ---
 title: "Primeiros passos com um servidor dedicado"
 excerpt: "Descubra como gerir um servidor dedicado na sua Área de Cliente e como começar com a configuração e a segurança de um servidor"
-updated: 2024-11-26
+updated: 2025-04-29
 ---
 
 ## Objetivo
@@ -47,12 +47,6 @@ Pode facilmente reinstalar o seu servidor ou escolher outra imagem de SO a insta
 
 ![Botão Reinstalar](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
-Na nova janela, selecione uma das opções de instalação:
-
-- `Instalar a partir de um template OVHcloud`{.action}: pode selecionar o sistema operativo e personalizar a configuração do seu servidor.
-- `Instalar um dos seus templates`{.action}: para poder aplicar um template personalizado, deve ter previamente registado, pelo menos, uma configuração de servidor. Para isso, é necessário selecionar a opção "Registar esta instalação" na etapa 4 do processo de instalação.
-- `Instalar a partir de uma imagem personalizada`{.action}: esta opção permite-lhe instalar uma imagem externa no servidor. Para mais informações, consulte o [guia sobre a funcionalidade Bring Your Own Image](/pages/bare_metal_cloud/dedicated_servers/bring-your-own-image).
-
 > [!primary]
 >
 > Certos sistemas operativos ou plataformas proprietárias, como o Plesk ou o Windows, requerem licenças que geram custos suplementares. Pode comprar licenças [junto da OVHcloud](/links/bare-metal/os) ou junto de um revendedor externo. De seguida, deverá aplicar a sua licença no sistema operativo ou através da Área de [Cliente OVHcloud](/links/manager).
@@ -60,11 +54,7 @@ Na nova janela, selecione uma das opções de instalação:
 > Pode gerir todas as licenças na secção `Bare Metal Cloud`{.action} sob `Licenças`{.action}. Nesta secção, também pode encomendar licenças ou adicionar licenças existentes através do botão `Ações`{.action}.
 >
 
-Clique em `Seguinte`{.action} para continuar.
-
-![Seleção de templates](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
-
-Depois de escolher `Instalar a partir de um template OVHcloud`{.action}, pode selecionar o sistema operativo nos menus pendentes.
+Clique em `Seguinte`{.action} para continuar. Em seguida, selecione o sistema operativo nos menus pendentes.
 
 ![Seleção operacional](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 

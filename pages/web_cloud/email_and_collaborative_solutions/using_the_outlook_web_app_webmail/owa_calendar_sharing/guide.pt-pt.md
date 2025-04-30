@@ -59,7 +59,7 @@ O calendário partilhado passará a estar disponível na interface «Calendário
 
 > [!primary]
 >
-Em geral, é possível partilhar calendários com utilizadores externos. Contudo, pode haver problemas de compatibilidade em função do cliente de e-mail ou do serviço web utilizado. Encontre mais informações na [documentação Microsoft](http://go.microsoft.com/fwlink/?LinkId=57561) oficial.
+> Em geral, é possível partilhar calendários com utilizadores externos. Contudo, pode haver problemas de compatibilidade em função do cliente de e-mail ou do serviço web utilizado. Encontre mais informações na [documentação Microsoft](http://go.microsoft.com/fwlink/?LinkId=57561) oficial.
 >
 
 ### Alterar permissões

@@ -1,7 +1,7 @@
 ---
 title: "Using OpenStack Tokens"
 excerpt: "Find out how to create and use OpenStack tokens for your actions"
-updated: 2023-06-23
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -61,7 +61,7 @@ Windows users can follow this guide to export environment variables:
 
 ### Step 1: Download and source your OpenRC file
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Users & Roles`{.action} in the `Project Management` section, then click on the `...`{.action} button to the right of your OpenStack user.<br>
+Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Users & Roles`{.action} in the **Settings** section, then click on the `...`{.action} button to the right of your OpenStack user.<br>
 
 Download this user's OpenRC file and specify the region where you want to perform actions.
 

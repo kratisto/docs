@@ -1,7 +1,7 @@
 ---
 title: Remplacer la passerelle OVHgateway par un serveur dédié 
 excerpt: "Comment remplacer votre passerelle intégrée à Nutanix par un serveur dédié pour augmenter la bande passante"
-updated: 2024-11-26
+updated: 2025-04-29
 ---
 
 ## Objectif
@@ -97,10 +97,6 @@ Nous allons maintenant installer un système d'exploitation Linux Ubuntu 22 à p
 Rendez-vous dans le menu de votre serveur dédié, cliquez sur l'onglet `Informations générales`{.action} puis sur le bouton `...`{.action} à droite du champ « Dernier système d'exploitation (OS) installé par OVHcloud ». Cliquez sur `Installer`{.action}
 
 ![05 install OS 01](images/05-install-os01.png){.thumbnail}
-
-Laissez la sélection sur `Installer à partir d'un template OVHcloud`{.action} et cliquez sur `Suivant`{.action}.
-
-![05 install OS 02](images/05-install-os02.png){.thumbnail}
 
 Cliquez sur le menu déroulant de sélection des OS.
 

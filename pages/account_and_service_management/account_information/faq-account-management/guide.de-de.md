@@ -1,7 +1,7 @@
 ---
 title: FAQ zur Verwaltung des OVHcloud Accounts
 excerpt: Hier finden Sie die häufigsten Fragen zur Verwaltung des OVHcloud Accounts 
-updated: 2024-07-04
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -10,22 +10,19 @@ Hier finden Sie die häufigsten Fragen zur Verwaltung Ihres OVHcloud Accounts.
 
 ### Wie kann ich einen OVHcloud Account erstellen?
 
-Die Erstellung eines Accounts ist kostenfrei. Über Ihren Account können Sie Ihre Daten einsehen und Ihre Dienstleistungen einfach verwalten. Kicken Sie für die Erstellung eines Account einfach auf diesen [Link](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
-Denken Sie bei der Erstellung des Accounts bitte gleich daran, Ihre persönlichen Informationen mit einer Zwei-Faktor-Authentifizierung zu schützen. Diese aktivieren Sie im Bereich „Mein Account“ unter „Sicherheit“ (siehe auch die folgende Frage „Wie kann ich meinen Account schützen?“).
+Die Erstellung eines Accounts ist kostenfrei. Dieser Bereich vereinfacht den Zugriff auf Ihre Informationen und erlaubt die Verwaltung Ihrer Dienstleistungen. Lesen Sie unsere Anleitung [OVHcloud-Konto erstellen](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
 
-#### Tipps und Tricks
-
-Sie konnten Ihren Standort nicht finden? Ändern Sie die Sprache der Seite, indem Sie rechts oben die passende Flagge auswählen.
+> [!success]
+> Nachdem Sie Ihren Account erstellt haben, denken Sie daran, ihn durch die Einrichtung einer Zwei-Faktor-Authentifizierung zu sichern. Weitere Informationen finden Sie in unserer Anleitung [OVHcloud-Konto mit Zwei-Faktor-Authentifizierung sichern](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa).
 
 ### Wo finde ich meine OVHcloud Kundenkennung?
 
-Ihre Kundenkennung steht auf Ihrer letzten Rechnung oben rechts. Sie sieht so aus: „ab00001-ovh“. Die ersten Buchstaben sind meist die Initialen der Person, die den Account erstellt hat. Diese Kundenkennung finden Sie auch in allen E-Mails von OVHcloud, zum Beispiel in Bestätigungs-E-Mails bei der Erstellung eines Accounts, Verlängerungen und neuen Bestellungen.
+Ihre Kundenkennung steht auf Ihrer letzten Rechnung oben rechts. Sie sieht so aus: „aa00000-ovh“. Die ersten Buchstaben sind meist die Initialen der Person, die den Account erstellt hat. Diese Kundenkennung finden Sie auch in allen E-Mails von OVHcloud, zum Beispiel in Bestätigungs-E-Mails bei der Erstellung eines Accounts, Verlängerungen und neuen Bestellungen.
 
-Haben Sie Ihre Kundenkennung nicht gefunden? Dann können Sie auf den Link „Kennung oder Passwort vergessen“ auf der [Login-Seite](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) des OVHcloud-Accounts klicken. Geben Sie dann die E-Mail-Adresse an, die mit Ihrem Account verbunden ist.
+Haben Sie Ihre Kundenkennung nicht gefunden? Dann können Sie auf den Link „Kennung oder Passwort vergessen“ auf der [Login-Seite](/links/manager) des OVHcloud-Accounts klicken. Geben Sie dann die E-Mail-Adresse an, die mit Ihrem Account verbunden ist.
 
-#### Gut zu wissen:
-
-Wenn Sie in Ihrem Kundencenter angemeldet sind, sehen Sie Ihre Kundenkennung jederzeit rechts oben neben Ihrem Namen.
+> [!success]
+> Wenn Sie in Ihrem Kundencenter angemeldet sind, sehen Sie Ihre Kundenkennung jederzeit rechts oben neben Ihrem Namen.
 
 ### Ich habe keinen Zugriff mehr auf meinen Kunden-Account. Was soll ich tun?
 
@@ -34,9 +31,9 @@ In diesem Fall empfehlen wir [Ihnen diese Hilfestellung](/pages/account_and_serv
 
 ### Wie kann ich meine persönlichen Angaben ändern?
 
-Um Ihre persönlichen Angaben anzuzeigen oder zu ändern, loggen Sie sich mit Ihrer Kundenkennung und Ihrem Passwort im Kundencenter ein. Ihre persönlichen Angaben können Sie einsehen, indem Sie auf Ihre Initialen klicken. Diese sind oben rechts auf dem Dashboard in Ihrem Kundencenter. Gehen Sie danach in den Bereich „Mein Profil“ auf dieser Seite.
+Um Ihre persönlichen Angaben anzuzeigen oder zu ändern, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
-![infos](images/infos-modif_final_comp-min.gif){.thumbnail}
+Im Bereich `Mein Profil`{.action} rechts auf Ihrem Bildschirm (klicken Sie erneut auf Ihren Namen, um das rechte Menü zu schließen) klicken Sie auf `Mein Profil bearbeiten`{.action}.
 
 #### Tipps und Tricks
 
@@ -64,11 +61,11 @@ Gehen Sie auf die Login-Seite für das Kundencenter und wählen Sie „Login ode
 #### Tipps und Tricks
 
 Sollten Sie keinen Zugriff mehr auf Ihre Kontakt-E-Mail-Adresse haben, bitten wir Sie darum, diese auf diesem Wege [herauszufinden](https://www.ovh.de/support/vorgaenge/).
-Sollten Sie Ihre Kundenkennung vergessen haben, finden Sie diese rechts oben auf Ihrer letzten Rechnung. Sie setzt sich wie folgt zusammen: „ab00001-ovh“ (die ersten Buchstaben entsprechen meist den Initialen der Person, die den Account erstellt hat). Die Kundenkennung finden Sie ebenfalls in der Bestätigungs-E-Mail zur Erstellung Ihres Accounts sowie in den Bestätigungs-E-Mails zu neuen Bestellungen oder Verlängerungen.
+Sollten Sie Ihre Kundenkennung vergessen haben, finden Sie diese rechts oben auf Ihrer letzten Rechnung. Sie setzt sich wie folgt zusammen: „aa00000-ovh“ (die ersten Buchstaben entsprechen meist den Initialen der Person, die den Account erstellt hat). Die Kundenkennung finden Sie ebenfalls in der Bestätigungs-E-Mail zur Erstellung Ihres Accounts sowie in den Bestätigungs-E-Mails zu neuen Bestellungen oder Verlängerungen.
 
 ### Wie kann ich meine hinterlegten Kontakte ändern?
 
-Ihn Ihrem Kundencenter können Sie die administrative und technische Verwaltung sowie die Abrechnung Ihrer Dienste auf weitere OVHcloud Kunden-Accounts übertragen. Gehen Sie hierzu in den Bereich „Verwaltung der Kontakte". Sie gelangen über das Banner auf der rechten Seite dort hin.
+Ihn Ihrem Kundencenter können Sie die administrative und technische Verwaltung sowie die Abrechnung Ihrer Dienste auf weitere OVHcloud Kunden-Accounts übertragen. Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}.
 
 Die Übertragung für den jeweiligen Dienst muss sowohl vom Administrator des Dienstes als auch vom neuen Kontakt per E-Mail bestätigt werden.
 
@@ -82,11 +79,10 @@ Weitere Informationen zur Kontaktverwaltung finden Sie hier: [/pages/account_and
 
 ### Wie kann ich einen Rechnungskontakt einstellen oder ändern?
 
-Loggen Sie sich in Ihrem Kundencenter mit Ihrer Kundenkennung und Ihrem Passwort ein. Auf Ihrem Dashboard klicken Sie dann auf den Shortcut „Kontaktverwaltung“ auf dem rechten Banner.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Kontakte`{.action}.
 
-#### Tipps und Tricks
-
-Lesen Sie für mehr Informationen zur Kontaktverwaltung die folgende Anleitung: [Verwaltung der Kontakte Ihrer Dienste](/pages/account_and_service_management/account_information/managing_contacts)
+> [!success]
+> Lesen Sie für mehr Informationen zur Kontaktverwaltung die folgende Anleitung: [Verwaltung der Kontakte Ihrer Dienste](/pages/account_and_service_management/account_information/managing_contacts)
 
 ### Wie kann ich meinen Account schützen?
 
@@ -96,7 +92,9 @@ Es stehen Ihnen mehrere Lösungen zur Absicherung Ihres Accounts zur Verfügung,
 - die regelmäßige Verlängerung des Passworts
 - Zwei-Faktor-Authentifizierung
 
-Für die Zwei-Faktor-Authentifizierung per SMS oder über die Einschränkung per IP (Autorisierung oder Verweigerung des Zugangs zu bestimmten Adressen) können Sie über Ihr Kundencenter Sicherheitsregeln hinzufügen. Alle diese Optionen finden Sie im Bereich „Sicherheit“. Klicken Sie dazu auf dem Dashboard Ihres OVHcloud Kundencenters auf Ihre Initialen.
+Um auf alle diese Optionen zuzugreifen, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
+
+Klicken Sie auf den Tab `Sicherheit`{.action}, um sie anzuzeigen.
 
 Für mehr Informationen sehen Sie das [Video](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
 
@@ -104,8 +102,9 @@ Für mehr Informationen sehen Sie das [Video](https://www.youtube.com/watch?v=od
 
 Nachdem Sie Ihr Kundenkonto bei OVHcloud erstellt haben, empfehlen wir Ihnen
 Ihre persönlichen Daten zu sichern. Aktivieren Sie dazu die Zwei-Faktor-
-Authentifizierung. Gehen Sie dazu in die
-Rubrik „Mein Account“ und dort in „Sicherheit“.
+Authentifizierung. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
+
+Klicken Sie danach auf `Sicherheit`{.action}.
 Sie haben mehrere Möglichkeiten, um sich zu authentifizieren und die 2FA zu aktivieren:
 
 - Per SMS mit einem Sicherheitscode
@@ -116,7 +115,10 @@ Sie haben mehrere Möglichkeiten, um sich zu authentifizieren und die 2FA zu akt
 
 ### Wie kann ich die Zwei-Faktor-Authentifizierung (2FA) von OVHcloud deaktivieren?
 
-Wenn Sie die Zwei-Faktor-Authentifizierung deaktivieren möchten, melden Sie sich bitte in Ihrem Kundencenter an. Gehen Sie dort in den Bereich „Mein Account“, und dann zu „Sicherheit“.
+Wenn Sie die Zwei-Faktor-Authentifizierung deaktivieren möchten, loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
+
+Klicken Sie auf den Tab `Sicherheit`{.action}.
+
 Hier können Sie die verschiedenen Sicherheitsvorkehrungen einzeln deaktivieren. 
 Haben Sie Ihr Gerät zur Zwei-Faktor-Authentifizierung nicht mehr, und daher keinen Zugang zu Ihrem Kundencenter? Dann wenden Sie sich bitte an den OVHcloud Kundendienst. Ein Mitarbeiter wird das Gerät manuell deaktivieren, nachdem Sie sich ausgewiesen haben.
 
@@ -166,7 +168,7 @@ Ein Mitarbeiter aus unserem Team wird Ihnen dann schnellstmöglich antworten.
 
 ### Ich habe der Abteilung „Abuse“ von OVHcloud geantwortet, aber mein Dienst ist immer noch blockiert. Was kann ich tun?
 
-Sie haben die Möglichkeit, in Ihrem OVHcloud Kundencenter eine Support-Anfrage zu stellen und so weitere Informationen zur Bearbeitung Ihres Abuse-Tickets einzuholen. Sie erleichtern und beschleunigen die Bearbeitung Ihrer Support-Anfrage, wenn Sie darin die Referenznummer dieses Abuse-Tickets angeben.
+Sie haben die Möglichkeit, in Ihrem [OVHcloud Help Center](https://help.ovhcloud.com/csm?id=csm_get_help) eine Support-Anfrage zu stellen und so weitere Informationen zur Bearbeitung Ihres Abuse-Tickets einzuholen. Sie erleichtern und beschleunigen die Bearbeitung Ihrer Support-Anfrage, wenn Sie darin die Referenznummer dieses Abuse-Tickets angeben.
 
 ### Wie kann ich meinen OVHcloud Kunden-Account löschen?
 

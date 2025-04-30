@@ -1,7 +1,7 @@
 ---
 title: 'Email Pro - Configure sua conta de e-mail no Outlook para macOS'
 excerpt: 'Saiba como configurar uma conta Email Pro no Outlook para Mac'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Sumário
@@ -31,9 +31,13 @@ As contas Email Pro podem ser configuradas em vários softwares de e-mail compat
 
 > [!primary]
 >
-> No nosso exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o "? " pelo número que designa o servidor do seu serviço E-mail Pro.
+> Neste exemplo, utilizamos a menção servidor: pro?.mail.ovh.net. Deverá substituir o « ? » pelo número que identifica o servidor do seu serviço E-mail Pro.
 >
-> Encontre este número na sua [Área de Cliente OVHcloud](/links/manager), na rubrica `Web Cloud`{.action} e, a seguir, `E-mails Pro`{.action}. O servidor é visível na secção **Ligação** do separador `Informações gerais`{.action}.
+> 1. Aceda à [Área de Cliente OVHcloud](/links/manager).
+> 1. Aceda à secção `Web Cloud`{.action}.
+> 1. Clique em `Email Pro`{.action}.
+> 1. Selecione a plataforma em causa.
+> 1. O nome do servidor está visível na tabela **Ligação** do separador `Informações gerais`{.action}.
 >
 
 Abra a aplicação Outlook no seu dispositivo. Existem duas formas de adicionar uma conta:

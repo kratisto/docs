@@ -1,7 +1,7 @@
 ---
 title: 'Exchange - Configurer son compte e-mail sur Thunderbird pour macOS'
 excerpt: 'Découvrez comment configurer votre adresse e-mail Exchange sur Thunderbird pour Mac OS'
-updated: 2024-10-09
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -22,15 +22,19 @@ Les comptes Exchange peuvent être configurés sur différents logiciels de mess
 - Disposer d’une adresse e-mail [Exchange](/links/web/emails-hosted-exchange).
 - Disposer du logiciel Thunderbird installé sur votre Mac.
 - Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
- 
+
 ## En pratique
 
 > [!warning]
 >
 > Dans notre exemple, nous utilisons la mention serveur : ex?.mail.ovh.ca. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service Exchange.
-> 
-> Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `Exchange`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
-> 
+>
+> 1. Connectez-vous à votre [espace client OVHcloud](/links/manager).
+> 1. Rendez-vous dans la partie `Web Cloud`{.action}.
+> 1. Dans la rubrique `MICROSOFT`, cliquez sur `Exchange`{.action}.
+> 1. Sélectionnez la plateforme concernée.
+> 1. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
+>
 
 ### Ajouter le compte
 

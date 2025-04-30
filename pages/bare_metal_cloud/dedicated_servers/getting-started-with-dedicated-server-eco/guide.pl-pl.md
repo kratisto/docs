@@ -1,7 +1,7 @@
 ---
 title: "Pierwsze kroki z serwerem dedykowanym Kimsufi, So You Start lub Rise"
 excerpt: "Dowiedz się, jak zarządzać serwerem dedykowanym Kimsufi, So You Start lub Rise w Panelu klienta i jak rozpocząć konfigurację oraz zabezpieczenie serwera"
-updated: 2024-11-26
+updated: 2025-04-29
 ---
 
 ## Wprowadzenie
@@ -43,12 +43,6 @@ Możesz w prosty sposób przeprowadzić reinstalację serwera lub wybrać inny o
 
 ![Przycisk Reinstalacja](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-01.png){.thumbnail}
 
-W oknie, które się pojawi wybierz jedną z opcji instalacji:
-
-- `Instalacja z szablonu OVHcloud`{.action}: możesz wybrać system operacyjny i spersonalizować konfigurację serwera.
-- `Zainstaluj jeden ze swoich szablonów`{.action}: aby móc zastosować spersonalizowany szablon, musisz wcześniej zarejestrować przynajmniej jedną konfigurację serwera. W tym celu należy zaznaczyć opcję "Zapisz tę instalację" w etapie 4 procesu instalacji.
-- `Instalacja na podstawie spersonalizowanego obrazu`{.action}: ta opcja pozwala na zainstalowanie zewnętrznego obrazu na serwerze. Więcej informacji na temat tej opcji znajdziesz w [przewodniku Bring Your Own Image](/pages/bare_metal_cloud/dedicated_servers/bring-your-own-image).
-
 > [!primary]
 >
 > Niektóre zastrzeżone systemy operacyjne lub platformy, takie jak Plesk lub Windows, wymagają licencji, które generują dodatkowe koszty. Licencje możesz kupić [u OVHcloud](/links/bare-metal/os) lub u zewnętrznego resellera. Następnie zastosuj Twoją licencję do systemu operacyjnego lub za pomocą Panelu [klienta](/links/manager).
@@ -56,11 +50,7 @@ W oknie, które się pojawi wybierz jedną z opcji instalacji:
 > Wszystkie licencje możesz zarządzać w sekcji `Bare Metal Cloud`{.action} z `licencjami `{.action}. W tej sekcji możesz również zamawiać licencje lub dodawać istniejące licencje za pomocą przycisku `Operacje`{.action}.
 >
 
-Kliknij na `Dalej`{.action}, aby kontynuować.
-
-![Wybór szablonu](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-02.png){.thumbnail}
-
-Po wybraniu `Instalacji z szablonu OVHcloud`{.action}, możesz wybrać system operacyjny z menu rozwijanego.
+Kliknij na `Dalej`{.action}, aby kontynuować. Z menu rozwijanego wybierz system operacyjny.
 
 ![Wybór operacyjny](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-03.png){.thumbnail}
 
@@ -72,7 +62,7 @@ W tym kroku skonfigurujesz typ macierzy RAID i partycjonowanie w ramach sprzęto
 
 Po zakończeniu wprowadzania korekt kliknij przycisk `Dalej`{.action}, aby przejść do strony z podsumowaniem.
 
-W dokumentacji tej znajdziesz pytania dodatkowe specyficzne dla wybranego systemu operacyjnego.          
+W dokumentacji tej znajdziesz pytania dodatkowe specyficzne dla wybranego systemu operacyjnego.
 
 ![server options](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/reinstalling-your-server-05.png){.thumbnail}
 

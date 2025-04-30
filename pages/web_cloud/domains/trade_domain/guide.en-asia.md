@@ -1,7 +1,7 @@
 ---
 title: "Domain name - How do I change the owner?"
 excerpt: "Find out how to change a domain name owner, or update the information associated with it"
-updated: 2025-02-05
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -43,7 +43,7 @@ In addition to providing [contacts](/pages/account_and_service_management/accoun
 >
 > - The website of the respective **TLD** registry
 > - The [list of **TLD**s available at OVHcloud](/links/web/domains-tld)
-> - The domain name status updates. To check this, log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. In the left-hand column, click `Domain names`{.action}, then `Ongoing operations`{.action}.
+> - The domain name status updates. To check this, log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click on `Ongoing operations`{.action}.
 
 ### Initiating the owner change procedure or editing the owner information
 

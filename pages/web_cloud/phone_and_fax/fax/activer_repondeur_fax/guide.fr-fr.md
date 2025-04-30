@@ -1,7 +1,7 @@
 ---
 title: Activation du répondeur Fax EcoFax Pro / Plug & Fax
 excerpt: Découvrez comment activer le répondeur fax depuis votre espace client OVHcloud
-updated: 2021-02-25
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -11,7 +11,7 @@ Vous pouvez configurer votre ligne fax en tant que messagerie vocale directement
 **Découvrez comment activer et utiliser le répondeur de la ligne Fax.**
 
 > [!primary]
->L'activation de la fonctionnalité répondeur désactive toutes les fonctionnalités fax de votre ligne.
+> L'activation de la fonctionnalité répondeur désactive toutes les fonctionnalités fax de votre ligne.
 >
 
 ## Prérequis
@@ -21,7 +21,9 @@ Vous pouvez configurer votre ligne fax en tant que messagerie vocale directement
 
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom) puis sélectionnez `Télécom`{.action}. Cliquez sur `Téléphonie`{.action} puis sur le groupe ou se trouve votre ligne Fax. Sélectionnez cette dernière.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Fax.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne Fax concernée.
 
 ![gestion répondeur](images/gestion-repondeur.png){.thumbnail}
 

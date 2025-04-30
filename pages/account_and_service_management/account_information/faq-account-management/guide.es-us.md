@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre la gestión de la cuenta de OVHcloud
 excerpt: Consulte las preguntas más frecuentes sobre la gestión de la cuenta de OVHcloud
-updated: 2024-07-04
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -10,25 +10,26 @@ Consulte las preguntas más frecuentes sobre la gestión de la cuenta de OVHclou
 
 ### ¿Cómo crear una cuenta en OVHcloud?
 
-Crear una cuenta es gratis y le permite acceder a sus datos y gestionar sus servicios. Puede crear su cuenta desde la siguiente página: [www.ovh.com/manager/](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=ws).
+La creación de una cuenta es gratuita. Este espacio facilita el acceso a sus datos y le permite gestionar sus servicios. Consulte nuestra guía [Crear una cuenta de OVHcloud](/pages/account_and_service_management/account_information/ovhcloud-account-creation).
 
-Una vez creada, puede proteger el acceso a sus datos personales activando la doble autenticación en la sección «Mi cuenta», en la pestaña «Seguridad» (consulte también la respuesta a la pregunta [«¿Cómo proteger mi cuenta?»](#protect-account)).
+> [!success]
+> Una vez que haya creado su cuenta, asegúrese de protegerla configurando la doble autenticación. Para más información, consulte nuestra guía [Proteger su cuenta de OVHcloud con la doble autenticación](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa).
 
 #### Ideas y consejos
 
 Si no encuentra su país, puede cambiar el idioma de la web haciendo clic en la bandera que desee en la esquina superior derecha.
 
-Si desea más información sobre la cuenta de cliente de OVHcloud, consulte nuestra guía [«Todo sobre el ID de cliente de OVHcloud»](/pages/account_and_service_management/account_information/all_about_username).
+Si desea más información sobre la cuenta de cliente de OVHcloud, consulte nuestra guía ["Todo sobre el ID de cliente de OVHcloud"](/pages/account_and_service_management/account_information/all_about_username).
 
 ### ¿Dónde encontrar mi identificador de cliente de OVHcloud?
 
-Su identificador de cliente, también llamado ID de cliente o «NIC-handle», aparece en la esquina superior derecha de su última factura. Tiene el siguiente formato: «ab00001-ovh» (donde las primeras letras suelen corresponder a las iniciales de la persona que ha creado la cuenta). También puede consultar su identificador de cliente en todos los mensajes de correo electrónico enviados por OVHcloud (emails de confirmación de creación de su cuenta, emails de confirmación de un pedido o de renovación, etc.).
+Su identificador de cliente, también llamado ID de cliente o "NIC-handle", aparece en la esquina superior derecha de su última factura. Tiene el siguiente formato: "aa00000-ovh" (donde las primeras letras suelen corresponder a las iniciales de la persona que ha creado la cuenta). También puede consultar su identificador de cliente en todos los mensajes de correo electrónico enviados por OVHcloud (emails de confirmación de creación de su cuenta, emails de confirmación de un pedido o de renovación, etc.).
 
-Si todavía no ha encontrado su identificador, haga clic en el enlace «¿No recuerda su ID de cliente o contraseña?» que aparece en la página de [conexión al área de cliente de OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/&ovhSubsidiary=es) e introduzca la dirección de correo electrónico asociada a su cuenta.
+Si todavía no ha encontrado su identificador, haga clic en el enlace "¿No recuerda su ID de cliente o contraseña?" que aparece en la página de [conexión al área de cliente de OVHcloud](/links/manager) e introduzca la dirección de correo electrónico asociada a su cuenta.
 
 #### Ideas y consejos
 
-Puede consultar su ID de cliente en cualquier momento desde el área de cliente, desplegando el menú «Mi cuenta» situado en la esquina superior derecha.
+Puede consultar su ID de cliente en cualquier momento desde el área de cliente, desplegando el menú "Mi cuenta" situado en la esquina superior derecha.
 
 #### ¿Qué hago si no puedo conectarme a mi cuenta de cliente?
 
@@ -38,9 +39,9 @@ Si no puede identificarse o conectarse a su área de cliente, consulte [la sigui
 
 ### ¿Cómo modificar mis datos personales?
 
-Para consultar o modificar sus datos, conéctese al área de cliente con su ID de cliente y contraseña. Podrá acceder a sus datos haciendo clic en las iniciales de su nombre y apellidos, en la esquina superior derecha del panel de control de su área de cliente. Será redirigido a la sección «Mi cuenta», donde podrá consultar y editar sus datos personales en el apartado «Mi perfil».
+Para consultar o modificar sus datos, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
 
-![infos](images/infos-modif_final_comp-min.gif){.thumbnail}
+Haga clic en el cuadro `Mi perfil` y luego en `Editar mi perfil`{.action}.
 
 #### Ideas y consejos
 
@@ -48,25 +49,25 @@ Al cambiar la dirección de correo electrónico asociada a su cuenta de OVHcloud
 
 ### ¿Cómo introducir el número de teléfono al crear una cuenta?
 
-Es necesario introducir el número de teléfono en formato internacional. Por ejemplo, si su número es el «612 345 678», deberá introducir «+34 612345678».
+Es necesario introducir el número de teléfono en formato internacional. Por ejemplo, si su número es el "612 345 678", deberá introducir "+34 612345678".
 
 #### Ideas y consejos
 
-Al seleccionar España como país de residencia, el prefijo «+34» se selecciona automáticamente.
+Al seleccionar España como país de residencia, el prefijo "+34" se selecciona automáticamente.
 
 ### ¿Cómo cambiar la contraseña en OVHcloud?
 
-En la página de conexión al área de cliente, haga clic en «¿No recuerda su ID de cliente o contraseña?». Introduzca su ID de cliente o la dirección de correo electrónico principal asociada a su cuenta de OVHcloud y haga clic en «Enviar». Recibirá un email a la dirección de contacto de la cuenta para confirmar su solicitud. Lea atentamente las indicaciones y haga clic en el enlace que contiene el email.
+En la página de conexión al área de cliente, haga clic en "¿No recuerda su ID de cliente o contraseña?". Introduzca su ID de cliente o la dirección de correo electrónico principal asociada a su cuenta de OVHcloud y haga clic en "Enviar". Recibirá un email a la dirección de contacto de la cuenta para confirmar su solicitud. Lea atentamente las indicaciones y haga clic en el enlace que contiene el email.
 
 #### Ideas y consejos
 
 Si ya no tiene acceso a la dirección de correo electrónico de contacto, siga este procedimiento.
 
-Si ha olvidado su ID de cliente, puede consultarlo en la esquina superior derecha de su última factura. Tiene el siguiente formato: «ab00001-ovh» (donde las primeras letras suelen corresponder a las iniciales de la persona que ha creado la cuenta). También encontrará su ID de cliente en el email de confirmación de creación de la cuenta, así como en los emails de confirmación de pedido o de renovación.
+Si ha olvidado su ID de cliente, puede consultarlo en la esquina superior derecha de su última factura. Tiene el siguiente formato: "aa00000-ovh" (donde las primeras letras suelen corresponder a las iniciales de la persona que ha creado la cuenta). También encontrará su ID de cliente en el email de confirmación de creación de la cuenta, así como en los emails de confirmación de pedido o de renovación.
 
 ### ¿Cómo cambiar los contactos?
 
-OVHcloud le ofrece la posibilidad de delegar en otras cuentas de cliente de OVHcloud la gestión administrativa, técnica y de facturación de sus servicios desde el área de cliente. Para ello, acceda a la sección «Gestión de contactos» del menú que aparece a la derecha en el panel de control de su área de cliente.
+OVHcloud le ofrece la posibilidad de delegar en otras cuentas de cliente de OVHcloud la gestión administrativa, técnica y de facturación de sus servicios desde el área de cliente. Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione en `Mis contactos`{.action}.
 
 La delegación del servicio deberá ser validada por correo electrónico tanto por el administrador del servicio como por el nuevo contacto.
 
@@ -80,11 +81,11 @@ Para más información sobre la gestión de contactos, consulte la siguiente gu�
 
 ### ¿Cómo cambiar el contacto de facturación?
 
-Conéctese al área de cliente con su ID de cliente y contraseña. Para modificar el contacto de facturación, acceda a la sección «Gestión de contactos» disponible en la columna derecha del panel de control.
+Conéctese al área de cliente con su ID de cliente y contraseña. Para modificar el contacto de facturación, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione en `Mis contactos`{.action}.
 
 ### Ideas y consejos
 
-Si desea más información sobre la gestión de los contactos, consulte nuestra guía [«Gestionar los contactos de los servicios»](/pages/account_and_service_management/account_information/managing_contacts).
+Si desea más información sobre la gestión de los contactos, consulte nuestra guía ["Gestionar los contactos de los servicios"](/pages/account_and_service_management/account_information/managing_contacts).
 
 ### ¿Cómo proteger mi cuenta?
 
@@ -94,13 +95,17 @@ Existen diversas formas de proteger su cuenta:
 - la renovación regular de esta contraseña
 - doble autenticación
 
-Para la doble autenticación mediante el envío de un código por SMS o a través de la restricción por IP (autorización o denegación de acceso a determinadas direcciones), tiene la posibilidad de añadir reglas de seguridad desde su área de cliente. Estas opciones están disponibles en la sección «Seguridad» de su perfil. Para acceder a ella, haga clic en sus iniciales, en la esquina superior derecha del panel de control de su área de cliente de OVHcloud.
+Para la doble autenticación mediante el envío de un código por SMS o a través de la restricción por IP (autorización o denegación de acceso a determinadas direcciones), tiene la posibilidad de añadir reglas de seguridad desde su área de cliente. Estas opciones están disponibles en la sección "Seguridad" de su perfil. Para acceder a ella, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
+
+Luego, haga clic en `Seguridad`{.action}.
 
 Y para más información, ver el [video](https://www.youtube.com/watch?v=odO58c4gJfc&list=PL0DynEzr_sE5MnOfJOpVJN-EhfMDWoqGS&index=24).
 
 ### ¿Cómo activar la doble autenticación/2FA de OVHcloud?
 
-Una vez que haya creado su cuenta de cliente de OVHcloud, le recomendamos que proteja sus datos personales activando la doble autenticación. Para ello, acceda a la sección «Mi cuenta» > «Seguridad».
+Una vez que haya creado su cuenta de cliente de OVHcloud, le recomendamos que proteja sus datos personales activando la doble autenticación. Para ello, conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
+
+Luego, haga clic en `Seguridad`{.action}.
 
 Al activar la doble autenticación o 2FA, podrá elegir el método con el que desea autenticarse:
 
@@ -112,7 +117,9 @@ Al activar la doble autenticación o 2FA, podrá elegir el método con el que de
 
 ### ¿Cómo desactivar la doble autenticación/2FA de OVHcloud?
 
-Puede desactivar la doble autenticación directamente desde su área de cliente, en la sección «Mi cuenta» > «Seguridad».
+Conéctese a su [área de cliente de OVHcloud](/links/manager), haga clic en su nombre en la parte superior derecha y seleccione `Acceder a mi cuenta`{.action}.
+
+Luego, haga clic en `Seguridad`{.action}.
 
 Es posible desactivar uno por uno los diferentes dispositivos de seguridad. 
 
@@ -142,7 +149,7 @@ El servicio jurídico de OVHcloud estudiará su notificación de infracción o c
 
 ### OVHcloud me ha enviado un mensaje de correo electrónico en el que se indica que yo podría estar cometiendo una infracción, ¿qué debo hacer?
 
-Si nuestro equipo ha detectado o comprobado la existencia de un comportamiento abusivo, recibirá un mensaje de correo electrónico desde una dirección de correo electrónico con el siguiente formato: «tíquet+"número de tíquet"@abuse.ovh.net».
+Si nuestro equipo ha detectado o comprobado la existencia de un comportamiento abusivo, recibirá un mensaje de correo electrónico desde una dirección de correo electrónico con el siguiente formato: "tíquet+"número de tíquet"@abuse.ovh.net".
 
 Teniendo en cuenta los elementos adicionales que se le indicarán en este mensaje de correo electrónico, nuestro equipo le solicitará que realice una serie de comprobaciones para identificar y corregir el comportamiento abusivo o, en su caso, eliminar el contenido ilícito.
 
@@ -162,7 +169,7 @@ Nuestro equipo le responderá lo antes posible.
 
 ### He respondido al mensaje que me envió el equipo de Abuse de OVHcloud, pero mi servicio sigue bloqueado. ¿Qué puedo hacer?
 
-Puede crear un tíquet de asistencia desde su área de cliente de OVHcloud para solicitar información adicional sobre el tratamiento de su tíquet de Abuse. Por favor, incluya la referencia de su tíquet de Abuse para facilitar el tratamiento del tíquet de asistencia.
+Puede crear un tíquet de asistencia desde su [Centro de ayuda de OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help) para solicitar información adicional sobre el tratamiento de su tíquet de Abuse. Por favor, incluya la referencia de su tíquet de Abuse para facilitar el tratamiento del tíquet de asistencia.
 
 ### ¿Cómo eliminar una cuenta de OVHcloud?
 

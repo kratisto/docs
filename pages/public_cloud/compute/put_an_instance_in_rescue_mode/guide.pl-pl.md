@@ -1,7 +1,7 @@
 ---
 title: "Jak aktywować tryb ratunkowy na instancji Public Cloud"
 excerpt: "Dowiedz się, jak aktywować i korzystać z trybu Rescue OVHcloud w Twojej instancji Public Cloud"
-updated: 2024-06-03
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -29,9 +29,9 @@ W takiej sytuacji można ponownie skonfigurować instancję lub odzyskać dane p
 
 ### Aktywacja trybu ratunkowego
 
-Najpierw zaloguj się do [Panelu klienta OVHcloud](/links/manager){.external} i kliknij menu `Public Cloud`{.action}.
+Najpierw zaloguj się do [Panelu klienta OVHcloud](/links/manager), przejdź do sekcji `Public Cloud`{.action} i wybierz odpowiedni projekt Public Cloud.
 
-Następnie wybierz projekt Public Cloud z menu bocznego po lewej stronie ekranu i przejdź do pozycji Instancje.
+Następnie kliknij zakładkę `Instancje`{.action} na pasku nawigacji po lewej stronie.
 
 Kliknij ikonę z trzema kropkami (po prawej stronie instancji) i wybierz `Restartuj w trybie ratunkowym`{.action}.
 

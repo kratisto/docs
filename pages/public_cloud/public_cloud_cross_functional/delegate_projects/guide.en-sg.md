@@ -1,7 +1,7 @@
 ---
 title: Delegating projects
 excerpt: Find out how to delegate access rights for a Public Cloud project to other OVHcloud accounts
-updated: 2022-04-04
+updated: 2025-04-28
 ---
 
  
@@ -19,7 +19,7 @@ To this end, you can delegate read-only or read/write permissions for your proje
 
 ## Instructions
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Contacts and Rights`{.action} in the **Project Management** section.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned. Click on `Contacts & Rights`{.action} in the left-hand menu under **Settings**.
 
 On this page you can see the contacts associated with your project.
 

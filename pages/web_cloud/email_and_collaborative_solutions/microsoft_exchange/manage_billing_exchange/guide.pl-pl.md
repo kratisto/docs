@@ -1,7 +1,7 @@
 ---
 title: 'Zarządzanie fakturowaniem kont Exchange'
 excerpt: 'Dowiedz się, jak zarządzać fakturowaniem usługi Exchange'
-updated: 2024-08-27
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -18,9 +18,8 @@ Usługi Hosted Exchange i Private Exchange umożliwiają elastyczne zarządzenie
 ## W praktyce
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij rubrykę `Microsoft`{.action}.
-1. Kliknij na `Exchange`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
+1. W sekcji `MICROSOFT` kliknij `Exchange`{.action}.
 1. Wybierz odpowiednią platformę.
 
 ### Hosted Exchange

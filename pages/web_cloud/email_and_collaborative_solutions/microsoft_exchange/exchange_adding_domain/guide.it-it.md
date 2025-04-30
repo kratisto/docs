@@ -1,7 +1,7 @@
 ---
 title: 'Aggiungi un dominio su una piattaforma email'
 excerpt: Come aggiungere un dominio alla piattaforma Exchange o Email Pro
-updated: 2025-04-01
+updated: 2025-04-28
 ---
 
 <style>
@@ -34,9 +34,8 @@ Aggiungere un dominio su Exchange è un’operazione fondamentale per utilizzare
 > **Exchange**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Microsoft`{.action}.
->> 1. Clicca su `Exchange`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >>
 > **Email Pro**

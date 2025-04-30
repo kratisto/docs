@@ -1,6 +1,6 @@
 ---
 title: "Fehler bei Domain-Operationen beheben"
-updated: 2022-09-01
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -17,7 +17,7 @@ Bei der Erstellung eines Domainnamens, dem Transfer oder dem Inhaberwechsel hand
 
 ## In der praktischen Anwendung
 
-Gehen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) in den Bereich `Web Cloud`{.action} und dann zu `Domainnamen`{.action}. Klicken Sie auf `Laufende Operationen`{.action} über der Liste der Domainnamen.
+Loggen Sie sich in Ihrem [OVHcloud Kundencenter](/links/manager) ein und gehen Sie dann in den Bereich `Web Cloud`{.action}. Klicken Sie auf `Laufende Operationen`{.action}.
 
 Die hier angezeigte Tabelle zeigt alle Vorgänge im Zusammenhang mit den Domainnamen in Ihrem Kundencenter an.
 

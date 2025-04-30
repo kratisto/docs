@@ -1,14 +1,14 @@
 ---
 title: "Restreindre l'accès par IP à votre espace client OVHcloud"
 excerpt: "Découvrez comment sécuriser votre compte OVHcloud en limitant les adresses IP autorisées à y accéder"
-updated: 2024-02-26
+updated: 2025-04-28
 ---
 
 ## Objectif
 
 OVHcloud met à votre disposition des options pour renforcer la sécurité de votre espace client OVHcloud et de vos services.
 
-Vous pouvez notamment restreindre à certaines adresses IP l'accès à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+Vous pouvez notamment restreindre à certaines adresses IP l'accès à votre [espace client OVHcloud](/links/manager).
 La mise en place de cette option, couplée à la sécurisation de votre compte par une [double authentification](/pages/account_and_service_management/account_information/secure-ovhcloud-account-with-2fa), permet de sécuriser de manière optimale votre espace client OVHcloud contre d'éventuelles tentatives d'intrusion.
 
 **Découvrez comment sécuriser votre compte OVHcloud en limitant les adresses IP autorisées à y accéder**
@@ -20,7 +20,7 @@ La mise en place de cette option, couplée à la sécurisation de votre compte p
 
 ## Prérequis
 
-- Être connecté à l'[espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+- Être connecté à l'[espace client OVHcloud](/links/manager).
 - Avoir pris connaissance des [recommandations sur la gestion du mot de passe d'accès à votre compte](/pages/account_and_service_management/account_information/manage-ovh-password).
 
 ## En pratique
@@ -51,9 +51,7 @@ Si vous utilisez un réseau 4G/5G en complément, n'oubliez pas de récupérer �
 
 ### Etape 2 - Mettre en place une restriction d'accès par IP
 
-Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc). Cliquez sur votre `nom et prénom` en haut à droite **puis** sur vos `initiales` dans la colonne bleue qui apparaît sur votre droite.
-
-![Access from Manager](images/ip1.png){.thumbnail}
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
 
 Cliquez ensuite sur l'onglet `Sécurité`{.action} pour arriver sur la page suivante :
 

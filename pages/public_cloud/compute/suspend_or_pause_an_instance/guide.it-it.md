@@ -1,6 +1,6 @@
 ---
 title: Sospendi o metti in pausa un’istanza
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Obiettivo
@@ -49,7 +49,7 @@ Questa opzione permette di liberare le risorse dedicate all'istanza Public Cloud
 
 #### Nello Spazio Cliente OVHcloud
 
-Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Instances`{.action} nella barra di navigazione a sinistra. 
+Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Istanze`{.action} nella barra di navigazione a sinistra. 
 
 Clicca su `...`{.action} a destra dell'istanza da sospendere, poi clicca su `Sospesa`{.action}.
 
@@ -63,7 +63,7 @@ Una volta completata la procedura, l'istanza si presenta come *Sospesa*.
 
 ![sospeso](images/instance_suspended.png){.thumbnail}
 
-Lo snapshot sarà quindi disponibile nella sezione `Instance Backup`{.action} del menu `Storage` a sinistra dello spazio Public Cloud. Sarà quindi visibile uno snapshot denominato *xxxxx-shelved*:
+Lo snapshot sarà quindi disponibile nella sezione `Instance Backup`{.action} del menu **Compute** a sinistra dello spazio Public Cloud. Sarà quindi visibile uno snapshot denominato *xxxxx-shelved*:
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 
@@ -121,7 +121,7 @@ Questa opzione ti permette di riattivare l'istanza per poterla utilizzare. Ti ri
 
 #### Nello Spazio Cliente OVHcloud
 
-Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Instances`{.action} nella barra di navigazione a sinistra.
+Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Istanze`{.action} nella barra di navigazione a sinistra.
 
 Clicca su `...`{.action} a destra dell'istanza e poi clicca su `Riattiva`{.action}.
 
@@ -157,7 +157,7 @@ Questa opzione ti permette di arrestare la tua istanza e salvare lo stato della 
 
 #### Nello Spazio Cliente OVHcloud
 
-Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Instances`{.action} nella barra di navigazione a sinistra.
+Nello Spazio Cliente OVHcloud, vai alla sezione `Public Cloud`{.action}, seleziona il tuo progetto Public Cloud e clicca su `Istanze`{.action} nella barra di navigazione a sinistra.
 
 Clicca su `...`{.action} a destra dell'istanza da arrestare, poi clicca su `Arresta`{.action}.
 

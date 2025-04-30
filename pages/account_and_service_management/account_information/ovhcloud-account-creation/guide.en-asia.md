@@ -1,7 +1,7 @@
 ---
 title: 'Creating an OVHcloud account'
 excerpt: 'Find out how to create your OVHcloud account'
-updated: 2024-09-09
+updated: 2025-04-28
 ---
 
 ## Objective

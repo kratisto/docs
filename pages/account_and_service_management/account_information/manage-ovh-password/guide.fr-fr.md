@@ -1,7 +1,7 @@
 ---
 title: 'Modifier le mot de passe de votre compte'
 excerpt: 'Apprenez à définir, modifier et gérer le mot de passe de votre espace client OVHcloud'
-updated: 2020-09-30
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -15,7 +15,7 @@ Le mot de passe de votre espace client OVHcloud est la clé d'accès à tous vos
 ## Prérequis
 
 - Disposer d'un compte OVHcloud actif.
-- Connaître votre identifiant client et/ou votre adresse e-mail.
+- Connaître votre identifiant client (**aa00000-ovh**) et/ou votre adresse e-mail.
 
 ## En pratique
 
@@ -72,17 +72,14 @@ Si votre mot de passe est compromis, nous vous recommandons vivement de le [modi
 
 #### Depuis votre espace client OVHcloud
 
-- Connectez-vous à votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr){.external}, cliquez sur votre nom en haut à droite dans votre espace client, puis sur vos initiales.
+- Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mon Compte`{.action}.
+- Cliquez sur l'onglet `Sécurité`{.action}, puis sur le bouton `Modifier`{.action} situé à droite de la mention **Mot de passe**.
 
-![manage-ovh-password](images/newhub2.png){.thumbnail}
-
-- Cliquez ensuite sur `Sécurité`{.action} puis sur `Modifier`{.action} à droite de « Mot de passe ».
-
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Confirmez le changement du mot de passe.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - Un e-mail est alors envoyé à l'adresse de contact du compte, afin de confirmer le changement de mot de passe. Lisez attentivement les instructions et cliquez sur le lien qu’il contient. Celui-ci vous redirige vers la page de modification du mot de passe. Renseignez votre identifiant dans le premier champ, le nouveau mot de passe dans le deuxième et confirmez ce nouveau mot de passe dans le troisième champ.
 

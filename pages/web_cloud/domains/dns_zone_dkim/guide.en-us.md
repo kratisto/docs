@@ -1,7 +1,7 @@
 ---
 title: How to improve email security with a DKIM record
 excerpt: Find out how to configure a DKIM record on your OVHcloud domain name and email platform
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -161,7 +161,11 @@ Click on the tab below corresponding to your solution.
 > [!tabs]
 > **E-mails (MX Plan)**
 >>
->> In your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Emails`{.action} , then click on the domain name concerned. Finally, go to the `General information`{.action} tab.
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. Click `MX Plan`{.action}.
+>> 1. Select the domain concerned.
+>> 1. Finally, go to the `General information`{.action} tab.
 >>
 >> In the **General informations** box, you can see that the `DKIM` box is red with the **Diagnostic**.
 >>
@@ -169,7 +173,11 @@ Click on the tab below corresponding to your solution.
 >>
 > **Exchange**
 >>
->> From your [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Click on the name of the Exchange service concerned. Finally, go to the `Associated domains`{.action} tab.
+>> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+>> 1. Open the `Web Cloud`{.action} section.
+>> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
+>> 1. Select the service concerned.
+>> 1. Finally, go to the `Associated domains`{.action} tab.
 >>
 >> To the right of the domain name concerned, you can see that the `DKIM` box is red.
 >>
@@ -203,7 +211,13 @@ To configure your DKIM, you will first need to retrieve the reference for your E
 
 Click on the tab below for your solution.
 
-In the [OVHcloud Control Panel](/links/manager), in the `Web Cloud`{.action} tab, click `Microsoft`{.action}, then `Exchange`{.action}. Next, click on the name of the Exchange service concerned. By default, your platform name will match its reference number, or it will be visible under the name you have given it (see image below).
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. In the `MICROSOFT` section, click `Exchange`{.action}.
+1. Select the service concerned.
+1. Finally, go to the `Associated domains`{.action} tab.
+
+By default, your platform name will match its reference number, or it will be visible under the name you have given it (see image below).
 
 ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 

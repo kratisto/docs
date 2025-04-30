@@ -1,19 +1,19 @@
 ---
 title: 'Das Passwort Ihres Kunden-Accounts anlegen und verwalten'
 excerpt: 'Erfahren Sie hier, wie Sie das Passwort Ihres OVHcloud Kundencenters anlegen, ändern und verwalten können'
-updated: 2020-02-12
+updated: 2025-04-28
 ---
 
 ## Ziel
 
-Das Passwort Ihres [OVHcloud Kundencenters](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) ist der Zugangsschlüssel zu allen Ihren Diensten und Informationen. Es muss von ausreichender Komplexität sein und regelmäßig erneuert werden, um deren Sicherheit zu gewährleisten.
+Das Passwort Ihres [OVHcloud Kundencenters](/links/manager) ist der Zugangsschlüssel zu allen Ihren Diensten und Informationen. Es muss von ausreichender Komplexität sein und regelmäßig erneuert werden, um deren Sicherheit zu gewährleisten.
 
 **Diese Anleitung erklärt, wie Sie Ihr Passwort anlegen, ändern und verwalten können.**
 
 ## Voraussetzungen
 
 - Sie haben bereits einen aktiven OVHcloud Kunden-Account.
-- Sie kennen Ihre zugehörige Kundenkennung (**xx11111-ovh**) und/oder Ihre E-Mail-Adresse.
+- Sie kennen Ihre zugehörige Kundenkennung (**aa00000-ovh**) und/oder Ihre E-Mail-Adresse.
 
 ## In der praktischen Anwendung
 
@@ -69,17 +69,15 @@ Das Prinzip ist einfach: Ein Masterpasswort, das hinreichend komplex sein muss, 
 
 #### Von Ihrem OVHcloud Kundencenter aus
 
-- Wenn Sie in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) angemeldet sind, klicken Sie oben rechts auf Ihren Namen und dann auf Ihre Initialen.
+- Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Zu meinem Account`{.action}.
 
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Klicken Sie danach auf `Sicherheit`{.action}, dann auf `Bearbeiten`{.action} rechts von “Passwort”.
 
-- Klicken Sie danach auf `Sicherheit`{.action}, dann auf `Ändern`{.action} rechts von “Passwort”.
-
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Bestätigen Sie die Passwortänderung.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - Sie erhalten danach eine E-Mail an die für den Kontakt zu Ihnen hinterlegte E-Mail-Adresse, um die Passwortänderung zu bestätigen. Lesen Sie die Anweisungen bitte sorgfältig durch, und klicken Sie auf den Link in der E-Mail. Dieser leitet Sie weiter auf die Seite für Passwortänderungen. Geben Sie im ersten Feld Ihre Kennung an, im zweiten Feld das neue Passwort und bestätigen Sie dieses im dritten Feld.
 

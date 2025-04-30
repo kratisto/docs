@@ -1,6 +1,6 @@
 ---
 title: Aussetzen oder Pausieren einer Instanz
-updated: 2024-04-16
+updated: 2025-04-24
 ---
 
 ## Ziel
@@ -48,7 +48,7 @@ Diese Option erlaubt es Ihnen, die dedizierten Ressourcen Ihrer Public Cloud Ins
 
 #### Im OVHcloud Kundencenter
 
-Loggen Sie sich in Ihr OVHcloud Kundencenter ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie im linken Menü auf `Instances`{.action}.
+Loggen Sie sich in Ihr OVHcloud Kundencenter ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie im linken Menü auf `Instanzen`{.action}.
 
 Klicken Sie in der Instanzenverwaltung auf `...`{.action} rechts neben der Instanz und wählen Sie `Aussetzen`{.action}.
 
@@ -62,7 +62,7 @@ Sobald der Vorgang abgeschlossen ist, erscheint die Instanz als *Ausgesetzt*.
 
 ![suspended status](images/instance_suspended.png){.thumbnail}
 
-Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.action} im Bereich `Storage`. Ein Snapshot mit dem Namen *xxxxx-shelved* wird dann angezeigt.
+Um den Snapshot zu sehen, klicken Sie im linken Menü auf `Instance Backup`{.action} im Bereich **Compute**. Ein Snapshot mit dem Namen *xxxxx-shelved* wird dann angezeigt.
 
 ![snapshot tab](images/shelved_backup.png){.thumbnail}
 
@@ -120,7 +120,7 @@ Mit dieser Option können Sie Ihre Instanz aus dem ausgesetzten Zustand entferne
 
 #### Im OVHcloud Kundencenter
 
-Loggen Sie sich in Ihr OVHcloud Kundencenter ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie anschließend Ihr Projekt aus. Klicken Sie im linken Menü auf `Instances`{.action}.
+Loggen Sie sich in Ihr OVHcloud Kundencenter ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie anschließend Ihr Projekt aus. Klicken Sie im linken Menü auf `Instanzen`{.action}.
 
 Klicken Sie in der Instanzenverwaltung auf `...`{.action} rechts neben der Instanz und wählen Sie `Reaktivieren`{.action}.
 
@@ -156,7 +156,7 @@ Mit dieser Option können Sie Ihre Instanz anhalten und den Zustand der virtuell
 
 #### Im OVHcloud Kundencenter
 
-Loggen Sie sich in Ihr OVHcloud Kundencenter ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie anschließend Ihr Projekt aus. Klicken Sie im linken Menü auf `Instances`{.action}.
+Loggen Sie sich in Ihr OVHcloud Kundencenter ein. Klicken Sie oben auf der Seite auf `Public Cloud`{.action} und wählen Sie anschließend Ihr Projekt aus. Klicken Sie im linken Menü auf `Instanzen`{.action}.
 
 Klicken Sie in der Instanzenverwaltung auf `...`{.action} rechts neben der Instanz und wählen Sie `Anhalten`{.action}.
 

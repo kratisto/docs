@@ -1,7 +1,7 @@
 ---
 title: "Managing the history of a DNS zone"
 excerpt: "Find out how to view, compare, download and restore your DNS zone backups"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ DNS management is now easier thanks to the history of your DNS zones.
 
 ## Instructions
 
-To access this feature, click on the tabs below to view each of the **5** steps.
+To access this feature, click on the tabs below to view each of the **4** steps.
 
 > [!tabs]
 > **Step 1**
@@ -39,15 +39,11 @@ To access this feature, click on the tabs below to view each of the **5** steps.
 >>
 > **Step 2**
 >>
->> Click the `Domain names`{.action} menu, then choose the domain name concerned.
+>> Click the `DNS zones`{.action} menu, then choose the domain name concerned.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3** 
->>
->> Select the `DNS Zone`{.action} tab once you have clicked on the domain concerned.
->>
-> **Step 4** 
 >>
 >> The table that appears will show your domain name’s DNS zone. There, you will find the list of DNS records that it contains. On the right of the table, there are several buttons you can use to perform actions on your DNS zone. 
 >>
@@ -55,7 +51,7 @@ To access this feature, click on the tabs below to view each of the **5** steps.
 >>
 >> Click `View your DNS zone history`{.action}. 
 >>
-> **Step 5** 
+> **Step 4** 
 >>
 >> On the new page, a table displays the backup history for your DNS zone, ordered from the most recent date to the oldest. At the top of this table is the current version of your DNS zone. On this page, you can:
 >>

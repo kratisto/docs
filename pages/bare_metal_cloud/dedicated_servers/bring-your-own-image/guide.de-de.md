@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Image (BYOI) (EN)
 excerpt: Find out how to easily deploy your own images on dedicated servers
-updated: 2025-02-25
+updated: 2025-04-29
 ---
 
 ## Objective
@@ -57,10 +57,6 @@ Log in to the [OVHcloud Control Panel](/links/manager) and go to the `Bare Metal
 In the `General information`{.action} tab, click the `...`{.action} button next to "System (OS)" then click `Install`{.action}.
 
 ![BringYourOwnImage Control Panel 01](images/byoi-controlpanel01.png){.thumbnail}
-
-In the window that appears, select `Install from an OVHcloud template`{.action} and click `Next`{.action}.
-
-![BringYourOwnImage Control Panel 02](images/byoi-controlpanel02.png){.thumbnail}
 
 In the window that appears, select `Custom` in the menu, then `Bring Your Own Image - byoi`, and click `Next`{.action}.
 
@@ -166,7 +162,7 @@ Once you completed the fields, start the deployment by clicking `Execute`{.actio
 | Windows | `\\efi\microsoft\\boot\\bootmgfw.efi` |
 | FreeBSD | `\\efi\\FreeBSD\\loader.efi` |
 | Alma | `\\efi\\almalinux\\shimx64.efi` |
-| Gentoo | `\efi\\boot\\bootx64.efi` |
+| Gentoo | `\\efi\\boot\\bootx64.efi` |
 
 > [!primary]
 >

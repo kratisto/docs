@@ -1,7 +1,7 @@
 ---
 title: 'Konfiguracja konta E-mail Pro'
 excerpt: 'Dowiedz się, jak skonfigurować konto E-mail Pro'
-updated: 2024-09-03
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -25,7 +25,7 @@ Po utworzeniu i udostępnieniu usługi E-mail Pro :
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
 1. Kliknij zakładkę `Web Cloud`{.action}.
-1. Kliknij `E-maile Pro`{.action}.
+1. Kliknij `Email Pro`{.action}.
 1. Wybierz odpowiednią platformę.
 
 > [!primary]
@@ -170,7 +170,7 @@ Aby skonfigurować Twoje konto e-mail w programie pocztowym lub na urządzeniu t
 >
 > Poniżej stosujemy przykładową nazwę serwera, czyli pro?.mail.ovh.net. Należy zastąpić „X” cyfrą wskazującą serwer Twojej usługi E-mail Pro.
 > 
-> Znajdziesz tę cyfrę w Twoim [Panelu klienta OVHcloud](/links/manager), przechodząc do sekcji `Web Cloud`{.action}, a następnie do `E-maile Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
+> Znajdziesz tę cyfrę w Twoim [Panelu klienta OVHcloud](/links/manager), przechodząc do sekcji `Web Cloud`{.action}, a następnie do `Email Pro`{.action}. Nazwa serwera jest widoczna w ramce **Połączenie** w karcie `Informacje ogólne`{.action}.
 > 
 
 ## Sprawdź również

@@ -1,7 +1,7 @@
 ---
 title: Delega progetti
 excerpt: Come delegare i diritti di accesso a un progetto Public Cloud ad altri account OVHcloud
-updated: 2022-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -22,7 +22,7 @@ A questo scopo, è possibile delegare ad altri account cliente OVHcloud diritti 
 
 ## Procedura 
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e apri il tuo progetto `Public Cloud`{.action}. Clicca su `Contacts and Rights`{.action} nella sezione **Project Management**.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca su `Public Cloud`{.action} e seleziona il progetto Public Cloud interessato. Clicca su `Contatti e diritti`{.action} nella sezione **Impostazioni**.
 
 Questa pagina ti permette di visualizzare i contatti associati al tuo progetto.
 

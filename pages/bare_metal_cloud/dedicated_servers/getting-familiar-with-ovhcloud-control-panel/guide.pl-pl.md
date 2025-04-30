@@ -1,7 +1,7 @@
 ---
 title: "Klienci Kimsufi i So you Start - Zapoznaj się z Panelem klienta OVHcloud"
 excerpt: "Dowiedz się, jak zarządzać usługami w Panelu klienta OVHcloud"
-updated: 2024-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -33,8 +33,7 @@ Oferuje on również zestaw skrótów i przydatnych linków.
 ![dostęp do serwera](images/listserversOVHcloud.png){.thumbnail}
 
 W interfejsach Kimsufi i So you Start dashboard umożliwia sprawdzenie serwera/listy serwerów.<br>
-W Panelu klienta OVHcloud kliknij najpierw menu `Bare Metal Cloud`{.action}, a następnie `Serwery dedykowane`{.action}, aby wyświetlić Twoje serwery.<br>
-Jeśli posiadasz kilka serwerów, przycisk `Wszystkie moje serwery`{.action} pozwala na ich wyświetlenie w prosty sposób.
+W Panelu klienta OVHcloud kliknij najpierw menu `Bare Metal Cloud`{.action}, a następnie `Serwery dedykowane`{.action}, aby wyświetlić Twoje serwery.
 
 ### Interfejs Serwera
 
@@ -87,7 +86,7 @@ Aby uzyskać dostęp do zakładki **Licencje** w Panelu klienta OVHcloud, klikni
 ### Pomoc, fakturowanie i zarządzanie kontem
 
 W Panelu klienta Kimsufi lub So you Start opcje te są dostępne w prawym górnym rogu pod indywidualne zakładki.<br>
-W Panelu klienta OVHcloud te opcje są pogrupowane we wspólnej przestrzeni. Kliknij Twoją nazwę w prawym górnym rogu i kliknij Twoje inicjały, aby przejść do sekcji `Zarządzanie kontem`.
+W Panelu klienta OVHcloud te opcje są pogrupowane we wspólnej przestrzeni. Kliknij Twoją nazwę konta w prawym górnym rogu, a następnie kliknij przycisk `Dostęp do konta`{.action}.
 
 ![factu](images/accountOVHcloud.png){.thumbnail}
 

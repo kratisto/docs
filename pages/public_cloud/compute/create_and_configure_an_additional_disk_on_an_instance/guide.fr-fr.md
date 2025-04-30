@@ -1,7 +1,7 @@
 ---
 title: Créer et configurer un disque supplementaire sur une instance
 excerpt: Découvrez comment attacher un nouveau volume à votre instance Public Cloud
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -83,7 +83,7 @@ La génération 2 des volumes High-Speed est optimisée pour les workloads les p
 
 > [!tabs]
 > **Via l'espace client OVHcloud**
->> Connectez-vous à votre [espace client OVHcloud](/links/manager), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Ensuite, ouvrez `Block Storage`{.action} dans le menu de gauche.
+>> Connectez-vous à votre [espace client OVHcloud](/links/manager), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Ensuite, ouvrez `Block Storage`{.action} dans le menu de gauche sous **Storage & Backup**.
 >>
 >> Dans cette partie, cliquez sur le bouton `Créer un volume`{.action}.
 >>
@@ -552,7 +552,7 @@ Pour finir, nous allons détacher le volume de l'instance :
 
 > [!tabs]
 > **Via l'espace client OVHcloud**
->> Rendez-vous dans la rubrique `Public Cloud`{.action} de votre espace client OVHcloud et cliquez sur `Block Storage`{.action} dans le menu de gauche sous **Storage**.
+>> Rendez-vous dans la rubrique `Public Cloud`{.action} de votre espace client OVHcloud et cliquez sur `Block Storage`{.action} dans le menu de gauche sous **Storage & Backup**.
 >> Cliquez sur le bouton `...`{.action} à côté du volume correspondant et sélectionnez `Détacher de l'instance`{.action}.
 >>
 >> ![detach disk](images/detachinstance.png){.thumbnail}

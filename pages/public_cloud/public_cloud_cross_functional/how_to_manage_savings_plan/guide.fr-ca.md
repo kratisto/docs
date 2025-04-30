@@ -1,7 +1,7 @@
 ---
 title: Comment gérer un Savings Plan
 excerpt: Découvrez comment créer un Savings Plan avec différents outils
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 <style>
@@ -43,7 +43,7 @@ Ce guide a pour objectif de fournir une méthode claire et détaillée pour la c
 
 ## En pratique
 
-Connectez-vous à l'[espace client OVHcloud](/links/manager) et rendez-vous dans la section `Public Cloud`{.action}. Après avoir sélectionné votre projet Public Cloud, cliquez sur `Savings Plans`{.action} dans la barre de navigation de gauche sous **Project Management**.
+Connectez-vous à l'[espace client OVHcloud](/links/manager) et rendez-vous dans la section `Public Cloud`{.action}. Après avoir sélectionné votre projet Public Cloud, cliquez sur `Savings Plans`{.action} dans la barre de navigation de gauche sous **Paramètres**.
 
 ### Créer un Savings plan
 

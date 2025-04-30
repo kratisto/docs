@@ -1,7 +1,7 @@
 ---
 title: 'Tworzenie i zarządzanie hasłem do konta'
 excerpt: 'Dowiedz się, jak tworzyć, zmieniać i zarządzać hasłem do Panelu klienta OVHcloud'
-updated: 2020-06-23
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -69,17 +69,15 @@ Jeśli Twoje hasło wykradzione, rekomendujemy [jego natychmiastową zmianę](./
 
 #### W panelu klienta OVHcloud
 
-- Zaloguj się do [Panelu klienta](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl){.external}, kliknij nazwę w prawym górnym rogu, następnie kliknij swoje inicjały.
-
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij Twoją nazwę użytkownika w prawym górnym rogu, a następnie kliknij `Dostęp do konta`{.action}.
 
 - Kliknij `Bezpieczeństwo`{.action}, a następnie `Zmień`{.action} po prawej stronie "Password".
 
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Potwierdź zmianę hasła.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - Na adres kontaktowy przypisany do konta wyślemy potwierdzenie zmiany hasła. Przeczytaj uważnie instrukcje i kliknij na link podany w e-mailu. Zostaniesz przekierowany na stronę, na której możesz zmienić hasło. W pierwszym polu wpisz nazwę użytkownika, w drugim nowe hasło, a w trzecim potwierdź nowe hasło.
 

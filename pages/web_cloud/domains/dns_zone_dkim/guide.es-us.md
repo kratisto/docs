@@ -1,7 +1,7 @@
 ---
 title: Mejorar la seguridad del correo electrónico mediante un registro DKIM
 excerpt: Cómo configurar un registro DKIM en un dominio y una plataforma de correo electrónico de OVHcloud
-updated: 2025-01-22
+updated: 2025-04-28
 ---
 
 <style>
@@ -159,7 +159,11 @@ Por defecto, el DKIM no está activado cuando se añade un dominio a la platafor
 > [!tabs]
 > **Correo electrónico (MX Plan)**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Dirrecciones de correo`{.action} y seleccione el dominio correspondiente. Por último, acceda a la pestaña `Información general`{.action}.
+>> 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. Haga clic en `MX Plan`{.action}.
+>> 1. Seleccione el dominio.
+>> 1. Por último, acceda a la pestaña `Información general`{.action}.
 >>
 >> En el cuadro **Información general**, puede observar que la etiqueta `DKIM`es roja con el texto **Diagnóstico**.
 >>
@@ -167,7 +171,11 @@ Por defecto, el DKIM no está activado cuando se añade un dominio a la platafor
 >>
 > **Exchange**
 >>
->> Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Haga clic en el nombre del servicio Exchange correspondiente. Por último, abra la pestaña `Dominios asociados`{.action}.
+>> 1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+>> 1. Acceda al apartado `Web Cloud`{.action}.
+>> 1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+>> 1. Seleccione la plataforma correspondiente.
+>> 1. Por último, abra la pestaña `Dominios asociados`{.action}.
 >>
 >> A la derecha del dominio en cuestión, puede observar que la etiqueta `DKIM` es rojo.
 >>
@@ -199,7 +207,12 @@ Si la etiqueta `DKIM` es de color rojo, después de las 24 horas, consulte la se
 
 Para una plataforma Exchange, primero debe obtener la referencia de su plataforma para configurar su DKIM.
 
-En el [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. y seleccione el servicio Exchange correspondiente. Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
+
+Por defecto, el nombre de su plataforma corresponde a su referencia, o ésta será visible con el nombre que le haya asignado (ver la imagen inferior).
 
 ![Correo electrónico](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/general-information/dns-dkim-platform-exchange.png){.thumbnail .w-400 .h-600}
 
@@ -849,7 +862,12 @@ Después de cambiar al nuevo selector, conserve el antiguo durante 7 días antes
 
 Tenga en cuenta que sus mensajes de correo electrónico no están firmados por el DKIM, a pesar de haberlo activado o configurado. En primer lugar, conéctese al área de cliente para comprobar el estado del DKIM.
 
-Desde su [área de cliente de OVHcloud](/links/manager), en la pestaña `Web Cloud`{.action}, haga clic en `Microsoft`{.action} y seleccione `Exchange`{.action}. Por último, haga clic en el nombre del servicio Exchange correspondiente.<br><br> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio correspondiente (ver la imagen a continuación).
+1. Conéctese al [área de cliente de OVHcloud](/links/manager).
+1. Acceda al apartado `Web Cloud`{.action}.
+1. En la sección `MICROSOFT`, haga clic en `Exchange`{.action}.
+1. Seleccione la plataforma correspondiente.
+
+Por último, haga clic en el nombre del servicio Exchange correspondiente.<br><br> En la sección `Dominios asociados`{.action}, compruebe el color del icono `DKIM` a la derecha del dominio correspondiente (ver la imagen a continuación).
 
 ![email](/pages/assets/screens/control_panel/product-selection/web-cloud/microsoft/exchange/associated-domains/red-dkim.png){.thumbnail .w-400 .h-600}
 

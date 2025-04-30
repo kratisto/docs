@@ -1,7 +1,7 @@
 ---
 title: FAQ sur le suivi de commande OVHcloud
 excerpt: Retrouvez les questions les plus fréquemment posées sur le suivi de commande OVHcloud
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -14,21 +14,19 @@ Vous ne pouvez régler votre commande qu’une fois identifié à l’aide de vo
 
 #### Trucs et astuces
 
-Vous avez quitté la page de votre commande ? Vous pouvez la visualiser et la régler depuis votre [espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), dans `Mes commandes`{.action}.
+Vous avez quitté la page de votre commande ? Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis cliquez sur `Mes commandes`{.action}. Vous pourrez alors visualiser votre commande et la régler.
 
 ### Comment consulter le statut de mon paiement ?
 
-Connectez-vous à votre [espace client](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr), puis sur votre tableau de bord, cliquez sur le raccourci `Factures`{.action}, présent dans le bandeau de droite. Si une facture est en attente de paiement, directement sur votre tableau de bord, il vous sera proposé d'en régler le solde.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis sur `Mes factures`{.action}. Si une facture est en attente de paiement, directement sur votre tableau de bord, il vous sera proposé d'en régler le solde.
 
 #### Trucs et astuces
 
-Vous pouvez enregistrer votre moyen de paiement dans la section `Moyens de paiement`{.action}. Vos factures seront ainsi automatiquement régularisées.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis cliquez sur `Mes moyens de paiement`{.action}. Vous pouvez alors y enregistrer votre moyen de paiement. Vos factures seront ainsi automatiquement régularisées.
 
 ### Comment suivre l'état de ma commande ?
 
-Connectez-vous à votre espace client, puis une fois sur votre tableau de bord, au centre de cette page, vous aurez de la visibilité sur l'état de vos dernières commandes. Si vous souhaitez accéder à l'ensemble de vos commandes, cliquez sur `Voir mes commandes`{.action}.
-
-![suivi commande](images/order_final-min.gif){.thumbnail}
+Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Voir mes commandes`{.action}.
 
 #### Trucs et astuces
 
@@ -58,11 +56,9 @@ Afin de garantir la protection de ses clients, OVHcloud accorde une attention pa
 
 Une facture en attente de paiement peut également être à l’origine de cette situation. Si vous êtes concerné, nous vous invitons à régler son solde depuis l’espace `Facturation`{.action} de votre espace client.
 
-![livraison de service](images/billing_final_0.gif){.thumbnail}
-
 #### Trucs et astuces
 
-Vous pouvez enregistrer votre moyen de paiement dans la section `Moyens de paiement`{.action}. Vos factures seront ainsi automatiquement régularisées.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), cliquez sur votre nom en haut à droite, puis cliquez sur `Mes moyens de paiement`{.action}. Vous pouvez alors y enregistrer votre moyen de paiement. Vos factures seront ainsi automatiquement régularisées.
 
 ## Aller plus loin
 

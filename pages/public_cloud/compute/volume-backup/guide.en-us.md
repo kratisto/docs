@@ -1,7 +1,7 @@
 ---
 title: Creating a volume backup
 excerpt: Discover how to back up your Block Storage volume in the OVHcloud Control Panel
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -28,7 +28,7 @@ Both volume snapshot and volume backup allow you to:
 
 ## Instructions
 
-Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then open `Block Storage`{.action} in the left-hand navigation bar under **Storage**.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then open `Block Storage`{.action} in the left-hand navigation bar under **Storage and Backup**.
 
 In the row of the volume concerned, click on the `...`{.action} button and select `Create a backup`{.action}.<br>
 It is not required to detach the volume from its instance first. However, if you wish to do so, please consult this [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#on-linux) of the corresponding guide for Linux and this [section](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#on-windows) for Windows.

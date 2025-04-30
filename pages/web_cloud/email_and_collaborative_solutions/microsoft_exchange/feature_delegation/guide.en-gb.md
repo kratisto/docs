@@ -1,7 +1,7 @@
 ---
 title: 'Delegating permissions on an email account'
 excerpt: 'Find out how to delegate permissions on your email account to another user'
-updated: 2024-06-19
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -46,15 +46,14 @@ When you have identified the account that you want to delegate permissions for, 
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Microsoft`{.action}.
->> 1. Click `Exchange`{.action}.
+>> 1. In the `MICROSOFT` section, click `Exchange`{.action}.
 >> 1. Select the service concerned.
 >>
 > **Email Pro**
 >>
 >> 1. Log in to your [OVHcloud Control Panel](/links/manager).
 >> 1. Open the `Web Cloud`{.action} section.
->> 1. Click `Professional emails`{.action}.
+>> 1. Click `Email Pro`{.action}.
 >> 1. Select the service concerned.
 >>
 

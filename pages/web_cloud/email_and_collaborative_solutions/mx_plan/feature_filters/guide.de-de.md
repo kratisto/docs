@@ -1,7 +1,7 @@
 ---
 title: Filter für Ihre E-Mail-Adressen erstellen
 excerpt: Erfahren Sie hier, wie Sie Filterregeln für Ihre E-Mail-Adresse erstellen und konfigurieren
-updated: 2024-03-26
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -34,7 +34,7 @@ MX Plan Legacy|MX Plan neuere Version|
 
 1. Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein.
 1. Öffnen Sie den Bereich `Web Cloud`{.action}.
-1. Klicken Sie auf `E-Mails`{.action}.
+1. Klicken Sie auf `MX Plan`{.action}.
 1. Wählen Sie die betreffende Domain aus.
 1. Klicken Sie in der Tabelle, in der Ihre E-Mail-Adressen aufgelistet sind, auf das `Filter`{.action}-Symbol in der Zeile der zu bearbeitenden Adresse.
 

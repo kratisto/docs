@@ -1,7 +1,7 @@
 ---
 title: "Speicherplatz eines E-Mail-Accounts verwalten"
 excerpt: "Erfahren Sie hier, wie Sie den Speicherplatz von E-Mail-Accounts verwalten und optimieren"
-updated: 2022-11-17
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -44,7 +44,7 @@ Gehen Sie in Ihrem [OVHcloud Kundencenter](/links/manager) in den Bereich `Web C
 > [!tabs]
 > **E-Mails (MX Plan)**
 >>
->> Klicken Sie auf `E-Mails`{.action} und wählen Sie den Namen des betreffenden MX Plans aus. Gehen Sie auf den Tab `E-Mail Accounts`{.action}. Hier werden die bestehenden E-Mail-Accounts angezeigt. Sie können in der Spalte `Größe` den aktuellen Verbrauch Ihrer E-Mail-Accounts sehen.<br><br>
+>> Klicken Sie auf `MX Plan`{.action} und wählen Sie den Namen des betreffenden MX Plans aus. Gehen Sie auf den Tab `E-Mail Accounts`{.action}. Hier werden die bestehenden E-Mail-Accounts angezeigt. Sie können in der Spalte `Größe` den aktuellen Verbrauch Ihrer E-Mail-Accounts sehen.<br><br>
 >>![E-Mail](images/email-quota-quotacontrolpanel01.png){.thumbnail}<br>
 >>
 > **E-Mail Pro**

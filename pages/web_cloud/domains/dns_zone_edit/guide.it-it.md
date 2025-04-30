@@ -1,7 +1,7 @@
 ---
 title: 'Modificare una zona DNS di OVHcloud'
 excerpt: 'Questa guida ti mostra come modificare una zona DNS OVHcloud dallo Spazio Cliente'
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 <style>
@@ -30,8 +30,8 @@ Per maggiori spiegazioni, consulta le nostre guide "[Scopri tutto sui server DNS
 
 ## Prerequisiti
 
-- Avere accesso alla gestione del dominio dallo [Spazio Cliente OVHcloud](/links/manager){.external}
-- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager){.external}
+- Avere accesso alla gestione del dominio dallo [Spazio Cliente OVHcloud](/links/manager)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Utilizza la configurazione OVHcloud (server DNS) per il dominio in questione. 
 
 > [!warning]
@@ -52,7 +52,7 @@ Per maggiori spiegazioni, consulta le nostre guide "[Scopri tutto sui server DNS
 >
 > A differenza del nome di dominio, per una zona DNS non esiste la nozione di proprietario, ma di gestione dei contatti per una zona DNS OVHcloud. Se desideri trasferire la gestione della tua zona DNS su un altro account OVHcloud, segui la nostra guida [Gestire i contatti di servizio](/pages/account_and_service_management/account_information/managing_contacts).
 
-Per accedere alla gestione di una zona DNS OVHcloud, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per accedere alla gestione di una zona DNS OVHcloud, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -63,17 +63,12 @@ Per accedere alla gestione di una zona DNS OVHcloud, clicca sulle schede qui sot
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Visualizzi una tabella con tutti i record DNS associati al tuo dominio in OVHcloud. Il contenuto può essere filtrato per tipo di record o dominio.
 >>
 >> ![dnszone](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/tab.png){.thumbnail}
@@ -101,7 +96,7 @@ Per effettuare questa operazione è possibile modificare manualmente la zona in 
 > Solo per gli utenti esperti. Presta particolare attenzione alla sintassi durante le modifiche.
 >
 
-Per modificare in modalità testo una zona DNS di OVHcloud, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per modificare in modalità testo una zona DNS di OVHcloud, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -112,17 +107,12 @@ Per modificare in modalità testo una zona DNS di OVHcloud, clicca sulle schede 
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Clicca sul pulsante `Modifica in modalità testuale`{.action} a destra o sotto la tabella e segui gli step.
 >>
 >> > [!warning]
@@ -142,7 +132,7 @@ Questa guida descrive la procedura relativa alla configurazione guidata.
 
 /// details | Aggiungi un nuovo record DNS
 
-Per aggiungere un nuovo record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per aggiungere un nuovo record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -153,17 +143,12 @@ Per aggiungere un nuovo record DNS, clicca sulle schede qui sotto per visualizza
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Clicca su `Aggiungi un record`{.action} e segui gli step.
 >>
 >> Verifica che il record non esista già e non punti a un target differente. filtrando il contenuto della tabella per tipo di record o dominio. Se il record esiste già, ti consigliamo di modificarlo seguendo la procedura descritta.
@@ -181,7 +166,7 @@ Per aggiungere un nuovo record DNS, clicca sulle schede qui sotto per visualizza
 
 /// details | Modifica un record DNS esistente
 
-Per modificare un record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per modificare un record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -192,17 +177,12 @@ Per modificare un record DNS, clicca sulle schede qui sotto per visualizzare in 
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Nella tabella che appare, clicca sul pittogramma `...`{.action} a destra della voce interessata.
 >>
 >> Clicca su `Modifica il record`{.action} e segui gli step.
@@ -214,7 +194,7 @@ Per modificare un record DNS, clicca sulle schede qui sotto per visualizzare in 
 
 /// details | Elimina un record DNS
 
-Per eliminare un record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per eliminare un record DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -225,17 +205,12 @@ Per eliminare un record DNS, clicca sulle schede qui sotto per visualizzare in s
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Nella tabella che appare, clicca sul pittogramma `...`{.action} a destra della voce interessata.
 >>
 >> Clicca su `Elimina il record`{.action} e segui gli step.
@@ -256,7 +231,7 @@ La reinizializzazione della zona DNS permette di ripristinare una configurazione
 > Prima di reimpostare la zona DNS, assicurati che il dominio non sia associato a servizi in uso, come un sito Web o indirizzi email.
 >
 
-Per reinizializzare la zona DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **6** passi.
+Per reinizializzare la zona DNS, clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **5** passi.
 
 > [!tabs]
 > **Step 1**
@@ -267,29 +242,24 @@ Per reinizializzare la zona DNS, clicca sulle schede qui sotto per visualizzare 
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Clicca sul pulsante `Ripristina la tua zona DNS`{.action} e segui gli step 2.
 >>
 >> ![dnszone](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-dns/dns-zone/reset-my-dns-zone.png){.thumbnail}
 >>
-> **Step 5**
+> **Step 4**
 >>
 >> Rispondi alla domanda `Vuoi attivare il numero minimo di record durante la reinizializzazione della zona DNS?`. Definire i record minimi in una zona DNS permette di evitare che una richiesta verso il nome di dominio si concluda con un errore.
 >>
 >> - `Sì, voglio reinizializzare la mia zona DNS con il numero minimo di record`
 >> - `No, ma voglio reinizializzare la mia zona DNS`
 >>
-> **Step 6**
+> **Step 5**
 >>
 >> Indipendentemente dalla scelta effettuata nello step precedente, è necessario definire una risposta quando si interroga il dominio, per evitare una risposta DNS in errore.
 >>
@@ -316,7 +286,7 @@ Per reinizializzare la zona DNS, clicca sulle schede qui sotto per visualizzare 
 
 Una volta modificata la zona DNS del dominio, la propagazione delle modifiche potrebbe richiedere fino a 24 ore.
 
-Per ridurre il tempo di propagazione per le prossime modifiche della zona DNS, è possibile regolare il TTL (*Time To Live*) che si applicherà a tutti i record della zona DNS. Per questo , clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **4** passi.
+Per ridurre il tempo di propagazione per le prossime modifiche della zona DNS, è possibile regolare il TTL (*Time To Live*) che si applicherà a tutti i record della zona DNS. Per questo , clicca sulle schede qui sotto per visualizzare in sequenza ciascuno dei **3** passi.
 
 > [!tabs]
 > **Step 1**
@@ -327,17 +297,12 @@ Per ridurre il tempo di propagazione per le prossime modifiche della zona DNS, �
 >>
 > **Step 2**
 >>
->> Clicca sul menu `Domini`{.action} e seleziona il dominio interessato.
+>> Clicca sul menu `Zone DNS`{.action} e seleziona il dominio interessato.
 >>
->> ![Domain Names](/pages/assets/screens/control_panel/product-selection/web-cloud/domain-names.png){.thumbnail}
+>> ![DNS zones](/pages/assets/screens/control_panel/product-selection/web-cloud/dns-zones.png){.thumbnail}
 >>
 > **Step 3**
->>
->> Seleziona la scheda `Zona DNS`{.action} una volta posizionato sul dominio interessato.
->>
->>
-> **Step 4**
->>
+>> 
 >> Clicca sul pulsante `Modifica il TTL predefinito`{.action} e segui gli step.
 >>
 >> È inoltre possibile modificare il TTL di un record DNS. ma questa operazione può essere effettuata solo su una registrazione alla volta, modificandola o aggiungendola.

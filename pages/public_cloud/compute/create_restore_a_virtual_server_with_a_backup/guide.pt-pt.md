@@ -1,7 +1,7 @@
 ---
 title: 'Criar / Restaurar um servidor virtual a partir de um backup'
 excerpt: 'Criar / Restaurar um servidor virtual a partir de um backup'
-updated: 2021-03-19
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -27,7 +27,7 @@ Pode querer restaurar a sua instância através de um backup, por exemplo, em ca
 
 ### Criar uma instância a partir de um backup
 
-Ligue-se à sua [Área de Cliente OVHcloud](/links/manager){.external} e selecione `Public Cloud`{.action}. Selecione o projeto Public Cloud em causa e depois clique em `Instance backup`{.action} na secção `Storage`.
+Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e selecione `Public Cloud`{.action}. Selecione o projeto Public Cloud em causa e depois clique em `Instance backup`{.action} na secção **Compute**.
 
 ![public-cloud-instance-backup](images/restorebackup01.png){.thumbnail}
 
@@ -56,7 +56,7 @@ Para mais informações sobre a criação de uma instância, consulte [este guia
 
 ### Restaurar uma instância a partir de um backup
 
-Ligue-se à sua [Área de Cliente OVHcloud](/links/manager){.external} e selecione `Public Cloud`{.action}. A seguir, clique em `Instâncias`{.action} no menu à esquerda.
+Ligue-se à sua [Área de Cliente OVHcloud](/links/manager) e selecione `Public Cloud`{.action}. Selecione o projeto Public Cloud em causa e depois clique em `Instâncias`{.action} no menu à esquerda.
 
 ![public-cloud-instance-backup](images/restorebackup04.png){.thumbnail}
 

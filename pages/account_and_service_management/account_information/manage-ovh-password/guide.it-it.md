@@ -1,7 +1,7 @@
 ---
 title: 'Impostare e gestire la password di un account OVHcloud'
 excerpt: 'Come definire, modificare e gestire la tua password dallo Spazio Cliente'
-updated: 2019-04-12
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -67,17 +67,15 @@ Nel caso in cui la password risulti compromessa, consigliamo di [modificarla imm
 
 #### Dallo Spazio Cliente
 
-- Accedi allo [Spazio Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it){.external}, clicca sul tuo nome in alto a destra e cliccare sulle vostre iniziali.
+- Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e poi su `Accedere al mio account`{.action}.
 
-![manage-ovh-password](images/newhub2.png){.thumbnail}
+- Clicca sulla scheda `Sicurezza`{.action} e poi sul pulsante `Modificare`{.action} in corrispondenza della voce “Password”.
 
-- Clicca sulla scheda `Sicurezza`{.action} e poi sul pulsante `Modifica`{.action} in corrispondenza della voce “Password”.
-
-![manage-ovh-password](images/manage-password02.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password.png){.thumbnail}
 
 - Conferma l’operazione.
 
-![manage-ovh-password](images/manage-password03.png){.thumbnail}
+![manage-ovh-password](/pages/assets/screens/control_panel/product-selection/right-column/access-my-account/edit-account-password-confirmation.png){.thumbnail}
 
 - All’indirizzo di contatto associato all’account viene inviata un’email per la conferma della modifica apportata. Leggi attentamente le istruzioni e clicca sul link contenuto nell’email, che reindirizza verso la pagina per la modifica della password. Nella nuova pagina, completa i tre campi con le informazioni richieste: identificativo e nuova password.
 

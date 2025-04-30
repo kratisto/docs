@@ -1,7 +1,7 @@
 ---
 title: "Bare Metal 3-AZ Region - Vorstellung des Angebots"
 excerpt: "Entdecken Sie den Bare Metal 3-AZ Dienst, der eine unübertroffene Hochverfügbarkeit und Redundanz zwischen drei Rechenzentren bietet"
-updated: 2024-05-30
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -24,19 +24,21 @@ OVHcloud ist weltweit tätig, insbesondere in Europa, den USA, Kanada und im Asi
 
 Für eine optimale Leistung sollte eine Region so nah wie möglich an den Benutzern ausgewählt werden. Um weltweit verfügbar zu sein, müssen die Dienste über mehrere Regionen verteilt sein. Die 3-AZ-Region ist ideal für Kunden, die höchste Resilienz suchen, und sollte für die Erstellung von Multi-AZ-Anwendungsentwürfen verwendet werden.
 
-Hier können Sie Ihre Cluster mit einem neuen Tab im Interface auflisten (die Server sind in der zugrunde liegenden Liste für einen Cluster mit 3 Nodes dargestellt):
+Im [OVHcloud Kundencenter](/links/manager) können Sie Ihre Cluster in der Liste der `Dedicated Server`{.action} im Menü `Bare Metal Cloud`{.action} sehen, indem Sie zum Tab `3-AZ Cluster`{.action} wechseln.
 
-![left_menu](images/01-20240513-blur.png){.thumbnail}
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters1.png){.thumbnail}
 
-![list_clusters](images/02-20240513-blur.png){.thumbnail}
+Klicken Sie auf den Cluster-Namen in der Tabelle, um die Details anzuzeigen.
 
-Nach der Auswahl Ihres Clusters sehen Sie die Liste der 3 Server im Cluster:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters2.png){.thumbnail}
 
-![list_servers](images/03-20240513-blur.png){.thumbnail}
+Klicken Sie auf den Tab `Nodes`{.action}, um die Serverliste des Clusters zu öffnen.
 
-Das Interface bleibt bestehen, es gibt keine weiteren Änderungen auf dieser Ebene:
+![list_clusters](/pages/assets/screens/control_panel/product-selection/bare-metal-cloud/dedicated-servers/general-information/clusters3.png){.thumbnail}
 
-![detail_server](images/04-20240513-blur.png){.thumbnail}
+Durch Klicken auf einen Server-/Knotennamen in dieser Liste öffnet sich der Tab `Allgemeine Informationen`{.action} des Servers. Einzelheiten zu diesem Bereich finden Sie in unserer Anleitung:
+
+[Erste Schritte mit einem Dedicated Server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server)
 
 ## Weiterführende Informationen <a name="go-further"></a>
 

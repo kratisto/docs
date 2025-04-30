@@ -1,7 +1,7 @@
 ---
 title: "Configure an MX record for email management"
 excerpt: "Find out how to add a MX record to your OVHcloud domain name’s configuration"
-updated: 2024-02-29
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -65,7 +65,7 @@ These MX records must be configured in your domain name’s DNS zone.
 
 ### Configuring an MX record in an OVHcloud DNS zone
 
-To create or modify the MX records in your domain name’s OVHcloud configuration, log in to the [OVHcloud Control Panel](/links/manager). Go to the `Domain names`{.action} section, click on the domain concerned, then go to the `DNS Zone`{.action} tab.
+To create or modify the MX records in your domain name’s OVHcloud configuration, log in to the [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section. Click the `DNS zones`{.action} menu, then choose the domain name concerned.
 
 The table shows your domain name’s OVHcloud configuration. Each row corresponds to a DNS record.
 

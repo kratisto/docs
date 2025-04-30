@@ -19,14 +19,14 @@ Questa guida ti mostra come:
 
 > [!primary]
 >
-> Ti ricordiamo che in base al luogo di residenza, alla normativa vigente e ai servizi attivati, è possibile che alcune sezioni di questa guida varino o non siano applicabili alla tua situazione. Per maggiori informazioni, consulta i contratti OVHcloud dallo [Spazio Cliente](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) : clicca sul tuo nome in alto a destra, sulla `Le mie offerte e servizi`{.action} e poi sulla scheda `Contratti`{.action}.
+> Ti ricordiamo che in base al luogo di residenza, alla normativa vigente e ai servizi attivati, è possibile che alcune sezioni di questa guida varino o non siano applicabili alla tua situazione. Per maggiori informazioni, consulta i contratti OVHcloud dallo [Spazio Cliente](/links/manager) : clicca sul tuo nome in alto a destra, sulla `Le mie offerte e servizi`{.action} e poi sulla scheda `Contratti`{.action}.
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dfpPCa0mUyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Disporre di servizi OVHcloud attivi
 - Essere [contatto fatturazione](/pages/account_and_service_management/account_information/managing_contacts#definizione) dei servizi OVHcloud
 - Disporre di un metodo di pagamento valido sul tuo account OVHcloud. Consulta la nostra guida "[Gestire i metodi di pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods)".
@@ -68,10 +68,10 @@ Questa guida ti mostra come:
 
 ## Procedura
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).<br>
+Accedi allo [Spazio Cliente OVHcloud](/links/manager).<br>
 Clicca sul tuo nome nell’angolo in alto a destra e seleziona `Le mie offerte e servizi`{.action}.
 
-![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 ### Visualizza il tipo di rinnovo <a name="renewal-type"></a>
 

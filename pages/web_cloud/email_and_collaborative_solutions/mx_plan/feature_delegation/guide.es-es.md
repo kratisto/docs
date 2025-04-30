@@ -1,7 +1,7 @@
 ---
 title: 'MX Plan - Transferir la gestión de sus cuentas de correo a otra persona'
 excerpt: 'Cómo delegar la gestión de las cuentas de correo de su solución MX Plan'
-updated: 2021-10-08
+updated: 2025-04-28
 ---
 
 
@@ -38,8 +38,8 @@ La delegación ofrece al usuario de una cuenta de correo la posibilidad de gesti
 >
 
 1. Conéctese a su [área de cliente de OVHcloud](/links/manager).
-1. Haga clic en la pestaña `Web Cloud`{.action}.
-1. Haga clic en `Direcciones de correo`{.action}.
+1. Acceda al apartado `Web Cloud`{.action}.
+1. Haga clic en `MX Plan`{.action}.
 1. Seleccione el dominio.
 1. Para ver la lista de cuentas de correo de su solución MX Plan, haga clic en la pestaña `Correo electrónico`{.action}.
 

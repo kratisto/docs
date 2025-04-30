@@ -1,7 +1,7 @@
 ---
 title: "Créer un volume à partir d'une sauvegarde"
 excerpt: "Découvrez comment créer des disques supplémentaires à partir d'une sauvegarde d'un disque supplémentaire"
-updated: 2021-04-06
+updated: 2025-04-24
 ---
 
 ## Objectif
@@ -18,7 +18,7 @@ Cela peut être utile dans les cas suivants :
 
 ## Prérequis
 
-- Être connecté votre [espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovh.com%2Fmanager%2Fpublic-cloud&ovhSubsidiary=fr){.external}.
+- Être connecté votre [espace client OVHcloud](/links/manager).
 - Avoir une [instance Public Cloud](https://www.ovhcloud.com/fr/public-cloud/){.external} dans votre compte OVHcloud.
 - Avoir une sauvegarde disque dans la même région OpenStack.
 - Avoir accès à votre instance via SSH en tant qu'administrateur (sudo).
@@ -27,7 +27,7 @@ Cela peut être utile dans les cas suivants :
 
 ### Créer le disque à partir d'une sauvegarde
 
-Connectez-vous à [l'espace client OVHcloud](https://www.ovh.com/auth?onsuccess=https%3A%2F%2Fwww.ovh.com%2Fmanager%2Fpublic-cloud&ovhSubsidiary=fr), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Cliquez ensuite sur `Volume Snapshot`{.action} dans la barre de navigation de gauche sous `Storage`.
+Connectez-vous à [l'espace client OVHcloud](/links/manager), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Cliquez ensuite sur `Volume Snapshot`{.action} dans la barre de navigation de gauche sous **Storage & Backup**.
 
 À droite de la sauvegarde de votre choix, cliquez sur le bouton `...`{.action} puis sur `Créer un volume`{.action}.
 
@@ -41,7 +41,7 @@ La création du disque peut prendre quelques minutes, suivant la taille de celui
 
 ### Attacher le disque à une instance
 
-Une fois le disque créé, vous pouvez décider de l'attacher à une instance. Pour cela, cliquez sur `Block Storage`{.action} dans la barre de navigation de gauche sous `Storage`.
+Une fois le disque créé, vous pouvez décider de l'attacher à une instance. Pour cela, cliquez sur `Block Storage`{.action} dans la barre de navigation de gauche sous **Storage & Backup**.
 
 À droite du volume de votre choix, cliquez sur le bouton `...`{.action} puis sur `Attacher à l'instance`{.action}.
 

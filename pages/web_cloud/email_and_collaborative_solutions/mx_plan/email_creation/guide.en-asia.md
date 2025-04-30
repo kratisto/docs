@@ -1,7 +1,7 @@
 ---
 title: 'Creating an email address with an MX Plan solution'
 excerpt: 'Find out how to create an email address with an MX Plan solution'
-updated: 2024-06-13
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -24,9 +24,14 @@ You have just purchased an MX Plan email solution. It allows you to benefit from
 
 ## Instructions <a name="instructions"></a>
 
-Depending on the date your service was activated and whether it was recently migrated, you are using either the legacy version or the new version of the MX Plan solution. Before you proceed with this guide, you need to check which version you are using. 
+Depending on the date your service was activated and whether it was recently migrated, you are using either the legacy version or the new version of the MX Plan solution. Before you proceed with this guide, you need to check which version you are using.
 
-To do this, log in to the [OVHcloud Control Panel](/links/manager), and open the `Web Cloud`{.action} section. Click on `Emails`{.action}, then choose the name of the MX Plan service concerned. Continue with the next steps, depending on which version you own.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `MX Plan`{.action}.
+1. Select the domain concerned.
+
+Continue with the next steps, depending on which version you own.
 
 |MX Plan legacy version|MX Plan new version|
 |---|---|

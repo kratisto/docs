@@ -1,7 +1,7 @@
 ---
 title: 'Die Größe einer zusätzlichen Disk erweitern'
 excerpt: 'Erfahren Sie hier, wie Sie die Kapazität eines zusätzlichen Volumes vergrößern und die Hauptpartition anpassen'
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -99,7 +99,7 @@ Um sicherzustellen, dass Sie die Größe Ihrer Disk rechtzeitig ändern, ist es 
 
 ### Größe der Disk ändern
 
-Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie dann im linken Menü auf `Block Storage`{.action}.
+Loggen Sie sich in Ihr [OVHcloud Kundencenter](/links/manager) ein und wählen Sie Ihr `Public Cloud`{.action} Projekt aus. Klicken Sie dann im linken Menü unter **Storage and Backup** auf `Block Storage`{.action}
 
 Wenn das Volume mit einer **Windows-Instanz** verbunden ist, klicken Sie auf `...`{.action} rechts neben dem betreffenden Volume und wählen Sie `Instanz trennen`{.action} aus.
 

@@ -1,7 +1,7 @@
 ---
 title: As boas práticas para a gestão dos seus serviços e da sua conta OVHcloud
 excerpt: Encontre aqui os elementos indispensáveis para a boa gestão das suas faturas, encomendas, métodos de pagamento e conta de cliente
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -13,13 +13,13 @@ Este guia contém os elementos indispensáveis a uma boa gestão da sua conta e 
 ## Requisitos
 
 - Dispor de um ou vários serviços ativos da OVHcloud.
-- Ter acesso à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).
+- Ter acesso à [Área de Cliente OVHcloud](/links/manager).
 
 ## Instruções
 
 ### Parâmetros da conta
 
-#### Proteja a sua conta
+#### Proteja à sua conta
 
 - [Crie uma palavra-passe forte](/pages/account_and_service_management/account_information/manage-ovh-password#gerar-uma-boa-palavra-passe) que assegurará a confidencialidade da sua conta.
 
@@ -31,7 +31,7 @@ Para que as medidas de segurança sejam eficazes, certifique-se de que os seus e
 
 As suas informações pessoais (endereço postal, e-mail, etc.) devem estar atualizadas na sua conta de cliente para garantir a segurança e o bom funcionamento dos seus serviços.
 
-Verifique os seus dados pessoais clicando no seu nome e nas suas iniciais (`Gerir a minha conta`{.action}) no canto superior direito da sua Área de Cliente OVHcloud.<br>
+Verifique as suas informações pessoais clicando, no canto superior direito do seu [Área de Cliente OVHcloud](/links/manager), no seu nome e, depois, em `Aceder à minha conta`{.action}.<br>
 Na secção `O meu perfil`{.action} à direita do ecrã (clique novamente no seu nome para eliminar o menu à esquerda), clique em `...`{.action} e, a seguir, em `Editar o meu perfil`{.action}.
 
 ![myprofile](images/myprofile.png){.thumbnail}
@@ -45,16 +45,16 @@ Certifique-se de que o seu endereço de e-mail está sempre **atualizado, seguro
 > Adicione um **e-mail de SOS** às suas informações pessoais para o proteger de qualquer perda de acesso à sua conta de cliente OVHcloud.
 >
 
-Os e-mails enviados pela OVHcloud também estão acessíveis a partir da [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).<br>
-Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `E-mails de serviço`{.action} no menu à direita.
+Os e-mails enviados pela OVHcloud também estão acessíveis a partir da [Área de Cliente OVHcloud](/links/manager).<br>
+Clique no seu nome no canto superior direito do seu ecrã e, a seguir, nos `As minhas comunicações`{.action} no menu à direita.
 
-![service_emails](/pages/assets/screens/control_panel/product-selection/right-column/service_emails.png){.thumbnail}
+![service_emails](/pages/assets/screens/control_panel/product-selection/right-menu/my-messages.png){.thumbnail}
 
 ### Ative a renovação automática
 
 > [!primary]
 >
-> Para evitar qualquer interrupção de serviço e para o bom funcionamento da renovação automática, [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) na sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt)
+> Para evitar qualquer interrupção de serviço e para o bom funcionamento da renovação automática, [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods) na sua [Área de Cliente OVHcloud](/links/manager).
 >
 > Certifique-se regularmente de que o seu método de pagamento é **válido**.
 >
@@ -64,20 +64,18 @@ Para mais informações sobre a ativação da renovação automática, consulte 
 - [Gerir a renovação dos serviços](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal);
 - [Gerir os meus métodos de pagamento](/pages/account_and_service_management/managing_billing_payments_and_services/manage-payment-methods);
 
-Se decidir não ativar a renovação automática, receberá notificações por e-mail convidando-o a efetuar um **pagamento manual**. Permite-lhe renovar o seu serviço com antecedência ou pagar a sua fatura em espera.
+Se decidir não ativar a renovação automática, receberá notificações por e-mail convidando-o a efetuar um **pagamento manual**. Permite-lhe renovar o seu serviço com antecedência ou pagar à sua fatura em espera.
 
 ### Seguimento das suas encomendas
 
-Sabia que podia [Gerir as encomendas da OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) no seu [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt)?<br>
-Basta aceder ao separador `Painel de controlo`{.action} do menu superior do seu ecrã e clicar em `Ver as minhas encomendas`{.action}.
-
-![viewmyorders](images/viewmyorders.png){.thumbnail}
+Sabia que podia [Gerir as encomendas da OVHcloud](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders) no seu [Área de Cliente OVHcloud](/links/manager)?<br>
+Basta clicar no logótipo da OVHcloud no canto superior esquerdo do seu ecrã e clicar em `Ver as minhas encomendas`{.action}.
 
 Será informado das etapas da entrega e saberá se são necessárias ações.
 
 ### Rescisão de serviços
 
-Se pretender deixar de utilizar um dos seus serviços, pode rescindir o serviço, passar a renovação em modo manual ou eliminá-lo imediatamente a partir da [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt).
+Se pretender deixar de utilizar um dos seus serviços, pode rescindir o serviço, passar a renovação em modo manual ou eliminá-lo imediatamente a partir da [Área de Cliente OVHcloud](/links/manager).
 
 Clique primeiro no seu nome no canto superior direito do seu ecrã e, a seguir, em `As minhas ofertas e serviços`{.action}. No lado direito do ecrã, clique no botão `...`{.action} correspondente ao serviço sobre o qual deseja atuar e, em seguida, num dos botões seguintes:
 
@@ -89,7 +87,7 @@ Para obter mais informações sobre a rescisão dos seus serviços, consulte o g
 
 ### Encerramento de conta
 
-Se pretender encerrar definitivamente a sua conta pessoal OVHcloud, verifique em primeiro lugar se não contém serviços ativos, faturas com pagamento pendente ou encomendas em curso.<br>
+Se pretender encerrar definitivamente à sua conta pessoal OVHcloud, verifique em primeiro lugar se não contém serviços ativos, faturas com pagamento pendente ou encomendas em curso.<br>
 De seguida, utilize [este formulário](https://www.ovh.pt/proteger-dados-pessoais/exercer-seus-direitos/) para pedir a eliminação definitiva da sua conta. Selecione exercer o "Direito de eliminação" na lista de propostas.
 
 ## Quer saber mais? <a name="gofurther"></a>

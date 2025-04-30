@@ -1,7 +1,7 @@
 ---
 title: 'Using email aliases and redirections'
 excerpt: 'Find out how to manage aliases and email redirections'
-updated: 2024-06-10
+updated: 2025-04-28
 ---
 
 <style>
@@ -81,7 +81,12 @@ Click on the tabs below for an illustrated explanation of how aliases and redire
 >
 > Depending on the date your MX Plan solution was activated and if it was recently migrated, you may have the legacy version or the new version of the solution. Before you proceed, you will need to identify it.<br>
 >
-> To do this, log in to your [OVHcloud Control Panel](/links/manager), go to the `Web Cloud`{.action} section and click on `Emails`{.action}. Choose the name of the relevant MX Plan service. Identify your solution according to the following table:<br>
+> 1. Log in to your [OVHcloud Control Panel](/links/manager).
+> 1. Open the `Web Cloud`{.action} section.
+> 1. Click `MX Plan`{.action}.
+> 1. Select the domain concerned.
+>
+> Identify your solution according to the following table:<br>
 >
 > |MX Plan legacy version|MX Plan new version|
 > |---|---|
@@ -166,9 +171,9 @@ Log in to the [OVHcloud Control Panel](/links/manager) and go to the `Web Cloud`
 
 - **Exchange**: Open `Microsoft`{.action} and then `Exchange`{.action}. Select the service concerned. Click on the `Email accounts`{.action} tab.
 
-- **Email Pro**: Open `Professional emails`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
+- **Email Pro**: Open `Email Pro`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
 
-- **Emails** (MX Plan): Open `Emails`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
+- **Emails** (MX Plan): Open `MX Plan`{.action}, select the platform concerned, and click on the `Email accounts`{.action} tab.
 
 To add an alias to your email account, follow the instruction steps by clicking successively on each tab below:
 
@@ -198,7 +203,10 @@ Click on the button `...`{.action} in the row of the alias in question and selec
 
 #### Creating a redirection or an alias with a legacy MX Plan solution or for a domain name without an email solution <a name="mxplanlegacy"></a>
 
-Log in to the [OVHcloud Control Panel](/links/manager) and open `Emails`{.action} in the `Web Cloud`{.action} section.
+1. Log in to your [OVHcloud Control Panel](/links/manager).
+1. Open the `Web Cloud`{.action} section.
+1. Click `MX Plan`{.action}.
+1. Select the domain concerned.
 
 > [!warning]
 >

@@ -1,7 +1,7 @@
 ---
 title: 'Gérer et configurer un bloc IP /29'
 excerpt: 'Apprenez à administrer un bloc IP /29 et à le paramétrer sur votre box OVHcloud'
-updated: 2022-02-16
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -29,8 +29,8 @@ Un bloc IP vous permet d'associer des équipements de votre réseau interne à u
 ### Étape 1 : retrouver les IP associées à votre accès
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet Fibre ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
 
 ![blocip](images/blocip-step01-edit-2022.png){.thumbnail}
@@ -123,7 +123,7 @@ Si vous utilisez une version antérieure à Windows 10, vous devriez pouvoir ret
 
 Pour réaliser la connexion Telnet, ouvrez maintenant le « Terminal » (macOS et Linux) ou l'invite de commande (Windows). Utilisez ensuite la commande suivante pour vous connecter à votre box OVHcloud (si vous avez modifié l'adresse de passerelle vers votre box, remplacez l'adresse spécifiée par celle que vous avez définie).
 
-```
+```console
 telnet 192.168.1.254
 ```
 
@@ -133,7 +133,7 @@ Renseignez alors l'identifiant et le mot de passe d'accès à votre box. Par dé
 
 Une fois connecté, utilisez la commande suivante pour afficher des informations sur la configuration actuelle de votre box. 
 
-```
+```console
 ip iflist
 ```
 
@@ -148,13 +148,13 @@ Relevez les correspondances entre la colonne « Interface » et « Group » du t
 
 Désactivez le serveur DHCP grâce à la commande :
 
-```
+```console
 dhcp server config state disabled
 ```
 
 Supprimez ensuite les baux DHCP en cours :
 
-```
+```console
 dhcp server lease flush
 ```
 
@@ -162,19 +162,19 @@ Configurez la passerelle (_gateway_) du bloc IP sur l'interface **lan**.
 
 Prenez soin de remplacer « LocalNetwork » par le nom de l'interface correspondant à **lan** récupéré précédemment. Changez également l'adresse « 1.1.1.6/29 » par celle de passerelle (_gateway_) récupérée lors de [l'étape 1](./#etape-1-retrouver-les-ip-associees-a-votre-acces).
 
-```
+```console
 ip ipadd intf=LocalNetwork addr=1.1.1.6/29
 ```
 
 Désactivez le NAT sur l'interface **wan**. Ici, prenez soin de remplacer « Internet » par le nom de l'interface correspondant à **wan** récupéré précédemment.
 
-```
+```console
 nat ifconfig intf=Internet translation=disabled
 ```
 
 Sauvegardez les changements réalisés. Cette configuration restera active même après un redémarrage de votre box. 
 
-```
+```console
 saveall
 ```
 

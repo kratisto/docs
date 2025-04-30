@@ -1,12 +1,26 @@
 ---
-title: "Web Hosting - How to get started in a few steps"
-excerpt: "Find out how to link your domain name, put your website online and create email addresses with your web hosting plan"
-updated: 2024-02-13
+title: "How to create a website - Carrying out your project in 5 steps"
+excerpt: "Find out how to define your project, publish your website and create email addresses with your web hosting solution"
+updated: 2025-04-25
 ---
+
+<style>
+details>summary {
+    color:rgb(33, 153, 232) !important;
+    cursor: pointer;
+}
+details>summary::before {
+    content:'\25B6';
+    padding-right:1ch;
+}
+details[open]>summary::before {
+    content:'\25BC';
+}
+</style>
 
 ## Objective
 
-OVHcloud offers [several web hosting plans](/links/web/hosting). They are designed for different use cases:
+OVHcloud offers several [web hosting plans](/links/web/hosting). They are designed for different use cases:
 
 - Get started on the web.
 - Quickly create a website (professional or not), a blog, a **C**ontent **M**anagement **S**ystem (**CMS**) such as *WordPress*, *Joomla!*, *PrestaShop* or *Drupal*, or an online store.
@@ -22,7 +36,7 @@ This saves you time on server administration and allows you to focus only on:
 - Security and optimization for one or more databases, if your solution has one.
 - The configuration and management of your email accounts included with your web hosting plan.
 
-**Find out how to link your domain name, put your website online, and create one or more email addresses with your web hosting plan.**
+**Find out how to put your website online, and create email addresses with your web hosting solution.**
 
 ## Requirements
 
@@ -69,34 +83,41 @@ Once you have carefully defined your project, you can start installing your webs
 
 There are two ways of doing this: **migrate** an existing website, or **create** a new website.
 
-#### Migrate your website
+**Click on each choice below to see explanations.**
+
+/// details | Migrate your website
 
 If you need to migrate a website from another hosting provider, please read our guide on "[Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". You will find all the key steps for migrating all of your services without any interruptions (domain name, website, email address(es), etc.).
 
-#### Create your new website
+///
 
-In this scenario, you can choose from several solutions.
+/// details | Create your new website
 
-##### Case 1 - Putting a locally developed website online
+You can choose to create your website entirely yourself, or use a [CMS (Content Management System)](/links/web/hosting-cms-comparison) such as WordPress, PrestaShop, Joomla! or Drupal. Click on the tabs below, depending on your choice:
 
-If this is the case, please follow our guide on "[Publishing a website on your web hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". There, you will find all the steps you need to take in order to:
-
-- Place your website on your web hosting plan’s FTP storage space.
-- Create a database linked to your web hosting plan.
-- Place your local database on the database linked to your web hosting plan.
-- Link your database to the website on your web hosting plan.
-
-##### Case 2 - Create a website using a CMS
-
-OVHcloud offers the "1-click modules" option.  
+> [!tabs]
+> **Using a CMS**
+>>
+>> OVHcloud offers the "1-click modules" option.  
 Once you have logged in to your [OVHcloud Control Panel](/links/manager), this option allows you to quickly install the *WordPress*, *Joomla!*, *PrestaShop* and *Drupal* CMS on your hosting.
+>>
+>> To use this option, please refer to our guide on "[Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)".
+>>
+>> > [!primary]
+>> >
+>> > If you would prefer to install your CMS manually without the "1-click modules" option, please read our guide on "[Installing a CMS manually on your web hosting plan](/pages/web_cloud/web_hosting/cms_manual_installation)".
+>>
+> **Putting a locally developed website online**
+>>
+>> If this is the case, please follow our guide on "[Publishing a website on your web hosting plan](/pages/web_cloud/web_hosting/hosting_how_to_get_my_website_online)". There, you will find all the steps you need to take in order to:
+>>
+>> - Place your website on your web hosting plan’s FTP storage space.
+>> - Create a database linked to your web hosting plan.
+>> - Place your local database on the database linked to your web hosting plan.
+>> - Link your database to the website on your web hosting plan.
+>>
 
-To use this option, please refer to our guide on "[Setting up your website with a 1-click module (CMS)](/pages/web_cloud/web_hosting/cms_install_1_click_modules)".
-
-> [!primary]
->
-> If you would prefer to install your CMS manually without the "1-click modules" option, please read our guide on "[Installing a CMS manually on your web hosting plan](/pages/web_cloud/web_hosting/cms_manual_installation)".
->
+///
 
 ### Step 3 - Create your email addresses (optional) <a name="email-creation"></a>
 
@@ -106,11 +127,15 @@ First of all, please read our guide on "[Activating email addresses included in 
 
 Once you have enabled this option, please refer to our guide on "[Creating an email address with an MX Plan solution](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_creation)" to customize one or more email accounts with your domain name.
 
-> **Special cases:**
+**Please click the link below for explanations.**
+
+/// details | Special cases:
 >
 > - If you are migrating a website and/or if you are looking for email addresses associated with your website’s domain name, please read our guide on "[Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". You will find all the key steps for migrating all of your services without any interruptions (domain name, website, email address(es), etc.).
 >
 > - If you did not attach a domain name when you ordered your web hosting plan, and you would like to use the "email address(es) included with your web hosting plan" option, you will need to do this manually from your [OVHcloud Control Panel](/links/manager).
+
+///
 
 ### Step 4 - Verify and/or modify your domain name’s configuration <a name="domain-configuration"></a>
 
@@ -123,9 +148,13 @@ The link between your domain name and your services (web hosting plan, email ser
 > Please note that changes to a DNS zone can take between 4 and 24 hours to propagate fully.
 >
 
-> **Special cases:**
->
+**Please click the link below for explanations.**
+
+/// details | Special cases:
+
 > If you are migrating a website and/or email addresses associated with your website’s domain name, please read our guide on "[Migrating your website and emails to OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh)". You will find all the key steps for migrating all of your services without any interruptions (domain name, website, email address(es), etc.).
+
+///
 
 To check and modify the link between your domain name and your web hosting plan, **please refer to the following guides in order:**
 
@@ -148,7 +177,9 @@ To check and/or modify the link between your domain name and your OVHcloud email
 
 Depending on your [web hosting plan](/links/web/hosting), additional options/offers/features are available free of charge.
 
-#### SSL certificates
+**Click on the options below for explanations.**
+
+/// details | SSL certificates
 
 SSL certificates are used to make your website accessible using the HTTPS protocol. This protocol encrypts the exchanges between your web hosting plan and the people who visit your website.
 
@@ -156,7 +187,9 @@ No matter which [web hosting](/links/web/hosting) you are using, you can activat
 
 For more details on free and paid SSL certificates offered on web hosting plans, please read our guide on "[Managing SSL certificates on a web hosting plan](/pages/web_cloud/web_hosting/ssl_on_webhosting)".
 
-#### The CDN offers
+///
+
+/// details | The CDN offers
 
 All of our CDN solutions allow you to cache part of your website. This reduces load times for the pages that make up your website, especially for visitors who are geographically distant from the data center where your web hosting plan is located.
 
@@ -174,23 +207,31 @@ You can find more information on our CDN solutions in our guide on "[Speeding up
 >
 > You cannot combine several CDN offers on the same web hosting plan.
 
-#### Web Cloud Database Servers
+///
+
+/// details | Web Cloud Database Servers
 
 If you have a **Performance** web hosting plan, you can activate a [Web Cloud Databases](/links/web/databases) database server for free.
 
 You can find more details on how to use it in our documentation “[Getting started with the Web Cloud Databases service](/pages/web_cloud/web_cloud_databases/starting_with_clouddb)”.
 
-#### Sending emails from your website
+///
+
+/// details | Sending emails from your website
 
 All [web hosting](/links/web/hosting) allow you to send emails free of charge from your website or a specific script.
 
 You can find all the details on this feature in our guide on "[Monitoring and managing automated emails in your web hosting plan](/pages/web_cloud/web_hosting/mail_function_script_records)".
 
-#### Scheduled tasks (CRON)
+///
+
+/// details | Scheduled tasks (CRON)
 
 With CRON tasks, you can automatically run scripts hosted on your web hosting plan.
 
 If your [web hosting plan](/links/web/hosting) has this option, please refer to our guide on "[Using automated tasks on a web hosting plan](/pages/web_cloud/web_hosting/cron_tasks)" for further details.
+
+///
 
 ## Go further
 

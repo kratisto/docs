@@ -1,7 +1,7 @@
 ---
 title: 'Purchase Order (PO)'
 excerpt: 'Understanding the notion of a Purchase Order number, and applying it when paying OVHcloud bills'
-updated: 2022-07-22
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -48,9 +48,9 @@ For OVHcloud, the document must contain at least the following information:
 
 ### How to enter a Purchase Order (PO) reference in your OVHcloud Control Panel
 
-Log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), then in the `Dashboard`{.action} tab, click `View my orders`{.action}.
+Log in to your [OVHcloud Control Panel](/links/manager), then, directly on the page that pops up, click `View my orders`{.action}.
 
-![Control Panel](images/internalreference00.png){.thumbnail}
+![Control Panel](images/huborders.png){.thumbnail}
 
 Click the `My Internal References`{.action} tab and then click the `+ Add an internal reference`{.action} button.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Zmiana hasła do konta e-mail'
 excerpt: 'Dowiedz się, jak zmienić hasło do konta e-mail OVHcloud'
-updated: 2024-06-18
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -40,20 +40,20 @@ W [Panelu klienta OVHcloud](/links/manager) przejdź do sekcji `Web Cloud`{.acti
 > **E-maile MX Plan (wersja historyczna)**
 >>
 >> Jeśli nie wiesz, jakiego typu jest Twoja oferta MX Plan, zapoznaj się z naszym punktem [Sprawdź ofertę MX Plan](#whichmxplan).<br>
->> Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `E-maile`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. <br>
+>> Kliknij `MX Plan`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `E-maile`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. <br>
 >> Kliknij przycisk, `...`{.action} a następnie `Zmień hasło`{.action}.<br><br>
 >>![e-mail](images/email-password-mxplan-legacy01.png){.thumbnail}<br>
 >>
 > **E-maile MX Plan (nowa wersja)**
 >>
 >> Jeśli nie wiesz, jakiego typu jest Twoja oferta MX Plan, zapoznaj się z naszym punktem [Sprawdź ofertę MX Plan](#whichmxplan).<br>
->> Kliknij `E-maile`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `E-maile`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. <br>
+>> Kliknij `MX Plan`{.action}, po czym wybierz odpowiednią usługę MX Plan. Przejdź do zakładki `E-maile`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail. <br>
 >> Kliknij przycisk, po czym `...`{.action} kliknij `Zmień`{.action}.<br><br>
 >>![e-mail](images/email-password-mxplan-new01.png){.thumbnail}<br>
 >>
 > **Email Pro**
 >>
->> Kliknij `E-maile Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail.<br>
+>> Kliknij `Email Pro`{.action}, po czym wybierz odpowiednią platformę. Przejdź do zakładki `Konta e-mail`{.action}. Pojawi się okno, w którym widoczne są istniejące konta e-mail.<br>
 >> Kliknij przycisk, `...`{.action} a następnie `Zmień`{.action}.<br><br>
 >>![email](images/email-password-emailpro01.png){.thumbnail}<br>
 >>

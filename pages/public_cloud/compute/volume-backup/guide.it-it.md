@@ -1,7 +1,7 @@
 ---
 title: Creare un backup di un volume
 excerpt: Come creare un backup del tuo volume Block Storage dallo Spazio Cliente OVHcloud
-updated: 2023-03-29
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -36,7 +36,7 @@ Il Volume Snapshot e il Volume Backup ti permettono di:
 
 Accedi allo [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome utente in alto a destra e seleziona `Public Cloud`{.action}.
 
-Apri il menu `Block Storage`{.action} nella barra di navigazione a sinistra con **Storage**.
+Apri il menu `Block Storage`{.action} nella barra di navigazione a sinistra con **Storage e Backup**.
 
 A destra del volume, clicca sul pulsante `...`{.action} poi su `Crea un backup`{.action}. Non è necessario scollegare il volume dell'istanza Se vuoi scollegare il tuo volume dall'istanza, consulta questa [sezione](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#con-linux) della guida corrispondente per Linux e questa [sezione](/pages/public_cloud/compute/create_and_configure_an_additional_disk_on_an_instance#con-windows) per Windows.
 

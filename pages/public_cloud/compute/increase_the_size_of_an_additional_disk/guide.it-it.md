@@ -1,7 +1,7 @@
 ---
 title: Aumenta la dimensione di un disco aggiuntivo
 excerpt: Come aumentare la dimensione di un volume aggiuntivo e aumentare la sua partizione principale
-updated: 2025-03-21
+updated: 2025-04-24
 ---
 
 <style>
@@ -99,7 +99,7 @@ Per permettere di ridimensionare il disco al momento giusto, è fondamentale con
 
 ### Modifica la dimensione del disco
 
-Accedi allo [Spazio Cliente OVHcloud](/links/manager) e apri il tuo progetto `Public Cloud`{.action}. Clicca su `Block Storage`{.action} nel menu a sinistra.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager) e apri il tuo progetto `Public Cloud`{.action}. Clicca su `Block Storage`{.action} nel menu a sinistra sotto **Storage e Backup**.
 
 Se il volume è associato a un'**istanza Windows**, clicca sul pulsante `...`{.action} a destra del volume corrispondente e seleziona `Scollega dall'istanza`{.action}.
 

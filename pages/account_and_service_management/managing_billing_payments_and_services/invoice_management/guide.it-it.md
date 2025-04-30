@@ -1,7 +1,7 @@
 ---
 title: Gestire le fatture OVHcloud
 excerpt: Come amministrare fatture e pagamenti dallo Spazio Cliente
-updated: 2022-05-12
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -12,20 +12,20 @@ OVHcloud mette a tua disposizione uno spazio per consultare, gestire e saldare l
 
 > [!primary]
 >
-> In base al tuo luogo di residenza e alla legislazione in vigore, e al prodotto o ai prodotti in questione, è possibile che alcune sezioni di questa guida possano variare e/o non essere applicate in base alla tua situazione. In caso di dubbi, consulta i contratti disponibili nel tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) (clicca sul tuo nome in alto a destra e poi, nel menu contestuale, sulla `Gestione dei servizi`{.action} e poi sulla scheda `Contratti`{.action}).
+> In base al tuo luogo di residenza e alla legislazione in vigore, e al prodotto o ai prodotti in questione, è possibile che alcune sezioni di questa guida possano variare e/o non essere applicate in base alla tua situazione. In caso di dubbi, consulta i contratti OVHcloud disponibili nello [Spazio Cliente OVHcloud](/links/manager) (clicca in alto a destra sullo schermo, sul tuo nome e poi su `Le mie offerte e servizi`{.action}. Infine clicca sulla scheda `Contratti`{.action}).
 >
 
 <iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiQmopMhzik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) come [contatto di fatturazione](/pages/account_and_service_management/account_information/managing_contacts) del servizio
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager) come [contatto di fatturazione](/pages/account_and_service_management/account_information/managing_contacts) del servizio
 
 ## Procedura
 
 > [!primary]
 >
-> Ogni fattura viene inviata via email e accessibile tramite un link cliccabile. accedendo allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), Tutte le fatture sono disponibili nella scheda `Dashboard`{.action} dello Spazio Cliente.
+> Ogni fattura viene inviata via email e accessibile tramite un link cliccabile. Accedendo allo [Spazio Cliente OVHcloud](/links/manager). Tutte le fatture restano disponibili anche nella home page dello Spazio Cliente.
 >
 
 ### Elementi della fattura
@@ -48,9 +48,9 @@ La fattura del tuo servizio OVHcloud ti viene inviata in seguito al pagamento di
 
 #### Consulta e gestisci le tue fatture
 
-Accedi allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) Clicca sul tuo nome in alto a destra e poi sul nuovo menu che appare su `Fatture`{.action}.
+Accedi allo [Spazio Cliente OVHcloud](/links/manager) Clicca sul tuo nome in alto a destra e poi sul nuovo menu che appare su `Le mie fatture`{.action}.
 
-![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-column/invoices.png){.thumbnail}
+![Fatturazione](/pages/assets/screens/control_panel/product-selection/right-menu/my-bills.png){.thumbnail}
 
 Visualizzi una tabella con tutte le fatture associate al tuo identificativo:
 
@@ -118,12 +118,12 @@ Verrà creato un [buono d'ordine](/pages/account_and_service_management/managing
 > Per richiedere la disattivazione del tuo servizio alla data di scadenza, segui le indicazioni di questa [guida](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_cancel_services).
 >
 
-Se hai ricevuto una fattura che non consideri legittima e vuoi richiederne il rimborso o far valere il tuo [diritto di recesso](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders#esercita-il-diritto-di-recesso), puoi inviare un reclamo tramite il tuo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), con riserva dell'applicazione delle nostre [Condizioni Generali di Servizio](https://www.ovh.it/supporto//documenti_legali/condizioni_generali_servizio.pdf).
+Se hai ricevuto una fattura che non consideri legittima e vuoi richiederne il rimborso o far valere il tuo [diritto di recesso](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders#esercita-il-diritto-di-recesso), puoi inviare un reclamo tramite il tuo [Spazio Cliente OVHcloud](/links/manager), con riserva dell'applicazione delle nostre [Condizioni Generali di Servizio](https://www.ovh.it/supporto//documenti_legali/condizioni_generali_servizio.pdf).
 <br> Clicca sul tuo nome in alto a destra e seleziona `Crea un ticket`{.action}.
 
 ### Controlla i tuoi pagamenti
 
-Visualizza lo storico dei pagamenti effettuati nelle `Fatture`{.action} e `Controllo di pagamenti`{.action}. In questo modo è possibile collegare ciascuna fattura al pagamento associato.
+Visualizza lo storico dei pagamenti effettuati nelle `Le mie fatture`{.action} e `Controllo di pagamenti`{.action}. In questo modo è possibile collegare ciascuna fattura al pagamento associato.
 
 ![Verifica dei pagamenti](images/payment_tracking.png){.thumbnail}
 

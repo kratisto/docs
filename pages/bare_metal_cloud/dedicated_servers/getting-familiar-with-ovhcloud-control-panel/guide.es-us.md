@@ -1,7 +1,7 @@
 ---
 title: "Clientes Kimsufi y So you Start: familiarizarse con el área de cliente de OVHcloud"
 excerpt: Esta guía explica cómo navegar por el área de cliente de OVHcloud.
-updated: 2024-04-04
+updated: 2025-04-28
 ---
 
 > [!primary]
@@ -33,8 +33,7 @@ También ofrece una serie de atajos y enlaces útiles.
 ![list servers](images/listserversOVHcloud.png){.thumbnail}
 
 En las interfaces Kimsufi y So you Start, el panel de control le permite ver su servidor/lista de servidores.<br>
-En el área de cliente de OVHcloud, haga clic en el menú `Bare Metal Cloud`{.action} y seleccione `Servidores dedicados`{.action} para ver los servidores.<br>
-Si tiene varios servidores, el botón `Todos mis servidores`{.action} le permite mostrarlos para un acceso fácil.
+En el área de cliente de OVHcloud, haga clic en el menú `Bare Metal Cloud`{.action} y seleccione `Servidores dedicados`{.action} para ver los servidores.
 
 ### Interfaz del servidor
 
@@ -85,7 +84,7 @@ Para acceder a la pestaña **Licencias** del área de cliente de OVHcloud, haga 
 ### Soporte, facturación y gestión de cuenta
 
 En el área de cliente Kimsufi o So you Start, estas opciones están disponibles en la parte superior derecha, bajo las pestañas individuales.<br>
-Estas opciones se agrupan en un área de cliente de OVHcloud. Haga clic en su nombre en la esquina superior derecha y seleccione sus iniciales para acceder a la sección `Gestionar mi cuenta`.
+Estas opciones se agrupan en un área de cliente de OVHcloud. Haga clic en el nombre de su cuenta en la esquina superior derecha y, a continuación, haga clic en `Acceder a mi cuenta`{.action}.
 
 ![factu](images/accountOVHcloud.png){.thumbnail}
 

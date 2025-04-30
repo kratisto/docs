@@ -59,7 +59,7 @@ Le calendrier partagé devient disponible sur l’interface « Calendrier » du 
 
 > [!primary]
 >
-Il est possible de partager des calendriers avec des contacts externes, mais des problèmes de compatibilité peuvent se poser en fonction du service de messagerie Web du client. Veuillez trouver davantage d’informations sur ce sujet en consultant la page officielle de la [documentation de Microsoft ](https://support.microsoft.com/fr-fr/help/10106/how-to-open-a-shared-calendar-from-an-outlook-sharing-invitation).
+> Il est possible de partager des calendriers avec des contacts externes, mais des problèmes de compatibilité peuvent se poser en fonction du service de messagerie Web du client. Veuillez trouver davantage d’informations sur ce sujet en consultant la page officielle de la [documentation de Microsoft ](https://support.microsoft.com/fr-fr/help/10106/how-to-open-a-shared-calendar-from-an-outlook-sharing-invitation).
 >
 
 ### Modifier les autorisations sur le calendrier

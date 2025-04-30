@@ -1,6 +1,6 @@
 ---
-title: Tworzenie użytkownika (EN)
-excerpt: This guide shows you how to create a new user
+title: Cloud Disk Array - Tworzenie użytkownika (EN)
+excerpt: This guide shows you how to create a new Cloud Disk Array user
 updated: 2018-03-26
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Como cancelar os meus serviços OVHcloud
 excerpt: Descubra como interromper as suas subscrições OVHcloud a partir da Área de Cliente
-updated: 2024-12-23
+updated: 2025-04-28
 ---
 
 ## Objetivo
 
-Deseja rescindir um ou vários serviços OVHcloud. Este manual indicar-lhe-á como interromper a sua subscrição a partir da Área de Cliente OVHcloud.
+Deseja rescindir um ou vários serviços OVHcloud. Este manual indicar-lhe-á como interromper à sua subscrição a partir da Área de Cliente OVHcloud.
 
 - Em primeiro lugar, consulte a secção "O que acontece quando um serviço da OVHcloud é rescindidoa" abaixo.
 - Selecione o produto correspondente na secção "[Como cancelar a subscrição?](#terminatea".
@@ -36,7 +36,7 @@ Isto implica que, antes de qualquer rescisão, deve ter a **certeza**:
 ## Requisitos
 
 - Ser o "contacto administrador" do serviço a rescindir (para mais informações, consulte [este manual](/pages/account_and_service_management/account_information/managing_contacts#definition))
-- Ter acesso à sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt) ;
+- Ter acesso à sua [Área de Cliente OVHcloud](/links/manager)
 - Possuir serviços OVHcloud ativos (não suspensos por incumprimento)
 
 ## Instruções
@@ -47,9 +47,9 @@ No entanto, existem **casos especiais** que são detalhados [mais abaixo](#speci
 
 ### Como cancelar a subscrição <a name="terminate"></a>
 
-Para rescindir a subscrição do seu serviço, aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), clique no seu nome em cima à direita e, a seguir, clique no botão `As minhas ofertas e serviços`{.action}.
+Para rescindir a subscrição do seu serviço, aceda a [Área de Cliente OVHcloud](/links/manager), clique no seu nome em cima à direita e, a seguir, em `As minhas ofertas e serviços`{.action}.
 
-![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
+![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-menu/my-solutions-and-services.png){.thumbnail}
 
 Clique então no botão `...`{.action} à direita do serviço a rescindir, e depois em `Rescindir o meu serviço`{.action}.
 
@@ -59,9 +59,9 @@ Especifique as razões do seu pedido de rescisão e clique em `Validar`{.action}
 
 > [!primary]
 >
-> Para nós, é essencial obter a sua opinião. Isto permite-nos fazer evoluir os nossos serviços de forma a que eles respondam da melhor forma às suas necessidades e às suas expetativas.
+> Para nós, é essencial obter à sua opinião. Isto permite-nos fazer evoluir os nossos serviços de forma a que eles respondam da melhor forma às suas necessidades e às suas expetativas.
 >
-> Por isso, não hesite em nos dizer mais sobre a sua experiência pessoal com a OVHcloud através do formulário proposto aquando da rescisão. Agradecemos desde já a sua contribuição para a melhoria dos nossos produtos.
+> Por isso, não hesite em nos dizer mais sobre à sua experiência pessoal com a OVHcloud através do formulário proposto aquando da rescisão. Agradecemos desde já à sua contribuição para a melhoria dos nossos produtos.
 >
 
 O cancelamento do seu serviço terá lugar na **data de entrada em vigor** indicada na tabela "Gestão das minhas ofertas e serviços". Se não vir o estado "Rescisão agendada" aparecer, atualize a página.
@@ -74,27 +74,27 @@ O cancelamento do seu serviço terá lugar na **data de entrada em vigor** indic
 
 A maior parte dos serviços MX Plan estão associados a um alojamento. Se for o caso, e pretender eliminar esta opção de e-mail, siga [as instruções deste manual](/pages/web_cloud/web_hosting/activate-email-hosting#supressao-da-oferta-de-e-mail-associada-ao-seu-alojamento-web). **Atenção**, a eliminação de um MX Plan apaga definitivamente todos os dados correspondentes e não garante nenhum reembolso.
 
-Se a sua oferta de e-mail MX Plan tiver sido encomendada independentemente de qualquer alojamento, siga o [procedimento descrito acima](#terminate).
+Se à sua oferta de e-mail MX Plan tiver sido encomendada independentemente de qualquer alojamento, siga o [procedimento descrito acima](#terminate).
 
 #### E-mail Pro <a name="emailpro"></a>
 
-Para rescindir a sua oferta [E-mail Pro](https://www.ovhcloud.com/pt/emails/email-pro/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro#eliminar-contas).
+Para rescindir à sua oferta [E-mail Pro](https://www.ovhcloud.com/pt/emails/email-pro/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/email_pro/manage_billing_emailpro#eliminar-contas).
 
 #### Hosted Exchange <a name="hosted"></a>
 
-Para rescindir a sua oferta [Hosted Exchange](https://www.ovhcloud.com/pt/emails/hosted-exchange/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange#eliminar-contas).
+Para rescindir à sua oferta [Hosted Exchange](https://www.ovhcloud.com/pt/emails/hosted-exchange/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange#eliminar-contas).
 
 #### Private Exchange <a name="private"></a>
 
-Para rescindir a sua oferta [Private Exchange](https://www.ovhcloud.com/pt/emails/private-exchange/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange#eliminar-contas_1).
+Para rescindir à sua oferta [Private Exchange](https://www.ovhcloud.com/pt/emails/private-exchange/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_exchange/manage_billing_exchange#eliminar-contas_1).
 
 #### Office 365 csp 1 <a name="office-csp1"></a>
 
-Para rescindir a sua oferta [Office 365 csp 1](https://www.ovhcloud.com/pt/collaborative-tools/microsoft-365/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_csp1/#gerir-as-suas-assinaturas).
+Para rescindir à sua oferta [Office 365 csp 1](https://www.ovhcloud.com/pt/collaborative-tools/microsoft-365/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_csp1/#gerir-as-suas-assinaturas).
 
 #### Office 365 csp 2 <a name="office-csp2"></a>
 
-Para rescindir a sua oferta [Office 365 csp 2](https://www.ovhcloud.com/pt/collaborative-tools/microsoft-365/reseller/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_csp2#gerir-as-suas-subscricoes).
+Para rescindir à sua oferta [Office 365 csp 2](https://www.ovhcloud.com/pt/collaborative-tools/microsoft-365/reseller/), siga as instruções deste [guia](/pages/web_cloud/email_and_collaborative_solutions/microsoft_office/office_csp2#gerir-as-suas-subscricoes).
 
 #### Certificado SSL Sectigo <a name="ssl_sectigo"></a>
 
@@ -102,11 +102,11 @@ Não é possível rescindir as ofertas [SSL sectigo](https://www.ovhcloud.com/pt
 
 #### Managed Bare Metal <a name="managedbaremetal"></a>
 
-Para rescindir a sua oferta [Managed bare metal](https://www.ovhcloud.com/pt/managed-bare-metal/), siga as instruções deste [guia](/pages/bare_metal_cloud/managed_bare_metal/how-to-cancel).
+Para rescindir à sua oferta [Managed bare metal](https://www.ovhcloud.com/pt/managed-bare-metal/), siga as instruções deste [guia](/pages/bare_metal_cloud/managed_bare_metal/how-to-cancel).
 
 #### VMware on OVHcloud <a name="hostedprivatecloud-vmware"></a>
 
-Para rescindir a sua oferta [VMware on OVHcloud](https://www.ovhcloud.com/pt/enterprise/products/hosted-private-cloud/), siga as instruções deste [guia](/pages/account_and_service_management/managing_billing_payments_and_services/comment_resilier_le_private_cloud).
+Para rescindir à sua oferta [VMware on OVHcloud](https://www.ovhcloud.com/pt/enterprise/products/hosted-private-cloud/), siga as instruções deste [guia](/pages/account_and_service_management/managing_billing_payments_and_services/comment_resilier_le_private_cloud).
 
 #### Public Cloud <a name="publiccloud"></a>
 
@@ -125,7 +125,7 @@ Também pode [consultar o seu consumo atual](/pages/public_cloud/public_cloud_cr
 > Pode anular um pedido de rescisão até 24 horas antes do fim da subscrição.
 >
 
-Para anular um pedido de rescisão, aceda à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt), clique no seu nome no canto superior direito e no botão `As minhas ofertas e serviços`{.action}.
+Para anular um pedido de rescisão, aceda a [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito em `As minhas ofertas e serviços`{.action}.
 
 A seguir, clique no botão `...`{.action} à direita do serviço que é objeto de um pedido de rescisão e, a seguir, em `Anular a rescisão do serviço`{.action}.
 
@@ -153,16 +153,16 @@ A anulação da rescisão produz efeitos imediatos. Atualize a página "O meus S
 > Como eliminar a minha conta OVHcloud?
 >> O encerramento da sua conta de cliente OVHcloud e a eliminação dos seus dados pessoais só é possível se:
 >>
->> 1. Já não tem serviços visíveis na secção [As minhas ofertas e serviços](https://www.ovh.com/manager/dedicated/#/billing/autoRenew). Caso contrário, deverá começar por solicitar a sua rescisão e aguardar a sua eliminação.
+>> 1. Já não tem serviços visíveis na secção [As minhas ofertas e serviços](https://www.ovh.com/manager/dedicated/#/billing/autoRenew). Caso contrário, deverá começar por solicitar à sua rescisão e aguardar à sua eliminação.
 >> 2. Não possui faturas com pagamento pendente. Caso contrário, deverá proceder ao seu pagamento clicando no botão `Pagar imediatamente`{.action} nas ações de massas da página [As minhas faturas](https://www.ovh.com/manager/#/dedicated/billing/history).
 >> 3. Não possui encomendas em curso. Verifique-o em [esta página](https://www.ovh.com/manager/#/dedicated/billing/orders/orders).
 >> 4. A sua conta pré-paga não é positiva. Verifique-o em [esta página](https://www.ovh.com/manager/#/dedicated/billing/payment/ovhaccount).
 >>
->> Se as condições acima estiverem preenchidas, pode pedir para eliminar a sua conta OVHcloud e os dados associados seguindo estas etapas:
+>> Se as condições acima estiverem preenchidas, pode pedir para eliminar à sua conta OVHcloud e os dados associados seguindo estas etapas:
 >>
 >> 1. Aceder a [Centro de Ajuda da OVHcloud](https://help.ovhcloud.com/csm?id=csm_get_help).
 >> 2. Clique no botão `Criar um ticket`{.action}.
->> 3. Selecione o motivo `Gerir a sua conta de cliente OVHcloud`.
+>> 3. Selecione o motivo `Gerir à sua conta de cliente OVHcloud`.
 >> 4. Especifique `Quero encerrar a minha conta de cliente OVHcloud` e siga as etapas descritas.
 
 ## Quer saber mais? <a name="gofurther"></a>

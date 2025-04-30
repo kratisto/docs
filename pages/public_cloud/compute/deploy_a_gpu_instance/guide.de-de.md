@@ -1,7 +1,7 @@
 ---
 title: 'GPU Instanzen einrichten'
 excerpt: 'Erfahren Sie hier, wie Sie unter Windows und Linux eine GPU Instanz einrichten'
-updated: 2024-07-17
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -37,7 +37,7 @@ Alle von uns angebotenen Images können auf einer GPU Instanz verwendet werden.
 > Wenn Sie mit dem manuellen Kompilieren eines Kernelmoduls nicht vertraut sind, empfehlen wir die Verwendung einer Distribution, die offiziell von NVIDIA unterstützt wird und für die _turnkey_ Treiber angeboten werden: <https://developer.nvidia.com/cuda-downloads>.
 > 
 
-Wenn Sie sich im [OVHcloud Kundencenter](/links/manager) eingeloggt haben, klicken Sie auf `Public Cloud`{.action}. Wählen Sie Ihr Public Cloud Projekt aus und klicken Sie im linken Menü auf `Instances`{.action} im Bereich **Compute**. Klicken Sie anschließend auf `Instanz erstellen`{.action} und wählen Sie eine GPU-kompatible Instanz aus:
+Wenn Sie sich im [OVHcloud Kundencenter](/links/manager) eingeloggt haben, klicken Sie auf `Public Cloud`{.action}. Wählen Sie Ihr Public Cloud Projekt aus und klicken Sie im linken Menü auf `Instanzen`{.action} im Bereich **Compute**. Klicken Sie anschließend auf `Instanz erstellen`{.action} und wählen Sie eine GPU-kompatible Instanz aus:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 
@@ -106,7 +106,7 @@ Wir stellen spezielle Images auf Basis eines virtuellen UEFI-BIOS zur Verfügung
 > Sie haben die Möglichkeit, diese Images auf einigen ausgewählten Modellen (T1-45, T1-90, T1-180, T2-45, T2-90, T2-180) zu installieren. Je nach ausgewählter Region sind diese speziellen Images möglicherweise nicht verfügbar.
 >
 
-Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager) eingeloggt sind, gehen Sie in Ihr Public Cloud Projekt und klicken Sie im linken Menü im Tab **Compute** auf `Instances`{.action}. Klicken Sie anschließend auf `Instanz erstellen`{.action} und wählen Sie eine GPU-kompatible Instanz aus:
+Wenn Sie in Ihrem [OVHcloud Kundencenter](/links/manager) eingeloggt sind, gehen Sie in Ihr Public Cloud Projekt und klicken Sie im linken Menü im Tab **Compute** auf `Instanzen`{.action}. Klicken Sie anschließend auf `Instanz erstellen`{.action} und wählen Sie eine GPU-kompatible Instanz aus:
 
 ![public-cloud](images/GPU-Flavors_2024.png){.thumbnail}
 

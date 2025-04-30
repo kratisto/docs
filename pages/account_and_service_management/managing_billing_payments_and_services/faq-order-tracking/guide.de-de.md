@@ -1,7 +1,7 @@
 ---
 title: FAQ zur Nachverfolgung der Bestellung von OVHcloud
 excerpt: Hier finden Sie die häufigsten Fragen zur Auftragsverfolgung von OVHcloud
-updated: 2022-11-10
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -14,23 +14,22 @@ Sie können Ihre Bestellung erst bezahlen, wenn Sie sich über Ihren Kunden-Acco
 
 #### Tipps und Tricks
 
-Sie haben die Seite Ihrer Bestellung geschlossen? Dann können Sie diese in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) unter `Meine Bestellungen`{.action} einsehen und bezahlen.
+Sie haben die Seite Ihrer Bestellung geschlossen? Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie oben rechts auf Ihren Namen und dann auf `Meine Bestellungen`{.action}. Anschließend können Sie Ihre Bestellung einsehen und begleichen.
 
 ### Wie kann ich meinen Zahlungsstatus einsehen?
 
-Melden Sie sich in Ihrem [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) an. Auf Ihrem Dashboard klicken Sie dann auf den Shortcut `Rechnungen`{.action} auf dem rechten Banner. Wenn eine Rechnung aussteht, wird Ihnen auf Ihrem Dashboard vorgeschlagen, den Betrag zu begleichen.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager) ein, klicken Sie auf Ihren Namen oben rechts und dann auf `Meine Rechnungen`{.action}. Wenn eine ausstehende Rechnung direkt über Ihr Dashboard beglichen wird, können Sie den Restbetrag begleichen.
 
 #### Tipps und Tricks
 
-Sie können Ihr gewünschtes Zahlungsmittel im Bereich `Zahlungsmittel`{.action} hinterlegen. Ihre Rechnungen werden dann automatisch beglichen.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager)ein, klicken Sie auf Ihren Namen oben rechts und dann auf `Meine Zahlungsarten`{.action}. Dort können Sie dann Ihre Zahlungsart eintragen. So werden Ihre Rechnungen automatisch beglichen.
 
 ### Wie kann ich den Status meiner Bestellung nachverfolgen?
 
-Melden Sie sich in Ihrem Kundencenter an. Auf Ihrem Dashboard können Sie in der Mitte der Seite den Status Ihrer letzten Bestellung einsehen. Wenn Sie alle Ihre Bestellungen einsehen möchten, klicken Sie bitte auf `Meine Bestellungen anzeigen`{.action}.
-
-![Bestellung nachverfolgen](images/order_final-min.gif){.thumbnail}
+Verbinden Sie sich mit Ihrem [OVHcloud Kundencenter](/links/manager) und klicken Sie auf `Meine Bestellungen anzeigen`{.action}.
 
 #### Tipps und Tricks
+
 Hilfe zur Verwaltung Ihrer Bestellungen finden Sie in unserer Anleitung: [OVHcloud Bestellungen verwalten](/pages/account_and_service_management/managing_billing_payments_and_services/managing_ovh_orders).
 
 ### Wie kann ich meine Bestellung ändern?
@@ -61,7 +60,7 @@ Eine ausstehende Rechnung kann ebenfalls der Grund für die verspätete Bereitst
 
 #### Tipps und Tricks
 
-Sie können Ihr gewünschtes Zahlungsmittel im Bereich `Zahlungsmittel`{.action} hinterlegen. Ihre Rechnungen werden dann automatisch beglichen.
+Loggen Sie sich mit Ihr [OVHcloud Kundencenter](/links/manager)ein, klicken Sie auf Ihren Namen oben rechts und dann auf `Meine Zahlungsarten`{.action}. Dort können Sie dann Ihre Zahlungsart eintragen. So werden Ihre Rechnungen automatisch beglichen.
 
 ## Weiterführende Informationen
 

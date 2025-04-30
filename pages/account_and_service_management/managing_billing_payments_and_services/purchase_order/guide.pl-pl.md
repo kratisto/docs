@@ -1,7 +1,7 @@
 ---
 title: 'Pojęcie numeru zamówienia lub Purchase Order (PO)'
 excerpt: 'Zrozumienie i zastosowanie pojęcia numeru zamówienia lub zamówienia w ramach regulowania należności za faktury OVHcloud'
-updated: 2022-07-22
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -49,9 +49,9 @@ W przypadku OVHcloud dokument musi zawierać co najmniej następujące informacj
 
 ### Jak wpisać numer Purchase Order (PO) w Panelu klienta OVHcloud
 
-Zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl), a następnie w zakładce `Dashboard`{.action} kliknij `Wyświetl moje zamówienia`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), a następnie na wyświetlonej stronie kliknij `Wyświetl moje zamówienia`{.action}.
 
-![Panel klienta](images/internalreference00.png){.thumbnail}
+![Panel klienta](images/huborders.png){.thumbnail}
 
 Kliknij kartę `Moje oznaczenia wewnętrzne`{.action}, a następnie przycisk `+ Dodaj wewnętrzne oznaczenia referencyjne`{.action}.
 

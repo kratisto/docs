@@ -1,7 +1,7 @@
 ---
 title: "Activer ou désactiver l'envoi d'e-mails depuis le SMTP OVHcloud"
 excerpt: "Découvrez comment activer ou désactiver l'envoi d'e-mails depuis votre connexion OVHcloud via l'espace client"
-updated: 2024-10-29
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -29,8 +29,8 @@ Afin de protéger votre réseau et vos adresses e-mail, nous désactivons l'envo
 >
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
-1. Cliquez sur `Accès Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
-1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre à droite.
+1. Cliquez sur `Offres Internet`{.action} puis sur le *Pack* contenant l'accès à Internet concerné.
+1. Cliquez sur votre accès à Internet FTTH ou xDSL dans le cadre `Accès Internet` à droite.
 1. Assurez-vous d'être positionné sur l'onglet `Mon accès`{.action}.
 
 Dans le cadre « Informations générales », reportez-vous à l'élément de la partie `Envoi d'email via notre serveur SMTP`. Vous retrouverez dans cette dernière le statut actuel du service d'envoi d'e-mails.

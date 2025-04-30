@@ -38,7 +38,7 @@ OVHcloud umożliwia Ci powiązanie wirtualnego adresu MAC z adresem IP, abyś m�
 
 #### Za pośrednictwem Panelu klienta OVHcloud
 
-Po zalogowaniu się do [Panelu klienta](/links/manager), kliknij menu `Bare Metal Cloud`{.action} i otwórz sekcję `IP`{.action}.
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Network`{.action} w menu po lewej stronie ekranu, a następnie `Publiczne adresy IP`{.action}.
 
 Kliknij na zakładkę `Additional IP`{.action}.
 
@@ -81,7 +81,7 @@ Skorzystaj z następującego wywołania API:
 
 #### Za pośrednictwem Panelu klienta OVHcloud
 
-Aby usunąć wirtualny adres MAC powiązany z Additional IP, zaloguj się do [Panelu klienta](/links/manager), kliknij menu `Bare Metal Cloud`{.action} i otwórz sekcję `IP`{.action}. Wybierz odpowiedni serwer, aby wyświetliły się powiązane z nim adresy Additional IP (lub blok IP).
+Zaloguj się do [Panelu klienta OVHcloud](/links/manager), kliknij `Network`{.action} w menu po lewej stronie ekranu, a następnie `Publiczne adresy IP`{.action}. Wybierz odpowiedni serwer, aby wyświetliły się powiązane z nim adresy Additional IP (lub blok IP).
 
 Aby zakończyć, kliknij przycisk `...`{.action} po prawej stronie, po czym kliknij `Usuń wirtualny adres MAC`{.action}.
 

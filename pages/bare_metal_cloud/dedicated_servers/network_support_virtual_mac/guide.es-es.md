@@ -1,7 +1,7 @@
 ---
 title: Determinar si la funcionalidad de las MAC virtuales es compatible con un servidor dedicado
 excerpt: Cómo determinar si la funcionalidad de las MAC virtuales es compatible con un servidor dedicado a través de la API de OVHcloud
-updated: 2021-12-09
+updated: 2025-04-28
 ---
 
 > [!primary]

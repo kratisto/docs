@@ -1,7 +1,7 @@
 ---
 title: Creating a volume from a backup
 excerpt: 'Find out how to create additional disks from a snapshot of an additional disk'
-updated: 2021-04-06
+updated: 2025-04-24
 ---
 
 ## Objective
@@ -27,7 +27,7 @@ This may be useful in the following cases:
 
 ### Creating the disk from a backup
 
-Log in to [the OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then click `Volume Snapshot`{.action} in the left-hand navigation bar under `Storage`.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click `Volume Snapshot`{.action} in the left-hand navigation bar under **Storage and Backup**.
 
 To the right of the backup you want to create a volume from, click the `...`{.action} button, then `Create a volume`{.action}.
 
@@ -41,7 +41,7 @@ It may take a few minutes to create the disk, depending on its size.
 
 ### Attaching the disk to an instance
 
-Once the disk has been created, you can choose to attach it to an instance. To do this, click `Block Storage`{.action} in the left-hand navigation bar under `Storage`.
+Once the disk has been created, you can choose to attach it to an instance. To do this, click `Block Storage`{.action} in the left-hand navigation bar under **Storage and Backup**.
 
 To the right of the volume of your choice, click on the `...`{.action} button, then `Attach to instance`{.action}.
 

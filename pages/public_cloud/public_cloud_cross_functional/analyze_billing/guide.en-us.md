@@ -1,7 +1,7 @@
 ---
 title: 'Information regarding Public Cloud billing options'
 excerpt: 'Find out more about the different billing options for Public Cloud products'
-updated: 2025-04-17
+updated: 2025-04-28
 ---
 
 ## Objective
@@ -66,7 +66,7 @@ i.e. €23.63.
 
 ### View your bills
 
-To view the bills for a project, open your `Public Cloud`{.action} project in the OVHcloud Control Panel, then click on `Billing Control`{.action} (in the `Project Management` section) and open the tab `History`{.action}.
+To view the bills for a project, open your `Public Cloud`{.action} project in the OVHcloud Control Panel, then click on `Billing`{.action} (in the `Settings` section) and open the tab `History`{.action}.
 
 ![public-cloud](images/pci-billing-information1-2021.png){.thumbnail}
 

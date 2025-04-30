@@ -1,7 +1,7 @@
 ---
 title: Creare firme automatiche
 excerpt: Come aggiungere firme automatiche ai tuoi account email
-updated: 2020-03-26
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -21,9 +21,8 @@ Nello Spazio Cliente OVHcloud, è possibile creare firme universali (footers) pe
 > **Exchange**
 >>
 >> 1. Accedi allo [Spazio Cliente OVHcloud](/links/manager).
->> 1. Clicca sulla scheda `Web Cloud`{.action}.
->> 1. Clicca su `Microsoft`{.action}.
->> 1. Clicca su `Exchange`{.action}.
+>> 1. Accedi alla sezione `Web Cloud`{.action}.
+>> 1. Nella sezione `MICROSOFT`, clicca su `Exchange`{.action}.
 >> 1. Seleziona la piattaforma interessata.
 >>
 > **Email Pro**

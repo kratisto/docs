@@ -1,7 +1,7 @@
 ---
 title: "Se connecter à l'espace client OVHcloud"
 excerpt: 'Découvrez comment vous authentifier sur votre compte OVHcloud'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -21,7 +21,7 @@ La gestion de vos services s'effectue principalement via l'espace client OVHclou
 
 ### Se connecter à l'espace client OVHcloud
 
-Rendez-vous sur [la page d'authentification OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc){.external}, renseignez votre adresse e-mail principale et votre mot de passe.
+Rendez-vous sur [la page d'authentification OVHcloud](/links/manager), renseignez votre adresse e-mail principale et votre mot de passe.
 
 ![identifiant client](images/log-in.png){.thumbnail}
 

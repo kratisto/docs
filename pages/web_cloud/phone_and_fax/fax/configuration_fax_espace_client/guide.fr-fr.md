@@ -1,7 +1,7 @@
 ---
 title: Configuration de votre ligne Fax
 excerpt: Découvrez comment configurer votre ligne Fax depuis votre espace client OVHcloud
-updated: 2021-04-07
+updated: 2025-04-28
 ---
 
 ## Objectif
@@ -15,9 +15,13 @@ Vous pouvez configurer votre ligne Fax directement via votre espace client OVHcl
 - Disposer d’une [ligne Fax OVHcloud](/links/telecom/fax).
 - Être connecté à votre [espace client OVHcloud](/links/manager-telecom).
 
+![espace client Telecom Fax](/pages/assets/screens/control_panel/product-selection/telecom/tpl-telecom-02-fr-voip.png){.thumbnail}
+
 ## En pratique
 
-Connectez-vous à votre [espace client OVHcloud](/links/manager-telecom) puis sélectionnez `Télécom`{.action}. Cliquez sur `Téléphonie`{.action} puis sur le groupe ou se trouve votre ligne Fax.
+1. Connectez-vous à votre [espace client OVHcloud](/links/manager) et cliquez sur `Télécom`{.action}.
+1. Cliquez sur `VoIP & Fax`{.action} puis sur le groupe de facturation contenant votre ligne Fax.
+1. Cliquez sur l'onglet `Services`{.action} puis sur la ligne Fax concernée.
 
 ### Mot de passe fax
 
@@ -64,7 +68,7 @@ Vous avez la possibilité de personnaliser l'entête de vos télécopies selon l
 Une personnalisation défectueuse de l'entête peut être à l'origine de difficultés d'envoi de télécopies.
 <br>Dans ce cas, vous pouvez rétablir l'entête par défaut en copiant la valeur ci-dessous :
 
-```
+```console
 De %%l|%c|Page %%P sur %%T
 ```
 

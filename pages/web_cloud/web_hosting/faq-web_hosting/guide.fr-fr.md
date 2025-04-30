@@ -1,7 +1,7 @@
 ---
 title: "Hébergement Web - FAQ"
 excerpt: "Retrouvez les principales questions posées sur les hébergements web OVHcloud"
-updated: 2025-04-01
+updated: 2025-04-25
 ---
 
 <style>
@@ -66,7 +66,7 @@ Vous pourrez y modifier le mot de passe FTP de votre hébergement web.
 
 > [!success]
 >
-> Retrouvez tous les détails dans notre guide « [Hébergement Web - Modifier le mot de passe d'un utilisateur FTP](/pages/web_cloud/web_hosting/ftp_change_password) »
+> Retrouvez tous les détails dans notre guide « [Hébergement Web - Modifier le mot de passe d'un utilisateur FTP](/pages/web_cloud/web_hosting/ftp_change_password) ».
 
 ///
 
@@ -86,7 +86,7 @@ Vous pourrez y modifier les mots de passe de vos bases de données associées à
 
 > [!success]
 >
-> Retrouvez tous les détails dans notre guide « [Hébergement Web - Modifier le mot de passe d'une base de données](/pages/web_cloud/web_hosting/sql_change_password) »
+> Retrouvez tous les détails dans notre guide « [Hébergement Web - Modifier le mot de passe d'une base de données](/pages/web_cloud/web_hosting/sql_change_password) ».
 
 ///
 
@@ -103,11 +103,11 @@ Vous pourrez y modifier le mot de passe de votre adresse e-mail (veillez à resp
 
 > [!success]
 >
-> Retrouvez tous les détails dans notre guide « [Modifier le mot de passe d'une adresse e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password) »
+> Retrouvez tous les détails dans notre guide « [Modifier le mot de passe d'une adresse e-mail](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_change_password) ».
 >
 > Si vous utilisez un logiciel de messagerie (Outlook, Mail de macOS, Thunderbird, etc.), mettez à jour le mot de passe pour votre adresse e-mail lorsque le logiciel de messagerie vous le demandera, lors de son ouverture ou de sa synchronisation.
 >
-> Si vous avez d'autres questions sur la solution e-mail *MX Plan*, consultez notre [FAQ - E-mails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails)
+> Si vous avez d'autres questions sur la solution e-mail *MX Plan*, consultez notre [FAQ - E-mails](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/faq-emails).
 
 ///
 
@@ -133,7 +133,7 @@ Voici les principales étapes à suivre :
 >
 > Si votre site web existe déjà chez un autre fournisseur et si vous souhaitez le migrer chez OVHcloud, consultez notre guide détaillé « [Migrer son site web et ses services associés vers OVHcloud](/pages/web_cloud/web_hosting/hosting_migrating_to_ovh) ».
 >
-> Pour vous aider à configurer votre hébergement web, vous pouvez vous aider de l'ensemble des [guides relatifs à nos solutions d'hébergement web](/products/web-cloud-hosting)
+> Pour vous aider à configurer votre hébergement web, vous pouvez vous aider de l'ensemble des [guides relatifs à nos solutions d'hébergement web](/products/web-cloud-hosting).
 
 ///
 
@@ -141,16 +141,16 @@ Voici les principales étapes à suivre :
 
 Voici les principales étapes à suivre :
 
-1. Commander l'hébergement et les adresses e-mail chez OVHcloud
-2. Créer et pré-configurer une zone DNS pour votre nom de domaine chez OVHcloud
-3. Récupérer une sauvegarde complète de votre site web
-4. Importer la sauvegarde de votre site web sur votre offre d'hébergement OVHcloud
-5. Recréer vos adresses e-mail à l'identique chez OVHcloud
-6. Déclarer les serveurs e-mail OVHcloud dans la zone DNS active de votre nom de domaine
-7. Transférer le contenu de vos anciennes adresses e-mail dans vos nouvelles adresses chez OVHcloud
-8. Reconfigurer vos logiciels de messagerie
-9. Remplacer les serveurs DNS actifs de votre nom de domaine par ceux d'OVHcloud
-10. Transférer votre nom de domaine chez OVHcloud
+1. Commander l'hébergement et les adresses e-mail chez OVHcloud.
+2. Créer et pré-configurer une zone DNS pour votre nom de domaine chez OVHcloud.
+3. Récupérer une sauvegarde complète de votre site web.
+4. Importer la sauvegarde de votre site web sur votre offre d'hébergement OVHcloud.
+5. Recréer vos adresses e-mail à l'identique chez OVHcloud.
+6. Déclarer les serveurs e-mail OVHcloud dans la zone DNS active de votre nom de domaine.
+7. Transférer le contenu de vos anciennes adresses e-mail dans vos nouvelles adresses chez OVHcloud.
+8. Reconfigurer vos logiciels de messagerie.
+9. Remplacer les serveurs DNS actifs de votre nom de domaine par ceux d'OVHcloud.
+10. Transférer votre nom de domaine chez OVHcloud.
 
 > [!success]
 >
@@ -160,7 +160,7 @@ Voici les principales étapes à suivre :
 
 /// details | Comment héberger plusieurs sites web sur un même hébergement web ?
 
-Si votre [hébergement web est compatible](/links/web/hosting), suivez ces étapes :
+Si votre [hébergement web](/links/web/hosting) est compatible, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
 2. Cliquez sur le menu `Hébergements`{.action}, puis choisissez l'hébergement web concerné.
@@ -178,17 +178,17 @@ Vous pourrez y gérer les noms de domaine/sous-domaines déclarés en multisite 
 
 Pour que votre site web soit accessible avec une URL en « HTTPS » (exemple : `https://domain.tld`), deux prérequis sont nécessaires:
 
-- Vous devez disposer d'un certificat SSL actif pour votre nom de domaine (ou installé sur votre hébergement web)
+- Vous devez disposer d'un certificat SSL actif pour votre nom de domaine (ou installé sur votre hébergement web).
 - Dans le code source de votre site web, celui-ci doit forcer la réécriture des URLs en « HTTPS ».
 
-OVHcloud propose [plusieurs certificats SSL](/links/web/hosting-options) sur les hébergements web.
+OVHcloud propose plusieurs [certificats SSL](/links/web/hosting-options) sur les hébergements web.
 
 Pour activer un certificat SSL sur votre hébergement web pour votre site web, suivez ces étapes :
 
 1. Connectez-vous à votre [espace client OVHcloud](/links/manager), puis rendez-vous dans la partie `Web Cloud`{.action}.
 2. Cliquez sur le menu `Hébergements`{.action}, puis choisissez l'hébergement web concerné.
 3. Sur la page qui s'affiche et dans l'encadré **Configuration**, cliquez sur le bouton `...`{.action} situé à droite de la mention **Certificat SSL**, puis sur `Commander un certificat SSL`{.action}.
-4. [Choisissez le certificat que vous souhaitez parmi la liste des certificats disponibles](/pages/web_cloud/web_hosting/ssl_on_webhosting), puis poursuivez jusqu'à la finalisation du bon de commande.
+4. Choisissez le certificat que vous souhaitez parmi la [liste des certificats disponibles](/pages/web_cloud/web_hosting/ssl_on_webhosting), puis poursuivez jusqu'à la finalisation du bon de commande.
 
 > [!success]
 >
@@ -210,7 +210,7 @@ Pour commander la formule d'hébergement web la plus adaptée à vos besoins, co
 
 > [!primary]
 >
-> En fonction de votre formule d'hébergement web actuelle, certaines offres peuvent ne pas vous être proposées. Consultez notre guide « [Faire évoluer son offre d’hébergement web »](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) » pour plus d'informations sur le sujet.
+> En fonction de votre formule d'hébergement web actuelle, certaines offres peuvent ne pas vous être proposées. Consultez notre guide « [Faire évoluer son offre d’hébergement web](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) » pour plus d'informations sur le sujet.
 
 Une fois votre choix fait, suivez ces étapes :
 
@@ -221,7 +221,7 @@ Une fois votre choix fait, suivez ces étapes :
 
 > [!success]
 >
-> Retrouvez tous les détails dans notre guide « [Faire évoluer son offre d’hébergement web »](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
+> Retrouvez tous les détails dans notre guide « [Faire évoluer son offre d’hébergement web](/pages/web_cloud/web_hosting/how_to_upgrade_web_hosting_offer) ».
 
 ///
 
@@ -308,8 +308,8 @@ Si tous vos services sont actifs et qu'ils ne sont affectés par aucun incident 
 Deux cas de figure sont possibles :
 
 - Si vous avez installé un « [module en 1 clic](/pages/web_cloud/web_hosting/cms_install_1_click_modules) » : ce fichier est automatiquement supprimé par nos robots d'installation.
-- Si vous avez installé votre site web manuellement, suivez alors les étapes ci-dessous:
-    - [Connectez-vous à l'espace de stockage FTP de votre hébergement web](/pages/web_cloud/web_hosting/ftp_connection).
+- Si vous avez installé votre site web manuellement, suivez alors les étapes ci-dessous :
+    - Connectez-vous à l'[espace de stockage FTP](/pages/web_cloud/web_hosting/ftp_connection) de votre hébergement web.
     - Une fois connecté à l'espace de stockage FTP, descendez dans le répertoire `www`.
     - Renommez le fichier **index.html** en **index.html.old**. Cela désactivera la page au bout de quelques minutes.
 
@@ -359,7 +359,7 @@ Supprimez ensuite la base de données qui lui était associée en réalisant les
 
 La suppression de la base de données associée peut prendre **plusieurs minutes**.
 
-Dès lors où les suppressions sont terminées, réalisez une nouvelle installation de votre *module en 1 clic* en veillant à bien sélectionner le nom de domaine souhaité.
+Dès lors que les suppressions sont terminées, réalisez une nouvelle installation de votre *module en 1 clic* en veillant à bien sélectionner le nom de domaine souhaité.
 
 > [!success]
 >
@@ -444,7 +444,7 @@ Pour corriger cela, suivez ces étapes :
 >> 3. Sur la page qui s'affiche, cliquez sur l'onglet `Zone DNS`{.action}.
 >> 4. Dans le tableau qui apparaît (représentant la zone DNS de votre nom de domaine), identifiez l'entrée de type `A` dont la `Cible` a pour valeur l'adresse IP `213.186.33.5`.
 >> 5. Cliquez sur le bouton `...`{.action} situé à droite de la ligne, puis sur `Modifier l'entrée`{.action}.
->> 6. Dans la fenêtre qui s'ouvre, remplacez, dans le formulaire `Cible*`, l'adresse IP `213.186.33.5` par l'adresse IP de l'hébergement web où se trouve votre site web.
+>> 6. Dans la fenêtre qui s'ouvre, remplacez, dans le champ `Cible *`, l'adresse IP `213.186.33.5` par l'adresse IP de l'hébergement web où se trouve votre site web.
 >>
 >> > [!success]
 >> >
@@ -474,7 +474,7 @@ Pour corriger cela, suivez ces étapes :
 >> 2. Cliquez sur le menu `Noms de domaine`{.action}, puis choisissez le nom de domaine concerné.
 >> 3. Sur la page qui s'affiche, cliquez sur l'onglet `Serveurs DNS`{.action}.
 >> 4. Sur la nouvelle page qui apparaît, cliquez sur le bouton `Modifier les serveurs DNS`{.action}.
->> 5. Sur la page qui s'affiche, sélectionnez le choix `Utiliser les DNS par défaut d'OVHcloud`{.action}, puis cliquez sur le bouton `Appliquer la configuration`{.action}.
+>> 5. Sur la page qui s'affiche, sélectionnez l'option `Utiliser les DNS par défaut d'OVHcloud`{.action}, puis cliquez sur le bouton `Appliquer la configuration`{.action}.
 >>
 >> La propagation de la mise à jour des serveurs DNS appliqués à un nom de domaine peut prendre jusqu'à **48** heures.
 >>
@@ -543,7 +543,7 @@ Si les restaurations ne vous permettent pas de rétablir l'accès à votre site 
 
 ![503_varnish](/pages/assets/screens/other/browsers/errors/http-503-backend-varnish.png){.thumbnail}
 
-Si vous avez activé [l'option CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn) de votre hébergement web, désactivez le mode *Maintenance* sur votre site WordPress ou PrestaShop.
+Si vous avez activé l'[option CDN](/pages/web_cloud/web_hosting/cdn_how_to_use_cdn) de votre hébergement web, désactivez le mode *Maintenance* sur votre site WordPress ou PrestaShop.
 
 Si vous n'avez pas activé cette option ni utilisé le mode *Maintenance*, contactez votre Webmaster ou l'un de nos [partenaires](/links/partner).
 
@@ -566,7 +566,7 @@ Ce message indique que le type de requête HTTP que vous tentez de faire sur vot
 
 Dans cette situation, plusieurs actions sont requises :
 
-- [Examinez les logs](/pages/web_cloud/web_hosting/logs_and_statistics) de votre site web, afin de déterminer quelles requêtes ont provoqué ce blocage.
+- Examinez les [logs](/pages/web_cloud/web_hosting/logs_and_statistics) de votre site web, afin de déterminer quelles requêtes ont provoqué ce blocage.
 - Àl'aide d'un logiciel anti-virus ou anti-spyware, vérifiez que vos appareils (ordinateurs, smartphones, etc.) ne sont pas infectés par un logiciel espion ou malveillant.
 - Vérifiez le code source de votre site web (espace de stockage FTP et base(s) de données). 
 
@@ -589,7 +589,7 @@ Ce message indique que l'adresse IP que vous utilisez pour vous connecter à vot
 
 Dans cette situation, plusieurs actions sont requises :
 
-- [Examinez les logs](/pages/web_cloud/web_hosting/logs_and_statistics) de votre site web, afin de déterminer quelles requêtes ont provoqué ce blocage.
+- Examinez les [logs](/pages/web_cloud/web_hosting/logs_and_statistics) de votre site web, afin de déterminer quelles requêtes ont provoqué ce blocage.
 - À l'aide d'un logiciel anti-virus ou anti-spyware, vérifiez que vos appareils (ordinateurs, smartphones, etc.) ne sont pas infectés par un logiciel espion ou malveillant.
 - Vérifiez le code source de votre site web (espace de stockage FTP et base(s) de données).
 

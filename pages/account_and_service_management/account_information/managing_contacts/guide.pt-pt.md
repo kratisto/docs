@@ -1,7 +1,7 @@
 ---
 title: 'Como gerir os contactos (gestores) dos serviços OVHcloud'
 excerpt: 'Saiba como definir ou alterar os contactos (gestores) dos serviços OVHcloud'
-updated: 2024-02-16
+updated: 2025-04-28
 ---
 
 ## Objetivo
@@ -25,13 +25,13 @@ Há três tipos de contactos:
 - **Técnico**: conta com permissões para gerir aspetos técnicos de um serviço.
 - **Faturação**: conta com permissões para gerir aspetos relacionados com a faturação de um serviço. O responsável pela faturação recebe notificações relacionadas com a renovação do serviço, pagamentos, etc. 
 
-O Identificador de Cliente (ID) é um código pessoal. Trata-se de um nome de utilizador enviado por e-mail logo após a criação da conta de cliente. Este deve ser usado para aceder à Área de Cliente ou no contacto com os serviços OVHcloud. Costuma ser composto por duas letras iniciais, seguidas de algarismos, e termina com «-ovh». Por exemplo: **xx11111-ovh**. Quando contrata serviços OVHcloud, este nome de utilizador é definido como contacto (gestor) dos serviços selecionados.
+O Identificador de Cliente (ID) é um código pessoal. Trata-se de um nome de utilizador enviado por e-mail logo após a criação da conta de cliente. Este deve ser usado para aceder à Área de Cliente ou no contacto com os serviços OVHcloud. Costuma ser composto por duas letras iniciais, seguidas de algarismos, e termina com «-ovh». Por exemplo: **aa00000-ovh**. Quando contrata serviços OVHcloud, este nome de utilizador é definido como contacto (gestor) dos serviços selecionados.
 
 ![Gestão de contactos](images/managing_contacts_scheme.png){.thumbnail}
 
 ## Requisitos
 
-- Estar ligado à [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}.
+- Estar ligado à [Área de Cliente OVHcloud](/links/manager){.external}.
 - Ter as permissões de acesso necessárias para este tipo de operação.
 - Ter acesso ao Identificador de Cliente (ID de Cliente) do utilizador que irá ser definido como contacto.
 - Todos os utilizadores envolvidos na alteração de um contacto devem ter acesso à conta de e-mail associada aos seus perfis.
@@ -45,9 +45,9 @@ O Identificador de Cliente (ID) é um código pessoal. Trata-se de um nome de ut
 
 ### Aceder à área de gestão dos contactos <a name="gestion_des_contacts"></a>
 
-Aceda à sua [Área de Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pt/&ovhSubsidiary=pt){.external}, clique no nome do cliente no canto superior direito e, em seguida, clique em `Gestão dos contactos`{.action}.
+Aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Contactos`{.action}.
 
-![Gestão de contactos](/pages/assets/screens/control_panel/product-selection/right-column/contact-management.png){.thumbnail}
+![Gestão de contactos](/pages/assets/screens/control_panel/product-selection/right-menu/my-contacts.png){.thumbnail}
 
 Irá visualizar uma tabela. A tabela inclui a lista de serviços associados ao seu ID de cliente, e a lista dos contactos responsáveis pela gestão dos vários aspetos do serviço.
 
@@ -86,7 +86,7 @@ Este acesso só permite alterar o utilizador definido como contacto de faturaç�
 
 ### Gerir pedidos em curso: confirmar, recusar ou consultar uma alteração de contacto
 
-Área de Cliente: para gerir os pedidos em curso, clique no separador `Os meus pedidos`{.action}. Aqui pode aceitar ou recusar um pedido.
+Área de Cliente: para gerir os pedidos em curso, aceda à sua [Área de Cliente OVHcloud](/links/manager), clique no seu nome no canto superior direito e, a seguir, em `Contactos`{.action}. Clique no separador `Os meus pedidos`{.action}. Aqui pode aceitar ou recusar um pedido.
 
 ![Gestão de contactos](images/managing_contacts_05.png){.thumbnail}
 

@@ -1,7 +1,7 @@
 ---
 title: 'In das OVHcloud Kundencenter einloggen'
 excerpt: 'Erfahren Sie hier, wie Sie sich mit Ihrem OVHcloud Kunden-Account verbinden'
-updated: 2024-02-27
+updated: 2025-04-28
 ---
 
 ## Ziel
@@ -19,7 +19,7 @@ Die Verwaltung Ihrer Dienste erfolgt hauptsächlich über das OVHcloud Kundencen
 
 ### In das OVHcloud Kundencenter einloggen
 
-Gehen Sie auf die [Login-Seite von OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) und geben Sie Ihre Kundenkennung (oder Ihre Haupt-E-Mail-Adresse) und Ihr Passwort ein.
+Gehen Sie auf die [Login-Seite von OVHcloud](/links/manager) und geben Sie Ihre Kundenkennung (oder Ihre Haupt-E-Mail-Adresse) und Ihr Passwort ein.
 
 ![Kundenkennung](images/log-in.png){.thumbnail}
 
@@ -31,7 +31,7 @@ Die nachfolgenden Anweisungen bieten Lösungswege für häufige Verbindungsfehle
 
 #### Ich kenne meine Kundenkennung nicht, wie finde ich sie?
 
-Die OVHcloud Kundenkennung in der Form **xx11111-ovh** wird immer benötigt, wenn Sie sich einloggen oder sich mit dem technischen Support von OVHcloud in Verbindung setzen. Sie haben mehrere Möglichkeiten, um diese einzusehen.
+Die OVHcloud Kundenkennung in der Form **aa00000-ovh** wird immer benötigt, wenn Sie sich einloggen oder sich mit dem technischen Support von OVHcloud in Verbindung setzen. Sie haben mehrere Möglichkeiten, um diese einzusehen.
 
 ##### **In von OVHcloud versendeten E-Mails**
 

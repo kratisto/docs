@@ -60,7 +60,7 @@ sudo yum install python3-openstackclient
 
 Connectez-vous à votre [espace client OVHcloud](/links/manager) et ouvrez votre projet `Public Cloud`{.action}.
 
-Cliquez sur `Users & Roles`{.action} dans la section `Project Management` puis sur le bouton `...`{.action} à droite de votre utilisateur OpenStack.<br>
+Cliquez sur `Utilisateurs & Rôles`{.action} dans la section **Paramètres** puis sur le bouton `...`{.action} à droite de votre utilisateur OpenStack.<br>
 Téléchargez le fichier OpenRC de cet utilisateur et spécifiez la région dans laquelle vous voulez effectuer des actions.
 
 ![télécharger le fichier openRC](images/openrc.png){.thumbnail}

@@ -32,7 +32,7 @@ Z ofertą Zimbra OVHcloud oferuje platformę open source do przesyłania wiadomo
 ### Dostęp do interfejsu zarządzania usługą
 
 1. Zaloguj się do [Panelu klienta OVHcloud](/links/manager).
-1. Kliknij zakładkę `Web Cloud`{.action}.
+1. Przejdź do sekcji `Web Cloud`{.action}.
 1. Kliknij `Zimbra Mail`{.action}.
 
 ![zimbra](images/zimbra_general_information.png){.thumbnail .w-400}

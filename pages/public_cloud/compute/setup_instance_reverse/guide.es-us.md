@@ -1,7 +1,7 @@
 ---
 title: "Configurar el registro DNS inverso de una instancia de Public Cloud"
 excerpt: Cómo activar la resolución inversa DNS
-updated: 2024-06-10
+updated: 2025-04-24
 ---
 
 > [!primary]
@@ -18,13 +18,13 @@ La configuración de la resolución **inversa DNS** de una instancia resulta esp
 
 ## Requisitos
 
-- Tener una [instancia de Public Cloud](https://www.ovhcloud.com/es/public-cloud/) en su cuenta de OVHcloud.
+- Tener una [instancia de Public Cloud](/links/public-cloud/public-cloud) en su cuenta de OVHcloud.
 - Un dominio con un registro `A` que apunta a la instancia.
 - Tienes acceso a tu [Panel de configuración de OVHcloud](/links/manager).
 
 ## Procedimiento
 
-Conéctese al [Panel de configuración de OVHcloud](/links/manager), acceda a la sección `Bare Metal Cloud`{.action} y haga clic en `IP`{.action} en el menú de la izquierda.
+Conéctese al [Panel de configuración de OVHcloud](/links/manager), acceda a la sección `Network`{.action} y haga clic en `Direcciones IP públicas`{.action}.
 
 El menú desplegable **Mis direcciones IP públicas y servicios asociados** le permite filtrar sus servicios por categoría.
 

@@ -1,7 +1,7 @@
 ---
 title: "Cómo crear una instancia de Public Cloud y conectarse a ella"
 excerpt: "Cómo configurar instancias de Public Cloud en el área de cliente de OVHcloud y cómo empezar a utilizar las instancias"
-updated: 2024-10-07
+updated: 2025-04-24
 ---
 
 <style>
@@ -117,9 +117,9 @@ Puede almacenar sus llaves SSH públicas en la sección `Public Cloud`{.action} 
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
-Abra `SSH Keys`{.action} en el menú de la izquierda debajo de **Project Management**. Haga clic en el botón Añadir una llave SSH`{.action}.
+Abra `Claves SSH`{.action} en el menú de la izquierda debajo de **Ajustes**. Haga clic en el botón Añadir una llave SSH`{.action}.
 
 ![ssh keys](/pages/assets/screens/control_panel/product-selection/public-cloud/cp_pci_sshkeys.png){.thumbnail}
 
@@ -173,7 +173,7 @@ Para más información, consulte la [página web de las Local Zones](/links/publ
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![control panel](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
 En la página **Inicio**, haga clic en `Crear una instancia`{.action}.
 
@@ -193,7 +193,7 @@ Los modelos de instancia de tipo `Metal`{.action} proporcionan recursos físicos
 
 > [!primary]
 >
-> El total de recursos de Public Cloud se limitará inicialmente por motivos de control de costes y seguridad. Puede comprobar estas cuotas haciendo clic en `Quota and Regions`{.action} en la barra de navegación de la izquierda debajo de **Project Management**. Consulte [la documentación dedicada](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) para obtener más información.
+> El total de recursos de Public Cloud se limitará inicialmente por motivos de control de costes y seguridad. Puede comprobar estas cuotas haciendo clic en `Quota and Regions`{.action} en la barra de navegación de la izquierda debajo de **Ajustes**. Consulte [la documentación dedicada](/pages/public_cloud/public_cloud_cross_functional/increasing_public_cloud_quota) para obtener más información.
 >
 > Tenga en cuenta que puede **actualizar** su instancia una vez creada para tener más recursos disponibles. Sin embargo, no es posible cambiar a un modelo más pequeño con una instancia regular. Encontrará más información sobre este tema en el paso 4.4** a continuación.
 >
@@ -403,9 +403,9 @@ Tenga en cuenta que ofrecemos formas de acceso alternativas (principalmente util
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-![área de cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![área de cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
-Seleccione `Instances`{.action} en la barra de navegación izquierda debajo de **Compute**. La instancia está lista cuando el estado se establece en `Activado` en la tabla. Si la instancia se ha creado recientemente y tiene un estado diferente, haga clic en el botón "Actualizar" situado junto al filtro de búsqueda.
+Seleccione `Instancias`{.action} en la barra de navegación izquierda debajo de **Compute**. La instancia está lista cuando el estado se establece en `Activado` en la tabla. Si la instancia se ha creado recientemente y tiene un estado diferente, haga clic en el botón "Actualizar" situado junto al filtro de búsqueda.
 
 ![page instances](images/24-instance-connect01.png){.thumbnail}
 
@@ -540,9 +540,9 @@ La consola VNC le permite conectarse a sus instancias incluso cuando otros medio
 
 Conéctese al [área de cliente de OVHcloud](/links/manager), acceda a la sección `Public Cloud`{.action} y seleccione el proyecto de Public Cloud correspondiente.
 
-![área de cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/tpl-pci-en.png){.thumbnail}
+![área de cliente](/pages/assets/screens/control_panel/product-selection/public-cloud/select_project.png){.thumbnail}
 
-Seleccione `Instances`{.action} en la barra de navegación izquierda debajo de **Compute**. Haga clic en el nombre de la instancia y abra la pestaña `Consola VNC`{.action}.
+Seleccione `Instancias`{.action} en la barra de navegación izquierda debajo de **Compute**. Haga clic en el nombre de la instancia y abra la pestaña `Consola VNC`{.action}.
 
 ![console vnc](/pages/assets/screens/control_panel/product-selection/public-cloud/cp-pci-vnc-login.png){.thumbnail}
 

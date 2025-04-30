@@ -1,7 +1,7 @@
 ---
 title: "Zmiana serwerów DNS domeny OVHcloud"
 excerpt: "Dowiedz się, jak modyfikować serwery DNS Twojej domeny zarejestrowanej w OVHcloud"
-updated: 2025-02-19
+updated: 2025-04-28
 ---
 
 ## Wprowadzenie
@@ -214,7 +214,7 @@ Poprzednie zadeklarowane serwery DNS i konfiguracja DNS, którą stosują, zosta
 
 Po wprowadzeniu modyfikacji, należy pamiętać o dwóch następujących po sobie okresach:
 
-- Registry* zarządzający rozszerzeniem Twojej domeny (na przykład rejestr rozszerzeń *.fr*) powinien zostać poinformowany o zmianie DNS wprowadzonej w OVHcloud. Śledź postęp operacji w [Panelu klienta OVHcloud](/links/manager). W tym celu przejdź do sekcji `Web Cloud`{.action}, przejdź do sekcji `Domeny`{.action} w kolumnie po lewej stronie, następnie kliknij `Operacje w toku`{.action}.
+- Registry* zarządzający rozszerzeniem Twojej domeny (na przykład rejestr rozszerzeń *.fr*) powinien zostać poinformowany o zmianie DNS wprowadzonej w OVHcloud. Śledź postęp operacji w [Panelu klienta OVHcloud](/links/manager). W tym celu przejdź do sekcji `Web Cloud`{.action}, następnie kliknij `Operacje w toku`{.action}.
 - Po zaktualizowaniu informacji dotyczących *rejestru* odczekaj maksymalnie **48 godzin**, aby wprowadzone zmiany stały się widoczne i widoczne.
 
 ## Sprawdź również

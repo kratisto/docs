@@ -1,7 +1,7 @@
 ---
 title: Gestire i metodi di pagamento
 excerpt: Come gestire i tuoi metodi di pagamento nello Spazio Cliente OVHcloud
-updated: 2023-05-09
+updated: 2025-04-28
 ---
 
 ## Obiettivo
@@ -10,14 +10,14 @@ Nello Spazio Cliente OVHcloud puoi salvare e gestire diversi metodi di pagamento
 
 ## Prerequisiti
 
-- Avere accesso allo [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it)
+- Avere accesso allo [Spazio Cliente OVHcloud](/links/manager)
 - Disporre di un metodo di pagamento valido
 
 ## Procedura <a name="payment_methods"></a>
 
-Nello [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it), clicca sul tuo nome in alto a destra e seleziona `Metodo di pagamento`{.action}.
+Nello [Spazio Cliente OVHcloud](/links/manager), clicca sul tuo nome in alto a destra e seleziona `I miei metodi di pagamento`{.action}.
 
-![hubpayment](images/hubpayment.png){.thumbnail}
+![hubpayment](/pages/assets/screens/control_panel/product-selection/right-menu/my-payment-methods.png){.thumbnail}
 
 Visualizzi una tabella con tutti i metodi di pagamento salvati sul tuo account cliente. Da questa pagina è possibile: 
 
@@ -120,20 +120,20 @@ Elimina il metodo di pagamento utilizzando l'ID precedentemente ottenuto:
 >
 > Per maggiori informazioni, consulta la guida [Iniziare a utilizzare le API OVHcloud](/pages/manage_and_operate/api/first-steps).
 >
-> In caso di difficoltà nell'identificazione dei metodi di pagamento tramite le API OVHcloud, utilizza la funzione `Modifica la descrizione`{.action} (pulsante `...`{.action} a destra dello schermo) nella sezione [Modalità di pagamento](#payment_methods) dello [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it).
+> In caso di difficoltà nell'identificazione dei metodi di pagamento tramite le API OVHcloud, utilizza la funzione `Modifica la descrizione`{.action} (pulsante `...`{.action} a destra dello schermo) nella sezione [Modalità di pagamento](#payment_methods) dello [Spazio Cliente OVHcloud](/links/manager).
 >
 
 ### Il conto prepagato
 
 #### Cos'è il conto prepagato?
 
-Il *conto prepagato* è presente nello [Spazio Cliente OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.it/&ovhSubsidiary=it) al momento della creazione. che permette di accreditare in anticipo il tuo account cliente e utilizzare questi fondi per il pagamento degli ordini e delle fatture di rinnovo.
+Il *conto prepagato* è presente nello [Spazio Cliente OVHcloud](/links/manager) al momento della creazione. che permette di accreditare in anticipo il tuo account cliente e utilizzare questi fondi per il pagamento degli ordini e delle fatture di rinnovo.
 
 Ricaricando regolarmente il tuo account, assicurati che il [rinnovo automatico](/pages/account_and_service_management/managing_billing_payments_and_services/how_to_use_automatic_renewal#il-rinnovo-automatico) dei tuoi servizi non venga mai interrotto per mancato pagamento.
 
 Per effettuare questa operazione, accedi alla sezione `Modalità di pagamento` dello Spazio Cliente:
 
-- clicca sul tuo nome in alto a destra e poi sul `Metodo di pagamento`{.action} nel menu a destra.
+- clicca sul tuo nome in alto a destra e poi sul `I miei metodi di pagamento`{.action} nel menu a destra.
 - seleziona la scheda `Il tuo conto prepagato`{.action}.
 
 ![prepaid-account](images/prepaid-account.png){.thumbnail}
