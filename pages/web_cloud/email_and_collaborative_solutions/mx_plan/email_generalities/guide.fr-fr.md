@@ -53,18 +53,14 @@ Vous venez d'acquérir une solution MX Plan. Celle-ci vous permet de bénéficie
 
 **Sommaire**
 
-- [Objectif](#objectif)
-- [Prérequis](#prérequis)
-- [En pratique](#en-pratique)
-  - [Créer une adresse e-mail ](#créer-une-adresse-e-mail-)
-  - [Utiliser votre adresses e-mail ](#utiliser-votre-adresses-e-mail-)
-    - [Utiliser le Webmail ](#utiliser-le-webmail-)
-    - [Utiliser un client de messagerie ](#utiliser-un-client-de-messagerie-)
-      - [Paramètres de réception IMAP et POP ](#paramètres-de-réception-imap-et-pop-)
-      - [Paramètres d'envoi SMTP ](#paramètres-denvoi-smtp-)
-  - [Redirections et Alias ](#redirections-et-alias-)
-  - [Réponse automatique ](#réponse-automatique-)
-- [Aller plus loin](#aller-plus-loin)
+  - [Créer une adresse e-mail ](#create-email)
+  - [Utiliser votre adresses e-mail ](#consult-emails)
+    - [Utiliser le Webmail ](#consult-emails-webmail)
+    - [Utiliser un client de messagerie ](#consult-emails-client)
+      - [Paramètres de réception IMAP et POP ](#imap-pop)
+      - [Paramètres d'envoi SMTP ](#smtp)
+  - [Redirections et Alias ](#redirection-alias)
+  - [Réponse automatique ](#autoreply)
 
 ### Créer une adresse e-mail <a name="create-email"></a>
 
@@ -110,11 +106,11 @@ Pour découvrir comment créer une adresse e-mail, cliquez sur l'onglet correspo
 >> ![email](images/mxplan-starter-new-step3.png){.thumbnail .w-500}
 >>
 
-### Utiliser votre adresses e-mail <a name="consult-email"></a>
+### Utiliser votre adresses e-mail <a name="consult-emails"></a>
 
 Une fois vos adresses e-mail créées, il ne vous reste plus qu’à les utiliser. Pour cela, vous disposez de deux possibilités, utiliser le webmail depuis un navigateur internet ou utiliser un logiciel de messagerie .
 
-#### Utiliser le Webmail <a name="consult-email-webmail"></a>
+#### Utiliser le Webmail <a name="consult-emails-webmail"></a>
 
 Accédez à la page « [Connexion au webmail](/links/web/email) », puis renseignez l'adresse e-mail concernée ainsi que son mot de passe. Cliquez ensuite sur le bouton `Connexion`{.action}.
 
@@ -144,7 +140,7 @@ Sélectionnez l'onglet correspondant à la technologie e-mail de votre offre MX 
 >> ![email](images/mxplan-webmail-owa01.png){.thumbnail .w-500}
 >>
 
-#### Utiliser un client de messagerie <a name="consult-email-client"></a>
+#### Utiliser un client de messagerie <a name="consult-emails-client"></a>
 
 Il est possible de configurer votre compte e-mail sur un logiciel de messagerie tel qu’Outlook, Thunderbird, Mail de Mac, etc.
 
