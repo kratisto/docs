@@ -121,11 +121,11 @@ During this step, you will be asked your user's credentials (user ID and passwor
 
 ##### Using UI
 
-To add your private registry via UI, log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+To add your private registry via UI, log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add your private Harbor registry by clicking `Private Docker Registry`{.action} > `Add`{.action}.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide the credentials of your registry along with its URL.
 
@@ -210,11 +210,11 @@ During this step, you will be asked your Docker credentials.
 
 ##### Using UI
 
-Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add your private Docker registry by clicking `Private Docker Registry`{.action} > `Add`{.action} button.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide your Docker credentials along with its URL.
 
@@ -263,11 +263,11 @@ You will be asked your GitHub credentials.
 
 ##### Using UI
 
-Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add the GitHub registry by clicking `Private Docker Registry`{.action} > `Add`{.action}.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide your GitHub credentials along with the registry URL.
 
