@@ -67,7 +67,7 @@ As mentioned in the [OVHcloud API documentation](/pages/manage_and_operate/api/f
 - Enter your OVHcloud credentials.
 - Click `Authorize`{.action} to allow performing API calls through the console.
 
-![API](/pages/manage_and_operate/api/first-steps/images/login.png){.thumbnail}
+![API](images/login.png){.thumbnail}
 
 Then run the API call to trigger an OS installation from your personal template:
 

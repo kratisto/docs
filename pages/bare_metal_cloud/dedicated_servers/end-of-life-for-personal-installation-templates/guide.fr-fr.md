@@ -67,7 +67,7 @@ Comme mentionné dans la [documentation API OVHcloud](/pages/manage_and_operate/
 - Saisissez vos identifiants OVHcloud.
 - Cliquez sur le bouton `Authorize`{.action} pour autoriser les appels aux API depuis ce site.
 
-![API](/pages/manage_and_operate/api/first-steps/images/login.png){.thumbnail}
+![API](images/login.png){.thumbnail}
 
 Ensuite, exécutez l'appel API pour déclencher une installation OS depuis votre gabarit personnel :
 
