@@ -150,7 +150,7 @@ ovhai app run \
 	--name rock-paper-scissors-app \
 	--cpu 1 \
 	--default-http-port 8501 \
-	--volume rock-paper-scissors-model@GRA:/workspace/model:R0:cache \
+	--volume rock-paper-scissors-model@GRA:/workspace/model:RO:cache \
 	--unsecure-http \
 	<shared-registry-address>/rock-paper-scissors-app:1.0.0
 ```

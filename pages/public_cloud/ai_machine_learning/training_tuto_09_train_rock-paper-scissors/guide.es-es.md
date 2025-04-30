@@ -167,7 +167,7 @@ The output should be similar to this:
 $ ovhai job run \
 	--name rock-paper-scissors-train-job \
 	--gpu 1 \
-	--volume rock-paper-scissors-data@GRA/:/workspace/data:R0:cache \
+	--volume rock-paper-scissors-data@GRA/:/workspace/data:RO:cache \
 	--volume rock-paper-scissors-model@GRA/:/workspace/model:RW:cache \
     --unsecure-http \
     my-registry.gra7.container-registry.ovh.net/rock-paper-scissors-train:1.0.0
