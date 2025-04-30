@@ -367,7 +367,6 @@
             + [Using the secure interface](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/interface-secure)
             + [Using two-factor authentication (2FA) on your Private Cloud infrastructure](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/utilisation_2FA)
             + [Changing the User password](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/changement_du_mot_de_passe_utilisateur)
-            + [Changing user rights](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/change_users_rights)
             + [How to use IAM policies with vSphere](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/use_iam_with_vSphere)
             + [Associating an email with a vSphere user](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vsphere_edit_user)
             + [Authorising IP addresses for vCenter access](hosted_private_cloud/hosted_private_cloud_powered_by_vmware/autoriser_des_ip_a_se_connecter_au_vcenter)
