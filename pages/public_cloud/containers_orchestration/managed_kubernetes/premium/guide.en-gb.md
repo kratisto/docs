@@ -81,9 +81,11 @@ Changing the Security Policy after the cluster creation is not supported yet.
 
 ### Anti-affinity
 
-This feature allows worker nodes to be deployed on different hypervisors (physical servers), guaranteeing better fault tolerance. It is currently supported on the MKS Premium Plan (EU-WEST-PAR).
+
+This feature allows worker nodes to be deployed on different hypervisors (physical servers), guaranteeing better fault tolerance. It is currently not supported on the MKS Premium Plan (EU-WEST-PAR).
 
 We recommend using multiple Availability Zones (AZs) instead by using node pool to spread worker nodes between AZ.
+
 
 ### Ports
 
@@ -111,6 +113,127 @@ The following ranges are used by the cluster, and should not be used elsewhere o
 10.240.0.0/13 # Subnet used by pods
 10.3.0.0/16 # Subnet used by services
 ```
+
+
+These ranges will be configurable in a future version.
+
+## Getting started
+
+### Prerequisites
+
+To create a MKS Premium cluster a private network and subnet with an attached [OVHcloud Gateway](/links/public-cloud/gateway) (an OpenStack router) is mandatory. Before starting the cluster creation process, please make sure that you have an existing subnet that meets these requirements or create a new one accordingly.
+
+If you want to use an use an existing subnet, if :
+- **The Subnet's GatewayIP is already used by an OVHcloud Gateway**, nothing needs to be done. The current OVHcloud Gateway (OpenStack Router) will be used.
+- **The subnet does not have an IP reserved for a Gateway**, you will have to provide or create a compatible subnet. Three options are available:
+    - Edit an existing subnet to reserve an IP for a Gateway : please refer to the [Update a subnet properties](/pages/public_cloud/public_cloud_network_services/configuration-04-update_subnet) documentation and then create a gateway ([Creating a private network with Gateway](/links/public-cloud/gateway))
+    - Provide another compatible subnet: a subnet with an existing OVHcloud Gateway ([Creating a private network with Gateway](/links/public-cloud/gateway))
+- **The GatewayIP is already assigned to a non-OVHcloud Gateway (OpenStack Router)**.
+    - Provide another compatible subnet: a subnet with an existing OVHcloud Gateway ([Creating a private network with Gateway](/links/public-cloud/gateway))
+
+### Create a MKS Premium cluster
+The following methods are supported to create an MKS Premium cluster:
+
+> [!tabs]
+> Using the OVHcloud Control Panel
+>>
+>> Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} universe and select the Public Cloud project where you want to deploy the cluster.
+>>
+>> Access the OVHcloud Managed Kubernetes Service by clicking on `Managed Kubernetes Service`{.action} under Containers & Orchestration in the left-hand menu and click on `Create a cluster`{.action}.
+>> ![Create a cluster](images/creating-a-cluster1.png){.thumbnail}
+>>
+>> Enter a name for your cluster.
+>> ![Enter a name](images/creating-a-cluster2.png){.thumbnail}
+>> Select '3-AZ Region' as deployment mode
+>> ![Deployment mode](images/creating-a-cluster3.png){.thumbnail}
+>> Select 'Paris (EU-WEST-PAR)' as location.
+>> ![Location](images/creating-a-cluster4.png){.thumbnail}
+>> Select `Premium`{.action} plan and click Next.
+>> ![Plan](images/creating-a-cluster5.png){.thumbnail}
+>> Choose the minor version of Kubernetes and the Security Policy.
+>> > [!primary]
+>> > We recommend to always use the lastest stable version.
+>> > Please read our [End of life / end of support](/pages/public_cloud/containers_orchestration/managed_kubernetes/eos-eol-policies) page to understand our version policy.
+>> ![Version](images/creating-a-cluster6.png){.thumbnail}
+>> >
+>> Select a private network for your cluster.
+>> ![Version](images/creating-a-cluster7.png){.thumbnail}
+>> Select a private subnet for your cluster.
+>> ![Version](images/creating-a-cluster8.png){.thumbnail}
+>> (Optional) Now you can configure your nodepools. A node pool is a group of nodes sharing the same configuration, allowing you a lot of flexibility in your cluster management. Enter a name and select the instance flavor.
+>> ![Version](images/creating-a-cluster9.png){.thumbnail}
+>> Select the Availability Zone for your node pool.
+>> ![Version](images/creating-a-cluster10.png){.thumbnail}
+>> Define the size of your first node pool.
+>> You can enable the `Autoscaling`{.action} feature for the cluster. Define the minimum and maximum pool size in that case.
+>> ![Version](images/creating-a-cluster12.png){.thumbnail}
+>> Click Add node pool.
+>> ![Version](images/creating-a-cluster13.png){.thumbnail}
+>> If you want to create a nodepool on each Availability Zone you can repeat this operation  by click on 'Add node pool' again and change the AZ parameter.
+>> Finally, click the `Confirm cluster`{.action} button.
+>> ![Version](images/creating-a-cluster14.png){.thumbnail}
+>> The cluster creation is now in progress. It should be available within a few minutes in your OVHcloud Control Panel.
+> Using terraform
+>>
+>> Refer to the [dedicated documentation](/pages/public_cloud/containers_orchestration/managed_kubernetes/creating-a-cluster-through-terraform) to create a Managed Kubernetes cluster.
+>>
+>> Here is a sample terraform file that creates an MKS Premium cluster and three nodepools on three different availability zones in the `EU-WEST-PAR` region.
+>>
+>> ```
+>> terraform {
+>>  required_providers {
+>>    ovh = {
+>>      source  = "ovh/ovh"
+>>    }
+>>  }
+>> }
+>>
+>> provider "ovh" {
+>>   endpoint           = "ovh-eu"
+>>   application_key    = "<your_access_key>"
+>>   application_secret = "<your_application_secret>"
+>>   consumer_key       = "<your_consumer_key>"
+>> }
+>>
+>> resource "ovh_cloud_project_kube" "my_kube_cluster" {
+>>   service_name = var.service_name
+>>   name         = "lgr-terraform-test-3az"
+>>   region       = "EU-WEST-PAR"
+>>   version      = "1.31"
+>>   private_network_id = "<OpenStack Network Id>"
+>>   nodes_subnet_id = "<Openstack Subnet Id>"
+>> }
+>> resource "ovh_cloud_project_kube_nodepool" "node_pool" {
+>>   service_name  = var.service_name
+>>   kube_id       = ovh_cloud_project_kube.my_kube_cluster.id
+>>   name          = "my-pool-a-1"
+>>   flavor_name   = "b3-8"
+>>   availability_zones = ["eu-west-par-a"]
+>>   desired_nodes = 1
+>> }
+>> resource "ovh_cloud_project_kube_nodepool" "node_pool_b" {
+>>   service_name  = var.service_name
+>>   kube_id       = ovh_cloud_project_kube.my_kube_cluster.id
+>>   name          = "my-pool-b-1"
+>>   flavor_name   = "b3-8"
+>>   availability_zones = ["eu-west-par-b"]
+>>   desired_nodes = 1
+>> }
+>> resource "ovh_cloud_project_kube_nodepool" "node_pool_c" {
+>>   service_name  = var.service_name
+>>   kube_id       = ovh_cloud_project_kube.my_kube_cluster.id
+>>   name          = "my-pool-c-1"
+>>   flavor_name   = "b3-8"
+>>   availability_zones = ["eu-west-par-c"]
+>>   desired_nodes = 1
+>> }
+>> output "kubeconfig_file" {
+>>   value     = ovh_cloud_project_kube.my_kube_cluster.kubeconfig
+>>   sensitive = true
+>> }
+
+>> ```
+
 
 ## Getting started
 
@@ -176,6 +299,7 @@ output "kubeconfig_file" {
 }
 
 ```
+
 
 ## Go further
 

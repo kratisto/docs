@@ -1173,7 +1173,7 @@
                 + [Dashboards - Advanced parameters references](public_cloud/public_cloud_databases/grafana_03_advanced_parameters_references)
             + [Tutorials](public-cloud-data-analytics-grafana-tutorials)
                 + [Dashboards - Tutorial - Expose your Grafana in your private network via a reverse proxy NGINX](public_cloud/public_cloud_databases/grafana_tuto_01_reverse_proxy)
-                + [Dashboards - Tutorial - How to use the Dashboards API](public_cloud/public_cloud_databases/grafana_tuto_02_using_api) 
+                + [Dashboards - Tutorial - How to use the Dashboards API](public_cloud/public_cloud_databases/grafana_tuto_02_using_api)
     + [Integrations](products/public-cloud-integrations)
         + [Prefect](public-cloud-integrations-prefect)
             + [Prefect - Guide - Getting Started](public_cloud/integrations/prefect_guide_01_getting_started)
