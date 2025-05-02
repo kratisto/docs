@@ -12,7 +12,7 @@ This documentation aims to explain the configuration options for NSX Edges and t
 
 - Access to the [OVHcloud Control Panel](/links/manager) to manage your NSX Edges.
 - Use of **VMware NSX 4.1.1** to access customization options.
-- A basic understanding of VMware concepts and NSX Edge features.
+- Get a basic understanding of VMware concepts and NSX Edge features.
 
 ## General Overview
 
@@ -55,47 +55,49 @@ You can adapt your infrastructure to meet your specific needs:
 
 1. **Order new NSX Edges**:
 
-    - Click on `Add an Edge`{.action}.
+Click on `Add an Edge`{.action}.
 
-    ![Adding an NSX Edge from the NSX interface](images/add-an-nsx-edge.png)
+![Adding an NSX Edge from the NSX interface](images/add-an-nsx-edge.png)
 
-    - Then, select the desired size and click on `Order`{.action}.
+Then, select the desired size and click on `Order`{.action}.
 
-    ![Ordering an NSX Edge from the Manager](images/order-an-edge.png)
+![Ordering an NSX Edge from the Manager](images/order-an-edge.png)
 
 > [!primary]
+>
 > All Edges must be the same size: when adding a new Edge, it will automatically match the size of existing Edges.
 
 2. **Modify the size of existing NSX Edges**:
 
-    - Click on `Resize`{.action}.
+Click on `Resize`{.action}.
 
-    ![Selecting an Edge to resize](images/resize-an-edge-01.png)
+![Selecting an Edge to resize](images/resize-an-edge-01.png)
 
-    - Select the Edge you want to modify.
+Select the Edge you want to modify.
 
-    - Choose a new size (Medium, Large, or XL) and apply the changes by clicking on `Confirm`{.action}.
+Choose a new size (Medium, Large, or XL) and apply the changes by clicking on `Confirm`{.action}.
 
-    ![Choosing a new size for the Edge](images/resize-an-edge-02.png)
+![Choosing a new size for the Edge](images/resize-an-edge-02.png)
 
 3. **Remove unused NSX Edges**:
 
-    - Identify the Edge to be removed in the [OVHcloud Control Panel](/links/manager).
+Identify the Edge to be removed in the [OVHcloud Control Panel](/links/manager).
 
-    ![List of available NSX Edges](images/list-nsx-edges.png)
+![List of available NSX Edges](images/list-nsx-edges.png)
 
-    - Click on `Delete`{.action} and confirm the action. 
+Click on `Delete`{.action} and confirm the action. 
 
-    ![Deleting an NSX Edge](images/delete-nsx-edge.png)
+![Deleting an NSX Edge](images/delete-nsx-edge.png)
 
 > [!primary]
+>
 > The Edge must be in resilience mode before deletion to ensure no ongoing traffic is affected.
 
 ## Go further
 
-- For detailed information on NSX Edge features, consult the [VMware NSX technical documentation](https://www.vmware.com/products/nsx.html).
+For detailed information on NSX Edge features, consult the [VMware NSX technical documentation](https://www.vmware.com/products/nsx.html).
 
-- Pricing details for NSX Edges are not included in this documentation. To access up-to-date pricing or request a quote, visit the [OVHcloud website](/links/hosted-private-cloud/vmware-prices) or contact support via the [Help Center](https://help.ovhcloud.com/csm?id=csm_get_help).
+Pricing details for NSX Edges are not included in this documentation. To access up-to-date pricing or request a quote, visit the [OVHcloud website](/links/hosted-private-cloud/vmware-prices) or contact support via the [Help Center](https://help.ovhcloud.com/csm?id=csm_get_help).
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
