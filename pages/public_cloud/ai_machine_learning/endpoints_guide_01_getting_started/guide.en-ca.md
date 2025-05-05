@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Getting started
 excerpt: Discover AI Endpoints, the secure serverless platform by OVHcloud for developers to access top AI models with easy-to-use APIs. No AI expertise needed.
-updated: 2025-04-28
+updated: 2025-05-05
 ---
 
 > [!primary]
@@ -24,6 +24,7 @@ It explains how to obtain an access key, access AI models, and interact with AI 
 ## Requirements
 
 - A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- A payment method defined on your Public Cloud project. **Access keys created from Public Cloud projects in Discovery mode (without a payment method) cannot use the service**.
 
 ## Instructions
 
@@ -90,7 +91,7 @@ This will take you to a dedicated page with several options for interacting with
 > [!tabs]
 > **Playground**
 >>
->> This option allows you to quickly try out the model by playing with it to see if it meets your needs. This is a great way to get a feel for the model without having to code.
+>> This option provides a user-friendly interface to test and explore the model's capabilities, giving you a chance to see how it works before making an API call. Please note that Large Language Models (LLMs) in the playground are **currently limited to 1024 output tokens** for testing purposes. This means that LLMs will not generate responses longer than 1024 tokens in the playground, allowing you to test and validate their behavior.
 >>
 >> ![AI Endpoints playground overview](images/playground_demo.png){.thumbnail}
 >>

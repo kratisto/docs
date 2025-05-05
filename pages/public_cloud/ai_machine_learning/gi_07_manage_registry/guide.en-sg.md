@@ -1,17 +1,17 @@
 ---
 title: Registries - Use & manage your registries
 excerpt: Learn how to use and manage your public and private registries
-updated: 2023-11-27
+updated: 2025-05-05
 ---
 
 ## Objective
 
-This guide is intended to help you to **use and manage your public and private registries** through `ovhai` command line interface ([AI CLI](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli)), API and [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg). This will help you when working with **OVHcloud AI Tools**, especially with **AI Training** and **AI Deploy**.
+This guide is intended to help you to **use and manage your public and private registries** through `ovhai` command line interface ([AI CLI](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli)), API and [OVHcloud Control Panel](/links/manager). This will help you when working with **OVHcloud AI Tools**, especially with **AI Training** and **AI Deploy**.
 
 ## Requirements
 
 - A **Public Cloud** project
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg)
+- Access to the [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
@@ -38,7 +38,7 @@ This is why it can be interesting to add and manage other registries. We can eit
 
 ### Manage existing registries through UI
 
-First, log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg) and go to the `Public Cloud`{.action} section. Then go to the `AI Training` section, which is located under `AI & Machine Learning`.
+First, log in to the [OVHcloud Control Panel](/links/manager) and go to the `Public Cloud`{.action} section. Then go to the `AI Training` section, which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
@@ -121,11 +121,11 @@ During this step, you will be asked your user's credentials (user ID and passwor
 
 ##### Using UI
 
-To add your private registry via UI, log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+To add your private registry via UI, log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add your private Harbor registry by clicking `Private Docker Registry`{.action} > `Add`{.action}.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide the credentials of your registry along with its URL.
 
@@ -210,11 +210,11 @@ During this step, you will be asked your Docker credentials.
 
 ##### Using UI
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add your private Docker registry by clicking `Private Docker Registry`{.action} > `Add`{.action} button.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide your Docker credentials along with its URL.
 
@@ -263,11 +263,11 @@ You will be asked your GitHub credentials.
 
 ##### Using UI
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/sg/&ovhSubsidiary=sg), go to the `Public Cloud`{.action} section, then to the `AI Training` section which is located under `AI & Machine Learning`.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, then to the `AI Dashboard` section which is located under `AI & Machine Learning`.
 
 ![image](images/training_menu.png){.thumbnail}
 
-From the dashboard you can add the GitHub registry by clicking `Private Docker Registry`{.action} > `Add`{.action}.
+By default, you will be redirected to the `Dashboard`{.action} panel. To add a custom registry URL, click the `Docker Registries`{.action} button. Once there, click the `+ Add`{.action} button to add your private Docker registry.
 
 Here, you will need to provide your GitHub credentials along with the registry URL.
 
@@ -300,7 +300,7 @@ You can also use the Control Panel to deploy a job or an app from a GitHub regis
 - Learn [how to deploy an **app**](/pages/public_cloud/ai_machine_learning/deploy_guide_02_getting_started).
 - You can check out the documentation about the [ovhai CLI](/pages/public_cloud/ai_machine_learning/cli_15_commands_reference).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-sg/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 
