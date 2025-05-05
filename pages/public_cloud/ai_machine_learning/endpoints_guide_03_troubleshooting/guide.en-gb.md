@@ -1,7 +1,7 @@
 ---
 title: AI Endpoints - Troubleshooting
 excerpt: Find out how to resolve issues when using AI Endpoints
-updated: 2025-04-28
+updated: 2025-05-05
 ---
 
 > [!primary]
@@ -59,7 +59,7 @@ Alternatively, please **[reach out to us to discuss increasing your limits](http
 
 ### When using AI Endpoints, I am facing "Resource tag 'discovery' is forbidden"
 
-This error occurs when you try to use AI Endpoints with an access key from a Public Cloud project that is in **Discovery mode**, which means this project does not have a payment method associated with it.
+This error occurs when you try to use AI Endpoints with an access key from a Public Cloud project that is in **Discovery mode**, which means this project doesn't have a payment method associated with it.
 
 To resolve this error, add a payment method to your Public Cloud project and try again.
 

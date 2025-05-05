@@ -1,7 +1,7 @@
 ---
 title: Registries - Use & manage your registries
 excerpt: Learn how to use and manage your public and private registries
-updated: 2023-11-27
+updated: 2025-05-05
 ---
 
 ## Objective
