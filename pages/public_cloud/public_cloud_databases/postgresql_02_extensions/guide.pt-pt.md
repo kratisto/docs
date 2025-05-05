@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL - Available extensions
 excerpt: List of available PostgreSQL extensions
-updated: 2025-04-29
+updated: 2025-05-05
 ---
 
 ## List of available extensions
@@ -69,8 +69,9 @@ Also some extensions may require disconnecting the client and reconnecting befor
 > [!primary]
 >
 > Supported `pgvectorscale` versions:
-> * PG16: pgvectorscale-0.6.0
-> * PG17: pgvectorscale-0.6.0
+>
+> - PG16: pgvectorscale-0.6.0
+> - PG17: pgvectorscale-0.6.0
 >
  
 ### Procedural language
@@ -162,6 +163,6 @@ defaultdb=> \dx
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/pt/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/ovhcloud> and interact directly with the team that builds our databases service!
