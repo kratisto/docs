@@ -1,7 +1,7 @@
 ---
 title: Object Storage - Premiers pas avec Object Storage
 excerpt: Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs / objets
-updated: 2025-03-17
+updated: 2025-05-05
 ---
 
 <style>
@@ -41,6 +41,11 @@ Ce guide a pour objectif de vous familiariser avec la gestion de vos conteneurs/
 - Avoir créé un [utilisateur Object Storage](/pages/storage_and_backup/object_storage/s3_identity_and_access_management)
 
 ## En pratique
+
+> [!primary]
+>
+> Si vous souhaitez utiliser le provider Terraform OVHcloud, vous pouvez suivre [ce guide](/pages/storage_and_backup/object_storage/s3_terraform).
+>
 
 ### Préparation
 
@@ -283,6 +288,7 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >> Félicitations, votre bucket est créé :
 >>
 >> ![Result](images/01-object-storage-bucket-listing.png)
+>>
 
 #### Télécharger vos fichiers en tant qu'objets dans votre bucket
 
@@ -422,23 +428,6 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >
 
 > [!tabs]
-> Via l'espace client OVHcloud
->> **Suppression d'un bucket**
->>
->> Dans la liste des conteneurs Object Storage, cliquez sur le bouton `...`{.action} sur la ligne des conteneurs, puis sur `Supprimer`{.action}.
->>
->> ![Delete bucket](images/delete-bucket.png){.thumbnail}
->>
->> Cliquez sur `Confirmer`{.action}.
->>
->> **Suppression d'objets**
->>
->> Allez dans le bucket concerné et cliquez sur le bouton `...`{.action} sur la ligne de l'objet, puis sur `Supprimer`{.action}.
->>
->> ![Delete file](images/delete-file.png){.thumbnail}
->>
->> Cliquez sur `Confirmer`{.action}.
->>
 > Via AWS CLI
 >>
 >> /// details | **Avec AWS s3**
@@ -511,6 +500,24 @@ Pour gérer un bucket Object Storage, connectez-vous d'abord à votre [espace cl
 >> > Si le verrouillage d'objet est activé dans votre bucket, vous ne pourrez pas supprimer définitivement vos objets. Consultez notre [documentation](/pages/storage_and_backup/object_storage/s3_managing_object_lock) pour en savoir plus sur le verrouillage d'objet.
 >> > Si vous utilisez le verrouillage d'objet en mode GOUVERNANCE et que vous avez la permission de contourner le mode GOUVERNANCE, vous devrez ajouter l'option `--bypass-governance-retention` à vos commandes de suppression.
 >> >
+>>
+> Via l'espace client OVHcloud
+>> **Suppression d'un bucket**
+>>
+>> Dans la liste des conteneurs Object Storage, cliquez sur le bouton `...`{.action} sur la ligne des conteneurs, puis sur `Supprimer`{.action}.
+>>
+>> ![Delete bucket](images/delete-bucket.png){.thumbnail}
+>>
+>> Cliquez sur `Confirmer`{.action}.
+>>
+>> **Suppression d'objets**
+>>
+>> Allez dans le bucket concerné et cliquez sur le bouton `...`{.action} sur la ligne de l'objet, puis sur `Supprimer`{.action}.
+>>
+>> ![Delete file](images/delete-file.png){.thumbnail}
+>>
+>> Cliquez sur `Confirmer`{.action}.
+>>
 
 **Gérer les tags**
 

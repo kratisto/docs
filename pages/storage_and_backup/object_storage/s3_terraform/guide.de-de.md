@@ -1,145 +1,116 @@
 ---
 title: Object Storage - Verwalten Sie einen Object Storage Bucket mit Terraform (EN)
-updated: 2024-08-27
+updated: 2025-05-05
 ---
 
 ## Objective
 
-This tutorial will show you how to automate some actions on Object Storage with Terraform which is an open source tool to automate infrastructure provisioning. The following actions will be automated:
-
-- Object Storage user creation
-- bucket creation
-- file copy into the bucket
-- S3 **\*** policies and assignment
+This tutorial will help you automate and orchestrate actions to use the [Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) - S3* API with Terraform. Terraform is an open source tool for orchestrating the provisioning of resources.
 
 ## Requirements
 
-- Have terraform command line installed (see this [tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) from Hashicorp, the company behind Terraform). 
-- Have git command line installed
-- You will need to have set up an account to interact with the OVHcloud API (see this [tutorial](/pages/manage_and_operate/api/first-steps)). Depending on your needs in terms of permissions (http verbs PUT/GET/POST/DELETE), enter the route `/cloud/project/{serviceName}/region/{regionName}/storage/` to target object storage where *{serviceName}* corresponds to your Public Cloud project id and *{regionName}* corresponds to the region where your resources will be located. From the application keys created, you will need to export the 4 environment variables :
+- Installation of the [Terraform CLI](https://www.terraform.io/downloads.html){.external}
+- Access to the [OVHcloud API](/links/api) (create your login by consulting [this guide](/pages/manage_and_operate/api/first-steps))
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account.
+- OVHcloud provides a [Terraform provider](https://registry.terraform.io/providers/ovh/ovh/latest){.external} which is available in the official Terraform registry. You must have installed a version >= 2.0. You can follow this guide [How to use Terraform on the OVHcloud Public Cloud](/pages/public_cloud/compute/how_to_use_terraform).
 
-```bash
-$ export OVH_ENDPOINT=ovh-eu
-$ export OVH_APPLICATION_KEY=Your_key_application_OVH(or_AK)
-$ export OVH_APPLICATION_SECRET=Your_secret_application_key_OVH(or_AS)
-$ export OVH_CONSUMER_KEY=Your_token(or_CK)
-```   
+## Getting information on your cluster/API tokens
 
-- A Public Cloud project, with the ID exported as the variable `TF_VAR_OVH_PUBLIC_CLOUD_PROJECT_ID`
+The “OVH provider” must be configured with a set of credentials:
 
-```bash
-$ export TF_VAR_OVH_PUBLIC_CLOUD_PROJECT_ID=Your_public_cloud_project_id
-```
+- an `application_key`
+- an `application_secret`
+- a `consumer_key`
 
-**If you do not have your AWS CLI** configured, you should set dummy values with the following. This is due to a limitation in Terraform dependency graph for providers initialization (see this long lasting terraform [issue)](https://github.com/hashicorp/terraform/issues/2430)):
+Why?
 
-```bash
-$ export AWS_ACCESS_KEY_ID="no_need_to_define_an_access_key"  
-$ export AWS_SECRET_ACCESS_KEY="no_need_to_define_a_secret_key"
-```
+Because, behind the scenes, the OVH Terraform provider makes requests to the OVHcloud APIs.
+
+To retrieve this necessary information, please follow the tutorial [First steps with the OVHcloud APIs](/pages/manage_and_operate/api/first-steps).
+
+Once you've successfully generated your OVHcloud tokens, keep them. You'll need to set them in the next few minutes.
+
+The last piece of information you'll need is the `service_name`: this is the ID of your Public Cloud project.
+
+How do I get it?
+
+In the Public Cloud section, you can retrieve your service name ID using the `Copy to clipboard`{.action} button.
+
+![Copy paste service name](images/get-service-name.png){.thumbnail}
+
+You can also use this information in Terraform resource definition files.
 
 ## Instructions
 
-### Manage an Object Storage bucket with terraform @OVHcloud
+If you would like to access the provider's documentation on Object Storage, [click here](https://registry.terraform.io/providers/ovh/ovh/latest/docs/resources/cloud_project_storage.){.external}
 
-#### Initialize
+### Configuration
 
-Clone the repository:
+First, create a `provider.tf` file with the minimum version, the European endpoint (“ovh-eu”) and the keys you obtained in this guide.
+
+Terraform:
 
 ```bash
-git clone https://github.com/yomovh/tf-at-ovhcloud && cd tf-at-ovhcloud/s3_bucket_only
+terraform {
+  required_providers {
+    ovh = {
+      source  = "ovh/ovh"
+      version = "2.1.0" # greater than or equal to 2.0
+    }
+  }
+}
+
+provider "ovh" {
+  endpoint           = "ovh-eu"
+  application_key    = "<your_access_key>"
+  application_secret = "<your_application_secret>"
+  consumer_key       = "<your_consumer_key>"
+}
 ```
 
-Initialize Terraform:
+Here, we've defined the `ovh-eu` endpoint because we want to call the OVHcloud Europe API, but other endpoints exist, depending on your needs:
 
-```bash
-$ terraform init
+- `ovh-eu` pour OVHcloud Europe API
+- `ovh-us` pour OVHcloud US API
+- `ovh-ca` pour OVHcloud North-America API
+
+### Create a bucket
+
+You can create a file named 'object_storage_simple.tf' and write the following:
+
+```python
+# Create an Object Storage bucket
+resource "ovh_cloud_project_storage" "my-bucket" {
+ service_name = "my_service_name" # Replace with your OVHcloud project ID
+ region_name = "GRA" # Replace with the desired region in uppercase.
+  name = "object-storage-simple"
+  versioning = {
+    status = "enabled"
+  }
+  encryption = {
+    sse_algorithm = "AES256"
+  }
+}
 ```
 
-#### Plan
-
-With the following command, you will see what are the actions that Terraform is going to perform:
+You can create your resource by entering the following command:
 
 ```bash
-$ terraform plan
+terraform apply
 ```
 
-Now let's have a look at the content of the `main.tf` file:
+### Delete a bucket
 
-- The *variable* block defines the region and s3 endpoint that are used to create the bucket. You can update it according to your needs : check this [page](/pages/storage_and_backup/object_storage/s3_location) to know what region / endpoints are available.
-- The *Providers* block defines 2 providers : ovh and Hashicorp AWS one. The first one is necessary to create the user whose identity / credentials will be used for the latest.
-- The *User / Credential* block defines the user & credential that are visible in the Settings > Users & Roles tab. They are needed to configure the Hashicorp AWS provider.
-- The Bucket block defines the bucket itself.
-- The Output defines the access & secret key that may be useful for CLI usage.
-
-#### Run
+You can delete your bucket and all the objects it contains by entering the following command:
 
 ```bash
-$ terraform apply
-```
-
-Now you can go in the Console and check the "Object Storage" tab. Your bucket is created.
-
-#### Destroy
-
-With the following command you will be back to your original state: Terraform will destroy all the resources that were previously created.
-
-```bash
-$ terraform destroy
+terraform destroy
 ```
 
 > [!primary]
 >
-> - This script does not follow Terraform best practices to split the project in multiple files e.g. **`provider.tf`, `main.tf`, `variables.tf`, `outputs.tf`**, ... This has been done intentionnaly to avoid switching into multiples files for what is a really simple example.
-> - The secret that is created by this script is stored in the [local](https://developer.hashicorp.com/terraform/language/settings/backends/local) state back-end. If you use this back-end in production, make sure to consider the state file as a secret.
-
-### Automating Object Storage policies with Terraform
-
-#### Initialize
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yomovh/tf-at-ovhcloud && cd tf-at-ovhcloud/s3_policy
-```
-
-Initialize Terraform:
-
-```bash
-$ terraform init
-```
-
-#### Plan
-
-With the following command, you will see what are the actions that Terraform is going to perform:
-
-```bash
-$ terraform plan
-```
-
-Now let's have a look at the content of the `main.tf` file and compare it with the previous example:
-
-- The *User / Credential* block defines 3 users and credentials : one user will be administrator of the bucket and create it, the two others will have read/write & read-only access.
-- In the *Bucket* block we have added the creation of a file into the bucket
-- The *Policy* block defines 2 policies, one for read/write and the other for read-only on the bucket.
-
-#### Run
-
-```bash
-$ terraform apply
-```
-
-Now you can go in the Console and check the "Object Storage" tab. You will see the bucket and the file.
-
-You can also check the access right by using the AWS CLI with the 2 users that have the read / write & read-only access
-
-#### Destroy
-
-With the following command you will be back to your original state: Terraform will destroy all the resources that were previously created.
-
-```bash
-$ terraform destroy
-```
+> This process may fail if the bucket contains locked objects. In this case, you'll need to delete these objects manually before you can run the command again.
+>
 
 ## Go further
 

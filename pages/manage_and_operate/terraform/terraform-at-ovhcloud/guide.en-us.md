@@ -67,7 +67,7 @@ OVHcloud console GUI (also called "Control Panel" or "Manager") hides some backg
 | --- | --- | --- |
 | Block Storage  | openstack | [blockstorage_volume_v3](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/blockstorage_volume_v3)|
 | Object Storage (Swift) | openstack | [objectstorage_object_v1](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/objectstorage_object_v1) |
-| Object Storage | Hashicorp aws | [aws_s3_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)|
+| Object Storage | ovh | [cloud_project_storage](https://registry.terraform.io/providers/ovh/ovh/latest/docs/resources/cloud_project_storage)|
 | Object Storage users | ovh | [ovh_cloud_project_user](https://registry.terraform.io/providers/ovh/ovh/latest/docs/resources/cloud_project_user) with *objectstore_operator* role|
 | Cloud Archive | openstack | [objectstorage_object_v1](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/objectstorage_object_v1) with [storage_policy](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/objectstorage_container_v1#storage_policy) set to “PCA” in order to create an “archive” swift container |
 | Cold Archive | Hashicorp aws | [aws_s3_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)|
