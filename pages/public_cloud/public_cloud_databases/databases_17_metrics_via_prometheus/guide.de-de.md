@@ -86,7 +86,7 @@ scrape_configs:
 
 Public Cloud Databases offer service metrics via Prometheus for the following engines:
 
-- Caching
+- Caching/Valkey
 - Cassandra
 - MongoDB
 - MySQL
