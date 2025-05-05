@@ -135,7 +135,7 @@ If you want to use an use an existing subnet:
 > [!primary]
 > Using the OVHcloud Control Panel, make sure to check the `Declare the first address of a CIDR given as the default gateway (DHCP option 3)` and `Assign a Gateway and connect to the private network` boxes at network creation.
 >
-> ![network-creation](images/network-creation.png){.thumbnail}
+> ![network-creation](images/network-creation01.png){.thumbnail}
 >
 
 ### Create a MKS Premium cluster
