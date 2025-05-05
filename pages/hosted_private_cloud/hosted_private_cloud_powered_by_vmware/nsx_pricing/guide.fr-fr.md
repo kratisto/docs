@@ -50,8 +50,8 @@ Vous pouvez adapter votre infrastructure en fonction de vos besoins spécifiques
 
 ### Étapes pour personnaliser les NSX Edges
 
-- Connectez-vous à l'[espace client OVHcloud](/links/manager).
-- Depuis le tableau de bord Datacentres, accédez à votre datacentre puis cliquez sur l'onglet `NSX Edge Nodes`{.action}.
+Connectez-vous à l'[espace client OVHcloud](/links/manager).<br>
+Depuis le tableau de bord Datacentres, accédez à votre datacentre puis cliquez sur l'onglet `NSX Edge Nodes`{.action}.
 
 1. **Commander de nouveaux NSX Edges** :
 
@@ -83,7 +83,7 @@ Vous pouvez adapter votre infrastructure en fonction de vos besoins spécifiques
 
     Identifiez l’Edge à supprimer dans l'[espace client OVHcloud](/links/manager).
 
-    [List of available NSX Edges](images/list-nsx-edges.png)
+    ![List of available NSX Edges](images/list-nsx-edges.png)
 
     Cliquez sur `Supprimer`{.action} et confirmez l’action. 
 
@@ -97,7 +97,7 @@ Vous pouvez adapter votre infrastructure en fonction de vos besoins spécifiques
 
 Pour des informations détaillées sur les fonctionnalités des NSX Edges, consultez la [documentation technique VMware NSX](https://www.vmware.com/products/nsx.html).
 
-Les tarifs associés aux NSX Edges ne sont pas inclus dans cette documentation. Pour connaître les détails tarifaires ou obtenir une estimation, rendez-vous sur le [site OVHcloud](/links/hosted-private-cloud/vmware-prices) ou contactez le support via le [Help Centre](https://help.ovhcloud.com/csm?id=csm_get_help).
+Les tarifs associés aux NSX Edges ne sont pas inclus dans cette documentation. Pour connaître les détails tarifaires ou obtenir une estimation, rendez-vous sur le [site OVHcloud](/links/hosted-private-cloud/vmware-prices) ou contactez le support via le [centre d'aide](https://help.ovhcloud.com/csm?id=csm_get_help).
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
