@@ -1,7 +1,7 @@
 ---
 title: Introduction to Logs Data Platform
 excerpt: Discover what Logs Data Platform is and how it works
-updated: 2023-06-02
+updated: 2025-05-06
 ---
 
 ## Objective

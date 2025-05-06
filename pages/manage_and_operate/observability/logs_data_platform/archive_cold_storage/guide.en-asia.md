@@ -1,7 +1,7 @@
 ---
 title: Archiving your logs - Cold-storage
 excerpt: This long-term storage feature keeps your logs safely and cost efficiently over several years.
-updated: 2024-08-05
+updated: 2025-05-06
 ---
 
 ## Objective
