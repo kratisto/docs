@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Migrate from VMware vSphere on OVHcloud"
 excerpt: "Find out how to prepare a migration from managed VMware vSphere on OVHcloud to a solution based on a managed VMware Cloud Director (VCD) on OVHcloud environnement"
-updated: 2025-04-28
+updated: 2025-05-06
 ---
 
 > [!primary]
@@ -69,7 +69,7 @@ The planned schedule, which is compatible with these environments during the mig
 |:---------------------------------:|:----------------------------------:|:---------------------:|:----------:|:-----------:|:-------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 |             `Wave 1`              |         **January 2025<br/>February 2025**          |      `Standard`       |     ❌      |      ❌      |          ❌          | - **Without** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN)           |
 |             `Wave 2`              | **Mid-May 2025** |      `Standard`       |     ❌      |      ❌      |          ✅          | - **With** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN)              |
-|             `Wave 3`              |         **Mid-June 2025**          |      `Advanced`       |     ✅      |      ❌      |          ❌          | - **With** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN) |
+|             `Wave 3`              |         **Mid-June 2025**          |      `Advanced`       |     ❌      |      ❌      |          ✅          | - **With** Microsoft Windows VM license (SPLA) provided by OVHcloud<br/>- **Without** NSX<br/>- **Without** High performance storage (vSAN) |
 |             `Wave 4`              |           **May 2025**           |       `Premium`       |     ✅      |      ✅      |          ✅          | - **With** Microsoft Windows license (SPLA) provided by OVHcloud<br/>- **With** NSX + vRack support<br/>- **With** High performance storage (vSAN)       |
 
 During this process, your data will remain unchanged, except for vSAN Storage. Your IP addresses will also remain unchanged.
