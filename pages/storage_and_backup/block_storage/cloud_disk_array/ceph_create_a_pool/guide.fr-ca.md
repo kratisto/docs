@@ -1,46 +1,62 @@
 ---
-title: Pool creation
-excerpt: Ce qui vous présente comment créer un pool en utilisant l'interface Web.
-updated: 2018-03-26
+title: Cloud Disk Array - Comment créer un pool
+excerpt: "Découvrez comment créer un un pool via l'espace client OVHcloud ou l'API OVHcloud"
+updated: 2025-05-06
 ---
 
-## Utiliser l'interface web
+## Objectif
+
+Ce guide vous montre comment créer un pool pour votre cluster Ceph, en utilisant l'espace client OVHcloud ou l'API OVHcloud.
+
+## Prérequis
+
+- Une solution [Cloud Disk Array](/links/storage/cloud-disk-array)
+- Être connecté à l’[espace client OVHcloud](/links/manager) ou à l’[API OVHcloud](/links/api)
+
+## En pratique
 
 > [!primary]
 >
-> L'utilisation d'une interface web est le moyen le plus simple de créer un pool.
+> L'utilisation de l'espace client OVHcloud est la méthode la plus simple pour créer un pool.
 >
 
-Tout d'abord, connectez-vous au [l’espace client](https://ca.ovh.com/manager/dedicated/#/configuration){.external} et dans la rubrique Plates-formes et services vous trouverez le service Ceph.
+### Depuis l'espace client OVHcloud
 
-Dans l'onglet "Pools" et ensuite en bas à droite, vous trouverez les pools existants
+Tout d'abord, connectez-vous à [l’espace client](/links/manager) et cliquez sur `Bare Metal Cloud`{.action}. Dans la rubrique `Plateformes et services`{.action}, vous trouverez le service Ceph.
 
-![Ceph pools](images/create_a_pool_1.png){.thumbnail}
+Vous retrouverez les pools existants dans l'onglet `Pools`{.action}.
 
-Entrez un nom de pool, votre pool doit comporter au moins trois caractères.
+![Ceph pools](images/ceph-add-pool-1.png){.thumbnail}
 
-![Ceph pool creation](images/create_a_pool_2.png){.thumbnail}
+Entrez un nom de pool, celui-ci doit comporter au moins trois caractères.
 
-Après la création du pool, vous revenez au gestionnaire, vous pouvez voir que le statut du cluster a changé car le pool est en cours de création.
+![Ceph pool creation](images/ceph-add-pool-2.png){.thumbnail}
 
-![Ceph pool creation](images/create_a_pool_3.png){.thumbnail}
+Vous pouvez alors voir que le statut du cluster a changé car le pool est en cours de création.
 
-![Ceph pool creation](images/create_a_pool_4.png){.thumbnail}
+![Ceph pool creation is running](images/ceph-task-1.png){.thumbnail}
 
-## Utiliser l'API
+## Depuis l'API OVHcloud
+
+> [!success]
+> Si vous n'êtes pas familier avec l'utilisation de l'API OVHcloud, consultez notre guide « [Premiers pas avec les API OVHcloud](/pages/manage_and_operate/api/first-steps) ».
+
+Utilisez l'appel API ci-dessous pour créer votre pool :
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph POST /dedicated/ceph/{serviceName}/pool
 >
-serviceName est le fsid de votre cluster.
 
-Vous pouvez vérifier la création d'un pool en consultant la liste des pools.
+`serviceName` est le fsid de votre cluster.
+
+Vous pouvez vérifier la création d'un pool en consultant la liste des pools, via l'appel API suivant :
 
 > [!api]
 >
 > @api {v1} /dedicated/ceph GET /dedicated/ceph/{serviceName}/pool
 >
+
 Par example:
 
 ```bash
@@ -69,6 +85,6 @@ GET /dedicated/ceph/98d166d8-7c88-47b7-9cb6-63acd5a59c15/pool
 
 Rendez-vous sur notre chaîne Discord dédiée : <https://discord.gg/ovhcloud>. Posez des questions, fournissez des commentaires et interagissez directement avec l'équipe qui construit nos services de stockage et de sauvegarde.
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
