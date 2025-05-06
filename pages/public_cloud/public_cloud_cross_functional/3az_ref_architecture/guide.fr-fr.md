@@ -65,7 +65,7 @@ Cette section présente des architectures de référence pour un déploiement mu
 > Lorsque AZ-a est rétabli, le Control Plane réintègre progressivement les ressources et les instances concernées dans l'infrastructure globale. Pour les services zonaux (ex. instances, High Speed Block), si des données ont été perdues, la récupération dépend de la mise en œuvre d'une stratégie de backup. En l'absence de backup, certaines données récentes peuvent rester irrécupérables, sauf pour les services tels que Block Storage Classic Multi-Zone ou Object Storage, qui disposent de mécanismes de résilience intégrés.
 >
 
-/// details | **Déploiement en 2-AZ avec Block Storage régional**
+/// details | **Déploiement en 2-AZ avec Block Storage régional** <a name="2az-with-regional-block-storage"></a>
 
 ![2-az with regional Block storage](images/2az-with-regional-storage.png){.thumbnail}
 
