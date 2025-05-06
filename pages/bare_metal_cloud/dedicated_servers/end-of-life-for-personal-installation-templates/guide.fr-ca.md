@@ -7,7 +7,7 @@ updated: 2025-04-29
 **Veuillez lire ce guide dans son intégralité avec une attention toute particulière, car vous pourriez potentiellement être impacté si vous effectuez une demande d'installation OS sur un nouveau serveur dédié ou une demande de réinstallation OS sur l'un de vos serveurs dédiés.**
 
 Bien que cette page explique le décommissionnement des gabarits personnels pour l'installation du système d'exploitation (OS) des serveurs dédiés et ses impacts, soyez rassurés : il n'y a **aucune perte de fonctionnalités**.
-En effet, après ce décommissionnement, vous pourrez toujours installer des OS avec le **même niveau de personnalisation qu'auparavant**. De plus, les clients qui utilisent l'API directement bénéficieront d'**1 appel API plus simple**.
+En effet, après ce décommissionnement, vous pourrez toujours installer des OS avec le **même niveau de personnalisation qu'auparavant**. De plus, les clients qui utilisent l'API directement bénéficieront d'**un appel API plus simple**.
 
 ## Objectif
 
@@ -125,11 +125,11 @@ Même si vous allez recevoir un e-mail avec tous les détails concernant les ada
 
 Dans votre cas, le décommissionnement des gabarits personnels simplifie l'installation des OS sur les serveurs dédiés. En effet, le [nouvel appel API /reinstall](https://ca.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/reinstall) apporte toutes les personnalisations possibles que l'ancien appel API [POST /dedicated/server/{serviceName}/install/start](https://ca.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/install/start) n'était pas en mesure de fournir directement sans devoir définir un gabarit personnel dans [/me/installationTemplate](https://ca.api.ovh.com/console/?section=%2Fme&branch=v1#get-/me/installationTemplate) au préalable.
 
-La comparaison suivante vous donne une idée de la réduction du nombre d'appels APIs apportée par le [nouvel appel API /reinstall](https://ca.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/reinstall) dans le cas d'une personnalisation complexe impliquant du RAID matériel et une personnalisation du partitionnement : de `4+n`{.action} appels (où `n`{.action} représente le nombre de partitions définies dans le schéma de partitionnement) à 1 seul et unique appel API.
+La comparaison suivante vous donne une idée de la réduction du nombre d'appels APIs apportée par le [nouvel appel API /reinstall](https://ca.api.ovh.com/console/?section=%2Fdedicated%2Fserver&branch=v1#post-/dedicated/server/-serviceName-/reinstall) dans le cas d'une personnalisation complexe impliquant du RAID matériel et une personnalisation du partitionnement : de `4+n`{.action} appels (où `n`{.action} représente le nombre de partitions définies dans le schéma de partitionnement) à un seul et unique appel API.
 
 ![Comparaison ancien vs nouveau call API](images/api-calls-comparison.png){.thumbnail}
 
-Comme vous pouvez le constater, tout devient plus simple et accessible.
+Vous bénéficiez ainsi d'une expérience plus fluide et intuitive.
 
 ## Aller plus loin
 
