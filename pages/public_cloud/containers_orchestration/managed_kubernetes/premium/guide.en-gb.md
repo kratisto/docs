@@ -1,7 +1,7 @@
 ---
 title: MKS Premium Plan
 excerpt: 'Features and limitations of the MKS Premium Plan in Beta version'
-updated: 2025-04-30
+updated: 2025-05-07
 ---
 
 <style>
